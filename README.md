@@ -7,7 +7,7 @@ Skill id ; Race name ; Sexe ; Class name ; Skill name ; Hit number ; Chained/Unc
 
 Monsters format:
 -------------------
-Monster id , Monster name
+Monster id ; Monster name
 
 How to get opcode:
 --------------------
