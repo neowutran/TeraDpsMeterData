@@ -3,7 +3,7 @@ Data for Tera DPS meter
 
 Skills format:
 --------------------
-Skill id ; Race name ; Sexe ; Class name ; Skill name ; Hit number ; Chained/Unchained
+Skill id [tab] Global Skill name [tab] Specific Skill Name [tab] Hit number [tab] Chained/Unchained
 
 Monsters format:
 -------------------
