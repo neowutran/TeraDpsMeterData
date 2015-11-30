@@ -7,11 +7,8 @@ Skill id [tab] Global Skill name [tab] Specific Skill Name [tab] Chained/Unchain
 
 Monsters format:
 -------------------
-Monster Zone ; Monster id ; Monster name
-
-Zone format:
-------------------
-Monster Zone ; Zone name
+File name = zoneID-zoneName.tsv
+File content = Monster id [tab] Monster name [tab] isBoss
 
 How to get opcode:
 --------------------
