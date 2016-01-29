@@ -1,939 +1,1330 @@
-26	0	0.00	0.50	perc	0	1	Ultra-Hyper-Fire-Turbo Time
-27	0	0.00	0.50	perc	0	1	T.E.R.A TIME
-37	0	0.00	0.50	perc	0	1	4th Anniversary Buff(Decreased Cooldown)
-905	0	0.00	100.00	abs	10000	2	Regeneration Circle—MP Restoration
-906	0	0.00	50.00	abs	5000	1	Restorative Burst—MP Restoraion
-1130	1175	0.00	0.04	perc	25000	1	Heart Candy Cane
-1131	1175	0.00	0.50	perc	1000	1	Heart Chocolate
-1150	0	0.01	0.00	perc	1800000	5	Vigorous Renewal Draught
-1151	0	0.01	0.00	perc	10800000	5	Powerful Vigorous Renewal Draught
-1200	0	0.00	5.00	abs	1800000	5	Infused Renewal Draught
-1201	0	0.00	5.00	abs	10800000	5	Powerful Infused Renewal Draught
-1440	3169	57.00	0.00	abs	15000	1	Bandage I
-1441	3169	105.00	0.00	abs	15000	1	Bandage II
-1442	3169	202.00	0.00	abs	15000	1	Bandage III
-1443	3169	386.00	0.00	abs	15000	1	Bandage IV
-1444	3169	777.00	0.00	abs	15000	1	Bandage V
-1445	3169	1273.00	0.00	abs	15000	1	Bandage VI
-1450	3169	43.00	0.00	abs	10000	1	First Aid I
-1451	3169	79.00	0.00	abs	10000	1	First Aid II
-1452	3169	152.00	0.00	abs	10000	1	First Aid III
-1453	3169	290.00	0.00	abs	10000	1	First Aid IV
-1454	3169	582.00	0.00	abs	10000	1	First Aid V
-1455	3169	954.00	0.00	abs	10000	1	First Aid VI
-1460	3169	0.05	0.00	perc	20000	1	Lelyn's Bandage
-1461	3169	0.04	0.00	perc	30000	1	Toruan Snacks
-1462	3169	0.05	0.00	perc	20000	1	Tertas Fruit Candy
-1490	50015	0.05	0.00	perc	15000	1	Rejuvenation Potion
-1491	50015	0.06	0.00	perc	5000	1	Valiant Potion
-1495	50433	-20000.00	0.00	perc	2000	1	Battlefield Poison
-1510	50015	0.50	0.00	perc	1000	1	Healing Potion
-1530	0	0.00	0.05	perc	15000	1	Divine Infusion
-1610	50015	0.02	0.00	perc	10000	1	Rejuvenation Mote
-1630	50015	0.25	0.00	perc	1000	1	Healing Mote
-1650	0	1.00	0.00	perc	1000	1	Kaia's Horn
-1660	0	0.00	1.00	perc	1000	1	Seren's Perfume
-1671	0	0.70	0.00	perc	1000	1	Mysterious Bead
-2000	0	0.00	0.05	perc	80000	2	MP Replenishment II
-2010	0	0.00	0.02	perc	80000	2	MP Replenishment I
-2020	0	0.35	0.00	perc	1000	1	Health Burst
-2057	50015	3000.00	0.00	abs	900000	1	Kumas HP Recovery I
-2058	50015	10000.00	0.00	abs	900000	1	Kumas HP Recovery II
-2059	50015	20000.00	0.00	abs	900000	1	Kumas HP Recovery III
-2066	4195	-0.02	0.00	perc	10000	1	Spanked!
-2067	0	0.00	-30.00	abs	0	2	Aura of the Unyielding I—Release
-2500	50015	58.00	0.00	abs	12000	1	Healing Elixir I
-2501	50015	90.00	0.00	abs	12000	1	Healing Elixir II
-2502	50015	140.00	0.00	abs	12000	1	Healing Elixir III
-2503	50015	215.00	0.00	abs	12000	1	Healing Elixir IV
-2504	50015	331.00	0.00	abs	12000	1	Healing Elixir V
-2505	50015	509.00	0.00	abs	12000	1	Healing Elixir VI
-2506	50015	877.00	0.00	abs	12000	1	Healing Elixir VII
-2507	50015	1230.00	0.00	abs	12000	1	Healing Elixir VIII
-2508	50015	1630.00	0.00	abs	10000	1	Healing Elixir IX
-2509	50015	2120.00	0.00	abs	10000	1	Healing Elixir X
-2515	50015	78.00	0.00	abs	10000	1	Major Healing Elixir I
-2516	50015	121.00	0.00	abs	10000	1	Major Healing Elixir II
-2517	50015	187.00	0.00	abs	10000	1	Major Healing Elixir III
-2518	50015	287.00	0.00	abs	10000	1	Major Healing Elixir IV
-2519	50015	442.00	0.00	abs	10000	1	Major Healing Elixir V
-2520	50015	679.00	0.00	abs	10000	1	Major Healing Elixir VI
-2521	50015	1178.00	0.00	abs	10000	1	Major Healing Elixir VII
-2522	50015	1652.00	0.00	abs	10000	1	Major Healing Elixir VIII
-2530	0	0.00	50.00	abs	12000	1	Mana Elixir I
-2531	0	0.00	56.00	abs	12000	1	Mana Elixir II
-2532	0	0.00	62.00	abs	12000	1	Mana Elixir III
-2533	0	0.00	67.00	abs	12000	1	Mana Elixir IV
-2534	0	0.00	73.00	abs	12000	1	Mana Elixir V
-2535	0	0.00	79.00	abs	12000	1	Mana Elixir VI
-2536	0	0.00	85.00	abs	12000	1	Mana Elixir VII
-2537	0	0.00	91.00	abs	12000	1	Mana Elixir VIII
-2538	0	0.00	114.00	abs	10000	1	Mana Elixir IX
-2539	0	0.00	131.00	abs	10000	1	Mana Elixir X
-2545	0	0.00	63.00	abs	10000	1	Major Mana Elixir I
-2546	0	0.00	70.00	abs	10000	1	Major Mana Elixir II
-2547	0	0.00	77.00	abs	10000	1	Major Mana Elixir III
-2548	0	0.00	84.00	abs	10000	1	Major Mana Elixir IV
-2549	0	0.00	91.00	abs	10000	1	Major Mana Elixir V
-2550	0	0.00	98.00	abs	10000	1	Major Mana Elixir VI
-2551	0	0.00	105.00	abs	10000	1	Major Mana Elixir VII
-2552	0	0.00	113.00	abs	10000	1	Major Mana Elixir VIII
-2560	50015	53.00	0.00	abs	12000	1	Holism Elixir I
-2560	0	0.00	37.00	abs	12000	1	Holism Elixir I
-2561	50015	83.00	0.00	abs	12000	1	Holism Elixir II
-2561	0	0.00	42.00	abs	12000	1	Holism Elixir II
-2562	50015	128.00	0.00	abs	12000	1	Holism Elixir III
-2562	0	0.00	46.00	abs	12000	1	Holism Elixir III
-2563	50015	197.00	0.00	abs	12000	1	Holism Elixir IV
-2563	0	0.00	51.00	abs	12000	1	Holism Elixir IV
-2564	50015	302.00	0.00	abs	12000	1	Holism Elixir V
-2564	0	0.00	55.00	abs	12000	1	Holism Elixir V
-2565	50015	465.00	0.00	abs	12000	1	Holism Elixir VI
-2565	0	0.00	59.00	abs	12000	1	Holism Elixir VI
-2566	50015	802.00	0.00	abs	12000	1	Holism Elixir VII
-2566	0	0.00	64.00	abs	12000	1	Holism Elixir VII
-2567	50015	1125.00	0.00	abs	12000	1	Holism Elixir VIII
-2567	0	0.00	68.00	abs	12000	1	Holism Elixir VIII
-2575	50015	71.00	0.00	abs	10000	1	Major Holism Elixir I
-2575	0	0.00	47.00	abs	10000	1	Major Holism Elixir I
-2576	50015	111.00	0.00	abs	10000	1	Major Holism Elixir II
-2576	0	0.00	53.00	abs	10000	1	Major Holism Elixir II
-2577	50015	171.00	0.00	abs	10000	1	Major Holism Elixir III
-2577	0	0.00	58.00	abs	10000	1	Major Holism Elixir III
-2578	50015	263.00	0.00	abs	10000	1	Major Holism Elixir IV
-2578	0	0.00	63.00	abs	10000	1	Major Holism Elixir IV
-2579	50015	404.00	0.00	abs	10000	1	Major Holism Elixir V
-2579	0	0.00	69.00	abs	10000	1	Major Holism Elixir V
-2580	50015	621.00	0.00	abs	10000	1	Major Holism Elixir VI
-2580	0	0.00	74.00	abs	10000	1	Major Holism Elixir VI
-2581	50015	1077.00	0.00	abs	10000	1	Major Holism Elixir VII
-2581	0	0.00	79.00	abs	10000	1	Major Holism Elixir VII
-2582	50015	1510.00	0.00	abs	10000	1	Major Holism Elixir VIII
-2582	0	0.00	84.00	abs	10000	1	Major Holism Elixir VIII
-2590	50015	83.00	0.00	abs	12000	1	Health Restorative I
-2591	50015	129.00	0.00	abs	12000	1	Health Restorative II
-2592	50015	199.00	0.00	abs	12000	1	Health Restorative III
-2593	50015	307.00	0.00	abs	12000	1	Health Restorative IV
-2594	50015	473.00	0.00	abs	12000	1	Health Restorative V
-2595	50015	726.00	0.00	abs	12000	1	Health Restorative VI
-2596	50015	1253.00	0.00	abs	12000	1	Health Restorative VII
-2597	50015	1757.00	0.00	abs	12000	1	Health Restorative VIII
-2598	50015	3260.00	0.00	abs	10000	1	Health Restorative IX
-2599	50015	4230.00	0.00	abs	10000	1	Health Restorative X
-2605	50015	112.00	0.00	abs	10000	1	Major Health Restorative I
-2606	50015	173.00	0.00	abs	10000	1	Major Health Restorative II
-2607	50015	267.00	0.00	abs	10000	1	Major Health Restorative III
-2608	50015	411.00	0.00	abs	10000	1	Major Health Restorative IV
-2609	50015	631.00	0.00	abs	10000	1	Major Health Restorative V
-2610	50015	971.00	0.00	abs	10000	1	Major Health Restorative VI
-2611	50015	1683.00	0.00	abs	10000	1	Major Health Restorative VII
-2612	50015	2360.00	0.00	abs	10000	1	Major Health Restorative VIII
-2620	0	0.00	100.00	abs	12000	1	Mana Restorative I
-2621	0	0.00	111.00	abs	12000	1	Mana Restorative II
-2622	0	0.00	123.00	abs	12000	1	Mana Restorative III
-2623	0	0.00	135.00	abs	12000	1	Mana Restorative IV
-2624	0	0.00	146.00	abs	12000	1	Mana Restorative V
-2625	0	0.00	158.00	abs	12000	1	Mana Restorative VI
-2626	0	0.00	170.00	abs	12000	1	Mana Restorative VII
-2627	0	0.00	182.00	abs	12000	1	Mana Restorative VIII
-2628	0	0.00	218.00	abs	10000	1	Mana Restorative IX
-2629	0	0.00	250.00	abs	10000	1	Mana Restorative X
-2635	0	0.00	127.00	abs	10000	1	Major Mana Restorative I
-2636	0	0.00	141.00	abs	10000	1	Major Mana Restorative II
-2637	0	0.00	155.00	abs	10000	1	Major Mana Restorative III
-2638	0	0.00	169.00	abs	10000	1	Major Mana Restorative IV
-2639	0	0.00	183.00	abs	10000	1	Major Mana Restorative V
-2640	0	0.00	197.00	abs	10000	1	Major Mana Restorative VI
-2641	0	0.00	211.00	abs	10000	1	Major Mana Restorative VII
-2642	0	0.00	225.00	abs	10000	1	Major Mana Restorative VIII
-2650	50015	107.00	0.00	abs	12000	1	Holism Restorative I
-2650	0	0.00	75.00	abs	12000	1	Holism Restorative I
-2651	50015	165.00	0.00	abs	12000	1	Holism Restorative II
-2651	0	0.00	83.00	abs	12000	1	Holism Restorative II
-2652	50015	255.00	0.00	abs	12000	1	Holism Restorative III
-2652	0	0.00	92.00	abs	12000	1	Holism Restorative III
-2653	50015	393.00	0.00	abs	12000	1	Holism Restorative IV
-2653	0	0.00	101.00	abs	12000	1	Holism Restorative IV
-2654	50015	605.00	0.00	abs	12000	1	Holism Restorative V
-2654	0	0.00	110.00	abs	12000	1	Holism Restorative V
-2655	50015	930.00	0.00	abs	12000	1	Holism Restorative VI
-2655	0	0.00	119.00	abs	12000	1	Holism Restorative VI
-2656	50015	1604.00	0.00	abs	12000	1	Holism Restorative VII
-2656	0	0.00	127.00	abs	12000	1	Holism Restorative VII
-2657	50015	2249.00	0.00	abs	12000	1	Holism Restorative VIII
-2657	0	0.00	136.00	abs	12000	1	Holism Restorative VIII
-2665	50015	143.00	0.00	abs	10000	1	Major Holism Restorative I
-2665	0	0.00	95.00	abs	10000	1	Major Holism Restorative I
-2666	50015	221.00	0.00	abs	10000	1	Major Holism Restorative II
-2666	0	0.00	105.00	abs	10000	1	Major Holism Restorative II
-2667	50015	341.00	0.00	abs	10000	1	Major Holism Restorative III
-2667	0	0.00	116.00	abs	10000	1	Major Holism Restorative III
-2668	50015	525.00	0.00	abs	10000	1	Major Holism Restorative IV
-2668	0	0.00	127.00	abs	10000	1	Major Holism Restorative IV
-2669	50015	808.00	0.00	abs	10000	1	Major Holism Restorative V
-2669	0	0.00	137.00	abs	10000	1	Major Holism Restorative V
-2670	50015	1242.00	0.00	abs	10000	1	Major Holism Restorative VI
-2670	0	0.00	148.00	abs	10000	1	Major Holism Restorative VI
-2671	50015	2154.00	0.00	abs	10000	1	Major Holism Restorative VII
-2671	0	0.00	158.00	abs	10000	1	Major Holism Restorative VII
-2672	50015	3021.00	0.00	abs	10000	1	Major Holism Restorative VIII
-2672	0	0.00	169.00	abs	10000	1	Major Holism Restorative VIII
-4710	4195	-0.12	0.00	perc	3000	1	Curse
-4760	50015	7122.00	0.00	abs	1000	1	Noruk Jerky
-4762	1175	0.00	1013.00	abs	2000	2	Vintage Wine
-4763	50015	10684.00	0.00	abs	2000	2	Aged Jerky
-4764	50015	1424.00	0.00	abs	10000	1	Fresh Banana
-4765	50015	890.00	0.00	abs	20000	1	Emergency Rations
-4766	50015	2137.00	0.00	abs	5000	1	Grilled Fish
-4878	3169	50000.00	0.00	abs	2000	1	
-4881	3169	20000.00	0.00	abs	1000	1	
-4883	3169	0.04	0.00	perc	30000	1	Cocoa-liscious
-4884	50015	0.02	0.00	perc	10000	1	Ice Cream Dream
-4885	0	0.00	0.05	perc	15000	1	Smooth and Cool
-4956	50015	0.15	0.00	perc	1000	1	Easter Egg Basket
-10100	4195	-11.00	0.00	abs	5000	1	Virulence
-10101	4195	-23.00	0.00	abs	5000	1	Virulence
-10102	4195	-58.00	0.00	abs	5000	1	Virulence
-10103	4195	-144.00	0.00	abs	5000	1	Virulence
-10104	4195	-341.00	0.00	abs	5000	1	Virulence
-10105	4195	-763.00	0.00	abs	5000	1	Virulence
-10106	4195	-1052.00	0.00	abs	5000	1	Virulence
-10110	4195	-14.00	0.00	abs	5000	1	Virulence
-10111	4195	-28.00	0.00	abs	5000	1	Virulence
-10112	4195	-71.00	0.00	abs	5000	1	Virulence
-10113	4195	-177.00	0.00	abs	5000	1	Virulence
-10114	4195	-421.00	0.00	abs	5000	1	Virulence
-10115	4195	-942.00	0.00	abs	5000	1	Virulence
-10116	4195	-1298.00	0.00	abs	5000	1	Virulence
-10120	4195	-12.00	0.00	abs	5000	1	Virulence
-10121	4195	-26.00	0.00	abs	5000	1	Virulence
-10122	4195	-64.00	0.00	abs	5000	1	Virulence
-10123	4195	-161.00	0.00	abs	5000	1	Virulence
-10124	4195	-381.00	0.00	abs	5000	1	Virulence
-10125	4195	-853.00	0.00	abs	5000	1	Virulence
-10700	50015	18.00	0.00	abs	10000	2	Restoration I
-10701	50015	31.00	0.00	abs	10000	2	Restoration II
-10702	50015	60.00	0.00	abs	10000	2	Restoration III
-10703	50015	114.00	0.00	abs	10000	2	Restoration IV
-10704	50015	230.00	0.00	abs	10000	2	Restoration V
-10705	50015	445.00	0.00	abs	10000	2	Restoration VI
-10706	50015	503.00	0.00	abs	10000	2	Restoration VII
-10710	50015	23.00	0.00	abs	10000	2	Restoration I
-10711	50015	40.00	0.00	abs	10000	2	Restoration II
-10712	50015	77.00	0.00	abs	10000	2	Restoration III
-10713	50015	146.00	0.00	abs	10000	2	Restoration IV
-10714	50015	294.00	0.00	abs	10000	2	Restoration V
-10715	50015	570.00	0.00	abs	10000	2	Restoration VI
-10716	50015	644.00	0.00	abs	10000	2	Restoration VII
-10720	50015	20.00	0.00	abs	10000	2	Restoration I
-10721	50015	36.00	0.00	abs	10000	2	Restoration II
-10722	50015	68.00	0.00	abs	10000	2	Restoration III
-10723	50015	130.00	0.00	abs	10000	2	Restoration IV
-10724	50015	262.00	0.00	abs	10000	2	Restoration V
-10725	50015	507.00	0.00	abs	10000	2	Restoration VI
-10800	50015	43.00	0.00	abs	3000	1	Restoration I
-10801	50015	75.00	0.00	abs	3000	1	Restoration II
-10802	50015	144.00	0.00	abs	3000	1	Restoration III
-10803	50015	274.00	0.00	abs	3000	1	Restoration IV
-10804	50015	552.00	0.00	abs	3000	1	Restoration V
-10805	50015	1068.00	0.00	abs	3000	1	Restoration VI
-10806	50015	1207.00	0.00	abs	3000	1	Restoration VII
-10900	0	0.00	38.00	abs	3000	1	Infusion I
-10901	0	0.00	42.00	abs	3000	1	Infusion II
-10902	0	0.00	50.00	abs	3000	1	Infusion III
-10903	0	0.00	58.00	abs	3000	1	Infusion IV
-10904	0	0.00	61.00	abs	3000	1	Infusion V
-10905	0	0.00	63.00	abs	3000	1	Infusion VI
-10906	0	0.00	65.00	abs	3000	1	Infusion VII
-10910	0	0.00	49.00	abs	3000	1	Infusion I
-10911	0	0.00	54.00	abs	3000	1	Infusion II
-10912	0	0.00	63.00	abs	3000	1	Infusion III
-10913	0	0.00	75.00	abs	3000	1	Infusion IV
-10914	0	0.00	78.00	abs	3000	1	Infusion V
-10915	0	0.00	80.00	abs	3000	1	Infusion VI
-10916	0	0.00	82.00	abs	3000	1	Infusion VII
-10920	0	0.00	43.00	abs	3000	1	Infusion I
-10921	0	0.00	47.00	abs	3000	1	Infusion II
-10922	0	0.00	55.00	abs	3000	1	Infusion III
-10923	0	0.00	65.00	abs	3000	1	Infusion IV
-10924	0	0.00	68.00	abs	3000	1	Infusion V
-10925	0	0.00	71.00	abs	3000	1	Infusion VI
-11000	0	0.00	34.00	abs	3000	1	Infusion I
-11001	0	0.00	37.00	abs	3000	1	Infusion II
-11002	0	0.00	44.00	abs	3000	1	Infusion III
-11003	0	0.00	51.00	abs	3000	1	Infusion IV
-11004	0	0.00	54.00	abs	3000	1	Infusion V
-11005	0	0.00	61.00	abs	3000	1	Infusion VI
-11006	0	0.00	63.00	abs	3000	1	Infusion VII
-11010	0	0.00	45.00	abs	3000	1	Infusion I
-11011	0	0.00	49.00	abs	3000	1	Infusion II
-11012	0	0.00	58.00	abs	3000	1	Infusion III
-11013	0	0.00	68.00	abs	3000	1	Infusion IV
-11014	0	0.00	71.00	abs	3000	1	Infusion V
-11015	0	0.00	78.00	abs	3000	1	Infusion VI
-11016	0	0.00	80.00	abs	3000	1	Infusion VII
-11020	0	0.00	38.00	abs	3000	1	Infusion I
-11021	0	0.00	42.00	abs	3000	1	Infusion II
-11022	0	0.00	49.00	abs	3000	1	Infusion III
-11023	0	0.00	58.00	abs	3000	1	Infusion IV
-11024	0	0.00	61.00	abs	3000	1	Infusion V
-11025	0	0.00	64.00	abs	3000	1	Infusion VI
-11100	0	0.00	30.00	abs	1000	1	[Test]_Instant MP Replenishment I [Crystal]
-11101	0	0.00	36.00	abs	1000	1	[Test]_Instant MP Replenishment II [Crystal]
-11102	0	0.00	42.00	abs	1000	1	[Test]_Instant MP Replenishment III [Crystal]
-11103	0	0.00	48.00	abs	1000	1	[Test]_Instant MP Replenishment IV [Crystal]
-11104	0	0.00	54.00	abs	1000	1	[Test]_Instant MP Replenishment V [Crystal]
-11105	0	0.00	60.00	abs	1000	1	[Test]_Instant MP Replenishment VI [Crystal]
-11106	0	0.00	62.00	abs	1000	1	Instant MP Replenishment VII [Crystal]
-11110	0	0.00	41.00	abs	1000	1	[Test]_Instant MP Replenishment I [Crystal]
-11111	0	0.00	49.00	abs	1000	1	[Test]_Instant MP Replenishment II [Crystal]
-11112	0	0.00	57.00	abs	1000	1	[Test]_Instant MP Replenishment III [Crystal]
-11113	0	0.00	65.00	abs	1000	1	[Test]_Instant MP Replenishment IV [Crystal]
-11114	0	0.00	73.00	abs	1000	1	[Test]_Instant MP Replenishment V [Crystal]
-11115	0	0.00	81.00	abs	1000	1	[Test]_Instant MP Replenishment VI [Crystal]
-11119	0	0.00	84.00	abs	1000	1	Instant MP Replenishment VII [Crystal]
-11120	0	0.00	35.00	abs	1000	1	Instant MP Replenishment I [Crystal]
-11121	0	0.00	42.00	abs	1000	1	Instant MP Replenishment II [Crystal]
-11122	0	0.00	49.00	abs	1000	1	Instant MP Replenishment III [Crystal]
-11123	0	0.00	56.00	abs	1000	1	Instant MP Replenishment IV [Crystal]
-11124	0	0.00	63.00	abs	1000	1	Instant MP Replenishment V [Crystal]
-11125	0	0.00	71.00	abs	1000	1	Instant MP Replenishment VI [Crystal]
-11200	0	0.00	39.00	abs	1000	1	[Test]_Instant MP Replenishment I [Crystal]
-11201	0	0.00	47.00	abs	1000	1	[Test]_Instant MP Replenishment II [Crystal]
-11202	0	0.00	55.00	abs	1000	1	[Test]_Instant MP Replenishment III [Crystal]
-11203	0	0.00	63.00	abs	1000	1	[Test]_Instant MP Replenishment IV [Crystal]
-11204	0	0.00	71.00	abs	1000	1	[Test]_Instant MP Replenishment V [Crystal]
-11205	0	0.00	79.00	abs	1000	1	[Test]_Instant MP Replenishment VI [Crystal]
-11206	0	0.00	82.00	abs	1000	1	Instant MP Replenishment VII [Crystal]
-11210	0	0.00	53.00	abs	1000	1	[Test]_Instant MP Replenishment I [Crystal]
-11211	0	0.00	64.00	abs	1000	1	[Test]_Instant MP Replenishment II [Crystal]
-11212	0	0.00	74.00	abs	1000	1	[Test]_Instant MP Replenishment III [Crystal]
-11213	0	0.00	85.00	abs	1000	1	[Test]_Instant MP Replenishment IV [Crystal]
-11214	0	0.00	95.00	abs	1000	1	[Test]_Instant MP Replenishment V [Crystal]
-11215	0	0.00	106.00	abs	1000	1	[Test]_Instant MP Replenishment VI [Crystal]
-11216	0	0.00	110.00	abs	1000	1	Instant MP Replenishment VII [Crystal]
-11220	0	0.00	46.00	abs	1000	1	Instant MP Replenishment I [Crystal]
-11221	0	0.00	55.00	abs	1000	1	Instant MP Replenishment II [Crystal]
-11222	0	0.00	65.00	abs	1000	1	Instant MP Replenishment III [Crystal]
-11223	0	0.00	74.00	abs	1000	1	Instant MP Replenishment IV [Crystal]
-11224	0	0.00	83.00	abs	1000	1	Instant MP Replenishment V [Crystal]
-11225	0	0.00	92.00	abs	1000	1	Instant MP Replenishment VI [Crystal]
-12001	0	0.00	20.00	abs	3000	1	Infusion VII
-12003	0	0.00	21.00	abs	3000	1	Infusion VII
-12004	0	0.00	21.00	abs	1000	1	Salivating VII
-12010	0	0.00	28.00	abs	1000	1	Grieving VII
-12060	4195	-1373.00	0.00	abs	5000	1	Virulence
-12120	0	0.00	85.00	abs	3000	1	Infusion VII
-12130	0	0.00	83.00	abs	3000	1	Infusion VII
-12170	0	0.00	89.00	abs	1000	1	Salivating VII
-12250	50015	755.00	0.00	abs	10000	2	Restoration VII
-12290	0	0.00	117.00	abs	1000	1	Grieving VII
-15040	50378	-3710.00	0.00	abs	6000	2	Pulsing Flame
-15041	50378	-3710.00	0.00	abs	6000	2	Pulsing Flame
-15080	50383	-10.00	0.00	abs	30000	1	Shargrim's Lightning
-15100	50433	-4770.00	0.00	abs	4000	2	Curse of Beast: Intoxicate
-15170	50383	-3710.00	0.00	abs	6000	2	Thunderlash
-18500	50015	0.02	0.00	perc	10000	1	Restoration
-18501	50015	0.03	0.00	perc	10000	1	Continual HP Recovery
-18502	50015	0.03	0.00	perc	10000	1	Continual HP Recovery
-18600	0	0.00	0.02	perc	10000	1	Infusion
-18601	0	0.00	0.02	perc	10000	1	Continual MP Replenishment
-18602	0	0.00	0.02	perc	10000	1	Continual MP Replenishment
-18700	0	0.00	150.00	abs	1000	1	MP Replenishment [Equipment Effect]
-18710	0	0.00	75.00	abs	1000	1	MP Replenishment [Equipment Effect]
-18720	0	0.30	0.00	perc	1000	1	HP Replenishment [Equipment Effect]
-18730	0	0.15	0.00	perc	1000	1	HP Recovery [Equipment Effect]
-18740	0	0.20	0.00	perc	1000	1	HP Recovery [Equipment Effect]
-18750	0	0.10	0.00	perc	1000	1	HP Recovery [Equipment Effect]
-23210	0	0.00	0.06	perc	5000	1	Glyph of Infusion
-24150	0	0.00	0.06	perc	5000	1	Glyph of Infusion
-25180	0	0.20	0.00	perc	1000	1	Glyph of Restoration
-26140	50015	0.02	0.00	perc	10000	1	Glyph of Restoration
-26141	50015	0.03	0.00	perc	10000	1	Glyph of Restoration
-26230	0	0.00	0.06	perc	5000	1	Glyph of Infusion
-27140	0	0.20	0.00	perc	1000	1	Glyph of Restoration
-28100	50015	0.05	0.00	perc	6000	2	Glyph of Restoration
-28110	50015	0.15	0.00	perc	5000	1	Glyph of Restoration
-28130	0	0.00	50.00	abs	5000	1	Glyph of Infusion
-48731	1175	0.00	0.05	perc	15000	1	Sarberry Deliciousness
-48744	1175	0.00	170.00	abs	15000	1	Sarberry Deliciousness
-60003	40006	0.00	300.00	abs	1000	1	Infused Etching III
-60004	50433	-900.00	0.00	abs	8000	1	Lacerating
-60006	50015	0.00	90.00	abs	15000	1	Recovery Etching III
-60006	3169	900.00	0.00	abs	15000	1	Recovery Etching III
-60008	4195	-227.00	0.00	abs	5000	1	Weapon: Toxicity
-60009	50383	-882.00	0.00	abs	5000	1	Weapon: Lightning
-60011	4320	-351.00	0.00	abs	5000	1	Armor: Thorngrip
-60013	50015	0.03	0.00	perc	10000	1	Armor: Lifeswell
-60016	0	0.00	436.00	abs	1000	1	Infused Etching III
-60017	50433	-1200.00	0.00	abs	10000	1	Lacerating Etching
-60019	50015	0.00	145.00	abs	15000	1	Recovery Etching III
-60019	3169	1405.00	0.00	abs	15000	1	Recovery Etching III
-60020	50380	-250.00	0.00	abs	10000	1	Weak Energy Curse
-70202	80044	0.01	0.00	perc	900000	5	Mudroot Salad
-70203	80044	0.00	0.01	perc	900000	5	Grilled Pigling
-70212	80044	0.01	0.00	perc	900000	5	Moongourd Muffin
-70213	80044	0.00	0.01	perc	900000	5	Shevranberry Cookie
-70222	80044	0.01	0.00	perc	900000	5	Struthio Breast Salad
-70223	80044	0.00	0.01	perc	900000	5	Half-Moon Croquette
-70304	50015	0.01	0.00	perc	180003	3	Tranquil Regeneration
-70305	1175	0.00	0.01	perc	180004	3	Tranquil Replenishment
-70411	4195	-0.01	0.00	perc	10000	1	Umbral Venom
-90101	50015	0.05	0.00	perc	10000	1	Resilience of Body
-90200	0	0.00	0.05	perc	10000	1	Resilience of Mind
-90600	0	1.00	0.00	perc	1000	1	Ancient Wellspring
-100500	4195	-116.00	0.00	abs	10000	2	Poison Blade
-100501	4195	-175.00	0.00	abs	10000	2	Poison Blade
-100502	4195	-292.00	0.00	abs	10000	2	Poison Blade
-100503	4195	-438.00	0.00	abs	10000	2	Poison Blade
-100504	4195	-612.00	0.00	abs	10000	2	Poison Blade
-100505	4195	-845.00	0.00	abs	10000	2	Poison Blade
-100506	4195	-1428.00	0.00	abs	10000	2	Poison Blade
-100507	4195	-1892.00	0.00	abs	10000	2	Poison Blade
-100508	4195	-6068.00	0.00	abs	10000	2	Poison Blade
-100520	4195	-92.00	0.00	abs	10000	2	Poison Blade
-100521	4195	-127.00	0.00	abs	10000	2	Poison Blade
-100522	4195	-175.00	0.00	abs	10000	2	Poison Blade
-100523	4195	-242.00	0.00	abs	10000	2	Poison Blade
-100524	4195	-334.00	0.00	abs	10000	2	Poison Blade
-100525	4195	-461.00	0.00	abs	10000	2	Poison Blade
-100526	4195	-720.00	0.00	abs	10000	2	Poison Blade
-100527	4195	-954.00	0.00	abs	10000	2	Poison Blade
-100528	4195	-1420.00	0.00	abs	10000	2	Poison Blade
-100600	0	0.00	-10.00	abs	0	2	Mangle
-401400	0	0.00	50.00	abs	0	1	Intimidation
-429006	0	-0.05	0.00	perc	15000	1	Viper Venom
-429007	4320	-3000.00	0.00	abs	30000	1	Bleeding
-429011	0	-5000.00	0.00	abs	15000	1	Curse of Kaprima
-429017	0	-0.50	0.00	perc	1000	1	Drill Makes Me Ill
-429020	0	-10000.00	0.00	abs	10000	1	Bleeding
-457004	50378	-0.05	0.00	perc	2000	1	Heat
-457005	50378	-0.20	0.00	perc	20000	2	Withering Fire
-457013	0	0.10	0.00	perc	3000	2	Super-Cool-Awesome Sealed Sword
-457014	50433	-60000000.00	0.00	abs	1000	1	Not supposed to be shown
-457029	50378	-0.03	0.00	perc	0	2	Akeron's Corrosion
-457031	50378	-0.03	0.00	perc	0	10	Akeron's Corrosion
-457032	50378	-0.05	0.00	perc	0	10	Akeron's Corrosion
-457033	50378	-0.07	0.00	perc	0	10	Akeron's Corrosion
-457054	0	-0.10	0.00	perc	10000	2	Bleeding
-457056	3275	-10000000.00	0.00	perc	3000	1	Extinction
-460006	0	-0.05	0.00	perc	60000	1	Electric Shock Overload
-460031	0	-10000.00	0.00	abs	3000	1	Burning Grounds
-476618	4195	-0.60	0.00	perc	10000	10	Stunned in Shock
-476621	50015	0.20	0.00	perc	1000	1	Deep Sleep
-476628	4195	-0.30	0.00	perc	5000	5	Stunned in Shock
-476705	1175	0.00	-0.50	perc	30000	1	Purification of Dagon Effect
-476906	50015	-0.50	0.00	perc	1000	1	Death's Touch
-476907	50015	-0.02	0.00	perc	60000	1	Spiritual Breakdown
-477007	50015	-0.50	0.00	perc	2000	2	Parasitic Bite
-477014	50015	-0.50	0.00	perc	6000	1	System Seizure
-494550	4195	-0.02	0.00	perc	0	1	Polluted Blood
-500300	0	0.00	120.00	abs	25000	2	Mana Infusion I
-500301	0	0.00	120.00	abs	25000	1	Mana Infusion II
-500700	4195	-26.00	0.00	abs	10000	2	Painblast
-500701	4195	-40.00	0.00	abs	10000	2	Painblast
-500702	4195	-58.00	0.00	abs	10000	2	Painblast
-500703	4195	-85.00	0.00	abs	10000	2	Painblast
-500704	4195	-121.00	0.00	abs	10000	2	Painblast
-500705	4195	-174.00	0.00	abs	10000	2	Painblast
-500706	4195	-241.00	0.00	abs	10000	2	Painblast
-500707	4195	-341.00	0.00	abs	10000	2	Painblast
-500708	4195	-516.00	0.00	abs	10000	2	Painblast
-500720	4195	-27.00	0.00	abs	10000	2	Painblast
-500721	4195	-37.00	0.00	abs	10000	2	Painblast
-500722	4195	-51.00	0.00	abs	10000	2	Painblast
-500723	4195	-71.00	0.00	abs	10000	2	Painblast
-500724	4195	-97.00	0.00	abs	10000	2	Painblast
-500725	4195	-134.00	0.00	abs	10000	2	Painblast
-500726	4195	-186.00	0.00	abs	10000	2	Painblast
-500727	4195	-258.00	0.00	abs	10000	2	Painblast
-500728	4195	-382.00	0.00	abs	10000	2	Painblast
-501000	4318	-1175.00	0.00	abs	10000	2	Burning Breath
-501001	4318	-1631.00	0.00	abs	10000	2	Burning Breath
-501002	4318	-2305.00	0.00	abs	10000	2	Burning Breath
-501003	4318	-3120.00	0.00	abs	10000	2	Burning Breath
-501020	4318	-890.00	0.00	abs	10000	2	Burning Breath
-501021	4318	-1228.00	0.00	abs	10000	2	Burning Breath
-501022	4318	-1704.00	0.00	abs	10000	2	Burning Breath
-501023	4318	-2259.00	0.00	abs	10000	2	Burning Breath
-501100	4321	0.00	-172.00	abs	10000	2	Mana Volley I
-501101	4321	0.00	-206.00	abs	10000	2	Mana Volley II
-501150	0	0.00	-0.25	perc	1000	1	Mana Volley I
-501151	0	0.00	-0.30	perc	1000	1	Mana Volley II
-501160	0	0.00	0.25	perc	1000	1	
-501161	0	0.00	0.30	perc	1000	1	
-600600	4195	-58.00	0.00	abs	10000	2	Poison Trap
-600601	4195	-124.00	0.00	abs	10000	2	Poison Trap
-600602	4195	-271.00	0.00	abs	10000	2	Poison Trap
-600603	4195	-518.00	0.00	abs	10000	2	Poison Trap
-600604	4195	-1048.00	0.00	abs	10000	2	Poison Trap
-600605	4195	-1575.00	0.00	abs	10000	2	Poison Trap
-600620	4195	-57.00	0.00	abs	10000	2	Poison Trap
-600621	4195	-109.00	0.00	abs	10000	2	Poison Trap
-600622	4195	-209.00	0.00	abs	10000	2	Poison Trap
-600623	4195	-398.00	0.00	abs	10000	2	Poison Trap
-600624	4195	-778.00	0.00	abs	10000	2	Poison Trap
-600625	4195	-1091.00	0.00	abs	10000	2	Poison Trap
-600900	4195	-270.00	0.00	abs	12000	2	Poison Arrow
-600901	4195	-389.00	0.00	abs	12000	2	Poison Arrow
-600902	4195	-589.00	0.00	abs	12000	2	Poison Arrow
-600903	4195	-849.00	0.00	abs	12000	2	Poison Arrow
-600904	4195	-1179.00	0.00	abs	12000	2	Poison Arrow
-600905	4195	-1626.00	0.00	abs	12000	2	Poison Arrow
-600906	4195	-2360.00	0.00	abs	12000	2	Poison Arrow
-600907	4195	-3128.00	0.00	abs	12000	2	Poison Arrow
-600908	4195	-3780.00	0.00	abs	12000	2	Poison Arrow
-600920	4195	-232.00	0.00	abs	12000	2	Poison Arrow
-600921	4195	-160.00	0.00	abs	12000	2	Poison Arrow
-600922	4195	-221.00	0.00	abs	12000	2	Poison Arrow
-600923	4195	-306.00	0.00	abs	12000	2	Poison Arrow
-600924	4195	-422.00	0.00	abs	12000	2	Poison Arrow
-600925	4195	-583.00	0.00	abs	12000	2	Poison Arrow
-600926	4195	-813.00	0.00	abs	12000	2	Poison Arrow
-600927	4195	-1078.00	0.00	abs	12000	2	Poison Arrow
-600928	4195	-1427.00	0.00	abs	12000	2	Poison Arrow
-700200	0	0.00	-30.00	abs	0	2	Aura of the Unyielding I
-700201	0	0.00	-30.00	abs	0	2	Aura of the Unyielding II
-700202	0	0.00	-30.00	abs	0	2	Aura of the Unyielding III
-700203	0	0.00	-30.00	abs	0	2	Aura of the Unyielding IV
-700300	0	0.00	-30.00	abs	0	2	Aura of the Tenacious
-700330	0	0.00	20.00	abs	0	1	Aura of the Tenacious
-700400	50015	43.00	0.00	abs	10000	1	Titanic Favor I
-700401	50015	54.00	0.00	abs	10000	1	Titanic Favor II
-700402	50015	66.00	0.00	abs	10000	1	Titanic Favor III
-700403	50015	79.00	0.00	abs	10000	1	Titanic Favor IV
-700404	50015	89.00	0.00	abs	10000	1	Titanic Favor V
-700405	50015	97.00	0.00	abs	10000	1	Titanic Favor VI
-700406	50015	101.00	0.00	abs	10000	1	Titanic Favor VII
-700407	50015	105.00	0.00	abs	10000	1	Titanic Favor VIII
-700408	50015	109.00	0.00	abs	10000	1	Titanic Favor IX
-700600	0	0.00	-30.00	abs	0	2	Aura of the Merciless I
-700601	0	0.00	-30.00	abs	0	2	Aura of the Merciless II
-700700	0	0.00	-30.00	abs	0	2	Aura of the Swift I
-700701	0	0.00	-30.00	abs	0	2	Aura of the Swift II - Release
-700800	4195	-62.00	0.00	abs	10000	2	Volley of Curses
-700801	4195	-96.00	0.00	abs	10000	2	Volley of Curses
-700802	4195	-138.00	0.00	abs	10000	2	Volley of Curses
-700803	4195	-205.00	0.00	abs	10000	2	Volley of Curses
-700804	4195	-289.00	0.00	abs	10000	2	Volley of Curses
-700805	4195	-417.00	0.00	abs	10000	2	Volley of Curses
-700806	4195	-578.00	0.00	abs	10000	2	Volley of Curses
-700807	4195	-817.00	0.00	abs	10000	2	Volley of Curses
-700808	4195	-1238.00	0.00	abs	10000	2	Volley of Curses
-700820	4195	-63.00	0.00	abs	10000	2	Volley of Curses
-700821	4195	-86.00	0.00	abs	10000	2	Volley of Curses
-700822	4195	-133.00	0.00	abs	10000	2	Volley of Curses
-700823	4195	-191.00	0.00	abs	10000	2	Volley of Curses
-700824	4195	-283.00	0.00	abs	10000	2	Volley of Curses
-700825	4195	-399.00	0.00	abs	10000	2	Volley of Curses
-700826	4195	-576.00	0.00	abs	10000	2	Volley of Curses
-700827	4195	-802.00	0.00	abs	10000	2	Volley of Curses
-700828	4195	-1212.00	0.00	abs	10000	2	Volley of Curses
-700900	0	0.00	100.00	abs	20000	1	Mana Infusion
-701000	50015	70.00	0.00	abs	10000	2	Grace of the Spirit I
-701001	50015	88.00	0.00	abs	10000	2	Grace of the Spirit II
-701002	50015	109.00	0.00	abs	10000	2	Grace of the Spirit III
-701003	50015	135.00	0.00	abs	10000	2	Grace of the Spirit IV
-701004	50015	168.00	0.00	abs	10000	2	Grace of the Spirit V
-701005	50015	208.00	0.00	abs	10000	2	Grace of the Spirit VI
-701006	50015	258.00	0.00	abs	10000	2	Grace of the Spirit VII
-701007	50015	320.00	0.00	abs	10000	2	Grace of the Spirit VIII
-701008	50015	397.00	0.00	abs	10000	2	Grace of the Spirit IX
-701009	50015	493.00	0.00	abs	10000	2	Grace of the Spirit X
-701010	50015	614.00	0.00	abs	10000	2	Grace of the Spirit XI
-701011	50015	769.00	0.00	abs	10000	2	Grace of the Spirit XII
-701012	50015	914.00	0.00	abs	10000	2	Grace of the Spirit XIII
-701500	50015	187.00	0.00	abs	5000	1	Arun's Vitae I
-701501	50015	247.00	0.00	abs	5000	1	Arun's Vitae II
-701502	50015	344.00	0.00	abs	5000	1	Arun's Vitae III
-701503	50015	476.00	0.00	abs	5000	1	Arun's Vitae IV
-701504	50015	659.00	0.00	abs	5000	1	Arun's Vitae V
-701505	50015	912.00	0.00	abs	5000	1	Arun's Vitae VI
-701506	50015	1259.00	0.00	abs	5000	1	Arun's Vitae VII
-701507	50015	1739.00	0.00	abs	5000	1	Arun's Vitae VIII
-701508	50015	2401.00	0.00	abs	5000	1	Arun's Vitae IX
-701509	50015	3319.00	0.00	abs	5000	1	Arun's Vitae X
-701510	50015	4917.00	0.00	abs	5000	1	Arun's Vitae XI
-701511	50015	3319.00	0.00	abs	5000	1	Arun's Vitae XII
-701605	50015	529.00	0.00	abs	15000	2	Warding Totem I
-701607	50015	700.00	0.00	abs	15000	2	Warding Totem II
-701800	514053016	-15086.00	0.00	abs	5000	1	Affliction
-701801	514053016	-1953.00	0.00	abs	5000	1	Affliction
-757004	50378	-0.03	0.00	perc	2000	1	Heat
-757005	50378	-0.10	0.00	perc	20000	2	Withering Fire
-757013	0	0.10	0.00	perc	3000	2	Super-Cool-Awesome Sealed Sword
-757014	50433	-60000000.00	0.00	abs	1000	1	Not supposed to be shown
-757029	50378	-0.03	0.00	perc	0	2	Akeron's Corrosion
-757031	50378	-0.03	0.00	perc	0	10	Akeron's Corrosion
-757032	50378	-0.05	0.00	perc	0	10	Akeron's Corrosion
-757033	50378	-0.07	0.00	perc	0	10	Akeron's Corrosion
-757054	0	-0.05	0.00	perc	10000	2	Bleeding
-760006	0	-0.05	0.00	perc	60000	1	Electric Shock Overload
-760031	50141	-10000.00	0.00	abs	3000	1	Burning Grounds
-776025	0	-30000.00	0.00	abs	5000	1	Pirate Ship_Explosion of Darkness
-776026	4195	-0.30	0.00	perc	5000	1	Pirate Ship_Damage of Darkness Serial Effect
-777007	50015	-0.30	0.00	perc	2000	2	Parasitic Bite
-777014	50015	-0.20	0.00	perc	6000	1	System Seizure
-777033	50433	-5000.00	0.00	abs	20000	2	Demokron Virus
-777034	0	-0.01	0.00	perc	70000	1	Demokron's Curse
-800100	50015	88.00	0.00	abs	10000	2	Regeneration Circle I
-800101	50015	111.00	0.00	abs	10000	2	Regeneration Circle II
-800102	50015	136.00	0.00	abs	10000	2	Regeneration Circle III
-800103	50015	161.00	0.00	abs	10000	2	Regeneration Circle IV
-800104	50015	182.00	0.00	abs	10000	2	Regeneration Circle V
-800105	50015	198.00	0.00	abs	10000	2	Regeneration Circle VI
-800106	50015	208.00	0.00	abs	10000	2	Regeneration Circle VII
-800107	50015	214.00	0.00	abs	10000	2	Regeneration Circle VIII
-800108	50015	220.00	0.00	abs	10000	2	Regeneration Circle IX
-800200	0	0.00	100.00	abs	20000	1	Mana Infusion
-800600	0	55.00	0.00	abs	900000	2	Blessing of Balder I
-800601	0	62.00	0.00	abs	900000	2	Blessing of Balder II
-800602	0	67.00	0.00	abs	900000	2	Blessing of Balder III
-800603	0	71.00	0.00	abs	900000	2	Blessing of Balder IV
-800604	0	73.00	0.00	abs	900000	2	Blessing of Balder V
-800900	0	-136.00	0.00	abs	15000	3	Plague of Exhaustion
-800901	0	-193.00	0.00	abs	15000	3	Plague of Exhaustion II
-800902	0	-284.00	0.00	abs	15000	3	Plague of Exhaustion III
-800903	0	-410.00	0.00	abs	15000	3	Plague of Exhaustion IV
-800904	0	-569.00	0.00	abs	15000	3	Plague of Exhaustion V
-800905	0	-786.00	0.00	abs	15000	3	Plague of Exhaustion VI
-800906	0	-1145.00	0.00	abs	15000	3	Plague of Exhaustion VII
-800907	0	-1518.00	0.00	abs	15000	3	Plague of Exhaustion VIII
-800920	0	-116.00	0.00	abs	15000	3	Plague of Exhaustion
-800921	0	-161.00	0.00	abs	15000	3	Plague of Exhaustion II
-800922	0	-222.00	0.00	abs	15000	3	Plague of Exhaustion III
-800923	0	-307.00	0.00	abs	15000	3	Plague of Exhaustion IV
-800924	0	-423.00	0.00	abs	15000	3	Plague of Exhaustion V
-800925	0	-585.00	0.00	abs	15000	3	Plague of Exhaustion VI
-800926	0	-819.00	0.00	abs	15000	3	Plague of Exhaustion VII
-800927	0	-1086.00	0.00	abs	15000	3	Plague of Exhaustion VIII
-801100	50015	0.02	0.00	perc	10000	1	Divine Respite I
-801101	50015	0.02	0.00	perc	10000	1	Divine Respite II
-801400	50015	136.00	0.00	abs	5000	1	Restorative Burst I
-801401	50015	181.00	0.00	abs	5000	1	Restorative Burst II
-801402	50015	235.00	0.00	abs	5000	1	Restorative Burst III
-801403	50015	298.00	0.00	abs	5000	1	Restorative Burst IV
-801404	50015	366.00	0.00	abs	5000	1	Restorative Burst V
-801405	50015	431.00	0.00	abs	5000	1	Restorative Burst VI
-801406	50015	489.00	0.00	abs	5000	1	Restorative Burst VII
-801407	50015	533.00	0.00	abs	5000	1	Restorative Burst VIII
-801408	50015	559.00	0.00	abs	5000	1	Restorative Burst IX
-801409	50015	575.00	0.00	abs	5000	1	Restorative Burst X
-801410	50015	588.00	0.00	abs	5000	1	Restorative Burst XI
-801600	0	562.00	0.00	abs	3000	1	Healing Immersion I
-801601	0	564.00	0.00	abs	3000	1	Healing Immersion II
-801800	0	0.00	0.04	perc	1000	1	Mana Charge
-801801	0	0.00	0.10	perc	1000	1	Mana Charge
-801802	0	0.00	0.20	perc	1000	1	Mana Charge
-810002	50015	0.03	0.00	perc	1000	1	Relic's Power
-813001	0	0.02	0.00	perc	0	2	
-813003	0	0.04	0.00	perc	1800000	2	Glade's Surge
-860006	0	-0.05	0.00	perc	60000	1	Electric Shock Overload
-860031	50141	-12000.00	0.00	abs	3000	1	Burning Aura
-900400	1175	0.00	0.02	perc	15000	1	Commander's Comfort
-900401	1175	0.00	0.02	perc	15000	1	Commander's Comfort
-900500	1176	0.40	0.00	perc	1000	1	Commander's Boon
-900501	1176	0.40	0.00	perc	1000	1	Commander's Boon
-905403	0	-0.15	0.00	perc	20000	2	Death Jolt
-905407	0	-0.30	0.00	perc	1000	1	Death Jolt
-905423	48272	0.00	-0.05	perc	180000	1	Phrenic Slime
-905424	0	0.00	0.50	perc	3000	2	Squeaky Clean
-905432	4195	-0.08	0.00	perc	30000	2	Toxic
-905433	4195	-0.08	0.00	perc	10000	2	Noxious Plume
-905436	0	-0.20	0.00	perc	1000	1	
-905437	0	0.10	0.00	perc	1000	1	
-905438	0	-0.05	0.00	perc	1000	1	
-905439	0	0.05	0.00	perc	1000	1	
-905445	48273	-0.13	0.00	perc	15000	1	Blood in the Water
-905605	0	-0.15	0.00	perc	600000	1	Kumas Electricity
-905608	4320	-0.12	0.00	perc	600000	1	The Curse of Sealed Valona
-905624	50354	-0.13	0.00	perc	120000	3	Lightning Loaded!
-905625	0	-0.30	0.00	perc	60000	3	Overloaded
-905661	0	0.03	0.00	perc	90000	5	The Sun
-905662	0	0.00	1.00	perc	90000	15	The Dark
-905664	0	-0.03	0.00	perc	1500	1	
-905670	0	-0.10	0.00	perc	5000	1	Orb Haze
-905675	50015	1.00	0.00	perc	1000	1	
-905676	0	0.00	-0.05	perc	30000	1	Demonshock
-905804	0	0.01	0.00	perc	1000	1	
-905902	4320	-0.08	0.00	perc	16000	1	Bleeding Out
-905928	0	-0.08	0.00	perc	3000	1	Forsaken Island Ghost
-910000	0	0.00	0.01	perc	0	2	Balder's Blessing
-910006	0	0.00	0.01	perc	0	2	Elinu's Blessing
-910008	0	0.00	0.02	perc	0	2	Balder's Blessing
-910013	0	0.00	0.02	perc	0	2	Elinu's Blessing
-975031	0	-0.01	0.00	perc	5000	1	Hot and Cold Pack
-975423	48272	0.00	-0.16	perc	180000	1	Phrenic Slime
-975445	4320	-0.13	0.00	perc	15000	3	
-975602	0	-0.10	0.00	perc	1000	1	
-975603	0	-0.25	0.00	perc	1000	1	
-975655	4320	-0.06	0.00	perc	15000	3	
-975661	0	0.03	0.00	perc	90000	5	Light of the Sun
-975662	0	0.00	1.00	perc	90000	15	Dark of the Night
-988550	0	-100000.00	0.00	abs	1000	1	
-988572	0	-1000000.00	0.00	abs	1000	1	Doom
-990070	0	0.00	0.00	perc	30000	1	Adiar's Protection
-990071	0	0.00	0.00	perc	30000	1	Derene's Protection
-991000	4318	-100.00	0.00	abs	5000	1	Warflame
-3000001	0	0.00	0.01	perc	0	1	Inspiring Travel
-3000002	0	0.01	0.00	perc	0	1	Hearty Travel
-3000004	0	0.01	0.00	perc	0	1	Hearty Travel
-3000005	0	0.00	0.01	perc	0	1	Blessing of the Sky
-3000006	0	0.00	0.01	perc	0	1	Thaman's Dignity
-3000006	0	0.01	0.00	perc	0	1	Thaman's Dignity
-3000007	0	0.00	0.01	perc	0	1	Thaman's Experience
-3000007	0	0.01	0.00	perc	0	1	Thaman's Experience
-3000008	0	0.00	0.01	perc	0	1	Comfortable Travel
-3000008	0	0.01	0.00	perc	0	1	Comfortable Travel
-3000009	0	0.00	0.01	perc	0	1	Relaxing Travel
-3000010	0	0.00	0.01	perc	0	1	Invigorating Travel
-3000010	0	0.01	0.00	perc	0	1	Invigorating Travel
-7777015	0	0.00	0.50	perc	1800000	1	T.E.R.A TIME
-8000683	0	0.50	0.00	perc	3000	1	Abnormality that recovers upon entering. If Shown, BTS
-8000685	0	-0.80	0.00	perc	60000	1	The Curse of Snowman
-9009751	0	-100000.00	0.00	perc	10000	1	
-9100080	0	0.00	0.01	perc	0	2	Balder's Blessing
-9100130	0	0.00	0.01	perc	0	2	Elinu's Blessing
-9810012	9810005	-2300.00	0.00	abs	20000	5	Lakan's Searing Gaze
-10151032	0	-3454.00	0.00	abs	10000	2	Shadowy Cables
-10151070	0	-1015.00	0.00	abs	10000	1	Spirit Gallows
-10151201	0	-100000.00	0.00	perc	6000	1	
-10152061	0	-645.00	0.00	abs	10100	2	Overcharge
-16300009	0	0.00	0.01	perc	0	1	
-16300009	0	0.01	0.00	perc	0	1	
-16300010	0	0.00	0.01	perc	0	1	
-16300011	0	0.01	0.00	perc	0	1	
-16300012	0	0.00	0.01	perc	0	1	
-16300012	0	0.01	0.00	perc	0	1	
-44300074	50015	0.30	0.00	perc	1000	1	
-44300074	0	0.00	0.30	perc	1000	1	
-44300078	50015	300000.00	0.00	abs	180000	1	Super Regeneration
-44300080	4195	-0.08	0.00	perc	30000	3	Larva Venom
-45000001	4195	-0.50	0.00	perc	10000	60	Entangle
-45000011	0	-0.02	0.00	perc	30000	1	Beetle Dust
-45000019	0	-3800.00	0.00	abs	20000	1	Toxic Spittle
-45000038	4320	-0.13	0.00	perc	15000	3	Severe Bleeding
-47300100	4195	-0.50	0.00	perc	600000	60	Venom Resin
-47300200	4195	-0.05	0.00	perc	60000	3	Thulsa's Venom
-47300300	4195	-0.30	0.00	perc	5000	4	Thulsa's Poison
-47300400	0	-0.03	0.00	perc	10000	1	Hellfire of Pain
-47300900	4195	-3000.00	0.00	abs	10000	1	Deadly Venom
-47500100	4318	-0.05	0.00	perc	90000	5	Doomfire
-47500200	50015	0.01	0.00	perc	30000	3	Delete_Cry of life
-47500400	0	-0.20	0.00	perc	35000	5	Seal of Revenge
-47500500	0	-0.20	0.00	perc	35000	5	Seal of Punishment
-47500600	0	-0.01	0.00	perc	35000	2	Seal of Death
-47500800	0	-0.10	0.00	perc	40000	5	Seal of Revenge
-47500900	0	-0.10	0.00	perc	40000	5	Seal of Punishment
-47501000	0	-0.10	0.00	perc	40000	5	Seal of Death
-47501100	4345	-0.05	0.00	perc	90000	5	Doomchill
-47501300	0	-0.01	0.00	perc	10000	1	Curse of Kelsaik
-47501400	4318	-0.05	0.00	perc	90000	5	Flame of Hell
-47501700	0	-0.02	0.00	perc	10000	5	Curse of Kelsaik
-47501800	4318	-0.03	0.00	perc	90000	5	Doomfire
-47501900	4345	-0.03	0.00	perc	90000	5	Doomchill
-47502000	4318	-0.03	0.00	perc	90000	5	Flame of Hell
-47600200	0	-0.18	0.00	perc	1000	1	Time of Pain
-47600300	50015	0.03	0.00	perc	10000	1	Narrow Escape
-47600400	0	-0.08	0.00	perc	15000	3	Curse of Pain
-47610100	50015	0.00	0.00	perc	60000	1	Thulsa's Blessing
-47612500	50015	0.03	0.00	perc	12000	3	Restoration
-47612600	50015	0.05	0.00	perc	1000	1	Instant HP recovery
-47613200	4195	-0.10	0.00	perc	30000	3	Decimation
-47620400	4195	-0.05	0.00	perc	10000	1	Burnout
-47621700	0	0.01	0.00	perc	600000	12	Empower
-47622300	4195	-0.01	0.00	perc	10000	1	Sandstorm
-47630100	4195	-0.01	0.00	perc	30000	3	Tuwangi Blood-Haze
-47640400	4195	-0.07	0.00	perc	10000	1	Toxic Gas
-47640700	4195	-0.10	0.00	perc	10000	1	Argon Virus I
-47640800	4195	-0.05	0.00	perc	10000	1	Argon Virus II
-47640900	4195	-0.03	0.00	perc	10000	1	Argon Virus III
-47650400	50015	0.30	0.00	perc	1000	1	Relic's Healing
-47650800	0	-0.01	0.00	perc	30000	1	Snare of Agony
-47651003	50015	0.05	0.00	perc	120000	1	Anya's Vigil
-47651003	0	0.00	0.05	perc	120000	1	Anya's Vigil
-47660100	4195	-0.03	0.00	perc	10000	1	Sweltering Doom
-47660200	4195	-0.03	0.00	perc	30000	5	Shocking Source
-47660300	4195	-0.30	0.00	perc	5000	5	Zzzap
-47690800	3275	-0.10	0.00	perc	10000	10	Depth's Glare
-47691000	4321	0.00	-100000000.00	perc	5000	1	Mana Agony
-47700100	50015	-0.20	0.00	perc	5000	1	Consuming Disease
-47700800	0	-0.02	0.00	perc	30000	1	Parasite
-47702100	50015	-0.10	0.00	perc	10000	1	Cellular Decay
-47702900	4318	-0.10	0.00	perc	90000	5	Greedy Thought
-47703000	4318	-0.10	0.00	perc	90000	5	Hateful Thought
-47703100	4318	-0.10	0.00	perc	90000	5	Desperate Thought
-49400500	4195	0.00	0.00	perc	60000	1	Cause of Pollution
-49400600	50015	0.02	0.00	perc	1000	1	Dragon's Tear
-49400600	0	0.00	0.02	perc	1000	1	Dragon's Tear
-71600004	43181	-0.05	0.00	perc	15000	2	Darkan's Flame
-71600010	43181	-0.05	0.00	perc	10000	1	Scorched Scar
-74300074	50015	0.50	0.00	perc	1000	1	
-74300074	0	0.00	0.50	perc	1000	1	
-74300078	50015	100000.00	0.00	abs	180000	1	Super Regeneration
-75000027	4195	-0.02	0.00	perc	10000	3	Bee Venom
-76600024	50015	0.01	0.00	perc	15000	3	Pirate's Healing
-76600025	50015	0.02	0.00	perc	1000	1	
-77700002	0	0.05	0.00	perc	600000	2	Re-Engineered Regeneration
-77700002	0	0.00	0.01	perc	600000	2	Re-Engineered Regeneration
-77700004	0	-0.02	0.00	perc	100000	2	Extreme Fatigue
-77700015	0	-0.02	0.00	perc	10000	1	Parasitic Host
-77700018	0	0.15	0.00	perc	10000	2	Engineered Regeneration
-77700800	0	-0.02	0.00	perc	30000	1	Parasite
-77702100	50015	-0.10	0.00	perc	10000	3	Cellular Decay
-77702900	4318	-0.10	0.00	perc	180000	5	Greedy Thought
-77703000	4318	-0.10	0.00	perc	180000	5	Hateful Thought
-77703100	4318	-0.10	0.00	perc	180000	5	Desperate Thought
-77703403	50015	0.05	0.00	perc	1000	1	HP Recovery
-77703410	50015	0.03	0.00	perc	1000	1	Kumas HP Recovery
-77703412	4195	-0.05	0.00	perc	120000	3	Demokron Form
-77703429	50015	0.05	0.00	perc	1000	1	HP Regeneration
-77703431	50433	-10000.00	0.00	abs	20000	2	Demokron Infection
-77703432	50433	-12000.00	0.00	abs	20000	2	Demokron Mutation
-77703442	0	-0.25	0.00	perc	1000	1	Demokron Virus
-80900007	50015	0.01	0.00	perc	4000	4	Fast Healing_1%
-81300001	43181	-0.95	0.00	perc	1	1	
-81300002	0	0.01	0.00	perc	0	2	Arboreal Energy Crystal
-81300005	0	0.03	0.00	perc	10000	2	Protective Aura
-81300015	43181	-0.03	0.00	perc	10000	2	Banyakas’s Flames
-81300019	0	0.02	0.00	perc	1800000	2	Forest Warden's Recovery
-81300021	4320	-0.01	0.00	perc	5000	2	Skin Scraped on a Rock
-81300023	43181	-0.03	0.00	perc	10000	2	Fairie Fire of Banyakas
-81300024	43181	-0.03	0.00	perc	10000	2	Fairie Fire of Banyakas
-91100200	43181	-0.03	0.00	perc	240000	2	Doomfire
-91101100	4318	-0.03	0.00	perc	240000	2	Flame of Hell
-91101300	43451	-0.03	0.00	perc	240000	2	Doomchill
-91240002	0	0.04	0.00	perc	10000	1	Recovery Boon
-91600001	50353	-0.05	0.00	perc	3000	1	Dark Heart
-91600004	43181	-0.10	0.00	perc	15000	2	Dark Siphon
-91600010	43181	-0.10	0.00	perc	10000	1	Darkan's Depletion
-91600013	50353	-0.02	0.00	perc	44000	1	Bleeding Lash I
-91600014	50353	-0.02	0.00	perc	44000	1	Bleeding Lash II
-91600015	50353	-0.02	0.00	perc	44000	1	Bleeding Lash III
-91600016	50353	-0.02	0.00	perc	44000	1	Bleeding Lash IV
-91600017	4166	-0.07	0.00	perc	45000	2	Darkan's Touch
-91600023	0	-0.10	0.00	perc	30000	2	Doomfire
-91600024	0	-0.02	0.00	perc	600000	2	Doomfire
-91600025	0	0.00	0.00	perc	30000	1	Doomfire
-91600030	0	-0.26	0.00	perc	1000	1	Doomfire
-91600037	0	-1.00	0.00	perc	600000	1	
-91600038	0	1.00	0.00	perc	1000	1	Aeonalis Pylon recovered
-97500100	43181	-0.07	0.00	perc	120000	2	Doomfire
-97500400	0	-0.20	0.00	perc	35000	5	Seal of Revenge
-97500500	0	-0.20	0.00	perc	35000	5	Seal of Punishment
-97500600	0	-0.02	0.00	perc	35000	2	Seal of Death
-97501100	43451	-0.07	0.00	perc	120000	2	Doomchill
-97501300	0	-0.01	0.00	perc	10000	1	Curse of Kelsaik
-97501400	4318	-0.07	0.00	perc	120000	2	Flame of Hell
-98000039	0	1.00	0.00	perc	1000	1	Nature's Touch
-98000040	50015	0.50	0.00	perc	1000	1	Nature's Warmness
-98000063	50015	0.01	0.00	perc	10000	1	Vibrant Bloom
-98000070	50015	0.00	0.00	perc	25000	2	Soothing Breeze
-98000091	4320	-0.06	0.00	perc	10000	3	Wing Clip
-98000092	50015	0.00	0.00	perc	12000	3	Cheeper's Blessing
-98000095	50015	50000.00	0.00	abs	1000	1	Priest's Touch
-98000100	0	773.00	0.00	abs	10000000	2	Potion of Blessing
-98000101	0	0.00	20.00	abs	10000000	1	Potion of Verve
-98850023	43181	-0.03	0.00	perc	120000	2	Doomfire
-98850024	43451	-0.03	0.00	perc	120000	2	Doomchill
-98850041	50015	-0.15	0.00	perc	10000	1	Cellular Explosion [Transmittable]
-98850042	50015	0.01	0.00	perc	12000	3	Recovery
-98850054	0	-0.05	0.00	perc	10000	1	Venom
-98850057	4195	-0.05	0.00	perc	30000	3	Thulsa's Venom
-98850091	4318	-0.10	0.00	perc	90000	5	Greedy Thoughts
-98850092	4318	-0.10	0.00	perc	90000	5	Hateful Thoughts
-98850093	4318	-0.10	0.00	perc	90000	5	Desperate Thoughts
-98850094	4318	-0.10	0.00	perc	30000	5	Greedy Thoughts
-98850095	4318	-0.10	0.00	perc	30000	5	Hateful Thoughts
-98850096	4318	-0.10	0.00	perc	30000	5	Desperate Thoughts
-99000300	50015	0.03	0.00	perc	12000	3	Restoration I
-99000310	50015	0.04	0.00	perc	12000	3	Restoration II
-99000320	50015	0.05	0.00	perc	12000	3	Restoration III
-99000330	50015	0.06	0.00	perc	12000	3	Restoration IV
-99000340	50015	0.07	0.00	perc	12000	3	Restoration V
-99000350	50015	0.08	0.00	perc	12000	3	Restoration VI
-99000360	50015	0.09	0.00	perc	12000	3	Restoration VII
-99000370	50015	0.10	0.00	perc	12000	3	Restoration VIII
-99000400	4195	-0.01	0.00	perc	45000	3	Venom
-99000410	4195	-0.01	0.00	perc	45000	3	Venom
-99000420	4195	-0.02	0.00	perc	45000	3	Venom
-99000430	4195	-0.02	0.00	perc	45000	3	Venom
-99000440	4195	-0.02	0.00	perc	45000	3	Venom
-99000450	4195	-0.02	0.00	perc	45000	3	Venom
-99000460	4195	-0.02	0.00	perc	45000	3	Venom
-99000470	4195	-0.03	0.00	perc	45000	3	Venom
-99000480	4195	-0.50	0.00	perc	1000	1	Venom
-99000580	4320	-0.06	0.00	perc	15000	3	Bleed
-99000680	4320	-0.01	0.00	perc	10000	1	Executor's Powerful Blow
-99000690	4318	-0.02	0.00	perc	10000	1	Executor's Flame of Rage
-99000900	4345	-0.02	0.00	perc	30000	3	Chill
-99000910	4345	-0.02	0.00	perc	30000	3	Chill
-99000920	4345	-0.02	0.00	perc	30000	3	Chill
-99000930	4345	-0.02	0.00	perc	30000	3	Chill
-99000940	4345	-0.03	0.00	perc	30000	3	Chill
-99000950	4345	-0.03	0.00	perc	30000	3	Chill
-99000960	4345	-0.03	0.00	perc	30000	3	Chill
-99000970	4345	-0.04	0.00	perc	30000	3	Chill
-99001000	4318	-0.01	0.00	perc	30000	3	Eldritch Flames
-99001010	4318	-0.02	0.00	perc	30000	3	Eldritch Flames
-99001020	4318	-0.02	0.00	perc	30000	3	Eldritch Flames
-99001030	4318	-0.02	0.00	perc	30000	3	Eldritch Flames
-99001040	4318	-0.02	0.00	perc	30000	3	Eldritch Flames
-99001050	4318	-0.02	0.00	perc	30000	3	Eldritch Flames
-99001060	4318	-0.03	0.00	perc	30000	3	Eldritch Flames
-99001070	4318	-0.03	0.00	perc	30000	3	Eldritch Flames
-99001300	50015	0.10	0.00	perc	1000	1	Heal I
-99001301	50015	0.01	0.00	perc	1000	1	Heal_1%
-99001302	50015	0.03	0.00	perc	1000	1	Heal_3%
-99001303	50015	0.05	0.00	perc	1000	1	Heal_5%
-99001310	50015	0.15	0.00	perc	1000	1	Heal II
-99001320	50015	0.20	0.00	perc	1000	1	Heal III
-99001330	50015	0.25	0.00	perc	1000	1	Heal IV
-99001340	50015	0.30	0.00	perc	1000	1	Heal V
-99001350	50015	0.35	0.00	perc	1000	1	Heal VI
-99001360	50015	0.40	0.00	perc	1000	1	Heal VII
-99001370	50015	0.45	0.00	perc	1000	1	Heal VIII
-99002300	4321	0.00	-0.02	perc	45000	3	Mind Corruption
-99002310	4321	0.00	-0.02	perc	45000	3	Mind Corruption
-99002320	4321	0.00	-0.02	perc	45000	3	Mind Corruption
-99002330	4321	0.00	-0.03	perc	45000	3	Mind Corruption
-99002340	4321	0.00	-0.03	perc	45000	3	Mind Corruption
-99002350	4321	0.00	-0.03	perc	45000	3	Mind Corruption
-99002360	4321	0.00	-0.03	perc	45000	3	Mind Corruption
-99002370	4321	0.00	-0.03	perc	45000	3	Mind Corruption
-99002500	4320	-0.06	0.00	perc	15000	3	Mendable Bleeding
-99002510	4320	-0.10	0.00	perc	15000	3	Bleeding
-99002520	4320	-0.06	0.00	perc	15000	3	Excessive Bleeding
-99002800	0	0.00	0.00	perc	0	1	Restoration
-99002810	0	0.00	0.00	perc	0	1	Restoration
-99002820	0	0.00	0.00	perc	0	1	Restoration
-99002830	0	0.00	0.00	perc	0	1	Restoration
-99003600	50015	0.01	0.00	perc	600000	3	Gathering Life
-99003700	1175	0.00	0.01	perc	600000	3	Gathering Spirit
-99004500	50015	0.50	0.00	perc	1000	1	Pigling Meat
-99004510	50015	1312.00	0.00	abs	10000	2	Pigling Meat Piece
-99004900	4001004	-100000000.00	0.00	abs	1000	1	Kanstria Bomb
-99009000	0	0.00	0.00	perc	10800000	12	Salvalith Power
-99070000	4320	-0.01	0.00	perc	6000	3	Bleeding
-99070001	0	0.01	0.00	perc	8900	2	Azure Sky
-99070002	4318	-0.03	0.00	perc	8000	3	Relentless Burning
-99070004	50354	-0.01	0.00	perc	6000	3	Electric Shock
-99070005	4345	-0.01	0.00	perc	6000	3	Bitter Cold
-99070014	4318	-0.05	0.00	perc	5000	1	Angry Spirits
-99070020	4320	-0.04	0.00	perc	6000	3	Excessive Bleeding
-990070311	50015	0.15	0.00	perc	180000	3	Warm Shrine Blessing
-990070312	0	0.00	0.15	perc	180000	3	Bountiful Shrine Blessing
-999001013	513070200	-900.00	0.00	abs	10000	1	BTS
-999008600	50015	0.08	0.00	perc	3930000	10	Constant HP Recovery
-999009500	0	-0.10	0.00	perc	3930000	5	Life Leech
-999009710	200022	10000.00	0.00	abs	1000	1	HP Replenishment
-999009740	200038	0.00	10000.00	abs	60000	1	MP Replenishment
-33	0	0.00	0.50	perc	0	1	T.E.R.A TIME
-1133	1175	0.00	0.04	perc	25000	1	Shining Candy
-25	0	0.00	0.50	perc	0	1	T.E.R.A TIME
-28	0	0.00	0.50	perc	7200000	1	T.E.R.A TIME
-14400001	0	0.01	0.00	perc	900000	1	Emblem of Eminence
-14400003	0	0.01	0.00	perc	900000	1	Seal of the Undying Flame
-14400004	0	0.00	0.05	perc	900000	1	Cooldown and MP Replenishment
-3000011	0	0.00	0.01	perc	0	1	Regal Travel
-3000011	0	0.01	0.00	perc	0	1	Regal Travel
+2	Endurance	0.00	0.00	perc	180000000	0	100.00	Promo BAM Buff
+26	MPChange	0.00	0.50	perc	0	1	0.50	Ultra-Hyper-Fire-Turbo Time
+27	MPChange	0.00	0.50	perc	0	1	0.50	T.E.R.A TIME
+37	MPChange	0.00	0.50	perc	0	1	0.50	4th Anniversary Buff(Decreased Cooldown)
+905	MPChange	0.00	100.00	abs	10000	2	100.00	Regeneration Circle—MP Restoration
+906	MPChange	0.00	50.00	abs	5000	1	50.00	Restorative Burst—MP Restoraion
+1130	MPChange	0.00	0.04	perc	25000	1	0.04	Heart Candy Cane
+1131	MPChange	0.00	0.50	perc	1000	1	0.50	Heart Chocolate
+1135	Endurance	0.00	0.00	perc	0	0	1.00	Federation's Call
+1150	HPChange	0.01	0.00	perc	1800000	5	0.01	Vigorous Renewal Draught
+1151	HPChange	0.01	0.00	perc	10800000	5	0.01	Powerful Vigorous Renewal Draught
+1200	MPChange	0.00	5.00	abs	1800000	5	5.00	Infused Renewal Draught
+1201	MPChange	0.00	5.00	abs	10800000	5	5.00	Powerful Infused Renewal Draught
+1300	Endurance	0.00	0.00	abs	1800000	0	13.00	Tenacious Savage Draught
+1301	Endurance	0.00	0.00	abs	1800000	0	15.00	Tenacious Savage Draught
+1440	HPChange	57.00	0.00	abs	15000	1	57.00	Bandage I
+1441	HPChange	105.00	0.00	abs	15000	1	105.00	Bandage II
+1442	HPChange	202.00	0.00	abs	15000	1	202.00	Bandage III
+1443	HPChange	386.00	0.00	abs	15000	1	386.00	Bandage IV
+1444	HPChange	777.00	0.00	abs	15000	1	777.00	Bandage V
+1445	HPChange	1273.00	0.00	abs	15000	1	1273.00	Bandage VI
+1450	HPChange	43.00	0.00	abs	10000	1	43.00	First Aid I
+1451	HPChange	79.00	0.00	abs	10000	1	79.00	First Aid II
+1452	HPChange	152.00	0.00	abs	10000	1	152.00	First Aid III
+1453	HPChange	290.00	0.00	abs	10000	1	290.00	First Aid IV
+1454	HPChange	582.00	0.00	abs	10000	1	582.00	First Aid V
+1455	HPChange	954.00	0.00	abs	10000	1	954.00	First Aid VI
+1460	HPChange	0.05	0.00	perc	20000	1	0.05	Lelyn's Bandage
+1461	HPChange	0.04	0.00	perc	30000	1	0.04	Toruan Snacks
+1462	HPChange	0.05	0.00	perc	20000	1	0.05	Tertas Fruit Candy
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Rejuvenation Potion
+1491	HPChange	0.06	0.00	perc	5000	1	0.06	Valiant Potion
+1495	HPChange	-20000.00	0.00	perc	2000	1	-20000.00	Battlefield Poison
+1510	HPChange	0.50	0.00	perc	1000	1	0.50	Healing Potion
+1530	MPChange	0.00	0.05	perc	15000	1	0.05	Divine Infusion
+1610	HPChange	0.02	0.00	perc	10000	1	0.02	Rejuvenation Mote
+1630	HPChange	0.25	0.00	perc	1000	1	0.25	Healing Mote
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Kaia's Horn
+1660	MPChange	0.00	1.00	perc	1000	1	1.00	Seren's Perfume
+1671	HPChange	0.70	0.00	perc	1000	1	0.70	Mysterious Bead
+1800	Endurance	0.00	0.00	perc	600000	0	0.10	Ghostly Pallor
+2000	MPChange	0.00	0.05	perc	80000	2	0.05	MP Replenishment II
+2010	MPChange	0.00	0.02	perc	80000	2	0.02	MP Replenishment I
+2020	HPChange	0.35	0.00	perc	1000	1	0.35	Health Burst
+2040	Endurance	0.00	0.00	perc	20000	0	1.70	Indomitable Will I
+2041	Endurance	0.00	0.00	perc	25000	0	1.70	Indomitable Will II
+2042	Endurance	0.00	0.00	perc	30000	0	1.70	Indomitable Will III
+2051	Endurance	0.00	0.00	perc	0	0	1.00	Bloodthirsty
+2057	HPChange	3000.00	0.00	abs	900000	1	3000.00	Kumas HP Recovery I
+2058	HPChange	10000.00	0.00	abs	900000	1	10000.00	Kumas HP Recovery II
+2059	HPChange	20000.00	0.00	abs	900000	1	20000.00	Kumas HP Recovery III
+2061	Endurance	0.00	0.00	perc	0	0	1.00	Victor's Prize
+2066	HPChange	-0.02	0.00	perc	10000	1	-0.02	Spanked!
+2067	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding I—Release
+2070	Endurance	0.00	0.00	abs	180000	0	10.00	Powerful Morale
+2071	Endurance	0.00	0.00	perc	0	0	1.00	Powerful Foe
+2080	Endurance	0.00	0.00	abs	0	0	40.00	Desperate Resolve
+2083	Endurance	0.00	0.00	abs	0	0	10.00	Cry of Retaliation I
+2084	Endurance	0.00	0.00	abs	0	0	15.00	Cry of Retaliation II
+2085	Endurance	0.00	0.00	abs	0	0	20.00	Cry of Retaliation III
+2500	HPChange	58.00	0.00	abs	12000	1	58.00	Healing Elixir I
+2501	HPChange	90.00	0.00	abs	12000	1	90.00	Healing Elixir II
+2502	HPChange	140.00	0.00	abs	12000	1	140.00	Healing Elixir III
+2503	HPChange	215.00	0.00	abs	12000	1	215.00	Healing Elixir IV
+2504	HPChange	331.00	0.00	abs	12000	1	331.00	Healing Elixir V
+2505	HPChange	509.00	0.00	abs	12000	1	509.00	Healing Elixir VI
+2506	HPChange	877.00	0.00	abs	12000	1	877.00	Healing Elixir VII
+2507	HPChange	1230.00	0.00	abs	12000	1	1230.00	Healing Elixir VIII
+2508	HPChange	1630.00	0.00	abs	10000	1	1630.00	Healing Elixir IX
+2509	HPChange	2120.00	0.00	abs	10000	1	2120.00	Healing Elixir X
+2515	HPChange	78.00	0.00	abs	10000	1	78.00	Major Healing Elixir I
+2516	HPChange	121.00	0.00	abs	10000	1	121.00	Major Healing Elixir II
+2517	HPChange	187.00	0.00	abs	10000	1	187.00	Major Healing Elixir III
+2518	HPChange	287.00	0.00	abs	10000	1	287.00	Major Healing Elixir IV
+2519	HPChange	442.00	0.00	abs	10000	1	442.00	Major Healing Elixir V
+2520	HPChange	679.00	0.00	abs	10000	1	679.00	Major Healing Elixir VI
+2521	HPChange	1178.00	0.00	abs	10000	1	1178.00	Major Healing Elixir VII
+2522	HPChange	1652.00	0.00	abs	10000	1	1652.00	Major Healing Elixir VIII
+2530	MPChange	0.00	50.00	abs	12000	1	50.00	Mana Elixir I
+2531	MPChange	0.00	56.00	abs	12000	1	56.00	Mana Elixir II
+2532	MPChange	0.00	62.00	abs	12000	1	62.00	Mana Elixir III
+2533	MPChange	0.00	67.00	abs	12000	1	67.00	Mana Elixir IV
+2534	MPChange	0.00	73.00	abs	12000	1	73.00	Mana Elixir V
+2535	MPChange	0.00	79.00	abs	12000	1	79.00	Mana Elixir VI
+2536	MPChange	0.00	85.00	abs	12000	1	85.00	Mana Elixir VII
+2537	MPChange	0.00	91.00	abs	12000	1	91.00	Mana Elixir VIII
+2538	MPChange	0.00	114.00	abs	10000	1	114.00	Mana Elixir IX
+2539	MPChange	0.00	131.00	abs	10000	1	131.00	Mana Elixir X
+2545	MPChange	0.00	63.00	abs	10000	1	63.00	Major Mana Elixir I
+2546	MPChange	0.00	70.00	abs	10000	1	70.00	Major Mana Elixir II
+2547	MPChange	0.00	77.00	abs	10000	1	77.00	Major Mana Elixir III
+2548	MPChange	0.00	84.00	abs	10000	1	84.00	Major Mana Elixir IV
+2549	MPChange	0.00	91.00	abs	10000	1	91.00	Major Mana Elixir V
+2550	MPChange	0.00	98.00	abs	10000	1	98.00	Major Mana Elixir VI
+2551	MPChange	0.00	105.00	abs	10000	1	105.00	Major Mana Elixir VII
+2552	MPChange	0.00	113.00	abs	10000	1	113.00	Major Mana Elixir VIII
+2560	HPChange	53.00	0.00	abs	12000	1	53.00	Holism Elixir I
+2560	MPChange	0.00	37.00	abs	12000	1	37.00	Holism Elixir I
+2561	HPChange	83.00	0.00	abs	12000	1	83.00	Holism Elixir II
+2561	MPChange	0.00	42.00	abs	12000	1	42.00	Holism Elixir II
+2562	HPChange	128.00	0.00	abs	12000	1	128.00	Holism Elixir III
+2562	MPChange	0.00	46.00	abs	12000	1	46.00	Holism Elixir III
+2563	HPChange	197.00	0.00	abs	12000	1	197.00	Holism Elixir IV
+2563	MPChange	0.00	51.00	abs	12000	1	51.00	Holism Elixir IV
+2564	HPChange	302.00	0.00	abs	12000	1	302.00	Holism Elixir V
+2564	MPChange	0.00	55.00	abs	12000	1	55.00	Holism Elixir V
+2565	HPChange	465.00	0.00	abs	12000	1	465.00	Holism Elixir VI
+2565	MPChange	0.00	59.00	abs	12000	1	59.00	Holism Elixir VI
+2566	HPChange	802.00	0.00	abs	12000	1	802.00	Holism Elixir VII
+2566	MPChange	0.00	64.00	abs	12000	1	64.00	Holism Elixir VII
+2567	HPChange	1125.00	0.00	abs	12000	1	1125.00	Holism Elixir VIII
+2567	MPChange	0.00	68.00	abs	12000	1	68.00	Holism Elixir VIII
+2575	HPChange	71.00	0.00	abs	10000	1	71.00	Major Holism Elixir I
+2575	MPChange	0.00	47.00	abs	10000	1	47.00	Major Holism Elixir I
+2576	HPChange	111.00	0.00	abs	10000	1	111.00	Major Holism Elixir II
+2576	MPChange	0.00	53.00	abs	10000	1	53.00	Major Holism Elixir II
+2577	HPChange	171.00	0.00	abs	10000	1	171.00	Major Holism Elixir III
+2577	MPChange	0.00	58.00	abs	10000	1	58.00	Major Holism Elixir III
+2578	HPChange	263.00	0.00	abs	10000	1	263.00	Major Holism Elixir IV
+2578	MPChange	0.00	63.00	abs	10000	1	63.00	Major Holism Elixir IV
+2579	HPChange	404.00	0.00	abs	10000	1	404.00	Major Holism Elixir V
+2579	MPChange	0.00	69.00	abs	10000	1	69.00	Major Holism Elixir V
+2580	HPChange	621.00	0.00	abs	10000	1	621.00	Major Holism Elixir VI
+2580	MPChange	0.00	74.00	abs	10000	1	74.00	Major Holism Elixir VI
+2581	HPChange	1077.00	0.00	abs	10000	1	1077.00	Major Holism Elixir VII
+2581	MPChange	0.00	79.00	abs	10000	1	79.00	Major Holism Elixir VII
+2582	HPChange	1510.00	0.00	abs	10000	1	1510.00	Major Holism Elixir VIII
+2582	MPChange	0.00	84.00	abs	10000	1	84.00	Major Holism Elixir VIII
+2590	HPChange	83.00	0.00	abs	12000	1	83.00	Health Restorative I
+2591	HPChange	129.00	0.00	abs	12000	1	129.00	Health Restorative II
+2592	HPChange	199.00	0.00	abs	12000	1	199.00	Health Restorative III
+2593	HPChange	307.00	0.00	abs	12000	1	307.00	Health Restorative IV
+2594	HPChange	473.00	0.00	abs	12000	1	473.00	Health Restorative V
+2595	HPChange	726.00	0.00	abs	12000	1	726.00	Health Restorative VI
+2596	HPChange	1253.00	0.00	abs	12000	1	1253.00	Health Restorative VII
+2597	HPChange	1757.00	0.00	abs	12000	1	1757.00	Health Restorative VIII
+2598	HPChange	3260.00	0.00	abs	10000	1	3260.00	Health Restorative IX
+2599	HPChange	4230.00	0.00	abs	10000	1	4230.00	Health Restorative X
+2605	HPChange	112.00	0.00	abs	10000	1	112.00	Major Health Restorative I
+2606	HPChange	173.00	0.00	abs	10000	1	173.00	Major Health Restorative II
+2607	HPChange	267.00	0.00	abs	10000	1	267.00	Major Health Restorative III
+2608	HPChange	411.00	0.00	abs	10000	1	411.00	Major Health Restorative IV
+2609	HPChange	631.00	0.00	abs	10000	1	631.00	Major Health Restorative V
+2610	HPChange	971.00	0.00	abs	10000	1	971.00	Major Health Restorative VI
+2611	HPChange	1683.00	0.00	abs	10000	1	1683.00	Major Health Restorative VII
+2612	HPChange	2360.00	0.00	abs	10000	1	2360.00	Major Health Restorative VIII
+2620	MPChange	0.00	100.00	abs	12000	1	100.00	Mana Restorative I
+2621	MPChange	0.00	111.00	abs	12000	1	111.00	Mana Restorative II
+2622	MPChange	0.00	123.00	abs	12000	1	123.00	Mana Restorative III
+2623	MPChange	0.00	135.00	abs	12000	1	135.00	Mana Restorative IV
+2624	MPChange	0.00	146.00	abs	12000	1	146.00	Mana Restorative V
+2625	MPChange	0.00	158.00	abs	12000	1	158.00	Mana Restorative VI
+2626	MPChange	0.00	170.00	abs	12000	1	170.00	Mana Restorative VII
+2627	MPChange	0.00	182.00	abs	12000	1	182.00	Mana Restorative VIII
+2628	MPChange	0.00	218.00	abs	10000	1	218.00	Mana Restorative IX
+2629	MPChange	0.00	250.00	abs	10000	1	250.00	Mana Restorative X
+2635	MPChange	0.00	127.00	abs	10000	1	127.00	Major Mana Restorative I
+2636	MPChange	0.00	141.00	abs	10000	1	141.00	Major Mana Restorative II
+2637	MPChange	0.00	155.00	abs	10000	1	155.00	Major Mana Restorative III
+2638	MPChange	0.00	169.00	abs	10000	1	169.00	Major Mana Restorative IV
+2639	MPChange	0.00	183.00	abs	10000	1	183.00	Major Mana Restorative V
+2640	MPChange	0.00	197.00	abs	10000	1	197.00	Major Mana Restorative VI
+2641	MPChange	0.00	211.00	abs	10000	1	211.00	Major Mana Restorative VII
+2642	MPChange	0.00	225.00	abs	10000	1	225.00	Major Mana Restorative VIII
+2650	HPChange	107.00	0.00	abs	12000	1	107.00	Holism Restorative I
+2650	MPChange	0.00	75.00	abs	12000	1	75.00	Holism Restorative I
+2651	HPChange	165.00	0.00	abs	12000	1	165.00	Holism Restorative II
+2651	MPChange	0.00	83.00	abs	12000	1	83.00	Holism Restorative II
+2652	HPChange	255.00	0.00	abs	12000	1	255.00	Holism Restorative III
+2652	MPChange	0.00	92.00	abs	12000	1	92.00	Holism Restorative III
+2653	HPChange	393.00	0.00	abs	12000	1	393.00	Holism Restorative IV
+2653	MPChange	0.00	101.00	abs	12000	1	101.00	Holism Restorative IV
+2654	HPChange	605.00	0.00	abs	12000	1	605.00	Holism Restorative V
+2654	MPChange	0.00	110.00	abs	12000	1	110.00	Holism Restorative V
+2655	HPChange	930.00	0.00	abs	12000	1	930.00	Holism Restorative VI
+2655	MPChange	0.00	119.00	abs	12000	1	119.00	Holism Restorative VI
+2656	HPChange	1604.00	0.00	abs	12000	1	1604.00	Holism Restorative VII
+2656	MPChange	0.00	127.00	abs	12000	1	127.00	Holism Restorative VII
+2657	HPChange	2249.00	0.00	abs	12000	1	2249.00	Holism Restorative VIII
+2657	MPChange	0.00	136.00	abs	12000	1	136.00	Holism Restorative VIII
+2665	HPChange	143.00	0.00	abs	10000	1	143.00	Major Holism Restorative I
+2665	MPChange	0.00	95.00	abs	10000	1	95.00	Major Holism Restorative I
+2666	HPChange	221.00	0.00	abs	10000	1	221.00	Major Holism Restorative II
+2666	MPChange	0.00	105.00	abs	10000	1	105.00	Major Holism Restorative II
+2667	HPChange	341.00	0.00	abs	10000	1	341.00	Major Holism Restorative III
+2667	MPChange	0.00	116.00	abs	10000	1	116.00	Major Holism Restorative III
+2668	HPChange	525.00	0.00	abs	10000	1	525.00	Major Holism Restorative IV
+2668	MPChange	0.00	127.00	abs	10000	1	127.00	Major Holism Restorative IV
+2669	HPChange	808.00	0.00	abs	10000	1	808.00	Major Holism Restorative V
+2669	MPChange	0.00	137.00	abs	10000	1	137.00	Major Holism Restorative V
+2670	HPChange	1242.00	0.00	abs	10000	1	1242.00	Major Holism Restorative VI
+2670	MPChange	0.00	148.00	abs	10000	1	148.00	Major Holism Restorative VI
+2671	HPChange	2154.00	0.00	abs	10000	1	2154.00	Major Holism Restorative VII
+2671	MPChange	0.00	158.00	abs	10000	1	158.00	Major Holism Restorative VII
+2672	HPChange	3021.00	0.00	abs	10000	1	3021.00	Major Holism Restorative VIII
+2672	MPChange	0.00	169.00	abs	10000	1	169.00	Major Holism Restorative VIII
+4651	Endurance	0.00	0.00	perc	0	0	1.00	Beginner's Luck
+4710	HPChange	-0.12	0.00	perc	3000	1	-0.12	Curse
+4760	HPChange	7122.00	0.00	abs	1000	1	7122.00	Noruk Jerky
+4762	MPChange	0.00	1013.00	abs	2000	2	1013.00	Vintage Wine
+4763	HPChange	10684.00	0.00	abs	2000	2	10684.00	Aged Jerky
+4764	HPChange	1424.00	0.00	abs	10000	1	1424.00	Fresh Banana
+4765	HPChange	890.00	0.00	abs	20000	1	890.00	Emergency Rations
+4766	HPChange	2137.00	0.00	abs	5000	1	2137.00	Grilled Fish
+4767	Endurance	0.00	0.00	perc	30000	0	0.90	Argon Purification Potion
+4852	Endurance	0.00	0.00	perc	30000	0	150.00	Kaia's Protection
+4866	Endurance	0.00	0.00	perc	5000	0	1.00	Aroma of Sweet Pumpkin Pie
+4878	HPChange	50000.00	0.00	abs	2000	1	50000.00	
+4881	HPChange	20000.00	0.00	abs	1000	1	20000.00	
+4883	HPChange	0.04	0.00	perc	30000	1	0.04	Cocoa-liscious
+4884	HPChange	0.02	0.00	perc	10000	1	0.02	Ice Cream Dream
+4885	MPChange	0.00	0.05	perc	15000	1	0.05	Smooth and Cool
+4956	HPChange	0.15	0.00	perc	1000	1	0.15	Easter Egg Basket
+10100	HPChange	-11.00	0.00	abs	5000	1	-11.00	Virulence
+10101	HPChange	-23.00	0.00	abs	5000	1	-23.00	Virulence
+10102	HPChange	-58.00	0.00	abs	5000	1	-58.00	Virulence
+10103	HPChange	-144.00	0.00	abs	5000	1	-144.00	Virulence
+10104	HPChange	-341.00	0.00	abs	5000	1	-341.00	Virulence
+10105	HPChange	-763.00	0.00	abs	5000	1	-763.00	Virulence
+10106	HPChange	-1052.00	0.00	abs	5000	1	-1052.00	Virulence
+10110	HPChange	-14.00	0.00	abs	5000	1	-14.00	Virulence
+10111	HPChange	-28.00	0.00	abs	5000	1	-28.00	Virulence
+10112	HPChange	-71.00	0.00	abs	5000	1	-71.00	Virulence
+10113	HPChange	-177.00	0.00	abs	5000	1	-177.00	Virulence
+10114	HPChange	-421.00	0.00	abs	5000	1	-421.00	Virulence
+10115	HPChange	-942.00	0.00	abs	5000	1	-942.00	Virulence
+10116	HPChange	-1298.00	0.00	abs	5000	1	-1298.00	Virulence
+10120	HPChange	-12.00	0.00	abs	5000	1	-12.00	Virulence
+10121	HPChange	-26.00	0.00	abs	5000	1	-26.00	Virulence
+10122	HPChange	-64.00	0.00	abs	5000	1	-64.00	Virulence
+10123	HPChange	-161.00	0.00	abs	5000	1	-161.00	Virulence
+10124	HPChange	-381.00	0.00	abs	5000	1	-381.00	Virulence
+10125	HPChange	-853.00	0.00	abs	5000	1	-853.00	Virulence
+10700	HPChange	18.00	0.00	abs	10000	2	18.00	Restoration I
+10701	HPChange	31.00	0.00	abs	10000	2	31.00	Restoration II
+10702	HPChange	60.00	0.00	abs	10000	2	60.00	Restoration III
+10703	HPChange	114.00	0.00	abs	10000	2	114.00	Restoration IV
+10704	HPChange	230.00	0.00	abs	10000	2	230.00	Restoration V
+10705	HPChange	445.00	0.00	abs	10000	2	445.00	Restoration VI
+10706	HPChange	503.00	0.00	abs	10000	2	503.00	Restoration VII
+10710	HPChange	23.00	0.00	abs	10000	2	23.00	Restoration I
+10711	HPChange	40.00	0.00	abs	10000	2	40.00	Restoration II
+10712	HPChange	77.00	0.00	abs	10000	2	77.00	Restoration III
+10713	HPChange	146.00	0.00	abs	10000	2	146.00	Restoration IV
+10714	HPChange	294.00	0.00	abs	10000	2	294.00	Restoration V
+10715	HPChange	570.00	0.00	abs	10000	2	570.00	Restoration VI
+10716	HPChange	644.00	0.00	abs	10000	2	644.00	Restoration VII
+10720	HPChange	20.00	0.00	abs	10000	2	20.00	Restoration I
+10721	HPChange	36.00	0.00	abs	10000	2	36.00	Restoration II
+10722	HPChange	68.00	0.00	abs	10000	2	68.00	Restoration III
+10723	HPChange	130.00	0.00	abs	10000	2	130.00	Restoration IV
+10724	HPChange	262.00	0.00	abs	10000	2	262.00	Restoration V
+10725	HPChange	507.00	0.00	abs	10000	2	507.00	Restoration VI
+10800	HPChange	43.00	0.00	abs	3000	1	43.00	Restoration I
+10801	HPChange	75.00	0.00	abs	3000	1	75.00	Restoration II
+10802	HPChange	144.00	0.00	abs	3000	1	144.00	Restoration III
+10803	HPChange	274.00	0.00	abs	3000	1	274.00	Restoration IV
+10804	HPChange	552.00	0.00	abs	3000	1	552.00	Restoration V
+10805	HPChange	1068.00	0.00	abs	3000	1	1068.00	Restoration VI
+10806	HPChange	1207.00	0.00	abs	3000	1	1207.00	Restoration VII
+10900	MPChange	0.00	38.00	abs	3000	1	38.00	Infusion I
+10901	MPChange	0.00	42.00	abs	3000	1	42.00	Infusion II
+10902	MPChange	0.00	50.00	abs	3000	1	50.00	Infusion III
+10903	MPChange	0.00	58.00	abs	3000	1	58.00	Infusion IV
+10904	MPChange	0.00	61.00	abs	3000	1	61.00	Infusion V
+10905	MPChange	0.00	63.00	abs	3000	1	63.00	Infusion VI
+10906	MPChange	0.00	65.00	abs	3000	1	65.00	Infusion VII
+10910	MPChange	0.00	49.00	abs	3000	1	49.00	Infusion I
+10911	MPChange	0.00	54.00	abs	3000	1	54.00	Infusion II
+10912	MPChange	0.00	63.00	abs	3000	1	63.00	Infusion III
+10913	MPChange	0.00	75.00	abs	3000	1	75.00	Infusion IV
+10914	MPChange	0.00	78.00	abs	3000	1	78.00	Infusion V
+10915	MPChange	0.00	80.00	abs	3000	1	80.00	Infusion VI
+10916	MPChange	0.00	82.00	abs	3000	1	82.00	Infusion VII
+10920	MPChange	0.00	43.00	abs	3000	1	43.00	Infusion I
+10921	MPChange	0.00	47.00	abs	3000	1	47.00	Infusion II
+10922	MPChange	0.00	55.00	abs	3000	1	55.00	Infusion III
+10923	MPChange	0.00	65.00	abs	3000	1	65.00	Infusion IV
+10924	MPChange	0.00	68.00	abs	3000	1	68.00	Infusion V
+10925	MPChange	0.00	71.00	abs	3000	1	71.00	Infusion VI
+11000	MPChange	0.00	34.00	abs	3000	1	34.00	Infusion I
+11001	MPChange	0.00	37.00	abs	3000	1	37.00	Infusion II
+11002	MPChange	0.00	44.00	abs	3000	1	44.00	Infusion III
+11003	MPChange	0.00	51.00	abs	3000	1	51.00	Infusion IV
+11004	MPChange	0.00	54.00	abs	3000	1	54.00	Infusion V
+11005	MPChange	0.00	61.00	abs	3000	1	61.00	Infusion VI
+11006	MPChange	0.00	63.00	abs	3000	1	63.00	Infusion VII
+11010	MPChange	0.00	45.00	abs	3000	1	45.00	Infusion I
+11011	MPChange	0.00	49.00	abs	3000	1	49.00	Infusion II
+11012	MPChange	0.00	58.00	abs	3000	1	58.00	Infusion III
+11013	MPChange	0.00	68.00	abs	3000	1	68.00	Infusion IV
+11014	MPChange	0.00	71.00	abs	3000	1	71.00	Infusion V
+11015	MPChange	0.00	78.00	abs	3000	1	78.00	Infusion VI
+11016	MPChange	0.00	80.00	abs	3000	1	80.00	Infusion VII
+11020	MPChange	0.00	38.00	abs	3000	1	38.00	Infusion I
+11021	MPChange	0.00	42.00	abs	3000	1	42.00	Infusion II
+11022	MPChange	0.00	49.00	abs	3000	1	49.00	Infusion III
+11023	MPChange	0.00	58.00	abs	3000	1	58.00	Infusion IV
+11024	MPChange	0.00	61.00	abs	3000	1	61.00	Infusion V
+11025	MPChange	0.00	64.00	abs	3000	1	64.00	Infusion VI
+11100	MPChange	0.00	30.00	abs	1000	1	30.00	[Test]_Instant MP Replenishment I [Crystal]
+11101	MPChange	0.00	36.00	abs	1000	1	36.00	[Test]_Instant MP Replenishment II [Crystal]
+11102	MPChange	0.00	42.00	abs	1000	1	42.00	[Test]_Instant MP Replenishment III [Crystal]
+11103	MPChange	0.00	48.00	abs	1000	1	48.00	[Test]_Instant MP Replenishment IV [Crystal]
+11104	MPChange	0.00	54.00	abs	1000	1	54.00	[Test]_Instant MP Replenishment V [Crystal]
+11105	MPChange	0.00	60.00	abs	1000	1	60.00	[Test]_Instant MP Replenishment VI [Crystal]
+11106	MPChange	0.00	62.00	abs	1000	1	62.00	Instant MP Replenishment VII [Crystal]
+11110	MPChange	0.00	41.00	abs	1000	1	41.00	[Test]_Instant MP Replenishment I [Crystal]
+11111	MPChange	0.00	49.00	abs	1000	1	49.00	[Test]_Instant MP Replenishment II [Crystal]
+11112	MPChange	0.00	57.00	abs	1000	1	57.00	[Test]_Instant MP Replenishment III [Crystal]
+11113	MPChange	0.00	65.00	abs	1000	1	65.00	[Test]_Instant MP Replenishment IV [Crystal]
+11114	MPChange	0.00	73.00	abs	1000	1	73.00	[Test]_Instant MP Replenishment V [Crystal]
+11115	MPChange	0.00	81.00	abs	1000	1	81.00	[Test]_Instant MP Replenishment VI [Crystal]
+11119	MPChange	0.00	84.00	abs	1000	1	84.00	Instant MP Replenishment VII [Crystal]
+11120	MPChange	0.00	35.00	abs	1000	1	35.00	Instant MP Replenishment I [Crystal]
+11121	MPChange	0.00	42.00	abs	1000	1	42.00	Instant MP Replenishment II [Crystal]
+11122	MPChange	0.00	49.00	abs	1000	1	49.00	Instant MP Replenishment III [Crystal]
+11123	MPChange	0.00	56.00	abs	1000	1	56.00	Instant MP Replenishment IV [Crystal]
+11124	MPChange	0.00	63.00	abs	1000	1	63.00	Instant MP Replenishment V [Crystal]
+11125	MPChange	0.00	71.00	abs	1000	1	71.00	Instant MP Replenishment VI [Crystal]
+11200	MPChange	0.00	39.00	abs	1000	1	39.00	[Test]_Instant MP Replenishment I [Crystal]
+11201	MPChange	0.00	47.00	abs	1000	1	47.00	[Test]_Instant MP Replenishment II [Crystal]
+11202	MPChange	0.00	55.00	abs	1000	1	55.00	[Test]_Instant MP Replenishment III [Crystal]
+11203	MPChange	0.00	63.00	abs	1000	1	63.00	[Test]_Instant MP Replenishment IV [Crystal]
+11204	MPChange	0.00	71.00	abs	1000	1	71.00	[Test]_Instant MP Replenishment V [Crystal]
+11205	MPChange	0.00	79.00	abs	1000	1	79.00	[Test]_Instant MP Replenishment VI [Crystal]
+11206	MPChange	0.00	82.00	abs	1000	1	82.00	Instant MP Replenishment VII [Crystal]
+11210	MPChange	0.00	53.00	abs	1000	1	53.00	[Test]_Instant MP Replenishment I [Crystal]
+11211	MPChange	0.00	64.00	abs	1000	1	64.00	[Test]_Instant MP Replenishment II [Crystal]
+11212	MPChange	0.00	74.00	abs	1000	1	74.00	[Test]_Instant MP Replenishment III [Crystal]
+11213	MPChange	0.00	85.00	abs	1000	1	85.00	[Test]_Instant MP Replenishment IV [Crystal]
+11214	MPChange	0.00	95.00	abs	1000	1	95.00	[Test]_Instant MP Replenishment V [Crystal]
+11215	MPChange	0.00	106.00	abs	1000	1	106.00	[Test]_Instant MP Replenishment VI [Crystal]
+11216	MPChange	0.00	110.00	abs	1000	1	110.00	Instant MP Replenishment VII [Crystal]
+11220	MPChange	0.00	46.00	abs	1000	1	46.00	Instant MP Replenishment I [Crystal]
+11221	MPChange	0.00	55.00	abs	1000	1	55.00	Instant MP Replenishment II [Crystal]
+11222	MPChange	0.00	65.00	abs	1000	1	65.00	Instant MP Replenishment III [Crystal]
+11223	MPChange	0.00	74.00	abs	1000	1	74.00	Instant MP Replenishment IV [Crystal]
+11224	MPChange	0.00	83.00	abs	1000	1	83.00	Instant MP Replenishment V [Crystal]
+11225	MPChange	0.00	92.00	abs	1000	1	92.00	Instant MP Replenishment VI [Crystal]
+12001	MPChange	0.00	20.00	abs	3000	1	20.00	Infusion VII
+12003	MPChange	0.00	21.00	abs	3000	1	21.00	Infusion VII
+12004	MPChange	0.00	21.00	abs	1000	1	21.00	Salivating VII
+12010	MPChange	0.00	28.00	abs	1000	1	28.00	Grieving VII
+12060	HPChange	-1373.00	0.00	abs	5000	1	-1373.00	Virulence
+12120	MPChange	0.00	85.00	abs	3000	1	85.00	Infusion VII
+12130	MPChange	0.00	83.00	abs	3000	1	83.00	Infusion VII
+12170	MPChange	0.00	89.00	abs	1000	1	89.00	Salivating VII
+12250	HPChange	755.00	0.00	abs	10000	2	755.00	Restoration VII
+12290	MPChange	0.00	117.00	abs	1000	1	117.00	Grieving VII
+15020	Endurance	0.00	0.00	abs	30000	0	10.00	Dancing Bones
+15040	HPChange	-3710.00	0.00	abs	6000	2	-3710.00	Pulsing Flame
+15041	HPChange	-3710.00	0.00	abs	6000	2	-3710.00	Pulsing Flame
+15080	HPChange	-10.00	0.00	abs	30000	1	-10.00	Shargrim's Lightning
+15100	HPChange	-4770.00	0.00	abs	4000	2	-4770.00	Curse of Beast: Intoxicate
+15170	HPChange	-3710.00	0.00	abs	6000	2	-3710.00	Thunderlash
+18500	HPChange	0.02	0.00	perc	10000	1	0.02	Restoration
+18501	HPChange	0.03	0.00	perc	10000	1	0.03	Continual HP Recovery
+18502	HPChange	0.03	0.00	perc	10000	1	0.03	Continual HP Recovery
+18600	MPChange	0.00	0.02	perc	10000	1	0.02	Infusion
+18601	MPChange	0.00	0.02	perc	10000	1	0.02	Continual MP Replenishment
+18602	MPChange	0.00	0.02	perc	10000	1	0.02	Continual MP Replenishment
+18700	MPChange	0.00	150.00	abs	1000	1	150.00	MP Replenishment [Equipment Effect]
+18710	MPChange	0.00	75.00	abs	1000	1	75.00	MP Replenishment [Equipment Effect]
+18720	HPChange	0.30	0.00	perc	1000	1	0.30	HP Replenishment [Equipment Effect]
+18730	HPChange	0.15	0.00	perc	1000	1	0.15	HP Recovery [Equipment Effect]
+18740	HPChange	0.20	0.00	perc	1000	1	0.20	HP Recovery [Equipment Effect]
+18750	HPChange	0.10	0.00	perc	1000	1	0.10	HP Recovery [Equipment Effect]
+21160	Endurance	0.00	0.00	abs	8000	0	25.00	Glyph of Grounding
+22110	Endurance	0.00	0.00	abs	8000	0	21.00	Glyph of Grounding
+23050	Endurance	0.00	0.00	perc	10000	0	1.20	Glyph of Grounding
+23210	MPChange	0.00	0.06	perc	5000	1	0.06	Glyph of Infusion
+24092	Endurance	0.00	0.00	abs	8000	0	21.00	Glyph of Grounding
+24140	Endurance	0.00	0.00	abs	12000	0	16.00	Glyph of Grounding
+24150	MPChange	0.00	0.06	perc	5000	1	0.06	Glyph of Infusion
+25020	Endurance	0.00	0.00	perc	15000	0	1.20	Glyph of Grounding
+25021	Endurance	0.00	0.00	abs	15000	0	16.00	Glyph of Grounding
+25180	HPChange	0.20	0.00	perc	1000	1	0.20	Glyph of Restoration
+26140	HPChange	0.02	0.00	perc	10000	1	0.02	Glyph of Restoration
+26141	HPChange	0.03	0.00	perc	10000	1	0.03	Glyph of Restoration
+26220	Endurance	0.00	0.00	perc	5000	0	0.97	Glyph of Enfeeblement
+26230	MPChange	0.00	0.06	perc	5000	1	0.06	Glyph of Infusion
+26251	Endurance	0.00	0.00	perc	15000	0	0.97	Glyph of Enfeeblement
+27120	Endurance	0.00	0.00	perc	600000	0	1.10	Glyph of Grounding
+27140	HPChange	0.20	0.00	perc	1000	1	0.20	Glyph of Restoration
+27160	Endurance	0.00	0.00	perc	16000	0	0.91	Glyph of Enfeeblement
+28030	Endurance	0.00	0.00	perc	12000	0	1.30	Glyph of Grounding
+28090	Endurance	0.00	0.00	perc	12000	0	0.90	Glyph of Enfeeblement
+28100	HPChange	0.05	0.00	perc	6000	2	0.05	Glyph of Restoration
+28110	HPChange	0.15	0.00	perc	5000	1	0.15	Glyph of Restoration
+28130	MPChange	0.00	50.00	abs	5000	1	50.00	Glyph of Infusion
+31120	Endurance	0.00	0.00	perc	5000	0	1.00	Glyph of Protection
+48731	MPChange	0.00	0.05	perc	15000	1	0.05	Sarberry Deliciousness
+48734	Endurance	0.00	0.00	abs	60000	0	1.00	Tipsy
+48735	Endurance	0.00	0.00	abs	60000	0	2.00	Intoxicated
+48736	Endurance	0.00	0.00	abs	60000	0	3.00	Inebriated
+48737	Endurance	0.00	0.00	abs	60000	0	3.00	Drunk
+48738	Endurance	0.00	0.00	abs	60000	0	3.00	Wasted
+48744	MPChange	0.00	170.00	abs	15000	1	170.00	Sarberry Deliciousness
+60003	MPChange	0.00	300.00	abs	1000	1	300.00	Infused Etching III
+60004	HPChange	-900.00	0.00	abs	8000	1	-900.00	Lacerating
+60006	MPChange	0.00	90.00	abs	15000	1	90.00	Recovery Etching III
+60006	HPChange	900.00	0.00	abs	15000	1	900.00	Recovery Etching III
+60007	Endurance	0.00	0.00	abs	259200000	0	3.00	Heaven's Elixir
+60008	HPChange	-227.00	0.00	abs	5000	1	-227.00	Weapon: Toxicity
+60009	HPChange	-882.00	0.00	abs	5000	1	-882.00	Weapon: Lightning
+60010	Endurance	0.00	0.00	perc	20000	0	0.90	Armor: Hurricane
+60011	HPChange	-351.00	0.00	abs	5000	1	-351.00	Armor: Thorngrip
+60012	Endurance	0.00	0.00	perc	60000	0	1.10	Armor: Carapace
+60013	HPChange	0.03	0.00	perc	10000	1	0.03	Armor: Lifeswell
+60016	MPChange	0.00	436.00	abs	1000	1	436.00	Infused Etching III
+60017	HPChange	-1200.00	0.00	abs	10000	1	-1200.00	Lacerating Etching
+60019	MPChange	0.00	145.00	abs	15000	1	145.00	Recovery Etching III
+60019	HPChange	1405.00	0.00	abs	15000	1	1405.00	Recovery Etching III
+60020	HPChange	-250.00	0.00	abs	10000	1	-250.00	Weak Energy Curse
+70202	HPChange	0.01	0.00	perc	900000	5	0.01	Mudroot Salad
+70203	MPChange	0.00	0.01	perc	900000	5	0.01	Grilled Pigling
+70212	HPChange	0.01	0.00	perc	900000	5	0.01	Moongourd Muffin
+70212	Endurance	0.00	0.00	abs	900000	0	1.00	Moongourd Muffin
+70213	MPChange	0.00	0.01	perc	900000	5	0.01	Shevranberry Cookie
+70222	HPChange	0.01	0.00	perc	900000	5	0.01	Struthio Breast Salad
+70222	Endurance	0.00	0.00	abs	900000	0	2.00	Struthio Breast Salad
+70223	MPChange	0.00	0.01	perc	900000	5	0.01	Half-Moon Croquette
+70238	Endurance	0.00	0.00	abs	10000	0	10.00	Digory’s Honey Moongourd Drink
+70304	HPChange	0.01	0.00	perc	180003	3	0.01	Tranquil Regeneration
+70305	MPChange	0.00	0.01	perc	180004	3	0.01	Tranquil Replenishment
+70411	HPChange	-0.01	0.00	perc	10000	1	-0.01	Umbral Venom
+82102	Endurance	0.00	0.00	perc	45000	0	1.30	Potion of Shielding
+82605	Endurance	0.00	0.00	perc	180000	0	100.00	Cruor Aegis
+90101	HPChange	0.05	0.00	perc	10000	1	0.05	Resilience of Body
+90200	MPChange	0.00	0.05	perc	10000	1	0.05	Resilience of Mind
+90600	HPChange	1.00	0.00	perc	1000	1	1.00	Ancient Wellspring
+100100	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance I
+100101	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance II
+100102	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance III
+100103	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance IV
+100200	Endurance	0.00	0.00	perc	0	0	1.15	Defensive Stance I
+100201	Endurance	0.00	0.00	perc	0	0	1.20	Defensive Stance II
+100202	Endurance	0.00	0.00	perc	0	0	1.25	Defensive Stance III
+100203	Endurance	0.00	0.00	perc	0	0	1.25	Defensive Stance IV
+100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Poison Blade
+100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Poison Blade
+100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Poison Blade
+100503	HPChange	-438.00	0.00	abs	10000	2	-438.00	Poison Blade
+100504	HPChange	-612.00	0.00	abs	10000	2	-612.00	Poison Blade
+100505	HPChange	-845.00	0.00	abs	10000	2	-845.00	Poison Blade
+100506	HPChange	-1428.00	0.00	abs	10000	2	-1428.00	Poison Blade
+100507	HPChange	-1892.00	0.00	abs	10000	2	-1892.00	Poison Blade
+100508	HPChange	-6068.00	0.00	abs	10000	2	-6068.00	Poison Blade
+100520	HPChange	-92.00	0.00	abs	10000	2	-92.00	Poison Blade
+100521	HPChange	-127.00	0.00	abs	10000	2	-127.00	Poison Blade
+100522	HPChange	-175.00	0.00	abs	10000	2	-175.00	Poison Blade
+100523	HPChange	-242.00	0.00	abs	10000	2	-242.00	Poison Blade
+100524	HPChange	-334.00	0.00	abs	10000	2	-334.00	Poison Blade
+100525	HPChange	-461.00	0.00	abs	10000	2	-461.00	Poison Blade
+100526	HPChange	-720.00	0.00	abs	10000	2	-720.00	Poison Blade
+100527	HPChange	-954.00	0.00	abs	10000	2	-954.00	Poison Blade
+100528	HPChange	-1420.00	0.00	abs	10000	2	-1420.00	Poison Blade
+100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mangle
+101200	Endurance	0.00	0.00	perc	15000	0	0.92	Combative Strike
+101220	Endurance	0.00	0.00	perc	15000	0	0.92	Combative Strike
+101300	Endurance	0.00	0.00	perc	27000	0	1.00	Traverse Cut
+101600	Endurance	0.00	0.00	perc	15000	0	1.00	Smoke Flanker
+200230	Endurance	0.00	0.00	perc	0	0	1.91	Guardian Power I
+200231	Endurance	0.00	0.00	perc	0	0	1.91	Guardian Power II
+200232	Endurance	0.00	0.00	perc	0	0	1.91	Guardian Power III
+200300	Endurance	0.00	0.00	perc	12000	0	0.96	Debilitate
+200301	Endurance	0.00	0.00	perc	15000	0	0.96	Debilitate
+200302	Endurance	0.00	0.00	perc	18000	0	0.96	Debilitate
+400100	Endurance	0.00	0.00	perc	15000	0	0.60	Fiery Rage I
+400101	Endurance	0.00	0.00	perc	17000	0	0.60	Fiery Rage II
+400102	Endurance	0.00	0.00	perc	20000	0	0.60	Fiery Rage III
+400103	Endurance	0.00	0.00	perc	25000	0	0.60	Fiery Rage IV
+400104	Endurance	0.00	0.00	perc	27000	0	0.60	Fiery Rage IV
+400105	Endurance	0.00	0.00	perc	27000	0	0.60	Fiery Rage VI
+401400	MPChange	0.00	50.00	abs	0	1	50.00	Intimidation
+401500	Endurance	0.00	0.00	perc	15000	0	0.96	Punishing Strike
+429001	Endurance	0.00	0.00	abs	90000	0	500.00	Perfect Parry
+429004	Endurance	0.00	0.00	abs	10000	0	1.00	Kaprima's Target
+429006	HPChange	-0.05	0.00	perc	15000	1	-0.05	Viper Venom
+429007	HPChange	-3000.00	0.00	abs	30000	1	-3000.00	Bleeding
+429008	Endurance	0.00	0.00	abs	10000	0	-30.00	Decreased Defense
+429009	Endurance	0.00	0.00	abs	2500	0	-30.00	Danger Zone!
+429011	HPChange	-5000.00	0.00	abs	15000	1	-5000.00	Curse of Kaprima
+429017	HPChange	-0.50	0.00	perc	1000	1	-0.50	Drill Makes Me Ill
+429019	Endurance	0.00	0.00	perc	10000	0	1.00	Kaprima's Target
+429020	HPChange	-10000.00	0.00	abs	10000	1	-10000.00	Bleeding
+457004	HPChange	-0.05	0.00	perc	2000	1	-0.05	Heat
+457005	HPChange	-0.20	0.00	perc	20000	2	-0.20	Withering Fire
+457013	HPChange	0.10	0.00	perc	3000	2	0.10	Super-Cool-Awesome Sealed Sword
+457014	HPChange	-60000000.00	0.00	abs	1000	1	-60000000.00	Not supposed to be shown
+457016	Endurance	0.00	0.00	perc	0	0	20.00	Hardened
+457029	HPChange	-0.03	0.00	perc	0	2	-0.03	Akeron's Corrosion
+457030	Endurance	0.00	0.00	perc	0	0	100.00	Akeron's Blessed Form
+457031	HPChange	-0.03	0.00	perc	0	10	-0.03	Akeron's Corrosion
+457032	HPChange	-0.05	0.00	perc	0	10	-0.05	Akeron's Corrosion
+457033	HPChange	-0.07	0.00	perc	0	10	-0.07	Akeron's Corrosion
+457034	Endurance	0.00	0.00	perc	0	0	1.20	Akeron's Blessed Form
+457035	Endurance	0.00	0.00	perc	0	0	1.40	Akeron's Blessing-Hardened Body
+457036	Endurance	0.00	0.00	perc	0	0	1.60	Akeron's Blessing-Hardened Body
+457037	Endurance	0.00	0.00	perc	0	0	1.80	Akeron's Blessing-Hardened Body
+457050	Endurance	0.00	0.00	perc	0	0	100.00	Akeron's Blessed Form
+457054	HPChange	-0.10	0.00	perc	10000	2	-0.10	Bleeding
+457056	HPChange	-10000000.00	0.00	perc	3000	1	-10000000.00	Extinction
+460004	Endurance	0.00	0.00	perc	4000	0	1.00	Electric Shock
+460006	HPChange	-0.05	0.00	perc	60000	1	-0.05	Electric Shock Overload
+460013	Endurance	0.00	0.00	perc	6500	0	1.00	Alarm Effect
+460015	Endurance	0.00	0.00	perc	0	0	1.00	Water Pad Effect
+460017	Endurance	0.00	0.00	perc	0	0	1.00	Weakened
+460018	Endurance	0.00	0.00	perc	10000	0	1.00	Queasy
+460031	HPChange	-10000.00	0.00	abs	3000	1	-10000.00	Burning Grounds
+476219	Endurance	0.00	0.00	perc	5000	0	1.40	Double-edged Parry IV
+476220	Endurance	0.00	0.00	perc	300000	0	1.50	Double-edged Parry V
+476221	Endurance	0.00	0.00	perc	5000	0	0.80	Double-edged Strike II
+476222	Endurance	0.00	0.00	perc	5000	0	0.70	Double-edged Strike III
+476223	Endurance	0.00	0.00	perc	5000	0	0.60	Double-edged Strike IV
+476224	Endurance	0.00	0.00	perc	300000	0	0.50	Double-edged Strike V
+476618	HPChange	-0.60	0.00	perc	10000	10	-0.60	Stunned in Shock
+476619	Endurance	0.00	0.00	perc	1000	0	1.00	Electricity Recharge Basic Remove
+476621	HPChange	0.20	0.00	perc	1000	1	0.20	Deep Sleep
+476628	HPChange	-0.30	0.00	perc	5000	5	-0.30	Stunned in Shock
+476629	Endurance	0.00	0.00	perc	1000	0	1.00	Electricity Recharge Basic Remove
+476705	MPChange	0.00	-0.50	perc	30000	1	-0.50	Purification of Dagon Effect
+476906	HPChange	-0.50	0.00	perc	1000	1	-0.50	Death's Touch
+476907	HPChange	-0.02	0.00	perc	60000	1	-0.02	Spiritual Breakdown
+476908	Endurance	0.00	0.00	perc	15000	0	1.00	Electric Arc
+477007	HPChange	-0.50	0.00	perc	2000	2	-0.50	Parasitic Bite
+477014	HPChange	-0.50	0.00	perc	6000	1	-0.50	System Seizure
+477101	Endurance	0.00	0.00	perc	0	0	2.00	Indomitable Spirit
+494550	HPChange	-0.02	0.00	perc	0	1	-0.02	Polluted Blood
+500300	MPChange	0.00	120.00	abs	25000	2	120.00	Mana Infusion I
+500301	MPChange	0.00	120.00	abs	25000	1	120.00	Mana Infusion II
+500700	HPChange	-26.00	0.00	abs	10000	2	-26.00	Painblast
+500701	HPChange	-40.00	0.00	abs	10000	2	-40.00	Painblast
+500702	HPChange	-58.00	0.00	abs	10000	2	-58.00	Painblast
+500703	HPChange	-85.00	0.00	abs	10000	2	-85.00	Painblast
+500704	HPChange	-121.00	0.00	abs	10000	2	-121.00	Painblast
+500705	HPChange	-174.00	0.00	abs	10000	2	-174.00	Painblast
+500706	HPChange	-241.00	0.00	abs	10000	2	-241.00	Painblast
+500707	HPChange	-341.00	0.00	abs	10000	2	-341.00	Painblast
+500708	HPChange	-516.00	0.00	abs	10000	2	-516.00	Painblast
+500720	HPChange	-27.00	0.00	abs	10000	2	-27.00	Painblast
+500721	HPChange	-37.00	0.00	abs	10000	2	-37.00	Painblast
+500722	HPChange	-51.00	0.00	abs	10000	2	-51.00	Painblast
+500723	HPChange	-71.00	0.00	abs	10000	2	-71.00	Painblast
+500724	HPChange	-97.00	0.00	abs	10000	2	-97.00	Painblast
+500725	HPChange	-134.00	0.00	abs	10000	2	-134.00	Painblast
+500726	HPChange	-186.00	0.00	abs	10000	2	-186.00	Painblast
+500727	HPChange	-258.00	0.00	abs	10000	2	-258.00	Painblast
+500728	HPChange	-382.00	0.00	abs	10000	2	-382.00	Painblast
+501000	HPChange	-1175.00	0.00	abs	10000	2	-1175.00	Burning Breath
+501001	HPChange	-1631.00	0.00	abs	10000	2	-1631.00	Burning Breath
+501002	HPChange	-2305.00	0.00	abs	10000	2	-2305.00	Burning Breath
+501003	HPChange	-3120.00	0.00	abs	10000	2	-3120.00	Burning Breath
+501020	HPChange	-890.00	0.00	abs	10000	2	-890.00	Burning Breath
+501021	HPChange	-1228.00	0.00	abs	10000	2	-1228.00	Burning Breath
+501022	HPChange	-1704.00	0.00	abs	10000	2	-1704.00	Burning Breath
+501023	HPChange	-2259.00	0.00	abs	10000	2	-2259.00	Burning Breath
+501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Mana Volley I
+501101	MPChange	0.00	-206.00	abs	10000	2	-206.00	Mana Volley II
+501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Mana Volley I
+501151	MPChange	0.00	-0.30	perc	1000	1	-0.30	Mana Volley II
+501160	MPChange	0.00	0.25	perc	1000	1	0.25	
+501161	MPChange	0.00	0.30	perc	1000	1	0.30	
+600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	Poison Trap
+600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	Poison Trap
+600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	Poison Trap
+600603	HPChange	-518.00	0.00	abs	10000	2	-518.00	Poison Trap
+600604	HPChange	-1048.00	0.00	abs	10000	2	-1048.00	Poison Trap
+600605	HPChange	-1575.00	0.00	abs	10000	2	-1575.00	Poison Trap
+600620	HPChange	-57.00	0.00	abs	10000	2	-57.00	Poison Trap
+600621	HPChange	-109.00	0.00	abs	10000	2	-109.00	Poison Trap
+600622	HPChange	-209.00	0.00	abs	10000	2	-209.00	Poison Trap
+600623	HPChange	-398.00	0.00	abs	10000	2	-398.00	Poison Trap
+600624	HPChange	-778.00	0.00	abs	10000	2	-778.00	Poison Trap
+600625	HPChange	-1091.00	0.00	abs	10000	2	-1091.00	Poison Trap
+600900	HPChange	-270.00	0.00	abs	12000	2	-270.00	Poison Arrow
+600901	HPChange	-389.00	0.00	abs	12000	2	-389.00	Poison Arrow
+600902	HPChange	-589.00	0.00	abs	12000	2	-589.00	Poison Arrow
+600903	HPChange	-849.00	0.00	abs	12000	2	-849.00	Poison Arrow
+600904	HPChange	-1179.00	0.00	abs	12000	2	-1179.00	Poison Arrow
+600905	HPChange	-1626.00	0.00	abs	12000	2	-1626.00	Poison Arrow
+600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Poison Arrow
+600907	HPChange	-3128.00	0.00	abs	12000	2	-3128.00	Poison Arrow
+600908	HPChange	-3780.00	0.00	abs	12000	2	-3780.00	Poison Arrow
+600920	HPChange	-232.00	0.00	abs	12000	2	-232.00	Poison Arrow
+600921	HPChange	-160.00	0.00	abs	12000	2	-160.00	Poison Arrow
+600922	HPChange	-221.00	0.00	abs	12000	2	-221.00	Poison Arrow
+600923	HPChange	-306.00	0.00	abs	12000	2	-306.00	Poison Arrow
+600924	HPChange	-422.00	0.00	abs	12000	2	-422.00	Poison Arrow
+600925	HPChange	-583.00	0.00	abs	12000	2	-583.00	Poison Arrow
+600926	HPChange	-813.00	0.00	abs	12000	2	-813.00	Poison Arrow
+600927	HPChange	-1078.00	0.00	abs	12000	2	-1078.00	Poison Arrow
+600928	HPChange	-1427.00	0.00	abs	12000	2	-1427.00	Poison Arrow
+601110	Endurance	0.00	0.00	abs	0	0	4.00	Eagle's Eye I
+601111	Endurance	0.00	0.00	abs	0	0	8.00	Eagle's Eye II
+700200	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding I
+700201	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding II
+700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding III
+700203	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding IV
+700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Tenacious
+700330	MPChange	0.00	20.00	abs	0	1	20.00	Aura of the Tenacious
+700400	HPChange	43.00	0.00	abs	10000	1	43.00	Titanic Favor I
+700401	HPChange	54.00	0.00	abs	10000	1	54.00	Titanic Favor II
+700402	HPChange	66.00	0.00	abs	10000	1	66.00	Titanic Favor III
+700403	HPChange	79.00	0.00	abs	10000	1	79.00	Titanic Favor IV
+700404	HPChange	89.00	0.00	abs	10000	1	89.00	Titanic Favor V
+700405	HPChange	97.00	0.00	abs	10000	1	97.00	Titanic Favor VI
+700406	HPChange	101.00	0.00	abs	10000	1	101.00	Titanic Favor VII
+700407	HPChange	105.00	0.00	abs	10000	1	105.00	Titanic Favor VIII
+700408	HPChange	109.00	0.00	abs	10000	1	109.00	Titanic Favor IX
+700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Merciless I
+700601	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Merciless II
+700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Swift I
+700701	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Swift II - Release
+700800	HPChange	-62.00	0.00	abs	10000	2	-62.00	Volley of Curses
+700801	HPChange	-96.00	0.00	abs	10000	2	-96.00	Volley of Curses
+700802	HPChange	-138.00	0.00	abs	10000	2	-138.00	Volley of Curses
+700803	HPChange	-205.00	0.00	abs	10000	2	-205.00	Volley of Curses
+700804	HPChange	-289.00	0.00	abs	10000	2	-289.00	Volley of Curses
+700805	HPChange	-417.00	0.00	abs	10000	2	-417.00	Volley of Curses
+700806	HPChange	-578.00	0.00	abs	10000	2	-578.00	Volley of Curses
+700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volley of Curses
+700808	HPChange	-1238.00	0.00	abs	10000	2	-1238.00	Volley of Curses
+700820	HPChange	-63.00	0.00	abs	10000	2	-63.00	Volley of Curses
+700821	HPChange	-86.00	0.00	abs	10000	2	-86.00	Volley of Curses
+700822	HPChange	-133.00	0.00	abs	10000	2	-133.00	Volley of Curses
+700823	HPChange	-191.00	0.00	abs	10000	2	-191.00	Volley of Curses
+700824	HPChange	-283.00	0.00	abs	10000	2	-283.00	Volley of Curses
+700825	HPChange	-399.00	0.00	abs	10000	2	-399.00	Volley of Curses
+700826	HPChange	-576.00	0.00	abs	10000	2	-576.00	Volley of Curses
+700827	HPChange	-802.00	0.00	abs	10000	2	-802.00	Volley of Curses
+700828	HPChange	-1212.00	0.00	abs	10000	2	-1212.00	Volley of Curses
+700900	MPChange	0.00	100.00	abs	20000	1	100.00	Mana Infusion
+701000	HPChange	70.00	0.00	abs	10000	2	70.00	Grace of the Spirit I
+701001	HPChange	88.00	0.00	abs	10000	2	88.00	Grace of the Spirit II
+701002	HPChange	109.00	0.00	abs	10000	2	109.00	Grace of the Spirit III
+701003	HPChange	135.00	0.00	abs	10000	2	135.00	Grace of the Spirit IV
+701004	HPChange	168.00	0.00	abs	10000	2	168.00	Grace of the Spirit V
+701005	HPChange	208.00	0.00	abs	10000	2	208.00	Grace of the Spirit VI
+701006	HPChange	258.00	0.00	abs	10000	2	258.00	Grace of the Spirit VII
+701007	HPChange	320.00	0.00	abs	10000	2	320.00	Grace of the Spirit VIII
+701008	HPChange	397.00	0.00	abs	10000	2	397.00	Grace of the Spirit IX
+701009	HPChange	493.00	0.00	abs	10000	2	493.00	Grace of the Spirit X
+701010	HPChange	614.00	0.00	abs	10000	2	614.00	Grace of the Spirit XI
+701011	HPChange	769.00	0.00	abs	10000	2	769.00	Grace of the Spirit XII
+701012	HPChange	914.00	0.00	abs	10000	2	914.00	Grace of the Spirit XIII
+701500	HPChange	187.00	0.00	abs	5000	1	187.00	Arun's Vitae I
+701501	HPChange	247.00	0.00	abs	5000	1	247.00	Arun's Vitae II
+701502	HPChange	344.00	0.00	abs	5000	1	344.00	Arun's Vitae III
+701503	HPChange	476.00	0.00	abs	5000	1	476.00	Arun's Vitae IV
+701504	HPChange	659.00	0.00	abs	5000	1	659.00	Arun's Vitae V
+701505	HPChange	912.00	0.00	abs	5000	1	912.00	Arun's Vitae VI
+701506	HPChange	1259.00	0.00	abs	5000	1	1259.00	Arun's Vitae VII
+701507	HPChange	1739.00	0.00	abs	5000	1	1739.00	Arun's Vitae VIII
+701508	HPChange	2401.00	0.00	abs	5000	1	2401.00	Arun's Vitae IX
+701509	HPChange	3319.00	0.00	abs	5000	1	3319.00	Arun's Vitae X
+701510	HPChange	4917.00	0.00	abs	5000	1	4917.00	Arun's Vitae XI
+701511	HPChange	3319.00	0.00	abs	5000	1	3319.00	Arun's Vitae XII
+701605	HPChange	529.00	0.00	abs	15000	2	529.00	Warding Totem I
+701607	HPChange	700.00	0.00	abs	15000	2	700.00	Warding Totem II
+701700	Endurance	0.00	0.00	perc	20000	0	0.95	Infection
+701701	Endurance	0.00	0.00	perc	20000	0	0.95	Infection
+701800	HPChange	-15086.00	0.00	abs	5000	1	-15086.00	Affliction
+701801	HPChange	-1953.00	0.00	abs	5000	1	-1953.00	Affliction
+757004	HPChange	-0.03	0.00	perc	2000	1	-0.03	Heat
+757005	HPChange	-0.10	0.00	perc	20000	2	-0.10	Withering Fire
+757013	HPChange	0.10	0.00	perc	3000	2	0.10	Super-Cool-Awesome Sealed Sword
+757014	HPChange	-60000000.00	0.00	abs	1000	1	-60000000.00	Not supposed to be shown
+757016	Endurance	0.00	0.00	perc	0	0	10.00	Hardened
+757029	HPChange	-0.03	0.00	perc	0	2	-0.03	Akeron's Corrosion
+757030	Endurance	0.00	0.00	perc	0	0	100.00	Akeron's Blessing-Hardened Body
+757031	HPChange	-0.03	0.00	perc	0	10	-0.03	Akeron's Corrosion
+757032	HPChange	-0.05	0.00	perc	0	10	-0.05	Akeron's Corrosion
+757033	HPChange	-0.07	0.00	perc	0	10	-0.07	Akeron's Corrosion
+757034	Endurance	0.00	0.00	perc	0	0	1.20	Akeron's Blessed Form
+757035	Endurance	0.00	0.00	perc	0	0	1.40	Akeron's Blessed Form
+757036	Endurance	0.00	0.00	perc	0	0	1.60	Akeron's Blessed Form
+757037	Endurance	0.00	0.00	perc	0	0	1.80	Akeron's Blessed Form
+757050	Endurance	0.00	0.00	perc	0	0	100.00	Akeron's Blessed Form
+757054	HPChange	-0.05	0.00	perc	10000	2	-0.05	Bleeding
+760003	Endurance	0.00	0.00	perc	45000	0	1.00	Electrical Overload
+760004	Endurance	0.00	0.00	perc	4000	0	1.00	Electric Shock
+760006	HPChange	-0.05	0.00	perc	60000	1	-0.05	Electric Shock Overload
+760013	Endurance	0.00	0.00	perc	6500	0	1.00	Alarm Effect
+760015	Endurance	0.00	0.00	perc	0	0	1.00	Water Pad Effect
+760017	Endurance	0.00	0.00	perc	0	0	1.00	Weakened
+760018	Endurance	0.00	0.00	perc	10000	0	1.00	Queasy
+760020	Endurance	0.00	0.00	perc	5000	0	0.70	Shellshocked
+760031	HPChange	-10000.00	0.00	abs	3000	1	-10000.00	Burning Grounds
+776025	HPChange	-30000.00	0.00	abs	5000	1	-30000.00	Pirate Ship_Explosion of Darkness
+776026	HPChange	-0.30	0.00	perc	5000	1	-0.30	Pirate Ship_Damage of Darkness Serial Effect
+777007	HPChange	-0.30	0.00	perc	2000	2	-0.30	Parasitic Bite
+777014	HPChange	-0.20	0.00	perc	6000	1	-0.20	System Seizure
+777033	HPChange	-5000.00	0.00	abs	20000	2	-5000.00	Demokron Virus
+777034	HPChange	-0.01	0.00	perc	70000	1	-0.01	Demokron's Curse
+800100	HPChange	88.00	0.00	abs	10000	2	88.00	Regeneration Circle I
+800101	HPChange	111.00	0.00	abs	10000	2	111.00	Regeneration Circle II
+800102	HPChange	136.00	0.00	abs	10000	2	136.00	Regeneration Circle III
+800103	HPChange	161.00	0.00	abs	10000	2	161.00	Regeneration Circle IV
+800104	HPChange	182.00	0.00	abs	10000	2	182.00	Regeneration Circle V
+800105	HPChange	198.00	0.00	abs	10000	2	198.00	Regeneration Circle VI
+800106	HPChange	208.00	0.00	abs	10000	2	208.00	Regeneration Circle VII
+800107	HPChange	214.00	0.00	abs	10000	2	214.00	Regeneration Circle VIII
+800108	HPChange	220.00	0.00	abs	10000	2	220.00	Regeneration Circle IX
+800200	MPChange	0.00	100.00	abs	20000	1	100.00	Mana Infusion
+800500	Endurance	0.00	0.00	abs	900000	0	6.00	Blessing of Seren I
+800501	Endurance	0.00	0.00	abs	900000	0	11.00	Blessing of Seren II
+800600	HPChange	55.00	0.00	abs	900000	2	55.00	Blessing of Balder I
+800601	HPChange	62.00	0.00	abs	900000	2	62.00	Blessing of Balder II
+800602	HPChange	67.00	0.00	abs	900000	2	67.00	Blessing of Balder III
+800603	HPChange	71.00	0.00	abs	900000	2	71.00	Blessing of Balder IV
+800604	HPChange	73.00	0.00	abs	900000	2	73.00	Blessing of Balder V
+800900	HPChange	-136.00	0.00	abs	15000	3	-136.00	Plague of Exhaustion
+800901	HPChange	-193.00	0.00	abs	15000	3	-193.00	Plague of Exhaustion II
+800902	HPChange	-284.00	0.00	abs	15000	3	-284.00	Plague of Exhaustion III
+800903	HPChange	-410.00	0.00	abs	15000	3	-410.00	Plague of Exhaustion IV
+800904	HPChange	-569.00	0.00	abs	15000	3	-569.00	Plague of Exhaustion V
+800905	HPChange	-786.00	0.00	abs	15000	3	-786.00	Plague of Exhaustion VI
+800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Plague of Exhaustion VII
+800907	HPChange	-1518.00	0.00	abs	15000	3	-1518.00	Plague of Exhaustion VIII
+800920	HPChange	-116.00	0.00	abs	15000	3	-116.00	Plague of Exhaustion
+800921	HPChange	-161.00	0.00	abs	15000	3	-161.00	Plague of Exhaustion II
+800922	HPChange	-222.00	0.00	abs	15000	3	-222.00	Plague of Exhaustion III
+800923	HPChange	-307.00	0.00	abs	15000	3	-307.00	Plague of Exhaustion IV
+800924	HPChange	-423.00	0.00	abs	15000	3	-423.00	Plague of Exhaustion V
+800925	HPChange	-585.00	0.00	abs	15000	3	-585.00	Plague of Exhaustion VI
+800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Plague of Exhaustion VII
+800927	HPChange	-1086.00	0.00	abs	15000	3	-1086.00	Plague of Exhaustion VIII
+801100	HPChange	0.02	0.00	perc	10000	1	0.02	Divine Respite I
+801101	HPChange	0.02	0.00	perc	10000	1	0.02	Divine Respite II
+801400	HPChange	136.00	0.00	abs	5000	1	136.00	Restorative Burst I
+801401	HPChange	181.00	0.00	abs	5000	1	181.00	Restorative Burst II
+801402	HPChange	235.00	0.00	abs	5000	1	235.00	Restorative Burst III
+801403	HPChange	298.00	0.00	abs	5000	1	298.00	Restorative Burst IV
+801404	HPChange	366.00	0.00	abs	5000	1	366.00	Restorative Burst V
+801405	HPChange	431.00	0.00	abs	5000	1	431.00	Restorative Burst VI
+801406	HPChange	489.00	0.00	abs	5000	1	489.00	Restorative Burst VII
+801407	HPChange	533.00	0.00	abs	5000	1	533.00	Restorative Burst VIII
+801408	HPChange	559.00	0.00	abs	5000	1	559.00	Restorative Burst IX
+801409	HPChange	575.00	0.00	abs	5000	1	575.00	Restorative Burst X
+801410	HPChange	588.00	0.00	abs	5000	1	588.00	Restorative Burst XI
+801600	HPChange	562.00	0.00	abs	3000	1	562.00	Healing Immersion I
+801601	HPChange	564.00	0.00	abs	3000	1	564.00	Healing Immersion II
+801800	MPChange	0.00	0.04	perc	1000	1	0.04	Mana Charge
+801801	MPChange	0.00	0.10	perc	1000	1	0.10	Mana Charge
+801802	MPChange	0.00	0.20	perc	1000	1	0.20	Mana Charge
+808107	Endurance	0.00	0.00	perc	10000	0	2.00	Tough Blood
+810002	HPChange	0.03	0.00	perc	1000	1	0.03	Relic's Power
+813001	HPChange	0.02	0.00	perc	0	2	0.02	
+813001	Endurance	0.00	0.00	perc	0	0	1.30	
+813003	HPChange	0.04	0.00	perc	1800000	2	0.04	Glade's Surge
+860003	Endurance	0.00	0.00	perc	45000	0	1.00	Electrical Overload
+860004	Endurance	0.00	0.00	perc	4000	0	1.00	Electric Shock
+860006	HPChange	-0.05	0.00	perc	60000	1	-0.05	Electric Shock Overload
+860013	Endurance	0.00	0.00	perc	6500	0	1.00	Alarm Effect
+860015	Endurance	0.00	0.00	perc	0	0	1.00	Water Pad Effect
+860017	Endurance	0.00	0.00	perc	0	0	1.00	Weakened
+860018	Endurance	0.00	0.00	perc	10000	0	1.00	Queasy
+860020	Endurance	0.00	0.00	perc	7000	0	0.70	Shellshocked
+860031	HPChange	-12000.00	0.00	abs	3000	1	-12000.00	Burning Aura
+900400	MPChange	0.00	0.02	perc	15000	1	0.02	Commander's Comfort
+900401	MPChange	0.00	0.02	perc	15000	1	0.02	Commander's Comfort
+900500	HPChange	0.40	0.00	perc	1000	1	0.40	Commander's Boon
+900501	HPChange	0.40	0.00	perc	1000	1	0.40	Commander's Boon
+905403	HPChange	-0.15	0.00	perc	20000	2	-0.15	Death Jolt
+905406	Endurance	0.00	0.00	perc	14000	0	1.00	
+905407	HPChange	-0.30	0.00	perc	1000	1	-0.30	Death Jolt
+905413	Endurance	0.00	0.00	perc	0	0	0.65	Divinity
+905423	MPChange	0.00	-0.05	perc	180000	1	-0.05	Phrenic Slime
+905424	MPChange	0.00	0.50	perc	3000	2	0.50	Squeaky Clean
+905426	Endurance	0.00	0.00	perc	10000	0	0.45	Primal Fear
+905429	Endurance	0.00	0.00	perc	10000	0	1.00	
+905432	HPChange	-0.08	0.00	perc	30000	2	-0.08	Toxic
+905433	HPChange	-0.08	0.00	perc	10000	2	-0.08	Noxious Plume
+905436	HPChange	-0.20	0.00	perc	1000	1	-0.20	
+905437	HPChange	0.10	0.00	perc	1000	1	0.10	
+905438	HPChange	-0.05	0.00	perc	1000	1	-0.05	
+905439	HPChange	0.05	0.00	perc	1000	1	0.05	
+905441	Endurance	0.00	0.00	perc	0	0	1.20	Tenderhearted
+905445	HPChange	-0.13	0.00	perc	15000	1	-0.13	Blood in the Water
+905601	Endurance	0.00	0.00	perc	0	0	1.00	
+905602	Endurance	0.00	0.00	perc	0	0	1.00	
+905603	Endurance	0.00	0.00	perc	0	0	1.00	
+905604	Endurance	0.00	0.00	perc	5000	0	1.00	
+905605	HPChange	-0.15	0.00	perc	600000	1	-0.15	Kumas Electricity
+905607	Endurance	0.00	0.00	perc	0	0	2.00	The Power of Sealed Valona
+905608	HPChange	-0.12	0.00	perc	600000	1	-0.12	The Curse of Sealed Valona
+905611	Endurance	0.00	0.00	perc	0	0	1.00	
+905612	Endurance	0.00	0.00	perc	0	0	1.00	
+905613	Endurance	0.00	0.00	perc	0	0	1.00	
+905614	Endurance	0.00	0.00	perc	20000	0	1.00	
+905615	Endurance	0.00	0.00	perc	0	0	1.00	
+905624	HPChange	-0.13	0.00	perc	120000	3	-0.13	Lightning Loaded!
+905625	HPChange	-0.30	0.00	perc	60000	3	-0.30	Overloaded
+905629	Endurance	0.00	0.00	perc	0	0	1.00	
+905638	Endurance	0.00	0.00	perc	0	0	1.00	
+905643	Endurance	0.00	0.00	perc	0	0	100.00	Bright World-Dragon's Energy
+905644	Endurance	0.00	0.00	perc	6000	0	1.00	
+905647	Endurance	0.00	0.00	perc	100000000	0	1.20	
+905648	Endurance	0.00	0.00	perc	65000	0	0.50	
+905649	Endurance	0.00	0.00	perc	5000	0	1.00	
+905653	Endurance	0.00	0.00	perc	0	0	2.00	The World
+905661	HPChange	0.03	0.00	perc	90000	5	0.03	The Sun
+905662	MPChange	0.00	1.00	perc	90000	15	1.00	The Dark
+905663	Endurance	0.00	0.00	perc	90000	0	1.20	The World
+905664	HPChange	-0.03	0.00	perc	1500	1	-0.03	
+905666	Endurance	0.00	0.00	perc	0	0	10.00	
+905670	HPChange	-0.10	0.00	perc	5000	1	-0.10	Orb Haze
+905672	Endurance	0.00	0.00	perc	0	0	1.00	
+905675	HPChange	1.00	0.00	perc	1000	1	1.00	
+905676	MPChange	0.00	-0.05	perc	30000	1	-0.05	Demonshock
+905677	Endurance	0.00	0.00	perc	0	0	1.00	
+905678	Endurance	0.00	0.00	perc	30000	0	1.00	Statue Laser
+905681	Endurance	0.00	0.00	perc	210000	0	1.00	
+905683	Endurance	0.00	0.00	perc	55000	0	10.00	
+905687	Endurance	0.00	0.00	perc	0	0	1.00	
+905700	Endurance	0.00	0.00	perc	0	0	1.00	
+905804	HPChange	0.01	0.00	perc	1000	1	0.01	
+905902	HPChange	-0.08	0.00	perc	16000	1	-0.08	Bleeding Out
+905908	Endurance	0.00	0.00	perc	10000	0	1.00	
+905910	Endurance	0.00	0.00	perc	20000	0	1.00	
+905920	Endurance	0.00	0.00	perc	11000	0	100.00	R.I.P
+905923	Endurance	0.00	0.00	perc	10000	0	3.00	
+905924	Endurance	0.00	0.00	perc	7000	0	0.40	Terror of Rokdos
+905928	HPChange	-0.08	0.00	perc	3000	1	-0.08	Forsaken Island Ghost
+905930	Endurance	0.00	0.00	perc	10000	0	1.00	
+905932	Endurance	0.00	0.00	perc	0	0	0.65	Fiery Rage
+910000	MPChange	0.00	0.01	perc	0	2	0.01	Balder's Blessing
+910006	MPChange	0.00	0.01	perc	0	2	0.01	Elinu's Blessing
+910008	MPChange	0.00	0.02	perc	0	2	0.02	Balder's Blessing
+910013	MPChange	0.00	0.02	perc	0	2	0.02	Elinu's Blessing
+916002	Endurance	0.00	0.00	perc	600000	0	0.30	Dark Insight
+975031	HPChange	-0.01	0.00	perc	5000	1	-0.01	Hot and Cold Pack
+975032	Endurance	0.00	0.00	perc	5000	0	1.00	Living Bomb Blast
+975423	MPChange	0.00	-0.16	perc	180000	1	-0.16	Phrenic Slime
+975445	HPChange	-0.13	0.00	perc	15000	3	-0.13	
+975602	HPChange	-0.10	0.00	perc	1000	1	-0.10	
+975603	HPChange	-0.25	0.00	perc	1000	1	-0.25	
+975604	Endurance	0.00	0.00	perc	100	0	1.00	
+975651	Endurance	0.00	0.00	perc	0	0	1.25	Light of the Sun
+975652	Endurance	0.00	0.00	perc	0	0	1.25	Dark of the Night
+975653	Endurance	0.00	0.00	perc	0	0	1.25	Weight of the World
+975655	HPChange	-0.06	0.00	perc	15000	3	-0.06	
+975661	HPChange	0.03	0.00	perc	90000	5	0.03	Light of the Sun
+975662	MPChange	0.00	1.00	perc	90000	15	1.00	Dark of the Night
+975663	Endurance	0.00	0.00	perc	90000	0	1.05	Weight of the World
+988514	Endurance	0.00	0.00	perc	0	1	1.05	Strength Minor
+988515	Endurance	0.00	0.00	perc	0	1	1.10	Strength Major
+988516	Endurance	0.00	0.00	perc	0	1	1.20	Strength Maximus
+988550	HPChange	-100000.00	0.00	abs	1000	1	-100000.00	
+988572	HPChange	-1000000.00	0.00	abs	1000	1	-1000000.00	Doom
+990070	HPChange	0.00	0.00	perc	30000	1	0.00	Adiar's Protection
+990071	MPChange	0.00	0.00	perc	30000	1	0.00	Derene's Protection
+990072	Endurance	0.00	0.00	abs	30000	0	1.00	Frateko's Protection
+990102	Endurance	0.00	0.00	abs	30000	1	10.00	Enduring Aura
+991000	HPChange	-100.00	0.00	abs	5000	1	-100.00	Warflame
+999803	Endurance	0.00	0.00	4	0	0	0.90	Nefarious
+999804	Endurance	0.00	0.00	4	0	0	0.70	Reviled
+3000001	MPChange	0.00	0.01	perc	0	1	0.01	Inspiring Travel
+3000002	HPChange	0.01	0.00	perc	0	1	0.01	Hearty Travel
+3000004	HPChange	0.01	0.00	perc	0	1	0.01	Hearty Travel
+3000005	MPChange	0.00	0.01	perc	0	1	0.01	Blessing of the Sky
+3000006	MPChange	0.00	0.01	perc	0	1	0.01	Thaman's Dignity
+3000006	HPChange	0.01	0.00	perc	0	1	0.01	Thaman's Dignity
+3000007	MPChange	0.00	0.01	perc	0	1	0.01	Thaman's Experience
+3000007	HPChange	0.01	0.00	perc	0	1	0.01	Thaman's Experience
+3000008	MPChange	0.00	0.01	perc	0	1	0.01	Comfortable Travel
+3000008	HPChange	0.01	0.00	perc	0	1	0.01	Comfortable Travel
+3000009	MPChange	0.00	0.01	perc	0	1	0.01	Relaxing Travel
+3000010	MPChange	0.00	0.01	perc	0	1	0.01	Invigorating Travel
+3000010	HPChange	0.01	0.00	perc	0	1	0.01	Invigorating Travel
+7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME
+8000683	HPChange	0.50	0.00	perc	3000	1	0.50	Abnormality that recovers upon entering. If Shown, BTS
+8000685	HPChange	-0.80	0.00	perc	60000	1	-0.80	The Curse of Snowman
+9009751	HPChange	-100000.00	0.00	perc	10000	1	-100000.00	
+9100080	MPChange	0.00	0.01	perc	0	2	0.01	Balder's Blessing
+9100130	MPChange	0.00	0.01	perc	0	2	0.01	Elinu's Blessing
+9810012	HPChange	-2300.00	0.00	abs	20000	5	-2300.00	Lakan's Searing Gaze
+10151032	HPChange	-3454.00	0.00	abs	10000	2	-3454.00	Shadowy Cables
+10151070	HPChange	-1015.00	0.00	abs	10000	1	-1015.00	Spirit Gallows
+10151074	Endurance	0.00	0.00	perc	30000	0	1.00	Stay of Execution
+10151201	HPChange	-100000.00	0.00	perc	6000	1	-100000.00	
+10152001	Endurance	0.00	0.00	perc	2100	0	1.00	
+10152002	Endurance	0.00	0.00	perc	4100	0	1.00	
+10152010	Endurance	0.00	0.00	perc	3100	0	1.00	
+10152011	Endurance	0.00	0.00	perc	3100	0	1.00	
+10152053	Endurance	0.00	0.00	perc	2100	0	1.00	Burst Fire
+10152061	HPChange	-645.00	0.00	abs	10100	2	-645.00	Overcharge
+10152080	Endurance	0.00	0.00	perc	4100	0	1.00	
+10152081	Endurance	0.00	0.00	perc	4100	0	1.00	
+10152083	Endurance	0.00	0.00	perc	4100	0	1.00	
+10152085	Endurance	0.00	0.00	perc	4100	0	1.00	
+10152086	Endurance	0.00	0.00	perc	4100	0	1.00	
+10152089	Endurance	0.00	0.00	perc	4100	0	1.00	
+10152093	Endurance	0.00	0.00	perc	20100	0	1.00	
+10152094	Endurance	0.00	0.00	perc	20100	0	1.00	
+10152095	Endurance	0.00	0.00	perc	20100	0	1.00	
+10152120	Endurance	0.00	0.00	perc	0	0	1.00	Overcharge
+10152204	Endurance	0.00	0.00	perc	1000	0	1.00	
+10152250	Endurance	0.00	0.00	perc	0	0	1.00	
+10152251	Endurance	0.00	0.00	perc	0	0	1.00	
+10153001	Endurance	0.00	0.00	perc	0	0	1.00	
+10153002	Endurance	0.00	0.00	perc	0	0	1.00	
+10153003	Endurance	0.00	0.00	perc	0	0	1.00	
+10153004	Endurance	0.00	0.00	perc	0	0	1.00	
+10153005	Endurance	0.00	0.00	perc	0	0	1.00	
+10153006	Endurance	0.00	0.00	perc	0	0	1.00	
+10153060	Endurance	0.00	0.00	perc	3000	0	1.00	
+10153080	Endurance	0.00	0.00	perc	5000	0	1.00	
+10153090	Endurance	0.00	0.00	perc	0	0	1.00	
+10153092	Endurance	0.00	0.00	perc	0	0	1.00	
+10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered
+10153504	Endurance	0.00	0.00	perc	4000	0	1.00	
+10153505	Endurance	0.00	0.00	perc	4000	0	1.00	
+10153508	Endurance	0.00	0.00	perc	4000	0	1.00	
+16300009	MPChange	0.00	0.01	perc	0	1	0.01	
+16300009	HPChange	0.01	0.00	perc	0	1	0.01	
+16300010	MPChange	0.00	0.01	perc	0	1	0.01	
+16300011	HPChange	0.01	0.00	perc	0	1	0.01	
+16300012	MPChange	0.00	0.01	perc	0	1	0.01	
+16300012	HPChange	0.01	0.00	perc	0	1	0.01	
+44300002	Endurance	0.00	0.00	perc	11000	0	1.00	Tulgey Fog
+44300016	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300017	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300018	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300019	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300024	Endurance	0.00	0.00	perc	60000	0	1.00	Red Puzzle Piece
+44300025	Endurance	0.00	0.00	perc	60000	0	1.00	Yellow Puzzle Piece
+44300026	Endurance	0.00	0.00	perc	60000	0	1.00	Green Puzzle Piece
+44300027	Endurance	0.00	0.00	perc	60000	0	1.00	Blue Puzzle Piece
+44300029	Endurance	0.00	0.00	perc	0	0	1.00	
+44300030	Endurance	0.00	0.00	perc	0	0	1.00	
+44300039	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300040	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300041	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300042	Endurance	0.00	0.00	perc	60000	0	1.00	
+44300045	Endurance	0.00	0.00	perc	0	0	1.00	
+44300047	Endurance	0.00	0.00	perc	10000	0	0.55	Confuzzled
+44300054	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300055	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300056	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300057	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300064	Endurance	0.00	0.00	perc	15000	0	1.00	Holy Magical Essence
+44300074	HPChange	0.30	0.00	perc	1000	1	0.30	
+44300074	MPChange	0.00	0.30	perc	1000	1	0.30	
+44300078	HPChange	300000.00	0.00	abs	180000	1	300000.00	Super Regeneration
+44300080	HPChange	-0.08	0.00	perc	30000	3	-0.08	Larva Venom
+44300082	Endurance	0.00	0.00	perc	6000000	0	1.00	
+44300085	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300086	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300087	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300088	Endurance	0.00	0.00	perc	90000	0	1.00	
+44300090	Endurance	0.00	0.00	perc	1800000	0	1.00	Manxome
+44300092	Endurance	0.00	0.00	perc	0	0	1.00	Tulgey Fog
+44500100	Endurance	0.00	0.00	perc	0	0	0.80	Lilipart_Increase Attack Power Decrease Defense
+45000001	HPChange	-0.50	0.00	perc	10000	60	-0.50	Entangle
+45000001	Endurance	0.00	0.00	perc	10000	0	0.80	Entangle
+45000003	Endurance	0.00	0.00	perc	60000	0	1.00	Strong Stem
+45000010	Endurance	0.00	0.00	perc	0	0	1.00	Lightning
+45000011	HPChange	-0.02	0.00	perc	30000	1	-0.02	Beetle Dust
+45000017	Endurance	0.00	0.00	perc	5000	0	1.00	
+45000019	HPChange	-3800.00	0.00	abs	20000	1	-3800.00	Toxic Spittle
+45000022	Endurance	0.00	0.00	perc	1000	0	1.00	
+45000026	Endurance	0.00	0.00	perc	0	0	1.00	
+45000029	Endurance	0.00	0.00	perc	0	0	1.00	
+45000030	Endurance	0.00	0.00	perc	0	0	1.00	
+45000031	Endurance	0.00	0.00	perc	0	0	1.00	
+45000032	Endurance	0.00	0.00	perc	0	0	1.00	
+45000033	Endurance	0.00	0.00	perc	0	0	1.00	
+45000034	Endurance	0.00	0.00	perc	0	0	1.00	
+45000035	Endurance	0.00	0.00	perc	0	0	1.00	
+45000036	Endurance	0.00	0.00	perc	0	0	1.00	
+45000037	Endurance	0.00	0.00	perc	0	0	1.00	
+45000038	HPChange	-0.13	0.00	perc	15000	3	-0.13	Severe Bleeding
+45000115	Endurance	0.00	0.00	perc	30000	0	1.00	
+47300100	HPChange	-0.50	0.00	perc	600000	60	-0.50	Venom Resin
+47300200	HPChange	-0.05	0.00	perc	60000	3	-0.05	Thulsa's Venom
+47300300	HPChange	-0.30	0.00	perc	5000	4	-0.30	Thulsa's Poison
+47300400	HPChange	-0.03	0.00	perc	10000	1	-0.03	Hellfire of Pain
+47300900	HPChange	-3000.00	0.00	abs	10000	1	-3000.00	Deadly Venom
+47500100	HPChange	-0.05	0.00	perc	90000	5	-0.05	Doomfire
+47500200	HPChange	0.01	0.00	perc	30000	3	0.01	Delete_Cry of life
+47500400	HPChange	-0.20	0.00	perc	35000	5	-0.20	Seal of Revenge
+47500500	HPChange	-0.20	0.00	perc	35000	5	-0.20	Seal of Punishment
+47500600	HPChange	-0.01	0.00	perc	35000	2	-0.01	Seal of Death
+47500800	HPChange	-0.10	0.00	perc	40000	5	-0.10	Seal of Revenge
+47500900	HPChange	-0.10	0.00	perc	40000	5	-0.10	Seal of Punishment
+47501000	HPChange	-0.10	0.00	perc	40000	5	-0.10	Seal of Death
+47501100	HPChange	-0.05	0.00	perc	90000	5	-0.05	Doomchill
+47501300	HPChange	-0.01	0.00	perc	10000	1	-0.01	Curse of Kelsaik
+47501400	HPChange	-0.05	0.00	perc	90000	5	-0.05	Flame of Hell
+47501700	HPChange	-0.02	0.00	perc	10000	5	-0.02	Curse of Kelsaik
+47501800	HPChange	-0.03	0.00	perc	90000	5	-0.03	Doomfire
+47501900	HPChange	-0.03	0.00	perc	90000	5	-0.03	Doomchill
+47502000	HPChange	-0.03	0.00	perc	90000	5	-0.03	Flame of Hell
+47502200	Endurance	0.00	0.00	perc	3600000	0	4.00	Kelsaik's Protection
+47600200	HPChange	-0.18	0.00	perc	1000	1	-0.18	Time of Pain
+47600300	HPChange	0.03	0.00	perc	10000	1	0.03	Narrow Escape
+47600400	HPChange	-0.08	0.00	perc	15000	3	-0.08	Curse of Pain
+47610100	Endurance	0.00	0.00	perc	60000	0	1.30	Thulsa's Blessing
+47610100	HPChange	0.00	0.00	perc	60000	1	0.00	Thulsa's Blessing
+47611800	Endurance	0.00	0.00	perc	30000	0	0.90	Inner Strength
+47612400	Endurance	0.00	0.00	perc	60000	0	1.20	Armor Increase III
+47612500	HPChange	0.03	0.00	perc	12000	3	0.03	Restoration
+47612600	HPChange	0.05	0.00	perc	1000	1	0.05	Instant HP recovery
+47613200	HPChange	-0.10	0.00	perc	30000	3	-0.10	Decimation
+47613300	Endurance	0.00	0.00	perc	20000	0	0.00	Tombward
+47620400	HPChange	-0.05	0.00	perc	10000	1	-0.05	Burnout
+47620900	Endurance	0.00	0.00	perc	120000	0	1.10	Orcan Guile
+47621400	Endurance	0.00	0.00	perc	5000	0	1.10	Double-edged Parry I
+47621500	Endurance	0.00	0.00	perc	5000	0	0.90	Double-edged Strike I
+47621700	HPChange	0.01	0.00	perc	600000	12	0.01	Empower
+47621700	Endurance	0.00	0.00	perc	600000	0	1.20	Empower
+47621800	Endurance	0.00	0.00	perc	600000	0	0.80	Erode
+47621900	Endurance	0.00	0.00	perc	10000	0	1.50	Upwelling
+47622300	HPChange	-0.01	0.00	perc	10000	1	-0.01	Sandstorm
+47630100	HPChange	-0.01	0.00	perc	30000	3	-0.01	Tuwangi Blood-Haze
+47640200	Endurance	0.00	0.00	perc	20000	0	10.00	Vassal's Boon
+47640300	Endurance	0.00	0.00	perc	10000	0	2.00	Iron Coat
+47640400	HPChange	-0.07	0.00	perc	10000	1	-0.07	Toxic Gas
+47640700	HPChange	-0.10	0.00	perc	10000	1	-0.10	Argon Virus I
+47640800	HPChange	-0.05	0.00	perc	10000	1	-0.05	Argon Virus II
+47640900	HPChange	-0.03	0.00	perc	10000	1	-0.03	Argon Virus III
+47641000	Endurance	0.00	0.00	perc	10000	0	2.00	Parental Fervor
+47641200	Endurance	0.00	0.00	perc	0	0	0.30	Broken Basilisk Heart
+47650400	HPChange	0.30	0.00	perc	1000	1	0.30	Relic's Healing
+47650800	HPChange	-0.01	0.00	perc	30000	1	-0.01	Snare of Agony
+47651003	Endurance	0.00	0.00	abs	120000	0	10.00	Anya's Vigil
+47651003	HPChange	0.05	0.00	perc	120000	1	0.05	Anya's Vigil
+47651003	MPChange	0.00	0.05	perc	120000	1	0.05	Anya's Vigil
+47660100	HPChange	-0.03	0.00	perc	10000	1	-0.03	Sweltering Doom
+47660200	HPChange	-0.03	0.00	perc	30000	5	-0.03	Shocking Source
+47660300	HPChange	-0.30	0.00	perc	5000	5	-0.30	Zzzap
+47660600	Endurance	0.00	0.00	perc	60000	0	1.30	Repaired
+47662110	Endurance	0.00	0.00	perc	3000	0	1.00	For AI Verification
+47662500	Endurance	0.00	0.00	perc	20000	0	0.90	Motherly Sadness
+47662800	Endurance	0.00	0.00	perc	45000	0	3.00	Time of Immortality
+47670200	Endurance	0.00	0.00	perc	600000	0	0.95	Rage of the Warrior
+47680500	Endurance	0.00	0.00	perc	600000	0	1.50	Nexus Alacrity
+47681600	Endurance	0.00	0.00	perc	3600000	0	1.00	Nexus Call
+47681601	Endurance	0.00	0.00	perc	3600000	0	1.00	Nexus Call
+47681602	Endurance	0.00	0.00	perc	3600000	0	1.00	Nexus Call
+47681700	Endurance	0.00	0.00	perc	7200000	0	1.00	Dimensional Anchor
+47690100	Endurance	0.00	0.00	perc	60000	0	0.20	Trampled
+47690800	HPChange	-0.10	0.00	perc	10000	10	-0.10	Depth's Glare
+47691000	MPChange	0.00	-100000000.00	perc	5000	1	-100000000.00	Mana Agony
+47700100	HPChange	-0.20	0.00	perc	5000	1	-0.20	Consuming Disease
+47700400	Endurance	0.00	0.00	perc	10000	0	0.50	Impurity
+47700500	Endurance	0.00	0.00	perc	10000	0	0.50	Ephemeral Chitin
+47700600	Endurance	0.00	0.00	perc	60000	0	1.00	Magnetic South
+47700700	Endurance	0.00	0.00	perc	60000	0	1.00	Magnetic North
+47700800	HPChange	-0.02	0.00	perc	30000	1	-0.02	Parasite
+47701100	Endurance	0.00	0.00	1	0	0	100.00	Neutralization
+47701200	Endurance	0.00	0.00	perc	0	0	1.00	Steel Mind
+47701300	Endurance	0.00	0.00	perc	0	0	1.00	Weakened Mind
+47701400	Endurance	0.00	0.00	perc	40000	0	1.00	Argonic Metastasis
+47701900	Endurance	0.00	0.00	perc	0	0	1.00	Positive
+47702000	Endurance	0.00	0.00	perc	0	0	1.00	Negative
+47702100	HPChange	-0.10	0.00	perc	10000	1	-0.10	Cellular Decay
+47702700	Endurance	0.00	0.00	perc	6000	0	0.30	Cower in Her Presence
+47702800	Endurance	0.00	0.00	perc	5000	0	1.00	Crackle
+47702900	HPChange	-0.10	0.00	perc	90000	5	-0.10	Greedy Thought
+47703000	HPChange	-0.10	0.00	perc	90000	5	-0.10	Hateful Thought
+47703100	HPChange	-0.10	0.00	perc	90000	5	-0.10	Desperate Thought
+47710400	Endurance	0.00	0.00	perc	600000	0	1.00	Central Crystal
+49400500	HPChange	0.00	0.00	perc	60000	1	0.00	Cause of Pollution
+49400600	HPChange	0.02	0.00	perc	1000	1	0.02	Dragon's Tear
+49400600	MPChange	0.00	0.02	perc	1000	1	0.02	Dragon's Tear
+71600004	HPChange	-0.05	0.00	perc	15000	2	-0.05	Darkan's Flame
+71600010	HPChange	-0.05	0.00	perc	10000	1	-0.05	Scorched Scar
+74300002	Endurance	0.00	0.00	perc	16000	0	1.00	Tulgey Fog
+74300047	Endurance	0.00	0.00	perc	5000	0	0.90	Confuzzled
+74300074	HPChange	0.50	0.00	perc	1000	1	0.50	
+74300074	MPChange	0.00	0.50	perc	1000	1	0.50	
+74300078	HPChange	100000.00	0.00	abs	180000	1	100000.00	Super Regeneration
+75000027	HPChange	-0.02	0.00	perc	10000	3	-0.02	Bee Venom
+76600018	Endurance	0.00	0.00	perc	15000	0	1.10	Piratical Bent
+76600022	Endurance	0.00	0.00	perc	60000	0	1.10	Pirate's Stamina
+76600024	HPChange	0.01	0.00	perc	15000	3	0.01	Pirate's Healing
+76600025	HPChange	0.02	0.00	perc	1000	1	0.02	
+77600008	Endurance	0.00	0.00	perc	60000	0	0.05	Trace of the Dead
+77600009	Endurance	0.00	0.00	perc	60000	0	-5.00	Marked for Death
+77600013	Endurance	0.00	0.00	perc	5000	0	1.00	Attached Bomb
+77700002	HPChange	0.05	0.00	perc	600000	2	0.05	Re-Engineered Regeneration
+77700002	MPChange	0.00	0.01	perc	600000	2	0.01	Re-Engineered Regeneration
+77700004	HPChange	-0.02	0.00	perc	100000	2	-0.02	Extreme Fatigue
+77700015	HPChange	-0.02	0.00	perc	10000	1	-0.02	Parasitic Host
+77700018	HPChange	0.15	0.00	perc	10000	2	0.15	Engineered Regeneration
+77700020	Endurance	0.00	0.00	perc	600000	0	0.80	Fear of Defeat
+77700800	HPChange	-0.02	0.00	perc	30000	1	-0.02	Parasite
+77701400	Endurance	0.00	0.00	perc	40000	0	1.00	Argonic Cell Metastasis
+77702100	HPChange	-0.10	0.00	perc	10000	3	-0.10	Cellular Decay
+77702900	HPChange	-0.10	0.00	perc	180000	5	-0.10	Greedy Thought
+77703000	HPChange	-0.10	0.00	perc	180000	5	-0.10	Hateful Thought
+77703100	HPChange	-0.10	0.00	perc	180000	5	-0.10	Desperate Thought
+77703403	HPChange	0.05	0.00	perc	1000	1	0.05	HP Recovery
+77703410	HPChange	0.03	0.00	perc	1000	1	0.03	Kumas HP Recovery
+77703412	Endurance	0.00	0.00	perc	120000	0	10.00	Demokron Form
+77703412	HPChange	-0.05	0.00	perc	120000	3	-0.05	Demokron Form
+77703416	Endurance	0.00	0.00	perc	0	0	10000.00	Demokron Fortification
+77703429	HPChange	0.05	0.00	perc	1000	1	0.05	HP Regeneration
+77703431	HPChange	-10000.00	0.00	abs	20000	2	-10000.00	Demokron Infection
+77703432	HPChange	-12000.00	0.00	abs	20000	2	-12000.00	Demokron Mutation
+77703435	Endurance	0.00	0.00	perc	15000	0	10000.00	Demokron Cells
+77703442	HPChange	-0.25	0.00	perc	1000	1	-0.25	Demokron Virus
+77703443	Endurance	0.00	0.00	perc	0	0	10.00	Demokron Hide
+80900001	Endurance	0.00	0.00	4	15000	0	0.30	Gutripped
+80900007	HPChange	0.01	0.00	perc	4000	4	0.01	Fast Healing_1%
+80900008	Endurance	0.00	0.00	perc	20000	0	3.00	Juggernaut
+81300001	HPChange	-0.95	0.00	perc	1	1	-0.95	
+81300002	HPChange	0.01	0.00	perc	0	2	0.01	Arboreal Energy Crystal
+81300004	Endurance	0.00	0.00	1	0	0	100000000.00	Banyakas's Shield
+81300005	Endurance	0.00	0.00	perc	10000	0	1.30	Protective Aura
+81300005	HPChange	0.03	0.00	perc	10000	2	0.03	Protective Aura
+81300015	HPChange	-0.03	0.00	perc	10000	2	-0.03	Banyakas’s Flames
+81300019	HPChange	0.02	0.00	perc	1800000	2	0.02	Forest Warden's Recovery
+81300021	HPChange	-0.01	0.00	perc	5000	2	-0.01	Skin Scraped on a Rock
+81300023	HPChange	-0.03	0.00	perc	10000	2	-0.03	Fairie Fire of Banyakas
+81300024	HPChange	-0.03	0.00	perc	10000	2	-0.03	Fairie Fire of Banyakas
+91100200	HPChange	-0.03	0.00	perc	240000	2	-0.03	Doomfire
+91101100	HPChange	-0.03	0.00	perc	240000	2	-0.03	Flame of Hell
+91101300	HPChange	-0.03	0.00	perc	240000	2	-0.03	Doomchill
+91240002	HPChange	0.04	0.00	perc	10000	1	0.04	Recovery Boon
+91600001	HPChange	-0.05	0.00	perc	3000	1	-0.05	Dark Heart
+91600004	HPChange	-0.10	0.00	perc	15000	2	-0.10	Dark Siphon
+91600008	Endurance	0.00	0.00	1	30000	0	10000000.00	Darkan's Scolding
+91600010	HPChange	-0.10	0.00	perc	10000	1	-0.10	Darkan's Depletion
+91600013	HPChange	-0.02	0.00	perc	44000	1	-0.02	Bleeding Lash I
+91600014	HPChange	-0.02	0.00	perc	44000	1	-0.02	Bleeding Lash II
+91600015	HPChange	-0.02	0.00	perc	44000	1	-0.02	Bleeding Lash III
+91600016	HPChange	-0.02	0.00	perc	44000	1	-0.02	Bleeding Lash IV
+91600017	HPChange	-0.07	0.00	perc	45000	2	-0.07	Darkan's Touch
+91600023	HPChange	-0.10	0.00	perc	30000	2	-0.10	Doomfire
+91600024	HPChange	-0.02	0.00	perc	600000	2	-0.02	Doomfire
+91600025	HPChange	0.00	0.00	perc	30000	1	0.00	Doomfire
+91600030	HPChange	-0.26	0.00	perc	1000	1	-0.26	Doomfire
+91600032	Endurance	0.00	0.00	1	0	0	100000000.00	Putrion's Protection
+91600035	Endurance	0.00	0.00	perc	10000	0	1.00	Clean Up!
+91600037	HPChange	-1.00	0.00	perc	600000	1	-1.00	
+91600038	HPChange	1.00	0.00	perc	1000	1	1.00	Aeonalis Pylon recovered
+97500100	HPChange	-0.07	0.00	perc	120000	2	-0.07	Doomfire
+97500400	HPChange	-0.20	0.00	perc	35000	5	-0.20	Seal of Revenge
+97500500	HPChange	-0.20	0.00	perc	35000	5	-0.20	Seal of Punishment
+97500600	HPChange	-0.02	0.00	perc	35000	2	-0.02	Seal of Death
+97501100	HPChange	-0.07	0.00	perc	120000	2	-0.07	Doomchill
+97501300	HPChange	-0.01	0.00	perc	10000	1	-0.01	Curse of Kelsaik
+97501400	HPChange	-0.07	0.00	perc	120000	2	-0.07	Flame of Hell
+97502200	Endurance	0.00	0.00	perc	3600000	0	4.00	Kelsaik's Protection
+97900001	Endurance	0.00	0.00	perc	3600000	0	0.99	Fading from Fatigue
+98000039	HPChange	1.00	0.00	perc	1000	1	1.00	Nature's Touch
+98000040	HPChange	0.50	0.00	perc	1000	1	0.50	Nature's Warmness
+98000045	Endurance	0.00	0.00	perc	100000000	0	1.15	Forest Vigor
+98000063	HPChange	0.01	0.00	perc	10000	1	0.01	Vibrant Bloom
+98000064	Endurance	0.00	0.00	perc	90000	0	1.10	Seren's Aegis
+98000070	HPChange	0.00	0.00	perc	25000	2	0.00	Soothing Breeze
+98000090	Endurance	0.00	0.00	perc	90000	0	1.20	Adamant Plumage
+98000091	HPChange	-0.06	0.00	perc	10000	3	-0.06	Wing Clip
+98000092	HPChange	0.00	0.00	perc	12000	3	0.00	Cheeper's Blessing
+98000095	HPChange	50000.00	0.00	abs	1000	1	50000.00	Priest's Touch
+98000100	Endurance	0.00	0.00	abs	10000000	0	11.00	Potion of Blessing
+98000100	HPChange	773.00	0.00	abs	10000000	2	773.00	Potion of Blessing
+98000101	MPChange	0.00	20.00	abs	10000000	1	20.00	Potion of Verve
+98000101	Endurance	0.00	0.00	perc	10000000	0	1.10	Potion of Verve
+98850023	HPChange	-0.03	0.00	perc	120000	2	-0.03	Doomfire
+98850024	HPChange	-0.03	0.00	perc	120000	2	-0.03	Doomchill
+98850041	HPChange	-0.15	0.00	perc	10000	1	-0.15	Cellular Explosion [Transmittable]
+98850042	HPChange	0.01	0.00	perc	12000	3	0.01	Recovery
+98850050	Endurance	0.00	0.00	perc	60000	0	1.00	Magnetic South
+98850051	Endurance	0.00	0.00	perc	60000	0	1.00	Magnetic North
+98850052	Endurance	0.00	0.00	perc	0	0	1.00	Positive
+98850053	Endurance	0.00	0.00	perc	0	0	1.00	Negative
+98850054	HPChange	-0.05	0.00	perc	10000	1	-0.05	Venom
+98850057	HPChange	-0.05	0.00	perc	30000	3	-0.05	Thulsa's Venom
+98850091	HPChange	-0.10	0.00	perc	90000	5	-0.10	Greedy Thoughts
+98850092	HPChange	-0.10	0.00	perc	90000	5	-0.10	Hateful Thoughts
+98850093	HPChange	-0.10	0.00	perc	90000	5	-0.10	Desperate Thoughts
+98850094	HPChange	-0.10	0.00	perc	30000	5	-0.10	Greedy Thoughts
+98850095	HPChange	-0.10	0.00	perc	30000	5	-0.10	Hateful Thoughts
+98850096	HPChange	-0.10	0.00	perc	30000	5	-0.10	Desperate Thoughts
+99000084	Endurance	0.00	0.00	perc	0	0	3.00	The Power of Argon Predator
+99000200	Endurance	0.00	0.00	perc	60000	0	1.10	Strong Will I
+99000210	Endurance	0.00	0.00	perc	60000	0	1.15	Strong Will II
+99000220	Endurance	0.00	0.00	perc	60000	0	1.20	Strong Will III
+99000230	Endurance	0.00	0.00	perc	60000	0	1.25	Strong Will IV
+99000240	Endurance	0.00	0.00	perc	60000	0	1.30	Strong Will V
+99000250	Endurance	0.00	0.00	perc	60000	0	1.35	Strong Will VI
+99000260	Endurance	0.00	0.00	perc	60000	0	1.40	Strong Will VII
+99000270	Endurance	0.00	0.00	perc	60000	0	1.45	Strong Will VIII
+99000300	HPChange	0.03	0.00	perc	12000	3	0.03	Restoration I
+99000310	HPChange	0.04	0.00	perc	12000	3	0.04	Restoration II
+99000320	HPChange	0.05	0.00	perc	12000	3	0.05	Restoration III
+99000330	HPChange	0.06	0.00	perc	12000	3	0.06	Restoration IV
+99000340	HPChange	0.07	0.00	perc	12000	3	0.07	Restoration V
+99000350	HPChange	0.08	0.00	perc	12000	3	0.08	Restoration VI
+99000360	HPChange	0.09	0.00	perc	12000	3	0.09	Restoration VII
+99000370	HPChange	0.10	0.00	perc	12000	3	0.10	Restoration VIII
+99000400	HPChange	-0.01	0.00	perc	45000	3	-0.01	Venom
+99000410	HPChange	-0.01	0.00	perc	45000	3	-0.01	Venom
+99000420	HPChange	-0.02	0.00	perc	45000	3	-0.02	Venom
+99000430	HPChange	-0.02	0.00	perc	45000	3	-0.02	Venom
+99000440	HPChange	-0.02	0.00	perc	45000	3	-0.02	Venom
+99000450	HPChange	-0.02	0.00	perc	45000	3	-0.02	Venom
+99000460	HPChange	-0.02	0.00	perc	45000	3	-0.02	Venom
+99000470	HPChange	-0.03	0.00	perc	45000	3	-0.03	Venom
+99000480	HPChange	-0.50	0.00	perc	1000	1	-0.50	Venom
+99000580	HPChange	-0.06	0.00	perc	15000	3	-0.06	Bleed
+99000680	HPChange	-0.01	0.00	perc	10000	1	-0.01	Executor's Powerful Blow
+99000690	HPChange	-0.02	0.00	perc	10000	1	-0.02	Executor's Flame of Rage
+99000700	Endurance	0.00	0.00	perc	15000	0	0.90	Weakened Will
+99000710	Endurance	0.00	0.00	perc	15000	0	0.85	Weakened Will
+99000720	Endurance	0.00	0.00	perc	15000	0	0.80	Weakened Will
+99000730	Endurance	0.00	0.00	perc	15000	0	0.75	Weakened Will
+99000740	Endurance	0.00	0.00	perc	15000	0	0.70	Weakened Will
+99000750	Endurance	0.00	0.00	perc	15000	0	0.65	Weakened Will
+99000760	Endurance	0.00	0.00	perc	15000	0	0.60	Weakened Will
+99000770	Endurance	0.00	0.00	perc	15000	0	0.55	Weakened Will
+99000780	Endurance	0.00	0.00	perc	15000	0	0.40	Weakened Will
+99000900	HPChange	-0.02	0.00	perc	30000	3	-0.02	Chill
+99000910	HPChange	-0.02	0.00	perc	30000	3	-0.02	Chill
+99000920	HPChange	-0.02	0.00	perc	30000	3	-0.02	Chill
+99000930	HPChange	-0.02	0.00	perc	30000	3	-0.02	Chill
+99000940	HPChange	-0.03	0.00	perc	30000	3	-0.03	Chill
+99000950	HPChange	-0.03	0.00	perc	30000	3	-0.03	Chill
+99000960	HPChange	-0.03	0.00	perc	30000	3	-0.03	Chill
+99000970	HPChange	-0.04	0.00	perc	30000	3	-0.04	Chill
+99001000	HPChange	-0.01	0.00	perc	30000	3	-0.01	Eldritch Flames
+99001010	HPChange	-0.02	0.00	perc	30000	3	-0.02	Eldritch Flames
+99001020	HPChange	-0.02	0.00	perc	30000	3	-0.02	Eldritch Flames
+99001030	HPChange	-0.02	0.00	perc	30000	3	-0.02	Eldritch Flames
+99001040	HPChange	-0.02	0.00	perc	30000	3	-0.02	Eldritch Flames
+99001050	HPChange	-0.02	0.00	perc	30000	3	-0.02	Eldritch Flames
+99001060	HPChange	-0.03	0.00	perc	30000	3	-0.03	Eldritch Flames
+99001070	HPChange	-0.03	0.00	perc	30000	3	-0.03	Eldritch Flames
+99001300	HPChange	0.10	0.00	perc	1000	1	0.10	Heal I
+99001301	HPChange	0.01	0.00	perc	1000	1	0.01	Heal_1%
+99001302	HPChange	0.03	0.00	perc	1000	1	0.03	Heal_3%
+99001303	HPChange	0.05	0.00	perc	1000	1	0.05	Heal_5%
+99001310	HPChange	0.15	0.00	perc	1000	1	0.15	Heal II
+99001320	HPChange	0.20	0.00	perc	1000	1	0.20	Heal III
+99001330	HPChange	0.25	0.00	perc	1000	1	0.25	Heal IV
+99001340	HPChange	0.30	0.00	perc	1000	1	0.30	Heal V
+99001350	HPChange	0.35	0.00	perc	1000	1	0.35	Heal VI
+99001360	HPChange	0.40	0.00	perc	1000	1	0.40	Heal VII
+99001370	HPChange	0.45	0.00	perc	1000	1	0.45	Heal VIII
+99001500	Endurance	0.00	0.00	perc	30000	0	0.85	Frenzy I
+99001510	Endurance	0.00	0.00	perc	30000	0	0.80	Frenzy II
+99001520	Endurance	0.00	0.00	perc	30000	0	0.75	Frenzy III
+99001530	Endurance	0.00	0.00	perc	30000	0	0.70	Frenzy IV
+99001540	Endurance	0.00	0.00	perc	30000	0	0.65	Frenzy V
+99001550	Endurance	0.00	0.00	perc	30000	0	0.60	Frenzy VI
+99001560	Endurance	0.00	0.00	perc	30000	0	0.55	Frenzy VII
+99001570	Endurance	0.00	0.00	perc	30000	0	0.50	Frenzy VIII
+99001600	Endurance	0.00	0.00	perc	3000	0	5.00	Cornerstone
+99002200	Endurance	0.00	0.00	perc	10000	0	3.00	Nigh Invulnerability
+99002210	Endurance	0.00	0.00	perc	15000	0	3.00	Nigh Invulnerability
+99002220	Endurance	0.00	0.00	perc	20000	0	3.00	Nigh Invulnerability
+99002230	Endurance	0.00	0.00	perc	25000	0	3.00	Nigh Invulnerability
+99002240	Endurance	0.00	0.00	perc	30000	0	3.00	Nigh Invulnerability
+99002250	Endurance	0.00	0.00	perc	35000	0	3.00	Nigh Invulnerability
+99002260	Endurance	0.00	0.00	perc	40000	0	3.00	Nigh Invulnerability
+99002270	Endurance	0.00	0.00	perc	45000	0	3.00	Nigh Invulnerability
+99002300	MPChange	0.00	-0.02	perc	45000	3	-0.02	Mind Corruption
+99002310	MPChange	0.00	-0.02	perc	45000	3	-0.02	Mind Corruption
+99002320	MPChange	0.00	-0.02	perc	45000	3	-0.02	Mind Corruption
+99002330	MPChange	0.00	-0.03	perc	45000	3	-0.03	Mind Corruption
+99002340	MPChange	0.00	-0.03	perc	45000	3	-0.03	Mind Corruption
+99002350	MPChange	0.00	-0.03	perc	45000	3	-0.03	Mind Corruption
+99002360	MPChange	0.00	-0.03	perc	45000	3	-0.03	Mind Corruption
+99002370	MPChange	0.00	-0.03	perc	45000	3	-0.03	Mind Corruption
+99002500	HPChange	-0.06	0.00	perc	15000	3	-0.06	Mendable Bleeding
+99002510	HPChange	-0.10	0.00	perc	15000	3	-0.10	Bleeding
+99002520	HPChange	-0.06	0.00	perc	15000	3	-0.06	Excessive Bleeding
+99002800	HPChange	0.00	0.00	perc	0	1	0.00	Restoration
+99002810	HPChange	0.00	0.00	perc	0	1	0.00	Restoration
+99002820	HPChange	0.00	0.00	perc	0	1	0.00	Restoration
+99002830	HPChange	0.00	0.00	perc	0	1	0.00	Restoration
+99002900	Endurance	0.00	0.00	perc	0	0	0.30	Akasha's Withering
+99003600	HPChange	0.01	0.00	perc	600000	3	0.01	Gathering Life
+99003700	MPChange	0.00	0.01	perc	600000	3	0.01	Gathering Spirit
+99004500	HPChange	0.50	0.00	perc	1000	1	0.50	Pigling Meat
+99004510	HPChange	1312.00	0.00	abs	10000	2	1312.00	Pigling Meat Piece
+99004900	HPChange	-100000000.00	0.00	abs	1000	1	-100000000.00	Kanstria Bomb
+99005200	Endurance	0.00	0.00	perc	10000	0	1.30	Fortification
+99005600	Endurance	0.00	0.00	abs	10800000	0	5.00	Exarch's Fortitude
+99005610	Endurance	0.00	0.00	abs	10800000	0	1.00	Exarch's Fortitude I
+99005620	Endurance	0.00	0.00	abs	10800000	0	2.00	Exarch's Fortitude II
+99005630	Endurance	0.00	0.00	abs	10800000	0	4.00	Exarch's Fortitude III
+99005640	Endurance	0.00	0.00	abs	10800000	0	5.00	Exarch's Fortitude IV
+99005650	Endurance	0.00	0.00	abs	10800000	0	8.00	Exarch's Fortitude V
+99005660	Endurance	0.00	0.00	abs	10800000	0	9.00	Exarch's Fortitude VI
+99008200	Endurance	0.00	0.00	abs	7200000	0	20.00	Will to Win
+99008300	Endurance	0.00	0.00	abs	7200000	0	25.00	Rallying Cry
+99009000	HPChange	0.00	0.00	perc	10800000	12	0.00	Salvalith Power
+99070000	HPChange	-0.01	0.00	perc	6000	3	-0.01	Bleeding
+99070001	HPChange	0.01	0.00	perc	8900	2	0.01	Azure Sky
+99070002	HPChange	-0.03	0.00	perc	8000	3	-0.03	Relentless Burning
+99070004	HPChange	-0.01	0.00	perc	6000	3	-0.01	Electric Shock
+99070005	HPChange	-0.01	0.00	perc	6000	3	-0.01	Bitter Cold
+99070006	Endurance	0.00	0.00	perc	5000	0	0.95	Incapacitation
+99070008	Endurance	0.00	0.00	perc	600000	0	1.50	Blue Energy
+99070013	Endurance	0.00	0.00	perc	5000	0	0.60	Tragic Spirits
+99070014	HPChange	-0.05	0.00	perc	5000	1	-0.05	Angry Spirits
+99070020	HPChange	-0.04	0.00	perc	6000	3	-0.04	Excessive Bleeding
+99070023	Endurance	0.00	0.00	abs	20000	0	0.80	Worn Out
+99070024	Endurance	0.00	0.00	abs	300000	0	0.80	
+99070026	Endurance	0.00	0.00	abs	12000	0	0.95	
+990070311	HPChange	0.15	0.00	perc	180000	3	0.15	Warm Shrine Blessing
+990070312	MPChange	0.00	0.15	perc	180000	3	0.15	Bountiful Shrine Blessing
+999001013	HPChange	-900.00	0.00	abs	10000	1	-900.00	BTS
+999001028	Endurance	0.00	0.00	abs	15000	0	30.00	Maximum Capacity
+999001031	Endurance	0.00	0.00	abs	15000	0	30.00	Empowered Tenacity
+999001034	Endurance	0.00	0.00	abs	15000	0	20.00	Tenacity
+999008400	Endurance	0.00	0.00	perc	3930000	0	0.85	Decreased Defense
+999008600	HPChange	0.08	0.00	perc	3930000	10	0.08	Constant HP Recovery
+999009500	HPChange	-0.10	0.00	perc	3930000	5	-0.10	Life Leech
+999009710	HPChange	10000.00	0.00	abs	1000	1	10000.00	HP Replenishment
+999009740	MPChange	0.00	10000.00	abs	60000	1	10000.00	MP Replenishment
+999009810	Endurance	0.00	0.00	perc	60000	0	2.00	Pollutant
+33	MPChange	0.00	0.50	perc	0	1	0.50	T.E.R.A TIME
+1133	MPChange	0.00	0.04	perc	25000	1	0.04	Shining Candy
+25	MPChange	0.00	0.50	perc	0	1	0.50	T.E.R.A TIME
+28	MPChange	0.00	0.50	perc	7200000	1	0.50	T.E.R.A TIME
+14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblem of Eminence
+14400002	Endurance	0.00	0.00	perc	900000	0	1.20	Glorious Memento
+14400003	Endurance	0.00	0.00	perc	900000	0	1.20	Seal of the Undying Flame
+14400003	HPChange	0.01	0.00	perc	900000	1	0.01	Seal of the Undying Flame
+14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Cooldown and MP Replenishment
+3000011	MPChange	0.00	0.01	perc	0	1	0.01	Regal Travel
+3000011	HPChange	0.01	0.00	perc	0	1	0.01	Regal Travel
