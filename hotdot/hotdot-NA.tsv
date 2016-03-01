@@ -20,6 +20,7 @@
 37	CDR	0.00	0.00	perc	0	0	0.20	4th Anniversary Buff(Decreased Cooldown)		
 39	Power	0.00	0.00	perc	0	0	1.02	The Call of War(PC Cafe)		
 39	ASpd	0.00	0.00	perc	0	0	1.02	The Call of War(PC Cafe)		
+47	Attack	0.00	0.00	perc	9900000	0	1.50	Test_Skill Damage Increase/Aggro Reduction		
 201	Power	0.00	0.00	abs	900000	0	17.00	Blessing of Shakan I	50100	Priest
 202	Power	0.00	0.00	abs	900000	0	25.00	Blessing of Shakan II	50200	Priest
 202	Power	0.00	0.00	abs	900000	0	25.00	Blessing of Shakan II	50500	Priest
@@ -68,6 +69,7 @@
 1443	HPChange	386.00	0.00	abs	15000	1	386.00	Bandage IV		
 1444	HPChange	777.00	0.00	abs	15000	1	777.00	Bandage V		
 1445	HPChange	1273.00	0.00	abs	15000	1	1273.00	Bandage VI		
+1446	HPChange	2672.00	0.00	abs	15000	1	2672.00	Bandage VII		
 1450	HPChange	43.00	0.00	abs	10000	1	43.00	First Aid I		
 1451	HPChange	79.00	0.00	abs	10000	1	79.00	First Aid II		
 1452	HPChange	152.00	0.00	abs	10000	1	152.00	First Aid III		
@@ -372,6 +374,7 @@
 4953	AtkPotion	0.00	0.00	perc	3600000	0	1.12	Canephora Potion		
 4955	AtkPotion	0.00	0.00	perc	1800000	0	1.15	Strong Canephora Potion		
 4956	HPChange	0.15	0.00	perc	1000	1	0.15	Easter Egg Basket		
+4957	HPChange	0.15	0.00	perc	1000	1	0.15	Faerie Cauldron		
 10100	HPChange	-11.00	0.00	abs	5000	1	-11.00	Virulence		
 10101	HPChange	-23.00	0.00	abs	5000	1	-23.00	Virulence		
 10102	HPChange	-58.00	0.00	abs	5000	1	-58.00	Virulence		
@@ -624,7 +627,7 @@
 25021	Endurance	0.00	0.00	abs	15000	0	16.00	Grounded Nova		
 25030	AtkPotion	0.00	0.00	perc	5000	0	1.25	Powerlinked Arcane Pulse		
 25050	AtkPotion	0.00	0.00	perc	10000	0	1.20	Powerlinked Lightning Trap		
-25080	AtkPotion	0.00	0.00	perc	10000	0	1.35	Powerlink Burning Breath		
+25080	AtkPotion	0.00	0.00	perc	10000	0	1.35	Powerlinked Burning Breath		
 25130	AtkPotion	0.00	0.00	perc	5000	0	1.20	Glyph of Powerlink		
 25170	Crit	0.00	0.00	perc	5000	0	2.00	Keen Arcane Pulse		
 25171	Crit	0.00	0.00	perc	4000	0	2.00	Keen Nova		
@@ -638,10 +641,10 @@
 26140	HPChange	0.02	0.00	perc	10000	1	0.02	Regenerating Feign Death		
 26141	HPChange	0.03	0.00	perc	10000	1	0.03	Regenerating Feign Death		
 26150	AtkPotion	0.00	0.00	perc	7000	0	1.25	Powerlinked Incendiary Trap		
-26220	Endurance	0.00	0.00	perc	5000	0	0.97	Enfeebling Ensnaring Trap		
+26220	Endurance	0.00	0.00	perc	25000	0	0.95	Enfeebling Ensnaring Trap		
 26230	MPChange	0.00	0.06	perc	5000	1	0.06	Spirited Tenacity		
 26250	Crit	0.00	0.00	perc	0	0	3.00	Glyph of Keenness		
-26251	Endurance	0.00	0.00	perc	15000	0	0.97	Enfeebling Ensnaring Trap		
+26251	Endurance	0.00	0.00	perc	25000	0	0.95	Enfeebling Ensnaring Trap		
 27060	ASpd	0.00	0.00	perc	6000	0	0.70	Numbing Ancient Binding		
 27120	Endurance	0.00	0.00	perc	600000	0	1.10	United Thrall of Protection		
 27140	HPChange	0.20	0.00	perc	1000	1	0.20	Restorative Arun's Vitae		
@@ -663,7 +666,7 @@
 29040	AtkPotion	0.00	0.00	perc	5000	0	1.20	Powerlinked Death Spiral		
 29041	AtkPotion	0.00	0.00	perc	5000	0	1.20	Powerlinked Death Spiral		
 29050	ASpd	0.00	0.00	perc	7000	0	0.90	Numbing Whipsaw		
-29090	ASpd	0.00	0.00	perc	5000	0	1.50	Swift Cable Step		
+29090	ASpd	0.00	0.00	perc	5000	0	1.50	Blazing Cable Step		
 29100	AtkPotion	0.00	0.00	perc	5000	0	1.20	Powerlinked Cable Step		
 29111	Crit	0.00	0.00	perc	0	0	2.00	Keen Grim Strike		
 29112	AtkPotion	0.00	0.00	perc	5000	0	1.25	Powerlinked Death Spiral		
@@ -735,19 +738,26 @@
 70410	Power	0.00	0.00	perc	60000	0	1.20	Umbral Power		
 70411	HPChange	-0.01	0.00	perc	10000	1	-0.01	Umbral Venom		
 70446	Power	0.00	0.00	perc	30000	0	1.10	Exploding Rage		
+70449	Block	0.00	0.00	swch	300000	0	0.00	Sly Trap		
+70451	Block	0.00	0.00	swch	600000	0	0.00	Stalking		
 81163	Power	0.00	0.00	abs	600000	0	0.00	Overly-Attached Friend		
 82102	Endurance	0.00	0.00	perc	45000	0	1.30	Potion of Shielding		
 82601	Block	0.00	0.00	swch	5000	0	0.00	Sanguine Snag		
 82605	Endurance	0.00	0.00	perc	180000	0	100.00	Cruor Aegis		
 82607	Block	0.00	0.00	swch	600000	0	0.00	Sanguine Snag		
+88602	Endurance	0.00	0.00	perc	60000	0	0.90	Melting Armor		
+88610	HPChange	-0.05	0.00	perc	10000	1	-0.05	Viper Venom		
+88610	Block	0.00	0.00	swch	10000	0	0.00	Viper Venom		
+88613	Power	0.00	0.00	perc	600000	0	1.10	Endless Rage		
+88613	ASpd	0.00	0.00	perc	600000	0	1.10	Endless Rage		
 90101	HPChange	0.05	0.00	perc	10000	1	0.05	Resilience of Body		
 90200	MPChange	0.00	0.05	perc	10000	1	0.05	Resilience of Mind		
 90600	HPChange	1.00	0.00	perc	1000	1	1.00	Ancient Wellspring		
-100100	Power	0.00	0.00	perc	0	0	1.36	Assault Stance I	80100	Warrior
-100100	Power	0.00	0.00	perc	0	0	1.36	Assault Stance I	210300	Archer
-100100	Power	0.00	0.00	perc	0	0	1.36	Assault Stance I	210400	Archer
-100100	Power	0.00	0.00	perc	0	0	1.36	Assault Stance I	280300	Archer
-100100	Power	0.00	0.00	perc	0	0	1.36	Assault Stance I	280400	Archer
+100100	Power	0.00	0.00	abs	0	0	5.00	Assault Stance I	80100	Warrior
+100100	Power	0.00	0.00	abs	0	0	5.00	Assault Stance I	210300	Archer
+100100	Power	0.00	0.00	abs	0	0	5.00	Assault Stance I	210400	Archer
+100100	Power	0.00	0.00	abs	0	0	5.00	Assault Stance I	280300	Archer
+100100	Power	0.00	0.00	abs	0	0	5.00	Assault Stance I	280400	Archer
 100100	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance I	80100	Warrior
 100100	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance I	210300	Archer
 100100	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance I	210400	Archer
@@ -758,19 +768,19 @@
 100100	Crit	0.00	0.00	abs	0	0	30.00	Assault Stance I	210400	Archer
 100100	Crit	0.00	0.00	abs	0	0	30.00	Assault Stance I	280300	Archer
 100100	Crit	0.00	0.00	abs	0	0	30.00	Assault Stance I	280400	Archer
-100101	Power	0.00	0.00	perc	0	0	1.48	Assault Stance II	80200	Warrior
+100101	Power	0.00	0.00	abs	0	0	10.00	Assault Stance II	80200	Warrior
 100101	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance II	80200	Warrior
 100101	Crit	0.00	0.00	abs	0	0	40.00	Assault Stance II	80200	Warrior
-100102	Power	0.00	0.00	perc	0	0	1.60	Assault Stance III	80300	Warrior
-100102	Power	0.00	0.00	perc	0	0	1.60	Assault Stance III	80500	Warrior
-100102	Power	0.00	0.00	perc	0	0	1.60	Assault Stance III	80600	Warrior
+100102	Power	0.00	0.00	abs	0	0	15.00	Assault Stance III	80300	Warrior
+100102	Power	0.00	0.00	abs	0	0	15.00	Assault Stance III	80500	Warrior
+100102	Power	0.00	0.00	abs	0	0	15.00	Assault Stance III	80600	Warrior
 100102	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance III	80300	Warrior
 100102	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance III	80500	Warrior
 100102	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance III	80600	Warrior
 100102	Crit	0.00	0.00	abs	0	0	50.00	Assault Stance III	80300	Warrior
 100102	Crit	0.00	0.00	abs	0	0	50.00	Assault Stance III	80500	Warrior
 100102	Crit	0.00	0.00	abs	0	0	50.00	Assault Stance III	80600	Warrior
-100103	Power	0.00	0.00	perc	0	0	1.66	Assault Stance IV	80400	Warrior
+100103	Power	0.00	0.00	abs	0	0	18.00	Assault Stance IV	80400	Warrior
 100103	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance IV	80400	Warrior
 100103	Crit	0.00	0.00	abs	0	0	55.00	Assault Stance IV	80400	Warrior
 100200	Endurance	0.00	0.00	perc	0	0	1.15	Defensive Stance I	90100	Warrior
@@ -890,8 +900,8 @@
 200930	DefPotion	0.00	0.00	perc	0	0	0.80	Pledge of Protection I		
 200931	DefPotion	0.00	0.00	perc	0	0	0.80	Pledge of Protection II		
 201200	ASpd	0.00	0.00	perc	5000	0	0.85	Menacing Wave	200100	Lancer
-201701	Power	0.00	0.00	abs	50000	0	2.00	Line Held I		
-201701	Crit	0.00	0.00	abs	50000	0	3.00	Line Held I		
+201701	Power	0.00	0.00	abs	50000	0	4.00	Line Held I		
+201701	Crit	0.00	0.00	abs	50000	0	6.00	Line Held I		
 300300	Attack	0.00	0.00	perc	20000	0	1.30	Overpower I	180100	Slayer
 300300	Attack	0.00	0.00	perc	20000	0	1.30	Overpower I	180300	Slayer
 300300	Attack	0.00	0.00	perc	20000	0	1.30	Overpower I	180400	Slayer
@@ -910,19 +920,26 @@
 300901	CDR	0.00	0.00	perc	15000	0	1.53	Exhausting Blow II	210200	Slayer
 300902	CDR	0.00	0.00	perc	15000	0	1.55	Exhausting Blow III	210300	Slayer
 400100	Power	0.00	0.00	perc	15000	0	1.20	Fiery Rage I	80100	Berserker
-400100	Endurance	0.00	0.00	perc	15000	0	0.60	Fiery Rage I	80100	Berserker
+400100	Endurance	0.00	0.00	perc	15000	0	0.90	Fiery Rage I	80100	Berserker
+400100	Crit	0.00	0.00	perc	15000	0	1.10	Fiery Rage I	80100	Berserker
 400101	Power	0.00	0.00	perc	17000	0	1.20	Fiery Rage II	80200	Berserker
-400101	Endurance	0.00	0.00	perc	17000	0	0.60	Fiery Rage II	80200	Berserker
+400101	Endurance	0.00	0.00	perc	17000	0	0.90	Fiery Rage II	80200	Berserker
+400101	Crit	0.00	0.00	perc	17000	0	1.10	Fiery Rage II	80200	Berserker
 400102	Power	0.00	0.00	perc	20000	0	1.20	Fiery Rage III	80300	Berserker
-400102	Endurance	0.00	0.00	perc	20000	0	0.60	Fiery Rage III	80300	Berserker
+400102	Endurance	0.00	0.00	perc	20000	0	0.90	Fiery Rage III	80300	Berserker
+400102	Crit	0.00	0.00	perc	20000	0	1.10	Fiery Rage III	80300	Berserker
 400103	Power	0.00	0.00	perc	25000	0	1.20	Fiery Rage IV	80400	Berserker
 400103	Power	0.00	0.00	perc	25000	0	1.20	Fiery Rage IV	80700	Berserker
-400103	Endurance	0.00	0.00	perc	25000	0	0.60	Fiery Rage IV	80400	Berserker
-400103	Endurance	0.00	0.00	perc	25000	0	0.60	Fiery Rage IV	80700	Berserker
+400103	Endurance	0.00	0.00	perc	25000	0	0.90	Fiery Rage IV	80400	Berserker
+400103	Endurance	0.00	0.00	perc	25000	0	0.90	Fiery Rage IV	80700	Berserker
+400103	Crit	0.00	0.00	perc	25000	0	1.10	Fiery Rage IV	80400	Berserker
+400103	Crit	0.00	0.00	perc	25000	0	1.10	Fiery Rage IV	80700	Berserker
 400104	Power	0.00	0.00	perc	27000	0	1.20	Fiery Rage IV	80500	Berserker
-400104	Endurance	0.00	0.00	perc	27000	0	0.60	Fiery Rage IV	80500	Berserker
+400104	Endurance	0.00	0.00	perc	27000	0	0.90	Fiery Rage IV	80500	Berserker
+400104	Crit	0.00	0.00	perc	27000	0	1.10	Fiery Rage IV	80500	Berserker
 400105	Power	0.00	0.00	perc	27000	0	1.20	Fiery Rage VI	80600	Berserker
-400105	Endurance	0.00	0.00	perc	27000	0	0.60	Fiery Rage VI	80600	Berserker
+400105	Endurance	0.00	0.00	perc	27000	0	0.90	Fiery Rage VI	80600	Berserker
+400105	Crit	0.00	0.00	perc	27000	0	1.10	Fiery Rage VI	80600	Berserker
 400500	ASpd	0.00	0.00	perc	15000	0	1.20	Raging Unchained Anger	170100	Berserker
 400501	ASpd	0.00	0.00	perc	15000	0	1.40	Flurry of Blows	170200	Berserker
 400501	ASpd	0.00	0.00	perc	15000	0	1.40	Flurry of Blows	170300	Berserker
@@ -1041,15 +1058,15 @@
 477101	Endurance	0.00	0.00	perc	0	0	2.00	Indomitable Spirit		
 494550	HPChange	-0.02	0.00	perc	0	1	-0.02	Polluted Blood		
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	Futility		
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90100	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90200	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90300	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90400	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90500	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90600	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90700	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90800	Sorcerer
-500100	Attack	0.00	0.00	perc	20000	0	1.25	Overchannel	90900	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90100	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90200	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90300	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90400	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90500	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90600	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90700	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90800	Sorcerer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel	90900	Sorcerer
 500300	MPChange	0.00	120.00	abs	25000	2	120.00	Mana Infusion I	50100	Sorcerer
 500301	MPChange	0.00	120.00	abs	25000	1	120.00	Mana Infusion II	50200	Sorcerer
 500301	MPChange	0.00	120.00	abs	25000	1	120.00	Mana Infusion II	50300	Sorcerer
@@ -1461,13 +1478,22 @@
 905685	Power	0.00	0.00	perc	30000	0	2.00	Might of the Dark		
 905685	ASpd	0.00	0.00	perc	30000	0	1.20	Might of the Dark		
 905902	HPChange	-0.08	0.00	perc	16000	1	-0.08	Bleeding Out		
-905920	Endurance	0.00	0.00	perc	11000	0	100.00	R.I.P.		
+905920	Endurance	0.00	0.00	perc	11000	0	100.00	R.I.P		
 905924	Endurance	0.00	0.00	perc	7000	0	0.40	Terror of Rokdos		
 905928	HPChange	-0.08	0.00	perc	3000	1	-0.08	Curse of the Spectre		
 905928	Block	0.00	0.00	swch	3000	0	0.00	Curse of the Spectre		
 905932	Power	0.00	0.00	perc	0	0	1.10	Fiery Rage		
 905932	Endurance	0.00	0.00	perc	0	0	0.65	Fiery Rage		
 905932	ASpd	0.00	0.00	perc	0	0	1.80	Fiery Rage		
+905933	Endurance	0.00	0.00	perc	90000	0	0.70	Curse of Rokdos		
+905933	HPChange	-0.08	0.00	perc	90000	2	-0.08	Curse of Rokdos		
+905934	HPChange	-0.07	0.00	perc	5000	1	-0.07	Spectral Curse		
+905934	Block	0.00	0.00	swch	5000	0	0.00	Spectral Curse		
+905949	HPChange	-0.02	0.00	perc	15000	1	-0.02	Tyrant's Curse		
+905950	Endurance	0.00	0.00	perc	90000	0	0.70	Doom of Desolarus		
+905950	HPChange	-0.10	0.00	perc	90000	2	-0.10	Doom of Desolarus		
+905960	HPChange	-0.08	0.00	perc	3000	1	-0.08	Curse of the Spectre		
+905960	Block	0.00	0.00	swch	3000	0	0.00	Curse of the Spectre		
 910000	MPChange	0.00	0.01	perc	0	2	0.01	Balder's Blessing		
 910006	MPChange	0.00	0.01	perc	0	2	0.01	Elinu's Blessing		
 910008	MPChange	0.00	0.02	perc	0	2	0.02	Balder's Blessing		
@@ -1547,7 +1573,9 @@
 10151070	HPChange	-1015.00	0.00	abs	10000	1	-1015.00	Spirit Gallows		
 10151074	Endurance	0.00	0.00	perc	30000	0	1.00	Stay of Execution		
 10151090	DefPotion	0.00	0.00	perc	7000	0	0.50	Veil of Shadows		
+10151092	Power	0.00	0.00	abs	300000	0	0.00	Gathering Shadows		
 10152061	HPChange	-645.00	0.00	abs	10100	2	-645.00	Overcharge		
+10152113	Power	0.00	0.00	abs	300000	0	0.00	Depleted Cells		
 10152120	Endurance	0.00	0.00	perc	0	0	1.00	Overcharge		
 10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	20102	Brawler
 10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	20202	Brawler
@@ -1616,16 +1644,6 @@
 10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	160501	Brawler
 10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	160502	Brawler
 10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	160530	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170110	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170210	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170310	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170410	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170510	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170610	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170710	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170810	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	170910	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance	171010	Brawler
 10153040	Power	0.00	0.00	abs	0	0	50.00	Growing Fury	180101	Brawler
 10153040	Power	0.00	0.00	abs	0	0	50.00	Growing Fury	180102	Brawler
 10153040	Power	0.00	0.00	abs	0	0	50.00	Growing Fury	180130	Brawler
@@ -1641,6 +1659,7 @@
 10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Growing Fury	180101	Brawler
 10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Growing Fury	180102	Brawler
 10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Growing Fury	180130	Brawler
+10153071	Power	0.00	0.00	abs	300000	0	0.00	Spent Fury		
 10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered	90101	Brawler
 10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered	90102	Brawler
 10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered	90130	Brawler
@@ -1689,6 +1708,16 @@
 10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered	91202	Brawler
 10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered	91230	Brawler
 10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered	91231	Brawler
+14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblem of Success		
+14400002	Endurance	0.00	0.00	perc	900000	0	1.20	Memento of Fame		
+14400002	ASpd	0.00	0.00	perc	900000	0	1.15	Memento of Fame		
+14400002	AtkPotion	0.00	0.00	perc	900000	0	1.20	Memento of Fame		
+14400003	Endurance	0.00	0.00	perc	900000	0	1.20	Sigil of Indestructible Flame		
+14400003	ASpd	0.00	0.00	perc	900000	0	1.15	Sigil of Indestructible Flame		
+14400003	HPChange	0.01	0.00	perc	900000	1	0.01	Sigil of Indestructible Flame		
+14400003	AtkPotion	0.00	0.00	perc	900000	0	1.20	Sigil of Indestructible Flame		
+14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Power potion - CD, MP regen		
+14400004	CDR	0.00	0.00	perc	900000	0	0.80	Power potion - CD, MP regen		
 16300009	HPChange	0.01	0.00	perc	0	1	0.01	Comfortable Travel		
 16300009	MPChange	0.00	0.01	perc	0	1	0.01	Comfortable Travel		
 16300010	MPChange	0.00	0.01	perc	0	1	0.01	Relaxing Travel 		
@@ -1984,6 +2013,77 @@
 80900001	Endurance	0.00	0.00	setp	15000	0	0.30	Gutripped		
 80900007	HPChange	0.01	0.00	perc	4000	4	0.01	Fast Healing_1%		
 80900008	Endurance	0.00	0.00	perc	20000	0	3.00	Juggernaut		
+81010101	DefPotion	0.00	0.00	perc	5000	0	0.50	Damage Decreased		
+81010102	DefPotion	0.00	0.00	perc	6000	0	0.50	Damage Decreased		
+81010103	DefPotion	0.00	0.00	perc	7000	0	0.50	Damage Decreased		
+81010104	DefPotion	0.00	0.00	perc	8000	0	0.50	Damage Decreased		
+81010105	DefPotion	0.00	0.00	perc	9000	0	0.50	Damage Decreased		
+81010106	DefPotion	0.00	0.00	perc	10000	0	0.50	Damage Decreased		
+81010107	DefPotion	0.00	0.00	perc	11000	0	0.50	Damage Decreased		
+81010108	DefPotion	0.00	0.00	perc	12000	0	0.50	Damage Decreased		
+81010109	DefPotion	0.00	0.00	perc	13000	0	0.50	Damage Decreased		
+81010110	DefPotion	0.00	0.00	perc	14000	0	0.50	Damage Decreased		
+81110401	HPChange	-0.01	0.00	perc	3000	1	-0.01	Damage: Stage I		
+81110402	HPChange	-0.01	0.00	perc	3000	1	-0.01	Damage: Stage II		
+81110403	HPChange	-0.01	0.00	perc	3000	1	-0.01	Damage: Stage III		
+81110404	HPChange	-0.01	0.00	perc	3000	1	-0.01	Damage: Stage IV		
+81110405	HPChange	-0.01	0.00	perc	3000	1	-0.01	Damage: Stage V		
+81110406	HPChange	-0.02	0.00	perc	3000	1	-0.02	Damage: Stage VI		
+81110407	HPChange	-0.02	0.00	perc	3000	1	-0.02	Damage: Stage VII		
+81110408	HPChange	-0.02	0.00	perc	3000	1	-0.02	Damage: Stage VIII		
+81110409	HPChange	-0.02	0.00	perc	3000	1	-0.02	Damage: Stage IX		
+81110410	HPChange	-0.02	0.00	perc	3000	1	-0.02	Damage: Stage X		
+81111001	Crit	0.00	0.00	abs	5000	0	7.00	Pummel		
+81111002	Crit	0.00	0.00	abs	5000	0	8.00	Pummel		
+81111003	Crit	0.00	0.00	abs	5000	0	9.00	Pummel		
+81111004	Crit	0.00	0.00	abs	5000	0	10.00	Pummel		
+81111005	Crit	0.00	0.00	abs	5000	0	11.00	Pummel		
+81111006	Crit	0.00	0.00	abs	5000	0	12.00	Pummel		
+81111007	Crit	0.00	0.00	abs	5000	0	13.00	Pummel		
+81111008	Crit	0.00	0.00	abs	5000	0	14.00	Pummel		
+81111009	Crit	0.00	0.00	abs	5000	0	15.00	Pummel		
+81111010	Crit	0.00	0.00	abs	5000	0	16.00	Pummel		
+81111011	Crit	0.00	0.00	abs	5000	0	17.00	Pummel		
+81111012	Crit	0.00	0.00	abs	5000	0	18.00	Pummel		
+81111013	Crit	0.00	0.00	abs	5000	0	19.00	Pummel		
+81111014	Crit	0.00	0.00	abs	5000	0	20.00	Pummel		
+81111015	Crit	0.00	0.00	abs	5000	0	21.00	Pummel		
+81111016	Crit	0.00	0.00	abs	5000	0	22.00	Pummel		
+81111017	Crit	0.00	0.00	abs	5000	0	23.00	Pummel		
+81111018	Crit	0.00	0.00	abs	5000	0	24.00	Pummel		
+81111019	Crit	0.00	0.00	abs	5000	0	25.00	Pummel		
+81111020	Crit	0.00	0.00	abs	5000	0	26.00	Pummel		
+81112001	ASpd	0.00	0.00	perc	5000	0	1.05	Chained Speed Skating		
+81112002	ASpd	0.00	0.00	perc	5000	0	1.06	Chained Speed Skating		
+81112003	ASpd	0.00	0.00	perc	5000	0	1.07	Chained Speed Skating		
+81112004	ASpd	0.00	0.00	perc	5000	0	1.07	Chained Speed Skating		
+81112005	ASpd	0.00	0.00	perc	5000	0	1.08	Chained Speed Skating		
+81112006	ASpd	0.00	0.00	perc	5000	0	1.09	Chained Speed Skating		
+81112007	ASpd	0.00	0.00	perc	5000	0	1.10	Chained Speed Skating		
+81112008	ASpd	0.00	0.00	perc	5000	0	1.11	Chained Speed Skating		
+81112009	ASpd	0.00	0.00	perc	5000	0	1.11	Chained Speed Skating		
+81112010	ASpd	0.00	0.00	perc	5000	0	1.12	Chained Speed Skating		
+81112011	ASpd	0.00	0.00	perc	5000	0	1.13	Chained Speed Skating		
+81112012	ASpd	0.00	0.00	perc	5000	0	1.14	Chained Speed Skating		
+81112013	ASpd	0.00	0.00	perc	5000	0	1.14	Chained Speed Skating		
+81112014	ASpd	0.00	0.00	perc	5000	0	1.15	Chained Speed Skating		
+81112015	ASpd	0.00	0.00	perc	5000	0	1.16	Chained Speed Skating		
+81112016	ASpd	0.00	0.00	perc	5000	0	1.17	Chained Speed Skating		
+81112017	ASpd	0.00	0.00	perc	5000	0	1.18	Chained Speed Skating		
+81112018	ASpd	0.00	0.00	perc	5000	0	1.18	Chained Speed Skating		
+81112019	ASpd	0.00	0.00	perc	5000	0	1.19	Chained Speed Skating		
+81112020	ASpd	0.00	0.00	perc	5000	0	1.20	Chained Speed Skating		
+81112100	ASpd	0.00	0.00	abs	5000	0	1.00	Chained Speed Skating		
+81112201	ASpd	0.00	0.00	abs	5000	0	5.00	Speed Skating		
+81112202	ASpd	0.00	0.00	abs	5000	0	7.00	Speed Skating		
+81112203	ASpd	0.00	0.00	abs	5000	0	9.00	Speed Skating		
+81112204	ASpd	0.00	0.00	abs	5000	0	11.00	Speed Skating		
+81112205	ASpd	0.00	0.00	abs	5000	0	13.00	Speed Skating		
+81112206	ASpd	0.00	0.00	abs	5000	0	15.00	Speed Skating		
+81112207	ASpd	0.00	0.00	abs	5000	0	17.00	Speed Skating		
+81112208	ASpd	0.00	0.00	abs	5000	0	19.00	Speed Skating		
+81112209	ASpd	0.00	0.00	abs	5000	0	21.00	Speed Skating		
+81112210	ASpd	0.00	0.00	abs	5000	0	23.00	Speed Skating		
 81300002	HPChange	0.01	0.00	perc	0	2	0.01	Arboreal Energy Crystal		
 81300005	Endurance	0.00	0.00	perc	10000	0	1.30	Protective Aura		
 81300005	HPChange	0.03	0.00	perc	10000	2	0.03	Protective Aura		
@@ -1991,7 +2091,7 @@
 81300014	Power	0.00	0.00	perc	3600000	0	1.50	Banyakas's Rage		
 81300014	ASpd	0.00	0.00	perc	3600000	0	1.10	Banyakas's Rage		
 81300015	HPChange	-0.03	0.00	perc	10000	2	-0.03	Banyakas’s Flames		
-81300017	AtkPotion	0.00	0.00	perc	1800000	2	1.80	Forest's Blessing		
+81300017	AtkPotion	0.00	0.00	perc	1800000	2	1.00	Forest's Blessing		
 81300017	CDR	0.00	0.00	perc	1800000	0	0.80	Forest's Blessing		
 81300018	AtkPotion	0.00	0.00	perc	1800000	2	1.10	Forest Warden's Power		
 81300019	HPChange	0.02	0.00	perc	1800000	2	0.02	Forest Warden's Recovery		
@@ -1999,6 +2099,393 @@
 81300021	HPChange	-0.01	0.00	perc	5000	2	-0.01	Skin Scraped on a Rock		
 81300023	HPChange	-0.03	0.00	perc	10000	2	-0.03	Fairie Fire of Banyakas		
 81300024	HPChange	-0.03	0.00	perc	10000	2	-0.03	Fairie Fire of Banyakas		
+88120101	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120102	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120103	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120104	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120105	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120106	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120107	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120108	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120109	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120110	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120111	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120112	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120113	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120114	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120115	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120116	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120117	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120118	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120119	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88120120	Power	0.00	0.00	abs	10000	0	1.00	Desperate Force		
+88202101	Crit	0.00	0.00	abs	3000	0	5.00	Spirit of Vengeance		
+88202102	Crit	0.00	0.00	abs	3000	0	7.00	Spirit of Vengeance		
+88202103	Crit	0.00	0.00	abs	3000	0	9.00	Spirit of Vengeance		
+88202104	Crit	0.00	0.00	abs	3000	0	11.00	Spirit of Vengeance		
+88202105	Crit	0.00	0.00	abs	3000	0	13.00	Spirit of Vengeance		
+88202106	Crit	0.00	0.00	abs	3000	0	15.00	Spirit of Vengeance		
+88202107	Crit	0.00	0.00	abs	3000	0	17.00	Spirit of Vengeance		
+88202108	Crit	0.00	0.00	abs	3000	0	19.00	Spirit of Vengeance		
+88202109	Crit	0.00	0.00	abs	3000	0	21.00	Spirit of Vengeance		
+88202110	Crit	0.00	0.00	abs	3000	0	23.00	Spirit of Vengeance		
+88212101	Endurance	0.00	0.00	perc	3000	0	1.00	Raising Aggression		
+88212102	Endurance	0.00	0.00	perc	3500	0	1.00	Raising Aggression		
+88212103	Endurance	0.00	0.00	perc	4000	0	1.00	Raising Aggression		
+88212104	Endurance	0.00	0.00	perc	4500	0	1.00	Raising Aggression		
+88212105	Endurance	0.00	0.00	perc	5000	0	1.00	Raising Aggression		
+88212106	Endurance	0.00	0.00	perc	5500	0	1.00	Raising Aggression		
+88212107	Endurance	0.00	0.00	perc	6000	0	1.00	Raising Aggression		
+88212108	Endurance	0.00	0.00	perc	6500	0	1.00	Raising Aggression		
+88212109	Endurance	0.00	0.00	perc	7000	0	1.00	Raising Aggression		
+88212110	Endurance	0.00	0.00	perc	7500	0	1.00	Raising Aggression		
+88217201	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217202	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217203	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217204	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217205	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217206	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217207	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217208	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217209	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217210	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217211	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217212	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217213	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217214	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217215	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217216	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217217	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217218	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217219	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88217220	Power	0.00	0.00	abs	10000	0	1.00	Unbending Force		
+88219101	Endurance	0.00	0.00	abs	3000	0	5.00	Spirit of Guardian		
+88219102	Endurance	0.00	0.00	abs	3500	0	5.00	Spirit of Guardian		
+88219103	Endurance	0.00	0.00	abs	4000	0	5.00	Spirit of Guardian		
+88219104	Endurance	0.00	0.00	abs	4500	0	5.00	Spirit of Guardian		
+88219105	Endurance	0.00	0.00	abs	5000	0	5.00	Spirit of Guardian		
+88219106	Endurance	0.00	0.00	abs	5500	0	5.00	Spirit of Guardian		
+88219107	Endurance	0.00	0.00	abs	6000	0	5.00	Spirit of Guardian		
+88219108	Endurance	0.00	0.00	abs	6500	0	5.00	Spirit of Guardian		
+88219109	Endurance	0.00	0.00	abs	7000	0	5.00	Spirit of Guardian		
+88219110	Endurance	0.00	0.00	abs	7500	0	5.00	Spirit of Guardian		
+88219111	Endurance	0.00	0.00	abs	7500	0	6.00	Spirit of Guardian		
+88219112	Endurance	0.00	0.00	abs	7500	0	7.00	Spirit of Guardian		
+88219113	Endurance	0.00	0.00	abs	7500	0	8.00	Spirit of Guardian		
+88219114	Endurance	0.00	0.00	abs	7500	0	9.00	Spirit of Guardian		
+88219115	Endurance	0.00	0.00	abs	7500	0	10.00	Spirit of Guardian		
+88219116	Endurance	0.00	0.00	abs	7500	0	11.00	Spirit of Guardian		
+88219117	Endurance	0.00	0.00	abs	7500	0	12.00	Spirit of Guardian		
+88219118	Endurance	0.00	0.00	abs	7500	0	13.00	Spirit of Guardian		
+88219119	Endurance	0.00	0.00	abs	7500	0	14.00	Spirit of Guardian		
+88219120	Endurance	0.00	0.00	abs	7500	0	15.00	Spirit of Guardian		
+88222101	HPChange	650.00	0.00	abs	10000	1	650.00	EP Recovery		
+88222102	HPChange	800.00	0.00	abs	10000	1	800.00	EP Recovery		
+88222103	HPChange	950.00	0.00	abs	10000	1	950.00	EP Recovery		
+88222104	HPChange	1100.00	0.00	abs	10000	1	1100.00	EP Recovery		
+88222105	HPChange	1250.00	0.00	abs	10000	1	1250.00	EP Recovery		
+88222106	HPChange	1400.00	0.00	abs	10000	1	1400.00	EP Recovery		
+88222107	HPChange	1550.00	0.00	abs	10000	1	1550.00	EP Recovery		
+88222108	HPChange	1700.00	0.00	abs	10000	1	1700.00	EP Recovery		
+88222109	HPChange	1850.00	0.00	abs	10000	1	1850.00	EP Recovery		
+88222110	HPChange	2000.00	0.00	abs	10000	1	2000.00	EP Recovery		
+88227151	Endurance	0.00	0.00	abs	5000	0	4.00	Keen Front		
+88227152	Endurance	0.00	0.00	abs	5000	0	5.00	Keen Front		
+88227153	Endurance	0.00	0.00	abs	5000	0	6.00	Keen Front		
+88227154	Endurance	0.00	0.00	abs	5000	0	7.00	Keen Front		
+88227155	Endurance	0.00	0.00	abs	5000	0	8.00	Keen Front		
+88227156	Endurance	0.00	0.00	abs	5000	0	9.00	Keen Front		
+88227157	Endurance	0.00	0.00	abs	5000	0	10.00	Keen Front		
+88227158	Endurance	0.00	0.00	abs	5000	0	11.00	Keen Front		
+88227159	Endurance	0.00	0.00	abs	5000	0	12.00	Keen Front		
+88227160	Endurance	0.00	0.00	abs	5000	0	13.00	Keen Front		
+88316101	Crit	0.00	0.00	abs	3000	0	5.00	Desperate Pummel		
+88316102	Crit	0.00	0.00	abs	3000	0	7.00	Desperate Pummel		
+88316103	Crit	0.00	0.00	abs	3000	0	9.00	Desperate Pummel		
+88316104	Crit	0.00	0.00	abs	3000	0	11.00	Desperate Pummel		
+88316105	Crit	0.00	0.00	abs	3000	0	13.00	Desperate Pummel		
+88316106	Crit	0.00	0.00	abs	3000	0	15.00	Desperate Pummel		
+88316107	Crit	0.00	0.00	abs	3000	0	17.00	Desperate Pummel		
+88316108	Crit	0.00	0.00	abs	3000	0	19.00	Desperate Pummel		
+88316109	Crit	0.00	0.00	abs	3000	0	21.00	Desperate Pummel		
+88316110	Crit	0.00	0.00	abs	3000	0	23.00	Desperate Pummel		
+88325101	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325102	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325103	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325104	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325105	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325106	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325107	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325108	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325109	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325110	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325111	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325112	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325113	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325114	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325115	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325116	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325117	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325118	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325119	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88325120	Power	0.00	0.00	abs	5000	0	1.00	Relentless Force		
+88410201	DefPotion	0.00	0.00	perc	10000	0	0.97	Spirit of Iron		
+88410202	DefPotion	0.00	0.00	perc	10000	0	0.94	Spirit of Iron		
+88410203	DefPotion	0.00	0.00	perc	10000	0	0.91	Spirit of Iron		
+88410204	DefPotion	0.00	0.00	perc	10000	0	0.88	Spirit of Iron		
+88410205	DefPotion	0.00	0.00	perc	10000	0	0.85	Spirit of Iron		
+88410206	DefPotion	0.00	0.00	perc	10000	0	0.82	Spirit of Iron		
+88410207	DefPotion	0.00	0.00	perc	10000	0	0.79	Spirit of Iron		
+88410208	DefPotion	0.00	0.00	perc	10000	0	0.76	Spirit of Iron		
+88410209	DefPotion	0.00	0.00	perc	10000	0	0.73	Spirit of Iron		
+88410210	DefPotion	0.00	0.00	perc	10000	0	0.70	Spirit of Iron		
+88418101	MPChange	0.00	60.00	abs	10000	1	60.00	Charging		
+88418102	MPChange	0.00	70.00	abs	10000	1	70.00	Charging		
+88418103	MPChange	0.00	80.00	abs	10000	1	80.00	Charging		
+88418104	MPChange	0.00	90.00	abs	10000	1	90.00	Charging		
+88418105	MPChange	0.00	100.00	abs	10000	1	100.00	Charging		
+88418106	MPChange	0.00	110.00	abs	10000	1	110.00	Charging		
+88418107	MPChange	0.00	120.00	abs	10000	1	120.00	Charging		
+88418108	MPChange	0.00	130.00	abs	10000	1	130.00	Charging		
+88418109	MPChange	0.00	140.00	abs	10000	1	140.00	Charging		
+88418110	MPChange	0.00	150.00	abs	10000	1	150.00	Charging		
+88500010	HPChange	-0.01	0.00	perc	6000	1	-0.01	Burnt Wound		
+88505101	MPChange	0.00	7.00	abs	25000	1	7.00	(Hidden) Infusion charge		
+88505102	MPChange	0.00	9.00	abs	25000	1	9.00	(Hidden) Infusion charge		
+88505103	MPChange	0.00	11.00	abs	25000	1	11.00	(Hidden) Infusion charge		
+88505104	MPChange	0.00	13.00	abs	25000	1	13.00	(Hidden) Infusion charge		
+88505105	MPChange	0.00	15.00	abs	25000	1	15.00	(Hidden) Infusion charge		
+88505106	MPChange	0.00	17.00	abs	25000	1	17.00	(Hidden) Infusion charge		
+88505107	MPChange	0.00	19.00	abs	25000	1	19.00	(Hidden) Infusion charge		
+88505108	MPChange	0.00	21.00	abs	25000	1	21.00	(Hidden) Infusion charge		
+88505109	MPChange	0.00	23.00	abs	25000	1	23.00	(Hidden) Infusion charge		
+88505110	MPChange	0.00	25.00	abs	25000	1	25.00	(Hidden) Infusion charge		
+88509201	MPChange	0.00	20.00	abs	20000	1	20.00	Charging		
+88509202	MPChange	0.00	30.00	abs	20000	1	30.00	Charging		
+88509203	MPChange	0.00	40.00	abs	20000	1	40.00	Charging		
+88509204	MPChange	0.00	50.00	abs	20000	1	50.00	Charging		
+88509205	MPChange	0.00	60.00	abs	20000	1	60.00	Charging		
+88509206	MPChange	0.00	70.00	abs	20000	1	70.00	Charging		
+88509207	MPChange	0.00	80.00	abs	20000	1	80.00	Charging		
+88509208	MPChange	0.00	90.00	abs	20000	1	90.00	Charging		
+88509209	MPChange	0.00	100.00	abs	20000	1	100.00	Charging		
+88509210	MPChange	0.00	110.00	abs	20000	1	110.00	Charging		
+88524201	MPChange	0.00	6.00	abs	15000	1	6.00	Charging		
+88524202	MPChange	0.00	7.00	abs	15000	1	7.00	Charging		
+88524203	MPChange	0.00	8.00	abs	15000	1	8.00	Charging		
+88524204	MPChange	0.00	9.00	abs	15000	1	9.00	Charging		
+88524205	MPChange	0.00	10.00	abs	15000	1	10.00	Charging		
+88524206	MPChange	0.00	11.00	abs	15000	1	11.00	Charging		
+88524207	MPChange	0.00	12.00	abs	15000	1	12.00	Charging		
+88524208	MPChange	0.00	13.00	abs	15000	1	13.00	Charging		
+88524209	MPChange	0.00	14.00	abs	15000	1	14.00	Charging		
+88524210	MPChange	0.00	15.00	abs	15000	1	15.00	Charging		
+88531101	DefPotion	0.00	0.00	perc	10000	0	0.97	Spirit of Iron		
+88531102	DefPotion	0.00	0.00	perc	10000	0	0.94	Spirit of Iron		
+88531103	DefPotion	0.00	0.00	perc	10000	0	0.91	Spirit of Iron		
+88531104	DefPotion	0.00	0.00	perc	10000	0	0.88	Spirit of Iron		
+88531105	DefPotion	0.00	0.00	perc	10000	0	0.85	Spirit of Iron		
+88531106	DefPotion	0.00	0.00	perc	10000	0	0.82	Spirit of Iron		
+88531107	DefPotion	0.00	0.00	perc	10000	0	0.79	Spirit of Iron		
+88531108	DefPotion	0.00	0.00	perc	10000	0	0.76	Spirit of Iron		
+88531109	DefPotion	0.00	0.00	perc	10000	0	0.73	Spirit of Iron		
+88531110	DefPotion	0.00	0.00	perc	10000	0	0.70	Spirit of Iron		
+88608101	Crit	0.00	0.00	abs	3000	0	2.00	Blinding Pummel		
+88608102	Crit	0.00	0.00	abs	3000	0	3.00	Blinding Pummel		
+88608103	Crit	0.00	0.00	abs	3000	0	4.00	Blinding Pummel		
+88608104	Crit	0.00	0.00	abs	3000	0	5.00	Blinding Pummel		
+88608105	Crit	0.00	0.00	abs	3000	0	6.00	Blinding Pummel		
+88608106	Crit	0.00	0.00	abs	3000	0	7.00	Blinding Pummel		
+88608107	Crit	0.00	0.00	abs	3000	0	8.00	Blinding Pummel		
+88608108	Crit	0.00	0.00	abs	3000	0	9.00	Blinding Pummel		
+88608109	Crit	0.00	0.00	abs	3000	0	10.00	Blinding Pummel		
+88608110	Crit	0.00	0.00	abs	3000	0	11.00	Blinding Pummel		
+88629101	DefPotion	0.00	0.00	perc	10000	0	0.97	Spirit of Iron		
+88629102	DefPotion	0.00	0.00	perc	10000	0	0.94	Spirit of Iron		
+88629103	DefPotion	0.00	0.00	perc	10000	0	0.91	Spirit of Iron		
+88629104	DefPotion	0.00	0.00	perc	10000	0	0.88	Spirit of Iron		
+88629105	DefPotion	0.00	0.00	perc	10000	0	0.85	Spirit of Iron		
+88629106	DefPotion	0.00	0.00	perc	10000	0	0.82	Spirit of Iron		
+88629107	DefPotion	0.00	0.00	perc	10000	0	0.79	Spirit of Iron		
+88629108	DefPotion	0.00	0.00	perc	10000	0	0.76	Spirit of Iron		
+88629109	DefPotion	0.00	0.00	perc	10000	0	0.73	Spirit of Iron		
+88629110	DefPotion	0.00	0.00	perc	10000	0	0.70	Spirit of Iron		
+88631101	MPChange	0.00	80.00	abs	5000	1	80.00	Charging		
+88631102	MPChange	0.00	90.00	abs	5000	1	90.00	Charging		
+88631103	MPChange	0.00	100.00	abs	5000	1	100.00	Charging		
+88631104	MPChange	0.00	110.00	abs	5000	1	110.00	Charging		
+88631105	MPChange	0.00	120.00	abs	5000	1	120.00	Charging		
+88631106	MPChange	0.00	130.00	abs	5000	1	130.00	Charging		
+88631107	MPChange	0.00	140.00	abs	5000	1	140.00	Charging		
+88631108	MPChange	0.00	150.00	abs	5000	1	150.00	Charging		
+88631109	MPChange	0.00	160.00	abs	5000	1	160.00	Charging		
+88631110	MPChange	0.00	170.00	abs	5000	1	170.00	Charging		
+88631201	Endurance	0.00	0.00	abs	5000	0	2.00	Spirit of Steel		
+88631202	Endurance	0.00	0.00	abs	5000	0	3.00	Spirit of Steel		
+88631203	Endurance	0.00	0.00	abs	5000	0	4.00	Spirit of Steel		
+88631204	Endurance	0.00	0.00	abs	5000	0	5.00	Spirit of Steel		
+88631205	Endurance	0.00	0.00	abs	5000	0	6.00	Spirit of Steel		
+88631206	Endurance	0.00	0.00	abs	5000	0	7.00	Spirit of Steel		
+88631207	Endurance	0.00	0.00	abs	5000	0	8.00	Spirit of Steel		
+88631208	Endurance	0.00	0.00	abs	5000	0	9.00	Spirit of Steel		
+88631209	Endurance	0.00	0.00	abs	5000	0	10.00	Spirit of Steel		
+88631210	Endurance	0.00	0.00	abs	5000	0	11.00	Spirit of Steel		
+88722151	Endurance	0.00	0.00	abs	12000	0	2.00	Spirit of Iron		
+88722152	Endurance	0.00	0.00	abs	12000	0	3.00	Spirit of Iron		
+88722153	Endurance	0.00	0.00	abs	12000	0	4.00	Spirit of Iron		
+88722154	Endurance	0.00	0.00	abs	12000	0	5.00	Spirit of Iron		
+88722155	Endurance	0.00	0.00	abs	12000	0	6.00	Spirit of Iron		
+88722156	Endurance	0.00	0.00	abs	12000	0	7.00	Spirit of Iron		
+88722157	Endurance	0.00	0.00	abs	12000	0	8.00	Spirit of Iron		
+88722158	Endurance	0.00	0.00	abs	12000	0	9.00	Spirit of Iron		
+88722159	Endurance	0.00	0.00	abs	12000	0	10.00	Spirit of Iron		
+88722160	Endurance	0.00	0.00	abs	12000	0	11.00	Spirit of Iron		
+88728201	MPChange	0.00	80.00	abs	3000	1	80.00	Constant Charge		
+88728202	MPChange	0.00	80.00	abs	4000	1	80.00	Constant Charge		
+88728203	MPChange	0.00	80.00	abs	5000	1	80.00	Constant Charge		
+88728204	MPChange	0.00	80.00	abs	6000	1	80.00	Constant Charge		
+88728205	MPChange	0.00	80.00	abs	7000	1	80.00	Constant Charge		
+88728206	MPChange	0.00	80.00	abs	8000	1	80.00	Constant Charge		
+88728207	MPChange	0.00	80.00	abs	9000	1	80.00	Constant Charge		
+88728208	MPChange	0.00	80.00	abs	10000	1	80.00	Constant Charge		
+88728209	MPChange	0.00	80.00	abs	11000	1	80.00	Constant Charge		
+88728210	MPChange	0.00	80.00	abs	12000	1	80.00	Constant Charge		
+88728211	MPChange	0.00	80.00	abs	13000	1	80.00	Constant Charge		
+88728212	MPChange	0.00	80.00	abs	14000	1	80.00	Constant Charge		
+88728213	MPChange	0.00	80.00	abs	15000	1	80.00	Constant Charge		
+88728214	MPChange	0.00	80.00	abs	16000	1	80.00	Constant Charge		
+88728215	MPChange	0.00	80.00	abs	17000	1	80.00	Constant Charge		
+88733251	HPChange	-0.01	0.00	perc	3000	1	-0.01	Aftermath of Nightmare: Stage 1		
+88733252	HPChange	-0.01	0.00	perc	3000	1	-0.01	Aftermath of Nightmare: Stage 2		
+88733253	HPChange	-0.01	0.00	perc	3000	1	-0.01	Aftermath of Nightmare: Stage 3		
+88733254	HPChange	-0.01	0.00	perc	3000	1	-0.01	Aftermath of Nightmare: Stage 4		
+88733255	HPChange	-0.01	0.00	perc	3000	1	-0.01	Aftermath of Nightmare: Stage 5		
+88733256	HPChange	-0.02	0.00	perc	3000	1	-0.02	Aftermath of Nightmare: Stage 6		
+88733257	HPChange	-0.02	0.00	perc	3000	1	-0.02	Aftermath of Nightmare: Stage 7		
+88733258	HPChange	-0.02	0.00	perc	3000	1	-0.02	Aftermath of Nightmare: Stage 8		
+88733259	HPChange	-0.02	0.00	perc	3000	1	-0.02	Aftermath of Nightmare: Stage 9		
+88733260	HPChange	-0.02	0.00	perc	3000	1	-0.02	Aftermath of Nightmare: Stage 10		
+88823101	AtkPotion	0.00	0.00	perc	0	0	1.04	Fortified Metamorphic Blast		
+88823102	AtkPotion	0.00	0.00	perc	0	0	1.08	Fortified Metamorphic Blast		
+88823103	AtkPotion	0.00	0.00	perc	0	0	1.12	Fortified Metamorphic Blast		
+88823104	AtkPotion	0.00	0.00	perc	0	0	1.16	Fortified Metamorphic Blast		
+88823105	AtkPotion	0.00	0.00	perc	0	0	1.20	Fortified Metamorphic Blast		
+88825251	Endurance	0.00	0.00	abs	3000	0	2.00	Spirit of Iron		
+88825252	Endurance	0.00	0.00	abs	3000	0	3.00	Spirit of Iron		
+88825253	Endurance	0.00	0.00	abs	3000	0	4.00	Spirit of Iron		
+88825254	Endurance	0.00	0.00	abs	3000	0	5.00	Spirit of Iron		
+88825255	Endurance	0.00	0.00	abs	3000	0	6.00	Spirit of Iron		
+88825256	Endurance	0.00	0.00	abs	3000	0	7.00	Spirit of Iron		
+88825257	Endurance	0.00	0.00	abs	3000	0	8.00	Spirit of Iron		
+88825258	Endurance	0.00	0.00	abs	3000	0	9.00	Spirit of Iron		
+88825259	Endurance	0.00	0.00	abs	3000	0	10.00	Spirit of Iron		
+88825260	Endurance	0.00	0.00	abs	3000	0	11.00	Spirit of Iron		
+88827220	HPChange	0.01	0.00	perc	30000	1	0.01	Blessed Health		
+88829101	MPChange	0.00	-20.00	abs	10000	1	-20.00	Broken Spirit		
+88829102	MPChange	0.00	-30.00	abs	10000	1	-30.00	Broken Spirit		
+88829103	MPChange	0.00	-40.00	abs	10000	1	-40.00	Broken Spirit		
+88829104	MPChange	0.00	-50.00	abs	10000	1	-50.00	Broken Spirit		
+88829105	MPChange	0.00	-60.00	abs	10000	1	-60.00	Broken Spirit		
+88829106	MPChange	0.00	-70.00	abs	10000	1	-70.00	Broken Spirit		
+88829107	MPChange	0.00	-80.00	abs	10000	1	-80.00	Broken Spirit		
+88829108	MPChange	0.00	-90.00	abs	10000	1	-90.00	Broken Spirit		
+88829109	MPChange	0.00	-100.00	abs	10000	1	-100.00	Broken Spirit		
+88829110	MPChange	0.00	-110.00	abs	10000	1	-110.00	Broken Spirit		
+88837251	MPChange	0.00	20.00	abs	3000	1	20.00	Charging		
+88837252	MPChange	0.00	28.00	abs	3000	1	28.00	Charging		
+88837253	MPChange	0.00	36.00	abs	3000	1	36.00	Charging		
+88837254	MPChange	0.00	44.00	abs	3000	1	44.00	Charging		
+88837255	MPChange	0.00	52.00	abs	3000	1	52.00	Charging		
+88837256	MPChange	0.00	60.00	abs	3000	1	60.00	Charging		
+88837257	MPChange	0.00	68.00	abs	3000	1	68.00	Charging		
+88837258	MPChange	0.00	76.00	abs	3000	1	76.00	Charging		
+88837259	MPChange	0.00	84.00	abs	3000	1	84.00	Charging		
+88837260	MPChange	0.00	92.00	abs	3000	1	92.00	Charging		
+89011311	Crit	0.00	0.00	abs	3000	0	6.00	Critical Pummel		
+89011312	Crit	0.00	0.00	abs	3000	0	7.00	Critical Pummel		
+89011313	Crit	0.00	0.00	abs	3000	0	8.00	Critical Pummel		
+89011314	Crit	0.00	0.00	abs	3000	0	9.00	Critical Pummel		
+89011315	Crit	0.00	0.00	abs	3000	0	10.00	Critical Pummel		
+89011316	Crit	0.00	0.00	abs	3000	0	11.00	Critical Pummel		
+89011317	Crit	0.00	0.00	abs	3000	0	12.00	Critical Pummel		
+89011318	Crit	0.00	0.00	abs	3000	0	13.00	Critical Pummel		
+89011319	Crit	0.00	0.00	abs	3000	0	14.00	Critical Pummel		
+89011320	Crit	0.00	0.00	abs	3000	0	15.00	Critical Pummel		
+89011321	Crit	0.00	0.00	abs	3000	0	16.00	Critical Pummel		
+89011322	Crit	0.00	0.00	abs	3000	0	17.00	Critical Pummel		
+89011323	Crit	0.00	0.00	abs	3000	0	18.00	Critical Pummel		
+89011324	Crit	0.00	0.00	abs	3000	0	19.00	Critical Pummel		
+89011325	Crit	0.00	0.00	abs	3000	0	20.00	Critical Pummel		
+89016101	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016102	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016103	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016104	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016105	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016106	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016107	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016108	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016109	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016110	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016111	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016112	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016113	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016114	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016115	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016116	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016117	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016118	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016119	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89016120	Power	0.00	0.00	abs	10000	0	1.00	Dark Force		
+89105101	Power	0.00	0.00	abs	5000	0	1.00	Reloading Scattershot		
+89105102	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105103	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105104	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105105	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105106	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105107	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105108	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105109	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105110	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105111	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105112	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105113	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105114	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105115	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105116	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105117	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105118	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105119	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89105120	Power	0.00	0.00	abs	5000	0	1.00	Blinding Force		
+89216101	AtkPotion	0.00	0.00	perc	5000	0	1.05	 Counter chained with Flip Kick 		
+89216102	AtkPotion	0.00	0.00	perc	5000	0	1.06	 Counter chained with Flip Kick 		
+89216103	AtkPotion	0.00	0.00	perc	5000	0	1.07	 Counter chained with Flip Kick 		
+89216104	AtkPotion	0.00	0.00	perc	5000	0	1.08	 Counter chained with Flip Kick 		
+89216105	AtkPotion	0.00	0.00	perc	5000	0	1.09	 Counter chained with Flip Kick 		
+89216106	AtkPotion	0.00	0.00	perc	5000	0	1.10	 Counter chained with Flip Kick 		
+89216107	AtkPotion	0.00	0.00	perc	5000	0	1.11	 Counter chained with Flip Kick 		
+89216108	AtkPotion	0.00	0.00	perc	5000	0	1.12	 Counter chained with Flip Kick 		
+89216109	AtkPotion	0.00	0.00	perc	5000	0	1.13	 Counter chained with Flip Kick 		
+89216110	AtkPotion	0.00	0.00	perc	5000	0	1.14	 Counter chained with Flip Kick 		
+89216111	AtkPotion	0.00	0.00	perc	5000	0	1.16	 Counter chained with Flip Kick 		
+89216112	AtkPotion	0.00	0.00	perc	5000	0	1.17	 Counter chained with Flip Kick 		
+89216113	AtkPotion	0.00	0.00	perc	5000	0	1.18	 Counter chained with Flip Kick 		
+89216114	AtkPotion	0.00	0.00	perc	5000	0	1.19	 Counter chained with Flip Kick 		
+89216115	AtkPotion	0.00	0.00	perc	5000	0	1.20	 Counter chained with Flip Kick 		
+89216116	AtkPotion	0.00	0.00	perc	5000	0	1.21	 Counter chained with Flip Kick 		
+89216117	AtkPotion	0.00	0.00	perc	5000	0	1.22	 Counter chained with Flip Kick 		
+89216118	AtkPotion	0.00	0.00	perc	5000	0	1.23	 Counter chained with Flip Kick 		
+89216119	AtkPotion	0.00	0.00	perc	5000	0	1.24	 Counter chained with Flip Kick 		
+89216120	AtkPotion	0.00	0.00	perc	5000	0	1.25	 Counter chained with Flip Kick 		
+89217101	Power	0.00	0.00	abs	5000	0	1.00	Powerful Counter		
+89217102	Power	0.00	0.00	abs	5000	0	2.00	Powerful Counter		
+89217103	Power	0.00	0.00	abs	5000	0	3.00	Powerful Counter		
+89217104	Power	0.00	0.00	abs	5000	0	4.00	Powerful Counter		
+89217105	Power	0.00	0.00	abs	5000	0	5.00	Powerful Counter		
+89217106	Power	0.00	0.00	abs	5000	0	6.00	Powerful Counter		
+89217107	Power	0.00	0.00	abs	5000	0	7.00	Powerful Counter		
+89217108	Power	0.00	0.00	abs	5000	0	8.00	Powerful Counter		
+89217109	Power	0.00	0.00	abs	5000	0	9.00	Powerful Counter		
+89217110	Power	0.00	0.00	abs	5000	0	10.00	Powerful Counter		
 91100200	HPChange	-0.03	0.00	perc	240000	2	-0.03	Doomfire		
 91101100	HPChange	-0.03	0.00	perc	240000	2	-0.03	Flame of Hell		
 91101300	HPChange	-0.03	0.00	perc	240000	2	-0.03	Doomchill		
@@ -2051,6 +2538,7 @@
 97504300	Power	0.00	0.00	perc	60000	0	1.50	Provocation of Kelsaik		
 97504300	ASpd	0.00	0.00	perc	60000	0	1.50	Provocation of Kelsaik		
 97900001	Endurance	0.00	0.00	perc	3600000	0	0.99	Fading from Fatigue		
+97950005	HPChange	-0.10	0.00	perc	10000	2	-0.10	Elemental Burning		
 98000016	Power	0.00	0.00	perc	600000	0	1.10	Ardentmaw's Glut		
 98000039	HPChange	1.00	0.00	perc	1000	1	1.00	Nature's Touch		
 98000040	HPChange	0.50	0.00	perc	1000	1	0.50	Nature's Warmness		
@@ -2140,7 +2628,7 @@
 99000460	HPChange	-0.02	0.00	perc	45000	3	-0.02	Venom		
 99000470	HPChange	-0.03	0.00	perc	45000	3	-0.03	Venom		
 99000480	HPChange	-0.50	0.00	perc	1000	1	-0.50	Venom		
-99000580	HPChange	-0.06	0.00	perc	15000	3	-0.06	Bleed		
+99000580	HPChange	-0.06	0.00	perc	15000	3	-0.06	Bleeding		
 99000600	Power	0.00	0.00	perc	15000	0	0.90	Muscle Fatigue		
 99000610	Power	0.00	0.00	perc	15000	0	0.85	Muscle Fatigue		
 99000620	Power	0.00	0.00	perc	15000	0	0.80	Muscle Fatigue		
@@ -2228,8 +2716,8 @@
 99002450	Block	0.00	0.00	swch	35000	0	0.00	Enervate VI		
 99002460	Block	0.00	0.00	swch	40000	0	0.00	Enervate VII		
 99002470	Block	0.00	0.00	swch	45000	0	0.00	Enervate VIII		
-99002500	HPChange	-0.06	0.00	perc	15000	3	-0.06	Mendable Bleeding		
-99002510	HPChange	-0.10	0.00	perc	15000	3	-0.10	Bleeding		
+99002500	HPChange	-0.06	0.00	perc	15000	3	-0.06	Bleeding		
+99002510	HPChange	-0.10	0.00	perc	15000	3	-0.10	Heavy Bleeding		
 99002520	HPChange	-0.06	0.00	perc	15000	3	-0.06	Excessive Bleeding		
 99002700	Power	0.00	0.00	perc	300000	0	1.00	Words of Unmaking		
 99002800	HPChange	0.00	0.00	perc	0	1	0.00	Restoration		
