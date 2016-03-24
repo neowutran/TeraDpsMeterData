@@ -8,8 +8,10 @@
 26	CDR	0.00	0.00	perc	0	0	0.20	Super-Hyper-Ultra-Turbo enclenché		
 27	MPChange	0.00	0.50	perc	0	1	0.50	T.E.R.A TIME		
 27	CDR	0.00	0.00	perc	0	0	0.20	T.E.R.A TIME		
-28	MPChange	0.00	0.50	perc	7200000	1	0.50	T.E.R.A TIME		
-28	CDR	0.00	0.00	perc	7200000	0	0.20	T.E.R.A TIME		
+28	MPChange	0.00	0.50	perc	7200000	1	0.50	T.E.R.A TIME	101047	[신병지급품] 스킬 쿨타임 감소 포션
+28	MPChange	0.00	0.50	perc	7200000	1	0.50	T.E.R.A TIME	101173	[이벤트] 스킬 쿨타임 감소 포션
+28	CDR	0.00	0.00	perc	7200000	0	0.20	T.E.R.A TIME	101047	[신병지급품] 스킬 쿨타임 감소 포션
+28	CDR	0.00	0.00	perc	7200000	0	0.20	T.E.R.A TIME	101173	[이벤트] 스킬 쿨타임 감소 포션
 31	Power	0.00	0.00	perc	7200000	0	1.20	T.E.R.A TIME Saison 2		
 31	ASpd	0.00	0.00	perc	7200000	0	1.12	T.E.R.A TIME Saison 2		
 33	MPChange	0.00	0.50	perc	0	1	0.50	T.E.R.A TIME		
@@ -21,22 +23,17 @@
 39	Power	0.00	0.00	perc	0	0	1.02	L'appelle de la guerre (Cybercafé)		
 39	ASpd	0.00	0.00	perc	0	0	1.02	L'appelle de la guerre (Cybercafé)		
 47	Attack	0.00	0.00	perc	9900000	0	1.50	Test_Augmentation des dégâts par compétence/réduction du taux d'agression		
-201	Power	0.00	0.00	abs	900000	0	17.00	Bénédiction de Shakan I	50100	Priest
-202	Power	0.00	0.00	abs	900000	0	25.00	Bénédiction de Shakan II	50200	Priest
-202	Power	0.00	0.00	abs	900000	0	25.00	Bénédiction de Shakan II	50500	Priest
-601	Power	0.00	0.00	abs	25000	0	20.00	Colère du titan I	30100	Mystic
-601	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan I	30100	Mystic
-602	Power	0.00	0.00	abs	25000	0	25.00	Colère du titan II	30200	Mystic
-602	Power	0.00	0.00	abs	25000	0	25.00	Colère du titan II	30400	Mystic
-602	Power	0.00	0.00	abs	25000	0	25.00	Colère du titan II	30500	Mystic
-602	Power	0.00	0.00	abs	25000	0	25.00	Colère du titan II	30600	Mystic
-602	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan II	30200	Mystic
-602	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan II	30400	Mystic
-602	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan II	30500	Mystic
-602	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan II	30600	Mystic
-603	Power	0.00	0.00	abs	25000	0	40.00	Colère du titan III	30300	Mystic
-603	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan III	30300	Mystic
-902	Noctenium	0.00	0.00	swch	0	0	1.00	Infusion au noctenium	60220	Mystic
+201	Power	0.00	0.00	abs	900000	0	17.00	Bénédiction de Shakan I		
+202	Power	0.00	0.00	abs	900000	0	25.00	Bénédiction de Shakan II		
+601	Power	0.00	0.00	abs	25000	0	20.00	Colère du titan I		
+601	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan I		
+602	Power	0.00	0.00	abs	25000	0	25.00	Colère du titan II		
+602	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan II		
+603	Power	0.00	0.00	abs	25000	0	40.00	Colère du titan III		
+603	ASpd	0.00	0.00	abs	25000	0	6.00	Colère du titan III		
+902	Noctenium	0.00	0.00	swch	0	0	1.00	Infusion au noctenium	1300	Infusion au noctenium
+902	Noctenium	0.00	0.00	swch	0	0	1.00	Infusion au noctenium	212982	녹테늄 강화탄
+902	Noctenium	0.00	0.00	swch	0	0	1.00	Infusion au noctenium	213820	[연합 보급품] 녹테늄 강화탄
 903	Power	0.00	0.00	abs	30000	0	15.00	Intention meurtrière		
 903	Crit	0.00	0.00	perc	30000	0	1.04	Intention meurtrière		
 903	ASpd	0.00	0.00	perc	30000	0	1.08	Intention meurtrière		
@@ -44,13 +41,17 @@
 905	MPChange	0.00	100.00	abs	10000	2	100.00	Cercle de régénération - Restauration des PM		
 906	MPChange	0.00	50.00	abs	5000	1	50.00	Poussée restauratrice - Restauration des PM		
 907	ASpd	0.00	0.00	perc	15000	0	1.20	Colère du titan - Accélération		
-910	Noctenium	0.00	0.00	swch	0	0	2.00	Test d'Infusion au noctenium		
-911	Noctenium	0.00	0.00	swch	0	0	3.00	Infusion au noctenium		
-912	Noctenium	0.00	0.00	swch	0	0	4.00	Infusion au noctenium		
-913	Noctenium	0.00	0.00	swch	0	0	5.00	Infusion au noctenium		
-916	Noctenium	0.00	0.00	swch	0	0	6.00	Infusion au noctenium		
-1130	MPChange	0.00	0.04	perc	25000	1	0.04	Sucre d'orge en cœur		
-1131	MPChange	0.00	0.50	perc	1000	1	0.50	Cœur en chocolat		
+910	Noctenium	0.00	0.00	swch	0	0	2.00	Test d'Infusion au noctenium	1230	Infusion supérieure de noctenium
+911	Noctenium	0.00	0.00	swch	0	0	3.00	Infusion au noctenium	1301	Infusion de noctenium de l'alliance
+912	Noctenium	0.00	0.00	swch	0	0	4.00	Infusion au noctenium	1302	Infusion de noctenium du Caveau
+913	Noctenium	0.00	0.00	swch	0	0	5.00	Infusion au noctenium	1303	Infusion de noctenium ajustée
+916	Noctenium	0.00	0.00	swch	0	0	6.00	Infusion au noctenium	81212	Infusion de noctenium d'amitié
+1130	MPChange	0.00	0.04	perc	25000	1	0.04	Sucre d'orge en cœur	435	Sucre d'orge en cœur
+1130	MPChange	0.00	0.04	perc	25000	1	0.04	Sucre d'orge en cœur	439	Sucres d'orge
+1130	MPChange	0.00	0.04	perc	25000	1	0.04	Sucre d'orge en cœur	221314	연합 보급품: 빛나는 사탕
+1131	MPChange	0.00	0.50	perc	1000	1	0.50	Cœur en chocolat	434	Cœur en chocolat
+1132	StaminaDecay	0.00	0.00	seta	1800000	0	0.00	Lettre d'amour	433	Lettre d'amour
+1132	StaminaDecay	0.00	0.00	seta	1800000	0	0.00	Lettre d'amour	100943	한게타로의 러브레터
 1133	MPChange	0.00	0.04	perc	25000	1	0.04	빛나는 사탕		
 1135	Endurance	0.00	0.00	perc	0	0	1.00	Appel de la Fédération		
 1150	HPChange	0.01	0.00	perc	1800000	5	0.01	Fiole vigoureuse de restauration		
@@ -58,43 +59,74 @@
 1200	MPChange	0.00	5.00	abs	1800000	5	5.00	Fiole infusée de restauration		
 1201	MPChange	0.00	5.00	abs	10800000	5	5.00	Puissante fiole infusée de restauration		
 1250	Power	0.00	0.00	abs	1800000	0	5.00	Fiole sauvage de puissance		
-1251	Power	0.00	0.00	abs	1800000	0	7.00	Fiole sauvage puissante		
+1251	Power	0.00	0.00	abs	1800000	0	7.00	Fiole sauvage puissante	150538	Fiole sauvage tumultueuse
+1251	Power	0.00	0.00	abs	1800000	0	7.00	Fiole sauvage puissante	150539	Fiole sauvage tumultueuse
+1251	Power	0.00	0.00	abs	1800000	0	7.00	Fiole sauvage puissante	150941	Fiole sauvage tumultueuse
+1251	Power	0.00	0.00	abs	1800000	0	7.00	Fiole sauvage puissante	150942	Fiole sauvage tumultueuse
 1300	Endurance	0.00	0.00	abs	1800000	0	13.00	Fiole sauvage de ténacité		
-1301	Endurance	0.00	0.00	abs	1800000	0	15.00	Fiole sauvage tenace		
+1301	Endurance	0.00	0.00	abs	1800000	0	15.00	Fiole sauvage tenace	150540	Fiole sauvage inexorable
+1301	Endurance	0.00	0.00	abs	1800000	0	15.00	Fiole sauvage tenace	150541	Fiole sauvage inexorable
+1301	Endurance	0.00	0.00	abs	1800000	0	15.00	Fiole sauvage tenace	150943	Fiole sauvage inexorable
+1301	Endurance	0.00	0.00	abs	1800000	0	15.00	Fiole sauvage tenace	150944	Fiole sauvage inexorable
 1350	AtkPotion	0.00	0.00	perc	1800000	0	1.05	Fiole antagoniste de puissance		
 1400	DefPotion	0.00	0.00	perc	1800000	0	0.95	Fiole antagoniste de ténacité		
-1440	HPChange	57.00	0.00	abs	15000	1	57.00	Bandage I		
-1441	HPChange	105.00	0.00	abs	15000	1	105.00	Bandage II		
-1442	HPChange	202.00	0.00	abs	15000	1	202.00	Bandage III		
-1443	HPChange	386.00	0.00	abs	15000	1	386.00	Bandage IV		
-1444	HPChange	777.00	0.00	abs	15000	1	777.00	Bandage V		
-1445	HPChange	1273.00	0.00	abs	15000	1	1273.00	Bandage VI		
-1446	HPChange	2672.00	0.00	abs	15000	1	2672.00	Bandage médical VII		
-1450	HPChange	43.00	0.00	abs	10000	1	43.00	Premiers soins I		
-1451	HPChange	79.00	0.00	abs	10000	1	79.00	Premiers soins II		
-1452	HPChange	152.00	0.00	abs	10000	1	152.00	Premiers soins III		
-1453	HPChange	290.00	0.00	abs	10000	1	290.00	Premiers soins IV		
-1454	HPChange	582.00	0.00	abs	10000	1	582.00	Premiers soins V		
-1455	HPChange	954.00	0.00	abs	10000	1	954.00	Premiers soins VI		
-1460	HPChange	0.05	0.00	perc	20000	1	0.05	Bandage de Lelyn		
-1461	HPChange	0.04	0.00	perc	30000	1	0.04	En-cas de Toruan		
-1462	HPChange	0.05	0.00	perc	20000	1	0.05	Bonbon au fruit de Tertas		
-1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération		
+1440	HPChange	57.00	0.00	abs	15000	1	57.00	Bandage I	172	Bandage médical de bleu
+1441	HPChange	105.00	0.00	abs	15000	1	105.00	Bandage II	173	Bandage médical de Verdra
+1442	HPChange	202.00	0.00	abs	15000	1	202.00	Bandage III	174	Bandage médical de Sylva
+1443	HPChange	386.00	0.00	abs	15000	1	386.00	Bandage IV	175	Bandage médical de Shetla
+1444	HPChange	777.00	0.00	abs	15000	1	777.00	Bandage V	176	Bandage médical de Toira
+1445	HPChange	1273.00	0.00	abs	15000	1	1273.00	Bandage VI	177	Bandage médical de Luria
+1446	HPChange	2672.00	0.00	abs	15000	1	2672.00	Bandage médical VII	1771	Bandage médical VII
+1450	HPChange	43.00	0.00	abs	10000	1	43.00	Premiers soins I	125	Bandage de bleu
+1451	HPChange	79.00	0.00	abs	10000	1	79.00	Premiers soins II	126	Bandage de Verdra
+1452	HPChange	152.00	0.00	abs	10000	1	152.00	Premiers soins III	127	Bandage de Sylva
+1453	HPChange	290.00	0.00	abs	10000	1	290.00	Premiers soins IV	128	Bandage de Shetla
+1454	HPChange	582.00	0.00	abs	10000	1	582.00	Premiers soins V	7154	Bandage de Toira
+1455	HPChange	954.00	0.00	abs	10000	1	954.00	Premiers soins VI	7155	Bandage de Luria
+1460	HPChange	0.05	0.00	perc	20000	1	0.05	Bandage de Lelyn	5	Bandage lié de Lelyn
+1460	HPChange	0.05	0.00	perc	20000	1	0.05	Bandage de Lelyn	30	Bandage de Lelyn
+1460	HPChange	0.05	0.00	perc	20000	1	0.05	Bandage de Lelyn	389	Bandage de vétéran
+1461	HPChange	0.04	0.00	perc	30000	1	0.04	En-cas de Toruan	345	Bon petit plat
+1461	HPChange	0.04	0.00	perc	30000	1	0.04	En-cas de Toruan	139303	Rainbow Rice Cake
+1462	HPChange	0.05	0.00	perc	20000	1	0.05	Bonbon au fruit de Tertas	360	Bonbon aux fruits de Tertas
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	111	Potion de régénération
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	112	Potion de vaillance
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	9999	Objet de test de compétence
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	139002	[Cyber-café] Potion de régénération
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	193027	Potion de restauration de PV
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	212898	지속성 회복 물약
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	213350	[이벤트] 지속성 회복 물약
+1490	HPChange	0.05	0.00	perc	15000	1	0.05	Potion de régénération	213823	[연합 보급품] 지속성 회복 물약
 1491	HPChange	0.06	0.00	perc	5000	1	0.06	Potion de vaillance		
 1495	HPChange	-20000.00	0.00	perc	2000	1	-20000.00	Poison des champs de bataille		
-1510	HPChange	0.50	0.00	perc	1000	1	0.50	Potion de soins		
-1530	MPChange	0.00	0.05	perc	15000	1	0.05	Infusion divine		
-1610	HPChange	0.02	0.00	perc	10000	1	0.02	Graine de régénération		
-1630	HPChange	0.25	0.00	perc	1000	1	0.25	Graine de soins		
-1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia		
-1660	MPChange	0.00	1.00	perc	1000	1	1.00	Parfum de Seren		
-1671	HPChange	0.70	0.00	perc	1000	1	0.70	Perle mystérieuse		
-1800	Power	0.00	0.00	perc	600000	0	0.10	Pilier fantomatique		
-1800	Endurance	0.00	0.00	perc	600000	0	0.10	Pilier fantomatique		
-2000	MPChange	0.00	0.05	perc	80000	2	0.05	Régénération de PM II		
-2010	MPChange	0.00	0.02	perc	80000	2	0.02	Régénération de PM I		
-2020	HPChange	0.35	0.00	perc	1000	1	0.35	Poussée de vie		
-2040	Endurance	0.00	0.00	perc	20000	0	1.70	Volonté indomptable I		
+1510	HPChange	0.50	0.00	perc	1000	1	0.50	Potion de soins	114	Potion de santé de Valkyon
+1510	HPChange	0.50	0.00	perc	1000	1	0.50	Potion de soins	116	Potion de santé
+1510	HPChange	0.50	0.00	perc	1000	1	0.50	Potion de soins	212789	급속 회복 물약
+1510	HPChange	0.50	0.00	perc	1000	1	0.50	Potion de soins	213821	[연합 보급품] 급속 회복 물약
+1530	MPChange	0.00	0.05	perc	15000	1	0.05	Infusion divine	130	Infusion divine
+1530	MPChange	0.00	0.05	perc	15000	1	0.05	Infusion divine	100527	연합 보급품: MP 회복 물약
+1530	MPChange	0.00	0.05	perc	15000	1	0.05	Infusion divine	139003	[Cyber-café] Infusion divine
+1530	MPChange	0.00	0.05	perc	15000	1	0.05	Infusion divine	193028	Infusion divine
+1530	MPChange	0.00	0.05	perc	15000	1	0.05	Infusion divine	213826	[연합 보급품] MP 회복 물약
+1610	HPChange	0.02	0.00	perc	10000	1	0.02	Graine de régénération	8000	Graine de régénération
+1630	HPChange	0.25	0.00	perc	1000	1	0.25	Graine de soins	8005	Graine de soins
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	3	Hydromel lié de Kaia
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	28	Hydromel de Kaia
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	43	Soupe volée de Symon liée
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	44	Soupe volée de Symon
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	359	Tarte à la courge
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	100524	디럭스의 소녀 스프
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	101282	급속 회복 물약(대형)
+1650	HPChange	1.00	0.00	perc	1000	1	1.00	Corne de Kaia	221225	카이아의 뿔나팔
+1660	MPChange	0.00	1.00	perc	1000	1	1.00	Parfum de Seren	4	Parfum de Seren lié
+1660	MPChange	0.00	1.00	perc	1000	1	1.00	Parfum de Seren	29	Parfum de Seren
+1671	HPChange	0.70	0.00	perc	1000	1	0.70	Perle mystérieuse	8024	Belle bénédiction du chasseur de gibier
+1800	Power	0.00	0.00	perc	600000	0	0.10	Pilier fantomatique	305	Paumelle de Kaia
+1800	Endurance	0.00	0.00	perc	600000	0	0.10	Pilier fantomatique	305	Paumelle de Kaia
+2000	MPChange	0.00	0.05	perc	80000	2	0.05	Régénération de PM II	8003	Graine de régénération de PM fougueuse
+2010	MPChange	0.00	0.02	perc	80000	2	0.02	Régénération de PM I	8002	Graine de régénération de PM
+2020	HPChange	0.35	0.00	perc	1000	1	0.35	Poussée de vie	8001	Graine de régénération de PV
+2040	Endurance	0.00	0.00	perc	20000	0	1.70	Volonté indomptable I	8004	Graine de forte résistance
 2041	Endurance	0.00	0.00	perc	25000	0	1.70	Volonté indomptable II		
 2042	Endurance	0.00	0.00	perc	30000	0	1.70	Volonté indomptable III		
 2050	Attack	0.00	0.00	perc	180000	0	1.30	Soif de sang		
@@ -122,164 +154,263 @@
 2084	Endurance	0.00	0.00	abs	0	0	15.00	Cri de représailles II		
 2085	Power	0.00	0.00	abs	0	0	20.00	Cri de représailles III		
 2085	Endurance	0.00	0.00	abs	0	0	20.00	Cri de représailles III		
-2500	HPChange	58.00	0.00	abs	12000	1	58.00	Elixir de guérison I		
-2501	HPChange	90.00	0.00	abs	12000	1	90.00	Elixir de guérison II		
-2502	HPChange	140.00	0.00	abs	12000	1	140.00	Elixir de guérison III		
-2503	HPChange	215.00	0.00	abs	12000	1	215.00	Elixir de guérison IV		
-2504	HPChange	331.00	0.00	abs	12000	1	331.00	Elixir de guérison V		
-2505	HPChange	509.00	0.00	abs	12000	1	509.00	Elixir de guérison VI		
-2506	HPChange	877.00	0.00	abs	12000	1	877.00	Elixir de guérison VII		
-2507	HPChange	1230.00	0.00	abs	12000	1	1230.00	Elixir de guérison VIII		
-2508	HPChange	1630.00	0.00	abs	10000	1	1630.00	Elixir de guérison IX		
-2509	HPChange	2120.00	0.00	abs	10000	1	2120.00	Elixir de guérison X		
-2515	HPChange	78.00	0.00	abs	10000	1	78.00	Elixir de guérison majeur I		
-2516	HPChange	121.00	0.00	abs	10000	1	121.00	Elixir de guérison majeur II		
-2517	HPChange	187.00	0.00	abs	10000	1	187.00	Elixir de guérison majeur III		
-2518	HPChange	287.00	0.00	abs	10000	1	287.00	Elixir de guérison majeur IV		
-2519	HPChange	442.00	0.00	abs	10000	1	442.00	Elixir de guérison majeur V		
-2520	HPChange	679.00	0.00	abs	10000	1	679.00	Elixir de guérison majeur VI		
-2521	HPChange	1178.00	0.00	abs	10000	1	1178.00	Elixir de guérison majeur VII		
-2522	HPChange	1652.00	0.00	abs	10000	1	1652.00	Elixir de guérison majeur VIII		
-2530	MPChange	0.00	50.00	abs	12000	1	50.00	Elixir de mana I		
-2531	MPChange	0.00	56.00	abs	12000	1	56.00	Elixir de mana II		
-2532	MPChange	0.00	62.00	abs	12000	1	62.00	Elixir de mana III		
-2533	MPChange	0.00	67.00	abs	12000	1	67.00	Elixir de mana IV		
-2534	MPChange	0.00	73.00	abs	12000	1	73.00	Elixir de mana V		
-2535	MPChange	0.00	79.00	abs	12000	1	79.00	Elixir de mana VI		
-2536	MPChange	0.00	85.00	abs	12000	1	85.00	Elixir de mana VII		
-2537	MPChange	0.00	91.00	abs	12000	1	91.00	Elixir de mana VIII		
-2538	MPChange	0.00	114.00	abs	10000	1	114.00	Elixir de Mana IX		
-2539	MPChange	0.00	131.00	abs	10000	1	131.00	Elixir de mana X		
-2545	MPChange	0.00	63.00	abs	10000	1	63.00	Elixir de mana majeur I		
-2546	MPChange	0.00	70.00	abs	10000	1	70.00	Elixir de mana majeur II		
-2547	MPChange	0.00	77.00	abs	10000	1	77.00	Elixir de mana majeur III		
-2548	MPChange	0.00	84.00	abs	10000	1	84.00	Elixir de mana majeur IV		
-2549	MPChange	0.00	91.00	abs	10000	1	91.00	Elixir de mana majeur V		
-2550	MPChange	0.00	98.00	abs	10000	1	98.00	Elixir de mana majeur VI		
-2551	MPChange	0.00	105.00	abs	10000	1	105.00	Elixir de mana majeur VII		
-2552	MPChange	0.00	113.00	abs	10000	1	113.00	Elixir de mana majeur VIII		
-2560	HPChange	53.00	0.00	abs	12000	1	53.00	Elixir holistique I		
-2560	MPChange	0.00	37.00	abs	12000	1	37.00	Elixir holistique I		
-2561	HPChange	83.00	0.00	abs	12000	1	83.00	Elixir holistique II		
-2561	MPChange	0.00	42.00	abs	12000	1	42.00	Elixir holistique II		
-2562	HPChange	128.00	0.00	abs	12000	1	128.00	Elixir holistique III		
-2562	MPChange	0.00	46.00	abs	12000	1	46.00	Elixir holistique III		
-2563	HPChange	197.00	0.00	abs	12000	1	197.00	Elixir holistique IV		
-2563	MPChange	0.00	51.00	abs	12000	1	51.00	Elixir holistique IV		
-2564	HPChange	302.00	0.00	abs	12000	1	302.00	Elixir holistique V		
-2564	MPChange	0.00	55.00	abs	12000	1	55.00	Elixir holistique V		
-2565	HPChange	465.00	0.00	abs	12000	1	465.00	Elixir holistique VI		
-2565	MPChange	0.00	59.00	abs	12000	1	59.00	Elixir holistique VI		
-2566	HPChange	802.00	0.00	abs	12000	1	802.00	Elixir holistique VII		
-2566	MPChange	0.00	64.00	abs	12000	1	64.00	Elixir holistique VII		
-2567	HPChange	1125.00	0.00	abs	12000	1	1125.00	Elixir holistique VIII		
-2567	MPChange	0.00	68.00	abs	12000	1	68.00	Elixir holistique VIII		
-2575	HPChange	71.00	0.00	abs	10000	1	71.00	Elixir holistique majeur I		
-2575	MPChange	0.00	47.00	abs	10000	1	47.00	Elixir holistique majeur I		
-2576	HPChange	111.00	0.00	abs	10000	1	111.00	Elixir holistique majeur II		
-2576	MPChange	0.00	53.00	abs	10000	1	53.00	Elixir holistique majeur II		
-2577	HPChange	171.00	0.00	abs	10000	1	171.00	Elixir holistique majeur III		
-2577	MPChange	0.00	58.00	abs	10000	1	58.00	Elixir holistique majeur III		
-2578	HPChange	263.00	0.00	abs	10000	1	263.00	Elixir holistique majeur IV		
-2578	MPChange	0.00	63.00	abs	10000	1	63.00	Elixir holistique majeur IV		
-2579	HPChange	404.00	0.00	abs	10000	1	404.00	Elixir holistique majeur V		
-2579	MPChange	0.00	69.00	abs	10000	1	69.00	Elixir holistique majeur V		
-2580	HPChange	621.00	0.00	abs	10000	1	621.00	Elixir holistique majeur VI		
-2580	MPChange	0.00	74.00	abs	10000	1	74.00	Elixir holistique majeur VI		
-2581	HPChange	1077.00	0.00	abs	10000	1	1077.00	Elixir holistique majeur VII		
-2581	MPChange	0.00	79.00	abs	10000	1	79.00	Elixir holistique majeur VII		
-2582	HPChange	1510.00	0.00	abs	10000	1	1510.00	Elixir holistique majeur VIII		
-2582	MPChange	0.00	84.00	abs	10000	1	84.00	Elixir holistique majeur VIII		
-2590	HPChange	83.00	0.00	abs	12000	1	83.00	Fortifiant de santé I		
-2591	HPChange	129.00	0.00	abs	12000	1	129.00	Fortifiant de santé II		
-2592	HPChange	199.00	0.00	abs	12000	1	199.00	Fortifiant de santé III		
-2593	HPChange	307.00	0.00	abs	12000	1	307.00	Fortifiant de santé IV		
-2594	HPChange	473.00	0.00	abs	12000	1	473.00	Fortifiant de santé V		
-2595	HPChange	726.00	0.00	abs	12000	1	726.00	Fortifiant de santé VI		
-2596	HPChange	1253.00	0.00	abs	12000	1	1253.00	Fortifiant de santé VII		
-2597	HPChange	1757.00	0.00	abs	12000	1	1757.00	Fortifiant de santé VIII		
-2598	HPChange	3260.00	0.00	abs	10000	1	3260.00	Fortifiant de santé IX		
-2599	HPChange	4230.00	0.00	abs	10000	1	4230.00	Fortifiant de santé X		
-2605	HPChange	112.00	0.00	abs	10000	1	112.00	Fortifiant de santé majeur I		
-2606	HPChange	173.00	0.00	abs	10000	1	173.00	Fortifiant de santé majeur II		
-2607	HPChange	267.00	0.00	abs	10000	1	267.00	Fortifiant de santé majeur III		
-2608	HPChange	411.00	0.00	abs	10000	1	411.00	Fortifiant de santé majeur IV		
-2609	HPChange	631.00	0.00	abs	10000	1	631.00	Fortifiant de santé majeur V		
-2610	HPChange	971.00	0.00	abs	10000	1	971.00	Fortifiant de santé majeur VI		
-2611	HPChange	1683.00	0.00	abs	10000	1	1683.00	Fortifiant de santé majeur VII		
-2612	HPChange	2360.00	0.00	abs	10000	1	2360.00	Fortifiant de santé majeur VIII		
-2620	MPChange	0.00	100.00	abs	12000	1	100.00	Fortifiant de mana I		
-2621	MPChange	0.00	111.00	abs	12000	1	111.00	Fortifiant de mana II		
-2622	MPChange	0.00	123.00	abs	12000	1	123.00	Fortifiant de mana III		
-2623	MPChange	0.00	135.00	abs	12000	1	135.00	Fortifiant de mana IV		
-2624	MPChange	0.00	146.00	abs	12000	1	146.00	Fortifiant de mana V		
-2625	MPChange	0.00	158.00	abs	12000	1	158.00	Fortifiant de mana VI		
-2626	MPChange	0.00	170.00	abs	12000	1	170.00	Fortifiant de mana VII		
-2627	MPChange	0.00	182.00	abs	12000	1	182.00	Fortifiant de mana VIII		
-2628	MPChange	0.00	218.00	abs	10000	1	218.00	Fortifiant de mana IX		
-2629	MPChange	0.00	250.00	abs	10000	1	250.00	Fortifiant de mana X		
-2635	MPChange	0.00	127.00	abs	10000	1	127.00	Fortifiant de mana majeur I		
-2636	MPChange	0.00	141.00	abs	10000	1	141.00	Fortifiant de mana majeur II		
-2637	MPChange	0.00	155.00	abs	10000	1	155.00	Fortifiant de mana majeur III		
-2638	MPChange	0.00	169.00	abs	10000	1	169.00	Fortifiant de mana majeur IV		
-2639	MPChange	0.00	183.00	abs	10000	1	183.00	Fortifiant de mana majeur V		
-2640	MPChange	0.00	197.00	abs	10000	1	197.00	Fortifiant de mana majeur VI		
-2641	MPChange	0.00	211.00	abs	10000	1	211.00	Fortifiant de mana majeur VII		
-2642	MPChange	0.00	225.00	abs	10000	1	225.00	Fortifiant de mana majeur VIII		
-2650	HPChange	107.00	0.00	abs	12000	1	107.00	Fortifiant holistique I		
-2650	MPChange	0.00	75.00	abs	12000	1	75.00	Fortifiant holistique I		
-2651	HPChange	165.00	0.00	abs	12000	1	165.00	Fortifiant holistique II		
-2651	MPChange	0.00	83.00	abs	12000	1	83.00	Fortifiant holistique II		
-2652	HPChange	255.00	0.00	abs	12000	1	255.00	Fortifiant holistique III		
-2652	MPChange	0.00	92.00	abs	12000	1	92.00	Fortifiant holistique III		
-2653	HPChange	393.00	0.00	abs	12000	1	393.00	Fortifiant holistique IV		
-2653	MPChange	0.00	101.00	abs	12000	1	101.00	Fortifiant holistique IV		
-2654	HPChange	605.00	0.00	abs	12000	1	605.00	Fortifiant holistique V		
-2654	MPChange	0.00	110.00	abs	12000	1	110.00	Fortifiant holistique V		
-2655	HPChange	930.00	0.00	abs	12000	1	930.00	Fortifiant holistique VI		
-2655	MPChange	0.00	119.00	abs	12000	1	119.00	Fortifiant holistique VI		
-2656	HPChange	1604.00	0.00	abs	12000	1	1604.00	Fortifiant holistique VII		
-2656	MPChange	0.00	127.00	abs	12000	1	127.00	Fortifiant holistique VII		
-2657	HPChange	2249.00	0.00	abs	12000	1	2249.00	Fortifiant holistique VIII		
-2657	MPChange	0.00	136.00	abs	12000	1	136.00	Fortifiant holistique VIII		
-2665	HPChange	143.00	0.00	abs	10000	1	143.00	Fortifiant holistique majeur I		
-2665	MPChange	0.00	95.00	abs	10000	1	95.00	Fortifiant holistique majeur I		
-2666	HPChange	221.00	0.00	abs	10000	1	221.00	Fortifiant holistique majeur II		
-2666	MPChange	0.00	105.00	abs	10000	1	105.00	Fortifiant holistique majeur II		
-2667	HPChange	341.00	0.00	abs	10000	1	341.00	Fortifiant holistique majeur III		
-2667	MPChange	0.00	116.00	abs	10000	1	116.00	Fortifiant holistique majeur III		
-2668	HPChange	525.00	0.00	abs	10000	1	525.00	Fortifiant holistique majeur IV		
-2668	MPChange	0.00	127.00	abs	10000	1	127.00	Fortifiant holistique majeur IV		
-2669	HPChange	808.00	0.00	abs	10000	1	808.00	Fortifiant holistique majeur V		
-2669	MPChange	0.00	137.00	abs	10000	1	137.00	Fortifiant holistique majeur V		
-2670	HPChange	1242.00	0.00	abs	10000	1	1242.00	Fortifiant holistique majeur VI		
-2670	MPChange	0.00	148.00	abs	10000	1	148.00	Fortifiant holistique majeur VI		
-2671	HPChange	2154.00	0.00	abs	10000	1	2154.00	Fortifiant holistique majeur VII		
-2671	MPChange	0.00	158.00	abs	10000	1	158.00	Fortifiant holistique majeur VII		
-2672	HPChange	3021.00	0.00	abs	10000	1	3021.00	Fortifiant holistique majeur VIII		
-2672	MPChange	0.00	169.00	abs	10000	1	169.00	Fortifiant holistique majeur VIII		
-2680	Crit	0.00	0.00	abs	900000	0	5.00	Parchemin cinglant : facteur de coups critiques I		
-2681	Crit	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : facteur de coups critiques II		
-2682	Crit	0.00	0.00	abs	900000	0	15.00	Parchemin cinglant : facteur de coups critiques III		
-2683	Crit	0.00	0.00	abs	900000	0	20.00	Parchemin cinglant : facteur de coups critiques IV		
-2684	Crit	0.00	0.00	abs	900000	0	25.00	Parchemin cinglant : facteur de coups critiques V		
-2685	Crit	0.00	0.00	abs	900000	0	43.00	Parchemin cinglant : facteur de coups critiques VI		
-2686	Crit	0.00	0.00	abs	900000	0	55.00	Parchemin cinglant : facteur de coups critiques VII		
-2695	CritPower	0.00	0.00	abs	900000	0	0.27	Parchemin cinglant : puissance des coups critiques I		
-2696	CritPower	0.00	0.00	abs	900000	0	0.54	Parchemin cinglant : puissance des coups critiques II		
-2697	CritPower	0.00	0.00	abs	900000	0	0.81	Parchemin cinglant : puissance des coups critiques III		
-2698	CritPower	0.00	0.00	abs	900000	0	1.07	Parchemin cinglant : puissance des coups critiques IV		
-2699	CritPower	0.00	0.00	abs	900000	0	1.34	Parchemin cinglant : puissance des coups critiques V		
-2700	CritPower	0.00	0.00	abs	900000	0	1.38	Parchemin cinglant : puissance des coups critiques VI		
-2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII		
-2725	ASpd	0.00	0.00	abs	900000	0	2.00	Parchemin cinglant : vitesse d'attaque I		
-2726	ASpd	0.00	0.00	abs	900000	0	4.00	Parchemin cinglant : vitesse d'attaque II		
-2727	ASpd	0.00	0.00	abs	900000	0	5.00	Parchemin cinglant : vitesse d'attaque III		
-2728	ASpd	0.00	0.00	abs	900000	0	7.00	Parchemin cinglant : vitesse d'attaque IV		
-2729	ASpd	0.00	0.00	abs	900000	0	9.00	Parchemin cinglant : vitesse d'attaque V		
-2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI		
-2890	Block	0.00	0.00	seta	10000	0	0.00	Bombe à dispersion		
-2905	Block	0.00	0.00	seta	8000	0	0.00	Bombe d'enchevêtrement		
+2500	HPChange	58.00	0.00	abs	12000	1	58.00	Elixir de guérison I	6048	Elixir de guérison I
+2501	HPChange	90.00	0.00	abs	12000	1	90.00	Elixir de guérison II	6050	Elixir de guérison II
+2502	HPChange	140.00	0.00	abs	12000	1	140.00	Elixir de guérison III	6052	Elixir de guérison III
+2502	HPChange	140.00	0.00	abs	12000	1	140.00	Elixir de guérison III	213334	[이벤트] 치유의 물약 III
+2503	HPChange	215.00	0.00	abs	12000	1	215.00	Elixir de guérison IV	6054	Elixir de guérison IV
+2503	HPChange	215.00	0.00	abs	12000	1	215.00	Elixir de guérison IV	213336	[이벤트] 치유의 물약 IV
+2504	HPChange	331.00	0.00	abs	12000	1	331.00	Elixir de guérison V	6056	Elixir de guérison V
+2504	HPChange	331.00	0.00	abs	12000	1	331.00	Elixir de guérison V	213338	[이벤트] 치유의 물약 V
+2505	HPChange	509.00	0.00	abs	12000	1	509.00	Elixir de guérison VI	6058	Elixir de guérison VI
+2505	HPChange	509.00	0.00	abs	12000	1	509.00	Elixir de guérison VI	212917	치유의 물약 VI
+2505	HPChange	509.00	0.00	abs	12000	1	509.00	Elixir de guérison VI	213340	[이벤트] 치유의 물약 VI
+2506	HPChange	877.00	0.00	abs	12000	1	877.00	Elixir de guérison VII	6060	Elixir de guérison VII
+2506	HPChange	877.00	0.00	abs	12000	1	877.00	Elixir de guérison VII	212919	치유의 물약 VII
+2506	HPChange	877.00	0.00	abs	12000	1	877.00	Elixir de guérison VII	213342	[이벤트] 치유의 물약 VII
+2507	HPChange	1230.00	0.00	abs	12000	1	1230.00	Elixir de guérison VIII	6062	Elixir de guérison VIII
+2507	HPChange	1230.00	0.00	abs	12000	1	1230.00	Elixir de guérison VIII	212921	치유의 물약 VIII
+2507	HPChange	1230.00	0.00	abs	12000	1	1230.00	Elixir de guérison VIII	213344	[이벤트] 치유의 물약 VIII
+2508	HPChange	1630.00	0.00	abs	10000	1	1630.00	Elixir de guérison IX	6300	Elixir de guérison IX
+2509	HPChange	2120.00	0.00	abs	10000	1	2120.00	Elixir de guérison X	6480	Elixir de guérison X
+2515	HPChange	78.00	0.00	abs	10000	1	78.00	Elixir de guérison majeur I	6049	Elixir de guérison majeur I
+2516	HPChange	121.00	0.00	abs	10000	1	121.00	Elixir de guérison majeur II	6051	Elixir de guérison majeur II
+2517	HPChange	187.00	0.00	abs	10000	1	187.00	Elixir de guérison majeur III	437	Potion de soins de l'expédition
+2517	HPChange	187.00	0.00	abs	10000	1	187.00	Elixir de guérison majeur III	6053	Elixir de guérison majeur III
+2517	HPChange	187.00	0.00	abs	10000	1	187.00	Elixir de guérison majeur III	213335	[이벤트] 강력한 치유의 물약 III
+2518	HPChange	287.00	0.00	abs	10000	1	287.00	Elixir de guérison majeur IV	6055	Elixir de guérison majeur IV
+2518	HPChange	287.00	0.00	abs	10000	1	287.00	Elixir de guérison majeur IV	213337	[이벤트] 강력한 치유의 물약 IV
+2519	HPChange	442.00	0.00	abs	10000	1	442.00	Elixir de guérison majeur V	6057	Elixir de guérison majeur V
+2519	HPChange	442.00	0.00	abs	10000	1	442.00	Elixir de guérison majeur V	213339	[이벤트] 강력한 치유의 물약 V
+2520	HPChange	679.00	0.00	abs	10000	1	679.00	Elixir de guérison majeur VI	6059	Elixir de guérison majeur VI
+2520	HPChange	679.00	0.00	abs	10000	1	679.00	Elixir de guérison majeur VI	212918	강력한 치유의 물약 VI
+2520	HPChange	679.00	0.00	abs	10000	1	679.00	Elixir de guérison majeur VI	213341	[이벤트] 강력한 치유의 물약 VI
+2521	HPChange	1178.00	0.00	abs	10000	1	1178.00	Elixir de guérison majeur VII	6061	Elixir de guérison majeur VII
+2521	HPChange	1178.00	0.00	abs	10000	1	1178.00	Elixir de guérison majeur VII	212920	강력한 치유의 물약 VII
+2521	HPChange	1178.00	0.00	abs	10000	1	1178.00	Elixir de guérison majeur VII	213343	[이벤트] 강력한 치유의 물약 VII
+2522	HPChange	1652.00	0.00	abs	10000	1	1652.00	Elixir de guérison majeur VIII	6063	Elixir de guérison majeur VIII
+2522	HPChange	1652.00	0.00	abs	10000	1	1652.00	Elixir de guérison majeur VIII	212922	강력한 치유의 물약 VIII
+2522	HPChange	1652.00	0.00	abs	10000	1	1652.00	Elixir de guérison majeur VIII	213345	[이벤트] 강력한 치유의 물약 VIII
+2530	MPChange	0.00	50.00	abs	12000	1	50.00	Elixir de mana I	6064	Elixir de mana I
+2531	MPChange	0.00	56.00	abs	12000	1	56.00	Elixir de mana II	6066	Elixir de mana II
+2532	MPChange	0.00	62.00	abs	12000	1	62.00	Elixir de mana III	6068	Elixir de mana III
+2533	MPChange	0.00	67.00	abs	12000	1	67.00	Elixir de mana IV	6070	Elixir de mana IV
+2534	MPChange	0.00	73.00	abs	12000	1	73.00	Elixir de mana V	6072	Elixir de mana V
+2535	MPChange	0.00	79.00	abs	12000	1	79.00	Elixir de mana VI	6074	Elixir de mana VI
+2535	MPChange	0.00	79.00	abs	12000	1	79.00	Elixir de mana VI	212923	마력의 물약 VI
+2536	MPChange	0.00	85.00	abs	12000	1	85.00	Elixir de mana VII	6076	Elixir de mana VII
+2536	MPChange	0.00	85.00	abs	12000	1	85.00	Elixir de mana VII	212925	마력의 물약 VII
+2537	MPChange	0.00	91.00	abs	12000	1	91.00	Elixir de mana VIII	6078	Elixir de mana VIII
+2537	MPChange	0.00	91.00	abs	12000	1	91.00	Elixir de mana VIII	212927	마력의 물약 VIII
+2538	MPChange	0.00	114.00	abs	10000	1	114.00	Elixir de Mana IX	6301	Elixir de mana IX
+2539	MPChange	0.00	131.00	abs	10000	1	131.00	Elixir de mana X	6481	Elixir de mana X
+2545	MPChange	0.00	63.00	abs	10000	1	63.00	Elixir de mana majeur I	6065	Elixir de mana majeur I
+2546	MPChange	0.00	70.00	abs	10000	1	70.00	Elixir de mana majeur II	6067	Elixir de mana majeur II
+2547	MPChange	0.00	77.00	abs	10000	1	77.00	Elixir de mana majeur III	6069	Elixir de mana majeur III
+2548	MPChange	0.00	84.00	abs	10000	1	84.00	Elixir de mana majeur IV	6071	Elixir de mana majeur IV
+2549	MPChange	0.00	91.00	abs	10000	1	91.00	Elixir de mana majeur V	6073	Elixir de mana majeur V
+2550	MPChange	0.00	98.00	abs	10000	1	98.00	Elixir de mana majeur VI	6075	Elixir de mana majeur VI
+2550	MPChange	0.00	98.00	abs	10000	1	98.00	Elixir de mana majeur VI	212924	강력한 마력의 물약 VI
+2551	MPChange	0.00	105.00	abs	10000	1	105.00	Elixir de mana majeur VII	6077	Elixir de mana majeur VII
+2551	MPChange	0.00	105.00	abs	10000	1	105.00	Elixir de mana majeur VII	212926	강력한 마력의 물약 VII
+2552	MPChange	0.00	113.00	abs	10000	1	113.00	Elixir de mana majeur VIII	6079	Elixir de mana majeur VIII
+2552	MPChange	0.00	113.00	abs	10000	1	113.00	Elixir de mana majeur VIII	212928	강력한 마력의 물약 VIII
+2560	HPChange	53.00	0.00	abs	12000	1	53.00	Elixir holistique I	6080	Elixir holistique I
+2560	MPChange	0.00	37.00	abs	12000	1	37.00	Elixir holistique I	6080	Elixir holistique I
+2561	HPChange	83.00	0.00	abs	12000	1	83.00	Elixir holistique II	6082	Elixir holistique II
+2561	MPChange	0.00	42.00	abs	12000	1	42.00	Elixir holistique II	6082	Elixir holistique II
+2562	HPChange	128.00	0.00	abs	12000	1	128.00	Elixir holistique III	6084	Elixir holistique III
+2562	MPChange	0.00	46.00	abs	12000	1	46.00	Elixir holistique III	6084	Elixir holistique III
+2563	HPChange	197.00	0.00	abs	12000	1	197.00	Elixir holistique IV	6086	Elixir holistique IV
+2563	MPChange	0.00	51.00	abs	12000	1	51.00	Elixir holistique IV	6086	Elixir holistique IV
+2564	HPChange	302.00	0.00	abs	12000	1	302.00	Elixir holistique V	6088	Elixir holistique V
+2564	MPChange	0.00	55.00	abs	12000	1	55.00	Elixir holistique V	6088	Elixir holistique V
+2565	HPChange	465.00	0.00	abs	12000	1	465.00	Elixir holistique VI	6090	Elixir holistique VI
+2565	HPChange	465.00	0.00	abs	12000	1	465.00	Elixir holistique VI	212929	재생의 물약 VI
+2565	MPChange	0.00	59.00	abs	12000	1	59.00	Elixir holistique VI	6090	Elixir holistique VI
+2565	MPChange	0.00	59.00	abs	12000	1	59.00	Elixir holistique VI	212929	재생의 물약 VI
+2566	HPChange	802.00	0.00	abs	12000	1	802.00	Elixir holistique VII	6092	Elixir holistique VII
+2566	HPChange	802.00	0.00	abs	12000	1	802.00	Elixir holistique VII	212931	재생의 물약 VII
+2566	MPChange	0.00	64.00	abs	12000	1	64.00	Elixir holistique VII	6092	Elixir holistique VII
+2566	MPChange	0.00	64.00	abs	12000	1	64.00	Elixir holistique VII	212931	재생의 물약 VII
+2567	HPChange	1125.00	0.00	abs	12000	1	1125.00	Elixir holistique VIII	6094	Elixir holistique VIII
+2567	HPChange	1125.00	0.00	abs	12000	1	1125.00	Elixir holistique VIII	212933	재생의 물약 VIII
+2567	MPChange	0.00	68.00	abs	12000	1	68.00	Elixir holistique VIII	6094	Elixir holistique VIII
+2567	MPChange	0.00	68.00	abs	12000	1	68.00	Elixir holistique VIII	212933	재생의 물약 VIII
+2575	HPChange	71.00	0.00	abs	10000	1	71.00	Elixir holistique majeur I	6081	Elixir holistique majeur I
+2575	MPChange	0.00	47.00	abs	10000	1	47.00	Elixir holistique majeur I	6081	Elixir holistique majeur I
+2576	HPChange	111.00	0.00	abs	10000	1	111.00	Elixir holistique majeur II	6083	Elixir holistique majeur II
+2576	MPChange	0.00	53.00	abs	10000	1	53.00	Elixir holistique majeur II	6083	Elixir holistique majeur II
+2577	HPChange	171.00	0.00	abs	10000	1	171.00	Elixir holistique majeur III	6085	Elixir holistique majeur III
+2577	MPChange	0.00	58.00	abs	10000	1	58.00	Elixir holistique majeur III	6085	Elixir holistique majeur III
+2578	HPChange	263.00	0.00	abs	10000	1	263.00	Elixir holistique majeur IV	6087	Elixir holistique majeur IV
+2578	MPChange	0.00	63.00	abs	10000	1	63.00	Elixir holistique majeur IV	6087	Elixir holistique majeur IV
+2579	HPChange	404.00	0.00	abs	10000	1	404.00	Elixir holistique majeur V	6089	Elixir holistique majeur V
+2579	MPChange	0.00	69.00	abs	10000	1	69.00	Elixir holistique majeur V	6089	Elixir holistique majeur V
+2580	HPChange	621.00	0.00	abs	10000	1	621.00	Elixir holistique majeur VI	6091	Elixir holistique majeur VI
+2580	HPChange	621.00	0.00	abs	10000	1	621.00	Elixir holistique majeur VI	212930	강력한 재생의 물약 VI
+2580	MPChange	0.00	74.00	abs	10000	1	74.00	Elixir holistique majeur VI	6091	Elixir holistique majeur VI
+2580	MPChange	0.00	74.00	abs	10000	1	74.00	Elixir holistique majeur VI	212930	강력한 재생의 물약 VI
+2581	HPChange	1077.00	0.00	abs	10000	1	1077.00	Elixir holistique majeur VII	6093	Elixir holistique majeur VII
+2581	HPChange	1077.00	0.00	abs	10000	1	1077.00	Elixir holistique majeur VII	212932	강력한 재생의 물약 VII
+2581	MPChange	0.00	79.00	abs	10000	1	79.00	Elixir holistique majeur VII	6093	Elixir holistique majeur VII
+2581	MPChange	0.00	79.00	abs	10000	1	79.00	Elixir holistique majeur VII	212932	강력한 재생의 물약 VII
+2582	HPChange	1510.00	0.00	abs	10000	1	1510.00	Elixir holistique majeur VIII	6095	Elixir holistique majeur VIII
+2582	HPChange	1510.00	0.00	abs	10000	1	1510.00	Elixir holistique majeur VIII	212934	강력한 재생의 물약 VIII
+2582	MPChange	0.00	84.00	abs	10000	1	84.00	Elixir holistique majeur VIII	6095	Elixir holistique majeur VIII
+2582	MPChange	0.00	84.00	abs	10000	1	84.00	Elixir holistique majeur VIII	212934	강력한 재생의 물약 VIII
+2590	HPChange	83.00	0.00	abs	12000	1	83.00	Fortifiant de santé I	6144	Fortifiant de santé I
+2591	HPChange	129.00	0.00	abs	12000	1	129.00	Fortifiant de santé II	6146	Fortifiant de santé II
+2592	HPChange	199.00	0.00	abs	12000	1	199.00	Fortifiant de santé III	6148	Fortifiant de santé III
+2593	HPChange	307.00	0.00	abs	12000	1	307.00	Fortifiant de santé IV	6150	Fortifiant de santé IV
+2594	HPChange	473.00	0.00	abs	12000	1	473.00	Fortifiant de santé V	6152	Fortifiant de santé V
+2595	HPChange	726.00	0.00	abs	12000	1	726.00	Fortifiant de santé VI	6154	Fortifiant de santé VI
+2595	HPChange	726.00	0.00	abs	12000	1	726.00	Fortifiant de santé VI	212953	치유의 영약 VI
+2596	HPChange	1253.00	0.00	abs	12000	1	1253.00	Fortifiant de santé VII	6156	Fortifiant de santé VII
+2596	HPChange	1253.00	0.00	abs	12000	1	1253.00	Fortifiant de santé VII	212955	치유의 영약 VII
+2597	HPChange	1757.00	0.00	abs	12000	1	1757.00	Fortifiant de santé VIII	6158	Fortifiant de santé VIII
+2597	HPChange	1757.00	0.00	abs	12000	1	1757.00	Fortifiant de santé VIII	212957	치유의 영약 VIII
+2598	HPChange	3260.00	0.00	abs	10000	1	3260.00	Fortifiant de santé IX	6304	Fortifiant de santé IX
+2599	HPChange	4230.00	0.00	abs	10000	1	4230.00	Fortifiant de santé X	6484	Fortifiant de santé X
+2605	HPChange	112.00	0.00	abs	10000	1	112.00	Fortifiant de santé majeur I	6145	Fortifiant de santé majeur I
+2606	HPChange	173.00	0.00	abs	10000	1	173.00	Fortifiant de santé majeur II	6147	Fortifiant de santé majeur II
+2607	HPChange	267.00	0.00	abs	10000	1	267.00	Fortifiant de santé majeur III	6149	Fortifiant de santé majeur III
+2608	HPChange	411.00	0.00	abs	10000	1	411.00	Fortifiant de santé majeur IV	6151	Fortifiant de santé majeur IV
+2609	HPChange	631.00	0.00	abs	10000	1	631.00	Fortifiant de santé majeur V	6153	Fortifiant de santé majeur V
+2610	HPChange	971.00	0.00	abs	10000	1	971.00	Fortifiant de santé majeur VI	6155	Fortifiant de santé majeur VI
+2610	HPChange	971.00	0.00	abs	10000	1	971.00	Fortifiant de santé majeur VI	212954	강력한 치유의 영약 VI
+2611	HPChange	1683.00	0.00	abs	10000	1	1683.00	Fortifiant de santé majeur VII	6157	Fortifiant de santé majeur VII
+2611	HPChange	1683.00	0.00	abs	10000	1	1683.00	Fortifiant de santé majeur VII	212956	강력한 치유의 영약 VII
+2612	HPChange	2360.00	0.00	abs	10000	1	2360.00	Fortifiant de santé majeur VIII	6159	Fortifiant de santé majeur VIII
+2612	HPChange	2360.00	0.00	abs	10000	1	2360.00	Fortifiant de santé majeur VIII	212958	강력한 치유의 영약 VIII
+2620	MPChange	0.00	100.00	abs	12000	1	100.00	Fortifiant de mana I	6160	Fortifiant de mana I
+2621	MPChange	0.00	111.00	abs	12000	1	111.00	Fortifiant de mana II	6162	Fortifiant de mana II
+2622	MPChange	0.00	123.00	abs	12000	1	123.00	Fortifiant de mana III	6164	Fortifiant de mana III
+2623	MPChange	0.00	135.00	abs	12000	1	135.00	Fortifiant de mana IV	6166	Fortifiant de mana IV
+2624	MPChange	0.00	146.00	abs	12000	1	146.00	Fortifiant de mana V	6168	Fortifiant de mana V
+2625	MPChange	0.00	158.00	abs	12000	1	158.00	Fortifiant de mana VI	6170	Fortifiant de mana VI
+2625	MPChange	0.00	158.00	abs	12000	1	158.00	Fortifiant de mana VI	212959	마력의 영약 VI
+2626	MPChange	0.00	170.00	abs	12000	1	170.00	Fortifiant de mana VII	6172	Fortifiant de mana VII
+2626	MPChange	0.00	170.00	abs	12000	1	170.00	Fortifiant de mana VII	212961	마력의 영약 VII
+2627	MPChange	0.00	182.00	abs	12000	1	182.00	Fortifiant de mana VIII	6174	Fortifiant de mana VIII
+2627	MPChange	0.00	182.00	abs	12000	1	182.00	Fortifiant de mana VIII	212963	마력의 영약 VIII
+2628	MPChange	0.00	218.00	abs	10000	1	218.00	Fortifiant de mana IX	6305	Fortifiant de mana IX
+2629	MPChange	0.00	250.00	abs	10000	1	250.00	Fortifiant de mana X	6485	Fortifiant de mana X
+2635	MPChange	0.00	127.00	abs	10000	1	127.00	Fortifiant de mana majeur I	6161	Fortifiant de mana majeur I
+2636	MPChange	0.00	141.00	abs	10000	1	141.00	Fortifiant de mana majeur II	6163	Fortifiant de mana majeur II
+2637	MPChange	0.00	155.00	abs	10000	1	155.00	Fortifiant de mana majeur III	6165	Fortifiant de mana majeur III
+2638	MPChange	0.00	169.00	abs	10000	1	169.00	Fortifiant de mana majeur IV	6167	Fortifiant de mana majeur IV
+2639	MPChange	0.00	183.00	abs	10000	1	183.00	Fortifiant de mana majeur V	6169	Fortifiant de mana majeur V
+2640	MPChange	0.00	197.00	abs	10000	1	197.00	Fortifiant de mana majeur VI	6171	Fortifiant de mana majeur VI
+2640	MPChange	0.00	197.00	abs	10000	1	197.00	Fortifiant de mana majeur VI	212960	강력한 마력의 영약 VI
+2641	MPChange	0.00	211.00	abs	10000	1	211.00	Fortifiant de mana majeur VII	6173	Fortifiant de mana majeur VII
+2641	MPChange	0.00	211.00	abs	10000	1	211.00	Fortifiant de mana majeur VII	212962	강력한 마력의 영약 VII
+2642	MPChange	0.00	225.00	abs	10000	1	225.00	Fortifiant de mana majeur VIII	6175	Fortifiant de mana majeur VIII
+2642	MPChange	0.00	225.00	abs	10000	1	225.00	Fortifiant de mana majeur VIII	212964	강력한 마력의 영약 VIII
+2650	HPChange	107.00	0.00	abs	12000	1	107.00	Fortifiant holistique I	6176	Fortifiant holistique I
+2650	MPChange	0.00	75.00	abs	12000	1	75.00	Fortifiant holistique I	6176	Fortifiant holistique I
+2651	HPChange	165.00	0.00	abs	12000	1	165.00	Fortifiant holistique II	6178	Fortifiant holistique II
+2651	MPChange	0.00	83.00	abs	12000	1	83.00	Fortifiant holistique II	6178	Fortifiant holistique II
+2652	HPChange	255.00	0.00	abs	12000	1	255.00	Fortifiant holistique III	6180	Fortifiant holistique III
+2652	MPChange	0.00	92.00	abs	12000	1	92.00	Fortifiant holistique III	6180	Fortifiant holistique III
+2653	HPChange	393.00	0.00	abs	12000	1	393.00	Fortifiant holistique IV	6182	Fortifiant holistique IV
+2653	MPChange	0.00	101.00	abs	12000	1	101.00	Fortifiant holistique IV	6182	Fortifiant holistique IV
+2654	HPChange	605.00	0.00	abs	12000	1	605.00	Fortifiant holistique V	6184	Fortifiant holistique V
+2654	MPChange	0.00	110.00	abs	12000	1	110.00	Fortifiant holistique V	6184	Fortifiant holistique V
+2655	HPChange	930.00	0.00	abs	12000	1	930.00	Fortifiant holistique VI	6186	Fortifiant holistique VI
+2655	HPChange	930.00	0.00	abs	12000	1	930.00	Fortifiant holistique VI	212965	재생의 영약 VI
+2655	MPChange	0.00	119.00	abs	12000	1	119.00	Fortifiant holistique VI	6186	Fortifiant holistique VI
+2655	MPChange	0.00	119.00	abs	12000	1	119.00	Fortifiant holistique VI	212965	재생의 영약 VI
+2656	HPChange	1604.00	0.00	abs	12000	1	1604.00	Fortifiant holistique VII	6188	Fortifiant holistique VII
+2656	HPChange	1604.00	0.00	abs	12000	1	1604.00	Fortifiant holistique VII	212967	재생의 영약 VII
+2656	MPChange	0.00	127.00	abs	12000	1	127.00	Fortifiant holistique VII	6188	Fortifiant holistique VII
+2656	MPChange	0.00	127.00	abs	12000	1	127.00	Fortifiant holistique VII	212967	재생의 영약 VII
+2657	HPChange	2249.00	0.00	abs	12000	1	2249.00	Fortifiant holistique VIII	6190	Fortifiant holistique VIII
+2657	HPChange	2249.00	0.00	abs	12000	1	2249.00	Fortifiant holistique VIII	212969	재생의 영약 VIII
+2657	MPChange	0.00	136.00	abs	12000	1	136.00	Fortifiant holistique VIII	6190	Fortifiant holistique VIII
+2657	MPChange	0.00	136.00	abs	12000	1	136.00	Fortifiant holistique VIII	212969	재생의 영약 VIII
+2665	HPChange	143.00	0.00	abs	10000	1	143.00	Fortifiant holistique majeur I	6177	Fortifiant holistique majeur I
+2665	MPChange	0.00	95.00	abs	10000	1	95.00	Fortifiant holistique majeur I	6177	Fortifiant holistique majeur I
+2666	HPChange	221.00	0.00	abs	10000	1	221.00	Fortifiant holistique majeur II	6179	Fortifiant holistique majeur II
+2666	MPChange	0.00	105.00	abs	10000	1	105.00	Fortifiant holistique majeur II	6179	Fortifiant holistique majeur II
+2667	HPChange	341.00	0.00	abs	10000	1	341.00	Fortifiant holistique majeur III	6181	Fortifiant holistique majeur III
+2667	MPChange	0.00	116.00	abs	10000	1	116.00	Fortifiant holistique majeur III	6181	Fortifiant holistique majeur III
+2668	HPChange	525.00	0.00	abs	10000	1	525.00	Fortifiant holistique majeur IV	6183	Fortifiant holistique majeur IV
+2668	MPChange	0.00	127.00	abs	10000	1	127.00	Fortifiant holistique majeur IV	6183	Fortifiant holistique majeur IV
+2669	HPChange	808.00	0.00	abs	10000	1	808.00	Fortifiant holistique majeur V	6185	Fortifiant holistique majeur V
+2669	MPChange	0.00	137.00	abs	10000	1	137.00	Fortifiant holistique majeur V	6185	Fortifiant holistique majeur V
+2670	HPChange	1242.00	0.00	abs	10000	1	1242.00	Fortifiant holistique majeur VI	6187	Fortifiant holistique majeur VI
+2670	HPChange	1242.00	0.00	abs	10000	1	1242.00	Fortifiant holistique majeur VI	212966	강력한 재생의 영약 VI
+2670	MPChange	0.00	148.00	abs	10000	1	148.00	Fortifiant holistique majeur VI	6187	Fortifiant holistique majeur VI
+2670	MPChange	0.00	148.00	abs	10000	1	148.00	Fortifiant holistique majeur VI	212966	강력한 재생의 영약 VI
+2671	HPChange	2154.00	0.00	abs	10000	1	2154.00	Fortifiant holistique majeur VII	6189	Fortifiant holistique majeur VII
+2671	HPChange	2154.00	0.00	abs	10000	1	2154.00	Fortifiant holistique majeur VII	212968	강력한 재생의 영약 VII
+2671	MPChange	0.00	158.00	abs	10000	1	158.00	Fortifiant holistique majeur VII	6189	Fortifiant holistique majeur VII
+2671	MPChange	0.00	158.00	abs	10000	1	158.00	Fortifiant holistique majeur VII	212968	강력한 재생의 영약 VII
+2672	HPChange	3021.00	0.00	abs	10000	1	3021.00	Fortifiant holistique majeur VIII	6191	Fortifiant holistique majeur VIII
+2672	HPChange	3021.00	0.00	abs	10000	1	3021.00	Fortifiant holistique majeur VIII	212970	강력한 재생의 영약 VIII
+2672	MPChange	0.00	169.00	abs	10000	1	169.00	Fortifiant holistique majeur VIII	6191	Fortifiant holistique majeur VIII
+2672	MPChange	0.00	169.00	abs	10000	1	169.00	Fortifiant holistique majeur VIII	212970	강력한 재생의 영약 VIII
+2680	Crit	0.00	0.00	abs	900000	0	5.00	Parchemin cinglant : facteur de coups critiques I	6192	Parchemin cinglant : facteur de coups critiques I
+2681	Crit	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : facteur de coups critiques II	6193	Parchemin cinglant : facteur de coups critiques II
+2682	Crit	0.00	0.00	abs	900000	0	15.00	Parchemin cinglant : facteur de coups critiques III	6194	Parchemin cinglant : facteur de coups critiques III
+2683	Crit	0.00	0.00	abs	900000	0	20.00	Parchemin cinglant : facteur de coups critiques IV	6195	Parchemin cinglant : facteur de coups critiques IV
+2683	Crit	0.00	0.00	abs	900000	0	20.00	Parchemin cinglant : facteur de coups critiques IV	212971	지속 주문서 - 치명타 유발 IV
+2684	Crit	0.00	0.00	abs	900000	0	25.00	Parchemin cinglant : facteur de coups critiques V	6196	Parchemin cinglant : facteur de coups critiques V
+2684	Crit	0.00	0.00	abs	900000	0	25.00	Parchemin cinglant : facteur de coups critiques V	212972	지속 주문서 - 치명타 유발 V
+2685	Crit	0.00	0.00	abs	900000	0	43.00	Parchemin cinglant : facteur de coups critiques VI	6306	Parchemin cinglant : facteur de coups critiques II
+2686	Crit	0.00	0.00	abs	900000	0	55.00	Parchemin cinglant : facteur de coups critiques VII	6486	Parchemin cinglant : facteur de coups critiques VII
+2695	CritPower	0.00	0.00	abs	900000	0	0.27	Parchemin cinglant : puissance des coups critiques I	6197	Parchemin cinglant : puissance des coups critiques I
+2696	CritPower	0.00	0.00	abs	900000	0	0.54	Parchemin cinglant : puissance des coups critiques II	6198	Parchemin cinglant : puissance des coups critiques II
+2697	CritPower	0.00	0.00	abs	900000	0	0.81	Parchemin cinglant : puissance des coups critiques III	6199	Parchemin cinglant : puissance des coups critiques III
+2698	CritPower	0.00	0.00	abs	900000	0	1.07	Parchemin cinglant : puissance des coups critiques IV	6200	Parchemin cinglant : puissance des coups critiques IV
+2698	CritPower	0.00	0.00	abs	900000	0	1.07	Parchemin cinglant : puissance des coups critiques IV	212973	지속 주문서 - 치명타 위력 IV
+2699	CritPower	0.00	0.00	abs	900000	0	1.34	Parchemin cinglant : puissance des coups critiques V	6201	Parchemin cinglant : puissance des coups critiques V
+2699	CritPower	0.00	0.00	abs	900000	0	1.34	Parchemin cinglant : puissance des coups critiques V	212974	지속 주문서 - 치명타 위력 V
+2699	CritPower	0.00	0.00	abs	900000	0	1.34	Parchemin cinglant : puissance des coups critiques V	213825	[연합 보급품] 지속 주문서 - 치명타 위력 V
+2700	CritPower	0.00	0.00	abs	900000	0	1.38	Parchemin cinglant : puissance des coups critiques VI	6307	Parchemin cinglant : puissance des coups critiques IV
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	6487	Parchemin cinglant : puissance des coups critiques VII
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	101212	만능 전투 비약 (7일)
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	152898	Remède abondant
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	152899	Remède abondant
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	153103	Remède abondant
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	153104	Remède abondant
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	153105	Remède abondant
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	201005	Remède abondant
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	201006	Remède abondant (30 jours)
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	201007	Remède abondant (7 jours)
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	201008	Remède abondant (1 jour)
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	214860	만능 전투 비약
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Parchemin cinglant : puissance des coups critiques VII	214915	만능 전투 비약 (90일)
+2725	ASpd	0.00	0.00	abs	900000	0	2.00	Parchemin cinglant : vitesse d'attaque I	6207	Parchemin cinglant : vitesse d'attaque I
+2726	ASpd	0.00	0.00	abs	900000	0	4.00	Parchemin cinglant : vitesse d'attaque II	6208	Parchemin cinglant : vitesse d'attaque II
+2727	ASpd	0.00	0.00	abs	900000	0	5.00	Parchemin cinglant : vitesse d'attaque III	6209	Parchemin cinglant : vitesse d'attaque III
+2728	ASpd	0.00	0.00	abs	900000	0	7.00	Parchemin cinglant : vitesse d'attaque IV	6210	Parchemin cinglant : vitesse d'attaque IV
+2728	ASpd	0.00	0.00	abs	900000	0	7.00	Parchemin cinglant : vitesse d'attaque IV	212975	지속 주문서 - 공격 속도 IV
+2729	ASpd	0.00	0.00	abs	900000	0	9.00	Parchemin cinglant : vitesse d'attaque V	6211	Parchemin cinglant : vitesse d'attaque V
+2729	ASpd	0.00	0.00	abs	900000	0	9.00	Parchemin cinglant : vitesse d'attaque V	212976	지속 주문서 - 공격 속도 V
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	6308	Parchemin cinglant : vitesse d'attaque VI
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	6488	Parchemin cinglant : vitesse d'attaque VII
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	101212	만능 전투 비약 (7일)
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	152898	Remède abondant
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	152899	Remède abondant
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	153103	Remède abondant
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	153104	Remède abondant
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	153105	Remède abondant
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	201005	Remède abondant
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	201006	Remède abondant (30 jours)
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	201007	Remède abondant (7 jours)
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	201008	Remède abondant (1 jour)
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	214860	만능 전투 비약
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Parchemin cinglant : vitesse d'attaque VI	214915	만능 전투 비약 (90일)
+2890	Block	0.00	0.00	seta	10000	0	0.00	Bombe à dispersion	6258	Bombe à dispersion
+2905	Block	0.00	0.00	seta	8000	0	0.00	Bombe d'enchevêtrement	6259	Bombe d'enchevêtrement
+2930	StaminaDecay	0.00	0.00	seta	300000	0	0.00	Panacée de renforcement I	6260	Panacée de renforcement I
+2930	StaminaDecay	0.00	0.00	seta	300000	0	0.00	Panacée de renforcement I	212786	영원의 성수 I
+2931	StaminaDecay	0.00	0.00	seta	600000	0	0.00	Panacée de renforcement II	6261	Panacée de renforcement II
+2931	StaminaDecay	0.00	0.00	seta	600000	0	0.00	Panacée de renforcement II	212787	영원의 성수 II
+2932	StaminaDecay	0.00	0.00	seta	900000	0	0.00	Panacée de renforcement III	6262	Panacée de renforcement III
+2932	StaminaDecay	0.00	0.00	seta	900000	0	0.00	Panacée de renforcement III	212788	영원의 성수 III
 2945	CDR	0.00	0.00	perc	300000	0	0.95	Remède de rôdeur I		
 2946	CDR	0.00	0.00	perc	300000	0	0.93	Remède de rôdeur II		
 2947	CDR	0.00	0.00	perc	300000	0	0.90	Remède de rôdeur III		
@@ -292,22 +423,34 @@
 2963	CDR	0.00	0.00	perc	300000	0	0.88	Remède énergétique IV		
 2964	CDR	0.00	0.00	perc	300000	0	0.85	Remède énergétique V		
 2965	CDR	0.00	0.00	perc	900000	0	0.85	Remède énergétique VI		
-2966	CDR	0.00	0.00	perc	900000	0	0.95	Remède de combat I		
-2968	CDR	0.00	0.00	perc	900000	0	0.93	Remède de combat II		
-2970	CDR	0.00	0.00	perc	900000	0	0.90	Remède de combat III		
-2972	CDR	0.00	0.00	perc	900000	0	0.88	Remède de combat IV		
-2974	CDR	0.00	0.00	perc	900000	0	0.85	Remède de combat V		
-2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI		
+2966	CDR	0.00	0.00	perc	900000	0	0.95	Remède de combat I	6534	Remède de combat I
+2968	CDR	0.00	0.00	perc	900000	0	0.93	Remède de combat II	6535	Remède de combat II
+2970	CDR	0.00	0.00	perc	900000	0	0.90	Remède de combat III	6536	Remède de combat III
+2972	CDR	0.00	0.00	perc	900000	0	0.88	Remède de combat IV	6537	Remède de combat IV
+2974	CDR	0.00	0.00	perc	900000	0	0.85	Remède de combat V	6538	Remède de combat V
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	6539	Remède de combat VI
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	101212	만능 전투 비약 (7일)
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	152898	Remède abondant
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	152899	Remède abondant
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	153103	Remède abondant
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	153104	Remède abondant
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	153105	Remède abondant
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	201005	Remède abondant
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	201006	Remède abondant (30 jours)
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	201007	Remède abondant (7 jours)
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	201008	Remède abondant (1 jour)
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	214860	만능 전투 비약
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Remède de combat VI	214915	만능 전투 비약 (90일)
 3000	Power	0.00	0.00	abs	60000	0	3.00	Energie d'Ailes rouges obscures		
 3000	Crit	0.00	0.00	abs	60000	0	2.00	Energie d'Ailes rouges obscures		
 3000	ASpd	0.00	0.00	perc	60000	0	1.02	Energie d'Ailes rouges obscures		
 3001	Power	0.00	0.00	abs	60000	0	3.00	Énergie de l'âme sombre		
 3001	ASpd	0.00	0.00	perc	60000	0	1.02	Énergie de l'âme sombre		
 3002	Power	0.00	0.00	abs	60000	0	3.00	Énergie de la Folie meurtrière		
-4404	Power	0.00	0.00	perc	604800000	0	1.10	Fiole sauvage puissante d'amitié		
+4404	Power	0.00	0.00	perc	604800000	0	1.10	Fiole sauvage puissante d'amitié	81227	Fiole sauvage puissante et amicale
 4651	Endurance	0.00	0.00	perc	0	0	1.00	Chance du débutant		
 4710	HPChange	-0.12	0.00	perc	3000	1	-0.12	Malédiction		
-4730	Power	0.00	0.00	perc	7200000	0	1.00	Sainte protection		
+4730	Power	0.00	0.00	perc	7200000	0	1.00	Sainte protection	103	Potion sacrée de protection
 4760	HPChange	7122.00	0.00	abs	1000	1	7122.00	Viande séchée de noruk		
 4762	MPChange	0.00	1013.00	abs	2000	2	1013.00	Vin millésimé		
 4763	HPChange	10684.00	0.00	abs	2000	2	10684.00	Vieille viande séchée		
@@ -340,40 +483,82 @@
 4822	ASpd	0.00	0.00	perc	0	0	1.02	Chaîne de récupération I		
 4822	DefPotion	0.00	0.00	perc	0	0	0.97	Chaîne de récupération I		
 4822	AtkPotion	0.00	0.00	perc	0	0	1.03	Chaîne de récupération I		
-4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure		
-4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure		
-4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure		
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	444	Potion de bravoure
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	81179	Potion de bravoure
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	100260	보급품: 용맹의 물약
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	100523	아이언 스카이 코라보 기념: 리히터 박사의 비약
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	150542	Potion de bravoure
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	212979	용맹의 물약
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	213348	[이벤트] 용맹의 물약
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	213828	[연합 보급품] 용맹의 물약
+4830	ASpd	0.00	0.00	perc	1800000	0	1.04	Bravoure	221224	용맹의 물약
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	444	Potion de bravoure
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	81179	Potion de bravoure
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	100260	보급품: 용맹의 물약
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	100523	아이언 스카이 코라보 기념: 리히터 박사의 비약
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	150542	Potion de bravoure
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	212979	용맹의 물약
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	213348	[이벤트] 용맹의 물약
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	213828	[연합 보급품] 용맹의 물약
+4830	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	221224	용맹의 물약
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	444	Potion de bravoure
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	81179	Potion de bravoure
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	100260	보급품: 용맹의 물약
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	100523	아이언 스카이 코라보 기념: 리히터 박사의 비약
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	150542	Potion de bravoure
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	212979	용맹의 물약
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	213348	[이벤트] 용맹의 물약
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	213828	[연합 보급품] 용맹의 물약
+4830	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Bravoure	221224	용맹의 물약
 4831	ASpd	0.00	0.00	perc	0	0	1.04	Bravoure		
 4831	DefPotion	0.00	0.00	perc	0	0	0.90	Bravoure		
 4831	AtkPotion	0.00	0.00	perc	0	0	1.10	Bravoure		
 4832	ASpd	0.00	0.00	perc	0	0	1.04	용맹의 축복(복귀자)		
 4832	DefPotion	0.00	0.00	perc	0	0	0.90	용맹의 축복(복귀자)		
 4832	AtkPotion	0.00	0.00	perc	0	0	1.10	용맹의 축복(복귀자)		
-4833	ASpd	0.00	0.00	perc	1800000	0	1.06	Bravoure		
-4833	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure		
-4833	AtkPotion	0.00	0.00	perc	1800000	0	1.12	Bravoure		
-4840	ASpd	0.00	0.00	perc	1800000	0	1.03	Protection		
-4840	DefPotion	0.00	0.00	perc	1800000	0	0.95	Protection		
-4841	ASpd	0.00	0.00	perc	1800000	0	1.03	Bravoure		
-4841	DefPotion	0.00	0.00	perc	1800000	0	0.95	Bravoure		
-4841	AtkPotion	0.00	0.00	perc	1800000	0	1.05	Bravoure		
+4833	ASpd	0.00	0.00	perc	1800000	0	1.06	Bravoure	150532	Potion supérieure de bravoure
+4833	ASpd	0.00	0.00	perc	1800000	0	1.06	Bravoure	150533	Potion supérieure de bravoure
+4833	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	150532	Potion supérieure de bravoure
+4833	DefPotion	0.00	0.00	perc	1800000	0	0.90	Bravoure	150533	Potion supérieure de bravoure
+4833	AtkPotion	0.00	0.00	perc	1800000	0	1.12	Bravoure	150532	Potion supérieure de bravoure
+4833	AtkPotion	0.00	0.00	perc	1800000	0	1.12	Bravoure	150533	Potion supérieure de bravoure
+4840	ASpd	0.00	0.00	perc	1800000	0	1.03	Protection	100998	수호의 물약
+4840	DefPotion	0.00	0.00	perc	1800000	0	0.95	Protection	100998	수호의 물약
+4841	ASpd	0.00	0.00	perc	1800000	0	1.03	Bravoure	100999	공격과 회복의 물약
+4841	DefPotion	0.00	0.00	perc	1800000	0	0.95	Bravoure	100999	공격과 회복의 물약
+4841	AtkPotion	0.00	0.00	perc	1800000	0	1.05	Bravoure	100999	공격과 회복의 물약
 4852	Power	0.00	0.00	perc	30000	0	150.00	Protection de Kaia		
 4852	Endurance	0.00	0.00	perc	30000	0	150.00	Protection de Kaia		
 4852	ASpd	0.00	0.00	perc	30000	0	2.00	Protection de Kaia		
 4852	CDR	0.00	0.00	perc	30000	0	0.10	Protection de Kaia		
 4860	DefPotion	0.00	0.00	perc	0	0	0.60	Détermination du Guerrier		
 4864	Power	0.00	0.00	abs	3600000	0	0.00	Invocations		
-4866	Endurance	0.00	0.00	perc	5000	0	1.00	Arome de tarte sucrée à la citrouille		
-4883	HPChange	0.04	0.00	perc	30000	1	0.04	Chocolat chaud		
-4884	HPChange	0.02	0.00	perc	10000	1	0.02	Rêve de crème glacée		
-4885	MPChange	0.00	0.05	perc	15000	1	0.05	Doux et rafraîchissant		
+4866	Endurance	0.00	0.00	perc	5000	0	1.00	Arome de tarte sucrée à la citrouille	164101	Tarte sucrée à la citrouille
+4883	HPChange	0.04	0.00	perc	30000	1	0.04	Chocolat chaud	100546	달콤한 핫초코
+4883	HPChange	0.04	0.00	perc	30000	1	0.04	Chocolat chaud	139016	Chocolat chaud
+4883	HPChange	0.04	0.00	perc	30000	1	0.04	Chocolat chaud	178542	Chocolat chaud
+4883	HPChange	0.04	0.00	perc	30000	1	0.04	Chocolat chaud	180591	Chocolat chaud
+4883	HPChange	0.04	0.00	perc	30000	1	0.04	Chocolat chaud	212764	달콤한 핫초코
+4884	HPChange	0.02	0.00	perc	10000	1	0.02	Rêve de crème glacée	100547	알록달록 아이스크림
+4884	HPChange	0.02	0.00	perc	10000	1	0.02	Rêve de crème glacée	139017	Glace à deux boules
+4884	HPChange	0.02	0.00	perc	10000	1	0.02	Rêve de crème glacée	178543	Glace à deux boules
+4884	HPChange	0.02	0.00	perc	10000	1	0.02	Rêve de crème glacée	180592	Glace à deux boules
+4884	HPChange	0.02	0.00	perc	10000	1	0.02	Rêve de crème glacée	212765	알록달록 아이스크림
+4885	MPChange	0.00	0.05	perc	15000	1	0.05	Doux et rafraîchissant	100548	시원한 블루 스무디
+4885	MPChange	0.00	0.05	perc	15000	1	0.05	Doux et rafraîchissant	139018	Smoothie délicieux
+4885	MPChange	0.00	0.05	perc	15000	1	0.05	Doux et rafraîchissant	178544	Smoothie délicieux
+4885	MPChange	0.00	0.05	perc	15000	1	0.05	Doux et rafraîchissant	180593	Smoothie délicieux
+4885	MPChange	0.00	0.05	perc	15000	1	0.05	Doux et rafraîchissant	212766	시원한 블루 스무디
 4886	ASpd	0.00	0.00	perc	1800000	0	1.04	Potion de bravoure		
 4886	DefPotion	0.00	0.00	perc	1800000	0	0.90	Potion de bravoure		
 4886	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Potion de bravoure		
 4952	AtkPotion	0.00	0.00	perc	0	0	1.12	Ferveur du débutant		
-4953	AtkPotion	0.00	0.00	perc	3600000	0	1.12	Potion de canephora		
-4955	AtkPotion	0.00	0.00	perc	1800000	0	1.15	Potion supérieure de canephora		
-4956	HPChange	0.15	0.00	perc	1000	1	0.15	Panier d'œufs de Pâques		
+4953	AtkPotion	0.00	0.00	perc	3600000	0	1.12	Potion de canephora	150543	Potion de canephora
+4953	AtkPotion	0.00	0.00	perc	3600000	0	1.12	Potion de canephora	167001	Potion de canephora
+4955	AtkPotion	0.00	0.00	perc	1800000	0	1.15	Potion supérieure de canephora	150534	Potion supérieure de canephora
+4955	AtkPotion	0.00	0.00	perc	1800000	0	1.15	Potion supérieure de canephora	150535	Potion supérieure de canephora
+4956	HPChange	0.15	0.00	perc	1000	1	0.15	Panier d'œufs de Pâques	151377	Panier d'œufs en chocolat
+4956	HPChange	0.15	0.00	perc	1000	1	0.15	Panier d'œufs de Pâques	152296	Gâteau de citrouille bizarre
 4957	HPChange	0.15	0.00	perc	1000	1	0.15	Cube de Halloween		
 10100	HPChange	-11.00	0.00	abs	5000	1	-11.00	Virulence		
 10101	HPChange	-23.00	0.00	abs	5000	1	-23.00	Virulence		
@@ -680,13 +865,13 @@
 31100	Power	0.00	0.00	abs	0	0	25.00	Décharge de Rage renforcée		
 31110	AtkPotion	0.00	0.00	perc	3000	0	1.15	Tourniquet alimenté		
 31120	Endurance	0.00	0.00	perc	5000	0	1.00	Tourniquet fondé		
-48731	MPChange	0.00	0.05	perc	15000	1	0.05	Délice de sarbaies		
+48731	MPChange	0.00	0.05	perc	15000	1	0.05	Délice de sarbaies	70047	Glace aux sarbaies
 48734	Endurance	0.00	0.00	abs	60000	0	1.00	Pompette		
 48735	Endurance	0.00	0.00	abs	60000	0	2.00	Éméché		
 48736	Endurance	0.00	0.00	abs	60000	0	3.00	Enivré		
 48737	Endurance	0.00	0.00	abs	60000	0	3.00	Saoul		
 48738	Endurance	0.00	0.00	abs	60000	0	3.00	Bourré		
-48744	MPChange	0.00	170.00	abs	15000	1	170.00	Délice de sarbaies		
+48744	MPChange	0.00	170.00	abs	15000	1	170.00	Délice de sarbaies	70098	Délice de sarbaies
 60001	Power	0.00	0.00	abs	20000	0	12.00	Eau-forte robuste		
 60001	ASpd	0.00	0.00	perc	20000	0	1.04	Eau-forte robuste		
 60002	Crit	0.00	0.00	abs	20000	0	20.00	Eau-forte acérée III		
@@ -695,9 +880,9 @@
 60004	HPChange	-900.00	0.00	abs	8000	1	-900.00	Lacération		
 60006	HPChange	900.00	0.00	abs	15000	1	900.00	Eau-forte de récupération III		
 60006	MPChange	0.00	90.00	abs	15000	1	90.00	Eau-forte de récupération III		
-60007	Power	0.00	0.00	abs	259200000	0	3.00	Elixir paradisiaque		
-60007	Endurance	0.00	0.00	abs	259200000	0	3.00	Elixir paradisiaque		
-60007	Crit	0.00	0.00	abs	259200000	0	3.00	Elixir paradisiaque		
+60007	Power	0.00	0.00	abs	259200000	0	3.00	Elixir paradisiaque	6312	Elixir paradisiaque
+60007	Endurance	0.00	0.00	abs	259200000	0	3.00	Elixir paradisiaque	6312	Elixir paradisiaque
+60007	Crit	0.00	0.00	abs	259200000	0	3.00	Elixir paradisiaque	6312	Elixir paradisiaque
 60008	HPChange	-227.00	0.00	abs	5000	1	-227.00	Arme : Toxicité		
 60009	HPChange	-882.00	0.00	abs	5000	1	-882.00	Arme : Eclair		
 60010	Endurance	0.00	0.00	perc	20000	0	0.90	Armure : Ouragan		
@@ -715,23 +900,44 @@
 60020	HPChange	-250.00	0.00	abs	10000	1	-250.00	Malédiction d'énergie faible		
 60021	Power	0.00	0.00	perc	10000	0	0.50	Malédiction catastrophique		
 60021	ASpd	0.00	0.00	perc	10000	0	0.30	Malédiction catastrophique		
-70202	HPChange	0.01	0.00	perc	900000	5	0.01	Salade de rutabagas des marais		
-70203	MPChange	0.00	0.01	perc	900000	5	0.01	Porcidé grillé		
-70211	Crit	0.00	0.00	abs	900000	0	10.00	Soupe de floretta		
-70212	Endurance	0.00	0.00	abs	900000	0	1.00	Muffin à la lunicourge		
-70212	HPChange	0.01	0.00	perc	900000	5	0.01	Muffin à la lunicourge		
-70213	Power	0.00	0.00	abs	900000	0	1.00	Cookie aux baies de Shevran		
-70213	MPChange	0.00	0.01	perc	900000	5	0.01	Cookie aux baies de Shevran		
-70221	Crit	0.00	0.00	abs	900000	0	20.00	Agneau Bulgogi		
-70221	ASpd	0.00	0.00	abs	900000	0	3.00	Agneau Bulgogi		
-70222	Endurance	0.00	0.00	abs	900000	0	2.00	Salade de blancs de struthio		
-70222	ASpd	0.00	0.00	abs	900000	0	3.00	Salade de blancs de struthio		
-70222	HPChange	0.01	0.00	perc	900000	5	0.01	Salade de blancs de struthio		
-70223	Power	0.00	0.00	abs	900000	0	2.00	Croquette demi-lune		
-70223	ASpd	0.00	0.00	abs	900000	0	3.00	Croquette demi-lune		
-70223	MPChange	0.00	0.01	perc	900000	5	0.01	Croquette demi-lune		
-70237	ASpd	0.00	0.00	abs	10000	0	20.00	Racinette brune de Lein		
-70238	Endurance	0.00	0.00	abs	10000	0	10.00	Hydromel à la lunicourge de Digory		
+70202	HPChange	0.01	0.00	perc	900000	5	0.01	Salade de rutabagas des marais	71416	Salade de rutabaga des marais
+70202	HPChange	0.01	0.00	perc	900000	5	0.01	Salade de rutabagas des marais	220426	[EVT]감자 샐러드
+70203	MPChange	0.00	0.01	perc	900000	5	0.01	Porcidé grillé	71417	Porcidé grillé
+70203	MPChange	0.00	0.01	perc	900000	5	0.01	Porcidé grillé	220427	[EVT]피글링 구이
+70211	Crit	0.00	0.00	abs	900000	0	10.00	Soupe de floretta	71413	Soupe de floretta
+70211	Crit	0.00	0.00	abs	900000	0	10.00	Soupe de floretta	220423	[EVT]브로콜리 수프
+70212	Endurance	0.00	0.00	abs	900000	0	1.00	Muffin à la lunicourge	71414	Muffin à la lunicourge
+70212	Endurance	0.00	0.00	abs	900000	0	1.00	Muffin à la lunicourge	220424	[EVT]호박 머핀
+70212	HPChange	0.01	0.00	perc	900000	5	0.01	Muffin à la lunicourge	71414	Muffin à la lunicourge
+70212	HPChange	0.01	0.00	perc	900000	5	0.01	Muffin à la lunicourge	220424	[EVT]호박 머핀
+70213	Power	0.00	0.00	abs	900000	0	1.00	Cookie aux baies de Shevran	71420	Cookie aux baies de Shevran
+70213	Power	0.00	0.00	abs	900000	0	1.00	Cookie aux baies de Shevran	220430	[EVT]라즈베리 쿠키
+70213	MPChange	0.00	0.01	perc	900000	5	0.01	Cookie aux baies de Shevran	71420	Cookie aux baies de Shevran
+70213	MPChange	0.00	0.01	perc	900000	5	0.01	Cookie aux baies de Shevran	220430	[EVT]라즈베리 쿠키
+70221	Crit	0.00	0.00	abs	900000	0	20.00	Agneau Bulgogi	71418	Agneau Bulgogi
+70221	Crit	0.00	0.00	abs	900000	0	20.00	Agneau Bulgogi	220428	[EVT]양 불고기
+70221	ASpd	0.00	0.00	abs	900000	0	3.00	Agneau Bulgogi	71418	Agneau Bulgogi
+70221	ASpd	0.00	0.00	abs	900000	0	3.00	Agneau Bulgogi	220428	[EVT]양 불고기
+70222	Endurance	0.00	0.00	abs	900000	0	2.00	Salade de blancs de struthio	71419	Salade de blancs de struthio
+70222	Endurance	0.00	0.00	abs	900000	0	2.00	Salade de blancs de struthio	220429	[EVT]타조 가슴살 샐러드
+70222	ASpd	0.00	0.00	abs	900000	0	3.00	Salade de blancs de struthio	71419	Salade de blancs de struthio
+70222	ASpd	0.00	0.00	abs	900000	0	3.00	Salade de blancs de struthio	220429	[EVT]타조 가슴살 샐러드
+70222	HPChange	0.01	0.00	perc	900000	5	0.01	Salade de blancs de struthio	71419	Salade de blancs de struthio
+70222	HPChange	0.01	0.00	perc	900000	5	0.01	Salade de blancs de struthio	220429	[EVT]타조 가슴살 샐러드
+70223	Power	0.00	0.00	abs	900000	0	2.00	Croquette demi-lune	71421	Croquette demi-lune
+70223	Power	0.00	0.00	abs	900000	0	2.00	Croquette demi-lune	220431	[EVT]반달 크로켓
+70223	ASpd	0.00	0.00	abs	900000	0	3.00	Croquette demi-lune	71421	Croquette demi-lune
+70223	ASpd	0.00	0.00	abs	900000	0	3.00	Croquette demi-lune	220431	[EVT]반달 크로켓
+70223	MPChange	0.00	0.01	perc	900000	5	0.01	Croquette demi-lune	71421	Croquette demi-lune
+70223	MPChange	0.00	0.01	perc	900000	5	0.01	Croquette demi-lune	220431	[EVT]반달 크로켓
+70231	Stamina	0.00	0.00	abs	900000	0	15.00	Salade de flammèches des Terres libres	71423	Salade de flammèches des Terres libres
+70231	Stamina	0.00	0.00	abs	900000	0	15.00	Salade de flammèches des Terres libres	220433	[EVT]리카노르 불꽃 샐러드
+70232	StaminaDecay	0.00	0.00	seta	900000	0	0.00	Ailes lugubres		
+70237	ASpd	0.00	0.00	abs	10000	0	20.00	Racinette brune de Lein	80081	Racinette brune de Lein
+70238	Endurance	0.00	0.00	abs	10000	0	10.00	Hydromel à la lunicourge de Digory	80082	Hydromel de lunicourge de Digory
+70239	Stamina	0.00	0.00	abs	10000	0	15.00	Salade de flammèches des Terres libres		
+70240	StaminaDecay	0.00	0.00	seta	10000	0	0.00	Ailes lugubres		
+70303	Stamina	0.00	0.00	abs	180002	0	5.00	Vigueur paisible		
 70304	HPChange	0.01	0.00	perc	180003	3	0.01	Régénération paisible		
 70305	MPChange	0.00	0.01	perc	180004	3	0.01	Restitution paisible		
 70407	Block	0.00	0.00	swch	3000	0	0.00	Paralysie ombrageuse		
@@ -753,132 +959,47 @@
 90101	HPChange	0.05	0.00	perc	10000	1	0.05	Résilience corporelle		
 90200	MPChange	0.00	0.05	perc	10000	1	0.05	Résilience spirituelle		
 90600	HPChange	1.00	0.00	perc	1000	1	1.00	Source ancestrale		
-100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive I	80100	Warrior
-100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive I	210300	Archer
-100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive I	210400	Archer
-100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive I	280300	Archer
-100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive I	280400	Archer
-100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive I	80100	Warrior
-100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive I	210300	Archer
-100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive I	210400	Archer
-100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive I	280300	Archer
-100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive I	280400	Archer
-100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive I	80100	Warrior
-100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive I	210300	Archer
-100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive I	210400	Archer
-100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive I	280300	Archer
-100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive I	280400	Archer
-100101	Power	0.00	0.00	abs	0	0	10.00	Position offensive II	80200	Warrior
-100101	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive II	80200	Warrior
-100101	Crit	0.00	0.00	abs	0	0	40.00	Position offensive II	80200	Warrior
-100102	Power	0.00	0.00	abs	0	0	15.00	Position offensive III	80300	Warrior
-100102	Power	0.00	0.00	abs	0	0	15.00	Position offensive III	80500	Warrior
-100102	Power	0.00	0.00	abs	0	0	15.00	Position offensive III	80600	Warrior
-100102	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive III	80300	Warrior
-100102	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive III	80500	Warrior
-100102	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive III	80600	Warrior
-100102	Crit	0.00	0.00	abs	0	0	50.00	Position offensive III	80300	Warrior
-100102	Crit	0.00	0.00	abs	0	0	50.00	Position offensive III	80500	Warrior
-100102	Crit	0.00	0.00	abs	0	0	50.00	Position offensive III	80600	Warrior
-100103	Power	0.00	0.00	abs	0	0	18.00	Position offensive IV	80400	Warrior
-100103	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive IV	80400	Warrior
-100103	Crit	0.00	0.00	abs	0	0	55.00	Position offensive IV	80400	Warrior
-100200	Endurance	0.00	0.00	perc	0	0	1.15	Position défensive I	90100	Warrior
-100201	Endurance	0.00	0.00	perc	0	0	1.20	Position défensive II	90200	Warrior
-100202	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive III	90300	Warrior
-100202	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive III	90500	Warrior
-100202	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive III	90600	Warrior
-100203	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive IV	90400	Warrior
-100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Lame empoisonnée	110100	Warrior
-100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée	110200	Warrior
-100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Lame empoisonnée	110300	Warrior
-100503	HPChange	-438.00	0.00	abs	10000	2	-438.00	Lame empoisonnée	110400	Warrior
-100504	HPChange	-612.00	0.00	abs	10000	2	-612.00	Lame empoisonnée	110500	Warrior
-100505	HPChange	-845.00	0.00	abs	10000	2	-845.00	Lame empoisonnée	110600	Warrior
-100506	HPChange	-1428.00	0.00	abs	10000	2	-1428.00	Lame empoisonnée	110700	Warrior
-100507	HPChange	-1892.00	0.00	abs	10000	2	-1892.00	Lame empoisonnée	110800	Warrior
-100507	HPChange	-1892.00	0.00	abs	10000	2	-1892.00	Lame empoisonnée	111000	Warrior
-100507	HPChange	-1892.00	0.00	abs	10000	2	-1892.00	Lame empoisonnée	111100	Warrior
-100508	HPChange	-6068.00	0.00	abs	10000	2	-6068.00	Lame empoisonnée	110900	Warrior
-100520	HPChange	-92.00	0.00	abs	10000	2	-92.00	Lame empoisonnée	110100	Warrior
-100521	HPChange	-127.00	0.00	abs	10000	2	-127.00	Lame empoisonnée	110200	Warrior
-100522	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée	110300	Warrior
-100523	HPChange	-242.00	0.00	abs	10000	2	-242.00	Lame empoisonnée	110400	Warrior
-100524	HPChange	-334.00	0.00	abs	10000	2	-334.00	Lame empoisonnée	110500	Warrior
-100525	HPChange	-461.00	0.00	abs	10000	2	-461.00	Lame empoisonnée	110600	Warrior
-100526	HPChange	-720.00	0.00	abs	10000	2	-720.00	Lame empoisonnée	110700	Warrior
-100527	HPChange	-954.00	0.00	abs	10000	2	-954.00	Lame empoisonnée	110800	Warrior
-100528	HPChange	-1420.00	0.00	abs	10000	2	-1420.00	Lame empoisonnée	110900	Warrior
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	140100	Warrior
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	140200	Warrior
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	200300	Berserker
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	200400	Berserker
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	210300	Berserker
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	210400	Berserker
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	190200	Lancer
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	190300	Lancer
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	190400	Lancer
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	200200	Lancer
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	200300	Lancer
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	310400	Priest
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	310500	Priest
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	320400	Priest
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	320500	Priest
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	200300	Slayer
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	200400	Slayer
-100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation	240200	Sorcerer
+100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive I		
+100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive I		
+100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive I		
+100101	Power	0.00	0.00	abs	0	0	10.00	Position offensive II		
+100101	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive II		
+100101	Crit	0.00	0.00	abs	0	0	40.00	Position offensive II		
+100102	Power	0.00	0.00	abs	0	0	15.00	Position offensive III		
+100102	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive III		
+100102	Crit	0.00	0.00	abs	0	0	50.00	Position offensive III		
+100103	Power	0.00	0.00	abs	0	0	18.00	Position offensive IV		
+100103	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive IV		
+100103	Crit	0.00	0.00	abs	0	0	55.00	Position offensive IV		
+100200	Endurance	0.00	0.00	perc	0	0	1.15	Position défensive I		
+100201	Endurance	0.00	0.00	perc	0	0	1.20	Position défensive II		
+100202	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive III		
+100203	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive IV		
+100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Lame empoisonnée		
+100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée		
+100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Lame empoisonnée		
+100503	HPChange	-438.00	0.00	abs	10000	2	-438.00	Lame empoisonnée		
+100504	HPChange	-612.00	0.00	abs	10000	2	-612.00	Lame empoisonnée		
+100505	HPChange	-845.00	0.00	abs	10000	2	-845.00	Lame empoisonnée		
+100506	HPChange	-1428.00	0.00	abs	10000	2	-1428.00	Lame empoisonnée		
+100507	HPChange	-1892.00	0.00	abs	10000	2	-1892.00	Lame empoisonnée		
+100508	HPChange	-6068.00	0.00	abs	10000	2	-6068.00	Lame empoisonnée		
+100520	HPChange	-92.00	0.00	abs	10000	2	-92.00	Lame empoisonnée		
+100521	HPChange	-127.00	0.00	abs	10000	2	-127.00	Lame empoisonnée		
+100522	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée		
+100523	HPChange	-242.00	0.00	abs	10000	2	-242.00	Lame empoisonnée		
+100524	HPChange	-334.00	0.00	abs	10000	2	-334.00	Lame empoisonnée		
+100525	HPChange	-461.00	0.00	abs	10000	2	-461.00	Lame empoisonnée		
+100526	HPChange	-720.00	0.00	abs	10000	2	-720.00	Lame empoisonnée		
+100527	HPChange	-954.00	0.00	abs	10000	2	-954.00	Lame empoisonnée		
+100528	HPChange	-1420.00	0.00	abs	10000	2	-1420.00	Lame empoisonnée		
+100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation		
 100630	ASpd	0.00	0.00	perc	5000	0	0.85	Mutilation		
-100801	CDR	0.00	0.00	perc	20000	0	0.50	Pari mortel II	200200	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180100	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180200	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180300	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180400	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180500	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180600	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180700	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180800	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180900	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181000	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181100	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181200	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181300	Warrior
-101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181400	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180100	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180200	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180300	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180400	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180500	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180600	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180700	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180800	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	180900	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181000	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181100	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181200	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181300	Warrior
-101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive	181400	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280100	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280130	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280200	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280230	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280300	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280330	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280400	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280430	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280500	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280530	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280600	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280630	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280700	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280730	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280800	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280830	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280900	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	280930	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	281000	Warrior
-101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale	281030	Warrior
-101500	DefPotion	0.00	0.00	perc	15000	0	1.25	Taillade faucheuse	311000	Warrior
-101500	DefPotion	0.00	0.00	perc	15000	0	1.25	Taillade faucheuse	311030	Warrior
+100801	CDR	0.00	0.00	perc	20000	0	0.50	Pari mortel II		
+101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive		
+101220	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive		
+101300	Endurance	0.00	0.00	perc	27000	0	1.00	Coupe latérale		
+101500	DefPotion	0.00	0.00	perc	15000	0	1.25	Taillade faucheuse		
 101600	Endurance	0.00	0.00	perc	15000	0	1.00	Ailier de fumée		
 200230	Power	0.00	0.00	perc	0	0	1.30	Pouvoir du gardien I		
 200230	Endurance	0.00	0.00	perc	0	0	1.91	Pouvoir du gardien I		
@@ -886,73 +1007,58 @@
 200231	Endurance	0.00	0.00	perc	0	0	1.91	Pouvoir du gardien II		
 200232	Power	0.00	0.00	perc	0	0	1.30	Pouvoir du gardien III		
 200232	Endurance	0.00	0.00	perc	0	0	1.91	Pouvoir du gardien III		
-200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement	100100	Lancer
-200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement	100400	Lancer
-200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement	100500	Lancer
-200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement	100600	Lancer
-200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement	100700	Lancer
-200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement	100800	Lancer
-200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement	100900	Lancer
-200301	Endurance	0.00	0.00	perc	15000	0	0.96	Affaiblissement	100200	Lancer
-200302	Endurance	0.00	0.00	perc	18000	0	0.96	Affaiblissement	100300	Lancer
-200700	ASpd	0.00	0.00	perc	20000	0	1.15	Poussée d'adrénaline I	170100	Lancer
-200701	ASpd	0.00	0.00	perc	20000	0	1.20	Poussée d'adrénaline II	170200	Lancer
+200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement		
+200301	Endurance	0.00	0.00	perc	15000	0	0.96	Affaiblissement		
+200302	Endurance	0.00	0.00	perc	18000	0	0.96	Affaiblissement		
+200700	ASpd	0.00	0.00	perc	20000	0	1.15	Poussée d'adrénaline I		
+200701	ASpd	0.00	0.00	perc	20000	0	1.20	Poussée d'adrénaline II		
 200930	DefPotion	0.00	0.00	perc	0	0	0.80	Serment de protection I		
 200931	DefPotion	0.00	0.00	perc	0	0	0.80	Serment de protection II		
-201200	ASpd	0.00	0.00	perc	5000	0	0.85	Vague menaçante	200100	Lancer
+201200	ASpd	0.00	0.00	perc	5000	0	0.85	Vague menaçante		
 201701	Power	0.00	0.00	abs	50000	0	4.00	Ligne tenue I		
 201701	Crit	0.00	0.00	abs	50000	0	6.00	Ligne tenue I		
-300300	Attack	0.00	0.00	perc	20000	0	1.30	Surpuissance I	180100	Slayer
-300300	Attack	0.00	0.00	perc	20000	0	1.30	Surpuissance I	180300	Slayer
-300300	Attack	0.00	0.00	perc	20000	0	1.30	Surpuissance I	180400	Slayer
-300301	Attack	0.00	0.00	perc	20000	0	1.33	Surpuissance II	180200	Slayer
+300300	Attack	0.00	0.00	perc	20000	0	1.30	Surpuissance I		
+300301	Attack	0.00	0.00	perc	20000	0	1.33	Surpuissance II		
 300500	ASpd	0.00	0.00	perc	10000	0	1.30	Tête baissée I		
 300501	ASpd	0.00	0.00	perc	10000	0	1.40	Tête baissée II		
 300502	ASpd	0.00	0.00	perc	10000	0	1.50	Tête baissée III		
 300503	ASpd	0.00	0.00	perc	10000	0	1.60	Tête baissée IV		
-300800	Power	0.00	0.00	abs	20000	0	26.00	Sang-froid I	200100	Slayer
-300800	ASpd	0.00	0.00	perc	20000	0	1.06	Sang-froid I	200100	Slayer
-300801	Power	0.00	0.00	abs	20000	0	29.00	Sang froid II	200200	Slayer
-300801	ASpd	0.00	0.00	perc	20000	0	1.08	Sang froid II	200200	Slayer
-300900	CDR	0.00	0.00	perc	15000	0	1.50	Coup épuisant I	210100	Slayer
-300900	CDR	0.00	0.00	perc	15000	0	1.50	Coup épuisant I	210400	Slayer
-300900	CDR	0.00	0.00	perc	15000	0	1.50	Coup épuisant I	210500	Slayer
-300901	CDR	0.00	0.00	perc	15000	0	1.53	Coup épuisant II	210200	Slayer
-300902	CDR	0.00	0.00	perc	15000	0	1.55	Coup épuisant III	210300	Slayer
-400100	Power	0.00	0.00	perc	15000	0	1.20	Rage féroce I	80100	Berserker
-400100	Endurance	0.00	0.00	perc	15000	0	0.90	Rage féroce I	80100	Berserker
-400100	Crit	0.00	0.00	perc	15000	0	1.10	Rage féroce I	80100	Berserker
-400101	Power	0.00	0.00	perc	17000	0	1.20	Rage féroce II	80200	Berserker
-400101	Endurance	0.00	0.00	perc	17000	0	0.90	Rage féroce II	80200	Berserker
-400101	Crit	0.00	0.00	perc	17000	0	1.10	Rage féroce II	80200	Berserker
-400102	Power	0.00	0.00	perc	20000	0	1.20	Rage féroce III	80300	Berserker
-400102	Endurance	0.00	0.00	perc	20000	0	0.90	Rage féroce III	80300	Berserker
-400102	Crit	0.00	0.00	perc	20000	0	1.10	Rage féroce III	80300	Berserker
-400103	Power	0.00	0.00	perc	25000	0	1.20	Rage féroce IV	80400	Berserker
-400103	Power	0.00	0.00	perc	25000	0	1.20	Rage féroce IV	80700	Berserker
-400103	Endurance	0.00	0.00	perc	25000	0	0.90	Rage féroce IV	80400	Berserker
-400103	Endurance	0.00	0.00	perc	25000	0	0.90	Rage féroce IV	80700	Berserker
-400103	Crit	0.00	0.00	perc	25000	0	1.10	Rage féroce IV	80400	Berserker
-400103	Crit	0.00	0.00	perc	25000	0	1.10	Rage féroce IV	80700	Berserker
-400104	Power	0.00	0.00	perc	27000	0	1.20	Rage féroce IV	80500	Berserker
-400104	Endurance	0.00	0.00	perc	27000	0	0.90	Rage féroce IV	80500	Berserker
-400104	Crit	0.00	0.00	perc	27000	0	1.10	Rage féroce IV	80500	Berserker
-400105	Power	0.00	0.00	perc	27000	0	1.20	Rage féroce VI	80600	Berserker
-400105	Endurance	0.00	0.00	perc	27000	0	0.90	Rage féroce VI	80600	Berserker
-400105	Crit	0.00	0.00	perc	27000	0	1.10	Rage féroce VI	80600	Berserker
-400500	ASpd	0.00	0.00	perc	15000	0	1.20	Colère déchaînée enragée	170100	Berserker
-400501	ASpd	0.00	0.00	perc	15000	0	1.40	Avalanche de coups	170200	Berserker
-400501	ASpd	0.00	0.00	perc	15000	0	1.40	Avalanche de coups	170300	Berserker
-400501	ASpd	0.00	0.00	perc	15000	0	1.40	Avalanche de coups	170400	Berserker
-400700	Power	0.00	0.00	abs	30000	0	26.00	Soif de sang I	210100	Berserker
-400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	Soif de sang I	210100	Berserker
-400701	Power	0.00	0.00	abs	30000	0	29.00	Soif de sang II	210200	Berserker
-400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	Soif de sang II	210200	Berserker
-400800	Block	0.00	0.00	perc	6000	0	0.00	Destin inéluctable I	200100	Berserker
-400801	Block	0.00	0.00	perc	6000	0	0.00	Destin inéluctable II	200200	Berserker
-401400	Crit	0.00	0.00	abs	0	0	-18.00	Intimidation	280100	Berserker
-401400	MPChange	0.00	50.00	abs	0	1	50.00	Intimidation	280100	Berserker
-401500	Endurance	0.00	0.00	perc	15000	0	0.96	Frappe punitive	320101	Berserker
+300800	Power	0.00	0.00	abs	20000	0	26.00	Sang-froid I		
+300800	ASpd	0.00	0.00	perc	20000	0	1.06	Sang-froid I		
+300801	Power	0.00	0.00	abs	20000	0	29.00	Sang froid II		
+300801	ASpd	0.00	0.00	perc	20000	0	1.08	Sang froid II		
+300900	CDR	0.00	0.00	perc	15000	0	1.50	Coup épuisant I		
+300901	CDR	0.00	0.00	perc	15000	0	1.53	Coup épuisant II		
+300902	CDR	0.00	0.00	perc	15000	0	1.55	Coup épuisant III		
+400100	Power	0.00	0.00	perc	15000	0	1.20	Rage féroce I		
+400100	Endurance	0.00	0.00	perc	15000	0	0.90	Rage féroce I		
+400100	Crit	0.00	0.00	perc	15000	0	1.10	Rage féroce I		
+400101	Power	0.00	0.00	perc	17000	0	1.20	Rage féroce II		
+400101	Endurance	0.00	0.00	perc	17000	0	0.90	Rage féroce II		
+400101	Crit	0.00	0.00	perc	17000	0	1.10	Rage féroce II		
+400102	Power	0.00	0.00	perc	20000	0	1.20	Rage féroce III		
+400102	Endurance	0.00	0.00	perc	20000	0	0.90	Rage féroce III		
+400102	Crit	0.00	0.00	perc	20000	0	1.10	Rage féroce III		
+400103	Power	0.00	0.00	perc	25000	0	1.20	Rage féroce IV		
+400103	Endurance	0.00	0.00	perc	25000	0	0.90	Rage féroce IV		
+400103	Crit	0.00	0.00	perc	25000	0	1.10	Rage féroce IV		
+400104	Power	0.00	0.00	perc	27000	0	1.20	Rage féroce IV		
+400104	Endurance	0.00	0.00	perc	27000	0	0.90	Rage féroce IV		
+400104	Crit	0.00	0.00	perc	27000	0	1.10	Rage féroce IV		
+400105	Power	0.00	0.00	perc	27000	0	1.20	Rage féroce VI		
+400105	Endurance	0.00	0.00	perc	27000	0	0.90	Rage féroce VI		
+400105	Crit	0.00	0.00	perc	27000	0	1.10	Rage féroce VI		
+400500	ASpd	0.00	0.00	perc	15000	0	1.20	Colère déchaînée enragée		
+400501	ASpd	0.00	0.00	perc	15000	0	1.40	Avalanche de coups		
+400700	Power	0.00	0.00	abs	30000	0	26.00	Soif de sang I		
+400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	Soif de sang I		
+400701	Power	0.00	0.00	abs	30000	0	29.00	Soif de sang II		
+400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	Soif de sang II		
+400800	Block	0.00	0.00	perc	6000	0	0.00	Destin inéluctable I		
+400801	Block	0.00	0.00	perc	6000	0	0.00	Destin inéluctable II		
+401400	Crit	0.00	0.00	abs	0	0	-18.00	Intimidation		
+401400	MPChange	0.00	50.00	abs	0	1	50.00	Intimidation		
+401500	Endurance	0.00	0.00	perc	15000	0	0.96	Frappe punitive		
 429001	Endurance	0.00	0.00	abs	90000	0	500.00	Parade parfaite		
 429004	Endurance	0.00	0.00	abs	10000	0	1.00	Cible de Kaprima		
 429006	HPChange	-0.05	0.00	perc	15000	1	-0.05	Venin de vipère		
@@ -1058,191 +1164,127 @@
 477101	Endurance	0.00	0.00	perc	0	0	2.00	Esprit rebelle		
 494550	HPChange	-0.02	0.00	perc	0	1	-0.02	Sang pollué		
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	Futilité		
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90100	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90200	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90300	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90400	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90500	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90600	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90700	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90800	Sorcerer
-500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge	90900	Sorcerer
-500300	MPChange	0.00	120.00	abs	25000	2	120.00	Infusion de mana I	50100	Sorcerer
-500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana II	50200	Sorcerer
-500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana II	50300	Sorcerer
-500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana II	50400	Sorcerer
-500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana II	50500	Sorcerer
-500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana II	50600	Sorcerer
-500700	HPChange	-26.00	0.00	abs	10000	2	-26.00	Explosion de douleur	160100	Sorcerer
-500701	HPChange	-40.00	0.00	abs	10000	2	-40.00	Explosion de douleur	160200	Sorcerer
-500702	HPChange	-58.00	0.00	abs	10000	2	-58.00	Explosion de douleur	160300	Sorcerer
-500703	HPChange	-85.00	0.00	abs	10000	2	-85.00	Explosion de douleur	160400	Sorcerer
-500704	HPChange	-121.00	0.00	abs	10000	2	-121.00	Explosion de douleur	160500	Sorcerer
-500705	HPChange	-174.00	0.00	abs	10000	2	-174.00	Explosion de douleur	160600	Sorcerer
-500706	HPChange	-241.00	0.00	abs	10000	2	-241.00	Explosion de douleur	160700	Sorcerer
-500707	HPChange	-341.00	0.00	abs	10000	2	-341.00	Explosion de douleur	160800	Sorcerer
-500707	HPChange	-341.00	0.00	abs	10000	2	-341.00	Explosion de douleur	161100	Sorcerer
-500707	HPChange	-341.00	0.00	abs	10000	2	-341.00	Explosion de douleur	161200	Sorcerer
-500708	HPChange	-516.00	0.00	abs	10000	2	-516.00	Explosion de douleur	160900	Sorcerer
-500720	HPChange	-27.00	0.00	abs	10000	2	-27.00	Explosion de douleur	160100	Sorcerer
-500721	HPChange	-37.00	0.00	abs	10000	2	-37.00	Explosion de douleur	160200	Sorcerer
-500722	HPChange	-51.00	0.00	abs	10000	2	-51.00	Explosion de douleur	160300	Sorcerer
-500723	HPChange	-71.00	0.00	abs	10000	2	-71.00	Explosion de douleur	160400	Sorcerer
-500724	HPChange	-97.00	0.00	abs	10000	2	-97.00	Explosion de douleur	160500	Sorcerer
-500725	HPChange	-134.00	0.00	abs	10000	2	-134.00	Explosion de douleur	160600	Sorcerer
-500726	HPChange	-186.00	0.00	abs	10000	2	-186.00	Explosion de douleur	160700	Sorcerer
-500727	HPChange	-258.00	0.00	abs	10000	2	-258.00	Explosion de douleur	160800	Sorcerer
-500727	HPChange	-258.00	0.00	abs	10000	2	-258.00	Explosion de douleur	161100	Sorcerer
-500727	HPChange	-258.00	0.00	abs	10000	2	-258.00	Explosion de douleur	161200	Sorcerer
-500728	HPChange	-382.00	0.00	abs	10000	2	-382.00	Explosion de douleur	160900	Sorcerer
-500900	Block	0.00	0.00	swch	5000	0	0.00	Epuisement nerveux	210110	Sorcerer
-500900	Block	0.00	0.00	swch	5000	0	0.00	Epuisement nerveux	210310	Sorcerer
-500900	Block	0.00	0.00	swch	5000	0	0.00	Epuisement nerveux	210410	Sorcerer
-501000	HPChange	-1175.00	0.00	abs	10000	2	-1175.00	Souffle embrasé	220110	Sorcerer
-501001	HPChange	-1631.00	0.00	abs	10000	2	-1631.00	Souffle embrasé	220210	Sorcerer
-501002	HPChange	-2305.00	0.00	abs	10000	2	-2305.00	Souffle embrasé	220310	Sorcerer
-501002	HPChange	-2305.00	0.00	abs	10000	2	-2305.00	Souffle embrasé	220610	Sorcerer
-501002	HPChange	-2305.00	0.00	abs	10000	2	-2305.00	Souffle embrasé	220710	Sorcerer
-501003	HPChange	-3120.00	0.00	abs	10000	2	-3120.00	Souffle embrasé	220410	Sorcerer
-501020	HPChange	-890.00	0.00	abs	10000	2	-890.00	Souffle embrasé	220110	Sorcerer
-501021	HPChange	-1228.00	0.00	abs	10000	2	-1228.00	Souffle embrasé	220210	Sorcerer
-501022	HPChange	-1704.00	0.00	abs	10000	2	-1704.00	Souffle embrasé	220310	Sorcerer
-501022	HPChange	-1704.00	0.00	abs	10000	2	-1704.00	Souffle embrasé	220610	Sorcerer
-501022	HPChange	-1704.00	0.00	abs	10000	2	-1704.00	Souffle embrasé	220710	Sorcerer
-501023	HPChange	-2259.00	0.00	abs	10000	2	-2259.00	Souffle embrasé	220410	Sorcerer
-501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Volée de mana I	230110	Sorcerer
-501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Volée de mana I	230310	Sorcerer
-501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Volée de mana I	230410	Sorcerer
-501101	MPChange	0.00	-206.00	abs	10000	2	-206.00	Volée de mana II	230210	Sorcerer
-501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Volée de mana I	230110	Sorcerer
-501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Volée de mana I	230310	Sorcerer
-501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Volée de mana I	230410	Sorcerer
-501151	MPChange	0.00	-0.30	perc	1000	1	-0.30	Volée de mana II	230210	Sorcerer
-501160	MPChange	0.00	0.25	perc	1000	1	0.25		230110	Sorcerer
-501160	MPChange	0.00	0.25	perc	1000	1	0.25		230310	Sorcerer
-501160	MPChange	0.00	0.25	perc	1000	1	0.25		230410	Sorcerer
-501161	MPChange	0.00	0.30	perc	1000	1	0.30		230210	Sorcerer
-501200	ASpd	0.00	0.00	perc	15000	0	1.20	Poussée de célérité	240100	Sorcerer
-501320	Block	0.00	0.00	perc	5000	0	0.00	Gyre temporel	250110	Sorcerer
-501321	Block	0.00	0.00	perc	6000	0	0.00	Gyre temporel	250210	Sorcerer
-501322	Block	0.00	0.00	perc	7000	0	0.00	Gyre temporel	250310	Sorcerer
-501322	Block	0.00	0.00	perc	7000	0	0.00	Gyre temporel	250510	Sorcerer
-501322	Block	0.00	0.00	perc	7000	0	0.00	Gyre temporel	250610	Sorcerer
-501323	Block	0.00	0.00	perc	8000	0	0.00	Gyre temporel	250410	Sorcerer
-600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	Piège empoisonné	110120	Archer
-600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	Piège empoisonné	110220	Archer
-600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	Piège empoisonné	110320	Archer
-600603	HPChange	-518.00	0.00	abs	10000	2	-518.00	Piège empoisonné	110420	Archer
-600604	HPChange	-1048.00	0.00	abs	10000	2	-1048.00	Piège empoisonné	110520	Archer
-600605	HPChange	-1575.00	0.00	abs	10000	2	-1575.00	Piège empoisonné	110620	Archer
-600620	HPChange	-57.00	0.00	abs	10000	2	-57.00	Piège empoisonné	110120	Archer
-600621	HPChange	-109.00	0.00	abs	10000	2	-109.00	Piège empoisonné	110220	Archer
-600622	HPChange	-209.00	0.00	abs	10000	2	-209.00	Piège empoisonné	110320	Archer
-600623	HPChange	-398.00	0.00	abs	10000	2	-398.00	Piège empoisonné	110420	Archer
-600624	HPChange	-778.00	0.00	abs	10000	2	-778.00	Piège empoisonné	110520	Archer
-600625	HPChange	-1091.00	0.00	abs	10000	2	-1091.00	Piège empoisonné	110620	Archer
-600900	HPChange	-270.00	0.00	abs	12000	2	-270.00	Flèche empoisonnée	190100	Archer
-600901	HPChange	-389.00	0.00	abs	12000	2	-389.00	Flèche empoisonnée	190200	Archer
-600902	HPChange	-589.00	0.00	abs	12000	2	-589.00	Flèche empoisonnée	190300	Archer
-600903	HPChange	-849.00	0.00	abs	12000	2	-849.00	Flèche empoisonnée	190400	Archer
-600904	HPChange	-1179.00	0.00	abs	12000	2	-1179.00	Flèche empoisonnée	190500	Archer
-600905	HPChange	-1626.00	0.00	abs	12000	2	-1626.00	Flèche empoisonnée	190600	Archer
-600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Flèche empoisonnée	190700	Archer
-600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Flèche empoisonnée	190900	Archer
-600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Flèche empoisonnée	191000	Archer
-600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Flèche empoisonnée	191100	Archer
-600907	HPChange	-3128.00	0.00	abs	12000	2	-3128.00	Flèche empoisonnée	190800	Archer
+500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge		
+500300	MPChange	0.00	120.00	abs	25000	2	120.00	Infusion de mana I		
+500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana II		
+500700	HPChange	-26.00	0.00	abs	10000	2	-26.00	Explosion de douleur		
+500701	HPChange	-40.00	0.00	abs	10000	2	-40.00	Explosion de douleur		
+500702	HPChange	-58.00	0.00	abs	10000	2	-58.00	Explosion de douleur		
+500703	HPChange	-85.00	0.00	abs	10000	2	-85.00	Explosion de douleur		
+500704	HPChange	-121.00	0.00	abs	10000	2	-121.00	Explosion de douleur		
+500705	HPChange	-174.00	0.00	abs	10000	2	-174.00	Explosion de douleur		
+500706	HPChange	-241.00	0.00	abs	10000	2	-241.00	Explosion de douleur		
+500707	HPChange	-341.00	0.00	abs	10000	2	-341.00	Explosion de douleur		
+500708	HPChange	-516.00	0.00	abs	10000	2	-516.00	Explosion de douleur		
+500720	HPChange	-27.00	0.00	abs	10000	2	-27.00	Explosion de douleur		
+500721	HPChange	-37.00	0.00	abs	10000	2	-37.00	Explosion de douleur		
+500722	HPChange	-51.00	0.00	abs	10000	2	-51.00	Explosion de douleur		
+500723	HPChange	-71.00	0.00	abs	10000	2	-71.00	Explosion de douleur		
+500724	HPChange	-97.00	0.00	abs	10000	2	-97.00	Explosion de douleur		
+500725	HPChange	-134.00	0.00	abs	10000	2	-134.00	Explosion de douleur		
+500726	HPChange	-186.00	0.00	abs	10000	2	-186.00	Explosion de douleur		
+500727	HPChange	-258.00	0.00	abs	10000	2	-258.00	Explosion de douleur		
+500728	HPChange	-382.00	0.00	abs	10000	2	-382.00	Explosion de douleur		
+500900	Block	0.00	0.00	swch	5000	0	0.00	Epuisement nerveux		
+501000	HPChange	-1175.00	0.00	abs	10000	2	-1175.00	Souffle embrasé		
+501001	HPChange	-1631.00	0.00	abs	10000	2	-1631.00	Souffle embrasé		
+501002	HPChange	-2305.00	0.00	abs	10000	2	-2305.00	Souffle embrasé		
+501003	HPChange	-3120.00	0.00	abs	10000	2	-3120.00	Souffle embrasé		
+501020	HPChange	-890.00	0.00	abs	10000	2	-890.00	Souffle embrasé		
+501021	HPChange	-1228.00	0.00	abs	10000	2	-1228.00	Souffle embrasé		
+501022	HPChange	-1704.00	0.00	abs	10000	2	-1704.00	Souffle embrasé		
+501023	HPChange	-2259.00	0.00	abs	10000	2	-2259.00	Souffle embrasé		
+501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Volée de mana I		
+501101	MPChange	0.00	-206.00	abs	10000	2	-206.00	Volée de mana II		
+501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Volée de mana I		
+501151	MPChange	0.00	-0.30	perc	1000	1	-0.30	Volée de mana II		
+501200	ASpd	0.00	0.00	perc	15000	0	1.20	Poussée de célérité		
+501320	Block	0.00	0.00	perc	5000	0	0.00	Gyre temporel		
+501321	Block	0.00	0.00	perc	6000	0	0.00	Gyre temporel		
+501322	Block	0.00	0.00	perc	7000	0	0.00	Gyre temporel		
+501323	Block	0.00	0.00	perc	8000	0	0.00	Gyre temporel		
+600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	Piège empoisonné		
+600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	Piège empoisonné		
+600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	Piège empoisonné		
+600603	HPChange	-518.00	0.00	abs	10000	2	-518.00	Piège empoisonné		
+600604	HPChange	-1048.00	0.00	abs	10000	2	-1048.00	Piège empoisonné		
+600605	HPChange	-1575.00	0.00	abs	10000	2	-1575.00	Piège empoisonné		
+600620	HPChange	-57.00	0.00	abs	10000	2	-57.00	Piège empoisonné		
+600621	HPChange	-109.00	0.00	abs	10000	2	-109.00	Piège empoisonné		
+600622	HPChange	-209.00	0.00	abs	10000	2	-209.00	Piège empoisonné		
+600623	HPChange	-398.00	0.00	abs	10000	2	-398.00	Piège empoisonné		
+600624	HPChange	-778.00	0.00	abs	10000	2	-778.00	Piège empoisonné		
+600625	HPChange	-1091.00	0.00	abs	10000	2	-1091.00	Piège empoisonné		
+600900	HPChange	-270.00	0.00	abs	12000	2	-270.00	Flèche empoisonnée		
+600901	HPChange	-389.00	0.00	abs	12000	2	-389.00	Flèche empoisonnée		
+600902	HPChange	-589.00	0.00	abs	12000	2	-589.00	Flèche empoisonnée		
+600903	HPChange	-849.00	0.00	abs	12000	2	-849.00	Flèche empoisonnée		
+600904	HPChange	-1179.00	0.00	abs	12000	2	-1179.00	Flèche empoisonnée		
+600905	HPChange	-1626.00	0.00	abs	12000	2	-1626.00	Flèche empoisonnée		
+600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Flèche empoisonnée		
+600907	HPChange	-3128.00	0.00	abs	12000	2	-3128.00	Flèche empoisonnée		
 600908	HPChange	-3780.00	0.00	abs	12000	2	-3780.00	Flèche empoisonnée		
-600920	HPChange	-232.00	0.00	abs	12000	2	-232.00	Flèche empoisonnée	190100	Archer
-600921	HPChange	-160.00	0.00	abs	12000	2	-160.00	Flèche empoisonnée	190200	Archer
-600922	HPChange	-221.00	0.00	abs	12000	2	-221.00	Flèche empoisonnée	190300	Archer
-600923	HPChange	-306.00	0.00	abs	12000	2	-306.00	Flèche empoisonnée	190400	Archer
-600924	HPChange	-422.00	0.00	abs	12000	2	-422.00	Flèche empoisonnée	190500	Archer
-600925	HPChange	-583.00	0.00	abs	12000	2	-583.00	Flèche empoisonnée	190600	Archer
-600926	HPChange	-813.00	0.00	abs	12000	2	-813.00	Flèche empoisonnée	190700	Archer
-600926	HPChange	-813.00	0.00	abs	12000	2	-813.00	Flèche empoisonnée	191000	Archer
-600926	HPChange	-813.00	0.00	abs	12000	2	-813.00	Flèche empoisonnée	191100	Archer
-600927	HPChange	-1078.00	0.00	abs	12000	2	-1078.00	Flèche empoisonnée	190800	Archer
-600928	HPChange	-1427.00	0.00	abs	12000	2	-1427.00	Flèche empoisonnée	190900	Archer
-601000	ASpd	0.00	0.00	perc	4000	0	0.85	Flèche d'entrave	200100	Archer
-601001	ASpd	0.00	0.00	perc	5000	0	0.85	Flèche d'entrave	200200	Archer
-601100	Power	0.00	0.00	abs	0	0	30.00	Œil de faucon I	210100	Archer
-601100	ASpd	0.00	0.00	abs	0	0	4.00	Œil de faucon I	210100	Archer
-601101	Power	0.00	0.00	abs	0	0	30.00	Œil de faucon II	210200	Archer
-601101	ASpd	0.00	0.00	abs	0	0	8.00	Œil de faucon II	210200	Archer
-601110	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle I	280100	Archer
-601110	Endurance	0.00	0.00	abs	0	0	4.00	Œil d'aigle I	280100	Archer
-601110	ASpd	0.00	0.00	abs	0	0	4.00	Œil d'aigle I	280100	Archer
-601111	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle II	280200	Archer
-601111	Endurance	0.00	0.00	abs	0	0	8.00	Œil d'aigle II	280200	Archer
-601111	ASpd	0.00	0.00	abs	0	0	8.00	Œil d'aigle II	280200	Archer
-700200	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles I	150100	Mystic
-700201	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles II	150200	Mystic
-700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles III	150300	Mystic
-700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles III	150500	Mystic
-700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles III	150600	Mystic
-700203	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inflexibilité IV	150400	Mystic
-700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des tenaces	160100	Mystic
-700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des tenaces	160300	Mystic
-700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des tenaces	160400	Mystic
-700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des tenaces	160500	Mystic
+600920	HPChange	-232.00	0.00	abs	12000	2	-232.00	Flèche empoisonnée		
+600921	HPChange	-160.00	0.00	abs	12000	2	-160.00	Flèche empoisonnée		
+600922	HPChange	-221.00	0.00	abs	12000	2	-221.00	Flèche empoisonnée		
+600923	HPChange	-306.00	0.00	abs	12000	2	-306.00	Flèche empoisonnée		
+600924	HPChange	-422.00	0.00	abs	12000	2	-422.00	Flèche empoisonnée		
+600925	HPChange	-583.00	0.00	abs	12000	2	-583.00	Flèche empoisonnée		
+600926	HPChange	-813.00	0.00	abs	12000	2	-813.00	Flèche empoisonnée		
+600927	HPChange	-1078.00	0.00	abs	12000	2	-1078.00	Flèche empoisonnée		
+600928	HPChange	-1427.00	0.00	abs	12000	2	-1427.00	Flèche empoisonnée		
+601000	ASpd	0.00	0.00	perc	4000	0	0.85	Flèche d'entrave		
+601001	ASpd	0.00	0.00	perc	5000	0	0.85	Flèche d'entrave		
+601100	Power	0.00	0.00	abs	0	0	30.00	Œil de faucon I		
+601100	ASpd	0.00	0.00	abs	0	0	4.00	Œil de faucon I		
+601101	Power	0.00	0.00	abs	0	0	30.00	Œil de faucon II		
+601101	ASpd	0.00	0.00	abs	0	0	8.00	Œil de faucon II		
+601110	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle I		
+601110	Endurance	0.00	0.00	abs	0	0	4.00	Œil d'aigle I		
+601110	ASpd	0.00	0.00	abs	0	0	4.00	Œil d'aigle I		
+601111	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle II		
+601111	Endurance	0.00	0.00	abs	0	0	8.00	Œil d'aigle II		
+601111	ASpd	0.00	0.00	abs	0	0	8.00	Œil d'aigle II		
+700200	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles I		
+700201	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles II		
+700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles III		
+700203	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inflexibilité IV		
+700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des tenaces		
 700330	MPChange	0.00	20.00	abs	0	1	20.00	Aura des tenaces		
-700400	HPChange	43.00	0.00	abs	10000	1	43.00	Faveur du titan I	50110	Mystic
-700401	HPChange	54.00	0.00	abs	10000	1	54.00	Faveur du titan II	50210	Mystic
-700402	HPChange	66.00	0.00	abs	10000	1	66.00	Faveur du titan III	50310	Mystic
-700403	HPChange	79.00	0.00	abs	10000	1	79.00	Faveur du titan IV	50410	Mystic
-700404	HPChange	89.00	0.00	abs	10000	1	89.00	Faveur du titan V	50510	Mystic
-700405	HPChange	97.00	0.00	abs	10000	1	97.00	Faveur du titan VI	50610	Mystic
-700406	HPChange	101.00	0.00	abs	10000	1	101.00	Faveur du titan VII	50710	Mystic
-700407	HPChange	105.00	0.00	abs	10000	1	105.00	Faveur du titan VIII	50810	Mystic
-700408	HPChange	109.00	0.00	abs	10000	1	109.00	Faveur du titan IX	50910	Mystic
-700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence I	130100	Mystic
-700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence I	130300	Mystic
-700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence I	130400	Mystic
-700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence I	130500	Mystic
-700601	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des impitoyables II	130200	Mystic
+700400	HPChange	43.00	0.00	abs	10000	1	43.00	Faveur du titan I		
+700401	HPChange	54.00	0.00	abs	10000	1	54.00	Faveur du titan II		
+700402	HPChange	66.00	0.00	abs	10000	1	66.00	Faveur du titan III		
+700403	HPChange	79.00	0.00	abs	10000	1	79.00	Faveur du titan IV		
+700404	HPChange	89.00	0.00	abs	10000	1	89.00	Faveur du titan V		
+700405	HPChange	97.00	0.00	abs	10000	1	97.00	Faveur du titan VI		
+700406	HPChange	101.00	0.00	abs	10000	1	101.00	Faveur du titan VII		
+700407	HPChange	105.00	0.00	abs	10000	1	105.00	Faveur du titan VIII		
+700408	HPChange	109.00	0.00	abs	10000	1	109.00	Faveur du titan IX		
+700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence I		
+700601	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des impitoyables II		
 700630	Crit	0.00	0.00	perc	0	0	2.00	Aura d'inclémence I		
 700631	Crit	0.00	0.00	perc	0	0	2.10	Aura des impitoyables II		
-700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité I	140100	Mystic
-700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité I	140300	Mystic
-700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité I	140400	Mystic
-700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité I	140500	Mystic
-700701	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité II - Libération	140200	Mystic
-700800	HPChange	-62.00	0.00	abs	10000	2	-62.00	Volée de malédictions	240100	Mystic
-700800	HPChange	-62.00	0.00	abs	10000	2	-62.00	Volée de malédictions	240110	Mystic
-700801	HPChange	-96.00	0.00	abs	10000	2	-96.00	Volée de malédictions	240200	Mystic
-700801	HPChange	-96.00	0.00	abs	10000	2	-96.00	Volée de malédictions	240210	Mystic
-700802	HPChange	-138.00	0.00	abs	10000	2	-138.00	Volée de malédictions	240300	Mystic
-700802	HPChange	-138.00	0.00	abs	10000	2	-138.00	Volée de malédictions	240310	Mystic
-700803	HPChange	-205.00	0.00	abs	10000	2	-205.00	Volée de malédictions	240400	Mystic
-700803	HPChange	-205.00	0.00	abs	10000	2	-205.00	Volée de malédictions	240410	Mystic
-700804	HPChange	-289.00	0.00	abs	10000	2	-289.00	Volée de malédictions	240500	Mystic
-700804	HPChange	-289.00	0.00	abs	10000	2	-289.00	Volée de malédictions	240510	Mystic
-700805	HPChange	-417.00	0.00	abs	10000	2	-417.00	Volée de malédictions	240600	Mystic
-700805	HPChange	-417.00	0.00	abs	10000	2	-417.00	Volée de malédictions	240610	Mystic
-700806	HPChange	-578.00	0.00	abs	10000	2	-578.00	Volée de malédictions	240700	Mystic
-700806	HPChange	-578.00	0.00	abs	10000	2	-578.00	Volée de malédictions	240710	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	240800	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	240810	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	240900	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	241000	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	241100	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	241110	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	241200	Mystic
-700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions	241210	Mystic
-700808	HPChange	-1238.00	0.00	abs	10000	2	-1238.00	Volée de malédictions	240910	Mystic
-700820	HPChange	-63.00	0.00	abs	10000	2	-63.00	Volée de malédictions	240110	Mystic
-700821	HPChange	-86.00	0.00	abs	10000	2	-86.00	Volée de malédictions	240210	Mystic
-700822	HPChange	-133.00	0.00	abs	10000	2	-133.00	Volée de malédictions	240310	Mystic
-700823	HPChange	-191.00	0.00	abs	10000	2	-191.00	Volée de malédictions	240410	Mystic
-700824	HPChange	-283.00	0.00	abs	10000	2	-283.00	Volée de malédictions	240510	Mystic
-700825	HPChange	-399.00	0.00	abs	10000	2	-399.00	Volée de malédictions	240610	Mystic
-700826	HPChange	-576.00	0.00	abs	10000	2	-576.00	Volée de malédictions	240710	Mystic
-700827	HPChange	-802.00	0.00	abs	10000	2	-802.00	Volée de malédictions	240810	Mystic
-700827	HPChange	-802.00	0.00	abs	10000	2	-802.00	Volée de malédictions	241110	Mystic
-700827	HPChange	-802.00	0.00	abs	10000	2	-802.00	Volée de malédictions	241210	Mystic
-700828	HPChange	-1212.00	0.00	abs	10000	2	-1212.00	Volée de malédictions	240910	Mystic
-700900	MPChange	0.00	100.00	abs	20000	1	100.00	Infusion de mana	70100	Mystic
+700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité I		
+700701	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité II - Libération		
+700800	HPChange	-62.00	0.00	abs	10000	2	-62.00	Volée de malédictions		
+700801	HPChange	-96.00	0.00	abs	10000	2	-96.00	Volée de malédictions		
+700802	HPChange	-138.00	0.00	abs	10000	2	-138.00	Volée de malédictions		
+700803	HPChange	-205.00	0.00	abs	10000	2	-205.00	Volée de malédictions		
+700804	HPChange	-289.00	0.00	abs	10000	2	-289.00	Volée de malédictions		
+700805	HPChange	-417.00	0.00	abs	10000	2	-417.00	Volée de malédictions		
+700806	HPChange	-578.00	0.00	abs	10000	2	-578.00	Volée de malédictions		
+700807	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions		
+700808	HPChange	-1238.00	0.00	abs	10000	2	-1238.00	Volée de malédictions		
+700820	HPChange	-63.00	0.00	abs	10000	2	-63.00	Volée de malédictions		
+700821	HPChange	-86.00	0.00	abs	10000	2	-86.00	Volée de malédictions		
+700822	HPChange	-133.00	0.00	abs	10000	2	-133.00	Volée de malédictions		
+700823	HPChange	-191.00	0.00	abs	10000	2	-191.00	Volée de malédictions		
+700824	HPChange	-283.00	0.00	abs	10000	2	-283.00	Volée de malédictions		
+700825	HPChange	-399.00	0.00	abs	10000	2	-399.00	Volée de malédictions		
+700826	HPChange	-576.00	0.00	abs	10000	2	-576.00	Volée de malédictions		
+700827	HPChange	-802.00	0.00	abs	10000	2	-802.00	Volée de malédictions		
+700828	HPChange	-1212.00	0.00	abs	10000	2	-1212.00	Volée de malédictions		
+700900	MPChange	0.00	100.00	abs	20000	1	100.00	Infusion de mana		
 701000	HPChange	70.00	0.00	abs	10000	2	70.00	Grâce de l'esprit I		
 701001	HPChange	88.00	0.00	abs	10000	2	88.00	Grâce de l'esprit II		
 701002	HPChange	109.00	0.00	abs	10000	2	109.00	Grâce de l'esprit III		
@@ -1256,33 +1298,27 @@
 701010	HPChange	614.00	0.00	abs	10000	2	614.00	Grâce de l'esprit XI		
 701011	HPChange	769.00	0.00	abs	10000	2	769.00	Grâce de l'esprit XII		
 701012	HPChange	914.00	0.00	abs	10000	2	914.00	Grâce de l'esprit XIII		
-701200	CDR	0.00	0.00	perc	6000	0	1.20	Malédiction d'épuisement	300110	Mystic
-701201	CDR	0.00	0.00	perc	8000	0	1.20	Malédiction d'épuisement	300210	Mystic
-701201	CDR	0.00	0.00	perc	8000	0	1.20	Malédiction d'épuisement	300410	Mystic
-701201	CDR	0.00	0.00	perc	8000	0	1.20	Malédiction d'épuisement	300510	Mystic
-701201	CDR	0.00	0.00	perc	8000	0	1.20	Malédiction d'épuisement	300610	Mystic
-701202	CDR	0.00	0.00	perc	10000	0	1.20	Malédiction d'épuisement	300310	Mystic
-701500	HPChange	187.00	0.00	abs	5000	1	187.00	Vie d'Arun I		
-701501	HPChange	247.00	0.00	abs	5000	1	247.00	Vie d'Arun II		
-701502	HPChange	344.00	0.00	abs	5000	1	344.00	Vie d'Arun III		
-701503	HPChange	476.00	0.00	abs	5000	1	476.00	Vie d'Arun IV		
-701504	HPChange	659.00	0.00	abs	5000	1	659.00	Vie d'Arun V		
-701505	HPChange	912.00	0.00	abs	5000	1	912.00	Vie d'Arun VI		
-701506	HPChange	1259.00	0.00	abs	5000	1	1259.00	Vie d'Arun VII		
-701507	HPChange	1739.00	0.00	abs	5000	1	1739.00	Vie d'Arun VIII		
-701508	HPChange	2401.00	0.00	abs	5000	1	2401.00	Vie d'Arun IX		
-701509	HPChange	3319.00	0.00	abs	5000	1	3319.00	Vie d'Arun X		
-701510	HPChange	4917.00	0.00	abs	5000	1	4917.00	Vie d'Arun XI		
+701200	CDR	0.00	0.00	perc	6000	0	1.20	Malédiction d'épuisement		
+701201	CDR	0.00	0.00	perc	8000	0	1.20	Malédiction d'épuisement		
+701202	CDR	0.00	0.00	perc	10000	0	1.20	Malédiction d'épuisement		
+701500	HPChange	187.00	0.00	abs	5000	1	187.00	Vie d'Arun I	8008	Graine de Vie d'Arun I
+701501	HPChange	247.00	0.00	abs	5000	1	247.00	Vie d'Arun II	8009	Graine de Vie d'Arun II
+701502	HPChange	344.00	0.00	abs	5000	1	344.00	Vie d'Arun III	8010	Graine de Vie d'Arun III
+701503	HPChange	476.00	0.00	abs	5000	1	476.00	Vie d'Arun IV	8011	Graine de Vie d'Arun IV
+701504	HPChange	659.00	0.00	abs	5000	1	659.00	Vie d'Arun V	8012	Graine de Vie d'Arun V
+701505	HPChange	912.00	0.00	abs	5000	1	912.00	Vie d'Arun VI	8013	Graine de Vie d'Arun VI
+701506	HPChange	1259.00	0.00	abs	5000	1	1259.00	Vie d'Arun VII	8014	Graine de Vie d'Arun VII
+701507	HPChange	1739.00	0.00	abs	5000	1	1739.00	Vie d'Arun VIII	8015	Graine de Vie d'Arun VIII
+701508	HPChange	2401.00	0.00	abs	5000	1	2401.00	Vie d'Arun IX	8016	Graine de Vie d'Arun IX
+701509	HPChange	3319.00	0.00	abs	5000	1	3319.00	Vie d'Arun X	8017	Graine de Vie d'Arun X
+701510	HPChange	4917.00	0.00	abs	5000	1	4917.00	Vie d'Arun XI	8018	Graine de Vie d'Arun XI
 701511	HPChange	3319.00	0.00	abs	5000	1	3319.00	Vie d'Arun XII		
 701601	ASpd	0.00	0.00	perc	3000	0	0.90	Totem d'hébétude		
 701602	ASpd	0.00	0.00	perc	3000	0	1.05	Totem de vitesse		
 701605	HPChange	529.00	0.00	abs	15000	2	529.00	Totem de protection I		
 701607	HPChange	700.00	0.00	abs	15000	2	700.00	Totem de protection II		
-701700	Endurance	0.00	0.00	perc	20000	0	0.95	Infection	410110	Mystic
-701700	Endurance	0.00	0.00	perc	20000	0	0.95	Infection	390300	Priest
-701700	Endurance	0.00	0.00	perc	20000	0	0.95	Infection	390400	Priest
-701700	Endurance	0.00	0.00	perc	20000	0	0.95	Infection	390500	Priest
-701701	Endurance	0.00	0.00	perc	20000	0	0.95	Infection	410110	Mystic
+701700	Endurance	0.00	0.00	perc	20000	0	0.95	Infection		
+701701	Endurance	0.00	0.00	perc	20000	0	0.95	Infection		
 701800	HPChange	-15086.00	0.00	abs	5000	1	-15086.00	Affliction		
 701801	HPChange	-1953.00	0.00	abs	5000	1	-1953.00	Affliction		
 757002	ASpd	0.00	0.00	perc	0	0	1.00	Pierre de feu		
@@ -1337,89 +1373,75 @@
 777034	Power	0.00	0.00	perc	70000	0	1.25	Malédiction de Demokron		
 777034	HPChange	-0.01	0.00	perc	70000	1	-0.01	Malédiction de Demokron		
 777037	Block	0.00	0.00	seta	30000	0	0.00	Insigne demokron		
-800100	HPChange	88.00	0.00	abs	10000	2	88.00	Cercle de régénération I	20100	Priest
-800101	HPChange	111.00	0.00	abs	10000	2	111.00	Cercle de régénération II	20200	Priest
-800102	HPChange	136.00	0.00	abs	10000	2	136.00	Cercle de régénération III	20300	Priest
-800103	HPChange	161.00	0.00	abs	10000	2	161.00	Cercle de régénération IV	20400	Priest
-800104	HPChange	182.00	0.00	abs	10000	2	182.00	Cercle de régénération V	20500	Priest
-800105	HPChange	198.00	0.00	abs	10000	2	198.00	Cercle de régénération VI	20600	Priest
-800106	HPChange	208.00	0.00	abs	10000	2	208.00	Cercle de régénération VII	20700	Priest
-800107	HPChange	214.00	0.00	abs	10000	2	214.00	Cercle de régénération VIII	20800	Priest
-800108	HPChange	220.00	0.00	abs	10000	2	220.00	Cercle de régénération IX	20900	Priest
-800200	MPChange	0.00	100.00	abs	20000	1	100.00	Infusion de mana	80100	Priest
-800500	Endurance	0.00	0.00	abs	900000	0	6.00	Bénédiction de Seren I	200100	Priest
-800501	Endurance	0.00	0.00	abs	900000	0	11.00	Bénédiction de Seren II	200200	Priest
-800600	HPChange	55.00	0.00	abs	900000	2	55.00	Bénédiction de Balder I	230100	Priest
-800601	HPChange	62.00	0.00	abs	900000	2	62.00	Bénédiction de Balder II	230200	Priest
-800602	HPChange	67.00	0.00	abs	900000	2	67.00	Bénédiction de Balder III	230300	Priest
-800603	HPChange	71.00	0.00	abs	900000	2	71.00	Bénédiction de Balder IV	230400	Priest
-800604	HPChange	73.00	0.00	abs	900000	2	73.00	Bénédiction de Balder V	230500	Priest
-800900	HPChange	-136.00	0.00	abs	15000	3	-136.00	Fléau d'épuisement	300110	Priest
-800901	HPChange	-193.00	0.00	abs	15000	3	-193.00	Fléau d'épuisement II	300210	Priest
-800902	HPChange	-284.00	0.00	abs	15000	3	-284.00	Fléau d'épuisement III	300310	Priest
-800903	HPChange	-410.00	0.00	abs	15000	3	-410.00	Fléau d'épuisement IV	300410	Priest
-800904	HPChange	-569.00	0.00	abs	15000	3	-569.00	Fléau d'épuisement V	300510	Priest
-800905	HPChange	-786.00	0.00	abs	15000	3	-786.00	Fléau d'épuisement VI	300610	Priest
-800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Fléau d'épuisement VII	300710	Priest
-800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Fléau d'épuisement VII	300910	Priest
-800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Fléau d'épuisement VII	301010	Priest
-800907	HPChange	-1518.00	0.00	abs	15000	3	-1518.00	Fléau d'épuisement VIII	300810	Priest
-800920	HPChange	-116.00	0.00	abs	15000	3	-116.00	Fléau d'épuisement	300110	Priest
-800920	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement	300110	Priest
-800921	HPChange	-161.00	0.00	abs	15000	3	-161.00	Fléau d'épuisement II	300210	Priest
-800921	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement II	300210	Priest
-800922	HPChange	-222.00	0.00	abs	15000	3	-222.00	Fléau d'épuisement III	300310	Priest
-800922	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement III	300310	Priest
-800923	HPChange	-307.00	0.00	abs	15000	3	-307.00	Fléau d'épuisement IV	300410	Priest
-800923	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement IV	300410	Priest
-800924	HPChange	-423.00	0.00	abs	15000	3	-423.00	Fléau d'épuisement V	300510	Priest
-800924	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement V	300510	Priest
-800925	HPChange	-585.00	0.00	abs	15000	3	-585.00	Fléau d'épuisement VI	300610	Priest
-800925	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VI	300610	Priest
-800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Fléau d'épuisement VII	300710	Priest
-800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Fléau d'épuisement VII	300910	Priest
-800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Fléau d'épuisement VII	301010	Priest
-800926	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VII	300710	Priest
-800926	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VII	300910	Priest
-800926	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VII	301010	Priest
-800927	HPChange	-1086.00	0.00	abs	15000	3	-1086.00	Fléau d'épuisement VIII	300810	Priest
-800927	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VIII	300810	Priest
-801000	DefPotion	0.00	0.00	perc	5000	0	0.70	Sanctuaire du gardien I	310100	Priest
-801001	DefPotion	0.00	0.00	perc	10000	0	0.70	Sanctuaire du gardien II	310200	Priest
-801100	HPChange	0.02	0.00	perc	10000	1	0.02	Repos divin I	320100	Priest
-801101	HPChange	0.02	0.00	perc	10000	1	0.02	Repos divin II	320200	Priest
-801400	HPChange	136.00	0.00	abs	5000	1	136.00	Poussée restauratrice I	340120	Priest
-801401	HPChange	181.00	0.00	abs	5000	1	181.00	Poussée restauratrice II	340220	Priest
-801402	HPChange	235.00	0.00	abs	5000	1	235.00	Poussée restauratrice III	340320	Priest
-801403	HPChange	298.00	0.00	abs	5000	1	298.00	Poussée restauratrice IV	340420	Priest
-801404	HPChange	366.00	0.00	abs	5000	1	366.00	Poussée restauratrice V	340520	Priest
-801405	HPChange	431.00	0.00	abs	5000	1	431.00	Poussée restauratrice VI	340620	Priest
-801406	HPChange	489.00	0.00	abs	5000	1	489.00	Poussée restauratrice VII	340720	Priest
-801407	HPChange	533.00	0.00	abs	5000	1	533.00	Poussée restauratrice VIII	340820	Priest
-801408	HPChange	559.00	0.00	abs	5000	1	559.00	Poussée restauratrice IX	340920	Priest
-801409	HPChange	575.00	0.00	abs	5000	1	575.00	Poussée restauratrice X	341020	Priest
-801409	HPChange	575.00	0.00	abs	5000	1	575.00	Poussée restauratrice X	341320	Priest
-801409	HPChange	575.00	0.00	abs	5000	1	575.00	Poussée restauratrice X	341420	Priest
-801410	HPChange	588.00	0.00	abs	5000	1	588.00	Poussée restauratrice XI	341120	Priest
-801500	Power	0.00	0.00	abs	20000	0	20.00	Étoiles énergétiques I	350110	Priest
-801500	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques I	350110	Priest
-801501	Power	0.00	0.00	abs	20000	0	28.00	Étoiles énergétiques II	350210	Priest
-801501	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques II	350210	Priest
-801502	Power	0.00	0.00	abs	20000	0	36.00	Étoiles énergétiques III	350310	Priest
-801502	Power	0.00	0.00	abs	20000	0	36.00	Étoiles énergétiques III	350510	Priest
-801502	Power	0.00	0.00	abs	20000	0	36.00	Étoiles énergétiques III	350610	Priest
-801502	Power	0.00	0.00	abs	20000	0	36.00	Étoiles énergétiques III	350710	Priest
-801502	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques III	350310	Priest
-801502	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques III	350510	Priest
-801502	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques III	350610	Priest
-801502	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques III	350710	Priest
-801503	Power	0.00	0.00	abs	20000	0	40.00	Etoiles énergétiques IV	350410	Priest
-801503	ASpd	0.00	0.00	abs	20000	0	8.00	Etoiles énergétiques IV	350410	Priest
+800100	HPChange	88.00	0.00	abs	10000	2	88.00	Cercle de régénération I		
+800101	HPChange	111.00	0.00	abs	10000	2	111.00	Cercle de régénération II		
+800102	HPChange	136.00	0.00	abs	10000	2	136.00	Cercle de régénération III		
+800103	HPChange	161.00	0.00	abs	10000	2	161.00	Cercle de régénération IV		
+800104	HPChange	182.00	0.00	abs	10000	2	182.00	Cercle de régénération V		
+800105	HPChange	198.00	0.00	abs	10000	2	198.00	Cercle de régénération VI		
+800106	HPChange	208.00	0.00	abs	10000	2	208.00	Cercle de régénération VII		
+800107	HPChange	214.00	0.00	abs	10000	2	214.00	Cercle de régénération VIII		
+800108	HPChange	220.00	0.00	abs	10000	2	220.00	Cercle de régénération IX		
+800200	MPChange	0.00	100.00	abs	20000	1	100.00	Infusion de mana		
+800500	Endurance	0.00	0.00	abs	900000	0	6.00	Bénédiction de Seren I		
+800501	Endurance	0.00	0.00	abs	900000	0	11.00	Bénédiction de Seren II		
+800600	HPChange	55.00	0.00	abs	900000	2	55.00	Bénédiction de Balder I		
+800601	HPChange	62.00	0.00	abs	900000	2	62.00	Bénédiction de Balder II		
+800602	HPChange	67.00	0.00	abs	900000	2	67.00	Bénédiction de Balder III		
+800603	HPChange	71.00	0.00	abs	900000	2	71.00	Bénédiction de Balder IV		
+800604	HPChange	73.00	0.00	abs	900000	2	73.00	Bénédiction de Balder V		
+800900	HPChange	-136.00	0.00	abs	15000	3	-136.00	Fléau d'épuisement		
+800901	HPChange	-193.00	0.00	abs	15000	3	-193.00	Fléau d'épuisement II		
+800902	HPChange	-284.00	0.00	abs	15000	3	-284.00	Fléau d'épuisement III		
+800903	HPChange	-410.00	0.00	abs	15000	3	-410.00	Fléau d'épuisement IV		
+800904	HPChange	-569.00	0.00	abs	15000	3	-569.00	Fléau d'épuisement V		
+800905	HPChange	-786.00	0.00	abs	15000	3	-786.00	Fléau d'épuisement VI		
+800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Fléau d'épuisement VII		
+800907	HPChange	-1518.00	0.00	abs	15000	3	-1518.00	Fléau d'épuisement VIII		
+800920	HPChange	-116.00	0.00	abs	15000	3	-116.00	Fléau d'épuisement		
+800920	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement		
+800921	HPChange	-161.00	0.00	abs	15000	3	-161.00	Fléau d'épuisement II		
+800921	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement II		
+800922	HPChange	-222.00	0.00	abs	15000	3	-222.00	Fléau d'épuisement III		
+800922	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement III		
+800923	HPChange	-307.00	0.00	abs	15000	3	-307.00	Fléau d'épuisement IV		
+800923	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement IV		
+800924	HPChange	-423.00	0.00	abs	15000	3	-423.00	Fléau d'épuisement V		
+800924	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement V		
+800925	HPChange	-585.00	0.00	abs	15000	3	-585.00	Fléau d'épuisement VI		
+800925	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VI		
+800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Fléau d'épuisement VII		
+800926	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VII		
+800927	HPChange	-1086.00	0.00	abs	15000	3	-1086.00	Fléau d'épuisement VIII		
+800927	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VIII		
+801000	DefPotion	0.00	0.00	perc	5000	0	0.70	Sanctuaire du gardien I		
+801001	DefPotion	0.00	0.00	perc	10000	0	0.70	Sanctuaire du gardien II		
+801100	HPChange	0.02	0.00	perc	10000	1	0.02	Repos divin I		
+801101	HPChange	0.02	0.00	perc	10000	1	0.02	Repos divin II		
+801400	HPChange	136.00	0.00	abs	5000	1	136.00	Poussée restauratrice I		
+801401	HPChange	181.00	0.00	abs	5000	1	181.00	Poussée restauratrice II		
+801402	HPChange	235.00	0.00	abs	5000	1	235.00	Poussée restauratrice III		
+801403	HPChange	298.00	0.00	abs	5000	1	298.00	Poussée restauratrice IV		
+801404	HPChange	366.00	0.00	abs	5000	1	366.00	Poussée restauratrice V		
+801405	HPChange	431.00	0.00	abs	5000	1	431.00	Poussée restauratrice VI		
+801406	HPChange	489.00	0.00	abs	5000	1	489.00	Poussée restauratrice VII		
+801407	HPChange	533.00	0.00	abs	5000	1	533.00	Poussée restauratrice VIII		
+801408	HPChange	559.00	0.00	abs	5000	1	559.00	Poussée restauratrice IX		
+801409	HPChange	575.00	0.00	abs	5000	1	575.00	Poussée restauratrice X		
+801410	HPChange	588.00	0.00	abs	5000	1	588.00	Poussée restauratrice XI		
+801500	Power	0.00	0.00	abs	20000	0	20.00	Étoiles énergétiques I		
+801500	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques I		
+801501	Power	0.00	0.00	abs	20000	0	28.00	Étoiles énergétiques II		
+801501	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques II		
+801502	Power	0.00	0.00	abs	20000	0	36.00	Étoiles énergétiques III		
+801502	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques III		
+801503	Power	0.00	0.00	abs	20000	0	40.00	Etoiles énergétiques IV		
+801503	ASpd	0.00	0.00	abs	20000	0	8.00	Etoiles énergétiques IV		
 801600	HPChange	562.00	0.00	abs	3000	1	562.00	Concentration de soins I		
 801601	HPChange	564.00	0.00	abs	3000	1	564.00	Concentration de soins II		
-801800	MPChange	0.00	0.04	perc	1000	1	0.04	Charge de mana	280110	Priest
-801801	MPChange	0.00	0.10	perc	1000	1	0.10	Charge de mana	280111	Priest
-801802	MPChange	0.00	0.20	perc	1000	1	0.20	Charge de mana	280112	Priest
+801800	MPChange	0.00	0.04	perc	1000	1	0.04	Charge de mana		
+801801	MPChange	0.00	0.10	perc	1000	1	0.10	Charge de mana		
+801802	MPChange	0.00	0.20	perc	1000	1	0.20	Charge de mana		
 808105	Power	0.00	0.00	abs	0	0	100.00	Frénésie sanguinaire		
 808105	ASpd	0.00	0.00	abs	0	0	100.00	Frénésie sanguinaire		
 808106	Power	0.00	0.00	swch	0	0	0.00	Premier choix		
@@ -1469,6 +1491,7 @@
 905653	Endurance	0.00	0.00	perc	0	0	2.00	Le Monde		
 905653	ASpd	0.00	0.00	perc	0	0	1.20	Le Monde		
 905661	HPChange	0.03	0.00	perc	90000	5	0.03	Le Soleil		
+905661	StaminaDecay	0.00	0.00	swch	90000	0	0.00	Le Soleil		
 905662	MPChange	0.00	1.00	perc	90000	15	1.00	Les Ténèbres		
 905663	Endurance	0.00	0.00	perc	90000	0	1.20	Le Monde		
 905669	Power	0.00	0.00	perc	30000	0	2.00	Puissance du lumineux		
@@ -1513,6 +1536,7 @@
 975653	Power	0.00	0.00	perc	0	0	1.10	Poids du monde		
 975653	Endurance	0.00	0.00	perc	0	0	1.25	Poids du monde		
 975661	HPChange	0.03	0.00	perc	90000	5	0.03	Lumière du soleil		
+975661	StaminaDecay	0.00	0.00	swch	90000	0	0.00	Lumière du soleil		
 975662	MPChange	0.00	1.00	perc	90000	15	1.00	Ténèbres de la nuit		
 975663	Endurance	0.00	0.00	perc	90000	0	1.05	Poids du monde		
 988514	Endurance	0.00	0.00	perc	0	1	1.05	Mineur de force		
@@ -1554,12 +1578,56 @@
 3000011	HPChange	0.01	0.00	perc	0	1	0.01	TW 백사자 소환		
 3000011	MPChange	0.00	0.01	perc	0	1	0.01	TW 백사자 소환		
 4510015	AtkPotion	0.00	0.00	perc	60000	0	1.03	Mélodie courageuse		
-5010000	HPChange	0.03	0.00	perc	30000	1	0.03	환영의 회복 포션		
-7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME		
-7777015	CDR	0.00	0.00	perc	1800000	0	0.80	T.E.R.A TIME		
-8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia		
-8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia		
-8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia		
+5010000	HPChange	0.03	0.00	perc	30000	1	0.03	환영의 회복 포션	101305	환영의 회복 포션
+7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME	150939	Potion d'accélération au combat
+7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME	150940	Potion d'accélération au combat
+7777015	CDR	0.00	0.00	perc	1800000	0	0.80	T.E.R.A TIME	150939	Potion d'accélération au combat
+7777015	CDR	0.00	0.00	perc	1800000	0	0.80	T.E.R.A TIME	150940	Potion d'accélération au combat
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	100689	카이아의 성수 I
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	100690	카이아의 성수 II
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	139100	Dévouement de Kaia I
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	139101	Dévouement de Kaia II
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	166586	Dévouement de Kaia I
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	166587	Dévouement de Kaia II
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	166697	Dévouement de Kaia I
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	166698	Dévouement de Kaia II
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	200525	Ravitaillement de la Fédération : Dévouement de Kaia I
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	200526	Ravitaillement de la Fédération : Dévouement de Kaia II
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	212777	카이아의 성수 I
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	212778	카이아의 성수 II
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	212779	카이아의 성수 I
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	212780	카이아의 성수 II
+8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Dévouement de Kaia	213346	[이벤트] 카이아의 성수 II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	100689	카이아의 성수 I
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	100690	카이아의 성수 II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	139100	Dévouement de Kaia I
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	139101	Dévouement de Kaia II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	166586	Dévouement de Kaia I
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	166587	Dévouement de Kaia II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	166697	Dévouement de Kaia I
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	166698	Dévouement de Kaia II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	200525	Ravitaillement de la Fédération : Dévouement de Kaia I
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	200526	Ravitaillement de la Fédération : Dévouement de Kaia II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	212777	카이아의 성수 I
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	212778	카이아의 성수 II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	212779	카이아의 성수 I
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	212780	카이아의 성수 II
+8000077	DefPotion	0.00	0.00	perc	1800000	0	0.90	Dévouement de Kaia	213346	[이벤트] 카이아의 성수 II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	100689	카이아의 성수 I
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	100690	카이아의 성수 II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	139100	Dévouement de Kaia I
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	139101	Dévouement de Kaia II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	166586	Dévouement de Kaia I
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	166587	Dévouement de Kaia II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	166697	Dévouement de Kaia I
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	166698	Dévouement de Kaia II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	200525	Ravitaillement de la Fédération : Dévouement de Kaia I
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	200526	Ravitaillement de la Fédération : Dévouement de Kaia II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	212777	카이아의 성수 I
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	212778	카이아의 성수 II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	212779	카이아의 성수 I
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	212780	카이아의 성수 II
+8000077	AtkPotion	0.00	0.00	perc	1800000	0	1.10	Dévouement de Kaia	213346	[이벤트] 카이아의 성수 II
 8000683	HPChange	0.50	0.00	perc	3000	1	0.50	Anomalie restaurée en entrant. Si cela s'affiche, BTS		
 8000685	HPChange	-0.80	0.00	perc	60000	1	-0.80	La malédiction du bonhomme de neige		
 9100080	MPChange	0.00	0.01	perc	0	2	0.01	Bénédiction de Balder		
@@ -1569,8 +1637,8 @@
 9810012	HPChange	-2300.00	0.00	abs	20000	5	-2300.00	Regard incandescent de Lakan		
 9810013	HPChange	0.00	0.00	abs	15000	5	0.00	Marque des archers		
 9999019	ASpd	0.00	0.00	perc	0	0	1.00	Méli-mélo spatio-temporel		
-10151010	CDR	0.00	0.00	perc	15000	0	0.30	Aura ténébreuse	160100	Reaper
-10151032	HPChange	-3454.00	0.00	abs	10000	2	-3454.00	Câbles ténébreux	130120	Reaper
+10151010	CDR	0.00	0.00	perc	15000	0	0.30	Aura ténébreuse		
+10151032	HPChange	-3454.00	0.00	abs	10000	2	-3454.00	Câbles ténébreux		
 10151070	HPChange	-1015.00	0.00	abs	10000	1	-1015.00	Gibet vaporeux		
 10151074	Endurance	0.00	0.00	perc	30000	0	1.00	Clémence des jurés		
 10151090	DefPotion	0.00	0.00	perc	7000	0	0.50	Voile ténébreux		
@@ -1578,157 +1646,40 @@
 10152061	HPChange	-645.00	0.00	abs	10100	2	-645.00	Surcharge		
 10152113	Power	0.00	0.00	abs	300000	0	0.00	Temps de recharge de Barrière de secours [passive]		
 10152120	Endurance	0.00	0.00	perc	0	0	1.00	Surcharge		
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20102	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20202	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20302	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20402	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20502	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20602	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20702	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20802	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	20902	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	21002	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	21102	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	21202	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40100	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40130	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40200	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40230	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40300	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40330	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40400	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40430	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40500	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40530	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40600	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40630	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40700	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40730	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40800	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40830	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40900	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	40930	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	41000	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	41030	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150100	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150130	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150200	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150230	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150300	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150330	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150400	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150430	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150500	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150530	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150600	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150630	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150700	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150730	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150800	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150830	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150900	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	150930	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	151000	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	151030	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160101	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160102	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160130	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160201	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160202	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160230	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160301	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160302	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160330	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160401	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160402	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160430	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160501	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160502	Brawler
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre	160530	Brawler
-10153040	Power	0.00	0.00	abs	0	0	50.00	Fureur croissante	180101	Brawler
-10153040	Power	0.00	0.00	abs	0	0	50.00	Fureur croissante	180102	Brawler
-10153040	Power	0.00	0.00	abs	0	0	50.00	Fureur croissante	180130	Brawler
-10153040	Crit	0.00	0.00	abs	0	0	50.00	Fureur croissante	180101	Brawler
-10153040	Crit	0.00	0.00	abs	0	0	50.00	Fureur croissante	180102	Brawler
-10153040	Crit	0.00	0.00	abs	0	0	50.00	Fureur croissante	180130	Brawler
-10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Fureur croissante	180101	Brawler
-10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Fureur croissante	180102	Brawler
-10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Fureur croissante	180130	Brawler
-10153040	CDR	0.00	0.00	perc	0	0	0.70	Fureur croissante	180101	Brawler
-10153040	CDR	0.00	0.00	perc	0	0	0.70	Fureur croissante	180102	Brawler
-10153040	CDR	0.00	0.00	perc	0	0	0.70	Fureur croissante	180130	Brawler
-10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Fureur croissante	180101	Brawler
-10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Fureur croissante	180102	Brawler
-10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Fureur croissante	180130	Brawler
+10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre		
+10153040	Power	0.00	0.00	abs	0	0	50.00	Fureur croissante		
+10153040	Crit	0.00	0.00	abs	0	0	50.00	Fureur croissante		
+10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Fureur croissante		
+10153040	CDR	0.00	0.00	perc	0	0	0.70	Fureur croissante		
+10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Fureur croissante		
 10153071	Power	0.00	0.00	abs	300000	0	0.00	Temps de recharge de la Fureur mortelle [passif]		
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90101	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90102	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90130	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90131	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90201	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90202	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90230	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90231	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90301	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90302	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90330	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90331	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90401	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90402	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90430	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90431	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90501	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90502	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90530	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90531	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90601	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90602	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90630	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90631	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90701	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90702	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90730	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90731	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90801	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90802	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90830	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90831	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90901	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90902	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90930	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	90931	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91001	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91002	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91030	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91031	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91101	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91102	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91130	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91131	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91201	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91202	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91230	Brawler
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort	91231	Brawler
-14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblème du succès		
-14400002	Endurance	0.00	0.00	perc	900000	0	1.20	Souvenir glorieux		
-14400002	ASpd	0.00	0.00	perc	900000	0	1.15	Souvenir glorieux		
-14400002	AtkPotion	0.00	0.00	perc	900000	0	1.20	Souvenir glorieux		
-14400003	Endurance	0.00	0.00	perc	900000	0	1.20	Sceau de la flamme inextinguible		
-14400003	ASpd	0.00	0.00	perc	900000	0	1.15	Sceau de la flamme inextinguible		
-14400003	HPChange	0.01	0.00	perc	900000	1	0.01	Sceau de la flamme inextinguible		
-14400003	AtkPotion	0.00	0.00	perc	900000	0	1.20	Sceau de la flamme inextinguible		
-14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Restauration des temps de recharge et des PM		
-14400004	CDR	0.00	0.00	perc	900000	0	0.80	Restauration des temps de recharge et des PM		
+10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort		
+14400001	Stamina	0.00	0.00	abs	900000	0	15.00	Emblème du succès	152903	Emblème du succès
+14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblème du succès	152903	Emblème du succès
+14400001	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Emblème du succès	152903	Emblème du succès
+14400002	Endurance	0.00	0.00	perc	900000	0	1.20	Souvenir glorieux	152904	Souvenir glorieux
+14400002	ASpd	0.00	0.00	perc	900000	0	1.15	Souvenir glorieux	152904	Souvenir glorieux
+14400002	AtkPotion	0.00	0.00	perc	900000	0	1.20	Souvenir glorieux	152904	Souvenir glorieux
+14400003	Endurance	0.00	0.00	perc	900000	0	1.20	Sceau de la flamme inextinguible	152905	Sceau de la flamme inextinguible
+14400003	ASpd	0.00	0.00	perc	900000	0	1.15	Sceau de la flamme inextinguible	152905	Sceau de la flamme inextinguible
+14400003	Stamina	0.00	0.00	abs	900000	0	15.00	Sceau de la flamme inextinguible	152905	Sceau de la flamme inextinguible
+14400003	HPChange	0.01	0.00	perc	900000	1	0.01	Sceau de la flamme inextinguible	152905	Sceau de la flamme inextinguible
+14400003	AtkPotion	0.00	0.00	perc	900000	0	1.20	Sceau de la flamme inextinguible	152905	Sceau de la flamme inextinguible
+14400003	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Sceau de la flamme inextinguible	152905	Sceau de la flamme inextinguible
+14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Restauration des temps de recharge et des PM	152903	Emblème du succès
+14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Restauration des temps de recharge et des PM	152905	Sceau de la flamme inextinguible
+14400004	CDR	0.00	0.00	perc	900000	0	0.80	Restauration des temps de recharge et des PM	152903	Emblème du succès
+14400004	CDR	0.00	0.00	perc	900000	0	0.80	Restauration des temps de recharge et des PM	152905	Sceau de la flamme inextinguible
 16300009	HPChange	0.01	0.00	perc	0	1	0.01	쾌적한 탑승(HP MP 회복)		
 16300009	MPChange	0.00	0.01	perc	0	1	0.01	쾌적한 탑승(HP MP 회복)		
 16300010	MPChange	0.00	0.01	perc	0	1	0.01	안락한 탑승(컨디션 및 MP 회복)		
 16300011	HPChange	0.01	0.00	perc	0	1	0.01	수월한 탑승(컨디션 및 HP 회복)		
 16300012	HPChange	0.01	0.00	perc	0	1	0.01	풍족한 탑승(컨디션 HP MP 회복)		
 16300012	MPChange	0.00	0.01	perc	0	1	0.01	풍족한 탑승(컨디션 HP MP 회복)		
-16300013	ASpd	0.00	0.00	perc	180000	0	1.08	강화 용맹의 물약		
-16300013	DefPotion	0.00	0.00	perc	180000	0	0.85	강화 용맹의 물약		
-16300013	AtkPotion	0.00	0.00	perc	180000	0	1.15	강화 용맹의 물약		
-16300015	AtkPotion	0.00	0.00	perc	60000	0	1.25	파괴의 물약		
+16300013	ASpd	0.00	0.00	perc	180000	0	1.08	강화 용맹의 물약	214191	강화 용맹의 물약
+16300013	DefPotion	0.00	0.00	perc	180000	0	0.85	강화 용맹의 물약	214191	강화 용맹의 물약
+16300013	AtkPotion	0.00	0.00	perc	180000	0	1.15	강화 용맹의 물약	214191	강화 용맹의 물약
+16300015	AtkPotion	0.00	0.00	perc	60000	0	1.25	파괴의 물약	214418	파괴의 물약
 44300002	Endurance	0.00	0.00	perc	11000	0	1.00	Brouillard tullegeais		
 44300003	Power	0.00	0.00	perc	0	0	3.00	Appétit aiguisé		
 44300004	Power	0.00	0.00	perc	20000	0	1.30	Demande du bourreau		
@@ -1763,7 +1714,7 @@
 44300079	Power	0.00	0.00	perc	0	0	3.00	Rage féroce		
 44300079	ASpd	0.00	0.00	perc	0	0	3.00	Rage féroce		
 44300080	HPChange	-0.08	0.00	perc	30000	3	-0.08	Venin de larve		
-44300090	Endurance	0.00	0.00	perc	1800000	0	1.00	Manscant		
+44300090	Endurance	0.00	0.00	perc	1800000	0	1.00	Manscant	70093	Elixir manscant
 44300092	Endurance	0.00	0.00	perc	0	0	1.00	Brouillard tullegeais		
 45000001	Endurance	0.00	0.00	perc	10000	0	0.80	Etreinte florale		
 45000001	HPChange	-0.50	0.00	perc	10000	60	-0.50	Etreinte florale		
@@ -1815,7 +1766,7 @@
 47600300	HPChange	0.03	0.00	perc	10000	1	0.03	Échappée belle		
 47600400	HPChange	-0.08	0.00	perc	15000	3	-0.08	Malédiction de douleur		
 47600500	Block	0.00	0.00	swch	60000	0	0.00	Douleur de l'entrave		
-47600650	Power	0.00	0.00	perc	600000	0	1.00	Potion de volonté		
+47600650	Power	0.00	0.00	perc	600000	0	1.00	Potion de volonté	5126	Potion de volonté
 47610100	Power	0.00	0.00	perc	60000	0	1.30	Bénédiction de Thulsa		
 47610100	Endurance	0.00	0.00	perc	60000	0	1.30	Bénédiction de Thulsa		
 47610100	HPChange	0.00	0.00	perc	60000	1	0.00	Bénédiction de Thulsa		
@@ -1879,6 +1830,7 @@
 47650400	HPChange	0.30	0.00	perc	1000	1	0.30	Soin de la relique		
 47650600	Block	0.00	0.00	swch	10000	0	0.00	Effet de distorsion		
 47650800	HPChange	-0.01	0.00	perc	30000	1	-0.01	Piège d'agonie		
+47651001	StaminaDecay	0.00	0.00	seta	0	0	0.00	Bénédiction de l'Arbre du Chagrin		
 47651003	Power	0.00	0.00	abs	120000	0	80.00	Vigilance d'Anya		
 47651003	Endurance	0.00	0.00	abs	120000	0	10.00	Vigilance d'Anya		
 47651003	ASpd	0.00	0.00	perc	120000	0	1.20	Vigilance d'Anya		
@@ -2531,6 +2483,7 @@
 97502100	Power	0.00	0.00	perc	64800000	0	1.30	Splendeur de Kelsaik		
 97502200	Endurance	0.00	0.00	perc	3600000	0	4.00	Protection de Kelsaik		
 97502700	Block	0.00	0.00	swch	0	0	0.00	Résurrection interdite		
+97502800	StaminaDecay	0.00	0.00	swch	0	0	0.00	Camaraderie de Kaia		
 97503000	DefPotion	0.00	0.00	swch	60000	0	1.10	Courroux divin		
 97503400	Endurance	0.00	0.00	perc	30000	0	0.00	Obus enflammé		
 97503700	DefPotion	0.00	0.00	perc	0	0	0.00	Bouclier divin		
@@ -2671,7 +2624,7 @@
 99001310	HPChange	0.15	0.00	perc	1000	1	0.15	Soin II		
 99001320	HPChange	0.20	0.00	perc	1000	1	0.20	Soin III		
 99001330	HPChange	0.25	0.00	perc	1000	1	0.25	Soin IV		
-99001340	HPChange	0.30	0.00	perc	1000	1	0.30	Soin V		
+99001340	HPChange	0.30	0.00	perc	1000	1	0.30	Soin V	1146	Potion de santé
 99001350	HPChange	0.35	0.00	perc	1000	1	0.35	Soin VI		
 99001360	HPChange	0.40	0.00	perc	1000	1	0.40	Soin VII		
 99001370	HPChange	0.45	0.00	perc	1000	1	0.45	Soin VIII		
@@ -2727,11 +2680,13 @@
 99002900	Power	0.00	0.00	perc	0	0	0.30	Dépérissement d'Akasha		
 99002900	Endurance	0.00	0.00	perc	0	0	0.30	Dépérissement d'Akasha		
 99003000	DefPotion	0.00	0.00	perc	6000	0	0.00	Sceau de noirceur charbonneuse		
+99003500	Stamina	0.00	0.00	abs	1200000	0	5.00	Récupération de courage		
 99003600	HPChange	0.01	0.00	perc	600000	3	0.01	Récupération de vie		
 99003700	MPChange	0.00	0.01	perc	600000	3	0.01	Récupération d'esprit		
 99004500	HPChange	0.50	0.00	perc	1000	1	0.50	Viande de porcidé		
-99004510	HPChange	1312.00	0.00	abs	10000	2	1312.00	Morceau de viande de porcidé		
+99004510	HPChange	1312.00	0.00	abs	10000	2	1312.00	Morceau de viande de porcidé	45352	Porcidé grillé
 99004700	Power	0.00	0.00	perc	600000	0	1.20	Expulseur argon III		
+99004800	Stamina	0.00	0.00	abs	1800000	0	5.00	Essence d'arbre casian		
 99004900	HPChange	-100000000.00	0.00	abs	1000	1	-100000000.00	Bombe de Kanstria		
 99005100	Power	0.00	0.00	perc	10000	0	1.30	Étendard de bataille		
 99005200	Endurance	0.00	0.00	perc	10000	0	1.30	Fortification		
@@ -2774,24 +2729,28 @@
 99070023	ASpd	0.00	0.00	abs	20000	0	0.90	Épuisé		
 990070311	HPChange	0.15	0.00	perc	180000	3	0.15	Bénédiction chaleureuse du sanctuaire		
 990070312	MPChange	0.00	0.15	perc	180000	3	0.15	Bénédiction généreuse du sanctuaire		
+990070313	StaminaDecay	0.00	0.00	seta	180000	0	0.00	Bénédiction infatigable du sanctuaire		
 990070314	ASpd	0.00	0.00	perc	180000	0	1.50	Bénédiction preste du sanctuaire		
 990070316	Crit	0.00	0.00	perc	180000	0	5.00	Bénédiction acérée du sanctuaire		
 990070317	Power	0.00	0.00	perc	180000	0	3.00	Bénédiction puissante du sanctuaire		
 999001013	HPChange	-900.00	0.00	abs	10000	1	-900.00	BTS		
-999001024	Power	0.00	0.00	abs	12000	0	50.00	Equipement de test_Cœur de XX		
-999001024	ASpd	0.00	0.00	perc	12000	0	1.20	Equipement de test_Cœur de XX		
-999001026	Power	0.00	0.00	abs	15000	0	40.00	Pouvoir pompé		
-999001027	Crit	0.00	0.00	abs	15000	0	50.00	Rancune dévorante		
-999001027	ASpd	0.00	0.00	perc	15000	0	1.12	Rancune dévorante		
-999001028	Endurance	0.00	0.00	abs	15000	0	30.00	Capacité maximum		
-999001029	Power	0.00	0.00	abs	15000	0	40.00	Vigueur puissante		
-999001030	Crit	0.00	0.00	abs	15000	0	50.00	Prouesse puissante		
-999001030	ASpd	0.00	0.00	perc	15000	0	1.12	Prouesse puissante		
-999001031	Endurance	0.00	0.00	abs	15000	0	30.00	Ténacité puissante		
-999001032	Power	0.00	0.00	abs	15000	0	25.00	Vigueur		
-999001033	Crit	0.00	0.00	abs	15000	0	30.00	Prouesse		
-999001033	ASpd	0.00	0.00	perc	15000	0	1.07	Prouesse		
-999001034	Endurance	0.00	0.00	abs	15000	0	20.00	Ténacité		
+999001024	Power	0.00	0.00	abs	12000	0	50.00	Equipement de test_Cœur de XX	80271	Accessoire ordinaire
+999001024	ASpd	0.00	0.00	perc	12000	0	1.20	Equipement de test_Cœur de XX	80271	Accessoire ordinaire
+999001026	Power	0.00	0.00	abs	15000	0	40.00	Pouvoir pompé	6469	Broche puissante iridescente
+999001026	Power	0.00	0.00	abs	15000	0	40.00	Pouvoir pompé	91899	Accessoire de niveau supérieur de la mise à jour hivernale : Combattant
+999001027	Crit	0.00	0.00	abs	15000	0	50.00	Rancune dévorante	6472	Broche tranchante iridescente
+999001027	Crit	0.00	0.00	abs	15000	0	50.00	Rancune dévorante	91900	Accessoire de niveau supérieur de la mise à jour hivernale : Soigneur
+999001027	ASpd	0.00	0.00	perc	15000	0	1.12	Rancune dévorante	6472	Broche tranchante iridescente
+999001027	ASpd	0.00	0.00	perc	15000	0	1.12	Rancune dévorante	91900	Accessoire de niveau supérieur de la mise à jour hivernale : Soigneur
+999001028	Endurance	0.00	0.00	abs	15000	0	30.00	Capacité maximum	6466	Broche sinistre irisée
+999001029	Power	0.00	0.00	abs	15000	0	40.00	Vigueur puissante	19703	Broche puissante
+999001030	Crit	0.00	0.00	abs	15000	0	50.00	Prouesse puissante	19706	Broche de prestegravure
+999001030	ASpd	0.00	0.00	perc	15000	0	1.12	Prouesse puissante	19706	Broche de prestegravure
+999001031	Endurance	0.00	0.00	abs	15000	0	30.00	Ténacité puissante	19700	Broche de fondation
+999001032	Power	0.00	0.00	abs	15000	0	25.00	Vigueur	19702	Broche puissante simple
+999001033	Crit	0.00	0.00	abs	15000	0	30.00	Prouesse	19705	Broche de prestegravure simple
+999001033	ASpd	0.00	0.00	perc	15000	0	1.07	Prouesse	19705	Broche de prestegravure simple
+999001034	Endurance	0.00	0.00	abs	15000	0	20.00	Ténacité	19699	Broche simple de fondation
 999008300	Power	0.00	0.00	perc	3930000	0	1.15	Puissance augmentée		
 999008400	Endurance	0.00	0.00	perc	3930000	0	0.85	Défense réduite		
 999008600	HPChange	0.08	0.00	perc	3930000	10	0.08	Restauration continuelle de PV		
