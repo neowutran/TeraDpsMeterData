@@ -12,3 +12,23 @@ https://github.com/gothos-folly/TeraDataTools
 Decrypted Database repository:
 ----------------------
 https://cloud.neowutran.ovh/index.php/s/rdBntVUuNomLvY1
+
+File formats:
+----------------------
+HotDot*.tsv:
+
+AbnormalId	AbnormalType	HPChange	MPChange	Method	Time	Tick	Amount	Name	Itemid	ItemName
+
+
+charms*.tsv:
+CharmId	CharmName
+
+
+skills*.tsv:
+
+SkillId	Race	Gender	Class	SkillName	Chained	SkillDetailedInfo
+
+
+pet-skills*.tsv:
+
+SummonName	SkillId	SkillName
