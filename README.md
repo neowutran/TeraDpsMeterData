@@ -17,7 +17,7 @@ File formats:
 ----------------------
 HotDot*.tsv:
 
-AbnormalId	AbnormalType	HPChange	MPChange	Method	Time	Tick	Amount	Name	Itemid	ItemName
+AbnormalId	AbnormalType	HPChange	MPChange	Method	Time	Tick	Amount	Name	Itemid	ItemName	Tooltip	IconName
 
 
 charms*.tsv:
