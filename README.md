@@ -21,12 +21,12 @@ AbnormalId	AbnormalType	HPChange	MPChange	Method	Time	Tick	Amount	Name	Itemid	It
 
 
 charms*.tsv:
-CharmId	CharmName
+CharmId	CharmName	IconName
 
 
 skills*.tsv:
 
-SkillId	Race	Gender	Class	SkillName	Chained	SkillDetailedInfo
+SkillId	Race	Gender	Class	SkillName	Chained	SkillDetailedInfo IconName
 
 
 pet-skills*.tsv:
