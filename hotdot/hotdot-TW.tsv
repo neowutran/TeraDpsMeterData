@@ -657,6 +657,7 @@
 15100	HPChange	-4770.00	0.00	abs	4000	2	-4770.00	野獸詛咒 : 中毒			因為致命的劇毒，每2s，持續減少-4770的HP。	icon_status.delaydamage_tex
 15110	Attack	0.00	0.00	perc	30000	0	1.20	異界的霹靂			技能威力增加20%。	icon_status.plusattack_tex
 15120	MovSpdInCombat	0.00	0.00	setp	30000	0	0.00	樹根的束縛			持續時間內，和平狀態下移動速度減少，戰鬥狀態下無法移動。	icon_status.paralyzestatus_tex
+15161	CritResist	0.00	0.00	abs	10000	0	-10.00	鐵匠最後的慈悲			爆擊抵抗減少 -10。	icon_status.plusciriticalresist_tex
 15170	HPChange	-3710.00	0.00	abs	6000	2	-3710.00	女王的旋轉雷電			女王的雷電圍繞著全身，並在每2s持續減少-3710的HP。	icon_status.paralyzestatus_tex
 18500	HPChange	0.02	0.00	perc	10000	1	0.02	HP持續恢復 [裝備效果]			每1s逐漸恢復2%的HP，總共可恢復20%的HP。	icon_status.delayheal_tex
 18501	HPChange	0.03	0.00	perc	10000	1	0.03	HP持續恢復 [裝備效果]			每1s逐漸恢復2.5%的HP，總共可恢復25%的HP。	icon_status.delayheal_tex
@@ -1152,6 +1153,7 @@
 477026	Power	0.00	0.00	perc	0	0	3.00	女王的震怒			力量將提升200%，攻擊速度提升20%。	icon_status.plusattack_tex
 477026	ASpd	0.00	0.00	perc	0	0	1.20	女王的震怒			力量將提升200%，攻擊速度提升20%。	icon_status.plusattack_tex
 477101	Endurance	0.00	0.00	perc	0	0	2.00	核心防禦罩			平衡提升100%、暴擊抵抗提升100%，另外抗打會提升100%。 核心防護罩無法解除。	icon_status.plusedefence_tex
+477101	CritResist	0.00	0.00	perc	0	0	2.00	核心防禦罩			平衡提升100%、暴擊抵抗提升100%，另外抗打會提升100%。 核心防護罩無法解除。	icon_status.plusedefence_tex
 494550	HPChange	-0.02	0.00	perc	0	1	-0.02	污染之血			在污染根源附近!每1s持續減少2%的HP。	icon_status.poisonstatus_tex
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	業火的詛咒 - 效果			技能威力減少50%。包含自身在內所有附近的隊員直到無能結界 - 釋放效果完全解除時，此效果會不斷持續。	icon_status.minusattack_tex
 500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	破壞契約 I			對於召喚地獄火、追蹤業火、破滅光彈、魔力爆發、爆裂球技能，下一次攻擊的攻擊力提升25%。	icon_skills.kicharge_tex
@@ -1248,6 +1250,10 @@
 700201	MPChange	0.00	-30.00	abs	0	2	-30.00	迷霧結界 II - 釋放			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
 700202	MPChange	0.00	-30.00	abs	0	2	-30.00	迷霧結界 III - 釋放			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
 700203	MPChange	0.00	-30.00	abs	0	2	-30.00	迷霧結界 IV - 釋放			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
+700230	CritResist	0.00	0.00	perc	0	0	1.10	迷霧結界 I			暴擊扺抗增加10%。 只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusciriticalresist_tex
+700231	CritResist	0.00	0.00	perc	0	0	1.20	迷霧結界 II			暴擊扺抗增加20%。 只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusciriticalresist_tex
+700232	CritResist	0.00	0.00	perc	0	0	1.30	迷霧結界 III			暴擊扺抗增加30%。 只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusciriticalresist_tex
+700233	CritResist	0.00	0.00	perc	0	0	1.40	迷霧結界 IV			暴擊扺抗增加40%。 只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusciriticalresist_tex
 700300	MPChange	0.00	-30.00	abs	0	2	-30.00	精神結界 I - 釋放			除了自己，對周邊30m範圍內的組隊隊員賦予精神結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areampgain_tex
 700330	MPChange	0.00	20.00	abs	0	1	20.00	精神結界 I			每1s持續恢復20的MP。只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.mprecoverup_tex
 700400	HPChange	0.00	0.00	abs	10000	1	0.00	恢復彈 I			每1s持續恢復HP。	icon_skills.healshot_tex
@@ -1826,9 +1832,13 @@
 47611300	CritPower	0.00	0.00	perc	600000	0	1.10	阿勒坤之力			力量提升10%，暴擊威力增加+0.1倍。此效果最多可堆疊10次。	icon_status.minuswill_tex
 47611400	AtkPotion	0.00	0.00	perc	30000	0	2.00	殺氣充電			技能傷害增加100%。	icon_status.plusattack_tex
 47611800	Endurance	0.00	0.00	perc	30000	0	0.90	集中攻擊			抗打減少50%，套用HP恢復效果時HP恢復量減少50%。集中攻擊無法解除。	icon_status.minusdefence_tex
+47611900	CritResist	0.00	0.00	perc	600000	0	0.80	寒氣			平衡增加20%，暴擊扺抗減少20%。寒氣無法解除。	icon_status.minuscriticalresist_tex
+47612000	CritResist	0.00	0.00	perc	600000	0	0.60	小寒			平衡增加40%，暴擊扺抗減少40%。蓄力速度減少10%。 小寒無法解除。	icon_status.minuscriticalresist_tex
 47612000	CastSpeed	0.00	0.00	perc	600000	0	0.90	小寒			平衡增加40%，暴擊扺抗減少40%。蓄力速度減少10%。 小寒無法解除。	icon_status.minuscriticalresist_tex
+47612100	CritResist	0.00	0.00	perc	600000	0	0.40	雪原之寒			平衡增加60%，暴擊扺抗減少60%。蓄力速度減少20%，攻擊速度減少5%。 雪原之寒無法解除。	icon_status.minuscriticalresist_tex
 47612100	ASpd	0.00	0.00	perc	600000	0	0.95	雪原之寒			平衡增加60%，暴擊扺抗減少60%。蓄力速度減少20%，攻擊速度減少5%。 雪原之寒無法解除。	icon_status.minuscriticalresist_tex
 47612100	CastSpeed	0.00	0.00	perc	600000	0	0.80	雪原之寒			平衡增加60%，暴擊扺抗減少60%。蓄力速度減少20%，攻擊速度減少5%。 雪原之寒無法解除。	icon_status.minuscriticalresist_tex
+47612200	CritResist	0.00	0.00	perc	600000	0	0.20	嚴酷之寒			平衡增加80%，暴擊扺抗減少80%。蓄力速度減少30%，攻擊速度減少10%。 嚴酷之寒無法解除。	icon_status.minuscriticalresist_tex
 47612200	ASpd	0.00	0.00	perc	600000	0	0.90	嚴酷之寒			平衡增加80%，暴擊扺抗減少80%。蓄力速度減少30%，攻擊速度減少10%。 嚴酷之寒無法解除。	icon_status.minuscriticalresist_tex
 47612200	CastSpeed	0.00	0.00	perc	600000	0	0.70	嚴酷之寒			平衡增加80%，暴擊扺抗減少80%。蓄力速度減少30%，攻擊速度減少10%。 嚴酷之寒無法解除。	icon_status.minuscriticalresist_tex
 47612300	Power	0.00	0.00	perc	60000	0	1.20	攻擊力增加 III			力量提升20%。	icon_status.plusattack_tex
@@ -1955,6 +1965,7 @@
 47703500	Block	0.00	0.00	swch	10000	0	0.00	女王的咒縛			持續時間內在原地無法行動，無論是任何種類的移動或防禦技能，全部無法使用！	icon_status.minusmove_tex
 47703600	ASpd	0.00	0.00	perc	7200000	0	1.10	無止盡的力量			攻擊速度增加10%。此效果最多可堆疊3次。	icon_status.plusmove_tex
 47710000	Endurance	0.00	0.00	perc	30000	0	0.00	崩潰的身體			平衡減少100%、暴擊扺抗減少100%，另外抗打會減少100%。 持續時間結束之後，將產生核心防護罩效果。 崩潰的身體無法解除。	icon_status.minusdefence_tex
+47710000	CritResist	0.00	0.00	perc	30000	0	0.00	崩潰的身體			平衡減少100%、暴擊扺抗減少100%，另外抗打會減少100%。 持續時間結束之後，將產生核心防護罩效果。 崩潰的身體無法解除。	icon_status.minusdefence_tex
 47710200	Power	0.00	0.00	perc	60000	0	1.10	突沙的憤怒			每次堆疊時力量將提升10%。此效果最多可堆疊到10次。 突沙的憤怒無法解除。	icon_status.plusattack_tex
 47710300	Power	0.00	0.00	perc	60000	0	1.20	賽利恩的慈悲			每次堆疊時力量將提升20%。此效果最多可堆疊到10次。 賽利恩的慈悲無法解除。	icon_status.plusattack_tex
 49400300	AtkPotion	0.00	0.00	perc	120000	0	1.30	萬馬奔騰的鬥志			技能傷害增加30%。	icon_status.plusattack_tex
@@ -2093,6 +2104,51 @@
 81112208	ASpd	0.00	0.00	abs	5000	0	19.00	快速			攻擊速度增加19。擊倒時將解除。	icon_ep.ep_attack_speed_tex
 81112209	ASpd	0.00	0.00	abs	5000	0	21.00	快速			攻擊速度增加21。擊倒時將解除。	icon_ep.ep_attack_speed_tex
 81112210	ASpd	0.00	0.00	abs	5000	0	23.00	快速			攻擊速度增加23。擊倒時將解除。	icon_ep.ep_attack_speed_tex
+81120101	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120102	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120103	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120104	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120105	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120106	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120107	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120108	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120109	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120110	CritResist	0.00	0.00	abs	5000	0	5.00	致命教訓			暴擊抵抗增加5 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120111	CritResist	0.00	0.00	abs	5000	0	6.00	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120112	CritResist	0.00	0.00	abs	5000	0	6.00	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120113	CritResist	0.00	0.00	abs	5000	0	6.00	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120114	CritResist	0.00	0.00	abs	5000	0	6.00	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120115	CritResist	0.00	0.00	abs	5000	0	6.00	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
+81120301	CritResist	0.00	0.00	abs	5000	0	-3.00	暴擊抵抗減少			暴擊抵抗減少-3。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120302	CritResist	0.00	0.00	abs	5000	0	-4.00	暴擊抵抗減少			暴擊抵抗減少-4。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120303	CritResist	0.00	0.00	abs	5000	0	-5.00	暴擊抵抗減少			暴擊抵抗減少-5。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120304	CritResist	0.00	0.00	abs	5000	0	-6.00	暴擊抵抗減少			暴擊抵抗減少-6。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120305	CritResist	0.00	0.00	abs	5000	0	-7.00	暴擊抵抗減少			暴擊抵抗減少-7。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120306	CritResist	0.00	0.00	abs	5000	0	-8.00	暴擊抵抗減少			暴擊抵抗減少-8。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120307	CritResist	0.00	0.00	abs	5000	0	-9.00	暴擊抵抗減少			暴擊抵抗減少-9。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120308	CritResist	0.00	0.00	abs	5000	0	-10.00	暴擊抵抗減少			暴擊抵抗減少-10。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120309	CritResist	0.00	0.00	abs	5000	0	-11.00	暴擊抵抗減少			暴擊抵抗減少-11。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120310	CritResist	0.00	0.00	abs	5000	0	-12.00	暴擊抵抗減少			暴擊抵抗減少-12。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120401	CritResist	0.00	0.00	abs	10000	0	3.00	暴擊抵抗增加			暴擊抵抗增加3。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120402	CritResist	0.00	0.00	abs	10000	0	4.00	暴擊抵抗增加			暴擊抵抗增加4。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120403	CritResist	0.00	0.00	abs	10000	0	5.00	暴擊抵抗增加			暴擊抵抗增加5。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120404	CritResist	0.00	0.00	abs	10000	0	6.00	暴擊抵抗增加			暴擊抵抗增加6。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120405	CritResist	0.00	0.00	abs	10000	0	7.00	暴擊抵抗增加			暴擊抵抗增加7。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120406	CritResist	0.00	0.00	abs	10000	0	8.00	暴擊抵抗增加			暴擊抵抗增加8。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120407	CritResist	0.00	0.00	abs	10000	0	9.00	暴擊抵抗增加			暴擊抵抗增加9。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120408	CritResist	0.00	0.00	abs	10000	0	10.00	暴擊抵抗增加			暴擊抵抗增加10。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120409	CritResist	0.00	0.00	abs	10000	0	11.00	暴擊抵抗增加			暴擊抵抗增加11。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120410	CritResist	0.00	0.00	abs	10000	0	12.00	暴擊抵抗增加			暴擊抵抗增加12。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120411	CritResist	0.00	0.00	abs	10000	0	13.00	暴擊抵抗增加			暴擊抵抗增加13。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120412	CritResist	0.00	0.00	abs	10000	0	14.00	暴擊抵抗增加			暴擊抵抗增加14。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120413	CritResist	0.00	0.00	abs	10000	0	15.00	暴擊抵抗增加			暴擊抵抗增加15。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120414	CritResist	0.00	0.00	abs	10000	0	16.00	暴擊抵抗增加			暴擊抵抗增加16。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120415	CritResist	0.00	0.00	abs	10000	0	17.00	暴擊抵抗增加			暴擊抵抗增加17。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120416	CritResist	0.00	0.00	abs	10000	0	18.00	暴擊抵抗增加			暴擊抵抗增加18。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120417	CritResist	0.00	0.00	abs	10000	0	19.00	暴擊抵抗增加			暴擊抵抗增加19。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120418	CritResist	0.00	0.00	abs	10000	0	20.00	暴擊抵抗增加			暴擊抵抗增加20。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120419	CritResist	0.00	0.00	abs	10000	0	21.00	暴擊抵抗增加			暴擊抵抗增加21。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
+81120420	CritResist	0.00	0.00	abs	10000	0	22.00	暴擊抵抗增加			暴擊抵抗增加22。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
 81123001	MovSpdInCombat	0.00	0.00	abs	3000	0	7.00	戰鬥加速 1階段			戰鬥狀態時移動速度增加7。反作用時將解除。	icon_ep.ep_transfer_fightspeed_tex
 81123002	MovSpdInCombat	0.00	0.00	abs	3000	0	9.00	戰鬥加速 2階段			戰鬥狀態時移動速度增加9。反作用時將解除。	icon_ep.ep_transfer_fightspeed_tex
 81123003	MovSpdInCombat	0.00	0.00	abs	3000	0	11.00	戰鬥加速 3階段			戰鬥狀態時移動速度增加11。反作用時將解除。	icon_ep.ep_transfer_fightspeed_tex

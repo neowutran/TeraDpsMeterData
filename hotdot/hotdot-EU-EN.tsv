@@ -642,6 +642,7 @@
 15100	HPChange	-4770.00	0.00	abs	4000	2	-4770.00	Curse of Beast: Intoxicate			Reduces HP by -4770 every 2s.	icon_status.delaydamage_tex
 15110	Attack	0.00	0.00	perc	30000	0	1.20	Outer Plane's Lightning			Increases Skill damage by 20%.	icon_status.plusattack_tex
 15120	MovSpdInCombat	0.00	0.00	setp	30000	0	0.00	Root's Entangle			Immobilizes while in combat and decreases out-of-combat Movement Speed.	icon_status.paralyzestatus_tex
+15161	CritResist	0.00	0.00	abs	10000	0	-10.00	Cold Mercy			Decreases Crit Resist Factor by -10.	icon_status.plusciriticalresist_tex
 15170	HPChange	-3710.00	0.00	abs	6000	2	-3710.00	Thunderlash			Reduces HP by -3710 every 2s.	icon_status.paralyzestatus_tex
 18500	HPChange	0.02	0.00	perc	10000	1	0.02	Restoration			Recovers 20% of maximum HP, 2% every 1s.	icon_status.delayheal_tex
 18501	HPChange	0.03	0.00	perc	10000	1	0.03	Continual HP Recovery			Recovers 2.5% of maximum HP every 1s. Heals maximum of 25% HP.	icon_status.delayheal_tex
@@ -1118,6 +1119,7 @@
 477026	Power	0.00	0.00	perc	0	0	3.00	Queen's Wrath			Increases Power by 200%. Increases Attack Speed by 20%.	icon_status.plusattack_tex
 477026	ASpd	0.00	0.00	perc	0	0	1.20	Queen's Wrath			Increases Power by 200%. Increases Attack Speed by 20%.	icon_status.plusattack_tex
 477101	Endurance	0.00	0.00	perc	0	0	2.00	Indomitable Spirit			Increases Balance Factor by 100%. Increases Crit Resist Factor by 100%. Increases Endurance by 100%. Indomitable Spirit cannot be removed.	icon_status.plusedefence_tex
+477101	CritResist	0.00	0.00	perc	0	0	2.00	Indomitable Spirit			Increases Balance Factor by 100%. Increases Crit Resist Factor by 100%. Increases Endurance by 100%. Indomitable Spirit cannot be removed.	icon_status.plusedefence_tex
 494550	HPChange	-0.02	0.00	perc	0	1	-0.02	Polluted Blood			Loses 2% of maximum HP every 1s.	icon_status.poisonstatus_tex
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	Futility			Decreases skill damage by 50%. Effect continues as long as you're near a Harbinger of Futility.	icon_status.minusattack_tex
 500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Overchannel			Casting Fireblast, Flaming Barrage, Void Pulse, Nova or Arcane Pulse does 25% more damage.	icon_skills.kicharge_tex
@@ -1214,6 +1216,10 @@
 700201	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding II			Grants Aura of the Unyielding to party members within 30m. Costs -30 MP per 2 to maintain.	icon_skills.areahpgain_tex
 700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding III			Grants Aura of the Unyielding to party members within 30m. Costs -30 MP per 2 to maintain.	icon_skills.areahpgain_tex
 700203	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Unyielding IV			Grants Aura of the Unyielding to party members within 30m. Costs -30 MP per 2 to maintain.	icon_skills.areahpgain_tex
+700230	CritResist	0.00	0.00	perc	0	0	1.10	Aura of the Unyielding I			Increases Crit Resist Factor by 10%.	icon_status.plusciriticalresist_tex
+700231	CritResist	0.00	0.00	perc	0	0	1.20	Aura of the Unyielding II			Increases Crit Resist Factor by 20%.	icon_status.plusciriticalresist_tex
+700232	CritResist	0.00	0.00	perc	0	0	1.30	Aura of the Unyielding III			Increases Crit Resist Factor by 30%.	icon_status.plusciriticalresist_tex
+700233	CritResist	0.00	0.00	perc	0	0	1.40	Aura of the Unyielding IV			Increases Crit Resist Factor by 40%.	icon_status.plusciriticalresist_tex
 700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura of the Tenacious			Grants Aura of the Tenacious to party members within 30m. Costs -30 MP per 2 to maintain.	icon_skills.areampgain_tex
 700330	MPChange	0.00	20.00	abs	0	1	20.00	Aura of the Tenacious			Replenishes 20 MP per 1s.	icon_status.mprecoverup_tex
 700400	HPChange	0.00	0.00	abs	10000	1	0.00	Titanic Favor I			Recovers HP every 1s.	icon_skills.healshot_tex
@@ -1812,9 +1818,13 @@
 47611300	CritPower	0.00	0.00	perc	600000	0	1.10	Argon Enhancement			Increases Power by 10%. Increases Crit Power by 0.1. Effect stacks up to 10 times.	icon_status.minuswill_tex
 47611400	AtkPotion	0.00	0.00	perc	30000	0	2.00	Blood Thirst			Increases skill damage by 100%.	icon_status.plusattack_tex
 47611800	Endurance	0.00	0.00	perc	30000	0	0.90	Inner Strength			Decreases Endurance by 50% but increases HP recovery by 10%. Inner Strength cannot be removed.	icon_status.minusdefence_tex
+47611900	CritResist	0.00	0.00	perc	600000	0	0.80	Frostmight			Increases resistance to knockdown and stagger by 20%. Decreases Crit Resist Factor by 20%. Frostmight cannot be removed.	icon_status.minuscriticalresist_tex
+47612000	CritResist	0.00	0.00	perc	600000	0	0.60	Icemight			Increases resistance to knockdown and stagger by 40%. Decreases Crit Resist Factor by 40%, and decreases charging speed by 10%. Icemight cannot be removed.	icon_status.minuscriticalresist_tex
 47612000	CastSpeed	0.00	0.00	perc	600000	0	0.90	Icemight			Increases resistance to knockdown and stagger by 40%. Decreases Crit Resist Factor by 40%, and decreases charging speed by 10%. Icemight cannot be removed.	icon_status.minuscriticalresist_tex
+47612100	CritResist	0.00	0.00	perc	600000	0	0.40	Glaciermight			Increases resistance to knockdown and stagger by 60%. Decreases Crit Resist Factor by 60%. Decreases charging speed by 20%. Decreases Attack Speed by 5%. Glaciermight cannot be removed.	icon_status.minuscriticalresist_tex
 47612100	ASpd	0.00	0.00	perc	600000	0	0.95	Glaciermight			Increases resistance to knockdown and stagger by 60%. Decreases Crit Resist Factor by 60%. Decreases charging speed by 20%. Decreases Attack Speed by 5%. Glaciermight cannot be removed.	icon_status.minuscriticalresist_tex
 47612100	CastSpeed	0.00	0.00	perc	600000	0	0.80	Glaciermight			Increases resistance to knockdown and stagger by 60%. Decreases Crit Resist Factor by 60%. Decreases charging speed by 20%. Decreases Attack Speed by 5%. Glaciermight cannot be removed.	icon_status.minuscriticalresist_tex
+47612200	CritResist	0.00	0.00	perc	600000	0	0.20	Wintermight			Increases resistance to knockdown and stagger by 80%. Decreases Crit Resist Factor by 80%. Decreases charging speed by 30%. Decreases Attack Speed by 10%. Wintermight cannot be removed.	icon_status.minuscriticalresist_tex
 47612200	ASpd	0.00	0.00	perc	600000	0	0.90	Wintermight			Increases resistance to knockdown and stagger by 80%. Decreases Crit Resist Factor by 80%. Decreases charging speed by 30%. Decreases Attack Speed by 10%. Wintermight cannot be removed.	icon_status.minuscriticalresist_tex
 47612200	CastSpeed	0.00	0.00	perc	600000	0	0.70	Wintermight			Increases resistance to knockdown and stagger by 80%. Decreases Crit Resist Factor by 80%. Decreases charging speed by 30%. Decreases Attack Speed by 10%. Wintermight cannot be removed.	icon_status.minuscriticalresist_tex
 47612300	Power	0.00	0.00	perc	60000	0	1.20	Attack Increase III			Increases Power by 20%.	icon_status.plusattack_tex
@@ -1941,6 +1951,7 @@
 47703500	Block	0.00	0.00	swch	10000	0	0.00	Queen's Binding			Immobilizes you and prevents movement or defensive skills.	icon_status.minusmove_tex
 47703600	ASpd	0.00	0.00	perc	7200000	0	1.10	Fevered Pitch			Increases Attack Speed by 10%. Fevered Pitch stacks up to 3 times.	icon_status.plusmove_tex
 47710000	Endurance	0.00	0.00	perc	30000	0	0.00	Destroyed Body			Decreases Balance Factor by 100%. Decreases Crit Resist Factor by 100%. Reduces Endurance by 100%. Activates Indomitable Spirit when it ends. Destroyed Body cannot be removed.	icon_status.minusdefence_tex
+47710000	CritResist	0.00	0.00	perc	30000	0	0.00	Destroyed Body			Decreases Balance Factor by 100%. Decreases Crit Resist Factor by 100%. Reduces Endurance by 100%. Activates Indomitable Spirit when it ends. Destroyed Body cannot be removed.	icon_status.minusdefence_tex
 47710200	Power	0.00	0.00	perc	60000	0	1.10	Thulsa's Rage			Increases Power by 10% every time it's stacked. Can stack up to 10 times. Thulsa's Rage cannot be removed.	icon_status.plusattack_tex
 47710300	Power	0.00	0.00	perc	60000	0	1.20	Serion's Mercy			Increases Power by 20% every time it's stacked. Can stack up to 10 times. Serion's Mercy cannot be removed.	icon_status.plusattack_tex
 49400300	AtkPotion	0.00	0.00	perc	120000	0	1.30	Feverish Fervor			Increases skill damage by 30%.	icon_status.plusattack_tex
@@ -2079,6 +2090,51 @@
 81112208	ASpd	0.00	0.00	abs	5000	0	19.00	Speed Skating			Attack Speed increases by 19. Knockdown cancels the effect.	icon_ep.ep_attack_speed_tex
 81112209	ASpd	0.00	0.00	abs	5000	0	21.00	Speed Skating			Attack Speed increases by 21. Knockdown cancels the effect.	icon_ep.ep_attack_speed_tex
 81112210	ASpd	0.00	0.00	abs	5000	0	23.00	Speed Skating			Attack Speed increases by 23. Knockdown cancels the effect.	icon_ep.ep_attack_speed_tex
+81120101	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120102	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120103	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120104	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120105	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120106	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120107	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120108	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120109	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120110	CritResist	0.00	0.00	abs	5000	0	5.00	Lethal Lesson			Critical resistance increases by 5. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120111	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120112	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120113	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120114	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120115	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
+81120301	CritResist	0.00	0.00	abs	5000	0	-3.00	Resistence to Crit Decreases			Critical resistance decreases by -3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120302	CritResist	0.00	0.00	abs	5000	0	-4.00	Resistence to Crit Decreases			Critical resistance decreases by -4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120303	CritResist	0.00	0.00	abs	5000	0	-5.00	Resistence to Crit Decreases			Critical resistance decreases by -5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120304	CritResist	0.00	0.00	abs	5000	0	-6.00	Resistence to Crit Decreases			Critical resistance decreases by -6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120305	CritResist	0.00	0.00	abs	5000	0	-7.00	Resistence to Crit Decreases			Critical resistance decreases by -7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120306	CritResist	0.00	0.00	abs	5000	0	-8.00	Resistence to Crit Decreases			Critical resistance decreases by -8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120307	CritResist	0.00	0.00	abs	5000	0	-9.00	Resistence to Crit Decreases			Critical resistance decreases by -9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120308	CritResist	0.00	0.00	abs	5000	0	-10.00	Resistence to Crit Decreases			Critical resistance decreases by -10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120309	CritResist	0.00	0.00	abs	5000	0	-11.00	Resistence to Crit Decreases			Critical resistance decreases by -11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120310	CritResist	0.00	0.00	abs	5000	0	-12.00	Resistence to Crit Decreases			Critical resistance decreases by -12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120401	CritResist	0.00	0.00	abs	10000	0	3.00	Resistence to Crit Decreases			Critical resistence increases by 3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120402	CritResist	0.00	0.00	abs	10000	0	4.00	Resistence to Crit Decreases			Critical resistence increases by 4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120403	CritResist	0.00	0.00	abs	10000	0	5.00	Resistence to Crit Decreases			Critical resistence increases by 5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120404	CritResist	0.00	0.00	abs	10000	0	6.00	Resistence to Crit Decreases			Critical resistence increases by 6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120405	CritResist	0.00	0.00	abs	10000	0	7.00	Resistence to Crit Decreases			Critical resistence increases by 7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120406	CritResist	0.00	0.00	abs	10000	0	8.00	Resistence to Crit Decreases			Critical resistence increases by 8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120407	CritResist	0.00	0.00	abs	10000	0	9.00	Resistence to Crit Decreases			Critical resistence increases by 9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120408	CritResist	0.00	0.00	abs	10000	0	10.00	Resistence to Crit Decreases			Critical resistence increases by 10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120409	CritResist	0.00	0.00	abs	10000	0	11.00	Resistence to Crit Decreases			Critical resistence increases by 11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120410	CritResist	0.00	0.00	abs	10000	0	12.00	Resistence to Crit Decreases			Critical resistence increases by 12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120411	CritResist	0.00	0.00	abs	10000	0	13.00	Resistence to Crit Decreases			Critical resistence increases by 13. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120412	CritResist	0.00	0.00	abs	10000	0	14.00	Resistence to Crit Decreases			Critical resistence increases by 14. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120413	CritResist	0.00	0.00	abs	10000	0	15.00	Resistence to Crit Decreases			Critical resistence increases by 15. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120414	CritResist	0.00	0.00	abs	10000	0	16.00	Resistence to Crit Decreases			Critical resistence increases by 16. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120415	CritResist	0.00	0.00	abs	10000	0	17.00	Resistence to Crit Decreases			Critical resistence increases by 17. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120416	CritResist	0.00	0.00	abs	10000	0	18.00	Resistence to Crit Decreases			Critical resistence increases by 18. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120417	CritResist	0.00	0.00	abs	10000	0	19.00	Resistence to Crit Decreases			Critical resistence increases by 19. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120418	CritResist	0.00	0.00	abs	10000	0	20.00	Resistence to Crit Decreases			Critical resistence increases by 20. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120419	CritResist	0.00	0.00	abs	10000	0	21.00	Resistence to Crit Decreases			Critical resistence increases by 21. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120420	CritResist	0.00	0.00	abs	10000	0	22.00	Resistence to Crit Decreases			Critical resistence increases by 22. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
 81123001	MovSpdInCombat	0.00	0.00	abs	3000	0	7.00	Combat Speed: Stage I			Movement Speed increases by 7 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
 81123002	MovSpdInCombat	0.00	0.00	abs	3000	0	9.00	Combat Speed: Stage II			Movement Speed increases by 9 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
 81123003	MovSpdInCombat	0.00	0.00	abs	3000	0	11.00	Combat Speed: Stage III			Movement Speed increases by 11 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex

@@ -631,6 +631,7 @@
 15100	HPChange	-4770.00	0.00	abs	4000	2	-4770.00	野獣の呪い：中毒			致命的な猛毒により、2s毎にHPが-4770減少します。	icon_status.delaydamage_tex
 15110	Attack	0.00	0.00	perc	30000	0	1.20	異界の雷			スキル威力が20%増加します。	icon_status.plusattack_tex
 15120	MovSpdInCombat	0.00	0.00	setp	30000	0	0.00	樹縛			効果持続中、非戦闘状態での移動速度が減少し、戦闘状態ではその場から動けません。	icon_status.paralyzestatus_tex
+15161	CritResist	0.00	0.00	abs	10000	0	-10.00	匠人の慈悲			クリティカル抵抗が-10減少します。	icon_status.plusciriticalresist_tex
 15170	HPChange	-3710.00	0.00	abs	6000	2	-3710.00	女王の雷陣			2s毎にHPが-3710減少します。	icon_status.paralyzestatus_tex
 18500	HPChange	0.02	0.00	perc	10000	1	0.02	HP持続回復［装備効果］			1s毎に全HPの2％、計20％のHPが回復します。	icon_status.delayheal_tex
 18501	HPChange	0.03	0.00	perc	10000	1	0.03	HP持続回復［装備効果］			1s毎に全HPの2.5％、計25％のHPが回復します。	icon_status.delayheal_tex
@@ -1110,6 +1111,7 @@
 477026	Power	0.00	0.00	perc	0	0	3.00	女王の激怒			力が200%、攻撃速度が20%上昇します。	icon_status.plusattack_tex
 477026	ASpd	0.00	0.00	perc	0	0	1.20	女王の激怒			力が200%、攻撃速度が20%上昇します。	icon_status.plusattack_tex
 477101	Endurance	0.00	0.00	perc	0	0	2.00	コアバリア			均衡が100%、クリティカル抵抗が100%、耐久力が100%上昇します。 この効果は解除できません。	icon_status.plusedefence_tex
+477101	CritResist	0.00	0.00	perc	0	0	2.00	コアバリア			均衡が100%、クリティカル抵抗が100%、耐久力が100%上昇します。 この効果は解除できません。	icon_status.plusedefence_tex
 494550	HPChange	-0.02	0.00	perc	0	1	-0.02	ポイズンブラッド			感染源が近くにあります！　1s毎に全HPの2％が減少します。	icon_status.poisonstatus_tex
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	業火の呪い - 効果			スキル威力が50%減少します。自身とパーティーメンバーから「無能の結界－放出」の効果が完全に解除されるまで持続します。	icon_status.minusattack_tex
 500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	アドヴェントコントラクト I			「ヘルブラスト」、「チェイスフレイム」、「アドヴェントパルス」、「マナバースト」の一撃のダメージが25%増加します。	icon_skills.kicharge_tex
@@ -1206,6 +1208,10 @@
 700201	MPChange	0.00	-30.00	abs	0	2	-30.00	フォグオーラ II - 放出			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
 700202	MPChange	0.00	-30.00	abs	0	2	-30.00	フォグオーラ III - 放出			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
 700203	MPChange	0.00	-30.00	abs	0	2	-30.00	フォグオーラ IV - 放出			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
+700230	CritResist	0.00	0.00	perc	0	0	1.10	フォグオーラ I			クリティカル抵抗が10%上昇します。有効範囲は周囲約30mです。	icon_status.plusciriticalresist_tex
+700231	CritResist	0.00	0.00	perc	0	0	1.20	フォグオーラ II			クリティカル抵抗が20%上昇します。有効範囲は周囲約30mです。	icon_status.plusciriticalresist_tex
+700232	CritResist	0.00	0.00	perc	0	0	1.30	フォグオーラ III			クリティカル抵抗が30%上昇します。有効範囲は周囲約30mです。	icon_status.plusciriticalresist_tex
+700233	CritResist	0.00	0.00	perc	0	0	1.40	フォグオーラ IV			クリティカル抵抗が40%上昇します。有効範囲は周囲約30mです。	icon_status.plusciriticalresist_tex
 700300	MPChange	0.00	-30.00	abs	0	2	-30.00	マインドオーラ I - 放出			自身を除くパーティーメンバーに「マインドオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areampgain_tex
 700330	MPChange	0.00	20.00	abs	0	1	20.00	マインドオーラ I			1s毎にMPが20回復します。有効範囲は周囲約30mです。	icon_status.mprecoverup_tex
 700400	HPChange	0.00	0.00	abs	10000	1	0.00	リカバリーバレット I			1s毎にHPが回復します。	icon_skills.healshot_tex
@@ -1770,9 +1776,13 @@
 47611300	CritPower	0.00	0.00	perc	600000	0	1.10	アルゴンの力			力が10%上昇し、クリティカル威力が+0.1倍増加します。効果は最大10回まで重複します。	icon_status.minuswill_tex
 47611400	AtkPotion	0.00	0.00	perc	30000	0	2.00	マッドチャージ			スキルダメージが100%増加します。	icon_status.plusattack_tex
 47611800	Endurance	0.00	0.00	perc	30000	0	0.90	集中攻撃			耐久力が50%減少し、HP回復効果発動時、回復量が50％減少します。この効果は解除できません。	icon_status.minusdefence_tex
+47611900	CritResist	0.00	0.00	perc	600000	0	0.80	寒気			均衡が20%上昇し、クリティカル抵抗が20%減少します。この効果は解除できません。	icon_status.minuscriticalresist_tex
+47612000	CritResist	0.00	0.00	perc	600000	0	0.60	大寒			均衡が40% 上昇し、クリティカル抵抗が40%減少します。またチャージ速度が10%減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
 47612000	CastSpeed	0.00	0.00	perc	600000	0	0.90	大寒			均衡が40% 上昇し、クリティカル抵抗が40%減少します。またチャージ速度が10%減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
+47612100	CritResist	0.00	0.00	perc	600000	0	0.40	厳寒			均衡が60% 上昇し、クリティカル抵抗が60%減少します。またチャージ速度が20%、攻撃速度が各5%ずつ減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
 47612100	ASpd	0.00	0.00	perc	600000	0	0.95	厳寒			均衡が60% 上昇し、クリティカル抵抗が60%減少します。またチャージ速度が20%、攻撃速度が各5%ずつ減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
 47612100	CastSpeed	0.00	0.00	perc	600000	0	0.80	厳寒			均衡が60% 上昇し、クリティカル抵抗が60%減少します。またチャージ速度が20%、攻撃速度が各5%ずつ減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
+47612200	CritResist	0.00	0.00	perc	600000	0	0.20	酷寒			均衡が80% 上昇し、クリティカル抵抗が80%減少します。またチャージ速度が30%、攻撃速度が各10%ずつ減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
 47612200	ASpd	0.00	0.00	perc	600000	0	0.90	酷寒			均衡が80% 上昇し、クリティカル抵抗が80%減少します。またチャージ速度が30%、攻撃速度が各10%ずつ減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
 47612200	CastSpeed	0.00	0.00	perc	600000	0	0.70	酷寒			均衡が80% 上昇し、クリティカル抵抗が80%減少します。またチャージ速度が30%、攻撃速度が各10%ずつ減少します。 この効果は解除できません。	icon_status.minuscriticalresist_tex
 47612300	Power	0.00	0.00	perc	60000	0	1.20	攻撃力上昇 III			力が20%上昇します。	icon_status.plusattack_tex
@@ -1899,6 +1909,7 @@
 47703500	Block	0.00	0.00	swch	10000	0	0.00	女王の呪縛			数秒間、その場から動くことができず、全ての移動、防御スキルも使用できません！　	icon_status.minusmove_tex
 47703600	ASpd	0.00	0.00	perc	7200000	0	1.10	エタニティパワー			攻撃速度が10%上昇します。効果は最大3回まで重複します。	icon_status.plusmove_tex
 47710000	Endurance	0.00	0.00	perc	30000	0	0.00	ルーインボディ			均衡が100%、クリティカル抵抗が100%、耐久力が100%減少します。 数秒後、「コアバリア」の効果が発生します。 この効果は解除できません。	icon_status.minusdefence_tex
+47710000	CritResist	0.00	0.00	perc	30000	0	0.00	ルーインボディ			均衡が100%、クリティカル抵抗が100%、耐久力が100%減少します。 数秒後、「コアバリア」の効果が発生します。 この効果は解除できません。	icon_status.minusdefence_tex
 47710200	Power	0.00	0.00	perc	60000	0	1.10	トゥルサの憤怒			重複する度に、力が10%上昇します。効果は最大10回まで重複します。 この効果は解除できません。	icon_status.plusattack_tex
 47710300	Power	0.00	0.00	perc	60000	0	1.20	セリオンの慈悲			重複する度に、力が20%上昇します。効果は最大10回まで重複します。 この効果は解除できません。	icon_status.plusattack_tex
 49400300	AtkPotion	0.00	0.00	perc	120000	0	1.30	湧き上がる闘志			スキルダメージが30%増加します。	icon_status.plusattack_tex
@@ -2037,6 +2048,51 @@
 81112208	ASpd	0.00	0.00	abs	5000	0	19.00	快速			攻撃速度が19増加。ダウン時に解除。	icon_ep.ep_attack_speed_tex
 81112209	ASpd	0.00	0.00	abs	5000	0	21.00	快速			攻撃速度が21増加。ダウン時に解除。	icon_ep.ep_attack_speed_tex
 81112210	ASpd	0.00	0.00	abs	5000	0	23.00	快速			攻撃速度が23増加。ダウン時に解除。	icon_ep.ep_attack_speed_tex
+81120101	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120102	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120103	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120104	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120105	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120106	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120107	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120108	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120109	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120110	CritResist	0.00	0.00	abs	5000	0	5.00	致命の教え			クリティカル抵抗が5増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120111	CritResist	0.00	0.00	abs	5000	0	6.00	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120112	CritResist	0.00	0.00	abs	5000	0	6.00	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120113	CritResist	0.00	0.00	abs	5000	0	6.00	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120114	CritResist	0.00	0.00	abs	5000	0	6.00	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120115	CritResist	0.00	0.00	abs	5000	0	6.00	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex
+81120301	CritResist	0.00	0.00	abs	5000	0	-3.00	クリティカル抵抗減少			クリティカル抵抗が-3減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120302	CritResist	0.00	0.00	abs	5000	0	-4.00	クリティカル抵抗減少			クリティカル抵抗が-4減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120303	CritResist	0.00	0.00	abs	5000	0	-5.00	クリティカル抵抗減少			クリティカル抵抗が-5減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120304	CritResist	0.00	0.00	abs	5000	0	-6.00	クリティカル抵抗減少			クリティカル抵抗が-6減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120305	CritResist	0.00	0.00	abs	5000	0	-7.00	クリティカル抵抗減少			クリティカル抵抗が-7減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120306	CritResist	0.00	0.00	abs	5000	0	-8.00	クリティカル抵抗減少			クリティカル抵抗が-8減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120307	CritResist	0.00	0.00	abs	5000	0	-9.00	クリティカル抵抗減少			クリティカル抵抗が-9減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120308	CritResist	0.00	0.00	abs	5000	0	-10.00	クリティカル抵抗減少			クリティカル抵抗が-10減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120309	CritResist	0.00	0.00	abs	5000	0	-11.00	クリティカル抵抗減少			クリティカル抵抗が-11減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120310	CritResist	0.00	0.00	abs	5000	0	-12.00	クリティカル抵抗減少			クリティカル抵抗が-12減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex
+81120401	CritResist	0.00	0.00	abs	10000	0	3.00	クリティカル抵抗上昇			クリティカル抵抗が3上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120402	CritResist	0.00	0.00	abs	10000	0	4.00	クリティカル抵抗上昇			クリティカル抵抗が4上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120403	CritResist	0.00	0.00	abs	10000	0	5.00	クリティカル抵抗上昇			クリティカル抵抗が5上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120404	CritResist	0.00	0.00	abs	10000	0	6.00	クリティカル抵抗上昇			クリティカル抵抗が6上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120405	CritResist	0.00	0.00	abs	10000	0	7.00	クリティカル抵抗上昇			クリティカル抵抗が7上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120406	CritResist	0.00	0.00	abs	10000	0	8.00	クリティカル抵抗上昇			クリティカル抵抗が8上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120407	CritResist	0.00	0.00	abs	10000	0	9.00	クリティカル抵抗上昇			クリティカル抵抗が9上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120408	CritResist	0.00	0.00	abs	10000	0	10.00	クリティカル抵抗上昇			クリティカル抵抗が10上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120409	CritResist	0.00	0.00	abs	10000	0	11.00	クリティカル抵抗上昇			クリティカル抵抗が11上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120410	CritResist	0.00	0.00	abs	10000	0	12.00	クリティカル抵抗上昇			クリティカル抵抗が12上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120411	CritResist	0.00	0.00	abs	10000	0	13.00	クリティカル抵抗上昇			クリティカル抵抗が13上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120412	CritResist	0.00	0.00	abs	10000	0	14.00	クリティカル抵抗上昇			クリティカル抵抗が14上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120413	CritResist	0.00	0.00	abs	10000	0	15.00	クリティカル抵抗上昇			クリティカル抵抗が15上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120414	CritResist	0.00	0.00	abs	10000	0	16.00	クリティカル抵抗上昇			クリティカル抵抗が16上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120415	CritResist	0.00	0.00	abs	10000	0	17.00	クリティカル抵抗上昇			クリティカル抵抗が17上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120416	CritResist	0.00	0.00	abs	10000	0	18.00	クリティカル抵抗上昇			クリティカル抵抗が18上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120417	CritResist	0.00	0.00	abs	10000	0	19.00	クリティカル抵抗上昇			クリティカル抵抗が19上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120418	CritResist	0.00	0.00	abs	10000	0	20.00	クリティカル抵抗上昇			クリティカル抵抗が20上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120419	CritResist	0.00	0.00	abs	10000	0	21.00	クリティカル抵抗上昇			クリティカル抵抗が21上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
+81120420	CritResist	0.00	0.00	abs	10000	0	22.00	クリティカル抵抗上昇			クリティカル抵抗が22上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex
 81123001	MovSpdInCombat	0.00	0.00	abs	3000	0	7.00	加速戦闘1段階			戦闘状態の移動速度が7増加。攻撃を受けると解除	icon_ep.ep_transfer_fightspeed_tex
 81123002	MovSpdInCombat	0.00	0.00	abs	3000	0	9.00	加速戦闘2段階			戦闘状態の移動速度が9増加。攻撃を受けると解除	icon_ep.ep_transfer_fightspeed_tex
 81123003	MovSpdInCombat	0.00	0.00	abs	3000	0	11.00	加速戦闘3段階			戦闘状態の移動速度が11増加。攻撃を受けると解除	icon_ep.ep_transfer_fightspeed_tex

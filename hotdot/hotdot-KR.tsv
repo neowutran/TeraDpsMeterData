@@ -783,6 +783,7 @@
 15100	HPChange	-4770.00	0.00	abs	4000	2	-4770.00	야수의 저주 : 중독			치명적인 맹독에 의해 2s마다 HP가 -4770씩 지속적으로 감소됩니다.	icon_status.delaydamage_tex
 15110	Attack	0.00	0.00	perc	30000	0	1.20	이계의 벼락			스킬 위력이 20% 증가됩니다.	icon_status.plusattack_tex
 15120	MovSpdInCombat	0.00	0.00	setp	30000	0	0.00	나무 뿌리의 속박			지속 시간 동안 평화 상태에서 이동속도가 감소하며 전투 상태에선 제 자리에서 움직일 수 없습니다!	icon_status.paralyzestatus_tex
+15161	CritResist	0.00	0.00	abs	10000	0	-10.00	철기장 최후의 자비			치명타 저항이 -10 감소합니다.	icon_status.plusciriticalresist_tex
 15170	HPChange	-3710.00	0.00	abs	6000	2	-3710.00	여왕의 휘감는 벼락			여왕의 벼락이 온 몸을 휘감아 2s마다 -3710씩 HP가 지속적으로 감소됩니다.	icon_status.paralyzestatus_tex
 18500	HPChange	0.02	0.00	perc	10000	1	0.02	HP 지속 회복 [장비 효과]			1s마다 전체 HP 대비 2%씩 총 20%의 HP가 점차 회복됩니다.	icon_status.delayheal_tex
 18501	HPChange	0.03	0.00	perc	10000	1	0.03	HP 지속 회복 [장비 효과]			1s마다 전체 HP 대비 2.5%씩 총 25%의 HP가 점차 회복됩니다.	icon_status.delayheal_tex
@@ -1306,6 +1307,7 @@
 477026	Power	0.00	0.00	perc	0	0	3.00	여왕의 진노			힘이 200% 향상되며 공격속도가 20% 향상됩니다.	icon_status.plusattack_tex
 477026	ASpd	0.00	0.00	perc	0	0	1.20	여왕의 진노			힘이 200% 향상되며 공격속도가 20% 향상됩니다.	icon_status.plusattack_tex
 477101	Endurance	0.00	0.00	perc	0	0	2.00	코어 방어막			균형이 100% 향상되며 치명타 저항이 100% 향상됩니다. 또한 맷집이 100%으로 향상됩니다. 코어 방어막은 해제 할 수 없습니다.	icon_status.plusedefence_tex
+477101	CritResist	0.00	0.00	perc	0	0	2.00	코어 방어막			균형이 100% 향상되며 치명타 저항이 100% 향상됩니다. 또한 맷집이 100%으로 향상됩니다. 코어 방어막은 해제 할 수 없습니다.	icon_status.plusedefence_tex
 494550	HPChange	-0.02	0.00	perc	0	1	-0.02	오염된 피			오염의 근원이 근처에 있습니다! 1s마다 전체 HP 대비 2%에 달하는 HP가 지속적으로 감소됩니다.	icon_status.poisonstatus_tex
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	업화의 저주 - 효과			스킬 위력이 50% 감소됩니다. 자신을 포함한 주변 모든 파티원들에게서 무능의 결계 - 방출 효과가 완전히 해제될 때까지 이 효과는 끊임 없이 지속됩니다.	icon_status.minusattack_tex
 500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	파괴의 계약 I			지옥불 소환, 추적의 업화, 파멸의 광탄, 마력 폭발, 폭렬구 스킬에 대해 다음 1회의 공격은 25% 향상된 피해를 입힙니다.	icon_skills.kicharge_tex
@@ -1402,6 +1404,10 @@
 700201	MPChange	0.00	-30.00	abs	0	2	-30.00	안개의 결계 II - 방출			자신을 포함한 주변 30m 범위 내 파티원들에게 안개의 결계 효과를 부여합니다. 스킬을 활성화하고 있는 동안 2 마다 -30씩 지속적으로 MP가 감소 합니다.	icon_skills.areahpgain_tex
 700202	MPChange	0.00	-30.00	abs	0	2	-30.00	안개의 결계 III - 방출			자신을 포함한 주변 30m 범위 내 파티원들에게 안개의 결계 효과를 부여합니다. 스킬을 활성화하고 있는 동안 2 마다 -30씩 지속적으로 MP가 감소 합니다.	icon_skills.areahpgain_tex
 700203	MPChange	0.00	-30.00	abs	0	2	-30.00	안개의 결계 IV - 방출			자신을 포함한 주변 30m 범위 내 파티원들에게 안개의 결계 효과를 부여합니다. 스킬을 활성화하고 있는 동안 2 마다 -30씩 지속적으로 MP가 감소 합니다.	icon_skills.areahpgain_tex
+700230	CritResist	0.00	0.00	perc	0	0	1.10	안개의 결계 I			치명타 저항이 10% 증가됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_status.plusciriticalresist_tex
+700231	CritResist	0.00	0.00	perc	0	0	1.20	안개의 결계 II			치명타 저항이 20% 증가됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_status.plusciriticalresist_tex
+700232	CritResist	0.00	0.00	perc	0	0	1.30	안개의 결계 III			치명타 저항이 30% 증가됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_status.plusciriticalresist_tex
+700233	CritResist	0.00	0.00	perc	0	0	1.40	안개의 결계 IV			치명타 저항이 40% 증가됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_status.plusciriticalresist_tex
 700300	MPChange	0.00	-30.00	abs	0	2	-30.00	정신의 결계 I - 방출			자신을 제외한 주변 30m 범위 내 파티원들에게 정신의 결계 효과를 부여합니다. 스킬을 활성화하고 있는 동안 2 마다 -30씩 지속적으로 MP가 감소 합니다.	icon_skills.areampgain_tex
 700330	MPChange	0.00	20.00	abs	0	1	20.00	정신의 결계 I			1s마다 20씩 MP가 지속적으로 회복됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_status.mprecoverup_tex
 700400	HPChange	0.00	0.00	abs	10000	1	0.00	회복탄 I			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.healshot_tex
@@ -2037,9 +2043,13 @@
 47611300	CritPower	0.00	0.00	perc	600000	0	1.10	아르곤의 힘			힘이 10% 향상되며 치명타 위력이 +0.1배 증가됩니다. 이 효과는 최대 10번까지 중첩됩니다.	icon_status.minuswill_tex
 47611400	AtkPotion	0.00	0.00	perc	30000	0	2.00	살기충전			스킬 데미지가 100% 증가됩니다.	icon_status.plusattack_tex
 47611800	Endurance	0.00	0.00	perc	30000	0	0.90	집중공격			맷집이 50% 감소되며 HP 회복 효과 적용 시 HP 회복량이 50% 감소됩니다. 집중공격은 해제 할 수 없습니다.	icon_status.minusdefence_tex
+47611900	CritResist	0.00	0.00	perc	600000	0	0.80	한기			균형이 20% 증가하며 치명타 저항이 20% 감소됩니다. 한기는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
+47612000	CritResist	0.00	0.00	perc	600000	0	0.60	약한 추위			균형이 40% 증가하며 치명타 저항이 40% 감소됩니다. 또한 차지 속도가 10% 감소됩니다.  약한 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
 47612000	CastSpeed	0.00	0.00	perc	600000	0	0.90	약한 추위			균형이 40% 증가하며 치명타 저항이 40% 감소됩니다. 또한 차지 속도가 10% 감소됩니다.  약한 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
+47612100	CritResist	0.00	0.00	perc	600000	0	0.40	설원의 추위			균형이 60% 증가하며 치명타 저항이 60% 감소됩니다. 또한 차지 속도가 20% 감소되며 공격 속도가 각각 5%씩 감소됩니다.  설원의 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
 47612100	ASpd	0.00	0.00	perc	600000	0	0.95	설원의 추위			균형이 60% 증가하며 치명타 저항이 60% 감소됩니다. 또한 차지 속도가 20% 감소되며 공격 속도가 각각 5%씩 감소됩니다.  설원의 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
 47612100	CastSpeed	0.00	0.00	perc	600000	0	0.80	설원의 추위			균형이 60% 증가하며 치명타 저항이 60% 감소됩니다. 또한 차지 속도가 20% 감소되며 공격 속도가 각각 5%씩 감소됩니다.  설원의 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
+47612200	CritResist	0.00	0.00	perc	600000	0	0.20	혹한의 추위			균형이 80% 증가하며 치명타 저항이 80% 감소됩니다. 또한 차지 속도가 30% 감소되며 공격 속도가 각각 10%씩 감소됩니다.  혹한의 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
 47612200	ASpd	0.00	0.00	perc	600000	0	0.90	혹한의 추위			균형이 80% 증가하며 치명타 저항이 80% 감소됩니다. 또한 차지 속도가 30% 감소되며 공격 속도가 각각 10%씩 감소됩니다.  혹한의 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
 47612200	CastSpeed	0.00	0.00	perc	600000	0	0.70	혹한의 추위			균형이 80% 증가하며 치명타 저항이 80% 감소됩니다. 또한 차지 속도가 30% 감소되며 공격 속도가 각각 10%씩 감소됩니다.  혹한의 추위는 해제 할 수 없습니다.	icon_status.minuscriticalresist_tex
 47612300	Power	0.00	0.00	perc	60000	0	1.20	공격력 증가 III			힘이 20% 향상됩니다.	icon_status.plusattack_tex
@@ -2166,6 +2176,7 @@
 47703500	Block	0.00	0.00	swch	10000	0	0.00	여왕의 주박			지속 시간 동안 제 자리에서 움직일 수 없으며, 그 어떤 종류의 이동,방어 스킬도 사용할 수 없습니다!	icon_status.minusmove_tex
 47703600	ASpd	0.00	0.00	perc	7200000	0	1.10	끝 없는 힘			공격 속도가 10% 증가됩니다. 이 효과는 최대 3번 중첩됩니다.	icon_status.plusmove_tex
 47710000	Endurance	0.00	0.00	perc	30000	0	0.00	붕괴된 신체			균형이 100% 감소하며 치명타 저항이 100% 감소됩니다.또한 맷집이 100% 감소됩니다. 지속 시간 이후 코어 방어막 효과가 발생합니다. 붕괴된 신체는 해제 할 수 없습니다.	icon_status.minusdefence_tex
+47710000	CritResist	0.00	0.00	perc	30000	0	0.00	붕괴된 신체			균형이 100% 감소하며 치명타 저항이 100% 감소됩니다.또한 맷집이 100% 감소됩니다. 지속 시간 이후 코어 방어막 효과가 발생합니다. 붕괴된 신체는 해제 할 수 없습니다.	icon_status.minusdefence_tex
 47710200	Power	0.00	0.00	perc	60000	0	1.10	툴사의 분노			매 중첩 시마다 힘이 10%씩 향상됩니다. 이 효과는 최대 10번까지 중첩됩니다. 툴사의 분노는 해제 할 수 없습니다.	icon_status.plusattack_tex
 47710300	Power	0.00	0.00	perc	60000	0	1.20	세리온의 자비			매 중첩 시마다 힘이 20%씩 향상됩니다. 이 효과는 최대 10번까지 중첩됩니다. 세라온의 자비는 해제 할 수 없습니다.	icon_status.plusattack_tex
 49400300	AtkPotion	0.00	0.00	perc	120000	0	1.30	용솟음치는 투지			스킬 데미지가 30% 증가됩니다.	icon_status.plusattack_tex
@@ -2304,6 +2315,51 @@
 81112208	ASpd	0.00	0.00	abs	5000	0	19.00	쾌속			공격 속도 19 증가. 다운 시 해제.	icon_ep.ep_attack_speed_tex
 81112209	ASpd	0.00	0.00	abs	5000	0	21.00	쾌속			공격 속도 21 증가. 다운 시 해제.	icon_ep.ep_attack_speed_tex
 81112210	ASpd	0.00	0.00	abs	5000	0	23.00	쾌속			공격 속도 23 증가. 다운 시 해제.	icon_ep.ep_attack_speed_tex
+81120101	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120102	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120103	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120104	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120105	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120106	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120107	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120108	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120109	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120110	CritResist	0.00	0.00	abs	5000	0	5.00	치명적인 교훈			치명타 저항 5 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120111	CritResist	0.00	0.00	abs	5000	0	6.00	치명적인 교훈			치명타 저항 6 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120112	CritResist	0.00	0.00	abs	5000	0	6.00	치명적인 교훈			치명타 저항 6 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120113	CritResist	0.00	0.00	abs	5000	0	6.00	치명적인 교훈			치명타 저항 6 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120114	CritResist	0.00	0.00	abs	5000	0	6.00	치명적인 교훈			치명타 저항 6 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120115	CritResist	0.00	0.00	abs	5000	0	6.00	치명적인 교훈			치명타 저항 6 증가. 다운 시 해제.	icon_ep.ep_fatal_injury_tex
+81120301	CritResist	0.00	0.00	abs	5000	0	-3.00	치명타 저항 감소			치명타 저항 -3 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120302	CritResist	0.00	0.00	abs	5000	0	-4.00	치명타 저항 감소			치명타 저항 -4 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120303	CritResist	0.00	0.00	abs	5000	0	-5.00	치명타 저항 감소			치명타 저항 -5 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120304	CritResist	0.00	0.00	abs	5000	0	-6.00	치명타 저항 감소			치명타 저항 -6 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120305	CritResist	0.00	0.00	abs	5000	0	-7.00	치명타 저항 감소			치명타 저항 -7 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120306	CritResist	0.00	0.00	abs	5000	0	-8.00	치명타 저항 감소			치명타 저항 -8 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120307	CritResist	0.00	0.00	abs	5000	0	-9.00	치명타 저항 감소			치명타 저항 -9 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120308	CritResist	0.00	0.00	abs	5000	0	-10.00	치명타 저항 감소			치명타 저항 -10 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120309	CritResist	0.00	0.00	abs	5000	0	-11.00	치명타 저항 감소			치명타 저항 -11 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120310	CritResist	0.00	0.00	abs	5000	0	-12.00	치명타 저항 감소			치명타 저항 -12 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex
+81120401	CritResist	0.00	0.00	abs	10000	0	3.00	치명타 저항 증가			치명타 저항 3 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120402	CritResist	0.00	0.00	abs	10000	0	4.00	치명타 저항 증가			치명타 저항 4 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120403	CritResist	0.00	0.00	abs	10000	0	5.00	치명타 저항 증가			치명타 저항 5 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120404	CritResist	0.00	0.00	abs	10000	0	6.00	치명타 저항 증가			치명타 저항 6 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120405	CritResist	0.00	0.00	abs	10000	0	7.00	치명타 저항 증가			치명타 저항 7 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120406	CritResist	0.00	0.00	abs	10000	0	8.00	치명타 저항 증가			치명타 저항 8 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120407	CritResist	0.00	0.00	abs	10000	0	9.00	치명타 저항 증가			치명타 저항 9 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120408	CritResist	0.00	0.00	abs	10000	0	10.00	치명타 저항 증가			치명타 저항 10 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120409	CritResist	0.00	0.00	abs	10000	0	11.00	치명타 저항 증가			치명타 저항 11 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120410	CritResist	0.00	0.00	abs	10000	0	12.00	치명타 저항 증가			치명타 저항 12 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120411	CritResist	0.00	0.00	abs	10000	0	13.00	치명타 저항 증가			치명타 저항 13 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120412	CritResist	0.00	0.00	abs	10000	0	14.00	치명타 저항 증가			치명타 저항 14 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120413	CritResist	0.00	0.00	abs	10000	0	15.00	치명타 저항 증가			치명타 저항 15 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120414	CritResist	0.00	0.00	abs	10000	0	16.00	치명타 저항 증가			치명타 저항 16 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120415	CritResist	0.00	0.00	abs	10000	0	17.00	치명타 저항 증가			치명타 저항 17 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120416	CritResist	0.00	0.00	abs	10000	0	18.00	치명타 저항 증가			치명타 저항 18 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120417	CritResist	0.00	0.00	abs	10000	0	19.00	치명타 저항 증가			치명타 저항 19 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120418	CritResist	0.00	0.00	abs	10000	0	20.00	치명타 저항 증가			치명타 저항 20 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120419	CritResist	0.00	0.00	abs	10000	0	21.00	치명타 저항 증가			치명타 저항 21 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
+81120420	CritResist	0.00	0.00	abs	10000	0	22.00	치명타 저항 증가			치명타 저항 22 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex
 81123001	MovSpdInCombat	0.00	0.00	abs	3000	0	7.00	전투 가속 1단계			전투 상태 이동 속도 7 증가. 리액션 시 해제	icon_ep.ep_transfer_fightspeed_tex
 81123002	MovSpdInCombat	0.00	0.00	abs	3000	0	9.00	전투 가속 2단계			전투 상태 이동 속도 9 증가. 리액션 시 해제	icon_ep.ep_transfer_fightspeed_tex
 81123003	MovSpdInCombat	0.00	0.00	abs	3000	0	11.00	전투 가속 3단계			전투 상태 이동 속도 11 증가. 리액션 시 해제	icon_ep.ep_transfer_fightspeed_tex
