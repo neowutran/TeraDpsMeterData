@@ -169,8 +169,8 @@
 2085	Power	0.00	0.00	abs	0	0	20.00	역전의 함성 III			최대 HP가 50% 증가되고, 힘과 맷집이 20 증가됩니다. 추가로 이동 속도도 30만큼 증가됩니다.	icon_status.battlefieldbuff04_tex
 2085	Endurance	0.00	0.00	abs	0	0	20.00	역전의 함성 III			최대 HP가 50% 증가되고, 힘과 맷집이 20 증가됩니다. 추가로 이동 속도도 30만큼 증가됩니다.	icon_status.battlefieldbuff04_tex
 2097	Block	0.00	0.00	swch	3000	0	0.00	스킬 봉쇄			깜짝 놀란 아기쿠마스는 3초간 기본 공격을 제외한 모든 스킬을 사용할 수 없게 됩니다.	icon_status.sealskill_tex
-2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	치유의 오라			파괴된 석상에게서 회복의 기운을 얻었습니다. 주위 아군들의 체력을 주기적으로 회복 시킵니다.	icon_status.aura_of_regeneration_hp_tex
-2101	HPChange	3000.00	0.00	abs	5000	1	3000.00	회복의 기운			치유의 오라 효과로 회복의 기운을 얻었습니다. 1s마다 HP가 3000씩 점차 회복됩니다.	icon_skills.refreshbless_tex
+2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	치유의 오라			파괴된 석상에게서 회복의 기운을 얻었습니다. 주위 아기 쿠마스들의 체력을 주기적으로 회복 시킵니다.	icon_status.aura_of_regeneration_hp_tex
+2101	HPChange	6000.00	0.00	abs	5000	1	6000.00	회복의 기운			치유의 오라 효과로 회복의 기운을 얻었습니다. 1s마다 HP가 6000씩 점차 회복됩니다. 추가로 이동 속도가 80 증가합니다.	icon_skills.refreshbless_tex
 2103	Power	0.00	0.00	perc	4000	0	1.20	용맹함			대장 쿠마스 주위 모든 아군은 공격력이 20%만큼 증가합니다.	icon_status.buff_of_kaia_tex
 2500	HPChange	58.00	0.00	abs	12000	1	58.00	치유의 물약 I	6048	치유의 물약 I	1s마다 HP가 58씩 점차 회복됩니다.	icon_items.hp_durable_potion_level_1_tex
 2501	HPChange	90.00	0.00	abs	12000	1	90.00	치유의 물약 II	6050	치유의 물약 II	1s마다 HP가 90씩 점차 회복됩니다.	icon_items.hp_durable_potion_level_9_tex
@@ -593,6 +593,7 @@
 4955	AtkPotion	0.00	0.00	perc	1800000	0	1.15	강화의 물약	150535	유럽용 강화의 물약	공격력이 15% 증가됩니다. 서버간 파티 매칭 버프와 중첩되지 않습니다.	icon_status.plusattack_tex
 4956	HPChange	0.15	0.00	perc	1000	1	0.15	부활절 달걀 바구니	151377	부활절 달걀 바구니	전체 HP 대비 15%에 달하는 HP가 즉시 회복됩니다.	icon_items.ricecake_tex
 4956	HPChange	0.15	0.00	perc	1000	1	0.15	부활절 달걀 바구니	152296	할로윈 큐브 바구니	전체 HP 대비 15%에 달하는 HP가 즉시 회복됩니다.	icon_items.ricecake_tex
+4956	HPChange	0.15	0.00	perc	1000	1	0.15	부활절 달걀 바구니	155016	Exotic Beach Drink	전체 HP 대비 15%에 달하는 HP가 즉시 회복됩니다.	icon_items.ricecake_tex
 4957	HPChange	0.15	0.00	perc	1000	1	0.15	할로윈 큐브 바구니			전체 HP 대비 15%에 달하는 HP가 즉시 회복됩니다.	icon_items.sweetypumpkinpie_tex
 10100	HPChange	-11.00	0.00	abs	5000	1	-11.00	맹독 I [크리스탈]			1s마다 -11씩 HP가 지속적으로 감소됩니다.	icon_items.customize9ar_tex
 10101	HPChange	-23.00	0.00	abs	5000	1	-23.00	맹독 II [크리스탈]			1s마다 -23씩 HP가 지속적으로 감소됩니다.	icon_items.customize9br_tex
@@ -1147,10 +1148,10 @@
 400105	Crit	0.00	0.00	perc	27000	0	1.10	광폭화 VI			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
 400500	ASpd	0.00	0.00	perc	15000	0	1.20	광신 강림(조력의 문장)			공격 속도와 차징 속도가 20% 만큼 증가됩니다.	icon_skills.vitalconversion_tex
 400501	ASpd	0.00	0.00	perc	15000	0	1.40	광기 증폭 II			공격 속도와 차징 속도가 40% 만큼 증가됩니다.	icon_skills.gatheringrage_tex
-400700	Power	0.00	0.00	abs	30000	0	26.00	격노 I			힘이 26 만큼 향상되고, 충격과 균형도 각각 50%씩 향상됩니다. 추가로 다른 플레이어 캐릭터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
-400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	격노 I			힘이 26 만큼 향상되고, 충격과 균형도 각각 50%씩 향상됩니다. 추가로 다른 플레이어 캐릭터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
-400701	Power	0.00	0.00	abs	30000	0	29.00	격노 II			힘이 29 만큼 향상되고, 충격과 균형도 각각 60%씩 향상됩니다. 추가로 다른 플레이어 캐릭터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
-400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	격노 II			힘이 29 만큼 향상되고, 충격과 균형도 각각 60%씩 향상됩니다. 추가로 다른 플레이어 캐릭터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
+400700	Power	0.00	0.00	abs	30000	0	26.00	격노 I			힘이 26 만큼 향상되고, 충격과 균형도 각각 50%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
+400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	격노 I			힘이 26 만큼 향상되고, 충격과 균형도 각각 50%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
+400701	Power	0.00	0.00	abs	30000	0	29.00	격노 II			힘이 29 만큼 향상되고, 충격과 균형도 각각 60%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
+400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	격노 II			힘이 29 만큼 향상되고, 충격과 균형도 각각 60%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
 400800	Block	0.00	0.00	perc	6000	0	0.00	살기 분출 I			이동 속도가 60% 감소됩니다. 추가로 플레이어 캐릭터에게 효과 적용 시에는 효과 지속 시간 동안 회피 및 이동 계열 스킬을 사용할 수 없습니다.	icon_skills.murderousvent_tex
 400801	Block	0.00	0.00	perc	6000	0	0.00	살기 분출 II			이동 속도가 62% 감소됩니다. 추가로 플레이어 캐릭터에게 효과 적용 시에는 효과 지속 시간 동안 회피 및 이동 계열 스킬을 사용할 수 없습니다.	icon_skills.murderousvent_tex
 401400	Crit	0.00	0.00	abs	0	0	-18.00	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 40% 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex
@@ -1926,6 +1927,15 @@
 14400004	CDR	0.00	0.00	perc	900000	0	0.80	Power potion - CD, MP regen	152903	Emblem of Success	다음 효과들을 획득합니다.   연맹 스킬을 제외한 모든 스킬의 재사용 시간 20% 감소 매 초마다 전체 MP의 5% 회복	icon_status.darkriftareatimeshift_tex
 14400004	CDR	0.00	0.00	perc	900000	0	0.80	Power potion - CD, MP regen	152905	Sigil of Indestructible Flame	다음 효과들을 획득합니다.   연맹 스킬을 제외한 모든 스킬의 재사용 시간 20% 감소 매 초마다 전체 MP의 5% 회복	icon_status.darkriftareatimeshift_tex
 14400005	MovSpdInCombat	0.00	0.00	abs	900000	0	10.00	Fleetfoot	152910	Permanent Fleetfoot Potion	이동 속도가  10 증가됩니다.	icon_skills.speedupaura_tex
+15200001	Endurance	0.00	0.00	perc	1800000	0	1.20	라바투스의 갑각			라바투스의 갑각효과로 인해 1800s동안 방어력과 체력이 20% 증가합니다. 해당 효과는 축복해제 등의 스킬에 피격당하거나 사망 시 해제되지 않으며, 길드대전 지역을 이탈한 경우에만 자동으로 해제됩니다.	icon_skills.emergencyshield_tex
+15200002	Power	0.00	0.00	perc	1800000	0	1.20	드라칸의 불			드라칸의 불 효과로 인해 1800s동안 공격력이 20% 증가합니다. 해당 효과는 축복해제 등의 스킬에 피격당하거나 사망 시 해제되지 않으며, 길드대전 지역을 이탈한 경우에만 자동으로 해제됩니다.	icon_items.campfire_tex
+15200003	ASpd	0.00	0.00	perc	1800000	0	1.10	카이탄의 공포			카이탄의 공포 효과로 1800s동안 공격속도, 치명타 확률이 10%, 이동속도가 unk2, 증가합니다. 해당 효과는 축복해제 등의 스킬에 피격당하거나 사망 시 해제되지 않으며, 길드대전 지역을 이탈한 경우에만 자동으로 해제됩니다.	icon_status.darkriftrage_tex
+15200003	MovSpdInCombat	0.00	0.00	abs	1800000	0	20.00	카이탄의 공포			카이탄의 공포 효과로 1800s동안 공격속도, 치명타 확률이 10%, 이동속도가 unk2, 증가합니다. 해당 효과는 축복해제 등의 스킬에 피격당하거나 사망 시 해제되지 않으며, 길드대전 지역을 이탈한 경우에만 자동으로 해제됩니다.	icon_status.darkriftrage_tex
+15200003	CritChance	0.00	0.00	perc	1800000	0	1.10	카이탄의 공포			카이탄의 공포 효과로 1800s동안 공격속도, 치명타 확률이 10%, 이동속도가 unk2, 증가합니다. 해당 효과는 축복해제 등의 스킬에 피격당하거나 사망 시 해제되지 않으며, 길드대전 지역을 이탈한 경우에만 자동으로 해제됩니다.	icon_status.darkriftrage_tex
+15200006	ASpd	0.00	0.00	perc	300000	0	1.10	결전			길드원 모두가 결전의 의지를 불태워 PVP 공격력이 10, 공격속도가 10% 강화 됩니다.	icon_skills.guildskills_ccres2_tex
+15200008	Power	0.00	0.00	perc	30000	0	1.10	전초기지의 수호			전초기지의 수호 효과로 공격력과 방어력이 10% 강화 됩니다.	icon_status.aura_of_damage_tex
+15200008	Endurance	0.00	0.00	perc	30000	0	1.10	전초기지의 수호			전초기지의 수호 효과로 공격력과 방어력이 10% 강화 됩니다.	icon_status.aura_of_damage_tex
+15200009	CDR	0.00	0.00	swch	0	0	6.00	시간여행 부작용			파티 소환 류 스킬 사용 시 재사용 시간이 500% 배 증가합니다.	icon_status.darkriftareatimeshift_tex
 16300009	HPChange	0.01	0.00	perc	0	1	0.01	쾌적한 탑승(HP MP 회복)			탑승 중 매 초마다 HP와 MP가 0.5%씩 회복됩니다.	icon_status.collect_speedup_tex
 16300009	MPChange	0.00	0.01	perc	0	1	0.01	쾌적한 탑승(HP MP 회복)			탑승 중 매 초마다 HP와 MP가 0.5%씩 회복됩니다.	icon_status.collect_speedup_tex
 16300010	MPChange	0.00	0.01	perc	0	1	0.01	안락한 탑승(컨디션 및 MP 회복)			탑승 중 매 초마다 컨디션 및 전체 MP의 0.5%씩 회복됩니다.	icon_status.collect_speedup_tex
@@ -1966,6 +1976,7 @@
 44300035	Power	0.00	0.00	perc	30000	0	1.00	역병 면역 물약			마법사가 만든 지독한 역병에 면역 효과가 느껴집니다.	icon_items.potion2_tex
 44300036	Power	0.00	0.00	perc	30000	0	1.00	역병 면역 물약			마법사가 만든 지독한 역병에 면역 효과가 느껴집니다.	icon_items.potion2_tex
 44300037	Power	0.00	0.00	perc	30000	0	1.00	역병 면역 물약			마법사가 만든 지독한 역병에 면역 효과가 느껴집니다.	icon_items.potion2_tex
+44300044	HPChange	-0.06	0.00	perc	7000	1	-0.06	내상			내상을 입어 움직이지 못합니다. 이동 속도가 $value 감소되고, 1 마다 전체 HP 대비 6%에 달하는 HP가 지속적으로 감소됩니다.	icon_status.minuscriticalresist_tex
 44300046	DefPotion	0.00	0.00	perc	0	0	0.00	갈킨의 수호			마법사 갈킨이 걸어준 방어막으로, 공성 병기에 의한 피해를 대신 흡수합니다.	icon_status.plusedefence_tex
 44300047	Endurance	0.00	0.00	perc	10000	0	0.55	흑기사의 기백			베이다의 기백에 눌려 혼란 상태에 빠집니다. 맷집이 45% 감소되고, 잠시 동안 컨트롤 불능 상태가 됩니다.	icon_status.fearstatus_tex
 44300062	Block	0.00	0.00	swch	10000	0	0.00	고치화			애벌레의 침에 있는 성분에 의해 온 몸이 돌 처럼 굳어집니다.	icon_status.sealskill_tex
