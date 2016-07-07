@@ -19,8 +19,8 @@
 36	ASpd	0.00	0.00	perc	0	0	1.12	4th Anniversary Buff(Increase Attack Power)			Engage in spectacular battles! When attacking, damage increases by 20% and attack speed greatly increases as well.	icon_status.buff_of_kaia_tex
 37	MPChange	0.00	0.50	perc	0	1	0.50	4th Anniversary Buff(Decreased Cooldown)			Feel the fever! All skill cooldowns except for alliance skills decrease by 80%, and all MP regeneration increases immensely.	icon_status.pluswill_tex
 37	CDR	0.00	0.00	perc	0	0	0.20	4th Anniversary Buff(Decreased Cooldown)			Feel the fever! All skill cooldowns except for alliance skills decrease by 80%, and all MP regeneration increases immensely.	icon_status.pluswill_tex
-39	Power	0.00	0.00	perc	0	0	1.02	The Call of War			Increases Power, Attack Speed, and HP recovery by 2%.	icon_status.plusecritical_tex
-39	ASpd	0.00	0.00	perc	0	0	1.02	The Call of War			Increases Power, Attack Speed, and HP recovery by 2%.	icon_status.plusecritical_tex
+39	Power	0.00	0.00	perc	0	0	1.02	The Call of War			Increases skill damage, Attack Speed and HP recovery by 2%.	icon_status.plusecritical_tex
+39	ASpd	0.00	0.00	perc	0	0	1.02	The Call of War			Increases skill damage, Attack Speed and HP recovery by 2%.	icon_status.plusecritical_tex
 47	Attack	0.00	0.00	perc	9900000	0	1.50	Test_Skill Damage Increase/Aggro Reduction			Test Only! Increases all skill damage by 50%. Decreases Aggro  by 50%	icon_skills.voidtrap_tex
 601	Power	0.00	0.00	abs	0	0	20.00	Titanic Wrath I			Increases Power by 20. Increases Attack Speed by 6.	icon_skills.rage_tex
 601	ASpd	0.00	0.00	abs	0	0	6.00	Titanic Wrath I			Increases Power by 20. Increases Attack Speed by 6.	icon_skills.rage_tex
@@ -132,6 +132,7 @@
 2070	ASpd	0.00	0.00	perc	180000	0	1.20	Powerful Morale			Increases Power by 20, Endurance by 10, and Attack Speed by 20%. Increases Movement Speed by 10.	icon_status.battlefieldbuff03_tex
 2071	Endurance	0.00	0.00	perc	0	0	1.00	Powerful Foe			Killing this monster gives the Powerful Morale effect, which increases Power, Endurance, Attack Speed, and Movement Speed for all team members.	icon_status.battlefieldbuff03_tex
 2072	DefPotion	0.00	0.00	perc	10000	0	0.00	Clemency			Immune to player attacks, including knockdown or stagger. Greatly improved resistance to harmful effects. Canceled upon using a combat skill.	icon_status.mpsuckup_tex
+2075	DefPotion	0.00	0.00	perc	8000	0	0.00	Clemency (Baby Kumas)			Immune to player attacks, including knockdown or stagger. Greatly improved resistance to harmful effects. Canceled upon using a combat skill.	icon_status.mpsuckup_tex
 2080	Power	0.00	0.00	abs	0	0	40.00	Desperate Resolve			Increases maximum HP by 50%, increases Endurance & Power by 40. Increases Movement Speed by 50. Effect disappears when the score gap between you and the opposing team diminishes.	icon_status.battlefieldbuff04_tex
 2080	Endurance	0.00	0.00	abs	0	0	40.00	Desperate Resolve			Increases maximum HP by 50%, increases Endurance & Power by 40. Increases Movement Speed by 50. Effect disappears when the score gap between you and the opposing team diminishes.	icon_status.battlefieldbuff04_tex
 2082	DefPotion	0.00	0.00	perc	30000	0	0.00	Thermal Layer			Greatly reduces damage from and improves resistance against other players, knockdown, and stagger.	icon_status.mpsuckup_tex
@@ -141,6 +142,10 @@
 2084	Endurance	0.00	0.00	abs	0	0	15.00	Cry of Retaliation II			Increases maximum HP by 30%. Increases Power and Endurance by 15. Increases Movement Speed by 20.	icon_status.battlefieldbuff04_tex
 2085	Power	0.00	0.00	abs	0	0	20.00	Cry of Retaliation III			Increases maximum HP by 50%. Increases Power and Endurance by 20. Increases Movement Speed by 30.	icon_status.battlefieldbuff04_tex
 2085	Endurance	0.00	0.00	abs	0	0	20.00	Cry of Retaliation III			Increases maximum HP by 50%. Increases Power and Endurance by 20. Increases Movement Speed by 30.	icon_status.battlefieldbuff04_tex
+2097	Block	0.00	0.00	swch	3000	0	0.00	Skill Ban			Baby Kumas is frightened and cannot use skills except for Tantrum for 3 seconds.	icon_status.sealskill_tex
+2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	Aura of Healing			Gained Healing Energy from the destroyed Pallialith. HP of nearby allies will regenerate regularly.	icon_status.aura_of_regeneration_hp_tex
+2101	HPChange	3000.00	0.00	abs	5000	1	3000.00	Healing Energy			Gained healing energy from Aura of Healing effect. HP increases by 3000 every 1s.	icon_skills.refreshbless_tex
+2103	Power	0.00	0.00	perc	4000	0	1.20	Bravery			Attack Power of Kumas Boss's Kumases increase by 20%.	icon_status.buff_of_kaia_tex
 2500	HPChange	58.00	0.00	abs	12000	1	58.00	Healing Elixir I	6048	Healing Elixir I	Recovers 58 HP every 1s.	icon_items.hp_durable_potion_level_1_tex
 2501	HPChange	90.00	0.00	abs	12000	1	90.00	Healing Elixir II	6050	Healing Elixir II	Recovers 90 HP every 1s.	icon_items.hp_durable_potion_level_9_tex
 2502	HPChange	140.00	0.00	abs	12000	1	140.00	Healing Elixir III	6052	Healing Elixir III	Recovers 140 HP every 1s.	icon_items.hp_durable_potion_level_17_tex
@@ -299,6 +304,7 @@
 2701	CritPower	0.00	0.00	abs	900000	0	1.42	Onslaught Scroll: Crit Power VII	201006	30-Day Everful Nostrum	Increases Crit Power by 1.42.	icon_items.scroll_cri_power_level_59_tex
 2701	CritPower	0.00	0.00	abs	900000	0	1.42	Onslaught Scroll: Crit Power VII	201007	7-Day Everful Nostrum	Increases Crit Power by 1.42.	icon_items.scroll_cri_power_level_59_tex
 2701	CritPower	0.00	0.00	abs	900000	0	1.42	Onslaught Scroll: Crit Power VII	201008	1-Day Everful Nostrum	Increases Crit Power by 1.42.	icon_items.scroll_cri_power_level_59_tex
+2701	CritPower	0.00	0.00	abs	900000	0	1.42	Onslaught Scroll: Crit Power VII	201022	Elite Everful Nostrum	Increases Crit Power by 1.42.	icon_items.scroll_cri_power_level_59_tex
 2725	ASpd	0.00	0.00	abs	900000	0	2.00	Onslaught Scroll: Attack Speed I	6207	Onslaught Scroll: Attack Speed I	Increases Attack Speed by 2.	icon_items.scroll_atk_speed_level_1_tex
 2726	ASpd	0.00	0.00	abs	900000	0	4.00	Onslaught Scroll: Attack Speed II	6208	Onslaught Scroll: Attack Speed II	Increases Attack Speed by 4.	icon_items.scroll_atk_speed_level_23_tex
 2727	ASpd	0.00	0.00	abs	900000	0	5.00	Onslaught Scroll: Attack Speed III	6209	Onslaught Scroll: Attack Speed III	Increases Attack Speed by 5.	icon_items.scroll_atk_speed_level_35_tex
@@ -313,6 +319,7 @@
 2730	ASpd	0.00	0.00	abs	900000	0	10.00	Onslaught Scroll: Attack Speed VI	201006	30-Day Everful Nostrum	Increases Attack Speed by 10.	icon_items.scroll_atk_speed_level_59_tex
 2730	ASpd	0.00	0.00	abs	900000	0	10.00	Onslaught Scroll: Attack Speed VI	201007	7-Day Everful Nostrum	Increases Attack Speed by 10.	icon_items.scroll_atk_speed_level_59_tex
 2730	ASpd	0.00	0.00	abs	900000	0	10.00	Onslaught Scroll: Attack Speed VI	201008	1-Day Everful Nostrum	Increases Attack Speed by 10.	icon_items.scroll_atk_speed_level_59_tex
+2730	ASpd	0.00	0.00	abs	900000	0	10.00	Onslaught Scroll: Attack Speed VI	201022	Elite Everful Nostrum	Increases Attack Speed by 10.	icon_items.scroll_atk_speed_level_59_tex
 2890	Block	0.00	0.00	seta	10000	0	0.00	Unfocusing Bomb	6258	Unfocusing Bomb	Cannot use lock on skills.	icon_items.cancel_lockon_potion_level_51_tex
 2905	Block	0.00	0.00	seta	8000	0	0.00	Bramblefoot Bomb	6259	Bramblefoot Bomb	Cannot use evading or movement skills.	icon_items.cancel_evade_potion_level_51_tex
 2930	StaminaDecay	0.00	0.00	seta	300000	0	0.00	Panaceaic Bolster I	6260	Panaceaic Bolster I	Stamina does not decrease.	icon_items.condition_safe_potion_level_11_tex
@@ -343,6 +350,7 @@
 2976	CDR	0.00	0.00	perc	1800000	0	0.85	Extensive Battle Nostrum V	201006	30-Day Everful Nostrum	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_60_tex
 2976	CDR	0.00	0.00	perc	1800000	0	0.85	Extensive Battle Nostrum V	201007	7-Day Everful Nostrum	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_60_tex
 2976	CDR	0.00	0.00	perc	1800000	0	0.85	Extensive Battle Nostrum V	201008	1-Day Everful Nostrum	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_60_tex
+2976	CDR	0.00	0.00	perc	1800000	0	0.85	Extensive Battle Nostrum V	201022	Elite Everful Nostrum	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_60_tex
 3000	Power	0.00	0.00	abs	60000	0	3.00	Energy of Dark Red Wings			Increases Power by 3 Attack Speed by 2%, Crit Chance by 2, Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
 3000	Crit	0.00	0.00	abs	60000	0	2.00	Energy of Dark Red Wings			Increases Power by 3 Attack Speed by 2%, Crit Chance by 2, Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
 3000	ASpd	0.00	0.00	perc	60000	0	1.02	Energy of Dark Red Wings			Increases Power by 3 Attack Speed by 2%, Crit Chance by 2, Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
@@ -744,16 +752,16 @@
 28132	AtkPotion	0.00	0.00	perc	6000	0	1.40	Powerlinked Shocking Implosion			Increases damage of Final Reprisal by 40%.	icon_skills.damagedeal_tex
 29010	ASpd	0.00	0.00	perc	10000	0	1.15	Swift Spiral Barrage			Increases Attack Speed by 15%.	icon_skills.comboattack2_tex
 29011	Crit	0.00	0.00	perc	0	0	2.00	Glyph of Keenness			Doubles Crit Factor.	icon_crest.crestpassivecriticalup_tex
-29020	AtkPotion	0.00	0.00	perc	5000	0	1.20	Powerlinked Double Shear			Increases damage of Grim Strike by 20%.	icon_skills.chainsmash_tex
+29020	AtkPotion	0.00	0.00	perc	5000	0	1.30	Powerlinked Double Shear			Increases damage of Grim Strike by 30%.	icon_skills.chainsmash_tex
 29040	AtkPotion	0.00	0.00	perc	5000	0	1.20	Powerlinked Death Spiral			Increases damage of Double Shear by 20%.	icon_skills.chainbrandish_tex
-29041	AtkPotion	0.00	0.00	perc	5000	0	1.20	Powerlinked Death Spiral			Increases damage of Grim Strike by 20%.	icon_skills.chainbrandish_tex
+29041	AtkPotion	0.00	0.00	perc	5000	0	1.30	Powerlinked Death Spiral			Increases damage of Grim Strike by 30%.	icon_skills.chainbrandish_tex
 29050	ASpd	0.00	0.00	perc	7000	0	0.90	Numbing Whipsaw			Decreases Attack Speed by  10% per overlapping hit.	icon_skills.chainblade_tex
 29060	CritChance	0.00	0.00	abs	5000	0	0.30	Powerlinked Pendulum Strike			Increases the chance to crit of Whipsaw by 30%.	icon_skills.chainuppercut_tex
 29090	ASpd	0.00	0.00	perc	5000	0	1.50	Blazing Cable Step			Successful Cable Step strike speeds next skill's casting by 50%.	icon_skills.reversecapture_tex
 29100	AtkPotion	0.00	0.00	perc	5000	0	1.20	Powerlinked Cable Step			Increases damage of Shadow Burst by 20%.	icon_skills.reversecapture_tex
 29110	MovSpdInCombat	0.00	0.00	abs	2000	0	50.00	Fleetfooted Shadow Step			Increases combat Movement Speed by 50.	icon_skills.instantleap_tex
 29111	Crit	0.00	0.00	perc	0	0	2.00	Keen Grim Strike			Doubles Crit Factor for the next attack.	icon_skills.chainsuperblow_tex
-29112	AtkPotion	0.00	0.00	perc	5000	0	1.25	Powerlinked Death Spiral			Increases damage of Grim Strike by 25%.	icon_skills.chainbrandish_tex
+29112	AtkPotion	0.00	0.00	perc	5000	0	1.35	Powerlinked Death Spiral			Increases damage of Grim Strike by 35%.	icon_skills.chainbrandish_tex
 29113	Crit	0.00	0.00	perc	0	0	3.00	Keen Grim Strike			Triples Crit Factor.	icon_skills.chainsuperblow_tex
 30020	ASpd	0.00	0.00	perc	10100	0	1.15	Swift Blast			Increases Attack Speed by 15%.	icon_skills.cannonshot_tex
 30050	ASpd	0.00	0.00	perc	3100	0	1.30	Swift Arcane Barrage			Increases Attack Speed by 30%.	icon_skills.arcaneshockshot01_tex
@@ -855,6 +863,7 @@
 70449	Block	0.00	0.00	swch	300000	0	0.00	Sly Trap			You are paralyzed, and cannot move.	icon_status.staminadown_tex
 70451	Block	0.00	0.00	swch	600000	0	0.00	Stalking			You are invisible for a short time	icon_status.staminadown_tex
 70454	Block	0.00	0.00	swch	600000	0	0.00	Infiltration			Temporarily invisible. You cannot use skills while invisible.	icon_status.staminadown_tex
+76756	HPChange	-5000.00	0.00	abs	30000	2	-5000.00	Waste Water			Deals 5,000 damage every 2 seconds.	icon_status.purifydagon_tex
 81163	Power	0.00	0.00	abs	600000	0	0.00	Overly-Attached Friend			You have overused Friend Summon. You need to give your friends their space before you can use Friend Summon again.	icon_status.darkriftareatimeshift_tex
 82102	Endurance	0.00	0.00	perc	45000	0	1.30	Potion of Shielding			Decreases damage from projectiles for 45s.	icon_items.potion16_tex
 82601	MovSpdInCombat	0.00	0.00	seta	5000	0	0.00	Sanguine Snag			Blood magic impedes movement.	icon_status.staminadown_tex
@@ -884,10 +893,10 @@
 100103	Power	0.00	0.00	abs	0	0	18.00	Assault Stance IV			Increases Power by 18 and Crit Factor by 55. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
 100103	Endurance	0.00	0.00	perc	0	0	0.90	Assault Stance IV			Increases Power by 18 and Crit Factor by 55. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
 100103	Crit	0.00	0.00	abs	0	0	55.00	Assault Stance IV			Increases Power by 18 and Crit Factor by 55. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100200	Endurance	0.00	0.00	perc	0	0	1.15	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Attacks draw 45% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
-100201	Endurance	0.00	0.00	perc	0	0	1.20	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Attacks draw 55% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
-100202	Endurance	0.00	0.00	perc	0	0	1.25	Defensive Stance III			Increases Endurance by 25% and Balance Factor by 20. Attacks draw 70% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
-100203	Endurance	0.00	0.00	perc	0	0	1.25	Defensive Stance IV			Increases Endurance by 25% and Balance Factor by 30. Attacks draw 85% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
+100200	Endurance	0.00	0.00	perc	0	0	1.15	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
+100201	Endurance	0.00	0.00	perc	0	0	1.20	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
+100202	Endurance	0.00	0.00	perc	0	0	1.25	Defensive Stance III			Increases Endurance by 25% and Balance Factor by 20. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
+100203	Endurance	0.00	0.00	perc	0	0	1.25	Defensive Stance IV			Increases Endurance by 25% and Balance Factor by 30. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
 100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Poison Blade			Reduces HP by -116 every 2s.	icon_skills.poisonblowattack_tex
 100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Poison Blade			Reduces HP by -175 every 2s.	icon_skills.poisonblowattack_tex
 100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Poison Blade			Reduces HP by -292 every 2s.	icon_skills.poisonblowattack_tex
@@ -916,6 +925,7 @@
 101300	Endurance	0.00	0.00	perc	27000	0	1.00	Traverse Cut			Reduces Endurance by 0.35%. The effect stacks up to 13 times.	icon_skills.dualrapidpiercing_tex
 101500	DefPotion	0.00	0.00	perc	15000	0	1.25	Reaping Slash			Takes 25% more damage from Scythe.	icon_skills.rupture_tex
 101600	Endurance	0.00	0.00	perc	15000	0	1.00	Smoke Flanker			Your shadow lasts for a set duration.	icon_skills.voidtrap_tex
+102500	Block	0.00	0.00	perc	180000	0	0.00	Infuriate			Locked in Defensive Stance.	icon_skills.provokerage_tex
 200230	Power	0.00	0.00	perc	0	0	1.30	Guardian Power I			Endurance increases by 91%, Power increases by 30% while within 40m of the caster.	icon_status.plusedefence_tex
 200230	Endurance	0.00	0.00	perc	0	0	1.91	Guardian Power I			Endurance increases by 91%, Power increases by 30% while within 40m of the caster.	icon_status.plusedefence_tex
 200231	Power	0.00	0.00	perc	0	0	1.30	Guardian Power II			Endurance increases by 91%, Power increases by 30% while within 40m of the caster.	icon_status.plusedefence_tex
@@ -925,13 +935,14 @@
 200300	Endurance	0.00	0.00	perc	12000	0	0.96	Debilitate			Decreases Endurance by 4% (stacks up to 3 times). In PvP, also decreases the effect of healing skills on you by 30% at any number of stacks.	icon_skills.armorbreak_tex
 200301	Endurance	0.00	0.00	perc	15000	0	0.96	Debilitate			Decreases Endurance by 4% (stacks up to 3 times). In PvP, also decreases the effect of healing skills on you by 30% at any number of stacks.	icon_skills.armorbreak_tex
 200302	Endurance	0.00	0.00	perc	18000	0	0.96	Debilitate			Decreases Endurance by 4% (stacks up to 3 times). In PvP, also decreases the effect of healing skills on you by 30% at any number of stacks.	icon_skills.armorbreak_tex
-200700	ASpd	0.00	0.00	perc	20000	0	1.15	Adrenaline Rush I			Increases Attack Speed by 15%.	icon_skills.fightingwill_tex
-200701	ASpd	0.00	0.00	perc	20000	0	1.20	Adrenaline Rush II			Increases Attack Speed by 20% and you earn 8% more aggro on every attack skill. Melee attack skill cooldown decreases by 50%.	icon_skills.fightingwill_tex
+200700	ASpd	0.00	0.00	perc	20000	0	1.15	Adrenaline Rush I			Increases Attack Speed by 15% and damage to monsters by 5%.	icon_skills.fightingwill_tex
+200701	ASpd	0.00	0.00	perc	20000	0	1.20	Adrenaline Rush II			Increases Attack Speed by 20% and damage to monsters by 5%.	icon_skills.fightingwill_tex
+200731	CDR	0.00	0.00	perc	20000	0	0.50	Adrenaline Rush II			Attacks draw 8% more aggro. Reduces cooldown of melee attack skills by 50%.	icon_skills.fightingwill_tex
 200930	DefPotion	0.00	0.00	perc	0	0	0.80	Pledge of Protection I			The lancer protecting you takes 20% of the damage you take and decreases damage received by 20%, as long as you stay within 20m.	icon_skills.vowofprotection_tex
 200931	DefPotion	0.00	0.00	perc	0	0	0.80	Pledge of Protection II			The lancer protecting you takes 20% of the damage you take and decreases damage received by 20%, as long as you stay within 20m.	icon_skills.vowofprotection_tex
 201200	ASpd	0.00	0.00	perc	5000	0	0.85	Menacing Wave			Decreases Movement Speed and Attack Speed by 15%.	icon_skills.menacewave_tex
-201701	Power	0.00	0.00	abs	50000	0	4.00	Line Held I			Increases aggro by 4%, Power by 4, and Crit Factor by 6. Stacks 10 times and is removed when you fail to block an attack.	icon_skills.defence_tex
-201701	Crit	0.00	0.00	abs	50000	0	6.00	Line Held I			Increases aggro by 4%, Power by 4, and Crit Factor by 6. Stacks 10 times and is removed when you fail to block an attack.	icon_skills.defence_tex
+201701	Power	0.00	0.00	abs	50000	0	4.00	Line Held I			Increases aggro by 4%, Power by 4, and Crit Factor by 6. Stacks up to 10 times and is removed when you are knocked down.	icon_skills.defence_tex
+201701	Crit	0.00	0.00	abs	50000	0	6.00	Line Held I			Increases aggro by 4%, Power by 4, and Crit Factor by 6. Stacks up to 10 times and is removed when you are knocked down.	icon_skills.defence_tex
 300200	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Backstabbed			Cannot move. Knockdown cancels the effect.	icon_skills.turnaroundattack_tex
 300201	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Backstabbed			Cannot move. Knockdown cancels the effect.	icon_skills.turnaroundattack_tex
 300300	Attack	0.00	0.00	perc	20000	0	1.30	Overpower I			Your next attack does 30% more damage.	icon_skills.gatheringstrength_tex
@@ -944,9 +955,9 @@
 300800	ASpd	0.00	0.00	perc	20000	0	1.06	In Cold Blood I			Increases Power by 26. Increases Attack Speed by 6%.	icon_skills.destructionvigor_tex
 300801	Power	0.00	0.00	abs	20000	0	29.00	In Cold Blood II			Increases Power by 29. Increases Attack Speed by 8%.. Ultimate Overhand Strike activated.	icon_skills.destructionvigor_tex
 300801	ASpd	0.00	0.00	perc	20000	0	1.08	In Cold Blood II			Increases Power by 29. Increases Attack Speed by 8%.. Ultimate Overhand Strike activated.	icon_skills.destructionvigor_tex
-300900	CDR	0.00	0.00	perc	15000	0	1.50	Exhausting Blow I			Increases all skill cooldowns by 50%.	icon_skills.veinslash_tex
-300901	CDR	0.00	0.00	perc	15000	0	1.53	Exhausting Blow II			Increases all skill cooldowns by 53%.	icon_skills.veinslash_tex
-300902	CDR	0.00	0.00	perc	15000	0	1.55	Exhausting Blow III			Increases all skill cooldowns by 55%.	icon_skills.veinslash_tex
+300900	CDR	0.00	0.00	perc	11000	0	1.50	Exhausting Blow I			Increases all skill cooldowns by 50%.	icon_skills.veinslash_tex
+300901	CDR	0.00	0.00	perc	11000	0	1.53	Exhausting Blow II			Increases all skill cooldowns by 53%.	icon_skills.veinslash_tex
+300902	CDR	0.00	0.00	perc	11000	0	1.55	Exhausting Blow III			Increases all skill cooldowns by 55%.	icon_skills.veinslash_tex
 400100	Power	0.00	0.00	perc	15000	0	1.20	Fiery Rage I			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
 400100	Endurance	0.00	0.00	perc	15000	0	0.90	Fiery Rage I			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
 400100	Crit	0.00	0.00	perc	15000	0	1.10	Fiery Rage I			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
@@ -967,10 +978,10 @@
 400105	Crit	0.00	0.00	perc	27000	0	1.10	Fiery Rage VI			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
 400500	ASpd	0.00	0.00	perc	15000	0	1.20	Raging Unchained Anger			Increases Attack Speed by 20%, and skills charge faster.	icon_skills.vitalconversion_tex
 400501	ASpd	0.00	0.00	perc	15000	0	1.40	Flurry of Blows			Increases Attack Speed by 40%, and skills charge faster.	icon_skills.gatheringrage_tex
-400700	Power	0.00	0.00	abs	30000	0	26.00	Bloodlust I			Increases Power by 26.  Increases Balance Factor and Impact Factor by 50%. Inflicts 10% more damage when attacking other players.	icon_skills.fury_tex
-400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	Bloodlust I			Increases Power by 26.  Increases Balance Factor and Impact Factor by 50%. Inflicts 10% more damage when attacking other players.	icon_skills.fury_tex
-400701	Power	0.00	0.00	abs	30000	0	29.00	Bloodlust II			Increases Power by 29.  Increases Balance Factor and Impact Factor by 60%. Inflicts 10% more damage when attacking other players.	icon_skills.fury_tex
-400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	Bloodlust II			Increases Power by 29.  Increases Balance Factor and Impact Factor by 60%. Inflicts 10% more damage when attacking other players.	icon_skills.fury_tex
+400700	Power	0.00	0.00	abs	30000	0	26.00	Bloodlust I			Increases Power by 26.  Increases Balance Factor and Impact Factor by 50%. Increases damage to monsters by 10%.	icon_skills.fury_tex
+400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	Bloodlust I			Increases Power by 26.  Increases Balance Factor and Impact Factor by 50%. Increases damage to monsters by 10%.	icon_skills.fury_tex
+400701	Power	0.00	0.00	abs	30000	0	29.00	Bloodlust II			Increases Power by 29.  Increases Balance Factor and Impact Factor by 60%. Increases damage to monsters by 10%.	icon_skills.fury_tex
+400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	Bloodlust II			Increases Power by 29.  Increases Balance Factor and Impact Factor by 60%. Increases damage to monsters by 10%.	icon_skills.fury_tex
 400800	Block	0.00	0.00	perc	6000	0	0.00	Inescapable Doom I			Decreases Movement Speed by 60%. Players cannot use evasive or movement skills.	icon_skills.murderousvent_tex
 400801	Block	0.00	0.00	perc	6000	0	0.00	Inescapable Doom II			Decreases Movement Speed by 62%. Players cannot use evasive or movement skills.	icon_skills.murderousvent_tex
 401400	Crit	0.00	0.00	abs	0	0	-18.00	Intimidation			Gains aggro from monsters within 8m. Increases aggro generated from attack skills by 40%. You are immune to push-back from monsters, save for certain special attacks.	icon_skills.toughspirit_tex
@@ -1050,6 +1061,29 @@
 468047	ASpd	0.00	0.00	perc	0	0	2.00	Stabilized			Nightmare Imperator is temporarily unstoppable.	icon_status.darkriftarearage_tex
 468049	Power	0.00	0.00	perc	0	0	10.00	Bloodshard Suffusion			Nightmare Pahoegar's damage and Atack Speed are dramatically increased.	icon_skills.rampage_tex
 468049	ASpd	0.00	0.00	perc	0	0	2.00	Bloodshard Suffusion			Nightmare Pahoegar's damage and Atack Speed are dramatically increased.	icon_skills.rampage_tex
+470009	HPChange	-10000000.00	0.00	abs	0	1	-10000000.00	BTS				
+470015	HPChange	-0.05	0.00	perc	60000	1	-0.05	Snowed			You got fooled by Manglemore's servant. HP decrease by 5% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470015	Block	0.00	0.00	swch	60000	0	0.00	Snowed			You got fooled by Manglemore's servant. HP decrease by 5% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470017	HPChange	-0.05	0.00	perc	60000	1	-0.05	Snowed			You got fooled by Manglemore's servant. HP decrease by 5% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470017	Block	0.00	0.00	swch	60000	0	0.00	Snowed			You got fooled by Manglemore's servant. HP decrease by 5% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470018	HPChange	-0.05	0.00	perc	60000	1	-0.05	Snowed			You got fooled by Manglemore's servant. HP decrease by 5% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470018	Block	0.00	0.00	swch	60000	0	0.00	Snowed			You got fooled by Manglemore's servant. HP decrease by 5% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470020	Block	0.00	0.00	swch	13000	0	0.00	Stun			You are stunned. Pray for your allies' help.	icon_status.confuseup_tex
+470025	HPChange	-100000000.00	0.00	abs	3000	1	-100000000.00	Change of Heart - Sudden Death			Completely fooled by Manglemore. Your death is imminent.	
+470026	HPChange	-0.20	0.00	perc	60000	1	-0.20	Snowed			You got fooled by Manglemore. HP decrease by 20% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470026	Block	0.00	0.00	swch	60000	0	0.00	Snowed			You got fooled by Manglemore. HP decrease by 20% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470027	HPChange	-0.20	0.00	perc	60000	1	-0.20	Snowed			You got fooled by Manglemore. HP decrease by 20% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470027	Block	0.00	0.00	swch	60000	0	0.00	Snowed			You got fooled by Manglemore. HP decrease by 20% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470028	HPChange	-0.20	0.00	perc	60000	1	-0.20	Snowed			You got fooled by Manglemore. HP decrease by 20% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470028	Block	0.00	0.00	swch	60000	0	0.00	Snowed			You got fooled by Manglemore. HP decrease by 20% each second. Jump continuously to end effect.	icon_status.icedamage_tex
+470030	Power	0.00	0.00	perc	1200000	0	1.05	Change of Heart - Power Increase			You were not fooled by Manglemore. Your Power increases.	icon_skills.handyslash_tex
+470034	HPChange	-0.10	0.00	perc	10000	1	-0.10	Bleeding			HP decreases by 10% every second.	icon_status.injuredbtdarkness_tex
+470046	Endurance	0.00	0.00	perc	0	0	1.05	3 Times to Lie			Manglemore lies whenever No. 3 is present, and his Endurance increases by 5%.	icon_items.fireworks_num_3_tex
+470047	Endurance	0.00	0.00	perc	0	0	1.05	6 Times to Lie			Manglemore lies whenever No. 6 is present, and his Endurance increases by 5%.	icon_items.fireworks_num_6_tex
+470048	Endurance	0.00	0.00	perc	0	0	1.05	9 Times to Lie			Manglemore lies whenever No. 9 is present, and his Endurance increases by 5%.	icon_items.fireworks_num_9_tex
+470049	Power	0.00	0.00	perc	600000	0	1.10	Frustration			Manglemore is frustrated with the battle and is enraged.	icon_status.archerspirit_tex
+470049	ASpd	0.00	0.00	perc	600000	0	1.05	Frustration			Manglemore is frustrated with the battle and is enraged.	icon_status.archerspirit_tex
+470051	Power	0.00	0.00	perc	0	0	1.30	Party in the House!			Manglemore is overjoyed! His Power and Movement Speed increases!	icon_status.plusattack_tex
 475150	Power	0.00	0.00	perc	3600000	0	3.00	Rampancy			Kelsaik is rampant! No one can stop him now.	icon_status.confusestatusnpc_tex
 475150	ASpd	0.00	0.00	perc	3600000	0	1.30	Rampancy			Kelsaik is rampant! No one can stop him now.	icon_status.confusestatusnpc_tex
 475151	AtkPotion	0.00	0.00	perc	0	0	0.50	Futility			Decreases skill damage by 50%. Continuously affects all party members until Harbinger of Futility is removed from the affected party member.	icon_status.minusattack_tex
@@ -1463,10 +1497,11 @@
 830016	Block	0.00	0.00	swch	5000	0	0.00	Petrification			Stunned.	icon_status.sealskill_tex
 830020	Endurance	0.00	0.00	perc	15000	0	1.00	Level-Headed			Immune to Chaos! 	icon_skills.spiritofconfusion_tex
 830021	HPChange	-100000.00	0.00	perc	2000	1	-100000.00	For quest			For quest	icon_status.poisonstatus_tex
-830039	Power	0.00	0.00	perc	0	0	3.00	Crowd Pleaser			Power increases by 200%. Endurance increases by 200%. Attack Speed increases by 20%. Movement Speed increases by 10.	icon_skills.godbreath_tex
-830039	Endurance	0.00	0.00	perc	0	0	3.00	Crowd Pleaser			Power increases by 200%. Endurance increases by 200%. Attack Speed increases by 20%. Movement Speed increases by 10.	icon_skills.godbreath_tex
-830039	ASpd	0.00	0.00	perc	0	0	1.20	Crowd Pleaser			Power increases by 200%. Endurance increases by 200%. Attack Speed increases by 20%. Movement Speed increases by 10.	icon_skills.godbreath_tex
+830039	Power	0.00	0.00	perc	0	0	4.00	Crowd Pleaser			Power increases by 300%. Endurance increases by 300%. Attack Speed increases by 20%. Movement Speed increases by 10.	icon_skills.godbreath_tex
+830039	Endurance	0.00	0.00	perc	0	0	4.00	Crowd Pleaser			Power increases by 300%. Endurance increases by 300%. Attack Speed increases by 20%. Movement Speed increases by 10.	icon_skills.godbreath_tex
+830039	ASpd	0.00	0.00	perc	0	0	1.20	Crowd Pleaser			Power increases by 300%. Endurance increases by 300%. Attack Speed increases by 20%. Movement Speed increases by 10.	icon_skills.godbreath_tex
 830041	HPChange	-0.01	0.00	perc	5000	1	-0.01	Venom			Poisoned. Decreases 1% of maximum HP every 1s.	icon_status.poisonstatus_tex
+830043	HPChange	-0.05	0.00	perc	45000	3	-0.05	Venom			Poisoned. Decreases 5% of maximum HP every 3s.	icon_status.poisonstatus_tex
 860001	MovSpdInCombat	0.00	0.00	perc	10000	0	1.00	Suicidal Target			Targeted by suicide soldiers.	icon_skills.markingofarcher_tex
 860003	Endurance	0.00	0.00	perc	45000	0	1.00	Electrical Overload			Beware of overload—and avoid water!	icon_skills.excesselectron_tex
 860003	Endurance	0.00	0.00	perc	45000	0	1.00	Electrical Overload			Beware of overload—and avoid water!	icon_skills.excesselectron_tex
@@ -1524,7 +1559,7 @@
 905685	ASpd	0.00	0.00	perc	30000	0	1.20	Might of the Dark			The Dragon's Orb makes the Dark World-Dragon stronger.	icon_status.battlecommand03_tex
 905902	HPChange	-0.08	0.00	perc	16000	1	-0.08	Bleeding Out			Drains 8% of your maximum HP every 1s.	icon_status.injuredbtdarkness_tex
 905920	Endurance	0.00	0.00	perc	11000	0	100.00	R.I.P			You are unable to move. You are doomed unless the tombstone with your name on it disappears.	icon_status.positionswap_tex
-905924	Endurance	0.00	0.00	perc	7000	0	0.40	Terror of Rokdos			Decreases Endurance by 60% and sends you fleeing in terror.	icon_status.fearstatus_tex
+905924	Endurance	0.00	0.00	perc	3500	0	0.40	Terror of Rokdos			Decreases Endurance by 60% and sends you fleeing in terror.	icon_status.fearstatus_tex
 905928	HPChange	-0.05	0.00	perc	3000	1	-0.05	Curse of the Spectre			Drains 8% of maximum HP every second. Grants immunity to Viyor's full power attack.	icon_status.diseasedown_tex
 905928	Block	0.00	0.00	swch	3000	0	0.00	Curse of the Spectre			Drains 8% of maximum HP every second. Grants immunity to Viyor's full power attack.	icon_status.diseasedown_tex
 905932	Power	0.00	0.00	perc	0	0	1.10	Fiery Rage			Maximizes Power and Movement Speed, but decreases Defense by 35%	icon_skills.berserk_tex
@@ -1568,9 +1603,9 @@
 988524	Power	0.00	0.00	perc	0	1	1.05	Empower Minor			Increases Power by 5%.	icon_status.cruel_slayer_2_tex
 988525	Power	0.00	0.00	perc	0	1	1.10	Empower Major			Increases Power by 10%.	icon_status.cruel_slayer_4_tex
 988526	Power	0.00	0.00	perc	0	1	1.20	Empower Maximus			Increases Power by 20%.	icon_status.cruel_slayer_3_tex
-988571	Power	0.00	0.00	perc	10000	0	0.10	Weakness			Reduces Power by 90%. This effect cannot be removed.	icon_status.diseaseup_tex
-988572	HPChange	-1000000.00	0.00	abs	1000	1	-1000000.00	Doom			You die when effect ends. This effect cannot be removed.	icon_status.firedamage_tex
-988575	Block	0.00	0.00	swch	10000	0	0.00	Failure			Cannot trigger any new skills. Effect cannot be removed	icon_status.sealskill_tex
+988571	Power	0.00	0.00	perc	10000	0	0.10	Suryati's Curse (Weakness)			Reduces Power by 90%. Suryati's curses cannot be removed before expiration.	icon_status.diseaseup_tex
+988572	HPChange	-1000000.00	0.00	abs	1000	1	-1000000.00	Suryati's Curse (Doom)			You die when effect ends. Suryati's curses cannot be removed before expiration.	icon_status.firedamage_tex
+988575	Block	0.00	0.00	swch	10000	0	0.00	Suryati's Curse (Failure)			Unable to use skills. Suryati's curses cannot be removed before expiration.	icon_status.sealskill_tex
 990070	HPChange	0.00	0.00	perc	30000	1	0.00	Adiar's Protection			Adiar's holy energy. Recovers 0.25% of maximum HP every 1s.	icon_status.delayheal_tex
 990071	MPChange	0.00	0.00	perc	30000	1	0.00	Derene's Protection			Drene's core energy. Recovers 0.3% of maximum MP every 1s.	icon_status.aura_of_regeneration_mp_tex
 990072	Endurance	0.00	0.00	abs	30000	0	1.00	Frateko's Protection			Frateko's aura. Increases Endurance by 1.	icon_status.plusedefence_tex
@@ -1600,6 +1635,10 @@
 3000010	MPChange	0.00	0.01	perc	0	1	0.01	Invigorating Travel			Restores 0.5% of your maximum Stamina, HP, and MP every second.	icon_status.collect_speedup_tex
 3000011	HPChange	0.01	0.00	perc	0	1	0.01	Regal Travel			Restores 0.5% of your maximum Stamina, HP, and MP every second.	icon_status.collect_speedup_tex
 3000011	MPChange	0.00	0.01	perc	0	1	0.01	Regal Travel			Restores 0.5% of your maximum Stamina, HP, and MP every second.	icon_status.collect_speedup_tex
+3000013	HPChange	0.01	0.00	perc	0	1	0.01	Take Wing and Soar (HP)			Can fly in 'free to fly' regions.<br>Recovers 0.5% of your maximum HP every second.	icon_items.wings_of_fairy_tex
+3000014	MPChange	0.00	0.01	perc	0	1	0.01	Take Wing and Soar (MP)			Can fly in 'free to fly' regions.<br>Replenishes 0.5% of your maximum MP every second.	icon_items.wings_of_fairy_tex
+3000015	HPChange	0.01	0.00	perc	0	1	0.01	Take Wing and Soar (HP and MP)			Can fly in 'free to fly' regions.<br>Recovers 0.5% of your maximum HP and replenishes 0.5% of your maximum MP every second.	icon_items.wings_of_fairy_tex
+3000015	MPChange	0.00	0.01	perc	0	1	0.01	Take Wing and Soar (HP and MP)			Can fly in 'free to fly' regions.<br>Recovers 0.5% of your maximum HP and replenishes 0.5% of your maximum MP every second.	icon_items.wings_of_fairy_tex
 4510015	AtkPotion	0.00	0.00	perc	60000	0	1.03	Courageous Melody			The soothing melodies of the tuwangi reedflute make you feel more courageous; Increases skill damage by 3%.	icon_items.fallfestival_whistle_tex
 7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
 7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME	150940	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
@@ -1656,36 +1695,36 @@
 10152113	Power	0.00	0.00	abs	300000	0	0.00	Depleted Cells			Emergency Barrier cooldown is active.	icon_skills.emergencyshield_tex
 10152120	Endurance	0.00	0.00	perc	0	0	1.00	Overcharge			Willpower is now full.	icon_skills.excesselectron_tex
 10153020	Block	0.00	0.00	swch	3000	0	0.00	Off Balance			Disoriented in the air	icon_skills.lossofbalance_tex
-10153040	Power	0.00	0.00	abs	0	0	50.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 50. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
-10153040	Crit	0.00	0.00	abs	0	0	50.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 50. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
-10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 50. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
-10153040	CDR	0.00	0.00	perc	0	0	0.70	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 50. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
-10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 50. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
+10153040	Power	0.00	0.00	abs	0	0	30.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
+10153040	Crit	0.00	0.00	abs	0	0	30.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
+10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
+10153040	CDR	0.00	0.00	perc	0	0	0.70	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
+10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
 10153071	Power	0.00	0.00	abs	300000	0	0.00	Spent Fury			Deadly Fury cooldown is active.	icon_skills.ferociouswill_tex
 10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Hammered			Weakened by a flurry of rapid jabs. Decreases Endurance by 1%. Effect stacks up to 8 times.	icon_skills.rapidattack_tex
 10154030	MPChange	0.00	-20.00	abs	0	1	-20.00	Focus			Skill damage increased.	icon_skills.c12_atkupbuff
 10154030	AtkPotion	0.00	0.00	swch	0	0	1.05	Focus			Skill damage increased.	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0.00	0.00	swch	60000	0	1.01	Intense Focus			Skill damage increased.	icon_skills.c12_atkupbuff
 10154090	Endurance	0.00	0.00	perc	60000	0	1.00	Disguised			Duplicating a target.	icon_skills.c12_transform
-14400001	Stamina	0.00	0.00	abs	900000	0	15.00	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
-14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
-14400001	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
-14400002	Endurance	0.00	0.00	perc	900000	0	1.20	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
-14400002	ASpd	0.00	0.00	perc	900000	0	1.15	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
-14400002	MovSpdInCombat	0.00	0.00	abs	900000	0	10.00	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
-14400002	AtkPotion	0.00	0.00	perc	900000	0	1.20	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
-14400003	Endurance	0.00	0.00	perc	900000	0	1.20	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	ASpd	0.00	0.00	perc	900000	0	1.15	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	MovSpdInCombat	0.00	0.00	abs	900000	0	10.00	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	Stamina	0.00	0.00	abs	900000	0	15.00	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	HPChange	0.01	0.00	perc	900000	1	0.01	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	AtkPotion	0.00	0.00	perc	900000	0	1.20	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
-14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Power potion - CD, MP regen	152905	Sigil of Indestructible Flame		icon_status.darkriftareatimeshift_tex
-14400004	CDR	0.00	0.00	perc	900000	0	0.80	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
-14400004	CDR	0.00	0.00	perc	900000	0	0.80	Power potion - CD, MP regen	152905	Sigil of Indestructible Flame		icon_status.darkriftareatimeshift_tex
-14400005	MovSpdInCombat	0.00	0.00	abs	900000	0	10.00	Fleetfoot	152910	Permanent Fleetfoot Potion		icon_skills.speedupaura_tex
+14400001	Stamina	0.00	0.00	abs	900000	0	15.00	Emblem of Eminence	152903	Emblem of Success	Provides the following effects.    Increases maximum stamina by 15  Recovers 1% of total HP every second  Stamina doesn't drop  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc15_tex
+14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblem of Eminence	152903	Emblem of Success	Provides the following effects.    Increases maximum stamina by 15  Recovers 1% of total HP every second  Stamina doesn't drop  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc15_tex
+14400001	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Emblem of Eminence	152903	Emblem of Success	Provides the following effects.    Increases maximum stamina by 15  Recovers 1% of total HP every second  Stamina doesn't drop  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc15_tex
+14400002	Endurance	0.00	0.00	perc	900000	0	1.20	Glorious Memento	152904	Memento of Fame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases attack speed by 15%  Increases skill damage by 20%  Prevents crystals from breaking 1 time	icon_items.parts_lightweaponc9_tex
+14400002	ASpd	0.00	0.00	perc	900000	0	1.15	Glorious Memento	152904	Memento of Fame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases attack speed by 15%  Increases skill damage by 20%  Prevents crystals from breaking 1 time	icon_items.parts_lightweaponc9_tex
+14400002	MovSpdInCombat	0.00	0.00	abs	900000	0	10.00	Glorious Memento	152904	Memento of Fame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases attack speed by 15%  Increases skill damage by 20%  Prevents crystals from breaking 1 time	icon_items.parts_lightweaponc9_tex
+14400002	AtkPotion	0.00	0.00	perc	900000	0	1.20	Glorious Memento	152904	Memento of Fame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases attack speed by 15%  Increases skill damage by 20%  Prevents crystals from breaking 1 time	icon_items.parts_lightweaponc9_tex
+14400003	Endurance	0.00	0.00	perc	900000	0	1.20	Seal of the Undying Flame	152905	Sigil of Indestructible Flame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases Movement Speed in combat by 10  Increases attack speed by 15%  Increases maximum stamina by 10  Recovers 1% of total HP every second  Increases skill damage by 20%  Stamina doesn't drop  Prevents crystals from breaking 1 time  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc6_tex
+14400003	ASpd	0.00	0.00	perc	900000	0	1.15	Seal of the Undying Flame	152905	Sigil of Indestructible Flame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases Movement Speed in combat by 10  Increases attack speed by 15%  Increases maximum stamina by 10  Recovers 1% of total HP every second  Increases skill damage by 20%  Stamina doesn't drop  Prevents crystals from breaking 1 time  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc6_tex
+14400003	MovSpdInCombat	0.00	0.00	abs	900000	0	10.00	Seal of the Undying Flame	152905	Sigil of Indestructible Flame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases Movement Speed in combat by 10  Increases attack speed by 15%  Increases maximum stamina by 10  Recovers 1% of total HP every second  Increases skill damage by 20%  Stamina doesn't drop  Prevents crystals from breaking 1 time  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc6_tex
+14400003	Stamina	0.00	0.00	abs	900000	0	15.00	Seal of the Undying Flame	152905	Sigil of Indestructible Flame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases Movement Speed in combat by 10  Increases attack speed by 15%  Increases maximum stamina by 10  Recovers 1% of total HP every second  Increases skill damage by 20%  Stamina doesn't drop  Prevents crystals from breaking 1 time  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc6_tex
+14400003	HPChange	0.01	0.00	perc	900000	1	0.01	Seal of the Undying Flame	152905	Sigil of Indestructible Flame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases Movement Speed in combat by 10  Increases attack speed by 15%  Increases maximum stamina by 10  Recovers 1% of total HP every second  Increases skill damage by 20%  Stamina doesn't drop  Prevents crystals from breaking 1 time  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc6_tex
+14400003	AtkPotion	0.00	0.00	perc	900000	0	1.20	Seal of the Undying Flame	152905	Sigil of Indestructible Flame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases Movement Speed in combat by 10  Increases attack speed by 15%  Increases maximum stamina by 10  Recovers 1% of total HP every second  Increases skill damage by 20%  Stamina doesn't drop  Prevents crystals from breaking 1 time  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc6_tex
+14400003	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Seal of the Undying Flame	152905	Sigil of Indestructible Flame	Provides the following effects.    Increases total HP by 7%  Increases endurance by 20%  Increases Movement Speed in combat by 10  Increases attack speed by 15%  Increases maximum stamina by 10  Recovers 1% of total HP every second  Increases skill damage by 20%  Stamina doesn't drop  Prevents crystals from breaking 1 time  Increases the drop rate when hunting monsters by 100% (drop rate is influenced by the number of party members)	icon_items.parts_magicweaponc6_tex
+14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Cooldown and MP Replenishment	152903	Emblem of Success	Provides the following effects.    Reduces the cooldown of all skills (excluding alliance skills) by 20%  Recovers 5% of total MP every second	icon_status.darkriftareatimeshift_tex
+14400004	MPChange	0.00	0.05	perc	900000	1	0.05	Cooldown and MP Replenishment	152905	Sigil of Indestructible Flame	Provides the following effects.    Reduces the cooldown of all skills (excluding alliance skills) by 20%  Recovers 5% of total MP every second	icon_status.darkriftareatimeshift_tex
+14400004	CDR	0.00	0.00	perc	900000	0	0.80	Cooldown and MP Replenishment	152903	Emblem of Success	Provides the following effects.    Reduces the cooldown of all skills (excluding alliance skills) by 20%  Recovers 5% of total MP every second	icon_status.darkriftareatimeshift_tex
+14400004	CDR	0.00	0.00	perc	900000	0	0.80	Cooldown and MP Replenishment	152905	Sigil of Indestructible Flame	Provides the following effects.    Reduces the cooldown of all skills (excluding alliance skills) by 20%  Recovers 5% of total MP every second	icon_status.darkriftareatimeshift_tex
+14400005	MovSpdInCombat	0.00	0.00	abs	900000	0	10.00	Movement Speed	152910	Permanent Fleetfoot Potion	Increases Movement Speed by 10.	icon_skills.speedupaura_tex
 16300009	HPChange	0.01	0.00	perc	0	1	0.01	Comfortable Travel			Restores 0.5% of your max HP and MP every second.	icon_status.collect_speedup_tex
 16300009	MPChange	0.00	0.01	perc	0	1	0.01	Comfortable Travel			Restores 0.5% of your max HP and MP every second.	icon_status.collect_speedup_tex
 16300010	MPChange	0.00	0.01	perc	0	1	0.01	Relaxing Travel 			Rejuvenates 0.5% of your maximum Stamina and maximum MP every second.	icon_status.collect_speedup_tex
@@ -1726,6 +1765,7 @@
 44300035	Power	0.00	0.00	perc	30000	0	1.00	Plague Immunity Potion			Immune to a powerful plague.	icon_items.potion2_tex
 44300036	Power	0.00	0.00	perc	30000	0	1.00	Plague Immunity Potion			Immune to a powerful plague.	icon_items.potion2_tex
 44300037	Power	0.00	0.00	perc	30000	0	1.00	Plague Immunity Potion			Immune to a powerful plague.	icon_items.potion2_tex
+44300044	HPChange	-0.06	0.00	perc	7000	1	-0.06	Internal Wounds			Decreases Movement Speed by $value. Reduces HP by 6% of maximum every 1.	icon_status.minuscriticalresist_tex
 44300046	DefPotion	0.00	0.00	perc	0	0	0.00	Unsiegeable			Shielded from all damage by siege weapons.	icon_status.plusedefence_tex
 44300047	Endurance	0.00	0.00	perc	10000	0	0.55	Confuzzled			Decreases Endurance by 45%. Unable to control yourself.	icon_status.fearstatus_tex
 44300062	Block	0.00	0.00	swch	10000	0	0.00	Cocoonization			Immobilized by the larva's silk.	icon_status.sealskill_tex
@@ -1994,11 +2034,11 @@
 77703416	Endurance	0.00	0.00	perc	0	0	10000.00	Demokron Fortification			Defense is increased by nearby demokrons. The effect lasts until all demokrons are gone.	icon_status.darkriftwhisper_tex
 77703426	Power	0.00	0.00	perc	600000	0	1.10	Predation			Eating demokrons increases power.	icon_status.minusdiseaseresist_tex
 77703429	HPChange	0.05	0.00	perc	1000	1	0.05	HP Regeneration			No debuff tooltip display (isShow=False). If this tooltip displays, BTS is required!	
-77703431	HPChange	-10000.00	0.00	abs	20000	2	-10000.00	Demokron Infection			Reduces HP at regular intervals. Healing skills affecting you recover fewer HP.	icon_status.minuscriticalresist_tex
+77703431	HPChange	-5000.00	0.00	abs	20000	2	-5000.00	Demokron Infection			Reduces HP at regular intervals. Healing skills affecting you recover fewer HP.	icon_status.minuscriticalresist_tex
 77703432	Power	0.00	0.00	perc	20000	0	3.00	Demokron Mutation			Rapidly reduces HP. At the same time, you can feel the power of Demokron coursing through your body.	icon_status.delaydamage_tex
 77703432	HPChange	-12000.00	0.00	abs	20000	2	-12000.00	Demokron Mutation			Rapidly reduces HP. At the same time, you can feel the power of Demokron coursing through your body.	icon_status.delaydamage_tex
 77703435	Endurance	0.00	0.00	perc	15000	0	10000.00	Demokron Cells			You are covered with demokron cells. You take less damage from Demokron for this effect's duration.	icon_status.balanceup_tex
-77703437	Power	0.00	0.00	perc	10000	0	1.20	Fiery Rage			Krakatox is going berserk. Each time this effect stacks, Krakatox's Power increases.	icon_status.diseaseup_tex
+77703437	Power	0.00	0.00	perc	15000	0	1.20	Fiery Rage			Krakatox is going berserk. Each time this effect stacks, Krakatox's Power increases.	icon_status.diseaseup_tex
 77703442	HPChange	-0.25	0.00	perc	1000	1	-0.25	Demokron Virus			The Demokron virus that has infected you is so powerful that it has taken a toll on its own carrier Demokron.	icon_status.cruel_slayer_3_tex
 77703443	Endurance	0.00	0.00	perc	0	0	10.00	Demokron Hide			Protected by impenetrable skin, the Demokrons are now invulnerable to normal attacks.	icon_status.plusedefence_tex
 80900001	Endurance	0.00	0.00	setp	15000	0	0.30	Gutripped			Decreases Endurance and Movement Speed by 70%. Effect cannot be removed.	icon_status.minusdefence_tex
@@ -2654,7 +2694,7 @@
 97504300	Power	0.00	0.00	perc	60000	0	1.50	Provocation of Kelsaik			Increases Power and Attack Speed by 50%. Target dies when effect ends.	icon_status.poisonstatus_tex
 97504300	ASpd	0.00	0.00	perc	60000	0	1.50	Provocation of Kelsaik			Increases Power and Attack Speed by 50%. Target dies when effect ends.	icon_status.poisonstatus_tex
 97900001	Endurance	0.00	0.00	perc	3600000	0	0.99	Fading from Fatigue			Decreases Endurance by 1%.	icon_status.plusedefence_tex
-97950001	MovSpdInCombat	0.00	0.00	perc	360000	0	3.00	Elemental Blast			Immune to knock-down and stagger for $time.	icon_status.darkriftdestroy_tex
+97950001	MovSpdInCombat	0.00	0.00	perc	360000	0	3.00	Elemental Blast			Immune to knockdown and stagger for $time.	icon_status.darkriftdestroy_tex
 97950002	MovSpdInCombat	0.00	0.00	perc	360000	0	3.00	Elemental Duo			Can use Elemental Blast and Elemental Fire. Immune to knock-down and stagger for $time.	icon_status.darkriftdestroy_tex
 97950003	MovSpdInCombat	0.00	0.00	perc	360000	0	3.00	Elemental Triad			Can use Elemental Blast, Elemental Fire, and Elemental Ice. Immune to knock-down and stagger for $time.	icon_status.darkriftdestroy_tex
 97950004	MovSpdInCombat	0.00	0.00	perc	360000	0	3.00	Elemental Spectrum			Can use Elemental Blast, Elemental Fire, Elemental Ice, and Elemental Muck. Immune to knock-down and stagger for $time.	icon_status.darkriftdestroy_tex
@@ -2675,17 +2715,17 @@
 98000091	HPChange	-0.06	0.00	perc	10000	3	-0.06	Wing Clip			Decreases Movement Speed by 50%. Reduces HP by 6% of maximum every 3.	icon_status.minuscriticalresist_tex
 98000092	HPChange	0.00	0.00	perc	12000	3	0.00	Cheeper's Blessing			Recovers 0.33% of maximum HP every 3s. Stacks up to 3 times.	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	50000.00	0.00	abs	1000	1	50000.00	Priest's Touch			Recovers 30,000 HP.	icon_items.potion5_tex
-98000100	Power	0.00	0.00	abs	10000000	0	25.00	Potion of Blessing			Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	Power	0.00	0.00	abs	10000000	0	40.00	Potion of Blessing			Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	Power	0.00	0.00	perc	10000000	0	1.10	Potion of Blessing			Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	Endurance	0.00	0.00	abs	10000000	0	11.00	Potion of Blessing			Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	ASpd	0.00	0.00	abs	10000000	0	8.00	Potion of Blessing			Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	HPChange	773.00	0.00	abs	10000000	2	773.00	Potion of Blessing			Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000101	Power	0.00	0.00	abs	10000000	0	25.00	Potion of Verve			Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
-98000101	Power	0.00	0.00	perc	10000000	0	1.10	Potion of Verve			Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
-98000101	Endurance	0.00	0.00	perc	10000000	0	1.10	Potion of Verve			Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
-98000101	Crit	0.00	0.00	perc	10000000	0	2.00	Potion of Verve			Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
-98000101	MPChange	0.00	20.00	abs	10000000	1	20.00	Potion of Verve			Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
+98000100	Power	0.00	0.00	abs	10000000	0	25.00	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000100	Power	0.00	0.00	abs	10000000	0	40.00	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000100	Power	0.00	0.00	perc	10000000	0	1.10	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000100	Endurance	0.00	0.00	abs	10000000	0	11.00	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000100	ASpd	0.00	0.00	abs	10000000	0	8.00	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000100	HPChange	773.00	0.00	abs	10000000	2	773.00	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000101	Power	0.00	0.00	abs	10000000	0	25.00	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
+98000101	Power	0.00	0.00	perc	10000000	0	1.10	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
+98000101	Endurance	0.00	0.00	perc	10000000	0	1.10	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
+98000101	Crit	0.00	0.00	perc	10000000	0	2.00	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
+98000101	MPChange	0.00	20.00	abs	10000000	1	20.00	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
 98000102	Power	0.00	0.00	abs	99999999	0	6.00	Perfect Attendance			Increases Power by 6%. Increases HP by 5%. Increased out-of-combat Movement Speed by 20.	
 98000103	ASpd	0.00	0.00	perc	0	0	1.04	Chain of Protection III			Attacks draw 20% more aggro. Increases Attack Speed by 4%. Reduces damage taken by 10%. Decreases the chance of knockdown or stagger by 30%.	
 98000103	DefPotion	0.00	0.00	perc	0	0	0.90	Chain of Protection III			Attacks draw 20% more aggro. Increases Attack Speed by 4%. Reduces damage taken by 10%. Decreases the chance of knockdown or stagger by 30%.	
