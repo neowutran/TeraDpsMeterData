@@ -990,6 +990,7 @@
 		<Monster name="Nyrixia" id="35" isBoss="False" hp="9905" />
 		<Monster name="Baalzerath" id="36" isBoss="False" hp="9905" />
 		<Monster name="Chaosseelenhüter" id="99" isBoss="False" hp="10766" />
+		<Monster name="Teleportal" id="1501" isBoss="False" hp="10000" />
 		<Monster name="Rätselhaftes Monument" id="5007" isBoss="False" hp="10000" />
 	</Zone>
 	<Zone id="23" name="Poporia" >
@@ -2727,6 +2728,8 @@
 		<Monster name="Akun" id="3601" isBoss="False" hp="10000" />
 		<Monster name="Fenxia" id="3602" isBoss="False" hp="10000" />
 		<Monster name="Shurimon" id="7000" isBoss="False" hp="10000" />
+		<Monster name="Gaderong" id="7001" isBoss="False" hp="10000" />
+		<Monster name="Angk" id="7002" isBoss="False" hp="10000" />
 		<Monster name="Ellonia" id="8000" isBoss="False" hp="10000" />
 		<Monster name="Tikat" id="9000" isBoss="False" hp="10000" />
 		<Monster name="Ambrrr" id="9004" isBoss="False" hp="10000" />
@@ -3463,6 +3466,8 @@
 		<Monster name="Shuordu" id="2502" isBoss="False" hp="0" />
 		<Monster name="Lena" id="3001" isBoss="False" hp="10000" />
 		<Monster name="Nomarun" id="7000" isBoss="False" hp="10000" />
+		<Monster name="Gaderong" id="7001" isBoss="False" hp="10000" />
+		<Monster name="Angk" id="7002" isBoss="False" hp="10000" />
 		<Monster name="Ellonia" id="8000" isBoss="False" hp="10000" />
 		<Monster name="Tikat" id="9000" isBoss="False" hp="10000" />
 		<Monster name="Derene" id="22001" isBoss="False" hp="10000" />
@@ -4306,6 +4311,8 @@
 		<Monster name="Zenvathir" id="5001" isBoss="False" hp="32945" />
 		<Monster name="Akina" id="5002" isBoss="False" hp="32945" />
 		<Monster name="Kurrn" id="7000" isBoss="False" hp="10000" />
+		<Monster name="Gaderong" id="7001" isBoss="False" hp="10000" />
+		<Monster name="Angk" id="7002" isBoss="False" hp="10000" />
 		<Monster name="Ellonia" id="8000" isBoss="False" hp="10000" />
 		<Monster name="Siene" id="8100" isBoss="False" hp="945" />
 		<Monster name="Marlu" id="8200" isBoss="False" hp="945" />
@@ -4799,11 +4806,15 @@
 		<Monster name="Waffen-/Magieausbilder" id="5997" isBoss="False" hp="0" />
 		<Monster name="Flugmeister" id="5999" isBoss="False" hp="0" />
 		<Monster name="Luftschiffplattform" id="6301" isBoss="False" hp="0" />
+		<Monster name="Arenahelfer vom Thron des Himmels" id="7001" isBoss="False" hp="0" />
+		<Monster name="Ausbilder am Dungeon der Prüfungen" id="7002" isBoss="False" hp="0" />
+		<Monster name="Steintafel der Erinnerung" id="7003" isBoss="False" hp="0" />
 		<Monster name="Waffen-/Magieausbilder" id="8271" isBoss="False" hp="0" />
 		<Monster name="Waffen-/Magieausbilder" id="8272" isBoss="False" hp="0" />
 		<Monster name="Flugmeister" id="8273" isBoss="False" hp="0" />
 		<Monster name="Waffen-/Magieausbilder" id="8281" isBoss="False" hp="0" />
 		<Monster name="Eingang zu Vernos Laboratorium" id="9067" isBoss="False" hp="0" />
+		<Monster name="Eingang zum Mogelplateau" id="9070" isBoss="False" hp="0" />
 		<Monster name="Queldarstation" id="18101" isBoss="False" hp="0" />
 		<Monster name="Hulranwacht" id="18102" isBoss="False" hp="0" />
 		<Monster name="Ausguck der Ruinen" id="18103" isBoss="False" hp="0" />
@@ -4828,7 +4839,7 @@
 		<Monster name="Arenaaufseher" id="18328" isBoss="False" hp="0" />
 		<Monster name="Eingang zu Durions Bluttempel" id="18329" isBoss="False" hp="0" />
 	</Zone>
-	<Zone id="102" name="unknown" >
+	<Zone id="102" name="Winteraschneefeld" >
 		<Monster name="Roter Schneemann von Wintera" id="1001" isBoss="False" hp="1300000" />
 		<Monster name="Blauer Schneemann von Wintera" id="1002" isBoss="False" hp="1300000" />
 		<Monster name="Väterchen Frost" id="1003" isBoss="False" hp="5500000" />
@@ -4895,6 +4906,11 @@
 		<Monster name="Schatztruhe" id="1001" isBoss="False" hp="2000000" />
 		<Monster name="Zenobiakristall" id="8000" isBoss="False" hp="13038" />
 		<Monster name="Canyonarcanalith" id="8001" isBoss="False" hp="13038" />
+	</Zone>
+	<Zone id="118" name="Kumaskrippe" >
+		<Monster name="Regenerationsstein" id="4000" isBoss="False" hp="50000" />
+		<Monster name="Anführerkumas" id="5000" isBoss="False" hp="1000000" />
+		<Monster name="Anführerkumas" id="8000" isBoss="False" hp="1000000" />
 	</Zone>
 	<Zone id="119" name="Affenarena" >
 		<Monster name="Banyanherzghilliedhu" id="101" isBoss="False" hp="4392000" />
@@ -5635,6 +5651,7 @@
 		<Monster name="Rhodos" id="4108" isBoss="False" hp="366797" />
 		<Monster name="Hoirun" id="7000" isBoss="False" hp="10000" />
 		<Monster name="Gaderong" id="7001" isBoss="False" hp="10000" />
+		<Monster name="Angk" id="7002" isBoss="False" hp="10000" />
 		<Monster name="Ellonia" id="8000" isBoss="False" hp="10000" />
 		<Monster name="Teleportal" id="9000" isBoss="False" hp="10000" />
 		<Monster name="Trainingsgolem" id="9996" isBoss="False" hp="100" />
@@ -9457,7 +9474,7 @@
 		<Monster name="Verletzter Söldner" id="4011" isBoss="False" hp="200" />
 		<Monster name="Söldner im Versteck" id="4015" isBoss="False" hp="200" />
 	</Zone>
-	<Zone id="431" name="Akashas Versteck (Einzelspieler)" >
+	<Zone id="431" name="Akashas Versteck (Prüfung)" >
 		<Monster name="Blutdurstiger Elitewichtel" id="100" isBoss="False" hp="104681" />
 		<Monster name="Ksharanischer Elitenadler" id="200" isBoss="False" hp="764673" />
 		<Monster name="Arkaner Elitediener" id="300" isBoss="False" hp="764673" />
@@ -9536,7 +9553,7 @@
 		<Monster name="Nadaim des Albtraums" id="6008" isBoss="False" hp="2101502" />
 		<Monster name="Eliteseuchenwichtel" id="9001" isBoss="False" hp="1000" />
 	</Zone>
-	<Zone id="432" name="Goldenes Labyrinth (Einzelspieler)" >
+	<Zone id="432" name="Goldenes Labyrinth (Prüfung)" >
 		<Monster name="Gulaknochenmalmer" id="1" isBoss="False" hp="600461" />
 		<Monster name="Azurkaimanstampfer" id="2" isBoss="False" hp="48689" />
 		<Monster name="Azurkaimanschläger" id="3" isBoss="False" hp="48689" />
@@ -10297,6 +10314,14 @@
 	</Zone>
 	<Zone id="469" name="unknown" >
 		<Monster name="Balian" id="1010" isBoss="False" hp="0" />
+	</Zone>
+	<Zone id="470" name="Mogelplateau" >
+		<Monster name="Tagebuch eines Toten" id="503" isBoss="False" hp="10000" />
+		<Monster name="Tagebuch eines Betrogenen" id="504" isBoss="False" hp="366797" />
+		<Monster name="Tagebuch eines Entflohenen" id="505" isBoss="False" hp="10000" />
+		<Monster name="Seltsame Oma" id="800" isBoss="False" hp="10000" />
+		<Monster name="Tarski" id="1000" isBoss="True" hp="1271815251" />
+		<Monster name="Teleportal" id="1501" isBoss="False" hp="10000" />
 	</Zone>
 	<Zone id="471" name="Nekromantenkrypta" >
 		<Monster name="Erbarmungsloser Scheibenreißer" id="1" isBoss="False" hp="108196" />
@@ -11453,7 +11478,7 @@
 		<Monster name="Argonensoldat" id="5022" isBoss="False" hp="2028" />
 		<Monster name="Argonenschockkavallerist" id="5023" isBoss="False" hp="2300" />
 	</Zone>
-	<Zone id="611" name="Der Abszess" >
+	<Zone id="611" name="Der Abszess (schwierig)" >
 		<Monster name="Teleportal" id="1601" isBoss="False" hp="28548" />
 		<Monster name="Beseitigt Thalweg." id="8111" isBoss="False" hp="0" />
 		<Monster name="Beseitigt Krakatox des Albtraums." id="8112" isBoss="False" hp="0" />
@@ -12228,7 +12253,7 @@
 		<Monster name="Eliteblutzornkrieger" id="46712" isBoss="False" hp="21000000" />
 		<Monster name="Erzdevanerpriester" id="46713" isBoss="False" hp="21000000" />
 		<Monster name="Hässlicher Wachsoldat" id="46721" isBoss="False" hp="21000000" />
-		<Monster name="Odons Kreatur" id="46731" isBoss="False" hp="2800000" />
+		<Monster name="Odons Kreatur" id="46731" isBoss="False" hp="2000000" />
 		<Monster name="Körperteile" id="46741" isBoss="False" hp="1750000" />
 		<Monster name="Kriegstrophäentruhe" id="46799" isBoss="False" hp="4327" />
 		<Monster name="Verno" id="467040" isBoss="True" hp="560000000" />
@@ -13049,7 +13074,7 @@
 		<Monster name="Felsenkopf" id="1000800" isBoss="False" hp="50000" />
 		<Monster name="Kaimanpirat" id="1001100" isBoss="False" hp="240000" />
 		<Monster name="Kaimanpirat" id="1001101" isBoss="False" hp="240000" />
-		<Monster name="Poporiverbannter" id="1001200" isBoss="False" hp="240000" />
+		<Monster name="Poporiverbannter" id="1001200" isBoss="False" hp="360000" />
 		<Monster name="Elitedobermann" id="1001401" isBoss="False" hp="240000" />
 		<Monster name="Tintensäbelzahn" id="1001500" isBoss="False" hp="240000" />
 		<Monster name="Tintensäbelzahn" id="1001501" isBoss="False" hp="240000" />
@@ -13062,7 +13087,7 @@
 		<Monster name="Prionnjalvar" id="1002300" isBoss="False" hp="240000" />
 		<Monster name="Prionhelgevar" id="1002400" isBoss="False" hp="240000" />
 		<Monster name="Dschungelmugato" id="1002500" isBoss="False" hp="240000" />
-		<Monster name="Blutzauberer" id="1002600" isBoss="False" hp="240000" />
+		<Monster name="Blutzauberer" id="1002600" isBoss="False" hp="335000" />
 		<Monster name="Riesiger Tuwangi" id="1002702" isBoss="False" hp="240000" />
 		<Monster name="Großer Tuwangi" id="1002703" isBoss="False" hp="200000" />
 		<Monster name="Normaler Tuwangi" id="1002704" isBoss="False" hp="100000" />
@@ -13079,6 +13104,7 @@
 		<Monster name="Eichenfass" id="3000200" isBoss="False" hp="10000" />
 		<Monster name="Eichenfass" id="3000201" isBoss="False" hp="10000" />
 		<Monster name="Jurnaggsäule" id="3000300" isBoss="False" hp="60000" />
+		<Monster name="Jurnaggsäule" id="3000301" isBoss="False" hp="60000" />
 		<Monster name="Köstliche Wassermelone" id="3000400" isBoss="False" hp="10000" />
 		<Monster name="Gestreifte Wassermelone" id="3000401" isBoss="False" hp="10000" />
 		<Monster name="Köstliche Wassermelone" id="3000402" isBoss="False" hp="10000" />
