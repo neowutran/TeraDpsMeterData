@@ -120,7 +120,7 @@
 2085	Endurance	0.00	0.00	abs	0	0	20.00	Vergeltungsschrei III			Erhöht die maximalen LP um 50% und Kraft und Konstitution um 20. Die Bewegungsgeschwindigkeit erhöht sich ebenfalls um 30.	icon_status.battlefieldbuff04_tex
 2097	Block	0.00	0.00	swch	3000	0	0.00	Fertigkeitenblockierung			Die erschrockenen Babykumas können 3 Sekunden lang keine Fertigkeiten außer Standardangriffen benutzen.	icon_status.sealskill_tex
 2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	Aura der Heilung			Ihr habt regenerierende Energie von der zerstörten Statue erhalten. Die LP von Verbündeten in der Nähe werden in bestimmten Abständen wiederhergestellt.	icon_status.aura_of_regeneration_hp_tex
-2101	HPChange	3000.00	0.00	abs	5000	1	3000.00	Regenerierende Energie			Die Aura der Heilung hat Euch regenerierende Energie verliehen. Stellt immer nach 1s 3000 LP wieder her.	icon_skills.refreshbless_tex
+2101	HPChange	6000.00	0.00	abs	5000	1	6000.00	Regenerierende Energie			Die Aura der Heilung hat Euch regenerierende Energie verliehen. Stellt immer nach 1s 6000 LP wieder her.	icon_skills.refreshbless_tex
 2103	Power	0.00	0.00	perc	4000	0	1.20	Tapferkeit			Erhöht die Angriffsstärke aller Verbündeter in der Nähe des Anführerkumas um 20%.	icon_status.buff_of_kaia_tex
 2500	HPChange	58.00	0.00	abs	12000	1	58.00	Heiltrunk I	6048	Heiltrunk I	Heilt immer nach 1s 58 LP.	icon_items.hp_durable_potion_level_1_tex
 2501	HPChange	90.00	0.00	abs	12000	1	90.00	Heiltrunk II	6050	Heiltrunk II	Heilt immer nach 1s 90 LP.	icon_items.hp_durable_potion_level_9_tex
@@ -795,6 +795,8 @@
 70449	Block	0.00	0.00	swch	300000	0	0.00	Fesselung			Ihr seid in die Falle von Aktan geraten. Bewegungsunfähig.	icon_status.staminadown_tex
 70451	Block	0.00	0.00	swch	600000	0	0.00	Beschattung			Ihr seid für kurze Zeit unsichtbar.	icon_status.staminadown_tex
 70454	Block	0.00	0.00	swch	600000	0	0.00	Infiltration			Ihr seid für kurze Zeit unsichtbar.	icon_status.staminadown_tex
+70459	ASpd	0.00	0.00	perc	600000	0	1.01	Aufbäumen			Grindella kann ihren Hunger nicht länger ertragen und bäumt sich auf. Mit jedem Aufbäumen erhöht sich ihre Angriffsgeschwindigkeit um  1%. Dieser Effekt kann nicht beendet werden.	icon_status.plusattack_tex
+70463	HPChange	-0.03	0.00	perc	1000	1	-0.03	Todesgift			Die Vergiftung mit Todesgift verringert die maximalen LP um 3%.	icon_status.poisonstatus_tex
 76756	HPChange	-5000.00	0.00	abs	30000	2	-5000.00	Fauliges Wasser			Ihr erleidet alle 2 Sekunden 5.000 Schaden.	icon_status.purifydagon_tex
 81163	Power	0.00	0.00	abs	600000	0	0.00	Überanspruchter Freund			Ihr habt Freund rufen zu oft benutzt. Ihr müsst Euren Freunden ihren Freiraum lassen, bevor Ihr Freund rufen wieder benutzen könnt.	icon_status.darkriftareatimeshift_tex
 82102	Endurance	0.00	0.00	perc	45000	0	1.30	Trank der Abschirmung			Verringert 45s lang den Schaden durch Geschosse.	icon_items.potion16_tex
@@ -1570,6 +1572,14 @@
 3000015	HPChange	0.01	0.00	perc	0	1	0.01	Angenehmer Flug			Kann in Fluggebieten fliegen.<br>Stellt jede Sekunde 0,5% Eurer maximalen LP und MP wieder her.	icon_items.wings_of_fairy_tex
 3000015	MPChange	0.00	0.01	perc	0	1	0.01	Angenehmer Flug			Kann in Fluggebieten fliegen.<br>Stellt jede Sekunde 0,5% Eurer maximalen LP und MP wieder her.	icon_items.wings_of_fairy_tex
 4510015	AtkPotion	0.00	0.00	perc	60000	0	1.03	Mutige Melodie			Die beruhigende Melodie der Tuwangischilfrohrflöte verleiht Euch zusätzlichen Mut. Erhöht Euren Fertigkeitsschaden um 3%.	icon_items.fallfestival_whistle_tex
+5000000	Power	0.00	0.00	abs	0	0	3.00	Ab heute werden wir erstarken!			Kraft, Konstitution, Aufprallfaktor, Gleichgewichtsfaktor, kritischer Trefferwert und Bewegungsgeschwindigkeit um 3 erhöht.	icon_items.wings_of_fairy_tex
+5000000	Endurance	0.00	0.00	abs	0	0	3.00	Ab heute werden wir erstarken!			Kraft, Konstitution, Aufprallfaktor, Gleichgewichtsfaktor, kritischer Trefferwert und Bewegungsgeschwindigkeit um 3 erhöht.	icon_items.wings_of_fairy_tex
+5000000	Crit	0.00	0.00	abs	0	0	3.00	Ab heute werden wir erstarken!			Kraft, Konstitution, Aufprallfaktor, Gleichgewichtsfaktor, kritischer Trefferwert und Bewegungsgeschwindigkeit um 3 erhöht.	icon_items.wings_of_fairy_tex
+5690001	StaminaDecay	0.00	0.00	seta	0	0	0.00	Verfolger der Erinnerungen			Um das Sammeln der Erinnerungsfragmente zu unterstützen, wird die Ausdauer aufrechterhalten und bei einem Tod werden keine Kristalle zerstört.	icon_skills.refineresin_tex
+5692001	Endurance	0.00	0.00	seta	0	0	9999999.00	Herrscher des Spielzimmers			Niemand sonst im Spielzimmer hat eine Chance.	icon_skills.emergencyshield_tex
+5692006	Endurance	0.00	0.00	seta	0	0	9999999.00	Lebenskraft erflehen			Erfleht von Matsuki Lebenskraft.	icon_skills.emergencyshield_tex
+5692007	Endurance	0.00	0.00	seta	6000	0	3064.00	Übermäßiges Spiel			Weil Matsuki viel Kraft aufgewendet hat, wird er für einen kurzen Moment schwach.	icon_skills.lossofbalance_tex
+5693002	HPChange	-0.03	0.00	perc	3000	1	-0.03	Spinnengift			Weil Ihr Euch an den Spinnenleichen vergiftet habt, werden Eure maximalen LP um 3% verringert. Kann bis zu 2-mal akkumuliert werden.	icon_status.poisonstatus_tex
 7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A. TIME	150939	Trank der Kampfbeschleunigung	Spürt das Fieber! Die Abklingzeiten sämtlicher Fertigkeiten außer den Allianzfertigkeiten werden um 20% reduziert und die gesamte MP-Regeneration wird erheblich erhöht.	icon_status.pluswill_tex
 7777015	CDR	0.00	0.00	perc	1800000	0	0.80	T.E.R.A. TIME	150939	Trank der Kampfbeschleunigung	Spürt das Fieber! Die Abklingzeiten sämtlicher Fertigkeiten außer den Allianzfertigkeiten werden um 20% reduziert und die gesamte MP-Regeneration wird erheblich erhöht.	icon_status.pluswill_tex
 8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Kaias Hingabe	139100	Kaias Hingabe I	Erhöht den Fertigkeitsschaden um 10% und verringert den erlittenen Schaden um 10%. Zusätzlich erhöht sich die Angriffsgeschwindigkeit um 4%.	icon_items.potion10_tex

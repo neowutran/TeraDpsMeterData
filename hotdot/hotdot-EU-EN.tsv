@@ -119,8 +119,8 @@
 2085	Power	0.00	0.00	abs	0	0	20.00	Cry of Retaliation III			Increases maximum HP by 50%. Increases Power and Endurance by 20. Increases Movement Speed by 30.	icon_status.battlefieldbuff04_tex
 2085	Endurance	0.00	0.00	abs	0	0	20.00	Cry of Retaliation III			Increases maximum HP by 50%. Increases Power and Endurance by 20. Increases Movement Speed by 30.	icon_status.battlefieldbuff04_tex
 2097	Block	0.00	0.00	swch	3000	0	0.00	Skill Ban			Baby Kumas is frightened and cannot use skills except for Tantrum for 3 seconds.	icon_status.sealskill_tex
-2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	Aura of Healing			Gained Healing Energy from the destroyed Pallialith. HP of nearby allies will regenerate regularly.	icon_status.aura_of_regeneration_hp_tex
-2101	HPChange	3000.00	0.00	abs	5000	1	3000.00	Healing Energy			Gained healing energy from Aura of Healing effect. HP increases by 3000 every 1s.	icon_skills.refreshbless_tex
+2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	Aura of Healing			Gained Healing Energy from the destroyed Pallialith. HP of nearby baby Kumases will regenerate regularly.	icon_status.aura_of_regeneration_hp_tex
+2101	HPChange	6000.00	0.00	abs	5000	1	6000.00	Healing Energy			Gained healing energy from Aura of Healing effect. HP increases by 6000 every 1s. Increases Movement Speed by 80.	icon_skills.refreshbless_tex
 2103	Power	0.00	0.00	perc	4000	0	1.20	Bravery			Attack Power of Kumas Boss's Kumases increase by 20%.	icon_status.buff_of_kaia_tex
 2500	HPChange	58.00	0.00	abs	12000	1	58.00	Healing Elixir I	6048	Healing Elixir I	Recovers 58 HP every 1s.	icon_items.hp_durable_potion_level_1_tex
 2501	HPChange	90.00	0.00	abs	12000	1	90.00	Healing Elixir II	6050	Healing Elixir II	Recovers 90 HP every 1s.	icon_items.hp_durable_potion_level_9_tex
@@ -795,6 +795,8 @@
 70449	Block	0.00	0.00	swch	300000	0	0.00	Sly Trap			You are paralyzed, and cannot move.	icon_status.staminadown_tex
 70451	Block	0.00	0.00	swch	600000	0	0.00	Stalking			You are invisible for a short time	icon_status.staminadown_tex
 70454	Block	0.00	0.00	swch	600000	0	0.00	Infiltration			Temporarily invisible. You cannot use skills while invisible.	icon_status.staminadown_tex
+70459	ASpd	0.00	0.00	perc	600000	0	1.01	Desperate Hunger			Attack Speed increases by 1% for each stack. This effect cannot be removed.	icon_status.plusattack_tex
+70463	HPChange	-0.03	0.00	perc	1000	1	-0.03	Venom			Reduces HP by 3% of maximum HP.	icon_status.poisonstatus_tex
 76756	HPChange	-5000.00	0.00	abs	30000	2	-5000.00	Waste Water			Deals 5,000 damage every 2 seconds.	icon_status.purifydagon_tex
 81163	Power	0.00	0.00	abs	600000	0	0.00	Overly-Attached Friend			You have overused Friend Summon. You need to give your friends their space before you can use Friend Summon again.	icon_status.darkriftareatimeshift_tex
 82102	Endurance	0.00	0.00	perc	45000	0	1.30	Potion of Shielding			Decreases damage from projectiles for 45s.	icon_items.potion16_tex
@@ -1535,9 +1537,9 @@
 988524	Power	0.00	0.00	perc	0	1	1.05	Empower Minor			Increases Power by 5%.	icon_status.cruel_slayer_2_tex
 988525	Power	0.00	0.00	perc	0	1	1.10	Empower Major			Increases Power by 10%.	icon_status.cruel_slayer_4_tex
 988526	Power	0.00	0.00	perc	0	1	1.20	Empower Maximus			Increases Power by 20%.	icon_status.cruel_slayer_3_tex
-988571	Power	0.00	0.00	perc	10000	0	0.10	Weakness			Reduces Power by 90%. This effect cannot be removed.	icon_status.diseaseup_tex
-988572	HPChange	-1000000.00	0.00	abs	1000	1	-1000000.00	Doom			You die when effect ends. This effect cannot be removed.	icon_status.firedamage_tex
-988575	Block	0.00	0.00	swch	10000	0	0.00	Failure			Cannot trigger any new skills. Effect cannot be removed	icon_status.sealskill_tex
+988571	Power	0.00	0.00	perc	10000	0	0.10	Suryati's Curse (Weakness)			Reduces Power by 90%. Suryati's curses cannot be removed before expiration.	icon_status.diseaseup_tex
+988572	HPChange	-1000000.00	0.00	abs	1000	1	-1000000.00	Suryati's Curse (Doom)			You die when effect ends. Suryati's curses cannot be removed before expiration.	icon_status.firedamage_tex
+988575	Block	0.00	0.00	swch	10000	0	0.00	Suryati's Curse (Failure)			Unable to use skills. Suryati's curses cannot be removed before expiration.	icon_status.sealskill_tex
 990070	HPChange	0.00	0.00	perc	30000	1	0.00	Adiar's Protection			Adiar's holy energy. Recovers 0.25% of maximum HP every 1s.	icon_status.delayheal_tex
 990071	MPChange	0.00	0.00	perc	30000	1	0.00	Derene's Protection			Drene's core energy. Recovers 0.3% of maximum MP every 1s.	icon_status.aura_of_regeneration_mp_tex
 990072	Endurance	0.00	0.00	abs	30000	0	1.00	Frateko's Protection			Frateko's aura. Increases Endurance by 1.	icon_status.plusedefence_tex
@@ -1572,6 +1574,14 @@
 3000015	HPChange	0.01	0.00	perc	0	1	0.01	Restful Flight			Can fly in flight zones.<br>Replenishes 0.5% of your maximum HP and MP every second.	icon_items.wings_of_fairy_tex
 3000015	MPChange	0.00	0.01	perc	0	1	0.01	Restful Flight			Can fly in flight zones.<br>Replenishes 0.5% of your maximum HP and MP every second.	icon_items.wings_of_fairy_tex
 4510015	AtkPotion	0.00	0.00	perc	60000	0	1.03	Courageous Melody			The soothing melodies of the tuwangi reedflute make you feel more courageous; Increases skill damage by 3%.	icon_items.fallfestival_whistle_tex
+5000000	Power	0.00	0.00	abs	0	0	3.00	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
+5000000	Endurance	0.00	0.00	abs	0	0	3.00	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
+5000000	Crit	0.00	0.00	abs	0	0	3.00	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
+5690001	StaminaDecay	0.00	0.00	seta	0	0	0.00	Arcana Protection			Stamina doesn't decrease, to aid in the collection of echo memories. Crystals are not destroyed on death. 	icon_skills.refineresin_tex
+5692001	Endurance	0.00	0.00	seta	0	0	9999999.00	Nursery Ruler			There is no one to face in the Nursery.	icon_skills.emergencyshield_tex
+5692006	Endurance	0.00	0.00	seta	0	0	9999999.00	Whimper			Beg for life from the torturer.	icon_skills.emergencyshield_tex
+5692007	Endurance	0.00	0.00	seta	6000	0	3064.00	Exhaustive Play			Masuki used too much power, and is weakened for a while.	icon_skills.lossofbalance_tex
+5693002	HPChange	-0.03	0.00	perc	3000	1	-0.03	Spider Venom			Decreases 3% of maximum HP. This effect stacks up to 2 times.	icon_status.poisonstatus_tex
 7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
 7777015	CDR	0.00	0.00	perc	1800000	0	0.80	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
 8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Kaia's Dedication	139100	Kaia's Dedication I	Increases skill damage by 10%. Reduces damage taken by 10%. Increases Attack Speed by 4%.	icon_items.potion10_tex
@@ -2037,66 +2047,66 @@
 81120113	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
 81120114	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
 81120115	CritResist	0.00	0.00	abs	5000	0	6.00	Lethal Lesson			Critical resistance increases by 6. Knockdown cancels the effect.	icon_ep.ep_fatal_injury_tex
-81120301	CritResist	0.00	0.00	abs	5000	0	-3.00	Resistence to Crit Decreases			Critical resistance decreases by -3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120302	CritResist	0.00	0.00	abs	5000	0	-4.00	Resistence to Crit Decreases			Critical resistance decreases by -4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120303	CritResist	0.00	0.00	abs	5000	0	-5.00	Resistence to Crit Decreases			Critical resistance decreases by -5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120304	CritResist	0.00	0.00	abs	5000	0	-6.00	Resistence to Crit Decreases			Critical resistance decreases by -6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120305	CritResist	0.00	0.00	abs	5000	0	-7.00	Resistence to Crit Decreases			Critical resistance decreases by -7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120306	CritResist	0.00	0.00	abs	5000	0	-8.00	Resistence to Crit Decreases			Critical resistance decreases by -8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120307	CritResist	0.00	0.00	abs	5000	0	-9.00	Resistence to Crit Decreases			Critical resistance decreases by -9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120308	CritResist	0.00	0.00	abs	5000	0	-10.00	Resistence to Crit Decreases			Critical resistance decreases by -10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120309	CritResist	0.00	0.00	abs	5000	0	-11.00	Resistence to Crit Decreases			Critical resistance decreases by -11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120310	CritResist	0.00	0.00	abs	5000	0	-12.00	Resistence to Crit Decreases			Critical resistance decreases by -12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120401	CritResist	0.00	0.00	abs	10000	0	3.00	Resistence to Crit Decreases			Critical resistence increases by 3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120402	CritResist	0.00	0.00	abs	10000	0	4.00	Resistence to Crit Decreases			Critical resistence increases by 4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120403	CritResist	0.00	0.00	abs	10000	0	5.00	Resistence to Crit Decreases			Critical resistence increases by 5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120404	CritResist	0.00	0.00	abs	10000	0	6.00	Resistence to Crit Decreases			Critical resistence increases by 6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120405	CritResist	0.00	0.00	abs	10000	0	7.00	Resistence to Crit Decreases			Critical resistence increases by 7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120406	CritResist	0.00	0.00	abs	10000	0	8.00	Resistence to Crit Decreases			Critical resistence increases by 8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120407	CritResist	0.00	0.00	abs	10000	0	9.00	Resistence to Crit Decreases			Critical resistence increases by 9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120408	CritResist	0.00	0.00	abs	10000	0	10.00	Resistence to Crit Decreases			Critical resistence increases by 10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120409	CritResist	0.00	0.00	abs	10000	0	11.00	Resistence to Crit Decreases			Critical resistence increases by 11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120410	CritResist	0.00	0.00	abs	10000	0	12.00	Resistence to Crit Decreases			Critical resistence increases by 12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120411	CritResist	0.00	0.00	abs	10000	0	13.00	Resistence to Crit Decreases			Critical resistence increases by 13. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120412	CritResist	0.00	0.00	abs	10000	0	14.00	Resistence to Crit Decreases			Critical resistence increases by 14. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120413	CritResist	0.00	0.00	abs	10000	0	15.00	Resistence to Crit Decreases			Critical resistence increases by 15. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120414	CritResist	0.00	0.00	abs	10000	0	16.00	Resistence to Crit Decreases			Critical resistence increases by 16. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120415	CritResist	0.00	0.00	abs	10000	0	17.00	Resistence to Crit Decreases			Critical resistence increases by 17. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120416	CritResist	0.00	0.00	abs	10000	0	18.00	Resistence to Crit Decreases			Critical resistence increases by 18. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120417	CritResist	0.00	0.00	abs	10000	0	19.00	Resistence to Crit Decreases			Critical resistence increases by 19. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120418	CritResist	0.00	0.00	abs	10000	0	20.00	Resistence to Crit Decreases			Critical resistence increases by 20. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120419	CritResist	0.00	0.00	abs	10000	0	21.00	Resistence to Crit Decreases			Critical resistence increases by 21. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81120420	CritResist	0.00	0.00	abs	10000	0	22.00	Resistence to Crit Decreases			Critical resistence increases by 22. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
-81123001	MovSpdInCombat	0.00	0.00	abs	3000	0	7.00	Combat Speed: Stage I			Movement Speed increases by 7 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123002	MovSpdInCombat	0.00	0.00	abs	3000	0	9.00	Combat Speed: Stage II			Movement Speed increases by 9 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123003	MovSpdInCombat	0.00	0.00	abs	3000	0	11.00	Combat Speed: Stage III			Movement Speed increases by 11 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123004	MovSpdInCombat	0.00	0.00	abs	3000	0	13.00	Combat Speed: Stage IV			Movement Speed increases by 13 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123005	MovSpdInCombat	0.00	0.00	abs	3000	0	15.00	Combat Speed: Stage V			Movement Speed increases by 15 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123006	MovSpdInCombat	0.00	0.00	abs	3000	0	17.00	Combat Speed: Stage VI			Movement Speed increases by 17 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123007	MovSpdInCombat	0.00	0.00	abs	3000	0	19.00	Combat Speed: Stage VII			Movement Speed increases by 19 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123008	MovSpdInCombat	0.00	0.00	abs	3000	0	21.00	Combat Speed: Stage VIII			Movement Speed increases by 21 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123009	MovSpdInCombat	0.00	0.00	abs	3000	0	23.00	Combat Speed: Stage IX			Movement Speed increases by 23 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123010	MovSpdInCombat	0.00	0.00	abs	3000	0	25.00	Combat Speed: Stage X			Movement Speed increases by 25 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123011	MovSpdInCombat	0.00	0.00	abs	3000	0	27.00	Combat Speed: Stage XI			Movement Speed increases by 27 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123012	MovSpdInCombat	0.00	0.00	abs	3000	0	29.00	Combat Speed: Stage XII			Movement Speed increases by 29 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123013	MovSpdInCombat	0.00	0.00	abs	3000	0	31.00	Combat Speed: Stage XIII			Movement Speed increases by 31 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123014	MovSpdInCombat	0.00	0.00	abs	3000	0	33.00	Combat Speed: Stage XIV			Movement Speed increases by 33 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123015	MovSpdInCombat	0.00	0.00	abs	3000	0	35.00	Combat Speed: Stage XV			Movement Speed increases by 35 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeed_tex
-81123101	MovSpdInCombat	0.00	0.00	abs	5000	0	14.00	Combat Dash: Stage I			Movement Speed increases by 14 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123102	MovSpdInCombat	0.00	0.00	abs	5000	0	18.00	Combat Dash: Stage II			Movement Speed increases by 18 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123103	MovSpdInCombat	0.00	0.00	abs	5000	0	22.00	Combat Dash: Stage III			Movement Speed increases by 22 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123104	MovSpdInCombat	0.00	0.00	abs	5000	0	26.00	Combat Dash: Stage IV			Movement Speed increases by 26 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123105	MovSpdInCombat	0.00	0.00	abs	5000	0	30.00	Combat Dash: Stage V			Movement Speed increases by 30 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123106	MovSpdInCombat	0.00	0.00	abs	5000	0	34.00	Combat Dash: Stage VI			Movement Speed increases by 34 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123107	MovSpdInCombat	0.00	0.00	abs	5000	0	38.00	Combat Dash: Stage VII			Movement Speed increases by 38 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123108	MovSpdInCombat	0.00	0.00	abs	5000	0	42.00	Combat Dash: Stage VIII			Movement Speed increases by 42 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123109	MovSpdInCombat	0.00	0.00	abs	5000	0	46.00	Combat Dash: Stage IX			Movement Speed increases by 46 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123110	MovSpdInCombat	0.00	0.00	abs	5000	0	50.00	Combat Dash: Stage X			Movement Speed increases by 50 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123111	MovSpdInCombat	0.00	0.00	abs	5000	0	54.00	Combat Dash: Stage XI			Movement Speed increases by 54 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123112	MovSpdInCombat	0.00	0.00	abs	5000	0	58.00	Combat Dash: Stage XII			Movement Speed increases by 58 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123113	MovSpdInCombat	0.00	0.00	abs	5000	0	62.00	Combat Dash: Stage XIII			Movement Speed increases by 62 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123114	MovSpdInCombat	0.00	0.00	abs	5000	0	66.00	Combat Dash: Stage XIV			Movement Speed increases by 66 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
-81123115	MovSpdInCombat	0.00	0.00	abs	5000	0	70.00	Combat Dash: Stage XV			Movement Speed increases by 70 while in combat. Effect ends when resisting	icon_ep.ep_transfer_fightspeedup_tex
+81120301	CritResist	0.00	0.00	abs	5000	0	-3.00	Resistance to Crit Decreases			Critical resistance decreases by -3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120302	CritResist	0.00	0.00	abs	5000	0	-4.00	Resistance to Crit Decreases			Critical resistance decreases by -4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120303	CritResist	0.00	0.00	abs	5000	0	-5.00	Resistance to Crit Decreases			Critical resistance decreases by -5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120304	CritResist	0.00	0.00	abs	5000	0	-6.00	Resistance to Crit Decreases			Critical resistance decreases by -6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120305	CritResist	0.00	0.00	abs	5000	0	-7.00	Resistance to Crit Decreases			Critical resistance decreases by -7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120306	CritResist	0.00	0.00	abs	5000	0	-8.00	Resistance to Crit Decreases			Critical resistance decreases by -8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120307	CritResist	0.00	0.00	abs	5000	0	-9.00	Resistance to Crit Decreases			Critical resistance decreases by -9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120308	CritResist	0.00	0.00	abs	5000	0	-10.00	Resistance to Crit Decreases			Critical resistance decreases by -10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120309	CritResist	0.00	0.00	abs	5000	0	-11.00	Resistance to Crit Decreases			Critical resistance decreases by -11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120310	CritResist	0.00	0.00	abs	5000	0	-12.00	Resistance to Crit Decreases			Critical resistance decreases by -12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120401	CritResist	0.00	0.00	abs	10000	0	3.00	Resistance to Crit Decreases			Critical resistance increases by 3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120402	CritResist	0.00	0.00	abs	10000	0	4.00	Resistance to Crit Decreases			Critical resistance increases by 4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120403	CritResist	0.00	0.00	abs	10000	0	5.00	Resistance to Crit Decreases			Critical resistance increases by 5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120404	CritResist	0.00	0.00	abs	10000	0	6.00	Resistance to Crit Decreases			Critical resistance increases by 6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120405	CritResist	0.00	0.00	abs	10000	0	7.00	Resistance to Crit Decreases			Critical resistance increases by 7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120406	CritResist	0.00	0.00	abs	10000	0	8.00	Resistance to Crit Decreases			Critical resistance increases by 8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120407	CritResist	0.00	0.00	abs	10000	0	9.00	Resistance to Crit Decreases			Critical resistance increases by 9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120408	CritResist	0.00	0.00	abs	10000	0	10.00	Resistance to Crit Decreases			Critical resistance increases by 10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120409	CritResist	0.00	0.00	abs	10000	0	11.00	Resistance to Crit Decreases			Critical resistance increases by 11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120410	CritResist	0.00	0.00	abs	10000	0	12.00	Resistance to Crit Decreases			Critical resistance increases by 12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120411	CritResist	0.00	0.00	abs	10000	0	13.00	Resistance to Crit Decreases			Critical resistance increases by 13. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120412	CritResist	0.00	0.00	abs	10000	0	14.00	Resistance to Crit Decreases			Critical resistance increases by 14. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120413	CritResist	0.00	0.00	abs	10000	0	15.00	Resistance to Crit Decreases			Critical resistance increases by 15. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120414	CritResist	0.00	0.00	abs	10000	0	16.00	Resistance to Crit Decreases			Critical resistance increases by 16. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120415	CritResist	0.00	0.00	abs	10000	0	17.00	Resistance to Crit Decreases			Critical resistance increases by 17. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120416	CritResist	0.00	0.00	abs	10000	0	18.00	Resistance to Crit Decreases			Critical resistance increases by 18. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120417	CritResist	0.00	0.00	abs	10000	0	19.00	Resistance to Crit Decreases			Critical resistance increases by 19. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120418	CritResist	0.00	0.00	abs	10000	0	20.00	Resistance to Crit Decreases			Critical resistance increases by 20. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120419	CritResist	0.00	0.00	abs	10000	0	21.00	Resistance to Crit Decreases			Critical resistance increases by 21. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81120420	CritResist	0.00	0.00	abs	10000	0	22.00	Resistance to Crit Decreases			Critical resistance increases by 22. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
+81123001	MovSpdInCombat	0.00	0.00	abs	3000	0	7.00	Combat Speed: Stage I			Movement Speed increases by 7 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123002	MovSpdInCombat	0.00	0.00	abs	3000	0	9.00	Combat Speed: Stage II			Movement Speed increases by 9 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123003	MovSpdInCombat	0.00	0.00	abs	3000	0	11.00	Combat Speed: Stage III			Movement Speed increases by 11 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123004	MovSpdInCombat	0.00	0.00	abs	3000	0	13.00	Combat Speed: Stage IV			Movement Speed increases by 13 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123005	MovSpdInCombat	0.00	0.00	abs	3000	0	15.00	Combat Speed: Stage V			Movement Speed increases by 15 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123006	MovSpdInCombat	0.00	0.00	abs	3000	0	17.00	Combat Speed: Stage VI			Movement Speed increases by 17 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123007	MovSpdInCombat	0.00	0.00	abs	3000	0	19.00	Combat Speed: Stage VII			Movement Speed increases by 19 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123008	MovSpdInCombat	0.00	0.00	abs	3000	0	21.00	Combat Speed: Stage VIII			Movement Speed increases by 21 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123009	MovSpdInCombat	0.00	0.00	abs	3000	0	23.00	Combat Speed: Stage IX			Movement Speed increases by 23 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123010	MovSpdInCombat	0.00	0.00	abs	3000	0	25.00	Combat Speed: Stage X			Movement Speed increases by 25 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123011	MovSpdInCombat	0.00	0.00	abs	3000	0	27.00	Combat Speed: Stage XI			Movement Speed increases by 27 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123012	MovSpdInCombat	0.00	0.00	abs	3000	0	29.00	Combat Speed: Stage XII			Movement Speed increases by 29 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123013	MovSpdInCombat	0.00	0.00	abs	3000	0	31.00	Combat Speed: Stage XIII			Movement Speed increases by 31 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123014	MovSpdInCombat	0.00	0.00	abs	3000	0	33.00	Combat Speed: Stage XIV			Movement Speed increases by 33 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123015	MovSpdInCombat	0.00	0.00	abs	3000	0	35.00	Combat Speed: Stage XV			Movement Speed increases by 35 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeed_tex
+81123101	MovSpdInCombat	0.00	0.00	abs	5000	0	14.00	Combat Dash: Stage I			Movement Speed increases by 14 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123102	MovSpdInCombat	0.00	0.00	abs	5000	0	18.00	Combat Dash: Stage II			Movement Speed increases by 18 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123103	MovSpdInCombat	0.00	0.00	abs	5000	0	22.00	Combat Dash: Stage III			Movement Speed increases by 22 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123104	MovSpdInCombat	0.00	0.00	abs	5000	0	26.00	Combat Dash: Stage IV			Movement Speed increases by 26 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123105	MovSpdInCombat	0.00	0.00	abs	5000	0	30.00	Combat Dash: Stage V			Movement Speed increases by 30 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123106	MovSpdInCombat	0.00	0.00	abs	5000	0	34.00	Combat Dash: Stage VI			Movement Speed increases by 34 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123107	MovSpdInCombat	0.00	0.00	abs	5000	0	38.00	Combat Dash: Stage VII			Movement Speed increases by 38 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123108	MovSpdInCombat	0.00	0.00	abs	5000	0	42.00	Combat Dash: Stage VIII			Movement Speed increases by 42 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123109	MovSpdInCombat	0.00	0.00	abs	5000	0	46.00	Combat Dash: Stage IX			Movement Speed increases by 46 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123110	MovSpdInCombat	0.00	0.00	abs	5000	0	50.00	Combat Dash: Stage X			Movement Speed increases by 50 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123111	MovSpdInCombat	0.00	0.00	abs	5000	0	54.00	Combat Dash: Stage XI			Movement Speed increases by 54 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123112	MovSpdInCombat	0.00	0.00	abs	5000	0	58.00	Combat Dash: Stage XII			Movement Speed increases by 58 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123113	MovSpdInCombat	0.00	0.00	abs	5000	0	62.00	Combat Dash: Stage XIII			Movement Speed increases by 62 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123114	MovSpdInCombat	0.00	0.00	abs	5000	0	66.00	Combat Dash: Stage XIV			Movement Speed increases by 66 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
+81123115	MovSpdInCombat	0.00	0.00	abs	5000	0	70.00	Combat Dash: Stage XV			Movement Speed increases by 70 while in combat. Effect ends when resisting.	icon_ep.ep_transfer_fightspeedup_tex
 81300002	HPChange	0.01	0.00	perc	0	2	0.01	Arboreal Energy Crystal			Recovers 1% of maximum HP every 2s.	icon_status.aura_of_regeneration_hp_tex
 81300005	Endurance	0.00	0.00	perc	10000	0	1.30	Protective Aura			Increases Stamina by 30%. Recovers 3% Max HP every 2 seconds.	icon_status.aura_of_regeneration_hp_tex
 81300005	HPChange	0.03	0.00	perc	10000	2	0.03	Protective Aura			Increases Stamina by 30%. Recovers 3% Max HP every 2 seconds.	icon_status.aura_of_regeneration_hp_tex
