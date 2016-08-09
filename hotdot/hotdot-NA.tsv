@@ -120,7 +120,7 @@
 2085	Endurance	0.00	0.00	abs	0	0	20.00	Cry of Retaliation III			Increases maximum HP by 50%. Increases Power and Endurance by 20. Increases Movement Speed by 30.	icon_status.battlefieldbuff04_tex
 2097	Block	0.00	0.00	swch	3000	0	0.00	Skill Ban			Baby Kumas is frightened and cannot use skills except for Tantrum for 3 seconds.	icon_status.sealskill_tex
 2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	Aura of Healing			Gained Healing Energy from the destroyed Pallialith. HP of nearby allies will regenerate regularly.	icon_status.aura_of_regeneration_hp_tex
-2101	HPChange	3000.00	0.00	abs	5000	1	3000.00	Healing Energy			Gained healing energy from Aura of Healing effect. HP increases by 3000 every 1s.	icon_skills.refreshbless_tex
+2101	HPChange	6000.00	0.00	abs	5000	1	6000.00	Healing Energy			Gained healing energy from Aura of Healing effect. HP increases by 6000 every 1s. Increases Movement Speed by 80.	icon_skills.refreshbless_tex
 2103	Power	0.00	0.00	perc	4000	0	1.20	Bravery			Attack Power of Kumas Boss's Kumases increase by 20%.	icon_status.buff_of_kaia_tex
 2500	HPChange	58.00	0.00	abs	12000	1	58.00	Healing Elixir I	6048	Healing Elixir I	Recovers 58 HP every 1s.	icon_items.hp_durable_potion_level_1_tex
 2501	HPChange	90.00	0.00	abs	12000	1	90.00	Healing Elixir II	6050	Healing Elixir II	Recovers 90 HP every 1s.	icon_items.hp_durable_potion_level_9_tex
@@ -795,6 +795,8 @@
 70449	Block	0.00	0.00	swch	300000	0	0.00	Sly Trap			You are paralyzed, and cannot move.	icon_status.staminadown_tex
 70451	Block	0.00	0.00	swch	600000	0	0.00	Stalking			You are invisible for a short time	icon_status.staminadown_tex
 70454	Block	0.00	0.00	swch	600000	0	0.00	Infiltration			Temporarily invisible. You cannot use skills while invisible.	icon_status.staminadown_tex
+70459	ASpd	0.00	0.00	perc	600000	0	1.01	Desperate Hunger			Attack Speed increases by 1% for each stack. This effect cannot be removed.	icon_status.plusattack_tex
+70463	HPChange	-0.03	0.00	perc	1000	1	-0.03	Venom			Reduces HP by 3% of maximum HP.	icon_status.poisonstatus_tex
 76756	HPChange	-5000.00	0.00	abs	30000	2	-5000.00	Waste Water			Deals 5,000 damage every 2 seconds.	icon_status.purifydagon_tex
 81163	Power	0.00	0.00	abs	600000	0	0.00	Overly-Attached Friend			You have overused Friend Summon. You need to give your friends their space before you can use Friend Summon again.	icon_status.darkriftareatimeshift_tex
 82102	Endurance	0.00	0.00	perc	45000	0	1.30	Potion of Shielding			Decreases damage from projectiles for 45s.	icon_items.potion16_tex
@@ -1572,6 +1574,14 @@
 3000015	HPChange	0.01	0.00	perc	0	1	0.01	Take Wing and Soar (HP and MP)			Can fly in 'free to fly' regions.<br>Recovers 0.5% of your maximum HP and replenishes 0.5% of your maximum MP every second.	icon_items.wings_of_fairy_tex
 3000015	MPChange	0.00	0.01	perc	0	1	0.01	Take Wing and Soar (HP and MP)			Can fly in 'free to fly' regions.<br>Recovers 0.5% of your maximum HP and replenishes 0.5% of your maximum MP every second.	icon_items.wings_of_fairy_tex
 4510015	AtkPotion	0.00	0.00	perc	60000	0	1.03	Courageous Melody			The soothing melodies of the tuwangi reedflute make you feel more courageous; Increases skill damage by 3%.	icon_items.fallfestival_whistle_tex
+5000000	Power	0.00	0.00	abs	0	0	3.00	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
+5000000	Endurance	0.00	0.00	abs	0	0	3.00	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
+5000000	Crit	0.00	0.00	abs	0	0	3.00	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
+5690001	StaminaDecay	0.00	0.00	seta	0	0	0.00	Arcana Protection			Stamina doesn't decrease, to aid in the collection of echo memories. Crystals are not destroyed on death. 	icon_skills.refineresin_tex
+5692001	Endurance	0.00	0.00	seta	0	0	9999999.00	Nursery Ruler			There is no one to face in the Nursery.	icon_skills.emergencyshield_tex
+5692006	Endurance	0.00	0.00	seta	0	0	9999999.00	Whimper			Beg for life from the torturer.	icon_skills.emergencyshield_tex
+5692007	Endurance	0.00	0.00	seta	6000	0	3064.00	Exhaustive Play			Masuki used too much power, and is weakened for a while.	icon_skills.lossofbalance_tex
+5693002	HPChange	-0.03	0.00	perc	3000	1	-0.03	Spider Venom			Decreases 3% of maximum HP. This effect stacks up to 2 times.	icon_status.poisonstatus_tex
 7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
 7777015	CDR	0.00	0.00	perc	1800000	0	0.80	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
 8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	Kaia's Dedication	139100	Kaia's Dedication I	Increases skill damage by 10%. Reduces damage taken by 10%. Increases Attack Speed by 4%.	icon_items.potion10_tex
