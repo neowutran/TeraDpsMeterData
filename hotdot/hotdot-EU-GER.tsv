@@ -625,11 +625,11 @@
 24090	MovSpdInCombat	0.00	0.00	abs	15000	0	20.00	Leichtfüßige Wilde Raserei			Erhöht die Bewegungsgeschwindigkeit während des Kampfes um 20.	icon_skills.berserk_tex
 24091	MovSpdInCombat	0.00	0.00	abs	15000	0	20.00	Leichtfüßiger niederreißender Schlag			Erhöht die Bewegungsgeschwindigkeit während des Kampfes um 20.	icon_skills.throwaxe_tex
 24092	Endurance	0.00	0.00	abs	8000	0	21.00	Glyphe der Erdung			Erhöht die Konstitution um 21.	icon_crest.crestactivedefenceup_tex
-24120	CastSpeed	0.00	0.00	perc	6000	0	1.30	Flammender Sprungangriff			Erhöht die Aufladegeschwindigkeit für die folgende Fertigkeit um 30%: Tödlicher Schlag.	icon_skills.downblow_tex
+24120	CastSpeed	0.00	0.00	perc	6000	0	1.30	Flammender Sprungangriff			Erhöht die Aufladegeschwindigkeit für die folgende Fertigkeit um 30%: Tödlicher Schlag.	icon_skills.downblowattack_tex
 24130	CastSpeed	0.00	0.00	perc	6000	0	1.30	Flammender Taumelschlag			Erhöht die Aufladegeschwindigkeit für die folgende Fertigkeit um 30%: Donnerschlag.	icon_skills.turnback_tex
 24140	Endurance	0.00	0.00	abs	12000	0	16.00	Geerdeter Triumphschrei			Erhöht die Konstitution um 16.	icon_skills.shout_tex
 24150	MPChange	0.00	0.06	perc	5000	1	0.06	Geistvolle Beharrlichkeit			Stellt immer nach 1s 6% der maximalen MP wieder her.	icon_skills.tenacity_tex
-24160	Crit	0.00	0.00	perc	0	0	2.00	Scharfer Sprungangriff			Verdoppelt den kritischen Trefferwert für den folgenden Angriff.	icon_skills.downblow_tex
+24160	Crit	0.00	0.00	perc	0	0	2.00	Scharfer Sprungangriff			Verdoppelt den kritischen Trefferwert für den folgenden Angriff.	icon_skills.downblowattack_tex
 24161	Crit	0.00	0.00	perc	0	0	2.00	Scharfer niederreißender Schlag			Verdoppelt den kritischen Trefferwert für den folgenden Angriff.	icon_skills.throwaxe_tex
 24181	AtkPotion	0.00	0.00	perc	10000	0	1.25	Kraftgebundener Axtblock			Erhöht den Schaden von Axtkonter um 25%.	icon_skills.weapondefence_tex
 24190	CastSpeed	0.00	0.00	perc	6000	0	1.30	Flammender Zyklon			Erhöht die Aufladegeschwindigkeit um 30%, wenn Zyklon als nächste Kettenfertigkeit verwendet wird.	icon_skills.shockingshout_tex
@@ -815,43 +815,43 @@
 90200	MPChange	0.00	0.05	perc	10000	1	0.05	Zähigkeit des Geistes			Stellt immer nach 1s 5% der maximalen MP wieder her.	icon_skills.arcanebirthright_tex
 90300	MovSpdInCombat	0.00	0.00	abs	180000	0	30.00	Gefechtslauf			Erhöht die Bewegungsgeschwindigkeit während des Kampfes um 30, aber erhöht auch die Wahrscheinlichkeit, niedergeschlagen zu werden, um 20%. Effekt endet, wenn man niedergeschlagen wird.	icon_skills.markoflok_tex
 90600	HPChange	1.00	0.00	perc	1000	1	1.00	Urquell			Test	icon_skills.earthmeld_tex
-100100	Power	0.00	0.00	abs	0	0	5.00	Kampfstellung I			Erhöht die Kraft um 5 und den kritischen Trefferwert um 30, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
-100100	Endurance	0.00	0.00	perc	0	0	0.90	Kampfstellung I			Erhöht die Kraft um 5 und den kritischen Trefferwert um 30, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
-100100	Crit	0.00	0.00	abs	0	0	30.00	Kampfstellung I			Erhöht die Kraft um 5 und den kritischen Trefferwert um 30, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
+100100	Power	0.00	0.00	abs	0	0	5.00	Kampfstellung			Erhöht die Kraft um 5 und den kritischen Trefferwert um 30, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
+100100	Endurance	0.00	0.00	perc	0	0	0.90	Kampfstellung			Erhöht die Kraft um 5 und den kritischen Trefferwert um 30, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
+100100	Crit	0.00	0.00	abs	0	0	30.00	Kampfstellung			Erhöht die Kraft um 5 und den kritischen Trefferwert um 30, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
 100101	Power	0.00	0.00	abs	0	0	10.00	Kampfstellung II			Erhöht die Kraft um 10 und den kritischen Trefferwert um 40, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
 100101	Endurance	0.00	0.00	perc	0	0	0.90	Kampfstellung II			Erhöht die Kraft um 10 und den kritischen Trefferwert um 40, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
 100101	Crit	0.00	0.00	abs	0	0	40.00	Kampfstellung II			Erhöht die Kraft um 10 und den kritischen Trefferwert um 40, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
-100102	Power	0.00	0.00	abs	0	0	15.00	Kampfstellung III			Erhöht die Kraft um 15 und den kritischen Trefferwert um 50, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
-100102	Endurance	0.00	0.00	perc	0	0	0.90	Kampfstellung III			Erhöht die Kraft um 15 und den kritischen Trefferwert um 50, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
-100102	Crit	0.00	0.00	abs	0	0	50.00	Kampfstellung III			Erhöht die Kraft um 15 und den kritischen Trefferwert um 50, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
+100102	Power	0.00	0.00	abs	0	0	15.00	Kampfstellung			Erhöht die Kraft um 15 und den kritischen Trefferwert um 50, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
+100102	Endurance	0.00	0.00	perc	0	0	0.90	Kampfstellung			Erhöht die Kraft um 15 und den kritischen Trefferwert um 50, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
+100102	Crit	0.00	0.00	abs	0	0	50.00	Kampfstellung			Erhöht die Kraft um 15 und den kritischen Trefferwert um 50, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
 100103	Power	0.00	0.00	abs	0	0	18.00	Kampfstellung IV			Erhöht die Kraft um 18 und den kritischen Trefferwert um 55, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
 100103	Endurance	0.00	0.00	perc	0	0	0.90	Kampfstellung IV			Erhöht die Kraft um 18 und den kritischen Trefferwert um 55, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
 100103	Crit	0.00	0.00	abs	0	0	55.00	Kampfstellung IV			Erhöht die Kraft um 18 und den kritischen Trefferwert um 55, verringert jedoch die Konstitution um 10%.	icon_skills.ironwilla_tex
 100200	Endurance	0.00	0.00	perc	0	0	1.15	Defensivstellung I			Erhöht die Konstitution um 15% und das Gleichgewicht um 20. Angriffe ziehen 65% mehr Aggro. Im Kampf werdet Ihr mit Ausnahme einiger spezieller Angriffe bestimmter Monster nicht nach hinten geworfen.	icon_skills.ironwillb_tex
 100201	Endurance	0.00	0.00	perc	0	0	1.20	Defensivstellung II			Erhöht die Konstitution um 20% und das Gleichgewicht um 20. Angriffe ziehen 80% mehr Aggro. Im Kampf werdet Ihr mit Ausnahme einiger spezieller Angriffe bestimmter Monster nicht nach hinten geworfen.	icon_skills.ironwillb_tex
-100202	Endurance	0.00	0.00	perc	0	0	1.25	Defensivstellung III			Erhöht die Konstitution um 25% und den Gleichgewichtsfaktor um 20. Angriffe ziehen unk4 mehr Aggro an. Im Kampf werdet Ihr mit Ausnahme einiger spezieller Angriffe bestimmter Monster nicht nach hinten geworfen.	icon_skills.ironwillb_tex
+100202	Endurance	0.00	0.00	perc	0	0	1.25	Defensivstellung			Erhöht die Konstitution um 25% und den Gleichgewichtsfaktor um 20. Angriffe ziehen unk4 mehr Aggro an. Im Kampf werdet Ihr mit Ausnahme einiger spezieller Angriffe bestimmter Monster nicht nach hinten geworfen.	icon_skills.ironwillb_tex
 100203	Endurance	0.00	0.00	perc	0	0	1.25	Defensivstellung IV			Erhöht die Konstitution um 25% und den Gleichgewichtsfaktor um 30. Angriffe ziehen 120% mehr Aggro. Im Kampf werdet Ihr mit Ausnahme einiger spezieller Angriffe bestimmter Monster nicht nach hinten geworfen.	icon_skills.ironwillb_tex
-100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Giftklinge			Zieht immer nach 2s -116 LP ab.	icon_skills.poisonblowattack_tex
-100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Giftklinge			Zieht immer nach 2s -175 LP ab.	icon_skills.poisonblowattack_tex
-100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Giftklinge			Zieht immer nach 2s -292 LP ab.	icon_skills.poisonblowattack_tex
-100503	HPChange	-438.00	0.00	abs	10000	2	-438.00	Giftklinge			Zieht immer nach 2s -438 LP ab.	icon_skills.poisonblowattack_tex
-100504	HPChange	-612.00	0.00	abs	10000	2	-612.00	Giftklinge			Zieht immer nach 2s -612 LP ab.	icon_skills.poisonblowattack_tex
-100505	HPChange	-845.00	0.00	abs	10000	2	-845.00	Giftklinge			Zieht immer nach 2s -845 LP ab.	icon_skills.poisonblowattack_tex
-100506	HPChange	-1428.00	0.00	abs	10000	2	-1428.00	Giftklinge			Zieht immer nach 2s -1428 LP ab.	icon_skills.poisonblowattack_tex
+100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Giftklinge I			Zieht immer nach 2s -116 LP ab.	icon_skills.poisonblowattack_tex
+100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Giftklinge II			Zieht immer nach 2s -175 LP ab.	icon_skills.poisonblowattack_tex
+100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Giftklinge III			Zieht immer nach 2s -292 LP ab.	icon_skills.poisonblowattack_tex
+100503	HPChange	-438.00	0.00	abs	10000	2	-438.00	Giftklinge IV			Zieht immer nach 2s -438 LP ab.	icon_skills.poisonblowattack_tex
+100504	HPChange	-612.00	0.00	abs	10000	2	-612.00	Giftklinge V			Zieht immer nach 2s -612 LP ab.	icon_skills.poisonblowattack_tex
+100505	HPChange	-845.00	0.00	abs	10000	2	-845.00	Giftklinge VI			Zieht immer nach 2s -845 LP ab.	icon_skills.poisonblowattack_tex
+100506	HPChange	-1428.00	0.00	abs	10000	2	-1428.00	Giftklinge VII			Zieht immer nach 2s -1428 LP ab.	icon_skills.poisonblowattack_tex
 100507	HPChange	-1892.00	0.00	abs	10000	2	-1892.00	Giftklinge			Zieht immer nach 2s -1892 LP ab.	icon_skills.poisonblowattack_tex
-100508	HPChange	-6068.00	0.00	abs	10000	2	-6068.00	Giftklinge			Zieht immer nach 2s -6068 LP ab.	icon_skills.poisonblowattack_tex
-100520	HPChange	-92.00	0.00	abs	10000	2	-92.00	Giftklinge			Zieht immer nach 2s -92 LP ab.	icon_skills.poisonblowattack_tex
-100521	HPChange	-127.00	0.00	abs	10000	2	-127.00	Giftklinge			Zieht immer nach 2s -127 LP ab.	icon_skills.poisonblowattack_tex
-100522	HPChange	-175.00	0.00	abs	10000	2	-175.00	Giftklinge			Zieht immer nach 2s -175 LP ab.	icon_skills.poisonblowattack_tex
-100523	HPChange	-242.00	0.00	abs	10000	2	-242.00	Giftklinge			Zieht immer nach 2s -242 LP ab.	icon_skills.poisonblowattack_tex
-100524	HPChange	-334.00	0.00	abs	10000	2	-334.00	Giftklinge			Zieht immer nach 2s -334 LP ab.	icon_skills.poisonblowattack_tex
-100525	HPChange	-461.00	0.00	abs	10000	2	-461.00	Giftklinge			Zieht immer nach 2s -461 LP ab.	icon_skills.poisonblowattack_tex
-100526	HPChange	-720.00	0.00	abs	10000	2	-720.00	Giftklinge			Zieht immer nach 2s -720 LP ab.	icon_skills.poisonblowattack_tex
-100527	HPChange	-954.00	0.00	abs	10000	2	-954.00	Giftklinge			Zieht immer nach 2s -954 LP ab.	icon_skills.poisonblowattack_tex
-100528	HPChange	-1420.00	0.00	abs	10000	2	-1420.00	Giftklinge			Zieht immer nach 2s -1420 LP ab.	icon_skills.poisonblowattack_tex
+100508	HPChange	-6068.00	0.00	abs	10000	2	-6068.00	Giftklinge IX			Zieht immer nach 2s -6068 LP ab.	icon_skills.poisonblowattack_tex
+100520	HPChange	-92.00	0.00	abs	10000	2	-92.00	Giftklinge I			Zieht immer nach 2s -92 LP ab.	icon_skills.poisonblowattack_tex
+100521	HPChange	-127.00	0.00	abs	10000	2	-127.00	Giftklinge II			Zieht immer nach 2s -127 LP ab.	icon_skills.poisonblowattack_tex
+100522	HPChange	-175.00	0.00	abs	10000	2	-175.00	Giftklinge III			Zieht immer nach 2s -175 LP ab.	icon_skills.poisonblowattack_tex
+100523	HPChange	-242.00	0.00	abs	10000	2	-242.00	Giftklinge IV			Zieht immer nach 2s -242 LP ab.	icon_skills.poisonblowattack_tex
+100524	HPChange	-334.00	0.00	abs	10000	2	-334.00	Giftklinge V			Zieht immer nach 2s -334 LP ab.	icon_skills.poisonblowattack_tex
+100525	HPChange	-461.00	0.00	abs	10000	2	-461.00	Giftklinge VI			Zieht immer nach 2s -461 LP ab.	icon_skills.poisonblowattack_tex
+100526	HPChange	-720.00	0.00	abs	10000	2	-720.00	Giftklinge VII			Zieht immer nach 2s -720 LP ab.	icon_skills.poisonblowattack_tex
+100527	HPChange	-954.00	0.00	abs	10000	2	-954.00	Giftklinge VIII			Zieht immer nach 2s -954 LP ab.	icon_skills.poisonblowattack_tex
+100528	HPChange	-1420.00	0.00	abs	10000	2	-1420.00	Giftklinge IX			Zieht immer nach 2s -1420 LP ab.	icon_skills.poisonblowattack_tex
 100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Verstümmeln			Eure vierte Komboattacke in Folge verringert die Angriffsgeschwindigkeit und Bewegung Eures Gegners um 15%. Zieht immer nach 2 -10 MP ab, solange die Wirkung anhält.	icon_skills.aimingankle_tex
 100630	ASpd	0.00	0.00	perc	5000	0	0.85	Verstümmeln			Verringert die Geschwindigkeit um 15%.	icon_skills.aimingankle_tex
-100800	CritChance	0.00	0.00	perc	20000	0	1.35	Tödliches Spiel I			Erhöht die Chance auf kritische Treffer um 35%.	icon_skills.deadlywill_tex
+100800	CritChance	0.00	0.00	perc	20000	0	1.35	Tödliches Spiel			Erhöht die Chance auf kritische Treffer um 35%.	icon_skills.deadlywill_tex
 100801	CritChance	0.00	0.00	perc	20000	0	1.50	Tödliches Spiel II			Erhöht die Chance auf kritische Treffer 20s lang um 50%. Verringert die Abklingzeit von Nahkampffertigkeiten um 50%.	icon_skills.deadlywill_tex
 100801	CDR	0.00	0.00	perc	20000	0	0.50	Tödliches Spiel II			Erhöht die Chance auf kritische Treffer 20s lang um 50%. Verringert die Abklingzeit von Nahkampffertigkeiten um 50%.	icon_skills.deadlywill_tex
 101200	Endurance	0.00	0.00	perc	15000	0	0.92	Kämpferischer Schlag			Verringert die Konstitution um 8%.	icon_skills.aggravatingstrike_tex
@@ -867,8 +867,8 @@
 200232	Power	0.00	0.00	perc	0	0	1.30	Wächterkraft III			Erhöht die Konstitution um 91% und die Kraft um 30%, solange Ihr nicht weiter als 40m vom Zauberwirkenden entfernt seid.	icon_status.plusedefence_tex
 200232	Endurance	0.00	0.00	perc	0	0	1.91	Wächterkraft III			Erhöht die Konstitution um 91% und die Kraft um 30%, solange Ihr nicht weiter als 40m vom Zauberwirkenden entfernt seid.	icon_status.plusedefence_tex
 200300	Endurance	0.00	0.00	perc	12000	0	0.96	Schwächen			Verringert die Konstitution um 4% (kumulativ für bis zu 3 Treffer). Im PvP wird unabhängig von der Anzahl der Kumulierungen außerdem die LP-Wiederherstellung des Ziels um 30% verringert.	icon_skills.armorbreak_tex
-200301	Endurance	0.00	0.00	perc	15000	0	0.96	Schwächen			Verringert die Konstitution um 4% (kumulativ für bis zu 3 Treffer). Im PvP wird unabhängig von der Anzahl der Kumulierungen außerdem die LP-Wiederherstellung des Ziels um 30% verringert.	icon_skills.armorbreak_tex
-200302	Endurance	0.00	0.00	perc	18000	0	0.96	Schwächen			Verringert die Konstitution um 4% (kumulativ für bis zu 3 Treffer). Im PvP wird unabhängig von der Anzahl der Kumulierungen außerdem die LP-Wiederherstellung des Ziels um 30% verringert.	icon_skills.armorbreak_tex
+200301	Endurance	0.00	0.00	perc	15000	0	0.96	Schwächen II			Verringert die Konstitution um 4% (kumulativ für bis zu 3 Treffer). Im PvP wird unabhängig von der Anzahl der Kumulierungen außerdem die LP-Wiederherstellung des Ziels um 30% verringert.	icon_skills.armorbreak_tex
+200302	Endurance	0.00	0.00	perc	18000	0	0.96	Schwächen III			Verringert die Konstitution um 4% (kumulativ für bis zu 3 Treffer). Im PvP wird unabhängig von der Anzahl der Kumulierungen außerdem die LP-Wiederherstellung des Ziels um 30% verringert.	icon_skills.armorbreak_tex
 200700	ASpd	0.00	0.00	perc	20000	0	1.15	Adrenalinstoß I			Erhöht die Angriffsgeschwindigkeit um 15% und den Schaden bei Angriffen auf Monster um 5%.	icon_skills.fightingwill_tex
 200701	ASpd	0.00	0.00	perc	20000	0	1.20	Adrenalinstoß II			Erhöht die Angriffsgeschwindigkeit um 20% und den Schaden bei Angriffen auf Monster um 5%	icon_skills.fightingwill_tex
 200731	CDR	0.00	0.00	perc	20000	0	0.50	Adrenalinstoß II			Alle Angriffsfertigkeiten ziehen 8% mehr Aggro auf sich. Die Abklingzeit von Nahkampffertigkeiten verringert sich um 50%.	icon_skills.fightingwill_tex
@@ -877,9 +877,9 @@
 201200	ASpd	0.00	0.00	perc	5000	0	0.85	Bedrohliche Welle			Verringert die Bewegungs- und die Angriffsgeschwindigkeit um 15%.	icon_skills.menacewave_tex
 201701	Power	0.00	0.00	abs	50000	0	4.00	Drangeblieben I			Ihr zieht pro Akkumulation 4% mehr Aggro. Erhöht außerdem die Kraft um 4 und den kritischen Trefferwert um 6. Kann bis zu 10-mal akkumuliert werden und endet, wenn Ihr stürzt.	icon_skills.defence_tex
 201701	Crit	0.00	0.00	abs	50000	0	6.00	Drangeblieben I			Ihr zieht pro Akkumulation 4% mehr Aggro. Erhöht außerdem die Kraft um 4 und den kritischen Trefferwert um 6. Kann bis zu 10-mal akkumuliert werden und endet, wenn Ihr stürzt.	icon_skills.defence_tex
-300200	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Gemeuchelt			Bewegungsunfähig. Der Effekt endet, wenn Ihr niedergeschlagen werdet.	icon_skills.turnaroundattack_tex
-300201	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Gemeuchelt			Bewegungsunfähig. Der Effekt endet, wenn Ihr niedergeschlagen werdet.	icon_skills.turnaroundattack_tex
-300300	Attack	0.00	0.00	perc	20000	0	1.30	Kraftschub I			Euer nächster Angriff fügt 30% mehr Schaden zu.	icon_skills.gatheringstrength_tex
+300200	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Meucheln			Bewegungsunfähig. Der Effekt endet, wenn Ihr niedergeschlagen werdet.	icon_skills.turnaroundattack_tex
+300201	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Meucheln II			Bewegungsunfähig. Der Effekt endet, wenn Ihr niedergeschlagen werdet.	icon_skills.turnaroundattack_tex
+300300	Attack	0.00	0.00	perc	20000	0	1.30	Kraftschub			Euer nächster Angriff fügt 30% mehr Schaden zu.	icon_skills.gatheringstrength_tex
 300301	Attack	0.00	0.00	perc	20000	0	1.33	Kraftschub II			Euer nächster Angriff fügt 33% mehr Schaden zu.	icon_skills.gatheringstrength_tex
 300500	ASpd	0.00	0.00	perc	10000	0	1.30	Vorpreschen I			Erhöht die Angriffsgeschwindigkeit des nächsten Angriffs um 30%.	icon_skills.advancingleap_tex
 300501	ASpd	0.00	0.00	perc	10000	0	1.40	Vorpreschen II			Erhöht die Angriffsgeschwindigkeit des nächsten Angriffs um 40%.	icon_skills.advancingleap_tex
@@ -889,9 +889,9 @@
 300800	ASpd	0.00	0.00	perc	20000	0	1.06	Kaltblütigkeit I			Erhöht die Kraft um 26 und die Angriffsgeschwindigkeit um 6%.	icon_skills.destructionvigor_tex
 300801	Power	0.00	0.00	abs	20000	0	29.00	Kaltblütigkeit II			Erhöht die Kraft um 29 und die Angriffsgeschwindigkeit um 8%. Ultimativer Überhandschlag ist aktiviert.	icon_skills.destructionvigor_tex
 300801	ASpd	0.00	0.00	perc	20000	0	1.08	Kaltblütigkeit II			Erhöht die Kraft um 29 und die Angriffsgeschwindigkeit um 8%. Ultimativer Überhandschlag ist aktiviert.	icon_skills.destructionvigor_tex
-300900	CDR	0.00	0.00	perc	11000	0	1.50	Ermüdungsschlag I			Erhöht die Abklingzeit aller Fertigkeiten um 50%.	icon_skills.veinslash_tex
-300901	CDR	0.00	0.00	perc	11000	0	1.53	Ermüdungsschlag II			Erhöht die Abklingzeit aller Fertigkeiten um 53%.	icon_skills.veinslash_tex
-300902	CDR	0.00	0.00	perc	11000	0	1.55	Ermüdungsschlag III			Erhöht die Abklingzeit aller Fertigkeiten um 55%.	icon_skills.veinslash_tex
+300900	CDR	0.00	0.00	perc	11000	0	1.50	Ermüdungsschlag			Erhöht die Abklingzeit aller Fertigkeiten um 50%.	icon_skills.veinslash_tex
+300901	CDR	0.00	0.00	perc	11000	0	1.53	Ermüdungsschlag			Erhöht die Abklingzeit aller Fertigkeiten um 53%.	icon_skills.veinslash_tex
+300902	CDR	0.00	0.00	perc	11000	0	1.55	Ermüdungsschlag			Erhöht die Abklingzeit aller Fertigkeiten um 55%.	icon_skills.veinslash_tex
 400100	Power	0.00	0.00	perc	15000	0	1.20	Wilde Raserei I			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
 400100	Endurance	0.00	0.00	perc	15000	0	0.90	Wilde Raserei I			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
 400100	Crit	0.00	0.00	perc	15000	0	1.10	Wilde Raserei I			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
@@ -901,16 +901,16 @@
 400102	Power	0.00	0.00	perc	20000	0	1.20	Wilde Raserei III			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
 400102	Endurance	0.00	0.00	perc	20000	0	0.90	Wilde Raserei III			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
 400102	Crit	0.00	0.00	perc	20000	0	1.10	Wilde Raserei III			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
-400103	Power	0.00	0.00	perc	25000	0	1.20	Wilde Raserei IV			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
-400103	Endurance	0.00	0.00	perc	25000	0	0.90	Wilde Raserei IV			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
-400103	Crit	0.00	0.00	perc	25000	0	1.10	Wilde Raserei IV			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
-400104	Power	0.00	0.00	perc	27000	0	1.20	Wilde Raserei IV			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert jedoch die Konstitution um 10%.	icon_skills.berserk_tex
-400104	Endurance	0.00	0.00	perc	27000	0	0.90	Wilde Raserei IV			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert jedoch die Konstitution um 10%.	icon_skills.berserk_tex
-400104	Crit	0.00	0.00	perc	27000	0	1.10	Wilde Raserei IV			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert jedoch die Konstitution um 10%.	icon_skills.berserk_tex
+400103	Power	0.00	0.00	perc	25000	0	1.20	Wilde Raserei			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
+400103	Endurance	0.00	0.00	perc	25000	0	0.90	Wilde Raserei			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
+400103	Crit	0.00	0.00	perc	25000	0	1.10	Wilde Raserei			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
+400104	Power	0.00	0.00	perc	27000	0	1.20	Wilde Raserei V			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert jedoch die Konstitution um 10%.	icon_skills.berserk_tex
+400104	Endurance	0.00	0.00	perc	27000	0	0.90	Wilde Raserei V			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert jedoch die Konstitution um 10%.	icon_skills.berserk_tex
+400104	Crit	0.00	0.00	perc	27000	0	1.10	Wilde Raserei V			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert jedoch die Konstitution um 10%.	icon_skills.berserk_tex
 400105	Power	0.00	0.00	perc	27000	0	1.20	Wilde Raserei VI			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
 400105	Endurance	0.00	0.00	perc	27000	0	0.90	Wilde Raserei VI			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
 400105	Crit	0.00	0.00	perc	27000	0	1.10	Wilde Raserei VI			Erhöht die Kraft um 20% und den kritischen Trefferwert um 10%, verringert aber die Konstitution um 10%.	icon_skills.berserk_tex
-400500	ASpd	0.00	0.00	perc	15000	0	1.20	Rasende Entfesselte Wut			Erhöht die Angriffsgeschwindigkeit um 20%. Fertigkeiten laden schneller auf.	icon_skills.vitalconversion_tex
+400500	ASpd	0.00	0.00	perc	15000	0	1.20	Schlaggewitter I			Erhöht die Angriffsgeschwindigkeit um 20%. Fertigkeiten laden schneller auf.	icon_skills.gatheringrage_tex
 400501	ASpd	0.00	0.00	perc	15000	0	1.40	Schlaggewitter			Erhöht die Angriffsgeschwindigkeit um 40%. Fertigkeiten laden schneller auf.	icon_skills.gatheringrage_tex
 400700	Power	0.00	0.00	abs	30000	0	26.00	Blutdurst I			Erhöht die Kraft um 26.  Erhöht Gleichgewichts- und Aufprallfaktor um 50% Fügt 10% mehr Schaden beim Angriff auf Monster zu.	icon_skills.fury_tex
 400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	Blutdurst I			Erhöht die Kraft um 26.  Erhöht Gleichgewichts- und Aufprallfaktor um 50% Fügt 10% mehr Schaden beim Angriff auf Monster zu.	icon_skills.fury_tex
@@ -1078,100 +1078,102 @@
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	Vergeblichkeit			Verringert den Fertigkeitsschaden um 50%. Der Effekt hält an, solange Ihr Euch in der Nähe eines Vorboten der Vergeblichkeit befindet.	icon_status.minusattack_tex
 500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Konzentrieren			Der nächste Angriff mit Feuerstoß, Sperrfeuer, Vakuumimpuls, Nova oder Arkaner Impuls fügt 25% mehr Schaden zu.	icon_skills.kicharge_tex
 500300	MPChange	0.00	120.00	abs	25000	2	120.00	Manainfusion I			Stellt immer nach 2s 120 MP wieder her.	icon_skills.mpcondensing_tex
-500301	MPChange	0.00	120.00	abs	25000	1	120.00	Manainfusion II			Stellt immer nach 1s 120 MP wieder her.	icon_skills.mpcondensing_tex
-500700	HPChange	-26.00	0.00	abs	10000	2	-26.00	Schmerzexplosion			Zieht immer nach 2s -26 LP ab.	icon_skills.disease_tex
-500701	HPChange	-40.00	0.00	abs	10000	2	-40.00	Schmerzexplosion			Zieht immer nach 2s -40 LP ab.	icon_skills.disease_tex
-500702	HPChange	-58.00	0.00	abs	10000	2	-58.00	Schmerzexplosion			Zieht immer nach 2s -58 LP ab.	icon_skills.disease_tex
-500703	HPChange	-85.00	0.00	abs	10000	2	-85.00	Schmerzexplosion			Zieht immer nach 2s -85 LP ab.	icon_skills.disease_tex
-500704	HPChange	-121.00	0.00	abs	10000	2	-121.00	Schmerzexplosion			Zieht immer nach 2s -121 LP ab.	icon_skills.disease_tex
-500705	HPChange	-174.00	0.00	abs	10000	2	-174.00	Schmerzexplosion			Zieht immer nach 2s -174 LP ab.	icon_skills.disease_tex
-500706	HPChange	-241.00	0.00	abs	10000	2	-241.00	Schmerzexplosion			Zieht immer nach 2s -241 LP ab.	icon_skills.disease_tex
+500301	MPChange	0.00	120.00	abs	25000	1	120.00	Manainfusion			Stellt immer nach 1s 120 MP wieder her.	icon_skills.mpcondensing_tex
+500700	HPChange	-26.00	0.00	abs	10000	2	-26.00	Schmerzexplosion I			Zieht immer nach 2s -26 LP ab.	icon_skills.disease_tex
+500701	HPChange	-40.00	0.00	abs	10000	2	-40.00	Schmerzexplosion II			Zieht immer nach 2s -40 LP ab.	icon_skills.disease_tex
+500702	HPChange	-58.00	0.00	abs	10000	2	-58.00	Schmerzexplosion III			Zieht immer nach 2s -58 LP ab.	icon_skills.disease_tex
+500703	HPChange	-85.00	0.00	abs	10000	2	-85.00	Schmerzexplosion IV			Zieht immer nach 2s -85 LP ab.	icon_skills.disease_tex
+500704	HPChange	-121.00	0.00	abs	10000	2	-121.00	Schmerzexplosion V			Zieht immer nach 2s -121 LP ab.	icon_skills.disease_tex
+500705	HPChange	-174.00	0.00	abs	10000	2	-174.00	Schmerzexplosion VI			Zieht immer nach 2s -174 LP ab.	icon_skills.disease_tex
+500706	HPChange	-241.00	0.00	abs	10000	2	-241.00	Schmerzexplosion VII			Zieht immer nach 2s -241 LP ab.	icon_skills.disease_tex
 500707	HPChange	-341.00	0.00	abs	10000	2	-341.00	Schmerzexplosion			Zieht immer nach 2s -341 LP ab.	icon_skills.disease_tex
-500708	HPChange	-516.00	0.00	abs	10000	2	-516.00	Schmerzexplosion			Zieht immer nach 2s -516 LP ab.	icon_skills.disease_tex
-500720	HPChange	-27.00	0.00	abs	10000	2	-27.00	Schmerzexplosion			Zieht immer nach 2s -27 LP ab.	icon_skills.disease_tex
-500721	HPChange	-37.00	0.00	abs	10000	2	-37.00	Schmerzexplosion			Zieht immer nach 2s -37 LP ab.	icon_skills.disease_tex
-500722	HPChange	-51.00	0.00	abs	10000	2	-51.00	Schmerzexplosion			Zieht immer nach 2s -51 LP ab.	icon_skills.disease_tex
-500723	HPChange	-71.00	0.00	abs	10000	2	-71.00	Schmerzexplosion			Zieht immer nach 2s -71 LP ab.	icon_skills.disease_tex
-500724	HPChange	-97.00	0.00	abs	10000	2	-97.00	Schmerzexplosion			Zieht immer nach 2s -97 LP ab.	icon_skills.disease_tex
-500725	HPChange	-134.00	0.00	abs	10000	2	-134.00	Schmerzexplosion			Zieht immer nach 2s -134 LP ab.	icon_skills.disease_tex
-500726	HPChange	-186.00	0.00	abs	10000	2	-186.00	Schmerzexplosion			Zieht immer nach 2s -186 LP ab.	icon_skills.disease_tex
+500708	HPChange	-516.00	0.00	abs	10000	2	-516.00	Schmerzexplosion IX			Zieht immer nach 2s -516 LP ab.	icon_skills.disease_tex
+500720	HPChange	-27.00	0.00	abs	10000	2	-27.00	Schmerzexplosion I			Zieht immer nach 2s -27 LP ab.	icon_skills.disease_tex
+500721	HPChange	-37.00	0.00	abs	10000	2	-37.00	Schmerzexplosion II			Zieht immer nach 2s -37 LP ab.	icon_skills.disease_tex
+500722	HPChange	-51.00	0.00	abs	10000	2	-51.00	Schmerzexplosion III			Zieht immer nach 2s -51 LP ab.	icon_skills.disease_tex
+500723	HPChange	-71.00	0.00	abs	10000	2	-71.00	Schmerzexplosion IV			Zieht immer nach 2s -71 LP ab.	icon_skills.disease_tex
+500724	HPChange	-97.00	0.00	abs	10000	2	-97.00	Schmerzexplosion V			Zieht immer nach 2s -97 LP ab.	icon_skills.disease_tex
+500725	HPChange	-134.00	0.00	abs	10000	2	-134.00	Schmerzexplosion VI			Zieht immer nach 2s -134 LP ab.	icon_skills.disease_tex
+500726	HPChange	-186.00	0.00	abs	10000	2	-186.00	Schmerzexplosion VII			Zieht immer nach 2s -186 LP ab.	icon_skills.disease_tex
 500727	HPChange	-258.00	0.00	abs	10000	2	-258.00	Schmerzexplosion			Zieht immer nach 2s -258 LP ab.	icon_skills.disease_tex
-500728	HPChange	-382.00	0.00	abs	10000	2	-382.00	Schmerzexplosion			Zieht immer nach 2s -382 LP ab.	icon_skills.disease_tex
+500728	HPChange	-382.00	0.00	abs	10000	2	-382.00	Schmerzexplosion IX			Zieht immer nach 2s -382 LP ab.	icon_skills.disease_tex
 500900	Block	0.00	0.00	swch	5000	0	0.00	Nervöse Erschöpfung			Fertigkeiten können nicht benutzt werden. Der Effekt wirkt nur auf Spielercharaktere und wird aufgehoben, wenn Ihr Schaden erleidet oder niedergeschlagen werdet.	icon_skills.neurasthenia_tex
-501000	HPChange	-1175.00	0.00	abs	10000	2	-1175.00	Feueratem			Zieht immer nach 2s -1175 LP ab.	icon_skills.burningbreath_tex
-501001	HPChange	-1631.00	0.00	abs	10000	2	-1631.00	Feueratem			Zieht immer nach 2s -1631 LP ab.	icon_skills.burningbreath_tex
+501000	HPChange	-1175.00	0.00	abs	10000	2	-1175.00	Feueratem I			Zieht immer nach 2s -1175 LP ab.	icon_skills.burningbreath_tex
+501001	HPChange	-1631.00	0.00	abs	10000	2	-1631.00	Feueratem II			Zieht immer nach 2s -1631 LP ab.	icon_skills.burningbreath_tex
 501002	HPChange	-2305.00	0.00	abs	10000	2	-2305.00	Feueratem			Zieht immer nach 2s -2305 LP ab.	icon_skills.burningbreath_tex
-501003	HPChange	-3120.00	0.00	abs	10000	2	-3120.00	Feueratem			Zieht immer nach 2s -3120 LP ab.	icon_skills.burningbreath_tex
-501020	HPChange	-890.00	0.00	abs	10000	2	-890.00	Feueratem			Zieht immer nach 2s -890 LP ab.	icon_skills.burningbreath_tex
-501021	HPChange	-1228.00	0.00	abs	10000	2	-1228.00	Feueratem			Zieht immer nach 2s -1228 LP ab.	icon_skills.burningbreath_tex
+501003	HPChange	-3120.00	0.00	abs	10000	2	-3120.00	Feueratem IV			Zieht immer nach 2s -3120 LP ab.	icon_skills.burningbreath_tex
+501020	HPChange	-890.00	0.00	abs	10000	2	-890.00	Feueratem I			Zieht immer nach 2s -890 LP ab.	icon_skills.burningbreath_tex
+501021	HPChange	-1228.00	0.00	abs	10000	2	-1228.00	Feueratem II			Zieht immer nach 2s -1228 LP ab.	icon_skills.burningbreath_tex
 501022	HPChange	-1704.00	0.00	abs	10000	2	-1704.00	Feueratem			Zieht immer nach 2s -1704 LP ab.	icon_skills.burningbreath_tex
-501023	HPChange	-2259.00	0.00	abs	10000	2	-2259.00	Feueratem			Zieht immer nach 2s -2259 LP ab.	icon_skills.burningbreath_tex
-501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Manasalve I			Zieht immer nach 2s -172 MP ab.	icon_skills.mpsink_tex
+501023	HPChange	-2259.00	0.00	abs	10000	2	-2259.00	Feueratem IV			Zieht immer nach 2s -2259 LP ab.	icon_skills.burningbreath_tex
+501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Manasalve			Zieht immer nach 2s -172 MP ab.	icon_skills.mpsink_tex
 501101	MPChange	0.00	-206.00	abs	10000	2	-206.00	Manasalve II			Zieht immer nach 2s -206 MP ab.	icon_skills.mpsink_tex
-501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Manasalve I			[Test]	icon_skills.mpsink_tex
+501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Manasalve			[Test]	icon_skills.mpsink_tex
 501151	MPChange	0.00	-0.30	perc	1000	1	-0.30	Manasalve II			Test	icon_skills.mpsink_tex
+501160	MPChange	0.00	0.25	perc	1000	1	0.25	Manasalve				icon_skills.mpsink_tex
+501161	MPChange	0.00	0.30	perc	1000	1	0.30	Manasalve II				icon_skills.mpsink_tex
 501200	ASpd	0.00	0.00	perc	15000	0	1.20	Flinkheitsschub			Erhöht die Angriffsgeschwindigkeit während der Dauer.	icon_skills.contractofquickness_tex
-501300	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Zeitwirbel			Bewegungsunfähig. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501301	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Zeitwirbel			Bewegungsunfähig. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501300	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Zeitwirbel I			Bewegungsunfähig. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501301	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Zeitwirbel II			Bewegungsunfähig. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
 501302	MovSpdInCombat	0.00	0.00	setp	7000	0	0.00	Zeitwirbel			Bewegungsunfähig. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501303	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Zeitwirbel			Bewegungsunfähig. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501320	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501320	Block	0.00	0.00	perc	5000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501321	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501321	Block	0.00	0.00	perc	6000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501303	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Zeitwirbel IV			Bewegungsunfähig. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501320	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Zeitwirbel I			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501320	Block	0.00	0.00	perc	5000	0	0.00	Zeitwirbel I			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501321	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Zeitwirbel II			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501321	Block	0.00	0.00	perc	6000	0	0.00	Zeitwirbel II			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
 501322	MovSpdInCombat	0.00	0.00	setp	7000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
 501322	Block	0.00	0.00	perc	7000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501323	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-501323	Block	0.00	0.00	perc	8000	0	0.00	Zeitwirbel			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
-600500	Mark	0.00	0.00	swch	30000	0	1.20	Veliks Mal			Erleidet 20% mehr Schaden, wenn Ihr von dem Gegner getroffen werdet, der Euch das Mal verpasst hat.	icon_skills.markingofarcher_tex
-600501	Mark	0.00	0.00	swch	35000	0	1.20	Veliks Mal			Erleidet 20% mehr Schaden, wenn Ihr von dem Gegner getroffen werdet, der Euch das Mal verpasst hat.	icon_skills.markingofarcher_tex
+501323	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Zeitwirbel IV			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+501323	Block	0.00	0.00	perc	8000	0	0.00	Zeitwirbel IV			Bewegungsunfähig und nicht in der Lage, Ausweichfertigkeiten zu verwenden. Der Effekt endet, wenn Ihr einen gewissen Schaden erleidet oder niedergeschlagen werdet.	icon_skills.curseofshackle_tex
+600500	Mark	0.00	0.00	swch	30000	0	1.20	Veliks Mal I			Erleidet 20% mehr Schaden, wenn Ihr von dem Gegner getroffen werdet, der Euch das Mal verpasst hat.	icon_skills.markingofarcher_tex
+600501	Mark	0.00	0.00	swch	35000	0	1.20	Veliks Mal II			Erleidet 20% mehr Schaden, wenn Ihr von dem Gegner getroffen werdet, der Euch das Mal verpasst hat.	icon_skills.markingofarcher_tex
 600502	Mark	0.00	0.00	swch	40000	0	1.20	Veliks Mal			Erleidet 20% mehr Schaden, wenn Ihr von dem Gegner getroffen werdet, der Euch das Mal verpasst hat.	icon_skills.markingofarcher_tex
-600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	Giftfalle			Zieht immer nach 2s -58 LP ab.	icon_skills.venomtrap_tex
-600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	Giftfalle			Zieht immer nach 2s -124 LP ab.	icon_skills.venomtrap_tex
-600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	Giftfalle			Zieht immer nach 2s -271 LP ab.	icon_skills.venomtrap_tex
-600603	HPChange	-518.00	0.00	abs	10000	2	-518.00	Giftfalle			Zieht immer nach 2s -518 LP ab.	icon_skills.venomtrap_tex
-600604	HPChange	-1048.00	0.00	abs	10000	2	-1048.00	Giftfalle			Zieht immer nach 2s -1048 LP ab.	icon_skills.venomtrap_tex
-600605	HPChange	-1575.00	0.00	abs	10000	2	-1575.00	Giftfalle			Zieht immer nach 2s -1575 LP ab.	icon_skills.venomtrap_tex
-600620	HPChange	-57.00	0.00	abs	10000	2	-57.00	Giftfalle			Zieht immer nach 2s -57 LP ab.	icon_skills.venomtrap_tex
-600621	HPChange	-109.00	0.00	abs	10000	2	-109.00	Giftfalle			Zieht immer nach 2s -109 LP ab.	icon_skills.venomtrap_tex
-600622	HPChange	-209.00	0.00	abs	10000	2	-209.00	Giftfalle			Zieht immer nach 2s -209 LP ab.	icon_skills.venomtrap_tex
-600623	HPChange	-398.00	0.00	abs	10000	2	-398.00	Giftfalle			Zieht immer nach 2s -398 LP ab.	icon_skills.venomtrap_tex
-600624	HPChange	-778.00	0.00	abs	10000	2	-778.00	Giftfalle			Zieht immer nach 2s -778 LP ab.	icon_skills.venomtrap_tex
-600625	HPChange	-1091.00	0.00	abs	10000	2	-1091.00	Giftfalle			Zieht immer nach 2s -1091 LP ab.	icon_skills.venomtrap_tex
-600900	HPChange	-270.00	0.00	abs	12000	2	-270.00	Giftpfeil			Zieht immer nach 2s -270 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600901	HPChange	-389.00	0.00	abs	12000	2	-389.00	Giftpfeil			Zieht immer nach 2s -389 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600902	HPChange	-589.00	0.00	abs	12000	2	-589.00	Giftpfeil			Zieht immer nach 2s -589 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600903	HPChange	-849.00	0.00	abs	12000	2	-849.00	Giftpfeil			Zieht immer nach 2s -849 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600904	HPChange	-1179.00	0.00	abs	12000	2	-1179.00	Giftpfeil			Zieht immer nach 2s -1179 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600905	HPChange	-1626.00	0.00	abs	12000	2	-1626.00	Giftpfeil			Zieht immer nach 2s -1626 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	Giftfalle I			Zieht immer nach 2s -58 LP ab.	icon_skills.venomtrap_tex
+600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	Giftfalle II			Zieht immer nach 2s -124 LP ab.	icon_skills.venomtrap_tex
+600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	Giftfalle III			Zieht immer nach 2s -271 LP ab.	icon_skills.venomtrap_tex
+600603	HPChange	-518.00	0.00	abs	10000	2	-518.00	Giftfalle IV			Zieht immer nach 2s -518 LP ab.	icon_skills.venomtrap_tex
+600604	HPChange	-1048.00	0.00	abs	10000	2	-1048.00	Giftfalle V			Zieht immer nach 2s -1048 LP ab.	icon_skills.venomtrap_tex
+600605	HPChange	-1575.00	0.00	abs	10000	2	-1575.00	Giftfalle VI			Zieht immer nach 2s -1575 LP ab.	icon_skills.venomtrap_tex
+600620	HPChange	-57.00	0.00	abs	10000	2	-57.00	Giftfalle I			Zieht immer nach 2s -57 LP ab.	icon_skills.venomtrap_tex
+600621	HPChange	-109.00	0.00	abs	10000	2	-109.00	Giftfalle II			Zieht immer nach 2s -109 LP ab.	icon_skills.venomtrap_tex
+600622	HPChange	-209.00	0.00	abs	10000	2	-209.00	Giftfalle III			Zieht immer nach 2s -209 LP ab.	icon_skills.venomtrap_tex
+600623	HPChange	-398.00	0.00	abs	10000	2	-398.00	Giftfalle IV			Zieht immer nach 2s -398 LP ab.	icon_skills.venomtrap_tex
+600624	HPChange	-778.00	0.00	abs	10000	2	-778.00	Giftfalle V			Zieht immer nach 2s -778 LP ab.	icon_skills.venomtrap_tex
+600625	HPChange	-1091.00	0.00	abs	10000	2	-1091.00	Giftfalle VI			Zieht immer nach 2s -1091 LP ab.	icon_skills.venomtrap_tex
+600900	HPChange	-270.00	0.00	abs	12000	2	-270.00	Giftpfeil I			Zieht immer nach 2s -270 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600901	HPChange	-389.00	0.00	abs	12000	2	-389.00	Giftpfeil II			Zieht immer nach 2s -389 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600902	HPChange	-589.00	0.00	abs	12000	2	-589.00	Giftpfeil III			Zieht immer nach 2s -589 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600903	HPChange	-849.00	0.00	abs	12000	2	-849.00	Giftpfeil IV			Zieht immer nach 2s -849 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600904	HPChange	-1179.00	0.00	abs	12000	2	-1179.00	Giftpfeil V			Zieht immer nach 2s -1179 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600905	HPChange	-1626.00	0.00	abs	12000	2	-1626.00	Giftpfeil VI			Zieht immer nach 2s -1626 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
 600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Giftpfeil			Zieht immer nach 2s -2360 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600907	HPChange	-3128.00	0.00	abs	12000	2	-3128.00	Giftpfeil			Zieht immer nach 2s -3128 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600907	HPChange	-3128.00	0.00	abs	12000	2	-3128.00	Giftpfeil VIII			Zieht immer nach 2s -3128 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
 600908	HPChange	-3780.00	0.00	abs	12000	2	-3780.00	Giftpfeil			Zieht immer nach 2s -3780 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600920	HPChange	-232.00	0.00	abs	12000	2	-232.00	Giftpfeil			Zieht immer nach 2s -232 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600921	HPChange	-160.00	0.00	abs	12000	2	-160.00	Giftpfeil			Zieht immer nach 2s -160 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600922	HPChange	-221.00	0.00	abs	12000	2	-221.00	Giftpfeil			Zieht immer nach 2s -221 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600923	HPChange	-306.00	0.00	abs	12000	2	-306.00	Giftpfeil			Zieht immer nach 2s -306 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600924	HPChange	-422.00	0.00	abs	12000	2	-422.00	Giftpfeil			Zieht immer nach 2s -422 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600925	HPChange	-583.00	0.00	abs	12000	2	-583.00	Giftpfeil			Zieht immer nach 2s -583 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600920	HPChange	-232.00	0.00	abs	12000	2	-232.00	Giftpfeil I			Zieht immer nach 2s -232 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600921	HPChange	-160.00	0.00	abs	12000	2	-160.00	Giftpfeil II			Zieht immer nach 2s -160 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600922	HPChange	-221.00	0.00	abs	12000	2	-221.00	Giftpfeil III			Zieht immer nach 2s -221 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600923	HPChange	-306.00	0.00	abs	12000	2	-306.00	Giftpfeil IV			Zieht immer nach 2s -306 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600924	HPChange	-422.00	0.00	abs	12000	2	-422.00	Giftpfeil V			Zieht immer nach 2s -422 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600925	HPChange	-583.00	0.00	abs	12000	2	-583.00	Giftpfeil VI			Zieht immer nach 2s -583 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
 600926	HPChange	-813.00	0.00	abs	12000	2	-813.00	Giftpfeil			Zieht immer nach 2s -813 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600927	HPChange	-1078.00	0.00	abs	12000	2	-1078.00	Giftpfeil			Zieht immer nach 2s -1078 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-600928	HPChange	-1427.00	0.00	abs	12000	2	-1427.00	Giftpfeil			Zieht immer nach 2s -1427 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
-601000	ASpd	0.00	0.00	perc	4000	0	0.85	Fesselnder Pfeil			Verringert die Bewegungsgeschwindigkeit um 50% und die Angriffsgeschwindigkeit um 15%.	icon_skills.contaningshot_tex
-601001	ASpd	0.00	0.00	perc	5000	0	0.85	Fesselnder Pfeil			Verringert die Bewegungsgeschwindigkeit um 50% und die Angriffsgeschwindigkeit um 15%.	icon_skills.contaningshot_tex
+600927	HPChange	-1078.00	0.00	abs	12000	2	-1078.00	Giftpfeil VIII			Zieht immer nach 2s -1078 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+600928	HPChange	-1427.00	0.00	abs	12000	2	-1427.00	Giftpfeil IX			Zieht immer nach 2s -1427 LP ab. Kann bis zu 3-mal akkumuliert werden.	icon_skills.venomarrow_tex
+601000	ASpd	0.00	0.00	perc	4000	0	0.85	Fesselnder Pfeil I			Verringert die Bewegungsgeschwindigkeit um 50% und die Angriffsgeschwindigkeit um 15%.	icon_skills.contaningshot_tex
+601001	ASpd	0.00	0.00	perc	5000	0	0.85	Fesselnder Pfeil II			Verringert die Bewegungsgeschwindigkeit um 50% und die Angriffsgeschwindigkeit um 15%.	icon_skills.contaningshot_tex
 601100	Power	0.00	0.00	abs	0	0	30.00	Scharfschützenauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Bewegungsgeschwindigkeit um 8. Erhöht den Schaden an Bossmonstern um 5%. Kann nicht zusammen mit Adlerauge verwendet werden.	icon_skills.focusstance_tex
 601100	ASpd	0.00	0.00	abs	0	0	4.00	Scharfschützenauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Bewegungsgeschwindigkeit um 8. Erhöht den Schaden an Bossmonstern um 5%. Kann nicht zusammen mit Adlerauge verwendet werden.	icon_skills.focusstance_tex
 601101	Power	0.00	0.00	abs	0	0	30.00	Scharfschützenauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Bewegungsgeschwindigkeit um 16. Erhöht den Schaden an Bossmonstern um 5%. Kann nicht zusammen mit Adlerauge verwendet werden.	icon_skills.focusstance_tex
 601101	ASpd	0.00	0.00	abs	0	0	8.00	Scharfschützenauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Bewegungsgeschwindigkeit um 16. Erhöht den Schaden an Bossmonstern um 5%. Kann nicht zusammen mit Adlerauge verwendet werden.	icon_skills.focusstance_tex
-601110	Power	0.00	0.00	abs	0	0	30.00	Adlerauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Konstitution um 4. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_moveslow_tex
-601110	Endurance	0.00	0.00	abs	0	0	4.00	Adlerauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Konstitution um 4. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_moveslow_tex
-601110	ASpd	0.00	0.00	abs	0	0	4.00	Adlerauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Konstitution um 4. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_moveslow_tex
-601111	Power	0.00	0.00	abs	0	0	30.00	Adlerauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Konstitution um 8. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_moveslow_tex
-601111	Endurance	0.00	0.00	abs	0	0	8.00	Adlerauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Konstitution um 8. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_moveslow_tex
-601111	ASpd	0.00	0.00	abs	0	0	8.00	Adlerauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Konstitution um 8. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_moveslow_tex
+601110	Power	0.00	0.00	abs	0	0	30.00	Adlerauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Konstitution um 4. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_tex
+601110	Endurance	0.00	0.00	abs	0	0	4.00	Adlerauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Konstitution um 4. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_tex
+601110	ASpd	0.00	0.00	abs	0	0	4.00	Adlerauge I			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 4 und die Konstitution um 4. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_tex
+601111	Power	0.00	0.00	abs	0	0	30.00	Adlerauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Konstitution um 8. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_tex
+601111	Endurance	0.00	0.00	abs	0	0	8.00	Adlerauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Konstitution um 8. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_tex
+601111	ASpd	0.00	0.00	abs	0	0	8.00	Adlerauge II			Erhöht die Kraft um 30, die Angriffsgeschwindigkeit um 8 und die Konstitution um 8. Erhöht den Schaden an Monstern um 10%. Kann nicht zusammen mit Scharfschützenauge verwendet werden.	icon_skills.focusstance_tex
 601450	CastSpeed	0.00	0.00	perc	10000	0	1.50	Pfeil			Verringert die Aufladegeschwindigkeit des nächsten Angriffs mit Durchdringender Pfeil.	icon_skills.arrowshot_tex
 700200	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Unnachgiebigen I			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Unnachgiebigen. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.areahpgain_tex
 700201	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Unnachgiebigen II			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Unnachgiebigen. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.areahpgain_tex
-700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Unnachgiebigen III			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Unnachgiebigen. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.areahpgain_tex
+700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Unnachgiebigen			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Unnachgiebigen. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.areahpgain_tex
 700203	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Unnachgiebigen IV			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Unnachgiebigen. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.areahpgain_tex
 700230	CritResist	0.00	0.00	perc	0	0	1.10	Aura der Unnachgiebigen I			Erhöht kritische Trefferresistenz um 10%.	icon_status.plusciriticalresist_tex
 700231	CritResist	0.00	0.00	perc	0	0	1.20	Aura der Unnachgiebigen II			Erhöht die kritische Trefferresistenz um 20%.	icon_status.plusciriticalresist_tex
@@ -1188,33 +1190,33 @@
 700406	HPChange	0.00	0.00	abs	10000	1	0.00	Gefallen der Titanen VII			Heilt immer nach 1s LP.	icon_skills.healshot_tex
 700407	HPChange	0.00	0.00	abs	10000	1	0.00	Gefallen der Titanen VIII			Heilt immer nach 1s LP.	icon_skills.healshot_tex
 700408	HPChange	0.00	0.00	abs	10000	1	0.00	Gefallen der Titanen IX			Heilt immer nach 1s LP.	icon_skills.healshot_tex
-700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Gnadenlosen I			Verleiht Gruppenmitgliedern innerhalb von 30m die Kraft der Raserei. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.criticalupaura_tex
+700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Gnadenlosen			Verleiht Gruppenmitgliedern innerhalb von 30m die Kraft der Raserei. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.criticalupaura_tex
 700601	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Gnadenlosen II			Verleiht Gruppenmitgliedern innerhalb von 30m die Kraft der Gnadenlosen und die Kraft der Raserei. Zieht immer nach 2 -30 MP ab.	icon_skills.criticalupaura_tex
 700602	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Gnadenlosen III			Verleiht Gruppenmitgliedern innerhalb von 30m die Kraft der Gnadenlosen und die Kraft der Raserei. Zieht immer nach 2 -30 MP ab.	icon_skills.criticalupaura_tex
 700603	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Gnadenlosen IV			Verleiht Gruppenmitgliedern innerhalb von 30m die Kraft der Gnadenlosen und die Kraft der Raserei. Zieht immer nach 2 -30 MP ab.	icon_skills.criticalupaura_tex
 700630	Crit	0.00	0.00	perc	0	0	2.00	Kraft der Gnadenlosen I			Verdoppelt den kritischen Trefferwert.	icon_status.plusecritical_tex
 700631	Crit	0.00	0.00	perc	0	0	2.10	Kraft der Gnadenlosen II			Verdoppelt den kritischen Trefferwert.	icon_status.plusecritical_tex
-700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Flinken I			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Flinken. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.speedupaura_tex
-700701	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Flinken (Freisetzung)			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Flinken. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.speedupaura_tex
+700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Flinken			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Flinken. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.speedupaura_tex
+700701	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura der Flinken II			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Flinken. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.speedupaura_tex
 700800	HPChange	-40.00	0.00	abs	10000	2	-40.00	Flut von Verwünschungen			Zieht immer nach 2s -40 LP ab.	icon_skills.painfulshackle_tex
 700801	HPChange	-62.00	0.00	abs	10000	2	-62.00	Flut von Verwünschungen			Zieht immer nach 2s -62 LP ab.	icon_skills.painfulshackle_tex
 700802	HPChange	-96.00	0.00	abs	10000	2	-96.00	Flut von Verwünschungen			Zieht immer nach 2s -96 LP ab.	icon_skills.painfulshackle_tex
 700803	HPChange	-138.00	0.00	abs	10000	2	-138.00	Flut von Verwünschungen			Zieht immer nach 2s -138 LP ab.	icon_skills.painfulshackle_tex
-700804	HPChange	-205.00	0.00	abs	10000	2	-205.00	Flut von Verwünschungen			Zieht immer nach 2s -205 LP ab.	icon_skills.painfulshackle_tex
+700804	HPChange	-205.00	0.00	abs	10000	2	-205.00	Flut vonerwünschungen			Zieht immer nach 2s -205 LP ab.	icon_skills.painfulshackle_tex
 700805	HPChange	-289.00	0.00	abs	10000	2	-289.00	Flut von Verwünschungen			Zieht immer nach 2s -289 LP ab.	icon_skills.painfulshackle_tex
 700806	HPChange	-417.00	0.00	abs	10000	2	-417.00	Flut von Verwünschungen			Zieht immer nach 2s -417 LP ab.	icon_skills.painfulshackle_tex
 700807	HPChange	-578.00	0.00	abs	10000	2	-578.00	Flut von Verwünschungen			Zieht immer nach 2s -578 LP ab.	icon_skills.painfulshackle_tex
-700808	HPChange	-817.00	0.00	abs	10000	2	-817.00	Flut von Verwünschungen			Zieht immer nach 2s -817 LP ab.	icon_skills.painfulshackle_tex
+700808	HPChange	-817.00	0.00	abs	10000	2	-817.00	Flut von Verwünschungen IX			Zieht immer nach 2s -817 LP ab.	icon_skills.painfulshackle_tex
 700809	HPChange	-1238.00	0.00	abs	10000	2	-1238.00	Flut von Verwünschungen			Zieht immer nach 2s -1238 LP ab.	icon_skills.painfulshackle_tex
-700820	HPChange	-41.00	0.00	abs	10000	2	-41.00	Flut von Verwünschungen			Zieht immer nach 2s -41 LP ab.	icon_skills.painfulshackle_tex
-700821	HPChange	-63.00	0.00	abs	10000	2	-63.00	Flut von Verwünschungen			Zieht immer nach 2s -63 LP ab.	icon_skills.painfulshackle_tex
-700822	HPChange	-86.00	0.00	abs	10000	2	-86.00	Flut von Verwünschungen			Zieht immer nach 2s -86 LP ab.	icon_skills.painfulshackle_tex
-700823	HPChange	-133.00	0.00	abs	10000	2	-133.00	Flut von Verwünschungen			Zieht immer nach 2s -133 LP ab.	icon_skills.painfulshackle_tex
-700824	HPChange	-191.00	0.00	abs	10000	2	-191.00	Flut von Verwünschungen			Zieht immer nach 2s -191 LP ab.	icon_skills.painfulshackle_tex
-700825	HPChange	-283.00	0.00	abs	10000	2	-283.00	Flut von Verwünschungen			Zieht immer nach 2s -283 LP ab.	icon_skills.painfulshackle_tex
-700826	HPChange	-399.00	0.00	abs	10000	2	-399.00	Flut von Verwünschungen			Zieht immer nach 2s -399 LP ab.	icon_skills.painfulshackle_tex
-700827	HPChange	-576.00	0.00	abs	10000	2	-576.00	Flut von Verwünschungen			Zieht immer nach 2s -576 LP ab.	icon_skills.painfulshackle_tex
-700828	HPChange	-802.00	0.00	abs	10000	2	-802.00	Flut von Verwünschungen			Zieht immer nach 2s -802 LP ab.	icon_skills.painfulshackle_tex
+700820	HPChange	-41.00	0.00	abs	10000	2	-41.00	Flut von Verwünschungen I			Zieht immer nach 2s -41 LP ab.	icon_skills.painfulshackle_tex
+700821	HPChange	-63.00	0.00	abs	10000	2	-63.00	Flut von Verwünschungen II			Zieht immer nach 2s -63 LP ab.	icon_skills.painfulshackle_tex
+700822	HPChange	-86.00	0.00	abs	10000	2	-86.00	Flut von Verwünschungen III			Zieht immer nach 2s -86 LP ab.	icon_skills.painfulshackle_tex
+700823	HPChange	-133.00	0.00	abs	10000	2	-133.00	Flut von Verwünschungen IV			Zieht immer nach 2s -133 LP ab.	icon_skills.painfulshackle_tex
+700824	HPChange	-191.00	0.00	abs	10000	2	-191.00	Flut von Verwünschungen V			Zieht immer nach 2s -191 LP ab.	icon_skills.painfulshackle_tex
+700825	HPChange	-283.00	0.00	abs	10000	2	-283.00	Flut von Verwünschungen VI			Zieht immer nach 2s -283 LP ab.	icon_skills.painfulshackle_tex
+700826	HPChange	-399.00	0.00	abs	10000	2	-399.00	Flut von Verwünschungen VII			Zieht immer nach 2s -399 LP ab.	icon_skills.painfulshackle_tex
+700827	HPChange	-576.00	0.00	abs	10000	2	-576.00	Flut von Verwünschungen VIII			Zieht immer nach 2s -576 LP ab.	icon_skills.painfulshackle_tex
+700828	HPChange	-802.00	0.00	abs	10000	2	-802.00	Flut von Verwünschungen IX			Zieht immer nach 2s -802 LP ab.	icon_skills.painfulshackle_tex
 700829	HPChange	-1212.00	0.00	abs	10000	2	-1212.00	Flut von Verwünschungen			Zieht immer nach 2s -1212 LP ab.	icon_skills.painfulshackle_tex
 700900	MPChange	0.00	100.00	abs	20000	1	100.00	Manainfusion			Stellt immer nach 1s 100 MP wieder her, bis Ihr Schaden erleidet oder eine andere Kampffertigkeit bzw. einen anderen Gegenstand benutzt.	icon_skills.mpcharge_tex
 701000	HPChange	70.00	0.00	abs	10000	2	70.00	Anmut des Geistes I			Heilt immer nach 2s 70 LP.	icon_skills.summonspiritofheal_tex
@@ -1230,9 +1232,9 @@
 701010	HPChange	614.00	0.00	abs	10000	2	614.00	Anmut des Geistes XI			Heilt immer nach 2s 614 LP.	icon_skills.summonspiritofheal_tex
 701011	HPChange	769.00	0.00	abs	10000	2	769.00	Anmut des Geistes XII			Heilt immer nach 2s 769 LP.	icon_skills.summonspiritofheal_tex
 701012	HPChange	914.00	0.00	abs	10000	2	914.00	Anmut des Geistes XIII			Heilt immer nach 2s 914 LP.	icon_skills.summonspiritofheal_tex
-701200	CDR	0.00	0.00	perc	6000	0	1.20	Fluch der Erschöpfung			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
+701200	CDR	0.00	0.00	perc	6000	0	1.20	Fluch der Erschöpfung I			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
 701201	CDR	0.00	0.00	perc	8000	0	1.20	Fluch der Erschöpfung			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
-701202	CDR	0.00	0.00	perc	10000	0	1.20	Fluch der Erschöpfung			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
+701202	CDR	0.00	0.00	perc	10000	0	1.20	Fluch der Erschöpfung III			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
 701500	HPChange	390.00	0.00	abs	3000	1	390.00	Aruns Lebenskraft I	8008	Sphäre von Aruns Lebenskraft I	Heilt immer nach 1s 390 LP.	icon_skills.hprefresher_tex
 701501	HPChange	515.00	0.00	abs	3000	1	515.00	Aruns Lebenskraft II	8009	Sphäre von Aruns Lebenskraft II	Heilt immer nach 1s 515 LP.	icon_skills.hprefresher_tex
 701502	HPChange	716.00	0.00	abs	3000	1	716.00	Aruns Lebenskraft III	8010	Sphäre von Aruns Lebenskraft III	Heilt immer nach 1s 716 LP.	icon_skills.hprefresher_tex
@@ -1343,16 +1345,16 @@
 800602	HPChange	67.00	0.00	abs	1500000	2	67.00	Segen von Balder III			Heilt immer nach 2s LP.	icon_skills.refreshbless_tex
 800603	HPChange	71.00	0.00	abs	1500000	2	71.00	Segen von Balder IV			Heilt immer nach 2s LP.	icon_skills.refreshbless_tex
 800604	HPChange	73.00	0.00	abs	1500000	2	73.00	Segen von Balder V			Heilt immer nach 2s LP.	icon_skills.refreshbless_tex
-800900	HPChange	-136.00	0.00	abs	15000	3	-136.00	Seuche der Erschöpfung			Zieht immer nach 3s -136 LP ab.	icon_skills.prophecyoflethargy_tex
+800900	HPChange	-136.00	0.00	abs	15000	3	-136.00	Seuche der Erschöpfung I			Zieht immer nach 3s -136 LP ab.	icon_skills.prophecyoflethargy_tex
 800901	HPChange	-193.00	0.00	abs	15000	3	-193.00	Seuche der Erschöpfung II			Zieht immer nach 3s -193 LP ab.	icon_skills.prophecyoflethargy_tex
 800902	HPChange	-284.00	0.00	abs	15000	3	-284.00	Seuche der Erschöpfung III			Zieht immer nach 3s -284 LP ab.	icon_skills.prophecyoflethargy_tex
 800903	HPChange	-410.00	0.00	abs	15000	3	-410.00	Seuche der Erschöpfung IV			Zieht immer nach 3s -410 LP ab.	icon_skills.prophecyoflethargy_tex
 800904	HPChange	-569.00	0.00	abs	15000	3	-569.00	Seuche der Erschöpfung V			Zieht immer nach 3s -569 LP ab.	icon_skills.prophecyoflethargy_tex
 800905	HPChange	-786.00	0.00	abs	15000	3	-786.00	Seuche der Erschöpfung VI			Zieht immer nach 3s -786 LP ab.	icon_skills.prophecyoflethargy_tex
-800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Seuche der Erschöpfung VII			Zieht immer nach 3s -1145 LP ab.	icon_skills.prophecyoflethargy_tex
+800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Seuche der Erschöpfung			Zieht immer nach 3s -1145 LP ab.	icon_skills.prophecyoflethargy_tex
 800907	HPChange	-1518.00	0.00	abs	15000	3	-1518.00	Seuche der Erschöpfung VIII			Zieht immer nach 3s -1518 LP ab.	icon_skills.prophecyoflethargy_tex
-800920	HPChange	-116.00	0.00	abs	15000	3	-116.00	Seuche der Erschöpfung			Zieht immer nach 3 -116 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
-800920	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung			Zieht immer nach 3 -116 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
+800920	HPChange	-116.00	0.00	abs	15000	3	-116.00	Seuche der Erschöpfung I			Zieht immer nach 3 -116 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
+800920	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung I			Zieht immer nach 3 -116 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 800921	HPChange	-161.00	0.00	abs	15000	3	-161.00	Seuche der Erschöpfung II			Zieht immer nach 3 -161 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 800921	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung II			Zieht immer nach 3 -161 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 800922	HPChange	-222.00	0.00	abs	15000	3	-222.00	Seuche der Erschöpfung III			Zieht immer nach 3 -222 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
@@ -1363,8 +1365,8 @@
 800924	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung V			Zieht immer nach 3 -423 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 800925	HPChange	-585.00	0.00	abs	15000	3	-585.00	Seuche der Erschöpfung VI			Zieht immer nach 3 -585 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 800925	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung VI			Zieht immer nach 3 -585 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
-800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Seuche der Erschöpfung VII			Zieht immer nach 3 -819 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
-800926	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung VII			Zieht immer nach 3 -819 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
+800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Seuche der Erschöpfung			Zieht immer nach 3 -819 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
+800926	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung			Zieht immer nach 3 -819 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 800927	HPChange	-1086.00	0.00	abs	15000	3	-1086.00	Seuche der Erschöpfung VIII			Zieht immer nach 3 -1086 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 800927	CDR	0.00	0.00	perc	15000	0	1.50	Seuche der Erschöpfung VIII			Zieht immer nach 3 -1086 LP ab. Erhöht zusätzlich die Abklingzeit für Nahangriffe um 50%.	icon_skills.prophecyoflethargy_tex
 801000	DefPotion	0.00	0.00	perc	5000	0	0.70	Zuflucht des Wächters I			Reduziert den erlittenen Distanzschaden um 30%, während die Resistenzen gegen Schwächungen und Schaden über Zeit um 100% und die Resistenz gegen Betäubung deutlich erhöht werden.	icon_skills.guardianaura_tex
@@ -1380,21 +1382,21 @@
 801406	HPChange	489.00	0.00	abs	5000	1	489.00	Heilender Schub VII			Heilt immer nach 1s LP.	icon_skills.sanctuaryofregeneration_tex
 801407	HPChange	533.00	0.00	abs	5000	1	533.00	Heilender Schub VIII			Heilt immer nach 1s LP.	icon_skills.sanctuaryofregeneration_tex
 801408	HPChange	559.00	0.00	abs	5000	1	559.00	Heilender Schub IX			Heilt immer nach 1s LP.	icon_skills.sanctuaryofregeneration_tex
-801409	HPChange	575.00	0.00	abs	5000	1	575.00	Heilender Schub X			Heilt immer nach 1s LP.	icon_skills.sanctuaryofregeneration_tex
+801409	HPChange	575.00	0.00	abs	5000	1	575.00	Heilender Schub			Heilt immer nach 1s LP.	icon_skills.sanctuaryofregeneration_tex
 801410	HPChange	588.00	0.00	abs	5000	1	588.00	Heilender Schub XI			Heilt immer nach 1s LP.	icon_skills.sanctuaryofregeneration_tex
 801500	Power	0.00	0.00	abs	20000	0	20.00	Energiesterne I			Erhöht die Kraft um 20 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
 801500	ASpd	0.00	0.00	abs	20000	0	8.00	Energiesterne I			Erhöht die Kraft um 20 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
 801501	Power	0.00	0.00	abs	20000	0	28.00	Energiesterne II			Erhöht die Kraft um 28 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
 801501	ASpd	0.00	0.00	abs	20000	0	8.00	Energiesterne II			Erhöht die Kraft um 28 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
-801502	Power	0.00	0.00	abs	20000	0	36.00	Energiesterne III			Erhöht die Kraft um 36 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
-801502	ASpd	0.00	0.00	abs	20000	0	8.00	Energiesterne III			Erhöht die Kraft um 36 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
+801502	Power	0.00	0.00	abs	20000	0	36.00	Energiesterne			Erhöht die Kraft um 36 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
+801502	ASpd	0.00	0.00	abs	20000	0	8.00	Energiesterne			Erhöht die Kraft um 36 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
 801503	Power	0.00	0.00	abs	20000	0	40.00	Energiesterne IV			Erhöht die Kraft um 40 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
 801503	ASpd	0.00	0.00	abs	20000	0	8.00	Energiesterne IV			Erhöht die Kraft um 40 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
 801600	HPChange	562.00	0.00	abs	3000	1	562.00	Heilendes Eintauchen I			Heilt immer nach 1s 625 LP.	icon_skills.curewing_tex
 801601	HPChange	564.00	0.00	abs	3000	1	564.00	Heilendes Eintauchen II			Heilt immer nach 1s 625 LP.	icon_skills.curewing_tex
-801800	MPChange	0.00	0.04	perc	1000	1	0.04	Manaladung			Keine Anzeige für Schwächungstooltip (isShow=False). Wenn Tooltip sichtbar, BTS erforderlich.	
-801801	MPChange	0.00	0.10	perc	1000	1	0.10	Manaladung			Keine Anzeige für Schwächungstooltip (isShow=False). Wenn Tooltip sichtbar, BTS erforderlich.	
-801802	MPChange	0.00	0.20	perc	1000	1	0.20	Manaladung			Keine Anzeige für Schwächungstooltip (isShow=False). Wenn Tooltip sichtbar, BTS erforderlich.	
+801800	MPChange	0.00	0.04	perc	1000	1	0.04	Manaladung			Keine Anzeige für Schwächungstooltip (isShow=False). Wenn Tooltip sichtbar, BTS erforderlich.	icon_skills.manarejuvenation_tex
+801801	MPChange	0.00	0.10	perc	1000	1	0.10	Manaladung			Keine Anzeige für Schwächungstooltip (isShow=False). Wenn Tooltip sichtbar, BTS erforderlich.	icon_skills.manarejuvenation_tex
+801802	MPChange	0.00	0.20	perc	1000	1	0.20	Manaladung			Keine Anzeige für Schwächungstooltip (isShow=False). Wenn Tooltip sichtbar, BTS erforderlich.	icon_skills.manarejuvenation_tex
 805600	Endurance	0.00	0.00	abs	900000	0	6.00	Segen von Shara I			Unter dem Segen von Shara werden Eure LP alle 2 Sekunden regeneriert und Eure Konstitution um 6 erhöht.	icon_skills.agilitybless_tex
 805600	HPChange	55.00	0.00	abs	900000	2	55.00	Segen von Shara I			Unter dem Segen von Shara werden Eure LP alle 2 Sekunden regeneriert und Eure Konstitution um 6 erhöht.	icon_skills.agilitybless_tex
 805601	Endurance	0.00	0.00	abs	900000	0	6.00	Segen von Shara II			Unter dem Segen von Shara werden Eure LP alle 2 Sekunden regeneriert und Eure Konstitution um 6 erhöht.	icon_skills.agilitybless_tex
@@ -1596,33 +1598,33 @@
 9810012	HPChange	-2300.00	0.00	abs	20000	5	-2300.00	Lakans Sengender Blick			Zieht pro überlappendem Treffer immer nach 5s -2300 LP ab.	icon_status.firedamage_tex
 9810013	HPChange	0.00	0.00	abs	15000	5	0.00	Mal der Bogenschützen			Von einem Bogenschützen als Fokus des Angriffs markiert.	icon_skills.througharrow_tex
 9999019	ASpd	0.00	0.00	perc	0	0	1.00	Schnibbeldischnick, wibbeldiwapp			Erhöht den Schaden um 10%. Dieser Effekt kann nicht mit der Kette des Schutzes, Kette der Offensive, Kette der Wiederherstellung oder einem Tapferkeitstrank akkumuliert werden.	icon_status.speedystatus_tex
-10151010	CDR	0.00	0.00	perc	15000	0	0.30	Schattenaura			Umgebt Euch mit dunkler Schattenmagie. Die Abklingzeit von Klingenduett, Bluthunger, Pendelstoß, Hassklinge, Schattenexplosion, Anziehung, Todesspirale, Zerschmettern und Vergeltung ist um 70% verringert.	icon_status.descentofdarkness_tex
-10151032	HPChange	-3454.00	0.00	abs	10000	2	-3454.00	Verhängnisvolle Ketten			Umschlungen von verhängnisvollen Ketten, die alle 2 Sekunden 3.454 Schaden zufügen. Das umschlungene Ziel kann jederzeit dazu gezwungen werden, die Position mit dem Zauberwirkenden dieser Fertigkeit zu tauschen.	icon_status.positionswap_tex
-10151050	MovSpdInCombat	0.00	0.00	setp	3000	0	0.00	Pendeltreffer			Vorübergehend bewegungsunfähig durch Pendelstoß.	icon_skills.chainuppercut_tex
+10151010	CDR	0.00	0.00	perc	15000	0	0.30	Schattenaura			Umgebt Euch mit dunkler Schattenmagie. Die Abklingzeit von Klingenduett, Bluthunger, Pendelstoß, Hassklinge, Schattenexplosion, Anziehung, Todesspirale, Zerschmettern und Vergeltung ist um 70% verringert.	icon_skills.descentofdarkness_tex
+10151032	HPChange	-3454.00	0.00	abs	10000	2	-3454.00	Seelenfessel			Umschlungen von verhängnisvollen Ketten, die alle 2 Sekunden 3.454 Schaden zufügen. Das umschlungene Ziel kann jederzeit dazu gezwungen werden, die Position mit dem Zauberwirkenden dieser Fertigkeit zu tauschen.	icon_skills.darkgrasp_tex
+10151050	MovSpdInCombat	0.00	0.00	setp	3000	0	0.00	Pendelstoß			Vorübergehend bewegungsunfähig durch Pendelstoß.	icon_skills.chainuppercut_tex
 10151070	HPChange	-1015.00	0.00	abs	10000	1	-1015.00	Seelengalgen			Von Seelengalgen zum Schweben gebracht. Ihr ignoriert allen Schaden, während Ihr in der Luft hängt, doch könnt keine Aktionen ausführen.	icon_skills.tornadoprison_tex
 10151074	Endurance	0.00	0.00	perc	30000	0	1.00	Aufschub der Hinrichtung			Immun gegen Seelengalgen für eine gewisse Zeit.	icon_skills.tornadoprison_tex
 10151090	DefPotion	0.00	0.00	perc	7000	0	0.50	Schattenschleier			Tödlichen Schaden erlitten und von Schattenschleier umhüllt. Verringert jeglichen Schaden um 50%. Stellt bis zu 15% Eurer maximalen LP wieder her, wenn der Effekt endet.	icon_skills.shadowcurtain_tex
 10151092	Power	0.00	0.00	abs	300000	0	0.00	Abklingzeit von Schattenschleier [passiv]			Dunkle Energien sammeln sich. Schadensminderung wird nicht aktiviert, bis die dunklen Energien vollständig sind.	icon_skills.shadowcurtain_tex
 10151200	MovSpdInCombat	0.00	0.00	seta	60000	0	240.00	Ihr seid "die Bombe".			Sprengt Euch rechtzeitig in die Luft oder sterbt einen sinnlosen Tod. Ihr könnt keine Reittiere nutzen, solange Ihr "die Bombe" seid.	icon_skills.explosiontrap_tex
-10152032	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Ungutes Gefühl			Ein Gefühl des Unbehagens verringert Eure Bewegungsgeschwindigkeit.	icon_skills.slowwave_tex
-10152033	MovSpdInCombat	0.00	0.00	setp	1100	0	0.20	Ungutes Gefühl			Ein Gefühl des Unbehagens verringert Eure Bewegungsgeschwindigkeit.	icon_skills.slowwave_tex
-10152051	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Fleischwunde			Verringert die Bewegungsgeschwindigkeit.	icon_skills.anklelnjury_tex
-10152052	MovSpdInCombat	0.00	0.00	setp	1100	0	0.50	Fleischwunde			Verringert die Bewegungsgeschwindigkeit.	icon_skills.anklelnjury_tex
+10152032	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Zeitbombe			Ein Gefühl des Unbehagens verringert Eure Bewegungsgeschwindigkeit.	icon_skills.timebombshot_tex
+10152033	MovSpdInCombat	0.00	0.00	setp	1100	0	0.20	Zeitbombe			Ein Gefühl des Unbehagens verringert Eure Bewegungsgeschwindigkeit.	icon_skills.timebombshot_tex
+10152051	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Feuersalve			Verringert die Bewegungsgeschwindigkeit.	icon_skills.gatlingshot_tex
+10152052	MovSpdInCombat	0.00	0.00	setp	1100	0	0.50	Feuersalve			Verringert die Bewegungsgeschwindigkeit.	icon_skills.gatlingshot_tex
 10152061	HPChange	-645.00	0.00	abs	10100	2	-645.00	Überladung			Eine elektrische Ladung baut sich auf, die kontinuierlich Schaden austeilt.	icon_skills.excesselectron_tex
 10152113	Power	0.00	0.00	abs	300000	0	0.00	Abklingzeit für Notfallbarriere [passiv]			Notfallbarriere wird aufgeladen. Bis sie vollständig aufgeladen ist, kann der Effekt von Schadensminderung nicht aktiviert werden.	icon_skills.emergencyshield_tex
 10152120	Endurance	0.00	0.00	perc	0	0	1.00	Überladung			Willenskraft ist vollständig aufgefüllt.	icon_skills.excesselectron_tex
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Aus dem Gleichgewicht			Desorientiert in der Luft	icon_skills.lossofbalance_tex
+10153020	Block	0.00	0.00	swch	3000	0	0.00	Konter			Desorientiert in der Luft	icon_skills.smashattack02_tex
 10153040	Power	0.00	0.00	abs	0	0	30.00	Wachsender Zorn			Verringert die Angriffsgeschwindigkeit um 10 und erhöht Kraft sowie kritischen Trefferwert um 30. Verringert die Abklingzeit von Fertigkeiten um 30%. Automatische Frontverteidigung wirkt auf alle Fertigkeiten.	icon_skills.rampage_tex
 10153040	Crit	0.00	0.00	abs	0	0	30.00	Wachsender Zorn			Verringert die Angriffsgeschwindigkeit um 10 und erhöht Kraft sowie kritischen Trefferwert um 30. Verringert die Abklingzeit von Fertigkeiten um 30%. Automatische Frontverteidigung wirkt auf alle Fertigkeiten.	icon_skills.rampage_tex
 10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Wachsender Zorn			Verringert die Angriffsgeschwindigkeit um 10 und erhöht Kraft sowie kritischen Trefferwert um 30. Verringert die Abklingzeit von Fertigkeiten um 30%. Automatische Frontverteidigung wirkt auf alle Fertigkeiten.	icon_skills.rampage_tex
 10153040	CDR	0.00	0.00	perc	0	0	0.70	Wachsender Zorn			Verringert die Angriffsgeschwindigkeit um 10 und erhöht Kraft sowie kritischen Trefferwert um 30. Verringert die Abklingzeit von Fertigkeiten um 30%. Automatische Frontverteidigung wirkt auf alle Fertigkeiten.	icon_skills.rampage_tex
 10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Wachsender Zorn			Verringert die Angriffsgeschwindigkeit um 10 und erhöht Kraft sowie kritischen Trefferwert um 30. Verringert die Abklingzeit von Fertigkeiten um 30%. Automatische Frontverteidigung wirkt auf alle Fertigkeiten.	icon_skills.rampage_tex
 10153071	Power	0.00	0.00	abs	300000	0	0.00	Abklingzeit von Tödlicher Zorn [passiv]			Tödlicher Zorn steigt auf. Schadensminderung wird nicht aktiviert, bis der Tödliche Zorn vollständig ist.	icon_skills.ferociouswill_tex
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Todeshauch			Tödlich verwundet. Verringert die Konstitution um 1% (kumulativ für bis zu 8 Treffer).	icon_skills.rapidattack_tex
+10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Schlaghagel			Tödlich verwundet. Verringert die Konstitution um 1% (kumulativ für bis zu 8 Treffer).	icon_skills.rapidattack_tex
 10154030	MPChange	0.00	-20.00	abs	0	1	-20.00	Geist der Klingen			Geist der Klingen erhöht Eure Angriffsstärke.	icon_skills.c12_atkupbuff
 10154030	AtkPotion	0.00	0.00	swch	0	0	1.05	Geist der Klingen			Geist der Klingen erhöht Eure Angriffsstärke.	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0.00	0.00	swch	60000	0	1.01	Mächtiger Geist der Klingen			Der Mächtige Geist der Klingen erhöht Eure Angriffsstärke.	icon_skills.c12_atkupbuff
-10154090	Endurance	0.00	0.00	perc	60000	0	1.00	Verwandelt			In anvisiertes Ziel verwandelt.	icon_skills.c12_transform
+10154090	Endurance	0.00	0.00	perc	60000	0	1.00	Gestaltwandlung I			In anvisiertes Ziel verwandelt.	icon_skills.c12_transform
 14400001	Stamina	0.00	0.00	abs	900000	0	15.00	Emblem des Erfolgs	152903	Emblem des Erfolgs	Gewährt folgende Effekte.    Erhöht die maximale Ausdauer um 15  Stellt immer nach 1 Sekunde 1% der Gesamt-LP wieder her  Ausdauer sinkt nicht  Erhöht die Abwurfrate bei der Jagd auf Monster um 100% (Abwurfrate wird durch Anzahl an Gruppenmitgliedern beeinflusst)	icon_items.parts_magicweaponc15_tex
 14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblem des Erfolgs	152903	Emblem des Erfolgs	Gewährt folgende Effekte.    Erhöht die maximale Ausdauer um 15  Stellt immer nach 1 Sekunde 1% der Gesamt-LP wieder her  Ausdauer sinkt nicht  Erhöht die Abwurfrate bei der Jagd auf Monster um 100% (Abwurfrate wird durch Anzahl an Gruppenmitgliedern beeinflusst)	icon_items.parts_magicweaponc15_tex
 14400001	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Emblem des Erfolgs	152903	Emblem des Erfolgs	Gewährt folgende Effekte.    Erhöht die maximale Ausdauer um 15  Stellt immer nach 1 Sekunde 1% der Gesamt-LP wieder her  Ausdauer sinkt nicht  Erhöht die Abwurfrate bei der Jagd auf Monster um 100% (Abwurfrate wird durch Anzahl an Gruppenmitgliedern beeinflusst)	icon_items.parts_magicweaponc15_tex

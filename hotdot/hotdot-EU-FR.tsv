@@ -621,11 +621,11 @@
 24090	MovSpdInCombat	0.00	0.00	abs	15000	0	20.00	Rage féroce de prestesse			Augmente la vitesse de déplacement en combat de 20.	icon_skills.berserk_tex
 24091	MovSpdInCombat	0.00	0.00	abs	15000	0	20.00	Coup destructeur de prestesse			Augmente la vitesse de déplacement en combat de 20.	icon_skills.throwaxe_tex
 24092	Endurance	0.00	0.00	abs	8000	0	21.00	Glyphe d'interdiction			Augmente la constitution de 21.	icon_crest.crestactivedefenceup_tex
-24120	CastSpeed	0.00	0.00	perc	6000	0	1.30	Frappe bondissante embrasée			Accélère de 30% le temps de charge de Coup mortel.	icon_skills.downblow_tex
+24120	CastSpeed	0.00	0.00	perc	6000	0	1.30	Frappe bondissante embrasée			Accélère de 30% le temps de charge de Coup mortel.	icon_skills.downblowattack_tex
 24130	CastSpeed	0.00	0.00	perc	6000	0	1.30	Frappe étourdissante embrasée			Accélère de 30% le temps de charge de Frappe de tonnerre.	icon_skills.turnback_tex
 24140	Endurance	0.00	0.00	abs	12000	0	16.00	Cri de triomphe fondé			Augmente la constitution de 16.	icon_skills.shout_tex
 24150	MPChange	0.00	0.06	perc	5000	1	0.06	Ténacité spirituelle			Restaure 6 % des PM maximum toutes les 1s.	icon_skills.tenacity_tex
-24160	Crit	0.00	0.00	perc	0	0	2.00	Frappe bondissante tranchante			Double le facteur de coups critiques pour la prochaine attaque.	icon_skills.downblow_tex
+24160	Crit	0.00	0.00	perc	0	0	2.00	Frappe bondissante tranchante			Double le facteur de coups critiques pour la prochaine attaque.	icon_skills.downblowattack_tex
 24161	Crit	0.00	0.00	perc	0	0	2.00	Coup destructeur tranchant			Double le facteur de coups critiques pour la prochaine attaque.	icon_skills.throwaxe_tex
 24181	AtkPotion	0.00	0.00	perc	10000	0	1.25	Riposte frontale alimentée			Augmente les dégâts de Riposte frontale de 25%.	icon_skills.weapondefence_tex
 24190	CastSpeed	0.00	0.00	perc	6000	0	1.30	Cyclone embrasé			Augmente la vitesse d'incantation de 30% lorsque le Cyclone est la prochaine compétence d'enchaînement mise en œuvre.	icon_skills.shockingshout_tex
@@ -695,7 +695,7 @@
 30050	ASpd	0.00	0.00	perc	3100	0	1.30	Barrage arcanique rapide			Augmente la vitesse d'attaque de 30%.	icon_skills.arcaneshockshot01_tex
 30100	AtkPotion	0.00	0.00	perc	8100	0	1.20	Roulade de réarmement alimentée			Augmente de 20% la puissance de la compétence d'enchaînement suivante : Salve de dispersion.	icon_skills.ambushrolling_tex
 31010	ASpd	0.00	0.00	perc	10000	0	1.15	Direct rapide			Augmente la vitesse d'attaque de 15%.	icon_skills.comboattack01_tex
-31020	AtkPotion	0.00	0.00	perc	6000	0	1.50	Contre alimenté			Augmente les dégâts de la compétence de 50%	icon_skills.smashattack02_tex
+31020	AtkPotion	0.00	0.00	perc	6000	0	1.50	Contre alimenté			Augmente les dégâts de la compétence de 50%	icon_skills.reversalturningattack_tex
 31030	AtkPotion	0.00	0.00	perc	3000	0	1.10	Tourniquet alimenté			Augmente les dégâts de compétences de 10%	icon_skills.upperkick_tex
 31100	Power	0.00	0.00	abs	0	0	25.00	Décharge de Rage renforcée			Augmente la puissance de 25.	
 31110	AtkPotion	0.00	0.00	perc	3000	0	1.15	Tourniquet alimenté			Augmente les dégâts de la compétence de 15%	icon_skills.upperkick_tex
@@ -811,43 +811,43 @@
 90200	MPChange	0.00	0.05	perc	10000	1	0.05	Résilience spirituelle			Restaure 5 % des PM maximum toutes les 1s.	icon_skills.arcanebirthright_tex
 90300	MovSpdInCombat	0.00	0.00	abs	180000	0	30.00	Escarmouche précipitée			Augmente la vitesse de déplacement en combat de 30, mais augmente également les chances d'être renversé de 20%. L'effet prend fin si vous êtes renversé{@g:/e}.	icon_skills.markoflok_tex
 90600	HPChange	1.00	0.00	perc	1000	1	1.00	Source ancestrale			Test	icon_skills.earthmeld_tex
-100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive I			Augmente la puissance de 5 et le facteur de coups critiques de 30. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
-100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive I			Augmente la puissance de 5 et le facteur de coups critiques de 30. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
-100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive I			Augmente la puissance de 5 et le facteur de coups critiques de 30. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
+100100	Power	0.00	0.00	abs	0	0	5.00	Position offensive			Augmente la puissance de 5 et le facteur de coups critiques de 30. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
+100100	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive			Augmente la puissance de 5 et le facteur de coups critiques de 30. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
+100100	Crit	0.00	0.00	abs	0	0	30.00	Position offensive			Augmente la puissance de 5 et le facteur de coups critiques de 30. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
 100101	Power	0.00	0.00	abs	0	0	10.00	Position offensive II			Augmente la puissance de 10 et le facteur de coups critiques de 40. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
 100101	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive II			Augmente la puissance de 10 et le facteur de coups critiques de 40. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
 100101	Crit	0.00	0.00	abs	0	0	40.00	Position offensive II			Augmente la puissance de 10 et le facteur de coups critiques de 40. Réduit cependant la constitution de 10%.	icon_skills.ironwilla_tex
-100102	Power	0.00	0.00	abs	0	0	15.00	Position offensive III			Augmente la puissance de 15 et le facteur de coups critiques de 50. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
-100102	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive III			Augmente la puissance de 15 et le facteur de coups critiques de 50. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
-100102	Crit	0.00	0.00	abs	0	0	50.00	Position offensive III			Augmente la puissance de 15 et le facteur de coups critiques de 50. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
+100102	Power	0.00	0.00	abs	0	0	15.00	Position offensive			Augmente la puissance de 15 et le facteur de coups critiques de 50. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
+100102	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive			Augmente la puissance de 15 et le facteur de coups critiques de 50. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
+100102	Crit	0.00	0.00	abs	0	0	50.00	Position offensive			Augmente la puissance de 15 et le facteur de coups critiques de 50. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
 100103	Power	0.00	0.00	abs	0	0	18.00	Position offensive IV			Augmente la puissance de 18 et le facteur de coups critiques de 55. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
 100103	Endurance	0.00	0.00	perc	0	0	0.90	Position offensive IV			Augmente la puissance de 18 et le facteur de coups critiques de 55. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
 100103	Crit	0.00	0.00	abs	0	0	55.00	Position offensive IV			Augmente la puissance de 18 et le facteur de coups critiques de 55. Réduit toutefois la constitution de 10%.	icon_skills.ironwilla_tex
 100200	Endurance	0.00	0.00	perc	0	0	1.15	Position défensive I			Augmente la constitution de 15% et l'équilibre de 20. Les attaques attirent 65% d'agressivité en plus. Au combat, les attaques adverses ne peuvent pas vous repousser, hormis quelques attaques spéciales de certains monstres donnés.	icon_skills.ironwillb_tex
 100201	Endurance	0.00	0.00	perc	0	0	1.20	Position défensive II			Augmente la constitution de 20% et l'équilibre de 20. Les attaques attirent 80% d'agressivité en plus. Au combat, les attaques adverses ne peuvent pas vous repousser, hormis quelques attaques spéciales de certains monstres donnés.	icon_skills.ironwillb_tex
-100202	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive III			Augmente la constitution de 25% et le facteur d'équilibre de 20. Les attaques génèrent unk4 d'agressivité supplémentaire. Au combat, les attaques adverses ne peuvent pas vous repousser, hormis quelques attaques spéciales de certains monstres donnés.	icon_skills.ironwillb_tex
+100202	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive			Augmente la constitution de 25% et le facteur d'équilibre de 20. Les attaques génèrent unk4 d'agressivité supplémentaire. Au combat, les attaques adverses ne peuvent pas vous repousser, hormis quelques attaques spéciales de certains monstres donnés.	icon_skills.ironwillb_tex
 100203	Endurance	0.00	0.00	perc	0	0	1.25	Position défensive IV			Augmente la constitution de 25% et le facteur d'équilibre de 30. Les attaques attirent 120% d'agressivité supplémentaire. Au combat, les attaques adverses ne peuvent pas vous repousser, hormis quelques attaques spéciales de certains monstres donnés.	icon_skills.ironwillb_tex
-100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Lame empoisonnée			Réduit les PV de -116 toutes les 2s.	icon_skills.poisonblowattack_tex
-100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée			Réduit les PV de -175 toutes les 2s.	icon_skills.poisonblowattack_tex
-100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Lame empoisonnée			Réduit les PV de -292 toutes les 2s.	icon_skills.poisonblowattack_tex
-100503	HPChange	-438.00	0.00	abs	10000	2	-438.00	Lame empoisonnée			Réduit les PV de -438 toutes les 2s.	icon_skills.poisonblowattack_tex
-100504	HPChange	-612.00	0.00	abs	10000	2	-612.00	Lame empoisonnée			Réduit les PV de -612 toutes les 2s.	icon_skills.poisonblowattack_tex
-100505	HPChange	-845.00	0.00	abs	10000	2	-845.00	Lame empoisonnée			Réduit les PV de -845 toutes les 2s.	icon_skills.poisonblowattack_tex
-100506	HPChange	-1428.00	0.00	abs	10000	2	-1428.00	Lame empoisonnée			Réduit les PV de -1428 toutes les 2s.	icon_skills.poisonblowattack_tex
+100500	HPChange	-116.00	0.00	abs	10000	2	-116.00	Lame empoisonnée I			Réduit les PV de -116 toutes les 2s.	icon_skills.poisonblowattack_tex
+100501	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée II			Réduit les PV de -175 toutes les 2s.	icon_skills.poisonblowattack_tex
+100502	HPChange	-292.00	0.00	abs	10000	2	-292.00	Lame empoisonnée III			Réduit les PV de -292 toutes les 2s.	icon_skills.poisonblowattack_tex
+100503	HPChange	-438.00	0.00	abs	10000	2	-438.00	Lame empoisonnée IV			Réduit les PV de -438 toutes les 2s.	icon_skills.poisonblowattack_tex
+100504	HPChange	-612.00	0.00	abs	10000	2	-612.00	Lame empoisonnée V			Réduit les PV de -612 toutes les 2s.	icon_skills.poisonblowattack_tex
+100505	HPChange	-845.00	0.00	abs	10000	2	-845.00	Lame empoisonnée VI			Réduit les PV de -845 toutes les 2s.	icon_skills.poisonblowattack_tex
+100506	HPChange	-1428.00	0.00	abs	10000	2	-1428.00	Lame empoisonnée VII			Réduit les PV de -1428 toutes les 2s.	icon_skills.poisonblowattack_tex
 100507	HPChange	-1892.00	0.00	abs	10000	2	-1892.00	Lame empoisonnée			Réduit les PV de -1892 toutes les 2s.	icon_skills.poisonblowattack_tex
-100508	HPChange	-6068.00	0.00	abs	10000	2	-6068.00	Lame empoisonnée			Réduit les PV de -6068 toutes les 2s.	icon_skills.poisonblowattack_tex
-100520	HPChange	-92.00	0.00	abs	10000	2	-92.00	Lame empoisonnée			Réduit les PV de -92 toutes les 2s.	icon_skills.poisonblowattack_tex
-100521	HPChange	-127.00	0.00	abs	10000	2	-127.00	Lame empoisonnée			Réduit les PV de -127 toutes les 2s.	icon_skills.poisonblowattack_tex
-100522	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée			Réduit les PV de -175 toutes les 2s.	icon_skills.poisonblowattack_tex
-100523	HPChange	-242.00	0.00	abs	10000	2	-242.00	Lame empoisonnée			Réduit les PV de -242 toutes les 2s.	icon_skills.poisonblowattack_tex
-100524	HPChange	-334.00	0.00	abs	10000	2	-334.00	Lame empoisonnée			Réduit les PV de -334 toutes les 2s.	icon_skills.poisonblowattack_tex
-100525	HPChange	-461.00	0.00	abs	10000	2	-461.00	Lame empoisonnée			Réduit les PV de -461 toutes les 2s.	icon_skills.poisonblowattack_tex
-100526	HPChange	-720.00	0.00	abs	10000	2	-720.00	Lame empoisonnée			Réduit les PV de -720 toutes les 2s.	icon_skills.poisonblowattack_tex
-100527	HPChange	-954.00	0.00	abs	10000	2	-954.00	Lame empoisonnée			Réduit les PV de -954 toutes les 2s.	icon_skills.poisonblowattack_tex
-100528	HPChange	-1420.00	0.00	abs	10000	2	-1420.00	Lame empoisonnée			Réduit les PV de -1420 toutes les 2s.	icon_skills.poisonblowattack_tex
+100508	HPChange	-6068.00	0.00	abs	10000	2	-6068.00	Lame empoisonnée IX			Réduit les PV de -6068 toutes les 2s.	icon_skills.poisonblowattack_tex
+100520	HPChange	-92.00	0.00	abs	10000	2	-92.00	Lame empoisonnée I			Réduit les PV de -92 toutes les 2s.	icon_skills.poisonblowattack_tex
+100521	HPChange	-127.00	0.00	abs	10000	2	-127.00	Lame empoisonnée II			Réduit les PV de -127 toutes les 2s.	icon_skills.poisonblowattack_tex
+100522	HPChange	-175.00	0.00	abs	10000	2	-175.00	Lame empoisonnée III			Réduit les PV de -175 toutes les 2s.	icon_skills.poisonblowattack_tex
+100523	HPChange	-242.00	0.00	abs	10000	2	-242.00	Lame empoisonnée IV			Réduit les PV de -242 toutes les 2s.	icon_skills.poisonblowattack_tex
+100524	HPChange	-334.00	0.00	abs	10000	2	-334.00	Lame empoisonnée V			Réduit les PV de -334 toutes les 2s.	icon_skills.poisonblowattack_tex
+100525	HPChange	-461.00	0.00	abs	10000	2	-461.00	Lame empoisonnée VI			Réduit les PV de -461 toutes les 2s.	icon_skills.poisonblowattack_tex
+100526	HPChange	-720.00	0.00	abs	10000	2	-720.00	Lame empoisonnée VII			Réduit les PV de -720 toutes les 2s.	icon_skills.poisonblowattack_tex
+100527	HPChange	-954.00	0.00	abs	10000	2	-954.00	Lame empoisonnée VIII			Réduit les PV de -954 toutes les 2s.	icon_skills.poisonblowattack_tex
+100528	HPChange	-1420.00	0.00	abs	10000	2	-1420.00	Lame empoisonnée IX			Réduit les PV de -1420 toutes les 2s.	icon_skills.poisonblowattack_tex
 100600	MPChange	0.00	-10.00	abs	0	2	-10.00	Mutilation			Votre quatrième utilisation consécutive de l'Attaque combinée réduit la vitesse d'attaque et de déplacement de votre adversaire de 15 %. Vous perdez -10 PM toutes les 2 tant que l'effet reste actif.	icon_skills.aimingankle_tex
 100630	ASpd	0.00	0.00	perc	5000	0	0.85	Mutilation			Réduit la vitesse de 15%.	icon_skills.aimingankle_tex
-100800	CritChance	0.00	0.00	perc	20000	0	1.35	Pari mortel I			Augmente les chances d'infliger un coup critique de 35%.	icon_skills.deadlywill_tex
+100800	CritChance	0.00	0.00	perc	20000	0	1.35	Pari mortel			Augmente les chances d'infliger un coup critique de 35%.	icon_skills.deadlywill_tex
 100801	CritChance	0.00	0.00	perc	20000	0	1.50	Pari mortel II			Augmente les chances de coups critiques de 50% pendant 20s. Réduit le temps de recharge des attaques de mêlée de 50 %.	icon_skills.deadlywill_tex
 100801	CDR	0.00	0.00	perc	20000	0	0.50	Pari mortel II			Augmente les chances de coups critiques de 50% pendant 20s. Réduit le temps de recharge des attaques de mêlée de 50 %.	icon_skills.deadlywill_tex
 101200	Endurance	0.00	0.00	perc	15000	0	0.92	Frappe combattive			Réduit la constitution de 8%.	icon_skills.aggravatingstrike_tex
@@ -863,8 +863,8 @@
 200232	Power	0.00	0.00	perc	0	0	1.30	Pouvoir du gardien III			Augmente la constitution de 91% et la puissance de  30% dans un rayon de 40&nbsp;m autour du lanceur.	icon_status.plusedefence_tex
 200232	Endurance	0.00	0.00	perc	0	0	1.91	Pouvoir du gardien III			Augmente la constitution de 91% et la puissance de  30% dans un rayon de 40&nbsp;m autour du lanceur.	icon_status.plusedefence_tex
 200300	Endurance	0.00	0.00	perc	12000	0	0.96	Affaiblissement			Réduit la constitution de 4% (peut se cumuler jusqu'à 3 fois). En JcJ, réduit également le taux de récupération de PV de la cible de 30&nbsp;%, quel que soit le nombre d'accumulations.	icon_skills.armorbreak_tex
-200301	Endurance	0.00	0.00	perc	15000	0	0.96	Affaiblissement			Réduit la constitution de 4% (peut se cumuler jusqu'à 3 fois). En JcJ, réduit également le taux de récupération de PV de la cible de 30&nbsp;%, quel que soit le nombre d'accumulations.	icon_skills.armorbreak_tex
-200302	Endurance	0.00	0.00	perc	18000	0	0.96	Affaiblissement			Réduit la constitution de 4% (peut se cumuler jusqu'à 3 fois). En JcJ, réduit également le taux de récupération de PV de la cible de  30&nbsp;%, quel que soit le nombre d'accumulations.	icon_skills.armorbreak_tex
+200301	Endurance	0.00	0.00	perc	15000	0	0.96	Affaiblissement II			Réduit la constitution de 4% (peut se cumuler jusqu'à 3 fois). En JcJ, réduit également le taux de récupération de PV de la cible de 30&nbsp;%, quel que soit le nombre d'accumulations.	icon_skills.armorbreak_tex
+200302	Endurance	0.00	0.00	perc	18000	0	0.96	Affaiblissement III			Réduit la constitution de 4% (peut se cumuler jusqu'à 3 fois). En JcJ, réduit également le taux de récupération de PV de la cible de  30&nbsp;%, quel que soit le nombre d'accumulations.	icon_skills.armorbreak_tex
 200700	ASpd	0.00	0.00	perc	20000	0	1.15	Poussée d'adrénaline I			Augmente la vitesse d'attaque de 15%.	icon_skills.fightingwill_tex
 200701	ASpd	0.00	0.00	perc	20000	0	1.20	Poussée d'adrénaline II			Augmente la vitesse d'attaque de 20% et les dégâts de 5&nbsp;% en attaquant des monstres.	icon_skills.fightingwill_tex
 200731	CDR	0.00	0.00	perc	20000	0	0.50	Poussée d'adrénaline II			Toutes les compétences d'attaque attirent 8&nbsp;% d'agressivité supplémentaire. Le temps de recharge des compétences de mêlée est réduit de 50&nbsp;%.	icon_skills.fightingwill_tex
@@ -873,9 +873,9 @@
 201200	ASpd	0.00	0.00	perc	5000	0	0.85	Vague menaçante			Réduit les vitesses de déplacement et d'attaque de 15%.	icon_skills.menacewave_tex
 201701	Power	0.00	0.00	abs	50000	0	4.00	Ligne tenue I			Vous bénéficiez de 4&nbsp;% de taux d'agression supplémentaire à chaque cumul. Augmente également la puissance de 4 et le taux de coups critiques de 6. Cumulable jusqu'à 10 fois et s'achève si vous tombez.	icon_skills.defence_tex
 201701	Crit	0.00	0.00	abs	50000	0	6.00	Ligne tenue I			Vous bénéficiez de 4&nbsp;% de taux d'agression supplémentaire à chaque cumul. Augmente également la puissance de 4 et le taux de coups critiques de 6. Cumulable jusqu'à 10 fois et s'achève si vous tombez.	icon_skills.defence_tex
-300200	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Poignardé dans le dos			Déplacement impossible. L'effet prend fin en cas de renversement.	icon_skills.turnaroundattack_tex
-300201	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Poignardé{@g:/e} dans le dos			Impossible de bouger. L'effet prend fin en cas de renversement.	icon_skills.turnaroundattack_tex
-300300	Attack	0.00	0.00	perc	20000	0	1.30	Surpuissance I			Votre prochaine attaque inflige 30% points de dégâts en plus.	icon_skills.gatheringstrength_tex
+300200	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Attaque sournoise			Déplacement impossible. L'effet prend fin en cas de renversement.	icon_skills.turnaroundattack_tex
+300201	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Attaque sournoise II			Impossible de bouger. L'effet prend fin en cas de renversement.	icon_skills.turnaroundattack_tex
+300300	Attack	0.00	0.00	perc	20000	0	1.30	Surpuissance			Votre prochaine attaque inflige 30% points de dégâts en plus.	icon_skills.gatheringstrength_tex
 300301	Attack	0.00	0.00	perc	20000	0	1.33	Surpuissance II			Votre prochaine attaque inflige 33% points de dégâts en plus.	icon_skills.gatheringstrength_tex
 300500	ASpd	0.00	0.00	perc	10000	0	1.30	Tête baissée I			Augmente la vitesse de votre prochaine attaque de 30%.	icon_skills.advancingleap_tex
 300501	ASpd	0.00	0.00	perc	10000	0	1.40	Tête baissée II			Augmente la vitesse de votre prochaine attaque de 40%.	icon_skills.advancingleap_tex
@@ -885,9 +885,9 @@
 300800	ASpd	0.00	0.00	perc	20000	0	1.06	Sang-froid I			Augmente la vitesse de déplacement de 26.	icon_skills.destructionvigor_tex
 300801	Power	0.00	0.00	abs	20000	0	29.00	Sang froid II			Augmente la puissance de 29. Augmente la vitesse d'attaque de 8%. Activation d'ultime : Frappe verticale.	icon_skills.destructionvigor_tex
 300801	ASpd	0.00	0.00	perc	20000	0	1.08	Sang froid II			Augmente la puissance de 29. Augmente la vitesse d'attaque de 8%. Activation d'ultime : Frappe verticale.	icon_skills.destructionvigor_tex
-300900	CDR	0.00	0.00	perc	11000	0	1.50	Coup épuisant I			Augmente le temps de recharge de toutes les compétences de 50%.	icon_skills.veinslash_tex
-300901	CDR	0.00	0.00	perc	11000	0	1.53	Coup épuisant II			Augmente le temps de recharge de toutes les compétences de 53%.	icon_skills.veinslash_tex
-300902	CDR	0.00	0.00	perc	11000	0	1.55	Coup épuisant III			Augmente le temps de recharge de toutes les compétences de 55%.	icon_skills.veinslash_tex
+300900	CDR	0.00	0.00	perc	11000	0	1.50	Coup épuisant			Augmente le temps de recharge de toutes les compétences de 50%.	icon_skills.veinslash_tex
+300901	CDR	0.00	0.00	perc	11000	0	1.53	Coup épuisant			Augmente le temps de recharge de toutes les compétences de 53%.	icon_skills.veinslash_tex
+300902	CDR	0.00	0.00	perc	11000	0	1.55	Coup épuisant			Augmente le temps de recharge de toutes les compétences de 55%.	icon_skills.veinslash_tex
 400100	Power	0.00	0.00	perc	15000	0	1.20	Rage féroce I			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
 400100	Endurance	0.00	0.00	perc	15000	0	0.90	Rage féroce I			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
 400100	Crit	0.00	0.00	perc	15000	0	1.10	Rage féroce I			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
@@ -897,16 +897,16 @@
 400102	Power	0.00	0.00	perc	20000	0	1.20	Rage féroce III			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
 400102	Endurance	0.00	0.00	perc	20000	0	0.90	Rage féroce III			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
 400102	Crit	0.00	0.00	perc	20000	0	1.10	Rage féroce III			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
-400103	Power	0.00	0.00	perc	25000	0	1.20	Rage féroce IV			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
-400103	Endurance	0.00	0.00	perc	25000	0	0.90	Rage féroce IV			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
-400103	Crit	0.00	0.00	perc	25000	0	1.10	Rage féroce IV			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
-400104	Power	0.00	0.00	perc	27000	0	1.20	Rage féroce IV			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
-400104	Endurance	0.00	0.00	perc	27000	0	0.90	Rage féroce IV			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
-400104	Crit	0.00	0.00	perc	27000	0	1.10	Rage féroce IV			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
+400103	Power	0.00	0.00	perc	25000	0	1.20	Rage féroce			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
+400103	Endurance	0.00	0.00	perc	25000	0	0.90	Rage féroce			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
+400103	Crit	0.00	0.00	perc	25000	0	1.10	Rage féroce			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
+400104	Power	0.00	0.00	perc	27000	0	1.20	Rage féroce V			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
+400104	Endurance	0.00	0.00	perc	27000	0	0.90	Rage féroce V			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
+400104	Crit	0.00	0.00	perc	27000	0	1.10	Rage féroce V			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
 400105	Power	0.00	0.00	perc	27000	0	1.20	Rage féroce VI			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
 400105	Endurance	0.00	0.00	perc	27000	0	0.90	Rage féroce VI			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
 400105	Crit	0.00	0.00	perc	27000	0	1.10	Rage féroce VI			Augmente la puissance de 20% et le facteur de coups critiques de 10%, mais réduit la constitution de 10%.	icon_skills.berserk_tex
-400500	ASpd	0.00	0.00	perc	15000	0	1.20	Colère déchaînée enragée			Augmente la vitesse d'attaque de 20% et réduit le temps de recharge des compétences.	icon_skills.vitalconversion_tex
+400500	ASpd	0.00	0.00	perc	15000	0	1.20	Avalanche de coups I			Augmente la vitesse d'attaque de 20% et réduit le temps de recharge des compétences.	icon_skills.gatheringrage_tex
 400501	ASpd	0.00	0.00	perc	15000	0	1.40	Avalanche de coups			Augmente la vitesse d'attaque de 40% et réduit le temps de recharge des compétences.	icon_skills.gatheringrage_tex
 400700	Power	0.00	0.00	abs	30000	0	26.00	Soif de sang I			Augmente la puissance de 26.  Augmente les facteurs d'équilibre et d'impact de 50% Inflige 10% points de dégâts supplémentaires aux monstres que vous attaquez.	icon_skills.fury_tex
 400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	Soif de sang I			Augmente la puissance de 26.  Augmente les facteurs d'équilibre et d'impact de 50% Inflige 10% points de dégâts supplémentaires aux monstres que vous attaquez.	icon_skills.fury_tex
@@ -1074,106 +1074,108 @@
 495006	AtkPotion	0.00	0.00	perc	0	0	0.50	Futilité			Réduit les dégâts infligés par les compétences de 50%. L'effet persiste tant que vous restez près d'un Apôtre de la futilité.	icon_status.minusattack_tex
 500100	AtkPotion	0.00	0.00	perc	20000	0	1.25	Surcharge			La prochaine attaque à Explosion de flammes, Barrage de flammes, Pulsation du vide, Nova ou Impulsion arcanique inflige 25% points de dégâts supplémentaires.	icon_skills.kicharge_tex
 500300	MPChange	0.00	120.00	abs	25000	2	120.00	Infusion de mana I			Restaure 120 PM toutes les 2s.	icon_skills.mpcondensing_tex
-500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana II			Restaure 120 PM toutes les 1s.	icon_skills.mpcondensing_tex
-500700	HPChange	-26.00	0.00	abs	10000	2	-26.00	Explosion de douleur			Réduit les PV de -26 toutes les 2s.	icon_skills.disease_tex
-500701	HPChange	-40.00	0.00	abs	10000	2	-40.00	Explosion de douleur			Réduit les PV de -40 toutes les 2s.	icon_skills.disease_tex
-500702	HPChange	-58.00	0.00	abs	10000	2	-58.00	Explosion de douleur			Réduit les PV de -58 toutes les 2s.	icon_skills.disease_tex
-500703	HPChange	-85.00	0.00	abs	10000	2	-85.00	Explosion de douleur			Réduit les PV de -85 toutes les 2s.	icon_skills.disease_tex
-500704	HPChange	-121.00	0.00	abs	10000	2	-121.00	Explosion de douleur			Réduit les PV de -121 toutes les 2s.	icon_skills.disease_tex
-500705	HPChange	-174.00	0.00	abs	10000	2	-174.00	Explosion de douleur			Réduit les PV de -174 toutes les 2s.	icon_skills.disease_tex
-500706	HPChange	-241.00	0.00	abs	10000	2	-241.00	Explosion de douleur			Réduit les PV de -241 toutes les 2s.	icon_skills.disease_tex
+500301	MPChange	0.00	120.00	abs	25000	1	120.00	Infusion de mana			Restaure 120 PM toutes les 1s.	icon_skills.mpcondensing_tex
+500700	HPChange	-26.00	0.00	abs	10000	2	-26.00	Explosion de douleur I			Réduit les PV de -26 toutes les 2s.	icon_skills.disease_tex
+500701	HPChange	-40.00	0.00	abs	10000	2	-40.00	Explosion de douleur II			Réduit les PV de -40 toutes les 2s.	icon_skills.disease_tex
+500702	HPChange	-58.00	0.00	abs	10000	2	-58.00	Explosion de douleur III			Réduit les PV de -58 toutes les 2s.	icon_skills.disease_tex
+500703	HPChange	-85.00	0.00	abs	10000	2	-85.00	Explosion de douleur IV			Réduit les PV de -85 toutes les 2s.	icon_skills.disease_tex
+500704	HPChange	-121.00	0.00	abs	10000	2	-121.00	Explosion de douleur V			Réduit les PV de -121 toutes les 2s.	icon_skills.disease_tex
+500705	HPChange	-174.00	0.00	abs	10000	2	-174.00	Explosion de douleur VI			Réduit les PV de -174 toutes les 2s.	icon_skills.disease_tex
+500706	HPChange	-241.00	0.00	abs	10000	2	-241.00	Explosion de douleur VII			Réduit les PV de -241 toutes les 2s.	icon_skills.disease_tex
 500707	HPChange	-341.00	0.00	abs	10000	2	-341.00	Explosion de douleur			Réduit les PV de -341 toutes les 2s.	icon_skills.disease_tex
-500708	HPChange	-516.00	0.00	abs	10000	2	-516.00	Explosion de douleur			Réduit les PV de -516 toutes les 2s.	icon_skills.disease_tex
-500720	HPChange	-27.00	0.00	abs	10000	2	-27.00	Explosion de douleur			Réduit les PV de -27 toutes les 2s.	icon_skills.disease_tex
-500721	HPChange	-37.00	0.00	abs	10000	2	-37.00	Explosion de douleur			Réduit les PV de -37 toutes les 2s.	icon_skills.disease_tex
-500722	HPChange	-51.00	0.00	abs	10000	2	-51.00	Explosion de douleur			Réduit les PV de -51 toutes les 2s.	icon_skills.disease_tex
-500723	HPChange	-71.00	0.00	abs	10000	2	-71.00	Explosion de douleur			Réduit les PV de -71 toutes les 2s.	icon_skills.disease_tex
-500724	HPChange	-97.00	0.00	abs	10000	2	-97.00	Explosion de douleur			Réduit les PV de -97 toutes les 2s.	icon_skills.disease_tex
-500725	HPChange	-134.00	0.00	abs	10000	2	-134.00	Explosion de douleur			Réduit les PV de -134 toutes les 2s.	icon_skills.disease_tex
-500726	HPChange	-186.00	0.00	abs	10000	2	-186.00	Explosion de douleur			Réduit les PV de -186 toutes les 2s.	icon_skills.disease_tex
+500708	HPChange	-516.00	0.00	abs	10000	2	-516.00	Explosion de douleur IX			Réduit les PV de -516 toutes les 2s.	icon_skills.disease_tex
+500720	HPChange	-27.00	0.00	abs	10000	2	-27.00	Explosion de douleur I			Réduit les PV de -27 toutes les 2s.	icon_skills.disease_tex
+500721	HPChange	-37.00	0.00	abs	10000	2	-37.00	Explosion de douleur II			Réduit les PV de -37 toutes les 2s.	icon_skills.disease_tex
+500722	HPChange	-51.00	0.00	abs	10000	2	-51.00	Explosion de douleur III			Réduit les PV de -51 toutes les 2s.	icon_skills.disease_tex
+500723	HPChange	-71.00	0.00	abs	10000	2	-71.00	Explosion de douleur IV			Réduit les PV de -71 toutes les 2s.	icon_skills.disease_tex
+500724	HPChange	-97.00	0.00	abs	10000	2	-97.00	Explosion de douleur V			Réduit les PV de -97 toutes les 2s.	icon_skills.disease_tex
+500725	HPChange	-134.00	0.00	abs	10000	2	-134.00	Explosion de douleur VI			Réduit les PV de -134 toutes les 2s.	icon_skills.disease_tex
+500726	HPChange	-186.00	0.00	abs	10000	2	-186.00	Explosion de douleur VII			Réduit les PV de -186 toutes les 2s.	icon_skills.disease_tex
 500727	HPChange	-258.00	0.00	abs	10000	2	-258.00	Explosion de douleur			Réduit les PV de -258 toutes les 2s.	icon_skills.disease_tex
-500728	HPChange	-382.00	0.00	abs	10000	2	-382.00	Explosion de douleur			Réduit les PV de -382 toutes les 2s.	icon_skills.disease_tex
+500728	HPChange	-382.00	0.00	abs	10000	2	-382.00	Explosion de douleur IX			Réduit les PV de -382 toutes les 2s.	icon_skills.disease_tex
 500900	Block	0.00	0.00	swch	5000	0	0.00	Epuisement nerveux			Les compétences ne peuvent pas être utilisées. L'effet n'agit que sur les personnages joueurs et disparaît lorsque vous subissez des dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.neurasthenia_tex
-501000	HPChange	-1175.00	0.00	abs	10000	2	-1175.00	Souffle embrasé			Réduit les PV de -1175 toutes les 2s.	icon_skills.burningbreath_tex
-501001	HPChange	-1631.00	0.00	abs	10000	2	-1631.00	Souffle embrasé			Réduit les PV de -1631 toutes les 2s.	icon_skills.burningbreath_tex
+501000	HPChange	-1175.00	0.00	abs	10000	2	-1175.00	Souffle embrasé I			Réduit les PV de -1175 toutes les 2s.	icon_skills.burningbreath_tex
+501001	HPChange	-1631.00	0.00	abs	10000	2	-1631.00	Souffle embrasé II			Réduit les PV de -1631 toutes les 2s.	icon_skills.burningbreath_tex
 501002	HPChange	-2305.00	0.00	abs	10000	2	-2305.00	Souffle embrasé			Réduit les PV de -2305 toutes les 2s.	icon_skills.burningbreath_tex
-501003	HPChange	-3120.00	0.00	abs	10000	2	-3120.00	Souffle embrasé			Réduit les PV de -3120 toutes les 2s.	icon_skills.burningbreath_tex
-501020	HPChange	-890.00	0.00	abs	10000	2	-890.00	Souffle embrasé			Réduit les PV de -890 toutes les 2s.	icon_skills.burningbreath_tex
-501021	HPChange	-1228.00	0.00	abs	10000	2	-1228.00	Souffle embrasé			Réduit les PV de -1228 toutes les 2s.	icon_skills.burningbreath_tex
+501003	HPChange	-3120.00	0.00	abs	10000	2	-3120.00	Souffle embrasé IV			Réduit les PV de -3120 toutes les 2s.	icon_skills.burningbreath_tex
+501020	HPChange	-890.00	0.00	abs	10000	2	-890.00	Souffle embrasé I			Réduit les PV de -890 toutes les 2s.	icon_skills.burningbreath_tex
+501021	HPChange	-1228.00	0.00	abs	10000	2	-1228.00	Souffle embrasé II			Réduit les PV de -1228 toutes les 2s.	icon_skills.burningbreath_tex
 501022	HPChange	-1704.00	0.00	abs	10000	2	-1704.00	Souffle embrasé			Réduit les PV de -1704 toutes les 2s.	icon_skills.burningbreath_tex
-501023	HPChange	-2259.00	0.00	abs	10000	2	-2259.00	Souffle embrasé			Réduit les PV de -2259 toutes les 2s.	icon_skills.burningbreath_tex
-501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Volée de mana I			Réduit les PM de -172 toutes les 2s.	icon_skills.mpsink_tex
+501023	HPChange	-2259.00	0.00	abs	10000	2	-2259.00	Souffle embrasé IV			Réduit les PV de -2259 toutes les 2s.	icon_skills.burningbreath_tex
+501100	MPChange	0.00	-172.00	abs	10000	2	-172.00	Volée de mana			Réduit les PM de -172 toutes les 2s.	icon_skills.mpsink_tex
 501101	MPChange	0.00	-206.00	abs	10000	2	-206.00	Volée de mana II			Réduit les PM de -206 toutes les 2s.	icon_skills.mpsink_tex
-501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Volée de mana I			[Test]	icon_skills.mpsink_tex
+501150	MPChange	0.00	-0.25	perc	1000	1	-0.25	Volée de mana			[Test]	icon_skills.mpsink_tex
 501151	MPChange	0.00	-0.30	perc	1000	1	-0.30	Volée de mana II			Test	icon_skills.mpsink_tex
-501200	ASpd	0.00	0.00	perc	15000	0	1.20	Poussée de célérité			Augmente la vitesse d'attaque pour la durée donnée.	icon_skills.contractofquickness_tex
-501300	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Gyre temporel			Déplacement impossible. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
-501301	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Gyre temporel			Déplacement impossible. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
+501160	MPChange	0.00	0.25	perc	1000	1	0.25	Volée de mana				icon_skills.mpsink_tex
+501161	MPChange	0.00	0.30	perc	1000	1	0.30	Volée de mana II				icon_skills.mpsink_tex
+501200	ASpd	0.00	0.00	perc	15000	0	1.20	Poussée de vitesse			Augmente la vitesse d'attaque pour la durée donnée.	icon_skills.contractofquickness_tex
+501300	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Gyre temporel I			Déplacement impossible. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
+501301	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Gyre temporel II			Déplacement impossible. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
 501302	MovSpdInCombat	0.00	0.00	setp	7000	0	0.00	Gyre temporel			Déplacement impossible. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
-501303	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Gyre temporel			Déplacement impossible. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes renversé{@g:/e}.	icon_skills.curseofshackle_tex
-501320	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Gyre temporel			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
-501320	Block	0.00	0.00	perc	5000	0	0.00	Gyre temporel			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
-501321	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Gyre temporel			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
-501321	Block	0.00	0.00	perc	6000	0	0.00	Gyre temporel			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
+501303	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Gyre temporel IV			Déplacement impossible. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes renversé{@g:/e}.	icon_skills.curseofshackle_tex
+501320	MovSpdInCombat	0.00	0.00	setp	5000	0	0.00	Gyre temporel I			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
+501320	Block	0.00	0.00	perc	5000	0	0.00	Gyre temporel I			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
+501321	MovSpdInCombat	0.00	0.00	setp	6000	0	0.00	Gyre temporel II			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
+501321	Block	0.00	0.00	perc	6000	0	0.00	Gyre temporel II			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
 501322	MovSpdInCombat	0.00	0.00	setp	7000	0	0.00	Gyre temporel			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
 501322	Block	0.00	0.00	perc	7000	0	0.00	Gyre temporel			Impossible de se déplacer et d'utiliser les compétences d'esquive. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes {@gender:renversé/renversée}.	icon_skills.curseofshackle_tex
-501323	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Gyre temporel			Impossible de se déplacer ou d'utiliser des compétences d'esquive impossibles. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes renversé{@g:/e}.	icon_skills.curseofshackle_tex
-501323	Block	0.00	0.00	perc	8000	0	0.00	Gyre temporel			Impossible de se déplacer ou d'utiliser des compétences d'esquive impossibles. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes renversé{@g:/e}.	icon_skills.curseofshackle_tex
-600500	Mark	0.00	0.00	swch	30000	0	1.20	Marque de Velik			Vous subissez 20 % de dégâts supplémentaires lorsque vous êtes touché{@g:/e} par l'ennemi qui vous a marqué{@g:/e}.	icon_skills.markingofarcher_tex
-600501	Mark	0.00	0.00	swch	35000	0	1.20	Marque de Velik			Vous subissez 20 % de dégâts supplémentaires lorsque vous êtes touché{@g:/e} par l'ennemi qui vous a marqué{@g:/e}.	icon_skills.markingofarcher_tex
+501323	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	Gyre temporel IV			Impossible de se déplacer ou d'utiliser des compétences d'esquive impossibles. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes renversé{@g:/e}.	icon_skills.curseofshackle_tex
+501323	Block	0.00	0.00	perc	8000	0	0.00	Gyre temporel IV			Impossible de se déplacer ou d'utiliser des compétences d'esquive impossibles. L'effet prend fin si vous subissez un certain nombre de points de dégâts ou si vous êtes renversé{@g:/e}.	icon_skills.curseofshackle_tex
+600500	Mark	0.00	0.00	swch	30000	0	1.20	Marque de Velik I			Vous subissez 20 % de dégâts supplémentaires lorsque vous êtes touché{@g:/e} par l'ennemi qui vous a marqué{@g:/e}.	icon_skills.markingofarcher_tex
+600501	Mark	0.00	0.00	swch	35000	0	1.20	Marque de Velik II			Vous subissez 20 % de dégâts supplémentaires lorsque vous êtes touché{@g:/e} par l'ennemi qui vous a marqué{@g:/e}.	icon_skills.markingofarcher_tex
 600502	Mark	0.00	0.00	swch	40000	0	1.20	Marque de Velik			Vous subissez 20 % de dégâts supplémentaires lorsque vous êtes touché{@g:/e} par l'ennemi qui vous a marqué{@g:/e}.	icon_skills.markingofarcher_tex
-600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	Piège empoisonné			Réduit les PV de -58 toutes les 2s.	icon_skills.venomtrap_tex
-600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	Piège empoisonné			Réduit les PV de -124 toutes les 2s.	icon_skills.venomtrap_tex
-600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	Piège empoisonné			Réduit les PV de -271 toutes les 2s.	icon_skills.venomtrap_tex
-600603	HPChange	-518.00	0.00	abs	10000	2	-518.00	Piège empoisonné			Réduit les PV de -518 toutes les 2s.	icon_skills.venomtrap_tex
-600604	HPChange	-1048.00	0.00	abs	10000	2	-1048.00	Piège empoisonné			Réduit les PV de -1048 toutes les 2s.	icon_skills.venomtrap_tex
-600605	HPChange	-1575.00	0.00	abs	10000	2	-1575.00	Piège empoisonné			Réduit les PV de -1575 toutes les 2s.	icon_skills.venomtrap_tex
-600620	HPChange	-57.00	0.00	abs	10000	2	-57.00	Piège empoisonné			Réduit les PV de -57 toutes les 2s.	icon_skills.venomtrap_tex
-600621	HPChange	-109.00	0.00	abs	10000	2	-109.00	Piège empoisonné			Réduit les PV de -109 toutes les 2s.	icon_skills.venomtrap_tex
-600622	HPChange	-209.00	0.00	abs	10000	2	-209.00	Piège empoisonné			Réduit les PV de -209 toutes les 2s.	icon_skills.venomtrap_tex
-600623	HPChange	-398.00	0.00	abs	10000	2	-398.00	Piège empoisonné			Réduit les PV de -398 toutes les 2s.	icon_skills.venomtrap_tex
-600624	HPChange	-778.00	0.00	abs	10000	2	-778.00	Piège empoisonné			Réduit les PV de -778 toutes les 2s.	icon_skills.venomtrap_tex
-600625	HPChange	-1091.00	0.00	abs	10000	2	-1091.00	Piège empoisonné			Réduit les PV de -1091 toutes les 2s.	icon_skills.venomtrap_tex
-600900	HPChange	-270.00	0.00	abs	12000	2	-270.00	Flèche empoisonnée			Réduit les PV de -270 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600901	HPChange	-389.00	0.00	abs	12000	2	-389.00	Flèche empoisonnée			Réduit les PV de -389 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600902	HPChange	-589.00	0.00	abs	12000	2	-589.00	Flèche empoisonnée			Réduit les PV de -589 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600903	HPChange	-849.00	0.00	abs	12000	2	-849.00	Flèche empoisonnée			Réduit les PV de -849 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600904	HPChange	-1179.00	0.00	abs	12000	2	-1179.00	Flèche empoisonnée			Réduit les PV de -1179 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600905	HPChange	-1626.00	0.00	abs	12000	2	-1626.00	Flèche empoisonnée			Réduit les PV de -1626 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	Piège empoisonné I			Réduit les PV de -58 toutes les 2s.	icon_skills.venomtrap_tex
+600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	Piège empoisonné II			Réduit les PV de -124 toutes les 2s.	icon_skills.venomtrap_tex
+600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	Piège empoisonné III			Réduit les PV de -271 toutes les 2s.	icon_skills.venomtrap_tex
+600603	HPChange	-518.00	0.00	abs	10000	2	-518.00	Piège empoisonné IV			Réduit les PV de -518 toutes les 2s.	icon_skills.venomtrap_tex
+600604	HPChange	-1048.00	0.00	abs	10000	2	-1048.00	Piège empoisonné V			Réduit les PV de -1048 toutes les 2s.	icon_skills.venomtrap_tex
+600605	HPChange	-1575.00	0.00	abs	10000	2	-1575.00	Piège empoisonné VI			Réduit les PV de -1575 toutes les 2s.	icon_skills.venomtrap_tex
+600620	HPChange	-57.00	0.00	abs	10000	2	-57.00	Piège empoisonné I			Réduit les PV de -57 toutes les 2s.	icon_skills.venomtrap_tex
+600621	HPChange	-109.00	0.00	abs	10000	2	-109.00	Piège empoisonné II			Réduit les PV de -109 toutes les 2s.	icon_skills.venomtrap_tex
+600622	HPChange	-209.00	0.00	abs	10000	2	-209.00	Piège empoisonné III			Réduit les PV de -209 toutes les 2s.	icon_skills.venomtrap_tex
+600623	HPChange	-398.00	0.00	abs	10000	2	-398.00	Piège empoisonné IV			Réduit les PV de -398 toutes les 2s.	icon_skills.venomtrap_tex
+600624	HPChange	-778.00	0.00	abs	10000	2	-778.00	Piège empoisonné V			Réduit les PV de -778 toutes les 2s.	icon_skills.venomtrap_tex
+600625	HPChange	-1091.00	0.00	abs	10000	2	-1091.00	Piège empoisonné VI			Réduit les PV de -1091 toutes les 2s.	icon_skills.venomtrap_tex
+600900	HPChange	-270.00	0.00	abs	12000	2	-270.00	Flèche empoisonnée I			Réduit les PV de -270 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600901	HPChange	-389.00	0.00	abs	12000	2	-389.00	Flèche empoisonnée II			Réduit les PV de -389 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600902	HPChange	-589.00	0.00	abs	12000	2	-589.00	Flèche empoisonnée III			Réduit les PV de -589 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600903	HPChange	-849.00	0.00	abs	12000	2	-849.00	Flèche empoisonnée IV			Réduit les PV de -849 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600904	HPChange	-1179.00	0.00	abs	12000	2	-1179.00	Flèche empoisonnée V			Réduit les PV de -1179 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600905	HPChange	-1626.00	0.00	abs	12000	2	-1626.00	Flèche empoisonnée VI			Réduit les PV de -1626 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
 600906	HPChange	-2360.00	0.00	abs	12000	2	-2360.00	Flèche empoisonnée			Réduit les PV de -2360 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600907	HPChange	-3128.00	0.00	abs	12000	2	-3128.00	Flèche empoisonnée			Réduit les PV de -3128 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600907	HPChange	-3128.00	0.00	abs	12000	2	-3128.00	Flèche empoisonnée VIII			Réduit les PV de -3128 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
 600908	HPChange	-3780.00	0.00	abs	12000	2	-3780.00	Flèche empoisonnée			Réduit les PV de -3780 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600920	HPChange	-232.00	0.00	abs	12000	2	-232.00	Flèche empoisonnée			Réduit les PV de -232 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600921	HPChange	-160.00	0.00	abs	12000	2	-160.00	Flèche empoisonnée			Réduit les PV de -160 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600922	HPChange	-221.00	0.00	abs	12000	2	-221.00	Flèche empoisonnée			Réduit les PV de -221 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600923	HPChange	-306.00	0.00	abs	12000	2	-306.00	Flèche empoisonnée			Réduit les PV de -306 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600924	HPChange	-422.00	0.00	abs	12000	2	-422.00	Flèche empoisonnée			Réduit les PV de -422 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600925	HPChange	-583.00	0.00	abs	12000	2	-583.00	Flèche empoisonnée			Réduit les PV de -583 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600920	HPChange	-232.00	0.00	abs	12000	2	-232.00	Flèche empoisonnée I			Réduit les PV de -232 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600921	HPChange	-160.00	0.00	abs	12000	2	-160.00	Flèche empoisonnée II			Réduit les PV de -160 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600922	HPChange	-221.00	0.00	abs	12000	2	-221.00	Flèche empoisonnée III			Réduit les PV de -221 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600923	HPChange	-306.00	0.00	abs	12000	2	-306.00	Flèche empoisonnée IV			Réduit les PV de -306 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600924	HPChange	-422.00	0.00	abs	12000	2	-422.00	Flèche empoisonnée V			Réduit les PV de -422 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600925	HPChange	-583.00	0.00	abs	12000	2	-583.00	Flèche empoisonnée VI			Réduit les PV de -583 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
 600926	HPChange	-813.00	0.00	abs	12000	2	-813.00	Flèche empoisonnée			Réduit les PV de -813 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600927	HPChange	-1078.00	0.00	abs	12000	2	-1078.00	Flèche empoisonnée			Réduit les PV de -1078 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-600928	HPChange	-1427.00	0.00	abs	12000	2	-1427.00	Flèche empoisonnée			Réduit les PV de -1427 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
-601000	ASpd	0.00	0.00	perc	4000	0	0.85	Flèche d'entrave			Réduit la vitesse de déplacement de 50% et la vitesse d'attaque de 15%.	icon_skills.contaningshot_tex
-601001	ASpd	0.00	0.00	perc	5000	0	0.85	Flèche d'entrave			Réduit la vitesse de déplacement de 50% et la vitesse d'attaque de 15%.	icon_skills.contaningshot_tex
+600927	HPChange	-1078.00	0.00	abs	12000	2	-1078.00	Flèche empoisonnée VIII			Réduit les PV de -1078 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+600928	HPChange	-1427.00	0.00	abs	12000	2	-1427.00	Flèche empoisonnée IX			Réduit les PV de -1427 toutes les 2s. Cet effet peut être cumulé trois fois.	icon_skills.venomarrow_tex
+601000	ASpd	0.00	0.00	perc	4000	0	0.85	Flèche d'entrave I			Réduit la vitesse de déplacement de 50% et la vitesse d'attaque de 15%.	icon_skills.contaningshot_tex
+601001	ASpd	0.00	0.00	perc	5000	0	0.85	Flèche d'entrave II			Réduit la vitesse de déplacement de 50% et la vitesse d'attaque de 15%.	icon_skills.contaningshot_tex
 601100	Power	0.00	0.00	abs	0	0	30.00	Œil de faucon I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la vitesse de déplacement de 8. Augmente les dégâts face aux boss de 5 %. Ne peut pas être utilisé en même temps qu'Œil d'aigle.	icon_skills.focusstance_tex
 601100	ASpd	0.00	0.00	abs	0	0	4.00	Œil de faucon I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la vitesse de déplacement de 8. Augmente les dégâts face aux boss de 5 %. Ne peut pas être utilisé en même temps qu'Œil d'aigle.	icon_skills.focusstance_tex
 601101	Power	0.00	0.00	abs	0	0	30.00	Œil de faucon II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la vitesse de déplacement de 16. Augmente les dégâts infligés au boss de 5 %. Ne peut pas être utilisé en même temps qu'Œil d'aigle.	icon_skills.focusstance_tex
 601101	ASpd	0.00	0.00	abs	0	0	8.00	Œil de faucon II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la vitesse de déplacement de 16. Augmente les dégâts infligés au boss de 5 %. Ne peut pas être utilisé en même temps qu'Œil d'aigle.	icon_skills.focusstance_tex
-601110	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la constitution de 4. Augmente les dégâts face aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_moveslow_tex
-601110	Endurance	0.00	0.00	abs	0	0	4.00	Œil d'aigle I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la constitution de 4. Augmente les dégâts face aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_moveslow_tex
-601110	ASpd	0.00	0.00	abs	0	0	4.00	Œil d'aigle I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la constitution de 4. Augmente les dégâts face aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_moveslow_tex
-601111	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la constitution de 8. Augmente les dégâts infligés aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_moveslow_tex
-601111	Endurance	0.00	0.00	abs	0	0	8.00	Œil d'aigle II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la constitution de 8. Augmente les dégâts infligés aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_moveslow_tex
-601111	ASpd	0.00	0.00	abs	0	0	8.00	Œil d'aigle II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la constitution de 8. Augmente les dégâts infligés aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_moveslow_tex
+601110	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la constitution de 4. Augmente les dégâts face aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_tex
+601110	Endurance	0.00	0.00	abs	0	0	4.00	Œil d'aigle I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la constitution de 4. Augmente les dégâts face aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_tex
+601110	ASpd	0.00	0.00	abs	0	0	4.00	Œil d'aigle I			Augmente la puissance de 30, la vitesse d'attaque de 4 et la constitution de 4. Augmente les dégâts face aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_tex
+601111	Power	0.00	0.00	abs	0	0	30.00	Œil d'aigle II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la constitution de 8. Augmente les dégâts infligés aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_tex
+601111	Endurance	0.00	0.00	abs	0	0	8.00	Œil d'aigle II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la constitution de 8. Augmente les dégâts infligés aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_tex
+601111	ASpd	0.00	0.00	abs	0	0	8.00	Œil d'aigle II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la constitution de 8. Augmente les dégâts infligés aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_tex
 601450	CastSpeed	0.00	0.00	perc	10000	0	1.50	Flèche			Réduit le temps de chargement de la prochaine attaque avec Flèche pénétrante.	icon_skills.arrowshot_tex
-700200	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles I			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
-700201	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles II			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
-700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles III			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
-700203	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inflexibilité IV			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
+700200	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inflexibilité I			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
+700201	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inflexibilité II			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
+700202	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inflexibilité			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
+700203	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des inflexibles IV			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
 700230	CritResist	0.00	0.00	perc	0	0	1.10	Aura des inflexibles I			Augmente le facteur de résistance aux coups critiques de 10%.	icon_status.plusciriticalresist_tex
 700231	CritResist	0.00	0.00	perc	0	0	1.20	Aura des inflexibles II			Augmente le facteur de résistance aux coups critiques de 20%.	icon_status.plusciriticalresist_tex
 700232	CritResist	0.00	0.00	perc	0	0	1.30	Aura des inflexibles III			Augmente le facteur de résistance aux coups critiques de 30%.	icon_status.plusciriticalresist_tex
 700233	CritResist	0.00	0.00	perc	0	0	1.40	Aura d'inflexibilité IV			Augmente le facteur de résistance aux coups critiques de 40%.	icon_status.plusciriticalresist_tex
-700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des tenaces			Etend l'Aura des tenaces sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areampgain_tex
+700300	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de ténacité			Etend l'Aura des tenaces sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areampgain_tex
 700330	MPChange	0.00	20.00	abs	0	1	20.00	Aura des tenaces			Régénère 20 PM toutes les 1s.	icon_status.mprecoverup_tex
 700400	HPChange	0.00	0.00	abs	10000	1	0.00	Faveur du titan I			Rend des PV toutes les 1s.	icon_skills.healshot_tex
 700401	HPChange	0.00	0.00	abs	10000	1	0.00	Faveur du titan II			Rend des PV toutes les 1s.	icon_skills.healshot_tex
@@ -1184,14 +1186,14 @@
 700406	HPChange	0.00	0.00	abs	10000	1	0.00	Faveur du titan VII			Rend des PV toutes les 1s.	icon_skills.healshot_tex
 700407	HPChange	0.00	0.00	abs	10000	1	0.00	Faveur du titan VIII			Rend des PV toutes les 1s.	icon_skills.healshot_tex
 700408	HPChange	0.00	0.00	abs	10000	1	0.00	Faveur du titan IX			Restaure des PV toutes les 1s.	icon_skills.healshot_tex
-700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence I			Étend la Puissance frénétique sur les membres du groupe dans un rayon de 30&nbsp;m. Son maintien consomme -30 PM toutes les 2.	icon_skills.criticalupaura_tex
-700601	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura des impitoyables II			Accorde la Force d'inclémence et la Puissance frénétique aux membres du groupe dans un rayon de 30&nbsp;m. Consomme -30 PM toutes les 2.	icon_skills.criticalupaura_tex
+700600	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence			Étend la Puissance frénétique sur les membres du groupe dans un rayon de 30&nbsp;m. Son maintien consomme -30 PM toutes les 2.	icon_skills.criticalupaura_tex
+700601	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence II			Accorde la Force d'inclémence et la Puissance frénétique aux membres du groupe dans un rayon de 30&nbsp;m. Consomme -30 PM toutes les 2.	icon_skills.criticalupaura_tex
 700602	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence III			Accorde la Force d'inclémence et la Puissance frénétique aux membres du groupe dans un rayon de 30&nbsp;m. Consomme -30 PM toutes les 2.	icon_skills.criticalupaura_tex
 700603	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura d'inclémence IV			Accorde la Force d'inclémence et la Puissance frénétique aux membres du groupe dans un rayon de 30&nbsp;m. Consomme -30 PM toutes les 2.	icon_skills.criticalupaura_tex
 700630	Crit	0.00	0.00	perc	0	0	2.00	Force d'inclémence I			Double le facteur de coups critiques.	icon_status.plusecritical_tex
 700631	Crit	0.00	0.00	perc	0	0	2.10	Force d'inclémence II			Double le facteur de coups critiques.	icon_status.plusecritical_tex
-700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité I			Etend l'Aura de vivacité sur les membres du groupe situés dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.speedupaura_tex
-700701	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité II - Libération			Etend l'Aura de vivacité sur les membres du groupe situés dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.speedupaura_tex
+700700	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité			Etend l'Aura de vivacité sur les membres du groupe situés dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.speedupaura_tex
+700701	MPChange	0.00	-30.00	abs	0	2	-30.00	Aura de vivacité II			Etend l'Aura de vivacité sur les membres du groupe situés dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.speedupaura_tex
 700800	HPChange	-40.00	0.00	abs	10000	2	-40.00	Volée de malédictions			Réduit les PV de -40 toutes les 2s.	icon_skills.painfulshackle_tex
 700801	HPChange	-62.00	0.00	abs	10000	2	-62.00	Volée de malédictions			Réduit les PV de -62 toutes les 2s.	icon_skills.painfulshackle_tex
 700802	HPChange	-96.00	0.00	abs	10000	2	-96.00	Volée de malédictions			Réduit les PV de -96 toutes les 2s.	icon_skills.painfulshackle_tex
@@ -1200,17 +1202,17 @@
 700805	HPChange	-289.00	0.00	abs	10000	2	-289.00	Volée de malédictions			Réduit les PV de -289 toutes les 2s.	icon_skills.painfulshackle_tex
 700806	HPChange	-417.00	0.00	abs	10000	2	-417.00	Volée de malédictions			Réduit les PV de -417 toutes les 2s.	icon_skills.painfulshackle_tex
 700807	HPChange	-578.00	0.00	abs	10000	2	-578.00	Volée de malédictions			Réduit les PV de -578 toutes les 2s.	icon_skills.painfulshackle_tex
-700808	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions			Réduit les PV de -817 toutes les 2s.	icon_skills.painfulshackle_tex
+700808	HPChange	-817.00	0.00	abs	10000	2	-817.00	Volée de malédictions IX			Réduit les PV de -817 toutes les 2s.	icon_skills.painfulshackle_tex
 700809	HPChange	-1238.00	0.00	abs	10000	2	-1238.00	Volée de malédictions			Réduit les PV de -1238 toutes les 2s.	icon_skills.painfulshackle_tex
-700820	HPChange	-41.00	0.00	abs	10000	2	-41.00	Volée de malédictions			Réduit les PV de -41 toutes les 2s.	icon_skills.painfulshackle_tex
-700821	HPChange	-63.00	0.00	abs	10000	2	-63.00	Volée de malédictions			Réduit les PV de -63 toutes les 2s.	icon_skills.painfulshackle_tex
-700822	HPChange	-86.00	0.00	abs	10000	2	-86.00	Volée de malédictions			Réduit les PV de -86 toutes les 2s.	icon_skills.painfulshackle_tex
-700823	HPChange	-133.00	0.00	abs	10000	2	-133.00	Volée de malédictions			Réduit les PV de -133 toutes les 2s.	icon_skills.painfulshackle_tex
-700824	HPChange	-191.00	0.00	abs	10000	2	-191.00	Volée de malédictions			Réduit les PV de -191 toutes les 2s.	icon_skills.painfulshackle_tex
-700825	HPChange	-283.00	0.00	abs	10000	2	-283.00	Volée de malédictions			Réduit les PV de -283 toutes les 2s.	icon_skills.painfulshackle_tex
-700826	HPChange	-399.00	0.00	abs	10000	2	-399.00	Volée de malédictions			Réduit les PV de -399 toutes les 2s.	icon_skills.painfulshackle_tex
-700827	HPChange	-576.00	0.00	abs	10000	2	-576.00	Volée de malédictions			Réduit les PV de -576 toutes les 2s.	icon_skills.painfulshackle_tex
-700828	HPChange	-802.00	0.00	abs	10000	2	-802.00	Volée de malédictions			Réduit les PV de -802 toutes les 2s.	icon_skills.painfulshackle_tex
+700820	HPChange	-41.00	0.00	abs	10000	2	-41.00	Volée de malédictions I			Réduit les PV de -41 toutes les 2s.	icon_skills.painfulshackle_tex
+700821	HPChange	-63.00	0.00	abs	10000	2	-63.00	Volée de malédictions II			Réduit les PV de -63 toutes les 2s.	icon_skills.painfulshackle_tex
+700822	HPChange	-86.00	0.00	abs	10000	2	-86.00	Volée de malédictions III			Réduit les PV de -86 toutes les 2s.	icon_skills.painfulshackle_tex
+700823	HPChange	-133.00	0.00	abs	10000	2	-133.00	Volée de malédictions IV			Réduit les PV de -133 toutes les 2s.	icon_skills.painfulshackle_tex
+700824	HPChange	-191.00	0.00	abs	10000	2	-191.00	Volée de malédictions V			Réduit les PV de -191 toutes les 2s.	icon_skills.painfulshackle_tex
+700825	HPChange	-283.00	0.00	abs	10000	2	-283.00	Volée de malédictions VI			Réduit les PV de -283 toutes les 2s.	icon_skills.painfulshackle_tex
+700826	HPChange	-399.00	0.00	abs	10000	2	-399.00	Volée de malédictions VII			Réduit les PV de -399 toutes les 2s.	icon_skills.painfulshackle_tex
+700827	HPChange	-576.00	0.00	abs	10000	2	-576.00	Volée de malédictions VIII			Réduit les PV de -576 toutes les 2s.	icon_skills.painfulshackle_tex
+700828	HPChange	-802.00	0.00	abs	10000	2	-802.00	Volée de malédictions IX			Réduit les PV de -802 toutes les 2s.	icon_skills.painfulshackle_tex
 700829	HPChange	-1212.00	0.00	abs	10000	2	-1212.00	Volée de malédictions			Réduit les PV de -1212 toutes les 2s.	icon_skills.painfulshackle_tex
 700900	MPChange	0.00	100.00	abs	20000	1	100.00	Infusion de mana			Restaure 100 PM toutes les 1s, jusqu'à ce que vous subissiez des dégâts ou que vous utilisiez un objet ou une autre compétence de combat.	icon_skills.mpcharge_tex
 701000	HPChange	70.00	0.00	abs	10000	2	70.00	Grâce de l'esprit I			Restaure 70 PV toutes les 2s.	icon_skills.summonspiritofheal_tex
@@ -1226,9 +1228,9 @@
 701010	HPChange	614.00	0.00	abs	10000	2	614.00	Grâce de l'esprit XI			Restaure 614 PV toutes les 2s.	icon_skills.summonspiritofheal_tex
 701011	HPChange	769.00	0.00	abs	10000	2	769.00	Grâce de l'esprit XII			Restaure 769 PV toutes les 2s.	icon_skills.summonspiritofheal_tex
 701012	HPChange	914.00	0.00	abs	10000	2	914.00	Grâce de l'esprit XIII			Soigne 914 PV toutes les 2s.	icon_skills.summonspiritofheal_tex
-701200	CDR	0.00	0.00	perc	6000	0	1.20	Malédiction d'épuisement			Augmente le temps de recharge de toutes les compétences de 20%.	icon_skills.spiritoflassitude_tex
+701200	CDR	0.00	0.00	perc	6000	0	1.20	Malédiction d'épuisement I			Augmente le temps de recharge de toutes les compétences de 20%.	icon_skills.spiritoflassitude_tex
 701201	CDR	0.00	0.00	perc	8000	0	1.20	Malédiction d'épuisement			Augmente le temps de recharge de toutes les compétences de 20%.	icon_skills.spiritoflassitude_tex
-701202	CDR	0.00	0.00	perc	10000	0	1.20	Malédiction d'épuisement			Augmente le temps de recharge de toutes les compétences de 20%.	icon_skills.spiritoflassitude_tex
+701202	CDR	0.00	0.00	perc	10000	0	1.20	Malédiction d'épuisement III			Augmente le temps de recharge de toutes les compétences de 20%.	icon_skills.spiritoflassitude_tex
 701500	HPChange	390.00	0.00	abs	3000	1	390.00	Vie d'Arun I	8008	Graine de Vie d'Arun I	Soigne 390 PV toutes les 1s.	icon_skills.hprefresher_tex
 701501	HPChange	515.00	0.00	abs	3000	1	515.00	Vie d'Arun II	8009	Graine de Vie d'Arun II	Soigne 515 PV toutes les 1s.	icon_skills.hprefresher_tex
 701502	HPChange	716.00	0.00	abs	3000	1	716.00	Vie d'Arun III	8010	Graine de Vie d'Arun III	Soigne 716 PV toutes les 1s.	icon_skills.hprefresher_tex
@@ -1246,8 +1248,8 @@
 701602	ASpd	0.00	0.00	perc	3000	0	1.05	Totem de vitesse			Augmente la vitesse d'attaque de 5%.	icon_skills.energiesofquickness_tex
 701605	HPChange	529.00	0.00	abs	15000	2	529.00	Totem de protection I			L'énergie invoquée restaure les PV de 529 toutes les 2s.	icon_skills.energiesofprotection_tex
 701607	HPChange	700.00	0.00	abs	15000	2	700.00	Totem de protection II			L'énergie invoquée restaure 700 PV toutes les 2s.	icon_skills.energiesofprotection_tex
-701700	Endurance	0.00	0.00	perc	20000	0	0.95	Infection			Vous êtes malade pendant $time. Réduit la constitution de 5%. Les compétences de purification ne permettent pas d'éliminer cet effet. Il infecte les créatures dans un rayon de 7 m autour de vous.	icon_skills.plague_tex
-701701	Endurance	0.00	0.00	perc	20000	0	0.95	Infection			Vous êtes malade pendant $time. Réduit la constitution de 5%. Les compétences de purification ne permettent pas d'éliminer cet effet. Il infecte les créatures dans un rayon de 7 m autour de vous.	icon_skills.plague_tex
+701700	Endurance	0.00	0.00	perc	20000	0	0.95	Contagion			Vous êtes malade pendant $time. Réduit la constitution de 5%. Les compétences de purification ne permettent pas d'éliminer cet effet. Il infecte les créatures dans un rayon de 7 m autour de vous.	icon_skills.plague_tex
+701701	Endurance	0.00	0.00	perc	20000	0	0.95	Contagion			Vous êtes malade pendant $time. Réduit la constitution de 5%. Les compétences de purification ne permettent pas d'éliminer cet effet. Il infecte les créatures dans un rayon de 7 m autour de vous.	icon_skills.plague_tex
 701800	HPChange	-15086.00	0.00	abs	5000	1	-15086.00	Affliction			Malade. Inflige -15086 points de dégâts par seconde.	icon_skills.plague_tex
 701801	HPChange	-1953.00	0.00	abs	5000	1	-1953.00	Affliction			Malade. Réduit la régénération de PV de 10%. Inflige -1953 points de dégâts par seconde.	icon_skills.plague_tex
 757002	ASpd	0.00	0.00	perc	0	0	1.00	Pierre de feu			Le géant de pierre est en feu. Les cibles dans un rayon de 21 m obtiennent "Chaleur".	icon_status.firedamage_tex
@@ -1339,16 +1341,16 @@
 800602	HPChange	67.00	0.00	abs	1500000	2	67.00	Bénédiction de Balder III			Rend des PV toutes les 2s.	icon_skills.refreshbless_tex
 800603	HPChange	71.00	0.00	abs	1500000	2	71.00	Bénédiction de Balder IV			Rend des PV toutes les 2s.	icon_skills.refreshbless_tex
 800604	HPChange	73.00	0.00	abs	1500000	2	73.00	Bénédiction de Balder V			Rend des PV toutes les 2s.	icon_skills.refreshbless_tex
-800900	HPChange	-136.00	0.00	abs	15000	3	-136.00	Fléau d'épuisement			Réduit les PV de -136 toutes les 3s.	icon_skills.prophecyoflethargy_tex
+800900	HPChange	-136.00	0.00	abs	15000	3	-136.00	Fléau d'épuisement I			Réduit les PV de -136 toutes les 3s.	icon_skills.prophecyoflethargy_tex
 800901	HPChange	-193.00	0.00	abs	15000	3	-193.00	Fléau d'épuisement II			Réduit les PV de -193 toutes les 3s.	icon_skills.prophecyoflethargy_tex
 800902	HPChange	-284.00	0.00	abs	15000	3	-284.00	Fléau d'épuisement III			Réduit les PV de -284 toutes les 3s.	icon_skills.prophecyoflethargy_tex
 800903	HPChange	-410.00	0.00	abs	15000	3	-410.00	Fléau d'épuisement IV			Réduit les PV de -410 toutes les 3s.	icon_skills.prophecyoflethargy_tex
 800904	HPChange	-569.00	0.00	abs	15000	3	-569.00	Fléau d'épuisement V			Réduit les PV de -569 toutes les 3s.	icon_skills.prophecyoflethargy_tex
 800905	HPChange	-786.00	0.00	abs	15000	3	-786.00	Fléau d'épuisement VI			Réduit les PV de -786 toutes les 3s.	icon_skills.prophecyoflethargy_tex
-800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Fléau d'épuisement VII			Réduit les PV de -1145 toutes les 3s.	icon_skills.prophecyoflethargy_tex
+800906	HPChange	-1145.00	0.00	abs	15000	3	-1145.00	Fléau d'épuisement			Réduit les PV de -1145 toutes les 3s.	icon_skills.prophecyoflethargy_tex
 800907	HPChange	-1518.00	0.00	abs	15000	3	-1518.00	Fléau d'épuisement VIII			Réduit les PV de -1518 du maximum toutes les 3s.	icon_skills.prophecyoflethargy_tex
-800920	HPChange	-116.00	0.00	abs	15000	3	-116.00	Fléau d'épuisement			Réduit les PV de -116 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
-800920	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement			Réduit les PV de -116 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
+800920	HPChange	-116.00	0.00	abs	15000	3	-116.00	Fléau d'épuisement I			Réduit les PV de -116 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
+800920	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement I			Réduit les PV de -116 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 800921	HPChange	-161.00	0.00	abs	15000	3	-161.00	Fléau d'épuisement II			Réduit les PV de -161 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 800921	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement II			Réduit les PV de -161 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 800922	HPChange	-222.00	0.00	abs	15000	3	-222.00	Fléau d'épuisement III			Réduit les PV de -222 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
@@ -1359,8 +1361,8 @@
 800924	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement V			Réduit les PV de -423 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 800925	HPChange	-585.00	0.00	abs	15000	3	-585.00	Fléau d'épuisement VI			Réduit les PV de -585 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 800925	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VI			Réduit les PV de -585 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
-800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Fléau d'épuisement VII			Réduit les PV de -819 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
-800926	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VII			Réduit les PV de -819 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
+800926	HPChange	-819.00	0.00	abs	15000	3	-819.00	Fléau d'épuisement			Réduit les PV de -819 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
+800926	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement			Réduit les PV de -819 toutes les 3. Augmente le temps de recharge des compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 800927	HPChange	-1086.00	0.00	abs	15000	3	-1086.00	Fléau d'épuisement VIII			Réduit les PV de -1086 toutes les 3. Augmente le temps de recharge de toutes les compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 800927	CDR	0.00	0.00	perc	15000	0	1.50	Fléau d'épuisement VIII			Réduit les PV de -1086 toutes les 3. Augmente le temps de recharge de toutes les compétences d'attaque à courte portée de 50%.	icon_skills.prophecyoflethargy_tex
 801000	DefPotion	0.00	0.00	perc	5000	0	0.70	Sanctuaire du gardien I			Réduit les dégâts subis par les attaques à distance de 30%, augmente la résistance aux effets d'affaiblissement et aux dégâts répétés de 100%, et augmente grandement la résistance à l'étourdissement.	icon_skills.guardianaura_tex
@@ -1376,21 +1378,21 @@
 801406	HPChange	489.00	0.00	abs	5000	1	489.00	Poussée restauratrice VII			Rend des PV toutes les 1s.	icon_skills.sanctuaryofregeneration_tex
 801407	HPChange	533.00	0.00	abs	5000	1	533.00	Poussée restauratrice VIII			Rend des PV toutes les 1s.	icon_skills.sanctuaryofregeneration_tex
 801408	HPChange	559.00	0.00	abs	5000	1	559.00	Poussée restauratrice IX			Rend des PV toutes les 1s.	icon_skills.sanctuaryofregeneration_tex
-801409	HPChange	575.00	0.00	abs	5000	1	575.00	Poussée restauratrice X			Rend des PV toutes les 1s.	icon_skills.sanctuaryofregeneration_tex
+801409	HPChange	575.00	0.00	abs	5000	1	575.00	Poussée restauratrice			Rend des PV toutes les 1s.	icon_skills.sanctuaryofregeneration_tex
 801410	HPChange	588.00	0.00	abs	5000	1	588.00	Poussée restauratrice XI			Restaure des PV toutes les 1s.	icon_skills.sanctuaryofregeneration_tex
-801500	Power	0.00	0.00	abs	20000	0	20.00	Étoiles énergétiques I			Augmente la puissance de 20 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
-801500	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques I			Augmente la puissance de 20 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
-801501	Power	0.00	0.00	abs	20000	0	28.00	Étoiles énergétiques II			Augmente la puissance de 28 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
-801501	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques II			Augmente la puissance de 28 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
-801502	Power	0.00	0.00	abs	20000	0	36.00	Étoiles énergétiques III			Augmente la puissance de 36 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
-801502	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles énergétiques III			Augmente la puissance de 36 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
-801503	Power	0.00	0.00	abs	20000	0	40.00	Etoiles énergétiques IV			Augmente la puissance de 40 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
-801503	ASpd	0.00	0.00	abs	20000	0	8.00	Etoiles énergétiques IV			Augmente la puissance de 40 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801500	Power	0.00	0.00	abs	20000	0	20.00	Étoiles d'énergie I			Augmente la puissance de 20 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801500	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles d'énergie I			Augmente la puissance de 20 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801501	Power	0.00	0.00	abs	20000	0	28.00	Étoiles d'énergie II			Augmente la puissance de 28 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801501	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles d'énergie II			Augmente la puissance de 28 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801502	Power	0.00	0.00	abs	20000	0	36.00	Étoiles d'énergie			Augmente la puissance de 36 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801502	ASpd	0.00	0.00	abs	20000	0	8.00	Étoiles d'énergie			Augmente la puissance de 36 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801503	Power	0.00	0.00	abs	20000	0	40.00	Lance un éclair d'énergie sur une cible située dans un rayon de $maxDistance. Il inflige des dégâts à la cible tout en augmentant pendant 20 secondes la puissance de 40 et la vitesse d'attaque de 8 pour les membres du groupe se trouvant dans un périmètre de 35 mètres. Appuyez sur la touche des compétences et utilisez votre curseur pour bloquer la cible, puis appuyez de nouveau sur la touche ou faites un clic gauche pour lancer le sort.			Augmente la puissance de 40 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
+801503	ASpd	0.00	0.00	abs	20000	0	8.00	Lance un éclair d'énergie sur une cible située dans un rayon de $maxDistance. Il inflige des dégâts à la cible tout en augmentant pendant 20 secondes la puissance de 40 et la vitesse d'attaque de 8 pour les membres du groupe se trouvant dans un périmètre de 35 mètres. Appuyez sur la touche des compétences et utilisez votre curseur pour bloquer la cible, puis appuyez de nouveau sur la touche ou faites un clic gauche pour lancer le sort.			Augmente la puissance de 40 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
 801600	HPChange	562.00	0.00	abs	3000	1	562.00	Concentration de soins I			Restaure 625 PV toutes les 1s.	icon_skills.curewing_tex
 801601	HPChange	564.00	0.00	abs	3000	1	564.00	Concentration de soins II			Restaure 625 PV toutes les 1s.	icon_skills.curewing_tex
-801800	MPChange	0.00	0.04	perc	1000	1	0.04	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	
-801801	MPChange	0.00	0.10	perc	1000	1	0.10	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	
-801802	MPChange	0.00	0.20	perc	1000	1	0.20	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	
+801800	MPChange	0.00	0.04	perc	1000	1	0.04	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	icon_skills.manarejuvenation_tex
+801801	MPChange	0.00	0.10	perc	1000	1	0.10	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	icon_skills.manarejuvenation_tex
+801802	MPChange	0.00	0.20	perc	1000	1	0.20	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	icon_skills.manarejuvenation_tex
 805600	Endurance	0.00	0.00	abs	900000	0	6.00	Bénédiction de Shara I			Sous l'influence de la bénédiction de Shara, vos PV se régénèrent toutes les 2 secondes et votre constitution augmente de 6.	icon_skills.agilitybless_tex
 805600	HPChange	55.00	0.00	abs	900000	2	55.00	Bénédiction de Shara I			Sous l'influence de la bénédiction de Shara, vos PV se régénèrent toutes les 2 secondes et votre constitution augmente de 6.	icon_skills.agilitybless_tex
 805601	Endurance	0.00	0.00	abs	900000	0	6.00	Bénédiction de Shara II			Sous l'influence de la bénédiction de Shara, vos PV se régénèrent toutes les 2 secondes et votre constitution augmente de 6.	icon_skills.agilitybless_tex
@@ -1592,33 +1594,33 @@
 9810012	HPChange	-2300.00	0.00	abs	20000	5	-2300.00	Regard incandescent de Lakan			Réduit les PV de -2300 toutes les 5s pour chaque coup cumulé.	icon_status.firedamage_tex
 9810013	HPChange	0.00	0.00	abs	15000	5	0.00	Marque des archers			Marqué par un archer comme cible primaire de l'attaque.	icon_skills.througharrow_tex
 9999019	ASpd	0.00	0.00	perc	0	0	1.00	Méli-mélo spatio-temporel			Augmente les dégâts de 10 %. L'effet n'est pas cumulable avec Chaîne de protection, Chaîne d'attaque, Chaîne de récupération ou encore la Potion de bravoure.	icon_status.speedystatus_tex
-10151010	CDR	0.00	0.00	perc	15000	0	0.30	Aura ténébreuse			Vous récoltez les ombres autour de vous. Pendant la récolte, le temps de chargement de Double cisaille, Coup sinistre, Frappe pendulaire, Torrent de lames, Frappe déchirante, Etreinte fulgurante, Spirale funeste et Assommoir est réduit de 70 %.	icon_status.descentofdarkness_tex
-10151032	HPChange	-3454.00	0.00	abs	10000	2	-3454.00	Câbles ténébreux			Empêtré dans des câbles ténébreux qui infligent 3 454 de dégâts toutes les deux secondes. La cible empêtrée peut à tout moment être forcée à échanger de place avec la lanceuse de cette compétence.	icon_status.positionswap_tex
-10151050	MovSpdInCombat	0.00	0.00	setp	3000	0	0.00	Frappé pendulairement			Immobilisation momentanée due à Frappe pendulaire.	icon_skills.chainuppercut_tex
+10151010	CDR	0.00	0.00	perc	15000	0	0.30	Aura ténébreuse			Vous récoltez les ombres autour de vous. Pendant la récolte, le temps de chargement de Double cisaille, Coup sinistre, Frappe pendulaire, Torrent de lames, Frappe déchirante, Etreinte fulgurante, Spirale funeste et Assommoir est réduit de 70 %.	icon_skills.descentofdarkness_tex
+10151032	HPChange	-3454.00	0.00	abs	10000	2	-3454.00	Ame captive			Empêtré dans des câbles ténébreux qui infligent 3 454 de dégâts toutes les deux secondes. La cible empêtrée peut à tout moment être forcée à échanger de place avec la lanceuse de cette compétence.	icon_skills.darkgrasp_tex
+10151050	MovSpdInCombat	0.00	0.00	setp	3000	0	0.00	Frappe pendulaire			Immobilisation momentanée due à Frappe pendulaire.	icon_skills.chainuppercut_tex
 10151070	HPChange	-1015.00	0.00	abs	10000	1	-1015.00	Gibet vaporeux			Lévitation par le gibet vaporeux. Tous les dégâts sont ignorés le temps de la suspension, mais aucune action ne peut être entreprise.	icon_skills.tornadoprison_tex
 10151074	Endurance	0.00	0.00	perc	30000	0	1.00	Clémence des jurés			Immunité contre le gibet vaporeux pour une durée prédéterminée.	icon_skills.tornadoprison_tex
 10151090	DefPotion	0.00	0.00	perc	7000	0	0.50	Voile ténébreux			Enveloppée d'un voile ténébreux après avoir subi un coup mortel. Réduit tous les dégâts de 50 %. Restaure jusqu'à 15 % des PV maximum lorsque l'effet s'achève.	icon_skills.shadowcurtain_tex
 10151092	Power	0.00	0.00	abs	300000	0	0.00	Temps de recharge du Voile ténébreux [passif]			Des énergies obscures s'emmagasinent. La réduction des dégâts n'est pas activée tant que les énergies obscures ne sont pas complètes.	icon_skills.shadowcurtain_tex
 10151200	MovSpdInCombat	0.00	0.00	seta	60000	0	240.00	Vous êtes "De la bombe".			Faites-vous exploser au bon moment sans quoi votre mort sera vaine. Vous ne pouvez pas utiliser de monture lorsque vous êtes "De la bombe".	icon_skills.explosiontrap_tex
-10152032	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Ondes négatives			Un sentiment de malaise réduit votre vitesse de déplacement.	icon_skills.slowwave_tex
-10152033	MovSpdInCombat	0.00	0.00	setp	1100	0	0.20	Ondes négatives			Un sentiment de malaise réduit votre vitesse de déplacement.	icon_skills.slowwave_tex
-10152051	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Blessure bénigne			Réduit la vitesse de déplacement.	icon_skills.anklelnjury_tex
-10152052	MovSpdInCombat	0.00	0.00	setp	1100	0	0.50	Blessure bénigne			Réduit la vitesse de déplacement.	icon_skills.anklelnjury_tex
+10152032	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Bombe à retardement			Un sentiment de malaise réduit votre vitesse de déplacement.	icon_skills.timebombshot_tex
+10152033	MovSpdInCombat	0.00	0.00	setp	1100	0	0.20	Bombe à retardement			Un sentiment de malaise réduit votre vitesse de déplacement.	icon_skills.timebombshot_tex
+10152051	MovSpdInCombat	0.00	0.00	setp	1100	0	0.10	Tir en rafale			Réduit la vitesse de déplacement.	icon_skills.gatlingshot_tex
+10152052	MovSpdInCombat	0.00	0.00	setp	1100	0	0.50	Tir en rafale			Réduit la vitesse de déplacement.	icon_skills.gatlingshot_tex
 10152061	HPChange	-645.00	0.00	abs	10100	2	-645.00	Surcharge			La charge électrique monte en puissance et inflige des dégâts continus.	icon_skills.excesselectron_tex
 10152113	Power	0.00	0.00	abs	300000	0	0.00	Temps de recharge de Barrière de secours [passive]			Une barrière de secours se recharge. L'effet réduction des dégâts ne peut pas être activé tant que le rechargement n'est pas complet.	icon_skills.emergencyshield_tex
 10152120	Endurance	0.00	0.00	perc	0	0	1.00	Surcharge			Votre Volonté est entièrement rechargée.	icon_skills.excesselectron_tex
-10153020	Block	0.00	0.00	swch	3000	0	0.00	Déséquilibre			Désorienté{@g:/e} dans les airs	icon_skills.lossofbalance_tex
+10153020	Block	0.00	0.00	swch	3000	0	0.00	Contre			Désorienté{@g:/e} dans les airs	icon_skills.smashattack02_tex
 10153040	Power	0.00	0.00	abs	0	0	30.00	Fureur croissante			Réduit la vitesse d'attaque de 10 et augmente la puissance et le facteur de coups critiques de 30. Réduit le temps de recharge des compétences de 30&nbsp;% et la Défense frontale s'applique automatiquement à toutes les compétences.	icon_skills.rampage_tex
 10153040	Crit	0.00	0.00	abs	0	0	30.00	Fureur croissante			Réduit la vitesse d'attaque de 10 et augmente la puissance et le facteur de coups critiques de 30. Réduit le temps de recharge des compétences de 30&nbsp;% et la Défense frontale s'applique automatiquement à toutes les compétences.	icon_skills.rampage_tex
 10153040	ASpd	0.00	0.00	abs	0	0	-10.00	Fureur croissante			Réduit la vitesse d'attaque de 10 et augmente la puissance et le facteur de coups critiques de 30. Réduit le temps de recharge des compétences de 30&nbsp;% et la Défense frontale s'applique automatiquement à toutes les compétences.	icon_skills.rampage_tex
 10153040	CDR	0.00	0.00	perc	0	0	0.70	Fureur croissante			Réduit la vitesse d'attaque de 10 et augmente la puissance et le facteur de coups critiques de 30. Réduit le temps de recharge des compétences de 30&nbsp;% et la Défense frontale s'applique automatiquement à toutes les compétences.	icon_skills.rampage_tex
 10153040	SuperArmor	0.00	0.00	swch	0	0	0.00	Fureur croissante			Réduit la vitesse d'attaque de 10 et augmente la puissance et le facteur de coups critiques de 30. Réduit le temps de recharge des compétences de 30&nbsp;% et la Défense frontale s'applique automatiquement à toutes les compétences.	icon_skills.rampage_tex
 10153071	Power	0.00	0.00	abs	300000	0	0.00	Temps de recharge de la Fureur mortelle [passif]			La Fureur mortelle s'intensifie. La réduction des dégâts n'est pas activée tant que la Fureur mortelle n'est pas complète.	icon_skills.ferociouswill_tex
-10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Caresse de mort			Mortellement blessé{@g:/e}. Réduit la constitution de 1% (peut se cumuler jusqu'à 8 fois).	icon_skills.rapidattack_tex
+10153140	Endurance	0.00	0.00	perc	20000	0	0.99	Dérouillée			Mortellement blessé{@g:/e}. Réduit la constitution de 1% (peut se cumuler jusqu'à 8 fois).	icon_skills.rapidattack_tex
 10154030	MPChange	0.00	-20.00	abs	0	1	-20.00	Esprit des lames			L'esprit des lames augmente votre puissance d'attaque.	icon_skills.c12_atkupbuff
 10154030	AtkPotion	0.00	0.00	swch	0	0	1.05	Esprit des lames			L'esprit des lames augmente votre puissance d'attaque.	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0.00	0.00	swch	60000	0	1.01	Esprit des lames puissant			L'esprit des lames puissant augmente votre puissance d'attaque.	icon_skills.c12_atkupbuff
-10154090	Endurance	0.00	0.00	perc	60000	0	1.00	Transformation			Transformé{@g:/e} en cible visée.	icon_skills.c12_transform
+10154090	Endurance	0.00	0.00	perc	60000	0	1.00	Réplication I			Transformé{@g:/e} en cible visée.	icon_skills.c12_transform
 14400001	Stamina	0.00	0.00	abs	900000	0	15.00	Emblème du succès	152903	Emblème du succès	Octroie les effets suivants.    Augmente l'endurance maximale de 15  Restaure 1&nbsp;% du total de PV par seconde  L'endurance ne diminue pas  Augmente le taux de butin durant la chasse aux monstres de 100&nbsp;% (le taux de butin est influencé par le nombre de membres du groupe)	icon_items.parts_magicweaponc15_tex
 14400001	HPChange	0.01	0.00	perc	900000	1	0.01	Emblème du succès	152903	Emblème du succès	Octroie les effets suivants.    Augmente l'endurance maximale de 15  Restaure 1&nbsp;% du total de PV par seconde  L'endurance ne diminue pas  Augmente le taux de butin durant la chasse aux monstres de 100&nbsp;% (le taux de butin est influencé par le nombre de membres du groupe)	icon_items.parts_magicweaponc15_tex
 14400001	StaminaDecay	0.00	0.00	swch	900000	0	0.00	Emblème du succès	152903	Emblème du succès	Octroie les effets suivants.    Augmente l'endurance maximale de 15  Restaure 1&nbsp;% du total de PV par seconde  L'endurance ne diminue pas  Augmente le taux de butin durant la chasse aux monstres de 100&nbsp;% (le taux de butin est influencé par le nombre de membres du groupe)	icon_items.parts_magicweaponc15_tex
