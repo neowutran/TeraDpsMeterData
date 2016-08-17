@@ -119,8 +119,8 @@
 2085	Power	0.00	0.00	abs	0	0	20.00	反攻の狼煙 III			最大HPが50%増加し、力と耐久力が20上昇します。追加で移動速度も30上昇します。	icon_status.battlefieldbuff04_tex
 2085	Endurance	0.00	0.00	abs	0	0	20.00	反攻の狼煙 III			最大HPが50%増加し、力と耐久力が20上昇します。追加で移動速度も30上昇します。	icon_status.battlefieldbuff04_tex
 2097	Block	0.00	0.00	swch	3000	0	0.00	スキル封じ			びっくりした赤ちゃんクーマスは3秒間基本攻撃以外のスキルを使用できません。	icon_status.sealskill_tex
-2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	治癒のオーラ			周囲の味方のHPを持続的に回復します。	icon_status.aura_of_regeneration_hp_tex
-2101	HPChange	3000.00	0.00	abs	5000	1	3000.00	治癒の力			1s毎にHPが3000ずつ回復します。	icon_skills.refreshbless_tex
+2099	HPChange	3000.00	0.00	abs	25000	1	3000.00	治癒のオーラ			周囲の赤ちゃんクーマスたちのHPを持続的に回復します。	icon_status.aura_of_regeneration_hp_tex
+2101	HPChange	6000.00	0.00	abs	5000	1	6000.00	治癒の力			1s毎にHPが6000ずつ回復します。追加で移動速度が80増加します。	icon_skills.refreshbless_tex
 2103	Power	0.00	0.00	perc	4000	0	1.20	勇猛			リーダークーマスの周囲にいる全ての味方の攻撃力が20%増加します。	icon_status.buff_of_kaia_tex
 2500	HPChange	58.00	0.00	abs	12000	1	58.00	ヒールポーション I	6048	ヒールポーション I	1s毎にHPが58回復します。	icon_items.hp_durable_potion_level_1_tex
 2501	HPChange	90.00	0.00	abs	12000	1	90.00	ヒールポーション II	6050	ヒールポーション II	1s毎にHPが90回復します。	icon_items.hp_durable_potion_level_9_tex
@@ -375,8 +375,10 @@
 4886	AtkPotion	0.00	0.00	perc	1800000	0	1.10	勇猛のポーション Ⅱ	139536	勇猛のポーション II	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex
 4953	AtkPotion	0.00	0.00	perc	3600000	0	1.12	強化のポーション			攻撃力が12％上昇します。	icon_status.plusattack_tex
 4955	AtkPotion	0.00	0.00	perc	1800000	0	1.15	強化のポーション			攻撃力が15％上昇します。	icon_status.plusattack_tex
-4956	HPChange	0.15	0.00	perc	1000	1	0.15	イースターエッグのバスケット			全HPの15％が即時に回復します。	icon_items.ricecake_tex
+4956	HPChange	0.15	0.00	perc	1000	1	0.15	イースターエッグのバスケット	155016	Exotic Beach Drink	全HPの15％が即時に回復します。	icon_items.ricecake_tex
 4957	HPChange	0.15	0.00	perc	1000	1	0.15	キューブバスケット			全HPの15％を即時に回復。	icon_items.sweetypumpkinpie_tex
+6001	CritPower	0.00	0.00	abs	6000	0	1.00	竜の血脈			モンスター攻撃時クリティカル威力が1.5倍上昇します。	icon_status.passive_dragonblood
+6002	CritPower	0.00	0.00	abs	6000	0	2.00	真竜の血脈			モンスター攻撃時クリティカル威力が2倍上昇します。	icon_status.passive_dragonblood2
 10100	HPChange	-11.00	0.00	abs	5000	1	-11.00	猛毒 I［クリスタル］			1s毎にHPが-11減少します。	icon_items.customize9ar_tex
 10101	HPChange	-23.00	0.00	abs	5000	1	-23.00	猛毒 II［クリスタル］			1s毎にHPが-23減少します。	icon_items.customize9br_tex
 10102	HPChange	-58.00	0.00	abs	5000	1	-58.00	猛毒 III［クリスタル］			1s毎にHPが-58減少します。	icon_items.customize9cr_tex
@@ -794,6 +796,8 @@
 70449	Block	0.00	0.00	swch	300000	0	0.00	束縛			アクタンのトラップに引っかかりました。持続時間の間身動きが取れません。	icon_status.staminadown_tex
 70451	Block	0.00	0.00	swch	600000	0	0.00	尾行			しばらく姿が見えなくなります。	icon_status.staminadown_tex
 70454	Block	0.00	0.00	swch	600000	0	0.00	潜入			しばらく姿が見えなくなります。	icon_status.staminadown_tex
+70459	ASpd	0.00	0.00	perc	600000	0	1.01	あがき			グリーンデラが空腹に耐えきれずあがきます。あがく度に攻撃速度が1%増加し、この効果は解除できません。	icon_status.plusattack_tex
+70463	HPChange	-0.03	0.00	perc	1000	1	-0.03	猛毒			致命的な毒に侵され全体HP対比3%に達するHPが持続的に減少します。	icon_status.poisonstatus_tex
 76756	HPChange	-5000.00	0.00	abs	30000	2	-5000.00	排水			汚水により、2秒毎にHPが5,000減少します。	icon_status.purifydagon_tex
 81163	Power	0.00	0.00	abs	600000	0	0.00	熱き友情			フレンド召喚により、友情が加熱しました。この効果が発生している間は、フレンド召喚ができません。	icon_status.darkriftareatimeshift_tex
 82102	Endurance	0.00	0.00	perc	45000	0	1.30	砲弾抵抗ポーション			45sの間、砲弾によるダメージを減少させます。	icon_items.potion16_tex
@@ -909,10 +913,10 @@
 400105	Crit	0.00	0.00	perc	27000	0	1.10	フェリーレイジ VI			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
 400500	ASpd	0.00	0.00	perc	15000	0	1.20	フリューリーブロー I			攻撃速度とチャージ速度が20%上昇します。	icon_skills.gatheringrage_tex
 400501	ASpd	0.00	0.00	perc	15000	0	1.40	フリューリーブロー			攻撃速度とチャージ速度が40%上昇します。	icon_skills.gatheringrage_tex
-400700	Power	0.00	0.00	abs	30000	0	26.00	レイジ I			力が26、衝撃と均衡が各々60％上昇します。プレイヤーを攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
-400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	レイジ I			力が26、衝撃と均衡が各々60％上昇します。プレイヤーを攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
-400701	Power	0.00	0.00	abs	30000	0	29.00	レイジ II			力が29、衝撃と均衡が各々60％上昇します。プレイヤーを攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
-400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	レイジ II			力が29、衝撃と均衡が各々60％上昇します。プレイヤーを攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
+400700	Power	0.00	0.00	abs	30000	0	26.00	レイジ I			力が26、衝撃と均衡が各々50%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
+400700	AtkPotion	0.00	0.00	perc	30000	0	1.10	レイジ I			力が26、衝撃と均衡が各々50%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
+400701	Power	0.00	0.00	abs	30000	0	29.00	レイジ II			力が29、衝撃と均衡が各々60%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
+400701	AtkPotion	0.00	0.00	perc	30000	0	1.10	レイジ II			力が29、衝撃と均衡が各々60%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
 400800	Block	0.00	0.00	perc	6000	0	0.00	ホミサイドオーラ I			移動速度が60%減少します。対象がプレイヤーの場合、効果持続中は回避及び移動系スキルを封印します。	icon_skills.murderousvent_tex
 400801	Block	0.00	0.00	perc	6000	0	0.00	ホミサイドオーラ II			移動速度が62%減少します。対象がプレイヤーの場合、効果持続中は回避及び移動系スキルを封印します。	icon_skills.murderousvent_tex
 401400	Crit	0.00	0.00	abs	0	0	-18.00	バックドラフト I			周囲8mに怒りを放出します。全ての攻撃スキルによる敵対値が40%増加します。 	icon_skills.toughspirit_tex
@@ -1572,8 +1576,20 @@
 3000014	MPChange	0.00	0.01	perc	0	1	0.01	飛行騎乗（MP回復）			飛行可能地域で飛行できます。<BR>毎秒全MPの0.5％が回復します。	icon_items.wings_of_fairy_tex
 3000015	HPChange	0.01	0.00	perc	0	1	0.01	飛行騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>搭乗中、毎秒HPとMPが0.5％回復します。	icon_items.wings_of_fairy_tex
 3000015	MPChange	0.00	0.01	perc	0	1	0.01	飛行騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>搭乗中、毎秒HPとMPが0.5％回復します。	icon_items.wings_of_fairy_tex
+3000016	HPChange	0.01	0.00	perc	0	1	0.01	飛行騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex
+3000016	MPChange	0.00	0.01	perc	0	1	0.01	飛行騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex
+3000019	HPChange	0.02	0.00	perc	0	1	0.02	飛行騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％ずつ回復し、周囲30m内のパーティーメンバーに竜の追い風の効果を付与します。	icon_items.wings_of_fairy_tex
+3000019	MPChange	0.00	0.02	perc	0	1	0.02	飛行騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％ずつ回復し、周囲30m内のパーティーメンバーに竜の追い風の効果を付与します。	icon_items.wings_of_fairy_tex
 4510015	AtkPotion	0.00	0.00	perc	60000	0	1.03	勇気のメロディー			フカの笛の音を聴き、勇気が湧いてきます。スキルダメージが3%増加します。	icon_items.fallfestival_whistle_tex
+5000000	Power	0.00	0.00	abs	0	0	3.00	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
+5000000	Endurance	0.00	0.00	abs	0	0	3.00	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
+5000000	Crit	0.00	0.00	abs	0	0	3.00	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
 5010000	HPChange	0.03	0.00	perc	30000	1	0.03	幻影の回復ポーション	101305	幻影の回復ポーション	30秒間、1秒毎に全HPの5％、計90％が持続的に回復。	icon_items.potion17_tex
+5690001	StaminaDecay	0.00	0.00	seta	0	0	0.00	記憶の追跡者			記憶の破片の収集を手伝うためにコンディションが維持され死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
+5692001	Endurance	0.00	0.00	seta	0	0	9999999.00	遊び部屋の支配者			遊びの部屋では立ち向かう相手がいません。	icon_skills.emergencyshield_tex
+5692006	Endurance	0.00	0.00	seta	0	0	9999999.00	命紡力のそでごい			マズキに命乞いをする。	icon_skills.emergencyshield_tex
+5692007	Endurance	0.00	0.00	seta	6000	0	3064.00	過度な遊び			マズキが力を使用し過ぎてしばらくの間、怯みます。	icon_skills.lossofbalance_tex
+5693002	HPChange	-0.03	0.00	perc	3000	1	-0.03	クモの毒			蜘蛛の死体の毒に侵され、全体HPの3%のHPが減少します。この効果は最大2回まで重複されます。	icon_status.poisonstatus_tex
 7777015	MPChange	0.00	0.50	perc	1800000	1	0.50	T.E.R.A TIME			連盟スキル以外のスキルのクールタイムが20％減少し、毎秒のマナ回復量が大きく増加します。	icon_status.pluswill_tex
 7777015	CDR	0.00	0.00	perc	1800000	0	0.80	T.E.R.A TIME			連盟スキル以外のスキルのクールタイムが20％減少し、毎秒のマナ回復量が大きく増加します。	icon_status.pluswill_tex
 8000077	ASpd	0.00	0.00	perc	1800000	0	1.04	カイアの聖水	100689	カイアの聖水 I	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex
