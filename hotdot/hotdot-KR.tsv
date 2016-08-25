@@ -415,8 +415,6 @@
 4955	AtkPotion	0.00	0.00	perc	1800000	0	1.15	강화의 물약	150534	유럽용 강화의 물약	공격력이 15% 증가됩니다. 서버간 파티 매칭 버프와 중첩되지 않습니다.	icon_status.plusattack_tex
 4956	HPChange	0.15	0.00	perc	1000	1	0.15	부활절 달걀 바구니	151377	부활절 달걀 바구니	전체 HP 대비 15%에 달하는 HP가 즉시 회복됩니다.	icon_items.ricecake_tex
 4957	HPChange	0.15	0.00	perc	1000	1	0.15	할로윈 큐브 바구니			전체 HP 대비 15%에 달하는 HP가 즉시 회복됩니다.	icon_items.sweetypumpkinpie_tex
-6001	CritPower	0.00	0.00	abs	6000	0	1.00	용의 혈맥			몬스터 공격 시 치명타 위력이 +1.5배 증가됩니다.	icon_status.passive_dragonblood
-6002	CritPower	0.00	0.00	abs	6000	0	2.00	진룡의 혈맥			몬스터 공격 시 치명타 위력이 +2배 증가됩니다.	icon_status.passive_dragonblood2
 10100	HPChange	-11.00	0.00	abs	5000	1	-11.00	맹독 I [크리스탈]			1s마다 -11씩 HP가 지속적으로 감소됩니다.	icon_items.customize9ar_tex
 10101	HPChange	-23.00	0.00	abs	5000	1	-23.00	맹독 II [크리스탈]			1s마다 -23씩 HP가 지속적으로 감소됩니다.	icon_items.customize9br_tex
 10102	HPChange	-58.00	0.00	abs	5000	1	-58.00	맹독 III [크리스탈]			1s마다 -58씩 HP가 지속적으로 감소됩니다.	icon_items.customize9cr_tex
@@ -1177,9 +1175,9 @@
 501322	Block	0.00	0.00	perc	7000	0	0.00	속박의 저주			지속 시간 동안 제 자리에서 움직일 수 없으며, 회피 및 이동 계열 스킬도 사용할 수 없습니다. 일정 이상 피해를 받거나 다운되면 효과는 즉시 해제됩니다.	icon_skills.curseofshackle_tex
 501323	MovSpdInCombat	0.00	0.00	setp	8000	0	0.00	속박의 저주 IV			지속 시간 동안 제 자리에서 움직일 수 없으며, 회피 및 이동 계열 스킬도 사용할 수 없습니다. 일정 이상 피해를 받거나 다운되면 효과는 즉시 해제됩니다.	icon_skills.curseofshackle_tex
 501323	Block	0.00	0.00	perc	8000	0	0.00	속박의 저주 IV			지속 시간 동안 제 자리에서 움직일 수 없으며, 회피 및 이동 계열 스킬도 사용할 수 없습니다. 일정 이상 피해를 받거나 다운되면 효과는 즉시 해제됩니다.	icon_skills.curseofshackle_tex
-600500	Mark	0.00	0.00	swch	30000	0	1.20	궁수의 징표 I			집중 공격 대상으로 지목됐습니다! 당신을 지목한 대상에게 효과 지속 시간 중 공격을 받으면 20% 더 많은 피해를 입게 됩니다.	icon_skills.markingofarcher_tex
-600501	Mark	0.00	0.00	swch	35000	0	1.20	궁수의 징표 II			집중 공격 대상으로 지목됐습니다! 당신을 지목한 대상에게 효과 지속 시간 중 공격을 받으면 20% 더 많은 피해를 입게 됩니다.	icon_skills.markingofarcher_tex
-600502	Mark	0.00	0.00	swch	40000	0	1.20	궁수의 징표			집중 공격 대상으로 지목됐습니다! 당신을 지목한 대상에게 효과 지속 시간 중 공격을 받으면 20% 더 많은 피해를 입게 됩니다.	icon_skills.markingofarcher_tex
+600500	DefPotion	0.00	0.00	perc	30000	0	1.20	궁수의 징표 I			집중 공격 대상으로 지목됐습니다! 당신을 지목한 대상에게 효과 지속 시간 중 공격을 받으면 20% 더 많은 피해를 입게 됩니다.	icon_skills.markingofarcher_tex
+600501	DefPotion	0.00	0.00	perc	35000	0	1.20	궁수의 징표 II			집중 공격 대상으로 지목됐습니다! 당신을 지목한 대상에게 효과 지속 시간 중 공격을 받으면 20% 더 많은 피해를 입게 됩니다.	icon_skills.markingofarcher_tex
+600502	DefPotion	0.00	0.00	perc	40000	0	1.20	궁수의 징표			집중 공격 대상으로 지목됐습니다! 당신을 지목한 대상에게 효과 지속 시간 중 공격을 받으면 20% 더 많은 피해를 입게 됩니다.	icon_skills.markingofarcher_tex
 600600	HPChange	-58.00	0.00	abs	10000	2	-58.00	중독의 덫 I			치명적인 맹독에 감염되어 2s마다 HP가 -58씩 지속적으로 감소됩니다.	icon_skills.venomtrap_tex
 600601	HPChange	-124.00	0.00	abs	10000	2	-124.00	중독의 덫 II			치명적인 맹독에 감염되어 2s마다 HP가 -124씩 지속적으로 감소됩니다.	icon_skills.venomtrap_tex
 600602	HPChange	-271.00	0.00	abs	10000	2	-271.00	중독의 덫 III			치명적인 맹독에 감염되어 2s마다 HP가 -271씩 지속적으로 감소됩니다.	icon_skills.venomtrap_tex
@@ -1288,6 +1286,7 @@
 701201	CDR	0.00	0.00	perc	8000	0	1.20	나태의 저주			효과 지속 시간 중 사용하는 모든 스킬의 재사용 시간이 20% 만큼 증가됩니다.	icon_skills.spiritoflassitude_tex
 701202	CDR	0.00	0.00	perc	10000	0	1.20	나태의 저주 III			효과 지속 시간 중 사용하는 모든 스킬의 재사용 시간이 20% 만큼 증가됩니다.	icon_skills.spiritoflassitude_tex
 701511	HPChange	10254.00	0.00	abs	3000	1	10254.00	회복의 정기 XII			1초마다 10342씩 HP가 지속적으로 회복됩니다. 2중첩시 효과는 1.3배만 적용됩니다.	icon_skills.hprefresher_tex
+701590	MPChange	0.00	0.20	perc	1000	1	0.20	마력의 정기 I	8023	마력의 정기 구슬	이상상태 툴팁 표시 안됨 (isShow=False) 이 툴팁이 보이면 BTS 처리 필요!	
 701601	ASpd	0.00	0.00	perc	3000	0	0.90	영기 소환 - 속박 I			공격 속도가 10% 감소됩니다.	icon_skills.energiesofrestriction_tex
 701602	ASpd	0.00	0.00	perc	3000	0	1.05	영기 소환 - 신속 I			공격 속도가 5% 증가됩니다.	icon_skills.energiesofquickness_tex
 701605	HPChange	529.00	0.00	abs	15000	2	529.00	영기 소환 - 보호 I			소횐된 영기로 인해 2s마다 HP가 529씩 점차 회복됩니다.	icon_skills.energiesofprotection_tex
@@ -1557,6 +1556,31 @@
 916002	Endurance	0.00	0.00	perc	600000	0	0.30	암흑을 두려워하는 자			암흑 효과를 받지 못하여 다르칸이 당신을 주의깊게 지켜보고 있습니다. 방어력이 70% 감소합니다.	icon_status.darkriftrage_tex
 916004	Power	0.00	0.00	perc	600000	0	1.50	다르칸의 분노			공격력이 50% 만큼, 공격속도가 30% 만큼 증가합니다. 해제할 수 없습니다	icon_status.plusattack_tex
 916004	ASpd	0.00	0.00	perc	600000	0	1.30	다르칸의 분노			공격력이 50% 만큼, 공격속도가 30% 만큼 증가합니다. 해제할 수 없습니다	icon_status.plusattack_tex
+950001	HPChange	-3000.00	0.00	abs	20000	1	-3000.00	불안정한 신계의 마력			불안정한 신계의 마력이 지속적으로 흘러 나오고 있습니다.	icon_status.minusmp_tex
+950009	MovSpdInCombat	0.00	0.00	perc	0	0	1.50	벨릭의 축복			이동 속도가 50% 증가합니다. 검투사의 질풍 가르기의 기본 데미지 및 치명타 확률이 최대 스택 시 위력과 동일해집니다. 창기사의 신뢰의 오라, 수호의 맹세 효과 범위가 10m 증가합니다. 정령사의 모든 결계 스킬 효과 범위가 20m 증가합니다.	icon_status.lightweight_tex
+950050	MovSpdInCombat	0.00	0.00	perc	5000	0	2.50	긴급 기동!			발리스타의 동력을 높입니다. 발리스타의 이동속도가 2.5배 증가합니다.	icon_status.accelration_tex
+950051	Endurance	0.00	0.00	perc	6000	0	1.00	굴라드림의 사념			굴라드림과 가장 가까운 5명에게 암흑 사념체가 소환됩니다. 암흑 사념체는 굴라드림의 암흑 불길로만 처치할 수 있습니다.	icon_status.darkmind_tex
+950084	MovSpdInCombat	0.00	0.00	perc	1100	0	0.20	질퍽이는 용암			용암이 질퍽거립니다. 이동 속도가 대폭 감소합니다.	icon_status.lavar_tex
+950090	Attack	0.00	0.00	perc	0	0	1.05	신계의 마력			베르고스가 신계의 틈새로부터 흘러나온 마력을 흡수했습니다. 중첩 당 공격력이 5%씩 상승합니다.	icon_status.godspell_tex
+950091	Attack	0.00	0.00	perc	3000	0	2.00	신계의 마력			신계의 틈새로부터 흘러나온 마력이 폭발하여 기운이 뿜어져 나오고 있습니다. 스킬 위력이 100% 증가합니다.	icon_status.godspell_tex
+950097	MovSpdInCombat	0.00	0.00	perc	11000	0	0.20	석화			몸이 점점 굳어갑니다. 이동 속도가 느려지고, 곧 움직일 수 없게 됩니다.	icon_status.petrifaction_tex
+950107	Block	0.00	0.00	swch	30000	0	0.00	불타는 바위			불타는 바위에 갇혔습니다. 바위는 시간이 지나면 폭발하여 전 지역에 큰 피해를 입힙니다.	icon_status.rock_tex
+950140	HPChange	-0.15	0.00	perc	8000	2	-0.15	불덩이 파편			온 몸에 불덩이 파편이 묻었습니다. HP가 지속적으로 감소합니다.	icon_status.scald_tex
+950163	ASpd	0.00	0.00	perc	10000	0	1.20	사기 증진			사기가 올라 공격 속도가 20% 증가하고, 스킬 재사용 시간이 50% 감소합니다.	icon_status.bloodmadness_tex
+950163	CDR	0.00	0.00	perc	10000	0	0.50	사기 증진			사기가 올라 공격 속도가 20% 증가하고, 스킬 재사용 시간이 50% 감소합니다.	icon_status.bloodmadness_tex
+950164	DefPotion	0.00	0.00	perc	9000	0	0.10	분진			분진에 뒤덮였습니다. 지속시간 종료 시 분진에 의해 질식하여 사망합니다. 베르고스의 분진 공격에 맞으면 그 즉시 질식하여 사망합니다. 베르고스의 화염 공격에 맞으면 폭발하여 해당 상태가 해제됩니다.	icon_status.vergosdust_tex
+950165	DefPotion	0.00	0.00	perc	9000	0	0.10	화염			화염에 뒤덮였습니다. 지속시간 종료 시 화염에 의해 몸이 타올라 사망합니다. 베르고스의 화염 공격에 맞으면 그 즉시 몸이 타올라 사망합니다. 베르고스의 분진 공격에 맞으면 폭발하여 해당 상태가 해제됩니다.	icon_status.vergosflame_tex
+950168	Attack	0.00	0.00	perc	0	0	10.00	광폭화			베르고스가 광폭화하여 힘과 공격 속도가 비약적으로 증가합니다. 더 이상 그를 막을 수 없습니다.	icon_status.summonvergos_tex
+950168	ASpd	0.00	0.00	perc	0	0	2.00	광폭화			베르고스가 광폭화하여 힘과 공격 속도가 비약적으로 증가합니다. 더 이상 그를 막을 수 없습니다.	icon_status.summonvergos_tex
+950171	ASpd	0.00	0.00	perc	0	0	1.15	분노			베르고스가 분노하여 공격 속도가 빨라집니다.	icon_status.vergosblood_tex
+950187	Endurance	0.00	0.00	perc	0	0	0.40	탈진			베르고스가 모든 힘을 소모하여 탈진 했습니다. 베르고스의 방어도가 급격하게 떨어집니다.	icon_status.struggle_tex
+950300	ASpd	0.00	0.00	perc	90000	0	1.25	대지의 힘			살레오스가 대지의 힘을 받아 강력해집니다. 중첩 당 공격 속도가 25%씩 증가합니다.	icon_status.earthblessing_tex
+950306	Attack	0.00	0.00	perc	0	0	10.00	광폭화			용들이 광폭화하여 공격력이 10배 증가하고, 공격속도가 2배 증가합니다.	icon_status.dragonberserk_tex
+950306	ASpd	0.00	0.00	perc	0	0	2.00	광폭화			용들이 광폭화하여 공격력이 10배 증가하고, 공격속도가 2배 증가합니다.	icon_status.dragonberserk_tex
+950334	HPChange	-0.20	0.00	perc	5000	2	-0.20	무질서한 마력			마력의 균형이 맞지 않아 주기적인 피해를 입습니다. 또한 공격력과 치유량, 받는 회복량 등이 50% 감소합니다.	icon_status.omniousspell_tex
+950334	AtkPotion	0.00	0.00	perc	5000	0	0.50	무질서한 마력			마력의 균형이 맞지 않아 주기적인 피해를 입습니다. 또한 공격력과 치유량, 받는 회복량 등이 50% 감소합니다.	icon_status.omniousspell_tex
+950335	MovSpdInCombat	0.00	0.00	perc	20000	0	3.00	사기 증진			사기가 증진되어 이동 속도가 증가합니다.	icon_status.bloodmadness_tex
+950340	HPChange	-0.15	0.00	perc	10000	2	-0.15	바람에 의한 상처			아가레스의 날갯짓에 의해 상처를 입었습니다. 지속적으로 피해를 입습니다.	icon_status.whirl_tex
 975031	HPChange	-0.01	0.00	perc	5000	1	-0.01	냉온찜질			화염과 냉기가 적절히 섞이면 피가 깎입니다	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	0.00	0.00	perc	5000	0	2.00	켈사이크의둥지_전용_중간보스이속증가_효과			주변 5m 범위 아군에게 이동속도 증가	icon_status.plusmove_tex
 975041	DefPotion	0.00	0.00	perc	5000	0	0.00	켈사이크의둥지_전용_보스주변무적_효과			주변 10m 범위 아군에게 무적 보호막	icon_status.plusedefence_tex
@@ -1628,7 +1652,7 @@
 5000000	Endurance	0.00	0.00	abs	0	0	3.00	오늘부터 우리는 강해진다!!			힘/맷집/충격/균형/치명타 유발/이동속도가 3만큼 증가합니다.	icon_items.wings_of_fairy_tex
 5000000	Crit	0.00	0.00	abs	0	0	3.00	오늘부터 우리는 강해진다!!			힘/맷집/충격/균형/치명타 유발/이동속도가 3만큼 증가합니다.	icon_items.wings_of_fairy_tex
 5010000	HPChange	0.03	0.00	perc	30000	1	0.03	환영의 회복 포션	101305	환영의 회복 포션	30초 동안 1초 마다 전체 HP 대비 3%씩 총 90%의 HP가 지속적으로 회복됩니다.	icon_items.potion17_tex
-5690001	StaminaDecay	0.00	0.00	seta	0	0	0.00	기억의 추적자			기억의 파편 수집을 돕기 위해 컨디션이 유지되고, 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex
+5690001	StaminaDecay	0.00	0.00	seta	0	0	0.00	기억의 추적자			기억의 파편 수집을 하는동안에는 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex
 5692001	Endurance	0.00	0.00	seta	0	0	9999999.00	놀이방의 지배자			놀이방에서는 대적할 자가 없습니다.	icon_skills.emergencyshield_tex
 5692006	Endurance	0.00	0.00	seta	0	0	9999999.00	생명력 구걸			마즈키에게 생명력을 구걸합니다.	icon_skills.emergencyshield_tex
 5692007	Endurance	0.00	0.00	seta	6000	0	3064.00	과도한 놀이			마즈키가 힘을 많이 사용하여 잠시 동안 약해집니다.	icon_skills.lossofbalance_tex
@@ -2974,10 +2998,10 @@
 999001035	Power	0.00	0.00	abs	15000	0	0.00	빛나는 여신의 가호	51011	빛나는 여신의 브로치	빛나는 여신의 가호가 느껴집니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.parts_magicweaponc8_tex
 999001035	Crit	0.00	0.00	abs	15000	0	30.00	빛나는 여신의 가호	51011	빛나는 여신의 브로치	빛나는 여신의 가호가 느껴집니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.parts_magicweaponc8_tex
 999001035	ASpd	0.00	0.00	perc	15000	0	1.12	빛나는 여신의 가호	51011	빛나는 여신의 브로치	빛나는 여신의 가호가 느껴집니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.parts_magicweaponc8_tex
-999001036	Power	0.00	0.00	abs	20000	0	30.00	고룡 강림	51028	고룡의 브로치	고룡의 힘이 내려왔습니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
-999001036	Power	0.00	0.00	abs	20000	0	0.00	고룡 강림	51028	고룡의 브로치	고룡의 힘이 내려왔습니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
-999001036	Crit	0.00	0.00	abs	20000	0	30.00	고룡 강림	51028	고룡의 브로치	고룡의 힘이 내려왔습니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
-999001036	ASpd	0.00	0.00	perc	20000	0	1.12	고룡 강림	51028	고룡의 브로치	고룡의 힘이 내려왔습니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
+999001036	Power	0.00	0.00	abs	20000	0	30.00	고룡 강림	51028	고룡의 브로치	고룡의 힘이 느껴집니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
+999001036	Power	0.00	0.00	abs	20000	0	0.00	고룡 강림	51028	고룡의 브로치	고룡의 힘이 느껴집니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
+999001036	Crit	0.00	0.00	abs	20000	0	30.00	고룡 강림	51028	고룡의 브로치	고룡의 힘이 느껴집니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
+999001036	ASpd	0.00	0.00	perc	20000	0	1.12	고룡 강림	51028	고룡의 브로치	고룡의 힘이 느껴집니다. 힘 30, 치명타 유발 30, 공격 속도가 12% 향상 됩니다.	icon_items.brooch_vergos_tex
 999008300	Power	0.00	0.00	perc	3930000	0	1.15	공격력 증가			공격력이 15% 증가합니다.	icon_status.plusattack_tex
 999008400	Endurance	0.00	0.00	perc	3930000	0	0.85	방어력 감소			방어력이 15%  감소합니다.	icon_status.minusdefence_tex
 999008600	HPChange	0.08	0.00	perc	3930000	10	0.08	Hp 지속 회복			한 라운드 동안 10s마다 전체 HP 대비 8%에 달하는 HP가 지속적으로 회복됩니다.	icon_skills.healinglightlockon_tex
