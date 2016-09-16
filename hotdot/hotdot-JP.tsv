@@ -1,4 +1,4 @@
-1	Power	0	0	perc	100000	0	0.1	ダミー_異常状態1			悪神のしもべになりました。 休息の神官、休息の神将、狩り場移動管理人、飛行移動のメニューを使用できません。死亡時、クリスタルが壊れやすくなります。 コンディション減少量が増加し、力が90%、耐久力がunk2、移動速度がunk3減少します。 悪名が0の時に非戦闘状態が60秒間維持されると状態が解除されます。	icon_skills.voidtrap_tex
+1	Power	0	0	perc	100000	0	0.1	ダミー_異常状態1			悪神のしもべになりました。 休息の神官、休息の神将、狩り場移動管理人、飛行移動のメニューを使用できません。死亡時、クリスタルが壊れやすくなります。 コンディション減少量が増加し、力が90%、耐久力が90% (unk2)、移動速度が90% (unk3)減少します。 悪名が0の時に非戦闘状態が60秒間維持されると状態が解除されます。	icon_skills.voidtrap_tex
 2	Power	0	0	perc	180000000	0	100	テスト用_ぶるぶる	149004	【イベント】強力な力のポーション	攻撃力100倍/防御力100倍の効果発生！　5時間持続！　ゲームプレイ時にこのツールチップが出たらBTS処理が必要です。	icon_skills.voidtrap_tex
 2	Endurance	0	0	perc	180000000	0	100	テスト用_ぶるぶる	149004	【イベント】強力な力のポーション	攻撃力100倍/防御力100倍の効果発生！　5時間持続！　ゲームプレイ時にこのツールチップが出たらBTS処理が必要です。	icon_skills.voidtrap_tex
 22	Attack	0	0	perc	1200000	0	1.4	テスト_スキルダメージ増加			テスト専用！　全スキルダメージ40％増加！　	icon_skills.voidtrap_tex
@@ -1030,10 +1030,10 @@
 476214	Power	0	0	perc	5000	0	0.5	オーカンの呪い［無気力 V］			移動速度が50%、力が50%減少します。	icon_status.minusattack_tex
 476215	Power	0	0	perc	5000	0	0.4	オーカンの呪い［無気力 VI］			移動速度が60%、力が60%減少します。	icon_status.minusattack_tex
 476216	Power	0	0	perc	60000	0	0.3	オーカンの呪い［無気力 VII］			移動速度が70%、力が70%減少します。この効果は解除できません。	icon_status.minusattack_tex
-476217	Power	0	0	perc	5000	0	0.8	諸刃の剣［防御 II］			耐久力が20%上昇し、力がunk2減少します。	icon_status.plusedefence_tex
-476218	Power	0	0	perc	5000	0	0.7	諸刃の剣［防御 III］			耐久力が30%上昇し、力がunk2減少します。	icon_status.plusedefence_tex
-476219	Power	0	0	perc	5000	0	0.6	諸刃の剣［防御 IV］			耐久力が40%上昇し、力がunk2減少します。	icon_status.plusedefence_tex
-476219	Endurance	0	0	perc	5000	0	1.4	諸刃の剣［防御 IV］			耐久力が40%上昇し、力がunk2減少します。	icon_status.plusedefence_tex
+476217	Power	0	0	perc	5000	0	0.8	諸刃の剣［防御 II］			耐久力が20%上昇し、力が20% (unk2)減少します。	icon_status.plusedefence_tex
+476218	Power	0	0	perc	5000	0	0.7	諸刃の剣［防御 III］			耐久力が30%上昇し、力が30% (unk2)減少します。	icon_status.plusedefence_tex
+476219	Power	0	0	perc	5000	0	0.6	諸刃の剣［防御 IV］			耐久力が40%上昇し、力が40% (unk2)減少します。	icon_status.plusedefence_tex
+476219	Endurance	0	0	perc	5000	0	1.4	諸刃の剣［防御 IV］			耐久力が40%上昇し、力が40% (unk2)減少します。	icon_status.plusedefence_tex
 476220	Power	0	0	perc	300000	0	0.5	諸刃の剣［防御 V］			耐久力が50%上昇し、力が50%減少します。この効果は解除できません。	icon_status.plusedefence_tex
 476220	Endurance	0	0	perc	300000	0	1.5	諸刃の剣［防御 V］			耐久力が50%上昇し、力が50%減少します。この効果は解除できません。	icon_status.plusedefence_tex
 476221	Power	0	0	perc	5000	0	1.2	諸刃の剣［攻撃 II］			耐久力が20%減少し、力が20%上昇します。	icon_status.plusattack_tex
@@ -1660,7 +1660,7 @@
 15200008	Endurance	0	0	perc	5000	0	1.1	前衛基地の守護			前衛基地の守護効果で攻撃力と防御力が 10% 増加します。	icon_status.aura_of_damage_tex
 15200009	CDR	0	0	swch	0	0	6	時間旅行副作用			パーティー召喚類のスキル使用時、再使用時間が 500% 倍増加します。	icon_status.darkriftareatimeshift_tex
 43100002	HPChange	1	0	perc	1000	1	1	HP即回復			異常状態ツールチップ表示されない（isShow=False）このツールチップが出たらBTS処理必要！	icon_status.plushp_tex
-43100007	HPChange	-0.05	0	perc	15000	3	-0.05	出血			強力な一撃によって出血しました。unk2毎に全HPの5％が減少します。	icon_status.minuscriticalresist_tex
+43100007	HPChange	-0.05	0	perc	15000	3	-0.05	出血			強力な一撃によって出血しました。3毎に全HPの5％が減少します。	icon_status.minuscriticalresist_tex
 43200002	HPChange	1	0	perc	1000	1	1	HP即回復			異常状態ツールチップ表示されない（isShow=False）このツールチップが出たらBTS処理必要！	icon_status.diseaseup_tex
 43200013	ASpd	0	0	perc	0	0	1.05	攻撃速度上昇5％			モンスターの攻撃速度が上昇します。 	icon_status.diseaseup_tex
 43200014	ASpd	0	0	perc	0	0	1.1	攻撃速度上昇10％			モンスターの攻撃速度が上昇します。 	icon_status.diseaseup_tex
@@ -1790,10 +1790,10 @@
 47620900	Endurance	0	0	perc	120000	0	1.1	オーカンの祝福［防御］			耐久力が10%上昇します。効果は最大10回まで重複します。	icon_status.plusedefence_tex
 47621000	Power	0	0	perc	120000	0	1.1	オーカンの祝福［攻撃］			力が10%上昇します。効果は最大10回まで重複します。	icon_status.plusattack_tex
 47621100	Power	0	0	perc	5000	0	0.9	オーカンの呪い［無気力 I］			移動速度が10%、力が10%減少します。	icon_status.minusattack_tex
-47621400	Power	0	0	perc	5000	0	0.9	諸刃の剣［防御 I］			耐久力が10%上昇し、力がunk2減少します。	icon_status.plusedefence_tex
-47621400	Endurance	0	0	perc	5000	0	1.1	諸刃の剣［防御 I］			耐久力が10%上昇し、力がunk2減少します。	icon_status.plusedefence_tex
-47621500	Power	0	0	perc	5000	0	1.1	諸刃の剣［攻撃 I］			耐久力が10%減少し、力がunk2上昇します。	icon_status.plusattack_tex
-47621500	Endurance	0	0	perc	5000	0	0.9	諸刃の剣［攻撃 I］			耐久力が10%減少し、力がunk2上昇します。	icon_status.plusattack_tex
+47621400	Power	0	0	perc	5000	0	0.9	諸刃の剣［防御 I］			耐久力が10%上昇し、力が10% (unk2)減少します。	icon_status.plusedefence_tex
+47621400	Endurance	0	0	perc	5000	0	1.1	諸刃の剣［防御 I］			耐久力が10%上昇し、力が10% (unk2)減少します。	icon_status.plusedefence_tex
+47621500	Power	0	0	perc	5000	0	1.1	諸刃の剣［攻撃 I］			耐久力が10%減少し、力が10% (unk2)上昇します。	icon_status.plusattack_tex
+47621500	Endurance	0	0	perc	5000	0	0.9	諸刃の剣［攻撃 I］			耐久力が10%減少し、力が10% (unk2)上昇します。	icon_status.plusattack_tex
 47621700	Power	0	0	perc	600000	0	1.2	巨大化			最大HPが50%増加し、12毎にHPが1%回復します。また耐久力が20%、力が20%上昇します。	icon_status.plushp_tex
 47621700	Endurance	0	0	perc	600000	0	1.2	巨大化			最大HPが50%増加し、12毎にHPが1%回復します。また耐久力が20%、力が20%上昇します。	icon_status.plushp_tex
 47621700	HPChange	0.01	0	perc	600000	12	0.01	巨大化			最大HPが50%増加し、12毎にHPが1%回復します。また耐久力が20%、力が20%上昇します。	icon_status.plushp_tex

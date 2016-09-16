@@ -1,4 +1,4 @@
-1	Power	0	0	perc	100000	0	0.1	堆_異常狀態			已成為有名的反叛者。 無法使用休息神官、休息神將、狩獵區移動管理人、佩格薩斯移動選單。 死亡時的水晶破壞判定次數增加。 健康狀態減少量增加。 力量減少90%以及抗打減少unk2、另外移動速度減少unk3。 惡名為0時，若維持非戰鬥狀態60秒，有名的反叛者狀態將會解除。	icon_skills.voidtrap_tex
+1	Power	0	0	perc	100000	0	0.1	堆_異常狀態			已成為有名的反叛者。 無法使用休息神官、休息神將、狩獵區移動管理人、佩格薩斯移動選單。 死亡時的水晶破壞判定次數增加。 健康狀態減少量增加。 力量減少90%以及抗打減少90% (unk2)、另外移動速度減少90% (unk3)。 惡名為0時，若維持非戰鬥狀態60秒，有名的反叛者狀態將會解除。	icon_skills.voidtrap_tex
 2	Power	0	0	perc	180000000	0	100	測試用_發抖	149004	[活動] 強力的權能藥水	攻擊力100倍/防禦力100倍效果!持續5小時!如果正常進行遊戲時顯示該提示說明就需要BTS處理!	icon_skills.voidtrap_tex
 2	Endurance	0	0	perc	180000000	0	100	測試用_發抖	149004	[活動] 強力的權能藥水	攻擊力100倍/防禦力100倍效果!持續5小時!如果正常進行遊戲時顯示該提示說明就需要BTS處理!	icon_skills.voidtrap_tex
 22	Attack	0	0	perc	1200000	0	1.4	測試_技能傷害增加			測試專用！所有技能傷害增加40%！	icon_skills.voidtrap_tex
@@ -1024,10 +1024,10 @@
 476214	Power	0	0	perc	5000	0	0.5	奧坎詛咒_乏力 V			移動速度減少50%，力量減少50%。	icon_status.minusattack_tex
 476215	Power	0	0	perc	5000	0	0.4	奧坎詛咒_乏力 VI			移動速度減少60%，力量減少60%。	icon_status.minusattack_tex
 476216	Power	0	0	perc	60000	0	0.3	奧坎詛咒_乏力 VII			移動速度減少70%，力量減少70%。奧坎祝福_乏力 VII無法解除。	icon_status.minusattack_tex
-476217	Power	0	0	perc	5000	0	0.8	雙刃劍_防禦 II			抗打提升20%，力量減少unk2。	icon_status.plusedefence_tex
-476218	Power	0	0	perc	5000	0	0.7	雙刃劍_防禦 III			抗打提升30%，力量減少unk2。	icon_status.plusedefence_tex
-476219	Power	0	0	perc	5000	0	0.6	雙刃劍_防禦 IV			抗打提升40%，力量減少unk2。	icon_status.plusedefence_tex
-476219	Endurance	0	0	perc	5000	0	1.4	雙刃劍_防禦 IV			抗打提升40%，力量減少unk2。	icon_status.plusedefence_tex
+476217	Power	0	0	perc	5000	0	0.8	雙刃劍_防禦 II			抗打提升20%，力量減少20% (unk2)。	icon_status.plusedefence_tex
+476218	Power	0	0	perc	5000	0	0.7	雙刃劍_防禦 III			抗打提升30%，力量減少30% (unk2)。	icon_status.plusedefence_tex
+476219	Power	0	0	perc	5000	0	0.6	雙刃劍_防禦 IV			抗打提升40%，力量減少40% (unk2)。	icon_status.plusedefence_tex
+476219	Endurance	0	0	perc	5000	0	1.4	雙刃劍_防禦 IV			抗打提升40%，力量減少40% (unk2)。	icon_status.plusedefence_tex
 476220	Power	0	0	perc	300000	0	0.5	雙刃劍_防禦 V			抗打提升50%，力量減少50%。雙刃劍_防禦 V無法解除。	icon_status.plusedefence_tex
 476220	Endurance	0	0	perc	300000	0	1.5	雙刃劍_防禦 V			抗打提升50%，力量減少50%。雙刃劍_防禦 V無法解除。	icon_status.plusedefence_tex
 476221	Power	0	0	perc	5000	0	1.2	雙刃劍_攻擊 II			抗打減少20%，力量提升20%。	icon_status.plusattack_tex
@@ -1632,7 +1632,7 @@
 14400004	CDR	0	0	perc	900000	0	0.8	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
 14400005	MovSpdInCombat	0	0	abs	900000	0	10	Fleetfoot	152910	Permanent Fleetfoot Potion		icon_skills.speedupaura_tex
 43100002	HPChange	1	0	perc	1000	1	1	HP即時恢復			異常狀態提示說明無法顯示 若看見 (isShow=False) 此提示說明時，必須回報BTS!	icon_status.plushp_tex
-43100007	HPChange	-0.05	0	perc	15000	3	-0.05	出血			因強力的一擊導致出血，每 unk2持續減少相當於整體HP的5%之HP。	icon_status.minuscriticalresist_tex
+43100007	HPChange	-0.05	0	perc	15000	3	-0.05	出血			因強力的一擊導致出血，每 3持續減少相當於整體HP的5%之HP。	icon_status.minuscriticalresist_tex
 43200002	HPChange	1	0	perc	1000	1	1	HP即時恢復			異常狀態提示說明無法顯示 若看見 (isShow=False) 此提示說明時，必須回報BTS!	icon_status.diseaseup_tex
 43200013	ASpd	0	0	perc	0	0	1.05	攻速增加 5%			怪物的攻擊速度增加	icon_status.diseaseup_tex
 43200014	ASpd	0	0	perc	0	0	1.1	攻速增加 10%			怪物的攻擊速度增加	icon_status.diseaseup_tex
@@ -1762,10 +1762,10 @@
 47620900	Endurance	0	0	perc	120000	0	1.1	奧坎祝福_防禦			抗打提升10%。此效果最多可堆疊10次。	icon_status.plusedefence_tex
 47621000	Power	0	0	perc	120000	0	1.1	奧坎祝福_攻擊			力量提升10%。此效果最多可堆疊10次。	icon_status.plusattack_tex
 47621100	Power	0	0	perc	5000	0	0.9	奧坎詛咒_乏力 I			移動速度減少10%，力量減少10%。	icon_status.minusattack_tex
-47621400	Power	0	0	perc	5000	0	0.9	雙刃劍_防禦 I			抗打提升10%，力量減少unk2。	icon_status.plusedefence_tex
-47621400	Endurance	0	0	perc	5000	0	1.1	雙刃劍_防禦 I			抗打提升10%，力量減少unk2。	icon_status.plusedefence_tex
-47621500	Power	0	0	perc	5000	0	1.1	雙刃劍_攻擊 I			抗打減少10%，力量提升unk2。	icon_status.plusattack_tex
-47621500	Endurance	0	0	perc	5000	0	0.9	雙刃劍_攻擊 I			抗打減少10%，力量提升unk2。	icon_status.plusattack_tex
+47621400	Power	0	0	perc	5000	0	0.9	雙刃劍_防禦 I			抗打提升10%，力量減少10% (unk2)。	icon_status.plusedefence_tex
+47621400	Endurance	0	0	perc	5000	0	1.1	雙刃劍_防禦 I			抗打提升10%，力量減少10% (unk2)。	icon_status.plusedefence_tex
+47621500	Power	0	0	perc	5000	0	1.1	雙刃劍_攻擊 I			抗打減少10%，力量提升10% (unk2)。	icon_status.plusattack_tex
+47621500	Endurance	0	0	perc	5000	0	0.9	雙刃劍_攻擊 I			抗打減少10%，力量提升10% (unk2)。	icon_status.plusattack_tex
 47621700	Power	0	0	perc	600000	0	1.2	巨大化			最大HP提升50%，每12逐漸恢復1%的HP。抗打提升20%，力量提升20%。	icon_status.plushp_tex
 47621700	Endurance	0	0	perc	600000	0	1.2	巨大化			最大HP提升50%，每12逐漸恢復1%的HP。抗打提升20%，力量提升20%。	icon_status.plushp_tex
 47621700	HPChange	0.01	0	perc	600000	12	0.01	巨大化			最大HP提升50%，每12逐漸恢復1%的HP。抗打提升20%，力量提升20%。	icon_status.plushp_tex
@@ -1836,8 +1836,8 @@
 47680500	Power	0	0	perc	600000	0	1.5	黑暗時空意志			每次堆疊時，力量和抗打各增加50%，黑暗時空意志無法解除，最多可堆疊10次。	icon_status.darkriftwill_tex
 47680500	Endurance	0	0	perc	600000	0	1.5	黑暗時空意志			每次堆疊時，力量和抗打各增加50%，黑暗時空意志無法解除，最多可堆疊10次。	icon_status.darkriftwill_tex
 47680700	Power	0	0	perc	600000	0	1	憤怒爆發!			這，紋樣實驗似乎失敗了... 火氣正在陣陣冒出來中...	icon_status.diseaseup_tex
-47681000	Power	0	0	perc	20000	0	1.1	次元的狂氣			每次堆疊時，力量會增加10%，但是每unk2會持續減少0.8%的HP，最多可堆疊5次，次元的狂氣無法解除。	icon_status.darkriftarearage_tex
-47681100	CDR	0	0	perc	20000	0	0.9	次元時間扭曲			每次堆疊時，所有技能的再使用時間會減少10%，不過，每unk2會持續減少0.8%的HP。最多可堆疊5次，次元的時間扭曲無法解除。	icon_status.darkriftareatimeshift_tex
+47681000	Power	0	0	perc	20000	0	1.1	次元的狂氣			每次堆疊時，力量會增加10%，但是每0會持續減少0.8%的HP，最多可堆疊5次，次元的狂氣無法解除。	icon_status.darkriftarearage_tex
+47681100	CDR	0	0	perc	20000	0	0.9	次元時間扭曲			每次堆疊時，所有技能的再使用時間會減少10%，不過，每0會持續減少0.8%的HP。最多可堆疊5次，次元的時間扭曲無法解除。	icon_status.darkriftareatimeshift_tex
 47681200	ASpd	0	0	perc	20000	0	1.1	次元之風			每次堆疊時，攻擊速度會增加10%，最多可堆疊5次，次元之風無法解除。	icon_status.darkriftareawind_tex
 47681400	Power	0	0	perc	20000	0	1.2	次元的群舞			每次堆疊，力量增加20%之外，每unk3會持續減少0.8%的HP。雖然最多可堆疊5次，但達到最大堆疊時，就會強制跳舞，且堆疊就會初始化。次元的群舞無法解除。	icon_status.darkriftareadance_tex
 47681600	Endurance	0	0	perc	3600000	0	1	次元召喚			已感覺到逐漸被捲入暗黑裂縫的縫隙裡。只能在該效果堆疊2次的狀態下，才能進入暗黑次元的異空間。 只要同一帳號內有任何一隻角色進入過異空間，其他角色將於一小時內無法進入異空間。	icon_status.calldimension_tex
@@ -1918,7 +1918,7 @@
 77700020	ASpd	0	0	perc	600000	0	1.1	恐懼			因害怕失敗而暴走。	icon_status.darkriftrage_tex
 77700800	HPChange	-0.02	0	perc	30000	1	-0.02	阿勒坤寄生蟲			每1s持續減少2%的HP。此效果最多可堆疊5次，而堆疊5時將減少50%的HP。 跳躍時將產生擺脫寄生蟲效果。 阿勒坤寄生蟲無法解除。	icon_status.minusattack_tex
 77701400	Endurance	0	0	perc	40000	0	1	轉移阿勒坤細胞			堆疊5次時將發動阿勒坤病毒效果。	icon_status.poisonstatus_tex
-77702100	HPChange	-0.1	0	perc	10000	3	-0.1	細胞爆發			每3s持續減少10%的HP，並於持續時間結束之後減少 unk2的HP。 細胞爆發無法解除。	icon_status.delaydamage_tex
+77702100	HPChange	-0.1	0	perc	10000	3	-0.1	細胞爆發			每3s持續減少10%的HP，並於持續時間結束之後減少 10% (unk2)的HP。 細胞爆發無法解除。	icon_status.delaydamage_tex
 77702900	HPChange	-0.1	0	perc	180000	5	-0.1	貪慾波動			貪慾的念頭纏繞著全身。必須要在持續時間結束之前，更新為憎惡波動。	icon_status.cruel_slayer_1_tex
 77703000	HPChange	-0.1	0	perc	180000	5	-0.1	憎惡波動			憎惡某人的心越來越大。必須要在持續時間結束之前，更新為絕望波動。	icon_status.cruel_slayer_2_tex
 77703100	HPChange	-0.1	0	perc	180000	5	-0.1	絕望波動			陷入絕望奈落越陷越深。必須要在90秒之內，更新為貪慾波動。	icon_status.cruel_slayer_3_tex
