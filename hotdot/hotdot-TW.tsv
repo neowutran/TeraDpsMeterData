@@ -120,8 +120,8 @@
 2085	Power	0	0	abs	0	0	20	逆轉的吶喊 III			最大HP增加 50%，力量和抗打增加 20。另外，移動速度也增加30。	icon_status.battlefieldbuff04_tex
 2085	Endurance	0	0	abs	0	0	20	逆轉的吶喊 III			最大HP增加 50%，力量和抗打增加 20。另外，移動速度也增加30。	icon_status.battlefieldbuff04_tex
 2097	Block	0	0	swch	3000	0	0	技能封鎖			被嚇到的庫魔斯寶寶於3秒內，除了基本攻擊之外的所有技能皆無法使用。	icon_status.sealskill_tex
-2099	HPChange	3000	0	abs	25000	1	3000	治癒的繩索			從被破壞的石像那獲得了恢復的氣息。而使周圍我軍們的體力週期性恢復。	icon_status.aura_of_regeneration_hp_tex
-2101	HPChange	3000	0	abs	5000	1	3000	恢復的氣息			藉由治癒的繩索獲得了恢復的氣息。 每1s HP會逐漸恢復 3000。	icon_skills.refreshbless_tex
+2099	HPChange	3000	0	abs	25000	1	3000	治癒的繩索			從被破壞的石像那獲得了恢復的氣息。而使周圍庫魔斯寶寶的體力週期性恢復。	icon_status.aura_of_regeneration_hp_tex
+2101	HPChange	6000	0	abs	5000	1	6000	恢復的氣息			藉由治癒的繩索獲得了恢復的氣息。每1s HP會逐漸恢復 6000。並且移動速度會增加 80。	icon_skills.refreshbless_tex
 2103	Power	0	0	perc	4000	0	1.2	勇猛			隊長庫魔斯周圍所有亞軍的攻擊力增加20%。	icon_status.buff_of_kaia_tex
 2500	HPChange	58	0	abs	12000	1	58	治癒藥水 I	6048	治癒藥水 I	每1s逐漸恢復58的HP。	icon_items.hp_durable_potion_level_1_tex
 2501	HPChange	90	0	abs	12000	1	90	治癒藥水 II	6050	治癒藥水 II	每1s逐漸恢復90的HP。	icon_items.hp_durable_potion_level_9_tex
@@ -373,8 +373,10 @@
 4886	AtkPotion	0	0	perc	1800000	0	1.1	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex
 4953	AtkPotion	0	0	perc	3600000	0	1.12	強化藥水			攻擊力增加 12%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex
 4955	AtkPotion	0	0	perc	1800000	0	1.15	強化藥水			攻擊力增加 15%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex
-4956	HPChange	0.15	0	perc	1000	1	0.15	復活節彩蛋籃子			立即恢復15%的HP。	icon_items.ricecake_tex
+4956	HPChange	0.15	0	perc	1000	1	0.15	復活節彩蛋籃子	155016	Exotic Beach Drink	立即恢復15%的HP。	icon_items.ricecake_tex
 4957	HPChange	0.15	0	perc	1000	1	0.15	萬聖節方籃			可立即恢復整體HP的15%。	icon_items.sweetypumpkinpie_tex
+6001	CritPower	0	0	abs	6000	0	1	龍之血脈			攻擊怪物時，暴擊威力增加 +1.5倍。	icon_status.passive_dragonblood
+6002	CritPower	0	0	abs	6000	0	2	真龍之血脈			攻擊怪物時，暴擊威力增加 +2倍。	icon_status.passive_dragonblood2
 10100	HPChange	-11	0	abs	5000	1	-11	猛毒 I [水晶] 			每1s持續減少-11的HP。	icon_items.customize9ar_tex
 10101	HPChange	-23	0	abs	5000	1	-23	猛毒 II [水晶] 			每1s持續減少-23的HP。	icon_items.customize9br_tex
 10102	HPChange	-58	0	abs	5000	1	-58	猛毒 III [水晶] 			每1s持續減少-58的HP。	icon_items.customize9cr_tex
@@ -792,6 +794,8 @@
 70449	Block	0	0	swch	300000	0	0	束縛			陷入阿旦陷阱。持續一段時間內無法移動。	icon_status.staminadown_tex
 70451	Block	0	0	swch	600000	0	0	跟蹤			暫時看不到樣貌。	icon_status.staminadown_tex
 70454	Block	0	0	swch	600000	0	0	潛入			變得暫時看不到樣貌。	icon_status.staminadown_tex
+70459	ASpd	0	0	perc	600000	0	1.01	掙扎			庫林多菈肚子餓的話會變得更加殘暴。殘暴化時攻擊速度1%增加，且該效果無法解除。	icon_status.plusattack_tex
+70463	HPChange	-0.03	0	perc	1000	1	-0.03	猛毒			身受致命之毒，總HP的3%的HP減少。	icon_status.poisonstatus_tex
 76756	HPChange	-5000	0	abs	30000	2	-5000	腐敗汙水			使用腐敗汙水，每2秒就會得到10000的傷害。	icon_status.purifydagon_tex
 81163	Power	0	0	abs	600000	0	0	過熱的友情			由於好友召喚，造成友情過熱了。友情過熱的狀態下，無法使用好友召喚功能。	icon_status.darkriftareatimeshift_tex
 82102	Endurance	0	0	perc	45000	0	1.3	砲彈扺抗藥水			45s 內，減少因炮彈所受到的傷害。	icon_items.potion16_tex
@@ -1570,7 +1574,19 @@
 3000014	MPChange	0	0.005	perc	0	1	0.005	飛行騎乘 (MP恢復)			在允許飛行的地方可騎乘飛行。<BR>騎乘時，每秒恢復總MP值的0.5%。	icon_items.wings_of_fairy_tex
 3000015	HPChange	0.005	0	perc	0	1	0.005	飛行騎乘 (HP、MP恢復)			在允許飛行的地方可騎乘飛行。<BR>騎乘時，每秒恢復總HP和MP值的0.5%。	icon_items.wings_of_fairy_tex
 3000015	MPChange	0	0.005	perc	0	1	0.005	飛行騎乘 (HP、MP恢復)			在允許飛行的地方可騎乘飛行。<BR>騎乘時，每秒恢復總HP和MP值的0.5%。	icon_items.wings_of_fairy_tex
+3000016	HPChange	0.01	0	perc	0	1	0.01	飛行搭乘 (HP, MP 恢復)			可於可飛行區域中飛行。<BR>搭乘期間，每秒恢復1%的HP與MP。	icon_items.wings_of_fairy_tex
+3000016	MPChange	0	0.01	perc	0	1	0.01	飛行搭乘 (HP, MP 恢復)			可於可飛行區域中飛行。<BR>搭乘期間，每秒恢復1%的HP與MP。	icon_items.wings_of_fairy_tex
+3000019	HPChange	0.02	0	perc	0	1	0.02	飛行搭乘 (HP, MP 恢復)			可於可飛行區域中飛行。<BR>搭乘期間，每秒恢復2%的HP與MP，周圍30M之內的隊員將可受到龍之風的效果。	icon_items.wings_of_fairy_tex
+3000019	MPChange	0	0.02	perc	0	1	0.02	飛行搭乘 (HP, MP 恢復)			可於可飛行區域中飛行。<BR>搭乘期間，每秒恢復2%的HP與MP，周圍30M之內的隊員將可受到龍之風的效果。	icon_items.wings_of_fairy_tex
 4510015	AtkPotion	0	0	perc	60000	0	1.03	勇氣的旋律			聽到扈卡笛子的聲音，勇氣好像湧出來了一樣。 技能偒害值增加3%。	icon_items.fallfestival_whistle_tex
+5000000	Power	0	0	abs	0	0	3	從今天開始，我們變得更強了!!			力量 / 抗打 / 衝擊 / 均衡 / 爆擊率 / 移動速度增加3。	icon_items.wings_of_fairy_tex
+5000000	Endurance	0	0	abs	0	0	3	從今天開始，我們變得更強了!!			力量 / 抗打 / 衝擊 / 均衡 / 爆擊率 / 移動速度增加3。	icon_items.wings_of_fairy_tex
+5000000	Crit	0	0	abs	0	0	3	從今天開始，我們變得更強了!!			力量 / 抗打 / 衝擊 / 均衡 / 爆擊率 / 移動速度增加3。	icon_items.wings_of_fairy_tex
+5690001	StaminaDecay	0	0	seta	0	0	0	記憶的追蹤者			為收集記憶的殘骸，須維持健康狀態，死亡時將無法破壞水晶。	icon_skills.refineresin_tex
+5692001	Endurance	0	0	seta	0	0	9999999	遊樂場的支配者			遊樂場裡沒有可以敵對的對象。	icon_skills.emergencyshield_tex
+5692006	Endurance	0	0	seta	0	0	9999999	乞討生命力			向摩茲奇討要生命力。	icon_skills.emergencyshield_tex
+5692007	Endurance	0	0	seta	6000	0	3064	過度玩耍			使用過多的力量，暫時被削弱了。	icon_skills.lossofbalance_tex
+5693002	HPChange	-0.03	0	perc	3000	1	-0.03	蜘蛛毒			中了蜘蛛屍身上的毒，總HP的3%的HP減少。該效果最多可疊加2次。	icon_status.poisonstatus_tex
 7777015	MPChange	0	0.5	perc	1800000	1	0.5	T.E.R.A TIME			請感受一下瘋狂般的技能砲轟! 除了聯盟技能外的所有技能的冷卻時間減少20%，大幅增加每秒魔力恢復量。	icon_status.pluswill_tex
 7777015	CDR	0	0	perc	1800000	0	0.8	T.E.R.A TIME			請感受一下瘋狂般的技能砲轟! 除了聯盟技能外的所有技能的冷卻時間減少20%，大幅增加每秒魔力恢復量。	icon_status.pluswill_tex
 8000077	ASpd	0	0	perc	1800000	0	1.04	凱亞的聖水	139100	凱亞聖水 I	技能傷害提升10%，所受到的傷害減少 10%。另外攻擊速度也會跟著提升4%。	icon_items.potion10_tex
@@ -1631,6 +1647,15 @@
 14400004	MPChange	0	0.05	perc	900000	1	0.05	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
 14400004	CDR	0	0	perc	900000	0	0.8	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
 14400005	MovSpdInCombat	0	0	abs	900000	0	10	Fleetfoot	152910	Permanent Fleetfoot Potion		icon_skills.speedupaura_tex
+15200001	Endurance	0	0	perc	1800000	0	1.2	拉巴圖斯的甲殼			由於拉巴圖斯的甲殼效果 1800s內防禦力與體力增加20% 。該效果被祝福解除等技能攻擊或死亡時也不會消失，退出公會戰地區時才會自動解除。	icon_skills.emergencyshield_tex
+15200002	Power	0	0	perc	1800000	0	1.2	德拉坎之火			由於德拉坎的火效果 1800s內攻擊力增加20% 。該效果被祝福解除等技能攻擊或死亡時也不會消失，退出公會戰地區時才會自動解除。	icon_items.campfire_tex
+15200003	ASpd	0	0	perc	1800000	0	1.1	卡伊坦的恐怖			由於卡伊坦的恐怖 1800s內 功速, 爆擊率增加10%, 移動速度增加10% (unk2)。該效果被祝福解除等技能攻擊或死亡時也不會消失，退出公會戰地區時才會自動解除。	icon_status.darkriftrage_tex
+15200003	MovSpdInCombat	0	0	abs	1800000	0	20	卡伊坦的恐怖			由於卡伊坦的恐怖 1800s內 功速, 爆擊率增加10%, 移動速度增加10% (unk2)。該效果被祝福解除等技能攻擊或死亡時也不會消失，退出公會戰地區時才會自動解除。	icon_status.darkriftrage_tex
+15200003	CritChance	0	0	perc	1800000	0	1.1	卡伊坦的恐怖			由於卡伊坦的恐怖 1800s內 功速, 爆擊率增加10%, 移動速度增加10% (unk2)。該效果被祝福解除等技能攻擊或死亡時也不會消失，退出公會戰地區時才會自動解除。	icon_status.darkriftrage_tex
+15200006	ASpd	0	0	perc	300000	0	1.1	決戰			公會全員燃燒起決戰意志PVP獲得攻擊力10, 功速10% 的強化。	icon_skills.guildskills_ccres2_tex
+15200008	Power	0	0	perc	5000	0	1.1	前哨基地的守護			由於前哨基地的守護效果，攻擊力與防禦力強化 10% 。	icon_status.aura_of_damage_tex
+15200008	Endurance	0	0	perc	5000	0	1.1	前哨基地的守護			由於前哨基地的守護效果，攻擊力與防禦力強化 10% 。	icon_status.aura_of_damage_tex
+15200009	CDR	0	0	swch	0	0	6	時間旅行未套用			使用組隊召喚類型的技能時，冷卻時間增加500% 倍。	icon_status.darkriftareatimeshift_tex
 43100002	HPChange	1	0	perc	1000	1	1	HP即時恢復			異常狀態提示說明無法顯示 若看見 (isShow=False) 此提示說明時，必須回報BTS!	icon_status.plushp_tex
 43100007	HPChange	-0.05	0	perc	15000	3	-0.05	出血			因強力的一擊導致出血，每 3持續減少相當於整體HP的5%之HP。	icon_status.minuscriticalresist_tex
 43200002	HPChange	1	0	perc	1000	1	1	HP即時恢復			異常狀態提示說明無法顯示 若看見 (isShow=False) 此提示說明時，必須回報BTS!	icon_status.diseaseup_tex
