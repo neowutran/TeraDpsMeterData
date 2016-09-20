@@ -121,7 +121,7 @@
 2085	Power	0	0	abs	0	0	20	Cry of Retaliation III			Increases maximum HP by 50%. Increases Power and Endurance by 20. Increases Movement Speed by 30.	icon_status.battlefieldbuff04_tex
 2085	Endurance	0	0	abs	0	0	20	Cry of Retaliation III			Increases maximum HP by 50%. Increases Power and Endurance by 20. Increases Movement Speed by 30.	icon_status.battlefieldbuff04_tex
 2097	Block	0	0	swch	3000	0	0	Skill Ban			Baby Kumas is frightened and cannot use skills except for Tantrum for 3 seconds.	icon_status.sealskill_tex
-2099	HPChange	3000	0	abs	25000	1	3000	Aura of Healing			Gained Healing Energy from the destroyed Pallialith. HP of nearby baby Kumases will regenerate regularly.	icon_status.aura_of_regeneration_hp_tex
+2099	HPChange	3000	0	abs	25000	1	3000	Aura of Healing			Gained Healing Energy from the destroyed Pallialith. HP of nearby allies will regenerate regularly.	icon_status.aura_of_regeneration_hp_tex
 2101	HPChange	6000	0	abs	5000	1	6000	Healing Energy			Gained healing energy from Aura of Healing effect. HP increases by 6000 every 1s. Increases Movement Speed by 80.	icon_skills.refreshbless_tex
 2103	Power	0	0	perc	4000	0	1.2	Bravery			Attack Power of Kumas Boss's Kumases increase by 20%.	icon_status.buff_of_kaia_tex
 2500	HPChange	58	0	abs	12000	1	58	Healing Elixir I	6048	Healing Elixir I	Recovers 58 HP every 1s.	icon_items.hp_durable_potion_level_1_tex
@@ -1577,6 +1577,10 @@
 3000014	MPChange	0	0.005	perc	0	1	0.005	Inspiring Flight			Can fly in flight zones.<br>Replenishes 0.5% of your maximum MP every second.	icon_items.wings_of_fairy_tex
 3000015	HPChange	0.005	0	perc	0	1	0.005	Restful Flight			Can fly in flight zones.<br>Replenishes 0.5% of your maximum HP and MP every second.	icon_items.wings_of_fairy_tex
 3000015	MPChange	0	0.005	perc	0	1	0.005	Restful Flight			Can fly in flight zones.<br>Replenishes 0.5% of your maximum HP and MP every second.	icon_items.wings_of_fairy_tex
+3000016	HPChange	0.01	0	perc	0	1	0.01	Dragon Flight			Can fly in flying zones.<br>He restores 1% of your max MP and HP every second.	icon_items.wings_of_fairy_tex
+3000016	MPChange	0	0.01	perc	0	1	0.01	Dragon Flight			Can fly in flying zones.<br>He restores 1% of your max MP and HP every second.	icon_items.wings_of_fairy_tex
+3000019	HPChange	0.02	0	perc	0	1	0.02	Ancient Dragon Flight			Can fly in flying zones.<br>He restores 2% of your max MP and HP every second. Provides group members within a radius of 30m the Dragon Sprint effect.	icon_items.wings_of_fairy_tex
+3000019	MPChange	0	0.02	perc	0	1	0.02	Ancient Dragon Flight			Can fly in flying zones.<br>He restores 2% of your max MP and HP every second. Provides group members within a radius of 30m the Dragon Sprint effect.	icon_items.wings_of_fairy_tex
 4510015	AtkPotion	0	0	perc	60000	0	1.03	Courageous Melody			The soothing melodies of the tuwangi reedflute make you feel more courageous; Increases skill damage by 3%.	icon_items.fallfestival_whistle_tex
 5000000	Power	0	0	abs	0	0	3	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
 5000000	Endurance	0	0	abs	0	0	3	Strength in Threes			Increases Power, Endurance, Impact Factor, Balance Factor, Crit Factor, and Movement Speed by 3.	icon_items.wings_of_fairy_tex
@@ -1646,6 +1650,15 @@
 14400004	MPChange	0	0.05	perc	900000	1	0.05	Cooldown and MP Replenishment	152903	Emblem of Eminence	Provides the following effects.    Reduces the cooldown of all skills (excluding alliance skills) by 20%  Recovers 5% of total MP every second	icon_status.darkriftareatimeshift_tex
 14400004	CDR	0	0	perc	900000	0	0.8	Cooldown and MP Replenishment	152903	Emblem of Eminence	Provides the following effects.    Reduces the cooldown of all skills (excluding alliance skills) by 20%  Recovers 5% of total MP every second	icon_status.darkriftareatimeshift_tex
 14400005	MovSpdInCombat	0	0	abs	900000	0	10	Movement Speed	152910	Fleetfoot Potion	Increases Movement Speed by 10.	icon_skills.speedupaura_tex
+15200001	Endurance	0	0	perc	1800000	0	1.2	Lavathus' Shell			Increases Defense and Strength by 20% for 1800s. Effect persists after death, but ends when leaving the GvG zone.	icon_skills.emergencyshield_tex
+15200002	Power	0	0	perc	1800000	0	1.2	Drakhan's Flame			Increases Attack Power by 20% for 1800s. Effect persists after death, but ends when leaving the GvG zone.	icon_items.campfire_tex
+15200003	ASpd	0	0	perc	1800000	0	1.1	Kaithan's Fear			Increases Attack Speed and Crit Factor by 10%. Increases Movement Speed by 10% (unk2) for 1800s. Effect persists after death, but ends when leaving the GvG zone.	icon_status.darkriftrage_tex
+15200003	MovSpdInCombat	0	0	abs	1800000	0	20	Kaithan's Fear			Increases Attack Speed and Crit Factor by 10%. Increases Movement Speed by 10% (unk2) for 1800s. Effect persists after death, but ends when leaving the GvG zone.	icon_status.darkriftrage_tex
+15200003	CritChance	0	0	perc	1800000	0	1.1	Kaithan's Fear			Increases Attack Speed and Crit Factor by 10%. Increases Movement Speed by 10% (unk2) for 1800s. Effect persists after death, but ends when leaving the GvG zone.	icon_status.darkriftrage_tex
+15200006	ASpd	0	0	perc	300000	0	1.1	Battle Will			Increases PvP Attack of all guild members by 10. Increases Attack Speed by 10%.	icon_skills.guildskills_ccres2_tex
+15200008	Power	0	0	perc	5000	0	1.1	Advance Base Guard			Increases Attack and Defense by 10%.	icon_status.aura_of_damage_tex
+15200008	Endurance	0	0	perc	5000	0	1.1	Advance Base Guard			Increases Attack and Defense by 10%.	icon_status.aura_of_damage_tex
+15200009	CDR	0	0	swch	0	0	6	Time Travel Side Effect			Increases cooldown time of party summon skills by 500% times.	icon_status.darkriftareatimeshift_tex
 16300009	HPChange	0.005	0	perc	0	1	0.005	Comfortable Travel			Restores 0.5% of your max HP and MP every second.	icon_status.collect_speedup_tex
 16300009	MPChange	0	0.005	perc	0	1	0.005	Comfortable Travel			Restores 0.5% of your max HP and MP every second.	icon_status.collect_speedup_tex
 16300010	MPChange	0	0.005	perc	0	1	0.005	Relaxing Travel 			Rejuvenates 0.5% of your maximum Stamina and maximum MP every second.	icon_status.collect_speedup_tex
