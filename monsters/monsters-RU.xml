@@ -2731,6 +2731,8 @@
 		<Monster name="Гадрон" id="7001" isBoss="False" hp="10000" />
 		<Monster name="Анкх" id="7002" isBoss="False" hp="10000" />
 		<Monster name="Эллония" id="8000" isBoss="False" hp="10000" />
+		<Monster name="Барахам" id="8001" isBoss="False" hp="366797" />
+		<Monster name="Хеллес" id="8002" isBoss="False" hp="10000" />
 		<Monster name="Тикат" id="9000" isBoss="False" hp="10000" />
 		<Monster name="Амбрр" id="9004" isBoss="False" hp="10000" />
 		<Monster name="Колбрр" id="9005" isBoss="False" hp="10000" />
@@ -4810,6 +4812,9 @@
 		<Monster name="Мастер испытаний" id="7002" isBoss="False" hp="0" />
 		<Monster name="Сюжетная информация" id="7003" isBoss="False" hp="0" />
 		<Monster name="Каменная скрижаль воспоминаний" id="7004" isBoss="False" hp="0" />
+		<Monster name="Наставник по состязанию гильдий" id="8001" isBoss="False" hp="0" />
+		<Monster name="Телепорт" id="8002" isBoss="False" hp="0" />
+		<Monster name="Обычные товары" id="8003" isBoss="False" hp="0" />
 		<Monster name="Инструктор по умениям" id="8271" isBoss="False" hp="0" />
 		<Monster name="Инструктор по умениям" id="8272" isBoss="False" hp="0" />
 		<Monster name="Распорядитель полетов" id="8273" isBoss="False" hp="0" />
@@ -4937,241 +4942,50 @@
 		<Monster name="Капринский мистик" id="304" isBoss="False" hp="150000" />
 		<Monster name="Наг-воин" id="305" isBoss="False" hp="150000" />
 	</Zone>
-	<Zone id="121" name="Территория Торговцев" >
-		<Monster name="Золотой василиск" id="101" isBoss="True" hp="18236725" />
-		<Monster name="Золотой клыкарь" id="102" isBoss="True" hp="18236725" />
-		<Monster name="Золотой фимбрилиск" id="103" isBoss="True" hp="18236725" />
-		<Monster name="Золотой бородавочник" id="201" isBoss="False" hp="549273" />
-		<Monster name="Золотой мугато" id="202" isBoss="False" hp="549273" />
-		<Monster name="Золотой саблезуб" id="203" isBoss="False" hp="549273" />
-		<Monster name="Золотой кромос" id="204" isBoss="False" hp="549273" />
-		<Monster name="Пустынный древень" id="205" isBoss="False" hp="549273" />
-		<Monster name="Золотой караульный" id="206" isBoss="False" hp="549273" />
-		<Monster name="Золотой смотритель" id="207" isBoss="False" hp="549273" />
-		<Monster name="Золотой драколот" id="301" isBoss="True" hp="58357520" />
-		<Monster name="Золотой кровокоготь" id="302" isBoss="True" hp="58357520" />
-		<Monster name="Золотой ящер" id="303" isBoss="True" hp="58357520" />
-		<Monster name="Зараженная горилла" id="502" isBoss="False" hp="183091" />
-		<Monster name="Инквизитор Мистериума" id="1001" isBoss="False" hp="10000" />
-		<Monster name="Инквизитор Мистериума" id="1002" isBoss="False" hp="10000" />
-		<Monster name="Инквизитор Мистериума" id="1003" isBoss="False" hp="10000" />
-		<Monster name="Терри" id="2002" isBoss="False" hp="10000" />
-		<Monster name="Хриар" id="2003" isBoss="False" hp="10000" />
-		<Monster name="Олем" id="2004" isBoss="False" hp="10000" />
-		<Monster name="Джуки" id="2005" isBoss="False" hp="10000" />
-		<Monster name="Партан" id="2006" isBoss="False" hp="10000" />
-		<Monster name="Хаван" id="2007" isBoss="False" hp="10000" />
-		<Monster name="Макил" id="2008" isBoss="False" hp="10000" />
-		<Monster name="Городской телепорт" id="2009" isBoss="False" hp="10000" />
-		<Monster name="Бубибу" id="2010" isBoss="False" hp="10000" />
-		<Monster name="Дубари" id="2011" isBoss="False" hp="10000" />
-		<Monster name="Кидвелл" id="2012" isBoss="False" hp="10000" />
-		<Monster name="Холден" id="2013" isBoss="False" hp="10000" />
-		<Monster name="Фрунд" id="2014" isBoss="False" hp="10000" />
-		<Monster name="Ворота Торговцев" id="2015" isBoss="False" hp="10000" />
-		<Monster name="Ворота Железного Ордена" id="2016" isBoss="False" hp="10000" />
-		<Monster name="Салвалит Торговцев" id="6001" isBoss="False" hp="69798840" />
-		<Monster name="Страж Торговцев" id="7001" isBoss="False" hp="1464727" />
-		<Monster name="Стражница Союза Просвещенных" id="7002" isBoss="False" hp="1464727" />
-		<Monster name="Стражница Железного Ордена" id="7003" isBoss="False" hp="1464727" />
-		<Monster name="Страж казначея" id="7004" isBoss="False" hp="1464727" />
-		<Monster name="Страж Торговцев" id="7005" isBoss="False" hp="1464727" />
-		<Monster name="Страж Торговцев" id="7006" isBoss="False" hp="1464727" />
-		<Monster name="Патруль Торговцев" id="7500" isBoss="False" hp="2197091" />
-		<Monster name="Амелий" id="8100" isBoss="False" hp="10000" />
-		<Monster name="Авелан" id="8200" isBoss="False" hp="10000" />
-		<Monster name="Аслан" id="8300" isBoss="False" hp="10000" />
-		<Monster name="Адьяр" id="9001" isBoss="False" hp="69798840" />
-		<Monster name="Пушка Торговцев" id="9005" isBoss="False" hp="24213775" />
-		<Monster name="Смотритель сокровищницы" id="20080" isBoss="False" hp="0" />
-		<Monster name="Адьяр" id="22001" isBoss="False" hp="10000" />
-		<Monster name="Дико" id="22012" isBoss="False" hp="10000" />
-		<Monster name="Ворота Союза Просвещенных" id="22018" isBoss="False" hp="10000" />
-		<Monster name="Ворота Железного Ордена" id="22020" isBoss="False" hp="10000" />
-		<Monster name="Ариадель" id="30000" isBoss="False" hp="10000" />
-		<Monster name="Арксан" id="30001" isBoss="False" hp="10000" />
-		<Monster name="Дамиен" id="30003" isBoss="False" hp="10000" />
-		<Monster name="Сонаридан" id="220020" isBoss="False" hp="10000" />
-		<Monster name="Маркано" id="220021" isBoss="False" hp="10000" />
-		<Monster name="Помилин" id="220022" isBoss="False" hp="10000" />
-		<Monster name="Берони" id="220023" isBoss="False" hp="10000" />
-		<Monster name="Харияз" id="220024" isBoss="False" hp="10000" />
-		<Monster name="Дирио" id="220037" isBoss="False" hp="10000" />
-		<Monster name="Перника" id="220040" isBoss="False" hp="10000" />
-		<Monster name="Ворота Торговцев" id="220043" isBoss="False" hp="10000" />
-	</Zone>
-	<Zone id="122" name="Территория Союза Просвещенных" >
-		<Monster name="Горный василиск" id="101" isBoss="True" hp="18236725" />
-		<Monster name="Горный клыкарь" id="102" isBoss="True" hp="18236725" />
-		<Monster name="Горный фимбрилиск" id="103" isBoss="True" hp="18236725" />
-		<Monster name="Горный бородавочник" id="201" isBoss="False" hp="549273" />
-		<Monster name="Горный мугато" id="202" isBoss="False" hp="549273" />
-		<Monster name="Горный саблезуб" id="203" isBoss="False" hp="549273" />
-		<Monster name="Горный кромос" id="204" isBoss="False" hp="549273" />
-		<Monster name="Оазисный древень" id="205" isBoss="False" hp="549273" />
-		<Monster name="Горный караульный" id="206" isBoss="False" hp="549273" />
-		<Monster name="Горный смотритель" id="207" isBoss="False" hp="549273" />
-		<Monster name="Горный драколот" id="301" isBoss="True" hp="58357520" />
-		<Monster name="Горный кровокоготь" id="302" isBoss="True" hp="58357520" />
-		<Monster name="Горный ящер" id="303" isBoss="True" hp="58357520" />
-		<Monster name="Банановое дерево" id="503" isBoss="False" hp="183091" />
-		<Monster name="Инквизитор Мистериума" id="1001" isBoss="False" hp="10000" />
-		<Monster name="Инквизитор Мистериума" id="1002" isBoss="False" hp="10000" />
-		<Monster name="Инквизитор Мистериума" id="1003" isBoss="False" hp="10000" />
-		<Monster name="Дерена" id="2001" isBoss="False" hp="10000" />
-		<Monster name="Шуна" id="2002" isBoss="False" hp="10000" />
-		<Monster name="Наулу" id="2003" isBoss="False" hp="10000" />
-		<Monster name="Машил" id="2004" isBoss="False" hp="10000" />
-		<Monster name="Гуаро" id="2005" isBoss="False" hp="10000" />
-		<Monster name="Сиве" id="2006" isBoss="False" hp="10000" />
-		<Monster name="Бейган" id="2007" isBoss="False" hp="10000" />
-		<Monster name="Макил" id="2008" isBoss="False" hp="10000" />
-		<Monster name="Городской телепорт" id="2009" isBoss="False" hp="10000" />
-		<Monster name="Чаабу" id="2010" isBoss="False" hp="10000" />
-		<Monster name="Баонка" id="2011" isBoss="False" hp="10000" />
-		<Monster name="Видде" id="2012" isBoss="False" hp="10000" />
-		<Monster name="Коркин" id="2013" isBoss="False" hp="10000" />
-		<Monster name="Маркит" id="2014" isBoss="False" hp="10000" />
-		<Monster name="Ворота Союза Просвещенных" id="2015" isBoss="False" hp="10000" />
-		<Monster name="Ворота Торговцев" id="2016" isBoss="False" hp="10000" />
-		<Monster name="Ворота Железного Ордена" id="2017" isBoss="False" hp="10000" />
-		<Monster name="Салвалит Союза Просвещенных" id="6001" isBoss="False" hp="69798840" />
-		<Monster name="Страж Союза Просвещенных" id="7001" isBoss="False" hp="1464727" />
-		<Monster name="Отделение Торговцев" id="7002" isBoss="False" hp="1464727" />
-		<Monster name="Стражница Железного Ордена" id="7003" isBoss="False" hp="1464727" />
-		<Monster name="Страж казначея" id="7004" isBoss="False" hp="1464727" />
-		<Monster name="Стражница Союза Просвещенных" id="7005" isBoss="False" hp="2197091" />
-		<Monster name="Стражница Союза Просвещенных" id="7006" isBoss="False" hp="2197091" />
-		<Monster name="Патруль Союза Просвещенных" id="7500" isBoss="False" hp="2197091" />
-		<Monster name="Авелан" id="8100" isBoss="False" hp="10000" />
-		<Monster name="Амелий" id="8200" isBoss="False" hp="10000" />
-		<Monster name="Аслан" id="8300" isBoss="False" hp="10000" />
-		<Monster name="Дерена" id="9001" isBoss="False" hp="69798840" />
-		<Monster name="Пушка Союза Просвещенных" id="9005" isBoss="False" hp="24213775" />
-		<Monster name="Смотритель сокровищницы" id="20080" isBoss="False" hp="0" />
-		<Monster name="Дерена" id="22001" isBoss="False" hp="10000" />
-		<Monster name="Картиен" id="30000" isBoss="False" hp="10000" />
-		<Monster name="Кисари" id="30001" isBoss="False" hp="10000" />
-		<Monster name="Дурим" id="30003" isBoss="False" hp="10000" />
-		<Monster name="Ишала" id="220020" isBoss="False" hp="10000" />
-		<Monster name="Даконуа" id="220021" isBoss="False" hp="10000" />
-		<Monster name="Кучи" id="220022" isBoss="False" hp="10000" />
-		<Monster name="Палнич" id="220023" isBoss="False" hp="10000" />
-		<Monster name="Хемирон" id="220024" isBoss="False" hp="10000" />
-		<Monster name="Сением" id="220037" isBoss="False" hp="10000" />
-		<Monster name="Хемиэль" id="220040" isBoss="False" hp="10000" />
-		<Monster name="Ворота Союза Просвещенных" id="220043" isBoss="False" hp="10000" />
-	</Zone>
-	<Zone id="123" name="Территория Железного Ордена" >
-		<Monster name="Дрожащий василиск" id="101" isBoss="True" hp="18236725" />
-		<Monster name="Дрожащий клыкарь" id="102" isBoss="True" hp="18236725" />
-		<Monster name="Дрожащий фимбрилиск" id="103" isBoss="True" hp="18236725" />
-		<Monster name="Дрожащий бородавочник" id="201" isBoss="False" hp="549273" />
-		<Monster name="Дрожащий мугато" id="202" isBoss="False" hp="549273" />
-		<Monster name="Дрожащий саблезуб" id="203" isBoss="False" hp="549273" />
-		<Monster name="Дрожащий кромос" id="204" isBoss="False" hp="549273" />
-		<Monster name="Речной древень" id="205" isBoss="False" hp="549273" />
-		<Monster name="Дрожащий караульный" id="206" isBoss="False" hp="549273" />
-		<Monster name="Дрожащий смотритель" id="207" isBoss="False" hp="549273" />
-		<Monster name="Дрожащий драколот" id="301" isBoss="True" hp="58357520" />
-		<Monster name="Дрожащий кровокоготь" id="302" isBoss="True" hp="58357520" />
-		<Monster name="Дрожащий ящер" id="303" isBoss="True" hp="58357520" />
-		<Monster name="Кристаллический ноктиний" id="501" isBoss="False" hp="183091" />
-		<Monster name="Инквизитор Мистериума" id="1001" isBoss="False" hp="10000" />
-		<Monster name="Инквизитор Мистериума" id="1002" isBoss="False" hp="10000" />
-		<Monster name="Инквизитор Мистериума" id="1003" isBoss="False" hp="10000" />
-		<Monster name="Фратеко" id="2001" isBoss="False" hp="10000" />
-		<Monster name="Донаск" id="2002" isBoss="False" hp="10000" />
-		<Monster name="Сванек" id="2003" isBoss="False" hp="10000" />
-		<Monster name="Вофтран" id="2004" isBoss="False" hp="10000" />
-		<Monster name="Ривтак" id="2005" isBoss="False" hp="10000" />
-		<Monster name="Аделе" id="2006" isBoss="False" hp="10000" />
-		<Monster name="Лузан" id="2007" isBoss="False" hp="10000" />
-		<Monster name="Трайгер" id="2008" isBoss="False" hp="10000" />
-		<Monster name="Городской телепорт" id="2009" isBoss="False" hp="10000" />
-		<Monster name="Татар" id="2010" isBoss="False" hp="10000" />
-		<Monster name="Кугон" id="2011" isBoss="False" hp="10000" />
-		<Monster name="Манил" id="2012" isBoss="False" hp="10000" />
-		<Monster name="Чиван" id="2013" isBoss="False" hp="10000" />
-		<Monster name="Врезен" id="2014" isBoss="False" hp="10000" />
-		<Monster name="Ворота Торговцев" id="2015" isBoss="False" hp="10000" />
-		<Monster name="Ворота Союза Просвещенных" id="2017" isBoss="False" hp="10000" />
-		<Monster name="Салвалит Железного Ордена" id="6001" isBoss="False" hp="69798840" />
-		<Monster name="Страж Железного Ордена" id="7001" isBoss="False" hp="1464727" />
-		<Monster name="Отделение Торговцев" id="7002" isBoss="False" hp="1464727" />
-		<Monster name="Стражница Союза Просвещенных" id="7003" isBoss="False" hp="1464727" />
-		<Monster name="Страж казначея" id="7004" isBoss="False" hp="1464727" />
-		<Monster name="Страж Железного Ордена" id="7005" isBoss="False" hp="2197091" />
-		<Monster name="Страж Железного Ордена" id="7006" isBoss="False" hp="2197091" />
-		<Monster name="Патруль Железного Ордена" id="7500" isBoss="False" hp="2197091" />
-		<Monster name="Аслан" id="8100" isBoss="False" hp="10000" />
-		<Monster name="Амелий" id="8200" isBoss="False" hp="10000" />
-		<Monster name="Авелан" id="8300" isBoss="False" hp="10000" />
-		<Monster name="Фратеко" id="9001" isBoss="False" hp="69798840" />
-		<Monster name="Пушка Железного Ордена" id="9005" isBoss="False" hp="24213775" />
-		<Monster name="Смотритель сокровищницы" id="20080" isBoss="False" hp="0" />
-		<Monster name="Фратеко" id="22001" isBoss="False" hp="10000" />
-		<Monster name="Келшоу" id="30000" isBoss="False" hp="10000" />
-		<Monster name="Джеймо" id="30001" isBoss="False" hp="10000" />
-		<Monster name="Клараг" id="30003" isBoss="False" hp="10000" />
-		<Monster name="Билат" id="220020" isBoss="False" hp="10000" />
-		<Monster name="Чака" id="220021" isBoss="False" hp="10000" />
-		<Monster name="Джачан" id="220022" isBoss="False" hp="10000" />
-		<Monster name="Зорилин" id="220023" isBoss="False" hp="10000" />
-		<Monster name="Пелондел" id="220024" isBoss="False" hp="10000" />
-		<Monster name="Ксенде" id="220037" isBoss="False" hp="10000" />
-		<Monster name="Степорт" id="220040" isBoss="False" hp="10000" />
-		<Monster name="Ворота Железного Ордена" id="220043" isBoss="False" hp="10000" />
-	</Zone>
-	<Zone id="124" name="Сокровищница Морей" >
-		<Monster name="Наг-пиромант" id="101" isBoss="True" hp="2279590" />
-		<Monster name="Циклоп" id="102" isBoss="True" hp="12220960" />
-		<Monster name="Циклоп" id="103" isBoss="True" hp="12220960" />
-		<Monster name="Циклоп" id="104" isBoss="True" hp="12220960" />
-		<Monster name="Циклоп" id="105" isBoss="True" hp="7511613" />
-		<Monster name="Циклоп" id="106" isBoss="True" hp="3666288" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" />
-	</Zone>
-	<Zone id="125" name="Сокровищница Зимы" >
-		<Monster name="Морозный великан Керн" id="101" isBoss="True" hp="2279590" />
-		<Monster name="Драколот" id="102" isBoss="True" hp="12220960" />
-		<Monster name="Драколот" id="103" isBoss="True" hp="12220960" />
-		<Monster name="Драколот" id="104" isBoss="True" hp="12220960" />
-		<Monster name="Драколот" id="105" isBoss="True" hp="7511613" />
-		<Monster name="Драколот" id="106" isBoss="True" hp="3666288" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" />
-	</Zone>
-	<Zone id="126" name="Сокровищница Пламени" >
-		<Monster name="Окаянный ринилиск" id="101" isBoss="True" hp="2279590" />
-		<Monster name="Воздающий валкан" id="102" isBoss="True" hp="12220960" />
-		<Monster name="Воздающий валкан" id="103" isBoss="True" hp="12220960" />
-		<Monster name="Воздающий валкан" id="104" isBoss="True" hp="12220960" />
-		<Monster name="Воздающий валкан" id="105" isBoss="True" hp="7511613" />
-		<Monster name="Воздающий валкан" id="106" isBoss="True" hp="3666288" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" />
-	</Zone>
-	<Zone id="127" name="Союзная сокровищница" >
-		<Monster name="Старейшина-ринилиск" id="101" isBoss="True" hp="12157816" />
-		<Monster name="Порабощенный каменный великан" id="102" isBoss="True" hp="19553538" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" />
-	</Zone>
-	<Zone id="151" name="Площадка для исследования ноктиния" >
-		<Monster name="Ноктиниевый саблезуб" id="203" isBoss="False" hp="20000" />
-		<Monster name="Ноктиниевый древень" id="205" isBoss="False" hp="10000" />
-		<Monster name="Ноктиниевый драколот" id="301" isBoss="True" hp="30000" />
-		<Monster name="Тодоро" id="1001" isBoss="False" hp="10000" />
-		<Monster name="Тодоро" id="1002" isBoss="False" hp="10000" />
-		<Monster name="Корино" id="1003" isBoss="False" hp="10000" />
-		<Monster name="Фрэнт" id="1004" isBoss="False" hp="10000" />
-		<Monster name="Данарун" id="1005" isBoss="False" hp="10000" />
-		<Monster name="Кристаллический ноктиний" id="1006" isBoss="False" hp="10000" />
-		<Monster name="Тодоро" id="1007" isBoss="False" hp="10000" />
-		<Monster name="Тодоро" id="1008" isBoss="False" hp="10000" />
-		<Monster name="Корино" id="1009" isBoss="False" hp="10000" />
-		<Monster name="Фрэнт" id="1010" isBoss="False" hp="10000" />
-		<Monster name="Данарун" id="1011" isBoss="False" hp="10000" />
-		<Monster name="Кристаллический ноктиний" id="1012" isBoss="False" hp="10000" />
-		<Monster name="Экстрактор ноктиния" id="1999" isBoss="False" hp="10000" />
+	<Zone id="152" name="Велика" >
+		<Monster name="Рабатус" id="1001" isBoss="True" hp="44708232" />
+		<Monster name="Дракон" id="1002" isBoss="True" hp="44708232" />
+		<Monster name="Кайтан" id="1003" isBoss="True" hp="44708232" />
+		<Monster name="Ананша" id="2001" isBoss="True" hp="134124696" />
+		<Monster name="Фрайгарас" id="2002" isBoss="True" hp="134124696" />
+		<Monster name="Сабранак" id="2003" isBoss="True" hp="134124696" />
+		<Monster name="Сурам" id="3001" isBoss="False" hp="100000000" />
+		<Monster name="Сергеор" id="4001" isBoss="False" hp="10000" />
+		<Monster name="Осадный лагерь" id="5001" isBoss="False" hp="62094780" />
+		<Monster name="Энгриас Кайлум" id="6001" isBoss="False" hp="13038" />
+		<Monster name="Гадерн Кайлум" id="6002" isBoss="False" hp="945" />
+		<Monster name="Джеремия" id="6003" isBoss="False" hp="945" />
+		<Monster name="Баллеон Кайлум" id="6004" isBoss="False" hp="945" />
+		<Monster name="Сильвестр" id="6005" isBoss="False" hp="945" />
+		<Monster name="Агнесса" id="6006" isBoss="False" hp="945" />
+		<Monster name="Сикриов" id="6007" isBoss="False" hp="10000" />
+		<Monster name="Хасмина" id="6008" isBoss="False" hp="200" />
+		<Monster name="Умберто" id="6009" isBoss="False" hp="945" />
+		<Monster name="Коделия" id="6010" isBoss="False" hp="945" />
+		<Monster name="Кайонес" id="6011" isBoss="False" hp="945" />
+		<Monster name="Селена" id="6012" isBoss="False" hp="945" />
+		<Monster name="Стражник" id="6013" isBoss="False" hp="10000" />
+		<Monster name="Мирр Элин" id="6014" isBoss="False" hp="10000" />
+		<Monster name="Джейд - черное сердце" id="6015" isBoss="False" hp="945" />
+		<Monster name="Джейд - голубое сердце" id="6016" isBoss="False" hp="945" />
+		<Monster name="Фердинанд" id="6017" isBoss="False" hp="945" />
+		<Monster name="Золин" id="6018" isBoss="False" hp="10000" />
+		<Monster name="Зеона" id="6019" isBoss="False" hp="10000" />
+		<Monster name="Рибина" id="6020" isBoss="False" hp="10000" />
+		<Monster name="Моряк попори" id="6021" isBoss="False" hp="10000" />
+		<Monster name="Моряк попори" id="6022" isBoss="False" hp="10000" />
+		<Monster name="Моряк попори" id="6023" isBoss="False" hp="10000" />
+		<Monster name="Моряк попори" id="6024" isBoss="False" hp="10000" />
+		<Monster name="Пэйсен" id="6025" isBoss="False" hp="57155" />
+		<Monster name="Стефан" id="6026" isBoss="False" hp="945" />
+		<Monster name="Сима" id="6027" isBoss="False" hp="10000" />
+		<Monster name="Франи" id="6029" isBoss="False" hp="945" />
+		<Monster name="Тарнас" id="6030" isBoss="False" hp="945" />
+		<Monster name="Каррунг" id="6038" isBoss="False" hp="10000" />
+		<Monster name="Камарун" id="6045" isBoss="False" hp="10000" />
+		<Monster name="Стражник" id="6046" isBoss="False" hp="10000" />
+		<Monster name="Данам - темная ночь" id="6047" isBoss="False" hp="10000" />
+		<Monster name="Альба" id="6048" isBoss="False" hp="10000" />
 	</Zone>
 	<Zone id="172" name="Дикарский Предел" >
 		<Monster name="Пэйсен" id="1000" isBoss="False" hp="366797" />
@@ -10376,7 +10190,6 @@
 		<Monster name="Рибина" id="3601" isBoss="False" hp="10000" />
 		<Monster name="Рибина" id="3602" isBoss="False" hp="10000" />
 		<Monster name="Рибина" id="3603" isBoss="False" hp="10000" />
-		<Monster name="Каменная скрижаль воспоминаний" id="5000" isBoss="False" hp="13038" />
 		<Monster name="Телепорт" id="9000" isBoss="False" hp="10000" />
 		<Monster name="Каменная скрижаль воспоминаний" id="9100" isBoss="False" hp="10000" />
 		<Monster name="Каменная скрижаль воспоминаний" id="9200" isBoss="False" hp="10000" />
@@ -11708,6 +11521,10 @@
 		<Monster name="Осколок принуждения" id="81394" isBoss="False" hp="364734" />
 		<Monster name="Доминолит" id="81398" isBoss="False" hp="22230000" />
 		<Monster name="Доминолит" id="81399" isBoss="False" hp="16416000" />
+	</Zone>
+	<Zone id="714" name="Святилище Велики" >
+		<Monster name="Велика" id="1001" isBoss="False" hp="10000" />
+		<Monster name="Телепорт" id="1002" isBoss="False" hp="10000" />
 	</Zone>
 	<Zone id="716" name="Крейсер 'Стремление'" >
 		<Monster name="Победите Кошмарного Гнилиона" id="911" isBoss="False" hp="0" />
@@ -14253,7 +14070,7 @@
 		<Monster name="Древняя мантикора" id="3000002" isBoss="False" hp="1011161" />
 		<Monster name="Призванный оволит" id="3000003" isBoss="False" hp="11397953" />
 		<Monster name="Призванный ориск" id="3000004" isBoss="False" hp="19376520" />
-		<Monster name="Пушка альянса" id="3000007" isBoss="False" hp="2188407" />
+		<Monster name="Пушка альянса" id="3000007" isBoss="False" hp="0" />
 		<Monster name="Магазин снаряжения альянса" id="3000008" isBoss="False" hp="10000" />
 		<Monster name="Страж Торговцев" id="3000022" isBoss="False" hp="599206" />
 		<Monster name="Страж Союза Просвещенных" id="3000023" isBoss="False" hp="599206" />
