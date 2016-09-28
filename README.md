@@ -20,10 +20,6 @@ HotDot*.tsv:
 AbnormalId	AbnormalType	HPChange	MPChange	Method	Time	Tick	Amount	Name	Itemid	ItemName	Tooltip	IconName
 
 
-charms*.tsv:
-CharmId	CharmName	IconName
-
-
 skills*.tsv:
 
 SkillId	Race	Gender	Class	SkillName	Chained	SkillDetailedInfo IconName
@@ -32,3 +28,10 @@ SkillId	Race	Gender	Class	SkillName	Chained	SkillDetailedInfo IconName
 pet-skills*.tsv:
 
 SummonName	SkillId	SkillName
+
+
+glyph*.tsv
+
+GliphId	SkillName	SkillId	SkillIconName	GlyphName	GlyphIcon	Tooltip
+
+There are some issues in glyph*.tsv, skill Id and icon can be wrong or even absent, especially for non-english files
