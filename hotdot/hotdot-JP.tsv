@@ -310,6 +310,11 @@
 3001	ASpd	0	0	perc	60000	0	1.02	邪魂の気			力が3、攻撃速度が2%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
 3002	Power	0	0	abs	60000	0	3	虐殺の気			力が3、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
 4404	Power	0	0	perc	604800000	0	1.1	【友達招待特典】攻撃力10％増加	81227	力の試薬	7日間、攻撃時に攻撃力が10%上昇します。他の攻撃力が上昇するアイテムの効果と重複して適用されます。接続を終了しても残り時間は減少します。	icon_status.buff_of_kaia_tex
+4600	CrystalBind	0	0	abs	3600000	0	1	光輝の書：クリスタル保護	354	光輝の書：クリスタル保護	死亡時にクリスタルが壊れるのを防止します。効果は最大99回まで重複します。「完全な光輝の書：クリスタル保護」適用中は、効果が発動されません。	icon_items.q_closedspace_stone_05_tex
+4610	CCrystalBind	0	0	abs	43200000	0	1	完全な光輝の書：クリスタル保護	396	【連合補給品】完全な光輝の書：クリスタル保護	効果持続中、死亡時にクリスタルが壊れるのを防止します。	icon_items.q_closedspace_stone_05_tex
+4611	CCrystalBind	0	0	abs	3600000	0	1	完全な光輝の書：クリスタル保護	101008	【連合補給品】完全な光輝の書：クリスタル保護（1時間）	効果持続中、死亡時にクリスタルが壊れるのを防止します。	icon_items.q_closedspace_stone_05_tex
+4613	CCrystalBind	0	0	abs	0	0	1	完全な光輝の書：クリスタル保護（帰還者）			効果持続中、死亡時にクリスタルが壊れるのを防止します。	icon_items.q_closedspace_stone_05_tex
+4614	CCrystalBind	0	0	abs	0	0	1	完全な光輝の書：クリスタル保護			効果持続中、死亡時にクリスタルが壊れるのを防止します。	icon_items.q_closedspace_stone_05_tex
 4651	Endurance	0	0	perc	0	0	1	ヴェリックの豊穣な祝福 			パーティーメンバーにダンジョン初心者がいるため、ラストボスのアイテムドロップ率が25％上昇します。戦闘中に初心者が死亡して一時的に祝福が消えても、初心者がボスの100m以内にいる場合、ドロップ率上昇効果は継続します。	icon_status.exp_buff_serenparty_tex
 4710	HPChange	-0.12	0	perc	3000	1	-0.12	呪詛			1s毎に全HPの12％が減少します。	icon_status.poisonstatus_tex
 4730	Power	0	0	perc	7200000	0	1	神聖なる保護	103	ディヴァインガードポーション	効果持続中、アカシャの「破滅の疫病」に対する免疫力が高まります。この効果は、死亡後も解除されません。	icon_items.potion2_tex
@@ -1425,6 +1430,7 @@
 830003	Endurance	0	0	perc	5000	0	3	防御力上昇			防御力上昇	icon_skills.voidtrap_tex
 830004	MPChange	0	0.05	perc	0	1	0.05	戦士の祝福			1s毎に全MPの5％のMPとコンディションが回復します。	icon_status.buff_of_kaia_tex
 830004	StaminaDecay	0	0	seta	0	0	0	戦士の祝福			1s毎に全MPの5％のMPとコンディションが回復します。	icon_status.buff_of_kaia_tex
+830004	CrystalBind	0	0	abs	0	0	1	戦士の祝福			1s毎に全MPの5％のMPとコンディションが回復します。	icon_status.buff_of_kaia_tex
 830007	Endurance	0	0	perc	5000	0	5	スノーマン			体が凍りつき、スノーマンになりました！	icon_items.snowman_scroll_tex
 830008	Endurance	0	0	perc	5000	0	1	スノーマン抵抗			しばらくの間スノーマンになりません	icon_items.snowman_scroll_tex
 830010	HPChange	-0.03	0	perc	5000	2	-0.03	猛毒			2s毎に全HPの3％が持続的に減少します。	icon_status.poisonstatus_tex
@@ -1588,6 +1594,7 @@
 5000000	Crit	0	0	abs	0	0	3	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
 5010000	HPChange	0.03	0	perc	30000	1	0.03	幻影の回復ポーション	101305	幻影の回復ポーション	30秒間、1秒毎に全HPの5％、計90％が持続的に回復。	icon_items.potion17_tex
 5690001	StaminaDecay	0	0	seta	0	0	0	記憶の追跡者			記憶の破片の収集を手伝うためにコンディションが維持され死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
+5690001	CrystalBind	0	0	abs	0	0	1	記憶の追跡者			記憶の破片の収集を手伝うためにコンディションが維持され死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
 5692001	Endurance	0	0	seta	0	0	9999999	遊び部屋の支配者			遊びの部屋では立ち向かう相手がいません。	icon_skills.emergencyshield_tex
 5692006	Endurance	0	0	seta	0	0	9999999	命紡力のそでごい			マズキに命乞いをする。	icon_skills.emergencyshield_tex
 5692007	Endurance	0	0	seta	6000	0	3064	過度な遊び			マズキが力を使用し過ぎてしばらくの間、怯みます。	icon_skills.lossofbalance_tex
@@ -1642,6 +1649,7 @@
 14400002	ASpd	0	0	perc	900000	0	1.15	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
 14400002	MovSpdInCombat	0	0	abs	900000	0	10	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
 14400002	AtkPotion	0	0	perc	900000	0	1.2	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
+14400002	CrystalBind	0	0	abs	900000	0	1	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
 14400003	Endurance	0	0	perc	900000	0	1.2	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	ASpd	0	0	perc	900000	0	1.15	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	MovSpdInCombat	0	0	abs	900000	0	10	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
@@ -1649,6 +1657,7 @@
 14400003	HPChange	0.01	0	perc	900000	1	0.01	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	AtkPotion	0	0	perc	900000	0	1.2	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	StaminaDecay	0	0	swch	900000	0	0	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
+14400003	CrystalBind	0	0	abs	900000	0	1	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400004	MPChange	0	0.05	perc	900000	1	0.05	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
 14400004	CDR	0	0	perc	900000	0	0.8	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
 14400005	MovSpdInCombat	0	0	abs	900000	0	10	Fleetfoot	152910	Permanent Fleetfoot Potion		icon_skills.speedupaura_tex

@@ -349,6 +349,11 @@
 4031	MPChange	0	0.13	perc	1800000	5	0.13	만능 전투 비약	101212	만능 전투 비약 (7일)	지속 시간 동안 아래의 효과를 얻습니다.<br><br>힘 27% 증가<br>맷집 20% 증가<br>매 5초마다 전체 MP의 13% 회복<br>공격 스킬의 재사용 시간 15% 감소<br>공격 속도 10 증가	icon_items.add_extract_potion_2_tex
 4031	CDR	0	0	perc	1800000	0	0.85	만능 전투 비약	101212	만능 전투 비약 (7일)	지속 시간 동안 아래의 효과를 얻습니다.<br><br>힘 27% 증가<br>맷집 20% 증가<br>매 5초마다 전체 MP의 13% 회복<br>공격 스킬의 재사용 시간 15% 감소<br>공격 속도 10 증가	icon_items.add_extract_potion_2_tex
 4404	Power	0	0	perc	604800000	0	1.1	[친구 초대 혜택] 공격력 10 % 증가 효과	81227	공격력 강화 시약	짜릿짜릿한 공격의 손맛을 느껴 보세요! 7일 동안 공격 시 공격력이 10%가 증가합니다. 다른 종류의 공격력 증가 아이템 사용 시 효과가 중복 적용되며 접속이 종료되어도 기간이 차감됩니다.	icon_status.buff_of_kaia_tex
+4600	CrystalBind	0	0	abs	3600000	0	1	크리스탈 보호 주문서	354	크리스탈 보호 주문서	사망 시 크리스탈이 깨지는 것을 방지하며 1만큼 중첩이 삭제됩니다. 이 효과는 최대 99번까지 중첩됩니다. 완전한 크리스탈 보호 주문서가 적용된 상태에선 효과가 적용되지 않습니다.	icon_items.q_closedspace_stone_05_tex
+4610	CCrystalBind	0	0	abs	43200000	0	1	완전한 크리스탈 보호 주문서	396	연합 보급품: 완전한 크리스탈 보호 주문서	사망 시 크리스탈이 깨지는 것을 방지합니다.	icon_items.q_closedspace_stone_05_tex
+4611	CCrystalBind	0	0	abs	3600000	0	1	완전한 크리스탈 보호 주문서	101008	[연합보급품] 완전한 크리스탈 보호 주문서(1시간)	사망 시 크리스탈이 깨지는 것을 방지합니다.	icon_items.q_closedspace_stone_05_tex
+4613	CCrystalBind	0	0	abs	0	0	1	완전한 크리스탈 보호 주문서(복귀자)			사망 시 크리스탈이 깨지는 것을 방지합니다.	icon_items.q_closedspace_stone_05_tex
+4614	CCrystalBind	0	0	abs	0	0	1	완전한 크리스탈 보호 주문서(프리미엄3개월)			사망 시 크리스탈이 깨지는 것을 방지합니다.	icon_items.q_closedspace_stone_05_tex
 4651	Endurance	0	0	perc	0	0	1	벨릭의 풍요로운 축복			인던 초심자와 함께 파티를 하여 인던 마지막 보스의 드랍률이 25% 상승합니다. 보스와의 전투 중에 초심자가 사망하여 일시적으로 축복이 사라지더라도 초심자가 보스의 100미터 이내에 있다면 드랍률 상승 효과는 유지됩니다.	icon_status.exp_buff_serenparty_tex
 4710	HPChange	-0.12	0	perc	3000	1	-0.12	저주 해방			1s마다 전체 HP 대비 12%에 달하는 HP가 지속적으로 감소됩니다.	icon_status.poisonstatus_tex
 4730	Power	0	0	perc	7200000	0	1	신성한 보호	103	신성한 보호의 물약	신성한 보호의 힘이 느껴집니다! 지속 시간 동안 아카샤의 사악한 파멸의 역병에 면역 상태가 되며, 신성한 보호는 죽어도 사라지지 않습니다.	icon_items.potion2_tex
@@ -1467,6 +1472,7 @@
 830003	Endurance	0	0	perc	5000	0	3	방어력 증가			방어력이 증가	icon_skills.voidtrap_tex
 830004	MPChange	0	0.05	perc	0	1	0.05	전사의 축복			1초마다 전체 MP 대비 5%에 달하는 MP가 지속적으로 회복됩니다.	icon_status.buff_of_kaia_tex
 830004	StaminaDecay	0	0	seta	0	0	0	전사의 축복			1초마다 전체 MP 대비 5%에 달하는 MP가 지속적으로 회복됩니다.	icon_status.buff_of_kaia_tex
+830004	CrystalBind	0	0	abs	0	0	1	전사의 축복			1초마다 전체 MP 대비 5%에 달하는 MP가 지속적으로 회복됩니다.	icon_status.buff_of_kaia_tex
 830007	Endurance	0	0	perc	5000	0	5	눈사람			몸이 얼어 붙어 눈사람이 되었습니다!	icon_items.snowman_scroll_tex
 830008	Endurance	0	0	perc	5000	0	1	눈사람 저항			잠시 눈사람이 되지 않습니다	icon_items.snowman_scroll_tex
 830010	HPChange	-0.03	0	perc	5000	2	-0.03	맹독			치명적인 독에 중독되어 2s마다 전체 HP 대비 3%에 달하는 HP가 지속적으로 감소됩니다.	icon_status.poisonstatus_tex
@@ -1658,8 +1664,10 @@
 5000000	Power	0	0	abs	0	0	3	오늘부터 우리는 강해진다!!			힘/맷집/충격/균형/치명타 유발/이동속도가 3만큼 증가합니다.	icon_items.wings_of_fairy_tex
 5000000	Endurance	0	0	abs	0	0	3	오늘부터 우리는 강해진다!!			힘/맷집/충격/균형/치명타 유발/이동속도가 3만큼 증가합니다.	icon_items.wings_of_fairy_tex
 5000000	Crit	0	0	abs	0	0	3	오늘부터 우리는 강해진다!!			힘/맷집/충격/균형/치명타 유발/이동속도가 3만큼 증가합니다.	icon_items.wings_of_fairy_tex
+5000003	CCrystalBind	0	0	abs	0	0	1	완전한 크리스탈 보호			사망 시 크리스탈이 깨지는 것을 방지합니다.	icon_items.q_closedspace_stone_05_tex
 5010000	HPChange	0.03	0	perc	30000	1	0.03	환영의 회복 포션	101305	환영의 회복 포션	30초 동안 1초 마다 전체 HP 대비 3%씩 총 90%의 HP가 지속적으로 회복됩니다.	icon_items.potion17_tex
 5690001	StaminaDecay	0	0	seta	0	0	0	기억의 추적자			기억의 파편 수집 중에는 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex
+5690001	CrystalBind	0	0	abs	0	0	1	기억의 추적자			기억의 파편 수집 중에는 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex
 5692001	Endurance	0	0	seta	0	0	9999999	놀이방의 지배자			놀이방에서는 대적할 자가 없습니다.	icon_skills.emergencyshield_tex
 5692006	Endurance	0	0	seta	0	0	9999999	생명력 구걸			마즈키에게 생명력을 구걸합니다.	icon_skills.emergencyshield_tex
 5692007	Endurance	0	0	seta	6000	0	3064	과도한 놀이			마즈키가 힘을 많이 사용하여 잠시 동안 약해집니다.	icon_skills.lossofbalance_tex
@@ -1741,11 +1749,13 @@
 14400002	ASpd	0	0	perc	900000	0	1.15	Memento of Fame	152904	Memento of Fame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex
 14400002	MovSpdInCombat	0	0	abs	900000	0	10	Memento of Fame	152904	Memento of Fame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex
 14400002	AtkPotion	0	0	perc	900000	0	1.2	Memento of Fame	152904	Memento of Fame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex
+14400002	CrystalBind	0	0	abs	900000	0	1	Memento of Fame	152904	Memento of Fame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex
 14400003	Endurance	0	0	perc	900000	0	1.2	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 이동 속도 10 증가 공격 속도 15% 증가 매 초마다 전체 HP의 1% 회복 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 몬스터 사냥시 드랍율 100% 증가 이동 속도 7% 증가	icon_items.parts_magicweaponc6_tex
 14400003	ASpd	0	0	perc	900000	0	1.15	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 이동 속도 10 증가 공격 속도 15% 증가 매 초마다 전체 HP의 1% 회복 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 몬스터 사냥시 드랍율 100% 증가 이동 속도 7% 증가	icon_items.parts_magicweaponc6_tex
 14400003	MovSpdInCombat	0	0	abs	900000	0	10	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 이동 속도 10 증가 공격 속도 15% 증가 매 초마다 전체 HP의 1% 회복 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 몬스터 사냥시 드랍율 100% 증가 이동 속도 7% 증가	icon_items.parts_magicweaponc6_tex
 14400003	HPChange	0.01	0	perc	900000	1	0.01	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 이동 속도 10 증가 공격 속도 15% 증가 매 초마다 전체 HP의 1% 회복 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 몬스터 사냥시 드랍율 100% 증가 이동 속도 7% 증가	icon_items.parts_magicweaponc6_tex
 14400003	AtkPotion	0	0	perc	900000	0	1.2	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 이동 속도 10 증가 공격 속도 15% 증가 매 초마다 전체 HP의 1% 회복 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 몬스터 사냥시 드랍율 100% 증가 이동 속도 7% 증가	icon_items.parts_magicweaponc6_tex
+14400003	CrystalBind	0	0	abs	900000	0	1	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 이동 속도 10 증가 공격 속도 15% 증가 매 초마다 전체 HP의 1% 회복 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 몬스터 사냥시 드랍율 100% 증가 이동 속도 7% 증가	icon_items.parts_magicweaponc6_tex
 14400004	MPChange	0	0.05	perc	900000	1	0.05	Power potion - CD, MP regen	152903	Emblem of Success	다음 효과들을 획득합니다.   연맹 스킬을 제외한 모든 스킬의 재사용 시간 20% 감소 매 초마다 전체 MP의 5% 회복	icon_status.darkriftareatimeshift_tex
 14400004	CDR	0	0	perc	900000	0	0.8	Power potion - CD, MP regen	152903	Emblem of Success	다음 효과들을 획득합니다.   연맹 스킬을 제외한 모든 스킬의 재사용 시간 20% 감소 매 초마다 전체 MP의 5% 회복	icon_status.darkriftareatimeshift_tex
 14400005	MovSpdInCombat	0	0	abs	900000	0	10	Fleetfoot	152910	Permanent Fleetfoot Potion	이동 속도가  10 증가됩니다.	icon_skills.speedupaura_tex
