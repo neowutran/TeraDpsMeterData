@@ -45,7 +45,6 @@
 916	Noctenium	0	0	swch	0	0	6	ノクタニウム強化弾	81212	【連盟補給品】ノクタニウム強化弾	ノクタニウム強化弾を使用し、スキルの効果を増大させます。 効果持続中はPvP攻撃力が8、PVP防御力が8上昇します。	icon_items.union_supplies5_tex
 1130	MPChange	0	0.04	perc	25000	1	0.04	ハートキャンディー	435	ハートキャンディー	キャンディーの甘さにより、1s毎に全MPの4％が回復します。	icon_items.heartlollipop_tex
 1131	MPChange	0	0.5	perc	1000	1	0.5	ハートチョコレート	434	ハートチョコレート	チョコレートの強烈な甘さにより、全MPの50％が即時に回復します。	icon_items.heartchocolate_tex
-1132	StaminaDecay	0	0	seta	1800000	0	0	愛の手紙	433	愛の手紙	手紙を読んだドキドキにより、効果が持続している間はコンディションが減少しません。	icon_items.loveletter_tex
 1133	MPChange	0	0.04	perc	25000	1	0.04	キラキラキャンディー			キャンディーにより、1s毎に全MPの4％が回復します。	icon_items.heartlollipop_tex
 1135	Endurance	0	0	perc	0	0	1	連合の召集			ヴァルキオン連合が新兵のためにクエスト報酬をUP！　反復クエストを除く全てのクエストのゴールド報酬が倍増します。	icon_status.plusfocus_tex
 1150	HPChange	0.01	0	perc	1800000	5	0.01	リジェネイトポーション			5s毎に全HPの1％が回復します。	icon_items.potion14_tex
@@ -309,6 +308,46 @@
 3001	Power	0	0	abs	60000	0	3	邪魂の気			力が3、攻撃速度が2%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
 3001	ASpd	0	0	perc	60000	0	1.02	邪魂の気			力が3、攻撃速度が2%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
 3002	Power	0	0	abs	60000	0	3	虐殺の気			力が3、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
+4000	Power	0	0	perc	1800000	0	1.09	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃時クリティカル威力+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4000	Endurance	0	0	perc	1800000	0	1.07	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃時クリティカル威力+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4000	CritPower	0	0	abs	1800000	0	0.54	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃時クリティカル威力+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4000	MPChange	0	0.045	perc	1800000	5	0.045	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃時クリティカル威力+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4000	CDR	0	0	perc	1800000	0	0.95	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃時クリティカル威力+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4001	Power	0	0	perc	1800000	0	1.09	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃速度+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4001	Endurance	0	0	perc	1800000	0	1.07	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃速度+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4001	ASpd	0	0	abs	1800000	0	5	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃速度+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4001	MPChange	0	0.045	perc	1800000	5	0.045	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃速度+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4001	CDR	0	0	perc	1800000	0	0.95	下級戦闘秘薬	200997	下級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力9％上昇<br>耐久力7％上昇<br>5秒毎に全体MPの4.5％回復<br>攻撃スキルのクールタイム5％減少<br>攻撃速度+0.54倍上昇	icon_items.add_extract_potion_2_tex
+4010	Power	0	0	perc	1800000	0	1.18	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％ 減少<br>攻撃時クリティカル威力+1.07倍上昇	icon_items.add_extract_potion_2_tex
+4010	Endurance	0	0	perc	1800000	0	1.14	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％ 減少<br>攻撃時クリティカル威力+1.07倍上昇	icon_items.add_extract_potion_2_tex
+4010	CritPower	0	0	abs	1800000	0	1.07	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％ 減少<br>攻撃時クリティカル威力+1.07倍上昇	icon_items.add_extract_potion_2_tex
+4010	MPChange	0	0.09	perc	1800000	5	0.09	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％ 減少<br>攻撃時クリティカル威力+1.07倍上昇	icon_items.add_extract_potion_2_tex
+4010	CDR	0	0	perc	1800000	0	0.9	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％ 減少<br>攻撃時クリティカル威力+1.07倍上昇	icon_items.add_extract_potion_2_tex
+4011	Power	0	0	perc	1800000	0	1.18	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％減少<br>攻撃速度7上昇	icon_items.add_extract_potion_2_tex
+4011	Endurance	0	0	perc	1800000	0	1.14	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％減少<br>攻撃速度7上昇	icon_items.add_extract_potion_2_tex
+4011	ASpd	0	0	abs	1800000	0	7	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％減少<br>攻撃速度7上昇	icon_items.add_extract_potion_2_tex
+4011	MPChange	0	0.09	perc	1800000	5	0.09	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％減少<br>攻撃速度7上昇	icon_items.add_extract_potion_2_tex
+4011	CDR	0	0	perc	1800000	0	0.9	中級戦闘秘薬	200998	中級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力18％上昇<br>耐久力14％上昇<br>5秒毎に全体MPの9％回復<br>攻撃スキルのクールタイム10％減少<br>攻撃速度7上昇	icon_items.add_extract_potion_2_tex
+4020	Power	0	0	perc	1800000	0	1.27	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4020	Endurance	0	0	perc	1800000	0	1.2	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4020	CritPower	0	0	abs	1800000	0	1.42	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4020	MPChange	0	0.13	perc	1800000	5	0.13	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4020	CDR	0	0	perc	1800000	0	0.85	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4021	Power	0	0	perc	1800000	0	1.27	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4021	Endurance	0	0	perc	1800000	0	1.2	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4021	ASpd	0	0	abs	1800000	0	10	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4021	MPChange	0	0.13	perc	1800000	5	0.13	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4021	CDR	0	0	perc	1800000	0	0.85	上級戦闘秘薬	200999	上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4030	Power	0	0	perc	1800000	0	1.27	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4030	Endurance	0	0	perc	1800000	0	1.2	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4030	CritPower	0	0	abs	1800000	0	1.42	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4030	MPChange	0	0.13	perc	1800000	5	0.13	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4030	CDR	0	0	perc	1800000	0	0.85	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃時クリティカル威力+1.42倍上昇	icon_items.add_extract_potion_2_tex
+4031	Power	0	0	perc	1800000	0	1.27	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4031	Endurance	0	0	perc	1800000	0	1.2	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4031	ASpd	0	0	abs	1800000	0	10	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4031	MPChange	0	0.13	perc	1800000	5	0.13	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
+4031	CDR	0	0	perc	1800000	0	0.85	万能戦闘秘薬	101212	万能戦闘秘薬（7日）	効果持続中、以下の効果が発生します。<br><br>力27％上昇<br>耐久力20％上昇<br>5秒毎に全体MPの13％回復<br>攻撃スキルのクールタイム15％減少<br>攻撃速度10上昇	icon_items.add_extract_potion_2_tex
 4404	Power	0	0	perc	604800000	0	1.1	【友達招待特典】攻撃力10％増加	81227	力の試薬	7日間、攻撃時に攻撃力が10%上昇します。他の攻撃力が上昇するアイテムの効果と重複して適用されます。接続を終了しても残り時間は減少します。	icon_status.buff_of_kaia_tex
 4600	CrystalBind	0	0	abs	3600000	0	1	光輝の書：クリスタル保護	354	光輝の書：クリスタル保護	死亡時にクリスタルが壊れるのを防止します。効果は最大99回まで重複します。「完全な光輝の書：クリスタル保護」適用中は、効果が発動されません。	icon_items.q_closedspace_stone_05_tex
 4610	CCrystalBind	0	0	abs	43200000	0	1	完全な光輝の書：クリスタル保護	396	【連合補給品】完全な光輝の書：クリスタル保護	効果持続中、死亡時にクリスタルが壊れるのを防止します。	icon_items.q_closedspace_stone_05_tex
@@ -644,8 +683,8 @@
 25010	Power	0	0	perc	15000	0	1.1	マナシールド(力の紋章)			力が10%上昇します。	icon_skills.manashield_tex
 25020	Endurance	0	0	perc	15000	0	1.2	マナシールド(保護の紋章)			耐久力が20%上昇します。	icon_skills.manashield_tex
 25021	Endurance	0	0	abs	15000	0	16	マナバースト(保護の紋章)			耐久力が16上昇します。	icon_skills.manaburst_tex
-25030	AtkPotion	0	0	perc	5000	0	1.25	アルケインパルス(連闘の紋章)			連係して「アイスアロー」使用時、スキル威力が25%増加します。	icon_skills.blastball_tex
-25050	AtkPotion	0	0	perc	10000	0	1.2	サンダーオーブ(連闘の紋章)			連係して「ヘルブラスト」使用時、スキル威力が20%増加します。	icon_skills.shocktrap_tex
+25030	AtkPotion	0	0	perc	5000	0	1.25	アルケインパルス(連闘の紋章)			連係して「フロストボール」使用時、スキル威力が25%増加します。	icon_skills.blastball_tex
+25050	AtkPotion	0	0	perc	10000	0	1.2	サンダーオーブ(連闘の紋章)			連係して「メテオインパクト」使用時、スキル威力が20%増加します。	icon_skills.shocktrap_tex
 25080	AtkPotion	0	0	perc	10000	0	1.35	ブレイジングブレス(連闘の紋章)			連係して「チェイスフレイム」使用時、スキル威力が35%増加します。	icon_skills.burningbreath_tex
 25130	AtkPotion	0	0	perc	5000	0	1.2	スキル威力増加［連闘の紋章］			連係して使用するスキルの威力が、1度だけ20%増加します。	icon_crest.crestnextskillattackup_tex
 25140	CastSpeed	0	0	perc	6000	0	1.3	フリーズグラウンド(連迅の紋章)			連係して「アルケインパルス」使用時、チャージ速度が30%上昇します。	icon_skills.freezingtheearth_tex
@@ -678,6 +717,7 @@
 27120	Endurance	0	0	perc	600000	0	1.1	プロテクションエレメント(協同の紋章)			耐久力が10%上昇します。	icon_skills.summonspiritofaggro_tex
 27140	HPChange	0.2	0	perc	1000	1	0.2	ヒールエネルギー(忍耐の紋章)			全HPの20％が回復します。	icon_skills.hprefresher_tex
 27160	Endurance	0	0	perc	21000	0	0.91	ペインカーズ(弱化の紋章)			耐久力が9%減少します。	icon_skills.painfulshackle_tex
+27170	HPChange	1	0	perc	1000	1	1	最大HP状態で回復「霊魂の紋章」			異常状態ツールチップ表示なし(isShow=False)このツールチップが見えたらBTS処理が必要！	icon_crest.crestpassivehpwhileheal_tex
 28010	AtkPotion	0	0	perc	6000	0	1.25	スカージングハンド(連闘の紋章)			連係して「パニシュメントハンド」使用時、スキル威力が25%増加します。	icon_skills.damagedeal_tex
 28020	AtkPotion	0	0	perc	5000	0	1.25	ダムネーションチェイン(連闘の紋章)			連係して「懲罰の幕」使用時、スキル威力が25%増加します。	icon_skills.divineretribution_tex
 28030	Endurance	0	0	perc	12000	0	1.3	プロテクションアーマー(保護の紋章)			耐久力が30%上昇します。	icon_skills.armorofprotection_tex
@@ -687,6 +727,7 @@
 28090	Endurance	0	0	perc	12000	0	0.9	ダムネーションチェイン(弱化の紋章)			耐久力が10%減少します。	icon_skills.divineretribution_tex
 28100	HPChange	0.05	0	perc	6000	2	0.05	プロテクションアーマー(救済の紋章)			2s毎に全HPの5％が回復します。	icon_skills.armorofprotection_tex
 28110	HPChange	0.15	0	perc	5000	1	0.15	HP持続回復［救済の紋章］			1s毎に全HPの15％が回復します。	icon_crest.crestpassivehpwhileheal_tex
+28111	HPChange	1	0	perc	1000	1	1	最大HP状態で回復「霊魂の紋章」			異常状態ツールチップ表示なし(isShow=False)このツールチップが見えたらBTS処理が必要！	icon_crest.crestpassivehpwhileheal_tex
 28130	MPChange	0	50	abs	5000	1	50	リプロダクションサンクチュアリ(精神の紋章)			1s毎に、MP50回復します。	icon_skills.sanctuaryofregeneration_tex
 28131	AtkPotion	0	0	perc	5000	0	1.4	マナレジェン(連闘の紋章)			連係して「スカージングハンド」使用時、スキル威力が40%増加します。	icon_skills.manarejuvenation_tex
 28132	AtkPotion	0	0	perc	6000	0	1.4	スカージングハンド(連闘の紋章)			連係して「パニシュメントハンド」使用時、スキル威力が40%増加します。	icon_skills.damagedeal_tex
@@ -719,17 +760,12 @@
 32044	AtkPotion	0	0	perc	5000	0	1.3	三連殺(連闘の紋章)			連係して「天地落とし」使用時、スキル威力が30%増加します。	icon_skills.c12_airstepstrike
 32047	AtkPotion	0	0	perc	5000	0	1.3	二段斬り(連闘の紋章)			連係して「三連殺」使用時、スキル威力が30%増加します。	icon_skills.c12_twinslash
 32060	ASpd	0	0	perc	5000	0	1.1	連撃(迅速の紋章)			攻撃速度が10%上昇します。	icon_skills.comboattack_tex
-46700	Endurance	0	0	perc	0	0	1	ターゲット確認用0				icon_skills.markingofarcher_tex
-46701	Endurance	0	0	perc	2000	0	1	ターゲット確認用1				icon_skills.markingofarcher_tex
-46702	Endurance	0	0	perc	2000	0	1	ターゲット確認用2				icon_skills.markingofarcher_tex
-46703	Endurance	0	0	perc	2000	0	1	ターゲット確認用3				icon_skills.markingofarcher_tex
-46704	Endurance	0	0	perc	2000	0	1	ターゲット確認用4				icon_skills.markingofarcher_tex
-46705	Endurance	0	0	perc	60000	0	0.9	ディザスター			酸により耐久力が減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex
+46705	Endurance	0	0	perc	60000	0	0.95	ディザスター			酸により耐久力が減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex
 46706	Endurance	0	0	perc	60000	0	0.85	カタストロフィ			酸により耐久力が大幅に減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex
 46750	Power	0	0	perc	180000	0	1.2	燃え上がる怒り			燃え上がる怒りによって、力が20%、防御力が20%上昇します。	icon_status.archerspirit_tex
 46750	Endurance	0	0	perc	180000	0	1.2	燃え上がる怒り			燃え上がる怒りによって、力が20%、防御力が20%上昇します。	icon_status.archerspirit_tex
 46751	Endurance	0	0	perc	20000	0	1.2	堅鎧			防御力が20%上昇します。	icon_status.balanceup_tex
-46756	HPChange	-10000	0	abs	30000	2	-10000	排水			汚水により、2秒毎にHPが10,000減少します。	icon_status.purifydagon_tex
+46756	HPChange	-5000	0	abs	30000	2	-5000	排水			汚水により、2秒毎にHPが5,000減少します。	icon_status.purifydagon_tex
 46761	Power	0	0	perc	30000	0	0.5	汚染された排水			体に漂う不思議な気により力が入りません。力が50%、攻撃速度が70%減少します。	icon_items.q_greenmucus_tex
 46761	ASpd	0	0	perc	30000	0	0.3	汚染された排水			体に漂う不思議な気により力が入りません。力が50%、攻撃速度が70%減少します。	icon_items.q_greenmucus_tex
 46762	MovSpdInCombat	0	0	abs	30000	0	40	正体不明	46701	正体不明の玉	全ての障害ステータスを無視し、移動速度が上昇しますが、攻撃力は大幅に減少します。	icon_status.confusestatusnpc_tex
@@ -769,6 +805,14 @@
 60020	HPChange	-250	0	abs	10000	1	-250	衰弱の気（呪い）			体に不思議な気が漂っています。HPが1s毎に-250ずつ減少し、移動速度も-250減少します。	icon_status.minusmove_tex
 60021	Power	0	0	perc	10000	0	0.5	好奇心の代償（呪い）			体に漂う不思議な気により力が入りません。力が50%、攻撃速度が70%減少します。	icon_skills.ribbreaker_tex
 60021	ASpd	0	0	perc	10000	0	0.3	好奇心の代償（呪い）			体に漂う不思議な気により力が入りません。力が50%、攻撃速度が70%減少します。	icon_skills.ribbreaker_tex
+60022	Power	0	0	abs	20000	0	15	野獣の歓喜IV			力が15、攻撃速度が5%上昇します。	icon_items.weapon_enchant_scroll_3_tex
+60022	ASpd	0	0	perc	20000	0	1.05	野獣の歓喜IV			力が15、攻撃速度が5%上昇します。	icon_items.weapon_enchant_scroll_3_tex
+60023	Crit	0	0	abs	20000	0	25	野獣の戦慄 IV			クリティカル発生が25、攻撃速度が5%上昇します。	icon_items.weapon_enchant_scroll_3_tex
+60023	ASpd	0	0	perc	20000	0	1.05	野獣の戦慄 IV			クリティカル発生が25、攻撃速度が5%上昇します。	icon_items.weapon_enchant_scroll_3_tex
+60024	MPChange	0	436	abs	1000	1	436	精霊の風 IV			MPが1s毎に436ずつ回復します。	icon_items.weapon_enchant_scroll_3_tex
+60025	HPChange	-1200	0	abs	10000	1	-1200	女神の報復 IV			鋭利な鎧によって出血しました。HPが1s毎に-1200ずつ減少します。	icon_status.minuscriticalresist_tex
+60027	HPChange	1405	0	abs	15000	1	1405	女神の免罪IV			1s毎にHPが1405ずつ、MPが145ずつ回復します。	icon_items.body_enchant_scroll_3_tex
+60027	MPChange	0	145	abs	15000	1	145	女神の免罪IV			1s毎にHPが1405ずつ、MPが145ずつ回復します。	icon_items.body_enchant_scroll_3_tex
 70202	HPChange	0.01	0	perc	900000	5	0.01	ポテトサラダ	71416	ポテトサラダ	5s毎に全HPの1％が回復します。	icon_items.fallfestival_potatosalad_tex
 70203	MPChange	0	0.01	perc	900000	5	0.01	ピグリンソテー	71417	ピグリンソテー	5s毎に$1％ずつMPが持続回復します。	icon_items.q_roastmeat_tex
 70211	Crit	0	0	abs	900000	0	10	ブロッコリースープ	71413	ブロッコリースープ	最大HPが5%増加し、クリティカル発生が10上昇します。	icon_items.fallfestival_broccolisoup_tex
@@ -784,12 +828,9 @@
 70223	Power	0	0	abs	900000	0	2	ハーフムーンコロッケ	71421	ハーフムーンコロッケ	5s毎に全HPの1％のMPが回復し、力が2、攻撃速度が3上昇します。	icon_items.fallfestival_croquette_tex
 70223	ASpd	0	0	abs	900000	0	3	ハーフムーンコロッケ	71421	ハーフムーンコロッケ	5s毎に全HPの1％のMPが回復し、力が2、攻撃速度が3上昇します。	icon_items.fallfestival_croquette_tex
 70223	MPChange	0	0.01	perc	900000	5	0.01	ハーフムーンコロッケ	71421	ハーフムーンコロッケ	5s毎に全HPの1％のMPが回復し、力が2、攻撃速度が3上昇します。	icon_items.fallfestival_croquette_tex
-70231	Stamina	0	0	abs	900000	0	15	リカノールファイヤーサラダ	71423	リカノールファイヤーサラダ	最大コンディションが15上昇します。	icon_items.fallfestival_rikanosalad_tex
-70232	StaminaDecay	0	0	seta	900000	0	0	ヴェリックウィング			効果持続時間中、コンディションが減少しません。	icon_items.fallfestival_wing_tex
+70232	CritResist	0	0	abs	900000	0	20	ヴェリックウィング	71424	ヴェリックウィング	クリティカル抵抗が20 上昇します。	icon_items.fallfestival_wing_tex
 70237	ASpd	0	0	abs	10000	0	20	レイナーの黒ビール	80081	レイナーの黒ビール	10s間、攻撃速度が20上昇しますが、強いめまいに襲われることがあります。	icon_items.solventc15_tex
 70238	Endurance	0	0	abs	10000	0	10	タッカーのカボチャ酒	80082	タッカーのカボチャ酒	10s間、耐久力が10増加しますが、強いめまいに襲われることがあります。	icon_items.solventd5_tex
-70239	Stamina	0	0	abs	10000	0	15	リカノールファイヤーサラダ			コンディションが15上昇します。	icon_items.fallfestival_rikanosalad_tex
-70240	StaminaDecay	0	0	seta	10000	0	0	ヴェリックウィング			効果持続時間中、コンディションが減少しません。	icon_items.fallfestival_wing_tex
 70301	MovSpdInCombat	0	0	abs	180000	0	2	聖域_精霊の波紋(臨時)			戦闘中の移動速度が2上昇します。効果は最大3回まで重複します。	icon_status.aura_of_wind_tex
 70303	Stamina	0	0	abs	180002	0	5	聖域_活力の波紋(臨時)			最大コンディションが5上昇します。効果は最大3回まで重複します。	icon_status.aura_of_condition_tex
 70304	HPChange	0.005	0	perc	180003	3	0.005	聖域_再生の波紋(臨時)			3s毎に全HPの0.5％が回復します。効果は最大3回まで重複します。	icon_status.aura_of_regeneration_hp_tex
@@ -806,6 +847,10 @@
 70459	ASpd	0	0	perc	600000	0	1.01	あがき			グリーンデラが空腹に耐えきれずあがきます。あがく度に攻撃速度が1%増加し、この効果は解除できません。	icon_status.plusattack_tex
 70463	HPChange	-0.03	0	perc	1000	1	-0.03	猛毒			致命的な毒に侵され全体HP対比3%に達するHPが持続的に減少します。	icon_status.poisonstatus_tex
 76756	HPChange	-5000	0	abs	30000	2	-5000	排水			汚水により、2秒毎にHPが5,000減少します。	icon_status.purifydagon_tex
+76902	Power	0	0	perc	0	0	5	凶暴化			凶暴化し何人たりとも、止めることはできません。	icon_status.darkriftarearage_tex
+76902	ASpd	0	0	perc	0	0	2	凶暴化			凶暴化し何人たりとも、止めることはできません。	icon_status.darkriftarearage_tex
+76903	HPChange	-0.05	0	perc	10000	2	-0.05	火傷			移動速度が 10％ 減少されて2秒毎に HP 5％が減少します。この効果は重複し、解除できません。	icon_status.minuscriticalresist_tex
+76904	HPChange	-0.06	0	perc	5000	1	-0.06	精霊の花火			精霊の花火が防具の中に跳ね入り、1秒ごとに  HP 6％のダメージを与えます。この効果は解除できません。	icon_status.mprecoverup_tex
 81163	Power	0	0	abs	600000	0	0	熱き友情			フレンド召喚により、友情が加熱しました。この効果が発生している間は、フレンド召喚ができません。	icon_status.darkriftareatimeshift_tex
 82102	Endurance	0	0	perc	45000	0	1.3	砲弾抵抗ポーション			45sの間、砲弾によるダメージを減少させます。	icon_items.potion16_tex
 82601	MovSpdInCombat	0	0	seta	5000	0	0	闇の結界			デュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex
@@ -823,6 +868,10 @@
 90200	MPChange	0	0.05	perc	10000	1	0.05	コアの祝福			1s毎に全MPの5％が回復します。	icon_skills.arcanebirthright_tex
 90300	MovSpdInCombat	0	0	abs	180000	0	30	紋章覚醒			戦闘中の移動速度が30上昇し、ダウン発生率が20%上昇します。ダウンすると即解除されます。	icon_skills.markoflok_tex
 90600	HPChange	1	0	perc	1000	1	1	万物融和			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.earthmeld_tex
+96902	Power	0	0	perc	0	0	5	凶暴化			凶暴化し何人たりとも、止めることはできません。	icon_status.darkriftarearage_tex
+96902	ASpd	0	0	perc	0	0	2	凶暴化			凶暴化し何人たりとも、止めることはできません。	icon_status.darkriftarearage_tex
+96903	HPChange	-0.05	0	perc	10000	2	-0.05	火傷			移動速度が 10％ 減少されて2秒毎に HP 5％が減少します。この効果は重複し、解除できません。	icon_status.minuscriticalresist_tex
+96904	HPChange	-0.06	0	perc	5000	1	-0.06	精霊の花火			精霊の花火が防具の中に跳ね入り、1秒ごとに  HP 6％のダメージを与えます。この効果は解除できません。	icon_status.mprecoverup_tex
 100100	Power	0	0	abs	0	0	5	ブレードスタンス			力が5、クリティカル発生が30上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
 100100	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力が5、クリティカル発生が30上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
 100100	Crit	0	0	abs	0	0	30	ブレードスタンス			力が5、クリティカル発生が30上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
@@ -934,7 +983,7 @@
 429003	MovSpdInCombat	0	0	abs	10000	0	1	コルヌスの標的			復活のコルヌスに狙われています！	icon_skills.markingofarcher_tex
 429004	Endurance	0	0	abs	10000	0	1	コルヌスの標的			カプリコーンに狙われています！ 鋭い視線が突き刺さります。カプリコーンに狙われている間、死ぬことはありません。	icon_skills.markingofarcher_tex
 429004	MovSpdInCombat	0	0	abs	10000	0	1	コルヌスの標的			カプリコーンに狙われています！ 鋭い視線が突き刺さります。カプリコーンに狙われている間、死ぬことはありません。	icon_skills.markingofarcher_tex
-429006	HPChange	-0.05	0	perc	15000	1	-0.05	蛇の毒			蛇の頭の中にいます。毒によって持続的にHPが減ります。	icon_status.poisonup_tex
+429006	HPChange	-0.02	0	perc	15000	1	-0.02	蛇の毒			蛇の頭の中にいます。毒によって持続的にHPが減ります。	icon_status.poisonup_tex
 429006	Block	0	0	swch	15000	0	0	蛇の毒			蛇の頭の中にいます。毒によって持続的にHPが減ります。	icon_status.poisonup_tex
 429007	Power	0	0	perc	30000	0	0.5	出血			ドリルに巻き込まれて出血しています。出血により意識がもうろうとして力が入らず、HPが持続的に減ります。	icon_status.blooduanty_tex
 429007	HPChange	-3000	0	abs	30000	1	-3000	出血			ドリルに巻き込まれて出血しています。出血により意識がもうろうとして力が入らず、HPが持続的に減ります。	icon_status.blooduanty_tex
@@ -944,7 +993,7 @@
 429011	HPChange	-5000	0	abs	15000	1	-5000	カプリコーンの呪い			五芒星の呪いを受けました。全身が呪いの炎に焼かれて持続的にHPが減少します。またカプリコーンから受けるダメージが1.3倍増加します。	icon_status.curse_tex
 429011	Mark	0	0	swch	15000	0	1.3	カプリコーンの呪い			五芒星の呪いを受けました。全身が呪いの炎に焼かれて持続的にHPが減少します。またカプリコーンから受けるダメージが1.3倍増加します。	icon_status.curse_tex
 429013	MovSpdInCombat	0	0	abs	0	0	0	ボール_基本的に持っている異常状態			異常状態ツールチップ表示不可(isShow=False)このツールチップが見えるとBTS処理必要！	icon_status.blooduanty_tex
-429017	HPChange	-0.5	0	perc	1000	1	-0.5	ドリルの痛み			異常状態ツールチップ表示不可(isShow=False)このツールチップが見えるとBTS処理必要！	icon_skills.markingofarcher_tex
+429017	HPChange	-0.25	0	perc	1000	1	-0.25	ドリルの痛み			異常状態ツールチップ表示不可(isShow=False)このツールチップが見えるとBTS処理必要！	icon_skills.markingofarcher_tex
 429019	Power	0	0	perc	10000	0	1	カプリコーンの標的			カプリコーンに狙われています！	icon_skills.markingofarcher_tex
 429019	Endurance	0	0	perc	10000	0	1	カプリコーンの標的			カプリコーンに狙われています！	icon_skills.markingofarcher_tex
 429019	MovSpdInCombat	0	0	perc	10000	0	1	カプリコーンの標的			カプリコーンに狙われています！	icon_skills.markingofarcher_tex
@@ -992,9 +1041,9 @@
 468015	Power	0	0	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex
 468015	Endurance	0	0	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex
 468015	ASpd	0	0	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex
-468037	HPChange	-0.2	0	perc	10000	2	-0.2	魔力			デュリオンの魔力により、HPが持続的に減少します。	icon_status.blooduanty_tex
-468038	Power	0	0	perc	990000000	0	1.05	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。完全体デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
-468038	ASpd	0	0	perc	990000000	0	1.05	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。完全体デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
+468037	HPChange	-0.1	0	perc	10000	2	-0.1	魔力			デュリオンの魔力により、HPが持続的に減少します。	icon_status.blooduanty_tex
+468038	Power	0	0	perc	990000000	0	1.03	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。完全体デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
+468038	ASpd	0	0	perc	990000000	0	1.03	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。完全体デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
 468041	HPChange	-0.01	0	perc	10000	2	-0.01	不安定な魔力			デュリオンの魔力により、HPが持続的に減少します。	icon_status.minushp_tex
 468042	MovSpdInCombat	0	0	perc	30000	0	0.26	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex
 468043	Endurance	0	0	perc	0	0	5	黒魔法			デュリオンが邪悪な黒魔法を使い防御力が上昇しています。	icon_status.plusedefence_tex
@@ -1084,7 +1133,10 @@
 477101	CritResist	0	0	perc	0	0	2	コアバリア			均衡が100%、クリティカル抵抗が100%、耐久力が100%上昇します。 この効果は解除できません。	icon_status.plusedefence_tex
 494550	HPChange	-0.02	0	perc	0	1	-0.02	ポイズンブラッド			感染源が近くにあります！　1s毎に全HPの2％が減少します。	icon_status.poisonstatus_tex
 495006	AtkPotion	0	0	perc	0	0	0.5	業火の呪い - 効果			スキル威力が50%減少します。自身とパーティーメンバーから「無能の結界－放出」の効果が完全に解除されるまで持続します。	icon_status.minusattack_tex
-500100	AtkPotion	0	0	perc	20000	0	1.25	アドヴェントコントラクト			「ヘルブラスト」、「チェイスフレイム」、「アドヴェントパルス」、「マナバースト」の一撃のダメージが25%増加します。	icon_skills.kicharge_tex
+500100	ASpd	0	0	perc	15000	0	1.2	マナイグニッションI			攻撃速度が20％上昇し、モンスター攻撃時、スキルダメージが10% 増加します。	icon_skills.c5_strengthenmana
+500100	AtkPotion	0	0	perc	15000	0	1.1	マナイグニッションI			攻撃速度が20％上昇し、モンスター攻撃時、スキルダメージが10% 増加します。	icon_skills.c5_strengthenmana
+500150	ASpd	0	0	perc	15000	0	1.3	マナイグニッションII			攻撃速度が30％増加し、モンスター攻撃時、スキルダメージが20% 増加します。	icon_skills.c5_strengthenmana
+500150	AtkPotion	0	0	perc	15000	0	1.2	マナイグニッションII			攻撃速度が30％増加し、モンスター攻撃時、スキルダメージが20% 増加します。	icon_skills.c5_strengthenmana
 500300	MPChange	0	120	abs	25000	2	120	マナアグロメレーション I			2s毎にMPが120回復します。	icon_skills.mpcondensing_tex
 500301	MPChange	0	120	abs	25000	1	120	マナアグロメレーション			1s毎にMPが120回復します。	icon_skills.mpcondensing_tex
 500700	HPChange	-26	0	abs	10000	2	-26	パンブラスト I			怨念により、2s毎にHPが-26減少します。	icon_skills.disease_tex
@@ -1243,19 +1295,7 @@
 701200	CDR	0	0	perc	6000	0	1.2	ラジネスチャーム I			効果持続中は、全てのスキルのクールタイムが20%延長されます。	icon_skills.spiritoflassitude_tex
 701201	CDR	0	0	perc	8000	0	1.2	ラジネスチャーム			効果持続中は、全てのスキルのクールタイムが20%延長されます。	icon_skills.spiritoflassitude_tex
 701202	CDR	0	0	perc	10000	0	1.2	ラジネスチャーム III			効果持続中は、全てのスキルのクールタイムが20%延長されます。	icon_skills.spiritoflassitude_tex
-701500	HPChange	390	0	abs	3000	1	390	ヒールエネルギー I	8008	回復の玉 I	1s毎にHPが390回復します。	icon_skills.hprefresher_tex
-701501	HPChange	515	0	abs	3000	1	515	ヒールエネルギー II	8009	回復の玉 II	1s毎にHPが515回復します。	icon_skills.hprefresher_tex
-701502	HPChange	716	0	abs	3000	1	716	ヒールエネルギー III	8010	回復の玉 III	1s毎にHPが716回復します。	icon_skills.hprefresher_tex
-701503	HPChange	994	0	abs	3000	1	994	ヒールエネルギー IV	8011	回復の玉 IV	1s毎にHPが994回復します。	icon_skills.hprefresher_tex
-701504	HPChange	1375	0	abs	3000	1	1375	ヒールエネルギー V	8012	回復の玉 V	1s毎にHPが1375回復します。	icon_skills.hprefresher_tex
-701505	HPChange	1901	0	abs	3000	1	1901	ヒールエネルギー VI	8013	回復の玉 VI	1s毎にHPが1901回復します。	icon_skills.hprefresher_tex
-701506	HPChange	2626	0	abs	3000	1	2626	ヒールエネルギー VII	8014	回復の玉 VII	1s毎にHPが2626回復します。	icon_skills.hprefresher_tex
-701507	HPChange	3627	0	abs	3000	1	3627	ヒールエネルギー VIII	8015	回復の玉 VIII	1s毎にHPが3627回復します。	icon_skills.hprefresher_tex
-701508	HPChange	5007	0	abs	3000	1	5007	ヒールエネルギー IX	8016	回復の玉 IX	1s毎にHPが5007回復します。	icon_skills.hprefresher_tex
-701509	HPChange	6921	0	abs	3000	1	6921	ヒールエネルギー X	8017	回復の玉 X	1s毎にHPが6921回復します。	icon_skills.hprefresher_tex
-701510	HPChange	10254	0	abs	3000	1	10254	ヒールエネルギー XI	8018	回復の玉 XI	1s毎にHPが10254回復します。	icon_skills.hprefresher_tex
-701511	HPChange	10254	0	abs	3000	1	10254	ヒールエネルギー XII			1s毎にHPが10254回復します。	icon_skills.hprefresher_tex
-701550	MPChange	0	0.2	perc	1000	1	0.2	マナエネルギー I	8023	魔力の玉	異常状態ツールチップ表示されない（isShow=False）このツールチップが出たらBTS処理必要！	
+701511	HPChange	10254	0	abs	3000	1	10254	ヒールエネルギー XII			1秒ごとに 10342ずつ HPが持続的に回復します。重複効果は1.3倍だけ適用します。	icon_skills.hprefresher_tex
 701601	ASpd	0	0	perc	3000	0	0.9	霊気召喚 - 束縛 I			攻撃速度が10%減少します。	icon_skills.energiesofrestriction_tex
 701602	ASpd	0	0	perc	3000	0	1.05	霊気召喚 - 迅速 I			攻撃速度が5%上昇します。	icon_skills.energiesofquickness_tex
 701605	HPChange	529	0	abs	15000	2	529	ガードスピリット I			召喚された霊気により2s毎にHPが529回復します。	icon_skills.energiesofprotection_tex
@@ -1309,8 +1349,8 @@
 768015	Endurance	0	0	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex
 768015	ASpd	0	0	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex
 768037	HPChange	-0.1	0	perc	10000	2	-0.1	魔力			デュリオンの魔力により、HPが持続的に減少します。	icon_status.blooduanty_tex
-768038	Power	0	0	perc	990000000	0	1.02	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
-768038	ASpd	0	0	perc	990000000	0	1.02	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
+768038	Power	0	0	perc	990000000	0	1.01	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
+768038	ASpd	0	0	perc	990000000	0	1.01	不安定な魔力			不安定な魔力が完全体デュリオンの体を包んでいます。デュリオンの攻撃力と攻撃速度が増加します。	icon_status.darkriftarearage_tex
 768041	HPChange	-0.01	0	perc	10000	2	-0.01	不安定な魔力			デュリオンの魔力により、HPが持続的に減少します。	icon_status.minushp_tex
 768042	MovSpdInCombat	0	0	perc	30000	0	0.26	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex
 768043	Endurance	0	0	perc	0	0	5	黒魔法			デュリオンが邪悪な黒魔法を使い防御力が上昇しています。	icon_status.plusedefence_tex
@@ -1402,9 +1442,9 @@
 801503	ASpd	0	0	abs	20000	0	8	シークレッドサンダー IV			力が40、攻撃速度が8上昇します。	icon_skills.divinelightning_tex
 801600	HPChange	562	0	abs	3000	1	562	ヒーリングフェザー I			1s毎にHPが625回復します。	icon_skills.curewing_tex
 801601	HPChange	564	0	abs	3000	1	564	ヒーリングフェザー I			1s毎にHPが625回復します。	icon_skills.curewing_tex
-801800	MPChange	0	0.04	perc	1000	1	0.04	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
-801801	MPChange	0	0.1	perc	1000	1	0.1	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
-801802	MPChange	0	0.2	perc	1000	1	0.2	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
+801800	MPChange	0	0.08	perc	1000	1	0.08	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
+801801	MPChange	0	0.16	perc	1000	1	0.16	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
+801802	MPChange	0	0.32	perc	1000	1	0.32	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
 805600	Endurance	0	0	abs	900000	0	6	ブレシングシャラ I			シャラの祝福を受け、2秒毎にHPが持続的に回復され、耐久力が6上昇します。	icon_skills.agilitybless_tex
 805600	HPChange	55	0	abs	900000	2	55	ブレシングシャラ I			シャラの祝福を受け、2秒毎にHPが持続的に回復され、耐久力が6上昇します。	icon_skills.agilitybless_tex
 805601	Endurance	0	0	abs	900000	0	6	ブレシングシャラ II			シャラの祝福を受け、2秒毎にHPが持続的に回復され、耐久力が6上昇します。	icon_skills.agilitybless_tex
@@ -1428,9 +1468,9 @@
 821100	ASpd	0	0	perc	0	0	0.5	シオズの叫び			シオズの魂が身体を束縛している。攻撃速度が50%減少します。	icon_status.positionswap_tex
 830002	Endurance	0	0	perc	5000	0	0.05	防御力減少			防御力減少	icon_skills.armorbreak_tex
 830003	Endurance	0	0	perc	5000	0	3	防御力上昇			防御力上昇	icon_skills.voidtrap_tex
-830004	MPChange	0	0.05	perc	0	1	0.05	戦士の祝福			1s毎に全MPの5％のMPとコンディションが回復します。	icon_status.buff_of_kaia_tex
-830004	StaminaDecay	0	0	seta	0	0	0	戦士の祝福			1s毎に全MPの5％のMPとコンディションが回復します。	icon_status.buff_of_kaia_tex
-830004	CrystalBind	0	0	abs	0	0	1	戦士の祝福			1s毎に全MPの5％のMPとコンディションが回復します。	icon_status.buff_of_kaia_tex
+830004	MPChange	0	0.05	perc	0	1	0.05	戦士の祝福			毎秒全MPの5％回復します。	icon_status.buff_of_kaia_tex
+830004	StaminaDecay	0	0	seta	0	0	0	戦士の祝福			毎秒全MPの5％回復します。	icon_status.buff_of_kaia_tex
+830004	CrystalBind	0	0	abs	0	0	1	戦士の祝福			毎秒全MPの5％回復します。	icon_status.buff_of_kaia_tex
 830007	Endurance	0	0	perc	5000	0	5	スノーマン			体が凍りつき、スノーマンになりました！	icon_items.snowman_scroll_tex
 830008	Endurance	0	0	perc	5000	0	1	スノーマン抵抗			しばらくの間スノーマンになりません	icon_items.snowman_scroll_tex
 830010	HPChange	-0.03	0	perc	5000	2	-0.03	猛毒			2s毎に全HPの3％が持続的に減少します。	icon_status.poisonstatus_tex
@@ -1492,8 +1532,8 @@
 905653	Power	0	0	perc	0	0	1.3	女神の手招き			バルロナの攻撃力が30%、防御力が100%、攻撃速度が20%上昇します。	icon_status.valrhona_goddess_tex
 905653	Endurance	0	0	perc	0	0	2	女神の手招き			バルロナの攻撃力が30%、防御力が100%、攻撃速度が20%上昇します。	icon_status.valrhona_goddess_tex
 905653	ASpd	0	0	perc	0	0	1.2	女神の手招き			バルロナの攻撃力が30%、防御力が100%、攻撃速度が20%上昇します。	icon_status.valrhona_goddess_tex
-905661	HPChange	0.03	0	perc	90000	5	0.03	太陽の光			5秒毎に全HPの約3％が回復し、コンディションが減少しません。	icon_status.valrhona_sun_tex
-905661	StaminaDecay	0	0	swch	90000	0	0	太陽の光			5秒毎に全HPの約3％が回復し、コンディションが減少しません。	icon_status.valrhona_sun_tex
+905661	HPChange	0.03	0	perc	90000	5	0.03	太陽の光			5秒毎に全HPの3％が回復する。	icon_status.valrhona_sun_tex
+905661	StaminaDecay	0	0	swch	90000	0	0	太陽の光			5秒毎に全HPの3％が回復する。	icon_status.valrhona_sun_tex
 905662	MPChange	0	1	perc	90000	15	1	悪魔の微笑			15秒毎にMPが100％回復します。	icon_status.valrhona_devil_tex
 905663	Endurance	0	0	perc	90000	0	1.2	女神の手招き			耐久力が20％上昇します。	icon_status.valrhona_goddess_tex
 905669	Power	0	0	perc	30000	0	2	進化：蒼眼の白竜			宝玉の力により、強力な力を獲得しました。	icon_status.battlecommand01_tex
@@ -1538,8 +1578,8 @@
 975652	Endurance	0	0	perc	0	0	1.25	悪魔の微笑			バルロナの攻撃力が10%、防御力が25%上昇します。	icon_status.valrhona_devil_tex
 975653	Power	0	0	perc	0	0	1.1	女神の手招き			バルロナの攻撃力が10%、防御力が25%上昇します。	icon_status.valrhona_goddess_tex
 975653	Endurance	0	0	perc	0	0	1.25	女神の手招き			バルロナの攻撃力が10%、防御力が25%上昇します。	icon_status.valrhona_goddess_tex
-975661	HPChange	0.03	0	perc	90000	5	0.03	太陽の光			5秒毎に全HPの約3％が回復し、コンディションが減少しません。	icon_status.valrhona_sun_tex
-975661	StaminaDecay	0	0	swch	90000	0	0	太陽の光			5秒毎に全HPの約3％が回復し、コンディションが減少しません。	icon_status.valrhona_sun_tex
+975661	HPChange	0.03	0	perc	90000	5	0.03	太陽の光			5秒毎に全HPの3％が回復する。	icon_status.valrhona_sun_tex
+975661	StaminaDecay	0	0	swch	90000	0	0	太陽の光			5秒毎に全HPの3％が回復する。	icon_status.valrhona_sun_tex
 975662	MPChange	0	1	perc	90000	15	1	悪魔の微笑			15秒毎にMPが100%回復します。	icon_status.valrhona_devil_tex
 975663	Endurance	0	0	perc	90000	0	1.05	女神の手招き			防御力が5%上昇します。	icon_status.valrhona_goddess_tex
 988514	Endurance	0	0	perc	0	1	1.05	耐久度増加(1段階)			自身とパーティメンバーの耐久力が5％上昇します。	icon_status.battlecommand04_tex
@@ -1570,19 +1610,23 @@
 999998	Power	0	0	abs	900000	0	0	脱走兵			戦場から逃亡しました。脱走中は、戦場に参加することができません。	icon_status.boundmoveup_tex
 3000001	MPChange	0	0.005	perc	0	1	0.005	すっきりドライブ			毎秒全MPの0.5％が回復します。	icon_status.aura_of_regeneration_mp_tex
 3000002	HPChange	0.005	0	perc	0	1	0.005	はつらつドライブ			毎秒全HPの0.5％が回復します。	icon_status.aura_of_regeneration_hp_tex
+3000003	HPChange	0.005	0	perc	0	1	0.005	穏やかな搭乗（HP、MP回復）			搭乗中、毎秒全HP、MPの0.5％ずつ回復します。	icon_status.aura_of_condition_tex
+3000003	MPChange	0	0.005	perc	0	1	0.005	穏やかな搭乗（HP、MP回復）			搭乗中、毎秒全HP、MPの0.5％ずつ回復します。	icon_status.aura_of_condition_tex
 3000004	HPChange	0.005	0	perc	0	1	0.005	虎の気(HP回復)			毎秒全HPの0.5％が回復します。	icon_status.aura_of_regeneration_hp_tex
-3000005	MPChange	0	0.005	perc	0	1	0.005	麒麟の恩寵（コンディション及びMP回復）			搭乗中は、コンディションが少しずつ回復し、毎秒全MPの0.5％が回復します。	icon_status.aura_of_condition_tex
-3000006	HPChange	0.005	0	perc	0	1	0.005	調教師カルランの貫禄(ネットカフェー）			毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
-3000006	MPChange	0	0.005	perc	0	1	0.005	調教師カルランの貫禄(ネットカフェー）			毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
-3000007	HPChange	0.005	0	perc	0	1	0.005	調教師カルランの貫禄(プレミアム）			搭乗中、毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
-3000007	MPChange	0	0.005	perc	0	1	0.005	調教師カルランの貫禄(プレミアム）			搭乗中、毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
+3000005	HPChange	0.005	0	perc	0	1	0.005	麒麟の恩寵（HP、MP回復）			搭乗中、毎秒全HP0.5％、全MPの1％ずつ回復します。	icon_status.aura_of_condition_tex
+3000005	MPChange	0	0.01	perc	0	1	0.01	麒麟の恩寵（HP、MP回復）			搭乗中、毎秒全HP0.5％、全MPの1％ずつ回復します。	icon_status.aura_of_condition_tex
+3000006	HPChange	0.01	0	perc	0	1	0.01	調教師カルランの貫禄(ネットカフェー）			搭乗中、毎秒全HP、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
+3000006	MPChange	0	0.01	perc	0	1	0.01	調教師カルランの貫禄(ネットカフェー）			搭乗中、毎秒全HP、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
+3000007	HPChange	0.01	0	perc	0	1	0.01	調教師カルランの貫禄(プレミアム）			搭乗中、毎秒全HP、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
+3000007	MPChange	0	0.01	perc	0	1	0.01	調教師カルランの貫禄(プレミアム）			搭乗中、毎秒全HP、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
 3000008	HPChange	0.005	0	perc	0	1	0.005	快適な搭乗（HP MP回復）			搭乗中、毎秒HPとMPが0.5%回復します。	icon_status.collect_speedup_tex
 3000008	MPChange	0	0.005	perc	0	1	0.005	快適な搭乗（HP MP回復）			搭乗中、毎秒HPとMPが0.5%回復します。	icon_status.collect_speedup_tex
-3000009	MPChange	0	0.005	perc	0	1	0.005	快適な搭乗（コンディションとMP回復）			搭乗中、毎秒コンディションとMPが0.5%回復します。	icon_status.aura_of_condition_tex
-3000010	HPChange	0.005	0	perc	0	1	0.005	欧米専用搭乗（コンディション、HP、MP回復）			毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
-3000010	MPChange	0	0.005	perc	0	1	0.005	欧米専用搭乗（コンディション、HP、MP回復）			毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
-3000011	HPChange	0.005	0	perc	0	1	0.005	TW白獅子召喚			毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
-3000011	MPChange	0	0.005	perc	0	1	0.005	TW白獅子召喚			毎秒コンディション、HP、MPが0.5%回復します。	icon_status.collect_speedup_tex
+3000009	HPChange	0.005	0	perc	0	1	0.005	快適な搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.aura_of_condition_tex
+3000009	MPChange	0	0.01	perc	0	1	0.01	快適な搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.aura_of_condition_tex
+3000010	HPChange	0.005	0	perc	0	1	0.005	欧米専用搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
+3000010	MPChange	0	0.01	perc	0	1	0.01	欧米専用搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
+3000011	HPChange	0.01	0	perc	0	1	0.01	TW白獅子召喚			搭乗中毎秒HP、MPが1％ずつ回復します。	icon_status.collect_speedup_tex
+3000011	MPChange	0	0.01	perc	0	1	0.01	TW白獅子召喚			搭乗中毎秒HP、MPが1％ずつ回復します。	icon_status.collect_speedup_tex
 3000013	HPChange	0.005	0	perc	0	1	0.005	飛行騎乗（HP回復）			飛行可能地域で飛行できます。<BR>毎秒全HPの0.5％が回復します。	icon_items.wings_of_fairy_tex
 3000014	MPChange	0	0.005	perc	0	1	0.005	飛行騎乗（MP回復）			飛行可能地域で飛行できます。<BR>毎秒全MPの0.5％が回復します。	icon_items.wings_of_fairy_tex
 3000015	HPChange	0.005	0	perc	0	1	0.005	飛行騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>搭乗中、毎秒HPとMPが0.5％回復します。	icon_items.wings_of_fairy_tex
@@ -1595,13 +1639,20 @@
 5000000	Power	0	0	abs	0	0	3	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
 5000000	Endurance	0	0	abs	0	0	3	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
 5000000	Crit	0	0	abs	0	0	3	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
+5000003	CCrystalBind	0	0	abs	0	0	1	完全な光輝の書：クリスタル保護			死亡時、クリスタルが壊れるのを防止します。	icon_items.q_closedspace_stone_05_tex
 5010000	HPChange	0.03	0	perc	30000	1	0.03	幻影の回復ポーション	101305	幻影の回復ポーション	30秒間、1秒毎に全HPの5％、計90％が持続的に回復。	icon_items.potion17_tex
-5690001	StaminaDecay	0	0	seta	0	0	0	記憶の追跡者			記憶の破片の収集を手伝うためにコンディションが維持され死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
-5690001	CrystalBind	0	0	abs	0	0	1	記憶の追跡者			記憶の破片の収集を手伝うためにコンディションが維持され死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
+5690001	StaminaDecay	0	0	seta	0	0	0	記憶の追跡者			記憶の破片の収集を手伝うため、死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
+5690001	CrystalBind	0	0	abs	0	0	1	記憶の追跡者			記憶の破片の収集を手伝うため、死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
 5692001	Endurance	0	0	seta	0	0	9999999	遊び部屋の支配者			遊びの部屋では立ち向かう相手がいません。	icon_skills.emergencyshield_tex
 5692006	Endurance	0	0	seta	0	0	9999999	命紡力のそでごい			マズキに命乞いをする。	icon_skills.emergencyshield_tex
 5692007	Endurance	0	0	seta	6000	0	3064	過度な遊び			マズキが力を使用し過ぎてしばらくの間、怯みます。	icon_skills.lossofbalance_tex
 5693002	HPChange	-0.03	0	perc	3000	1	-0.03	クモの毒			蜘蛛の死体の毒に侵され、全体HPの3%のHPが減少します。この効果は最大2回まで重複されます。	icon_status.poisonstatus_tex
+7691000	HPChange	-10000	0	abs	12000	2	-10000	エネルギー吸収			リリスの魅惑に惑わされました。行動することができません。2秒あたり 10000の固定ダメージを受けます。	icon_status.minusfocus_tex
+7691007	Power	0	0	perc	600000	0	1.1	凶暴化			リリスがエネルギーを吸収し、攻撃力が10％増加します。	icon_status.plusattack_tex
+7691021	HPChange	-20000	0	abs	20000	2	-20000	睡眠			深い眠りに落ち、抜け出すことができません。持続的にＨＰが減少します。	icon_skills.sleepwind_tex
+7692002	Block	0	0	swch	10000	0	0	固くなった蝋			蝋が固くなり、身動きが取れません。	icon_status.chainsnare_tex
+7692004	HPChange	-0.026	0	perc	45000	3	-0.026	熱い蝋			熱い蝋が体にくっつきました。3sごとに全HPの2.6％ずつHPが減少します。	icon_status.blooduanty_tex
+7692005	HPChange	-0.06	0	perc	15000	2	-0.06	出血			強力な一撃により出血が発生し、移動速度が50% 減少され、2ごとに全HP対比6％に至るHPが持続的に減少します。	icon_status.minuscriticalresist_tex
 7777015	MPChange	0	0.5	perc	1800000	1	0.5	T.E.R.A TIME			連盟スキル以外のスキルのクールタイムが20％減少し、毎秒のマナ回復量が大きく増加します。	icon_status.pluswill_tex
 7777015	CDR	0	0	perc	1800000	0	0.8	T.E.R.A TIME			連盟スキル以外のスキルのクールタイムが20％減少し、毎秒のマナ回復量が大きく増加します。	icon_status.pluswill_tex
 8000077	ASpd	0	0	perc	1800000	0	1.04	カイアの聖水	100689	カイアの聖水 I	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex
@@ -1613,6 +1664,12 @@
 8000717	HPChange	0.1	0	perc	5000	1	0.1	戦車整備			戦車修理中（5秒間持続）	icon_status.plusmove_tex
 9100080	MPChange	0	0.01	perc	0	2	0.01	バルダーの加護			バルダーの加護の下、遂行可能なデイリークエストの数が増加し、ダンジョンで強化アイテムドロップ確率が増加します。また、ＭＰが持続回復します。	icon_items.argon_plants_tex
 9100130	MPChange	0	0.01	perc	0	2	0.01	エリーヌの加護			エリーヌの加護の下、遂行可能なデイリークエストの数が増加し、ダンジョンで名品アイテムドロップ確率が増加します。また、MPが持続回復します。	icon_items.argon_plants_tex
+9691000	HPChange	-10000	0	abs	12000	2	-10000	エネルギー吸収			リリスの魅惑に惑わされました。行動することができません。2秒あたり 10000の固定ダメージを受けます。	icon_status.minusfocus_tex
+9691007	Power	0	0	perc	600000	0	1.1	凶暴化			リリスがエネルギーを吸収し、攻撃力が10％増加します。	icon_status.plusattack_tex
+9691021	HPChange	-20000	0	abs	20000	2	-20000	睡眠			深い眠りに落ち、抜け出すことができません。持続的にＨＰが減少します。	icon_skills.sleepwind_tex
+9692002	Block	0	0	swch	10000	0	0	固くなった蝋			蝋が固くなり、身動きが取れません。	icon_status.chainsnare_tex
+9692004	HPChange	-0.026	0	perc	45000	3	-0.026	熱い蝋			熱い蝋が体にくっつきました。3sごとに全HP減少対比2.6％に至るHPが持続的に減少します。	icon_status.blooduanty_tex
+9692005	HPChange	-0.06	0	perc	15000	2	-0.06	出血			強力な一撃により出血が発生し、移動速度が50% 減少され、2ごとに全HP対比6％に至るHPが持続的に減少します。	icon_status.minuscriticalresist_tex
 9810007	Power	0	0	perc	300000	0	1.45	ラカンの力			ラカンの力	icon_status.plusattack_tex
 9810011	Block	0	0	swch	5000	0	0	ラカンの呪い			ラカンの呪いにより、スキルを使用できません。移動速度が減少します。	icon_status.minusmove_tex
 9810012	HPChange	-2300	0	abs	20000	5	-2300	ラカンの炎上			燃え上がる炎により5s毎に、重複当たり-2300のHPが減少します。	icon_status.firedamage_tex
@@ -1645,9 +1702,7 @@
 10154030	AtkPotion	0	0	swch	0	0	1.05	極功術			集中力が高まっています。攻撃力が上昇します。	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0	0	swch	60000	0	1.01	強力な極功術			強力な極功術により、攻撃力が更に増加します。	icon_skills.c12_atkupbuff
 10154090	Endurance	0	0	perc	60000	0	1	変化の術 I			相手の姿に変身した状態です。	icon_skills.c12_transform
-14400001	Stamina	0	0	abs	900000	0	15	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
 14400001	HPChange	0.01	0	perc	900000	1	0.01	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
-14400001	StaminaDecay	0	0	swch	900000	0	0	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
 14400001	DropUp	0	0	perc	900000	0	2	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
 14400002	Endurance	0	0	perc	900000	0	1.2	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
 14400002	ASpd	0	0	perc	900000	0	1.15	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
@@ -1657,10 +1712,8 @@
 14400003	Endurance	0	0	perc	900000	0	1.2	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	ASpd	0	0	perc	900000	0	1.15	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	MovSpdInCombat	0	0	abs	900000	0	10	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	Stamina	0	0	abs	900000	0	15	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	HPChange	0.01	0	perc	900000	1	0.01	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	AtkPotion	0	0	perc	900000	0	1.2	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
-14400003	StaminaDecay	0	0	swch	900000	0	0	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	CrystalBind	0	0	abs	900000	0	1	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400003	DropUp	0	0	perc	900000	0	2	Sigil of Indestructible Flame	152905	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex
 14400004	MPChange	0	0.05	perc	900000	1	0.05	Power potion - CD, MP regen	152903	Emblem of Success		icon_status.darkriftareatimeshift_tex
@@ -1675,7 +1728,6 @@
 15200008	Power	0	0	perc	5000	0	1.1	前衛基地の守護			前衛基地の守護効果で攻撃力と防御力が 10% 増加します。	icon_status.aura_of_damage_tex
 15200008	Endurance	0	0	perc	5000	0	1.1	前衛基地の守護			前衛基地の守護効果で攻撃力と防御力が 10% 増加します。	icon_status.aura_of_damage_tex
 15200009	CDR	0	0	swch	0	0	6	時間旅行副作用			パーティー召喚類のスキル使用時、再使用時間が 500% 倍増加します。	icon_status.darkriftareatimeshift_tex
-16300017	DropUp	0	0	perc	0	0	2	Lucky Day(VIP)				icon_items.f2p_vipcustomer_tex
 43100002	HPChange	1	0	perc	1000	1	1	HP即回復			異常状態ツールチップ表示されない（isShow=False）このツールチップが出たらBTS処理必要！	icon_status.plushp_tex
 43100007	HPChange	-0.05	0	perc	15000	3	-0.05	出血			強力な一撃によって出血しました。3毎に全HPの5％が減少します。	icon_status.minuscriticalresist_tex
 43200002	HPChange	1	0	perc	1000	1	1	HP即回復			異常状態ツールチップ表示されない（isShow=False）このツールチップが出たらBTS処理必要！	icon_status.diseaseup_tex
@@ -1846,7 +1898,7 @@
 47650400	HPChange	0.3	0	perc	1000	1	0.3	戦神の恩寵			全HPの50％が即時に回復します。	icon_status.plushp_tex
 47650600	Block	0	0	swch	10000	0	0	時の歪み			時空間が歪み、効果持続中は全てのスキルが使用不可になります。この効果は解除できません。	icon_status.minuswill_tex
 47650800	HPChange	-0.01	0	perc	30000	1	-0.01	苦痛の棘			移動速度が10になり、全HPの9％が減少します。この効果は解除できません。	icon_status.poisonstatus_tex
-47651001	StaminaDecay	0	0	seta	0	0	0	ティアランの祝福			ティアランの祝福効果によってコンディションが減少せずに死亡時その場でHP、MP、コンディションが全て回復された状態にすぐ復活できます。	icon_status.vitality_tex
+47651001	StaminaDecay	0	0	seta	0	0	0	ティアランの祝福			ティアランの祝福効果により、死亡時その場でHP、MPが全て回復された状態ですぐ復活することができます。	icon_status.vitality_tex
 47651003	Power	0	0	abs	120000	0	80	アーシャの祈祷			ティアランがアーシャの最後の祈りに応えています。   アーシャの祈祷により、5分間下記の効果を得ます。 -力が80増加 -耐久力が10増加 -攻撃速度が20%増加 -戦闘中の移動速度が10増加 -1秒毎にHP/MPが5%回復  この効果は現在の場所から離れると解除されます。	icon_status.holybless_tex
 47651003	Endurance	0	0	abs	120000	0	10	アーシャの祈祷			ティアランがアーシャの最後の祈りに応えています。   アーシャの祈祷により、5分間下記の効果を得ます。 -力が80増加 -耐久力が10増加 -攻撃速度が20%増加 -戦闘中の移動速度が10増加 -1秒毎にHP/MPが5%回復  この効果は現在の場所から離れると解除されます。	icon_status.holybless_tex
 47651003	ASpd	0	0	perc	120000	0	1.2	アーシャの祈祷			ティアランがアーシャの最後の祈りに応えています。   アーシャの祈祷により、5分間下記の効果を得ます。 -力が80増加 -耐久力が10増加 -攻撃速度が20%増加 -戦闘中の移動速度が10増加 -1秒毎にHP/MPが5%回復  この効果は現在の場所から離れると解除されます。	icon_status.holybless_tex
@@ -2332,6 +2384,16 @@
 88509208	MPChange	0	90	abs	20000	1	90	チャージ			1秒毎にMPが90回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
 88509209	MPChange	0	100	abs	20000	1	100	チャージ			1秒毎にMPが100回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
 88509210	MPChange	0	110	abs	20000	1	110	チャージ			1秒毎にMPが110回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
+88509211	MPChange	0	6	abs	20000	1	6	チャージ			秒あたり、6 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509212	MPChange	0	7	abs	20000	1	7	チャージ			秒あたり、7 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509213	MPChange	0	8	abs	20000	1	8	チャージ			秒あたり、8 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509214	MPChange	0	9	abs	20000	1	9	チャージ			秒あたり、9 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509215	MPChange	0	10	abs	20000	1	10	チャージ			秒あたり、10 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509216	MPChange	0	11	abs	20000	1	11	チャージ			秒あたり、11 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509217	MPChange	0	12	abs	20000	1	12	チャージ			秒あたり、12 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509218	MPChange	0	13	abs	20000	1	13	チャージ			秒あたり、13 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509219	MPChange	0	14	abs	20000	1	14	チャージ			秒あたり、14 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88509220	MPChange	0	15	abs	20000	1	15	チャージ			秒あたり、15 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
 88524201	MPChange	0	6	abs	15000	1	6	チャージ			1秒毎にMPが6回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
 88524202	MPChange	0	7	abs	15000	1	7	チャージ			1秒毎にMPが7回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
 88524203	MPChange	0	8	abs	15000	1	8	チャージ			1秒毎にMPが8回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
@@ -2595,7 +2657,7 @@
 91240002	HPChange	0.04	0	perc	10000	1	0.04	訓練教官の力			1s毎に全HPの4％が回復します。	icon_status.aura_of_regeneration_hp_tex
 91600001	HPChange	-0.05	0	perc	3000	1	-0.05	闇の破片			効果が解除されるまでの間、1s毎に全HPの10%が減少し、スキルを使用できません。	icon_status.fearstatus_tex
 91600001	Block	0	0	swch	3000	0	0	闇の破片			効果が解除されるまでの間、1s毎に全HPの10%が減少し、スキルを使用できません。	icon_status.fearstatus_tex
-91600004	HPChange	-0.1	0	perc	15000	2	-0.1	ダルカンの不滅炎			2s毎に全HPの10％減少します。ダルカンの不滅炎は解除できません。	icon_status.firedamage_tex
+91600004	HPChange	-0.1	0	perc	15000	2	-0.1	ダルカンの不滅炎			2sごとに全HP対比 10％に至るHPが持続的に減少します。	icon_status.firedamage_tex
 91600007	Power	0	0	perc	600000	0	1.2	アルクスの悲鳴			効果が重複する毎に攻撃力が20%、攻撃速度が10%上昇します。この効果を解除することはできません。	icon_status.plusattack_tex
 91600007	ASpd	0	0	perc	600000	0	1.2	アルクスの悲鳴			効果が重複する毎に攻撃力が20%、攻撃速度が10%上昇します。この効果を解除することはできません。	icon_status.plusattack_tex
 91600008	Endurance	0	0	seta	30000	0	10000000	ダルカンの怒号			気絶しているため動けません。	icon_status.confuseup_tex
@@ -2613,6 +2675,18 @@
 91600030	HPChange	-0.26	0	perc	1000	1	-0.26	エルカラス号_1番部屋_HP吸収			1s毎に全HPの3％が減少し、持続時間が過ぎると即死します。 この効果は、「破滅の冷気」でのみ解除することができます。	icon_status.cruel_slayer_3_tex
 91600035	Endurance	0	0	perc	10000	0	1	きれいに！			ピュトリオンが現れる前に、全てのデモクロンとアークデヴァを退治したため、とても良い気分になりました。	icon_status.smile_firecracker_abnormality_tex
 91600038	HPChange	1	0	perc	1000	1	1	浮遊石の回復			浮遊石のHP回復用の異常状態	icon_status.aura_of_regeneration_hp_tex
+97000003	HPChange	-0.1	0	perc	3000	1	-0.1	子グモの強力な毒			子グモの毒に感染され、移動速度が減少し、0sごとに全HP対比10％に至るＨＰが持続的に減少します。	icon_status.diseasedown_tex
+97000004	AtkPotion	0	0	perc	7200000	2	1.2	クモの成長			重複するたびに移動速度10%と攻撃力20%が向上します。	icon_status.darkriftrecovery_tex
+97000025	HPChange	-0.2	0	perc	15000	1	-0.2	ラケリスが残した致命傷			1sごとに全HP対比 20％に至るHPが持続的に減少します。	icon_status.injuredbtdarkness_tex
+97000026	HPChange	-0.1	0	perc	15000	2	-0.1	ラケリスが残した傷			2sごとに全HP対比 10％に至るHPが持続的に減少します。	icon_status.injuredbtdarkness_tex
+97000032	DefPotion	0	0	perc	100000	0	1.5	ラケリスの呪い			冥々たるラケリスに受けるダメージが50％増加します。またラケリスの魂の球体に2倍のダメージを受けます。	icon_status.minusdefence_tex
+97000033	ASpd	0	0	perc	60000	0	1.1	ラカンの力			重複するたびに攻撃速度が10%ずつ増加します。	icon_status.plusciriticalresist_tex
+97000035	Power	0	0	perc	60000	0	11	完成されたラカンの力			力が1000%上昇し、攻撃速度が50%増加します。	icon_status.archerspirit_tex
+97000035	ASpd	0	0	perc	60000	0	1.5	完成されたラカンの力			力が1000%上昇し、攻撃速度が50%増加します。	icon_status.archerspirit_tex
+97000044	HPChange	-50000000	0	abs	1100	1	-50000000	ラケリス(1ネームド) 2重複_死亡			ラケリス(1ネームド) 2重複_死亡	icon_status.injuredbtdarkness_tex
+97000045	HPChange	1	0	perc	0	1	1	ラケリス(3ネームド) 透明NPC保護用			ラケリス(3ネームド) 透明NPC保護用	icon_skills.voidtrap_tex
+97000051	HPChange	-0.05	0	perc	3000	1	-0.05	子グモの毒			子グモの毒に感染され、移動速度が減少し、0sごとに全HP対比5％に至るＨＰが持続的に減少します。	icon_status.diseasedown_tex
+97000052	DefPotion	0	0	perc	100000	0	1.5	力強いラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加し、ラケリスの魂の躯体から2倍のダメージを受けます。重複すると死亡します。	icon_status.minusdefence_tex
 97500100	HPChange	-0.07	0	perc	120000	2	-0.07	破滅の業火			2s毎に全HPの7％が減少し、持続時間が過ぎると対象者は即死します。 この効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex
 97500400	HPChange	-0.2	0	perc	35000	5	-0.2	報復の結界			5毎に全HPの20％が減少し、近距離攻撃スキルの威力が60%減少します。 結界の効果は解除できません。	icon_status.minuscritical_tex
 97500400	AtkPotion	0	0	perc	35000	0	0.4	報復の結界			5毎に全HPの20％が減少し、近距離攻撃スキルの威力が60%減少します。 結界の効果は解除できません。	icon_status.minuscritical_tex
@@ -2834,13 +2908,11 @@
 99002900	Endurance	0	0	perc	0	0	0.3	破滅の疫病			アカシャの潜伏地にいる間は、力と耐久力が70%ずつ減少し、死亡後も解除されません。ディヴァインガードポーションでのみ治療可能です。	icon_status.diseaseup_tex
 99003000	DefPotion	0	0	perc	6000	0	0	漆黒の結界			全てのモンスターを倒すまで、この祭壇は破壊できません。	icon_status.plusedefence_tex
 99003200	MovSpdInCombat	0	0	abs	600000	0	2	精霊の波紋			戦闘中の移動速度が2上昇します。効果は最大3回まで重複します。	icon_status.aura_of_wind_tex
-99003500	Stamina	0	0	abs	1200000	0	5	活力の波紋			最大コンディションが5上昇します。効果は最大3回まで重複します。	icon_status.aura_of_condition_tex
 99003600	HPChange	0.005	0	perc	600000	3	0.005	再生の波紋			3s毎に全HPの0.5％が回復します。効果は最大3回まで重複します。	icon_status.aura_of_regeneration_hp_tex
 99003700	MPChange	0	0.005	perc	600000	3	0.005	魔力の波紋			3s毎に全MPの0.5％が回復します。効果は最大3回まで重複します。	icon_status.aura_of_regeneration_mp_tex
 99004500	HPChange	0.5	0	perc	1000	1	0.5	ピグリンの肉			全HPの50％が回復します。	icon_items.q_rawmeat_tex
 99004510	HPChange	1312	0	abs	10000	2	1312	ピグリンのソテー	45352	ピグリンのソテー	2s毎にHPが1312回復します。	icon_items.q_roastmeat_tex
 99004700	Power	0	0	perc	600000	0	1.2	アルゴン駆逐弾			力が20%上昇します。	icon_items.petrolbomb_tex
-99004800	Stamina	0	0	abs	1800000	0	5	カシアンの樹の結晶			コンディションが5上昇します。効果は最大3回まで重複します。	icon_items.q_blackbottle_tex
 99004900	HPChange	-100000000	0	abs	1000	1	-100000000	カンストリア爆弾			1s毎に全HPの30％が減少し、持続時間が過ぎると対象者は死亡します。	icon_items.middlebomb_tex
 99005100	Power	0	0	perc	10000	0	1.3	勇将の狼煙			力が30%増加します。この効果は、ダンジョンと戦場では適用されません。	icon_skills.union_skillicon5_tex
 99005200	Endurance	0	0	perc	10000	0	1.3	勇将の保護			耐久力が30%上昇します。この効果は、ダンジョンと戦場では適用されません。	icon_skills.union_skillicon6_tex
@@ -2865,7 +2937,9 @@
 99008400	ASpd	0	0	perc	10800000	0	1.006	ノクタニウムの力 I			連盟領地で一般モンスターを討伐すると、攻撃速度が0.6％上昇します。ノクタニウムの力 II、ノクタニウムの力 IIIと重複回数を共有し、計30回まで重複可能です。また、PK時は重複数が2倍になり、死亡時1/2へと減少します。連盟領地から出ると効果が解除されます。	icon_status.minusspeedresist_tex
 99008900	Power	0	0	abs	604800000	0	0	連盟の祝福			連盟のために！	icon_status.battlefieldbuff04_tex
 99009000	HPChange	0.003	0	perc	10800000	12	0.003	保護石の力			12秒毎にHPを0.3％回復します。	icon_status.vitality_tex
-99020020	Power	0	0	abs	0	0	6	ヴァルキオンの勇猛			力が 6 上昇します。  この効果はアカウント内の全てのキャラクターに適用されます。   「潜入の基本、それは目撃者を一人残らず排除することにある！」 - ギルバート・グレイス	icon_status.plusattack_tex
+99020000	Power	0	0	abs	0	0	1	ヴァルキオンの勇猛 I			直近の7日間の内、3～4日ログインし、下記の効果を手に入れました。  非戦闘状態で移動速度$value増加 最大HP 1% 増加 力 1 増加  この効果はアカウント内全てのキャラクターに適用します。	icon_status.archerspirit_tex
+99020010	Power	0	0	abs	0	0	3	ヴァルキオンの勇猛 II			直近の7日間の内、5～6日ログインし、下記の効果を手に入れました。  非戦闘状態で移動速度$value増加 最大HP 3% 増加 力 3 増加  この効果はアカウント内全てのキャラクターに適用します。	icon_status.plusattack_tex
+99020020	Power	0	0	abs	0	0	6	ヴァルキオンの勇猛 III			直近の7日間の内、7日全てログインし、下記の効果を手に入れました。  非戦闘状態で移動速度$value増加 最大HP 5% 増加 力 6 増加  この効果はアカウント内全てのキャラクターに適用します。	icon_status.buff_of_kaia_tex
 99070000	HPChange	-0.01	0	perc	6000	3	-0.01	出血			強力な一撃により出血が発生し、移動速度が30％減少し、3毎に全HPの3％が減少します。	icon_status.minuscriticalresist_tex
 99070001	HPChange	0.005	0	perc	8900	2	0.005	蒼空の加護			蒼空のエネルギーを感じます。全てのダメージが無効化し、全HPの5％が回復します。	icon_status.delayheal_tex
 99070002	HPChange	-0.028	0	perc	8000	3	-0.028	炎上			燃え上がる炎により3s毎に全HPの2.8％が減少します。	icon_status.firedamage_tex
@@ -2883,7 +2957,7 @@
 99070023	ASpd	0	0	abs	20000	0	0.9	虚脱			虚脱状態です。身体能力が半減します。	icon_status.poisondown_tex
 990070311	HPChange	0.15	0	perc	180000	3	0.15	暖かい聖域のオーラ			3分間、HPが持続的に回復されます。他の聖域のオーラと効果は重複しません。	icon_status.delayheal_tex
 990070312	MPChange	0	0.15	perc	180000	3	0.15	充満した聖域のオーラ			3分間、MPが持続的に回復されます。他の聖域のオーラと効果は重複しません。	icon_items.potion19_tex
-990070313	StaminaDecay	0	0	seta	180000	0	0	癒しの聖域のオーラ			3分間、コンディションが減少しません。他の聖域のオーラと効果は重複しません。	icon_items.condition_safe_potion_level_51_tex
+990070313	Endurance	0	0	perc	180000	0	3	癒しの聖域のオーラ			3分間、防御力が大幅に上昇します。聖域のオーラ効果は、重複適用されません。	icon_status.plusedefence_tex
 990070314	ASpd	0	0	perc	180000	0	1.5	敏捷な聖域のオーラ			3分間、攻撃速度が大幅に上昇します。他の聖域のオーラと効果は重複しません。 	icon_status.minusspeedresist_tex
 990070315	MovSpdInCombat	0	0	perc	180000	0	2.5	機敏な聖域のオーラ			3分間、戦闘状態での移動速度が上昇します。他の聖域のオーラと効果は重複しません。 	icon_status.aura_of_wind_tex
 990070316	Crit	0	0	perc	180000	0	5	鋭い聖域のオーラ			3分間、クリティカル発生が大幅に上昇します。他の聖域のオーラと効果は重複しません。 	icon_status.plusattack_tex
@@ -2913,6 +2987,10 @@
 999001035	Power	0	0	abs	15000	0	0	輝く女神の加護	51011	女神の胸飾り・輝	輝く女神の加護を感じます。力30、クリティカル発生率が30、攻撃速度が12%上昇します。	icon_items.parts_magicweaponc8_tex
 999001035	Crit	0	0	abs	15000	0	30	輝く女神の加護	51011	女神の胸飾り・輝	輝く女神の加護を感じます。力30、クリティカル発生率が30、攻撃速度が12%上昇します。	icon_items.parts_magicweaponc8_tex
 999001035	ASpd	0	0	perc	15000	0	1.12	輝く女神の加護	51011	女神の胸飾り・輝	輝く女神の加護を感じます。力30、クリティカル発生率が30、攻撃速度が12%上昇します。	icon_items.parts_magicweaponc8_tex
+999001036	Power	0	0	abs	20000	0	30	古竜の降臨	51028	古竜のブローチ	古竜の力を授かりました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
+999001036	Power	0	0	abs	20000	0	0	古竜の降臨	51028	古竜のブローチ	古竜の力を授かりました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
+999001036	Crit	0	0	abs	20000	0	30	古竜の降臨	51028	古竜のブローチ	古竜の力を授かりました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
+999001036	ASpd	0	0	perc	20000	0	1.12	古竜の降臨	51028	古竜のブローチ	古竜の力を授かりました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
 999008300	Power	0	0	perc	3930000	0	1.15	攻撃力増加			攻撃力が 15% 上昇します。	icon_status.plusattack_tex
 999008400	Endurance	0	0	perc	3930000	0	0.85	防御力減少			防御力が 15% 減少します。	icon_status.minusdefence_tex
 999008600	HPChange	0.08	0	perc	3930000	10	0.08	HP持続回復			1ラウンドの間、 10s毎に全HPの8％にあたるHPが持続的に回復します。	icon_skills.healinglightlockon_tex
