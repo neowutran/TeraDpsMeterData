@@ -5102,8 +5102,8 @@
 290220	Common	Common	Sorcerer	회오리 감옥 II	False		icon_skills.tornadoprison_tex
 300100	Common	Common	Sorcerer	마력 폭발 I	False		icon_skills.manaburst_tex
 310100	Common	Common	Sorcerer	공간 왜곡 I	False		icon_skills.distortionfield_tex
-320100	Common	Common	Sorcerer	운석 낙하 VII	False	overchannel	icon_skills.hellfire_tex
-320150	Common	Common	Sorcerer	운석 낙하 VII	False	overchannel FD	icon_skills.hellfire_tex
+320100	Common	Common	Sorcerer	운석 낙하 VII	False	MB	icon_skills.hellfire_tex
+320150	Common	Common	Sorcerer	운석 낙하 VII	False	MB FD	icon_skills.hellfire_tex
 330100	Common	Common	Sorcerer	폭렬구 I	False		icon_skills.blastball_tex
 330110	Common	Common	Sorcerer	폭렬구 I	False	hit 1	icon_skills.blastball_tex
 330111	Common	Common	Sorcerer	폭렬구 I	False	hit 2	icon_skills.blastball_tex
@@ -5334,10 +5334,7 @@
 131000	Common	Common	Warrior	기상 공격 X	False		icon_skills.risingattack_tex
 131100	Common	Common	Warrior	기상 공격 XI	False		icon_skills.risingattack_tex
 131200	Common	Common	Warrior	기상 공격 XII	False		icon_skills.risingattack_tex
-140100	Common	Common	Warrior	발목 노리기 I	False	On	icon_skills.aimingankle_tex
-140150	Common	Common	Warrior	발목 노리기 I	False	Off	icon_skills.aimingankle_tex
-140200	Common	Common	Warrior	발목 노리기 II	False	On	icon_skills.aimingankle_tex
-140250	Common	Common	Warrior	발목 노리기 II	False	Off	icon_skills.aimingankle_tex
+140100	Common	Common	Warrior	발목 노리기 I			icon_skills.aimingankle_tex
 160100	Common	Common	Warrior	돌진 베기 I	False		icon_skills.rushingslash_tex
 160101	Common	Common	Warrior	돌진 베기 I	False		icon_skills.rushingslash_tex
 160200	Common	Common	Warrior	돌진 베기 II	False		icon_skills.rushingslash_tex
@@ -5541,6 +5538,12 @@
 331200	Common	Common	Warrior	그림자 바꾸기 XII	False		icon_skills.shadowchange_tex
 340100	Common	Common	Warrior	속박의 검 I	False		icon_skills.bindingblade_tex
 350100	Common	Common	Warrior	분노 유발 I	False		icon_skills.provokerage_tex
+360100	Common	Common	Warrior	몰아치기 XI	False		icon_skills.pointattack_tex
+360130	Common	Common	Warrior	몰아치기 XI	True		icon_skills.pointattack_tex
+370100	Common	Common	Warrior	무쌍난무 : 가르기 VII	False		icon_skills.dualslash_tex
+370130	Common	Common	Warrior	무쌍난무 : 가르기 VII	True		icon_skills.dualslash_tex
+380100	Common	Common	Warrior	질풍 가르기 II	False		icon_skills.raker_tex
+380130	Common	Common	Warrior	질풍 가르기 II	True		icon_skills.raker_tex
 10	Common	Common	Common	스킬 테스트용 아이템			
 4999	Common	Common	Common	자폭			
 111110	Common	Common	Common	연합 보급품 : 갈색 군마 소환 I			
@@ -7012,6 +7015,8 @@
 12200030	Common	Common	Common	레드 드래곤(레어) 소환(비전투)			
 12200031	Common	Common	Common	유령 드래곤(레어) 소환(비전투)			
 12200032	Common	Common	Common	다이아몬드 드래곤(레어) 소환(비전투)			
+12200033	Common	Common	Common	(TEST) 메카닉 A			
+12200034	Common	Common	Common	(TEST) 메카닉 B			
 12300000	Common	Common	Common	돈줍는 황금도니 소환			
 12300001	Common	Common	Common	황금신체비율 캔디 (7일)			
 12300002	Common	Common	Common	발랄한 토토 소환			
@@ -8833,6 +8838,11 @@
 14600461	Common	Common	Common	[Event] Reward Box 2			
 14600462	Common	Common	Common	[Event] Reward Box 3			
 14600463	Common	Common	Common	[Event] Reward Box 4			
+14600464	Common	Common	Common	Smart Box: Black Sailor Look			
+14600465	Common	Common	Common	Smart Box: Checkered Sailor Look			
+14600466	Common	Common	Common	Smart Box: Ribbon Sailor Look			
+14600467	Common	Common	Common	Smart Box: Ivory Cardigan School Uniform			
+14600468	Common	Common	Common	Smart Box: Charcoal Gray Cardigan School Uniform			
 15200004	Common	Common	Common	독약			
 15210001	Common	Common	Common	전투 흑마 소환			
 15210002	Common	Common	Common	전투 사자 소환			
@@ -9701,6 +9711,9 @@
 19000033	Common	Common	Common	무지개 빛 광선 무기 상자 [14일]			
 19000034	Common	Common	Common	검붉은 빛 광선 무기 상자			
 19000035	Common	Common	Common	검붉은 빛 광선 무기 상자 [14일]			
+19000036	Common	Common	Common	(염색가능)프릴드레스 러블리 상자A			
+19000037	Common	Common	Common	러블리 프릴드레스 상자B			
+19000038	Common	Common	Common	러블리 프릴드레스 상자A			
 19000039	Common	Common	Common	프릴 블라우스 스커트A 상자			
 19000040	Common	Common	Common	프릴 블라우스 스커트A 상자 (14일)			
 19000041	Common	Common	Common	염색 프릴 블라우스 스커트A 상자			
@@ -9741,6 +9754,56 @@
 19000076	Common	Common	Common	백은기사의 방어구 상자			
 19000077	Common	Common	Common	아바타 박스（레슬러?바라카）			
 19000078	Common	Common	Common	아바타 박스（카우걸＆레슬러）			
+19000079	Common	Common	Common	레슬러 의상 상자			
+19000080	Common	Common	Common	레슬러 의상 상자(염색)			
+19000081	Common	Common	Common	카우걸 의상 상자			
+19000082	Common	Common	Common	카우걸 의상 상자(염색)			
+19000083	Common	Common	Common	아바타 박스（광선무기 푸른 빛）			
+19000084	Common	Common	Common	아바타 박스（광선무기 녹색 빛）			
+19000085	Common	Common	Common	아바타 박스（광선무기 보라 빛）			
+19000086	Common	Common	Common	아바타 박스（광선무기 붉은 빛）			
+19000087	Common	Common	Common	아바타 박스（광선무기 무지개 빛）			
+19000088	Common	Common	Common	아바타 박스（광선무기 검붉은 빛）			
+19000089	Common	Common	Common	스마트 더미10			
+19000090	Common	Common	Common	스마트 더미9			
+19000091	Common	Common	Common	스마트 더미8			
+19000092	Common	Common	Common	스마트 더미7			
+19000093	Common	Common	Common	스마트 더미6			
+19000094	Common	Common	Common	스마트 더미5			
+19000095	Common	Common	Common	스마트 더미4			
+19000096	Common	Common	Common	스마트 더미3			
+19000097	Common	Common	Common	스마트 더미2			
+19000098	Common	Common	Common	스마트 더미1			
+19000099	Common	Common	Common	스마트 더미1			
+19000100	Common	Common	Common	스마트 더미2			
+19000101	Common	Common	Common	스마트 더미3			
+19000102	Common	Common	Common	스마트 더미4			
+19000103	Common	Common	Common	스마트 더미5			
+19000104	Common	Common	Common	스마트 더미6			
+19000105	Common	Common	Common	스마트 더미7			
+19000106	Common	Common	Common	스마트 더미8			
+19000107	Common	Common	Common	스마트 더미9			
+19000108	Common	Common	Common	스마트 더미10			
+19000109	Common	Common	Common	스마트 더미1			
+19000110	Common	Common	Common	스마트 더미2			
+19000111	Common	Common	Common	스마트 더미3			
+19000112	Common	Common	Common	스마트 더미4			
+19000113	Common	Common	Common	스마트 더미5			
+19000114	Common	Common	Common	스마트 더미6			
+19000115	Common	Common	Common	스마트 더미7			
+19000116	Common	Common	Common	스마트 더미8			
+19000117	Common	Common	Common	스마트 더미9			
+19000118	Common	Common	Common	스마트 더미10			
+19000119	Common	Common	Common	[대만]예비 스마트박스11			
+19000120	Common	Common	Common	[대만]예비 스마트박스10			
+19000121	Common	Common	Common	[대만]예비 스마트박스9			
+19000122	Common	Common	Common	[대만]예비 스마트박스8			
+19000123	Common	Common	Common	[대만]예비 스마트박스7			
+19000124	Common	Common	Common	[대만]예비 스마트박스6			
+19000125	Common	Common	Common	[대만]예비 스마트박스5			
+19000126	Common	Common	Common	[대만]예비 스마트박스4			
+19000127	Common	Common	Common	[대만]예비 스마트박스3			
+19000128	Common	Common	Common	[대만]예비 스마트박스2			
 23000000	Common	Common	Common	이동수단 스포츠카C(일본5주년)  !			
 23000001	Common	Common	Common	이동수단 스포츠카C(일본5주년)  !			
 23000002	Common	Common	Common	이동수단 스포츠카C(일본5주년)  !			
@@ -9768,6 +9831,60 @@
 23000024	Common	Common	Common	이동수단 스포츠카C(일본5주년)  !			
 23000025	Common	Common	Common	이동수단 스포츠카C(일본5주년)  !			
 23000026	Common	Common	Common	이동수단 스포츠카C(일본5주년)  !			
+23000027	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000028	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000029	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000030	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000031	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000032	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000033	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000034	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000035	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000036	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000037	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000038	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000039	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000040	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000041	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000042	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000043	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000044	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000045	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000046	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000047	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000048	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000049	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000050	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000051	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000052	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000053	Common	Common	Common	이동수단 메카닉 A (날탈) 280  !			
+23000054	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000055	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000056	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000057	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000058	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000059	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000060	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000061	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000062	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000063	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000064	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000065	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000066	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000067	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000068	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000069	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000070	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000071	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000072	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000073	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000074	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000075	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000076	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000077	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000078	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000079	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
+23000080	Common	Common	Common	이동수단 메카닉 B (날탈) 280  !			
 60010100	Common	Common	Common	지속성 회복 물약			
 60020100	Common	Common	Common	신성한 보호의 물약			
 60020206	Common	Common	Common	남자다워지는 물약			
@@ -10294,7 +10411,7 @@
 60340116	Common	Common	Common	환영의 탑(16층) 초기화 주문서			
 60340117	Common	Common	Common	환영의 탑(16층) 초기화 주문서(파티)			
 60340118	Common	Common	Common	[이벤트] 스킬 쿨타임 감소 포션			
-60340119	Common	Common	Common	연맹보급품 : 녹테늄 강화탄			
+60340119	Common	Common	Common	보급품 : 녹테늄 강화탄			
 60340121	Common	Common	Common	맹수의 비약 I			
 60340122	Common	Common	Common	맹수의 비약 II			
 60340123	Common	Common	Common	맹수의 비약 III			
@@ -10918,6 +11035,10 @@
 61100003	Common	Common	Common	하급 전투 비약			
 61100004	Common	Common	Common	중급 전투 비약			
 61100005	Common	Common	Common	상급 전투 비약			
+61100920	Common	Common	Common	정제된 녹테늄 강화탄 [고급]			
+61100921	Common	Common	Common	정제된 녹테늄 강화탄 [희귀]			
+61100922	Common	Common	Common	정제된 녹테늄 강화탄 [전설]			
+61100929	Common	Common	Common	정제된 녹테늄 강화탄 200929 비교테스트용			
 61180100	Common	Common	Common	회복의 정기 구슬 I			
 61180200	Common	Common	Common	회복의 정기 구슬 II			
 61180300	Common	Common	Common	회복의 정기 구슬 III			
@@ -11037,6 +11158,7 @@
 61900104	Common	Common	Common	특성 고속 성장 50 (1시간)			
 61900105	Common	Common	Common	특성 고속 성장 100 (1시간)			
 61900106	Common	Common	Common	고속성장 500 (3시간)			
+61900111	Common	Common	Common	천등 소환			
 61901000	Common	Common	Common	신중한 한방			
 61901030	Common	Common	Common	고약한 눈뭉치 폭탄			
 61901100	Common	Common	Common	눈싸움 전용 체력 회복 물약			
