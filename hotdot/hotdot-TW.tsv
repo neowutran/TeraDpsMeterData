@@ -95,7 +95,6 @@
 2050	ASpd	0	0	perc	180000	0	1.3	血之飢渴			所有技能的傷害量增加30%、攻擊速度增加30%。	icon_status.battlefieldbuff02_tex
 2051	Endurance	0	0	perc	0	0	1	血之飢渴			當獵殺此怪物時，即可獲得增加所有技能傷害量和攻擊速度的血之飢渴效果！	icon_status.battlefieldbuff02_tex
 2052	Block	0	0	swch	900000	0	0	寶物的詛咒			持有庫魔斯寶物的期間，除了移動之外，無法進行其它行動。	icon_status.diseaseup_tex
-2052	Block	0	0	swch	900000	0	0	寶物的詛咒			持有庫魔斯寶物的期間，除了移動之外，無法進行其它行動。	icon_status.diseaseup_tex
 2057	HPChange	3000	0	abs	900000	1	3000	庫馬斯體力恢復 I			每1s逐漸恢復3000的HP。	icon_skills.refreshbless_tex
 2058	HPChange	10000	0	abs	900000	1	10000	庫馬斯體力恢復 II			每1s逐漸恢復10000的HP。	icon_skills.refreshbless_tex
 2059	HPChange	20000	0	abs	900000	1	20000	庫馬斯體力恢復 III			每1s逐漸恢復20000的HP。	icon_skills.refreshbless_tex
@@ -758,12 +757,14 @@
 46750	Power	0	0	perc	180000	0	1.2	燃燒的憤怒			進入燃燒的憤怒狀態時，力量增加 20%、防禦力增加 20%。	icon_status.archerspirit_tex
 46750	Endurance	0	0	perc	180000	0	1.2	燃燒的憤怒			進入燃燒的憤怒狀態時，力量增加 20%、防禦力增加 20%。	icon_status.archerspirit_tex
 46751	Endurance	0	0	perc	20000	0	1.2	堅硬盔甲			防禦力增加 20%。	icon_status.balanceup_tex
+46753	Endurance	0	0	perc	20000	0	1.2	咆哮			堅硬盔甲	icon_status.angerwarrior_tex
 46756	HPChange	-5000	0	abs	30000	2	-5000	腐敗汙水			使用腐敗汙水，每2秒受到5,000的傷害。	icon_status.purifydagon_tex
 46761	Power	0	0	perc	30000	0	0.5	受汙染的廢水			有奇怪的氣息在身體繚繞而失去力量。力量減少 50%、攻擊速度減少 70%。	icon_items.q_greenmucus_tex
 46761	ASpd	0	0	perc	30000	0	0.3	受汙染的廢水			有奇怪的氣息在身體繚繞而失去力量。力量減少 50%、攻擊速度減少 70%。	icon_items.q_greenmucus_tex
 46762	MovSpdInCombat	0	0	abs	30000	0	40	不知名	46701	來路不明的晶球	忽略所有異常狀態，雖然移動速度增加，但攻擊力卻大幅減少。	icon_status.confusestatusnpc_tex
 46762	AtkPotion	0	0	perc	30000	2	0.1	不知名	46701	來路不明的晶球	忽略所有異常狀態，雖然移動速度增加，但攻擊力卻大幅減少。	icon_status.confusestatusnpc_tex
 48731	MPChange	0	0.05	perc	15000	1	0.05	水果刨冰	70047	水果刨冰	每1s 持續恢復5%的MP。	icon_items.bluesmoothie_tex
+48733	Endurance	0	0	abs	60000	0	1	冰凍之淚	70054	酒炸彈	喝了蘿賽茲的毒酒，越喝越有醉意。	icon_items.q_bottlewine_tex
 48734	Endurance	0	0	abs	60000	0	1	醉意I			醉意提升視野飄忽不定且感覺遲緩。抗打增加1。	icon_status.poisondown_tex
 48735	Endurance	0	0	abs	60000	0	2	醉意II			醉意提升視野飄忽不定且感覺遲緩。抗打增加2。	icon_status.poisondown_tex
 48736	Endurance	0	0	abs	60000	0	3	醉意III			醉意提升視野飄忽不定且感覺遲緩。抗打增加3。	icon_status.poisondown_tex
@@ -831,7 +832,7 @@
 70407	Block	0	0	swch	3000	0	0	無力化			在全身力量喪失時，除了獲得裂痕氣息的人以外，效果持續時間內無法使用所有技能。	icon_status.sealskill_tex
 70410	Power	0	0	perc	60000	0	1.2	時空的裂痕_攻擊力增加			力量提升20%。	icon_status.plusattack_tex
 70411	HPChange	-0.005	0	perc	10000	1	-0.005	猛毒			中致命的毒時每1s，0.5%的HP繼續減少，移動速度減少20%。	icon_status.poisonstatus_tex
-70439	MovSpdInCombat	0	0	perc	30000	0	3	裂痕氣息	703	裂縫的氣息	$time 期間可以使用強大的力量，效果維持期間不會被擊倒與僵直。跳躍的話會解除裂痕氣息。	icon_status.darkriftdestroy_tex
+70439	MovSpdInCombat	0	0	perc	30000	0	3	裂痕氣息	703	裂縫的氣息	30s 期間可以使用強大的力量，效果維持期間不會被擊倒與僵直。跳躍的話會解除裂痕氣息。	icon_status.darkriftdestroy_tex
 70446	Power	0	0	perc	30000	0	1.1	憤怒爆發			聚集憤怒後力量提升10%。這效果最多可堆疊5次。	icon_status.plusattack_tex
 70449	MovSpdInCombat	0	0	seta	300000	0	-100	束縛			陷入阿旦陷阱。持續一段時間內無法移動。	icon_status.staminadown_tex
 70449	Block	0	0	swch	300000	0	0	束縛			陷入阿旦陷阱。持續一段時間內無法移動。	icon_status.staminadown_tex
@@ -840,6 +841,7 @@
 70459	ASpd	0	0	perc	600000	0	1.01	掙扎			庫林多菈肚子餓的話會變得更加殘暴。殘暴化時攻擊速度1%增加，且該效果無法解除。	icon_status.plusattack_tex
 70463	HPChange	-0.03	0	perc	1000	1	-0.03	猛毒			身受致命之毒，總HP的3%的HP減少。	icon_status.poisonstatus_tex
 76756	HPChange	-5000	0	abs	30000	2	-5000	腐敗汙水			使用腐敗汙水，每2秒就會得到10000的傷害。	icon_status.purifydagon_tex
+76901	Power	0	0	perc	0	0	5	狂暴化警告			持續時間結束後，開始狂暴化	icon_status.darkriftwill_tex
 76902	Power	0	0	perc	0	0	5	狂暴化			變為狂暴化，無論什麼也無法阻止了。	icon_status.darkriftarearage_tex
 76902	ASpd	0	0	perc	0	0	2	狂暴化			變為狂暴化，無論什麼也無法阻止了。	icon_status.darkriftarearage_tex
 76903	HPChange	-0.05	0	perc	10000	2	-0.05	灼傷			移動速度減少10%、每2秒減少HP 5%。該效果可重疊並且無法解除。	icon_status.minuscriticalresist_tex
@@ -861,6 +863,7 @@
 90200	MPChange	0	0.05	perc	10000	1	0.05	核心祝福			每1s持續恢復5%的MP。	icon_skills.arcanebirthright_tex
 90300	MovSpdInCombat	0	0	abs	180000	0	30	紋章覺醒			戰鬥狀態的移動速度提升30，但被攻擊時擊倒發生機率增加20%。發生擊倒時效果立即解除。	icon_skills.markoflok_tex
 90600	HPChange	1	0	perc	1000	1	1	自然同化			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_skills.earthmeld_tex
+96901	Power	0	0	perc	0	0	5	狂暴化警告			持續時間結束後，開始狂暴化	icon_status.darkriftwill_tex
 96902	Power	0	0	perc	0	0	5	狂暴化			變為狂暴化，無論什麼也無法阻止了。	icon_status.darkriftarearage_tex
 96902	ASpd	0	0	perc	0	0	2	狂暴化			變為狂暴化，無論什麼也無法阻止了。	icon_status.darkriftarearage_tex
 96903	HPChange	-0.05	0	perc	10000	2	-0.05	灼傷			移動速度減少10%、每2秒減少HP 5%。該效果可重疊並且無法解除。	icon_status.minuscriticalresist_tex
@@ -878,9 +881,13 @@
 100103	Endurance	0	0	perc	0	0	0.9	刀刃決心 IV			力量增加18、暴擊觸發增加55，但抗打減少10%。	icon_skills.ironwilla_tex
 100103	Crit	0	0	abs	0	0	55	刀刃決心 IV			力量增加18、暴擊觸發增加55，但抗打減少10%。	icon_skills.ironwilla_tex
 100200	Endurance	0	0	perc	0	0	1.15	鋼鐵決心 I			抗打增加15%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加65%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
+100200	Block	0	0	perc	0	0	0	鋼鐵決心 I			抗打增加15%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加65%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
 100201	Endurance	0	0	perc	0	0	1.2	鋼鐵決心 II			抗打增加20%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加80%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
+100201	Block	0	0	perc	0	0	0	鋼鐵決心 II			抗打增加20%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加80%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
 100202	Endurance	0	0	perc	0	0	1.25	鋼鐵決心			抗打增加25%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加100%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
+100202	Block	0	0	perc	0	0	0	鋼鐵決心			抗打增加25%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加100%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
 100203	Endurance	0	0	perc	0	0	1.25	鋼鐵決心 IV			抗打增加25%、平衡增加30。另外對於所有攻擊技能的仇恨值也增加120%，但戰鬥時除了部分怪物的特殊攻擊外，其餘皆無法抵抗。	icon_skills.ironwillb_tex
+100203	Block	0	0	perc	0	0	0	鋼鐵決心 IV			抗打增加25%、平衡增加30。另外對於所有攻擊技能的仇恨值也增加120%，但戰鬥時除了部分怪物的特殊攻擊外，其餘皆無法抵抗。	icon_skills.ironwillb_tex
 100500	HPChange	-116	0	abs	10000	2	-116	猛毒一擊 I			感染致命的劇毒，每2s持續減少-116的HP。	icon_skills.poisonblowattack_tex
 100501	HPChange	-175	0	abs	10000	2	-175	猛毒一擊 II			感染致命的劇毒，每2s持續減少-175的HP。	icon_skills.poisonblowattack_tex
 100502	HPChange	-292	0	abs	10000	2	-292	猛毒一擊 III			感染致命的劇毒，每2s持續減少-292的HP。	icon_skills.poisonblowattack_tex
@@ -970,6 +977,8 @@
 400801	Block	0	0	perc	6000	0	0	殺氣爆發 II			移動速度減少62%。另外對PC套用效果時，效果持續時間內無法使用迴避及移動系列技能。	icon_skills.murderousvent_tex
 401400	Crit	0	0	abs	0	0	-18	憤怒逆流 I			對周圍 8m 範圍放出怒氣，另外對於所有攻擊技能的仇恨值將增加40%。但戰鬥時除了怪物的部分特殊攻擊外，其餘皆無法抵抗。	icon_skills.toughspirit_tex
 401400	MPChange	0	50	abs	0	1	50	憤怒逆流 I			對周圍 8m 範圍放出怒氣，另外對於所有攻擊技能的仇恨值將增加40%。但戰鬥時除了怪物的部分特殊攻擊外，其餘皆無法抵抗。	icon_skills.toughspirit_tex
+401400	CDR	0	0	perc	0	0	0.33	憤怒逆流 I			對周圍 8m 範圍放出怒氣，另外對於所有攻擊技能的仇恨值將增加40%。但戰鬥時除了怪物的部分特殊攻擊外，其餘皆無法抵抗。	icon_skills.toughspirit_tex
+401400	Block	0	0	perc	0	0	0	憤怒逆流 I			對周圍 8m 範圍放出怒氣，另外對於所有攻擊技能的仇恨值將增加40%。但戰鬥時除了怪物的部分特殊攻擊外，其餘皆無法抵抗。	icon_skills.toughspirit_tex
 401500	Endurance	0	0	perc	15000	0	0.96	向上砍擊 I			每次重疊時，抗打會減少4%。此效果最多可重疊 2次。	icon_skills.upperslashcombo_tex
 425001	MPChange	0	50	abs	0	1	50	仇恨值			對周圍 8m 範圍放出怒氣，另外對於所有攻擊技能的仇恨值將增加unk2。	icon_skills.toughspirit_tex
 429001	Endurance	0	0	abs	90000	0	500	完整防禦			復活的寇勒奴斯集中於防禦，防禦力每次重疊提升500。此效果最多重疊10次。	icon_status.plusedefence_tex
@@ -994,6 +1003,7 @@
 457002	ASpd	0	0	perc	0	0	1	燃燒吧			石巨人開始憤怒，身上發出火焰了。位在半徑 20m以內的對象會獲得'熱氣'異常狀態。	icon_status.firedamage_tex
 457004	HPChange	-0.05	0	perc	2000	1	-0.05	熱氣			因為石巨人炙熱的熱氣，身體好像快要被溶化似的。	icon_status.firedamage_tex
 457005	HPChange	-0.2	0	perc	20000	2	-0.2	不滅之火			石巨人的強烈熱氣讓我的身體燃燒了。我應該完了。	icon_status.firedamage_tex
+457006	Power	0	0	perc	0	0	1	火之花			這是阿凱倫所製造出來的燃燒之花。如果處於周邊會獲得 '熱氣' 異常狀態。在異常狀態結束時，會發出強大的攻擊。	icon_skills.selfbuff_tex
 457007	Power	0	0	perc	0	0	1	不要顯示出來的內容			不要顯示出來的內容(若顯示，請登錄 BTS)	icon_skills.selfbuff_tex
 457008	Power	0	0	perc	1000	0	1	不要顯示出來的內容			不要顯示出來的內容(若顯示，請登錄 BTS)	icon_skills.selfbuff_tex
 457013	HPChange	0.1	0	perc	3000	2	0.1	超酷的封印劍			封印劍隨意恢復hp. 	icon_status.minuscriticalresist_tex
@@ -1022,10 +1032,15 @@
 457054	HPChange	-0.1	0	perc	10000	2	-0.1	出血			因為尖利的爪子而受傷，造成HP持續減少。	icon_status.blooduanty_tex
 457056	HPChange	-10000000	0	perc	3000	1	-10000000	消滅			異常狀態的提示說明不會顯示(isShow=False) ，若顯示此提示說明就需要BTS處理!	icon_status.delaydamage_tex
 460001	MovSpdInCombat	0	0	perc	10000	0	1	自爆兵的目標			自爆兵們以此物件為目標聚集	icon_skills.markingofarcher_tex
+460003	HPChange	-0.05	0	perc	60000	1	-0.05	觸電 - 過度負荷			被凱利班的電氣力量觸電了。過度負荷加重的話會出現什麼可怕的事一樣，不要去太靠近水的地方比較好。	icon_skills.excesselectron_tex
+460005	HPChange	-0.05	0	perc	60000	1	-0.05	觸電休克			被凱利班的電氣力量觸電後呈現休克，沒有能穩定身體裡電氣力量的方法!	icon_skills.electricshock2_tex
 460006	HPChange	-0.05	0	perc	60000	1	-0.05	過度負荷休克			被凱利班的電氣力量觸電的關係，HP持續的減少。	icon_status.fullelectriceffect_tex
+460009	Endurance	0	0	perc	4000	0	1	雷電的憤怒			因為恐怖沒有辦法動彈，誰都不來幫忙的話也許就會這樣死亡也說不定。	icon_status.electriccharge1_tex
 460011	MovSpdInCombat	0	0	perc	3000	0	2	滑倒			在地板上有一灘水! 獲得滑倒效果移動速度增加2倍!	icon_skills.kumas_frontjump_tex
 460016	Power	0	0	perc	30000	0	10	氣力爆發			怪物將自身的氣力爆發後，力量會更強大! 但，移動速度也會像那樣變慢。	icon_status.firedamage_tex
 460016	MovSpdInCombat	0	0	perc	30000	0	-100	氣力爆發			怪物將自身的氣力爆發後，力量會更強大! 但，移動速度也會像那樣變慢。	icon_status.firedamage_tex
+460019	Endurance	0	0	perc	10000	0	1	恐怖			船搖晃後會喪失方向感! 因為船搖晃的關係，身體絕對無法動彈!	icon_status.fearstatus_tex
+460022	Block	0	0	swch	7000	0	0	石化進行			正面凝視普雷非摩斯的眼睛! 真的很可怕! 感覺身體漸漸僵硬起來，要快點解除才行。	icon_status.sealskill_tex
 460023	MovSpdInCombat	0	0	perc	7000	0	0	石化			正面凝視普雷非摩斯的眼睛!身體僵硬的無法動彈。	icon_status.sealskill_tex
 460023	Block	0	0	swch	7000	0	0	石化			正面凝視普雷非摩斯的眼睛!身體僵硬的無法動彈。	icon_status.sealskill_tex
 460031	MovSpdInCombat	0	0	perc	3000	0	0.1	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
@@ -1034,9 +1049,11 @@
 468015	Power	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
 468015	Endurance	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
 468015	ASpd	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
+468018	HPChange	-10000000	0	perc	3000	1	-10000000	拉坎的詛咒			受到拉坎的詛咒。若不解除則將立刻死亡。	icon_status.damagedown_tex
 468037	HPChange	-0.1	0	perc	10000	2	-0.1	魔氣			受到杜利溫魔氣的攻擊而中毒。HP持續減少。	icon_status.blooduanty_tex
 468038	Power	0	0	perc	990000000	0	1.03	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
 468038	ASpd	0	0	perc	990000000	0	1.03	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+468039	Endurance	0	0	perc	14000	0	80	黑魔法的詛咒			被黑魔法的詛咒圍繞著全身。若不解除詛咒則會釀成大禍。	icon_status.cruel_slayer_3_tex
 468041	HPChange	-0.01	0	perc	10000	2	-0.01	不穩定的魔氣			遭受杜利溫暴走的魔石侵蝕而導致HP持續減少。	icon_status.minushp_tex
 468042	MovSpdInCombat	0	0	perc	30000	0	0.26	黑魔法盾牌			杜利溫的完全體使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
 468043	Endurance	0	0	perc	0	0	5	黑魔法			杜利溫使用邪惡的黑魔法而使防禦力處於上升的狀態。	icon_status.plusedefence_tex
@@ -1046,18 +1063,25 @@
 468049	Power	0	0	perc	0	0	10	魔石力量覺醒 (狂暴化)			使暗黑守護泥人怪所具有的魔石力量覺醒。攻擊力與攻擊速度急遽增加。	icon_skills.rampage_tex
 468049	ASpd	0	0	perc	0	0	2	魔石力量覺醒 (狂暴化)			使暗黑守護泥人怪所具有的魔石力量覺醒。攻擊力與攻擊速度急遽增加。	icon_skills.rampage_tex
 470009	HPChange	-10000000	0	abs	0	1	-10000000	不該看到				
+470015	Power	0	0	perc	1000	0	1	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
 470015	HPChange	-0.05	0	perc	60000	1	-0.05	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
 470015	Block	0	0	swch	60000	0	0	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
+470017	Power	0	0	perc	1000	0	1	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
 470017	HPChange	-0.05	0	perc	60000	1	-0.05	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
 470017	Block	0	0	swch	60000	0	0	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
+470018	Power	0	0	perc	1000	0	1	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
 470018	HPChange	-0.05	0	perc	60000	1	-0.05	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
 470018	Block	0	0	swch	60000	0	0	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
+470020	Endurance	0	0	perc	10000	0	1	暈厥			已暈厥。請祈禱同伴們能夠前來協助	icon_status.confuseup_tex
 470020	Block	0	0	swch	13000	0	0	暈厥			已暈厥。請祈禱同伴們能夠前來協助	icon_status.confuseup_tex
 470025	HPChange	-100000000	0	abs	3000	1	-100000000	善變 - 即死			完完全全被塔勒斯基給騙了呢。即將死亡。	
+470026	Power	0	0	perc	1000	0	1	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
 470026	HPChange	-0.2	0	perc	60000	1	-0.2	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
 470026	Block	0	0	swch	60000	0	0	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
+470027	Power	0	0	perc	1000	0	1	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
 470027	HPChange	-0.2	0	perc	60000	1	-0.2	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
 470027	Block	0	0	swch	60000	0	0	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
+470028	Power	0	0	perc	1000	0	1	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
 470028	HPChange	-0.2	0	perc	60000	1	-0.2	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
 470028	Block	0	0	swch	60000	0	0	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 20%。	icon_status.icedamage_tex
 470030	Power	0	0	perc	1200000	0	1.05	善變 - 力量增加			識破塔勒斯基的謊言而力量增加。	icon_skills.handyslash_tex
@@ -1079,10 +1103,10 @@
 476214	Power	0	0	perc	5000	0	0.5	奧坎詛咒_乏力 V			移動速度減少50%，力量減少50%。	icon_status.minusattack_tex
 476215	Power	0	0	perc	5000	0	0.4	奧坎詛咒_乏力 VI			移動速度減少60%，力量減少60%。	icon_status.minusattack_tex
 476216	Power	0	0	perc	60000	0	0.3	奧坎詛咒_乏力 VII			移動速度減少70%，力量減少70%。奧坎祝福_乏力 VII無法解除。	icon_status.minusattack_tex
-476217	Power	0	0	perc	5000	0	0.8	雙刃劍_防禦 II			抗打提升20%，力量減少20% (unk2)。	icon_status.plusedefence_tex
-476218	Power	0	0	perc	5000	0	0.7	雙刃劍_防禦 III			抗打提升30%，力量減少30% (unk2)。	icon_status.plusedefence_tex
-476219	Power	0	0	perc	5000	0	0.6	雙刃劍_防禦 IV			抗打提升40%，力量減少40% (unk2)。	icon_status.plusedefence_tex
-476219	Endurance	0	0	perc	5000	0	1.4	雙刃劍_防禦 IV			抗打提升40%，力量減少40% (unk2)。	icon_status.plusedefence_tex
+476217	Power	0	0	perc	5000	0	0.8	雙刃劍_防禦 II			抗打提升20%，力量減少50%。	icon_status.plusedefence_tex
+476218	Power	0	0	perc	5000	0	0.7	雙刃劍_防禦 III			抗打提升30%，力量減少50%。	icon_status.plusedefence_tex
+476219	Power	0	0	perc	5000	0	0.6	雙刃劍_防禦 IV			抗打提升40%，力量減少50%。	icon_status.plusedefence_tex
+476219	Endurance	0	0	perc	5000	0	1.4	雙刃劍_防禦 IV			抗打提升40%，力量減少50%。	icon_status.plusedefence_tex
 476220	Power	0	0	perc	300000	0	0.5	雙刃劍_防禦 V			抗打提升50%，力量減少50%。雙刃劍_防禦 V無法解除。	icon_status.plusedefence_tex
 476220	Endurance	0	0	perc	300000	0	1.5	雙刃劍_防禦 V			抗打提升50%，力量減少50%。雙刃劍_防禦 V無法解除。	icon_status.plusedefence_tex
 476221	Power	0	0	perc	5000	0	1.2	雙刃劍_攻擊 II			抗打減少20%，力量提升20%。	icon_status.plusattack_tex
@@ -1101,11 +1125,13 @@
 476615	DefPotion	0	0	perc	30000	0	0.95	電氣衝擊1階段			已受到電氣衝擊。對於被電氣屬性攻擊的傷害將會增加5%。電氣衝擊最多可堆疊4次。	icon_status.electriceffect1_tex
 476616	DefPotion	0	0	perc	30000	0	0.95	電氣衝擊2階段			已受到電氣衝擊。對於被電氣屬性攻擊的傷害將會增加5%。電氣衝擊最多可堆疊4次。	icon_status.electriceffect2_tex
 476617	DefPotion	0	0	perc	30000	0	0.95	電氣衝擊3階段			已受到電氣衝擊。對於被電氣屬性攻擊的傷害將會增加5%。電氣衝擊最多可堆疊4次。	icon_status.electriceffect3_tex
+476618	Endurance	0	0	perc	1000	0	1	強烈的休克			因為強烈的休克，在持續時間之後，將減少60%的HP，並以昏厥狀態無法行動。強烈的休克無法解除。	icon_status.fullelectriceffect_tex
 476618	HPChange	-0.6	0	perc	10000	10	-0.6	強烈的休克			因為強烈的休克，在持續時間之後，將減少60%的HP，並以昏厥狀態無法行動。強烈的休克無法解除。	icon_status.fullelectriceffect_tex
 476621	HPChange	0.2	0	perc	1000	1	0.2	熟睡			每1s持續恢復20%的HP。	icon_status.delayheal_tex
 476625	DefPotion	0	0	perc	30000	0	0.95	電氣衝擊1階段			已受到電氣衝擊。對於被電氣屬性攻擊的傷害將會增加5%。電氣衝擊最多可堆疊4次。	icon_status.electriceffect1_tex
 476626	DefPotion	0	0	perc	30000	0	0.95	電氣衝擊2階段			已受到電氣衝擊。對於被電氣屬性攻擊的傷害將會增加5%。電氣衝擊最多可堆疊4次。	icon_status.electriceffect2_tex
 476627	DefPotion	0	0	perc	30000	0	0.95	電氣衝擊3階段			已受到電氣衝擊。對於被電氣屬性攻擊的傷害將會增加5%。電氣衝擊最多可堆疊4次。	icon_status.electriceffect3_tex
+476628	Endurance	0	0	perc	1000	0	1	強烈的休克			因為強烈的休克，每5s持續減少60%的HP，昏厥狀態無法行動。強烈的休克無法解除。	icon_status.fullelectriceffect_tex
 476628	HPChange	-0.3	0	perc	5000	5	-0.3	強烈的休克			因為強烈的休克，每5s持續減少60%的HP，昏厥狀態無法行動。強烈的休克無法解除。	icon_status.fullelectriceffect_tex
 476705	MPChange	0	-0.5	perc	30000	1	-0.5	達坤淨化效果			因為淨化，每1s持續減少50%的MP。達坤精華無法解除。	icon_status.purifydagon_tex
 476815	Power	0	0	perc	20000	0	1.15	高點! 再高點!			依照次元的活力效果每次跳躍時，力量會增加15%，最多增加到75%。	icon_status.plusepoisonresist_tex
@@ -1128,6 +1154,7 @@
 495006	AtkPotion	0	0	perc	0	0	0.5	業火的詛咒 - 效果			技能威力減少50%。包含自身在內所有附近的隊員直到無能結界 - 釋放效果完全解除時，此效果會不斷持續。	icon_status.minusattack_tex
 500100	ASpd	0	0	perc	15000	0	1.2	魔力強化			攻擊速度增加20%，使用技能攻擊對象為怪物時提升10%的傷害值。	icon_skills.c5_strengthenmana
 500100	AtkPotion	0	0	perc	15000	0	1.1	魔力強化			攻擊速度增加20%，使用技能攻擊對象為怪物時提升10%的傷害值。	icon_skills.c5_strengthenmana
+500150	Endurance	0	0	perc	400	0	1	魔力強化 II			攻擊速度增加30%，使用技能攻擊對象為怪物時提升20%的傷害值。	icon_skills.c5_strengthenmana
 500150	ASpd	0	0	perc	15000	0	1.3	魔力強化 II			攻擊速度增加30%，使用技能攻擊對象為怪物時提升20%的傷害值。	icon_skills.c5_strengthenmana
 500150	AtkPotion	0	0	perc	15000	0	1.2	魔力強化 II			攻擊速度增加30%，使用技能攻擊對象為怪物時提升20%的傷害值。	icon_skills.c5_strengthenmana
 500300	MPChange	0	120	abs	25000	2	120	魔力凝集 I			每2s逐漸恢復120的MP。	icon_skills.mpcondensing_tex
@@ -1178,6 +1205,10 @@
 501322	Block	0	0	perc	7000	0	0	束縛詛咒			持續時間內不能移動，也無法使用迴避及移動系列技能。若受到一定以上的傷害或被擊倒時，效果立即解除。	icon_skills.curseofshackle_tex
 501323	MovSpdInCombat	0	0	setp	8000	0	0	束縛詛咒 IV			持續時間內不能移動，也無法使用迴避及移動系列技能。若受到一定以上的傷害或被擊倒時，效果立即解除。	icon_skills.curseofshackle_tex
 501323	Block	0	0	perc	8000	0	0	束縛詛咒 IV			持續時間內不能移動，也無法使用迴避及移動系列技能。若受到一定以上的傷害或被擊倒時，效果立即解除。	icon_skills.curseofshackle_tex
+501600	Endurance	0	0	perc	400	0	1	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex
+501600	MPChange	0	0.05	perc	900	1	0.05	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex
+501600	AtkPotion	0	0	perc	4000	0	0.8	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex
+501601	MPChange	0	0.05	perc	900	1	0.05	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex
 600500	Mark	0	0	swch	30000	0	1.2	弓箭手標記 I			被指定為集中攻擊對象了!若在效果持續時間中受到將你指定的對象的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
 600501	Mark	0	0	swch	35000	0	1.2	弓箭手標記 II			被指定為集中攻擊對象了!若在效果持續時間中受到將你指定的對象的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
 600502	Mark	0	0	swch	40000	0	1.2	弓箭手標記			被指定為集中攻擊對象了!若在效果持續時間中受到將你指定的對象的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
@@ -1215,14 +1246,19 @@
 601001	ASpd	0	0	perc	5000	0	0.85	牽制射擊 II			移動速度減少50%，攻擊速度減少15%。	icon_skills.contaningshot_tex
 601100	Power	0	0	abs	0	0	30	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
 601100	ASpd	0	0	abs	0	0	4	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
+601100	AtkPotion	0	0	perc	0	0	1.05	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
 601101	Power	0	0	abs	0	0	30	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
 601101	ASpd	0	0	abs	0	0	8	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
+601101	AtkPotion	0	0	perc	0	0	1.05	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
 601110	Power	0	0	abs	0	0	30	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
 601110	Endurance	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
 601110	ASpd	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
+601110	AtkPotion	0	0	perc	0	0	1.1	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
 601111	Power	0	0	abs	0	0	30	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
 601111	Endurance	0	0	abs	0	0	8	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
 601111	ASpd	0	0	abs	0	0	8	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
+601111	AtkPotion	0	0	perc	0	0	1.1	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
+601400	CastSpeed	0	0	perc	10000	0	1.5	一般射擊			命中敵人10次的話，會產生多重射擊的施展速度增加的增益效果。	icon_skills.arrowshot_tex
 601450	CastSpeed	0	0	perc	10000	0	1.5	一般射擊			 下一次穿透射擊時，蓄力速度增加。	icon_skills.arrowshot_tex
 700200	MPChange	0	-30	abs	0	2	-30	迷霧結界 I			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
 700201	MPChange	0	-30	abs	0	2	-30	迷霧結界 II			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
@@ -1288,18 +1324,53 @@
 701200	CDR	0	0	perc	6000	0	1.2	慵懶詛咒 I			效果持續時間中使用的所有技能的冷卻時間增加20%。	icon_skills.spiritoflassitude_tex
 701201	CDR	0	0	perc	8000	0	1.2	慵懶詛咒			效果持續時間中使用的所有技能的冷卻時間增加20%。	icon_skills.spiritoflassitude_tex
 701202	CDR	0	0	perc	10000	0	1.2	慵懶詛咒 III			效果持續時間中使用的所有技能的冷卻時間增加20%。	icon_skills.spiritoflassitude_tex
+701500	HPChange	390	0	abs	3000	1	390	恢復精氣 I	8008	恢復精氣晶球 I	每1秒恢復390的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701501	HPChange	515	0	abs	3000	1	515	恢復精氣 II	8009	恢復精氣晶球 II	每1秒恢復515的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701502	HPChange	716	0	abs	3000	1	716	恢復精氣 III	8010	恢復精氣晶球 III	每1秒恢復716的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701503	HPChange	994	0	abs	3000	1	994	恢復精氣 IV	8011	恢復精氣晶球 IV	每1秒恢復994的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701504	HPChange	1375	0	abs	3000	1	1375	恢復精氣 V	8012	恢復精氣晶球 V	每1秒恢復1375的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701505	HPChange	1901	0	abs	3000	1	1901	恢復精氣 VI	8013	恢復精氣晶球 VI	每1秒恢復1901的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701506	HPChange	2626	0	abs	3000	1	2626	恢復精氣 VII	8014	恢復精氣晶球 VII	每1秒恢復2626的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701507	HPChange	3627	0	abs	3000	1	3627	恢復精氣 VIII	8015	恢復精氣晶球 VIII	每1秒恢復3627的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701508	HPChange	5007	0	abs	3000	1	5007	恢復精氣 IX	8016	恢復精氣晶球 IX	每1秒恢復5007的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701509	HPChange	6921	0	abs	3000	1	6921	恢復精氣 X	8017	恢復精氣晶球 X	每1秒恢復6921的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701510	HPChange	10254	0	abs	3000	1	10254	恢復精氣 XI	8018	恢復精氣晶球 XI	每1秒恢復10342的HP重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
 701511	HPChange	10254	0	abs	3000	1	10254	恢復精氣 XII			每1秒恢復10342的HP重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701540	HPChange	390	0	abs	3000	1	390	恢復精氣 I			每1秒恢復390的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701541	HPChange	515	0	abs	3000	1	515	恢復精氣 II			每1秒恢復515的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701542	HPChange	716	0	abs	3000	1	716	恢復精氣 III			每1秒恢復716的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701543	HPChange	994	0	abs	3000	1	994	恢復精氣 IV			每1秒恢復994的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701544	HPChange	1375	0	abs	3000	1	1375	恢復精氣 V			每1秒恢復1375的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701545	HPChange	1901	0	abs	3000	1	1901	恢復精氣 VI			每1秒恢復1901的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701546	HPChange	2626	0	abs	3000	1	2626	恢復精氣 VII			每1秒恢復2626的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701547	HPChange	3627	0	abs	3000	1	3627	恢復精氣 VIII			每1秒恢復3627的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701548	HPChange	5007	0	abs	3000	1	5007	恢復精氣 IX			每1秒恢復5007的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701549	HPChange	6921	0	abs	3000	1	6921	恢復精氣 X			每1秒恢復6921的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701550	HPChange	10254	0	abs	3000	1	10254	恢復精氣 XI			每1秒恢復10342的HP重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701560	HPChange	507	0	abs	3000	1	507	恢復精氣 I			每1秒恢復390的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701561	HPChange	669	0	abs	3000	1	669	恢復精氣 II			每1秒恢復515的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701562	HPChange	930	0	abs	3000	1	930	恢復精氣 III			每1秒恢復716的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701563	HPChange	1292	0	abs	3000	1	1292	恢復精氣 IV			每1秒恢復994的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701564	HPChange	1787	0	abs	3000	1	1787	恢復精氣 V			每1秒恢復1375的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701565	HPChange	2471	0	abs	3000	1	2471	恢復精氣 VI			每1秒恢復1901的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701566	HPChange	3413	0	abs	3000	1	3413	恢復精氣 VII			每1秒恢復2626的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701567	HPChange	4715	0	abs	3000	1	4715	恢復精氣 VIII			每1秒恢復3627的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701568	HPChange	6509	0	abs	3000	1	6509	恢復精氣 IX			每1秒恢復5007的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701569	HPChange	8997	0	abs	3000	1	8997	恢復精氣 X			每1秒恢復6921的HP。重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701570	HPChange	13330	0	abs	3000	1	13330	恢復精氣 XI			每1秒恢復10342的HP重疊2次時效果只套用1.3倍。	icon_skills.hprefresher_tex
+701590	MPChange	0	0.2	perc	1000	1	0.2	魔力精氣 I	8023	魔力精氣晶球	不能顯示異常狀態之提示說明 (isShow=False) 若看見提示說明則必須回報BTS!	
 701601	ASpd	0	0	perc	3000	0	0.9	靈氣召喚 - 束縛 I			攻擊速度減少10%。	icon_skills.energiesofrestriction_tex
 701602	ASpd	0	0	perc	3000	0	1.05	靈氣召喚 - 迅速 I			攻擊速度增加5%。	icon_skills.energiesofquickness_tex
 701605	HPChange	529	0	abs	15000	2	529	靈氣召喚 - 庇護 I			藉由被召喚的靈氣，每2s時，HP會慢慢恢復529。	icon_skills.energiesofprotection_tex
 701607	HPChange	700	0	abs	15000	2	700	靈氣召喚 - 庇護 II			藉由被召喚的靈氣，每2s時，HP會慢慢恢復700。	icon_skills.energiesofprotection_tex
-701700	Endurance	0	0	perc	20000	0	0.95	疫病長槍			在$time內成為疫病的宿主，抗打減少5%。宿主無法使用淨化技能解除，會將疫病傳播給周圍 7m 內的我軍。	icon_skills.plague_tex
-701701	Endurance	0	0	perc	20000	0	0.95	疫病長槍 I			在$time內成為疫病的宿主，抗打減少5%。宿主無法使用淨化技能解除，會將疫病傳播給周圍 7m 內的我軍。	icon_skills.plague_tex
+701700	Endurance	0	0	perc	20000	0	0.95	疫病長槍			在20s內成為疫病的宿主，抗打減少5%。宿主無法使用淨化技能解除，會將疫病傳播給周圍 7m 內的我軍。	icon_skills.plague_tex
+701701	Endurance	0	0	perc	20000	0	0.95	疫病長槍 I			在20s內成為疫病的宿主，抗打減少5%。宿主無法使用淨化技能解除，會將疫病傳播給周圍 7m 內的我軍。	icon_skills.plague_tex
 701800	HPChange	-15086	0	abs	5000	1	-15086	疫病長槍			被疫病感染。持續受到-15086的傷害。	icon_skills.plague_tex
 701801	HPChange	-1953	0	abs	5000	1	-1953	疫病長槍			被疫病感染。持續受到-1953的傷害。HP恢復量減少10%。	icon_skills.plague_tex
 757002	ASpd	0	0	perc	0	0	1	燃燒吧			石巨人感到憤怒而全身都著火了。在半徑 21m裡的對象都會獲得 '熱氣' 異常狀態。	icon_status.firedamage_tex
 757004	HPChange	-0.03	0	perc	2000	1	-0.03	熱氣			受到石巨人的炙熱的熱氣的影響，身體好像在溶化。	icon_status.firedamage_tex
 757005	HPChange	-0.1	0	perc	20000	2	-0.1	不滅之火			受到熔岩的強烈熱氣的影響，身體正要燃燒起來了。	icon_status.firedamage_tex
+757006	Power	0	0	perc	0	0	1	火之花			阿凱倫所製作出來的燃燒之花。在周邊就會獲得 '熱氣' 異常狀態。異常狀態結束後，強力的攻擊會散開。	icon_skills.selfbuff_tex
 757007	Power	0	0	perc	0	0	1	不要顯示出來的內容			不要顯示出來的內容(如果能看到需要登錄 BTS)	icon_skills.selfbuff_tex
 757008	Power	0	0	perc	1000	0	1	不要顯示出來的內容			不要顯示出來的內容(如果能看到需要登錄 BTS)	icon_skills.selfbuff_tex
 757013	HPChange	0.1	0	perc	3000	2	0.1	超酷的封印劍			封印劍會自行回復 hp	icon_status.minuscriticalresist_tex
@@ -1328,11 +1399,16 @@
 757054	HPChange	-0.05	0	perc	10000	2	-0.05	出血			被銳利的爪子弄傷了。Hp持續減少。	icon_status.blooduanty_tex
 760001	MovSpdInCombat	0	0	perc	10000	0	1	自爆兵的目標			自爆兵們以此物件為目標聚集	icon_skills.markingofarcher_tex
 760003	Endurance	0	0	perc	45000	0	1	觸電 - 過度負荷			被凱利班的電氣力量觸電了。過度負荷加重的話會出現什麼可怕的事一樣，不要去太靠近水的地方比較好。	icon_skills.excesselectron_tex
+760003	HPChange	-0.05	0	perc	60000	1	-0.05	觸電 - 過度負荷			被凱利班的電氣力量觸電了。過度負荷加重的話會出現什麼可怕的事一樣，不要去太靠近水的地方比較好。	icon_skills.excesselectron_tex
+760005	HPChange	-0.05	0	perc	60000	1	-0.05	觸電休克			被凱利班的電氣力量觸電後呈現休克，沒有能穩定身體裡電氣力量的方法!	icon_skills.electricshock2_tex
 760006	HPChange	-0.05	0	perc	60000	1	-0.05	過度負荷休克			被凱利班的電氣力量觸電的關係，HP持續的減少。	icon_status.fullelectriceffect_tex
+760009	Endurance	0	0	perc	4000	0	1	雷電的憤怒			因為恐怖沒有辦法動彈，誰都不來幫忙的話也許就會這樣死亡也說不定。	icon_status.electriccharge1_tex
 760011	MovSpdInCombat	0	0	perc	3000	0	2	滑倒			在地板上有一灘水! 獲得滑倒效果移動速度增加2倍!	icon_skills.kumas_frontjump_tex
 760016	Power	0	0	perc	30000	0	10	氣力爆發			怪物將自身的氣力爆發後，力量會更強大! 但，移動速度也會像那樣變慢。	icon_status.firedamage_tex
 760016	MovSpdInCombat	0	0	perc	30000	0	-100	氣力爆發			怪物將自身的氣力爆發後，力量會更強大! 但，移動速度也會像那樣變慢。	icon_status.firedamage_tex
+760019	Endurance	0	0	perc	10000	0	1	恐怖			船搖晃後會喪失方向感! 因為船搖晃的關係，身體絕對無法動彈!	icon_status.fearstatus_tex
 760020	Endurance	0	0	perc	5000	0	0.7	昏厥			爆炸的傷害餘波的關係，精神暫時無法振作。	icon_status.confuseup_tex
+760022	Block	0	0	swch	5000	0	0	石化 進行			正面凝視普雷非摩斯的眼睛! 真的很可怕! 感覺身體漸漸僵硬起來，要快點解除才行。	icon_status.sealskill_tex
 760023	MovSpdInCombat	0	0	perc	5000	0	0	石化			正面凝視普雷非摩斯的眼睛!身體僵硬的無法動彈。	icon_status.sealskill_tex
 760023	Block	0	0	swch	5000	0	0	石化			正面凝視普雷非摩斯的眼睛!身體僵硬的無法動彈。	icon_status.sealskill_tex
 760031	MovSpdInCombat	0	0	perc	3000	0	0.1	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
@@ -1341,9 +1417,11 @@
 768015	Power	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
 768015	Endurance	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
 768015	ASpd	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
+768018	HPChange	-10000000	0	perc	3000	1	-10000000	拉坎的詛咒			受到拉坎的詛咒。若不解除則將立刻死亡。	icon_status.damagedown_tex
 768037	HPChange	-0.1	0	perc	10000	2	-0.1	魔氣			受到杜利溫魔氣的攻擊而中毒。HP持續減少。	icon_status.blooduanty_tex
 768038	Power	0	0	perc	990000000	0	1.01	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
 768038	ASpd	0	0	perc	990000000	0	1.01	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+768039	Endurance	0	0	perc	14000	0	80	黑魔法的詛咒			被黑魔法的詛咒圍繞著全身。若不解除詛咒則會釀成大禍。	icon_status.cruel_slayer_3_tex
 768041	HPChange	-0.01	0	perc	10000	2	-0.01	不穩定的魔氣			遭受杜利溫暴走的魔石侵蝕而導致HP持續減少。	icon_status.minushp_tex
 768042	MovSpdInCombat	0	0	perc	30000	0	0.26	黑魔法盾牌			杜利溫的完全體使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
 768043	Endurance	0	0	perc	0	0	5	黑魔法			杜利溫使用邪惡的黑魔法而使防禦力處於上升的狀態。	icon_status.plusedefence_tex
@@ -1352,6 +1430,7 @@
 768047	ASpd	0	0	perc	0	0	2	穩定的魔氣 (狂暴化)			杜利溫完全體使所有魔石的魔氣穩定地覺醒。已變得無法阻擋之。	icon_status.darkriftarearage_tex
 776017	Power	0	0	perc	30000	0	2	暗黑力量			使用聚集而來的暗黑力量，此時間內非常強大。	icon_status.angerwarrior_tex
 776017	ASpd	0	0	perc	30000	0	1.25	暗黑力量			使用聚集而來的暗黑力量，此時間內非常強大。	icon_status.angerwarrior_tex
+776024	HPChange	-30000	0	abs	5000	1	-30000	海盜船_暗黑宿主			持續時間結束後，會給予周邊廣域傷害。	icon_status.cruel_slayer_3_tex
 776025	HPChange	-30000	0	abs	5000	1	-30000	海盜船_暗黑爆發			給予周邊廣域傷害。	icon_status.cruel_slayer_2_tex
 776026	HPChange	-0.3	0	perc	5000	1	-0.3	海盜船_暗黑破壞連鎖效果			因暗黑爆發而受到傷害。	icon_status.cruel_slayer_2_tex
 777001	CritChance	0	0	abs	20000	2	1	完整的古代狂氣			暴擊觸發增加100%。	icon_status.cruel_slayer_4_tex
@@ -1438,6 +1517,8 @@
 801800	MPChange	0	0.08	perc	1000	1	0.08	魔力再生 I			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_skills.manarejuvenation_tex
 801801	MPChange	0	0.16	perc	1000	1	0.16	魔力再生 I			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_skills.manarejuvenation_tex
 801802	MPChange	0	0.32	perc	1000	1	0.32	魔力再生 I			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_skills.manarejuvenation_tex
+805101	Power	0	0	abs	2400000	0	17	亞倫的祝福 II			得到亞倫的祝福，於非戰鬥狀態中的移動速度上升 10、力量則上升 17。	icon_skills.attackup_tex
+805102	Power	0	0	abs	2400000	0	25	亞倫的祝福 III			得到亞倫的祝福，於非戰鬥狀態中的移動速度上升 10、力量則上升 25。	icon_skills.attackup_tex
 805600	Endurance	0	0	abs	900000	0	6	夏拉的祝福 I			受到夏拉的祝福，HP每 2秒會持續恢復並且抗打增加 6。	icon_skills.agilitybless_tex
 805600	HPChange	55	0	abs	900000	2	55	夏拉的祝福 I			受到夏拉的祝福，HP每 2秒會持續恢復並且抗打增加 6。	icon_skills.agilitybless_tex
 805601	Endurance	0	0	abs	900000	0	6	夏拉的祝福 II			受到夏拉的祝福，HP每 2秒會持續恢復並且抗打增加 6。	icon_skills.agilitybless_tex
@@ -1473,6 +1554,7 @@
 830015	MovSpdInCombat	0	0	perc	0	0	1.1	看不見的支援			攻擊速度增加。只可套用於祭司與元素使身上。	icon_status.cruel_slayer_4_tex
 830016	MovSpdInCombat	0	0	perc	5000	0	0	石化			正面看到普雷非摩斯的眼睛了! 身體變僵硬而動彈不得。	icon_status.sealskill_tex
 830016	Block	0	0	swch	5000	0	0	石化			正面看到普雷非摩斯的眼睛了! 身體變僵硬而動彈不得。	icon_status.sealskill_tex
+830017	Endurance	0	0	perc	15000	0	1	混沌!			於恐懼中發抖而逃跑中!	icon_skills.spiritofconfusion_tex
 830020	Endurance	0	0	perc	15000	0	1	混沌抵抗			暫時不會陷入混沌。	icon_skills.spiritofconfusion_tex
 830021	HPChange	-100000	0	perc	2000	1	-100000	任務用			任務用	icon_status.poisonstatus_tex
 830039	Power	0	0	perc	0	0	4	觀眾的支持			觀眾們叫喊著辛苦的您的名字並為您歡呼。力量增加300%、而抗打增加 300%，而攻擊速度也會增加 20%。另外，移動速度也會增加 10。	icon_skills.godbreath_tex
@@ -1482,12 +1564,14 @@
 830043	HPChange	-0.05	0	perc	45000	3	-0.05	劇毒			中劇毒後，每3s 整體HP會持續減少 10%。	icon_status.poisonstatus_tex
 860001	MovSpdInCombat	0	0	perc	10000	0	1	自爆兵的目標			自爆兵們以此物件為目標聚集	icon_skills.markingofarcher_tex
 860003	Endurance	0	0	perc	45000	0	1	觸電 - 過度負荷			被凱利班的電氣力量觸電了。過度負荷加重的話會出現什麼可怕的事一樣，不要去太靠近水的地方比較好。	icon_skills.excesselectron_tex
-860003	Endurance	0	0	perc	45000	0	1	觸電 - 過度負荷			被凱利班的電氣力量觸電了。過度負荷加重的話會出現什麼可怕的事一樣，不要去太靠近水的地方比較好。	icon_skills.excesselectron_tex
+860005	HPChange	-0.05	0	perc	60000	1	-0.05	觸電休克			被凱利班的電氣力量觸電後呈現休克，沒有能穩定身體裡電氣力量的方法!	icon_skills.electricshock2_tex
 860006	HPChange	-0.05	0	perc	60000	1	-0.05	過度負荷休克			被凱利班的電氣力量觸電的關係， HP持續的減少。	icon_status.fullelectriceffect_tex
 860011	MovSpdInCombat	0	0	perc	3000	0	2	滑倒			在地板上有一灘水! 獲得滑倒效果移動速度增加2倍!	icon_skills.kumas_frontjump_tex
 860016	Power	0	0	perc	30000	0	10	氣力爆發			怪物將自身的氣力爆發後，力量會更強大! 但，移動速度也會像那樣變慢。	icon_status.firedamage_tex
 860016	MovSpdInCombat	0	0	perc	30000	0	-100	氣力爆發			怪物將自身的氣力爆發後，力量會更強大! 但，移動速度也會像那樣變慢。	icon_status.firedamage_tex
+860019	Endurance	0	0	perc	10000	0	1	恐怖			船搖晃後會喪失方向感! 因為船搖晃的關係，身體絕對無法動彈!	icon_status.fearstatus_tex
 860020	Endurance	0	0	perc	7000	0	0.7	昏厥			爆炸的傷害餘波的關係，精神暫時無法振作。	icon_status.confuseup_tex
+860022	Block	0	0	swch	5000	0	0	石化進行			正面凝視普雷非摩斯的眼睛! 真的很可怕! 感覺身體漸漸僵硬起來，要快點解除才行。	icon_status.sealskill_tex
 860023	MovSpdInCombat	0	0	perc	5000	0	0	石化			正面凝視普雷非摩斯的眼睛!身體僵硬的無法動彈。	icon_status.sealskill_tex
 860023	Block	0	0	swch	5000	0	0	石化			正面凝視普雷非摩斯的眼睛!身體僵硬的無法動彈。	icon_status.sealskill_tex
 860031	MovSpdInCombat	0	0	perc	3000	0	0.1	火焰地帶!			在火焰地帶裡! 減少HP和移動速度	icon_status.minusmove_tex
@@ -1502,6 +1586,7 @@
 905413	Power	0	0	perc	0	0	1.1	神格化			強大的力強將奧露卡的力量和速度提升至界限，不過防禦力減少35%。	icon_status.plusattack_tex
 905413	Endurance	0	0	perc	0	0	0.65	神格化			強大的力強將奧露卡的力量和速度提升至界限，不過防禦力減少35%。	icon_status.plusattack_tex
 905413	ASpd	0	0	perc	0	0	1.88	神格化			強大的力強將奧露卡的力量和速度提升至界限，不過防禦力減少35%。	icon_status.plusattack_tex
+905420	ASpd	0	0	perc	0	0	1.2	奧露卡的閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們受到強力的電擊傷害。	icon_status.electriccharge3_tex
 905423	MPChange	0	-0.05	perc	180000	1	-0.05	噁心黏液			因為深海魚的噁心黏液，MP無法恢復。用乾淨的水沖洗，就會消失。	icon_status.minusmove_tex
 905424	MPChange	0	0.5	perc	3000	2	0.5	輕快的身體			用乾淨的水將附著在身體上的黏液都清洗掉了。移動速度提升50%。	icon_status.minushp_tex
 905426	Endurance	0	0	perc	10000	0	0.45	深海的恐怖			因為深海魚的恐怖，抗打減少55%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex
@@ -1529,10 +1614,12 @@
 905661	StaminaDecay	0	0	swch	90000	0	0	太陽之光			每5秒恢復3%的體力。	icon_status.valrhona_sun_tex
 905662	MPChange	0	1	perc	90000	15	1	惡魔的微笑			每15秒魔力回復至 100% 狀態。	icon_status.valrhona_devil_tex
 905663	Endurance	0	0	perc	90000	0	1.2	女神的呼喚			防禦力增加 20%。	icon_status.valrhona_goddess_tex
+905668	Power	0	0	perc	30000	0	2	晶球的祝福			因為龍之晶球，能量凝聚中，無法解除時，獲得強大力量。	icon_status.fearstatus_tex
 905669	Power	0	0	perc	30000	0	2	進化：藍眼白龍			因為晶球而變強了。	icon_status.battlecommand01_tex
 905669	ASpd	0	0	perc	30000	0	1.2	進化：藍眼白龍			因為晶球而變強了。	icon_status.battlecommand01_tex
 905670	HPChange	-0.1	0	perc	5000	1	-0.1	晶球的詛咒			因為龍之晶球，能量凝聚中，無法解除時，會變成麻痺狀態。	icon_status.fearstatus_tex
 905676	MPChange	0	-0.05	perc	30000	1	-0.05	魔人電流			因為魔人電流每秒減少5%的MP。	icon_status.paralyzestatus_tex
+905684	Power	0	0	perc	30000	0	2	晶球的祝福			因為龍之晶球，能量凝聚中，無法解除時，獲得強大力量。	icon_status.fearstatus_tex
 905685	Power	0	0	perc	30000	0	2	進化：紅眼黑龍			因為晶球而變強了。	icon_status.battlecommand03_tex
 905685	ASpd	0	0	perc	30000	0	1.2	進化：紅眼黑龍			因為晶球而變強了。	icon_status.battlecommand03_tex
 905902	HPChange	-0.08	0	perc	16000	1	-0.08	出血			每1s繼續減少HP8%。	icon_status.injuredbtdarkness_tex
@@ -1544,6 +1631,7 @@
 905932	Endurance	0	0	perc	0	0	0.65	狂暴化			受到強大的惡靈的力量，柏恩斯坦的力量和速度提升至界限。不過防禦減少35%	icon_skills.berserk_tex
 905932	ASpd	0	0	perc	0	0	1.8	狂暴化			受到強大的惡靈的力量，柏恩斯坦的力量和速度提升至界限。不過防禦減少35%	icon_skills.berserk_tex
 905933	Endurance	0	0	perc	90000	0	0.7	拉道斯的詛咒			每2s持續減少HP8%，重疊 3次時即死亡。無法解除拉道斯的詛咒。	icon_status.injuredbtdarkness_tex
+905933	ASpd	0	0	perc	1000	0	1	拉道斯的詛咒			每2s持續減少HP8%，重疊 3次時即死亡。無法解除拉道斯的詛咒。	icon_status.injuredbtdarkness_tex
 905933	HPChange	-0.08	0	perc	90000	2	-0.08	拉道斯的詛咒			每2s持續減少HP8%，重疊 3次時即死亡。無法解除拉道斯的詛咒。	icon_status.injuredbtdarkness_tex
 905934	HPChange	-0.07	0	perc	5000	1	-0.07	惡靈島幽靈			因幽靈的影響，自己也成為幽靈，並在變為幽靈的過程中HP持續以 8%減少。但對於特定攻擊具有免疫狀態。	icon_status.diseasedown_tex
 905934	Block	0	0	swch	5000	0	0	惡靈島幽靈			因幽靈的影響，自己也成為幽靈，並在變為幽靈的過程中HP持續以 8%減少。但對於特定攻擊具有免疫狀態。	icon_status.diseasedown_tex
@@ -1651,8 +1739,11 @@
 8000077	DefPotion	0	0	perc	1800000	0	0.9	凱亞的聖水	139100	凱亞聖水 I	技能傷害提升10%，所受到的傷害減少 10%。另外攻擊速度也會跟著提升4%。	icon_items.potion10_tex
 8000077	AtkPotion	0	0	perc	1800000	0	1.1	凱亞的聖水	139100	凱亞聖水 I	技能傷害提升10%，所受到的傷害減少 10%。另外攻擊速度也會跟著提升4%。	icon_items.potion10_tex
 8000683	HPChange	0.5	0	perc	3000	1	0.5	入場時恢復的異常狀態。不要顯示出來的內容! Bug!			入場時恢復的異常狀態。不要顯示出來的內容! Bug!	
+8000684	Power	0	0	abs	900000	0	0	雪人詛咒			給予停滯在起點的人們雪人的詛咒。離開起點的話15秒內解除詛咒。重疊13次時成為雪人，將會死亡。	icon_status.fearstatus_tex
+8000685	Power	0	0	abs	900000	0	0	雪人詛咒			變成雪人了!馬上就會死亡，請不要停在這裡!	icon_status.firedamage_tex
 8000685	HPChange	-0.8	0	perc	60000	1	-0.8	雪人詛咒			變成雪人了!馬上就會死亡，請不要停在這裡!	icon_status.firedamage_tex
 8000712	Block	0	0	swch	10000	0	5	暗害			因暗害地雷效果而無法使用攻擊技能。	icon_skills.paralysistrap_tex
+8000713	Endurance	0	0	perc	1	0	1	自爆兵			成為了自爆兵。若於時間內未自爆，將面臨虛無的死亡。處於自爆兵狀態時無法搭乘坐騎。	icon_skills.explosiontrap_tex
 8000717	HPChange	0.1	0	perc	5000	1	0.1	戰車裝備			戰車在 5秒內漸漸被修理	icon_status.plusmove_tex
 9100080	MPChange	0	0.01	perc	0	2	0.01	博得的恩惠			在博得的恩惠下，增加每日任務可執行的次數，且提升在副本中掉強化道具的機率。另外持續恢復MP。	icon_items.argon_plants_tex
 9100130	MPChange	0	0.01	perc	0	2	0.01	艾利奴的恩惠			在艾利奴的恩惠下，增加每日任務可執行的次數，且提升在副本中掉名品道具的機率。另外持續恢復MP。	icon_items.argon_plants_tex
@@ -1670,16 +1761,25 @@
 10151010	CDR	0	0	perc	15000	0	0.3	暗黑降臨 I			飛劍士取得黑暗力量。此效果持續時間內，所使用的飛劍技術[飛劍劈擊]、[飛劍重擊斬]、[飛劍向上揮擊]、[飛劍迴旋刀刃]、[飛劍最後的一擊]、[逆捕獲]、[飛劍揮舞]、[飛劍強擊]的再使用時間減少70%。	icon_skills.descentofdarkness_tex
 10151032	HPChange	-3454	0	abs	10000	2	-3454	位置交換 I			被黑暗觸手而發動的暗黑鎖鏈纏繞身體，每2秒就受到3454的傷害。這效果持續的期間，無論何時都可以和發射黑暗觸手的施展者交換位置。	icon_skills.darkgrasp_tex
 10151050	MovSpdInCombat	0	0	setp	3000	0	0	飛劍向上揮擊			下巴遭受攻擊，成為暫時無法移動的狀態。該效果只會套用於怪物身上。	icon_skills.chainuppercut_tex
+10151070	Endurance	0	0	perc	30000	0	1	逆重力			被吸進混沌的漩渦裡，身體開始漂浮在空中。這效果的持續期間，不會受到任何的傷害，但是無法進行任何的行動。	icon_skills.tornadoprison_tex
 10151070	HPChange	-1015	0	abs	10000	1	-1015	逆重力			被吸進混沌的漩渦裡，身體開始漂浮在空中。這效果的持續期間，不會受到任何的傷害，但是無法進行任何的行動。	icon_skills.tornadoprison_tex
+10151070	DefPotion	0	0	perc	3000	0	1.5	逆重力			被吸進混沌的漩渦裡，身體開始漂浮在空中。這效果的持續期間，不會受到任何的傷害，但是無法進行任何的行動。	icon_skills.tornadoprison_tex
 10151074	Endurance	0	0	perc	30000	0	1	平衡			適應重力並在一定時間內不受到漩渦效果影響。	icon_skills.tornadoprison_tex
+10151090	Power	0	0	abs	300000	0	0	黑暗帳幕			雖遭受到致命傷，但黑暗的力量保護了你。在這效果的持續期間，會使所有傷害減少50%，但無法獲得 HP恢復效果。持續時間結束後，恢復最大HP的 30%。	icon_skills.shadowcurtain_tex
 10151090	DefPotion	0	0	perc	7000	0	0.5	黑暗帳幕			雖遭受到致命傷，但黑暗的力量保護了你。在這效果的持續期間，會使所有傷害減少50%，但無法獲得 HP恢復效果。持續時間結束後，恢復最大HP的 30%。	icon_skills.shadowcurtain_tex
 10151092	Power	0	0	abs	300000	0	0	黑暗帳幕 [被動] 等待時間			黑暗氣息正在匯聚中。在黑暗氣息全部匯聚完之前， 起死回生的效果是不會啟動的。	icon_skills.shadowcurtain_tex
+10151200	Endurance	0	0	perc	1	0	1	自爆兵			成為自爆兵。在時間內如果不自爆，就會面臨虛無的死亡。自爆兵狀態下無法騎乘座騎。	icon_skills.explosiontrap_tex
 10151200	MovSpdInCombat	0	0	seta	60000	0	240	自爆兵			成為自爆兵。在時間內如果不自爆，就會面臨虛無的死亡。自爆兵狀態下無法騎乘座騎。	icon_skills.explosiontrap_tex
+10152031	Block	0	0	swch	2100	0	0	噗通~~			受到炮彈餘波的影響，身體浮在空中無法移動身體。	icon_skills.timebombshot_tex
 10152032	MovSpdInCombat	0	0	setp	1100	0	0.1	發射限時炮彈			從某處發出令人不舒服的電波，造成移動速度變慢。	icon_skills.timebombshot_tex
 10152033	MovSpdInCombat	0	0	setp	1100	0	0.2	發射限時炮彈			從某處發出令人不舒服的電波，造成移動速度變慢。	icon_skills.timebombshot_tex
+10152035	Block	0	0	swch	2100	0	0	噗通~~			受到炮彈餘波的影響，身體浮在空中無法移動身體。	icon_skills.timebombshot_tex
+10152040	Endurance	0	0	perc	3100	0	1	祕傳衝擊彈爆發可能			可以讓飛行的祕傳衝擊彈大爆炸。	icon_skills.arcaneshockshot02_tex
 10152051	MovSpdInCombat	0	0	setp	1100	0	0.1	發射速射炮			遭受快速的連發射擊，造成腳踝受傷移動速度變慢。	icon_skills.gatlingshot_tex
 10152052	MovSpdInCombat	0	0	setp	1100	0	0.5	發射速射炮			遭受快速的連發射擊，造成腳踝受傷移動速度變慢。	icon_skills.gatlingshot_tex
 10152061	HPChange	-645	0	abs	10100	2	-645	過度負荷			累積電子能量引發過度負荷，並造成持續性傷害。	icon_skills.excesselectron_tex
+10152110	Power	0	0	abs	300000	0	0	緊急保護膜啟動			為扺消達到死亡的傷害而啟動緊急保護膜了。緊急保護膜最大可吸收27858的傷害量。	icon_skills.emergencyshield_tex
+10152111	Power	0	0	abs	300000	0	0	緊急保護膜啟動			為扺消達到死亡的傷害而啟動緊急保護膜了。緊急保護膜最大可吸收34900的傷害量。	icon_skills.emergencyshield_tex
 10152113	Power	0	0	abs	300000	0	0	緊急保護膜 [被動] 等待時間			緊急保護膜正在填充中。在緊急保護膜全部填充完之前，起死回生的效果是不會啟動的。	icon_skills.emergencyshield_tex
 10152120	Endurance	0	0	perc	0	0	1	過度負荷			已補充好神祕能量。現在是破壞眼前礙眼傢伙的時機。	icon_skills.excesselectron_tex
 10153020	Block	0	0	swch	3000	0	0	強打 (防禦)			在半空中失重，無法提起精神。	icon_skills.smashattack02_tex
@@ -1687,6 +1787,7 @@
 10153040	Crit	0	0	abs	0	0	30	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex
 10153040	ASpd	0	0	abs	0	0	-10	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex
 10153040	CDR	0	0	perc	0	0	0.7	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex
+10153040	Block	0	0	swch	0	0	0	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex
 10153040	SuperArmor	0	0	swch	0	0	0	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex
 10153071	Power	0	0	abs	300000	0	0	猛烈意志 [被動] 等待時間			猛烈意志正在填滿中。在猛烈意志全部填滿之前，起死回生的效果是不會啟動的。	icon_skills.ferociouswill_tex
 10153140	Endurance	0	0	perc	20000	0	0.99	狂暴連打			被攻擊要害，抗打減少1%。最多可堆疊8次。	icon_skills.rapidattack_tex
@@ -1731,6 +1832,7 @@
 43300001	Power	0	0	perc	70000	0	1.25	戴蒙克隆的詛咒			每次重疊時，力量會增加 25%，但每 1 每秒會持續減少 500之HP。此效果最多可堆疊 99次。	icon_status.diseaseup_tex
 43300001	HPChange	-200	0	abs	70000	1	-200	戴蒙克隆的詛咒			每次重疊時，力量會增加 25%，但每 1 每秒會持續減少 500之HP。此效果最多可堆疊 99次。	icon_status.diseaseup_tex
 43300002	HPChange	-2500	0	abs	20000	2	-2500	感染：戴蒙克隆病毒			被戴蒙克隆病毒感染了。會使HP持續減少、恢復量變得緩慢。	icon_status.minuscriticalresist_tex
+43300003	Power	0	0	perc	30000	0	2.5	補充：戴蒙克隆能源			基露卡爾正在收集戴蒙克隆能源。此能源使得保護膜生成。當無法破壞保護膜時即獲得強大力量。可以解除乏力預言或是祝福解除技能。	icon_skills.manashield_tex
 43300006	HPChange	1	0	perc	1000	1	1	HP即時恢復			異常狀態提示說明無法顯示 若看見 (isShow=False) 此提示說明時，必須回報BTS!	icon_status.diseaseup_tex
 44300002	Endurance	0	0	perc	11000	0	1	暗黑霧氣			四周佈滿暗黑霧氣，在霧氣中大幅提升移動速度。	icon_status.darkeffect_tex
 44300003	Power	0	0	perc	0	0	3	受咒的碑石力量			怪物們的力量提升200%。	icon_status.minushp_tex
@@ -1807,6 +1909,8 @@
 47501300	Power	0	0	perc	10000	0	3	凱爾賽克的詛咒			每次堆疊時，力量增加200%，但是每1持續減少0.5%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex
 47501300	HPChange	-0.005	0	perc	10000	1	-0.005	凱爾賽克的詛咒			每次堆疊時，力量增加200%，但是每1持續減少0.5%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex
 47501400	HPChange	-0.05	0	perc	90000	5	-0.05	地獄業火			每5s持續減少5%的HP，持續時間結束時令對象當場死亡。 地獄業火只有透過毀滅業火和毀滅寒氣可以消除。	icon_status.poisonstatus_tex
+47501500	Power	0	0	perc	3600000	0	3	毀滅盔甲			毀滅盔甲最多吸收500000的傷害。於持續時間內施加最大傷害吸收量以上的傷害，若無法破壞毀滅盔甲，根據結界效果所有PC對象會死亡，凱爾賽克會陷入毀滅憤怒!	icon_skills.manashield_tex
+47501600	Power	0	0	perc	3600000	0	3	毀滅盔甲			毀滅盔甲最多吸收400000的傷害。於持續時間內施加最大傷害吸收量以上的傷害，若無法破壞毀滅盔甲，根據結界效果所有PC對象會死亡，凱爾賽克會陷入毀滅憤怒!	icon_skills.manashield_tex
 47501700	Power	0	0	perc	10000	0	1.05	凱爾賽克的詛咒			每次堆疊時，力量增加5%，但是每5持續減少2%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex
 47501700	HPChange	-0.02	0	perc	10000	5	-0.02	凱爾賽克的詛咒			每次堆疊時，力量增加5%，但是每5持續減少2%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex
 47501800	HPChange	-0.03	0	perc	90000	5	-0.03	毀滅業火			每5s持續減少3%的HP，持續時間結束時令對象當場死亡。 毀滅業火只有透過毀滅寒氣才可以消除。	icon_status.firedamage_tex
@@ -1851,10 +1955,10 @@
 47620900	Endurance	0	0	perc	120000	0	1.1	奧坎祝福_防禦			抗打提升10%。此效果最多可堆疊10次。	icon_status.plusedefence_tex
 47621000	Power	0	0	perc	120000	0	1.1	奧坎祝福_攻擊			力量提升10%。此效果最多可堆疊10次。	icon_status.plusattack_tex
 47621100	Power	0	0	perc	5000	0	0.9	奧坎詛咒_乏力 I			移動速度減少10%，力量減少10%。	icon_status.minusattack_tex
-47621400	Power	0	0	perc	5000	0	0.9	雙刃劍_防禦 I			抗打提升10%，力量減少10% (unk2)。	icon_status.plusedefence_tex
-47621400	Endurance	0	0	perc	5000	0	1.1	雙刃劍_防禦 I			抗打提升10%，力量減少10% (unk2)。	icon_status.plusedefence_tex
-47621500	Power	0	0	perc	5000	0	1.1	雙刃劍_攻擊 I			抗打減少10%，力量提升10% (unk2)。	icon_status.plusattack_tex
-47621500	Endurance	0	0	perc	5000	0	0.9	雙刃劍_攻擊 I			抗打減少10%，力量提升10% (unk2)。	icon_status.plusattack_tex
+47621400	Power	0	0	perc	5000	0	0.9	雙刃劍_防禦 I			抗打提升10%，力量減少50%。	icon_status.plusedefence_tex
+47621400	Endurance	0	0	perc	5000	0	1.1	雙刃劍_防禦 I			抗打提升10%，力量減少50%。	icon_status.plusedefence_tex
+47621500	Power	0	0	perc	5000	0	1.1	雙刃劍_攻擊 I			抗打減少10%，力量提升50%。	icon_status.plusattack_tex
+47621500	Endurance	0	0	perc	5000	0	0.9	雙刃劍_攻擊 I			抗打減少10%，力量提升50%。	icon_status.plusattack_tex
 47621700	Power	0	0	perc	600000	0	1.2	巨大化			最大HP提升50%，每12逐漸恢復1%的HP。抗打提升20%，力量提升20%。	icon_status.plushp_tex
 47621700	Endurance	0	0	perc	600000	0	1.2	巨大化			最大HP提升50%，每12逐漸恢復1%的HP。抗打提升20%，力量提升20%。	icon_status.plushp_tex
 47621700	HPChange	0.01	0	perc	600000	12	0.01	巨大化			最大HP提升50%，每12逐漸恢復1%的HP。抗打提升20%，力量提升20%。	icon_status.plushp_tex
@@ -1907,6 +2011,7 @@
 47662000	CDR	0	0	perc	5000	0	0.1	祝福罈			因為祝福罈的氣息，冷卻時間減少90%。祝福罈無法解除。	icon_status.minusmp_tex
 47662120	ASpd	0	0	perc	86400000	0	1.05	擦油			攻擊速度增加5%。此效果最多可堆疊3次。	icon_status.plusmove_tex
 47662130	AtkPotion	0	0	perc	30000	0	2	完美的機器			對所有傷害100%扺抗，技能傷害增加100%。	icon_status.plusattack_tex
+47662140	HPChange	0.2	0	perc	1000	1	0.2	Zzz...			達到10堆疊時，將產生熟睡效果。	icon_status.sleepstatus_tex
 47662500	Endurance	0	0	perc	20000	0	0.9	媽媽的悲傷			媽媽的悲傷會讓人嚎啕大哭，抗打會減少10%。媽媽的悲傷最多可堆疊6次。	icon_status.minusdefence_tex
 47662600	DefPotion	0	0	perc	3600000	0	0.9	泥人的力量			靠著泥人的力量，被電擊界的技能攻擊時，損害會減少10%。	icon_status.minusdefence_tex
 47662800	Endurance	0	0	perc	45000	0	3	不死時間			對所有有害的效果100%扺抗，抗打增加200%。	icon_status.immunedebuff_tex
@@ -1937,6 +2042,7 @@
 47690100	Endurance	0	0	perc	60000	0	0.2	突進粉碎			因為突進波長，抗打將減少80%。 突進粉碎無法解除。	icon_status.minusdefence_tex
 47690200	DefPotion	0	0	perc	0	0	0.2	赤紅盾牌			以鮮明的赤紅盾牌之力量，被遠距離攻擊時所受的傷害將減少80%。 赤紅盾牌無法解除。	icon_status.plusedefence_tex
 47690300	DefPotion	0	0	perc	0	0	0.2	青藍盾牌			以鮮明的青藍盾牌之力量，被近距離攻擊時所受的傷害將減少80%。 青藍盾牌無法解除。	icon_status.plusedefence_tex
+47690700	HPChange	-0.02	0	perc	60000	1	-0.02	精神崩潰			持續時間之後，將陷入精神崩潰-效果。	icon_status.confuseup_tex
 47690800	HPChange	-0.1	0	perc	10000	10	-0.1	深海支配			已遭受深海支配的異常狀態。持續時間結束之後，將減少10%的HP。 深海支配無法解除。	icon_status.minushp_tex
 47691000	MPChange	0	-100000000	perc	5000	1	-100000000	魔力奪取			MP將減少為0，且無法套用MP恢復效果。 魔力奪取無法解除。	icon_status.minusmp_tex
 47700000	ASpd	0	0	perc	0	0	1.5	元氣吸收			已吸收了元氣！移動速度將會提升50%，而攻擊速度會增加50%。 元氣吸收無法解除。	icon_status.plusmove_tex
@@ -1950,6 +2056,9 @@
 47701200	Endurance	0	0	perc	0	0	1	鋼鐵心靈			阿勒坤女王將無視一切仇恨值。 鋼鐵心靈無法解除。	icon_status.diffusionaggro_tex
 47701300	Endurance	0	0	perc	0	0	1	心靈崩潰			因阿勒坤女王的心靈崩潰，她將視當前的仇恨值而行動。 心靈崩潰無法解除。	icon_status.stackabnormality_tex
 47701400	Endurance	0	0	perc	40000	0	1	轉移阿勒坤細胞			堆疊5次時將發動阿勒坤病毒效果。	icon_status.poisonstatus_tex
+47701400	HPChange	-0.5	0	perc	6000	1	-0.5	轉移阿勒坤細胞			堆疊5次時將發動阿勒坤病毒效果。	icon_status.poisonstatus_tex
+47701700	Power	0	0	perc	0	0	3	女王的咆哮			可以聽到女王的咆哮。若該效果堆疊3次時，將會產生女王的震怒。	icon_status.plusattack_tex
+47701800	HPChange	-0.5	0	perc	6000	1	-0.5	促進阿勒坤細胞			持續時間結束之後，將會陷入阿勒坤末期癌症效果。	icon_status.confuseup_tex
 47701900	Endurance	0	0	perc	0	0	1	阿勒坤			阿勒坤	icon_status.plusabnormality_tex
 47702000	Endurance	0	0	perc	0	0	1	卡勒坤			卡勒坤	icon_status.minusabnormality_tex
 47702100	HPChange	-0.1	0	perc	10000	1	-0.1	細胞爆發			將會在每1s持續減少10%的HP，且於持續時間結束之後減少-30000的HP。 細胞爆發無法解除。	icon_status.delaydamage_tex
@@ -2007,6 +2116,8 @@
 77700020	ASpd	0	0	perc	600000	0	1.1	恐懼			因害怕失敗而暴走。	icon_status.darkriftrage_tex
 77700800	HPChange	-0.02	0	perc	30000	1	-0.02	阿勒坤寄生蟲			每1s持續減少2%的HP。此效果最多可堆疊5次，而堆疊5時將減少50%的HP。 跳躍時將產生擺脫寄生蟲效果。 阿勒坤寄生蟲無法解除。	icon_status.minusattack_tex
 77701400	Endurance	0	0	perc	40000	0	1	轉移阿勒坤細胞			堆疊5次時將發動阿勒坤病毒效果。	icon_status.poisonstatus_tex
+77701400	HPChange	-0.2	0	perc	6000	1	-0.2	轉移阿勒坤細胞			堆疊5次時將發動阿勒坤病毒效果。	icon_status.poisonstatus_tex
+77701700	Power	0	0	perc	30000	0	3	女王的咆哮			可以聽到女王的咆哮。若該效果堆疊3次時，將會產生女王的震怒。	icon_status.plusattack_tex
 77702100	HPChange	-0.1	0	perc	10000	3	-0.1	細胞爆發			每3s持續減少10%的HP，並於持續時間結束之後減少 10% (unk2)的HP。 細胞爆發無法解除。	icon_status.delaydamage_tex
 77702900	HPChange	-0.1	0	perc	180000	5	-0.1	貪慾波動			貪慾的念頭纏繞著全身。必須要在持續時間結束之前，更新為憎惡波動。	icon_status.cruel_slayer_1_tex
 77703000	HPChange	-0.1	0	perc	180000	5	-0.1	憎惡波動			憎惡某人的心越來越大。必須要在持續時間結束之前，更新為絕望波動。	icon_status.cruel_slayer_2_tex
@@ -2017,15 +2128,20 @@
 77703412	Endurance	0	0	perc	120000	0	10	戴蒙克隆化			身體變型成戴蒙克隆。所有的攻擊都可追加獲得仇恨值，防禦力上升，但HP持續減少。	icon_status.darkriftdestroy_tex
 77703412	HPChange	-0.05	0	perc	120000	3	-0.05	戴蒙克隆化			身體變型成戴蒙克隆。所有的攻擊都可追加獲得仇恨值，防禦力上升，但HP持續減少。	icon_status.darkriftdestroy_tex
 77703416	Endurance	0	0	perc	0	0	10000	戴蒙克隆的保護			因為在周圍的戴蒙克隆們，防禦力上升。在戴蒙克隆全部消失以前都會維持效果。	icon_status.darkriftwhisper_tex
+77703424	Power	0	0	perc	30000	0	2.5	戴蒙克隆詛咒			遭受戴蒙克隆的詛咒。身體逐漸變得遲緩。	
 77703426	Power	0	0	perc	600000	0	1.1	暴食			吃下戴蒙克隆變得更強了。	icon_status.minusdiseaseresist_tex
 77703429	HPChange	0.05	0	perc	1000	1	0.05	HP恢復			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	
+77703430	Power	0	0	perc	30000	0	2.5	暴食			基露卡爾吃掉玩家變得更強大了。該效果堆疊3次時，將會產生 '進化 : 基露卡爾' 效果。	icon_status.plusattack_tex
 77703431	HPChange	-5000	0	abs	20000	2	-5000	感染 : 戴蒙克隆病毒			已感染戴蒙克隆病毒。HP持續減少，恢復量緩慢。	icon_status.minuscriticalresist_tex
 77703432	Power	0	0	perc	20000	0	3	變形 : 戴蒙克隆病毒			已感染致命的戴蒙克隆病毒。雖然HP會急遽減少，但是可以感受到戴蒙克隆的強大力量。	icon_status.delaydamage_tex
 77703432	HPChange	-12000	0	abs	20000	2	-12000	變形 : 戴蒙克隆病毒			已感染致命的戴蒙克隆病毒。雖然HP會急遽減少，但是可以感受到戴蒙克隆的強大力量。	icon_status.delaydamage_tex
+77703433	Power	0	0	perc	30000	0	2.5	充電 : 戴蒙克隆能源			基露卡爾正聚集戴蒙克隆能量。因為能量的關係，產生了保護罩。如果無法破壞保護膜，就會獲得到強大的力量。	icon_skills.manashield_tex
 77703435	Endurance	0	0	perc	15000	0	10000	戴蒙克隆細胞			已覆蓋上戴蒙克隆細胞。該效果維持的期間內，給予戴蒙克隆的傷害會減少。	icon_status.balanceup_tex
 77703437	Power	0	0	perc	15000	0	1.2	狂暴化			戴蒙克隆失去理性變得凶暴化。每次堆疊時攻擊力會增加。	icon_status.diseaseup_tex
+77703439	Power	0	0	perc	30000	0	2.5	充電 : 戴蒙克隆能源			正在聚集戴蒙克隆能量。如果無法解除，就會獲得到強大的力量。	icon_status.fearstatus_tex
 77703442	HPChange	-0.25	0	perc	1000	1	-0.25	感染 : 戴蒙克隆病毒			已感染強大的戴蒙克隆病毒。非常強大，對戴蒙克隆來說也會受到傷害。	icon_status.cruel_slayer_3_tex
 77703443	Endurance	0	0	perc	0	0	10	戴蒙克隆的堅硬皮革			受到戴蒙克隆的堅硬皮革的保護。很難以一般攻擊消滅牠。	icon_status.plusedefence_tex
+80401500	Power	0	0	perc	3600000	0	3	毀滅盔甲			破滅盔甲最多吸收4000000的傷害。在持續時間內，無法給予最大傷害吸收量以上的傷害時，受到牽制效果玩家角色會死亡，且凱爾賽克陷入毀滅憤怒！	icon_skills.manashield_tex
 80900001	Endurance	0	0	setp	15000	0	0.3	集中攻擊			集中攻擊對象的抗打和移動速度減少70%。集中攻擊無法解除。	icon_status.minusdefence_tex
 80900007	HPChange	0.01	0	perc	4000	4	0.01	HP急速恢復_1%			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_status.plushp_tex
 80900008	Endurance	0	0	perc	20000	0	3	不死時間			對所有有害的效果 100%扺抗，抗打增加200%。	icon_status.immunedebuff_tex
@@ -2633,6 +2749,7 @@
 89314218	Power	0	0	abs	5000	0	1	二段砍擊神力			爆擊擊中時將堆疊。反應時將解除。	icon_ep.ep_attack_strong_tex
 89314219	Power	0	0	abs	5000	0	1	二段砍擊神力			爆擊擊中時將堆疊。反應時將解除。	icon_ep.ep_attack_strong_tex
 89314220	Power	0	0	abs	5000	0	1	二段砍擊神力			爆擊擊中時將堆疊。反應時將解除。	icon_ep.ep_attack_strong_tex
+90290002	Endurance	0	0	abs	90000	0	500	完全防禦(無敵)			復活的寇勒奴斯正在集氣。要是沒有解除，1分鐘復活的復活的寇勒奴斯會獲得[防禦力增加]效果。	icon_status.plusedefence_tex
 90991001	MovSpdInCombat	0	0	setp	0	0	0.1	開發用_木槿花花開			木槿花花開了嗎？	icon_status.minusmove_tex
 91100200	HPChange	-0.03	0	perc	240000	2	-0.03	毀滅業火			每2s持續減少3%的HP，持續時間結束時令對象當場死亡。 毀滅業火只有透過毀滅寒氣才可以消除。	icon_status.firedamage_tex
 91101100	HPChange	-0.03	0	perc	240000	2	-0.03	地獄業火			每2s持續減少3%的HP，持續時間結束時令對象當場死亡。 地獄業火只有透過毀滅業火和毀滅寒氣才可以消除。	icon_status.poisonstatus_tex
@@ -2651,6 +2768,7 @@
 91600007	Power	0	0	perc	600000	0	1.2	亞爾庫斯的悲鳴			每堆疊1次，攻擊力增加20%，攻擊速度增加10%。無法解除。	icon_status.plusattack_tex
 91600007	ASpd	0	0	perc	600000	0	1.2	亞爾庫斯的悲鳴			每堆疊1次，攻擊力增加20%，攻擊速度增加10%。無法解除。	icon_status.plusattack_tex
 91600008	Endurance	0	0	seta	30000	0	10000000	達魯坎的喝斥			昏厥狀態無法行動。	icon_status.confuseup_tex
+91600010	ASpd	0	0	perc	1000	0	1	被燻黑的箱子			直到解除為止，每1s持續減少10%的HP。	icon_status.firedamage_tex
 91600010	HPChange	-0.1	0	perc	10000	1	-0.1	被燻黑的箱子			直到解除為止，每1s持續減少10%的HP。	icon_status.firedamage_tex
 91600013	HPChange	-0.02	0	perc	44000	1	-0.02	暗黑碎片 I			被監禁在黑暗裡。治癒量減少25%每1s持續減少2%的 HP。	icon_status.fearstatus_tex
 91600014	HPChange	-0.02	0	perc	44000	1	-0.02	暗黑碎片 II			被監禁在黑暗裡。治癒量減少50%每1s持續減少2%的 HP。	icon_status.fearstatus_tex
@@ -2666,10 +2784,12 @@
 91600035	Endurance	0	0	perc	10000	0	1	簡潔！			在普特理溫出現之前消滅所有戴蒙克隆和'阿克德法，心情變得真好！	icon_status.smile_firecracker_abnormality_tex
 91600038	HPChange	1	0	perc	1000	1	1	浮游石恢復			浮游石 HP恢復用異常狀態	icon_status.aura_of_regeneration_hp_tex
 97000003	HPChange	-0.1	0	perc	3000	1	-0.1	小蜘蛛的劇毒			感染了小蜘蛛的毒移動速度減少，每0s減少10%的HP。	icon_status.diseasedown_tex
+97000004	Endurance	0	0	perc	30000	0	1	蜘蛛的成長			每次重疊時提升移動速度10%與攻擊力20%。	icon_status.darkriftrecovery_tex
 97000004	AtkPotion	0	0	perc	7200000	2	1.2	蜘蛛的成長			每次重疊時提升移動速度10%與攻擊力20%。	icon_status.darkriftrecovery_tex
 97000025	HPChange	-0.2	0	perc	15000	1	-0.2	拉坎里斯留下的致命傷			每1s減少20%的HP。	icon_status.injuredbtdarkness_tex
 97000026	HPChange	-0.1	0	perc	15000	2	-0.1	拉坎里斯留下的傷口			每2s減少10%的HP。	icon_status.injuredbtdarkness_tex
 97000032	DefPotion	0	0	perc	100000	0	1.5	拉坎里斯的詛咒			拉坎里斯造成的傷害增加50%。重疊2次的話即死亡。	icon_status.minusdefence_tex
+97000033	Power	0	0	perc	60000	0	11	拉坎的力量			每次重疊時攻擊速度增加10%。	icon_status.plusciriticalresist_tex
 97000033	ASpd	0	0	perc	60000	0	1.1	拉坎的力量			每次重疊時攻擊速度增加10%。	icon_status.plusciriticalresist_tex
 97000035	Power	0	0	perc	60000	0	11	完成的拉坎的力量			增加力量1000%、增加攻擊速度50%。	icon_status.archerspirit_tex
 97000035	ASpd	0	0	perc	60000	0	1.5	完成的拉坎的力量			增加力量1000%、增加攻擊速度50%。	icon_status.archerspirit_tex
@@ -2687,11 +2807,13 @@
 97501300	Power	0	0	perc	10000	0	3	凱爾賽克的詛咒			每次堆疊時力量雖然增加 200%，但每1持續減少0.5%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex
 97501300	HPChange	-0.005	0	perc	10000	1	-0.005	凱爾賽克的詛咒			每次堆疊時力量雖然增加 200%，但每1持續減少0.5%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex
 97501400	HPChange	-0.07	0	perc	120000	2	-0.07	地獄業火			每2s 持續減少7%的HP，持續時間結束時令對象當場死亡。 地獄業火只有透過毀滅寒氣才可以消除。	icon_status.poisonstatus_tex
+97501500	Power	0	0	perc	3600000	0	1.2	毀滅盔甲			毀滅盔甲最多吸收3000000的傷害。於持續時間內施加最大傷害吸收量以上的傷害，若無法破壞毀滅盔甲，根據結界效果所有PC對象會死亡，凱爾賽克會陷入毀滅憤怒!	icon_skills.manashield_tex
 97502100	Power	0	0	perc	64800000	0	1.3	凱爾賽克的威嚴			每次堆疊時力量提升30%。此效果最多可堆疊99次。	icon_status.damageup_tex
 97502200	Endurance	0	0	perc	3600000	0	4	凱爾賽克的守護			受到強大的守護力量，凱爾賽克的抗打提升4倍。 無法解除凱爾賽克的守護。	icon_status.plusedefence_tex
 97502700	Block	0	0	swch	0	0	0	禁止復活			無法復活	icon_items.q_closedspace_stone_05_tex
 97502800	StaminaDecay	0	0	swch	0	0	0	貝里克力量			團結就是力量！10m內的玩家們都會有BUFF效果。	icon_status.plusattack_tex
 97503000	DefPotion	0	0	swch	60000	0	1.1	神之憤怒			堆疊的越多恢復量效果會減少，傷害量則會增加。	icon_status.minusdefence_tex
+97503100	Endurance	0	0	perc	5000	0	1	毀滅火種			結束後附近20m會產生強大的傷害和火焰地區。 	icon_skills.voidtrap_tex
 97503400	Endurance	0	0	perc	30000	0	0	火焰砲彈			劇痛的炸彈	icon_status.poisonstatus_tex
 97503700	DefPotion	0	0	perc	0	0	0	大砲免疫			即使被大砲擊中也不會損血。	icon_status.plusedefence_tex
 97504200	Power	0	0	perc	600000	0	1.5	凱爾賽克的憤怒			攻擊力增加50% ，攻擊速度增加 30%。無法解除。	icon_status.plusattack_tex
@@ -2699,10 +2821,10 @@
 97504300	Power	0	0	perc	60000	0	1.5	凱爾賽克的挑釁			力量和攻擊速度增加50%。但異常狀態結束時則立即死亡。	icon_status.poisonstatus_tex
 97504300	ASpd	0	0	perc	60000	0	1.5	凱爾賽克的挑釁			力量和攻擊速度增加50%。但異常狀態結束時則立即死亡。	icon_status.poisonstatus_tex
 97900001	Endurance	0	0	perc	3600000	0	0.99	集中攻擊			抗打減少。 1%	icon_status.plusedefence_tex
-97950001	MovSpdInCombat	0	0	perc	360000	0	3	元素之力			$time 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
-97950002	MovSpdInCombat	0	0	perc	360000	0	3	元素之力 I			$time 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
-97950003	MovSpdInCombat	0	0	perc	360000	0	3	元素之力 II			$time 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
-97950004	MovSpdInCombat	0	0	perc	360000	0	3	元素之力 III			$time 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
+97950001	MovSpdInCombat	0	0	perc	360000	0	3	元素之力			360s 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
+97950002	MovSpdInCombat	0	0	perc	360000	0	3	元素之力 I			360s 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
+97950003	MovSpdInCombat	0	0	perc	360000	0	3	元素之力 II			360s 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
+97950004	MovSpdInCombat	0	0	perc	360000	0	3	元素之力 III			360s 內可以使用元素之力，在效果維持期間，不會發生擊倒和僵硬。	icon_status.darkriftdestroy_tex
 97950005	HPChange	-0.1	0	perc	10000	2	-0.1	元素之力：灼傷			每2s 整體HP會持續減少 10%。	icon_status.firedamage_tex
 98000016	Power	0	0	perc	600000	0	1.1	咚鏘鏘的力量			成功消滅咚鏘鏘的分身！暫時搶走咚鏘鏘的力量變得強大了。每次堆疊力量增加10%。	icon_status.plusattack_tex
 98000039	HPChange	1	0	perc	1000	1	1	自然之手			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_items.artisan_potion_tex
@@ -2721,13 +2843,10 @@
 98000092	HPChange	0.0033	0	perc	12000	3	0.0033	小傢伙的祝福			因為HP恢復試藥的特別效果，每3s持續恢復0%的HP。	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	50000	0	abs	1000	1	50000	祭司之手			體力只恢復 3	icon_items.potion5_tex
 98000100	Power	0	0	abs	10000000	0	25	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
-98000100	Power	0	0	abs	10000000	0	40	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
-98000100	Power	0	0	perc	10000000	0	1.1	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
 98000100	Endurance	0	0	abs	10000000	0	11	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
 98000100	ASpd	0	0	abs	10000000	0	8	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
 98000100	HPChange	773	0	abs	10000000	2	773	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
 98000101	Power	0	0	abs	10000000	0	25	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
-98000101	Power	0	0	perc	10000000	0	1.1	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
 98000101	Endurance	0	0	perc	10000000	0	1.1	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
 98000101	Crit	0	0	perc	10000000	0	2	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
 98000101	MPChange	0	20	abs	10000000	1	20	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
@@ -2974,11 +3093,9 @@
 999001033	ASpd	0	0	perc	15000	0	1.07	女神的仇恨	19705	華麗的女神圖騰	感受到女神的怨恨。暴擊增加30，攻擊速度增加7%。	icon_items.goddess_brooch_tex
 999001034	Endurance	0	0	abs	15000	0	20	女神的意志	19699	堅硬的女神圖騰	感受到女神的意志。抗打增加20。	icon_items.goddess_brooch_tex
 999001035	Power	0	0	abs	15000	0	30	閃亮女神的庇護	51011	閃亮女神的胸針	感受到閃亮女神的庇護。力量上升 30、爆擊誘發上升 30、攻擊速度也上升 12%。	icon_items.parts_magicweaponc8_tex
-999001035	Power	0	0	abs	15000	0	0	閃亮女神的庇護	51011	閃亮女神的胸針	感受到閃亮女神的庇護。力量上升 30、爆擊誘發上升 30、攻擊速度也上升 12%。	icon_items.parts_magicweaponc8_tex
 999001035	Crit	0	0	abs	15000	0	30	閃亮女神的庇護	51011	閃亮女神的胸針	感受到閃亮女神的庇護。力量上升 30、爆擊誘發上升 30、攻擊速度也上升 12%。	icon_items.parts_magicweaponc8_tex
 999001035	ASpd	0	0	perc	15000	0	1.12	閃亮女神的庇護	51011	閃亮女神的胸針	感受到閃亮女神的庇護。力量上升 30、爆擊誘發上升 30、攻擊速度也上升 12%。	icon_items.parts_magicweaponc8_tex
 999001036	Power	0	0	abs	20000	0	30	古龍降臨	51028	古龍的胸針	古龍之力降臨。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
-999001036	Power	0	0	abs	20000	0	0	古龍降臨	51028	古龍的胸針	古龍之力降臨。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
 999001036	Crit	0	0	abs	20000	0	30	古龍降臨	51028	古龍的胸針	古龍之力降臨。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
 999001036	ASpd	0	0	perc	20000	0	1.12	古龍降臨	51028	古龍的胸針	古龍之力降臨。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
 999008300	Power	0	0	perc	3930000	0	1.15	攻擊力增加			攻擊力增加15%。	icon_status.plusattack_tex
@@ -2997,83 +3114,9 @@
 999009720	CDR	0	0	perc	60000	0	0.8	冷卻時間減少			冷卻時間減少20%。	icon_status.pluswill_tex
 999009730	MovSpdInCombat	0	0	seta	60000	0	240	移動速度減少			移動速度固定為240。	icon_status.aura_of_wind_tex
 999009740	MPChange	0	10000	abs	60000	1	10000	MP持續恢復			MP逐漸恢復。	icon_skills.mpcharge_tex
+999009750	Endurance	0	0	perc	1	0	1	自爆兵			已成為自爆兵狀態。點擊滑鼠左鍵後，可進行自爆並讓周圍受到傷害。	icon_skills.explosiontrap_tex
 999009750	MovSpdInCombat	0	0	seta	60000	0	200	自爆兵			已成為自爆兵狀態。點擊滑鼠左鍵後，可進行自爆並讓周圍受到傷害。	icon_skills.explosiontrap_tex
 999009810	Endurance	0	0	perc	60000	0	2	污染體			你被工廠廢棄物給污染了，在周圍有持續造成傷害的龍卷風在纏繞你。	icon_status.darkriftareawind_tex
 999009810	MovSpdInCombat	0	0	seta	60000	0	200	污染體			你被工廠廢棄物給污染了，在周圍有持續造成傷害的龍卷風在纏繞你。	icon_status.darkriftareawind_tex
 999009820	Power	0	0	perc	60000	0	1.5	保護膜			產生傷害吸收保護膜，力量增加50%。現在剩下的只有屠殺敵人而已。	icon_status.plusfocus_tex
 999010000	Noctenium	0	0	swch	0	0	1	戰場 綠鈦強化彈			戰場鬥士基本具有的綠鈦強化彈效果。使用綠鈦強化彈後，可以擴大技能效果。 綠鈦強化彈中毒的期間內PVP攻擊力上升為8， PVP防禦力上升為8。	icon_items.union_supplies5_tex
-50100	Charm	0	0	swch	0	0	0	士氣降低			因不斷的戰鬥導致士氣降低而減少攻擊力。需要休息。	icon_status.minusattack_tex
-50200	Charm	0	0	swch	0	0	0	極度疲勞			因極度的疲勞，將會減少最大HP和MP。需要休息。	icon_status.exhaustion_tex
-50300	Charm	0	0	swch	0	0	0	充滿氣息			已透過充分的休息而充滿氣息。將會增加最大HP和MP。	icon_status.merit_tex
-51100	Charm	0	0	swch	0	0	0	力量增加 I			隨著疑問符咒的奇異力量，將會提升力量。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper1_tex
-51110	Charm	0	0	swch	0	0	0	力量增加 II			隨著疑問符咒的奇異力量，將會提升力量。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper2_tex
-51120	Charm	0	0	swch	0	0	0	力量增加 III			隨著疑問符咒的奇異力量，將會提升力量。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper3_tex
-51130	Charm	0	0	swch	0	0	0	力量增加 IV			隨著疑問符咒的奇異力量，將會提升力量。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper4_tex
-51140	Charm	0	0	swch	0	0	0	力量增加 IV			隨著神官證明的奇異力量，將會提升力量。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper4_tex
-51150	Charm	0	0	swch	0	0	0	力量增加 IV			隨著三色護身符的奇異力量，將會提升力量。若健康狀態良好，效果最高將會維持30分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper4_tex
-51200	Charm	0	0	swch	0	0	0	暴擊率增加 I			隨著疑問符咒的奇異力量，將會提升暴擊機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper1_tex
-51210	Charm	0	0	swch	0	0	0	暴擊率增加 II			隨著疑問符咒的奇異力量，將會提升暴擊機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper2_tex
-51220	Charm	0	0	swch	0	0	0	暴擊率增加 III			隨著疑問符咒的奇異力量，將會提升暴擊機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper3_tex
-51230	Charm	0	0	swch	0	0	0	暴擊率增加 IV			隨著疑問符咒的奇異力量，將會提升暴擊機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper4_tex
-512300	Charm	0	0	swch	0	0	0	爆擊率增加 IV			隨著疑問符咒的奇異力量，將會提升爆擊機率。若健康狀態良好，效果最高將會維持30分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper4_tex
-51300	Charm	0	0	swch	0	0	0	攻擊速度增加 I			隨著疑問符咒的奇異力量，將會提升基本攻擊技能的攻擊速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper1_tex
-51310	Charm	0	0	swch	0	0	0	攻擊速度增加 II			隨著疑問符咒的奇異力量，將會提升基本攻擊技能的攻擊速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper2_tex
-51320	Charm	0	0	swch	0	0	0	攻擊速度增加 III			隨著疑問符咒的奇異力量，將會提升基本攻擊技能的攻擊速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper3_tex
-51330	Charm	0	0	swch	0	0	0	攻擊速度增加 IV			隨著疑問符咒的奇異力量，將會提升基本攻擊技能的攻擊速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper4_tex
-51400	Charm	0	0	swch	0	0	0	擊倒率增加 I			隨著疑問符咒的奇異力量，將會提升擊倒機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper1_tex
-51410	Charm	0	0	swch	0	0	0	擊倒率增加 II			隨著疑問符咒的奇異力量，將會提升擊倒機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper2_tex
-51420	Charm	0	0	swch	0	0	0	擊倒率增加 III			隨著疑問符咒的奇異力量，將會提升擊倒機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper3_tex
-51430	Charm	0	0	swch	0	0	0	擊倒率增加 IV			隨著疑問符咒的奇異力量，將會提升擊倒機率。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.mysterypaper4_tex
-52100	Charm	0	0	swch	0	0	0	抗打增加 I			隨著神秘符咒的奇異力量，將會提升抗打能力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper1_tex
-52110	Charm	0	0	swch	0	0	0	抗打增加 II			隨著神秘符咒的奇異力量，將會提升抗打能力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper2_tex
-52120	Charm	0	0	swch	0	0	0	抗打增加 III			隨著神秘符咒的奇異力量，將會提升抗打能力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper3_tex
-52130	Charm	0	0	swch	0	0	0	抗打增加 IV			隨著神秘符咒的奇異力量，將會提升抗打能力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52140	Charm	0	0	swch	0	0	0	抗打增加 IV			隨著神官證明的奇異力量，將會提升抗打能力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52150	Charm	0	0	swch	0	0	0	抗打增加 IV			隨著三色護身符的奇異力量，將會提升抗打。若健康狀態良好，效果最高將會維持30分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52200	Charm	0	0	swch	0	0	0	暴擊抵抗增加 I			隨著神秘符咒的奇異力量，將會提升被暴擊的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper1_tex
-52210	Charm	0	0	swch	0	0	0	暴擊抵抗增加 II			隨著神秘符咒的奇異力量，將會提升被暴擊的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper2_tex
-52220	Charm	0	0	swch	0	0	0	暴擊抵抗增加 III			隨著神秘符咒的奇異力量，將會提升被暴擊的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper3_tex
-52230	Charm	0	0	swch	0	0	0	暴擊抵抗增加 IV			隨著神秘符咒的奇異力量，將會提升被暴擊的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52300	Charm	0	0	swch	0	0	0	擊倒抵抗增加 I			隨著神秘符咒的奇異力量，將會提升被擊倒的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper1_tex
-52310	Charm	0	0	swch	0	0	0	擊倒抵抗增加 II			隨著神秘符咒的奇異力量，將會提升被擊倒的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper2_tex
-52320	Charm	0	0	swch	0	0	0	擊倒抵抗增加 III			隨著神秘符咒的奇異力量，將會提升被擊倒的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper3_tex
-52330	Charm	0	0	swch	0	0	0	擊倒抵抗增加 IV			隨著神秘符咒的奇異力量，將會提升被擊倒的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52400	Charm	0	0	swch	0	0	0	狀態弱化抵抗增加 I			隨著神秘符咒的奇異力量，將會提升被狀態弱化的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper1_tex
-52410	Charm	0	0	swch	0	0	0	狀態弱化抵抗增加 II			隨著神秘符咒的奇異力量，將會提升被狀態弱化的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper2_tex
-52420	Charm	0	0	swch	0	0	0	狀態弱化抵抗增加 III			隨著神秘符咒的奇異力量，將會提升被狀態弱化的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper3_tex
-52430	Charm	0	0	swch	0	0	0	狀態弱化抵抗增加 IV			隨著神秘符咒的奇異力量，將會提升被狀態弱化的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52500	Charm	0	0	swch	0	0	0	持續傷害抵抗增加 I			隨著神秘符咒的奇異力量，將會提升被持續傷害的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper1_tex
-52510	Charm	0	0	swch	0	0	0	持續傷害抵抗增加 II			隨著神秘符咒的奇異力量，將會提升被持續傷害的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper2_tex
-52520	Charm	0	0	swch	0	0	0	持續傷害抵抗增加 III			隨著神秘符咒的奇異力量，將會提升被持續傷害的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper3_tex
-52530	Charm	0	0	swch	0	0	0	持續傷害抵抗增加 IV			隨著神秘符咒的奇異力量，將會提升被持續傷害的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52600	Charm	0	0	swch	0	0	0	無法行動抵抗增加 I			隨著神秘符咒的奇異力量，將會提升被限制行動的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper1_tex
-52610	Charm	0	0	swch	0	0	0	無法行動抵抗增加 II			隨著神秘符咒的奇異力量，將會提升被限制行動的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper2_tex
-52620	Charm	0	0	swch	0	0	0	無法行動抵抗增加 III			隨著神秘符咒的奇異力量，將會提升被限制行動的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper3_tex
-52630	Charm	0	0	swch	0	0	0	無法行動抵抗增加 IV			隨著神秘符咒的奇異力量，將會提升被限制行動的抵抗力。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-52700	Charm	0	0	swch	0	0	0	傷害反噬 I			隨著神秘符咒的奇異力量，將被攻擊時所受到的部分傷害反彈給攻擊者。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper1_tex
-52710	Charm	0	0	swch	0	0	0	傷害反噬 II			隨著神秘符咒的奇異力量，將被攻擊時所受到的部分傷害反彈給攻擊者。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper2_tex
-52720	Charm	0	0	swch	0	0	0	傷害反噬 III			隨著神秘符咒的奇異力量，將被攻擊時所受到的部分傷害反彈給攻擊者。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper3_tex
-52730	Charm	0	0	swch	0	0	0	傷害反噬 IV			隨著神秘符咒的奇異力量，將被攻擊時所受到的部分傷害反彈給攻擊者。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.magicalpaper4_tex
-53100	Charm	0	0	swch	0	0	0	最大HP增加 I			隨著奇怪符咒的奇異力量，將會提升最大HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper1_tex
-53110	Charm	0	0	swch	0	0	0	最大HP增加 II			隨著奇怪符咒的奇異力量，將會提升最大HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper2_tex
-53120	Charm	0	0	swch	0	0	0	最大HP增加 III			隨著奇怪符咒的奇異力量，將會提升最大HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper3_tex
-53130	Charm	0	0	swch	0	0	0	最大HP增加 IV			隨著奇怪符咒的奇異力量，將會提升最大HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
-53200	Charm	0	0	swch	0	0	0	最大MP增加 I			隨著奇怪符咒的奇異力量，將會提升最大MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper1_tex
-53210	Charm	0	0	swch	0	0	0	最大MP增加 II			隨著奇怪符咒的奇異力量，將會提升最大MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper2_tex
-53220	Charm	0	0	swch	0	0	0	最大MP增加 III			隨著奇怪符咒的奇異力量，將會提升最大MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper3_tex
-53230	Charm	0	0	swch	0	0	0	最大MP增加 IV			隨著奇怪符咒的奇異力量，將會提升最大MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
-53300	Charm	0	0	swch	0	0	0	HP持續恢復 I			隨著奇怪符咒的奇異力量，將會持續的恢復HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper1_tex
-53310	Charm	0	0	swch	0	0	0	HP持續恢復 II			隨著奇怪符咒的奇異力量，將會持續的恢復HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper2_tex
-53320	Charm	0	0	swch	0	0	0	HP持續恢復 III			隨著奇怪符咒的奇異力量，將會持續的恢復HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper3_tex
-53330	Charm	0	0	swch	0	0	0	HP持續恢復 IV			隨著奇怪符咒的奇異力量，將會持續的恢復HP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
-533300	Charm	0	0	swch	0	0	0	HP持續恢復 IV			隨著奇怪符咒的奇異力量，HP將會持續恢復。若健康狀態良好，效果最高將會維持30分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
-53400	Charm	0	0	swch	0	0	0	MP持續恢復 I			隨著奇怪符咒的奇異力量，將會持續的恢復MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper1_tex
-53410	Charm	0	0	swch	0	0	0	MP持續恢復 II			隨著奇怪符咒的奇異力量，將會持續的恢復MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper2_tex
-53420	Charm	0	0	swch	0	0	0	MP持續恢復 III			隨著奇怪符咒的奇異力量，將會持續的恢復MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper3_tex
-53430	Charm	0	0	swch	0	0	0	MP持續恢復 IV			隨著奇怪符咒的奇異力量，將會持續的恢復MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
-53440	Charm	0	0	swch	0	0	0	MP 持續恢復 IV			隨著神官證明的奇異力量，將會持續的恢復MP。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
-53450	Charm	0	0	swch	0	0	0	MP持續恢復 IV			隨著三色護身符的奇異力量，將會持續恢復MP。若健康狀態良好，效果最高將會維持30分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
-53500	Charm	0	0	swch	0	0	0	移動速度增加 I			隨著奇怪符咒的奇異力量，將會提升移動速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper1_tex
-53510	Charm	0	0	swch	0	0	0	移動速度增加 II			隨著奇怪符咒的奇異力量，將會提升移動速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper2_tex
-53520	Charm	0	0	swch	0	0	0	移動速度增加 III			隨著奇怪符咒的奇異力量，將會提升移動速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper3_tex
-53530	Charm	0	0	swch	0	0	0	移動速度增加 IV			隨著奇怪符咒的奇異力量，將會提升移動速度。若健康狀態良好，效果最高將會維持15分鐘，並隨著健康狀態而讓效果大小有所不同。	icon_items.abnormalpaper4_tex
