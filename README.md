@@ -11,7 +11,7 @@ https://github.com/gothos-folly/TeraDataTools
 
 Decrypted Database repository:
 ----------------------
-https://storage.sbg1.cloud.ovh.net/v1/AUTH_a2ab8c541a2f4f82b2bc1d39f82a10be/DATA
+https://cloud.neowutran.ovh/index.php/s/oBn8azZp83tujjY
 
 File formats:
 ----------------------
