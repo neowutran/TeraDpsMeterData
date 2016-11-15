@@ -5,6 +5,8 @@ How to get opcode:
 --------------------
 GoneUp method: https://github.com/GoneUp/Tera_PacketViewer/tree/master/Opcode%20DLL
 
+Gl0 updated dll - look [here](https://github.com/neowutran/TeraDpsMeterData/blob/master/copypaste-tuto/Gl0-opcodes.txt)
+
 How to read the database: 
 ----------------------
 https://github.com/gothos-folly/TeraDataTools
