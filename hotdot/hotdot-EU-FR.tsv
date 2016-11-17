@@ -412,6 +412,7 @@
 4886	DefPotion	0	0	perc	1800000	0	0.9	Potion de bravoure			Augmente les dégâts des compétences de 10% et la vitesse d'attaque de 4%, et réduit les dégâts subis de 10%.	icon_items.potion10_tex
 4886	AtkPotion	0	0	perc	1800000	0	1.1	Potion de bravoure			Augmente les dégâts des compétences de 10% et la vitesse d'attaque de 4%, et réduit les dégâts subis de 10%.	icon_items.potion10_tex
 4950	CrystalBind	0	0	abs	0	0	1	Verrou de cristal du débutant			Empêche un cristal de se briser lors de la mort. Ne peut pas être utilisé avec les liens de cristal.	icon_items.q_closedspace_stone_05_tex
+4951	Resurrect	0	0	seta	0	0	1	Inattention du débutant			Vous recevez la bénédiction du dieu guerrier Kaia et bénéficiez donc d'une résurrection à l'emplacement de votre mort. Tous les PV et PM sont restaurés. Ne se cumule pas avec la Grâce de la résurrection, le Vœu de résurrection et la Bénédiction de Velik.	icon_skills.autoresurrect_tex
 4952	AtkPotion	0	0	perc	0	0	1.12	Ferveur du débutant			Augmente les dégâts de 12%. Ne se cumule pas avec les effets reçus en utilisant la recherche d'instances.	icon_status.plusattack_tex
 4953	AtkPotion	0	0	perc	3600000	0	1.12	Potion de canephora	150543	Potion de canephora	Augmente les dégâts de 12 %. Ne se cumule pas avec les bonus reçus via la recherche d'instances.	icon_status.plusattack_tex
 4955	AtkPotion	0	0	perc	1800000	0	1.15	Potion supérieure de canephora	150534	Potion supérieure de canephora	Augmente les dégâts de $15 %. Ne se cumule pas aux bonus reçus via la recherche d'instances.	icon_status.plusattack_tex
@@ -836,6 +837,7 @@
 70411	HPChange	-0.005	0	perc	10000	1	-0.005	Venin ombrageux			Réduit les PV de 0,5 % de leur maximum toutes les 1s. Réduit la vitesse de déplacement de 20%.	icon_status.poisonstatus_tex
 70439	MovSpdInCombat	0	0	perc	30000	0	3	Cape ombrageuse	703	Graine onirique	Régénère 2 % des PV maximum toutes les secondes et immunise contre la stupeur et le renversement. L'effet prend fin si vous sautez.	icon_status.darkriftdestroy_tex
 70446	Power	0	0	perc	30000	0	1.1	Rage explosive			Augmente la puissance de 10%. L'effet peut se cumuler jusqu'à 5 fois.	icon_status.plusattack_tex
+70447	Resurrect	0	0	seta	5000	0	1	Renaissance d'Oriyin			Vous ressuscite immédiatement pendant la durée de l'effet.	icon_status.darkriftareafunny_tex
 70449	MovSpdInCombat	0	0	seta	300000	0	-100	Entraves			Aktan vous a pris au piège. Impossible de bouger.	icon_status.staminadown_tex
 70449	Block	0	0	swch	300000	0	0	Entraves			Aktan vous a pris au piège. Impossible de bouger.	icon_status.staminadown_tex
 70451	Block	0	0	swch	600000	0	0	Ombrage			Vous êtes invisible l'espace d'un instant.	icon_status.staminadown_tex
@@ -1262,6 +1264,7 @@
 601111	AtkPotion	0	0	perc	0	0	1.1	Œil d'aigle II			Augmente la puissance de 30, la vitesse d'attaque de 8 et la constitution de 8. Augmente les dégâts infligés aux monstres de 10 %. Ne peut pas être utilisé en même temps qu'Œil de faucon.	icon_skills.focusstance_tex
 601400	CastSpeed	0	0	perc	10000	0	1.5	Flèche			Réduit le temps de chargement de Flèche pénétrante après 10 attaques réussies avec Flèche. Cet effet est annulé une fois Flèche pénétrante utilisée.	icon_skills.arrowshot_tex
 601450	CastSpeed	0	0	perc	10000	0	1.5	Flèche			Réduit le temps de chargement de la prochaine attaque avec Flèche pénétrante.	icon_skills.arrowshot_tex
+700100	Resurrect	0	0	seta	1200000	0	1	Vœu de renaissance			Vous ressuscite immédiatement si vous vous faites tuer.	icon_skills.autoresurrect_tex
 700200	MPChange	0	-30	abs	0	2	-30	Aura d'inflexibilité I			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
 700201	MPChange	0	-30	abs	0	2	-30	Aura d'inflexibilité II			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
 700202	MPChange	0	-30	abs	0	2	-30	Aura d'inflexibilité			Etend l'Aura des inflexibles sur les membres du groupe dans un rayon de 30 m. Son maintien coûte -30 PM toutes les 2.	icon_skills.areahpgain_tex
@@ -1516,6 +1519,7 @@
 801503	ASpd	0	0	abs	20000	0	8	Lance un éclair d'énergie sur une cible située dans un rayon de $maxDistance. Il inflige des dégâts à la cible tout en augmentant pendant 20 secondes la puissance de 40 et la vitesse d'attaque de 8 pour les membres du groupe se trouvant dans un périmètre de 35 mètres. Appuyez sur la touche des compétences et utilisez votre curseur pour bloquer la cible, puis appuyez de nouveau sur la touche ou faites un clic gauche pour lancer le sort.			Augmente la puissance de 40 et la vitesse d'attaque de 8.	icon_skills.divinelightning_tex
 801600	HPChange	562	0	abs	3000	1	562	Concentration de soins I			Restaure 625 PV toutes les 1s.	icon_skills.curewing_tex
 801601	HPChange	564	0	abs	3000	1	564	Concentration de soins II			Restaure 625 PV toutes les 1s.	icon_skills.curewing_tex
+801700	Resurrect	0	0	seta	1200000	0	1	Grâce de la résurrection			Si vous mourez alors que cet effet est actif, vous pouvez ressusciter au même endroit.	icon_skills.selfpreresurrection_tex
 801800	MPChange	0	0.08	perc	1000	1	0.08	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	icon_skills.manarejuvenation_tex
 801801	MPChange	0	0.16	perc	1000	1	0.16	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	icon_skills.manarejuvenation_tex
 801802	MPChange	0	0.32	perc	1000	1	0.32	Charge de mana			Aucune infobulle d'affaiblissement affichée (isShow=False). Si l'infobulle s'affiche, BTS requis !	icon_skills.manarejuvenation_tex
@@ -1721,8 +1725,10 @@
 5000000	Endurance	0	0	abs	0	0	3	À compter d'aujourd'hui, nous montons en puissance !			Augmentation de 3 pour la puissance, la constitution, le facteur d'impact, le facteur d'équilibre et la vitesse de déplacement.	icon_items.wings_of_fairy_tex
 5000000	Crit	0	0	abs	0	0	3	À compter d'aujourd'hui, nous montons en puissance !			Augmentation de 3 pour la puissance, la constitution, le facteur d'impact, le facteur d'équilibre et la vitesse de déplacement.	icon_items.wings_of_fairy_tex
 5000003	CCrystalBind	0	0	abs	0	0	1	Protection de cristal complète			Empêche le cristal de se briser au moment de la mort.	icon_items.q_closedspace_stone_05_tex
+5010001	Resurrect	0	0	seta	0	0	1	Bénédiction de Velik			Si vous mourez pendant la durée de l'effet, vous pouvez immédiatement ressusciter à l'aide de la bénédiction de Velik.	icon_skills.selfpreresurrection_tex
 5690001	StaminaDecay	0	0	seta	0	0	0	Poursuivant des souvenirs			Pour faciliter la collecte des fragments des souvenirs, les cristaux ne sont pas détruits en cas de décès.	icon_skills.refineresin_tex
 5690001	CrystalBind	0	0	abs	0	0	1	Poursuivant des souvenirs			Pour faciliter la collecte des fragments des souvenirs, les cristaux ne sont pas détruits en cas de décès.	icon_skills.refineresin_tex
+5690002	Resurrect	0	0	seta	60000	0	1	Reconstruction des souvenirs			La Reconstruction des souvenirs permet d'anéantir des souvenirs défunts et d'en vivre de nouveaux.	icon_status.mpsuckdown_tex
 5692001	Endurance	0	0	seta	0	0	9999999	Seigneur de la Salle des jeux			Personne d'autre n'a l'ombre d'une chance dans la Salle des jeux.	icon_skills.emergencyshield_tex
 5692006	Endurance	0	0	seta	0	0	9999999	Invocation de vitalité			Invoque la vitalité de Matsuki.	icon_skills.emergencyshield_tex
 5692007	Endurance	0	0	seta	6000	0	3064	Jeu excessif			Matsuki a employé beaucoup de force et est donc temporairement affaibli.	icon_skills.lossofbalance_tex
@@ -1890,6 +1896,7 @@
 45000038	HPChange	-0.125	0	perc	15000	3	-0.125	Saignement abondant			Réduit les PV de 12,5 % du maximum toutes les 3s.	icon_status.minuscriticalresist_tex
 45000039	Power	0	0	perc	0	0	1000	Démence rageuse			Augmente la puissance de Koleogg de 1000 %. Augmente la vitesse d'attaque de Koleogg de 400 %.	icon_status.diseaseup_tex
 45000039	ASpd	0	0	perc	0	0	5	Démence rageuse			Augmente la puissance de Koleogg de 1000 %. Augmente la vitesse d'attaque de Koleogg de 400 %.	icon_status.diseaseup_tex
+45000116	Resurrect	0	0	seta	5000	0	1	Bénédiction de Velik			Si vous mourez pendant la durée de l'effet, vous pouvez immédiatement ressusciter à l'aide de la bénédiction de Velik.	icon_skills.selfpreresurrection_tex
 45000120	Block	0	0	swch	5000	0	0	Acrophobie			Vous avez peur des hauteurs et êtes momentanément incapable d'utiliser des compétences.	icon_status.fearstatus_tex
 47300100	HPChange	-0.5	0	perc	600000	60	-0.5	Résine venimeuse			Réduit les PV de 50 % du maximum toutes les 60s. Résine venimeuse ne peut être purifiée ou nettoyée.	icon_status.poisonstatus_tex
 47300200	HPChange	-0.05	0	perc	60000	3	-0.05	Venin de Thulsa			Réduit les PV de 5 % du maximum toutes les 3s. Venin de Thulsa ne peut être purifié ou nettoyé.	icon_status.poisonstatus_tex
@@ -1984,6 +1991,7 @@
 47640300	Endurance	0	0	perc	10000	0	2	Chape de fer			Augmente la constitution de 100% et confère l'immunité au renversement, à la stupeur et aux effets négatifs.	icon_status.plusedefence_tex
 47640400	HPChange	-0.07	0	perc	10000	1	-0.07	Gaz toxique			Réduit les PV de 7% du total des PV toutes les 1s.	icon_status.poisonstatus_tex
 47640500	Power	0	0	perc	30000	0	1.2	Hymne de combat			Augmente la puissance de 20%.	icon_status.plusattack_tex
+47640600	Resurrect	0	0	swch	0	0	0.5	Grâce des vagues			Augmente la vitesse de nage de 23900%. Peut ressusciter à l'endroit de la mort.	icon_status.minusmove_tex
 47640700	HPChange	-0.1	0	perc	10000	1	-0.1	Virus argon I			L'infection consomme 10 % des PV maximum toutes les 1s.	icon_status.poisonstatus_tex
 47640800	HPChange	-0.05	0	perc	10000	1	-0.05	Virus argon II			L'infection consomme 5 % des PV maximum toutes les 1s.	icon_status.poisonstatus_tex
 47640900	HPChange	-0.03	0	perc	10000	1	-0.03	Virus argon III			L'infection consomme 3 % des PV maximum toutes les 1s.	icon_status.poisonstatus_tex
@@ -2000,7 +2008,9 @@
 47650400	HPChange	0.3	0	perc	1000	1	0.3	Soin de la relique			Restaure instantanément 50 % des PV maximum.	icon_status.plushp_tex
 47650600	Block	0	0	swch	10000	0	0	Effet de distorsion			Impossible d'utiliser les compétences. Effet de distorsion ne peut être levé.	icon_status.minuswill_tex
 47650800	HPChange	-0.01	0	perc	30000	1	-0.01	Piège d'agonie			Réduit la vitesse de déplacement à 10. Réduit les PV de 9 % du maximum toutes les 0s. Piège d'agonie ne peut être levé.	icon_status.poisonstatus_tex
+47651000	Resurrect	0	0	swch	180000	0	0.5	Renaissance de la relique			Peut ranimer au même endroit.	icon_status.vitality_tex
 47651001	StaminaDecay	0	0	seta	0	0	0	Bénédiction de l'Arbre du Chagrin			Une bénédiction de l'Arbre Tiaran. Cette bénédiction vous ressuscite sur-le-champ. Restaure entièrement vos PV et PM.	icon_status.vitality_tex
+47651001	Resurrect	0	0	seta	0	0	1	Bénédiction de l'Arbre du Chagrin			Une bénédiction de l'Arbre Tiaran. Cette bénédiction vous ressuscite sur-le-champ. Restaure entièrement vos PV et PM.	icon_status.vitality_tex
 47651003	Power	0	0	abs	120000	0	80	Vigilance d'Anya			Anya et Tiaran veillent sur vous et vous confèrent des bonus :   - Augmente la puissance de  80 - Augmente la constitution de 10 - Augmente la vitesse d'attaque de 20%  - Augmente la vitesse au combat de 10 - Régénère vos PV et PM de 5 % par seconde  Quitter cet endroit annule tous les effets.	icon_status.holybless_tex
 47651003	Endurance	0	0	abs	120000	0	10	Vigilance d'Anya			Anya et Tiaran veillent sur vous et vous confèrent des bonus :   - Augmente la puissance de  80 - Augmente la constitution de 10 - Augmente la vitesse d'attaque de 20%  - Augmente la vitesse au combat de 10 - Régénère vos PV et PM de 5 % par seconde  Quitter cet endroit annule tous les effets.	icon_status.holybless_tex
 47651003	ASpd	0	0	perc	120000	0	1.2	Vigilance d'Anya			Anya et Tiaran veillent sur vous et vous confèrent des bonus :   - Augmente la puissance de  80 - Augmente la constitution de 10 - Augmente la vitesse d'attaque de 20%  - Augmente la vitesse au combat de 10 - Régénère vos PV et PM de 5 % par seconde  Quitter cet endroit annule tous les effets.	icon_status.holybless_tex

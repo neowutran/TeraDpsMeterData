@@ -418,7 +418,9 @@
 4886	ASpd	0	0	perc	1800000	0	1.04	勇猛のポーション II	139536	勇猛のポーション II	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex
 4886	DefPotion	0	0	perc	1800000	0	0.9	勇猛のポーション II	139536	勇猛のポーション II	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex
 4886	AtkPotion	0	0	perc	1800000	0	1.1	勇猛のポーション II	139536	勇猛のポーション II	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex
+4951	Resurrect	0	0	seta	0	0	1	カイアの祝福			戦神カイアの祝福を受けて、死亡時にその場所でHP、MPが回復した状態で1回復活が可能です。リザレクションサイン、リバースブレシング、 ヴェリックの恩寵スキルと重複しません。	icon_skills.autoresurrect_tex
 4953	AtkPotion	0	0	perc	3600000	0	1.12	強化のポーション			攻撃力が12％上昇します。	icon_status.plusattack_tex
+4954	Resurrect	0	0	seta	0	0	1	カイアの祝福			戦神カイアの祝福を受けて、死亡時にその場所でHP、MPが回復した状態で1回復活が可能です。	icon_skills.autoresurrect_tex
 4955	AtkPotion	0	0	perc	1800000	0	1.15	強化のポーション			攻撃力が15％上昇します。	icon_status.plusattack_tex
 4956	HPChange	0.15	0	perc	1000	1	0.15	イースターエッグのバスケット	155016	Exotic Beach Drink	全HPの15％が即時に回復します。	icon_items.ricecake_tex
 4957	HPChange	0.15	0	perc	1000	1	0.15	キューブバスケット			全HPの15％を即時に回復。	icon_items.sweetypumpkinpie_tex
@@ -841,6 +843,7 @@
 70411	HPChange	-0.005	0	perc	10000	1	-0.005	猛毒			致命的な毒に中毒されて 1s毎に全HPの0.5%に達するHPが持続的に減少され、移動速度が 20% 減少します。	icon_status.poisonstatus_tex
 70439	MovSpdInCombat	0	0	perc	30000	0	3	亀裂のオーラ	703	亀裂のオーラ	30sの間、強力な力を使用することができ、効果持続中はダウン/硬直が発生しません。ジャンプすると亀裂のオーラが解除されます。	icon_status.darkriftdestroy_tex
 70446	Power	0	0	perc	30000	0	1.1	憤怒爆発			怒りにより力が 10%上昇します。この効果は、最大5回まで重複します。	icon_status.plusattack_tex
+70447	Resurrect	0	0	seta	5000	0	1	オリンの加護			効果持続中に死亡した場合、その場で即時に復活します。	icon_status.darkriftareafunny_tex
 70449	MovSpdInCombat	0	0	seta	300000	0	-100	束縛			アクタンのトラップに引っかかりました。持続時間の間身動きが取れません。	icon_status.staminadown_tex
 70449	Block	0	0	swch	300000	0	0	束縛			アクタンのトラップに引っかかりました。持続時間の間身動きが取れません。	icon_status.staminadown_tex
 70451	Block	0	0	swch	600000	0	0	尾行			しばらく姿が見えなくなります。	icon_status.staminadown_tex
@@ -1267,6 +1270,7 @@
 601111	AtkPotion	0	0	perc	0	0	1.1	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
 601400	CastSpeed	0	0	perc	10000	0	1.5	アロー			アローが10回成功時、ペネトレーティングアローのチャージ速度が上昇します。この効果はペネトレーティングアロー使用時に消滅します。	icon_skills.arrowshot_tex
 601450	CastSpeed	0	0	perc	10000	0	1.5	アロー			次の攻撃時、ペネトレーティングアローのチャージ速度が上昇します。	icon_skills.arrowshot_tex
+700100	Resurrect	0	0	seta	1200000	0	1	リバースブレシング			効果持続中に死亡した場合、祝福の力により、その場で即時に復活します。	icon_skills.autoresurrect_tex
 700200	MPChange	0	-30	abs	0	2	-30	フォグオーラ I			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
 700201	MPChange	0	-30	abs	0	2	-30	フォグオーラ II			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
 700202	MPChange	0	-30	abs	0	2	-30	フォグオーラ			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
@@ -1521,6 +1525,7 @@
 801503	ASpd	0	0	abs	20000	0	8	シークレッドサンダー IV			力が40、攻撃速度が8上昇します。	icon_skills.divinelightning_tex
 801600	HPChange	562	0	abs	3000	1	562	ヒーリングフェザー I			1s毎にHPが625回復します。	icon_skills.curewing_tex
 801601	HPChange	564	0	abs	3000	1	564	ヒーリングフェザー I			1s毎にHPが625回復します。	icon_skills.curewing_tex
+801700	Resurrect	0	0	seta	1200000	0	1	リザレクションサイン I			効果持続中、死亡時に即復活します。	icon_skills.selfpreresurrection_tex
 801800	MPChange	0	0.08	perc	1000	1	0.08	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
 801801	MPChange	0	0.16	perc	1000	1	0.16	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
 801802	MPChange	0	0.32	perc	1000	1	0.32	マナレジェン I			異常状態ツールチップ非表示（isShow=False）このツールチップが出たらBTS処理が必要です。	icon_skills.manarejuvenation_tex
@@ -1729,8 +1734,10 @@
 5000000	Crit	0	0	abs	0	0	3	今日から我らは強くなる！！			力/耐久力/衝撃/均衡/クリティカル率/移動速度が3ほど増加します。	icon_items.wings_of_fairy_tex
 5000003	CCrystalBind	0	0	abs	0	0	1	完全な光輝の書：クリスタル保護			死亡時、クリスタルが壊れるのを防止します。	icon_items.q_closedspace_stone_05_tex
 5010000	HPChange	0.03	0	perc	30000	1	0.03	幻影の回復ポーション	101305	幻影の回復ポーション	30秒間、1秒毎に全HPの5％、計90％が持続的に回復。	icon_items.potion17_tex
+5010001	Resurrect	0	0	seta	0	0	1	ヴェリックの恩寵			ヴェリックの恩寵を受けます。持続時間内に死亡時、その場で即時に復活できます。	icon_skills.selfpreresurrection_tex
 5690001	StaminaDecay	0	0	seta	0	0	0	記憶の追跡者			記憶の破片の収集を手伝うため、死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
 5690001	CrystalBind	0	0	abs	0	0	1	記憶の追跡者			記憶の破片の収集を手伝うため、死亡時にクリスタルが破壊されません。 	icon_skills.refineresin_tex
+5690002	Resurrect	0	0	seta	60000	0	1	記憶の再構成			記憶再構成を通じて死亡した記憶を削除して復活できます。 	icon_status.mpsuckdown_tex
 5692001	Endurance	0	0	seta	0	0	9999999	遊び部屋の支配者			遊びの部屋では立ち向かう相手がいません。	icon_skills.emergencyshield_tex
 5692006	Endurance	0	0	seta	0	0	9999999	命紡力のそでごい			マズキに命乞いをする。	icon_skills.emergencyshield_tex
 5692007	Endurance	0	0	seta	6000	0	3064	過度な遊び			マズキが力を使用し過ぎてしばらくの間、怯みます。	icon_skills.lossofbalance_tex
@@ -1892,6 +1899,7 @@
 45000038	HPChange	-0.125	0	perc	15000	3	-0.125	出血			強力な一撃によって出血しました。3s毎に全HPの12.5％が減少します。	icon_status.minuscriticalresist_tex
 45000039	Power	0	0	perc	0	0	1000	発光			カシュバルがひどく暴れています。もはや止めることはできません。カシュバルの力が1,000％、攻撃速度が5倍上昇します。	icon_status.diseaseup_tex
 45000039	ASpd	0	0	perc	0	0	5	発光			カシュバルがひどく暴れています。もはや止めることはできません。カシュバルの力が1,000％、攻撃速度が5倍上昇します。	icon_status.diseaseup_tex
+45000116	Resurrect	0	0	seta	5000	0	1	ヴェリックの恩寵			ヴェリックの恩寵を受けます。持続時間内に死亡時、その場で即時に復活できます。	icon_skills.selfpreresurrection_tex
 45000120	Block	0	0	swch	5000	0	0	高所恐怖症			高所恐怖症により一時的にスキルが使用できなくなります。	icon_status.fearstatus_tex
 47300100	HPChange	-0.5	0	perc	600000	60	-0.5	猛毒のエキス			致命的な毒により、60s毎に全HPの50％が減少します。 この効果は解除できません。	icon_status.poisonstatus_tex
 47300200	HPChange	-0.05	0	perc	60000	3	-0.05	トゥルサの猛毒			致命的な毒により、3s毎に全HPの5％が減少します。 この効果は解除できません。	icon_status.poisonstatus_tex
@@ -1986,6 +1994,7 @@
 47640300	Endurance	0	0	perc	10000	0	2	鉄壁の外殻			耐久力が100%上昇し、ダウン/硬直が発生しません。また障害ステータスを受け付けません。	icon_status.plusedefence_tex
 47640400	HPChange	-0.07	0	perc	10000	1	-0.07	破壊の鉄炎			1s毎に全HPの7％が減少します。	icon_status.poisonstatus_tex
 47640500	Power	0	0	perc	30000	0	1.2	戦闘の賛歌			力が20%上昇します。	icon_status.plusattack_tex
+47640600	Resurrect	0	0	swch	0	0	0.5	聖泉の祝福			泳ぐ速度が23900%上昇します。効果持続中に死亡した場合、その場で即時に復活します。	icon_status.minusmove_tex
 47640700	HPChange	-0.1	0	perc	10000	1	-0.1	アルゴンのウィルス I			致死性のウィルスに侵されました。1s毎に全HPの10％が減少します。	icon_status.poisonstatus_tex
 47640800	HPChange	-0.05	0	perc	10000	1	-0.05	アルゴンのウィルス II			致死性のウィルスに侵されました。1s毎に全HPの5％が減少します。	icon_status.poisonstatus_tex
 47640900	HPChange	-0.03	0	perc	10000	1	-0.03	アルゴンのウィルス II			致死性のウィルスに侵されました。1s毎に全HPの3％が減少します。	icon_status.poisonstatus_tex
@@ -2002,7 +2011,9 @@
 47650400	HPChange	0.3	0	perc	1000	1	0.3	戦神の恩寵			全HPの50％が即時に回復します。	icon_status.plushp_tex
 47650600	Block	0	0	swch	10000	0	0	時の歪み			時空間が歪み、効果持続中は全てのスキルが使用不可になります。この効果は解除できません。	icon_status.minuswill_tex
 47650800	HPChange	-0.01	0	perc	30000	1	-0.01	苦痛の棘			移動速度が10になり、全HPの9％が減少します。この効果は解除できません。	icon_status.poisonstatus_tex
+47651000	Resurrect	0	0	swch	180000	0	0.5	戦神の祝福			効果持続中は、死亡してもその場で即時に復活できます。	icon_status.vitality_tex
 47651001	StaminaDecay	0	0	seta	0	0	0	ティアランの祝福			ティアランの祝福効果により、死亡時その場でHP、MPが全て回復された状態ですぐ復活することができます。	icon_status.vitality_tex
+47651001	Resurrect	0	0	seta	0	0	1	ティアランの祝福			ティアランの祝福効果により、死亡時その場でHP、MPが全て回復された状態ですぐ復活することができます。	icon_status.vitality_tex
 47651003	Power	0	0	abs	120000	0	80	アーシャの祈祷			ティアランがアーシャの最後の祈りに応えています。   アーシャの祈祷により、5分間下記の効果を得ます。 -力が80増加 -耐久力が10増加 -攻撃速度が20%増加 -戦闘中の移動速度が10増加 -1秒毎にHP/MPが5%回復  この効果は現在の場所から離れると解除されます。	icon_status.holybless_tex
 47651003	Endurance	0	0	abs	120000	0	10	アーシャの祈祷			ティアランがアーシャの最後の祈りに応えています。   アーシャの祈祷により、5分間下記の効果を得ます。 -力が80増加 -耐久力が10増加 -攻撃速度が20%増加 -戦闘中の移動速度が10増加 -1秒毎にHP/MPが5%回復  この効果は現在の場所から離れると解除されます。	icon_status.holybless_tex
 47651003	ASpd	0	0	perc	120000	0	1.2	アーシャの祈祷			ティアランがアーシャの最後の祈りに応えています。   アーシャの祈祷により、5分間下記の効果を得ます。 -力が80増加 -耐久力が10増加 -攻撃速度が20%増加 -戦闘中の移動速度が10増加 -1秒毎にHP/MPが5%回復  この効果は現在の場所から離れると解除されます。	icon_status.holybless_tex
