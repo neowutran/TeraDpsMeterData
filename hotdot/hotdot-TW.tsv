@@ -698,12 +698,12 @@
 26170	CastSpeed	0	0	perc	6000	0	1.3	多重射擊(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加30%。	icon_skills.arrowshower_tex
 26171	CastSpeed	0	0	perc	6000	0	1.4	多重射擊(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加40%。	icon_skills.arrowshower_tex
 26180	CastSpeed	0	0	perc	6000	0	1.3	劇毒之箭(連續 神速紋章 [集中射擊])			以連續技使用集中射擊時，蓄力速度增加30%。	icon_skills.venomarrow_tex
-26190	CastSpeed	0	0	perc	6000	0	1.3	速射連鎖(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加30%。	icon_skills.chainrapidshot_tex
+26190	CastSpeed	0	0	perc	6000	0	1.3	速射連鎖(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加30%。	
 26200	MovSpdInCombat	0	0	abs	3000	0	50	迴旋踢(活力紋章)			戰鬥狀態的移動速度增加50。	icon_skills.turningkick_tex
-26220	Endurance	0	0	perc	25000	0	0.9545	蜘蛛陷阱箭矢(弱化紋章)			抗打減少4.55%。	icon_skills.webtraparrow_tex
+26220	Endurance	0	0	perc	25000	0	0.9545	抗打減少 [弱化紋章]			抗打減少4.55%。	icon_crest.crestactivedefencedown_tex
 26230	MPChange	0	0.06	perc	5000	1	0.06	執念(精神紋章)			每1s持續恢復6%的MP。	icon_skills.tenacity_tex
 26250	Crit	0	0	perc	0	0	3	暴擊觸發增加 [必殺紋章]			暴擊觸發 3倍 增加。 	icon_crest.crestpassivecriticalup_tex
-26251	Endurance	0	0	perc	25000	0	0.9545	蜘蛛陷阱箭矢(弱化紋章)			抗打減少4.55%0。	icon_skills.webtraparrow_tex
+26251	Endurance	0	0	perc	25000	0	0.9545	抗打減少 (弱化紋章)			抗打減少4.55%0。	icon_crest.crestactivedefencedown_tex
 27060	ASpd	0	0	perc	6000	0	0.7	束縛彈(減速紋章)			攻擊速度減少30%。	icon_skills.slowball_tex
 27110	MovSpdInCombat	0	0	abs	3000	0	50	閃光彈(活力紋章)			戰鬥狀態的移動速度增加50。	icon_skills.flashball_tex
 27120	Endurance	0	0	perc	600000	0	1.1	精靈召喚：守護精靈(協力紋章)			抗打提升10%。	icon_skills.summonspiritofaggro_tex
@@ -967,8 +967,10 @@
 400105	Power	0	0	perc	27000	0	1.2	狂暴化 VI			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
 400105	Endurance	0	0	perc	27000	0	0.9	狂暴化 VI			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
 400105	Crit	0	0	perc	27000	0	1.1	狂暴化 VI			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400500	ASpd	0	0	perc	15000	0	1.2	狂氣大增 I			攻擊速度和蓄力速度增加20%。	icon_skills.gatheringrage_tex
-400501	ASpd	0	0	perc	15000	0	1.4	狂氣大增			攻擊速度和蓄力速度增加40%。	icon_skills.gatheringrage_tex
+400500	ASpd	0	0	perc	10000	0	1.2	狂暴化			攻擊速度和蓄力速度增加20%。	icon_skills.berserk_tex
+400501	ASpd	0	0	perc	10000	0	1.4	狂暴化			攻擊速度和蓄力速度增加40%。	icon_skills.berserk_tex
+400508	ASpd	0	0	perc	10000	0	1.4	狂暴化 VI			攻擊速度和蓄力速度增加 40% 。	icon_skills.berserk_tex
+400509	ASpd	0	0	perc	20000	0	1	在我內在沉睡的狂氣			使用狂暴化技能也不能收到狂氣大增的效果。	icon_skills.relax_tex
 400700	Power	0	0	abs	30000	0	26	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400700	AtkPotion	0	0	perc	30000	0	1.1	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400701	Power	0	0	abs	30000	0	29	激怒 II			力量提升29，衝擊和平衡也各提升60%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
@@ -1209,9 +1211,9 @@
 501600	MPChange	0	0.05	perc	900	1	0.05	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex
 501600	AtkPotion	0	0	perc	4000	0	0.8	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex
 501601	MPChange	0	0.05	perc	900	1	0.05	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex
-600500	Mark	0	0	swch	30000	0	1.2	弓箭手標記 I			被指定為集中攻擊對象了!若在效果持續時間中受到將你指定的對象的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
-600501	Mark	0	0	swch	35000	0	1.2	弓箭手標記 II			被指定為集中攻擊對象了!若在效果持續時間中受到將你指定的對象的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
-600502	Mark	0	0	swch	40000	0	1.2	弓箭手標記			被指定為集中攻擊對象了!若在效果持續時間中受到將你指定的對象的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
+600500	DefPotion	0	0	perc	30000	0	1.1	弓箭手標記 I			被指定為集中攻擊對象了!若在效果持續時間中受到弓箭手職業的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
+600501	DefPotion	0	0	perc	35000	0	1.1	弓箭手標記 II			被指定為集中攻擊對象了!若在效果持續時間中受到弓箭手職業的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
+600502	DefPotion	0	0	perc	40000	0	1.1	弓箭手標記			被指定為集中攻擊對象了!若在效果持續時間中受到弓箭手職業的攻擊，會受到20%以上的傷害。	icon_skills.markingofarcher_tex
 600600	HPChange	-58	0	abs	10000	2	-58	中毒陷阱 I			感染致命的劇毒，每2s持續減少-58的HP。	icon_skills.venomtrap_tex
 600601	HPChange	-124	0	abs	10000	2	-124	中毒陷阱 II			感染致命的劇毒，每2s持續減少-124的HP。	icon_skills.venomtrap_tex
 600602	HPChange	-271	0	abs	10000	2	-271	中毒陷阱 III			感染致命的劇毒，每2s持續減少-271的HP。	icon_skills.venomtrap_tex
@@ -1244,22 +1246,22 @@
 600928	HPChange	-1427	0	abs	12000	2	-1427	劇毒之箭 IX			每2s持續減少-1427的HP。此效果最多可堆疊5次。	icon_skills.venomarrow_tex
 601000	ASpd	0	0	perc	4000	0	0.85	牽制射擊 I			移動速度減少50%，攻擊速度減少15%。	icon_skills.contaningshot_tex
 601001	ASpd	0	0	perc	5000	0	0.85	牽制射擊 II			移動速度減少50%，攻擊速度減少15%。	icon_skills.contaningshot_tex
-601100	Power	0	0	abs	0	0	30	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
-601100	ASpd	0	0	abs	0	0	4	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
-601100	AtkPotion	0	0	perc	0	0	1.05	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
-601101	Power	0	0	abs	0	0	30	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
-601101	ASpd	0	0	abs	0	0	8	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
-601101	AtkPotion	0	0	perc	0	0	1.05	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊中型時給予5%提升的傷害。	icon_skills.focusstance_tex
-601110	Power	0	0	abs	0	0	30	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601110	Endurance	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601110	ASpd	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601110	AtkPotion	0	0	perc	0	0	1.1	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601111	Power	0	0	abs	0	0	30	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601111	Endurance	0	0	abs	0	0	8	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601111	ASpd	0	0	abs	0	0	8	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601111	AtkPotion	0	0	perc	0	0	1.1	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_tex
-601400	CastSpeed	0	0	perc	10000	0	1.5	一般射擊			命中敵人10次的話，會產生多重射擊的施展速度增加的增益效果。	icon_skills.arrowshot_tex
-601450	CastSpeed	0	0	perc	10000	0	1.5	一般射擊			 下一次穿透射擊時，蓄力速度增加。	icon_skills.arrowshot_tex
+601100	Power	0	0	abs	0	0	30	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
+601100	ASpd	0	0	abs	0	0	4	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
+601100	AtkPotion	0	0	perc	0	0	1.07	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
+601101	Power	0	0	abs	0	0	30	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
+601101	ASpd	0	0	abs	0	0	8	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
+601101	AtkPotion	0	0	perc	0	0	1.07	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
+601110	Power	0	0	abs	0	0	30	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601110	Endurance	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601110	ASpd	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601110	AtkPotion	0	0	perc	0	0	1.1	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601111	Power	0	0	abs	0	0	30	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601111	Endurance	0	0	abs	0	0	8	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601111	ASpd	0	0	abs	0	0	8	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601111	AtkPotion	0	0	perc	0	0	1.1	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
+601400	CastSpeed	0	0	perc	10000	0	1.5	一般射擊			用一般射擊、速射、連射技能打擊10次命中的話，穿透射擊和集中射擊的蓄力速度增加。	icon_skills.arrowshot_tex
+601450	CastSpeed	0	0	perc	10000	0	1.5	集中			10秒間做穿透射擊，集中射擊的蓄力速度增加。	icon_skills.focusstance_moveslow_tex
 700200	MPChange	0	-30	abs	0	2	-30	迷霧結界 I			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
 700201	MPChange	0	-30	abs	0	2	-30	迷霧結界 II			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
 700202	MPChange	0	-30	abs	0	2	-30	迷霧結界			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
@@ -1647,6 +1649,47 @@
 916002	Endurance	0	0	perc	600000	0	0.3	害怕黑暗之人			無法獲得暗黑效果，達魯坎正注意著你。防禦力減少70%。	icon_status.darkriftrage_tex
 916004	Power	0	0	perc	600000	0	1.5	達魯坎的憤怒			攻擊力增加50% ，攻擊速度增加 30%。無法解除。	icon_status.plusattack_tex
 916004	ASpd	0	0	perc	600000	0	1.3	達魯坎的憤怒			攻擊力增加50% ，攻擊速度增加 30%。無法解除。	icon_status.plusattack_tex
+950001	HPChange	-3000	0	abs	20000	1	-3000	不穩定的神界魔力			不穩定的神界魔力持續流淌出來	icon_status.minusmp_tex
+950005	Endurance	0	0	perc	6000	0	1	熱氣			從貝勒古斯散發出的熱氣讓身體發熱。如果解除熱氣，除了中心以外，其它會爆發，但如果沒有解除，持續時間到了後，會有更大的爆炸	icon_status.heat_tex
+950009	MovSpdInCombat	0	0	perc	0	0	1.5	貝里克的祝福			移動速度增加 50% 。 劍鬥士疾風劈擊的基本傷害及爆擊率 最大堆疊 時，會與威力一致。槍騎士的信賴光環、守護盟誓效果範圍增加 10m 。元素使的所有結界技能效果範圍增加 20m 。	icon_status.lightweight_tex
+950050	MovSpdInCombat	0	0	perc	5000	0	2.5	緊急啟動 !			提高床弩的動力。床弩的移動速度增加 2.5倍。	icon_status.accelration_tex
+950051	Endurance	0	0	perc	6000	0	1	窟拉德林的邪念			對距離窟拉德林最近的 5名玩家召喚暗黑邪念體。暗黑邪念體只有窟拉德林的暗黑火焰可以處置。	icon_status.darkmind_tex
+950068	Endurance	0	0	perc	1	0	1	火焰密集			馬上就要被火焰覆蓋。	icon_status.vergosflame_tex
+950069	Endurance	0	0	perc	1	0	1	粉塵密集			馬上就要被粉塵覆蓋。	icon_status.vergosdust_tex
+950084	MovSpdInCombat	0	0	perc	1100	0	0.2	泥濘的熔岩			熔岩泥濘。移動速度大幅減少。	icon_status.lavar_tex
+950090	Attack	0	0	perc	0	0	1.05	神界的魔力			貝勒古斯吸收了從神界的空隙流出的魔力。每次重疊攻擊力上升 5%。	icon_status.godspell_tex
+950091	Attack	0	0	perc	3000	0	1.3	神界的魔力			從神界的空隙流出的魔力爆發並散發出氣息。技能威力增加 30%。	icon_status.godspell_tex
+950097	MovSpdInCombat	0	0	perc	11000	0	0.2	石化			身體漸漸凝固。移動速度減緩，且馬上就變得不能移動。	icon_status.petrifaction_tex
+950107	HPChange	-10000000	0	perc	3000	1	-10000000	燃燒的岩石			困在燃燒的岩石之中。岩石隨著時間過去會爆發且全區受到很大的傷害。	icon_status.rock_tex
+950107	Block	0	0	swch	30000	0	0	燃燒的岩石			困在燃燒的岩石之中。岩石隨著時間過去會爆發且全區受到很大的傷害。	icon_status.rock_tex
+950113	Endurance	0	0	perc	0	0	1	連續發射準備			連續發射準備。	icon_status.shotarrow_tex
+950138	HPChange	-10000000	0	perc	3000	1	-10000000	幽閉恐懼症			再次困在岩石中的話，好像就快要窒息死亡了。	icon_status.vergoscurse_tex
+950140	HPChange	-0.15	0	perc	8000	2	-0.15	火球碎片			全身沾附了火球碎片。HP會持續減少。	icon_status.scald_tex
+950163	ASpd	0	0	perc	10000	0	1.2	士氣增進			士氣上升，攻擊速度增加 20%，技能冷卻時間減少 50%。	icon_status.bloodmadness_tex
+950163	CDR	0	0	perc	10000	0	0.5	士氣增進			士氣上升，攻擊速度增加 20%，技能冷卻時間減少 50%。	icon_status.bloodmadness_tex
+950164	HPChange	-10000000	0	perc	3000	1	-10000000	粉塵			被粉塵覆蓋了。持續時間結束時，因粉塵而窒息並死亡。若遭到貝勒古斯的粉塵攻擊，馬上就會窒息死亡。若遭到貝勒古斯的火焰攻擊且爆炸，該狀態會解除。	icon_status.vergosdust_tex
+950164	DefPotion	0	0	perc	9000	0	0.1	粉塵			被粉塵覆蓋了。持續時間結束時，因粉塵而窒息並死亡。若遭到貝勒古斯的粉塵攻擊，馬上就會窒息死亡。若遭到貝勒古斯的火焰攻擊且爆炸，該狀態會解除。	icon_status.vergosdust_tex
+950165	HPChange	-10000000	0	perc	3000	1	-10000000	火焰			被火焰覆蓋了。持續時間結束時，因火焰而身體燃燒並死亡。若遭到貝勒古斯的火焰攻擊，身體會馬上燃燒並死亡。若遭到貝勒古斯的粉塵攻擊且爆炸，該狀態會解除。	icon_status.vergosflame_tex
+950165	DefPotion	0	0	perc	9000	0	0.1	火焰			被火焰覆蓋了。持續時間結束時，因火焰而身體燃燒並死亡。若遭到貝勒古斯的火焰攻擊，身體會馬上燃燒並死亡。若遭到貝勒古斯的粉塵攻擊且爆炸，該狀態會解除。	icon_status.vergosflame_tex
+950168	Endurance	0	0	perc	0	0	100	狂暴化			貝勒古斯狂暴化而使力量、攻擊速度和防禦度躍升。再也無法阻止他。	icon_status.summonvergos_tex
+950168	Attack	0	0	perc	0	0	10	狂暴化			貝勒古斯狂暴化而使力量、攻擊速度和防禦度躍升。再也無法阻止他。	icon_status.summonvergos_tex
+950168	ASpd	0	0	perc	0	0	2	狂暴化			貝勒古斯狂暴化而使力量、攻擊速度和防禦度躍升。再也無法阻止他。	icon_status.summonvergos_tex
+950171	ASpd	0	0	perc	0	0	1.15	憤怒			貝勒古斯憤怒而使攻擊速度加快。	icon_status.vergosblood_tex
+950179	Endurance	0	0	perc	1	0	1	火焰密集			馬上就要被火焰覆蓋。	icon_status.vergosflame_tex
+950180	Endurance	0	0	perc	1	0	1	粉塵密集			馬上就要被粉塵覆蓋。	icon_status.vergosdust_tex
+950187	Endurance	0	0	perc	0	0	0.4	精疲力盡			貝勒古斯消磨了所有的力量精疲力盡了。貝勒古斯的防禦度急遽下降。	icon_status.struggle_tex
+950192	Attack	0	0	perc	0	0	10	沸騰的憤怒			貝勒古斯的憤怒已沸騰。隨著時間過去，貝勒古斯變得狂暴化。	icon_status.dragonberserk_tex
+950193	Attack	0	0	perc	0	0	10	沸騰的憤怒			貝勒古斯的憤怒已沸騰。隨著時間過去，貝勒古斯變得狂暴化。	icon_status.dragonberserk_tex
+950300	ASpd	0	0	perc	90000	0	1.25	大地之力			煞雷奧斯接收大地之力而變強。每次重疊攻擊速度增加 25%。	icon_status.earthblessing_tex
+950306	Attack	0	0	perc	0	0	10	狂暴化			龍狂暴化且攻擊力增加 10倍，攻擊速度增加 2倍。	icon_status.dragonberserk_tex
+950306	ASpd	0	0	perc	0	0	2	狂暴化			龍狂暴化且攻擊力增加 10倍，攻擊速度增加 2倍。	icon_status.dragonberserk_tex
+950334	HPChange	-0.2	0	perc	5000	2	-0.2	無秩序的魔力			不受到魔力的均衡，定期受到傷害。且攻擊力和治癒量、接收的恢復量等減少 50%。	icon_status.omniousspell_tex
+950334	AtkPotion	0	0	perc	5000	0	0.5	無秩序的魔力			不受到魔力的均衡，定期受到傷害。且攻擊力和治癒量、接收的恢復量等減少 50%。	icon_status.omniousspell_tex
+950335	Endurance	0	0	perc	0	0	1	士氣增進			士氣增進且移動速度增加。	icon_status.bloodmadness_tex
+950335	MovSpdInCombat	0	0	perc	20000	0	3	士氣增進			士氣增進且移動速度增加。	icon_status.bloodmadness_tex
+950340	HPChange	-0.15	0	perc	10000	2	-0.15	風造成的傷害			因為阿加雷斯振翅而受到傷害。會持續受到傷害。	icon_status.whirl_tex
+950342	DefPotion	0	0	perc	0	0	0.1	危機意識			煞雷奧斯感覺到危機意識，甲皮變得堅硬。此效果必須要解除。	icon_status.earthpower_tex
+950343	DefPotion	0	0	perc	0	0	0.1	堅硬的甲皮			煞雷奧斯的甲皮變得堅硬，受到的傷害減少 90%，給予的傷害增加 20%。堅硬的甲皮每次打擊時會被剝落一點。	icon_status.earthpower_tex
 975031	HPChange	-0.01	0	perc	5000	1	-0.01	冷熱交替			火焰和寒氣適當交替混合將會減少損血量。	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	0	0	perc	5000	0	2	凱爾賽克巢穴_專用_中間BOSS移動速度增加_效果			周圍5m範圍內我軍移動速度增加	icon_status.plusmove_tex
 975041	DefPotion	0	0	perc	5000	0	0	凱爾賽克巢穴_專用_BOSS周圍無敵_效果			周圍10m範圍內我軍有無敵保護膜效果 	icon_status.plusedefence_tex
@@ -3095,9 +3138,10 @@
 999001035	Power	0	0	abs	15000	0	30	閃亮女神的庇護	51011	閃亮女神的胸針	感受到閃亮女神的庇護。力量上升 30、爆擊誘發上升 30、攻擊速度也上升 12%。	icon_items.parts_magicweaponc8_tex
 999001035	Crit	0	0	abs	15000	0	30	閃亮女神的庇護	51011	閃亮女神的胸針	感受到閃亮女神的庇護。力量上升 30、爆擊誘發上升 30、攻擊速度也上升 12%。	icon_items.parts_magicweaponc8_tex
 999001035	ASpd	0	0	perc	15000	0	1.12	閃亮女神的庇護	51011	閃亮女神的胸針	感受到閃亮女神的庇護。力量上升 30、爆擊誘發上升 30、攻擊速度也上升 12%。	icon_items.parts_magicweaponc8_tex
-999001036	Power	0	0	abs	20000	0	30	古龍降臨	51028	古龍的胸針	古龍之力降臨。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
-999001036	Crit	0	0	abs	20000	0	30	古龍降臨	51028	古龍的胸針	古龍之力降臨。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
-999001036	ASpd	0	0	perc	20000	0	1.12	古龍降臨	51028	古龍的胸針	古龍之力降臨。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
+999001036	Power	0	0	abs	20000	0	30	古龍降臨	51028	古龍的胸針	感受到古龍之力。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
+999001036	Crit	0	0	abs	20000	0	30	古龍降臨	51028	古龍的胸針	感受到古龍之力。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
+999001036	ASpd	0	0	perc	20000	0	1.12	古龍降臨	51028	古龍的胸針	感受到古龍之力。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
+999001036	Block	0	0	swch	20000	0	0	古龍降臨	51028	古龍的胸針	感受到古龍之力。提升力量30、爆擊觸發 30、攻擊速度12%。	icon_items.brooch_vergos_tex
 999008300	Power	0	0	perc	3930000	0	1.15	攻擊力增加			攻擊力增加15%。	icon_status.plusattack_tex
 999008400	Endurance	0	0	perc	3930000	0	0.85	防衛力減少			防禦力減少15%。	icon_status.minusdefence_tex
 999008600	HPChange	0.08	0	perc	3930000	10	0.08	HP持續恢復			一回合內，每10s持續恢復8%的HP。	icon_skills.healinglightlockon_tex
