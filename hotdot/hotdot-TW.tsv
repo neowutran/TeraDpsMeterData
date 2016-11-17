@@ -411,6 +411,7 @@
 4886	ASpd	0	0	perc	1800000	0	1.04	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex
 4886	DefPotion	0	0	perc	1800000	0	0.9	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex
 4886	AtkPotion	0	0	perc	1800000	0	1.1	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex
+4951	Resurrect	0	0	seta	0	0	1	凱亞的祝福			獲得凱亞的祝福，死亡時可在該場所上復活1次，並恢復所有的 HP和 MP、健康狀態。無法和復活庇護及轉生祝福、貝里克的恩寵技能重複套用。	icon_skills.autoresurrect_tex
 4953	AtkPotion	0	0	perc	3600000	0	1.12	強化藥水			攻擊力增加 12%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex
 4955	AtkPotion	0	0	perc	1800000	0	1.15	強化藥水			攻擊力增加 15%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex
 4956	HPChange	0.15	0	perc	1000	1	0.15	復活節彩蛋籃子	155016	Exotic Beach Drink	立即恢復15%的HP。	icon_items.ricecake_tex
@@ -834,6 +835,7 @@
 70411	HPChange	-0.005	0	perc	10000	1	-0.005	猛毒			中致命的毒時每1s，0.5%的HP繼續減少，移動速度減少20%。	icon_status.poisonstatus_tex
 70439	MovSpdInCombat	0	0	perc	30000	0	3	裂痕氣息	703	裂縫的氣息	30s 期間可以使用強大的力量，效果維持期間不會被擊倒與僵直。跳躍的話會解除裂痕氣息。	icon_status.darkriftdestroy_tex
 70446	Power	0	0	perc	30000	0	1.1	憤怒爆發			聚集憤怒後力量提升10%。這效果最多可堆疊5次。	icon_status.plusattack_tex
+70447	Resurrect	0	0	seta	5000	0	1	奧林的庇護			於持續時間內死亡時，可以立即在原地復活。	icon_status.darkriftareafunny_tex
 70449	MovSpdInCombat	0	0	seta	300000	0	-100	束縛			陷入阿旦陷阱。持續一段時間內無法移動。	icon_status.staminadown_tex
 70449	Block	0	0	swch	300000	0	0	束縛			陷入阿旦陷阱。持續一段時間內無法移動。	icon_status.staminadown_tex
 70451	Block	0	0	swch	600000	0	0	跟蹤			暫時看不到樣貌。	icon_status.staminadown_tex
@@ -1262,6 +1264,7 @@
 601111	AtkPotion	0	0	perc	0	0	1.1	集中姿勢：慎重 II			攻擊速度及力量提升8、抗打增加8，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
 601400	CastSpeed	0	0	perc	10000	0	1.5	一般射擊			用一般射擊、速射、連射技能打擊10次命中的話，穿透射擊和集中射擊的蓄力速度增加。	icon_skills.arrowshot_tex
 601450	CastSpeed	0	0	perc	10000	0	1.5	集中			10秒間做穿透射擊，集中射擊的蓄力速度增加。	icon_skills.focusstance_moveslow_tex
+700100	Resurrect	0	0	seta	1200000	0	1	轉生祝福			利用祝福力量，於持續時間內死亡時，可以立即在原地復活。	icon_skills.autoresurrect_tex
 700200	MPChange	0	-30	abs	0	2	-30	迷霧結界 I			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
 700201	MPChange	0	-30	abs	0	2	-30	迷霧結界 II			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
 700202	MPChange	0	-30	abs	0	2	-30	迷霧結界			對周邊20m範圍內的組隊隊員和自己，賦予迷霧結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.areahpgain_tex
@@ -1516,6 +1519,7 @@
 801503	ASpd	0	0	abs	20000	0	8	神聖閃電 IV			力量增加40，攻擊速度也提升8。	icon_skills.divinelightning_tex
 801600	HPChange	562	0	abs	3000	1	562	治癒翅膀 I			每1s時，持續恢復625的HP。	icon_skills.curewing_tex
 801601	HPChange	564	0	abs	3000	1	564	治癒翅膀 I			每1s時，持續恢復625的HP。	icon_skills.curewing_tex
+801700	Resurrect	0	0	seta	1200000	0	1	復活的庇護 I			藉由神的力量在持續時間內死亡時，可在原地馬上復活。	icon_skills.selfpreresurrection_tex
 801800	MPChange	0	0.08	perc	1000	1	0.08	魔力再生 I			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_skills.manarejuvenation_tex
 801801	MPChange	0	0.16	perc	1000	1	0.16	魔力再生 I			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_skills.manarejuvenation_tex
 801802	MPChange	0	0.32	perc	1000	1	0.32	魔力再生 I			異常狀態的提示說明不會顯示 (isShow=False)，若顯示此提示說明就需要BTS處理!	icon_skills.manarejuvenation_tex
@@ -1766,6 +1770,7 @@
 5000003	CCrystalBind	0	0	abs	0	0	1	完整的水晶防護			死亡時可防止水晶碎裂。	icon_items.q_closedspace_stone_05_tex
 5690001	StaminaDecay	0	0	seta	0	0	0	記憶的追蹤者			為了收集記憶的殘骸，將無法破壞強化水晶。	icon_skills.refineresin_tex
 5690001	CrystalBind	0	0	abs	0	0	1	記憶的追蹤者			為了收集記憶的殘骸，將無法破壞強化水晶。	icon_skills.refineresin_tex
+5690002	Resurrect	0	0	seta	60000	0	1	記憶重建			透過記憶重建，死去的記憶被刪除後可重新復活。	icon_status.mpsuckdown_tex
 5692001	Endurance	0	0	seta	0	0	9999999	遊樂場的支配者			遊樂場裡沒有可以敵對的對象。	icon_skills.emergencyshield_tex
 5692006	Endurance	0	0	seta	0	0	9999999	乞討生命力			向摩茲奇討要生命力。	icon_skills.emergencyshield_tex
 5692007	Endurance	0	0	seta	6000	0	3064	過度玩耍			使用過多的力量，暫時被削弱了。	icon_skills.lossofbalance_tex
@@ -1927,6 +1932,7 @@
 45000038	HPChange	-0.125	0	perc	15000	3	-0.125	出血			因為強力的一擊而發生出血，每3s持續減少12.5%的HP。	icon_status.minuscriticalresist_tex
 45000039	Power	0	0	perc	0	0	1000	發狂			卡舒帕露正在發狂。看來無法阻止卡舒帕露了。卡舒帕露的力量提升1000%，攻擊速度增加5倍。	icon_status.diseaseup_tex
 45000039	ASpd	0	0	perc	0	0	5	發狂			卡舒帕露正在發狂。看來無法阻止卡舒帕露了。卡舒帕露的力量提升1000%，攻擊速度增加5倍。	icon_status.diseaseup_tex
+45000116	Resurrect	0	0	seta	5000	0	1	貝里克的恩寵			受到貝里克的恩寵，在持續時間內死亡時，可以立即復活。	icon_skills.selfpreresurrection_tex
 45000120	Block	0	0	swch	5000	0	0	懼高症			因為懼高症的症狀，技能使用暫時受到限制。	icon_status.fearstatus_tex
 47300100	HPChange	-0.5	0	perc	600000	60	-0.5	劇毒津液			中了致命性的毒，每60s持續減少50%的HP。 劇毒津液無法解除。	icon_status.poisonstatus_tex
 47300200	HPChange	-0.05	0	perc	60000	3	-0.05	突沙劇毒			中了致命性的毒，每 3s持續減少5%的HP。 突沙劇毒無法解除。	icon_status.poisonstatus_tex
@@ -2021,6 +2027,7 @@
 47640300	Endurance	0	0	perc	10000	0	2	鐵壁外皮			抗打提升100%，不會發生擊倒及僵硬。對異常狀態免疫。	icon_status.plusedefence_tex
 47640400	HPChange	-0.07	0	perc	10000	1	-0.07	鐵壁之破壞火花			每1s持續減少7%的HP。	icon_status.poisonstatus_tex
 47640500	Power	0	0	perc	30000	0	1.2	戰鬥讚歌			力量提升20%。	icon_status.plusattack_tex
+47640600	Resurrect	0	0	swch	0	0	0.5	神聖的湖水祝福			游泳時移動速度提升23900%。持續時間內死亡時可以於原地復活。	icon_status.minusmove_tex
 47640700	HPChange	-0.1	0	perc	10000	1	-0.1	阿勒坤病毒 I			中了致命性病毒，每1s持續減少10%的HP。	icon_status.poisonstatus_tex
 47640800	HPChange	-0.05	0	perc	10000	1	-0.05	阿勒坤病毒 II			中了致命性病毒，每1s持續減少5%的HP。	icon_status.poisonstatus_tex
 47640900	HPChange	-0.03	0	perc	10000	1	-0.03	阿勒坤病毒 II			中了致命性病毒，每1s持續減少3%的HP。	icon_status.poisonstatus_tex
@@ -2037,7 +2044,9 @@
 47650400	HPChange	0.3	0	perc	1000	1	0.3	恢復BUFF			立即恢復50%的HP。	icon_status.plushp_tex
 47650600	Block	0	0	swch	10000	0	0	扭曲的時空氣息			時空扭曲，效果持續時間內任何種類的技能都不能使用。扭曲的時空氣息無法解除。	icon_status.minuswill_tex
 47650800	HPChange	-0.01	0	perc	30000	1	-0.01	痛苦荊棘			移動速度為10，持續減少9%的HP。痛苦荊棘無法解除。	icon_status.poisonstatus_tex
+47651000	Resurrect	0	0	swch	180000	0	0.5	遺物祝福			因為祝福於持續時間內死亡時可以立即於原地復活。	icon_status.vitality_tex
 47651001	StaminaDecay	0	0	seta	0	0	0	提亞蘭神樹的祝福			因提亞蘭樹的祝福效果，死亡時可立即在原地復活並恢復全部的HP，MP。	icon_status.vitality_tex
+47651001	Resurrect	0	0	seta	0	0	1	提亞蘭神樹的祝福			因提亞蘭樹的祝福效果，死亡時可立即在原地復活並恢復全部的HP，MP。	icon_status.vitality_tex
 47651003	Power	0	0	abs	120000	0	80	阿莎的祈禱			提亞蘭神樹接受自己剩下的最後力量傳給守護者的阿莎的祈禱   阿莎的祈禱的關係守護者5分內會受到以下效果 -力量 80 增加 -抗打 10 增加 -攻擊速度 20% 增加  -戰鬥時 移動速度 10 增加 -每秒 HP/MP 5% 恢復  這效果脫離現在場所時解除。	icon_status.holybless_tex
 47651003	Endurance	0	0	abs	120000	0	10	阿莎的祈禱			提亞蘭神樹接受自己剩下的最後力量傳給守護者的阿莎的祈禱   阿莎的祈禱的關係守護者5分內會受到以下效果 -力量 80 增加 -抗打 10 增加 -攻擊速度 20% 增加  -戰鬥時 移動速度 10 增加 -每秒 HP/MP 5% 恢復  這效果脫離現在場所時解除。	icon_status.holybless_tex
 47651003	ASpd	0	0	perc	120000	0	1.2	阿莎的祈禱			提亞蘭神樹接受自己剩下的最後力量傳給守護者的阿莎的祈禱   阿莎的祈禱的關係守護者5分內會受到以下效果 -力量 80 增加 -抗打 10 增加 -攻擊速度 20% 增加  -戰鬥時 移動速度 10 增加 -每秒 HP/MP 5% 恢復  這效果脫離現在場所時解除。	icon_status.holybless_tex
