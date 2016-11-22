@@ -2737,6 +2737,7 @@
 		<Monster name="Tikat" id="9000" isBoss="False" hp="10000" />
 		<Monster name="Ambrrr" id="9004" isBoss="False" hp="10000" />
 		<Monster name="Colbrrr" id="9005" isBoss="False" hp="10000" />
+		<Monster name="Harrowhold Teleportal" id="9501" isBoss="False" hp="10000" />
 		<Monster name="One Who Cannot Exist" id="9999" isBoss="False" hp="10000" />
 		<Monster name="Therry" id="22002" isBoss="False" hp="10000" />
 		<Monster name="Chriar" id="22003" isBoss="False" hp="10000" />
@@ -4805,7 +4806,6 @@
 		<Monster name="Timescape Entrance" id="5035" isBoss="False" hp="0" />
 		<Monster name="Kalivan's Dreadnaught Entrance" id="5036" isBoss="False" hp="0" />
 		<Monster name="Forsaken Island Entrance" id="5037" isBoss="False" hp="0" />
-		<Monster name="Entrance to Ruinous Manor" id="5038" isBoss="False" hp="0" />
 		<Monster name="Tactics/Magic Instructor" id="5993" isBoss="False" hp="0" />
 		<Monster name="Tactics/Magic Instructor" id="5997" isBoss="False" hp="0" />
 		<Monster name="Flight Manager" id="5999" isBoss="False" hp="0" />
@@ -4823,6 +4823,7 @@
 		<Monster name="Tactics/Magic Instructor" id="8281" isBoss="False" hp="0" />
 		<Monster name="Demokron Factory Entrance" id="9067" isBoss="False" hp="0" />
 		<Monster name="Manglemire Entrance" id="9070" isBoss="False" hp="0" />
+		<Monster name="Harrowhold Entrance" id="9501" isBoss="False" hp="0" />
 		<Monster name="Entrance to Lilith's Keep" id="9769" isBoss="False" hp="0" />
 		<Monster name="Qeldar Station" id="18101" isBoss="False" hp="0" />
 		<Monster name="Hulran Watch" id="18102" isBoss="False" hp="0" />
@@ -4881,12 +4882,12 @@
 		<Monster name="Protection Crystal" id="5001" isBoss="False" hp="13755" />
 	</Zone>
 	<Zone id="111" name="Iron Battleground" >
-		<Monster name="Tank_Practical" id="1000" isBoss="False" hp="180000" />
-		<Monster name="Tank_Power" id="2000" isBoss="False" hp="180000" />
-		<Monster name="Tank_Speed" id="3000" isBoss="False" hp="180000" />
-		<Monster name="Tank Kit" id="4003" isBoss="False" hp="1" />
-		<Monster name="Fixed Cannon" id="6000" isBoss="False" hp="360000" />
-		<Monster name="Tank_Practical,Power,Speed" id="7000" isBoss="False" hp="360000" />
+		<Monster name="Napalm Tank" id="1000" isBoss="False" hp="180000" />
+		<Monster name="Power Tank" id="2000" isBoss="False" hp="180000" />
+		<Monster name="Speed Tank" id="3000" isBoss="False" hp="180000" />
+		<Monster name="Repair Pylon" id="4003" isBoss="False" hp="1" />
+		<Monster name="Artillery" id="6000" isBoss="False" hp="360000" />
+		<Monster name="Ultimate Tank" id="7000" isBoss="False" hp="360000" />
 	</Zone>
 	<Zone id="112" name="Fraywind Canyon" >
 		<Monster name="Naga Reaver" id="1000" isBoss="False" hp="17871700" />
@@ -12212,7 +12213,7 @@
 		<Monster name="Cursed Archdeva" id="3007" isBoss="False" hp="1200000" />
 		<Monster name="Arunic Orrery" id="9007" isBoss="False" hp="13038" />
 	</Zone>
-	<Zone id="769" name="Lilith’s Keep" >
+	<Zone id="769" name="Lilith's Keep" >
 		<Monster name="Kill Pyrepelt" id="911" isBoss="False" hp="0" />
 		<Monster name="Kill Arachandlebra" id="912" isBoss="False" hp="0" />
 		<Monster name="Kill Lilith" id="913" isBoss="False" hp="0" />
@@ -13769,7 +13770,41 @@
 		<Monster name="Dougal's Escort" id="99903" isBoss="False" hp="91545" />
 		<Monster name="Soldier" id="99904" isBoss="False" hp="91545" />
 	</Zone>
-	<Zone id="969" name="Lilith’s Keep (Hard)" >
+	<Zone id="950" name="Harrowhold" >
+		<Monster name="Ignidrax Copy" id="901" isBoss="True" hp="1500000000" />
+		<Monster name="Vergos Copy" id="902" isBoss="True" hp="1890000000" />
+		<Monster name="Vergos" id="1000" isBoss="True" hp="1890000000" />
+		<Monster name="Lament Warrior" id="1002" isBoss="False" hp="30000000" />
+		<Monster name="Begin Phase 4" id="1003" isBoss="False" hp="0" />
+		<Monster name="Begin Phase 0" id="1005" isBoss="False" hp="0" />
+		<Monster name="Begin Phase 1" id="1006" isBoss="False" hp="0" />
+		<Monster name="Begin Phase" id="1007" isBoss="False" hp="0" />
+		<Monster name="Begin Phase 3" id="1008" isBoss="False" hp="0" />
+		<Monster name="Ignidrax" id="1100" isBoss="True" hp="1500000000" />
+		<Monster name="Terradrax" id="1101" isBoss="True" hp="1500000000" />
+		<Monster name="Umbradrax" id="1102" isBoss="True" hp="1500000000" />
+		<Monster name="Aquadrax" id="1103" isBoss="True" hp="1500000000" />
+		<Monster name="Spirit of Agony" id="1120" isBoss="False" hp="1000000" />
+		<Monster name="Vergos" id="2000" isBoss="False" hp="166600000" />
+		<Monster name="Ballista" id="2005" isBoss="False" hp="576000" />
+		<Monster name="Stone Golem" id="2500" isBoss="False" hp="0" />
+		<Monster name="Vergos" id="3000" isBoss="True" hp="2100000000" />
+		<Monster name="Vergos" id="4000" isBoss="True" hp="2100000000" />
+		<Monster name="Dembrel" id="9001" isBoss="False" hp="945" />
+		<Monster name="Kanbrim" id="9003" isBoss="False" hp="945" />
+		<Monster name="Kanbrim" id="9004" isBoss="False" hp="945" />
+		<Monster name="Kanbrim" id="9007" isBoss="False" hp="945" />
+		<Monster name="Kanbrim" id="9008" isBoss="False" hp="945" />
+		<Monster name="Harrowhold - Courtyard Teleportal" id="9009" isBoss="False" hp="10000" />
+		<Monster name="Harrowhold - Cliff Teleportal" id="9010" isBoss="False" hp="10000" />
+		<Monster name="Exit Teleportal" id="9011" isBoss="False" hp="10000" />
+		<Monster name="Kanbrim" id="9012" isBoss="False" hp="945" />
+		<Monster name="Kanbrim's Reward" id="9500" isBoss="False" hp="500000" />
+		<Monster name="Vergos's Plunder" id="9501" isBoss="False" hp="500000" />
+		<Monster name="Vergos's Plunder" id="9502" isBoss="False" hp="500000" />
+		<Monster name="Vergos's Hoard" id="9503" isBoss="False" hp="500000" />
+	</Zone>
+	<Zone id="969" name="Lilith's Keep (Hard)" >
 		<Monster name="Kill Nightmare Pyrepelt" id="911" isBoss="False" hp="0" />
 		<Monster name="Kill Nightmare Arachandlebra" id="912" isBoss="False" hp="0" />
 		<Monster name="Kill Nightmare Lilith" id="913" isBoss="False" hp="0" />
@@ -13880,8 +13915,8 @@
 		<Monster name="Hanslet" id="3601" isBoss="False" hp="10000" />
 		<Monster name="Eriale" id="3602" isBoss="False" hp="10000" />
 		<Monster name="Paxwin" id="3603" isBoss="False" hp="10000" />
-		<Monster name="Central Generator" id="7001" isBoss="False" hp="74400000" />
-		<Monster name="Focusing Array" id="7002" isBoss="False" hp="9300000" />
+		<Monster name="Central Generator" id="7001" isBoss="False" hp="64000000" />
+		<Monster name="Focusing Array" id="7002" isBoss="False" hp="11900000" />
 		<Monster name="Nexus Questgiver" id="9996" isBoss="False" hp="10000" />
 		<Monster name="Nexus Shard" id="9997" isBoss="False" hp="10000" />
 		<Monster name="Nexus Shard" id="9998" isBoss="False" hp="10000" />
