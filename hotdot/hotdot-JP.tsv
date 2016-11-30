@@ -714,12 +714,12 @@
 26170	CastSpeed	0	0	perc	6000	0	1.3	コンボアロー(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が30%上昇します。	icon_skills.arrowshower_tex
 26171	CastSpeed	0	0	perc	6000	0	1.4	コンボアロー(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が40%上昇します。	icon_skills.arrowshower_tex
 26180	CastSpeed	0	0	perc	6000	0	1.3	ポイズンアロー(連迅の紋章)			連係して「ラバントアロー」使用時、チャージ速度が30%上昇します。	icon_skills.venomarrow_tex
-26190	CastSpeed	0	0	perc	6000	0	1.3	クイックシュートチェイン(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が30%上昇します。	icon_skills.chainrapidshot_tex
+26190	CastSpeed	0	0	perc	6000	0	1.3	クイックシュートチェイン(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が30%上昇します。	
 26200	MovSpdInCombat	0	0	abs	3000	0	50	ターニングキック(活力の紋章)			戦闘中の移動速度が50上昇します。	icon_skills.turningkick_tex
-26220	Endurance	0	0	perc	25000	0	0.9545	アラクノイドアロー(弱化の紋章)			耐久力が4.55%減少します。	icon_skills.webtraparrow_tex
+26220	Endurance	0	0	perc	25000	0	0.9545	耐久力減少［弱化の紋章］			耐久力が4.55%減少します。	icon_crest.crestactivedefencedown_tex
 26230	MPChange	0	0.06	perc	5000	1	0.06	執念(精神の紋章)			1s毎に全MPの6％が回復します。	icon_skills.tenacity_tex
 26250	Crit	0	0	perc	0	0	3	クリティカル率上昇［必殺の紋章］			クリティカル発生が3倍上昇します。	icon_crest.crestpassivecriticalup_tex
-26251	Endurance	0	0	perc	25000	0	0.9545	アラクノイドアロー(弱化の紋章)			耐久力が4.55%減少します。	icon_skills.webtraparrow_tex
+26251	Endurance	0	0	perc	25000	0	0.9545	耐久力減少［弱化の紋章］			耐久力が4.55%減少します。	icon_crest.crestactivedefencedown_tex
 27060	ASpd	0	0	perc	6000	0	0.7	クランプバレット(減速の紋章)			攻撃速度が30%減少します。	icon_skills.slowball_tex
 27110	MovSpdInCombat	0	0	abs	3000	0	50	フラッシュバレット(活力の紋章)			戦闘中の移動速度が50上昇します。	icon_skills.flashball_tex
 27120	Endurance	0	0	perc	600000	0	1.1	プロテクションエレメント(協同の紋章)			耐久力が10%上昇します。	icon_skills.summonspiritofaggro_tex
@@ -988,8 +988,10 @@
 400105	Power	0	0	perc	27000	0	1.2	フェリーレイジ VI			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
 400105	Endurance	0	0	perc	27000	0	0.9	フェリーレイジ VI			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
 400105	Crit	0	0	perc	27000	0	1.1	フェリーレイジ VI			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400500	ASpd	0	0	perc	15000	0	1.2	フリューリーブロー I			攻撃速度とチャージ速度が20%上昇します。	icon_skills.gatheringrage_tex
-400501	ASpd	0	0	perc	15000	0	1.4	フリューリーブロー			攻撃速度とチャージ速度が40%上昇します。	icon_skills.gatheringrage_tex
+400500	ASpd	0	0	perc	10000	0	1.2	フェリーレイジ			攻撃速度とチャージ速度が20%上昇します。	icon_skills.berserk_tex
+400501	ASpd	0	0	perc	10000	0	1.4	フェリーレイジ			攻撃速度とチャージ速度が40%上昇します。	icon_skills.berserk_tex
+400508	ASpd	0	0	perc	10000	0	1.4	フェリーレイジ VI			攻撃速度とチャージ速度が40%上昇します。	icon_skills.berserk_tex
+400509	ASpd	0	0	perc	20000	0	1	内に秘めた狂気			フェリーレイジを使用してもフリューリーブロー効果を得られません。	icon_skills.relax_tex
 400700	Power	0	0	abs	30000	0	26	レイジ I			力が26、衝撃と均衡が各々50%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
 400700	AtkPotion	0	0	perc	30000	0	1.1	レイジ I			力が26、衝撃と均衡が各々50%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
 400701	Power	0	0	abs	30000	0	29	レイジ II			力が29、衝撃と均衡が各々60%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
@@ -1230,9 +1232,9 @@
 501600	MPChange	0	0.05	perc	900	1	0.05	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex
 501600	AtkPotion	0	0	perc	4000	0	0.8	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex
 501601	MPChange	0	0.05	perc	900	1	0.05	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex
-600500	Mark	0	0	swch	30000	0	1.2	アーチャープルーフ I			標的にされました！　効果持続中、対象に攻撃されるとダメージが20％追加されます。	icon_skills.markingofarcher_tex
-600501	Mark	0	0	swch	35000	0	1.2	アーチャープルーフ II			標的にされました！　効果持続中、対象に攻撃されるとダメージが20％追加されます。	icon_skills.markingofarcher_tex
-600502	Mark	0	0	swch	40000	0	1.2	アーチャープルーフ			標的にされました！　効果持続中、対象に攻撃されるとダメージが20％追加されます。	icon_skills.markingofarcher_tex
+600500	DefPotion	0	0	perc	30000	0	1.1	アーチャープルーフ I			標的にされました！効果持続中、アーチャークラスに攻撃されるとダメージが20％追加されます。	icon_skills.markingofarcher_tex
+600501	DefPotion	0	0	perc	35000	0	1.1	アーチャープルーフ II			標的にされました！効果持続中、アーチャークラスに攻撃されるとダメージが21％追加されます。	icon_skills.markingofarcher_tex
+600502	DefPotion	0	0	perc	40000	0	1.1	アーチャープルーフ			標的にされました！効果持続中、アーチャークラスに攻撃されるとダメージが22％追加されます。	icon_skills.markingofarcher_tex
 600600	HPChange	-58	0	abs	10000	2	-58	ポイズントラップ I			致命的な猛毒により、2s毎にHPが-58減少します。	icon_skills.venomtrap_tex
 600601	HPChange	-124	0	abs	10000	2	-124	ポイズントラップ II			致命的な猛毒により、2s毎にHPが-124減少します。	icon_skills.venomtrap_tex
 600602	HPChange	-271	0	abs	10000	2	-271	ポイズントラップ III			致命的な猛毒により、2s毎にHPが-271減少します。	icon_skills.venomtrap_tex
@@ -1265,22 +1267,23 @@
 600928	HPChange	-1427	0	abs	12000	2	-1427	ポイズンアロー IX			2s毎にHPが-1427減少します。効果は最大3回まで重複します。	icon_skills.venomarrow_tex
 601000	ASpd	0	0	perc	4000	0	0.85	レストレントアロー I			移動速度が50%、攻撃速度が15%減少します。	icon_skills.contaningshot_tex
 601001	ASpd	0	0	perc	5000	0	0.85	レストレントアロー II			移動速度が50%、攻撃速度が15%減少します。	icon_skills.contaningshot_tex
-601100	Power	0	0	abs	0	0	30	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。中型モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601100	ASpd	0	0	abs	0	0	4	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。中型モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601100	AtkPotion	0	0	perc	0	0	1.05	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。中型モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601101	Power	0	0	abs	0	0	30	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。中型モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601101	ASpd	0	0	abs	0	0	8	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。中型モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601101	AtkPotion	0	0	perc	0	0	1.05	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。中型モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601110	Power	0	0	abs	0	0	30	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601110	Endurance	0	0	abs	0	0	4	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601110	ASpd	0	0	abs	0	0	4	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601110	AtkPotion	0	0	perc	0	0	1.1	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601111	Power	0	0	abs	0	0	30	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601111	Endurance	0	0	abs	0	0	8	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601111	ASpd	0	0	abs	0	0	8	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601111	AtkPotion	0	0	perc	0	0	1.1	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_tex
-601400	CastSpeed	0	0	perc	10000	0	1.5	アロー			アローが10回成功時、ペネトレーティングアローのチャージ速度が上昇します。この効果はペネトレーティングアロー使用時に消滅します。	icon_skills.arrowshot_tex
-601450	CastSpeed	0	0	perc	10000	0	1.5	アロー			次の攻撃時、ペネトレーティングアローのチャージ速度が上昇します。	icon_skills.arrowshot_tex
+601100	Power	0	0	abs	0	0	30	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
+601100	ASpd	0	0	abs	0	0	4	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
+601100	AtkPotion	0	0	perc	0	0	1.07	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
+601101	Power	0	0	abs	0	0	30	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
+601101	ASpd	0	0	abs	0	0	8	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
+601101	AtkPotion	0	0	perc	0	0	1.07	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
+601110	Power	0	0	abs	0	0	30	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601110	Endurance	0	0	abs	0	0	4	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601110	ASpd	0	0	abs	0	0	4	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601110	AtkPotion	0	0	perc	0	0	1.1	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601111	Power	0	0	abs	0	0	30	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601111	Endurance	0	0	abs	0	0	8	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601111	ASpd	0	0	abs	0	0	8	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601111	AtkPotion	0	0	perc	0	0	1.1	バーバリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、耐久力が8上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
+601400	CastSpeed	0	0	perc	10000	0	1.5	アロー			アロー、クイックフィリング、クイックシュート10回成功時、ペネトレーティングアロー、ラバントアローのチャージ速度が上昇します。	icon_skills.arrowshot_tex
+601450	CastSpeed	0	0	perc	10000	0	1.5	集中			10秒間ペネトレーティングアロー、ラバントアローのチャージ速度が上昇します。	icon_skills.focusstance_moveslow_tex
+601600	ForceCrit	0	0	seta	8000	0	80000	フェイタルヴィジョン I 			次の1回目の攻撃のみ、どの位置からでも後方攻撃と等しいダメージを与えます。	icon_skills.weak_point_observed
 700100	Resurrect	0	0	seta	1200000	0	1	リバースブレシング			効果持続中に死亡した場合、祝福の力により、その場で即時に復活します。	icon_skills.autoresurrect_tex
 700200	MPChange	0	-30	abs	0	2	-30	フォグオーラ I			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
 700201	MPChange	0	-30	abs	0	2	-30	フォグオーラ II			使用者とパーティーメンバーに「フォグオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.areahpgain_tex
@@ -1676,6 +1679,47 @@
 916004	Power	0	0	perc	600000	0	1.5	ダルカンの怒り			攻撃力が50％、攻撃速度が30％上昇します。この効果は解除できません。	icon_status.plusattack_tex
 916004	ASpd	0	0	perc	600000	0	1.3	ダルカンの怒り			攻撃力が50％、攻撃速度が30％上昇します。この効果は解除できません。	icon_status.plusattack_tex
 916018	MaxHP	0	0	perc	3000	0	1	死亡			死亡しました。	icon_skills.voidtrap_tex
+950001	HPChange	-3000	0	abs	20000	1	-3000	不安定な神界の魔力			不安定な神界の魔力が流れ出ています。	icon_status.minusmp_tex
+950005	Endurance	0	0	perc	6000	0	1	熱気			ベルゴスから溢れ出る熱気に体が焼けます。熱気を解除すると中心を除いた爆発が発生し、解除せず一定時間が過ぎると、大きい爆発が発生します。	icon_status.heat_tex
+950009	MovSpdInCombat	0	0	perc	0	0	1.5	ヴェリックの祝福			移動速度が50%増加します。ウォーリアーのゲイルレイザーの基本ダメージ及びクリティカル確率が最大ストック時の威力と等しくなります。ランサーのガーディアンシャウト、ガードプロミス效果範囲が10m増加します。エレメンタリストのすべてのオーラスキル效果範囲が20m増加します。	icon_status.lightweight_tex
+950050	MovSpdInCombat	0	0	perc	5000	0	2.5	緊急起動！			バリスタの動力を高めます。バリスタの移動速度が2.5倍増加します。	icon_status.accelration_tex
+950051	Endurance	0	0	perc	6000	0	1	グラドリムの思念			グラドリムと一番近い5名に暗黒思念体が召喚されます。暗黒思念体はグラドリムの暗黒火でのみ倒せます。	icon_status.darkmind_tex
+950068	Endurance	0	0	perc	1	0	1	火炎密室			間もなく火炎に巻き込まれます。	icon_status.vergosflame_tex
+950069	Endurance	0	0	perc	1	0	1	粉塵密室			間もなく密室に巻き込まれます。	icon_status.vergosdust_tex
+950084	MovSpdInCombat	0	0	perc	1100	0	0.2	ドロドロの溶岩			移動速度が大幅に減少します。	icon_status.lavar_tex
+950090	Attack	0	0	perc	0	0	1.05	神界の魔力			ベルゴスが神界の隙間から出ている魔力を吸収しました。効果は重複し、1ストックにつき攻撃力が5％上昇します。	icon_status.godspell_tex
+950091	Attack	0	0	perc	3000	0	1.3	神界の魔力			神界の隙間から出ている魔力が爆発し、オーラが噴出しています。スキル威力が30％上昇します。	icon_status.godspell_tex
+950097	MovSpdInCombat	0	0	perc	11000	0	0.2	石化			体がどんどん固くなります。移動速度が遅くなり、間もなく動けなくなります。	icon_status.petrifaction_tex
+950107	HPChange	-10000000	0	perc	3000	1	-10000000	燃える石			燃える石に閉じ込められました。一定時間が過ぎると爆発し、全領域に大きなダメージを与えます。	icon_status.rock_tex
+950107	Block	0	0	swch	30000	0	0	燃える石			燃える石に閉じ込められました。一定時間が過ぎると爆発し、全領域に大きなダメージを与えます。	icon_status.rock_tex
+950113	Endurance	0	0	perc	0	0	1	連続発射準備			連続発射を準備します。	icon_status.shotarrow_tex
+950138	HPChange	-10000000	0	perc	3000	1	-10000000	閉所恐怖症			再び石に閉じ込まれると窒息して死亡するかもしれません。	icon_status.vergoscurse_tex
+950140	HPChange	-0.15	0	perc	8000	2	-0.15	火球の破片			体の全身に火球の破片がくっつきました。HPが持続的に減少します。	icon_status.scald_tex
+950163	ASpd	0	0	perc	10000	0	1.2	高まる闘志			闘志が高まり攻撃速度が20％増加し、スキルクールタイムが50％減少します。	icon_status.bloodmadness_tex
+950163	CDR	0	0	perc	10000	0	0.5	高まる闘志			闘志が高まり攻撃速度が20％増加し、スキルクールタイムが50％減少します。	icon_status.bloodmadness_tex
+950164	HPChange	-10000000	0	perc	3000	1	-10000000	粉塵			粉塵を被りました。一定時間が過ぎると、粉塵により窒息して死亡します。また、ベルゴスの粉塵攻撃に当たると窒息して即時死亡します。ベルゴスの火炎攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosdust_tex
+950164	DefPotion	0	0	perc	9000	0	0.1	粉塵			粉塵を被りました。一定時間が過ぎると、粉塵により窒息して死亡します。また、ベルゴスの粉塵攻撃に当たると窒息して即時死亡します。ベルゴスの火炎攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosdust_tex
+950165	HPChange	-10000000	0	perc	3000	1	-10000000	火炎			火炎に巻き込まれました。一定時間が過ぎると、体が焼かれて死亡します。ベルゴスの火炎攻撃に当たると、体が燃えて即時死亡します。ベルゴスの粉塵攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosflame_tex
+950165	DefPotion	0	0	perc	9000	0	0.1	火炎			火炎に巻き込まれました。一定時間が過ぎると、体が焼かれて死亡します。ベルゴスの火炎攻撃に当たると、体が燃えて即時死亡します。ベルゴスの粉塵攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosflame_tex
+950168	Endurance	0	0	perc	0	0	100	凶暴化			ベルゴスが凶暴化し、力と攻撃速度、防御力が飛躍的に増加します。	icon_status.summonvergos_tex
+950168	Attack	0	0	perc	0	0	10	凶暴化			ベルゴスが凶暴化し、力と攻撃速度、防御力が飛躍的に増加します。	icon_status.summonvergos_tex
+950168	ASpd	0	0	perc	0	0	2	凶暴化			ベルゴスが凶暴化し、力と攻撃速度、防御力が飛躍的に増加します。	icon_status.summonvergos_tex
+950171	ASpd	0	0	perc	0	0	1.15	憤怒			ベルゴスが憤怒して攻撃速度が速くなります。	icon_status.vergosblood_tex
+950179	Endurance	0	0	perc	1	0	1	火炎の渦			間もなく火炎に巻き込まれます。	icon_status.vergosflame_tex
+950180	Endurance	0	0	perc	1	0	1	粉塵の渦			間もなく粉塵に巻き込まれます。	icon_status.vergosdust_tex
+950187	Endurance	0	0	perc	0	0	0.4	脱塵			ベルゴスがすべての力を消耗して脱力しました。ベルゴスの防御力が急激に落ちます。	icon_status.struggle_tex
+950192	Attack	0	0	perc	0	0	10	燃え上がる憤怒			ベルゴスの憤怒が燃え上がってます。時間が過ぎるとベルゴスが凶暴化します。	icon_status.dragonberserk_tex
+950193	Attack	0	0	perc	0	0	10	燃え上がる憤怒			ベルゴスの憤怒が燃え上がってます。時間が過ぎるとベルゴスが凶暴化します。	icon_status.dragonberserk_tex
+950300	ASpd	0	0	perc	90000	0	1.25	大地の力			サレオスが大地の力を受けて強力になります。効果は重複し、1ストックにつき攻撃速度が25％ずつ上昇します。	icon_status.earthblessing_tex
+950306	Attack	0	0	perc	0	0	10	凶暴化			竜たちが凶暴化し、攻撃力が10倍増加、攻撃速度が2倍増加します。	icon_status.dragonberserk_tex
+950306	ASpd	0	0	perc	0	0	2	凶暴化			竜たちが凶暴化し、攻撃力が10倍増加、攻撃速度が2倍増加します。	icon_status.dragonberserk_tex
+950334	HPChange	-0.2	0	perc	5000	2	-0.2	無秩序な魔力			魔力の均衡が合わずに持続的にダメージを受けます。また攻撃力と回復量、受ける回復量等が50％減少します。	icon_status.omniousspell_tex
+950334	AtkPotion	0	0	perc	5000	0	0.5	無秩序な魔力			魔力の均衡が合わずに持続的にダメージを受けます。また攻撃力と回復量、受ける回復量等が50％減少します。	icon_status.omniousspell_tex
+950335	Endurance	0	0	perc	0	0	1	高まる闘志			闘志が高まり移動速度が上昇します。	icon_status.bloodmadness_tex
+950335	MovSpdInCombat	0	0	perc	20000	0	3	高まる闘志			闘志が高まり移動速度が上昇します。	icon_status.bloodmadness_tex
+950340	HPChange	-0.15	0	perc	10000	2	-0.15	風による切り傷			アガレスの羽ばたきによって切り付けられました。持続的にダメージを受けます。	icon_status.whirl_tex
+950342	DefPotion	0	0	perc	0	0	0.1	防衛本能			サレオスが危機を感じて甲皮を堅くします。この效果を解除する必要があります。	icon_status.earthpower_tex
+950343	DefPotion	0	0	perc	0	0	0.1	硬い甲皮			サレオスの甲皮が硬くなり受けるダメージが90％減少して、与えるダメージが20％増加します。硬い甲皮は攻撃する度に少しずつ剥がれます。	icon_status.earthpower_tex
 975031	HPChange	-0.01	0	perc	5000	1	-0.01	冷温湿布			炎と冷気が混ざり、ダメージを受けます。	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	0	0	perc	5000	0	2	ケルサイクの巣_専用_中間ボス移動速度上昇_効果			周囲5mの味方に移動速度上昇	icon_status.plusmove_tex
 975041	DefPotion	0	0	perc	5000	0	0	ケルサイクの巣_専用_ボス周辺無敵_効果			周囲10mの味方に無敵バリア	icon_status.plusedefence_tex
@@ -2864,7 +2908,7 @@
 97000026	HPChange	-0.1	0	perc	15000	2	-0.1	ラケリスが残した傷			2sごとに全HP対比 10％に至るHPが持続的に減少します。	icon_status.injuredbtdarkness_tex
 97000027	MaxHP	0	0	perc	3000	0	1	覚醒したリリス(3ネームド)_集中攻撃			覚醒したリリス(3ネームド)_集中攻撃	icon_status.diseaseup_tex
 97000028	MaxHP	0	0	perc	3000	0	1	覚醒したリリス(3ネームド)_集中攻撃_発射			覚醒したリリス(3ネームド)_集中攻撃_発射	icon_status.diseaseup_tex
-97000032	DefPotion	0	0	perc	100000	0	1.5	ラケリスの呪い			冥々たるラケリスに受けるダメージが50％増加します。またラケリスの魂の球体に2倍のダメージを受けます。	icon_status.minusdefence_tex
+97000032	DefPotion	0	0	perc	100000	0	1.5	ラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加します。またラケリスの魂の球体から2倍のダメージを受けます。	icon_status.minusdefence_tex
 97000033	Power	0	0	perc	60000	0	11	ラカンの力			重複するたびに攻撃速度が10%ずつ増加します。	icon_status.plusciriticalresist_tex
 97000033	ASpd	0	0	perc	60000	0	1.1	ラカンの力			重複するたびに攻撃速度が10%ずつ増加します。	icon_status.plusciriticalresist_tex
 97000035	Power	0	0	perc	60000	0	11	完成されたラカンの力			力が1000%上昇し、攻撃速度が50%増加します。	icon_status.archerspirit_tex
@@ -3176,9 +3220,10 @@
 999001035	Power	0	0	abs	15000	0	30	輝く女神の加護	51011	女神の胸飾り・輝	輝く女神の加護を感じます。力30、クリティカル発生率が30、攻撃速度が12%上昇します。	icon_items.parts_magicweaponc8_tex
 999001035	Crit	0	0	abs	15000	0	30	輝く女神の加護	51011	女神の胸飾り・輝	輝く女神の加護を感じます。力30、クリティカル発生率が30、攻撃速度が12%上昇します。	icon_items.parts_magicweaponc8_tex
 999001035	ASpd	0	0	perc	15000	0	1.12	輝く女神の加護	51011	女神の胸飾り・輝	輝く女神の加護を感じます。力30、クリティカル発生率が30、攻撃速度が12%上昇します。	icon_items.parts_magicweaponc8_tex
-999001036	Power	0	0	abs	20000	0	30	古竜の降臨	51028	古竜のブローチ	古竜の力を授かりました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
-999001036	Crit	0	0	abs	20000	0	30	古竜の降臨	51028	古竜のブローチ	古竜の力を授かりました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
-999001036	ASpd	0	0	perc	20000	0	1.12	古竜の降臨	51028	古竜のブローチ	古竜の力を授かりました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
+999001036	Power	0	0	abs	20000	0	30	古竜の降臨	51028	古竜のブローチ	古竜の力が宿りました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
+999001036	Crit	0	0	abs	20000	0	30	古竜の降臨	51028	古竜のブローチ	古竜の力が宿りました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
+999001036	ASpd	0	0	perc	20000	0	1.12	古竜の降臨	51028	古竜のブローチ	古竜の力が宿りました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
+999001036	Block	0	0	swch	20000	0	0	古竜の降臨	51028	古竜のブローチ	古竜の力が宿りました。力30、クリティカル発生30、攻撃速度が12% 向上します。	icon_items.brooch_vergos_tex
 999008300	Power	0	0	perc	3930000	0	1.15	攻撃力増加			攻撃力が 15% 上昇します。	icon_status.plusattack_tex
 999008400	Endurance	0	0	perc	3930000	0	0.85	防御力減少			防御力が 15% 減少します。	icon_status.minusdefence_tex
 999008600	HPChange	0.08	0	perc	3930000	10	0.08	HP持続回復			1ラウンドの間、 10s毎に全HPの8％にあたるHPが持続的に回復します。	icon_skills.healinglightlockon_tex
