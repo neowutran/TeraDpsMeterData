@@ -709,10 +709,10 @@
 23100	ASpd	0	0	perc	5000	0	0.85	신경 가르기(감속의 문장)			공격 속도가 15% 감소됩니다.	icon_skills.veinslash_tex
 23120	AtkPotion	0	0	perc	5000	0	1.25	긴급 회피(연계 투지의 문장 [분노의 일격])			연계 스킬로 분노의 일격 사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.tumbling_tex
 23130	AtkPotion	0	0	perc	5000	0	1.2	후려치기(연계 투지의 문장 [일도양단])			연계 스킬로 일도양단 사용 시 스킬 위력이 20% 증가됩니다.	icon_skills.handyslash_tex
-23140	Crit	0	0	perc	0	0	2	힘모으기(필살의 문장)			다음 1회의 공격에 치명타 유발이 2배 증가됩니다.	
-23150	AtkPotion	0	0	perc	0	0	1.1	힘모으기(투지의 문장)			다음 1회의 공격에 스킬 위력이 10% 증가됩니다.	
+23140	Crit	0	0	perc	0	0	2	힘 모으기(필살의 문장)			다음 1회의 공격에 치명타 유발이 2배 증가됩니다.	icon_skills.gatheringstrength_tex
+23150	AtkPotion	0	0	perc	0	0	1.1	힘 모으기(투지의 문장)			다음 1회의 공격에 스킬 위력이 10% 증가됩니다.	icon_skills.gatheringstrength_tex
 23160	Crit	0	0	perc	0	0	3	회전베기(필살의 문장)			치명타 유발이 3배 증가됩니다.	
-23170	Crit	0	0	perc	0	0	3	급소치기(필살의 문장)			치명타 유발이 3배 증가됩니다.	
+23170	Crit	0	0	perc	0	0	3	급소 치기(필살의 문장)			치명타 유발이 3배 증가됩니다.	icon_skills.stingerblade_tex
 23180	Crit	0	0	perc	0	0	2	치명타 유발 증가[필살의 문장]			치명타 유발이 2배 증가됩니다.	icon_crest.crestpassivecriticalup_tex
 23190	AtkPotion	0	0	perc	5000	0	1.25	전진 도약(연계 투지의 문장 [후려 치기])			연계 스킬로 후려치기 사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.advancingleap_tex
 23200	AtkPotion	0	0	perc	5000	0	1.25	긴급 회피(연계 투지의 문장 [회피])			연계 스킬로 뒤잡기 사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.tumbling_tex
@@ -761,7 +761,7 @@
 26170	CastSpeed	0	0	perc	6000	0	1.3	다중 사격(연계 신속의 문장 [관통 사격])			연계 스킬로 관통 사격 사용 시 차지 속도가 30% 증가됩니다.	icon_skills.arrowshower_tex
 26171	CastSpeed	0	0	perc	6000	0	1.4	다중 사격(연계 신속의 문장 [관통 사격])			연계 스킬로 관통 사격 사용 시 차지 속도가 40% 증가됩니다.	icon_skills.arrowshower_tex
 26180	CastSpeed	0	0	perc	6000	0	1.3	맹독의 화살(연계 신속의 문장 [집중 사격])			연계 스킬로 집중 사격 사용 시 차지 속도가 30% 증가됩니다.	icon_skills.venomarrow_tex
-26190	CastSpeed	0	0	perc	6000	0	1.3	속사의 연쇄(연계 신속의 문장 [관통 사격])			연계 스킬로 관통 사격 사용 시 차지 속도가 30% 증가됩니다.	
+26190	CastSpeed	0	0	perc	6000	0	1.3	연사(연계 신속의 문장 [관통 사격])			연계 스킬로 관통 사격 사용 시 차지 속도가 30% 증가됩니다.	icon_skills.chain_arrow
 26200	MovSpdInCombat	0	0	abs	3000	0	50	돌려차기(활력의 문장)			전투 상태에서의 이동 속도가 50 증가됩니다.	icon_skills.turningkick_tex
 26210	MovSpd	0	0	setp	6000	0	0.6	이탈 공격(나태의 문장)			이동 속도가 40% 감소됩니다.	icon_skills.escapingattack_tex
 26220	Endurance	0	0	perc	25000	0	0.9545	맷집 감소 [약화의 문장]			맷집이 4.55% 감소됩니다.	icon_crest.crestactivedefencedown_tex
@@ -822,6 +822,16 @@
 32044	AtkPotion	0	0	perc	5000	0	1.3	삼각 베기(연계 투지의 문장)			연계 스킬로 돌려 베기 사용 시 스킬 위력이 30% 증가됩니다.	icon_skills.c12_airstepstrike
 32047	AtkPotion	0	0	perc	5000	0	1.3	이단 베기(연계 투지의 문장)			연계 스킬로 삼각 베기 사용 시 스킬 위력이 30% 증가됩니다.	icon_skills.c12_twinslash
 32060	ASpd	0	0	perc	5000	0	1.1	연속 공격(신속의 문장)			공격 속도가 10% 향상됩니다.	icon_skills.c12_meleecombo
+33010	ASpd	0	0	perc	10000	0	1.15	연격참(신속의 문장)			공격 속도가 15% 향상됩니다.	icon_skills.combo_tex
+33020	AtkPotion	0	0	perc	10000	0	1.25	혼격참(연계 투지의 문장 [승격참])			연계 스킬로 [승격참]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.fatalshot_tex
+33071	AtkPotion	0	0	perc	3000	0	1.15	스킬 위력 증가 [연계 투지의 문장]			3초 간 모든 공격 스킬의 위력 15% 증가됩니다.	icon_crest.crestnextskillattackup_tex
+33073	AtkPotion	0	0	perc	3000	0	1.2	스킬 위력 증가 [연계 투지의 문장]			3초 간 모든 공격 스킬의 위력 20% 증가됩니다.	icon_crest.crestnextskillattackup_tex
+33100	MovSpd	0	0	setp	5000	0	0.5	월파참(나태의 문장)			이동 속도가 50% 감소됩니다.	icon_skills.split_tex
+33130	AtkPotion	0	0	perc	10000	0	1.25	파열참(연계 투지의 문장 [승격참])			연계 스킬로 [승격참]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.brust_tex
+33150	AtkPotion	0	0	perc	10000	0	1.25	풍참(연계 투지의 문장 [승격참])			연계 스킬로 [승격참]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.twister_tex
+33170	HPChange	0.03	0	perc	12000	1	0.03	달빛의 가호(근성의 문장)			1s마다 전체 HP 대비 2%에 달하는 HP가 지속적으로 회복됩니다.	icon_skills.moongracebuff_tex
+33200	AtkPotion	0	0	perc	5000	0	1.3	월광연(투지의 문장)			다음 1회의 공격에 스킬 위력이 30% 증가됩니다.	icon_skills.mooncatch_tex
+33210	AtkPotion	0	0	perc	5000	0	1.25	달빛의 인력(연계 투지의 문장 [달빛의 공명] )			연계 스킬로 [달빛의 공명]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.moongravity_tex
 46705	Endurance	0	0	perc	60000	0	0.95	재앙			산성 공격으로 방어력이 감소하며, 이 효과는 중첩 됩니다. 이 효과는 해제로 해제할 수 없습니다.	icon_status.minusdefence_tex
 46706	Endurance	0	0	perc	60000	0	0.85	대재앙			산성 공격으로 방어력이 대폭 감소하며, 이 효과는 중첩됩니다. 이 효과는 해제로 해제할 수 없습니다.	icon_status.minusdefence_tex
 46750	Power	0	0	perc	180000	0	1.2	타오르는 분노			타오르는 분노에 돌입하여 힘이 20%, 방어력이 20% 증가됩니다.	icon_status.archerspirit_tex
@@ -977,14 +987,19 @@
 100103	Endurance	0	0	perc	0	0	0.9	칼날의 결의 IV			힘 18과 치명타 유발 55, 몬스터 공격 시 스킬 위력이 10%  증가되지만 맷집은 10% 감소됩니다.	icon_skills.ironwilla_tex
 100103	Crit	0	0	abs	0	0	55	칼날의 결의 IV			힘 18과 치명타 유발 55, 몬스터 공격 시 스킬 위력이 10%  증가되지만 맷집은 10% 감소됩니다.	icon_skills.ironwilla_tex
 100103	AtkPotion	0	0	perc	0	0	1.1	칼날의 결의 IV			힘 18과 치명타 유발 55, 몬스터 공격 시 스킬 위력이 10%  증가되지만 맷집은 10% 감소됩니다.	icon_skills.ironwilla_tex
-100200	Endurance	0	0	perc	0	0	1.15	강철의 결의 I			맷집이 15%, 균형이 20, 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
-100200	Block	0	0	perc	0	0	0	강철의 결의 I			맷집이 15%, 균형이 20, 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
-100201	Endurance	0	0	perc	0	0	1.2	강철의 결의 II			맷집이 20%, 균형이 20, 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
-100201	Block	0	0	perc	0	0	0	강철의 결의 II			맷집이 20%, 균형이 20, 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
-100202	Endurance	0	0	perc	0	0	1.25	강철의 결의			맷집이 25%, 균형이 20, 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
-100202	Block	0	0	perc	0	0	0	강철의 결의			맷집이 25%, 균형이 20, 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
-100203	Endurance	0	0	perc	0	0	1.25	강철의 결의 IV			맷집이 25%, 균형이 30, 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
-100203	Block	0	0	perc	0	0	0	강철의 결의 IV			맷집이 25%, 균형이 30, 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100200	Endurance	0	0	perc	0	0	1.15	강철의 결의 I			맷집이 15%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100200	CritChance	0	0	perc	0	0	1.15	강철의 결의 I			맷집이 15%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100200	Block	0	0	perc	0	0	0	강철의 결의 I			맷집이 15%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100201	Endurance	0	0	perc	0	0	1.2	강철의 결의 II			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100201	CritChance	0	0	perc	0	0	1.15	강철의 결의 II			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100201	Block	0	0	perc	0	0	0	강철의 결의 II			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100202	Endurance	0	0	perc	0	0	1.25	강철의 결의			맷집이 25%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100202	CritChance	0	0	perc	0	0	1.15	강철의 결의			맷집이 25%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100202	Block	0	0	perc	0	0	0	강철의 결의			맷집이 25%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100203	Endurance	0	0	perc	0	0	1.25	강철의 결의 IV			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100203	CritChance	0	0	perc	0	0	1.15	강철의 결의 IV			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100203	Block	0	0	perc	0	0	0	강철의 결의 IV			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex
+100294	MPChange	0	0.05	perc	1000	1	0.05	극기Ⅰ			극기Ⅰ효과로 Mp가 5% 회복됩니다.	icon_skills.twinswordsdefence_tex
 100500	HPChange	-116	0	abs	10000	2	-116	맹독의 일격 I			치명적인 맹독에 감염되어 2s마다 HP가 -116씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex
 100501	HPChange	-175	0	abs	10000	2	-175	맹독의 일격 II			치명적인 맹독에 감염되어 2s마다 HP가 -175씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex
 100502	HPChange	-292	0	abs	10000	2	-292	맹독의 일격 III			치명적인 맹독에 감염되어 2s마다 HP가 -292씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex
@@ -1063,37 +1078,35 @@
 300900	CDR	0	0	swch	11000	0	1.5	신경 가르기			효과 지속 시간 중 사용하는 모든 스킬의 재사용 시간이 50% 만큼 증가됩니다.	icon_skills.veinslash_tex
 300901	CDR	0	0	swch	11000	0	1.53	신경 가르기 II			효과 지속 시간 중 사용하는 모든 스킬의 재사용 시간이 53% 만큼 증가됩니다.	icon_skills.veinslash_tex
 300902	CDR	0	0	swch	11000	0	1.55	신경 가르기 III			효과 지속 시간 중 사용하는 모든 스킬의 재사용 시간이 55% 만큼 증가됩니다.	icon_skills.veinslash_tex
-400100	Power	0	0	perc	15000	0	1.2	광폭화 I			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400100	Endurance	0	0	perc	15000	0	0.9	광폭화 I			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400100	Crit	0	0	perc	15000	0	1.1	광폭화 I			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400101	Power	0	0	perc	17000	0	1.2	광폭화 II			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400101	Endurance	0	0	perc	17000	0	0.9	광폭화 II			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400101	Crit	0	0	perc	17000	0	1.1	광폭화 II			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400102	Power	0	0	perc	20000	0	1.2	광폭화 III			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400102	Endurance	0	0	perc	20000	0	0.9	광폭화 III			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400102	Crit	0	0	perc	20000	0	1.1	광폭화 III			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400103	Power	0	0	perc	25000	0	1.2	광폭화			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400103	Endurance	0	0	perc	25000	0	0.9	광폭화			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400103	Crit	0	0	perc	25000	0	1.1	광폭화			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400104	Power	0	0	perc	27000	0	1.2	광폭화 V			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400104	Endurance	0	0	perc	27000	0	0.9	광폭화 V			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400104	Crit	0	0	perc	27000	0	1.1	광폭화 V			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400105	Power	0	0	perc	27000	0	1.2	광폭화 VI			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400105	Endurance	0	0	perc	27000	0	0.9	광폭화 VI			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
-400105	Crit	0	0	perc	27000	0	1.1	광폭화 VI			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400100	Power	0	0	perc	22500	0	1.2	광폭화 I			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400100	Endurance	0	0	perc	22500	0	0.9	광폭화 I			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400100	Crit	0	0	perc	22500	0	1.1	광폭화 I			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400101	Power	0	0	perc	25500	0	1.2	광폭화 II			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400101	Endurance	0	0	perc	25500	0	0.9	광폭화 II			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400101	Crit	0	0	perc	25500	0	1.1	광폭화 II			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400102	Power	0	0	perc	30000	0	1.2	광폭화 III			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400102	Endurance	0	0	perc	30000	0	0.9	광폭화 III			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400102	Crit	0	0	perc	30000	0	1.1	광폭화 III			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400103	Power	0	0	perc	37000	0	1.2	광폭화			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400103	Endurance	0	0	perc	37000	0	0.9	광폭화			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400103	Crit	0	0	perc	37000	0	1.1	광폭화			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400104	Power	0	0	perc	40000	0	1.2	광폭화 V			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400104	Endurance	0	0	perc	40000	0	0.9	광폭화 V			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400104	Crit	0	0	perc	40000	0	1.1	광폭화 V			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400105	Power	0	0	perc	40000	0	1.2	광폭화 VI			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400105	Endurance	0	0	perc	40000	0	0.9	광폭화 VI			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
+400105	Crit	0	0	perc	40000	0	1.1	광폭화 VI			폭발한 분노로 인해 힘이 20% 치명타 유발이 10% 향상되지만, 맷집은 10% 감소됩니다.	icon_skills.berserk_tex
 400300	MovSpd	0	0	perc	10000	0	1.5	질주 I			이동 속도가 50% 향상됩니다.	icon_skills.dash_tex
 400301	MovSpd	0	0	perc	15000	0	1.5	질주			이동 속도가 50% 향상됩니다.	icon_skills.dash_tex
 400302	MovSpd	0	0	perc	15000	0	1.5	질주 III			이동 속도가 50% 향상됩니다.	icon_skills.dash_tex
 400303	MovSpd	0	0	perc	5000	0	2.2	질주_분노 III			이동 속도가 120% 향상됩니다.	icon_skills.dash_tex
-400500	ASpd	0	0	perc	10000	0	1.2	광신 강림(조력의 문장)			공격 속도와 차징 속도가 20% 만큼 증가됩니다.	icon_skills.vitalconversion_tex
-400501	ASpd	0	0	perc	10000	0	1.4	광기 증폭 II			공격 속도와 차징 속도가 40% 만큼 증가됩니다.	icon_skills.gatheringrage_tex
-400508	ASpd	0	0	perc	10000	0	1.4	광폭화 VI			공격 속도와 차징 속도가 40% 만큼 증가됩니다.	icon_skills.berserk_tex
+400500	ASpd	0	0	perc	18000	0	1.2	광신 강림(조력의 문장)			공격 속도와 차징 속도가 20% 만큼 증가됩니다.	icon_skills.vitalconversion_tex
+400501	ASpd	0	0	perc	18000	0	1.4	광기 증폭 II			공격 속도와 차징 속도가 40% 만큼 증가됩니다.	icon_skills.gatheringrage_tex
+400508	ASpd	0	0	perc	18000	0	1.4	광폭화 VI			공격 속도와 차징 속도가 40% 만큼 증가됩니다.	icon_skills.berserk_tex
 400509	ASpd	0	0	perc	20000	0	1	내 안에 잠든 광기			광폭화 스킬을 사용하여도 광기 증폭 효과를 받을 수 없습니다.	icon_skills.relax_tex
 400700	Power	0	0	abs	30000	0	26	격노 I			힘이 26 만큼 향상되고, 충격과 균형도 각각 50%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
-400700	ASpd	0	0	perc	10000	0	1.2	격노 I			힘이 26 만큼 향상되고, 충격과 균형도 각각 50%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
 400700	AtkPotion	0	0	perc	30000	0	1.1	격노 I			힘이 26 만큼 향상되고, 충격과 균형도 각각 50%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
 400701	Power	0	0	abs	30000	0	29	격노 II			힘이 29 만큼 향상되고, 충격과 균형도 각각 60%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
-400701	ASpd	0	0	perc	10000	0	1.4	격노 II			힘이 29 만큼 향상되고, 충격과 균형도 각각 60%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
 400701	AtkPotion	0	0	perc	30000	0	1.1	격노 II			힘이 29 만큼 향상되고, 충격과 균형도 각각 60%씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 10% 향상됩니다.	icon_skills.fury_tex
 400800	MovSpd	0	0	setp	6000	0	0.4	살기 분출 I			이동 속도가 60% 감소됩니다. 추가로 플레이어 캐릭터에게 효과 적용 시에는 효과 지속 시간 동안 회피 및 이동 계열 스킬을 사용할 수 없습니다.	icon_skills.murderousvent_tex
 400800	Block	0	0	perc	6000	0	0	살기 분출 I			이동 속도가 60% 감소됩니다. 추가로 플레이어 캐릭터에게 효과 적용 시에는 효과 지속 시간 동안 회피 및 이동 계열 스킬을 사용할 수 없습니다.	icon_skills.murderousvent_tex
@@ -1424,14 +1437,14 @@
 601000	ASpd	0	0	perc	4000	0	0.85	견제 사격 I			이동 속도가 50%, 공격 속도가 15% 감소됩니다.	icon_skills.contaningshot_tex
 601001	MovSpd	0	0	setp	5000	0	0.5	견제 사격 II			이동 속도가 50%, 공격 속도가 15% 감소됩니다.	icon_skills.contaningshot_tex
 601001	ASpd	0	0	perc	5000	0	0.85	견제 사격 II			이동 속도가 50%, 공격 속도가 15% 감소됩니다.	icon_skills.contaningshot_tex
-601100	Power	0	0	abs	0	0	30	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
-601100	MovSpd	0	0	abs	0	0	8	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
-601100	ASpd	0	0	abs	0	0	4	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
-601100	AtkPotion	0	0	perc	0	0	1.07	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
-601101	Power	0	0	abs	0	0	30	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
-601101	MovSpd	0	0	abs	0	0	16	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
-601101	ASpd	0	0	abs	0	0	8	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
-601101	AtkPotion	0	0	perc	0	0	1.07	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601100	Power	0	0	abs	0	0	30	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601100	MovSpd	0	0	abs	0	0	8	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601100	ASpd	0	0	abs	0	0	4	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601100	AtkPotion	0	0	perc	0	0	1.07	집중 자세 : 용맹 I			힘과 공격 속도가 각각 30과 4 만큼 향상되며, 이동 속도가 8 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601101	Power	0	0	abs	0	0	30	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601101	MovSpd	0	0	abs	0	0	16	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601101	ASpd	0	0	abs	0	0	8	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
+601101	AtkPotion	0	0	perc	0	0	1.07	집중 자세 : 용맹 II			힘과 공격 속도가 각각 30과 8 만큼 향상되며, 이동 속도가 16 증가됩니다. 몬스터 공격 시 7%, PC 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_tex
 601110	Power	0	0	abs	0	0	30	집중 자세 : 신중 I			공격 속도와 힘이 각각 4와 30 만큼 향상되며, 맷집이 4 증가됩니다. 일반 몬스터 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_moveslow_tex
 601110	Endurance	0	0	abs	0	0	4	집중 자세 : 신중 I			공격 속도와 힘이 각각 4와 30 만큼 향상되며, 맷집이 4 증가됩니다. 일반 몬스터 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_moveslow_tex
 601110	ASpd	0	0	abs	0	0	4	집중 자세 : 신중 I			공격 속도와 힘이 각각 4와 30 만큼 향상되며, 맷집이 4 증가됩니다. 일반 몬스터 공격 시 10% 향상된 피해를 입힙니다.	icon_skills.focusstance_moveslow_tex
@@ -1668,6 +1681,13 @@
 777034	HPChange	-0.01	0	perc	70000	1	-0.01	데모크론의 저주			매 중첩 시마다 힘이 30%씩 증가되지만, 1마다 전체 HP 대비 1%에 달하는 HP가 지속적으로 감소됩니다. 이 효과는 최대 99번까지 중첩됩니다.	icon_status.diseaseup_tex
 777036	MovSpd	0	0	setp	30000	0	0.2	데모크론의 징표			데모크론 바이러스가 몸을 휘감습니다. 이동 속도가 느려지고, 데모크론의 최우선 처단 순위가 됩니다.	icon_status.poisonup_tex
 777037	Block	0	0	seta	30000	0	0	데모크론의 징표			효과 지속 시간 동안 회피 및 이동 계열 스킬은 사용할 수 없습니다.	icon_items.cancel_evade_potion_level_51_tex
+780100	HPChange	-1000000	0	abs	10000	1	-1000000	보이면BTS			보이면BTS	
+780102	HPChange	-500000	0	abs	2000	1	-500000	보이면BTS			보이면BTS	
+780103	HPChange	-0.05	0	perc	15000	1	-0.05	화상			푸른 화염이 온몸을 휘감습니다! 1s당 최대 체력의 7%씩 피해를 입습니다.	icon_status.minusmp_tex
+780104	MovSpd	0	0	perc	15000	0	0.5	타오르는 발바닥			불꽃이 남긴 불길에 닿아 발바닥이 타오릅니다. 이동속도가 50% 감소합니다.	icon_skills.kumas_frontroll_tex
+780200	HPChange	-0.05	0	perc	10000	1	-0.05	강산성 위액			강력한 산성 위액에 1s당 최대 체력의 5%의 피해를 입습니다.	icon_status.poisonstatus_tex
+780202	HPChange	-0.01	0	perc	60000	2	-0.01	출혈			날카로운 도끼에 맞아 출혈이 발생해 2s당 최대 체력의 1%씩 피해를 입습니다.	icon_status.injuredbtdarkness_tex
+780203	HPChange	-0.1	0	perc	5000	1	-0.1	극심한 출혈			벨데그의 강력한 일격에 아주 큰 상처가 발생하여 막대한 피를 흘립니다. 1s당 최대 체력의 10%씩 피해를 입습니다.	icon_status.damagedown_tex
 800100	HPChange	88	0	abs	10000	2	88	재생의 바람 I			불어오는 바람에서 따스함이 느껴집니다. 2s마다 HP가 지속적으로 회복됩니다.	icon_skills.healingwind_tex
 800101	HPChange	111	0	abs	10000	2	111	재생의 바람 II			불어오는 바람에서 따스함이 느껴집니다. 2s마다 HP가 지속적으로 회복됩니다.	icon_skills.healingwind_tex
 800102	HPChange	136	0	abs	10000	2	136	재생의 바람 III			불어오는 바람에서 따스함이 느껴집니다. 2s마다 HP가 지속적으로 회복됩니다.	icon_skills.healingwind_tex
@@ -1961,6 +1981,16 @@
 975661	StaminaDecay	0	0	swch	90000	0	0	태양의 빛			5초마다 체력의 3% 만큼 회복된다.	icon_status.valrhona_sun_tex
 975662	MPChange	0	1	perc	90000	15	1	악마의 미소			15초마다 마력이 100% 상태로 회복됩니다.	icon_status.valrhona_devil_tex
 975663	Endurance	0	0	perc	90000	0	1.05	여신의 손짓			방어력이 5% 증가합니다.	icon_status.valrhona_goddess_tex
+980100	HPChange	-1000000	0	abs	10000	1	-1000000	보이면BTS			보이면BTS	
+980102	HPChange	-500000	0	abs	2000	1	-500000	보이면BTS			보이면BTS	
+980103	HPChange	-0.07	0	perc	15000	1	-0.07	화상			푸른 화염이 온몸을 휘감습니다! 1s당 최대 체력의 7%씩 피해를 입습니다.	icon_status.minusmp_tex
+980104	MovSpd	0	0	perc	15000	0	0.5	타오르는 발바닥			불꽃이 남긴 불길에 닿아 발바닥이 타오릅니다. 이동속도가 50% 감소합니다.	icon_skills.kumas_frontroll_tex
+980200	HPChange	-0.05	0	perc	10000	1	-0.05	강산성 위액			강력한 산성 위액에 1s당 최대 체력의 5%의 피해를 입습니다.	icon_status.poisonstatus_tex
+980202	HPChange	-0.01	0	perc	60000	2	-0.01	출혈			날카로운 도끼에 맞아 출혈이 발생해 2s당 최대 체력의 1%씩 피해를 입습니다.	icon_status.injuredbtdarkness_tex
+980203	HPChange	-0.1	0	perc	5000	1	-0.1	극심한 출혈			벨데그의 강력한 일격에 아주 큰 상처가 발생하여 막대한 피를 흘립니다. 1s당 최대 체력의 10%씩 피해를 입습니다.	icon_status.damagedown_tex
+980204	Power	0	0	setp	15000	0	3	불타는 무기			벨데그가 끔찍한 공격을 준비합니다. 해제하지 않으면 모든 것이 파괴될 것 같습니다.	icon_skills.downattack_tex
+980205	Power	0	0	setp	15000	0	3	타오르는 분노			벨데그가 분노로 모든 것을 파괴할 것입니다. 죽음을 맞이하십시오.	icon_skills.dragonrisingblow_tex
+980206	HPChange	-0.1	0	perc	15000	2	-0.1	끔찍한 고통			화염 방출에 의해 상처가 불에 타 아물지 않습니다. 2s당 최대 체력의 10%씩 피해를 입습니다.	icon_status.firedamage_tex
 988504	MaxHP	0	0	perc	0	1	1.1	최대 HP 증가(1단계)			자신 및 파티원들의 최대 HP가 10%만큼 증가합니다.	icon_status.plusmp_tex
 988505	MaxHP	0	0	perc	0	1	1.2	최대 HP 증가(2단계)			자신 및 파티원들의 최대 HP가 20%만큼 증가합니다.	icon_status.mprecoverup_tex
 988506	MaxHP	0	0	perc	0	1	1.4	최대 HP 증가(3단계)			자신 및 파티원들의 최대 HP가 40%만큼 증가합니다.	icon_status.plushp_tex
@@ -2159,6 +2189,20 @@
 10154030	AtkPotion	0	0	swch	0	0	1.05	검기술			검기가 발현되어 공격력이 증가합니다.	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0	0	swch	60000	0	1.01	강력한 검기			강력한 검기가 발현되어 공격력이 더 증가합니다.	icon_skills.c12_atkupbuff
 10154090	Endurance	0	0	perc	60000	0	1	변신술 I			상대의 모습으로 변신한 상태입니다.	icon_skills.c12_transform
+10155030	AtkPotion	0	0	perc	0	0	1.2	보름달의 향연			달빛의 기운을 받아 주는 피해량이 중첩 당 20%씩 증가합니다.	icon_skills.fullmoon_tex
+10155031	AtkPotion	0	0	perc	0	0	1.3	피 보름달의 향연			달빛의 기운을 받아 주는 피해량이 중첩 당 30%씩 증가합니다.	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	0	0	perc	0	0	1.2	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 20%, 치명타 확률이 0.2배씩 증가합니다.	icon_skills.fullmoon_tex
+10155036	CritChance	0	0	perc	0	0	1.2	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 20%, 치명타 확률이 0.2배씩 증가합니다.	icon_skills.fullmoon_tex
+10155037	AtkPotion	0	0	perc	0	0	1.3	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 30%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex
+10155037	CritChance	0	0	perc	0	0	1.3	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 30%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex
+10155130	Power	0	0	abs	25000	0	50	적월			피로 적신 달빛의 기운을 받습니다. 힘 50, 치명타 유발 50, 공격 속도 20, 공격 범위 20%가 증가합니다. 효과를 받는 즉시 [회피]와 [기상 공격]을 제외한 재사용 시간이 60초 미만인 스킬들의 재사용 시간이 모두 초기화되고, 효과가 지속되는 동안 해당 스킬들의 재사용 시간이 60%씩 감소됩니다.	icon_skills.redmoon_tex
+10155130	Endurance	0	0	swch	1500	0	0	적월			피로 적신 달빛의 기운을 받습니다. 힘 50, 치명타 유발 50, 공격 속도 20, 공격 범위 20%가 증가합니다. 효과를 받는 즉시 [회피]와 [기상 공격]을 제외한 재사용 시간이 60초 미만인 스킬들의 재사용 시간이 모두 초기화되고, 효과가 지속되는 동안 해당 스킬들의 재사용 시간이 60%씩 감소됩니다.	icon_skills.redmoon_tex
+10155130	ASpd	0	0	abs	25000	0	20	적월			피로 적신 달빛의 기운을 받습니다. 힘 50, 치명타 유발 50, 공격 속도 20, 공격 범위 20%가 증가합니다. 효과를 받는 즉시 [회피]와 [기상 공격]을 제외한 재사용 시간이 60초 미만인 스킬들의 재사용 시간이 모두 초기화되고, 효과가 지속되는 동안 해당 스킬들의 재사용 시간이 60%씩 감소됩니다.	icon_skills.redmoon_tex
+10155130	CDR	0	0	perc	25000	0	0.4	적월			피로 적신 달빛의 기운을 받습니다. 힘 50, 치명타 유발 50, 공격 속도 20, 공격 범위 20%가 증가합니다. 효과를 받는 즉시 [회피]와 [기상 공격]을 제외한 재사용 시간이 60초 미만인 스킬들의 재사용 시간이 모두 초기화되고, 효과가 지속되는 동안 해당 스킬들의 재사용 시간이 60%씩 감소됩니다.	icon_skills.redmoon_tex
+10155150	CritChance	0	0	perc	10000	0	100	기회 포착			적의 공격을 완벽하게 회피하여 반격의 기회를 잡습니다. [연격참]을 제외한 다음 사용하는 공격 스킬이 100% 확률로 치명타가 발생합니다.	icon_status.darkriftareadance_tex
+10155250	Endurance	0	0	perc	1	0	1	달빛의 가호 I			달빛의 가호를 받아 공격에 대해 다운 및 경직되지 않으며 밀림 효과에도 영향을 받지 않습니다. 받는 피해가 70% 감소합니다.	icon_skills.moongracebuff_tex
+10155250	DefPotion	0	0	perc	15000	0	0.3	달빛의 가호 I			달빛의 가호를 받아 공격에 대해 다운 및 경직되지 않으며 밀림 효과에도 영향을 받지 않습니다. 받는 피해가 70% 감소합니다.	icon_skills.moongracebuff_tex
+10155270	Endurance	0	0	perc	20000	0	1	달빛의 인력			효과가 지속되는 동안 달빛의 인력에 의해 끌려가지 않습니다.	icon_skills.moongravity_tex
 14400001	HPChange	0.01	0	perc	900000	1	0.01	Emblem of Success	152903	Emblem of Success	다음 효과들을 획득합니다.   매 초마다 전체 HP의 1% 회복 몬스터 사냥시 드랍율 100% 증가	icon_items.parts_magicweaponc15_tex
 14400001	DropUp	0	0	perc	900000	0	2	Emblem of Success	152903	Emblem of Success	다음 효과들을 획득합니다.   매 초마다 전체 HP의 1% 회복 몬스터 사냥시 드랍율 100% 증가	icon_items.parts_magicweaponc15_tex
 14400002	MaxHP	0	0	perc	900000	0	1.07	Memento of Fame	152904	Memento of Fame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex
@@ -2529,8 +2573,8 @@
 77600009	Endurance	0	0	perc	60000	0	-5	망자의 징표			망자들의 대상이 되었습니다.망자의 공격에 추가 피해를 받습니다.	icon_status.fearstatus_tex
 77600017	Power	0	0	perc	30000	0	1.3	해적선_보스 일정 시간 광폭화			끌어 모은 어둠의 힘을 사용하고 있습니다. 이 시간대에는 매우 강력합니다.	icon_status.angerwarrior_tex
 77700001	AtkPotion	0	0	perc	80000	2	1.05	불안정한 파괴력			매 중첩 시마다 스킬 공격력이 5%씩 증가합니다. 이 효과는 최대 10번까지 중첩됩니다.	icon_status.battlefieldbuff02_tex
-77700002	HPChange	0.05	0	perc	600000	2	0.05	고대의 재생력			2s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 회복됩니다.	icon_status.aura_of_regeneration_hp_tex
-77700002	MPChange	0	0.01	perc	600000	2	0.01	고대의 재생력			2s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 회복됩니다.	icon_status.aura_of_regeneration_hp_tex
+77700002	HPChange	0.05	0	perc	900000	2	0.05	고대의 재생력			2s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 회복됩니다.	icon_status.aura_of_regeneration_hp_tex
+77700002	MPChange	0	0.01	perc	900000	2	0.01	고대의 재생력			2s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 회복됩니다.	icon_status.aura_of_regeneration_hp_tex
 77700003	DefPotion	0	0	swch	30000	0	1	스위치작동버프			스위치를 작동시켜서 불안정한 보호막 효과를 얻었습니다. 3중첩이 되면 파멸을 막을 수 있습니다.	icon_skills.manashield_tex
 77700004	HPChange	-0.02	0	perc	100000	2	-0.02	극심한피로			오랜 잠에서 깨어난 후유증으로 체력이 2초마다 1%씩 감소합니다.	icon_status.poisonstatus_tex
 77700006	MovSpd	0	0	setp	10000	0	0.4	이동방해			이동속도가 감소합니다.	icon_skills.slowball_tex
@@ -2540,8 +2584,8 @@
 77700015	HPChange	-0.02	0	perc	10000	1	-0.02	숙주			숙주가 되었습니다.	icon_status.poisonstatus_tex
 77700016	MovSpd	0	0	setp	5000	0	0.5	기생충의 점액질			기생충의 점액질에 의하여 이동속도가 감소합니다.	icon_status.darkriftrage_tex
 77700018	HPChange	0.15	0	perc	10000	2	0.15	희미한 고대의 재생력			2s마다 전체 HP 대비 15%에 달하는 HP가 지속적으로 회복됩니다.	icon_status.aura_of_regeneration_hp_tex
-77700019	MaxHP	0	0	perc	60000	0	1	희미한 고대의 파괴력			공격력이 50% 증가합니다.	icon_status.cruel_slayer_3_tex
-77700019	AtkPotion	0	0	perc	60000	2	1.5	희미한 고대의 파괴력			공격력이 50% 증가합니다.	icon_status.cruel_slayer_3_tex
+77700019	MaxHP	0	0	perc	90000	0	1	희미한 고대의 파괴력			공격력이 50% 증가합니다.	icon_status.cruel_slayer_3_tex
+77700019	AtkPotion	0	0	perc	90000	2	1.5	희미한 고대의 파괴력			공격력이 50% 증가합니다.	icon_status.cruel_slayer_3_tex
 77700020	Power	0	0	perc	600000	0	1.2	두려움			패배의 두려움에 의해 폭주하였습니다.	icon_status.darkriftrage_tex
 77700020	Endurance	0	0	perc	600000	0	0.8	두려움			패배의 두려움에 의해 폭주하였습니다.	icon_status.darkriftrage_tex
 77700020	ASpd	0	0	perc	600000	0	1.1	두려움			패배의 두려움에 의해 폭주하였습니다.	icon_status.darkriftrage_tex
@@ -2941,16 +2985,16 @@
 88410208	DefPotion	0	0	perc	10000	0	0.76	철벽			시전 중 피격시 받는 데미지 24% 감소. 다운 시 해제	icon_ep.ep_defense_well_tex
 88410209	DefPotion	0	0	perc	10000	0	0.73	철벽			시전 중 피격시 받는 데미지 27% 감소. 다운 시 해제	icon_ep.ep_defense_well_tex
 88410210	DefPotion	0	0	perc	10000	0	0.7	철벽			시전 중 피격시 받는 데미지 30% 감소. 다운 시 해제	icon_ep.ep_defense_well_tex
-88418101	MPChange	0	60	abs	10000	1	60	충전			초당 60 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418102	MPChange	0	70	abs	10000	1	70	충전			초당 70 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418103	MPChange	0	80	abs	10000	1	80	충전			초당 80 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418104	MPChange	0	90	abs	10000	1	90	충전			초당 90 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418105	MPChange	0	100	abs	10000	1	100	충전			초당 100 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418106	MPChange	0	110	abs	10000	1	110	충전			초당 110 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418107	MPChange	0	120	abs	10000	1	120	충전			초당 120 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418108	MPChange	0	130	abs	10000	1	130	충전			초당 130 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418109	MPChange	0	140	abs	10000	1	140	충전			초당 140 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
-88418110	MPChange	0	150	abs	10000	1	150	충전			초당 150 MP 지속 회복. 다운 시 해제	icon_ep.ep_resources_mpmore_tex
+88410301	MovSpd	0	0	perc	0	0	1.1	가속			전투 상태 이동 속도 10% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410302	MovSpd	0	0	perc	0	0	1.15	가속			전투 상태 이동 속도 15% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410303	MovSpd	0	0	perc	0	0	1.2	가속			전투 상태 이동 속도 20% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410304	MovSpd	0	0	perc	0	0	1.25	가속			전투 상태 이동 속도 25% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410305	MovSpd	0	0	perc	0	0	1.3	가속			전투 상태 이동 속도 30% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410306	MovSpd	0	0	perc	0	0	1.35	가속			전투 상태 이동 속도 35% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410307	MovSpd	0	0	perc	0	0	1.4	가속			전투 상태 이동 속도 40% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410308	MovSpd	0	0	perc	0	0	1.45	가속			전투 상태 이동 속도 45% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410309	MovSpd	0	0	perc	0	0	1.5	가속			전투 상태 이동 속도 50% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
+88410310	MovSpd	0	0	perc	0	0	1.55	가속			전투 상태 이동 속도 55% 증가. 리액션 시 해제	icon_ep.ep_transfer_speed_tex
 88500010	HPChange	-0.005	0	perc	6000	1	-0.005	화상			초당 HP의 0.5%% (최대 1000)의 지속 피해	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	0	0	perc	6000	0	0.9	동상			이동 속도 10% 감소. 5 중첩 시 잠시 얼어붙어 이동 속도가 크게 하락합니다.	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	0	0	perc	2000	0	0.75	심각한 동상			동상이 중첩되어 이동 속도 25% 감소. 다운 시 해제됩니다.	icon_ep.ep_debuff_frostbite_tex
@@ -3263,6 +3307,21 @@
 89314218	Power	0	0	abs	5000	0	1	이단 베기 괴력			치명타 적중 시 중첩. 리액션 시 해제.	icon_ep.ep_attack_strong_tex
 89314219	Power	0	0	abs	5000	0	1	이단 베기 괴력			치명타 적중 시 중첩. 리액션 시 해제.	icon_ep.ep_attack_strong_tex
 89314220	Power	0	0	abs	5000	0	1	이단 베기 괴력			치명타 적중 시 중첩. 리액션 시 해제.	icon_ep.ep_attack_strong_tex
+89407111	Crit	0	0	abs	3000	0	6	작렬 맹타			치명타 유발 6 증가	icon_ep.ep_fatal_hitfinish_tex
+89407112	Crit	0	0	abs	3000	0	7	작렬 맹타			치명타 유발 7 증가	icon_ep.ep_fatal_hitfinish_tex
+89407113	Crit	0	0	abs	3000	0	8	작렬 맹타			치명타 유발 8 증가	icon_ep.ep_fatal_hitfinish_tex
+89407114	Crit	0	0	abs	3000	0	9	작렬 맹타			치명타 유발 9 증가	icon_ep.ep_fatal_hitfinish_tex
+89407115	Crit	0	0	abs	3000	0	10	작렬 맹타			치명타 유발 10 증가	icon_ep.ep_fatal_hitfinish_tex
+89407116	Crit	0	0	abs	3000	0	11	작렬 맹타			치명타 유발 11 증가	icon_ep.ep_fatal_hitfinish_tex
+89407117	Crit	0	0	abs	3000	0	12	작렬 맹타			치명타 유발 12 증가	icon_ep.ep_fatal_hitfinish_tex
+89407118	Crit	0	0	abs	3000	0	13	작렬 맹타			치명타 유발 13 증가	icon_ep.ep_fatal_hitfinish_tex
+89407119	Crit	0	0	abs	3000	0	14	작렬 맹타			치명타 유발 14 증가	icon_ep.ep_fatal_hitfinish_tex
+89407120	Crit	0	0	abs	3000	0	15	작렬 맹타			치명타 유발 15 증가	icon_ep.ep_fatal_hitfinish_tex
+89407121	Crit	0	0	abs	3000	0	16	작렬 맹타			치명타 유발 16 증가	icon_ep.ep_fatal_hitfinish_tex
+89407122	Crit	0	0	abs	3000	0	17	작렬 맹타			치명타 유발 17 증가	icon_ep.ep_fatal_hitfinish_tex
+89407123	Crit	0	0	abs	3000	0	18	작렬 맹타			치명타 유발 18 증가	icon_ep.ep_fatal_hitfinish_tex
+89407124	Crit	0	0	abs	3000	0	19	작렬 맹타			치명타 유발 19 증가	icon_ep.ep_fatal_hitfinish_tex
+89407125	Crit	0	0	abs	3000	0	20	작렬 맹타			치명타 유발 20 증가	icon_ep.ep_fatal_hitfinish_tex
 90290002	Endurance	0	0	abs	90000	0	500	완전방어(무적)			부활한 코르누스가 기를 모으고 있습니다. 해제 하지 않을 경우 1분간 부활한 코르누스가 [방어력증가] 효과를 받게 됩니다.	icon_status.plusedefence_tex
 90991001	MovSpd	0	0	setp	0	0	0.3	개발용_무궁화꽃이 피었습니다			무궁화꽃이 피었나요?	icon_status.minusmove_tex
 90991001	MovSpdInCombat	0	0	setp	0	0	0.1	개발용_무궁화꽃이 피었습니다			무궁화꽃이 피었나요?	icon_status.minusmove_tex
