@@ -29,8 +29,9 @@ SkillId	Race	Gender	Class	SkillName	Chained	SkillDetailedInfo IconName
 
 pet-skills*.tsv:
 
-SummonName	SkillId	SkillName
+HuntingZoneId	TemplateId	SummonName	SkillId	SkillName	IconName
 
+note that game send pet skills id as (HuntingZoneId<<16 + SkillId)
 
 glyph*.tsv
 
