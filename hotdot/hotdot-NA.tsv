@@ -4,13 +4,13 @@
 22	Attack	0	0	perc	1200000	0	1.4	Test_Increased Skill Damage			Test only: Increases all skill damage by 40%!	icon_skills.voidtrap_tex
 23	CritChance	0	0	abs	60000	0	1	Automatic Critical Hits			All your attacks are critical hits. Test Only	
 25	MPChange	0	0.5	perc	0	1	0.5	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
-25	CDR	0	0	perc	0	0	0.2	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
+25	CDR	0	0	swch	0	0	0.2	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
 26	MPChange	0	0.5	perc	0	1	0.5	Ultra-Hyper-Fire-Turbo Time			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
-26	CDR	0	0	perc	0	0	0.2	Ultra-Hyper-Fire-Turbo Time			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
+26	CDR	0	0	swch	0	0	0.2	Ultra-Hyper-Fire-Turbo Time			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
 27	MPChange	0	0.5	perc	0	1	0.5	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
-27	CDR	0	0	perc	0	0	0.2	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
+27	CDR	0	0	swch	0	0	0.2	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
 28	MPChange	0	0.5	perc	7200000	1	0.5	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
-28	CDR	0	0	perc	7200000	0	0.2	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
+28	CDR	0	0	swch	7200000	0	0.2	T.E.R.A. TIME			Feel the fever! Decreases all skill cooldowns except for alliance skills by 80%. Greatly increases MP replenishment. Is not active while in dungeons or battlegrounds.	icon_status.pluswill_tex
 30	MaxHP	0	0	perc	0	0	1.1	Blessing of Amarun			Increases maximum HP for the first venture into the dungeon.	icon_skills.heart_buff_tex
 31	Power	0	0	perc	7200000	0	1.2	T.E.R.A. TIME Season 2			Engage in spectacular battles! Increases Power by 20%, and significantly increases Attack Speed.	icon_status.buff_of_kaia_tex
 31	ASpd	0	0	perc	7200000	0	1.12	T.E.R.A. TIME Season 2			Engage in spectacular battles! Increases Power by 20%, and significantly increases Attack Speed.	icon_status.buff_of_kaia_tex
@@ -20,7 +20,7 @@
 36	Power	0	0	perc	0	0	1.2	4th Anniversary Buff(Increase Attack Power)			Engage in spectacular battles! When attacking, damage increases by 20% and attack speed greatly increases as well.	icon_status.buff_of_kaia_tex
 36	ASpd	0	0	perc	0	0	1.12	4th Anniversary Buff(Increase Attack Power)			Engage in spectacular battles! When attacking, damage increases by 20% and attack speed greatly increases as well.	icon_status.buff_of_kaia_tex
 37	MPChange	0	0.5	perc	0	1	0.5	4th Anniversary Buff(Decreased Cooldown)			Feel the fever! All skill cooldowns except for alliance skills decrease by 80%, and all MP regeneration increases immensely.	icon_status.pluswill_tex
-37	CDR	0	0	perc	0	0	0.2	4th Anniversary Buff(Decreased Cooldown)			Feel the fever! All skill cooldowns except for alliance skills decrease by 80%, and all MP regeneration increases immensely.	icon_status.pluswill_tex
+37	CDR	0	0	swch	0	0	0.2	4th Anniversary Buff(Decreased Cooldown)			Feel the fever! All skill cooldowns except for alliance skills decrease by 80%, and all MP regeneration increases immensely.	icon_status.pluswill_tex
 39	Power	0	0	perc	0	0	1.02	The Call of War			Increases skill damage, Attack Speed and HP recovery by 2%.	icon_status.plusecritical_tex
 39	ASpd	0	0	perc	0	0	1.02	The Call of War			Increases skill damage, Attack Speed and HP recovery by 2%.	icon_status.plusecritical_tex
 47	Attack	0	0	perc	9900000	0	1.5	Test_Skill Damage Increase/Aggro Reduction			Test Only! Increases all skill damage by 50%. Decreases Aggro  by 50%	icon_skills.voidtrap_tex
@@ -315,24 +315,24 @@
 2930	StaminaDecay	0	0	seta	300000	0	0	Panaceaic Bolster I	6260	Panaceaic Bolster I	Stamina does not decrease.	icon_items.condition_safe_potion_level_11_tex
 2931	StaminaDecay	0	0	seta	600000	0	0	Panaceaic Bolster II	6261	Panaceaic Bolster II	Stamina does not decrease.	icon_items.condition_safe_potion_level_31_tex
 2932	StaminaDecay	0	0	seta	900000	0	0	Panaceaic Bolster III	6262	Panaceaic Bolster III	Stamina does not decrease.	icon_items.condition_safe_potion_level_51_tex
-2945	CDR	0	0	perc	300000	0	0.95	Ranger's Nostrum I			Decreases cooldown of ranged attack skills by 5%.	icon_items.eagles_potion_level_1_tex
-2946	CDR	0	0	perc	300000	0	0.925	Ranger's Nostrum II			Decreases cooldown of ranged attack skills by 7.5%.	icon_items.eagles_potion_level_23_tex
-2947	CDR	0	0	perc	300000	0	0.9	Ranger's Nostrum III			Decreases cooldown of ranged attack skills by 10%.	icon_items.eagles_potion_level_35_tex
-2948	CDR	0	0	perc	300000	0	0.875	Ranger's Nostrum IV			Decreases cooldown of ranged attack skills by 12.5%.	icon_items.eagles_potion_level_47_tex
-2949	CDR	0	0	perc	300000	0	0.85	Ranger's Nostrum V			Decreases cooldown of ranged attack skills by 15%.	icon_items.eagles_potion_level_59_tex
-2950	CDR	0	0	perc	900000	0	0.85	Ranger's Nostrum VI			Decreases cooldown of ranged attack skills by 15%.	icon_items.eagles_potion_level_59_tex
-2960	CDR	0	0	perc	300000	0	0.95	Nostrum of Energy I			Decreases cooldown of melee skills by 5%.	icon_items.lions_potion_level_1_tex
-2961	CDR	0	0	perc	300000	0	0.925	Nostrum of Energy II			Decreases cooldown of melee skills by 7.5%.	icon_items.lions_potion_level_23_tex
-2962	CDR	0	0	perc	300000	0	0.9	Nostrum of Energy III			Decreases cooldown of melee skills by 10%.	icon_items.lions_potion_level_35_tex
-2963	CDR	0	0	perc	300000	0	0.875	Nostrum of Energy IV			Decreases cooldown of melee skills by 12.5%.	icon_items.lions_potion_level_47_tex
-2964	CDR	0	0	perc	300000	0	0.85	Nostrum of Energy V			Decreases cooldown of melee skills by 15%.	icon_items.lions_potion_level_59_tex
-2965	CDR	0	0	perc	900000	0	0.85	Nostrum of Energy VI			Decreases cooldown of melee skills by 15%.	icon_items.lions_potion_level_59_tex
-2966	CDR	0	0	perc	900000	0	0.95	Battle Nostrum I	6534	Battle Nostrum I	Decreases cooldown of ranged and melee attack skills by 5%.	icon_items.griffon_potion_level_1_tex
-2968	CDR	0	0	perc	900000	0	0.925	Battle Nostrum II	6535	Battle Nostrum II	Decreases cooldown of ranged and melee attack skills by 7.5%.	icon_items.griffon_potion_level_23_tex
-2970	CDR	0	0	perc	900000	0	0.9	Battle Nostrum III	6536	Battle Nostrum III	Decreases cooldown of ranged and melee attack skills by 10%.	icon_items.griffon_potion_level_35_tex
-2972	CDR	0	0	perc	900000	0	0.875	Battle Nostrum IV	6537	Battle Nostrum IV	Decreases cooldown of ranged and melee attack skills by 12.5%.	icon_items.griffon_potion_level_47_tex
-2974	CDR	0	0	perc	900000	0	0.85	Battle Nostrum V 	6538	Battle Nostrum V	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_59_tex
-2976	CDR	0	0	perc	1800000	0	0.85	Extensive Battle Nostrum V	6539	Extensive Battle Nostrum V	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_60_tex
+2945	CDR	0	0	swch	300000	0	0.95	Ranger's Nostrum I			Decreases cooldown of ranged attack skills by 5%.	icon_items.eagles_potion_level_1_tex
+2946	CDR	0	0	swch	300000	0	0.925	Ranger's Nostrum II			Decreases cooldown of ranged attack skills by 7.5%.	icon_items.eagles_potion_level_23_tex
+2947	CDR	0	0	swch	300000	0	0.9	Ranger's Nostrum III			Decreases cooldown of ranged attack skills by 10%.	icon_items.eagles_potion_level_35_tex
+2948	CDR	0	0	swch	300000	0	0.875	Ranger's Nostrum IV			Decreases cooldown of ranged attack skills by 12.5%.	icon_items.eagles_potion_level_47_tex
+2949	CDR	0	0	swch	300000	0	0.85	Ranger's Nostrum V			Decreases cooldown of ranged attack skills by 15%.	icon_items.eagles_potion_level_59_tex
+2950	CDR	0	0	swch	900000	0	0.85	Ranger's Nostrum VI			Decreases cooldown of ranged attack skills by 15%.	icon_items.eagles_potion_level_59_tex
+2960	CDR	0	0	swch	300000	0	0.95	Nostrum of Energy I			Decreases cooldown of melee skills by 5%.	icon_items.lions_potion_level_1_tex
+2961	CDR	0	0	swch	300000	0	0.925	Nostrum of Energy II			Decreases cooldown of melee skills by 7.5%.	icon_items.lions_potion_level_23_tex
+2962	CDR	0	0	swch	300000	0	0.9	Nostrum of Energy III			Decreases cooldown of melee skills by 10%.	icon_items.lions_potion_level_35_tex
+2963	CDR	0	0	swch	300000	0	0.875	Nostrum of Energy IV			Decreases cooldown of melee skills by 12.5%.	icon_items.lions_potion_level_47_tex
+2964	CDR	0	0	swch	300000	0	0.85	Nostrum of Energy V			Decreases cooldown of melee skills by 15%.	icon_items.lions_potion_level_59_tex
+2965	CDR	0	0	swch	900000	0	0.85	Nostrum of Energy VI			Decreases cooldown of melee skills by 15%.	icon_items.lions_potion_level_59_tex
+2966	CDR	0	0	swch	900000	0	0.95	Battle Nostrum I	6534	Battle Nostrum I	Decreases cooldown of ranged and melee attack skills by 5%.	icon_items.griffon_potion_level_1_tex
+2968	CDR	0	0	swch	900000	0	0.925	Battle Nostrum II	6535	Battle Nostrum II	Decreases cooldown of ranged and melee attack skills by 7.5%.	icon_items.griffon_potion_level_23_tex
+2970	CDR	0	0	swch	900000	0	0.9	Battle Nostrum III	6536	Battle Nostrum III	Decreases cooldown of ranged and melee attack skills by 10%.	icon_items.griffon_potion_level_35_tex
+2972	CDR	0	0	swch	900000	0	0.875	Battle Nostrum IV	6537	Battle Nostrum IV	Decreases cooldown of ranged and melee attack skills by 12.5%.	icon_items.griffon_potion_level_47_tex
+2974	CDR	0	0	swch	900000	0	0.85	Battle Nostrum V 	6538	Battle Nostrum V	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_59_tex
+2976	CDR	0	0	swch	1800000	0	0.85	Extensive Battle Nostrum V	6539	Extensive Battle Nostrum V	Decreases cooldown of ranged and melee attack skills by 15%.	icon_items.griffon_potion_level_60_tex
 3000	Power	0	0	abs	60000	0	3	Energy of Dark Red Wings			Increases Power by 3 Attack Speed by 2%, Crit Chance by 2, Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
 3000	MovSpd	0	0	perc	60000	0	1.04	Energy of Dark Red Wings			Increases Power by 3 Attack Speed by 2%, Crit Chance by 2, Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
 3000	Crit	0	0	abs	60000	0	2	Energy of Dark Red Wings			Increases Power by 3 Attack Speed by 2%, Crit Chance by 2, Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
@@ -346,42 +346,42 @@
 4000	Endurance	0	0	perc	1800000	0	1.07	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Crit Power by 0.54.	icon_items.add_extract_potion_2_tex
 4000	CritPower	0	0	abs	1800000	0	0.54	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Crit Power by 0.54.	icon_items.add_extract_potion_2_tex
 4000	MPChange	0	0.045	perc	1800000	5	0.045	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Crit Power by 0.54.	icon_items.add_extract_potion_2_tex
-4000	CDR	0	0	perc	1800000	0	0.95	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Crit Power by 0.54.	icon_items.add_extract_potion_2_tex
+4000	CDR	0	0	swch	1800000	0	0.95	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Crit Power by 0.54.	icon_items.add_extract_potion_2_tex
 4001	Power	0	0	perc	1800000	0	1.09	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Attack Speed by 5.	icon_items.add_extract_potion_2_tex
 4001	Endurance	0	0	perc	1800000	0	1.07	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Attack Speed by 5.	icon_items.add_extract_potion_2_tex
 4001	ASpd	0	0	abs	1800000	0	5	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Attack Speed by 5.	icon_items.add_extract_potion_2_tex
 4001	MPChange	0	0.045	perc	1800000	5	0.045	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Attack Speed by 5.	icon_items.add_extract_potion_2_tex
-4001	CDR	0	0	perc	1800000	0	0.95	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Attack Speed by 5.	icon_items.add_extract_potion_2_tex
+4001	CDR	0	0	swch	1800000	0	0.95	Minor Battle Solution	200997	Minor Battle Solution	- Increases Power by 9%, - Increases Endurance by 7%, - Replenishes 4.5% of your MP every 5 seconds, - Decreases cooldown of attack skills by 5%, - Increases Attack Speed by 5.	icon_items.add_extract_potion_2_tex
 4010	Power	0	0	perc	1800000	0	1.18	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Crit Power by 1.07.	icon_items.add_extract_potion_2_tex
 4010	Endurance	0	0	perc	1800000	0	1.14	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Crit Power by 1.07.	icon_items.add_extract_potion_2_tex
 4010	CritPower	0	0	abs	1800000	0	1.07	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Crit Power by 1.07.	icon_items.add_extract_potion_2_tex
 4010	MPChange	0	0.09	perc	1800000	5	0.09	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Crit Power by 1.07.	icon_items.add_extract_potion_2_tex
-4010	CDR	0	0	perc	1800000	0	0.9	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Crit Power by 1.07.	icon_items.add_extract_potion_2_tex
+4010	CDR	0	0	swch	1800000	0	0.9	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Crit Power by 1.07.	icon_items.add_extract_potion_2_tex
 4011	Power	0	0	perc	1800000	0	1.18	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Attack Speed by 7.	icon_items.add_extract_potion_2_tex
 4011	Endurance	0	0	perc	1800000	0	1.14	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Attack Speed by 7.	icon_items.add_extract_potion_2_tex
 4011	ASpd	0	0	abs	1800000	0	7	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Attack Speed by 7.	icon_items.add_extract_potion_2_tex
 4011	MPChange	0	0.09	perc	1800000	5	0.09	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Attack Speed by 7.	icon_items.add_extract_potion_2_tex
-4011	CDR	0	0	perc	1800000	0	0.9	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Attack Speed by 7.	icon_items.add_extract_potion_2_tex
+4011	CDR	0	0	swch	1800000	0	0.9	Major Battle Solution	200998	Major Battle Solution	- Increases Power by 18%, - Increases Endurance by 14%, - Replenishes 9% of your MP every 5 seconds, - Decreases cooldown of attack skills by 10%, - Increases Attack Speed by 7.	icon_items.add_extract_potion_2_tex
 4020	Power	0	0	perc	1800000	0	1.27	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42. 	icon_items.add_extract_potion_2_tex
 4020	Endurance	0	0	perc	1800000	0	1.2	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42. 	icon_items.add_extract_potion_2_tex
 4020	CritPower	0	0	abs	1800000	0	1.42	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42. 	icon_items.add_extract_potion_2_tex
 4020	MPChange	0	0.13	perc	1800000	5	0.13	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42. 	icon_items.add_extract_potion_2_tex
-4020	CDR	0	0	perc	1800000	0	0.85	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42. 	icon_items.add_extract_potion_2_tex
+4020	CDR	0	0	swch	1800000	0	0.85	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42. 	icon_items.add_extract_potion_2_tex
 4021	Power	0	0	perc	1800000	0	1.27	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4021	Endurance	0	0	perc	1800000	0	1.2	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4021	ASpd	0	0	abs	1800000	0	10	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4021	MPChange	0	0.13	perc	1800000	5	0.13	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
-4021	CDR	0	0	perc	1800000	0	0.85	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
+4021	CDR	0	0	swch	1800000	0	0.85	Prime Battle Solution	200999	Prime Battle Solution	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4030	Power	0	0	perc	1800000	0	1.27	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42.	icon_items.add_extract_potion_2_tex
 4030	Endurance	0	0	perc	1800000	0	1.2	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42.	icon_items.add_extract_potion_2_tex
 4030	CritPower	0	0	abs	1800000	0	1.42	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42.	icon_items.add_extract_potion_2_tex
 4030	MPChange	0	0.13	perc	1800000	5	0.13	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42.	icon_items.add_extract_potion_2_tex
-4030	CDR	0	0	perc	1800000	0	0.85	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42.	icon_items.add_extract_potion_2_tex
+4030	CDR	0	0	swch	1800000	0	0.85	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Crit Power by 1.42.	icon_items.add_extract_potion_2_tex
 4031	Power	0	0	perc	1800000	0	1.27	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4031	Endurance	0	0	perc	1800000	0	1.2	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4031	ASpd	0	0	abs	1800000	0	10	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4031	MPChange	0	0.13	perc	1800000	5	0.13	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
-4031	CDR	0	0	perc	1800000	0	0.85	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
+4031	CDR	0	0	swch	1800000	0	0.85	Everful Nostrum	149295	Everful Nostrum	- Increases Power by 27%, - Increases Endurance by 20%, - Replenishes 13% of your MP every 5 seconds, - Decreases cooldown of attack skills by 15%, - Increases Attack Speed by 10.	icon_items.add_extract_potion_2_tex
 4400	MaxHP	0	0	abs	300000	0	0	Cheery Fireworks	339	Smilecracker	Don't worry. Be happy! Blow something up!	icon_status.smile_firecracker_abnormality_tex
 4404	Power	0	0	perc	604800000	0	1.1	Friendly Powerful Savage Draught	81227	Friendly Powerful Savage Draught	Increases Power by 10%.	icon_status.buff_of_kaia_tex
 4600	CrystalBind	0	0	abs	3600000	0	1	Crystalbind	354	Crystalbind	Circumvents crystal breakage upon death, consuming one effect. The effect stacks up to 99 times.	icon_items.q_closedspace_stone_05_tex
@@ -444,7 +444,7 @@
 4852	Power	0	0	perc	30000	0	150	Kaia's Protection			Increases Attack Speed by 100%. Increases Power and Endurance by 100 times. Decreases cooldowns by 90%.	icon_status.pluswill_tex
 4852	Endurance	0	0	perc	30000	0	150	Kaia's Protection			Increases Attack Speed by 100%. Increases Power and Endurance by 100 times. Decreases cooldowns by 90%.	icon_status.pluswill_tex
 4852	ASpd	0	0	perc	30000	0	2	Kaia's Protection			Increases Attack Speed by 100%. Increases Power and Endurance by 100 times. Decreases cooldowns by 90%.	icon_status.pluswill_tex
-4852	CDR	0	0	perc	30000	0	0.1	Kaia's Protection			Increases Attack Speed by 100%. Increases Power and Endurance by 100 times. Decreases cooldowns by 90%.	icon_status.pluswill_tex
+4852	CDR	0	0	swch	30000	0	0.1	Kaia's Protection			Increases Attack Speed by 100%. Increases Power and Endurance by 100 times. Decreases cooldowns by 90%.	icon_status.pluswill_tex
 4860	DefPotion	0	0	perc	0	0	0.6	Warrior's Resolve			Warriors tanking via instance matching receive 40% less damage, gain 20% more aggro, and 40% (unk3) Endurance increase.	icon_status.plusedefence_tex
 4864	Power	0	0	abs	3600000	0	0	Summons			Unable to summon referred friend.	
 4866	Endurance	0	0	perc	5000	0	1	Aroma of Sweet Pumpkin Pie	164101	Sweet Pumpkin Pie	Pie this good is inconceivable! Plus, pie placates angry spirits, so Gourdo may give you something special...	icon_items.sweetypumpkinpie_tex
@@ -998,7 +998,7 @@
 100630	ASpd	0	0	perc	5000	0	0.85	Mangle			Speed decreases by 15%.	icon_skills.aimingankle_tex
 100800	CritChance	0	0	perc	20000	0	1.35	Deadly Gamble			Increases the chance to crit by 35%.	icon_skills.deadlywill_tex
 100801	CritChance	0	0	perc	20000	0	1.5	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%.	icon_skills.deadlywill_tex
-100801	CDR	0	0	perc	20000	0	0.5	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%.	icon_skills.deadlywill_tex
+100801	CDR	0	0	swch	20000	0	0.5	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%.	icon_skills.deadlywill_tex
 101200	Endurance	0	0	perc	15000	0	0.92	Combative Strike			Reduces Endurance by 8%.	icon_skills.aggravatingstrike_tex
 101220	Endurance	0	0	perc	15000	0	0.92	Combative Strike			Reduces Endurance by 8% and the effect of healing skills on you by 30%.	icon_skills.aggravatingstrike_tex
 101300	Endurance	0	0	perc	27000	0	0.9965	Traverse Cut			Reduces Endurance by 0.35%. The effect stacks up to 13 times.	icon_skills.dualrapidpiercing_tex
@@ -1017,7 +1017,7 @@
 200302	Endurance	0	0	perc	18000	0	0.96	Debilitate III			Decreases Endurance by 4% (stacks up to 3 times). In PvP, also decreases the effect of healing skills on you by 30% at any number of stacks.	icon_skills.armorbreak_tex
 200700	ASpd	0	0	perc	20000	0	1.15	Adrenaline Rush I			Increases Attack Speed by 15% and damage to monsters by 5%.	icon_skills.fightingwill_tex
 200701	ASpd	0	0	perc	20000	0	1.2	Adrenaline Rush II			Increases Attack Speed by 20% and damage to monsters by 5%.	icon_skills.fightingwill_tex
-200731	CDR	0	0	perc	20000	0	0.5	Adrenaline Rush II			Attacks draw 8% more aggro. Reduces cooldown of melee attack skills by 50%.	icon_skills.fightingwill_tex
+200731	CDR	0	0	swch	20000	0	0.5	Adrenaline Rush II			Attacks draw 8% more aggro. Reduces cooldown of melee attack skills by 50%.	icon_skills.fightingwill_tex
 200930	DefPotion	0	0	perc	0	0	0.8	Pledge of Protection I			The lancer protecting you takes 20% of the damage you take and decreases damage received by 20%, as long as you stay within 20m.	icon_skills.vowofprotection_tex
 200931	DefPotion	0	0	perc	0	0	0.8	Pledge of Protection II			The lancer protecting you takes 20% of the damage you take and decreases damage received by 20%, as long as you stay within 20m.	icon_skills.vowofprotection_tex
 201100	MovSpd	0	0	setp	3000	0	0.7	Lockdown Blow I			Decreases Movement Speed by 30%.	icon_skills.shockblow_tex
@@ -1046,9 +1046,9 @@
 300800	ASpd	0	0	perc	20000	0	1.06	In Cold Blood I			Increases Power by 26. Increases Attack Speed by 6%.	icon_skills.destructionvigor_tex
 300801	Power	0	0	abs	20000	0	29	In Cold Blood II			Increases Power by 29. Increases Attack Speed by 8%. Ultimate Overhand Strike activated.	icon_skills.destructionvigor_tex
 300801	ASpd	0	0	perc	20000	0	1.08	In Cold Blood II			Increases Power by 29. Increases Attack Speed by 8%. Ultimate Overhand Strike activated.	icon_skills.destructionvigor_tex
-300900	CDR	0	0	perc	11000	0	1.5	Exhausting Blow			Increases all skill cooldowns by 50%.	icon_skills.veinslash_tex
-300901	CDR	0	0	perc	11000	0	1.53	Exhausting Blow			Increases all skill cooldowns by 53%.	icon_skills.veinslash_tex
-300902	CDR	0	0	perc	11000	0	1.55	Exhausting Blow			Increases all skill cooldowns by 55%.	icon_skills.veinslash_tex
+300900	CDR	0	0	swch	11000	0	1.5	Exhausting Blow			Increases all skill cooldowns by 50%.	icon_skills.veinslash_tex
+300901	CDR	0	0	swch	11000	0	1.53	Exhausting Blow			Increases all skill cooldowns by 53%.	icon_skills.veinslash_tex
+300902	CDR	0	0	swch	11000	0	1.55	Exhausting Blow			Increases all skill cooldowns by 55%.	icon_skills.veinslash_tex
 400100	Power	0	0	perc	15000	0	1.2	Fiery Rage I			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
 400100	Endurance	0	0	perc	15000	0	0.9	Fiery Rage I			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
 400100	Crit	0	0	perc	15000	0	1.1	Fiery Rage I			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
@@ -1085,7 +1085,7 @@
 400801	Block	0	0	perc	6000	0	0	Inescapable Doom II			Decreases Movement Speed by 62%. Players cannot use evasive or movement skills.	icon_skills.murderousvent_tex
 401400	Crit	0	0	abs	0	0	-18	Intimidation			Gains aggro from monsters within 8m. Increases aggro generated from attack skills by 40%. You are immune to push-back from monsters, save for certain special attacks.	icon_skills.toughspirit_tex
 401400	MPChange	0	50	abs	0	1	50	Intimidation			Gains aggro from monsters within 8m. Increases aggro generated from attack skills by 40%. You are immune to push-back from monsters, save for certain special attacks.	icon_skills.toughspirit_tex
-401400	CDR	0	0	perc	0	0	0.33	Intimidation			Gains aggro from monsters within 8m. Increases aggro generated from attack skills by 40%. You are immune to push-back from monsters, save for certain special attacks.	icon_skills.toughspirit_tex
+401400	CDR	0	0	swch	0	0	0.33	Intimidation			Gains aggro from monsters within 8m. Increases aggro generated from attack skills by 40%. You are immune to push-back from monsters, save for certain special attacks.	icon_skills.toughspirit_tex
 401400	Block	0	0	perc	0	0	0	Intimidation			Gains aggro from monsters within 8m. Increases aggro generated from attack skills by 40%. You are immune to push-back from monsters, save for certain special attacks.	icon_skills.toughspirit_tex
 401500	Endurance	0	0	perc	15000	0	0.96	Punishing Strike			Decreases Endurance by 4%. Can be stacked up to 2 times.	icon_skills.upperslashcombo_tex
 425001	MPChange	0	50	abs	0	1	50	Prime Target			Gains aggro from monsters within 8m. Increases aggro generated from attack skills by unk2.	icon_skills.toughspirit_tex
@@ -1497,18 +1497,18 @@
 701010	HPChange	614	0	abs	10000	2	614	Grace of the Spirit XI			Recovers 614 HP every 2s.	icon_skills.summonspiritofheal_tex
 701011	HPChange	769	0	abs	10000	2	769	Grace of the Spirit XII			Recovers 769 HP every 2s.	icon_skills.summonspiritofheal_tex
 701012	HPChange	914	0	abs	10000	2	914	Grace of the Spirit XIII			Recovers 914 HP every 2s.	icon_skills.summonspiritofheal_tex
-701200	CDR	0	0	perc	6000	0	1.2	Curse of Exhaustion I			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
-701201	CDR	0	0	perc	8000	0	1.2	Curse of Exhaustion			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
-701202	CDR	0	0	perc	10000	0	1.2	Curse of Exhaustion III			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
+701200	CDR	0	0	swch	6000	0	1.2	Curse of Exhaustion I			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
+701201	CDR	0	0	swch	8000	0	1.2	Curse of Exhaustion			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
+701202	CDR	0	0	swch	10000	0	1.2	Curse of Exhaustion III			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
 701400	MovSpd	0	0	setp	4000	0	0.1	Mire I			Decreases Movement Speed by 90%. Increases Balance Factor by 100% for 4s. Effect ends if you suffer significant damage or knockdown.	icon_skills.shackleofstone_tex
 701401	MovSpd	0	0	setp	6000	0	0.1	Mire			Decreases Movement Speed by 90%. Increases Balance Factor by 100% for 6s. Effect ends if you suffer significant damage or knockdown.	icon_skills.shackleofstone_tex
 701420	MovSpd	0	0	setp	5500	0	0.1	Mire I			Decreases Movement Speed by 90%. Increases Balance Factor by 100% for 5s. Effect ends if you suffer significant damage or knockdown.	icon_skills.shackleofstone_tex
 701421	MovSpd	0	0	setp	8000	0	0.1	Mire			Decreases Movement Speed by 90%. Increases Balance Factor by 100% for 8s. Effect ends if you suffer significant damage or knockdown.	icon_skills.shackleofstone_tex
-701500	HPChange	390	0	abs	3000	1	390	Arun's Vitae I	8008	Arun's Vitae I Mote	Recovers 390 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701501	HPChange	515	0	abs	3000	1	515	Arun's Vitae II	8009	Arun's Vitae II Mote	Recovers 515 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701502	HPChange	716	0	abs	3000	1	716	Arun's Vitae III	8010	Arun's Vitae III Mote	Recovers 716 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701503	HPChange	994	0	abs	3000	1	994	Arun's Vitae IV	8011	Arun's Vitae IV Mote	Recovers 994 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701504	HPChange	1375	0	abs	3000	1	1375	Arun's Vitae V	8012	Arun's Vitae V Mote	Recovers 1375 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
+701500	HPChange	390	0	abs	3000	1	390	Arun's Vitae I	8008	Arun's Vitae I Mote	Recovers 390 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701501	HPChange	515	0	abs	3000	1	515	Arun's Vitae II	8009	Arun's Vitae II Mote	Recovers 515 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701502	HPChange	716	0	abs	3000	1	716	Arun's Vitae III	8010	Arun's Vitae III Mote	Recovers 716 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701503	HPChange	994	0	abs	3000	1	994	Arun's Vitae IV	8011	Arun's Vitae IV Mote	Recovers 994 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701504	HPChange	1375	0	abs	3000	1	1375	Arun's Vitae V	8012	Arun's Vitae V Mote	Recovers 1375 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701505	HPChange	1901	0	abs	3000	1	1901	Arun's Vitae VI	8013	Arun's Vitae VI Mote	Recovers 1901 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701506	HPChange	2626	0	abs	3000	1	2626	Arun's Vitae VII	8014	Arun's Vitae VII Mote	Recovers 2626 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701507	HPChange	3627	0	abs	3000	1	3627	Arun's Vitae VIII	8015	Arun's Vitae VIII Mote	Recovers 3627 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
@@ -1516,22 +1516,22 @@
 701509	HPChange	6921	0	abs	3000	1	6921	Arun's Vitae X	8017	Arun's Vitae X Mote	Recovers 6921 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701510	HPChange	10254	0	abs	3000	1	10254	Arun's Vitae XI	8018	Arun's Vitae XI Mote	Recovers 10342 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701511	HPChange	10254	0	abs	3000	1	10254	Arun's Vitae XII			Recovers 10342 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
-701540	HPChange	390	0	abs	3000	1	390	Arun's Vitae I			Recovers 390 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701541	HPChange	515	0	abs	3000	1	515	Arun's Vitae II			Recovers 515 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701542	HPChange	716	0	abs	3000	1	716	Arun's Vitae III			Recovers 716 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701543	HPChange	994	0	abs	3000	1	994	Arun's Vitae IV			Recovers 994 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701544	HPChange	1375	0	abs	3000	1	1375	Arun's Vitae V			Recovers 1375 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
+701540	HPChange	390	0	abs	3000	1	390	Arun's Vitae I			Recovers 390 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701541	HPChange	515	0	abs	3000	1	515	Arun's Vitae II			Recovers 515 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701542	HPChange	716	0	abs	3000	1	716	Arun's Vitae III			Recovers 716 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701543	HPChange	994	0	abs	3000	1	994	Arun's Vitae IV			Recovers 994 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701544	HPChange	1375	0	abs	3000	1	1375	Arun's Vitae V			Recovers 1375 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701545	HPChange	1901	0	abs	3000	1	1901	Arun's Vitae VI			Recovers 1901 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701546	HPChange	2626	0	abs	3000	1	2626	Arun's Vitae VII			Recovers 2626 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701547	HPChange	3627	0	abs	3000	1	3627	Arun's Vitae VIII			Recovers 3627 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701548	HPChange	5007	0	abs	3000	1	5007	Arun's Vitae IX			Recovers 5007 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701549	HPChange	6921	0	abs	3000	1	6921	Arun's Vitae X			Recovers 6921 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701550	HPChange	10254	0	abs	3000	1	10254	Arun's Vitae XI			Recovers 10342 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
-701560	HPChange	507	0	abs	3000	1	507	Arun's Vitae I			Recovers 390 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701561	HPChange	669	0	abs	3000	1	669	Arun's Vitae II			Recovers 515 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701562	HPChange	930	0	abs	3000	1	930	Arun's Vitae III			Recovers 716 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701563	HPChange	1292	0	abs	3000	1	1292	Arun's Vitae IV			Recovers 994 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
-701564	HPChange	1787	0	abs	3000	1	1787	Arun's Vitae V			Recovers 1375 HP every second. Stack the effect up to 2 times to increase recovery by 30%	icon_skills.hprefresher_tex
+701560	HPChange	507	0	abs	3000	1	507	Arun's Vitae I			Recovers 390 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701561	HPChange	669	0	abs	3000	1	669	Arun's Vitae II			Recovers 515 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701562	HPChange	930	0	abs	3000	1	930	Arun's Vitae III			Recovers 716 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701563	HPChange	1292	0	abs	3000	1	1292	Arun's Vitae IV			Recovers 994 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
+701564	HPChange	1787	0	abs	3000	1	1787	Arun's Vitae V			Recovers 1375 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701565	HPChange	2471	0	abs	3000	1	2471	Arun's Vitae VI			Recovers 1901 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701566	HPChange	3413	0	abs	3000	1	3413	Arun's Vitae VII			Recovers 2626 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
 701567	HPChange	4715	0	abs	3000	1	4715	Arun's Vitae VIII			Recovers 3627 HP every second. Stack the effect up to 2 times to increase recovery by 30%.	icon_skills.hprefresher_tex
@@ -1679,21 +1679,21 @@
 800906	HPChange	-1145	0	abs	15000	3	-1145	Plague of Exhaustion			Reduces HP by -1145 every 3s.	icon_skills.prophecyoflethargy_tex
 800907	HPChange	-1518	0	abs	15000	3	-1518	Plague of Exhaustion VIII			Reduces HP by -1518 every 3s.	icon_skills.prophecyoflethargy_tex
 800920	HPChange	-116	0	abs	15000	3	-116	Plague of Exhaustion I			Reduces HP by -116 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800920	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion I			Reduces HP by -116 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800920	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion I			Reduces HP by -116 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 800921	HPChange	-161	0	abs	15000	3	-161	Plague of Exhaustion II			Reduces HP by -161 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800921	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion II			Reduces HP by -161 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800921	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion II			Reduces HP by -161 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 800922	HPChange	-222	0	abs	15000	3	-222	Plague of Exhaustion III			Reduces HP by -222 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800922	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion III			Reduces HP by -222 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800922	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion III			Reduces HP by -222 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 800923	HPChange	-307	0	abs	15000	3	-307	Plague of Exhaustion IV			Reduces HP by -307 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800923	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion IV			Reduces HP by -307 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800923	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion IV			Reduces HP by -307 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 800924	HPChange	-423	0	abs	15000	3	-423	Plague of Exhaustion V			Reduces HP by -423 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800924	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion V			Reduces HP by -423 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800924	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion V			Reduces HP by -423 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 800925	HPChange	-585	0	abs	15000	3	-585	Plague of Exhaustion VI			Reduces HP by -585 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800925	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion VI			Reduces HP by -585 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800925	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion VI			Reduces HP by -585 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 800926	HPChange	-819	0	abs	15000	3	-819	Plague of Exhaustion			Reduces HP by -819 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800926	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion			Reduces HP by -819 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800926	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion			Reduces HP by -819 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 800927	HPChange	-1086	0	abs	15000	3	-1086	Plague of Exhaustion VIII			Reduces HP by -1086 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
-800927	CDR	0	0	perc	15000	0	1.5	Plague of Exhaustion VIII			Reduces HP by -1086 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
+800927	CDR	0	0	swch	15000	0	1.5	Plague of Exhaustion VIII			Reduces HP by -1086 every 3. Increases cooldown on close-range attack skills by 50%.	icon_skills.prophecyoflethargy_tex
 801000	DefPotion	0	0	perc	5000	0	0.7	Guardian Sanctuary I			Reduces ranged damage taken by 30%, while increasing weakening and DOT resistances by 100% and greatly increasing stun resistance.	icon_skills.guardianaura_tex
 801001	DefPotion	0	0	perc	10000	0	0.7	Guardian Sanctuary II			Reduces ranged damage taken by 30%, while increasing weakening and DOT resistances by 100% and greatly increasing stun resistance.	icon_skills.guardianaura_tex
 801100	HPChange	0.018	0	perc	10000	1	0.018	Divine Respite I			Recovers 1.8% of maximum HP every 1s.	icon_skills.restoration_tex
@@ -1892,8 +1892,9 @@
 950069	Endurance	0	0	perc	1	0	1	Dust Warning			You are about to receive Dust.	icon_status.vergosdust_tex
 950084	MovSpd	0	0	perc	1100	0	0.2	Volcanic Sludge			Significantly decreases Movement Speed.	icon_status.lavar_tex
 950084	MovSpdInCombat	0	0	perc	1100	0	0.2	Volcanic Sludge			Significantly decreases Movement Speed.	icon_status.lavar_tex
-950090	Attack	0	0	perc	0	0	1.05	Celestial Power			Vergos absorbed celestial power, increasing his Power by 5% per stack.	icon_status.godspell_tex
-950091	Attack	0	0	perc	3000	0	1.3	Celestial Power			Celestial Power exploded, increasing skill damage by 30%.	icon_status.godspell_tex
+950090	Attack	0	0	perc	0	0	1.05	Celestial Power			Vergos absorbed celestial power, increasing his damage by 5% per stack.	icon_status.godspell_tex
+950091	Attack	0	0	perc	3000	0	1.5	Celestial Power			Celestial Power exploded, increasing skill damage by 50%.	icon_status.godspell_tex
+950095	Endurance	0	0	perc	10000	0	1	Blistering Heat			Vergos radiates Blistering Heat. Canceling the effect or letting it expire causes a huge explosion, damaging everything around.	icon_status.strongheat_tex
 950097	MovSpd	0	0	perc	11000	0	0.2	Petrification			You are being petrified. Your Movement Speed is decreased, and soon, you won't be able to move.	icon_status.petrifaction_tex
 950097	MovSpdInCombat	0	0	perc	11000	0	0.2	Petrification			You are being petrified. Your Movement Speed is decreased, and soon, you won't be able to move.	icon_status.petrifaction_tex
 950107	HPChange	-10000000	0	perc	3000	1	-10000000	Igneous Prison			Entrapped in superheated stone. Igneous Prison will soon explode and damage everything around.	icon_status.rock_tex
@@ -1902,20 +1903,21 @@
 950138	HPChange	-10000000	0	perc	3000	1	-10000000	Suffocating Heat			If you are trapped by rock again, you'll die of suffocation.	icon_status.vergoscurse_tex
 950140	HPChange	-0.15	0	perc	8000	2	-0.15	Searing Cinders			Searing Cinders land on you, continuously reducing your HP.	icon_status.scald_tex
 950163	ASpd	0	0	perc	10000	0	1.2	Morale Boost			Increases Attack Speed by 20%. Reduces skill cooldown by 50%.	icon_status.bloodmadness_tex
-950163	CDR	0	0	perc	10000	0	0.5	Morale Boost			Increases Attack Speed by 20%. Reduces skill cooldown by 50%.	icon_status.bloodmadness_tex
-950164	HPChange	-10000000	0	perc	3000	1	-10000000	Dust			Covered in Dust. When the effect expires, you'll die. If hit by another Dust attack, you'll die immediately. If hit by Flame attack, the effect will be canceled after an explosion.	icon_status.vergosdust_tex
-950164	DefPotion	0	0	perc	9000	0	0.1	Dust			Covered in Dust. When the effect expires, you'll die. If hit by another Dust attack, you'll die immediately. If hit by Flame attack, the effect will be canceled after an explosion.	icon_status.vergosdust_tex
-950165	HPChange	-10000000	0	perc	3000	1	-10000000	Flame			Wrapped in Flame. When the effect expires, you'll die. If hit by another Flame attack, you'll die immediately. If hit by Dust attack, the effect will be canceled after an explosion.	icon_status.vergosflame_tex
-950165	DefPotion	0	0	perc	9000	0	0.1	Flame			Wrapped in Flame. When the effect expires, you'll die. If hit by another Flame attack, you'll die immediately. If hit by Dust attack, the effect will be canceled after an explosion.	icon_status.vergosflame_tex
+950163	CDR	0	0	swch	10000	0	0.5	Morale Boost			Increases Attack Speed by 20%. Reduces skill cooldown by 50%.	icon_status.bloodmadness_tex
+950164	HPChange	-10000000	0	perc	3000	1	-10000000	Dust			Covered in Dust. Causes an explosion If hit by another Dust attack or leaping strike, or when the effect ends. If hit by Flame attack, the effect will be canceled after an explosion.	icon_status.vergosdust_tex
+950164	DefPotion	0	0	perc	9000	0	0.1	Dust			Covered in Dust. Causes an explosion If hit by another Dust attack or leaping strike, or when the effect ends. If hit by Flame attack, the effect will be canceled after an explosion.	icon_status.vergosdust_tex
+950165	HPChange	-10000000	0	perc	3000	1	-10000000	Flame			Wrapped in Flame. Causes an explosion If hit by another Flame attack or leaping strike, or when the effect ends. If hit by Dust attack, the effect will be canceled after an explosion.	icon_status.vergosflame_tex
+950165	DefPotion	0	0	perc	9000	0	0.1	Flame			Wrapped in Flame. Causes an explosion If hit by another Flame attack or leaping strike, or when the effect ends. If hit by Dust attack, the effect will be canceled after an explosion.	icon_status.vergosflame_tex
 950168	Endurance	0	0	perc	0	0	100	Enraged			Vergos's Power, Attack Speed, and Defense increase rapidly.	icon_status.summonvergos_tex
 950168	Attack	0	0	perc	0	0	10	Enraged			Vergos's Power, Attack Speed, and Defense increase rapidly.	icon_status.summonvergos_tex
 950168	ASpd	0	0	perc	0	0	2	Enraged			Vergos's Power, Attack Speed, and Defense increase rapidly.	icon_status.summonvergos_tex
-950171	ASpd	0	0	perc	0	0	1.15	Anger			Vergos's Attack Speed increases.	icon_status.vergosblood_tex
+950171	ASpd	0	0	perc	0	0	1.2	Anger			Vergos's Attack Speed increases.	icon_status.vergosblood_tex
 950179	Endurance	0	0	perc	1	0	1	Flame Warning			You are about to receive Flame.	icon_status.vergosflame_tex
 950180	Endurance	0	0	perc	1	0	1	Dust Warning			You are about to receive Dust.	icon_status.vergosdust_tex
 950187	Endurance	0	0	perc	0	0	0.4	Exhaustion			Vergos is exhausted. His Defense is decreasing rapidly.	icon_status.struggle_tex
 950192	Attack	0	0	perc	0	0	10	Boiling Anger			Vergos will soon become enraged.	icon_status.dragonberserk_tex
 950193	Attack	0	0	perc	0	0	10	Boiling Anger			Vergos will soon become enraged.	icon_status.dragonberserk_tex
+950197	Endurance	0	0	perc	20000	0	1.5	Celestial Power Absorption			Vergos is absorbing celestial power, increasing his Defense by 1.5 times.	icon_status.plusedefence_tex
 950300	ASpd	0	0	perc	90000	0	1.25	Earthly Power			Increases Terradrax's Attack Speed by 25% per stack.	icon_status.earthblessing_tex
 950306	Attack	0	0	perc	0	0	10	Enraged			Dragons are enraged, multiplying their Power by 10, and doubling their Attack Speed.	icon_status.dragonberserk_tex
 950306	ASpd	0	0	perc	0	0	2	Enraged			Dragons are enraged, multiplying their Power by 10, and doubling their Attack Speed.	icon_status.dragonberserk_tex
@@ -2021,6 +2023,30 @@
 5692007	Endurance	0	0	seta	6000	0	3064	Exhaustive Play			Masuki used too much power, and is weakened for a while.	icon_skills.lossofbalance_tex
 5693002	HPChange	-0.03	0	perc	3000	1	-0.03	Spider Venom			Decreases 3% of maximum HP. This effect stacks up to 2 times.	icon_status.poisonstatus_tex
 5693004	MovSpd	0	0	setp	3000	0	0.6	Sticky Web			Decreases Movement Speed for 3s 40%. Sticky Web can not be removed.	icon_status.minusmove_tex
+7101000	Power	0	0	perc	600000	0	1.3	Energy Concentration			Concentrates energy to increase Power and Attack Speed. This effect cannot be removed.	
+7101000	ASpd	0	0	perc	600000	0	1.1	Energy Concentration			Concentrates energy to increase Power and Attack Speed. This effect cannot be removed.	
+7101008	Power	0	0	perc	600000	0	1.05	Auras of Fire and Lightning			Gorgoth used fire and lightning to increase damage.	icon_status.darkriftgravity_tex
+7102000	Endurance	0	0	perc	40000	0	1	Hostile Environment			Decreases HP recovery by 30%. When it reaches 5 stacks, something terrible may happen to you.	
+7102000	HPChange	-0.5	0	perc	6000	1	-0.5	Hostile Environment			Decreases HP recovery by 30%. When it reaches 5 stacks, something terrible may happen to you.	
+7102001	MovSpd	0	0	perc	6000	0	0.5	Energy Burst			Reduces 50% of your HP every second.	
+7102001	HPChange	-0.5	0	perc	6000	1	-0.5	Energy Burst			Reduces 50% of your HP every second.	
+7102002	MovSpd	0	0	setp	15000	0	0.2	Ominous Aura			Decreases Movement Speed by 80%. Reduces 10% of your maximum HP every 3.	icon_skills.painfulshackle_tex
+7102002	HPChange	-0.1	0	perc	15000	3	-0.1	Ominous Aura			Decreases Movement Speed by 80%. Reduces 10% of your maximum HP every 3.	icon_skills.painfulshackle_tex
+7102003	HPChange	-0.1	0	perc	10000	2	-0.1	Toxic Zone			Reduces 10% of HP every 2 seconds.	
+7102005	HPChange	-0.05	0	perc	5000	1	-0.05	Hemorrhage			Reduces 1% of your HP every second. This effect cannot be removed.	
+7102051	Power	0	0	perc	0	0	1.3	Joyful Molek			Molek is joyful, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex
+7102051	ASpd	0	0	perc	0	0	1.05	Joyful Molek			Molek is joyful, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex
+7102052	Power	0	0	perc	0	0	1.6	Jubilant Molek			Molek is jubilant, greatly increasing his damage and Attack Speed.	icon_status.plusecritical_tex
+7102052	ASpd	0	0	perc	0	0	1.1	Jubilant Molek			Molek is jubilant, greatly increasing his damage and Attack Speed.	icon_status.plusecritical_tex
+7102053	Power	0	0	perc	0	0	1.3	Angry Molek			Molek is angry, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex
+7102053	ASpd	0	0	perc	0	0	1.05	Angry Molek			Molek is angry, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex
+7102054	Power	0	0	perc	0	0	1.6	Furious Molek			Molek is furious, increasing his damage and Attack Speed.	icon_status.plusecritical_tex
+7102054	ASpd	0	0	perc	0	0	1.1	Furious Molek			Molek is furious, increasing his damage and Attack Speed.	icon_status.plusecritical_tex
+7102059	Block	0	0	swch	3000	0	0	Silence			You are overwhelmed by Molek's power. You cannot use skills.	icon_status.sealskill_tex
+7103007	MovSpd	0	0	perc	6000	0	1	Otherworldly Force			Balbatos is preparing to attack.	icon_status.godspell_tex
+7103008	MovSpd	0	0	perc	6000	0	1	Otherworldly Force			Balbatos is preparing to attack.	icon_status.godspell_tex
+7103009	MovSpd	0	0	perc	6000	0	1	Otherworldly Force			Balbatos is preparing to attack.	icon_status.godspell_tex
+7103020	MovSpd	0	0	perc	6000	0	1	Otherworldly Force			Balbatos is preparing to attack.	icon_status.godspell_tex
 7691000	HPChange	-10000	0	abs	12000	2	-10000	Corruption Ring			You are stunned, and receive 10,000 fixed damage every 2 seconds.	icon_status.minusfocus_tex
 7691001	MovSpd	0	0	perc	4000	0	1	Shield			Lilith absorbs damage while absorbing essence.	icon_status.immunedebuff_tex
 7691007	Power	0	0	perc	600000	0	1.1	Fiery Rage			Lilith absorbs the essence and increases her Attack by 10%.	icon_status.plusattack_tex
@@ -2033,7 +2059,7 @@
 7692005	MovSpd	0	0	setp	15000	0	0.5	Bleeding			Decreases Movement Speed by 50%. Reduces HP by 6% of maximum every 2.	icon_status.minuscriticalresist_tex
 7692005	HPChange	-0.06	0	perc	15000	2	-0.06	Bleeding			Decreases Movement Speed by 50%. Reduces HP by 6% of maximum every 2.	icon_status.minuscriticalresist_tex
 7777015	MPChange	0	0.5	perc	1800000	1	0.5	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
-7777015	CDR	0	0	perc	1800000	0	0.8	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
+7777015	CDR	0	0	swch	1800000	0	0.8	T.E.R.A TIME	150939	Combat Accelerator Potion	Feel the fever! Decreases all skill cooldowns except for alliance skills by 20%. Greatly increases MP replenishment.	icon_status.pluswill_tex
 8000077	ASpd	0	0	perc	1800000	0	1.04	Kaia's Dedication	139100	Kaia's Dedication I	Increases skill damage by 10%. Reduces damage taken by 10%. Increases Attack Speed by 4%.	icon_items.potion10_tex
 8000077	DefPotion	0	0	perc	1800000	0	0.9	Kaia's Dedication	139100	Kaia's Dedication I	Increases skill damage by 10%. Reduces damage taken by 10%. Increases Attack Speed by 4%.	icon_items.potion10_tex
 8000077	AtkPotion	0	0	perc	1800000	0	1.1	Kaia's Dedication	139100	Kaia's Dedication I	Increases skill damage by 10%. Reduces damage taken by 10%. Increases Attack Speed by 4%.	icon_items.potion10_tex
@@ -2069,7 +2095,7 @@
 9810012	HPChange	-2300	0	abs	20000	5	-2300	Lakan's Searing Gaze			Reduces HP by -2300 every 5s per overlapping hit.	icon_status.firedamage_tex
 9810013	HPChange	0	0	abs	15000	5	0	Archer's Mark			Marked by an archer as the focus of their attack.	icon_skills.througharrow_tex
 9999019	ASpd	0	0	perc	0	0	1	Wibbley Wobbley Timey Wimey			Increases damage by 10%. This effect does not stack with the effects of Chain of Protection, Chain of Attack, Chain of Recovery, or Bravery Potion.	icon_status.speedystatus_tex
-10151010	CDR	0	0	perc	15000	0	0.3	Shadow Reaping			Reap the shadows around you. While  reaping, the cooldown time of Double Shear, Grim Strike, Pendulum Strike, Whipsaw, Sundering Strike, Cable Step, Death Spiral, and Smite are reduced by 70%.	icon_skills.descentofdarkness_tex
+10151010	CDR	0	0	swch	15000	0	0.3	Shadow Reaping			Reap the shadows around you. While  reaping, the cooldown time of Double Shear, Grim Strike, Pendulum Strike, Whipsaw, Sundering Strike, Cable Step, Death Spiral, and Smite are reduced by 70%.	icon_skills.descentofdarkness_tex
 10151032	HPChange	-3454	0	abs	10000	2	-3454	Soul Reversal			Entangled by shadowy cables that inflict 3,454 damage every 2 seconds. The entangled target can be forced to switch positions with the caster of this skill at any time.	icon_skills.darkgrasp_tex
 10151050	MovSpd	0	0	setp	3000	0	0	Pendulum Strike			Temporarily immobilized by a Pendulum Strike.	icon_skills.chainuppercut_tex
 10151050	MovSpdInCombat	0	0	setp	3000	0	0	Pendulum Strike			Temporarily immobilized by a Pendulum Strike.	icon_skills.chainuppercut_tex
@@ -2106,7 +2132,7 @@
 10153040	Power	0	0	abs	0	0	30	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
 10153040	Crit	0	0	abs	0	0	30	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
 10153040	ASpd	0	0	abs	0	0	-10	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
-10153040	CDR	0	0	perc	0	0	0.7	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
+10153040	CDR	0	0	swch	0	0	0.7	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
 10153040	Block	0	0	swch	0	0	0	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
 10153040	SuperArmor	0	0	swch	0	0	0	Growing Fury			Decreases Attack Speed by 10. Increases Power and Crit Factor by 30. Draws 10% more aggro. Decreases skill cooldown by 30% and adds frontal defense effect to all attack skills.	icon_skills.rampage_tex
 10153071	Power	0	0	abs	300000	0	0	Spent Fury			Deadly Fury cooldown is active.	icon_skills.ferociouswill_tex
@@ -2251,7 +2277,7 @@
 47500500	AtkPotion	0	0	perc	35000	0	0.5	Seal of Punishment			Reduces HP by 20% of maximum every 5. Decreases ranged skill damage by 50%. Seal of Punishment cannot be removed.	icon_status.minorexhaustion_tex
 47500600	HPChange	-0.01	0	perc	35000	2	-0.01	Seal of Death			Reduces HP by 1% of maximum every 2. Cannot be healed. Seal of Death cannot be removed.	icon_status.minusfocus_tex
 47500700	MovSpd	0	0	setp	60000	0	0.5	Malaise of Despair			Decreases Movement Speed by 50%. Increases skill cooldowns by 100%. Malaise of Despair cannot be removed.	icon_status.mpsuckdown_tex
-47500700	CDR	0	0	perc	60000	0	2	Malaise of Despair			Decreases Movement Speed by 50%. Increases skill cooldowns by 100%. Malaise of Despair cannot be removed.	icon_status.mpsuckdown_tex
+47500700	CDR	0	0	swch	60000	0	2	Malaise of Despair			Decreases Movement Speed by 50%. Increases skill cooldowns by 100%. Malaise of Despair cannot be removed.	icon_status.mpsuckdown_tex
 47500800	HPChange	-0.1	0	perc	40000	5	-0.1	Seal of Revenge			Reduces HP by 10% of maximum every 5. Decreases melee damage by 15%. Seal of Revenge cannot be removed.	icon_status.minuscritical_tex
 47500800	AtkPotion	0	0	perc	40000	0	0.85	Seal of Revenge			Reduces HP by 10% of maximum every 5. Decreases melee damage by 15%. Seal of Revenge cannot be removed.	icon_status.minuscritical_tex
 47500900	HPChange	-0.1	0	perc	40000	5	-0.1	Seal of Punishment			Reduces HP by 10% of maximum every 5. Decreases ranged damage by 30%. Seal of Punishment cannot be removed.	icon_status.minorexhaustion_tex
@@ -2354,7 +2380,7 @@
 47641400	MovSpd	0	0	perc	6000	0	0.5	Dizziness			Decreases Movement Speed by 50%.	icon_status.minusmove_tex
 47650100	Power	0	0	perc	1200000	0	1.5	Show of Strength			50 Kills. Increases Power by 50%.	icon_status.plusattack_tex
 47650200	Crit	0	0	perc	300000	0	30	Edge of Vengeance			100 kills. Increases Crit Factor by 2900%.	icon_status.plusecritical_tex
-47650300	CDR	0	0	perc	30000	0	0.1	Killing Spree			150 kills. Decreases cooldowns for ranged skills by 90%.	icon_status.pluswill_tex
+47650300	CDR	0	0	swch	30000	0	0.1	Killing Spree			150 kills. Decreases cooldowns for ranged skills by 90%.	icon_status.pluswill_tex
 47650400	HPChange	0.3	0	perc	1000	1	0.3	Relic's Healing			Immediately Recovers 50% of maximum HP.	icon_status.plushp_tex
 47650600	Block	0	0	swch	10000	0	0	Distortion Effect			Cannot use any skill. Distortion Effect cannot be removed.	icon_status.minuswill_tex
 47650800	MovSpd	0	0	seta	30000	0	10	Snare of Agony			Reduces Movement Speed to 10. Reduces HP by 9% of maximum every 0s. Snare of Agony cannot be removed.	icon_status.poisonstatus_tex
@@ -2378,7 +2404,7 @@
 47660600	MaxHP	0	0	perc	60000	0	1.1	Repaired			The repair has been beautifully done. Increases Endurance by 30% and maximum HP by 10%. Repaired effect cannot be removed.	icon_status.plusedefence_tex
 47660600	Endurance	0	0	perc	60000	0	1.3	Repaired			The repair has been beautifully done. Increases Endurance by 30% and maximum HP by 10%. Repaired effect cannot be removed.	icon_status.plusedefence_tex
 47661900	Block	0	0	swch	5000	0	0	Cursed Jar			Unable to use skills. Cursed Jar cannot be removed.	icon_status.sealskill_tex
-47662000	CDR	0	0	perc	5000	0	0.1	Blessing Jar			Decreases the cooldown by 90%. Blessing Jars cannot be removed.	icon_status.minusmp_tex
+47662000	CDR	0	0	swch	5000	0	0.1	Blessing Jar			Decreases the cooldown by 90%. Blessing Jars cannot be removed.	icon_status.minusmp_tex
 47662100	MovSpd	0	0	perc	30000	0	0.5	Stickiness			Decreases Movement Speed by 50%. Stickiness cannot be removed.	icon_status.minusmove_tex
 47662120	ASpd	0	0	perc	86400000	0	1.05	Oiling			Increases Attack Speed by 5%. This effect can be stacked up to 3 times.	icon_status.plusmove_tex
 47662130	AtkPotion	0	0	perc	30000	0	2	Perfect Machine			Resists any damage 100% and increases skill damage by 100%.	icon_status.plusattack_tex
@@ -2406,7 +2432,7 @@
 47680700	Power	0	0	perc	600000	0	1	Rage Explosion!			Oh, I think the pattern experiment has failed... You look very angry...	icon_status.diseaseup_tex
 47680800	MaxHP	0	0	perc	7200000	0	1.05	Beyonder			Increases maximum HP by 5% per stack.	icon_status.darkriftgravity_tex
 47681000	Power	0	0	perc	20000	0	1.1	Nexus Frenetics			Increases Power by 10% every time it stacks. Nexus Frenetics can stack up to 5 times and cannot be removed.	icon_status.darkriftarearage_tex
-47681100	CDR	0	0	perc	20000	0	0.9	Nexus Celerity			Decreases the cooldown of all skills by 10% every time it stacks. Nexus Celerity can stack up to 5 times and cannot be removed.	icon_status.darkriftareatimeshift_tex
+47681100	CDR	0	0	swch	20000	0	0.9	Nexus Celerity			Decreases the cooldown of all skills by 10% every time it stacks. Nexus Celerity can stack up to 5 times and cannot be removed.	icon_status.darkriftareatimeshift_tex
 47681200	ASpd	0	0	perc	20000	0	1.1	Nexus Haste			Increases Attack Speed by 10% every time it stacks. Nexus Haste can stack up to 5 times and cannot be removed.	icon_status.darkriftareawind_tex
 47681400	Power	0	0	perc	20000	0	1.2	Nexus Revelry			Increases Power by 20% every time it stacks. When it is stacks 5 times, you are forced to dance and the counter resets. Nexus Revelry cannot be removed.	icon_status.darkriftareadance_tex
 47681600	Endurance	0	0	perc	3600000	0	1	Nexus Call			You are being pulled into the nexus. You can enter Nexus Traverse. The two-hour cooldown for Nexus Traverse applies to all characters on this account.	icon_status.calldimension_tex
@@ -2709,15 +2735,15 @@
 81123214	MovSpd	0	0	abs	3000	0	33	Acceleration: Stage XIV			Out-of Combat Movement Speed increases by 33. Effect ends when resisting.	icon_ep.ep_transfer_speed_tex
 81123215	MovSpd	0	0	abs	3000	0	35	Acceleration: Stage XV			Out-of Combat Movement Speed increases by 35. Effect ends when resisting.	icon_ep.ep_transfer_speed_tex
 81300002	HPChange	0.01	0	perc	0	2	0.01	Arboreal Energy Crystal			Recovers 1% of maximum HP every 2s.	icon_status.aura_of_regeneration_hp_tex
-81300005	Endurance	0	0	perc	10000	0	1.3	Protective Aura			increases Endurace by 30%$COLOREND. Recovers 3% Max HP every 2 seconds.	icon_status.aura_of_regeneration_hp_tex
-81300005	HPChange	0.03	0	perc	10000	2	0.03	Protective Aura			increases Endurace by 30%$COLOREND. Recovers 3% Max HP every 2 seconds.	icon_status.aura_of_regeneration_hp_tex
+81300005	Endurance	0	0	perc	10000	0	1.3	Protective Aura			Increases Endurance by 30%. Recovers 3% Max HP every 2 seconds.	icon_status.aura_of_regeneration_hp_tex
+81300005	HPChange	0.03	0	perc	10000	2	0.03	Protective Aura			Increases Endurance by 30%. Recovers 3% Max HP every 2 seconds.	icon_status.aura_of_regeneration_hp_tex
 81300009	Attack	0	0	perc	120000	0	1.3	Gatekeeper's Blessing			Increases skill damage by 30%.	icon_status.balanceup_tex
 81300014	Power	0	0	perc	3600000	0	1.5	Banyakas's Rage			Increases Power by 50% and Attack Speed by 10%.	icon_status.cruel_slayer_3_tex
 81300014	ASpd	0	0	perc	3600000	0	1.1	Banyakas's Rage			Increases Power by 50% and Attack Speed by 10%.	icon_status.cruel_slayer_3_tex
 81300015	HPChange	-0.03	0	perc	10000	2	-0.03	Banyakas's Flames			Decreases 3% Max HP every 2s.	icon_status.firedamage_tex
 81300016	MovSpd	0	0	setp	10000	0	0.5	Banyakas's Sticky Fruit			Decreases Movement Speed by 50%.	icon_status.poisonstatus_tex
 81300017	AtkPotion	0	0	perc	1800000	2	1	Forest's Blessing			Increases skill damage by 80% and skill cooltime decreases by 20%. Applies only to Priests and Mystics.	icon_status.cruel_slayer_4_tex
-81300017	CDR	0	0	perc	1800000	0	0.8	Forest's Blessing			Increases skill damage by 80% and skill cooltime decreases by 20%. Applies only to Priests and Mystics.	icon_status.cruel_slayer_4_tex
+81300017	CDR	0	0	swch	1800000	0	0.8	Forest's Blessing			Increases skill damage by 80% and skill cooltime decreases by 20%. Applies only to Priests and Mystics.	icon_status.cruel_slayer_4_tex
 81300018	AtkPotion	0	0	perc	1800000	2	1.1	Forest Warden's Power			Increases skill damage by 10%.	icon_status.cruel_slayer_3_tex
 81300019	HPChange	0.02	0	perc	1800000	2	0.02	Forest Warden's Recovery			Recovers 2% of your maximum HP every 2s.	icon_status.aura_of_regeneration_hp_tex
 81300020	Power	0	0	perc	600000	0	1.3	Contaminated Dust			Increases Power by 30%.	icon_status.plusattack_tex
@@ -3663,7 +3689,7 @@
 999009500	HPChange	-0.1	0	perc	3930000	5	-0.1	Life Leech			Reduces HP by 10% of maximum every 5 seconds.	icon_status.poisondown_tex
 999009700	Power	0	0	perc	60000	0	1.5	Unseen Power			Invisible to enemies. Power increases by 50%.	icon_status.immunedebuff_tex
 999009710	HPChange	10000	0	abs	1000	1	10000	HP Replenishment			Replenishes HP by 10,000.	icon_items.potion14_tex
-999009720	CDR	0	0	perc	60000	0	0.8	Cooldown Decreases			Decreases cooldown by 20%.	icon_status.pluswill_tex
+999009720	CDR	0	0	swch	60000	0	0.8	Cooldown Decreases			Decreases cooldown by 20%.	icon_status.pluswill_tex
 999009730	MovSpdInCombat	0	0	seta	60000	0	240	Movement Speed Increases			Movement Speed increases to 240.	icon_status.aura_of_wind_tex
 999009740	MPChange	0	10000	abs	60000	1	10000	MP Replenishment			Replenishes MP.	icon_skills.mpcharge_tex
 999009750	Endurance	0	0	perc	1	0	1	Da Bomb			Became a suicide soldier. Right-click to explode and inflict damage to everyone around you.	icon_skills.explosiontrap_tex
