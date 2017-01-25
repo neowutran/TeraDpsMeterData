@@ -1697,9 +1697,9 @@
 781002	Power	0	0	perc	10000	0	1	무기력			스킬을 사용할 수 없습니다.	icon_status.confuseup_tex
 781003	Power	0	0	perc	3000	0	1	반갑지 않은 매력			모든 적대적인 대상이 당신을 공격하려고 합니다!	icon_status.confuseup_tex
 781004	Power	0	0	perc	10000	0	1	술래			술래가 되었습니다! 유령이 당신을 쫓아갑니다!	icon_status.injuredbtdarkness_tex
-781010	HPChange	-0.05	0	perc	7000	1	-0.05	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
-781010	Block	0	0	swch	7000	0	0	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
-781011	HPChange	-0.1	0	perc	15000	3	-0.1	화상			3s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소됩니다. 다르칸의 꺼지지 않는 불꽃은 해제할 수 없습니다.	icon_status.firedamage_tex
+781010	HPChange	-0.03	0	perc	7000	1	-0.03	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 3%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
+781010	Block	0	0	swch	7000	0	0	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 3%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
+781011	HPChange	-0.03	0	perc	15000	3	-0.03	화상			3s마다 전체 HP 대비 3%에 달하는 HP가 지속적으로 감소됩니다. 다르칸의 꺼지지 않는 불꽃은 해제할 수 없습니다.	icon_status.firedamage_tex
 781016	Power	0	0	perc	6000000	0	1.1	듀리온의 광기			부활한 듀리온이 점점 광기에 휩쌓입니다! 공격력이 10%증가하고, 방어력이 5%하락합니다.	icon_skills.gatheringrage_tex
 781016	Endurance	0	0	perc	6000000	0	0.95	듀리온의 광기			부활한 듀리온이 점점 광기에 휩쌓입니다! 공격력이 10%증가하고, 방어력이 5%하락합니다.	icon_skills.gatheringrage_tex
 781018	HPChange	-300000	0	seta	17000	17	-300000	듀리온의 저주			17s마다 전체 HP 대비 100%에 달하는 HP가 지속적으로 감소됩니다. 정화장치에 접근해야만 해제할 수 있습니다!	icon_status.firedamage_tex
@@ -1708,6 +1708,8 @@
 781027	MovSpd	0	0	perc	10000	0	1	흑마력 집중			부활한 듀리온이 당신에게 흑마력을 집중하고 있습니다. 뭔가 불길한 예감이 듭니다.	icon_status.minusfocus_tex
 781028	MovSpd	0	0	perc	30000	0	0.26	흑마력 방패			부활한 듀리온이 사악한 흑마력으로 온 몸을 방어하고 있습니다.	icon_skills.manashield_tex
 781028	MovSpdInCombat	0	0	perc	30000	0	0.26	흑마력 방패			부활한 듀리온이 사악한 흑마력으로 온 몸을 방어하고 있습니다.	icon_skills.manashield_tex
+781029	MovSpd	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
+781029	MovSpdInCombat	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
 781036	Power	0	0	perc	0	0	1.1	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도가 5% 상승합니다.	icon_status.archerspirit_tex
 781036	MovSpd	0	0	perc	0	0	1.05	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도가 5% 상승합니다.	icon_status.archerspirit_tex
 781038	MovSpd	0	0	perc	30000	0	0.5	부담감			신을 상대하는 부담감으로 이동 속도가 저하됩니다! 해제 가능합니다!	icon_status.archerspirit_tex
@@ -1728,6 +1730,8 @@
 781061	Endurance	0	0	perc	6000000	0	0.8	집중력 하락			라칸의 공격에 맞아 정신이 멍해졌습니다. 방어력이 10%하락하며, 최대 5중첩까지 쌓입니다.	icon_status.fearstatus_tex
 781081	Power	0	0	perc	20000000	0	1	순간 이동 후유증			순간 이동의 후유증으로 3만의 피해를 입습니다.	icon_status.firedamage_tex
 781083	MovSpd	0	0	perc	30000	0	1	집중 주시대상			부활한 듀리온이 나만 쳐다보는 것 같습니다. 뭔가 끔찍한 일이 일어 날 것 같습니다!	icon_skills.througharrow_tex
+781087	MovSpd	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
+781087	MovSpdInCombat	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
 781088	MovSpd	0	0	perc	30000	0	1	주시			부활한 듀리온이 당신을 주시하고 있습니다. 불길합니다.	icon_skills.markingofarcher_tex
 781089	Power	0	0	perc	990000000	0	1.03	불안정한 마기			부활한 듀리온이 라칸의 권능을 빌려 마기를 폭주시켰습니다. 부활한 듀리온의 공격력이 강해지고 공격 속도가 더 빨라지지만 그의 몸이 불안정한 마기로 둘러싸입니다. 만약, 마기를 안정화할 시간이 주어진다면 감당할 수 없을 것입니다.	icon_status.darkriftarearage_tex
 781089	ASpd	0	0	perc	990000000	0	1.03	불안정한 마기			부활한 듀리온이 라칸의 권능을 빌려 마기를 폭주시켰습니다. 부활한 듀리온의 공격력이 강해지고 공격 속도가 더 빨라지지만 그의 몸이 불안정한 마기로 둘러싸입니다. 만약, 마기를 안정화할 시간이 주어진다면 감당할 수 없을 것입니다.	icon_status.darkriftarearage_tex
@@ -2043,8 +2047,8 @@
 981002	Power	0	0	perc	10000	0	1	무기력			스킬을 사용할 수 없습니다.	icon_status.confuseup_tex
 981003	Power	0	0	perc	3000	0	1	반갑지 않은 매력			모든 적대적인 대상이 당신을 공격하려고 합니다!	icon_status.confuseup_tex
 981004	Power	0	0	perc	10000	0	1	술래			술래가 되었습니다! 유령이 당신을 쫓아갑니다!	icon_status.injuredbtdarkness_tex
-981010	HPChange	-0.08	0	perc	10000	1	-0.08	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
-981010	Block	0	0	swch	10000	0	0	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
+981010	HPChange	-0.08	0	perc	10000	1	-0.08	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 8%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
+981010	Block	0	0	swch	10000	0	0	암흑 파편			해제될 때까지 1s마다 전체 HP 대비 8%에 달하는 HP가 지속적으로 감소되며, 스킬을 사용할 수 없습니다. 	icon_status.fearstatus_tex
 981011	HPChange	-0.1	0	perc	15000	3	-0.1	화상			3s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소됩니다. 다르칸의 꺼지지 않는 불꽃은 해제할 수 없습니다.	icon_status.firedamage_tex
 981016	Power	0	0	perc	6000000	0	1.1	듀리온의 광기			부활한 듀리온이 점점 광기에 휩쌓입니다! 공격력이 10%증가하고, 방어력이 5%하락합니다.	icon_skills.gatheringrage_tex
 981016	Endurance	0	0	perc	6000000	0	0.95	듀리온의 광기			부활한 듀리온이 점점 광기에 휩쌓입니다! 공격력이 10%증가하고, 방어력이 5%하락합니다.	icon_skills.gatheringrage_tex
@@ -2054,9 +2058,11 @@
 981027	MovSpd	0	0	perc	10000	0	1	흑마력 집중			부활한 듀리온이 당신에게 흑마력을 집중하고 있습니다. 뭔가 불길한 예감이 듭니다.	icon_status.minusfocus_tex
 981028	MovSpd	0	0	perc	30000	0	0.26	흑마력 방패			부활한 듀리온이 사악한 흑마력으로 온 몸을 방어하고 있습니다.	icon_skills.manashield_tex
 981028	MovSpdInCombat	0	0	perc	30000	0	0.26	흑마력 방패			부활한 듀리온이 사악한 흑마력으로 온 몸을 방어하고 있습니다.	icon_skills.manashield_tex
-981036	Power	0	0	perc	0	0	1.1	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도가 5% 상승합니다.	icon_status.archerspirit_tex
-981036	MovSpd	0	0	perc	0	0	1.05	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도가 5% 상승합니다.	icon_status.archerspirit_tex
-981036	ASpd	0	0	perc	0	0	1.05	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도가 5% 상승합니다.	icon_status.archerspirit_tex
+981029	MovSpd	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
+981029	MovSpdInCombat	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
+981036	Power	0	0	perc	0	0	1.1	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도와 공격 속도가 5% 상승합니다.	icon_status.archerspirit_tex
+981036	MovSpd	0	0	perc	0	0	1.05	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도와 공격 속도가 5% 상승합니다.	icon_status.archerspirit_tex
+981036	ASpd	0	0	perc	0	0	1.05	광폭화			다시 찾아온 죽음의 위기 앞에서 부활한 다르칸이 분노합니다. 공격력이 10%상승하고, 이동 속도와 공격 속도가 5% 상승합니다.	icon_status.archerspirit_tex
 981038	MovSpd	0	0	perc	30000	0	0.5	부담감			신을 상대하는 부담감으로 이동 속도가 저하됩니다! 해제 가능합니다!	icon_status.archerspirit_tex
 981038	MovSpdInCombat	0	0	perc	30000	0	0.5	부담감			신을 상대하는 부담감으로 이동 속도가 저하됩니다! 해제 가능합니다!	icon_status.archerspirit_tex
 981040	HPChange	-0.07	0	perc	120000	1	-0.07	고통			신의 공격에 맞아 체력이 지속적으로 감소합니다.	icon_status.firedamage_tex
@@ -2075,6 +2081,8 @@
 981061	Endurance	0	0	perc	6000000	0	0.8	집중력 하락			라칸의 공격에 맞아 정신이 멍해졌습니다. 방어력이 10%하락하며, 최대 5중첩까지 쌓입니다.	icon_status.fearstatus_tex
 981081	Power	0	0	perc	20000000	0	1	순간 이동 후유증			순간 이동의 후유증으로 3만의 피해를 입습니다.	icon_status.firedamage_tex
 981083	MovSpd	0	0	perc	30000	0	1	집중 주시대상			부활한 듀리온이 나만 쳐다보는 것 같습니다. 뭔가 끔찍한 일이 일어 날 것 같습니다!	icon_skills.througharrow_tex
+981087	MovSpd	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
+981087	MovSpdInCombat	0	0	setp	30000	0	0	암흑 패기			부활한 듀리온의 흑마법이 온 몸을 파고들어 몸을 움직일 수 없습니다.	icon_status.staminadown_tex
 981088	MovSpd	0	0	perc	30000	0	1	주시			부활한 듀리온이 당신을 주시하고 있습니다. 불길합니다.	icon_skills.markingofarcher_tex
 981089	Power	0	0	perc	990000000	0	1.03	불안정한 마기			부활한 듀리온이 라칸의 권능을 빌려 마기를 폭주시켰습니다. 부활한 듀리온의 공격력이 강해지고 공격 속도가 더 빨라지지만 그의 몸이 불안정한 마기로 둘러싸입니다. 만약, 마기를 안정화할 시간이 주어진다면 감당할 수 없을 것입니다.	icon_status.darkriftarearage_tex
 981089	ASpd	0	0	perc	990000000	0	1.03	불안정한 마기			부활한 듀리온이 라칸의 권능을 빌려 마기를 폭주시켰습니다. 부활한 듀리온의 공격력이 강해지고 공격 속도가 더 빨라지지만 그의 몸이 불안정한 마기로 둘러싸입니다. 만약, 마기를 안정화할 시간이 주어진다면 감당할 수 없을 것입니다.	icon_status.darkriftarearage_tex
@@ -2281,12 +2289,12 @@
 10154030	AtkPotion	0	0	swch	0	0	1.05	검기술			검기가 발현되어 공격력이 증가합니다.	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0	0	swch	60000	0	1.01	강력한 검기			강력한 검기가 발현되어 공격력이 더 증가합니다.	icon_skills.c12_atkupbuff
 10154090	Endurance	0	0	perc	60000	0	1	변신술 I			상대의 모습으로 변신한 상태입니다.	icon_skills.c12_transform
-10155030	AtkPotion	0	0	perc	0	0	1.2	보름달의 향연			달빛의 기운을 받아 주는 피해량이 중첩 당 20%씩 증가합니다.	icon_skills.fullmoon_tex
-10155031	AtkPotion	0	0	perc	0	0	1.3	피 보름달의 향연			달빛의 기운을 받아 주는 피해량이 중첩 당 30%씩 증가합니다.	icon_skills.fullmoon_red_tex
-10155036	AtkPotion	0	0	perc	0	0	1.2	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 20%, 치명타 확률이 0.2배씩 증가합니다.	icon_skills.fullmoon_tex
-10155036	CritChance	0	0	perc	0	0	1.2	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 20%, 치명타 확률이 0.2배씩 증가합니다.	icon_skills.fullmoon_tex
-10155037	AtkPotion	0	0	perc	0	0	1.3	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 30%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex
-10155037	CritChance	0	0	perc	0	0	1.3	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 30%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex
+10155030	AtkPotion	0	0	perc	0	0	1.1	보름달의 향연			달빛의 기운을 받아 주는 피해량이 10% 증가합니다.	icon_skills.fullmoon_tex
+10155031	AtkPotion	0	0	perc	0	0	1.15	피 보름달의 향연			달빛의 기운을 받아 주는 피해량이 15% 증가합니다.	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	0	0	perc	0	0	1.1	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 10%, 치명타 확률이 0.2배씩 증가합니다.	icon_skills.fullmoon_tex
+10155036	CritChance	0	0	perc	0	0	1.2	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 10%, 치명타 확률이 0.2배씩 증가합니다.	icon_skills.fullmoon_tex
+10155037	AtkPotion	0	0	perc	0	0	1.1	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 10%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex
+10155037	CritChance	0	0	perc	0	0	1.3	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 10%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex
 10155130	Power	0	0	abs	25000	0	50	적월			피로 적신 달빛의 기운을 받습니다. 힘 50, 공격 속도 20, 공격 범위 20%가 증가합니다. 효과를 받는 즉시 [회피]와 [기상 공격]을 제외한 재사용 시간이 60초 미만인 스킬들의 재사용 시간이 모두 초기화되고, 효과가 지속되는 동안 해당 스킬들의 재사용 시간이 60%씩 감소됩니다.	icon_skills.redmoon_tex
 10155130	Endurance	0	0	swch	1500	0	0	적월			피로 적신 달빛의 기운을 받습니다. 힘 50, 공격 속도 20, 공격 범위 20%가 증가합니다. 효과를 받는 즉시 [회피]와 [기상 공격]을 제외한 재사용 시간이 60초 미만인 스킬들의 재사용 시간이 모두 초기화되고, 효과가 지속되는 동안 해당 스킬들의 재사용 시간이 60%씩 감소됩니다.	icon_skills.redmoon_tex
 10155130	ASpd	0	0	abs	25000	0	20	적월			피로 적신 달빛의 기운을 받습니다. 힘 50, 공격 속도 20, 공격 범위 20%가 증가합니다. 효과를 받는 즉시 [회피]와 [기상 공격]을 제외한 재사용 시간이 60초 미만인 스킬들의 재사용 시간이 모두 초기화되고, 효과가 지속되는 동안 해당 스킬들의 재사용 시간이 60%씩 감소됩니다.	icon_skills.redmoon_tex
@@ -3542,14 +3550,10 @@
 98000091	HPChange	-0.06	0	perc	10000	3	-0.06	출혈			새끼새의 강력한 일격에 의해 출혈이 발생해 이동 속도가 50% 감소되고, 3 마다 전체 HP 대비 6%에 달하는 HP가 지속적으로 감소됩니다.	icon_status.minuscriticalresist_tex
 98000092	HPChange	0.0033	0	perc	12000	3	0.0033	새끼의 축복			3s마다 전체 HP 대비 0.33%에 달하는 HP가 지속적으로 회복됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	50000	0	abs	1000	1	50000	사제의 손길			체력이 3만 회복됩니다.	icon_items.potion5_tex
-98000100	Power	0	0	abs	10000000	0	25	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 힘의 축복II(힘25), 보호의 축복II(맷집11), 재생의 축복V(체력 지속 회복), 인내의 축복I(모든 이상상태 저항5), 신성한번개(힘40, 공속8), 맷집 감소(10%)의 효과를 얻었습니다.	icon_skills.attackup_tex
-98000100	Endurance	0	0	abs	10000000	0	11	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 힘의 축복II(힘25), 보호의 축복II(맷집11), 재생의 축복V(체력 지속 회복), 인내의 축복I(모든 이상상태 저항5), 신성한번개(힘40, 공속8), 맷집 감소(10%)의 효과를 얻었습니다.	icon_skills.attackup_tex
-98000100	ASpd	0	0	abs	10000000	0	8	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 힘의 축복II(힘25), 보호의 축복II(맷집11), 재생의 축복V(체력 지속 회복), 인내의 축복I(모든 이상상태 저항5), 신성한번개(힘40, 공속8), 맷집 감소(10%)의 효과를 얻었습니다.	icon_skills.attackup_tex
-98000100	HPChange	773	0	abs	10000000	2	773	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 힘의 축복II(힘25), 보호의 축복II(맷집11), 재생의 축복V(체력 지속 회복), 인내의 축복I(모든 이상상태 저항5), 신성한번개(힘40, 공속8), 맷집 감소(10%)의 효과를 얻었습니다.	icon_skills.attackup_tex
-98000101	Power	0	0	abs	10000000	0	25	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계 (치명타유발 2배), 정신의 결계 (1초마다 MP 20 회복), 수호의정령 문장효과(맷집 10% 상승), 맷집 감소(10%) 효과를 얻었습니다.	icon_status.plusecritical_tex
-98000101	Endurance	0	0	perc	10000000	0	1.1	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계 (치명타유발 2배), 정신의 결계 (1초마다 MP 20 회복), 수호의정령 문장효과(맷집 10% 상승), 맷집 감소(10%) 효과를 얻었습니다.	icon_status.plusecritical_tex
-98000101	Crit	0	0	perc	10000000	0	2	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계 (치명타유발 2배), 정신의 결계 (1초마다 MP 20 회복), 수호의정령 문장효과(맷집 10% 상승), 맷집 감소(10%) 효과를 얻었습니다.	icon_status.plusecritical_tex
-98000101	MPChange	0	20	abs	10000000	1	20	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계 (치명타유발 2배), 정신의 결계 (1초마다 MP 20 회복), 수호의정령 문장효과(맷집 10% 상승), 맷집 감소(10%) 효과를 얻었습니다.	icon_status.plusecritical_tex
+98000100	Power	0	0	abs	2400000	0	25	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 힘의 축복II(힘25), 보호의 축복II(맷집11), 재생의 축복V(체력 지속 회복), 인내의 축복I(모든 이상상태 저항5), 신성한번개(힘40, 공속8), 맷집 감소(10%)의 효과를 얻었습니다.	icon_skills.attackup_tex
+98000100	Endurance	0	0	abs	900000	0	11	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 힘의 축복II(힘25), 보호의 축복II(맷집11), 재생의 축복V(체력 지속 회복), 인내의 축복I(모든 이상상태 저항5), 신성한번개(힘40, 공속8), 맷집 감소(10%)의 효과를 얻었습니다.	icon_skills.attackup_tex
+98000101	Endurance	0	0	perc	99999999	0	1.1	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계 (치명타유발 2배), 정신의 결계 (1초마다 MP 20 회복), 수호의정령 문장효과(맷집 10% 상승), 맷집 감소(10%) 효과를 얻었습니다.	icon_status.plusecritical_tex
+98000101	MPChange	0	-30	abs	0	2	-30	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계 (치명타유발 2배), 정신의 결계 (1초마다 MP 20 회복), 수호의정령 문장효과(맷집 10% 상승), 맷집 감소(10%) 효과를 얻었습니다.	icon_status.plusecritical_tex
 98000102	MaxHP	0	0	perc	99999999	0	1.05	일일 플레이 가이드 버프 물약			힘 6 증가, 최대 HP 5% 증가, 평화상태 이동속도 20증가합니다.	
 98000102	Power	0	0	abs	99999999	0	6	일일 플레이 가이드 버프 물약			힘 6 증가, 최대 HP 5% 증가, 평화상태 이동속도 20증가합니다.	
 98000103	ASpd	0	0	perc	0	0	1.04	수호의 연계 III			모든 공격 스킬에 의한 적대치가 20% 향상되고, 공격 속도가 4% 향상됩니다. 추가로 받는 피해가 10% 감소되며, 다운 / 경직 발생 확률도 30% 감소됩니다.	
@@ -3562,6 +3566,9 @@
 98000105	AtkPotion	0	0	perc	0	0	1.1	회복의 연계 III			스킬 데미지가 10% 향상되고, 받는 피해가 10% 감소됩니다. 추가로 공격 속도도 4% 향상됩니다.	
 98000106	Endurance	0	0	perc	10000000	0	0.9	맷집 감소 [약화의 문장]			맷집이 10% 감소됩니다.	icon_crest.crestactivedefencedown_tex
 98000106	CritResist	0	0	abs	10000000	0	-12	맷집 감소 [약화의 문장]			맷집이 10% 감소됩니다.	icon_crest.crestactivedefencedown_tex
+98000107	Power	0	0	abs	99999999	0	40	신성의 번개 IV			힘이 40 증가하고, 공격 속도도 8 향상됩니다.	icon_skills.divinelightning_tex
+98000107	ASpd	0	0	abs	99999999	0	8	신성의 번개 IV			힘이 40 증가하고, 공격 속도도 8 향상됩니다.	icon_skills.divinelightning_tex
+98000108	Endurance	0	0	perc	99999999	0	1.1	맷집 증가 [협동의 문장]			맷집이 10% 향상됩니다.	icon_crest.crestactivedefenceup_tex
 98850002	DropUp	0	0	perc	7200000	0	1.2	풍요의 축복 I			풍요의 마석을 수호하여 보상율이 25% 증가합니다.	icon_items.tresurebox3_tex
 98850003	DropUp	0	0	perc	7200000	0	1.4	풍요의 축복 II			풍요의 마석을 수호하여 보상율이 50% 증가합니다.	icon_items.tresurebox3_tex
 98850004	DropUp	0	0	perc	7200000	0	1.6	풍요의 축복 III			풍요의 마석을 수호하여 보상율이 75% 증가합니다.	icon_items.tresurebox3_tex
