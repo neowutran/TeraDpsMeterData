@@ -32,7 +32,7 @@
 602	ASpd	0	0	abs	0	0	6	インサニティーオーラ II			狂気の精霊の気により、力が 25 増加し、攻撃速度も 6 上昇します。 使用者が周囲30m範囲内にいる場合のみ効果を受けることができます。	icon_skills.rage_tex
 603	Power	0	0	abs	0	0	40	インサニティーオーラ III			狂気の精霊の気により、力が 40 増加し、攻撃速度も 6 上昇します。 使用者が周囲30m範囲内にいる場合のみ効果を受けることができます。	icon_skills.rage_tex
 603	ASpd	0	0	abs	0	0	6	インサニティーオーラ III			狂気の精霊の気により、力が 40 増加し、攻撃速度も 6 上昇します。 使用者が周囲30m範囲内にいる場合のみ効果を受けることができます。	icon_skills.rage_tex
-902	Noctenium	0	0	swch	0	0	1	ノクタニウム強化弾	1300	ノクタニウム強化弾	ノクタニウム強化弾を使用し、スキルの効果を増大させます。 効果持続中はPvP攻撃力が8、PvP防御力が8上昇します。	icon_items.union_supplies5_tex
+902	Noctenium	0	0	swch	0	0	1	ノクタニウム強化弾	1300	ノクタニウム強化弾	ノクタニウム強化弾を使用して、スキル効果を増大させます。	icon_items.union_supplies5_tex
 903	Power	0	0	abs	30000	0	15	殺意			殺意により、力が15、攻撃速度が8%、クリティカル率が4%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
 903	MovSpd	0	0	perc	30000	0	1.04	殺意			殺意により、力が15、攻撃速度が8%、クリティカル率が4%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
 903	Crit	0	0	perc	30000	0	1.04	殺意			殺意により、力が15、攻撃速度が8%、クリティカル率が4%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex
@@ -42,10 +42,14 @@
 906	MPChange	0	50	abs	5000	1	50	リプロダクションサンクチュアリ―魔力回復			1s毎に50ずつMPが持続回復します。	icon_status.plusmp_tex
 907	ASpd	0	0	perc	15000	0	1.2	インサニティーエレメンタル―加速			最初に使用するスキルに対してのみ発動速度が20%増加します。	icon_status.plusattack_tex
 910	Noctenium	0	0	swch	0	0	2	上級ノクタニウム強化弾―テスト用	1230	上級ノクタニウム強化弾―テスト用	テスト用上級ノクタニウム強化弾	icon_items.union_supplies5_tex
-911	Noctenium	0	0	swch	0	0	3	ノクタニウム強化弾	1301	【連盟補給品】ノクタニウム強化弾	ノクタニウム強化弾を使用し、スキルの効果を増大させます。 効果持続中はPvP攻撃力が8、PvP防御力が8上昇します。	icon_items.union_supplies5_tex
-912	Noctenium	0	0	swch	0	0	4	ノクタニウム強化弾	1302	【訓練所補給品】ノクタニウム強化弾	ノクタニウム強化弾を使用し、スキルの効果を増大させます。 効果持続中はPvP攻撃力が8、PvP防御力が8上昇します。	icon_items.union_supplies5_tex
-913	Noctenium	0	0	swch	0	0	5	ノクタニウム強化弾	1303	［帰属］ノクタニウム強化弾	ノクタニウム強化弾を使用し、スキルの効果を増大させます。 効果持続中はPvP攻撃力が8、PvP防御力が8上昇します。	icon_items.union_supplies5_tex
-916	Noctenium	0	0	swch	0	0	6	ノクタニウム強化弾	81212	補給品：ノクタニウム強化弾	ノクタニウム強化弾を使用し、スキルの効果を増大させます。 効果持続中はPvP攻撃力が8、PVP防御力が8上昇します。	icon_items.union_supplies5_tex
+911	Noctenium	0	0	swch	0	0	3	ノクタニウム強化弾	1301	【連盟補給品】ノクタニウム強化弾	ノクタニウム強化弾を使用して、スキル効果を増大させます。	icon_items.union_supplies5_tex
+912	Noctenium	0	0	swch	0	0	4	ノクタニウム強化弾	1302	【訓練所補給品】ノクタニウム強化弾	ノクタニウム強化弾を使用して、スキル効果を増大させます。	icon_items.union_supplies5_tex
+913	Noctenium	0	0	swch	0	0	5	ノクタニウム強化弾	1303	［帰属］ノクタニウム強化弾	ノクタニウム強化弾を使用して、スキル効果を増大させます。	icon_items.union_supplies5_tex
+916	Noctenium	0	0	swch	0	0	6	ノクタニウム強化弾	81212	補給品：ノクタニウム強化弾	ノクタニウム強化弾を使用して、スキル効果を増大させます。	icon_items.union_supplies5_tex
+920	AtkPotion	0	0	perc	600000	0	1	上級ノクタニウム効果【高級】	200920	上級ノクタニウム強化弾【高級】	スキル效果を上昇させます。ノクタニウム強化弾の 1.5倍の効果を持ち、全てのスキルの攻撃力が 4～12％上昇します。(一部スキルのみ 6～20％上昇します。)通常のノクタニウム強化弾の效果と重複して適用されません。	icon_items.noctan_tex
+921	AtkPotion	0	0	perc	900000	0	1	上級ノクタニウム効果【貴重】	200921	上級ノクタニウム強化弾【貴重】	スキル效果を上昇させます。ノクタニウム強化弾の 1.5倍の効果を持ち、全てのスキルの攻撃力が 4～12％上昇します。(一部スキルのみ 6～20％上昇します。)通常のノクタニウム強化弾の效果と重複して適用されません。	icon_items.noctan_tex
+922	AtkPotion	0	0	perc	1800000	0	1	上級ノクタニウム効果【伝説】	200922	上級ノクタニウム強化弾【伝説】	スキル效果を上昇させます。ノクタニウム強化弾の 1.5倍の効果を持ち、全てのスキルの攻撃力が 4～12％上昇します。(一部スキルのみ 6～20％上昇します。)通常のノクタニウム強化弾の效果と重複して適用されません。	icon_items.noctan_tex
+929	AtkPotion	0	0	perc	300000	0	1	上級ノクタニウム効果【テスト用】			スキルの效果を上昇させます。一般ノクタニウム強化弾の效果の150％で效果が上昇します。オーバーライディングがない状態で 上級ノクタニウム強化弾に中毒されている間、PVP攻撃力が12、PVP防御力が12上昇します。	icon_items.union_supplies5_tex
 1130	MPChange	0	0.04	perc	25000	1	0.04	ハートキャンディー	435	ハートキャンディー	キャンディーの甘さにより、1s毎に全MPの4％が回復します。	icon_items.heartlollipop_tex
 1131	MPChange	0	0.5	perc	1000	1	0.5	ハートチョコレート	434	ハートチョコレート	チョコレートの強烈な甘さにより、全MPの50％が即時に回復します。	icon_items.heartchocolate_tex
 1133	MPChange	0	0.04	perc	25000	1	0.04	キラキラキャンディー			キャンディーにより、1s毎に全MPの4％が回復します。	icon_items.heartlollipop_tex
@@ -726,7 +730,7 @@
 24150	MPChange	0	0.06	perc	5000	1	0.06	執念(精神の紋章)			1s毎に全MPの6％が回復します。	icon_skills.tenacity_tex
 24160	Crit	0	0	perc	0	0	2	跳躍斬り(必殺の紋章)			クリティカル発生が2倍上昇します。	icon_skills.downattack_tex
 24161	Crit	0	0	perc	0	0	2	アックススロー(必殺の紋章)			クリティカル発生が2倍上昇します。	icon_skills.throwaxe_tex
-24181	AtkPotion	0	0	perc	10000	0	1.25	ウェポンディフェンス(連闘の紋章)			連係して「カットバック」使用時、スキル威力が25%上昇します。	icon_skills.weapondefence_tex
+24181	AtkPotion	0	0	perc	10000	0	1.25	ウェポンディフェンス(連闘の紋章)			連係して「アックスカウンター」使用時、スキル威力が25%上昇します。	icon_skills.weapondefence_tex
 24190	CastSpeed	0	0	perc	6000	0	1.3	モッキングシャウト(連迅の紋章)			連係して「サイクロン」使用時、チャージ速度が30%上昇します。	icon_skills.shockingshout_tex
 25010	Power	0	0	perc	15000	0	1.1	マナシールド(力の紋章)			力が10%上昇します。	icon_skills.manashield_tex
 25020	Endurance	0	0	perc	15000	0	1.2	マナシールド(保護の紋章)			耐久力が20%上昇します。	icon_skills.manashield_tex
@@ -878,6 +882,8 @@
 60025	HPChange	-1200	0	abs	10000	1	-1200	女神の報復 IV			鋭利な鎧によって出血しました。HPが1s毎に-1200ずつ減少します。	icon_status.minuscriticalresist_tex
 60027	HPChange	1405	0	abs	15000	1	1405	女神の免罪IV			1s毎にHPが1405ずつ、MPが145ずつ回復します。	icon_items.body_enchant_scroll_3_tex
 60027	MPChange	0	145	abs	15000	1	145	女神の免罪IV			1s毎にHPが1405ずつ、MPが145ずつ回復します。	icon_items.body_enchant_scroll_3_tex
+60029	MPChange	0	0.05	perc	10000	1	0.05	精神集中 II			1s毎に全MPの5％が回復します。	icon_skills.neutralizepoison_tex
+60030	MPChange	0	0.03	perc	10000	1	0.03	精神集中 I			1s毎に全MPの3％が回復します。	icon_skills.neutralizepoison_tex
 70201	MaxHP	0	0	perc	900000	0	1.05	ポップコーン	71415	ポップコーン	最大HPが5%増加します。	icon_items.fallfestival_popcorn_tex
 70202	HPChange	0.01	0	perc	900000	5	0.01	ポテトサラダ	71416	ポテトサラダ	5s毎に全HPの1％が回復します。	icon_items.fallfestival_potatosalad_tex
 70203	MPChange	0	0.01	perc	900000	5	0.01	ピグリンソテー	71417	ピグリンソテー	5s毎に$1％ずつMPが持続回復します。	icon_items.q_roastmeat_tex
@@ -954,18 +960,22 @@
 96903	MovSpd	0	0	perc	10000	0	0.9	火傷			移動速度が 10％ 減少されて2秒毎に HP 5％が減少します。この効果は重複し、解除できません。	icon_status.minuscriticalresist_tex
 96903	HPChange	-0.05	0	perc	10000	2	-0.05	火傷			移動速度が 10％ 減少されて2秒毎に HP 5％が減少します。この効果は重複し、解除できません。	icon_status.minuscriticalresist_tex
 96904	HPChange	-0.06	0	perc	5000	1	-0.06	精霊の花火			精霊の花火が防具の中に跳ね入り、1秒ごとに  HP 6％のダメージを与えます。この効果は解除できません。	icon_status.mprecoverup_tex
-100100	Power	0	0	abs	0	0	5	ブレードスタンス			力が5、クリティカル発生が30上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100100	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力が5、クリティカル発生が30上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100100	Crit	0	0	abs	0	0	30	ブレードスタンス			力が5、クリティカル発生が30上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100101	Power	0	0	abs	0	0	10	ブレードスタンス II			力が10、クリティカル発生が40上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100101	Endurance	0	0	perc	0	0	0.9	ブレードスタンス II			力が10、クリティカル発生が40上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100101	Crit	0	0	abs	0	0	40	ブレードスタンス II			力が10、クリティカル発生が40上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100102	Power	0	0	abs	0	0	15	ブレードスタンス			力が15、クリティカル発生が50上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100102	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力が15、クリティカル発生が50上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100102	Crit	0	0	abs	0	0	50	ブレードスタンス			力が15、クリティカル発生が50上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100103	Power	0	0	abs	0	0	18	ブレードスタンス IV			力が18、クリティカル発生が55上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100103	Endurance	0	0	perc	0	0	0.9	ブレードスタンス IV			力が18、クリティカル発生が55上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100103	Crit	0	0	abs	0	0	55	ブレードスタンス IV			力が18、クリティカル発生が55上昇しますが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100100	Power	0	0	abs	0	0	5	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100100	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100100	Crit	0	0	abs	0	0	30	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100100	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	Power	0	0	abs	0	0	10	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	Endurance	0	0	perc	0	0	0.9	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	Crit	0	0	abs	0	0	40	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	Power	0	0	abs	0	0	15	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	Crit	0	0	abs	0	0	50	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	Power	0	0	abs	0	0	18	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	Endurance	0	0	perc	0	0	0.9	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	Crit	0	0	abs	0	0	55	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
 100200	Endurance	0	0	perc	0	0	1.15	ディフェンススタンス I			耐久力が15%、均衡が20、追加ですべての攻撃スキルによる敵対値が65%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
 100200	Block	0	0	perc	0	0	0	ディフェンススタンス I			耐久力が15%、均衡が20、追加ですべての攻撃スキルによる敵対値が65%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
 100201	Endurance	0	0	perc	0	0	1.2	ディフェンススタンス II			耐久力が20%、均衡が20、追加ですべての攻撃スキルによる敵対値が80%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
@@ -992,15 +1002,19 @@
 100526	HPChange	-720	0	abs	10000	2	-720	ポイズンストライク VII			致命的な猛毒により、2s毎にHPが-720減少します。	icon_skills.poisonblowattack_tex
 100527	HPChange	-954	0	abs	10000	2	-954	ポイズンストライク VIII			致命的な猛毒により、2s毎にHPが-954減少します。	icon_skills.poisonblowattack_tex
 100528	HPChange	-1420	0	abs	10000	2	-1420	ポイズンストライク IX			致命的な猛毒により、2s毎にHPが-1420減少します。	icon_skills.poisonblowattack_tex
-100600	MPChange	0	-10	abs	0	2	-10	アンクルスラッシュ			一定の確率で対象の移動速度と攻撃速度を15％減少させます。2毎にMPが-10減少します。「連撃」使用時にのみ効果が発生します。	icon_skills.aimingankle_tex
+100600	MPChange	0	-10	abs	0	2	-10	ホミサイドオーラ			一定の確率で対象の移動速度と攻撃速度を15％減少させます。2毎にMPが-10減少します。「連撃」使用時にのみ効果が発生します。	icon_skills.murderousvent_tex
 100630	MovSpd	0	0	setp	5000	0	0.85	足首負傷			移動速度と攻撃速度が15%減少します。	icon_skills.aimingankle_tex
 100630	ASpd	0	0	perc	5000	0	0.85	足首負傷			移動速度と攻撃速度が15%減少します。	icon_skills.aimingankle_tex
-100800	CritChance	0	0	perc	20000	0	1.35	デッドリーウィル			クリティカル率が35%上昇します。	icon_skills.deadlywill_tex
-100801	CritChance	0	0	perc	20000	0	1.5	デッドリーウィル II			20s間、クリティカル率が50%上昇し、近距離攻撃スキルのクールタイムが50%減少します。	icon_skills.deadlywill_tex
-100801	CDR	0	0	swch	20000	0	0.5	デッドリーウィル II			20s間、クリティカル率が50%上昇し、近距離攻撃スキルのクールタイムが50%減少します。	icon_skills.deadlywill_tex
+100800	Power	0	0	perc	20000	0	1	デッドリーウィル			20s間クリティカル率が35%上昇します。 	icon_skills.deadlywill_tex
+100800	Endurance	0	0	perc	20000	0	1	デッドリーウィル			20s間クリティカル率が35%上昇します。 	icon_skills.deadlywill_tex
+100800	CritChance	0	0	perc	20000	0	1.35	デッドリーウィル			20s間クリティカル率が35%上昇します。 	icon_skills.deadlywill_tex
+100801	Power	0	0	perc	20000	0	1	デッドリーウィル II			20s間クリティカル率が50%上昇します。 效果持続時間中に使用した近接攻撃スキルのクールタイムが半分に減少し、持続時間中以下のスキルが強化されます。  - [ランブローXI]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ワイルドレイジ - ディセクトVII]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ゲイルレイザーII]：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex
+100801	Endurance	0	0	perc	20000	0	1	デッドリーウィル II			20s間クリティカル率が50%上昇します。 效果持続時間中に使用した近接攻撃スキルのクールタイムが半分に減少し、持続時間中以下のスキルが強化されます。  - [ランブローXI]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ワイルドレイジ - ディセクトVII]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ゲイルレイザーII]：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex
+100801	CritChance	0	0	perc	20000	0	1.5	デッドリーウィル II			20s間クリティカル率が50%上昇します。 效果持続時間中に使用した近接攻撃スキルのクールタイムが半分に減少し、持続時間中以下のスキルが強化されます。  - [ランブローXI]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ワイルドレイジ - ディセクトVII]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ゲイルレイザーII]：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex
+100801	CDR	0	0	swch	20000	0	0.5	デッドリーウィル II			20s間クリティカル率が50%上昇します。 效果持続時間中に使用した近接攻撃スキルのクールタイムが半分に減少し、持続時間中以下のスキルが強化されます。  - [ランブローXI]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ワイルドレイジ - ディセクトVII]：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。  - [ゲイルレイザーII]：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex
 101200	Endurance	0	0	perc	15000	0	0.92	コンバットストライク			耐久力が8%減少します。	icon_skills.aggravatingstrike_tex
 101220	Endurance	0	0	perc	15000	0	0.92	コンバットストライク			耐久力が8%、HP回復効果が30%減少します。	icon_skills.aggravatingstrike_tex
-101300	Endurance	0	0	perc	27000	0	0.9965	ワイルドレイジ - スラスト			重複する度に、耐久力が0.35%減少します。効果は最大13回まで重複します。	icon_skills.dualrapidpiercing_tex
+101300	ASpd	0	0	perc	27000	0	1.009	ワイルドレイジ - スラスト			重複する度に、攻撃者の攻撃速度が0.9％ずつ上昇します。この効果は、最大13回まで重複します。	icon_skills.dualrapidpiercing_tex
 101400	MovSpd	0	0	setp	3000	0	0.5	バイトスプリット			移動速度が50%減少します。	icon_skills.heavybite_tex
 101500	DefPotion	0	0	perc	15000	0	1.25	シュレッド			「ゲイルレイザー」命中時、スキル威力が25%増加します。	icon_skills.rupture_tex
 101600	Endurance	0	0	perc	15000	0	1	シャドウチェンジ			維持時間は「シャドウツイン」と同じです。	icon_skills.voidtrap_tex
@@ -1876,8 +1890,8 @@
 916018	MaxHP	0	0	perc	3000	0	1	死亡			死亡しました。	icon_skills.voidtrap_tex
 950001	HPChange	-3000	0	abs	20000	1	-3000	不安定な神界の魔力			不安定な神界の魔力が流れ出ています。	icon_status.minusmp_tex
 950005	Endurance	0	0	perc	6000	0	1	熱気			ベルゴスから溢れ出る熱気に体が焼けます。熱気を解除すると中心を除いた爆発が発生し、解除せず一定時間が過ぎると、大きい爆発が発生します。	icon_status.heat_tex
-950009	MovSpd	0	0	perc	0	0	1.5	ヴェリックの祝福			移動速度が50%増加します。ウォーリアーのゲイルレイザーの基本ダメージ及びクリティカル確率が最大ストック時の威力と等しくなります。ランサーのガーディアンシャウト、ガードプロミス效果範囲が10m増加します。エレメンタリストのすべてのオーラスキル效果範囲が20m増加します。	icon_status.lightweight_tex
-950009	MovSpdInCombat	0	0	perc	0	0	1.5	ヴェリックの祝福			移動速度が50%増加します。ウォーリアーのゲイルレイザーの基本ダメージ及びクリティカル確率が最大ストック時の威力と等しくなります。ランサーのガーディアンシャウト、ガードプロミス效果範囲が10m増加します。エレメンタリストのすべてのオーラスキル效果範囲が20m増加します。	icon_status.lightweight_tex
+950009	MovSpd	0	0	perc	0	0	1.5	ヴェリックの祝福			移動速度が50％増加します。 ランサーのガーディアンシャウト、ガードプロミスの効果範囲が10m増加します。エレメンタリストのすべてのオーラスキル効果範囲が20m増加します。	icon_status.lightweight_tex
+950009	MovSpdInCombat	0	0	perc	0	0	1.5	ヴェリックの祝福			移動速度が50％増加します。 ランサーのガーディアンシャウト、ガードプロミスの効果範囲が10m増加します。エレメンタリストのすべてのオーラスキル効果範囲が20m増加します。	icon_status.lightweight_tex
 950013	HPChange2	0	0	abs	500	0	-200000	アガレスの呪い			アガレスから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.whiteaura_tex
 950015	HPChange2	0	0	abs	500	0	-200000	グラドリムの呪い			グラドリムから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.redaura_tex
 950017	HPChange2	0	0	abs	500	0	-200000	サブナクの呪い			サブナクから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.orangeaura_tex
@@ -1928,6 +1942,8 @@
 950340	HPChange	-0.15	0	perc	10000	2	-0.15	風による切り傷			アガレスの羽ばたきによって切り付けられました。持続的にダメージを受けます。	icon_status.whirl_tex
 950342	DefPotion	0	0	perc	0	0	0.1	防衛本能			サレオスが危機を感じて甲皮を堅くします。この效果を解除する必要があります。	icon_status.earthpower_tex
 950343	DefPotion	0	0	perc	0	0	0.1	硬い甲皮			サレオスの甲皮が硬くなり受けるダメージが90％減少して、与えるダメージが20％増加します。硬い甲皮は攻撃する度に少しずつ剥がれます。	icon_status.earthpower_tex
+950600	Power	0	0	abs	0	0	23	女神の加護			女神ヴェリックの強力な加護を受けました。力と耐久力が23上昇します。	icon_skills.tranquility_tex
+950600	Endurance	0	0	abs	0	0	23	女神の加護			女神ヴェリックの強力な加護を受けました。力と耐久力が23上昇します。	icon_skills.tranquility_tex
 975031	HPChange	-0.01	0	perc	5000	1	-0.01	冷温湿布			炎と冷気が混ざり、ダメージを受けます。	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	0	0	perc	5000	0	2	ケルサイクの巣_専用_中間ボス移動速度上昇_効果			周囲5mの味方に移動速度上昇	icon_status.plusmove_tex
 975041	DefPotion	0	0	perc	5000	0	0	ケルサイクの巣_専用_ボス周辺無敵_効果			周囲10mの味方に無敵バリア	icon_status.plusedefence_tex
@@ -1990,8 +2006,8 @@
 3000008	MPChange	0	0.005	perc	0	1	0.005	快適な搭乗（HP MP回復）			搭乗中、毎秒HPとMPが0.5%回復します。	icon_status.collect_speedup_tex
 3000009	HPChange	0.005	0	perc	0	1	0.005	快適な搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.aura_of_condition_tex
 3000009	MPChange	0	0.01	perc	0	1	0.01	快適な搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.aura_of_condition_tex
-3000010	HPChange	0.005	0	perc	0	1	0.005	欧米専用搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
-3000010	MPChange	0	0.01	perc	0	1	0.01	欧米専用搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
+3000010	HPChange	0.005	0	perc	0	1	0.005	快適な搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
+3000010	MPChange	0	0.01	perc	0	1	0.01	快適な搭乗（HP、MP回復）			搭乗中、毎秒全HPの0.5％、MPの1％ずつ回復します。	icon_status.collect_speedup_tex
 3000011	HPChange	0.01	0	perc	0	1	0.01	TW白獅子召喚			搭乗中毎秒HP、MPが1％ずつ回復します。	icon_status.collect_speedup_tex
 3000011	MPChange	0	0.01	perc	0	1	0.01	TW白獅子召喚			搭乗中毎秒HP、MPが1％ずつ回復します。	icon_status.collect_speedup_tex
 3000012	MaxHP	0	0	perc	0	0	1	飛行搭乗			飛行可能地域で飛行できます。	icon_items.wings_of_fairy_tex
@@ -2914,16 +2930,6 @@
 88410208	DefPotion	0	0	perc	10000	0	0.76	鉄壁			スキル使用中、受けるダメージが24%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
 88410209	DefPotion	0	0	perc	10000	0	0.73	鉄壁			スキル使用中、受けるダメージが27%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
 88410210	DefPotion	0	0	perc	10000	0	0.7	鉄壁			スキル使用中、受けるダメージが30%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
-88418101	MPChange	0	60	abs	10000	1	60	チャージ			1秒毎にMPが60回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418102	MPChange	0	70	abs	10000	1	70	チャージ			1秒毎にMPが70回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418103	MPChange	0	80	abs	10000	1	80	チャージ			1秒毎にMPが80回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418104	MPChange	0	90	abs	10000	1	90	チャージ			1秒毎にMPが90回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418105	MPChange	0	100	abs	10000	1	100	チャージ			1秒毎にMPが100回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418106	MPChange	0	110	abs	10000	1	110	チャージ			1秒毎にMPが110回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418107	MPChange	0	120	abs	10000	1	120	チャージ			1秒毎にMPが120回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418108	MPChange	0	130	abs	10000	1	130	チャージ			1秒毎にMPが130回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418109	MPChange	0	140	abs	10000	1	140	チャージ			1秒毎にMPが140回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
-88418110	MPChange	0	150	abs	10000	1	150	チャージ			1秒毎にMPが150回復。ダウン時に解除	icon_ep.ep_resources_mpmore_tex
 88500010	HPChange	-0.005	0	perc	6000	1	-0.005	火傷			一秒毎にHPの0.5％（最大1000）が減少	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	0	0	perc	6000	0	0.9	凍傷			移動速度が10%減少。5回重複すると凍結し、移動速度が大幅に減少します。	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	0	0	perc	2000	0	0.75	深刻な凍傷			凍結が重複し、移動速度が25%減少。ダウン時に解除されます。	icon_ep.ep_debuff_frostbite_tex
@@ -3686,4 +3692,4 @@
 999009810	Endurance	0	0	perc	60000	0	2	汚染体			周辺に持続ダメージを与えます。	icon_status.darkriftareawind_tex
 999009810	MovSpdInCombat	0	0	seta	60000	0	200	汚染体			周辺に持続ダメージを与えます。	icon_status.darkriftareawind_tex
 999009820	Power	0	0	perc	60000	0	1.5	バリア			バリアがダメージを吸収し、力が50%上昇します。	icon_status.plusfocus_tex
-999010000	Noctenium	0	0	swch	0	0	1	戦場のノクタニウム強化弾			戦場闘士たち適用されるノクタニウム強化弾効果です。ノクタニウム強化弾を使用してスキルの効果を増大化させます。ノクタニウム強化弾に中毒されている間、PVP攻撃力が8、PVP防御力が8 ほど上昇します。	icon_items.union_supplies5_tex
+999010000	Noctenium	0	0	swch	0	0	1	戦場のノクタニウム強化弾			戦場闘士たちに適用されるノクタニウム強化弾效果です。ノクタニウム強化弾を使用してスキルの效果を増大化させます。	icon_items.union_supplies5_tex
