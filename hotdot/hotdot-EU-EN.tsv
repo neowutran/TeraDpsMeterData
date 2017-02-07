@@ -32,7 +32,7 @@
 602	ASpd	0	0	abs	0	0	6	Titanic Wrath II			Increases Power by 25. Increases Attack Speed by 6.	icon_skills.rage_tex
 603	Power	0	0	abs	0	0	40	Titanic Wrath III			Increases Power by 40. Increases Attack Speed by 6.	icon_skills.rage_tex
 603	ASpd	0	0	abs	0	0	6	Titanic Wrath III			Increases Power by 40. Increases Attack Speed by 6.	icon_skills.rage_tex
-902	Noctenium	0	0	swch	0	0	1	Noctenium Infusion	1300	Noctenium Infusion	Increases PvP Attack by 8 and PvP Defense by 8.	icon_items.union_supplies5_tex
+902	Noctenium	0	0	swch	0	0	1	Noctenium Infusion	1300	Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
 903	Power	0	0	abs	30000	0	15	Murderous Intent			Increases Power by 15, Attack Speed by 8%, Crit Factor by 4%, and Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
 903	MovSpd	0	0	perc	30000	0	1.04	Murderous Intent			Increases Power by 15, Attack Speed by 8%, Crit Factor by 4%, and Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
 903	Crit	0	0	perc	30000	0	1.04	Murderous Intent			Increases Power by 15, Attack Speed by 8%, Crit Factor by 4%, and Movement Speed by 4%.	icon_skills.battlefield_high_ranking_tex
@@ -42,10 +42,14 @@
 906	MPChange	0	50	abs	5000	1	50	Restorative Burst—MP Restoraion			Recovers HP by 50 every 1s.	icon_status.plusmp_tex
 907	ASpd	0	0	perc	15000	0	1.2	Titanic Wrath—Acceleration			Speeds casting by 20% for first skill.	icon_status.plusattack_tex
 910	Noctenium	0	0	swch	0	0	2	Noctenium Infusion Test	1230	Superior Noctenium Infusion	Noctenium Infusion Test	icon_items.union_supplies5_tex
-911	Noctenium	0	0	swch	0	0	3	Noctenium Infusion	1301	Alliance Noctenium Infusion	Increases PvP Attack by 8 and PvP Defense by 8.	icon_items.union_supplies5_tex
-912	Noctenium	0	0	swch	0	0	4	Noctenium Infusion	1302	Vault Noctenium Infusion	Increases PvP Attack by 8 and PvP Defense by 8.	icon_items.union_supplies5_tex
-913	Noctenium	0	0	swch	0	0	5	Noctenium Infusion	1303	Adapted Noctenium Infusion	Increases PvP Attack by 8 and PvP Defense by 8.	icon_items.union_supplies5_tex
-916	Noctenium	0	0	swch	0	0	6	Noctenium Infusion	81212	Friendly Noctenium Infusion	Increases PvP Attack by 8 and PvP Defense by 8.	icon_items.union_supplies5_tex
+911	Noctenium	0	0	swch	0	0	3	Noctenium Infusion	1301	Alliance Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
+912	Noctenium	0	0	swch	0	0	4	Noctenium Infusion	1302	Vault Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
+913	Noctenium	0	0	swch	0	0	5	Noctenium Infusion	1303	Adapted Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
+916	Noctenium	0	0	swch	0	0	6	Noctenium Infusion	81212	Friendly Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
+920	AtkPotion	0	0	perc	600000	0	1	Uncommon Noctenium Elixir	200920	Uncommon Noctenium Elixir	Increases all skill damage, and activates a skill's noctenium effects at 150%. Does not stack with Noctenium Infusion.	icon_items.noctan_tex
+921	AtkPotion	0	0	perc	900000	0	1	Rare Noctenium Elixir	200921	Rare Noctenium Elixir	Increases all skill damage, and activates a skill's noctenium effects at 150%. Does not stack with Noctenium Infusion.	icon_items.noctan_tex
+922	AtkPotion	0	0	perc	1800000	0	1	Superior Noctenium Elixir	200922	Superior Noctenium Elixir	Increases all skill damage, and activates a skill's noctenium effects at 150%. Does not stack with Noctenium Infusion.	icon_items.noctan_tex
+929	AtkPotion	0	0	perc	300000	0	1	Refined Noctenium Infusion - Test			Increases all skill damage, and activates a skill's noctenium effects at 150%. Does not stack with Noctenium Infusion.	icon_items.union_supplies5_tex
 1130	MPChange	0	0.04	perc	25000	1	0.04	Heart Candy Cane	435	Heart Candy Cane	Replenishes 4% of maximum MP every 1s.	icon_items.heartlollipop_tex
 1131	MPChange	0	0.5	perc	1000	1	0.5	Heart Chocolate	434	Heart Chocolate	Replenishes 50% of maximum MP.	icon_items.heartchocolate_tex
 1133	MPChange	0	0.04	perc	25000	1	0.04	Shining Candy			Replenishes 4% of maximum MP every 1s.	icon_items.heartlollipop_tex
@@ -879,18 +883,20 @@
 60025	HPChange	-1200	0	abs	10000	1	-1200	Lacerating Etching IV			Sharp armor causes bleeding and HP decreases by -1200 every 1s.	icon_status.minuscriticalresist_tex
 60027	HPChange	1405	0	abs	15000	1	1405	Recovery Etching IV			Continuously recovers HP by 1405 and replenishes MP by 145 every 1s.	icon_items.body_enchant_scroll_3_tex
 60027	MPChange	0	145	abs	15000	1	145	Recovery Etching IV			Continuously recovers HP by 1405 and replenishes MP by 145 every 1s.	icon_items.body_enchant_scroll_3_tex
-70201	MaxHP	0	0	perc	900000	0	1.05	Popped Cobseed	71415	Popped Cobseed	Raises maximum HP by 5%.	icon_items.fallfestival_popcorn_tex
+60029	MPChange	0	0.05	perc	10000	1	0.05	Concentration II			Replenishes 5% of maximum MP every 1s.	icon_skills.neutralizepoison_tex
+60030	MPChange	0	0.03	perc	10000	1	0.03	Concentration I			Replenishes 3% of maximum MP every 1s.	icon_skills.neutralizepoison_tex
+70201	MaxHP	0	0	perc	900000	0	1.05	Popped Cobseed	71415	Popped Cobseed	Increases maximum HP by 5%.	icon_items.fallfestival_popcorn_tex
 70202	HPChange	0.01	0	perc	900000	5	0.01	Mudroot Salad	71416	Mudroot Salad	Recovers 1% of your maximum HP every 5s.	icon_items.fallfestival_potatosalad_tex
 70203	MPChange	0	0.01	perc	900000	5	0.01	Grilled Pigling	71417	Grilled Pigling	Replenishes 1% of your maximum MP every 5s.	icon_items.q_roastmeat_tex
-70211	MaxHP	0	0	perc	900000	0	1.05	Floretta Soup	71413	Floretta Soup	Raises maximum HP by 5% and Crit Factor by 10.	icon_items.fallfestival_broccolisoup_tex
-70211	Crit	0	0	abs	900000	0	10	Floretta Soup	71413	Floretta Soup	Raises maximum HP by 5% and Crit Factor by 10.	icon_items.fallfestival_broccolisoup_tex
+70211	MaxHP	0	0	perc	900000	0	1.05	Floretta Soup	71413	Floretta Soup	Increases maximum HP by 5% and Crit Factor by 10.	icon_items.fallfestival_broccolisoup_tex
+70211	Crit	0	0	abs	900000	0	10	Floretta Soup	71413	Floretta Soup	Increases maximum HP by 5% and Crit Factor by 10.	icon_items.fallfestival_broccolisoup_tex
 70212	Endurance	0	0	abs	900000	0	1	Moongourd Muffin	71414	Moongourd Muffin	Recovers 1% of your maximum HP every 5s and raises Endurance by 1.	icon_items.fallfestival_pumpkinmuffin_tex
 70212	HPChange	0.01	0	perc	900000	5	0.01	Moongourd Muffin	71414	Moongourd Muffin	Recovers 1% of your maximum HP every 5s and raises Endurance by 1.	icon_items.fallfestival_pumpkinmuffin_tex
 70213	Power	0	0	abs	900000	0	1	Shevranberry Cookie	71420	Shevranberry Cookie	Replenishes 1% of your maximum MP every 5s and raises Power by 1.	icon_items.fallfestival_cookies_tex
 70213	MPChange	0	0.01	perc	900000	5	0.01	Shevranberry Cookie	71420	Shevranberry Cookie	Replenishes 1% of your maximum MP every 5s and raises Power by 1.	icon_items.fallfestival_cookies_tex
-70221	MaxHP	0	0	perc	900000	0	1.05	Lamb Bulgogi	71418	Lamb Bulgogi	Raises maximum HP by 5%, Crit Factor by 20, and Attack Speed by 3.	icon_items.fallfestival_bulgogi_tex
-70221	Crit	0	0	abs	900000	0	20	Lamb Bulgogi	71418	Lamb Bulgogi	Raises maximum HP by 5%, Crit Factor by 20, and Attack Speed by 3.	icon_items.fallfestival_bulgogi_tex
-70221	ASpd	0	0	abs	900000	0	3	Lamb Bulgogi	71418	Lamb Bulgogi	Raises maximum HP by 5%, Crit Factor by 20, and Attack Speed by 3.	icon_items.fallfestival_bulgogi_tex
+70221	MaxHP	0	0	perc	900000	0	1.05	Lamb Bulgogi	71418	Lamb Bulgogi	Increases maximum HP by 5%, Crit Factor by 20, and Attack Speed by 3.	icon_items.fallfestival_bulgogi_tex
+70221	Crit	0	0	abs	900000	0	20	Lamb Bulgogi	71418	Lamb Bulgogi	Increases maximum HP by 5%, Crit Factor by 20, and Attack Speed by 3.	icon_items.fallfestival_bulgogi_tex
+70221	ASpd	0	0	abs	900000	0	3	Lamb Bulgogi	71418	Lamb Bulgogi	Increases maximum HP by 5%, Crit Factor by 20, and Attack Speed by 3.	icon_items.fallfestival_bulgogi_tex
 70222	Endurance	0	0	abs	900000	0	2	Struthio Breast Salad	71419	Struthio Breast Salad	Recovers 1% HP every 5s while raising Endurance by 2 and Attack Speed by 3.	icon_items.fallfestival_salad_tex
 70222	ASpd	0	0	abs	900000	0	3	Struthio Breast Salad	71419	Struthio Breast Salad	Recovers 1% HP every 5s while raising Endurance by 2 and Attack Speed by 3.	icon_items.fallfestival_salad_tex
 70222	HPChange	0.01	0	perc	900000	5	0.01	Struthio Breast Salad	71419	Struthio Breast Salad	Recovers 1% HP every 5s while raising Endurance by 2 and Attack Speed by 3.	icon_items.fallfestival_salad_tex
@@ -899,8 +905,8 @@
 70223	MPChange	0	0.01	perc	900000	5	0.01	Half-Moon Croquette	71421	Half-Moon Croquette	Replenishes 1% MP every 5s while raising power by 2 and Attack Speed by 3.	icon_items.fallfestival_croquette_tex
 70231	MaxHP	0	0	perc	900000	0	1.05	Freeholds Flame Salad	71423	Freeholds Flame Salad	Increases max HP and MP by 5%.	icon_items.fallfestival_rikanosalad_tex
 70232	CritResist	0	0	abs	900000	0	20	Bleak Wings	71424	Bleak Wings	Increases Crit Resist Factor by 20.	icon_items.fallfestival_wing_tex
-70237	ASpd	0	0	abs	10000	0	20	Lein's Dark Root Beer	80081	Lein's Dark Root Beer	Raises Attack Speed by 20 for 10s, but the kick might make you feel very woozy. 	icon_items.solventc15_tex
-70238	Endurance	0	0	abs	10000	0	10	Digory's Honey Moongourd Drink	80082	Digory's Honey Moongourd Drink	Raises Endurance by 10 for 10s, but you might feel very woozy. 	icon_items.solventd5_tex
+70237	ASpd	0	0	abs	10000	0	20	Lein's Dark Root Beer	80081	Lein's Dark Root Beer	Increases Attack Speed by 20 for 10s, but the kick might make you feel very woozy. 	icon_items.solventc15_tex
+70238	Endurance	0	0	abs	10000	0	10	Digory's Honey Moongourd Drink	80082	Digory's Honey Moongourd Drink	Increases Endurance by 10 for 10s, but you might feel very woozy. 	icon_items.solventd5_tex
 70301	MovSpdInCombat	0	0	abs	180000	0	2	Tranquil Celerity			Increases Movement Speed in combat by 2. Effect stacks up to three times.	icon_status.aura_of_wind_tex
 70303	Stamina	0	0	abs	180002	0	5	Tranquil Vigor			Increases maximum Stamina by 5. Effect stacks up to three times.	icon_status.aura_of_condition_tex
 70304	HPChange	0.005	0	perc	180003	3	0.005	Tranquil Regeneration			Recovers 0.5%of maximum HP per stack every 3s. Effect stacks up to three times.	icon_status.aura_of_regeneration_hp_tex
@@ -955,18 +961,22 @@
 96903	MovSpd	0	0	perc	10000	0	0.9	Burning Wounds			Decreases Movement Speed by 10%. Reduces HP by 5% of maximum every 2 sec.. The effect stacks, and cannot be removed.	icon_status.minuscriticalresist_tex
 96903	HPChange	-0.05	0	perc	10000	2	-0.05	Burning Wounds			Decreases Movement Speed by 10%. Reduces HP by 5% of maximum every 2 sec.. The effect stacks, and cannot be removed.	icon_status.minuscriticalresist_tex
 96904	HPChange	-0.06	0	perc	5000	1	-0.06	Inflamed Wounds			Reduces HP by 6% of maximum every 1 sec. The effect cannot be removed.	icon_status.mprecoverup_tex
-100100	Power	0	0	abs	0	0	5	Assault Stance			Increases Power by 5 and Crit Factor by 30. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100100	Endurance	0	0	perc	0	0	0.9	Assault Stance			Increases Power by 5 and Crit Factor by 30. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100100	Crit	0	0	abs	0	0	30	Assault Stance			Increases Power by 5 and Crit Factor by 30. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100101	Power	0	0	abs	0	0	10	Assault Stance II			Increases Power by 10 and Crit Factor by 40. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100101	Endurance	0	0	perc	0	0	0.9	Assault Stance II			Increases Power by 10 and Crit Factor by 40. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100101	Crit	0	0	abs	0	0	40	Assault Stance II			Increases Power by 10 and Crit Factor by 40. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100102	Power	0	0	abs	0	0	15	Assault Stance			Increases Power by 15 and Crit Factor by 50. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100102	Endurance	0	0	perc	0	0	0.9	Assault Stance			Increases Power by 15 and Crit Factor by 50. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100102	Crit	0	0	abs	0	0	50	Assault Stance			Increases Power by 15 and Crit Factor by 50. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100103	Power	0	0	abs	0	0	18	Assault Stance IV			Increases Power by 18 and Crit Factor by 55. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100103	Endurance	0	0	perc	0	0	0.9	Assault Stance IV			Increases Power by 18 and Crit Factor by 55. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
-100103	Crit	0	0	abs	0	0	55	Assault Stance IV			Increases Power by 18 and Crit Factor by 55. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100100	Power	0	0	abs	0	0	5	Assault Stance			Increases Power by 5, Crit Factor by 30, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100100	Endurance	0	0	perc	0	0	0.9	Assault Stance			Increases Power by 5, Crit Factor by 30, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100100	Crit	0	0	abs	0	0	30	Assault Stance			Increases Power by 5, Crit Factor by 30, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100100	AtkPotion	0	0	perc	0	0	1.1	Assault Stance			Increases Power by 5, Crit Factor by 30, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100101	Power	0	0	abs	0	0	10	Assault Stance II			Increases Power by 10, Crit Factor by 40, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100101	Endurance	0	0	perc	0	0	0.9	Assault Stance II			Increases Power by 10, Crit Factor by 40, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100101	Crit	0	0	abs	0	0	40	Assault Stance II			Increases Power by 10, Crit Factor by 40, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100101	AtkPotion	0	0	perc	0	0	1.1	Assault Stance II			Increases Power by 10, Crit Factor by 40, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100102	Power	0	0	abs	0	0	15	Assault Stance			Increases Power by 15, Crit Factor by 50, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100102	Endurance	0	0	perc	0	0	0.9	Assault Stance			Increases Power by 15, Crit Factor by 50, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100102	Crit	0	0	abs	0	0	50	Assault Stance			Increases Power by 15, Crit Factor by 50, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100102	AtkPotion	0	0	perc	0	0	1.1	Assault Stance			Increases Power by 15, Crit Factor by 50, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100103	Power	0	0	abs	0	0	18	Assault Stance IV			Increases Power by 18, Crit Factor by 55, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100103	Endurance	0	0	perc	0	0	0.9	Assault Stance IV			Increases Power by 18, Crit Factor by 55, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100103	Crit	0	0	abs	0	0	55	Assault Stance IV			Increases Power by 18, Crit Factor by 55, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
+100103	AtkPotion	0	0	perc	0	0	1.1	Assault Stance IV			Increases Power by 18, Crit Factor by 55, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex
 100200	Endurance	0	0	perc	0	0	1.15	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
 100200	Block	0	0	perc	0	0	0	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
 100201	Endurance	0	0	perc	0	0	1.2	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex
@@ -993,15 +1003,19 @@
 100526	HPChange	-720	0	abs	10000	2	-720	Poison Blade VII			Reduces HP by -720 every 2s.	icon_skills.poisonblowattack_tex
 100527	HPChange	-954	0	abs	10000	2	-954	Poison Blade VIII			Reduces HP by -954 every 2s.	icon_skills.poisonblowattack_tex
 100528	HPChange	-1420	0	abs	10000	2	-1420	Poison Blade IX			Reduces HP by -1420 every 2s.	icon_skills.poisonblowattack_tex
-100600	MPChange	0	-10	abs	0	2	-10	Mangle			Your fourth consecutive use of the Combo Attack skill cuts your foe's Attack Speed and movement by 15%. You spend -10 MP every 2 while this effect is active.	icon_skills.aimingankle_tex
+100600	MPChange	0	-10	abs	0	2	-10	Inescapable Doom			Your fourth consecutive use of the Combo Attack skill cuts your foe's Attack Speed and movement by 15%. You spend -10 MP every 2 while this effect is active.	icon_skills.murderousvent_tex
 100630	MovSpd	0	0	setp	5000	0	0.85	Mangle			Speed decreases by 15%.	icon_skills.aimingankle_tex
 100630	ASpd	0	0	perc	5000	0	0.85	Mangle			Speed decreases by 15%.	icon_skills.aimingankle_tex
-100800	CritChance	0	0	perc	20000	0	1.35	Deadly Gamble			Increases the chance to crit by 35%.	icon_skills.deadlywill_tex
-100801	CritChance	0	0	perc	20000	0	1.5	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%.	icon_skills.deadlywill_tex
-100801	CDR	0	0	swch	20000	0	0.5	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%.	icon_skills.deadlywill_tex
+100800	Power	0	0	perc	20000	0	1	Deadly Gamble			Increases the chance to crit by 35% for 20s. 	icon_skills.deadlywill_tex
+100800	Endurance	0	0	perc	20000	0	1	Deadly Gamble			Increases the chance to crit by 35% for 20s. 	icon_skills.deadlywill_tex
+100800	CritChance	0	0	perc	20000	0	1.35	Deadly Gamble			Increases the chance to crit by 35% for 20s. 	icon_skills.deadlywill_tex
+100801	Power	0	0	perc	20000	0	1	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex
+100801	Endurance	0	0	perc	20000	0	1	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex
+100801	CritChance	0	0	perc	20000	0	1.5	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex
+100801	CDR	0	0	swch	20000	0	0.5	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex
 101200	Endurance	0	0	perc	15000	0	0.92	Combative Strike			Reduces Endurance by 8%.	icon_skills.aggravatingstrike_tex
 101220	Endurance	0	0	perc	15000	0	0.92	Combative Strike			Reduces Endurance by 8% and the effect of healing skills on you by 30%.	icon_skills.aggravatingstrike_tex
-101300	Endurance	0	0	perc	27000	0	0.9965	Traverse Cut			Reduces Endurance by 0.35%. The effect stacks up to 13 times.	icon_skills.dualrapidpiercing_tex
+101300	ASpd	0	0	perc	27000	0	1.009	Traverse Cut			Increases Attack Speed by 0.9% with every stack. The effect stacks up to 13 times.	icon_skills.dualrapidpiercing_tex
 101400	MovSpd	0	0	setp	3000	0	0.5	Pounce			Decreases Movement Speed by 50%.	icon_skills.heavybite_tex
 101500	DefPotion	0	0	perc	15000	0	1.25	Reaping Slash			Takes 25% more damage from Scythe.	icon_skills.rupture_tex
 101600	Endurance	0	0	perc	15000	0	1	Smoke Flanker			Your shadow lasts for a set duration.	icon_skills.voidtrap_tex
@@ -1877,8 +1891,8 @@
 916018	MaxHP	0	0	perc	3000	0	1	Dead			Living is for the strong.	icon_skills.voidtrap_tex
 950001	HPChange	-3000	0	abs	20000	1	-3000	Unstable Celestial Power			Unstable celestial power is spreading.	icon_status.minusmp_tex
 950005	Endurance	0	0	perc	6000	0	1	Heat			Vergos radiates heat. Removing the effect causes an explosion with a safe zone in the center. Failing to remove the effect causes even bigger explosion when the duration ends.	icon_status.heat_tex
-950009	MovSpd	0	0	perc	0	0	1.5	Velik's Blessing			Increases Movement Speed by 50%. [Warrior] Enhances Scythe's base damage and chance to crit to the maximum Edge level. [Lancer] Increases range of Guardian Shout and Pledge of Protection by 10m. [Mystic] Increases range of Aura skills by 20m.	icon_status.lightweight_tex
-950009	MovSpdInCombat	0	0	perc	0	0	1.5	Velik's Blessing			Increases Movement Speed by 50%. [Warrior] Enhances Scythe's base damage and chance to crit to the maximum Edge level. [Lancer] Increases range of Guardian Shout and Pledge of Protection by 10m. [Mystic] Increases range of Aura skills by 20m.	icon_status.lightweight_tex
+950009	MovSpd	0	0	perc	0	0	1.5	Velik's Blessing			Increases Movement Speed by 50%. [Lancer] Increases range of Guardian Shout and Pledge of Protection by 10m. [Mystic] Increases range of Aura skills by 20 m.	icon_status.lightweight_tex
+950009	MovSpdInCombat	0	0	perc	0	0	1.5	Velik's Blessing			Increases Movement Speed by 50%. [Lancer] Increases range of Guardian Shout and Pledge of Protection by 10m. [Mystic] Increases range of Aura skills by 20 m.	icon_status.lightweight_tex
 950013	HPChange2	0	0	abs	500	0	-200000	Aquadrax's Tenfold Curse			Aquadrax's evil aura spreads. When this curse stacks 10 times, you will die.	icon_status.whiteaura_tex
 950015	HPChange2	0	0	abs	500	0	-200000	Umbradrax's Tenfold Curse			Umbradrax's evil aura spreads. When this curse stacks 10 times, you will die.	icon_status.redaura_tex
 950017	HPChange2	0	0	abs	500	0	-200000	Ignidrax's Tenfold Curse			Ignidrax's evil aura spreads. When this curse stacks 10 times, you will die.	icon_status.orangeaura_tex
@@ -1929,6 +1943,8 @@
 950340	HPChange	-0.15	0	perc	10000	2	-0.15	Cutting Wind			Aquadrax beats his wings, creating a cutting wind that deals damage over time.	icon_status.whirl_tex
 950342	DefPotion	0	0	perc	0	0	0.1	In Crisis			Terradrax hardens his scales. Cancel the effect.	icon_status.earthpower_tex
 950343	DefPotion	0	0	perc	0	0	0.1	Hardened Scales			Terradrax receives 90% less damage and deals 20% more damage. Hardened scales come off little by little with each hit.	icon_status.earthpower_tex
+950600	Power	0	0	abs	0	0	23	Goddess Blessing			Velik's blessing is upon you. Increases Power.	icon_skills.tranquility_tex
+950600	Endurance	0	0	abs	0	0	23	Goddess Blessing			Velik's blessing is upon you. Increases Power.	icon_skills.tranquility_tex
 975031	HPChange	-0.01	0	perc	5000	1	-0.01	Hot and Cold Pack			A mix of fire and ice drains your HP.	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	0	0	perc	5000	0	2	For Nest of Kelsaik_Only_Medium Boss Movement Speed Increase_Effect			Increases Movement Speed of allies within 5m.	icon_status.plusmove_tex
 975041	DefPotion	0	0	perc	5000	0	0	For Nest of Kelsaik_Only_ Invincibility Around Boss_Effect			Give invincible shield to allies within 10m	icon_status.plusedefence_tex
@@ -2925,16 +2941,6 @@
 88410208	DefPotion	0	0	perc	10000	0	0.76	Spirit of Iron			Damage from enemy decreases by 24% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
 88410209	DefPotion	0	0	perc	10000	0	0.73	Spirit of Iron			Damage from enemy decreases by 27% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
 88410210	DefPotion	0	0	perc	10000	0	0.7	Spirit of Iron			Damage from enemy decreases by 30% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
-88418101	MPChange	0	60	abs	10000	1	60	Charging			Replenishes MP by 60 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418102	MPChange	0	70	abs	10000	1	70	Charging			Replenishes MP by 70 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418103	MPChange	0	80	abs	10000	1	80	Charging			Replenishes MP by 80 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418104	MPChange	0	90	abs	10000	1	90	Charging			Replenishes MP by 90 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418105	MPChange	0	100	abs	10000	1	100	Charging			Replenishes MP by 100 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418106	MPChange	0	110	abs	10000	1	110	Charging			Replenishes MP by 110 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418107	MPChange	0	120	abs	10000	1	120	Charging			Replenishes MP by 120 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418108	MPChange	0	130	abs	10000	1	130	Charging			Replenishes MP by 130 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418109	MPChange	0	140	abs	10000	1	140	Charging			Replenishes MP by 140 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
-88418110	MPChange	0	150	abs	10000	1	150	Charging			Replenishes MP by 150 every second. Effect ends when knocked down.	icon_ep.ep_resources_mpmore_tex
 88500010	HPChange	-0.005	0	perc	6000	1	-0.005	Burnt Wound			Constant damage to HP by 0.5%% (max 1000) every second.	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	0	0	perc	6000	0	0.9	Frostbite			Movement Speed decreases by  10%. If the effect stacks up 5 times, Movement Speed decreases dramatically.	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	0	0	perc	2000	0	0.75	Severe Frostbite			Movement Speed decreases by  25% due to multiple Frosbites. Effect ends when knocked down.	icon_ep.ep_debuff_frostbite_tex
@@ -3697,4 +3703,4 @@
 999009810	Endurance	0	0	perc	60000	0	2	Pollutant			You are contaminated with industrial waste, as is anyone who gets too close to you. 	icon_status.darkriftareawind_tex
 999009810	MovSpdInCombat	0	0	seta	60000	0	200	Pollutant			You are contaminated with industrial waste, as is anyone who gets too close to you. 	icon_status.darkriftareawind_tex
 999009820	Power	0	0	perc	60000	0	1.5	Shield			Protects you with a damage-absorbing barrier, and increases Power by 50%. The only thing left to do is killing them all.	icon_status.plusfocus_tex
-999010000	Noctenium	0	0	swch	0	0	1	Battleground Noctenium Infusion			The noctenium infusion effect given to those who enter battlegrounds. Increases PvP Attack by 8 and PvP Defense by 8.	icon_items.union_supplies5_tex
+999010000	Noctenium	0	0	swch	0	0	1	Battleground Noctenium Infusion			Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
