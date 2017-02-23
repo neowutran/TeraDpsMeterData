@@ -697,7 +697,7 @@
 23031	AtkPotion	0	0	perc	8000	0	1.25	下巴粉碎(連續 鬥志紋章 [一刀兩段])			以連續技使用迴旋砍擊時，技能威力增加25%。	icon_skills.jawbreaker_tex
 23032	AtkPotion	0	0	perc	8000	0	1.25	下巴粉碎(連續 鬥志紋章 [瞬閃])			以連續技使用一刀兩斷時，技能威力增加25%。	icon_skills.jawbreaker_tex
 23040	AtkPotion	0	0	perc	6000	0	1.25	起身攻擊(連續 鬥志紋章 [向下劈擊])			以連續技使用向下劈擊時，技能威力增加25%。	icon_skills.risingattack_tex
-23050	Endurance	0	0	perc	10000	0	1.2	氣合(保護紋章)			抗打提升20%。	icon_skills.shout_tex
+23050	Endurance	0	0	perc	10000	0	1.2	執念(保護紋章)			抗打提升20%。	icon_skills.tenacity_tex
 23100	ASpd	0	0	perc	5000	0	0.85	神經劈擊(減速紋章)			攻擊速度減少15%。	icon_skills.veinslash_tex
 23120	AtkPotion	0	0	perc	5000	0	1.25	緊急迴避(連續 鬥志紋章 [憤怒一擊])			以連續技使用憤怒一擊時，技能威力增加25%。	icon_skills.tumbling_tex
 23130	AtkPotion	0	0	perc	5000	0	1.2	重擊斬(連續 鬥志紋章 [一刀兩斷])			以連續技使用一刀兩斷時，技能威力增加20%。	icon_skills.handyslash_tex
@@ -717,12 +717,13 @@
 24092	Endurance	0	0	abs	8000	0	21	抗打增加 [保護紋章]			抗打提升21。	icon_crest.crestactivedefenceup_tex
 24120	CastSpeed	0	0	perc	6000	0	1.3	向下劈擊(連續 神速紋章 [全神一擊])			以連續技使用全神一擊時，蓄力速度增加30%。	icon_skills.downattack_tex
 24130	CastSpeed	0	0	perc	6000	0	1.3	震懾(連續 神速紋章 [聚力之擊])			以連續技使用聚力之擊時，蓄力速度增加30%。	icon_skills.turnback_tex
-24140	Endurance	0	0	abs	12000	0	16	氣合(保護紋章)			抗打提升16。	icon_skills.shout_tex
+24140	Endurance	0	0	abs	12000	0	16	執念(保護紋章)			抗打提升16。	icon_skills.tenacity_tex
 24150	MPChange	0	0.06	perc	5000	1	0.06	執念(精神紋章)			每1s持續恢復6%的MP。	icon_skills.tenacity_tex
 24160	Crit	0	0	perc	0	0	2	向下劈擊(必殺紋章)			暴擊觸發率增加2倍。	icon_skills.downattack_tex
 24161	Crit	0	0	perc	0	0	2	剛氣飛揚(必殺紋章)			暴擊觸發率增加2倍。	icon_skills.throwaxe_tex
 24181	AtkPotion	0	0	perc	10000	0	1.25	武器防禦(連續 鬥志紋章 [反擊])			以連續技能使用反擊時，技能威力增加25%。	icon_skills.weapondefence_tex
 24190	CastSpeed	0	0	perc	6000	0	1.3	吶喊(連續神速紋章 [漩渦] )			以連續技能使用漩渦時，蓄力速度增加30%。	icon_skills.shockingshout_tex
+24200	AtkPotion	0	0	perc	8000	0	1.2	吸血狂打(連續鬥志紋章)			以連續技能使用全神一擊時，技能威力增加力量20%。	icon_skills.vampiricstrike_tex
 25010	Power	0	0	perc	15000	0	1.1	魔力盾牌(體力紋章)			力量提升10%。	icon_skills.manashield_tex
 25020	Endurance	0	0	perc	15000	0	1.2	魔力盾牌(保護紋章)			抗打提升20%。	icon_skills.manashield_tex
 25021	Endurance	0	0	abs	15000	0	16	魔力爆發(保護紋章)			抗打提升16。	icon_skills.manaburst_tex
@@ -798,6 +799,7 @@
 30050	ASpd	0	0	perc	3100	0	1.3	發射秘傳衝擊彈(助力紋章)			攻擊速度提升30%。	icon_skills.arcaneshockshot01_tex
 30080	MovSpd	0	0	perc	5100	0	1.5	火箭騰(活力紋章)			移動速度增加50%。	icon_skills.rocketjump_tex
 30100	AtkPotion	0	0	perc	8100	0	1.2	滾動：裝填散彈(連續 鬥志紋章 [發射散彈])			以連續技使用發射散彈時，技能威力會增加20%。	
+30200	Crit	0	0	perc	1000	0	2	召喚機器人(必殺紋章)			爆擊觸發 增加 2倍。	
 31010	ASpd	0	0	perc	10000	0	1.15	連打(神速紋章)			攻擊速度增加 15%。	icon_skills.comboattack01_tex
 31020	AtkPotion	0	0	perc	6000	0	1.5	強擊(連續 鬥志紋章)			技能威力增加 50%。	
 31030	AtkPotion	0	0	perc	3000	0	1.1	迴旋踢(連續 鬥志紋章)			技能威力增加 10%。	icon_skills.upperkick_tex
@@ -1075,13 +1077,15 @@
 400301	MovSpd	0	0	perc	15000	0	1.5	疾走			移動速度提升50%。	icon_skills.dash_tex
 400302	MovSpd	0	0	perc	15000	0	1.5	疾走 III			移動速度提升50%。	icon_skills.dash_tex
 400303	MovSpd	0	0	perc	5000	0	2.2	疾走_憤怒 III			移動速度提升120%。	icon_skills.dash_tex
-400500	ASpd	0	0	perc	10000	0	1.2	狂暴化			攻擊速度和蓄力速度增加20%。	icon_skills.berserk_tex
-400501	ASpd	0	0	perc	10000	0	1.4	狂暴化			攻擊速度和蓄力速度增加40%。	icon_skills.berserk_tex
+400500	ASpd	0	0	perc	10000	0	1.2	狂神降臨(助力紋章)			攻擊速度和蓄力速度增加20%。	icon_skills.vitalconversion_tex
+400501	ASpd	0	0	perc	10000	0	1.4	狂氣大增 II			攻擊速度和蓄力速度增加40%。	icon_skills.gatheringrage_tex
 400508	ASpd	0	0	perc	10000	0	1.4	狂暴化 VI			攻擊速度和蓄力速度增加 40% 。	icon_skills.berserk_tex
 400509	ASpd	0	0	perc	20000	0	1	在我內在沉睡的狂氣			使用狂暴化技能也不能收到狂氣大增的效果。	icon_skills.relax_tex
 400700	Power	0	0	abs	30000	0	26	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
+400700	ASpd	0	0	perc	10000	0	1.2	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400700	AtkPotion	0	0	perc	30000	0	1.1	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400701	Power	0	0	abs	30000	0	29	激怒 II			力量提升29，衝擊和平衡也各提升60%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
+400701	ASpd	0	0	perc	10000	0	1.4	激怒 II			力量提升29，衝擊和平衡也各提升60%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400701	AtkPotion	0	0	perc	30000	0	1.1	激怒 II			力量提升29，衝擊和平衡也各提升60%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400800	MovSpd	0	0	setp	6000	0	0.4	殺氣爆發 I			移動速度減少60%。另外對PC套用效果時，效果持續時間內無法使用迴避及移動系列技能。	icon_skills.murderousvent_tex
 400800	Block	0	0	perc	6000	0	0	殺氣爆發 I			移動速度減少60%。另外對PC套用效果時，效果持續時間內無法使用迴避及移動系列技能。	icon_skills.murderousvent_tex
@@ -1165,7 +1169,7 @@
 460031	MovSpd	0	0	perc	3000	0	0.1	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
 460031	MovSpdInCombat	0	0	perc	3000	0	0.1	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
 460031	HPChange	-10000	0	abs	3000	1	-10000	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
-468005	MovSpdInCombat	0	0	perc	20000	0	1	暗黑結界			杜利溫正在吸收拉坎的魔石。必須盡快阻止杜利溫才行!	icon_status.battlefieldbuff02_tex
+468005	MovSpdInCombat	0	0	perc	20000	0	1	暗黑結界			杜利溫正由變形黑魔法石的深淵吸收力量。必須盡快阻止杜利溫才行！	icon_status.battlefieldbuff02_tex
 468013	MovSpd	0	0	perc	30000	0	1	注視			杜利溫的完全體正在注視著你。真令人擔憂。	icon_skills.markingofarcher_tex
 468014	MovSpd	0	0	perc	30000	0	1	專注對象			杜利溫的完全體似乎只注視著我。好像將發生甚麼駭人的事情!	icon_skills.througharrow_tex
 468015	Power	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
@@ -1173,26 +1177,26 @@
 468015	ASpd	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
 468018	HPChange	-10000000	0	perc	3000	1	-10000000	拉坎的詛咒			受到拉坎的詛咒。若不解除則將立刻死亡。	icon_status.damagedown_tex
 468019	MovSpd	0	0	perc	10000	0	1	黑魔法集中			杜利溫的完全體正在將黑魔法集中在你身上。有不好的預感…	icon_status.minusfocus_tex
-468020	MovSpd	0	0	perc	0	0	1	吸收魔石			暗黑守護泥人怪正在吸收魔石。由於這時極度不穩定，因此正用保護膜保護著自己。	icon_status.immunedebuff_tex
+468020	MovSpd	0	0	perc	0	0	1	吸收魔力			暗黑守護泥人怪正由變形黑魔法石吸收魔力。由於在吸收魔力的這段期間極度不穩定，因此正用保護膜保護著自己。	icon_status.immunedebuff_tex
 468021	MovSpd	0	0	perc	6000	0	1	魔氣滲透			好像有甚麼東西正往我體內入侵。似乎有駭人的事情要發生。	icon_status.minusfocus_tex
-468022	MovSpd	0	0	perc	0	0	1	魔石補充			暗黑守護泥人怪吸收魔石以確保能量。駭人的事情正在發生。	icon_status.cruel_slayer_2_tex
+468022	MovSpd	0	0	perc	0	0	1	魔力補充			暗黑守護泥人怪由變形黑魔法石吸收魔力以確保能量。駭人的事情正在發生。	icon_status.cruel_slayer_2_tex
 468028	MovSpd	0	0	perc	20000	0	1	絕望			想起那些充滿絕望的時刻.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_1_tex
 468029	MovSpd	0	0	perc	20000	0	1	貪欲			想起那些因貪欲而發生的駭人事件.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_2_tex
 468030	MovSpd	0	0	perc	20000	0	1	殺生			想起那些因殺生而死去的生命體.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_3_tex
 468031	MovSpd	0	0	perc	20000	0	1	憎恨			想起那些因憎恨而發生的無數事情.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_4_tex
 468037	HPChange	-0.1	0	perc	10000	2	-0.1	魔氣			受到杜利溫魔氣的攻擊而中毒。HP持續減少。	icon_status.blooduanty_tex
-468038	Power	0	0	perc	990000000	0	1.03	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
-468038	ASpd	0	0	perc	990000000	0	1.03	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+468038	Power	0	0	perc	990000000	0	1.03	不穩定的魔氣			杜利溫完全體借助拉坎的權能，使得魔氣暴走。杜利溫完全體雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+468038	ASpd	0	0	perc	990000000	0	1.03	不穩定的魔氣			杜利溫完全體借助拉坎的權能，使得魔氣暴走。杜利溫完全體雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
 468039	Endurance	0	0	perc	14000	0	80	黑魔法的詛咒			被黑魔法的詛咒圍繞著全身。若不解除詛咒則會釀成大禍。	icon_status.cruel_slayer_3_tex
 468041	HPChange	-0.01	0	perc	10000	2	-0.01	不穩定的魔氣			遭受杜利溫暴走的魔石侵蝕而導致HP持續減少。	icon_status.minushp_tex
 468042	MovSpd	0	0	perc	30000	0	0.26	黑魔法盾牌			杜利溫的完全體使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
 468042	MovSpdInCombat	0	0	perc	30000	0	0.26	黑魔法盾牌			杜利溫的完全體使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
 468043	Endurance	0	0	perc	0	0	5	黑魔法			杜利溫使用邪惡的黑魔法而使防禦力處於上升的狀態。	icon_status.plusedefence_tex
 468044	HPChange	-0.05	0	perc	160000	1	-0.05	拉坎的詛咒			杜利溫接下拉坎的權能而下了詛咒! HP會持續減少。若遭受 3次以上的詛咒，當事人會當場死亡；若所有組隊隊員皆受到詛咒，拉坎的全能則會實現。	icon_status.delayheal_tex
-468047	Power	0	0	perc	0	0	10	穩定的魔氣 (狂暴化)			杜利溫完全體使所有魔石的魔氣穩定地覺醒。已變得無法阻擋之。	icon_status.darkriftarearage_tex
-468047	ASpd	0	0	perc	0	0	2	穩定的魔氣 (狂暴化)			杜利溫完全體使所有魔石的魔氣穩定地覺醒。已變得無法阻擋之。	icon_status.darkriftarearage_tex
-468049	Power	0	0	perc	0	0	10	魔石力量覺醒 (狂暴化)			使暗黑守護泥人怪所具有的魔石力量覺醒。攻擊力與攻擊速度急遽增加。	icon_skills.rampage_tex
-468049	ASpd	0	0	perc	0	0	2	魔石力量覺醒 (狂暴化)			使暗黑守護泥人怪所具有的魔石力量覺醒。攻擊力與攻擊速度急遽增加。	icon_skills.rampage_tex
+468047	Power	0	0	perc	0	0	10	穩定的魔氣 (狂暴化)			杜利溫完全體使所有暴走的魔氣穩定地平息。現在已經無法阻擋他。	icon_status.darkriftarearage_tex
+468047	ASpd	0	0	perc	0	0	2	穩定的魔氣 (狂暴化)			杜利溫完全體使所有暴走的魔氣穩定地平息。現在已經無法阻擋他。	icon_status.darkriftarearage_tex
+468049	Power	0	0	perc	0	0	10	魔石力量覺醒 (狂暴化)			暗黑守護泥人怪讓封印自己的魔石力量覺醒。攻擊力與攻擊速度急遽增加。	icon_skills.rampage_tex
+468049	ASpd	0	0	perc	0	0	2	魔石力量覺醒 (狂暴化)			暗黑守護泥人怪讓封印自己的魔石力量覺醒。攻擊力與攻擊速度急遽增加。	icon_skills.rampage_tex
 470009	HPChange	-10000000	0	abs	0	1	-10000000	不該看到				
 470015	Power	0	0	perc	1000	0	1	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
 470015	MovSpd	0	0	perc	60000	0	0.8	雪人			被塔勒斯基的部下給騙了啊?若連續跳躍則可以解除，HP每秒會減少 5%。	icon_status.icedamage_tex
@@ -1604,7 +1608,7 @@
 760031	MovSpd	0	0	perc	3000	0	0.1	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
 760031	MovSpdInCombat	0	0	perc	3000	0	0.1	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
 760031	HPChange	-10000	0	abs	3000	1	-10000	火焰地帶!			在火焰地帶裡! 減少HP和移動速度。	icon_status.minusmove_tex
-768005	MovSpdInCombat	0	0	perc	20000	0	1	暗黑結界			杜利溫正在吸收拉坎的魔石。必須盡快阻止杜利溫才行!	icon_status.battlefieldbuff02_tex
+768005	MovSpdInCombat	0	0	perc	20000	0	1	暗黑結界			杜利溫正由變形黑魔法石的深淵吸收力量。必須盡快阻止杜利溫才行！	icon_status.battlefieldbuff02_tex
 768013	MovSpd	0	0	perc	30000	0	1	注視			杜利溫的完全體正在注視著你。真令人擔憂。	icon_skills.markingofarcher_tex
 768014	MovSpd	0	0	perc	30000	0	1	專注對象			杜利溫的完全體似乎只注視著我。好像將發生甚麼駭人的事情!	icon_skills.througharrow_tex
 768015	Power	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
@@ -1612,16 +1616,16 @@
 768015	ASpd	0	0	perc	3600000	0	1.1	暗黑強化			吃了魔石的暗黑守護泥人怪變得更強大了!	icon_status.valrhona_devil_tex
 768018	HPChange	-10000000	0	perc	3000	1	-10000000	拉坎的詛咒			受到拉坎的詛咒。若不解除則將立刻死亡。	icon_status.damagedown_tex
 768019	MovSpd	0	0	perc	10000	0	1	黑魔法集中			杜利溫的完全體正在將黑魔法集中在你身上。有不好的預感…	icon_status.minusfocus_tex
-768020	MovSpd	0	0	perc	0	0	1	吸收魔石			暗黑守護泥人怪正在吸收魔石。由於這時極度不穩定，因此正用保護膜保護著自己。	icon_status.immunedebuff_tex
+768020	MovSpd	0	0	perc	0	0	1	吸收魔力			暗黑守護泥人怪正由變形黑魔法石吸收魔力。由於在吸收魔力的這段期間極度不穩定，因此正用保護膜保護著自己。	icon_status.immunedebuff_tex
 768021	MovSpd	0	0	perc	6000	0	1	魔氣滲透			好像有甚麼東西正往我體內入侵。似乎有駭人的事情要發生。	icon_status.minusfocus_tex
-768022	MovSpd	0	0	perc	0	0	1	魔石補充			暗黑守護泥人怪吸收魔石以確保能量。駭人的事情正在發生。	icon_status.cruel_slayer_2_tex
+768022	MovSpd	0	0	perc	0	0	1	魔力補充			暗黑守護泥人怪由變形黑魔法石吸收魔力以確保能量。駭人的事情正在發生。	icon_status.cruel_slayer_2_tex
 768028	MovSpd	0	0	perc	20000	0	1	絕望			想起那些充滿絕望的時刻.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_1_tex
 768029	MovSpd	0	0	perc	20000	0	1	貪欲			想起那些因貪欲而發生的駭人事件.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_2_tex
 768030	MovSpd	0	0	perc	20000	0	1	殺生			想起那些因殺生而死去的生命體.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_3_tex
 768031	MovSpd	0	0	perc	20000	0	1	憎恨			想起那些因憎恨而發生的無數事情.. 真令人起雞皮疙瘩。	icon_status.cruel_slayer_4_tex
 768037	HPChange	-0.1	0	perc	10000	2	-0.1	魔氣			受到杜利溫魔氣的攻擊而中毒。HP持續減少。	icon_status.blooduanty_tex
-768038	Power	0	0	perc	990000000	0	1.01	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
-768038	ASpd	0	0	perc	990000000	0	1.01	不穩定的魔氣			杜利溫完全體使魔石的魔氣暴走，使不穩定的魔氣環繞於自身身上。不但攻擊力變強，攻擊速度也變得更快。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+768038	Power	0	0	perc	990000000	0	1.01	不穩定的魔氣			杜利溫完全體借助拉坎的權能，使得魔氣暴走。杜利溫完全體雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+768038	ASpd	0	0	perc	990000000	0	1.01	不穩定的魔氣			杜利溫完全體借助拉坎的權能，使得魔氣暴走。杜利溫完全體雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
 768039	Endurance	0	0	perc	14000	0	80	黑魔法的詛咒			被黑魔法的詛咒圍繞著全身。若不解除詛咒則會釀成大禍。	icon_status.cruel_slayer_3_tex
 768041	HPChange	-0.01	0	perc	10000	2	-0.01	不穩定的魔氣			遭受杜利溫暴走的魔石侵蝕而導致HP持續減少。	icon_status.minushp_tex
 768042	MovSpd	0	0	perc	30000	0	0.26	黑魔法盾牌			杜利溫的完全體使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
