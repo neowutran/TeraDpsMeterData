@@ -15,7 +15,7 @@
 21014	Смерть с небес	100100	icon_skills.evasionattack_tex	Быстрая смерть с небес	icon_crest.e_crestactiveattackspeedup_tex	50% вероятность на 10 секунд повысить скорость атаки на 15%.
 21015	Уклонение	20100	icon_skills.tumbling_tex	Нескончаемое уклонение	icon_crest.e_crestactivecooltimereset_tex	Снижает расход решимости на 100 единиц.
 21016	Боевой клич	50100	icon_skills.thunderingroar_tex	Стремительный боевой клич	icon_crest.e_crestpassivecooltimedown_tex	Снижает время перезарядки умения на 20%.
-21017	Град ударов	40100	icon_skills.pointattack_tex	Восстанавливающий град ударов	icon_crest.e_crestpassivehpheal_tex	Мгновенно восстанавливает 0.5% HP.
+21017	Град ударов	40100	icon_skills.pointattack_tex	Восстанавливающий град ударов	icon_crest.e_crestpassivehpheal_tex	Мгновенно восстанавливает 0,5% HP.
 21018	Удар воина	180100	icon_skills.aggravatingstrike_tex	Живительный удар воина	icon_crest.e_crestpassivehpdown_tex	Снижает расход HP на 50%.
 21019	Круговой удар	170100	icon_skills.allroundslash_tex	Усиленный круговой удар	icon_crest.e_crestpassiveattackup_tex	+25% к наносимому умением урону.
 21020	Разъяряющий порез	160100	icon_skills.rushingslash_tex	Стремительный разъяряющий порез	icon_crest.e_crestpassivecooltimedown_tex	Снижает время перезарядки умения на 25%.
@@ -55,7 +55,7 @@
 21054	Рваная рана	290100	icon_skills.dualslash_tex	Неутомимая рваная рана	icon_crest.e_crestactivecooltimereset_tex	50% вероятность сбросить время перезарядки умения.
 21064	Град ударов	40100	icon_skills.pointattack_tex	Усиленный град ударов	icon_crest.e_crestpassiveattackup_tex	+25% к наносимому умением урону.
 21065	Смерть с небес	100100	icon_skills.evasionattack_tex	Неизбежная смерть с небес	icon_crest.e_crestpassivecooltimedown_tex	Снижает время перезарядки умения на 30%.
-21066	Град ударов	40100	icon_skills.pointattack_tex	Восстанавливающий град ударов	icon_crest.e_crestpassivehpheal_tex	Мгновенно восстанавливает 0.5% HP.
+21066	Град ударов	40100	icon_skills.pointattack_tex	Восстанавливающий град ударов	icon_crest.e_crestpassivehpheal_tex	Мгновенно восстанавливает 0,5% HP.
 21067	Уклонение	20100	icon_skills.tumbling_tex	Нескончаемое уклонение	icon_crest.e_crestactivecooltimereset_tex	Снижает расход решимости на 100 единиц.
 21068	Защитная стойка	90100	icon_skills.ironwillb_tex	Несокрушимая защитная стойка	icon_crest.e_crestpassiveskilleffectup_tex	Увеличивает выносливость на 10%.
 21069	Удар воина	180100	icon_skills.aggravatingstrike_tex	Живительный удар воина	icon_crest.e_crestpassivehpdown_tex	Снижает расход HP на 50%.
@@ -518,7 +518,7 @@
 26048	Оглушающая ловушка	100100	icon_skills.paralysistrap_tex	Полыхающая оглушающая ловушка (Проникающий выстрел)	icon_crest.e_crestnextskillattackspeedup_tex	Увеличивает скорость использования умения "Проникающий выстрел" на 30% в течение нескольких секунд.
 26049	Град стрел	20100	icon_skills.arrowshower_tex	Полыхающий град стрел (Проникающий выстрел)	icon_crest.e_crestnextskillattackspeedup_tex	Увеличивает скорость использования умения "Проникающий выстрел" на 30% в течение нескольких секунд.
 26050	Ядовитая стрела	190100	icon_skills.venomarrow_tex	Полыхающая ядовитая стрела (Прицельный выстрел)	icon_crest.e_crestnextskillattackspeedup_tex	Увеличивает скорость использования умения "Прицельный выстрел" на 30% в течение нескольких секунд.
-26051	Последний залп			Полыхающий последний залп (Проникающий выстрел)	icon_crest.e_crestnextskillattackspeedup_tex	Увеличивает скорость использования умения "Проникающий выстрел" на 30% в течение нескольких секунд.
+26051	Залп	220100	icon_skills.chain_arrow	Полыхающий последний залп (Проникающий выстрел)	icon_crest.e_crestnextskillattackspeedup_tex	Увеличивает скорость использования умения "Проникающий выстрел" на 30% в течение нескольких секунд.
 26053	Проникающий выстрел	40100	icon_skills.througharrow_tex	Усиленный проникающий выстрел	icon_crest.e_crestpassiveattackup_tex	+25% к наносимому умением урону.
 26054	Проникающий выстрел	40100	icon_skills.througharrow_tex	Искусный проникающий выстрел	icon_crest.e_crestpassivepenaltydelete_tex	 Снимает ограничения замедленного перемещения при использовании умения.
 26055	Прицельный выстрел	30100	icon_skills.chargearrow_tex	Искусный прицельный выстрел	icon_crest.e_crestpassivepenaltydelete_tex	 Снимает ограничения замедленного перемещения при использовании умения.
@@ -564,6 +564,7 @@
 26101	Взрывная ловушка	250100	icon_skills.explosiontraparrow_tex	Усиленная взрывная ловушка	icon_crest.e_crestpassiveattackup_tex	+35% к наносимому умением урону.
 26102	Грозовой разряд	260100	icon_skills.thunderdrake_tex	Быстрый грозовой разряд	icon_crest.e_crestpassiveskillspeedup_tex	Увеличивает скорость использования умения на 30%.
 26103	Грозовой разряд	260100	icon_skills.thunderdrake_tex	Усиленный грозовой разряд	icon_crest.e_crestpassiveattackup_tex	+20% к наносимому умением урону.
+26104	Залп	220100	icon_skills.chain_arrow	Стремительный залп	icon_crest.e_crestactivecooltimereset_tex	50% вероятность сбросить время перезарядки умения.
 27000	Милость титанов	50100	icon_skills.healshot_tex	Возрастающая милость титанов	icon_crest.e_crestpassivelockontargetup_tex	Увеличивает максимальное количество захватываемых умением целей на 100%.
 27002	Обет перерождения	120100	icon_skills.autoresurrect_tex	Стремительный обет перерождения	icon_crest.e_crestpassivecooltimedown_tex	Снижает время перезарядки умения на 40%.
 27003	Прикосновение Аруна	90100	icon_skills.purifyshot_tex	Возрастающее прикосновение Аруна	icon_crest.e_crestpassivelockontargetup_tex	Увеличивает максимальное количество захватываемых умением целей на 100%.
@@ -753,7 +754,7 @@
 29001	Лязгающие косы	10100	icon_skills.comboattack2_tex	Энергичные лязгающие косы	icon_crest.e_crestpassivemprecoveryup_tex	Увеличивает количество восстанавливаемых МР на 20%.
 29002	Лязгающие косы	10100	icon_skills.comboattack2_tex	Быстрые лязгающие косы	icon_crest.e_crestactiveattackspeedup_tex	10% вероятность на 10 секунд повысить скорость атаки на 15%.
 29003	Лязгающие косы	10100	icon_skills.comboattack2_tex	Режущие лязгающие косы	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
-29004	Двойной разрез	30100	icon_skills.chainsmash_tex	Восстанавливающий двойной разрез	icon_crest.e_crestpassivehpheal_tex	При каждом ударе восстанавливает 1.5% HP.
+29004	Двойной разрез	30100	icon_skills.chainsmash_tex	Восстанавливающий двойной разрез	icon_crest.e_crestpassivehpheal_tex	При каждом ударе восстанавливает 1,5% HP.
 29005	Двойной разрез	30100	icon_skills.chainsmash_tex	Лихой двойной разрез (Свирепый удар)	icon_crest.e_crestnextskillattackup_tex	На 30% увеличивает урон умения "Свирепый удар" в течение 5 секунд.
 29006	Разделяющий удар	40100	icon_skills.chainblow_tex	Мощный разделяющий удар	icon_crest.e_crestpassiveattackup_tex	+15% к наносимому умением урону.
 29007	Разделяющий удар	40100	icon_skills.chainblow_tex	Режущий разделяющий удар	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
@@ -938,7 +939,7 @@
 31060	Сильный удар	20100	icon_skills.smashattack02_tex	Лихой сильный удар	icon_crest.e_crestpassiveattackup_tex	+30% к наносимому умением урону.
 31061	Контрудар	100100	icon_skills.counterattack2_tex	Усиленный контрудар	icon_crest.e_crestpassiveattackup_tex	+30% к наносимому умением урону.
 31062	Яростный удар сверху	170100	icon_skills.dashattack_tex	Усиленый яростный удар сверху	icon_crest.e_crestpassiveattackup_tex	+20% к наносимому умением урону.
-31063	Яростный удар сверху	170100	icon_skills.dashattack_tex	Восстанавливающий яростный удар сверху	icon_crest.e_crestpassivehpheal_tex	При каждом ударе восстанавливает 1.5% HP.
+31063	Яростный удар сверху	170100	icon_skills.dashattack_tex	Восстанавливающий яростный удар сверху	icon_crest.e_crestpassivehpheal_tex	При каждом ударе восстанавливает 1,5% HP.
 31064	Серия ударов	10100	icon_skills.comboattack01_tex	Усиленная серия ударов	icon_crest.e_crestpassiveattackup_tex	+25% к наносимому умением урону.
 31065	Мгновенный прорыв	400100	icon_skills.instancerush_tex	Неутомимый мгновенный прорыв	icon_crest.e_crestactivecooltimereset_tex	30% вероятность сбросить время перезарядки умения.
 31066	Сильный удар	20100	icon_skills.smashattack02_tex	Режущий сильный удар 	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
@@ -1009,3 +1010,71 @@
 32062	Двойной удар	140100	icon_skills.c12_twinslash	Режущий двойной удар	icon_crest.e_crestpassivecriticalup_tex	Утраивает вероятность нанесения критического удара.
 32063	Огненная атака	150100	icon_skills.c12_flamebreath	Усиленная огненная атака	icon_crest.e_crestpassiveattackup_tex	+30% к урону от умения.
 32064	Быстрые уклонения	20100	icon_skills.c12_dash	Стремительные быстрые уклонения	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки умения.
+33000	Трагедия	10100	icon_skills.combo_tex	Усиленная трагедия	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33001	Трагедия	10100	icon_skills.combo_tex	Блистательная трагедия	icon_crest.e_crestpassivemprecoveryup_tex	+15% к количеству восстанавливаемых MP при поражении цели.
+33002	Трагедия	10100	icon_skills.combo_tex	Стремительная трагедия	icon_crest.e_crestactiveattackspeedup_tex	10% вероятность на 10 секунд повысить скорость атаки на 15%.
+33003	Двойной размах	20100	icon_skills.fatalshot_tex	Лихой двойной размах	icon_crest.e_crestnextskillattackup_tex	При использовании умения "Импульс" в цепочке, повышает урон умений на 25%.
+33004	Двойной размах	20100	icon_skills.fatalshot_tex	Стремительный двойной размах	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33005	Разлив лунного света	30100	icon_skills.throwglave_tex	Усиленный разлив лунного света	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33006	Разлив лунного света	30100	icon_skills.throwglave_tex	Прорезающий разлив лунного света	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
+33007	Разлив лунного света	30100	icon_skills.throwglave_tex	Стремительный разлив лунного света	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33008	Лунный прыжок	40100	icon_skills.dashcut_tex	Стремительный лунный прыжок	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33009	Вихрь	50100	icon_skills.twister_tex	Прорезающий вихрь	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
+33010	Вихрь	50100	icon_skills.twister_tex	Живительный вихрь	icon_crest.e_crestpassivehpheal_tex	Восстанавливает 3% от общего количества HP при каждом ударе.
+33011	Вихрь	50100	icon_skills.twister_tex	Стремительный вихрь	icon_crest.e_crestpassivecooltimedown_tex	-15% к времени перезарядки.
+33012	Импульс	60100	icon_skills.risingshot_tex	Усиленный импульс	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33013	Импульс	60100	icon_skills.risingshot_tex	Блистательный импульс	icon_crest.e_crestpassivempdown_tex	Снижает расход MP на 100.
+33014	Избиение	70100	icon_skills.helicoptercuts_tex	Стремительное избиение	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33015	Избиение	70100	icon_skills.helicoptercuts_tex	Усиленное избиение	icon_crest.e_crestpassiveattackup_tex	При наложении умения в течении 3 секунд сила атакующего умения возрастает на 15%.
+33016	Полнолуние	80100	icon_skills.fullmoon_tex	Стремительное полнолуние	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33017	Полнолуние	80100	icon_skills.fullmoon_tex	Блистательное полнолуние	icon_crest.e_crestpassivempdown_tex	Снижает расход MP на 50.
+33018	Воля	90100	icon_skills.cutting_tex	Прорезающая воля	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
+33019	Воля	90100	icon_skills.cutting_tex	Усиленная воля	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33020	Обворожение	100100	icon_skills.split_tex	Стремительное обворожение	icon_crest.e_crestpassiveskillspeedup_tex	Увеличивает скорость использования умения на 20%.
+33021	Обворожение	100100	icon_skills.split_tex	Замедляющее обворожение	icon_crest.e_crestpassivespeeddown_tex	На 5 секунд снижает скорость перемещения противника на 50%.
+33022	Обворожение	100100	icon_skills.split_tex	Усиленное обворожение	icon_crest.e_crestpassivecriticalup_tex	Двойной урон опрокинутой цели.
+33023	Обворожение	100100	icon_skills.split_tex	Прорезающее обворожение	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
+33024	Новолуние	110100	icon_skills.crescentcut_tex	Блистательное новолуние	icon_crest.e_crestpassivempdown_tex	Снижает расход MP на 50.
+33025	Новолуние	110100	icon_skills.crescentcut_tex	Усиленное новолуние	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33026	Новолуние	110100	icon_skills.crescentcut_tex	Стремительное новолуние	icon_crest.e_crestpassivecooltimedown_tex	-15% к времени перезарядки.
+33027	Багровая луна	120100	icon_skills.redmoon_tex	Задерживающая красная луна	icon_crest.e_crestpassivedurationup_tex	Увеличивает продолжительность эффекта на 15%.
+33028	Прорыв	130100	icon_skills.brust_tex	Блистательный прорыв	icon_crest.e_creststrecover_tex	+5 к силе луны после использования умения.
+33029	Прорыв	130100	icon_skills.brust_tex	Прорезающий прорыв	icon_crest.e_creststrecover_tex	Увеличивает множитель критического удара на 100%.
+33030	Прорыв	130100	icon_skills.brust_tex	Лихой прорыв	icon_crest.e_crestnextskillattackup_tex	При использовании умения "Импульс" в цепочке, повышает урон умений на 25%.
+33031	Уклонение	140100	icon_skills.moonshadow_tex	Стремительное уклонение	icon_crest.e_crestactivecooltimereset_tex	30% вероятность сбросить время перезарядки умения.
+33032	Уклонение	140100	icon_skills.moonshadow_tex	Ускоренное уклонение	icon_crest.e_crestpassivecooltimedown_tex	При полном уклонении происходит восстановление умения "Прорыв".
+33033	Ветер	150100	icon_skills.crossway_tex	Лихой ветер	icon_crest.e_crestnextskillattackup_tex	При использовании умения "Импульс" в цепочке, повышает урон умений на 25%.
+33034	Отблеск лунного света	160100	icon_skills.moonlightdash_tex	Усиленный отблеск лунного света	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33035	Отблеск лунного света	160100	icon_skills.moonlightdash_tex	Блистательный отблеск лунного света	icon_crest.e_creststrecover_tex	+5 к силе луны после использования умения.
+33036	Благословение луны	170100	icon_skills.moongracebuff_tex	Восстанавливающее благословение луны	icon_crest.e_crestpassivehpheal_tex	Вне боя каждую секунду восстанавливает 3% от общего количества НР в течение 12 секунд.
+33037	Благословение луны	170100	icon_skills.moongracebuff_tex	Стремительное благословение луны	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33038	Ответный удар	180100	icon_skills.risingattack_tex	Усиленный ответный удар	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33039	Ответный удар	180100	icon_skills.risingattack_tex	Стремительный ответный удар	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33040	Лунное сияние	190100	icon_skills.moonlight_tex	Стремительное лунное сияние	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33041	Притяжение луны	210100	icon_skills.moongravity_tex	Усиленное притяжение луны I 	icon_crest.e_crestnextskillattackup_tex	При использовании умения "Отблеск лунного света" в цепочке, повышает урон умений на 25%.
+33042	Трагедия	10100	icon_skills.combo_tex	Усиленная трагедия	icon_crest.e_crestpassiveattackup_tex	+25% к урону от умения.
+33043	Двойной размах	20100	icon_skills.fatalshot_tex	Стремительный двойной размах	icon_crest.e_crestpassivecooltimedown_tex	-25% к времени перезарядки.
+33045	Лунный прыжок	40100	icon_skills.dashcut_tex	Усиленный лунный прыжок	icon_crest.e_crestpassiveattackup_tex	+25% к урону от умения.
+33046	Вихрь	50100	icon_skills.twister_tex	Восстанавливающий вихрь	icon_crest.e_crestpassivehpheal_tex	Восстанавливает 5% от общего количества HP при каждом ударе.
+33048	Импульс	60100	icon_skills.risingshot_tex	Усиленный импульс	icon_crest.e_crestpassiveattackup_tex	+25% к урону от умения.
+33049	Избиение	70100	icon_skills.helicoptercuts_tex	Усиленное избиение	icon_crest.e_crestpassiveattackup_tex	После использования умения увеличивает урон атакующих умений на 20% в течение 3 секунд.
+33050	Полнолуние	80100	icon_skills.fullmoon_tex	Стремительное полнолуние	icon_crest.e_crestpassivecooltimedown_tex	-20% к времени перезарядки.
+33051	Полнолуние	80100	icon_skills.fullmoon_tex	Блестящее полнолуние	icon_crest.e_crestpassivempdown_tex	Снижает расход MP на 50.
+33052	Обворожение	100100	icon_skills.split_tex	Прорезающее обворожение	icon_crest.e_crestpassivecriticalup_tex	Утраивает вероятность нанесения критического удара.
+33053	Прорыв	130100	icon_skills.brust_tex	Прорезающий прорыв	icon_crest.e_creststrecover_tex	Увеличивает множитель критического удара на 100%.
+33055	Разлив лунного света	30100	icon_skills.throwglave_tex	Усиленный разлив лунного света	icon_crest.e_crestpassiveattackup_tex	+25% к урону от умения.
+33056	Вихрь	50100	icon_skills.twister_tex	Прорезающий вихрь	icon_crest.e_crestpassivecriticalup_tex	Утраивает вероятность нанесения критического удара.
+33057	Вихрь	50100	icon_skills.twister_tex	Усиленный вихрь	icon_crest.e_crestpassiveattackup_tex	+25% к урону от умения.
+33058	Импульс	60100	icon_skills.risingshot_tex	Прорезающий импульс	icon_crest.e_crestpassivecriticalup_tex	Удваивает вероятность нанесения критического удара.
+33059	Полнолуние	80100	icon_skills.fullmoon_tex	Усиленное полнолуние	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33060	Новолуние	110100	icon_skills.crescentcut_tex	Блестящее новолуние	icon_crest.e_crestpassivempdown_tex	Снижает расход MP на 50.
+33061	Новолуние	110100	icon_skills.crescentcut_tex	Усиленное новолуние	icon_crest.e_crestpassiveattackup_tex	+25% к урону от умения.
+33062	Уклонение	140100	icon_skills.moonshadow_tex	Ускоренное уклонение	icon_crest.e_crestpassivecooltimedown_tex	При полном уклонении происходит восстановление повторного использования "Прорыва".
+33063	Отблеск лунного света	160100	icon_skills.moonlightdash_tex	Усиленный отблеск лунного света	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33064	Ветер	150100	icon_skills.crossway_tex	Усиленный ветер	icon_crest.e_crestpassiveattackup_tex	+20% к урону от умения.
+33065	Разлив лунного света	30100	icon_skills.throwglave_tex	Усиленный разлив лунного света	icon_crest.e_crestpassiveattackup_tex	+30% к урону от умения.
+33066	Воля	90100	icon_skills.cutting_tex	Прорезающая воля	icon_crest.e_crestpassivecriticalup_tex	Утраивает вероятность нанесения критического удара.
+33067	Воля	90100	icon_skills.cutting_tex	Усиленная воля	icon_crest.e_crestpassiveattackup_tex	+25% к урону от умения.
+33068	Новолуние	110100	icon_skills.crescentcut_tex	Усиленное новолуние	icon_crest.e_crestpassiveattackup_tex	+30% к урону от умения.
+33069	Отблеск лунного света	160100	icon_skills.moonlightdash_tex	Усиленный отблеск лунного света	icon_crest.e_crestpassiveattackup_tex	+30% к урону от умения.
+33070	Связка лунного света	200100	icon_skills.mooncatch_tex	Усиленная связка лунного света	icon_crest.e_crestpassiveattackup_tex	На 30% увеличивает урон от следующей атаки.
