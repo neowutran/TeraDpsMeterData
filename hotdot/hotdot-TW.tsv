@@ -753,7 +753,7 @@
 26170	CastSpeed	0	0	perc	6000	0	1.3	多重射擊(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加30%。	icon_skills.arrowshower_tex
 26171	CastSpeed	0	0	perc	6000	0	1.4	多重射擊(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加40%。	icon_skills.arrowshower_tex
 26180	CastSpeed	0	0	perc	6000	0	1.3	劇毒之箭(連續 神速紋章 [集中射擊])			以連續技使用集中射擊時，蓄力速度增加30%。	icon_skills.venomarrow_tex
-26190	CastSpeed	0	0	perc	6000	0	1.3	速射連鎖(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加30%。	
+26190	CastSpeed	0	0	perc	6000	0	1.3	連射(連續 神速紋章 [穿透射擊])			以連續技使用穿透射擊時，蓄力速度增加30%。	icon_skills.chain_arrow
 26200	MovSpdInCombat	0	0	abs	3000	0	50	迴旋踢(活力紋章)			戰鬥狀態的移動速度增加50。	icon_skills.turningkick_tex
 26210	MovSpd	0	0	setp	6000	0	0.6	脫離攻擊(慵懶紋章)			移動速度減少40%。	icon_skills.escapingattack_tex
 26220	Endurance	0	0	perc	25000	0	0.9545	抗打減少 [弱化紋章]			抗打減少4.55%。	icon_crest.crestactivedefencedown_tex
@@ -814,6 +814,16 @@
 32044	AtkPotion	0	0	perc	5000	0	1.3	三角砍擊(連續鬥志紋章)			以連續技能使用扭轉砍擊時，技能威力增加 30%。	icon_skills.c12_airstepstrike
 32047	AtkPotion	0	0	perc	5000	0	1.3	二段砍擊(連續鬥志紋章)			以連續技能使用三角砍擊時，技能威力增加 30%。	icon_skills.c12_twinslash
 32060	ASpd	0	0	perc	5000	0	1.1	連續攻擊(神速紋章)			攻擊速度上升 10%。	icon_skills.c12_meleecombo
+33010	ASpd	0	0	perc	10000	0	1.15	連擊斬(神速紋章)			攻擊速度15%提升。	icon_skills.combo_tex
+33020	AtkPotion	0	0	perc	10000	0	1.25	魂擊斬(連續 鬥志紋章 [昇擊斬])			以連續技能使用[昇擊斬]時，技能威力增加力量25%。	icon_skills.fatalshot_tex
+33071	AtkPotion	0	0	perc	3000	0	1.15	技能威力增加 [連續鬥志紋章]			3秒間所有攻擊技能的威力增加15%。	icon_crest.crestnextskillattackup_tex
+33073	AtkPotion	0	0	perc	3000	0	1.2	技能威力增加 [連續鬥志紋章]			3秒間所有攻擊技能的威力增加20%。	icon_crest.crestnextskillattackup_tex
+33100	MovSpd	0	0	setp	5000	0	0.5	月波斬(慵懶紋章)			移動速度50%減少。	icon_skills.split_tex
+33130	AtkPotion	0	0	perc	10000	0	1.25	破裂斬(連續鬥志紋章 [昇擊斬])			以連續技能使用[昇擊斬]時，技能威力增加力量25%。	icon_skills.brust_tex
+33150	AtkPotion	0	0	perc	10000	0	1.25	風斬(連續 鬥志紋章 [昇擊斬])			以連續技能使用[昇擊斬]時，技能威力增加力量25%。	icon_skills.twister_tex
+33170	HPChange	0.03	0	perc	12000	1	0.03	月光的庇護(特質紋章)			每1s，持續恢復相當於整體HP的 2%之HP。	icon_skills.moongracebuff_tex
+33200	AtkPotion	0	0	perc	5000	0	1.3	月光煉(鬥志紋章)			下一次攻擊時技能威力增加 30%	icon_skills.mooncatch_tex
+33210	AtkPotion	0	0	perc	5000	0	1.25	月光的引力(連續鬥志紋章 [月光的共鳴] )			以連續技能使用[月光的共鳴]時，技能威力增加力量25%。	icon_skills.moongravity_tex
 46705	Endurance	0	0	perc	60000	0	0.95	災難			因酸性攻擊而使防禦力減少，此效果堆疊且無法解除。	icon_status.minusdefence_tex
 46706	Endurance	0	0	perc	60000	0	0.85	大災難			因酸性攻擊而使防禦力大幅減少，此效果堆疊且無法解除。	icon_status.minusdefence_tex
 46750	Power	0	0	perc	180000	0	1.2	燃燒的憤怒			進入燃燒的憤怒狀態時，力量增加 20%、防禦力增加 20%。	icon_status.archerspirit_tex
@@ -953,30 +963,35 @@
 96903	MovSpd	0	0	perc	10000	0	0.9	灼傷			移動速度減少10%、每2秒減少HP 5%。該效果可重疊並且無法解除。	icon_status.minuscriticalresist_tex
 96903	HPChange	-0.05	0	perc	10000	2	-0.05	灼傷			移動速度減少10%、每2秒減少HP 5%。該效果可重疊並且無法解除。	icon_status.minuscriticalresist_tex
 96904	HPChange	-0.06	0	perc	5000	1	-0.06	精靈之花火			精靈之花火鑽進防具裡每1秒造成HP 6%的傷害。該效果無法解除	icon_status.mprecoverup_tex
-100100	Power	0	0	abs	0	0	5	刀刃決心			力量 5與爆擊誘發 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100100	Endurance	0	0	perc	0	0	0.9	刀刃決心			力量 5與爆擊誘發 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100100	Crit	0	0	abs	0	0	30	刀刃決心			力量 5與爆擊誘發 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100100	AtkPotion	0	0	perc	0	0	1.1	刀刃決心			力量 5與爆擊誘發 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100101	Power	0	0	abs	0	0	10	刀刃決心 II			力量 10與爆擊誘發 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100101	Endurance	0	0	perc	0	0	0.9	刀刃決心 II			力量 10與爆擊誘發 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100101	Crit	0	0	abs	0	0	40	刀刃決心 II			力量 10與爆擊誘發 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100101	AtkPotion	0	0	perc	0	0	1.1	刀刃決心 II			力量 10與爆擊誘發 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100102	Power	0	0	abs	0	0	15	刀刃決心			力量 15與爆擊誘發 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100102	Endurance	0	0	perc	0	0	0.9	刀刃決心			力量 15與爆擊誘發 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100102	Crit	0	0	abs	0	0	50	刀刃決心			力量 15與爆擊誘發 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100102	AtkPotion	0	0	perc	0	0	1.1	刀刃決心			力量 15與爆擊誘發 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100103	Power	0	0	abs	0	0	18	刀刃決心 IV			力量 18與爆擊誘發 55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100103	Endurance	0	0	perc	0	0	0.9	刀刃決心 IV			力量 18與爆擊誘發 55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100103	Crit	0	0	abs	0	0	55	刀刃決心 IV			力量 18與爆擊誘發 55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100103	AtkPotion	0	0	perc	0	0	1.1	刀刃決心 IV			力量 18與爆擊誘發 55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
-100200	Endurance	0	0	perc	0	0	1.15	鋼鐵決心 I			抗打增加15%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加65%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
-100200	Block	0	0	perc	0	0	0	鋼鐵決心 I			抗打增加15%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加65%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
-100201	Endurance	0	0	perc	0	0	1.2	鋼鐵決心 II			抗打增加20%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加80%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
-100201	Block	0	0	perc	0	0	0	鋼鐵決心 II			抗打增加20%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加80%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
-100202	Endurance	0	0	perc	0	0	1.25	鋼鐵決心			抗打增加25%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加100%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
-100202	Block	0	0	perc	0	0	0	鋼鐵決心			抗打增加25%、平衡增加20。另外對於所有攻擊技能的仇恨值也增加100%，但戰鬥時無法抵抗部分怪物的特殊攻擊。	icon_skills.ironwillb_tex
-100203	Endurance	0	0	perc	0	0	1.25	鋼鐵決心 IV			抗打增加25%、平衡增加30。另外對於所有攻擊技能的仇恨值也增加120%，但戰鬥時除了部分怪物的特殊攻擊外，其餘皆無法抵抗。	icon_skills.ironwillb_tex
-100203	Block	0	0	perc	0	0	0	鋼鐵決心 IV			抗打增加25%、平衡增加30。另外對於所有攻擊技能的仇恨值也增加120%，但戰鬥時除了部分怪物的特殊攻擊外，其餘皆無法抵抗。	icon_skills.ironwillb_tex
+100100	Power	0	0	abs	0	0	5	刀刃決心			力量 5與爆擊誘發增加 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100100	Endurance	0	0	perc	0	0	0.9	刀刃決心			力量 5與爆擊誘發增加 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100100	Crit	0	0	abs	0	0	30	刀刃決心			力量 5與爆擊誘發增加 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100100	AtkPotion	0	0	perc	0	0	1.1	刀刃決心			力量 5與爆擊誘發增加 30，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100101	Power	0	0	abs	0	0	10	刀刃決心 II			力量 10與爆擊誘發增加 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100101	Endurance	0	0	perc	0	0	0.9	刀刃決心 II			力量 10與爆擊誘發增加 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100101	Crit	0	0	abs	0	0	40	刀刃決心 II			力量 10與爆擊誘發增加 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100101	AtkPotion	0	0	perc	0	0	1.1	刀刃決心 II			力量 10與爆擊誘發增加 40，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100102	Power	0	0	abs	0	0	15	刀刃決心			力量 15與爆擊誘發增加 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100102	Endurance	0	0	perc	0	0	0.9	刀刃決心			力量 15與爆擊誘發增加 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100102	Crit	0	0	abs	0	0	50	刀刃決心			力量 15與爆擊誘發增加 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100102	AtkPotion	0	0	perc	0	0	1.1	刀刃決心			力量 15與爆擊誘發增加 50，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100103	Power	0	0	abs	0	0	18	刀刃決心 IV			力量 18與爆擊誘發增加55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100103	Endurance	0	0	perc	0	0	0.9	刀刃決心 IV			力量 18與爆擊誘發增加55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100103	Crit	0	0	abs	0	0	55	刀刃決心 IV			力量 18與爆擊誘發增加55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100103	AtkPotion	0	0	perc	0	0	1.1	刀刃決心 IV			力量 18與爆擊誘發增加55，攻擊怪物時技能威力雖然增加 10%，抗打會減少 10%。	icon_skills.ironwilla_tex
+100200	Endurance	0	0	perc	0	0	1.15	鋼鐵決心 I			抗打增加15%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加65%，戰鬥時除了怪物的部份特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100200	CritChance	0	0	perc	0	0	1.15	鋼鐵決心 I			抗打增加15%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加65%，戰鬥時除了怪物的部份特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100200	Block	0	0	perc	0	0	0	鋼鐵決心 I			抗打增加15%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加65%，戰鬥時除了怪物的部份特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100201	Endurance	0	0	perc	0	0	1.2	鋼鐵決心 II			抗打增加20%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加80%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100201	CritChance	0	0	perc	0	0	1.15	鋼鐵決心 II			抗打增加20%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加80%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100201	Block	0	0	perc	0	0	0	鋼鐵決心 II			抗打增加20%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加80%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100202	Endurance	0	0	perc	0	0	1.25	鋼鐵決心			抗打增加25%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加100%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100202	CritChance	0	0	perc	0	0	1.15	鋼鐵決心			抗打增加25%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加100%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100202	Block	0	0	perc	0	0	0	鋼鐵決心			抗打增加25%，平衡增加20，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加100%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100203	Endurance	0	0	perc	0	0	1.25	鋼鐵決心 IV			抗打增加25%，平衡增加30，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加120%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100203	CritChance	0	0	perc	0	0	1.15	鋼鐵決心 IV			抗打增加25%，平衡增加30，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加120%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100203	Block	0	0	perc	0	0	0	鋼鐵決心 IV			抗打增加25%，平衡增加30，攻擊怪物時爆擊率增加15%。所有技能的仇恨值增加120%，戰鬥時除了部分怪物的特殊攻擊外，不可驅趕。	icon_skills.ironwillb_tex
+100294	MPChange	0	0.05	perc	1000	1	0.05	克己Ⅰ			因克己Ⅰ的效果而恢復5%的Mp。	icon_skills.twinswordsdefence_tex
 100500	HPChange	-116	0	abs	10000	2	-116	猛毒一擊 I			感染致命的劇毒，每2s持續減少-116的HP。	icon_skills.poisonblowattack_tex
 100501	HPChange	-175	0	abs	10000	2	-175	猛毒一擊 II			感染致命的劇毒，每2s持續減少-175的HP。	icon_skills.poisonblowattack_tex
 100502	HPChange	-292	0	abs	10000	2	-292	猛毒一擊 III			感染致命的劇毒，每2s持續減少-292的HP。	icon_skills.poisonblowattack_tex
@@ -1055,37 +1070,35 @@
 300900	CDR	0	0	swch	11000	0	1.5	神經劈擊 			效果持續時間中使用的所有技能的冷卻時間增加50%。	icon_skills.veinslash_tex
 300901	CDR	0	0	swch	11000	0	1.53	神經劈擊  II			效果持續時間中使用的所有技能的冷卻時間增加53%。	icon_skills.veinslash_tex
 300902	CDR	0	0	swch	11000	0	1.55	神經劈擊  III			效果持續時間中使用的所有技能的冷卻時間增加55%。	icon_skills.veinslash_tex
-400100	Power	0	0	perc	15000	0	1.2	狂暴化 I			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400100	Endurance	0	0	perc	15000	0	0.9	狂暴化 I			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400100	Crit	0	0	perc	15000	0	1.1	狂暴化 I			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400101	Power	0	0	perc	17000	0	1.2	狂暴化 II			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400101	Endurance	0	0	perc	17000	0	0.9	狂暴化 II			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400101	Crit	0	0	perc	17000	0	1.1	狂暴化 II			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400102	Power	0	0	perc	20000	0	1.2	狂暴化 III			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400102	Endurance	0	0	perc	20000	0	0.9	狂暴化 III			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400102	Crit	0	0	perc	20000	0	1.1	狂暴化 III			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400103	Power	0	0	perc	25000	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400103	Endurance	0	0	perc	25000	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400103	Crit	0	0	perc	25000	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400104	Power	0	0	perc	27000	0	1.2	狂暴化 V			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400104	Endurance	0	0	perc	27000	0	0.9	狂暴化 V			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400104	Crit	0	0	perc	27000	0	1.1	狂暴化 V			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400105	Power	0	0	perc	27000	0	1.2	狂暴化 VI			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400105	Endurance	0	0	perc	27000	0	0.9	狂暴化 VI			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
-400105	Crit	0	0	perc	27000	0	1.1	狂暴化 VI			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400100	Power	0	0	perc	22500	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400100	Endurance	0	0	perc	22500	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400100	Crit	0	0	perc	22500	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400101	Power	0	0	perc	25500	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400101	Endurance	0	0	perc	25500	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400101	Crit	0	0	perc	25500	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400102	Power	0	0	perc	30000	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400102	Endurance	0	0	perc	30000	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400102	Crit	0	0	perc	30000	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400103	Power	0	0	perc	37000	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400103	Endurance	0	0	perc	37000	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400103	Crit	0	0	perc	37000	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400104	Power	0	0	perc	40000	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400104	Endurance	0	0	perc	40000	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400104	Crit	0	0	perc	40000	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400105	Power	0	0	perc	40000	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400105	Endurance	0	0	perc	40000	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
+400105	Crit	0	0	perc	40000	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
 400300	MovSpd	0	0	perc	10000	0	1.5	疾走 I			移動速度提升50%。	icon_skills.dash_tex
 400301	MovSpd	0	0	perc	15000	0	1.5	疾走			移動速度提升50%。	icon_skills.dash_tex
 400302	MovSpd	0	0	perc	15000	0	1.5	疾走 III			移動速度提升50%。	icon_skills.dash_tex
 400303	MovSpd	0	0	perc	5000	0	2.2	疾走_憤怒 III			移動速度提升120%。	icon_skills.dash_tex
-400500	ASpd	0	0	perc	10000	0	1.2	狂神降臨(助力紋章)			攻擊速度和蓄力速度增加20%。	icon_skills.vitalconversion_tex
-400501	ASpd	0	0	perc	10000	0	1.4	狂氣大增 II			攻擊速度和蓄力速度增加40%。	icon_skills.gatheringrage_tex
-400508	ASpd	0	0	perc	10000	0	1.4	狂暴化 VI			攻擊速度和蓄力速度增加 40% 。	icon_skills.berserk_tex
+400500	ASpd	0	0	perc	18000	0	1.2	狂暴化			攻擊速度和蓄力速度增加20%。	icon_skills.berserk_tex
+400501	ASpd	0	0	perc	18000	0	1.4	狂暴化			攻擊速度和蓄力速度增加40%。	icon_skills.berserk_tex
+400508	ASpd	0	0	perc	18000	0	1.4	狂暴化 VI			攻擊速度和蓄力速度增加 40% 。	icon_skills.berserk_tex
 400509	ASpd	0	0	perc	20000	0	1	在我內在沉睡的狂氣			使用狂暴化技能也不能收到狂氣大增的效果。	icon_skills.relax_tex
 400700	Power	0	0	abs	30000	0	26	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
-400700	ASpd	0	0	perc	10000	0	1.2	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400700	AtkPotion	0	0	perc	30000	0	1.1	激怒  I			力量提升26，衝擊和平衡也各提升50%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400701	Power	0	0	abs	30000	0	29	激怒 II			力量提升29，衝擊和平衡也各提升60%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
-400701	ASpd	0	0	perc	10000	0	1.4	激怒 II			力量提升29，衝擊和平衡也各提升60%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400701	AtkPotion	0	0	perc	30000	0	1.1	激怒 II			力量提升29，衝擊和平衡也各提升60%。另外，攻擊怪物時，技能傷害提升 10%。	icon_skills.fury_tex
 400800	MovSpd	0	0	setp	6000	0	0.4	殺氣爆發 I			移動速度減少60%。另外對PC套用效果時，效果持續時間內無法使用迴避及移動系列技能。	icon_skills.murderousvent_tex
 400800	Block	0	0	perc	6000	0	0	殺氣爆發 I			移動速度減少60%。另外對PC套用效果時，效果持續時間內無法使用迴避及移動系列技能。	icon_skills.murderousvent_tex
@@ -1416,14 +1429,14 @@
 601000	ASpd	0	0	perc	4000	0	0.85	牽制射擊 I			移動速度減少50%，攻擊速度減少15%。	icon_skills.contaningshot_tex
 601001	MovSpd	0	0	setp	5000	0	0.5	牽制射擊 II			移動速度減少50%，攻擊速度減少15%。	icon_skills.contaningshot_tex
 601001	ASpd	0	0	perc	5000	0	0.85	牽制射擊 II			移動速度減少50%，攻擊速度減少15%。	icon_skills.contaningshot_tex
-601100	Power	0	0	abs	0	0	30	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
-601100	MovSpd	0	0	abs	0	0	8	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
-601100	ASpd	0	0	abs	0	0	4	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
-601100	AtkPotion	0	0	perc	0	0	1.07	集中姿勢：勇猛 I			攻擊速度及力量提升4、移動速度增加8，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
-601101	Power	0	0	abs	0	0	30	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
-601101	MovSpd	0	0	abs	0	0	16	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
-601101	ASpd	0	0	abs	0	0	8	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
-601101	AtkPotion	0	0	perc	0	0	1.07	集中姿勢：勇猛 II			攻擊速度及力量提升8、移動速度增加16，另外攻擊怪物時給予7%提升的傷害。	icon_skills.focusstance_tex
+601100	Power	0	0	abs	0	0	30	集中姿勢：勇猛 I			力量增加30、攻擊速度增加4 、移動速度增加8。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
+601100	MovSpd	0	0	abs	0	0	8	集中姿勢：勇猛 I			力量增加30、攻擊速度增加4 、移動速度增加8。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
+601100	ASpd	0	0	abs	0	0	4	集中姿勢：勇猛 I			力量增加30、攻擊速度增加4 、移動速度增加8。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
+601100	AtkPotion	0	0	perc	0	0	1.07	集中姿勢：勇猛 I			力量增加30、攻擊速度增加4 、移動速度增加8。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
+601101	Power	0	0	abs	0	0	30	集中姿勢：勇猛 II			力量增加30、攻擊速度增加8 、移動速度增加16。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
+601101	MovSpd	0	0	abs	0	0	16	集中姿勢：勇猛 II			力量增加30、攻擊速度增加8 、移動速度增加16。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
+601101	ASpd	0	0	abs	0	0	8	集中姿勢：勇猛 II			力量增加30、攻擊速度增加8 、移動速度增加16。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
+601101	AtkPotion	0	0	perc	0	0	1.07	集中姿勢：勇猛 II			力量增加30、攻擊速度增加8 、移動速度增加16。攻擊怪物時增加7%, 攻擊玩家時增加10% 的傷害力。	icon_skills.focusstance_tex
 601110	Power	0	0	abs	0	0	30	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
 601110	Endurance	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
 601110	ASpd	0	0	abs	0	0	4	集中姿勢：慎重 I			攻擊速度及力量提升4、抗打增加4，另外攻擊一般怪物時給予10%提升的傷害。	icon_skills.focusstance_moveslow_tex
@@ -1660,6 +1673,13 @@
 777034	HPChange	-0.01	0	perc	70000	1	-0.01	戴蒙克隆的詛咒			每次堆疊時，力量增加30%，但是每1持續減少1.99%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex
 777036	MovSpd	0	0	setp	30000	0	0.2	戴蒙克隆的標記			戴蒙克隆病毒纏繞全身。移動速度減緩，要先處置戴蒙克隆。	icon_status.poisonup_tex
 777037	Block	0	0	seta	30000	0	0	戴蒙克隆的標記			效果持續時間內無法使用迴避和移動系列技能。	icon_items.cancel_evade_potion_level_51_tex
+780100	HPChange	-1000000	0	abs	10000	1	-1000000	看見的話則為BTS			看見的話則為BTS	
+780102	HPChange	-500000	0	abs	2000	1	-500000	看見的話則為BTS			看見的話則為BTS	
+780103	HPChange	-0.05	0	perc	15000	1	-0.05	灼傷			藍色火焰籠罩全身!每1s會受到最大體力 7%傷害。	icon_status.minusmp_tex
+780104	MovSpd	0	0	perc	15000	0	0.5	燃燒的腳掌			踏上殘留火花的火路，腳掌燃燒起來。移動速度減少50%。	icon_skills.kumas_frontroll_tex
+780200	HPChange	-0.05	0	perc	10000	1	-0.05	強酸性胃液			因強力的酸性胃液，每1s會受到最大體力 5%傷害。	icon_status.poisonstatus_tex
+780202	HPChange	-0.01	0	perc	60000	2	-0.01	出血			被鋒利的斧頭擊中而出血，每2s會受到最大體力 1%傷害。	icon_status.injuredbtdarkness_tex
+780203	HPChange	-0.1	0	perc	5000	1	-0.1	嚴重出血			因貝爾德克強力的一擊，造成極大的傷口，流了相當多血。每1s會受到最大體力 10%傷害。	icon_status.damagedown_tex
 800100	HPChange	88	0	abs	10000	2	88	再生之風 I			微風徐徐吹來感到一股暖意。每2s持續恢復HP。	icon_skills.healingwind_tex
 800101	HPChange	111	0	abs	10000	2	111	再生之風 II			微風徐徐吹來感到一股暖意。每2s持續恢復HP。	icon_skills.healingwind_tex
 800102	HPChange	136	0	abs	10000	2	136	再生之風 III			微風徐徐吹來感到一股暖意。每2s持續恢復HP。	icon_skills.healingwind_tex
@@ -1955,6 +1975,16 @@
 975661	StaminaDecay	0	0	swch	90000	0	0	太陽之光			每5秒恢復3%的體力。	icon_status.valrhona_sun_tex
 975662	MPChange	0	1	perc	90000	15	1	惡魔的微笑			每15秒魔力恢復至100%狀態。	icon_status.valrhona_devil_tex
 975663	Endurance	0	0	perc	90000	0	1.05	女神的手勢			防禦力增加 5% 。	icon_status.valrhona_goddess_tex
+980100	HPChange	-1000000	0	abs	10000	1	-1000000	看見的話則為BTS			看見的話則為BTS	
+980102	HPChange	-500000	0	abs	2000	1	-500000	看見的話則為BTS			看見的話則為BTS	
+980103	HPChange	-0.07	0	perc	15000	1	-0.07	灼傷			藍色火焰籠罩全身!每1s會受到最大體力 7%傷害。	icon_status.minusmp_tex
+980104	MovSpd	0	0	perc	15000	0	0.5	燃燒的腳掌			踏上殘留火花的火路，腳掌燃燒起來。移動速度減少50%。	icon_skills.kumas_frontroll_tex
+980200	HPChange	-0.05	0	perc	10000	1	-0.05	強酸性胃液			因強力的酸性胃液，每1s會受到最大體力 5%傷害。	icon_status.poisonstatus_tex
+980202	HPChange	-0.01	0	perc	60000	2	-0.01	出血			被鋒利的斧頭擊中而出血，每2s會受到最大體力 1%傷害。	icon_status.injuredbtdarkness_tex
+980203	HPChange	-0.1	0	perc	5000	1	-0.1	嚴重出血			因貝爾德克強力的一擊，造成極大的傷口，流了相當多血。每1s會受到最大體力 10%傷害。	icon_status.damagedown_tex
+980204	Power	0	0	setp	15000	0	3	燃燒的武器			貝爾德克準備了可怕的攻擊。不解除的話所有東西都會被破壞。	icon_skills.downattack_tex
+980205	Power	0	0	setp	15000	0	3	燃燒的憤怒			貝爾德克利用憤怒來破壞所有東西。迎接死亡吧	icon_skills.dragonrisingblow_tex
+980206	HPChange	-0.1	0	perc	15000	2	-0.1	難以忍受的痛苦			因噴射出的火焰，傷口著火而無法癒合。每2s會受到最大體力 10%傷害。	icon_status.firedamage_tex
 988504	MaxHP	0	0	perc	0	1	1.1	最大HP增加 1			自己及隊員們的最大HP增加10%。	icon_status.plusmp_tex
 988505	MaxHP	0	0	perc	0	1	1.2	最大HP增加 2			自己及隊員們的最大HP增加20%。	icon_status.mprecoverup_tex
 988506	MaxHP	0	0	perc	0	1	1.4	最大HP增加 3			自己及隊員們的最大HP增加40%。	icon_status.plushp_tex
@@ -2151,6 +2181,20 @@
 10154030	AtkPotion	0	0	swch	0	0	1.05	劍氣術			發現劍器而使攻擊力增加。	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0	0	swch	60000	0	1.01	強力劍氣			展現強力劍氣後，攻擊力會增加更多。	icon_skills.c12_atkupbuff
 10154090	Endurance	0	0	perc	60000	0	1	變身術 I			處於變身為對方樣貌的狀態。	icon_skills.c12_transform
+10155030	AtkPotion	0	0	perc	0	0	1.2	滿月的饗宴			接收月光氣息，傷害量每次重疊增加20%。	icon_skills.fullmoon_tex
+10155031	AtkPotion	0	0	perc	0	0	1.3	血滿月的饗宴			接收月光氣息，傷害量每次重疊增加30%。	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	0	0	perc	0	0	1.2	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加20%，爆擊率增加0.2倍。	icon_skills.fullmoon_tex
+10155036	CritChance	0	0	perc	0	0	1.2	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加20%，爆擊率增加0.2倍。	icon_skills.fullmoon_tex
+10155037	AtkPotion	0	0	perc	0	0	1.3	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加30%，爆擊率增加0.3倍。	icon_skills.fullmoon_tex
+10155037	CritChance	0	0	perc	0	0	1.3	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加30%，爆擊率增加0.3倍。	icon_skills.fullmoon_tex
+10155130	Power	0	0	abs	25000	0	50	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155130	Endurance	0	0	swch	1500	0	0	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155130	ASpd	0	0	abs	25000	0	20	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155130	CDR	0	0	perc	25000	0	0.4	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155150	CritChance	0	0	perc	10000	0	100	捕捉機會			把握住可以完美迴避敵人攻擊以及反擊的機會。除了 [連擊斬]以外，下一個使用的攻擊技能有100%的機率會發生爆擊。	icon_status.darkriftareadance_tex
+10155250	Endurance	0	0	perc	1	0	1	月光的庇護 I			受到月光的庇護，而不會被攻擊擊倒或僵硬，也不會受到延遲效果的影響。所受到的傷害減少70%。	icon_skills.moongracebuff_tex
+10155250	DefPotion	0	0	perc	15000	0	0.3	月光的庇護 I			受到月光的庇護，而不會被攻擊擊倒或僵硬，也不會受到延遲效果的影響。所受到的傷害減少70%。	icon_skills.moongracebuff_tex
+10155270	Endurance	0	0	perc	20000	0	1	月光的引力			在效果的持續期間，會因為月光的引力而不被拉走。	icon_skills.moongravity_tex
 14400001	HPChange	0.01	0	perc	900000	1	0.01	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
 14400001	DropUp	0	0	perc	900000	0	2	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
 14400002	MaxHP	0	0	perc	900000	0	1.07	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
@@ -2509,8 +2553,8 @@
 77600009	Endurance	0	0	perc	60000	0	-5	亡者的證明			成為了亡者們的對象，受到亡者的攻擊而受傷。	icon_status.fearstatus_tex
 77600017	Power	0	0	perc	30000	0	1.3	海盜船_BOSS怪一定時間狂暴化			使用聚集而來的暗黑力量，此時間內非常強大。	icon_status.angerwarrior_tex
 77700001	AtkPotion	0	0	perc	80000	2	1.05	不安定的破壞力			每次堆疊時技能攻擊力增加5%，此效果最多可堆疊至10次。	icon_status.battlefieldbuff02_tex
-77700002	HPChange	0.05	0	perc	600000	2	0.05	古代再生力			每2s持續恢復5%的HP。	icon_status.aura_of_regeneration_hp_tex
-77700002	MPChange	0	0.01	perc	600000	2	0.01	古代再生力			每2s持續恢復5%的HP。	icon_status.aura_of_regeneration_hp_tex
+77700002	HPChange	0.05	0	perc	900000	2	0.05	古代再生力			每2s持續恢復5%的HP。	icon_status.aura_of_regeneration_hp_tex
+77700002	MPChange	0	0.01	perc	900000	2	0.01	古代再生力			每2s持續恢復5%的HP。	icon_status.aura_of_regeneration_hp_tex
 77700003	DefPotion	0	0	swch	30000	0	1	裝置啟動輔助			啟動裝置後可獲得不安定的保護膜效果。堆疊3次後可阻止毀滅。	icon_skills.manashield_tex
 77700004	HPChange	-0.02	0	perc	100000	2	-0.02	極度疲勞			從長眠中甦醒的後遺症，每2秒減少1%的體力。	icon_status.poisonstatus_tex
 77700006	MovSpd	0	0	setp	10000	0	0.4	妨礙移動			減少移動速度。	icon_skills.slowball_tex
@@ -2520,8 +2564,8 @@
 77700015	HPChange	-0.02	0	perc	10000	1	-0.02	宿主			成為了宿主。	icon_status.poisonstatus_tex
 77700016	MovSpd	0	0	setp	5000	0	0.5	寄生蟲的黏質液			因寄生蟲的黏質液而減少移動速度。	icon_status.darkriftrage_tex
 77700018	HPChange	0.15	0	perc	10000	2	0.15	模糊的古代再生力			每2s持續恢復15%的HP。	icon_status.aura_of_regeneration_hp_tex
-77700019	MaxHP	0	0	perc	60000	0	1	模糊的古代破壞力			攻擊力增加50%。	icon_status.cruel_slayer_3_tex
-77700019	AtkPotion	0	0	perc	60000	2	1.5	模糊的古代破壞力			攻擊力增加50%。	icon_status.cruel_slayer_3_tex
+77700019	MaxHP	0	0	perc	90000	0	1	模糊的古代破壞力			攻擊力增加50%。	icon_status.cruel_slayer_3_tex
+77700019	AtkPotion	0	0	perc	90000	2	1.5	模糊的古代破壞力			攻擊力增加50%。	icon_status.cruel_slayer_3_tex
 77700020	Power	0	0	perc	600000	0	1.2	恐懼			因害怕失敗而暴走。	icon_status.darkriftrage_tex
 77700020	Endurance	0	0	perc	600000	0	0.8	恐懼			因害怕失敗而暴走。	icon_status.darkriftrage_tex
 77700020	ASpd	0	0	perc	600000	0	1.1	恐懼			因害怕失敗而暴走。	icon_status.darkriftrage_tex
