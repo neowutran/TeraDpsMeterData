@@ -762,7 +762,7 @@
 26170	CastSpeed	0	0	perc	6000	0	1.3	コンボアロー(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が30%上昇します。	icon_skills.arrowshower_tex
 26171	CastSpeed	0	0	perc	6000	0	1.4	コンボアロー(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が40%上昇します。	icon_skills.arrowshower_tex
 26180	CastSpeed	0	0	perc	6000	0	1.3	ポイズンアロー(連迅の紋章)			連係して「ラバントアロー」使用時、チャージ速度が30%上昇します。	icon_skills.venomarrow_tex
-26190	CastSpeed	0	0	perc	6000	0	1.3	クイックシュートチェイン(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が30%上昇します。	
+26190	CastSpeed	0	0	perc	6000	0	1.3	クイックシュート(連迅の紋章)			連係して「ペネトレーティングアロー」使用時、チャージ速度が30%上昇します。	icon_skills.chain_arrow
 26200	MovSpdInCombat	0	0	abs	3000	0	50	ターニングキック(活力の紋章)			戦闘中の移動速度が50上昇します。	icon_skills.turningkick_tex
 26210	MovSpd	0	0	setp	6000	0	0.6	エスケープアタック(怠惰の紋章)			移動速度が40%減少します。	icon_skills.escapingattack_tex
 26220	Endurance	0	0	perc	25000	0	0.9545	耐久力減少［弱化の紋章］			耐久力が4.55%減少します。	icon_crest.crestactivedefencedown_tex
@@ -823,6 +823,16 @@
 32044	AtkPotion	0	0	perc	5000	0	1.3	三連殺(連闘の紋章)			連係して「天地落とし」使用時、スキル威力が30%増加します。	icon_skills.c12_airstepstrike
 32047	AtkPotion	0	0	perc	5000	0	1.3	二段斬り(連闘の紋章)			連係して「三連殺」使用時、スキル威力が30%増加します。	icon_skills.c12_twinslash
 32060	ASpd	0	0	perc	5000	0	1.1	連撃(迅速の紋章)			攻撃速度が10%上昇します。	icon_skills.c12_meleecombo
+33010	ASpd	0	0	perc	10000	0	1.15	連撃(迅速の紋章)			攻撃速度が15%上昇します。	icon_skills.combo_tex
+33020	AtkPotion	0	0	perc	10000	0	1.25	フリンチストライク(連闘の紋章)			連係して「エクステンドスラッシュ」使用時、スキル威力が25%増加します。	icon_skills.fatalshot_tex
+33071	AtkPotion	0	0	perc	3000	0	1.15	スキル威力増加 [連闘の紋章]			3秒間全ての攻撃スキルの威力が15％増加します。	icon_crest.crestnextskillattackup_tex
+33073	AtkPotion	0	0	perc	3000	0	1.2	スキル威力増加 [連闘の紋章]			3秒間全ての攻撃スキルの威力が20％増加します。	icon_crest.crestnextskillattackup_tex
+33100	MovSpd	0	0	setp	5000	0	0.5	ブレードカーネイジ(怠惰の紋章)			移動速度が50% 減少します。	icon_skills.split_tex
+33130	AtkPotion	0	0	perc	10000	0	1.25	ピアーズスパイク(連闘の紋章)			連係して「エクステンドスラッシュ」使用時、スキル威力が25%増加します。	icon_skills.brust_tex
+33150	AtkPotion	0	0	perc	10000	0	1.25	スピニングリッパー(連闘の紋章)			連係して「エクステンドスラッシュ」使用時、スキル威力が25%増加します。	icon_skills.crossway_tex
+33170	HPChange	0.03	0	perc	12000	1	0.03	守護光玉(忍耐の紋章)			1s毎に全HPの2％が回復します。	icon_skills.moongracebuff_tex
+33200	AtkPotion	0	0	perc	5000	0	1.3	回り込み(闘志の紋章)			次に使用するスキルの威力が30％増加します。	icon_skills.mooncatch_tex
+33210	AtkPotion	0	0	perc	5000	0	1.25	月光陣(連闘の紋章)			連係して「月鳴り」使用時、スキル威力が25%上昇します。	icon_skills.moongravity_tex
 46705	Endurance	0	0	perc	60000	0	0.95	ディザスター			酸により耐久力が減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex
 46706	Endurance	0	0	perc	60000	0	0.85	カタストロフィ			酸により耐久力が大幅に減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex
 46750	Power	0	0	perc	180000	0	1.2	燃え上がる怒り			燃え上がる怒りによって、力が20%、防御力が20%上昇します。	icon_status.archerspirit_tex
@@ -962,30 +972,35 @@
 96903	MovSpd	0	0	perc	10000	0	0.9	火傷			移動速度が 10％ 減少されて2秒毎に HP 5％が減少します。この効果は重複し、解除できません。	icon_status.minuscriticalresist_tex
 96903	HPChange	-0.05	0	perc	10000	2	-0.05	火傷			移動速度が 10％ 減少されて2秒毎に HP 5％が減少します。この効果は重複し、解除できません。	icon_status.minuscriticalresist_tex
 96904	HPChange	-0.06	0	perc	5000	1	-0.06	精霊の花火			精霊の花火が防具の中に跳ね入り、1秒ごとに  HP 6％のダメージを与えます。この効果は解除できません。	icon_status.mprecoverup_tex
-100100	Power	0	0	abs	0	0	5	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100100	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100100	Crit	0	0	abs	0	0	30	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100100	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100101	Power	0	0	abs	0	0	10	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100101	Endurance	0	0	perc	0	0	0.9	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100101	Crit	0	0	abs	0	0	40	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100101	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100102	Power	0	0	abs	0	0	15	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100102	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100102	Crit	0	0	abs	0	0	50	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100102	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100103	Power	0	0	abs	0	0	18	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100103	Endurance	0	0	perc	0	0	0.9	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100103	Crit	0	0	abs	0	0	55	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100103	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10%上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
-100200	Endurance	0	0	perc	0	0	1.15	ディフェンススタンス I			耐久力が15%、均衡が20、追加ですべての攻撃スキルによる敵対値が65%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
-100200	Block	0	0	perc	0	0	0	ディフェンススタンス I			耐久力が15%、均衡が20、追加ですべての攻撃スキルによる敵対値が65%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
-100201	Endurance	0	0	perc	0	0	1.2	ディフェンススタンス II			耐久力が20%、均衡が20、追加ですべての攻撃スキルによる敵対値が80%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
-100201	Block	0	0	perc	0	0	0	ディフェンススタンス II			耐久力が20%、均衡が20、追加ですべての攻撃スキルによる敵対値が80%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
-100202	Endurance	0	0	perc	0	0	1.25	ディフェンススタンス			耐久力が25%、均衡が20、追加ですべての攻撃スキルによる敵対値が100%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
-100202	Block	0	0	perc	0	0	0	ディフェンススタンス			耐久力が25%、均衡が20、追加ですべての攻撃スキルによる敵対値が100%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
-100203	Endurance	0	0	perc	0	0	1.25	ディフェンススタンス IV			耐久力が25%、均衡が30、追加ですべての攻撃スキルによる敵対値が120%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
-100203	Block	0	0	perc	0	0	0	ディフェンススタンス IV			耐久力が25%、均衡が30、追加ですべての攻撃スキルによる敵対値が120%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100100	Power	0	0	abs	0	0	5	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100100	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100100	Crit	0	0	abs	0	0	30	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100100	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス			力5とクリティカル発生30、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	Power	0	0	abs	0	0	10	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	Endurance	0	0	perc	0	0	0.9	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	Crit	0	0	abs	0	0	40	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100101	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス II			力10とクリティカル発生40、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	Power	0	0	abs	0	0	15	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	Endurance	0	0	perc	0	0	0.9	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	Crit	0	0	abs	0	0	50	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100102	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス			力15とクリティカル発生50、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	Power	0	0	abs	0	0	18	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	Endurance	0	0	perc	0	0	0.9	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	Crit	0	0	abs	0	0	55	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100103	AtkPotion	0	0	perc	0	0	1.1	ブレードスタンス IV			力18とクリティカル発生55、モンスター攻撃時、スキル威力が10％上昇するが、耐久力は10%減少します。	icon_skills.ironwilla_tex
+100200	Endurance	0	0	perc	0	0	1.15	ディフェンススタンス I			耐久力が15%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が65%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100200	CritChance	0	0	perc	0	0	1.15	ディフェンススタンス I			耐久力が15%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が65%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100200	Block	0	0	perc	0	0	0	ディフェンススタンス I			耐久力が15%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が65%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100201	Endurance	0	0	perc	0	0	1.2	ディフェンススタンス II			耐久力が20%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が80%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100201	CritChance	0	0	perc	0	0	1.15	ディフェンススタンス II			耐久力が20%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が80%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100201	Block	0	0	perc	0	0	0	ディフェンススタンス II			耐久力が20%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が80%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100202	Endurance	0	0	perc	0	0	1.25	ディフェンススタンス			耐久力が25%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が100%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100202	CritChance	0	0	perc	0	0	1.15	ディフェンススタンス			耐久力が25%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が100%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100202	Block	0	0	perc	0	0	0	ディフェンススタンス			耐久力が25%、均衡が20、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が100%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100203	Endurance	0	0	perc	0	0	1.25	ディフェンススタンス IV			耐久力が25%、均衡が30、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が120%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100203	CritChance	0	0	perc	0	0	1.15	ディフェンススタンス IV			耐久力が25%、均衡が30、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が120%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100203	Block	0	0	perc	0	0	0	ディフェンススタンス IV			耐久力が25%、均衡が30、モンスター攻撃時クリティカル発生率が15％増加します。追加ですべての攻撃スキルによる敵対値が120%上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex
+100294	MPChange	0	0.05	perc	1000	1	0.05	闘争心Ⅰ			闘争心Ⅰの効果でMPが5％回復します。	icon_skills.twinswordsdefence_tex
 100500	HPChange	-116	0	abs	10000	2	-116	ポイズンストライク I			致命的な猛毒により、2s毎にHPが-116減少します。	icon_skills.poisonblowattack_tex
 100501	HPChange	-175	0	abs	10000	2	-175	ポイズンストライク II			致命的な猛毒により、2s毎にHPが-175減少します。	icon_skills.poisonblowattack_tex
 100502	HPChange	-292	0	abs	10000	2	-292	ポイズンストライク III			致命的な猛毒により、2s毎にHPが-292減少します。	icon_skills.poisonblowattack_tex
@@ -1064,37 +1079,35 @@
 300900	CDR	0	0	swch	11000	0	1.5	ネーブスラッシュ			効果持続中は、全てのスキルのクールタイムが50%延長されます。	icon_skills.veinslash_tex
 300901	CDR	0	0	swch	11000	0	1.53	ネーブスラッシュ II			効果持続中は、全てのスキルのクールタイムが53%延長されます。	icon_skills.veinslash_tex
 300902	CDR	0	0	swch	11000	0	1.55	ネーブスラッシュ III			効果持続中は、全てのスキルのクールタイムが55%延長されます。	icon_skills.veinslash_tex
-400100	Power	0	0	perc	15000	0	1.2	フェリーレイジ I			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400100	Endurance	0	0	perc	15000	0	0.9	フェリーレイジ I			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400100	Crit	0	0	perc	15000	0	1.1	フェリーレイジ I			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400101	Power	0	0	perc	17000	0	1.2	フェリーレイジ II			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400101	Endurance	0	0	perc	17000	0	0.9	フェリーレイジ II			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400101	Crit	0	0	perc	17000	0	1.1	フェリーレイジ II			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400102	Power	0	0	perc	20000	0	1.2	フェリーレイジ III			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400102	Endurance	0	0	perc	20000	0	0.9	フェリーレイジ III			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400102	Crit	0	0	perc	20000	0	1.1	フェリーレイジ III			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400103	Power	0	0	perc	25000	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400103	Endurance	0	0	perc	25000	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400103	Crit	0	0	perc	25000	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400104	Power	0	0	perc	27000	0	1.2	フェリーレイジ V			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400104	Endurance	0	0	perc	27000	0	0.9	フェリーレイジ V			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400104	Crit	0	0	perc	27000	0	1.1	フェリーレイジ V			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400105	Power	0	0	perc	27000	0	1.2	フェリーレイジ VI			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400105	Endurance	0	0	perc	27000	0	0.9	フェリーレイジ VI			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
-400105	Crit	0	0	perc	27000	0	1.1	フェリーレイジ VI			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400100	Power	0	0	perc	22500	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400100	Endurance	0	0	perc	22500	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400100	Crit	0	0	perc	22500	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400101	Power	0	0	perc	25500	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400101	Endurance	0	0	perc	25500	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400101	Crit	0	0	perc	25500	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400102	Power	0	0	perc	30000	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400102	Endurance	0	0	perc	30000	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400102	Crit	0	0	perc	30000	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400103	Power	0	0	perc	37000	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400103	Endurance	0	0	perc	37000	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400103	Crit	0	0	perc	37000	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400104	Power	0	0	perc	40000	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400104	Endurance	0	0	perc	40000	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400104	Crit	0	0	perc	40000	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400105	Power	0	0	perc	40000	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400105	Endurance	0	0	perc	40000	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
+400105	Crit	0	0	perc	40000	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
 400300	MovSpd	0	0	perc	10000	0	1.5	疾駆 I			移動速度が50%上昇します。	icon_skills.dash_tex
 400301	MovSpd	0	0	perc	15000	0	1.5	疾駆			移動速度が50%上昇します。	icon_skills.dash_tex
 400302	MovSpd	0	0	perc	15000	0	1.5	疾駆 III			移動速度が50%上昇します。	icon_skills.dash_tex
 400303	MovSpd	0	0	perc	5000	0	2.2	疾駆_憤激 III			移動速度が120%上昇します。	icon_skills.dash_tex
-400500	ASpd	0	0	perc	10000	0	1.2	マーチャントゴッド(助力の紋章)			攻撃速度とチャージ速度が20%上昇します。	icon_skills.vitalconversion_tex
-400501	ASpd	0	0	perc	10000	0	1.4	フリューリーブロー II			攻撃速度とチャージ速度が40%上昇します。	icon_skills.gatheringrage_tex
-400508	ASpd	0	0	perc	10000	0	1.4	フェリーレイジ VI			攻撃速度とチャージ速度が40%上昇します。	icon_skills.berserk_tex
+400500	ASpd	0	0	perc	18000	0	1.2	フェリーレイジ			攻撃速度とチャージ速度が20%上昇します。	icon_skills.berserk_tex
+400501	ASpd	0	0	perc	18000	0	1.4	フェリーレイジ			攻撃速度とチャージ速度が40%上昇します。	icon_skills.berserk_tex
+400508	ASpd	0	0	perc	18000	0	1.4	フェリーレイジ VI			攻撃速度とチャージ速度が40%上昇します。	icon_skills.berserk_tex
 400509	ASpd	0	0	perc	20000	0	1	内に秘めた狂気			フェリーレイジを使用してもフリューリーブロー効果を得られません。	icon_skills.relax_tex
 400700	Power	0	0	abs	30000	0	26	レイジ I			力が26、衝撃と均衡が各々50%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
-400700	ASpd	0	0	perc	10000	0	1.2	レイジ I			力が26、衝撃と均衡が各々50%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
 400700	AtkPotion	0	0	perc	30000	0	1.1	レイジ I			力が26、衝撃と均衡が各々50%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
 400701	Power	0	0	abs	30000	0	29	レイジ II			力が29、衝撃と均衡が各々60%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
-400701	ASpd	0	0	perc	10000	0	1.4	レイジ II			力が29、衝撃と均衡が各々60%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
 400701	AtkPotion	0	0	perc	30000	0	1.1	レイジ II			力が29、衝撃と均衡が各々60%上昇します。モンスター攻撃時、スキルダメージが10%増加します。	icon_skills.fury_tex
 400800	MovSpd	0	0	setp	6000	0	0.4	ホミサイドオーラ I			移動速度が60%減少します。対象がプレイヤーの場合、効果持続中は回避及び移動系スキルを封印します。	icon_skills.murderousvent_tex
 400800	Block	0	0	perc	6000	0	0	ホミサイドオーラ I			移動速度が60%減少します。対象がプレイヤーの場合、効果持続中は回避及び移動系スキルを封印します。	icon_skills.murderousvent_tex
@@ -1425,14 +1438,14 @@
 601000	ASpd	0	0	perc	4000	0	0.85	レストレントアロー I			移動速度が50%、攻撃速度が15%減少します。	icon_skills.contaningshot_tex
 601001	MovSpd	0	0	setp	5000	0	0.5	レストレントアロー II			移動速度が50%、攻撃速度が15%減少します。	icon_skills.contaningshot_tex
 601001	ASpd	0	0	perc	5000	0	0.85	レストレントアロー II			移動速度が50%、攻撃速度が15%減少します。	icon_skills.contaningshot_tex
-601100	Power	0	0	abs	0	0	30	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601100	MovSpd	0	0	abs	0	0	8	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601100	ASpd	0	0	abs	0	0	4	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601100	AtkPotion	0	0	perc	0	0	1.07	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601101	Power	0	0	abs	0	0	30	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601101	MovSpd	0	0	abs	0	0	16	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601101	ASpd	0	0	abs	0	0	8	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
-601101	AtkPotion	0	0	perc	0	0	1.07	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスターを攻撃時、ダメージが5％増加します。	icon_skills.focusstance_tex
+601100	Power	0	0	abs	0	0	30	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
+601100	MovSpd	0	0	abs	0	0	8	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
+601100	ASpd	0	0	abs	0	0	4	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
+601100	AtkPotion	0	0	perc	0	0	1.07	シヴァルリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、移動速度が8上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
+601101	Power	0	0	abs	0	0	30	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
+601101	MovSpd	0	0	abs	0	0	16	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
+601101	ASpd	0	0	abs	0	0	8	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
+601101	AtkPotion	0	0	perc	0	0	1.07	シヴァルリックスタンス II			攻撃速度と力がそれぞれ8と30上昇し、移動速度が16上昇します。モンスター攻撃時のダメージが7％、プレイヤー攻撃時のダメージが10％増加します。	icon_skills.focusstance_tex
 601110	Power	0	0	abs	0	0	30	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
 601110	Endurance	0	0	abs	0	0	4	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
 601110	ASpd	0	0	abs	0	0	4	バーバリックスタンス I			攻撃速度と力がそれぞれ4と30上昇し、耐久力が4上昇します。一般モンスターを攻撃時、ダメージが10％増加します。	icon_skills.focusstance_moveslow_tex
@@ -1669,6 +1682,13 @@
 777034	HPChange	-0.01	0	perc	70000	1	-0.01	デモクロンの呪い			重複毎に力が30%上昇しますが、1毎に全HPの1％が減少します。この効果は最大99回重複します。	icon_status.diseaseup_tex
 777036	MovSpd	0	0	setp	30000	0	0.2	デモクロンの証			デモクロンウィルスに体を蝕まれました。移動速度が減少し、デモクロンの標的になります。	icon_status.poisonup_tex
 777037	Block	0	0	seta	30000	0	0	デモクロンの証			効果中は回避及び移動系列スキルが使用できません。	icon_items.cancel_evade_potion_level_51_tex
+780100	HPChange	-1000000	0	abs	10000	1	-1000000	見えたらBTS			見えたらBTS	
+780102	HPChange	-500000	0	abs	2000	1	-500000	見えたらBTS			見えたらBTS	
+780103	HPChange	-0.05	0	perc	15000	1	-0.05	火傷			青い火炎が全身に巻き付きます！1s毎に最大HPの7％ずつダメージを受けます。	icon_status.minusmp_tex
+780104	MovSpd	0	0	perc	15000	0	0.5	燃え上がる足			火炎が残した炎に触れて足が燃え上がります。移動速度が50％減少します。	icon_skills.kumas_frontroll_tex
+780200	HPChange	-0.05	0	perc	10000	1	-0.05	強酸性胃液			強力な酸性の胃液により1s毎に最大HPの5％のダメージを受けます。	icon_status.poisonstatus_tex
+780202	HPChange	-0.01	0	perc	60000	2	-0.01	出血			斧に打たれて出血が発生しました。2sごとに最大HPの1％ずつダメージを受けます。	icon_status.injuredbtdarkness_tex
+780203	HPChange	-0.1	0	perc	5000	1	-0.1	激しい出血			ヴェルデグの強力な一撃により激しい出血を起こしました。1s毎に最大HPの10％ずつダメージを受けます。	icon_status.damagedown_tex
 800100	HPChange	88	0	abs	10000	2	88	リプロダクションウィンド I			吹き寄せる風に温もりを感じます。2s毎にHPが回復します。	icon_skills.healingwind_tex
 800101	HPChange	111	0	abs	10000	2	111	リプロダクションウィンド II			吹き寄せる風に温もりを感じます。2s毎にHPが回復します。	icon_skills.healingwind_tex
 800102	HPChange	136	0	abs	10000	2	136	リプロダクションウィンド III			吹き寄せる風に温もりを感じます。2s毎にHPが回復します。	icon_skills.healingwind_tex
@@ -1964,6 +1984,16 @@
 975661	StaminaDecay	0	0	swch	90000	0	0	太陽の光			5秒毎に全HPの3％が回復する。	icon_status.valrhona_sun_tex
 975662	MPChange	0	1	perc	90000	15	1	悪魔の微笑			15秒毎にMPが100%回復します。	icon_status.valrhona_devil_tex
 975663	Endurance	0	0	perc	90000	0	1.05	女神の手招き			防御力が5%上昇します。	icon_status.valrhona_goddess_tex
+980100	HPChange	-1000000	0	abs	10000	1	-1000000	見えたらBTS			見えたらBTS	
+980102	HPChange	-500000	0	abs	2000	1	-500000	見えたらBTS			見えたらBTS	
+980103	HPChange	-0.07	0	perc	15000	1	-0.07	火傷			青い火炎が全身を巻き付けます！1s毎に最大HPの7％ずつダメージを受けます。	icon_status.minusmp_tex
+980104	MovSpd	0	0	perc	15000	0	0.5	燃え上がる足裏			残り火に触れて足が燃え上がります。移動速度が50％減少します。	icon_skills.kumas_frontroll_tex
+980200	HPChange	-0.05	0	perc	10000	1	-0.05	強酸性胃液			強力な酸性の胃液に1s毎に最大HPの5％のダメージを受けます。	icon_status.poisonstatus_tex
+980202	HPChange	-0.01	0	perc	60000	2	-0.01	出血			斧に打たれて出血が発生しました。2sごとに最大HPの1％ずつダメージを受けます。	icon_status.injuredbtdarkness_tex
+980203	HPChange	-0.1	0	perc	5000	1	-0.1	激甚な出血			ヴェルデグの強力な一撃により激しい出血を起こしました。1s毎に最大HPの10％ずつダメージを受けます。	icon_status.damagedown_tex
+980204	Power	0	0	setp	15000	0	3	燃え上がる武器			ヴェルデグが強力な攻撃の準備をします。妨害をしなければ全てが破壊されてしまいます。	icon_skills.downattack_tex
+980205	Power	0	0	setp	15000	0	3	燃え上がる怒り			ヴェルデグの憤怒により全てを破壊し尽します。諦めてください。	icon_skills.dragonrisingblow_tex
+980206	HPChange	-0.1	0	perc	15000	2	-0.1	恐ろしい苦痛			火炎放出による火傷が治りません。2s毎に最大HPの10％ずつダメージを受けます。	icon_status.firedamage_tex
 988504	MaxHP	0	0	perc	0	1	1.1	最大HP増加(1段階)			自身とパーティメンバーの最大HPが10％増加します。	icon_status.plusmp_tex
 988505	MaxHP	0	0	perc	0	1	1.2	最大HP増加(２段階)			自身とパーティメンバーの最大HPが20％増加します。	icon_status.mprecoverup_tex
 988506	MaxHP	0	0	perc	0	1	1.4	最大HP増加(３段階)			自身とパーティメンバーの最大HPが40％増加します。	icon_status.plushp_tex
@@ -2162,6 +2192,20 @@
 10154030	AtkPotion	0	0	swch	0	0	1.05	極功術			集中力が高まっています。攻撃力が上昇します。	icon_skills.c12_atkupbuff
 10154032	AtkPotion	0	0	swch	60000	0	1.01	強力な極功術			強力な極功術により、攻撃力が更に増加します。	icon_skills.c12_atkupbuff
 10154090	Endurance	0	0	perc	60000	0	1	変化の術 I			相手の姿に変身した状態です。	icon_skills.c12_transform
+10155030	AtkPotion	0	0	perc	0	0	1.2	満月の饗宴			与えるダメージが重複毎に20％増加します。	icon_skills.fullmoon_tex
+10155031	AtkPotion	0	0	perc	0	0	1.3	朱月の饗宴			与えるダメージが重複毎に30％増加します。	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	0	0	perc	0	0	1.2	満月			満月の2打目の攻撃ダメージが重複毎に20％、クリティカル発生率が0.2倍ずつ増加します。	icon_skills.fullmoon_tex
+10155036	CritChance	0	0	perc	0	0	1.2	満月			満月の2打目の攻撃ダメージが重複毎に20％、クリティカル発生率が0.2倍ずつ増加します。	icon_skills.fullmoon_tex
+10155037	AtkPotion	0	0	perc	0	0	1.3	満月			満月の2打目の攻撃ダメージが重複毎に30％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex
+10155037	CritChance	0	0	perc	0	0	1.3	満月			満月の2打目の攻撃ダメージが重複毎に30％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex
+10155130	Power	0	0	abs	25000	0	50	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex
+10155130	Endurance	0	0	swch	1500	0	0	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex
+10155130	ASpd	0	0	abs	25000	0	20	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex
+10155130	CDR	0	0	perc	25000	0	0.4	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex
+10155150	CritChance	0	0	perc	10000	0	100	標的捕捉			敵の攻撃を完璧に回避して、反撃の機会を掴みます。「連撃」を除いた次の攻撃スキルでクリティカルが100％発生します。	icon_status.darkriftareadance_tex
+10155250	Endurance	0	0	perc	1	0	1	守護光玉 I			守護光玉を纏い、攻撃にるダウン及び硬直が発生せず、押し出されなくなります。受けるダメージが70％減少します。	icon_skills.moongracebuff_tex
+10155250	DefPotion	0	0	perc	15000	0	0.3	守護光玉 I			守護光玉を纏い、攻撃にるダウン及び硬直が発生せず、押し出されなくなります。受けるダメージが70％減少します。	icon_skills.moongracebuff_tex
+10155270	Endurance	0	0	perc	20000	0	1	月光陣			効果持続中は月光陣により引き付けられません。	icon_skills.moongravity_tex
 14400001	HPChange	0.01	0	perc	900000	1	0.01	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
 14400001	DropUp	0	0	perc	900000	0	2	Emblem of Success	152903	Emblem of Success		icon_items.parts_magicweaponc15_tex
 14400002	MaxHP	0	0	perc	900000	0	1.07	Memento of Fame	152904	Memento of Fame		icon_items.parts_lightweaponc9_tex
@@ -2520,8 +2564,8 @@
 77600009	Endurance	0	0	perc	60000	0	-5	亡霊の証			亡霊の標的になりました。亡霊の攻撃による追加ダメージを受けます。	icon_status.fearstatus_tex
 77600017	Power	0	0	perc	30000	0	1.3	ボス一定時間凶暴化			周囲から集めた闇の力を使います。効果持続中、非常に強力になります。	icon_status.angerwarrior_tex
 77700001	AtkPotion	0	0	perc	80000	2	1.05	不安定な破壊力			重複するたびに、スキル攻撃力が5％ずつ上昇します。この効果は、最大10回まで重複します。	icon_status.battlefieldbuff02_tex
-77700002	HPChange	0.05	0	perc	600000	2	0.05	古代の再生力			2s毎に全HPの5％が回復します。	icon_status.aura_of_regeneration_hp_tex
-77700002	MPChange	0	0.01	perc	600000	2	0.01	古代の再生力			2s毎に全HPの5％が回復します。	icon_status.aura_of_regeneration_hp_tex
+77700002	HPChange	0.05	0	perc	900000	2	0.05	古代の再生力			2s毎に全HPの5％が回復します。	icon_status.aura_of_regeneration_hp_tex
+77700002	MPChange	0	0.01	perc	900000	2	0.01	古代の再生力			2s毎に全HPの5％が回復します。	icon_status.aura_of_regeneration_hp_tex
 77700003	DefPotion	0	0	swch	30000	0	1	スイッチ作動バフ			スイッチが作動し、不安定なバリアがかかりました。3回重複すると、破滅を防ぐことができます。	icon_skills.manashield_tex
 77700004	HPChange	-0.02	0	perc	100000	2	-0.02	疲労困憊			永い眠りから覚めた後遺症により、HPが2秒毎に1％ずつ減少します。	icon_status.poisonstatus_tex
 77700006	MovSpd	0	0	setp	10000	0	0.4	移動妨害			移動速度が減少します。	icon_skills.slowball_tex
@@ -2531,8 +2575,8 @@
 77700015	HPChange	-0.02	0	perc	10000	1	-0.02	宿主			宿主になりました。	icon_status.poisonstatus_tex
 77700016	MovSpd	0	0	setp	5000	0	0.5	寄生虫の粘液質			寄生虫の粘液質により、移動速度が減少します。	icon_status.darkriftrage_tex
 77700018	HPChange	0.15	0	perc	10000	2	0.15	微かな古代の再生力			2s毎に全HPの15％が回復します。	icon_status.aura_of_regeneration_hp_tex
-77700019	MaxHP	0	0	perc	60000	0	1	微かな古代の破壊力			攻撃力が50％上昇します。	icon_status.cruel_slayer_3_tex
-77700019	AtkPotion	0	0	perc	60000	2	1.5	微かな古代の破壊力			攻撃力が50％上昇します。	icon_status.cruel_slayer_3_tex
+77700019	MaxHP	0	0	perc	90000	0	1	微かな古代の破壊力			攻撃力が50％上昇します。	icon_status.cruel_slayer_3_tex
+77700019	AtkPotion	0	0	perc	90000	2	1.5	微かな古代の破壊力			攻撃力が50％上昇します。	icon_status.cruel_slayer_3_tex
 77700020	Power	0	0	perc	600000	0	1.2	恐怖			敗北の恐怖により、暴走しています。	icon_status.darkriftrage_tex
 77700020	Endurance	0	0	perc	600000	0	0.8	恐怖			敗北の恐怖により、暴走しています。	icon_status.darkriftrage_tex
 77700020	ASpd	0	0	perc	600000	0	1.1	恐怖			敗北の恐怖により、暴走しています。	icon_status.darkriftrage_tex
