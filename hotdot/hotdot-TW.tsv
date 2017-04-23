@@ -685,6 +685,7 @@
 22010	Power	0	0	perc	10000	0	1.15	盾牌防禦(體力紋章)			力量提升15%。	icon_skills.defence_tex
 22030	MovSpd	0	0	setp	5000	0	0.5	憤怒誘發(慵懶紋章)			移動速度減少50%。	icon_skills.provokerage_tex
 22040	AtkPotion	0	0	perc	10000	0	1.25	盾牌防禦(連續 鬥志紋章 [反擊突刺])			以連續技使用反擊突刺時，技能威力增加25%。	icon_skills.defence_tex
+22060	SkillCastSpeed	0	0	perc	5000	0	1.25	盾牌打擊(連續 神速紋章 [猛烈突進])			以連續技使用猛烈突進時，施展速度增加25%。	icon_skills.shieldstrike_tex
 22080	MovSpdInCombat	0	0	abs	7000	0	10	進擊突刺(活力紋章)			戰鬥狀態的移動速度增加10。	icon_skills.advancingcharge_tex
 22090	MovSpd	0	0	setp	4000	0	0.5	捕獲(慵懶紋章)			移動速度減少50%。	icon_skills.hookthrow_tex
 22100	ASpd	0	0	perc	4000	0	0.6	捕獲(減速紋章)			攻擊速度減少40%。	icon_skills.hookthrow_tex
@@ -698,6 +699,10 @@
 23032	AtkPotion	0	0	perc	8000	0	1.25	下巴粉碎(連續 鬥志紋章 [瞬閃])			以連續技使用一刀兩斷時，技能威力增加25%。	icon_skills.jawbreaker_tex
 23040	AtkPotion	0	0	perc	6000	0	1.25	起身攻擊(連續 鬥志紋章 [向下劈擊])			以連續技使用向下劈擊時，技能威力增加25%。	icon_skills.risingattack_tex
 23050	Endurance	0	0	perc	10000	0	1.2	執念(保護紋章)			抗打提升20%。	icon_skills.tenacity_tex
+23060	SkillCastSpeed	0	0	perc	10000	0	1.25	後擒術(連續 神速紋章 [要害攻擊])			以連續技使用要害攻擊時，施展速度增加25%。	icon_skills.turnaroundattack_tex
+23061	SkillCastSpeed	0	0	perc	10000	0	1.35	後擒術(連續 神速紋章 [要害攻擊])			以連續技使用要害攻擊時，施展速度增加35%。	icon_skills.turnaroundattack_tex
+23070	SkillCastSpeed	0	0	perc	5000	0	1.25	後擒術(連續 神速紋章 [重擊斬])			以連續技使用重擊斬時，施展速度增加25%。	icon_skills.turnaroundattack_tex
+23080	SkillCastSpeed	0	0	perc	5000	0	1.25	憤怒一擊(連續 神速紋章 [迴旋砍擊])			以連續技使用迴旋砍擊時，施展速度增加25%。	icon_skills.ragingstrike_tex
 23100	ASpd	0	0	perc	5000	0	0.85	神經劈擊(減速紋章)			攻擊速度減少15%。	icon_skills.veinslash_tex
 23120	AtkPotion	0	0	perc	5000	0	1.25	緊急迴避(連續 鬥志紋章 [憤怒一擊])			以連續技使用憤怒一擊時，技能威力增加25%。	icon_skills.tumbling_tex
 23130	AtkPotion	0	0	perc	5000	0	1.2	重擊斬(連續 鬥志紋章 [一刀兩斷])			以連續技使用一刀兩斷時，技能威力增加20%。	icon_skills.handyslash_tex
@@ -715,12 +720,15 @@
 24090	MovSpdInCombat	0	0	abs	15000	0	20	狂暴化(活力紋章)			戰鬥狀態的移動速度增加20。	icon_skills.berserk_tex
 24091	MovSpdInCombat	0	0	abs	15000	0	20	剛氣飛揚(活力紋章)			戰鬥狀態的移動速度增加20。	icon_skills.throwaxe_tex
 24092	Endurance	0	0	abs	8000	0	21	抗打增加 [保護紋章]			抗打提升21。	icon_crest.crestactivedefenceup_tex
+24100	SkillCastSpeed	0	0	perc	5000	0	1.25	殺氣爆發(連續 神速紋章 [打擊大地])			以連續技使用打擊大地時，施展速度增加25%。	icon_skills.murderousvent_tex
+24101	SkillCastSpeed	0	0	perc	5000	0	1.3	殺氣爆發(連續 神速紋章 [打擊大地])			以連續技使用打擊大地時，施展速度增加30%。	icon_skills.murderousvent_tex
 24120	CastSpeed	0	0	perc	6000	0	1.3	向下劈擊(連續 神速紋章 [全神一擊])			以連續技使用全神一擊時，蓄力速度增加30%。	icon_skills.downattack_tex
 24130	CastSpeed	0	0	perc	6000	0	1.3	震懾(連續 神速紋章 [聚力之擊])			以連續技使用聚力之擊時，蓄力速度增加30%。	icon_skills.turnback_tex
 24140	Endurance	0	0	abs	12000	0	16	執念(保護紋章)			抗打提升16。	icon_skills.tenacity_tex
 24150	MPChange	0	0.06	perc	5000	1	0.06	執念(精神紋章)			每1s持續恢復6%的MP。	icon_skills.tenacity_tex
 24160	Crit	0	0	perc	0	0	2	向下劈擊(必殺紋章)			暴擊觸發率增加2倍。	icon_skills.downattack_tex
 24161	Crit	0	0	perc	0	0	2	剛氣飛揚(必殺紋章)			暴擊觸發率增加2倍。	icon_skills.throwaxe_tex
+24170	SkillCastSpeed	0	0	perc	5000	0	1.25	前進橫劈(連續 神速紋章[聚力之擊])			以連續技使用聚力之擊時，施展速度增加25%。	icon_skills.sideslash_tex
 24181	AtkPotion	0	0	perc	10000	0	1.25	武器防禦(連續 鬥志紋章 [反擊])			以連續技能使用反擊時，技能威力增加25%。	icon_skills.weapondefence_tex
 24190	CastSpeed	0	0	perc	6000	0	1.3	吶喊(連續神速紋章 [漩渦] )			以連續技能使用漩渦時，蓄力速度增加30%。	icon_skills.shockingshout_tex
 24200	AtkPotion	0	0	perc	8000	0	1.2	吸血狂打(連續鬥志紋章)			以連續技能使用全神一擊時，技能威力增加力量20%。	icon_skills.vampiricstrike_tex
@@ -729,7 +737,12 @@
 25021	Endurance	0	0	abs	15000	0	16	魔力爆發(保護紋章)			抗打提升16。	icon_skills.manaburst_tex
 25030	AtkPotion	0	0	perc	5000	0	1.25	爆裂球(連續鬥志紋章 [雪霜球體])			以連續技能使用凝霜術時，技能威力增加力量25%。	icon_skills.blastball_tex
 25050	AtkPotion	0	0	perc	10000	0	1.2	雷電刻印(連續鬥志紋章[隕石墜落])			以連續技能使用隕石墜落時，技能威力增加力量20%。	icon_skills.shocktrap_tex
+25060	SkillCastSpeed	0	0	perc	10000	0	1.25	魔力奪取(連續 神速紋章 [追蹤業火])			以連續技使用追蹤業火時，施展速度增加25%。	icon_skills.manaextortion_tex
+25070	SkillCastSpeed	0	0	perc	5000	0	1.25	雷電刻印(連續 神速紋章 [火焰柱])			以連續技使用火焰柱時，施展速度增加25%。	icon_skills.shocktrap_tex
 25080	AtkPotion	0	0	perc	10000	0	1.35	燃燒氣息(連續 鬥志紋章 [追蹤業火])			以連續技使用追蹤業火時，技能威力增加35%。	icon_skills.burningbreath_tex
+25090	SkillCastSpeed	0	0	perc	5000	0	1.4	結冰大地(連續 神速紋章 [雷電刻印])			以連續技使用雷電刻印時，施展速度增加40%。	icon_skills.freezingtheearth_tex
+25100	SkillCastSpeed	0	0	perc	7000	0	1.25	束縛詛咒(連續神速紋章 [隕石墜落])			以連續技能使用隕石墜落時，施展速度增加力量25%。	icon_skills.curseofshackle_tex
+25110	SkillCastSpeed	0	0	perc	7000	0	1.4	雪霜球體(連續 神速紋章 [睡眠之風])			以連續技使用睡眠之風時，施展速度增加40%。	
 25120	MovSpd	0	0	setp	7000	0	0.5	污染詛咒(慵懶紋章)			移動速度減少50%。	icon_skills.disease_tex
 25130	AtkPotion	0	0	perc	5000	0	1.2	技能威力增加 [連續 鬥志紋章]			接著使用的下個技能的威力限定1次增加20%。	icon_crest.crestnextskillattackup_tex
 25140	CastSpeed	0	0	perc	6000	0	1.3	結冰大地(連續 神速紋章 [爆裂球])			以連續技使用爆裂球時，蓄力速度增加30%。	icon_skills.freezingtheearth_tex
@@ -744,6 +757,9 @@
 26030	AtkPotion	0	0	perc	7000	0	1.25	技能威力增加 [連續 鬥志紋章]			以連續技使用多重射擊時，技能威力增加25%。	icon_crest.crestnextskillattackup_tex
 26070	AtkPotion	0	0	perc	10000	0	1.25	脫離攻擊(連續 鬥志紋章 [穿透射擊])			以連續技使用穿透射擊時，技能威力增加25%。	icon_skills.escapingattack_tex
 26080	MovSpdInCombat	0	0	abs	12000	0	10	蜘蛛網箭矢(活力紋章)			戰鬥狀態的移動速度增加10。	icon_skills.spiderarrow_tex
+26100	SkillCastSpeed	0	0	perc	10000	0	1.25	弓箭手標記(連續 神速紋章 [劇毒之箭])			以連續技使用劇毒之箭時，施展速度增加25%。	icon_skills.markingofarcher_tex
+26110	SkillCastSpeed	0	0	perc	5000	0	1.4	多重射擊(連續 神速紋章 [昏厥陷阱])			以連續技使用昏厥陷阱時，施展速度增加40%。	icon_skills.arrowshower_tex
+26111	SkillCastSpeed	0	0	perc	5000	0	1.5	多重射擊(連續 神速紋章 [昏厥陷阱])			以連續技使用昏厥陷阱時，施展速度增加50%。	icon_skills.arrowshower_tex
 26120	MovSpdInCombat	0	0	abs	8000	0	10	脫離攻擊(活力紋章)			戰鬥狀態的移動速度增加10。	icon_skills.escapingattack_tex
 26130	AtkPotion	0	0	perc	10000	0	1.25	技能威力增加 [連續 鬥志紋章]			以連續技使用爆炸陷阱時，技能威力增加25%。	icon_crest.crestnextskillattackup_tex
 26140	HPChange	0.02	0	perc	10000	1	0.02	裝死(特質紋章)			每1s持續恢復2%的HP。	icon_skills.feigndeath_tex
@@ -762,6 +778,10 @@
 26251	Endurance	0	0	perc	25000	0	0.9545	抗打減少 (弱化紋章)			抗打減少4.55%0。	icon_crest.crestactivedefencedown_tex
 27010	MovSpd	0	0	setp	2000	0	0.6	移動速度減少 [慵懶紋章]			移動速度減少40%。	icon_crest.crestpassivespeeddown_tex
 27060	ASpd	0	0	perc	6000	0	0.7	束縛彈(減速紋章)			攻擊速度減少30%。	icon_skills.slowball_tex
+27070	SkillCastSpeed	0	0	perc	10000	0	1.25	魔力精氣(連續 神速紋章 [恢復精氣])			以連續技使用恢復精氣時，施展速度增加25%。	icon_skills.mprefresher_tex
+27080	SkillCastSpeed	0	0	perc	10000	0	1.25	瞬間移動(連續 神速紋章 [恢復精氣])			以連續技使用恢復精氣時，施展速度增加25%。	icon_skills.shortteleport_tex
+27090	SkillCastSpeed	0	0	perc	5000	0	1.25	瞬間移動(連續 神速紋章 [精靈召喚 : 生命精靈])			以連續技使用精靈召喚：生命精靈時，施展速度增加25%。	icon_skills.shortteleport_tex
+27100	SkillCastSpeed	0	0	perc	20000	0	1.25	恢復精氣(連續 神速紋章 [魔力精氣])			以連續技使用魔力精氣時，施展速度增加25%。	icon_skills.hprefresher_tex
 27110	MovSpdInCombat	0	0	abs	3000	0	50	閃光彈(活力紋章)			戰鬥狀態的移動速度增加50。	icon_skills.flashball_tex
 27120	Endurance	0	0	perc	600000	0	1.1	精靈召喚：守護精靈(協力紋章)			抗打提升10%。	icon_skills.summonspiritofaggro_tex
 27140	HPChange	0.2	0	perc	1000	1	0.2	恢復精氣(特質紋章)			恢復10%的HP。	icon_skills.hprefresher_tex
@@ -784,6 +804,7 @@
 29010	ASpd	0	0	perc	10000	0	1.15	飛劍連打(神速紋章)			攻擊速度 15% 提升	icon_skills.comboattack2_tex
 29011	Crit	0	0	perc	0	0	2	暴擊觸發率增加[必殺紋章]			暴擊觸發  2倍 提升	icon_crest.crestpassivecriticalup_tex
 29020	AtkPotion	0	0	perc	5000	0	1.3	飛劍劈擊(連續 鬥志紋章 [飛劍重擊斬])			以連續技使用飛劍重擊斬時，威力會增加30%。	icon_skills.chainsmash_tex
+29030	SkillCastSpeed	0	0	perc	5000	0	1.25	飛劍重擊斬(連續 神速紋章[飛劍劈擊])			以連續技使用飛劍劈擊時，施展速度會增加25%。	icon_skills.chainsuperblow_tex
 29040	AtkPotion	0	0	perc	5000	0	1.2	飛劍揮舞(連續 鬥志紋章 [飛劍劈擊])			以連續技使用飛劍劈擊時，技能威力會增加20%。	icon_skills.chainbrandish_tex
 29041	AtkPotion	0	0	perc	5000	0	1.3	飛劍揮舞(連續 鬥志紋章 [飛劍重擊斬])			以連續技使用飛劍重擊斬時，威力會增加30%。	icon_skills.chainbrandish_tex
 29050	ASpd	0	0	perc	7000	0	0.9	飛劍迴旋刀刃(減速紋章)			攻擊速度每次堆疊減少10%%。	icon_skills.chainblade_tex
@@ -811,8 +832,10 @@
 32005	AtkPotion	0	0	perc	3000	0	1.1	連續跳躍(連續鬥志紋章)			技能威力增加 10%。	icon_skills.c12_dashattack
 32020	AtkPotion	0	0	perc	5000	0	1.25	三角砍擊(連續鬥志紋章)			以連續技能使用扭轉砍擊時，技能威力增加 25%。	icon_skills.c12_airstepstrike
 32024	AtkPotion	0	0	perc	5000	0	1.25	二段砍擊(連續鬥志紋章)			以連續技能使用三角砍擊時，技能威力增加 25%。	icon_skills.c12_twinslash
+32033	SkillCastSpeed	0	0	perc	10000	0	1.2	施展速度增加 [連續神速紋章]			以連續技能使用爆炎術及火焰術時，施展速度增加 20%。	icon_crest.crestnextskillattackspeedup_tex
 32044	AtkPotion	0	0	perc	5000	0	1.3	三角砍擊(連續鬥志紋章)			以連續技能使用扭轉砍擊時，技能威力增加 30%。	icon_skills.c12_airstepstrike
 32047	AtkPotion	0	0	perc	5000	0	1.3	二段砍擊(連續鬥志紋章)			以連續技能使用三角砍擊時，技能威力增加 30%。	icon_skills.c12_twinslash
+32058	SkillCastSpeed	0	0	perc	10000	0	1.3	施展速度增加 [連續神速紋章]			以連續技能使用爆炎術及火焰術時，施展速度增加 30%。	icon_crest.crestnextskillattackspeedup_tex
 32060	ASpd	0	0	perc	5000	0	1.1	連續攻擊(神速紋章)			攻擊速度上升 10%。	icon_skills.c12_meleecombo
 33010	ASpd	0	0	perc	10000	0	1.15	連擊斬(神速紋章)			攻擊速度15%提升。	icon_skills.combo_tex
 33020	AtkPotion	0	0	perc	10000	0	1.25	魂擊斬(連續 鬥志紋章 [昇擊斬])			以連續技能使用[昇擊斬]時，技能威力增加力量25%。	icon_skills.fatalshot_tex
@@ -1026,6 +1049,8 @@
 101400	MovSpd	0	0	setp	3000	0	0.5	撕咬擊I			移動速度減少50%。	icon_skills.heavybite_tex
 101500	DefPotion	0	0	perc	15000	0	1.25	破烈			使用疾風劈擊攻擊時，技能威力增加25%。	icon_skills.rupture_tex
 101600	Endurance	0	0	perc	15000	0	1	變換影子			影分身將會召喚到維持時間結束為止。	icon_skills.voidtrap_tex
+101700	SkillCastSpeed	0	0	perc	10000	0	1.2	連續攻擊			命中敵人14次的話，會產生連續攻擊的攻擊速度逐漸增加的增益效果。	icon_skills.comboattack_tex
+101750	SkillCastSpeed	0	0	perc	10000	0	1.2	連續攻擊			連續攻擊的攻擊速度增加20%。	icon_skills.comboattack_tex
 102500	Block	0	0	perc	180000	0	0	憤怒誘發			過度使用力氣，一定時間內鋼鐵決心、刀刃決心技能暫時無法使用。	icon_skills.provokerage_tex
 200230	Power	0	0	perc	0	0	1.3	信賴之力 I			以堅強信任的共同目標，抗打提升 91%，力量提升30%。只有在施展者周邊 40m範圍內才能獲得這個效果。	icon_status.plusedefence_tex
 200230	Endurance	0	0	perc	0	0	1.91	信賴之力 I			以堅強信任的共同目標，抗打提升 91%，力量提升30%。只有在施展者周邊 40m範圍內才能獲得這個效果。	icon_status.plusedefence_tex
@@ -1048,6 +1073,8 @@
 201104	MovSpd	0	0	setp	7000	0	0.66	衝擊猛打 V			移動速度減少34%。	icon_skills.shockblow_tex
 201200	MovSpd	0	0	setp	5000	0	0.85	殺氣爆發 I			移動速度和攻擊速度各減少15%。	icon_skills.menacewave_tex
 201200	ASpd	0	0	perc	5000	0	0.85	殺氣爆發 I			移動速度和攻擊速度各減少15%。	icon_skills.menacewave_tex
+201500	SkillCastSpeed	0	0	perc	10000	0	1.2	連續攻擊			命中敵人8次的話，會產生盾牌連打的施展速度增加的增益效果。	icon_skills.comboattack_tex
+201550	SkillCastSpeed	0	0	perc	10000	0	1.2	連續攻擊			下一次盾牌連打的施展速度增加。	icon_skills.comboattack_tex
 201701	Power	0	0	abs	50000	0	4	盾牌防禦強化 I 			各重疊會使仇恨值提升 4%、力量提升4、暴擊誘發提升6。最多可以重疊 10次，被擊中時將解除。	icon_skills.defence_tex
 201701	Crit	0	0	abs	50000	0	6	盾牌防禦強化 I 			各重疊會使仇恨值提升 4%、力量提升4、暴擊誘發提升6。最多可以重疊 10次，被擊中時將解除。	icon_skills.defence_tex
 300200	MovSpd	0	0	setp	5000	0	0	後擒術			持續時間內不能移動。若是被攻擊而倒下時，效果立即解除。	icon_skills.turnaroundattack_tex
@@ -1070,6 +1097,8 @@
 300900	CDR	0	0	swch	11000	0	1.5	神經劈擊 			效果持續時間中使用的所有技能的冷卻時間增加50%。	icon_skills.veinslash_tex
 300901	CDR	0	0	swch	11000	0	1.53	神經劈擊  II			效果持續時間中使用的所有技能的冷卻時間增加53%。	icon_skills.veinslash_tex
 300902	CDR	0	0	swch	11000	0	1.55	神經劈擊  III			效果持續時間中使用的所有技能的冷卻時間增加55%。	icon_skills.veinslash_tex
+301100	SkillCastSpeed	0	0	perc	10000	0	1.2	連續攻擊			命中敵人4次的話，會產生迴旋砍擊的施展速度增加的增益效果。	icon_skills.comboattack_tex
+301150	SkillCastSpeed	0	0	perc	10000	0	1.2	連續攻擊			下一次迴旋砍擊的施展速度增加。	icon_skills.comboattack_tex
 400100	Power	0	0	perc	22500	0	1.2	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
 400100	Endurance	0	0	perc	22500	0	0.9	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
 400100	Crit	0	0	perc	22500	0	1.1	狂暴化			因爆發之怒而使力量提升20%、暴擊誘發提升10%，但抗打則減少10%。	icon_skills.berserk_tex
@@ -2840,6 +2869,16 @@
 88202108	Crit	0	0	abs	3000	0	19	報仇氣息			暴擊誘發增加19。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
 88202109	Crit	0	0	abs	3000	0	21	報仇氣息			暴擊誘發增加21。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
 88202110	Crit	0	0	abs	3000	0	23	報仇氣息			暴擊誘發增加23。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
+88202301	SkillCastSpeed	0	0	perc	3000	0	1.3	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202302	SkillCastSpeed	0	0	perc	3000	0	1.35	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202303	SkillCastSpeed	0	0	perc	3000	0	1.4	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202304	SkillCastSpeed	0	0	perc	3000	0	1.45	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202305	SkillCastSpeed	0	0	perc	3000	0	1.5	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202306	SkillCastSpeed	0	0	perc	3000	0	1.55	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202307	SkillCastSpeed	0	0	perc	3000	0	1.6	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202308	SkillCastSpeed	0	0	perc	3000	0	1.65	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202309	SkillCastSpeed	0	0	perc	3000	0	1.7	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+88202310	SkillCastSpeed	0	0	perc	3000	0	1.75	連續快速反擊突刺			施展反擊突刺時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
 88212101	Endurance	0	0	perc	3000	0	1	憤怒挑撥			技能的仇恨值增加	icon_ep.ep_special_chaff_tex
 88212102	Endurance	0	0	perc	3500	0	1	憤怒挑撥			技能的仇恨值增加	icon_ep.ep_special_chaff_tex
 88212103	Endurance	0	0	perc	4000	0	1	憤怒挑撥			技能的仇恨值增加	icon_ep.ep_special_chaff_tex
@@ -2925,6 +2964,16 @@
 88302113	CritChance	0	0	abs	5000	0	0.29	向下劈擊暴擊率增加			使用向下劈擊時，暴擊率增加 29%	icon_ep.ep_fatal_hitfinish_tex
 88302114	CritChance	0	0	abs	5000	0	0.31	向下劈擊暴擊率增加			使用向下劈擊時，暴擊率增加 31%	icon_ep.ep_fatal_hitfinish_tex
 88302115	CritChance	0	0	abs	5000	0	0.33	向下劈擊暴擊率增加			使用向下劈擊時，暴擊率增加 33%	icon_ep.ep_fatal_hitfinish_tex
+88312301	SkillCastSpeed	0	0	perc	5000	0	1.15	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 15%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312302	SkillCastSpeed	0	0	perc	5000	0	1.17	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 17%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312303	SkillCastSpeed	0	0	perc	5000	0	1.19	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 19%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312304	SkillCastSpeed	0	0	perc	5000	0	1.21	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 21%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312305	SkillCastSpeed	0	0	perc	5000	0	1.23	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 23%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312306	SkillCastSpeed	0	0	perc	5000	0	1.25	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 25%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312307	SkillCastSpeed	0	0	perc	5000	0	1.27	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 27%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312308	SkillCastSpeed	0	0	perc	5000	0	1.29	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 29%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312309	SkillCastSpeed	0	0	perc	5000	0	1.31	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 31%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
+88312310	SkillCastSpeed	0	0	perc	5000	0	1.33	要害攻擊速度增加			施展向下劈擊時，攻擊速度增加 33%。擊倒 /僵直時將解除。	icon_ep.ep_cooltime_hit_tex
 88316101	Crit	0	0	abs	3000	0	5	危機猛打			暴擊誘發增加5。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
 88316102	Crit	0	0	abs	3000	0	7	危機猛打			暴擊誘發增加7。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
 88316103	Crit	0	0	abs	3000	0	9	危機猛打			暴擊誘發增加9。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
@@ -2955,6 +3004,31 @@
 88325118	Power	0	0	abs	5000	0	1	氣魄怪力			被 真•一刀兩斷擊中時重疊	icon_ep.ep_attack_strong_tex
 88325119	Power	0	0	abs	5000	0	1	氣魄怪力			被 真•一刀兩斷擊中時重疊	icon_ep.ep_attack_strong_tex
 88325120	Power	0	0	abs	5000	0	1	氣魄怪力			被 真•一刀兩斷擊中時重疊	icon_ep.ep_attack_strong_tex
+88402101	SkillCastSpeed	0	0	perc	3000	0	1.3	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402102	SkillCastSpeed	0	0	perc	3000	0	1.35	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402103	SkillCastSpeed	0	0	perc	3000	0	1.4	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402104	SkillCastSpeed	0	0	perc	3000	0	1.45	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402105	SkillCastSpeed	0	0	perc	3000	0	1.5	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402106	SkillCastSpeed	0	0	perc	3000	0	1.55	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402107	SkillCastSpeed	0	0	perc	3000	0	1.6	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402108	SkillCastSpeed	0	0	perc	3000	0	1.65	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402109	SkillCastSpeed	0	0	perc	3000	0	1.7	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88402110	SkillCastSpeed	0	0	perc	3000	0	1.75	連續快速反擊			施展反擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406201	SkillCastSpeed	0	0	perc	3000	0	1.04	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406202	SkillCastSpeed	0	0	perc	3000	0	1.055	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406203	SkillCastSpeed	0	0	perc	3000	0	1.07	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406204	SkillCastSpeed	0	0	perc	3000	0	1.085	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406205	SkillCastSpeed	0	0	perc	3000	0	1.1	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406206	SkillCastSpeed	0	0	perc	3000	0	1.115	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406207	SkillCastSpeed	0	0	perc	3000	0	1.13	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406208	SkillCastSpeed	0	0	perc	3000	0	1.145	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406209	SkillCastSpeed	0	0	perc	3000	0	1.16	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406210	SkillCastSpeed	0	0	perc	3000	0	1.175	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406211	SkillCastSpeed	0	0	perc	3000	0	1.19	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406212	SkillCastSpeed	0	0	perc	3000	0	1.205	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406213	SkillCastSpeed	0	0	perc	3000	0	1.22	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406214	SkillCastSpeed	0	0	perc	3000	0	1.235	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88406215	SkillCastSpeed	0	0	perc	3000	0	1.25	連續快速打擊大地			施展打擊大地時，攻擊速度增加	icon_ep.ep_attack_speed_tex
 88410201	DefPotion	0	0	perc	10000	0	0.97	鐵壁			施展中被擊中時所遭受的傷害減少3%。擊倒時將解除。	icon_ep.ep_defense_well_tex
 88410202	DefPotion	0	0	perc	10000	0	0.94	鐵壁			施展中被擊中時所遭受的傷害減少6%。擊倒時將解除。	icon_ep.ep_defense_well_tex
 88410203	DefPotion	0	0	perc	10000	0	0.91	鐵壁			施展中被擊中時所遭受的傷害減少9%。擊倒時將解除。	icon_ep.ep_defense_well_tex
@@ -2965,6 +3039,21 @@
 88410208	DefPotion	0	0	perc	10000	0	0.76	鐵壁			施展中被擊中時所遭受的傷害減少24%。擊倒時將解除。	icon_ep.ep_defense_well_tex
 88410209	DefPotion	0	0	perc	10000	0	0.73	鐵壁			施展中被擊中時所遭受的傷害減少27%。擊倒時將解除。	icon_ep.ep_defense_well_tex
 88410210	DefPotion	0	0	perc	10000	0	0.7	鐵壁			施展中被擊中時所遭受的傷害減少30%。擊倒時將解除。	icon_ep.ep_defense_well_tex
+88426101	SkillCastSpeed	0	0	perc	3000	0	1.04	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426102	SkillCastSpeed	0	0	perc	3000	0	1.055	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426103	SkillCastSpeed	0	0	perc	3000	0	1.07	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426104	SkillCastSpeed	0	0	perc	3000	0	1.085	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426105	SkillCastSpeed	0	0	perc	3000	0	1.1	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426106	SkillCastSpeed	0	0	perc	3000	0	1.115	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426107	SkillCastSpeed	0	0	perc	3000	0	1.13	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426108	SkillCastSpeed	0	0	perc	3000	0	1.145	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426109	SkillCastSpeed	0	0	perc	3000	0	1.16	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426110	SkillCastSpeed	0	0	perc	3000	0	1.175	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426111	SkillCastSpeed	0	0	perc	3000	0	1.19	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426112	SkillCastSpeed	0	0	perc	3000	0	1.205	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426113	SkillCastSpeed	0	0	perc	3000	0	1.22	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426114	SkillCastSpeed	0	0	perc	3000	0	1.235	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
+88426115	SkillCastSpeed	0	0	perc	3000	0	1.25	連續快速向下劈擊			施展向下劈擊時，攻擊速度增加	icon_ep.ep_attack_speed_tex
 88500010	HPChange	-0.005	0	perc	6000	1	-0.005	燒傷			每秒HP的0.5%% (最多1000) 持續遭受傷害	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	0	0	perc	6000	0	0.9	凍傷			移動速度減少 10%。重疊五次時暫時被凍結，移動速度大大地下降。	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	0	0	perc	2000	0	0.75	嚴重凍傷			因凍傷重疊，移動速度減少25%。擊倒時將解除。	icon_ep.ep_debuff_frostbite_tex
@@ -2998,6 +3087,21 @@
 88509218	MPChange	0	13	abs	20000	1	13	補充			每秒恢復13的MP，被擊中時將解除。	icon_ep.ep_resources_mpmore_tex
 88509219	MPChange	0	14	abs	20000	1	14	補充			每秒恢復14的MP，被擊中時將解除。	icon_ep.ep_resources_mpmore_tex
 88509220	MPChange	0	15	abs	20000	1	15	補充			每秒恢復15的MP，被擊中時將解除。	icon_ep.ep_resources_mpmore_tex
+88514201	SkillCastSpeed	0	0	perc	5000	0	1.08	連續快速刻印			刻印類技能施展速度上升8%	icon_ep.ep_attack_speed_tex
+88514202	SkillCastSpeed	0	0	perc	5000	0	1.11	連續快速刻印			刻印類技能施展速度上升11%	icon_ep.ep_attack_speed_tex
+88514203	SkillCastSpeed	0	0	perc	5000	0	1.14	連續快速刻印			刻印類技能施展速度上升14%	icon_ep.ep_attack_speed_tex
+88514204	SkillCastSpeed	0	0	perc	5000	0	1.17	連續快速刻印			刻印類技能施展速度上升17%	icon_ep.ep_attack_speed_tex
+88514205	SkillCastSpeed	0	0	perc	5000	0	1.2	連續快速刻印			刻印類技能施展速度上升20%	icon_ep.ep_attack_speed_tex
+88514206	SkillCastSpeed	0	0	perc	5000	0	1.23	連續快速刻印			刻印類技能施展速度上升23%	icon_ep.ep_attack_speed_tex
+88514207	SkillCastSpeed	0	0	perc	5000	0	1.26	連續快速刻印			刻印類技能施展速度上升26%	icon_ep.ep_attack_speed_tex
+88514208	SkillCastSpeed	0	0	perc	5000	0	1.29	連續快速刻印			刻印類技能施展速度上升29%	icon_ep.ep_attack_speed_tex
+88514209	SkillCastSpeed	0	0	perc	5000	0	1.32	連續快速刻印			刻印類技能施展速度上升32%	icon_ep.ep_attack_speed_tex
+88514210	SkillCastSpeed	0	0	perc	5000	0	1.35	連續快速刻印			刻印類技能施展速度上升35%	icon_ep.ep_attack_speed_tex
+88514211	SkillCastSpeed	0	0	perc	5000	0	1.38	連續快速刻印			刻印類技能施展速度上升38%	icon_ep.ep_attack_speed_tex
+88514212	SkillCastSpeed	0	0	perc	5000	0	1.41	連續快速刻印			刻印類技能施展速度上升41%	icon_ep.ep_attack_speed_tex
+88514213	SkillCastSpeed	0	0	perc	5000	0	1.44	連續快速刻印			刻印類技能施展速度上升44%	icon_ep.ep_attack_speed_tex
+88514214	SkillCastSpeed	0	0	perc	5000	0	1.47	連續快速刻印			刻印類技能施展速度上升47%	icon_ep.ep_attack_speed_tex
+88514215	SkillCastSpeed	0	0	perc	5000	0	1.5	連續快速刻印			刻印類技能施展速度上升50%	icon_ep.ep_attack_speed_tex
 88524201	MPChange	0	6	abs	15000	1	6	填充			每秒持續恢復MP6。被擊中時將解除。	icon_ep.ep_resources_mpmore_tex
 88524202	MPChange	0	7	abs	15000	1	7	填充			每秒持續恢復MP7。被擊中時將解除。	icon_ep.ep_resources_mpmore_tex
 88524203	MPChange	0	8	abs	15000	1	8	填充			每秒持續恢復MP8。被擊中時將解除。	icon_ep.ep_resources_mpmore_tex
@@ -3028,6 +3132,21 @@
 88608108	Crit	0	0	abs	3000	0	9	速射猛打			暴擊誘發增加9。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
 88608109	Crit	0	0	abs	3000	0	10	速射猛打			暴擊誘發增加10。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
 88608110	Crit	0	0	abs	3000	0	11	速射猛打			暴擊誘發增加11。擊倒時將解除。	icon_ep.ep_fatal_hitfinish_tex
+88614201	SkillCastSpeed	0	0	perc	5000	0	1.3	連續快速陷阱			設陷阱技能施展速度上升30%	icon_ep.ep_attack_speed_tex
+88614202	SkillCastSpeed	0	0	perc	5000	0	1.35	連續快速陷阱			設陷阱技能施展速度上升35%	icon_ep.ep_attack_speed_tex
+88614203	SkillCastSpeed	0	0	perc	5000	0	1.4	連續快速陷阱			設陷阱技能施展速度上升40%	icon_ep.ep_attack_speed_tex
+88614204	SkillCastSpeed	0	0	perc	5000	0	1.45	連續快速陷阱			設陷阱技能施展速度上升45%	icon_ep.ep_attack_speed_tex
+88614205	SkillCastSpeed	0	0	perc	5000	0	1.5	連續快速陷阱			設陷阱技能施展速度上升50%	icon_ep.ep_attack_speed_tex
+88614206	SkillCastSpeed	0	0	perc	5000	0	1.55	連續快速陷阱			設陷阱技能施展速度上升55%	icon_ep.ep_attack_speed_tex
+88614207	SkillCastSpeed	0	0	perc	5000	0	1.6	連續快速陷阱			設陷阱技能施展速度上升60%	icon_ep.ep_attack_speed_tex
+88614208	SkillCastSpeed	0	0	perc	5000	0	1.65	連續快速陷阱			設陷阱技能施展速度上升65%	icon_ep.ep_attack_speed_tex
+88614209	SkillCastSpeed	0	0	perc	5000	0	1.7	連續快速陷阱			設陷阱技能施展速度上升70%	icon_ep.ep_attack_speed_tex
+88614210	SkillCastSpeed	0	0	perc	5000	0	1.75	連續快速陷阱			設陷阱技能施展速度上升75%	icon_ep.ep_attack_speed_tex
+88614211	SkillCastSpeed	0	0	perc	5000	0	1.8	連續快速陷阱			設陷阱技能施展速度上升80%	icon_ep.ep_attack_speed_tex
+88614212	SkillCastSpeed	0	0	perc	5000	0	1.85	連續快速陷阱			設陷阱技能施展速度上升85%	icon_ep.ep_attack_speed_tex
+88614213	SkillCastSpeed	0	0	perc	5000	0	1.9	連續快速陷阱			設陷阱技能施展速度上升90%	icon_ep.ep_attack_speed_tex
+88614214	SkillCastSpeed	0	0	perc	5000	0	1.95	連續快速陷阱			設陷阱技能施展速度上升95%	icon_ep.ep_attack_speed_tex
+88614215	SkillCastSpeed	0	0	perc	5000	0	2	連續快速陷阱			設陷阱技能施展速度上升100%	icon_ep.ep_attack_speed_tex
 88618101	CritChance	0	0	abs	7000	0	0.07	脫離猛打			使用脫離攻擊時，暴擊率上升0.07	icon_ep.ep_fatal_hitfinish_tex
 88618102	CritChance	0	0	abs	7000	0	0.09	脫離猛打			使用脫離攻擊時，暴擊率上升0.09	icon_ep.ep_fatal_hitfinish_tex
 88618103	CritChance	0	0	abs	7000	0	0.11	脫離猛打			使用脫離攻擊時，暴擊率上升0.11	icon_ep.ep_fatal_hitfinish_tex
@@ -3204,6 +3323,16 @@
 89016118	Power	0	0	abs	10000	0	1	黑暗怪力			打擊時重疊	icon_ep.ep_attack_strong_tex
 89016119	Power	0	0	abs	10000	0	1	黑暗怪力			打擊時重疊	icon_ep.ep_attack_strong_tex
 89016120	Power	0	0	abs	10000	0	1	黑暗怪力			打擊時重疊	icon_ep.ep_attack_strong_tex
+89020201	SkillCastSpeed	0	0	perc	5000	0	1.2	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020202	SkillCastSpeed	0	0	perc	5000	0	1.25	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020203	SkillCastSpeed	0	0	perc	5000	0	1.3	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020204	SkillCastSpeed	0	0	perc	5000	0	1.35	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020205	SkillCastSpeed	0	0	perc	5000	0	1.4	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020206	SkillCastSpeed	0	0	perc	5000	0	1.45	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020207	SkillCastSpeed	0	0	perc	5000	0	1.5	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020208	SkillCastSpeed	0	0	perc	5000	0	1.55	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020209	SkillCastSpeed	0	0	perc	5000	0	1.6	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
+89020210	SkillCastSpeed	0	0	perc	5000	0	1.65	連續怪力暗黑爆發			施展暗黑爆發時，攻擊速度增加。	icon_ep.ep_attack_speed_tex
 89105101	Power	0	0	abs	5000	0	1	速射怪力			打擊時重疊。反作用時將解除。	icon_ep.ep_attack_strong_tex
 89105102	Power	0	0	abs	5000	0	1	速射怪力			打擊時重疊。反作用時將解除。	icon_ep.ep_attack_strong_tex
 89105103	Power	0	0	abs	5000	0	1	速射怪力			打擊時重疊。反作用時將解除。	icon_ep.ep_attack_strong_tex

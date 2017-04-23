@@ -695,6 +695,7 @@
 22010	Power	0	0	perc	10000	0	1.15	Pumped Stand Fast			Power increases by 15%.	icon_skills.defence_tex
 22030	MovSpd	0	0	setp	5000	0	0.5	Slowing Infuriate			Decreases Movement Speed by 50%.	icon_skills.provokerage_tex
 22040	AtkPotion	0	0	perc	10000	0	1.25	Powerlinked Stand Fast			Increases damage of Shield Counter by 25%.	icon_skills.defence_tex
+22060	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Shield Bash			Speeds casting by 25% for Onslaught.	icon_skills.shieldstrike_tex
 22080	MovSpdInCombat	0	0	abs	7000	0	10	Fleetfooted Charging Lunge			Increases combat Movement Speed by 10.	icon_skills.advancingcharge_tex
 22090	MovSpd	0	0	setp	4000	0	0.5	Slowing Leash			Decreases Movement Speed by 50%.	icon_skills.hookthrow_tex
 22100	ASpd	0	0	perc	4000	0	0.6	Numbing Leash			Decreases Attack Speed by 40%.	icon_skills.hookthrow_tex
@@ -708,6 +709,10 @@
 23032	AtkPotion	0	0	perc	8000	0	1.25	Powerlinked Eviscerate			Increases damage of Measured Slice by 25%.	icon_skills.jawbreaker_tex
 23040	AtkPotion	0	0	perc	6000	0	1.25	Powerlinked Retaliate			Increases damage of Leaping Strike by 25%.	icon_skills.risingattack_tex
 23050	Endurance	0	0	perc	10000	0	1.2	Grounded Tenacity			Increases Endurance by 20%.	icon_skills.tenacity_tex
+23060	SkillCastSpeed	0	0	perc	10000	0	1.25	Blazing Backstab			Speeds casting by 25% for Heart Thrust.	icon_skills.turnaroundattack_tex
+23061	SkillCastSpeed	0	0	perc	10000	0	1.35	Blazing Backstab			Speeds casting by 35% for Heart Thrust.	icon_skills.turnaroundattack_tex
+23070	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Backstab			Speeds casting by 25% for Knockdown Strike.	icon_skills.turnaroundattack_tex
+23080	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Fury Strike			Speeds casting by 25% for Whirlwind.	icon_skills.ragingstrike_tex
 23100	ASpd	0	0	perc	5000	0	0.85	Numbing Distant Blade			Decreases Attack Speed by 15%.	icon_skills.tripleslash_tex
 23120	AtkPotion	0	0	perc	5000	0	1.25	Powerlinked Evasive Roll			Increases damage of Fury Strike by 25%.	icon_skills.tumbling_tex
 23130	AtkPotion	0	0	perc	5000	0	1.2	Powerlinked Knockdown Strike			Increases damage of Overhand Strike by 20%.	icon_skills.handyslash_tex
@@ -725,12 +730,15 @@
 24090	MovSpdInCombat	0	0	abs	15000	0	20	Fleetfooted Fiery Rage			Increases combat Movement Speed by 20.	icon_skills.berserk_tex
 24091	MovSpdInCombat	0	0	abs	15000	0	20	Fleetfooted Tackle			Increases combat Movement Speed by 20.	icon_skills.throwaxe_tex
 24092	Endurance	0	0	abs	8000	0	21	Glyph of Grounding			Increases Endurance by 21.	icon_crest.crestactivedefenceup_tex
+24100	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Inescapable Doom			Speeds casting by 25% for Flatten.	icon_skills.murderousvent_tex
+24101	SkillCastSpeed	0	0	perc	5000	0	1.3	Blazing Inescapable Doom			Speeds casting by 30% for Flatten.	icon_skills.murderousvent_tex
 24120	CastSpeed	0	0	perc	6000	0	1.3	Blazing Leaping Strike			Speeds charging by 30% for Lethal Strike.	icon_skills.downattack_tex
 24130	CastSpeed	0	0	perc	6000	0	1.3	Blazing Staggering Strike			Speeds charging by 30% for Thunder Strike.	icon_skills.turnback_tex
 24140	Endurance	0	0	abs	12000	0	16	Grounded Tenacity			Increases Endurance by 16.	icon_skills.tenacity_tex
 24150	MPChange	0	0.06	perc	5000	1	0.06	Spirited Tenacity			Replenishes 6% of maximum MP every 1s.	icon_skills.tenacity_tex
 24160	Crit	0	0	perc	0	0	2	Keen Leaping Strike			Doubles Crit Factor for the next attack.	icon_skills.downattack_tex
 24161	Crit	0	0	perc	0	0	2	Keen Tackle			Doubles Crit Factor for the next attack.	icon_skills.throwaxe_tex
+24170	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Raze			Speeds casting by 25% for Thunder Strike.	icon_skills.sideslash_tex
 24181	AtkPotion	0	0	perc	10000	0	1.25	Powerlinked Axe Block			Increases damage of Axe Counter by 25%.	icon_skills.weapondefence_tex
 24190	CastSpeed	0	0	perc	6000	0	1.3	Blazing Mocking Shout			Speeds charging of Cyclone by 30%.	icon_skills.shockingshout_tex
 24200	AtkPotion	0	0	perc	8000	0	1.2	Powerlinked Vampiric Blow			Increases damage of Lethal Strike by 20%.	icon_skills.vampiricstrike_tex
@@ -739,7 +747,12 @@
 25021	Endurance	0	0	abs	15000	0	16	Grounded Nova			Increases Endurance by 16.	icon_skills.manaburst_tex
 25030	AtkPotion	0	0	perc	5000	0	1.25	Powerlinked Arcane Pulse			Increases damage of Frost Sphere by 25%.	icon_skills.blastball_tex
 25050	AtkPotion	0	0	perc	10000	0	1.2	Powerlinked Lightning Trap			Increases damage of Meteor Strike by 20%.	icon_skills.shocktrap_tex
+25060	SkillCastSpeed	0	0	perc	10000	0	1.25	Blazing Mana Siphon			Speeds casting by 25% for Flaming Barrage.	icon_skills.manaextortion_tex
+25070	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Lightning Trap			Speeds casting by 25% for Flame Pillar.	icon_skills.shocktrap_tex
 25080	AtkPotion	0	0	perc	10000	0	1.35	Powerlinked Burning Breath			Increases damage of Flaming Barrage by 35%.	icon_skills.burningbreath_tex
+25090	SkillCastSpeed	0	0	perc	5000	0	1.4	Blazing Glacial Retreat			Speeds casting by 40% for Lightning Trap.	icon_skills.freezingtheearth_tex
+25100	SkillCastSpeed	0	0	perc	7000	0	1.25	Blazing Time Gyre			Speeds casting by 25% for Meteor Strike.	icon_skills.curseofshackle_tex
+25110	SkillCastSpeed	0	0	perc	7000	0	1.4	Blazing Frost Sphere			Speeds casting by 40% for Mindblast.	icon_skills.c5_iceorb
 25120	MovSpd	0	0	setp	7000	0	0.5	Slowing Painblast			Decreases Movement Speed by 50%.	icon_skills.disease_tex
 25130	AtkPotion	0	0	perc	5000	0	1.2	Glyph of Powerlink			Increases damage for the next chain skill by 20%—but once only.	icon_crest.crestnextskillattackup_tex
 25140	CastSpeed	0	0	perc	6000	0	1.3	Blazing Glacial Retreat			Speeds charging by 30% for Arcane Pulse.	icon_skills.freezingtheearth_tex
@@ -754,6 +767,9 @@
 26030	AtkPotion	0	0	perc	7000	0	1.25	Glyph of Powerlink			Increases damage of Arrow Volley by 25%.	icon_crest.crestnextskillattackup_tex
 26070	AtkPotion	0	0	perc	10000	0	1.25	Powerlinked Breakaway Bolt			Increases damage of Penetrating Arrow by 25%: .	icon_skills.escapingattack_tex
 26080	MovSpdInCombat	0	0	abs	12000	0	10	Fleetfooted Web Arrow			Increases combat Movement Speed by 10.	icon_skills.spiderarrow_tex
+26100	SkillCastSpeed	0	0	perc	10000	0	1.25	Blazing Velik's Mark			Speeds casting by 25% for Poison Arrow.	icon_skills.markingofarcher_tex
+26110	SkillCastSpeed	0	0	perc	5000	0	1.4	Blazing Arrow Volley			Speeds casting by 40% for Stunning Trap.	icon_skills.arrowshower_tex
+26111	SkillCastSpeed	0	0	perc	5000	0	1.5	Blazing Arrow Volley			Speeds casting by 50% for Stunning Trap.	icon_skills.arrowshower_tex
 26120	MovSpdInCombat	0	0	abs	8000	0	10	Fleetfooted Breakaway Bolt			Increases combat Movement Speed by 10.	icon_skills.escapingattack_tex
 26130	AtkPotion	0	0	perc	10000	0	1.25	Glyph of Powerlink			Increases damage of Incendiary Trap by 25%.	icon_crest.crestnextskillattackup_tex
 26140	HPChange	0.02	0	perc	10000	1	0.02	Regenerating Feign Death			Recovers 2% of maximum HP every 1s.	icon_skills.feigndeath_tex
@@ -772,6 +788,10 @@
 26251	Endurance	0	0	perc	25000	0	0.9545	Glyph of Enfeeblement			Decreases Endurance by 4.55%.	icon_crest.crestactivedefencedown_tex
 27010	MovSpd	0	0	setp	2000	0	0.6	Glyph of Slowing			Decreases Movement Speed by 40%.	icon_crest.crestpassivespeeddown_tex
 27060	ASpd	0	0	perc	6000	0	0.7	Numbing Ancient Binding			Decreases Attack Speed by 30%.	icon_skills.slowball_tex
+27070	SkillCastSpeed	0	0	perc	10000	0	1.25	Blazing Arun's Tears			Speeds casting by 25% for Arun's Vitae.	icon_skills.mprefresher_tex
+27080	SkillCastSpeed	0	0	perc	10000	0	1.25	Blazing Teleport Jaunt			Speeds casting by 25% for Arun's Vitae.	icon_skills.shortteleport_tex
+27090	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Teleport Jaunt			Speeds casting by 25% for Thrall of Life.	icon_skills.shortteleport_tex
+27100	SkillCastSpeed	0	0	perc	20000	0	1.25	Blazing Arun's Vitae			Speeds casting by 25% for Arun's Tears.	icon_skills.hprefresher_tex
 27110	MovSpdInCombat	0	0	abs	3000	0	50	Fleetfooted Shara's Lash			Increase combat Movement Speed by 50.	icon_skills.flashball_tex
 27120	Endurance	0	0	perc	600000	0	1.1	United Thrall of Protection			Increases Endurance by 10%.	icon_skills.summonspiritofaggro_tex
 27140	HPChange	0.2	0	perc	1000	1	0.2	Restorative Arun's Vitae			Recovers 20% of maximum HP.	icon_skills.hprefresher_tex
@@ -794,6 +814,7 @@
 29010	ASpd	0	0	perc	10000	0	1.15	Swift Spiral Barrage			Increases Attack Speed by 15%.	icon_skills.comboattack2_tex
 29011	Crit	0	0	perc	0	0	2	Glyph of Keenness			Doubles Crit Factor.	icon_crest.crestpassivecriticalup_tex
 29020	AtkPotion	0	0	perc	5000	0	1.3	Powerlinked Double Shear			Increases damage of Grim Strike by 30%.	icon_skills.chainsmash_tex
+29030	SkillCastSpeed	0	0	perc	5000	0	1.25	Blazing Grim Strike			Increases Attack Speed of Double Shear by 25%.	icon_skills.chainsuperblow_tex
 29040	AtkPotion	0	0	perc	5000	0	1.2	Powerlinked Death Spiral			Increases damage of Double Shear by 20%.	icon_skills.chainbrandish_tex
 29041	AtkPotion	0	0	perc	5000	0	1.3	Powerlinked Death Spiral			Increases damage of Grim Strike by 30%.	icon_skills.chainbrandish_tex
 29050	ASpd	0	0	perc	7000	0	0.9	Numbing Whipsaw			Decreases Attack Speed by  10% per overlapping hit.	icon_skills.chainblade_tex
@@ -821,8 +842,10 @@
 32005	AtkPotion	0	0	perc	3000	0	1.1	Powerlinked Jagged Path			Increases all skill damage by 10%.	icon_skills.c12_dashattack
 32020	AtkPotion	0	0	perc	5000	0	1.25	Powerlinked Skyfall			Increases damage of Circle of Steel by 25%.	icon_skills.c12_airstepstrike
 32024	AtkPotion	0	0	perc	5000	0	1.25	Powerlinked Double Cut			Increases damage of Skyfall by 25%.	icon_skills.c12_twinslash
+32033	SkillCastSpeed	0	0	perc	10000	0	1.2	Glyph of Blaze			Speeds casting of Burning Heart and Fire Avalanche by 20%.	icon_crest.crestnextskillattackspeedup_tex
 32044	AtkPotion	0	0	perc	5000	0	1.3	Powerlinked Skyfall			Increases damage of Circle of Steel by 30%.	icon_skills.c12_airstepstrike
 32047	AtkPotion	0	0	perc	5000	0	1.3	Powerlinked Double Cut			Increases damage of Skyfall by 30%.	icon_skills.c12_twinslash
+32058	SkillCastSpeed	0	0	perc	10000	0	1.3	Glyph of Blaze			Speeds casting of Burning Heart and Fire Avalanche by 30%.	icon_crest.crestnextskillattackspeedup_tex
 32060	ASpd	0	0	perc	5000	0	1.1	Swift Combo Attack			Increases Attack Speed by 10%.	icon_skills.c12_meleecombo
 33010	ASpd	0	0	perc	10000	0	1.15	Swift Slash			Increases Attack Speed by 15%.	icon_skills.combo_tex
 33020	AtkPotion	0	0	perc	10000	0	1.25	Powerlinked Overhead Slash			Increases damage of Leaping Slash by 25%.	icon_skills.fatalshot_tex
@@ -1036,6 +1059,8 @@
 101400	MovSpd	0	0	setp	3000	0	0.5	Pounce			Decreases Movement Speed by 50%.	icon_skills.heavybite_tex
 101500	DefPotion	0	0	perc	15000	0	1.25	Reaping Slash			Takes 25% more damage from Scythe.	icon_skills.rupture_tex
 101600	Endurance	0	0	perc	15000	0	1	Smoke Flanker			Your shadow lasts for a set duration.	icon_skills.voidtrap_tex
+101700	SkillCastSpeed	0	0	perc	10000	0	1.2	Combo Attack			Increases Combo Attack speed after 14 successful hits with Combo Attack.	icon_skills.comboattack_tex
+101750	SkillCastSpeed	0	0	perc	10000	0	1.2	Combo Attack			Increases Combo Attack speed by 20%.	icon_skills.comboattack_tex
 102500	Block	0	0	perc	180000	0	0	Infuriate			Locked in Defensive Stance.	icon_skills.provokerage_tex
 200230	Power	0	0	perc	0	0	1.3	Guardian Power I			Endurance increases by 91%, Power increases by 30% while within 40m of the caster.	icon_status.plusedefence_tex
 200230	Endurance	0	0	perc	0	0	1.91	Guardian Power I			Endurance increases by 91%, Power increases by 30% while within 40m of the caster.	icon_status.plusedefence_tex
@@ -1058,6 +1083,8 @@
 201104	MovSpd	0	0	setp	7000	0	0.66	Lockdown Blow			Decreases Movement Speed by 34% or more.	icon_skills.shockblow_tex
 201200	MovSpd	0	0	setp	5000	0	0.85	Menacing Wave			Decreases Movement Speed and Attack Speed by 15%.	icon_skills.menacewave_tex
 201200	ASpd	0	0	perc	5000	0	0.85	Menacing Wave			Decreases Movement Speed and Attack Speed by 15%.	icon_skills.menacewave_tex
+201500	SkillCastSpeed	0	0	perc	10000	0	1.2	Combo Attack			Increases Shield Barrage speed after 8 successful hits with Combo Attack.	icon_skills.comboattack_tex
+201550	SkillCastSpeed	0	0	perc	10000	0	1.2	Combo Attack			Increases Shield Barrage speed on next attack.	icon_skills.comboattack_tex
 201701	Power	0	0	abs	50000	0	4	Line Held I			Increases aggro by 4%, Power by 4, and Crit Factor by 6. Stacks up to 10 times and is removed when you are knocked down.	icon_skills.defence_tex
 201701	Crit	0	0	abs	50000	0	6	Line Held I			Increases aggro by 4%, Power by 4, and Crit Factor by 6. Stacks up to 10 times and is removed when you are knocked down.	icon_skills.defence_tex
 300200	MovSpd	0	0	setp	5000	0	0	Backstab			Cannot move. Knockdown cancels the effect.	icon_skills.turnaroundattack_tex
@@ -1080,6 +1107,8 @@
 300900	CDR	0	0	swch	11000	0	1.5	Exhausting Blow			Increases all skill cooldowns by 50%.	icon_skills.veinslash_tex
 300901	CDR	0	0	swch	11000	0	1.53	Exhausting Blow			Increases all skill cooldowns by 53%.	icon_skills.veinslash_tex
 300902	CDR	0	0	swch	11000	0	1.55	Exhausting Blow			Increases all skill cooldowns by 55%.	icon_skills.veinslash_tex
+301100	SkillCastSpeed	0	0	perc	10000	0	1.2	Combo Attack			Increases Whirlwind speed after 4 successful hits with Combo attack.	icon_skills.comboattack_tex
+301150	SkillCastSpeed	0	0	perc	10000	0	1.2	Combo Attack			Increases Whirlwind speed on next attack.	icon_skills.comboattack_tex
 400100	Power	0	0	perc	22500	0	1.2	Fiery Rage			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
 400100	Endurance	0	0	perc	22500	0	0.9	Fiery Rage			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
 400100	Crit	0	0	perc	22500	0	1.1	Fiery Rage			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex
@@ -2864,6 +2893,16 @@
 88202108	Crit	0	0	abs	3000	0	19	Spirit of Vengeance			Crit rate increases by 19. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
 88202109	Crit	0	0	abs	3000	0	21	Spirit of Vengeance			Crit rate increases by 21. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
 88202110	Crit	0	0	abs	3000	0	23	Spirit of Vengeance			Crit rate increases by 23. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
+88202301	SkillCastSpeed	0	0	perc	3000	0	1.3	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202302	SkillCastSpeed	0	0	perc	3000	0	1.35	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202303	SkillCastSpeed	0	0	perc	3000	0	1.4	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202304	SkillCastSpeed	0	0	perc	3000	0	1.45	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202305	SkillCastSpeed	0	0	perc	3000	0	1.5	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202306	SkillCastSpeed	0	0	perc	3000	0	1.55	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202307	SkillCastSpeed	0	0	perc	3000	0	1.6	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202308	SkillCastSpeed	0	0	perc	3000	0	1.65	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202309	SkillCastSpeed	0	0	perc	3000	0	1.7	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
+88202310	SkillCastSpeed	0	0	perc	3000	0	1.75	Chained Speed Skating: Shield Counter			Attack Speed increases when casting Shield Counter	icon_ep.ep_attack_speed_tex
 88212101	Endurance	0	0	perc	3000	0	1	Raising Aggression			Increases Aggro by casting skill	icon_ep.ep_special_chaff_tex
 88212102	Endurance	0	0	perc	3500	0	1	Raising Aggression			Increases Aggro by casting skill	icon_ep.ep_special_chaff_tex
 88212103	Endurance	0	0	perc	4000	0	1	Raising Aggression			Increases Aggro by casting skill	icon_ep.ep_special_chaff_tex
@@ -2949,6 +2988,16 @@
 88302113	CritChance	0	0	abs	5000	0	0.29	Crit Rate of Leaping Strike increases			Increases Crit rate of Leaping Strite by 29% 	icon_ep.ep_fatal_hitfinish_tex
 88302114	CritChance	0	0	abs	5000	0	0.31	Crit Rate of Leaping Strike increases			Increases Crit rate of Leaping Strite by 31% 	icon_ep.ep_fatal_hitfinish_tex
 88302115	CritChance	0	0	abs	5000	0	0.33	Crit Rate of Leaping Strike increases			Increases Crit rate of Leaping Strite by 33% 	icon_ep.ep_fatal_hitfinish_tex
+88312301	SkillCastSpeed	0	0	perc	5000	0	1.15	Attack Speed of Heart Thrust increases			Attack Speed increases by 15% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312302	SkillCastSpeed	0	0	perc	5000	0	1.17	Attack Speed of Heart Thrust increases			Attack Speed increases by 17% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312303	SkillCastSpeed	0	0	perc	5000	0	1.19	Attack Speed of Heart Thrust increases			Attack Speed increases by 19% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312304	SkillCastSpeed	0	0	perc	5000	0	1.21	Attack Speed of Heart Thrust increases			Attack Speed increases by 21% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312305	SkillCastSpeed	0	0	perc	5000	0	1.23	Attack Speed of Heart Thrust increases			Attack Speed increases by 23% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312306	SkillCastSpeed	0	0	perc	5000	0	1.25	Attack Speed of Heart Thrust increases			Attack Speed increases by 25% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312307	SkillCastSpeed	0	0	perc	5000	0	1.27	Attack Speed of Heart Thrust increases			Attack Speed increases by 27% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312308	SkillCastSpeed	0	0	perc	5000	0	1.29	Attack Speed of Heart Thrust increases			Attack Speed increases by 29% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312309	SkillCastSpeed	0	0	perc	5000	0	1.31	Attack Speed of Heart Thrust increases			Attack Speed increases by 31% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
+88312310	SkillCastSpeed	0	0	perc	5000	0	1.33	Attack Speed of Heart Thrust increases			Attack Speed increases by 33% when casting Heart Thrust. Effect ends when knocked down or stunned.	icon_ep.ep_cooltime_hit_tex
 88316101	Crit	0	0	abs	3000	0	5	Desperate Pummel			Crit rate increases by 5. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
 88316102	Crit	0	0	abs	3000	0	7	Desperate Pummel			Crit rate increases by 7. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
 88316103	Crit	0	0	abs	3000	0	9	Desperate Pummel			Crit rate increases by 9. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
@@ -2979,6 +3028,31 @@
 88325118	Power	0	0	abs	5000	0	1	Relentless Force			Effect Effect stacks up when Ultimate: Overhand Strike hits the target	icon_ep.ep_attack_strong_tex
 88325119	Power	0	0	abs	5000	0	1	Relentless Force			Effect Effect stacks up when Ultimate: Overhand Strike hits the target	icon_ep.ep_attack_strong_tex
 88325120	Power	0	0	abs	5000	0	1	Relentless Force			Effect Effect stacks up when Ultimate: Overhand Strike hits the target	icon_ep.ep_attack_strong_tex
+88402101	SkillCastSpeed	0	0	perc	3000	0	1.3	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402102	SkillCastSpeed	0	0	perc	3000	0	1.35	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402103	SkillCastSpeed	0	0	perc	3000	0	1.4	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402104	SkillCastSpeed	0	0	perc	3000	0	1.45	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402105	SkillCastSpeed	0	0	perc	3000	0	1.5	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402106	SkillCastSpeed	0	0	perc	3000	0	1.55	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402107	SkillCastSpeed	0	0	perc	3000	0	1.6	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402108	SkillCastSpeed	0	0	perc	3000	0	1.65	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402109	SkillCastSpeed	0	0	perc	3000	0	1.7	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88402110	SkillCastSpeed	0	0	perc	3000	0	1.75	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex
+88406201	SkillCastSpeed	0	0	perc	3000	0	1.04	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406202	SkillCastSpeed	0	0	perc	3000	0	1.055	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406203	SkillCastSpeed	0	0	perc	3000	0	1.07	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406204	SkillCastSpeed	0	0	perc	3000	0	1.085	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406205	SkillCastSpeed	0	0	perc	3000	0	1.1	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406206	SkillCastSpeed	0	0	perc	3000	0	1.115	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406207	SkillCastSpeed	0	0	perc	3000	0	1.13	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406208	SkillCastSpeed	0	0	perc	3000	0	1.145	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406209	SkillCastSpeed	0	0	perc	3000	0	1.16	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406210	SkillCastSpeed	0	0	perc	3000	0	1.175	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406211	SkillCastSpeed	0	0	perc	3000	0	1.19	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406212	SkillCastSpeed	0	0	perc	3000	0	1.205	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406213	SkillCastSpeed	0	0	perc	3000	0	1.22	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406214	SkillCastSpeed	0	0	perc	3000	0	1.235	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
+88406215	SkillCastSpeed	0	0	perc	3000	0	1.25	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex
 88410201	DefPotion	0	0	perc	10000	0	0.97	Spirit of Iron			Damage from enemy decreases by 3% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
 88410202	DefPotion	0	0	perc	10000	0	0.94	Spirit of Iron			Damage from enemy decreases by 6% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
 88410203	DefPotion	0	0	perc	10000	0	0.91	Spirit of Iron			Damage from enemy decreases by 9% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
@@ -2989,6 +3063,21 @@
 88410208	DefPotion	0	0	perc	10000	0	0.76	Spirit of Iron			Damage from enemy decreases by 24% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
 88410209	DefPotion	0	0	perc	10000	0	0.73	Spirit of Iron			Damage from enemy decreases by 27% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
 88410210	DefPotion	0	0	perc	10000	0	0.7	Spirit of Iron			Damage from enemy decreases by 30% while casting skill. Effect ends when knocked down.	icon_ep.ep_defense_well_tex
+88426101	SkillCastSpeed	0	0	perc	3000	0	1.04	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426102	SkillCastSpeed	0	0	perc	3000	0	1.055	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426103	SkillCastSpeed	0	0	perc	3000	0	1.07	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426104	SkillCastSpeed	0	0	perc	3000	0	1.085	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426105	SkillCastSpeed	0	0	perc	3000	0	1.1	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426106	SkillCastSpeed	0	0	perc	3000	0	1.115	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426107	SkillCastSpeed	0	0	perc	3000	0	1.13	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426108	SkillCastSpeed	0	0	perc	3000	0	1.145	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426109	SkillCastSpeed	0	0	perc	3000	0	1.16	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426110	SkillCastSpeed	0	0	perc	3000	0	1.175	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426111	SkillCastSpeed	0	0	perc	3000	0	1.19	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426112	SkillCastSpeed	0	0	perc	3000	0	1.205	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426113	SkillCastSpeed	0	0	perc	3000	0	1.22	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426114	SkillCastSpeed	0	0	perc	3000	0	1.235	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
+88426115	SkillCastSpeed	0	0	perc	3000	0	1.25	Chained Speed Skating: Leaping Strike			Attack Speed increases when casting Leaping Strike	icon_ep.ep_attack_speed_tex
 88500010	HPChange	-0.005	0	perc	6000	1	-0.005	Burnt Wound			Constant damage to HP by 0.5%% (max 1000) every second.	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	0	0	perc	6000	0	0.9	Frostbite			Movement Speed decreases by  10%. If the effect stacks up 5 times, Movement Speed decreases dramatically.	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	0	0	perc	2000	0	0.75	Severe Frostbite			Movement Speed decreases by  25% due to multiple Frosbites. Effect ends when knocked down.	icon_ep.ep_debuff_frostbite_tex
@@ -3022,6 +3111,21 @@
 88509218	MPChange	0	13	abs	20000	1	13	Recharge			Constantly replenishes MP every second by 13 MP. Effect ends when attacked.	icon_ep.ep_resources_mpmore_tex
 88509219	MPChange	0	14	abs	20000	1	14	Recharge			Constantly replenishes MP every second by 14 MP. Effect ends when attacked.	icon_ep.ep_resources_mpmore_tex
 88509220	MPChange	0	15	abs	20000	1	15	Recharge			Constantly replenishes MP every second by 15 MP. Effect ends when attacked.	icon_ep.ep_resources_mpmore_tex
+88514201	SkillCastSpeed	0	0	perc	5000	0	1.08	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  8%.	icon_ep.ep_attack_speed_tex
+88514202	SkillCastSpeed	0	0	perc	5000	0	1.11	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  11%.	icon_ep.ep_attack_speed_tex
+88514203	SkillCastSpeed	0	0	perc	5000	0	1.14	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  14%.	icon_ep.ep_attack_speed_tex
+88514204	SkillCastSpeed	0	0	perc	5000	0	1.17	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  17%.	icon_ep.ep_attack_speed_tex
+88514205	SkillCastSpeed	0	0	perc	5000	0	1.2	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  20%.	icon_ep.ep_attack_speed_tex
+88514206	SkillCastSpeed	0	0	perc	5000	0	1.23	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  23%.	icon_ep.ep_attack_speed_tex
+88514207	SkillCastSpeed	0	0	perc	5000	0	1.26	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  26%.	icon_ep.ep_attack_speed_tex
+88514208	SkillCastSpeed	0	0	perc	5000	0	1.29	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  29%.	icon_ep.ep_attack_speed_tex
+88514209	SkillCastSpeed	0	0	perc	5000	0	1.32	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  32%.	icon_ep.ep_attack_speed_tex
+88514210	SkillCastSpeed	0	0	perc	5000	0	1.35	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  35%.	icon_ep.ep_attack_speed_tex
+88514211	SkillCastSpeed	0	0	perc	5000	0	1.38	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  38%.	icon_ep.ep_attack_speed_tex
+88514212	SkillCastSpeed	0	0	perc	5000	0	1.41	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  41%.	icon_ep.ep_attack_speed_tex
+88514213	SkillCastSpeed	0	0	perc	5000	0	1.44	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  44%.	icon_ep.ep_attack_speed_tex
+88514214	SkillCastSpeed	0	0	perc	5000	0	1.47	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  47%.	icon_ep.ep_attack_speed_tex
+88514215	SkillCastSpeed	0	0	perc	5000	0	1.5	Chained Speed Skating: Runes			Casting speed for Rune skills increases by  50%.	icon_ep.ep_attack_speed_tex
 88524201	MPChange	0	6	abs	15000	1	6	Charging			Constantly replenishes MP every second by 6 MP. Effect ends when attacked.	icon_ep.ep_resources_mpmore_tex
 88524202	MPChange	0	7	abs	15000	1	7	Charging			Constantly replenishes MP every second by 7 MP. Effect ends when attacked.	icon_ep.ep_resources_mpmore_tex
 88524203	MPChange	0	8	abs	15000	1	8	Charging			Constantly replenishes MP every second by 8 MP. Effect ends when attacked.	icon_ep.ep_resources_mpmore_tex
@@ -3052,6 +3156,21 @@
 88608108	Crit	0	0	abs	3000	0	9	Blinding Pummel			Crit rate increases by 9. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
 88608109	Crit	0	0	abs	3000	0	10	Blinding Pummel			Crit rate increases by 10. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
 88608110	Crit	0	0	abs	3000	0	11	Blinding Pummel			Crit rate increases by 11. Effect ends when knocked down.	icon_ep.ep_fatal_hitfinish_tex
+88614201	SkillCastSpeed	0	0	perc	5000	0	1.3	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  30%.	icon_ep.ep_attack_speed_tex
+88614202	SkillCastSpeed	0	0	perc	5000	0	1.35	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  35%.	icon_ep.ep_attack_speed_tex
+88614203	SkillCastSpeed	0	0	perc	5000	0	1.4	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  40%.	icon_ep.ep_attack_speed_tex
+88614204	SkillCastSpeed	0	0	perc	5000	0	1.45	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  45%.	icon_ep.ep_attack_speed_tex
+88614205	SkillCastSpeed	0	0	perc	5000	0	1.5	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  50%.	icon_ep.ep_attack_speed_tex
+88614206	SkillCastSpeed	0	0	perc	5000	0	1.55	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  55%.	icon_ep.ep_attack_speed_tex
+88614207	SkillCastSpeed	0	0	perc	5000	0	1.6	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  60%.	icon_ep.ep_attack_speed_tex
+88614208	SkillCastSpeed	0	0	perc	5000	0	1.65	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  65%.	icon_ep.ep_attack_speed_tex
+88614209	SkillCastSpeed	0	0	perc	5000	0	1.7	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  70%.	icon_ep.ep_attack_speed_tex
+88614210	SkillCastSpeed	0	0	perc	5000	0	1.75	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  75%.	icon_ep.ep_attack_speed_tex
+88614211	SkillCastSpeed	0	0	perc	5000	0	1.8	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  80%.	icon_ep.ep_attack_speed_tex
+88614212	SkillCastSpeed	0	0	perc	5000	0	1.85	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  85%.	icon_ep.ep_attack_speed_tex
+88614213	SkillCastSpeed	0	0	perc	5000	0	1.9	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  90%.	icon_ep.ep_attack_speed_tex
+88614214	SkillCastSpeed	0	0	perc	5000	0	1.95	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  95%.	icon_ep.ep_attack_speed_tex
+88614215	SkillCastSpeed	0	0	perc	5000	0	2	Chained Speed Skating: Traps			Casting speed for Trap skills increases by  100%.	icon_ep.ep_attack_speed_tex
 88618101	CritChance	0	0	abs	7000	0	0.07	Breaking Pummel			Crit rate increases by 0.07 when casting Breakaway Bolt.	icon_ep.ep_fatal_hitfinish_tex
 88618102	CritChance	0	0	abs	7000	0	0.09	Breaking Pummel			Crit rate increases by 0.09 when casting Breakaway Bolt.	icon_ep.ep_fatal_hitfinish_tex
 88618103	CritChance	0	0	abs	7000	0	0.11	Breaking Pummel			Crit rate increases by 0.11 when casting Breakaway Bolt.	icon_ep.ep_fatal_hitfinish_tex
@@ -3228,6 +3347,16 @@
 89016118	Power	0	0	abs	10000	0	1	Dark Force			Effect stacks up when attacking. 	icon_ep.ep_attack_strong_tex
 89016119	Power	0	0	abs	10000	0	1	Dark Force			Effect stacks up when attacking. 	icon_ep.ep_attack_strong_tex
 89016120	Power	0	0	abs	10000	0	1	Dark Force			Effect stacks up when attacking. 	icon_ep.ep_attack_strong_tex
+89020201	SkillCastSpeed	0	0	perc	5000	0	1.2	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020202	SkillCastSpeed	0	0	perc	5000	0	1.25	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020203	SkillCastSpeed	0	0	perc	5000	0	1.3	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020204	SkillCastSpeed	0	0	perc	5000	0	1.35	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020205	SkillCastSpeed	0	0	perc	5000	0	1.4	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020206	SkillCastSpeed	0	0	perc	5000	0	1.45	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020207	SkillCastSpeed	0	0	perc	5000	0	1.5	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020208	SkillCastSpeed	0	0	perc	5000	0	1.55	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020209	SkillCastSpeed	0	0	perc	5000	0	1.6	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
+89020210	SkillCastSpeed	0	0	perc	5000	0	1.65	Chained Speed Skating: Shadow Burst			Attack Speed increases when casting Shadow Burst	icon_ep.ep_attack_speed_tex
 89105101	Power	0	0	abs	5000	0	1	Reloading Scattershot			Effect stacks up when attacking. Effect ends when resisting.	icon_ep.ep_attack_strong_tex
 89105102	Power	0	0	abs	5000	0	1	Blinding Force			Effect stacks up when attacking. Effect ends when resisting.	icon_ep.ep_attack_strong_tex
 89105103	Power	0	0	abs	5000	0	1	Blinding Force			Effect stacks up when attacking. Effect ends when resisting.	icon_ep.ep_attack_strong_tex

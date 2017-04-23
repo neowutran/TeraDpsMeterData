@@ -694,6 +694,7 @@
 22010	Power	0	0	perc	10000	0	1.15	スタンドファスト(力の紋章)			力が15%上昇します。	icon_skills.defence_tex
 22030	MovSpd	0	0	setp	5000	0	0.5	レイジインダクション(怠惰の紋章)			移動速度が50%減少します。	icon_skills.provokerage_tex
 22040	AtkPotion	0	0	perc	10000	0	1.25	スタンドファスト(連闘の紋章)			連係して「シールドカウンター」使用時、スキル威力が25%増加します。	icon_skills.defence_tex
+22060	SkillCastSpeed	0	0	perc	5000	0	1.25	シールドバッシュ(連迅の紋章)			連係して「インテンスダッシュ」使用時、発動速度が25%上昇します。	icon_skills.shieldstrike_tex
 22080	MovSpdInCombat	0	0	abs	7000	0	10	チャージングランジ(活力の紋章)			戦闘中の移動速度が10上昇します。	icon_skills.advancingcharge_tex
 22090	MovSpd	0	0	setp	4000	0	0.5	リーシュ(怠惰の紋章)			移動速度が50%減少します。	icon_skills.hookthrow_tex
 22100	ASpd	0	0	perc	4000	0	0.6	リーシュ(減速の紋章)			攻撃速度が40%減少します。	icon_skills.hookthrow_tex
@@ -707,6 +708,10 @@
 23032	AtkPotion	0	0	perc	8000	0	1.25	ジョーブレイカー(連闘の紋章)			連係して「モータルスラッシュ」使用時、スキル威力が25%増加します。	
 23040	AtkPotion	0	0	perc	6000	0	1.25	反撃(連闘の紋章)			連係して「跳躍斬り」使用時、スキル威力が25%増加します。	icon_skills.risingattack_tex
 23050	Endurance	0	0	perc	10000	0	1.2	執念(保護の紋章)			耐久力が20%上昇します。	icon_skills.tenacity_tex
+23060	SkillCastSpeed	0	0	perc	10000	0	1.25	回り込み(連迅の紋章)			連係して「ホームスラスト」使用時、発動速度が25%上昇します。	icon_skills.turnaroundattack_tex
+23061	SkillCastSpeed	0	0	perc	10000	0	1.35	回り込み(連迅の紋章)			連係して「ホームスラスト」使用時、発動速度が35%上昇します。	icon_skills.turnaroundattack_tex
+23070	SkillCastSpeed	0	0	perc	5000	0	1.25	回り込み(連迅の紋章)			連係して「ノックダウンストライク」使用時、発動速度が25%上昇します。	icon_skills.turnaroundattack_tex
+23080	SkillCastSpeed	0	0	perc	5000	0	1.25	フューリーストライク(連迅の紋章)			連係して「ホイールウィンド」使用時、発動速度が25%上昇します。	icon_skills.ragingstrike_tex
 23100	ASpd	0	0	perc	5000	0	0.85	ネーブスラッシュ(減速の紋章)			攻撃速度が15%減少します。	icon_skills.veinslash_tex
 23120	AtkPotion	0	0	perc	5000	0	1.25	回避(連闘の紋章)			連係して「フューリーストライク」使用時、スキル威力が25%増加します。	icon_skills.tumbling_tex
 23130	AtkPotion	0	0	perc	5000	0	1.2	ノックダウンストライク(連闘の紋章)			連係して「ブレードビセクション」使用時、スキル威力が20%増加します。	icon_skills.handyslash_tex
@@ -724,12 +729,15 @@
 24090	MovSpdInCombat	0	0	abs	15000	0	20	フェリーレイジ(活力の紋章)			戦闘中の移動速度が20上昇します。	icon_skills.berserk_tex
 24091	MovSpdInCombat	0	0	abs	15000	0	20	アックススロー(活力の紋章)			戦闘中の移動速度が20上昇します。	icon_skills.throwaxe_tex
 24092	Endurance	0	0	abs	8000	0	21	耐久力上昇[保護の紋章]			耐久力が21上昇します。	icon_crest.crestactivedefenceup_tex
+24100	SkillCastSpeed	0	0	perc	5000	0	1.25	ホミサイドオーラ(連迅の紋章)			連係して「アースストライク」使用時、発動速度が25%上昇します。	icon_skills.murderousvent_tex
+24101	SkillCastSpeed	0	0	perc	5000	0	1.3	ホミサイドオーラ(連迅の紋章)			連係して「アースストライク」使用時、発動速度が30%上昇します。	icon_skills.murderousvent_tex
 24120	CastSpeed	0	0	perc	6000	0	1.3	跳躍斬り(連迅の紋章)			連係して「レザルストライク」使用時、チャージ速度が30%上昇します。	icon_skills.downattack_tex
 24130	CastSpeed	0	0	perc	6000	0	1.3	フェンシングカーブ(連迅の紋章)			連係して「チャージングストライク」使用時、チャージ速度が30%上昇します。	icon_skills.turnback_tex
 24140	Endurance	0	0	abs	12000	0	16	執念(保護の紋章)			耐久力が16上昇します。	icon_skills.tenacity_tex
 24150	MPChange	0	0.06	perc	5000	1	0.06	執念(精神の紋章)			1s毎に全MPの6％が回復します。	icon_skills.tenacity_tex
 24160	Crit	0	0	perc	0	0	2	跳躍斬り(必殺の紋章)			クリティカル発生が2倍上昇します。	icon_skills.downattack_tex
 24161	Crit	0	0	perc	0	0	2	アックススロー(必殺の紋章)			クリティカル発生が2倍上昇します。	icon_skills.throwaxe_tex
+24170	SkillCastSpeed	0	0	perc	5000	0	1.25	ラウンドスラッシュ(連迅の紋章)			連係して「チャージングストライク」使用時、発動速度が25%上昇します。	icon_skills.sideslash_tex
 24181	AtkPotion	0	0	perc	10000	0	1.25	ウェポンディフェンス(連闘の紋章)			連係して「アックスカウンター」使用時、スキル威力が25%上昇します。	icon_skills.weapondefence_tex
 24190	CastSpeed	0	0	perc	6000	0	1.3	モッキングシャウト(連迅の紋章)			連係して「サイクロン」使用時、チャージ速度が30%上昇します。	icon_skills.shockingshout_tex
 24200	AtkPotion	0	0	perc	8000	0	1.2	アンパークブロー(連闘の紋章)			連係して「レザルストライク」使用時、スキル威力が20%増加します。	icon_skills.vampiricstrike_tex
@@ -738,7 +746,12 @@
 25021	Endurance	0	0	abs	15000	0	16	マナバースト(保護の紋章)			耐久力が16上昇します。	icon_skills.manaburst_tex
 25030	AtkPotion	0	0	perc	5000	0	1.25	アルケインパルス(連闘の紋章)			連係して「フロストボール」使用時、スキル威力が25%増加します。	icon_skills.blastball_tex
 25050	AtkPotion	0	0	perc	10000	0	1.2	サンダーオーブ(連闘の紋章)			連係して「メテオインパクト」使用時、スキル威力が20%増加します。	icon_skills.shocktrap_tex
+25060	SkillCastSpeed	0	0	perc	10000	0	1.25	マナシズル(連迅の紋章)			連係して「チェイスフレイム」使用時、発動速度が25%上昇します。	icon_skills.manaextortion_tex
+25070	SkillCastSpeed	0	0	perc	5000	0	1.25	サンダーオーブ(連迅の紋章)			連係して「フレイムピラー」使用時、発動速度が25%上昇します。	icon_skills.shocktrap_tex
 25080	AtkPotion	0	0	perc	10000	0	1.35	ブレイジングブレス(連闘の紋章)			連係して「チェイスフレイム」使用時、スキル威力が35%増加します。	icon_skills.burningbreath_tex
+25090	SkillCastSpeed	0	0	perc	5000	0	1.4	フリーズグラウンド(連迅の紋章)			連係して「サンダーオーブ」使用時、発動速度が40%上昇します。	icon_skills.freezingtheearth_tex
+25100	SkillCastSpeed	0	0	perc	7000	0	1.25	レストレントカーズ(連迅の紋章)			連係して「メテオインパクト」使用時、発動速度が25%増加します。	icon_skills.curseofshackle_tex
+25110	SkillCastSpeed	0	0	perc	7000	0	1.4	フロストボール(連迅の紋章)			連係して「スリープウィンド」使用時、発動速度が40%上昇します。	icon_skills.c5_iceorb
 25120	MovSpd	0	0	setp	7000	0	0.5	パンブラスト(怠惰の紋章)			移動速度が50%減少します。	icon_skills.disease_tex
 25130	AtkPotion	0	0	perc	5000	0	1.2	スキル威力増加［連闘の紋章］			連係して使用するスキルの威力が、1度だけ20%増加します。	icon_crest.crestnextskillattackup_tex
 25140	CastSpeed	0	0	perc	6000	0	1.3	フリーズグラウンド(連迅の紋章)			連係して「アルケインパルス」使用時、チャージ速度が30%上昇します。	icon_skills.freezingtheearth_tex
@@ -753,6 +766,9 @@
 26030	AtkPotion	0	0	perc	7000	0	1.25	スキル威力増加［連闘の紋章］			連係して「コンボアロー」使用時、スキル威力が25%増加します。	icon_crest.crestnextskillattackup_tex
 26070	AtkPotion	0	0	perc	10000	0	1.25	エスケープアタック(連闘の紋章)			連係して「ペネトレーティングアロー」使用時、スキル威力が25%増加します。	icon_skills.escapingattack_tex
 26080	MovSpdInCombat	0	0	abs	12000	0	10	スパイダーラインアロー(活力の紋章)			戦闘中の移動速度が10上昇します。	icon_skills.spiderarrow_tex
+26100	SkillCastSpeed	0	0	perc	10000	0	1.25	アーチャープルーフ(連迅の紋章)			連係して「ポイズンアロー」使用時、発動速度が25%上昇します。	icon_skills.markingofarcher_tex
+26110	SkillCastSpeed	0	0	perc	5000	0	1.4	コンボアロー(連迅の紋章)			連係して「フェイントトラップ」使用時、発動速度が40%上昇します。	icon_skills.arrowshower_tex
+26111	SkillCastSpeed	0	0	perc	5000	0	1.5	コンボアロー(連迅の紋章)			連係して「フェイントトラップ」使用時、発動速度が50%上昇します。	icon_skills.arrowshower_tex
 26120	MovSpdInCombat	0	0	abs	8000	0	10	エスケープアタック(活力の紋章)			戦闘中の移動速度が10上昇します。	icon_skills.escapingattack_tex
 26130	AtkPotion	0	0	perc	10000	0	1.25	スキル威力増加［連闘の紋章］			連係して「エクスプロージョントラップ」使用時、スキル威力が25%増加します。	icon_crest.crestnextskillattackup_tex
 26140	HPChange	0.02	0	perc	10000	1	0.02	デッドプレイ(忍耐の紋章)			1s毎に全HPの2％が回復します。	icon_skills.feigndeath_tex
@@ -771,6 +787,10 @@
 26251	Endurance	0	0	perc	25000	0	0.9545	耐久力減少［弱化の紋章］			耐久力が4.55%減少します。	icon_crest.crestactivedefencedown_tex
 27010	MovSpd	0	0	setp	2000	0	0.6	移動速度減少［怠惰の紋章］			移動速度が40%減少します。	icon_crest.crestpassivespeeddown_tex
 27060	ASpd	0	0	perc	6000	0	0.7	クランプバレット(減速の紋章)			攻撃速度が30%減少します。	icon_skills.slowball_tex
+27070	SkillCastSpeed	0	0	perc	10000	0	1.25	マナエネルギー(連迅の紋章)			連係して「ヒールエネルギー」使用時、発動速度が25%上昇します。	icon_skills.mprefresher_tex
+27080	SkillCastSpeed	0	0	perc	10000	0	1.25	テレポート(連迅の紋章)			連係して「ヒールエネルギー」使用時、発動速度が25%上昇します。	icon_skills.shortteleport_tex
+27090	SkillCastSpeed	0	0	perc	5000	0	1.25	テレポート(連迅の紋章)			連係して「ライフエレメント」使用時、発動速度が25%上昇します。	icon_skills.shortteleport_tex
+27100	SkillCastSpeed	0	0	perc	20000	0	1.25	ヒールエネルギー(連迅の紋章)			連係して「マナエネルギー」使用時、発動速度が25%上昇します。	icon_skills.hprefresher_tex
 27110	MovSpdInCombat	0	0	abs	3000	0	50	フラッシュバレット(活力の紋章)			戦闘中の移動速度が50上昇します。	icon_skills.flashball_tex
 27120	Endurance	0	0	perc	600000	0	1.1	プロテクションエレメント(協同の紋章)			耐久力が10%上昇します。	icon_skills.summonspiritofaggro_tex
 27140	HPChange	0.2	0	perc	1000	1	0.2	ヒールエネルギー(忍耐の紋章)			全HPの20％が回復します。	icon_skills.hprefresher_tex
@@ -793,6 +813,7 @@
 29010	ASpd	0	0	perc	10000	0	1.15	連撃(迅速の紋章)			攻撃速度が15%上昇します。	icon_skills.comboattack2_tex
 29011	Crit	0	0	perc	0	0	2	クリティカル発生上昇［必殺の紋章］			クリティカル発生が2倍上昇します。	icon_crest.crestpassivecriticalup_tex
 29020	AtkPotion	0	0	perc	5000	0	1.3	デスクリーブ(連闘の紋章)			連係スキルでムーンスラッシュ使用時、スキル威力が30%増加します。	icon_skills.chainsmash_tex
+29030	SkillCastSpeed	0	0	perc	5000	0	1.25	ムーンスラッシュ(連迅の紋章)			連係スキルでデスクリーブ使用時、発動速度が25%上昇します。	icon_skills.chainsuperblow_tex
 29040	AtkPotion	0	0	perc	5000	0	1.2	サタンフレイル(連闘の紋章)			連係スキルでデスクリーブ使用時、スキル威力が20%増加します。	icon_skills.chainbrandish_tex
 29041	AtkPotion	0	0	perc	5000	0	1.3	サタンフレイル(連闘の紋章)			連係スキルでムーンスラッシュ使用時、スキル威力が30%増加します。	icon_skills.chainbrandish_tex
 29050	ASpd	0	0	perc	7000	0	0.9	スピニングエッジ(減速の紋章)			重複する度に、攻撃速度が10%％ずつ減少します。	icon_skills.chainblade_tex
@@ -820,8 +841,10 @@
 32005	AtkPotion	0	0	perc	3000	0	1.1	絶影(連闘の紋章)			スキル威力が10%増加します。	icon_skills.c12_dashattack
 32020	AtkPotion	0	0	perc	5000	0	1.25	三連殺(連闘の紋章)			連係して「天地落とし」使用時、スキル威力が25%増加します。	icon_skills.c12_airstepstrike
 32024	AtkPotion	0	0	perc	5000	0	1.25	二段斬り(連闘の紋章)			連係して「三連殺」使用時、スキル威力が25%増加します。	icon_skills.c12_twinslash
+32033	SkillCastSpeed	0	0	perc	10000	0	1.2	発動速度上昇［連迅の紋章］			連係して「爆炎風車」および「火炎連弾」使用時、発動速度が20%上昇します。	icon_crest.crestnextskillattackspeedup_tex
 32044	AtkPotion	0	0	perc	5000	0	1.3	三連殺(連闘の紋章)			連係して「天地落とし」使用時、スキル威力が30%増加します。	icon_skills.c12_airstepstrike
 32047	AtkPotion	0	0	perc	5000	0	1.3	二段斬り(連闘の紋章)			連係して「三連殺」使用時、スキル威力が30%増加します。	icon_skills.c12_twinslash
+32058	SkillCastSpeed	0	0	perc	10000	0	1.3	発動速度上昇［連迅の紋章］			連係して「爆炎風車」および「火炎連弾」使用時、発動速度が30%上昇します。	icon_crest.crestnextskillattackspeedup_tex
 32060	ASpd	0	0	perc	5000	0	1.1	連撃(迅速の紋章)			攻撃速度が10%上昇します。	icon_skills.c12_meleecombo
 33010	ASpd	0	0	perc	10000	0	1.15	連撃(迅速の紋章)			攻撃速度が15%上昇します。	icon_skills.combo_tex
 33020	AtkPotion	0	0	perc	10000	0	1.25	フリンチストライク(連闘の紋章)			連係して「エクステンドスラッシュ」使用時、スキル威力が25%増加します。	icon_skills.fatalshot_tex
@@ -1035,6 +1058,8 @@
 101400	MovSpd	0	0	setp	3000	0	0.5	バイトスプリット			移動速度が50%減少します。	icon_skills.heavybite_tex
 101500	DefPotion	0	0	perc	15000	0	1.25	シュレッド			「ゲイルレイザー」命中時、スキル威力が25%増加します。	icon_skills.rupture_tex
 101600	Endurance	0	0	perc	15000	0	1	シャドウチェンジ			維持時間は「シャドウツイン」と同じです。	icon_skills.voidtrap_tex
+101700	SkillCastSpeed	0	0	perc	10000	0	1.2	連撃			連撃が14回成功時、連撃の速度が上昇します。	icon_skills.comboattack_tex
+101750	SkillCastSpeed	0	0	perc	10000	0	1.2	連撃			連撃の速度が20%上昇します。	icon_skills.comboattack_tex
 102500	Block	0	0	perc	180000	0	0	レイジインダクション			効果持続中は「ディフェンススタンス」、「ブレードスタンス」を使用できません。	icon_skills.provokerage_tex
 200230	Power	0	0	perc	0	0	1.3	信頼の力 I			耐久力が91%、力が30%上昇します。有効範囲は使用者の周囲約40mです。	icon_status.plusedefence_tex
 200230	Endurance	0	0	perc	0	0	1.91	信頼の力 I			耐久力が91%、力が30%上昇します。有効範囲は使用者の周囲約40mです。	icon_status.plusedefence_tex
@@ -1057,6 +1082,8 @@
 201104	MovSpd	0	0	setp	7000	0	0.66	インパクトスラッグ V			移動速度が34%減少します。	icon_skills.shockblow_tex
 201200	MovSpd	0	0	setp	5000	0	0.85	メナスウェーブ I			移動速度と攻撃速度が各15%ずつ減少します。	icon_skills.menacewave_tex
 201200	ASpd	0	0	perc	5000	0	0.85	メナスウェーブ I			移動速度と攻撃速度が各15%ずつ減少します。	icon_skills.menacewave_tex
+201500	SkillCastSpeed	0	0	perc	10000	0	1.2	連撃			連撃が8回成功時、シールドバレッジの発動速度が上昇します。	icon_skills.comboattack_tex
+201550	SkillCastSpeed	0	0	perc	10000	0	1.2	連撃			次の攻撃時、シールドバレッジの発動速度が上昇します。	icon_skills.comboattack_tex
 201701	Power	0	0	abs	50000	0	4	スタンドファスト I			敵対値が4％、力 4、クリティカル発生が6上昇します。最大10回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex
 201701	Crit	0	0	abs	50000	0	6	スタンドファスト I			敵対値が4％、力 4、クリティカル発生が6上昇します。最大10回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex
 300200	MovSpd	0	0	setp	5000	0	0	回り込み			効果持続中は、その場から動けません。ダウンすると効果は即解除されます。	icon_skills.turnaroundattack_tex
@@ -1079,6 +1106,8 @@
 300900	CDR	0	0	swch	11000	0	1.5	ネーブスラッシュ			効果持続中は、全てのスキルのクールタイムが50%延長されます。	icon_skills.veinslash_tex
 300901	CDR	0	0	swch	11000	0	1.53	ネーブスラッシュ II			効果持続中は、全てのスキルのクールタイムが53%延長されます。	icon_skills.veinslash_tex
 300902	CDR	0	0	swch	11000	0	1.55	ネーブスラッシュ III			効果持続中は、全てのスキルのクールタイムが55%延長されます。	icon_skills.veinslash_tex
+301100	SkillCastSpeed	0	0	perc	10000	0	1.2	連撃			連撃が4回成功時、ホイールウィンドの発動速度が上昇します。	icon_skills.comboattack_tex
+301150	SkillCastSpeed	0	0	perc	10000	0	1.2	連撃			次の攻撃時、ホイールウィンドの発動速度が上昇します。	icon_skills.comboattack_tex
 400100	Power	0	0	perc	22500	0	1.2	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
 400100	Endurance	0	0	perc	22500	0	0.9	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
 400100	Crit	0	0	perc	22500	0	1.1	フェリーレイジ			力が20%、クリティカル発生が10%上昇し、耐久力が10%減少します。	icon_skills.berserk_tex
@@ -2853,6 +2882,16 @@
 88202108	Crit	0	0	abs	3000	0	19	復讐の力			クリティカル発生が19増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
 88202109	Crit	0	0	abs	3000	0	21	復讐の力			クリティカル発生が21増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
 88202110	Crit	0	0	abs	3000	0	23	復讐の力			クリティカル発生が23増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
+88202301	SkillCastSpeed	0	0	perc	3000	0	1.3	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202302	SkillCastSpeed	0	0	perc	3000	0	1.35	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202303	SkillCastSpeed	0	0	perc	3000	0	1.4	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202304	SkillCastSpeed	0	0	perc	3000	0	1.45	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202305	SkillCastSpeed	0	0	perc	3000	0	1.5	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202306	SkillCastSpeed	0	0	perc	3000	0	1.55	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202307	SkillCastSpeed	0	0	perc	3000	0	1.6	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202308	SkillCastSpeed	0	0	perc	3000	0	1.65	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202309	SkillCastSpeed	0	0	perc	3000	0	1.7	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88202310	SkillCastSpeed	0	0	perc	3000	0	1.75	連迅「シールドカウンター」			「シールドカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
 88212101	Endurance	0	0	perc	3000	0	1	レイジインダクション			スキルの敵対値増加	icon_ep.ep_special_chaff_tex
 88212102	Endurance	0	0	perc	3500	0	1	レイジインダクション			スキルの敵対値増加	icon_ep.ep_special_chaff_tex
 88212103	Endurance	0	0	perc	4000	0	1	レイジインダクション			スキルの敵対値増加	icon_ep.ep_special_chaff_tex
@@ -2938,6 +2977,16 @@
 88302113	CritChance	0	0	abs	5000	0	0.29	「跳躍斬り」クリティカル発生率増加			「跳躍斬り」使用時、クリティカル発生率が29％増加	icon_ep.ep_fatal_hitfinish_tex
 88302114	CritChance	0	0	abs	5000	0	0.31	「跳躍斬り」クリティカル発生率増加			「跳躍斬り」使用時、クリティカル発生率が31％増加	icon_ep.ep_fatal_hitfinish_tex
 88302115	CritChance	0	0	abs	5000	0	0.33	「跳躍斬り」クリティカル発生率増加			「跳躍斬り」使用時、クリティカル発生率が33％増加	icon_ep.ep_fatal_hitfinish_tex
+88312301	SkillCastSpeed	0	0	perc	5000	0	1.15	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が15%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312302	SkillCastSpeed	0	0	perc	5000	0	1.17	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が17%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312303	SkillCastSpeed	0	0	perc	5000	0	1.19	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が19%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312304	SkillCastSpeed	0	0	perc	5000	0	1.21	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が21%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312305	SkillCastSpeed	0	0	perc	5000	0	1.23	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が23%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312306	SkillCastSpeed	0	0	perc	5000	0	1.25	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が25%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312307	SkillCastSpeed	0	0	perc	5000	0	1.27	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が27%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312308	SkillCastSpeed	0	0	perc	5000	0	1.29	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が29%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312309	SkillCastSpeed	0	0	perc	5000	0	1.31	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が31%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
+88312310	SkillCastSpeed	0	0	perc	5000	0	1.33	「ホームスラスト」攻撃速度増加			「ホームスラスト」使用時、攻撃速度が33%増加。ダウン/硬直時に解除	icon_ep.ep_cooltime_hit_tex
 88316101	Crit	0	0	abs	3000	0	5	危機の猛撃			クリティカル発生が5増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
 88316102	Crit	0	0	abs	3000	0	7	危機の猛撃			クリティカル発生が7増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
 88316103	Crit	0	0	abs	3000	0	9	危機の猛撃			クリティカル発生が9増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
@@ -2968,6 +3017,31 @@
 88325118	Power	0	0	abs	5000	0	1	気迫の怪力			「真・ブレードビセクション」命中時、重複	icon_ep.ep_attack_strong_tex
 88325119	Power	0	0	abs	5000	0	1	気迫の怪力			「真・ブレードビセクション」命中時、重複	icon_ep.ep_attack_strong_tex
 88325120	Power	0	0	abs	5000	0	1	気迫の怪力			「真・ブレードビセクション」命中時、重複	icon_ep.ep_attack_strong_tex
+88402101	SkillCastSpeed	0	0	perc	3000	0	1.3	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402102	SkillCastSpeed	0	0	perc	3000	0	1.35	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402103	SkillCastSpeed	0	0	perc	3000	0	1.4	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402104	SkillCastSpeed	0	0	perc	3000	0	1.45	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402105	SkillCastSpeed	0	0	perc	3000	0	1.5	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402106	SkillCastSpeed	0	0	perc	3000	0	1.55	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402107	SkillCastSpeed	0	0	perc	3000	0	1.6	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402108	SkillCastSpeed	0	0	perc	3000	0	1.65	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402109	SkillCastSpeed	0	0	perc	3000	0	1.7	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88402110	SkillCastSpeed	0	0	perc	3000	0	1.75	連迅反撃			「アックスカウンター」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88406201	SkillCastSpeed	0	0	perc	3000	0	1.04	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406202	SkillCastSpeed	0	0	perc	3000	0	1.055	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406203	SkillCastSpeed	0	0	perc	3000	0	1.07	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406204	SkillCastSpeed	0	0	perc	3000	0	1.085	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406205	SkillCastSpeed	0	0	perc	3000	0	1.1	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406206	SkillCastSpeed	0	0	perc	3000	0	1.115	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406207	SkillCastSpeed	0	0	perc	3000	0	1.13	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406208	SkillCastSpeed	0	0	perc	3000	0	1.145	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406209	SkillCastSpeed	0	0	perc	3000	0	1.16	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406210	SkillCastSpeed	0	0	perc	3000	0	1.175	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406211	SkillCastSpeed	0	0	perc	3000	0	1.19	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406212	SkillCastSpeed	0	0	perc	3000	0	1.205	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406213	SkillCastSpeed	0	0	perc	3000	0	1.22	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406214	SkillCastSpeed	0	0	perc	3000	0	1.235	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
+88406215	SkillCastSpeed	0	0	perc	3000	0	1.25	連迅「アースストライク」			「アースストライク」使用時、攻撃速度上昇	icon_ep.ep_attack_speed_tex
 88410201	DefPotion	0	0	perc	10000	0	0.97	鉄壁			スキル使用中、受けるダメージが3%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
 88410202	DefPotion	0	0	perc	10000	0	0.94	鉄壁			スキル使用中、受けるダメージが6%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
 88410203	DefPotion	0	0	perc	10000	0	0.91	鉄壁			スキル使用中、受けるダメージが9%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
@@ -2978,6 +3052,21 @@
 88410208	DefPotion	0	0	perc	10000	0	0.76	鉄壁			スキル使用中、受けるダメージが24%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
 88410209	DefPotion	0	0	perc	10000	0	0.73	鉄壁			スキル使用中、受けるダメージが27%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
 88410210	DefPotion	0	0	perc	10000	0	0.7	鉄壁			スキル使用中、受けるダメージが30%減少。ダウン時に解除	icon_ep.ep_defense_well_tex
+88426101	SkillCastSpeed	0	0	perc	3000	0	1.04	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426102	SkillCastSpeed	0	0	perc	3000	0	1.055	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426103	SkillCastSpeed	0	0	perc	3000	0	1.07	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426104	SkillCastSpeed	0	0	perc	3000	0	1.085	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426105	SkillCastSpeed	0	0	perc	3000	0	1.1	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426106	SkillCastSpeed	0	0	perc	3000	0	1.115	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426107	SkillCastSpeed	0	0	perc	3000	0	1.13	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426108	SkillCastSpeed	0	0	perc	3000	0	1.145	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426109	SkillCastSpeed	0	0	perc	3000	0	1.16	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426110	SkillCastSpeed	0	0	perc	3000	0	1.175	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426111	SkillCastSpeed	0	0	perc	3000	0	1.19	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426112	SkillCastSpeed	0	0	perc	3000	0	1.205	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426113	SkillCastSpeed	0	0	perc	3000	0	1.22	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426114	SkillCastSpeed	0	0	perc	3000	0	1.235	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+88426115	SkillCastSpeed	0	0	perc	3000	0	1.25	連迅「跳躍斬り」			「跳躍斬り」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
 88500010	HPChange	-0.005	0	perc	6000	1	-0.005	火傷			一秒毎にHPの0.5％（最大1000）が減少	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	0	0	perc	6000	0	0.9	凍傷			移動速度が10%減少。5回重複すると凍結し、移動速度が大幅に減少します。	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	0	0	perc	2000	0	0.75	深刻な凍傷			凍結が重複し、移動速度が25%減少。ダウン時に解除されます。	icon_ep.ep_debuff_frostbite_tex
@@ -3011,6 +3100,21 @@
 88509218	MPChange	0	13	abs	20000	1	13	チャージ			秒あたり、13 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
 88509219	MPChange	0	14	abs	20000	1	14	チャージ			秒あたり、14 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
 88509220	MPChange	0	15	abs	20000	1	15	チャージ			秒あたり、15 MP持続回復。ダメージ時解除	icon_ep.ep_resources_mpmore_tex
+88514201	SkillCastSpeed	0	0	perc	5000	0	1.08	連迅「オーブ」			オーブスキルの発動速度が8%上昇	icon_ep.ep_attack_speed_tex
+88514202	SkillCastSpeed	0	0	perc	5000	0	1.11	連迅「オーブ」			オーブスキルの発動速度が11%上昇	icon_ep.ep_attack_speed_tex
+88514203	SkillCastSpeed	0	0	perc	5000	0	1.14	連迅「オーブ」			オーブスキルの発動速度が14%上昇	icon_ep.ep_attack_speed_tex
+88514204	SkillCastSpeed	0	0	perc	5000	0	1.17	連迅「オーブ」			オーブスキルの発動速度が17%上昇	icon_ep.ep_attack_speed_tex
+88514205	SkillCastSpeed	0	0	perc	5000	0	1.2	連迅「オーブ」			オーブスキルの発動速度が20%上昇	icon_ep.ep_attack_speed_tex
+88514206	SkillCastSpeed	0	0	perc	5000	0	1.23	連迅「オーブ」			オーブスキルの発動速度が23%上昇	icon_ep.ep_attack_speed_tex
+88514207	SkillCastSpeed	0	0	perc	5000	0	1.26	連迅「オーブ」			オーブスキルの発動速度が26%上昇	icon_ep.ep_attack_speed_tex
+88514208	SkillCastSpeed	0	0	perc	5000	0	1.29	連迅「オーブ」			オーブスキルの発動速度が29%上昇	icon_ep.ep_attack_speed_tex
+88514209	SkillCastSpeed	0	0	perc	5000	0	1.32	連迅「オーブ」			オーブスキルの発動速度が32%上昇	icon_ep.ep_attack_speed_tex
+88514210	SkillCastSpeed	0	0	perc	5000	0	1.35	連迅「オーブ」			オーブスキルの発動速度が35%上昇	icon_ep.ep_attack_speed_tex
+88514211	SkillCastSpeed	0	0	perc	5000	0	1.38	連迅「オーブ」			オーブスキルの発動速度が38%上昇	icon_ep.ep_attack_speed_tex
+88514212	SkillCastSpeed	0	0	perc	5000	0	1.41	連迅「オーブ」			オーブスキルの発動速度が41%上昇	icon_ep.ep_attack_speed_tex
+88514213	SkillCastSpeed	0	0	perc	5000	0	1.44	連迅「オーブ」			オーブスキルの発動速度が44%上昇	icon_ep.ep_attack_speed_tex
+88514214	SkillCastSpeed	0	0	perc	5000	0	1.47	連迅「オーブ」			オーブスキルの発動速度が47%上昇	icon_ep.ep_attack_speed_tex
+88514215	SkillCastSpeed	0	0	perc	5000	0	1.5	連迅「オーブ」			オーブスキルの発動速度が50%上昇	icon_ep.ep_attack_speed_tex
 88524201	MPChange	0	6	abs	15000	1	6	チャージ			1秒毎にMPが6回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
 88524202	MPChange	0	7	abs	15000	1	7	チャージ			1秒毎にMPが7回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
 88524203	MPChange	0	8	abs	15000	1	8	チャージ			1秒毎にMPが8回復。攻撃を受けると解除	icon_ep.ep_resources_mpmore_tex
@@ -3041,6 +3145,21 @@
 88608108	Crit	0	0	abs	3000	0	9	速射の猛撃			クリティカル発生が9増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
 88608109	Crit	0	0	abs	3000	0	10	速射の猛撃			クリティカル発生が10増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
 88608110	Crit	0	0	abs	3000	0	11	速射の猛撃			クリティカル発生が11増加。ダウン時に解除。	icon_ep.ep_fatal_hitfinish_tex
+88614201	SkillCastSpeed	0	0	perc	5000	0	1.3	連迅連迅「トラップ」			トラップスキルの発動速度が30%上昇	icon_ep.ep_attack_speed_tex
+88614202	SkillCastSpeed	0	0	perc	5000	0	1.35	連迅連迅「トラップ」			トラップスキルの発動速度が35%上昇	icon_ep.ep_attack_speed_tex
+88614203	SkillCastSpeed	0	0	perc	5000	0	1.4	連迅連迅「トラップ」			トラップスキルの発動速度が40%上昇	icon_ep.ep_attack_speed_tex
+88614204	SkillCastSpeed	0	0	perc	5000	0	1.45	連迅連迅「トラップ」			トラップスキルの発動速度が45%上昇	icon_ep.ep_attack_speed_tex
+88614205	SkillCastSpeed	0	0	perc	5000	0	1.5	連迅連迅「トラップ」			トラップスキルの発動速度が50%上昇	icon_ep.ep_attack_speed_tex
+88614206	SkillCastSpeed	0	0	perc	5000	0	1.55	連迅連迅「トラップ」			トラップスキルの発動速度が55%上昇	icon_ep.ep_attack_speed_tex
+88614207	SkillCastSpeed	0	0	perc	5000	0	1.6	連迅連迅「トラップ」			トラップスキルの発動速度が60%上昇	icon_ep.ep_attack_speed_tex
+88614208	SkillCastSpeed	0	0	perc	5000	0	1.65	連迅連迅「トラップ」			トラップスキルの発動速度が65%上昇	icon_ep.ep_attack_speed_tex
+88614209	SkillCastSpeed	0	0	perc	5000	0	1.7	連迅連迅「トラップ」			トラップスキルの発動速度が70%上昇	icon_ep.ep_attack_speed_tex
+88614210	SkillCastSpeed	0	0	perc	5000	0	1.75	連迅連迅「トラップ」			トラップスキルの発動速度が75%上昇	icon_ep.ep_attack_speed_tex
+88614211	SkillCastSpeed	0	0	perc	5000	0	1.8	連迅連迅「トラップ」			トラップスキルの発動速度が80%上昇	icon_ep.ep_attack_speed_tex
+88614212	SkillCastSpeed	0	0	perc	5000	0	1.85	連迅連迅「トラップ」			トラップスキルの発動速度が85%上昇	icon_ep.ep_attack_speed_tex
+88614213	SkillCastSpeed	0	0	perc	5000	0	1.9	連迅連迅「トラップ」			トラップスキルの発動速度が90%上昇	icon_ep.ep_attack_speed_tex
+88614214	SkillCastSpeed	0	0	perc	5000	0	1.95	連迅連迅「トラップ」			トラップスキルの発動速度が95%上昇	icon_ep.ep_attack_speed_tex
+88614215	SkillCastSpeed	0	0	perc	5000	0	2	連迅連迅「トラップ」			トラップスキルの発動速度が100%上昇	icon_ep.ep_attack_speed_tex
 88618101	CritChance	0	0	abs	7000	0	0.07	「エスケープアタック」猛撃			「エスケープアタック」使用時、クリティカル発生率が0.07上昇	icon_ep.ep_fatal_hitfinish_tex
 88618102	CritChance	0	0	abs	7000	0	0.09	「エスケープアタック」猛撃			「エスケープアタック」使用時、クリティカル発生率が0.09上昇	icon_ep.ep_fatal_hitfinish_tex
 88618103	CritChance	0	0	abs	7000	0	0.11	「エスケープアタック」猛撃			「エスケープアタック」使用時、クリティカル発生率が0.11上昇	icon_ep.ep_fatal_hitfinish_tex
@@ -3217,6 +3336,16 @@
 89016118	Power	0	0	abs	10000	0	1	闇の怪力			打撃時に重複	icon_ep.ep_attack_strong_tex
 89016119	Power	0	0	abs	10000	0	1	闇の怪力			打撃時に重複	icon_ep.ep_attack_strong_tex
 89016120	Power	0	0	abs	10000	0	1	闇の怪力			打撃時に重複	icon_ep.ep_attack_strong_tex
+89020201	SkillCastSpeed	0	0	perc	5000	0	1.2	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020202	SkillCastSpeed	0	0	perc	5000	0	1.25	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020203	SkillCastSpeed	0	0	perc	5000	0	1.3	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020204	SkillCastSpeed	0	0	perc	5000	0	1.35	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020205	SkillCastSpeed	0	0	perc	5000	0	1.4	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020206	SkillCastSpeed	0	0	perc	5000	0	1.45	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020207	SkillCastSpeed	0	0	perc	5000	0	1.5	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020208	SkillCastSpeed	0	0	perc	5000	0	1.55	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020209	SkillCastSpeed	0	0	perc	5000	0	1.6	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
+89020210	SkillCastSpeed	0	0	perc	5000	0	1.65	連迅「ダークエクスプロージョン」			「ダークエクスプロージョン」使用時、攻撃速度が増加	icon_ep.ep_attack_speed_tex
 89105101	Power	0	0	abs	5000	0	1	「クイックフィリング」怪力			打撃時に重複。攻撃を受けると解除。	icon_ep.ep_attack_strong_tex
 89105102	Power	0	0	abs	5000	0	1	「クイックフィリング」怪力			打撃時に重複。攻撃を受けると解除。	icon_ep.ep_attack_strong_tex
 89105103	Power	0	0	abs	5000	0	1	「クイックフィリング」怪力			打撃時に重複。攻撃を受けると解除。	icon_ep.ep_attack_strong_tex
