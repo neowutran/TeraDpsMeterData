@@ -32,6 +32,7 @@
 602	ASpd	0	0	abs	0	0	6	インサニティーオーラ II			狂気の精霊の気により、力が 25 増加し、攻撃速度も 6 上昇します。 使用者が周囲30m範囲内にいる場合のみ効果を受けることができます。	icon_skills.rage_tex	Buff
 603	Power	0	0	abs	0	0	40	インサニティーオーラ III			狂気の精霊の気により、力が 40 増加し、攻撃速度も 6 上昇します。 使用者が周囲30m範囲内にいる場合のみ効果を受けることができます。	icon_skills.rage_tex	Buff
 603	ASpd	0	0	abs	0	0	6	インサニティーオーラ III			狂気の精霊の気により、力が 40 増加し、攻撃速度も 6 上昇します。 使用者が周囲30m範囲内にいる場合のみ効果を受けることができます。	icon_skills.rage_tex	Buff
+901	Endurance	0	0	perc	20000	0	1	フラッシュバレット			閃光により気絶しました。	icon_skills.flashball_tex	Buff
 902	Noctenium	0	0	swch	0	0	1	ノクタニウム強化弾	1300	ノクタニウム強化弾	ノクタニウム強化弾を使用して、スキル効果を増大させます。	icon_items.union_supplies5_tex	Buff
 903	Power	0	0	abs	30000	0	15	殺意			殺意により、力が15、攻撃速度が8%、クリティカル率が4%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex	Buff
 903	MovSpd	0	0	perc	30000	0	1.04	殺意			殺意により、力が15、攻撃速度が8%、クリティカル率が4%、移動速度が4%上昇します。	icon_skills.battlefield_high_ranking_tex	Buff
@@ -856,14 +857,14 @@
 33170	HPChange	0.03	0	perc	12000	1	0.03	守護光玉(忍耐の紋章)			1s毎に全HPの2％が回復します。	icon_skills.moongracebuff_tex	Buff
 33200	AtkPotion	0	0	perc	5000	0	1.3	回り込み(闘志の紋章)			次に使用するスキルの威力が30％増加します。	icon_skills.mooncatch_tex	Buff
 33210	AtkPotion	0	0	perc	5000	0	1.25	月光陣(連闘の紋章)			連係して「月鳴り」使用時、スキル威力が25%上昇します。	icon_skills.moongravity_tex	Buff
-46705	Endurance	0	0	perc	60000	0	0.95	ディザスター			酸により耐久力が減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex	Debuff
+46705	Endurance	0	0	perc	60000	0	0.9	ディザスター			酸により耐久力が減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex	Debuff
 46706	Endurance	0	0	perc	60000	0	0.85	カタストロフィ			酸により耐久力が大幅に減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex	Debuff
 46750	Power	0	0	perc	180000	0	1.2	燃え上がる怒り			燃え上がる怒りによって、力が20%、防御力が20%上昇します。	icon_status.archerspirit_tex	Buff
 46750	Endurance	0	0	perc	180000	0	1.2	燃え上がる怒り			燃え上がる怒りによって、力が20%、防御力が20%上昇します。	icon_status.archerspirit_tex	Buff
 46751	Endurance	0	0	perc	20000	0	1.2	堅鎧			防御力が20%上昇します。	icon_status.balanceup_tex	Buff
 46753	Endurance	0	0	perc	20000	0	1.2	咆哮			持続時間の間、咆哮が更に重複すると、「堅硬な鎧｣の効果が適用されます｡	icon_status.angerwarrior_tex	Buff
 46755	MovSpd	0	0	perc	15000	0	2	執着			お互いの切ない思いが増幅し、障害ステータス、ダウン、硬直、スタン状態になりません。	icon_skills.recallfriend_tex	Buff
-46756	HPChange	-5000	0	abs	30000	2	-5000	排水			汚水により、2秒毎にHPが5,000減少します。	icon_status.purifydagon_tex	DOT
+46756	HPChange	-15000	0	abs	30000	2	-15000	排水			汚水により、2秒毎にHPが15,000減少します。	icon_status.purifydagon_tex	DOT
 46761	Power	0	0	perc	30000	0	0.5	汚染された排水			体に漂う不思議な気により力が入りません。力が50%、攻撃速度が70%減少します。	icon_items.q_greenmucus_tex	Stun
 46761	ASpd	0	0	perc	30000	0	0.3	汚染された排水			体に漂う不思議な気により力が入りません。力が50%、攻撃速度が70%減少します。	icon_items.q_greenmucus_tex	Stun
 46762	MovSpdInCombat	0	0	abs	30000	0	40	正体不明	46701	正体不明の玉	全ての障害ステータスを無視し、移動速度が上昇しますが、攻撃力は大幅に減少します。	icon_status.confusestatusnpc_tex	Buff
@@ -893,7 +894,7 @@
 60008	HPChange	-227	0	abs	5000	1	-227	魔獣の呪い：猛毒			強力な毒に侵されました。HPが1s毎に-227ずつ減少します。	icon_status.poisonstatus_tex	DOT
 60009	MovSpd	0	0	perc	5000	0	0.8	魔獣の呪い：雷			雷の衝撃により、移動速度が20%減少し、1毎にHPが-882減少します。	icon_status.minusmove_tex	DOT
 60009	HPChange	-882	0	abs	5000	1	-882	魔獣の呪い：雷			雷の衝撃により、移動速度が20%減少し、1毎にHPが-882減少します。	icon_status.minusmove_tex	DOT
-60010	Endurance	0	0	perc	20000	0	0.9	魔獣の呪い：衝撃			強力な衝撃により防御力が10%減少します。	icon_skills.armorbreak_tex	Debuff
+60010	Endurance	0	0	perc	20000	0	0.93	魔獣の呪い：衝撃			強力な衝撃により防御力が7%減少します。	icon_skills.armorbreak_tex	Debuff
 60011	HPChange	-351	0	abs	5000	1	-351	魔獣の呪い：棘			鋭利な鎧によって出血しました。HPが1s毎に-351ずつ減少します。	icon_status.minuscriticalresist_tex	DOT
 60012	Endurance	0	0	perc	60000	0	1.1	精霊の祝福：生存			祝福により耐久力が10%上昇します。	icon_status.plusedefence_tex	Buff
 60013	HPChange	0.03	0	perc	10000	1	0.03	精霊の祝福：保護			祝福により1s毎に全HPの3％が回復します。	icon_items.potion1_tex	Buff
@@ -962,7 +963,7 @@
 70459	ASpd	0	0	perc	600000	0	1.01	あがき			グリーンデラが空腹に耐えきれずあがきます。あがく度に攻撃速度が1%増加し、この効果は解除できません。	icon_status.plusattack_tex	Debuff
 70461	MovSpd	0	0	setp	7000	0	0.8	感電			感電し、移動速度が20%減少します。	icon_status.plusfocus_tex	Debuff
 70463	HPChange	-0.03	0	perc	1000	1	-0.03	猛毒			致命的な毒に侵され全体HP対比3%に達するHPが持続的に減少します。	icon_status.poisonstatus_tex	DOT
-76756	HPChange	-5000	0	abs	30000	2	-5000	排水			汚水により、2秒毎にHPが5,000減少します。	icon_status.purifydagon_tex	DOT
+76756	HPChange	-7000	0	abs	30000	2	-7000	排水			汚水により、2秒毎にHPが7,000減少します。	icon_status.purifydagon_tex	DOT
 76901	Power	0	0	perc	0	0	5	凶暴化警告			持続時間が終了すると、凶暴化します。	icon_status.darkriftwill_tex	Buff
 76902	Power	0	0	perc	0	0	5	凶暴化			凶暴化し何人たりとも、止めることはできません。	icon_status.darkriftarearage_tex	Buff
 76902	ASpd	0	0	perc	0	0	2	凶暴化			凶暴化し何人たりとも、止めることはできません。	icon_status.darkriftarearage_tex	Buff
@@ -1517,7 +1518,7 @@
 700602	MPChange	0	-30	abs	0	2	-30	レイジオーラ III			使用者とパーティーメンバーに「インサニティーオーラ」と「レイジオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.criticalupaura_tex	Buff
 700603	MPChange	0	-30	abs	0	2	-30	レイジオーラ IV			使用者とパーティーメンバーに「インサニティーオーラ」と「レイジオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.criticalupaura_tex	Buff
 700630	Crit	0	0	perc	0	0	2	レイジオーラ I			怒りの精霊の影響で、クリティカル発生が2倍上昇します。有効範囲は周囲約30mです。	icon_status.plusecritical_tex	Buff
-700631	Crit	0	0	perc	0	0	2.1	レイジオーラ II			怒りの精霊の影響で、クリティカル発生が2.1倍上昇します。有効範囲は周囲約30mです。	icon_status.plusecritical_tex	Buff
+700631	Crit	0	0	perc	0	0	2.2	レイジオーラ II			怒りの精霊の影響で、クリティカル発生が2.2倍増加します。有効範囲は周囲約30mです。	icon_status.plusecritical_tex	Buff
 700700	MPChange	0	-30	abs	0	2	-30	ヘイストオーラ			使用者とパーティーメンバーに「ヘイストオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.speedupaura_tex	Buff
 700701	MPChange	0	-30	abs	0	2	-30	ヘイストオーラ II			使用者とパーティーメンバーに「ヘイストオーラ」の効果を与えます。2毎にMPが-30減少します。有効範囲は周囲約30mです。	icon_skills.speedupaura_tex	Buff
 700730	MovSpd	0	0	perc	0	0	1.1	ヘイストオーラ I			移動速度が10%上昇します。有効範囲は周囲約30mです。	icon_status.plusmove_tex	Buff
@@ -1556,9 +1557,13 @@
 701010	HPChange	614	0	abs	10000	2	614	精霊の加護 XI			2s毎にHPが614回復します。	icon_skills.summonspiritofheal_tex	Buff
 701011	HPChange	769	0	abs	10000	2	769	精霊の加護 XII			2s毎にHPが769回復します。	icon_skills.summonspiritofheal_tex	Buff
 701012	HPChange	914	0	abs	10000	2	914	精霊の加護 VIII			2s毎にHPが914回復します。	icon_skills.summonspiritofheal_tex	Buff
+701100	Endurance	0	0	perc	20000	0	1	タッチスランバー I			深い眠りにつきました。ダメージを受けるとすぐに目覚めます。	icon_skills.shackleofquicksand_tex	Buff
+701101	Endurance	0	0	perc	20000	0	1	タッチスランバー			深い眠りにつきました。ダメージを受けるとすぐに目覚めます。	icon_skills.shackleofquicksand_tex	Buff
 701200	CDR	0	0	swch	6000	0	1.2	ラジネスチャーム I			効果持続中は、全てのスキルのクールタイムが20%延長されます。	icon_skills.spiritoflassitude_tex	DOT
 701201	CDR	0	0	swch	8000	0	1.2	ラジネスチャーム			効果持続中は、全てのスキルのクールタイムが20%延長されます。	icon_skills.spiritoflassitude_tex	DOT
 701202	CDR	0	0	swch	10000	0	1.2	ラジネスチャーム III			効果持続中は、全てのスキルのクールタイムが20%延長されます。	icon_skills.spiritoflassitude_tex	DOT
+701300	Endurance	0	0	perc	20000	0	1	カオスチャーム I			恐怖に慄き、逃げています！　対象がモンスターの場合、攻撃によってダウンすると恐怖効果は直ちに解除され、プレイヤーの場合、攻撃を受けると恐怖の効果は直ちに解除されます。	icon_skills.spiritofconfusion_tex	Buff
+701320	Endurance	0	0	perc	20000	0	1	カオスチャーム I			恐怖に慄き、逃げています！　ダウンすると効果は即解除されます。対象がモンスターの場合、攻撃によってダウンすると恐怖効果は直ちに解除され、プレイヤーの場合、攻撃を受けると恐怖の効果は直ちに解除されます。	icon_skills.spiritofconfusion_tex	Buff
 701400	MovSpd	0	0	setp	4000	0	0.1	ロックレストレント I			効果持続中、移動速度が90%減少しますが、均衡は100%上昇します。一定以上ダメージを受けたり、ダウンすると効果は即解除されます。	icon_skills.shackleofstone_tex	Stun
 701401	MovSpd	0	0	setp	6000	0	0.1	ロックレストレント			効果持続中、移動速度が90%減少しますが、均衡は100%上昇します。一定以上ダメージを受けたり、ダウンすると効果は即解除されます。	icon_skills.shackleofstone_tex	Stun
 701420	MovSpd	0	0	setp	5500	0	0.1	ロックレストレント I			効果持続中、移動速度が90%減少しますが、均衡は100%上昇します。一定以上ダメージを受けたり、ダウンすると効果は即解除されます。	icon_skills.shackleofstone_tex	Stun
@@ -1713,11 +1718,58 @@
 777037	Block	0	0	seta	30000	0	0	デモクロンの証			効果中は回避及び移動系列スキルが使用できません。	icon_items.cancel_evade_potion_level_51_tex	Buff
 780100	HPChange	-1000000	0	abs	10000	1	-1000000	見えたらBTS			見えたらBTS		DOT
 780102	HPChange	-500000	0	abs	2000	1	-500000	見えたらBTS			見えたらBTS		DOT
-780103	HPChange	-0.05	0	perc	15000	1	-0.05	火傷			青い火炎が全身に巻き付きます！1s毎に最大HPの7％ずつダメージを受けます。	icon_status.minusmp_tex	DOT
+780103	HPChange	-0.05	0	perc	15000	1	-0.05	火傷			青い火炎が全身を巻き付けます！1s毎に最大HPの5％ずつダメージを受けます。	icon_status.minusmp_tex	DOT
 780104	MovSpd	0	0	perc	15000	0	0.5	燃え上がる足			火炎が残した炎に触れて足が燃え上がります。移動速度が50％減少します。	icon_skills.kumas_frontroll_tex	Debuff
 780200	HPChange	-0.05	0	perc	10000	1	-0.05	強酸性胃液			強力な酸性の胃液により1s毎に最大HPの5％のダメージを受けます。	icon_status.poisonstatus_tex	DOT
 780202	HPChange	-0.01	0	perc	60000	2	-0.01	出血			斧に打たれて出血が発生しました。2sごとに最大HPの1％ずつダメージを受けます。	icon_status.injuredbtdarkness_tex	DOT
 780203	HPChange	-0.1	0	perc	5000	1	-0.1	激しい出血			ヴェルデグの強力な一撃により激しい出血を起こしました。1s毎に最大HPの10％ずつダメージを受けます。	icon_status.damagedown_tex	DOT
+781001	Power	0	0	perc	50000	0	1	ダルカンの種			ダルカンの種が蒔かれました！3重複で種が発芽して配下が召喚されます！この呪いは解除されません。	icon_status.injuredbtdarkness_tex	DOT
+781002	Power	0	0	perc	10000	0	1	無気力			スキル使用が不可能です。	icon_status.confuseup_tex	DOT
+781003	Power	0	0	perc	3000	0	1	喜ばしくない魅力			全ての敵があなたを攻撃しようとします！	icon_status.confuseup_tex	Buff
+781004	Power	0	0	perc	10000	0	1	鬼			鬼になりました！幽霊があなたを追いかけます！	icon_status.injuredbtdarkness_tex	Buff
+781010	HPChange	-0.03	0	perc	7000	1	-0.03	闇の破片			効果が解除されるまでの間、1s毎に全HPの3％が減少し、スキルを使用できません。 	icon_status.fearstatus_tex	Debuff
+781010	Block	0	0	swch	7000	0	0	闇の破片			効果が解除されるまでの間、1s毎に全HPの3％が減少し、スキルを使用できません。 	icon_status.fearstatus_tex	Debuff
+781011	HPChange	-0.03	0	perc	15000	3	-0.03	火傷			3s毎に全HPの3％が減少します。ダルカンの炎は解除できません。	icon_status.firedamage_tex	DOT
+781016	Power	0	0	perc	6000000	0	1.1	デュリオンの狂気			復活のデュリオンが狂気に包まれていきます！攻撃力が10％増加し、防御力が5％減少します。	icon_skills.gatheringrage_tex	Debuff
+781016	Endurance	0	0	perc	6000000	0	0.95	デュリオンの狂気			復活のデュリオンが狂気に包まれていきます！攻撃力が10％増加し、防御力が5％減少します。	icon_skills.gatheringrage_tex	Debuff
+781018	HPChange	-300000	0	seta	17000	17	-300000	デュリオンの呪い			17s毎に全HPの100％が減少します。解除するためには浄化装置に接近してください！	icon_status.firedamage_tex	DOT
+781019	Power	0	0	perc	2000	0	1	呪い解除			デュリオンの呪いが解除されました！	icon_status.valrhona_sun_tex	Buff
+781026	Endurance	0	0	perc	14000	0	80	黒魔法の呪い			黒魔法の呪いにかかりました。呪いを解かなければ凄惨な結果が待っています。	icon_status.cruel_slayer_3_tex	Buff
+781027	MovSpd	0	0	perc	10000	0	1	黒魔力集中			復活のデュリオンの黒魔法が周囲に集中しています。何か不吉な予感がします。	icon_status.minusfocus_tex	Debuff
+781028	MovSpd	0	0	perc	30000	0	0.26	黒魔力シールド			復活のデュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	Buff
+781028	MovSpdInCombat	0	0	perc	30000	0	0.26	黒魔力シールド			復活のデュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	Buff
+781029	MovSpd	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+781029	MovSpdInCombat	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+781036	Power	0	0	perc	0	0	1.1	凶暴化			再び訪れた死の危機を前にして復活のダルカンが憤怒します。攻撃力が10％上昇し、移動速度が5％上昇します。	icon_status.archerspirit_tex	Buff
+781036	MovSpd	0	0	perc	0	0	1.05	凶暴化			再び訪れた死の危機を前にして復活のダルカンが憤怒します。攻撃力が10％上昇し、移動速度が5％上昇します。	icon_status.archerspirit_tex	Buff
+781038	MovSpd	0	0	perc	30000	0	0.5	重圧感			神を相手にしている重圧感のせいで移動速度が低下します！解除可能です。	icon_status.archerspirit_tex	DOT
+781038	MovSpdInCombat	0	0	perc	30000	0	0.5	重圧感			神を相手にしている重圧感のせいで移動速度が低下します！解除可能です。	icon_status.archerspirit_tex	DOT
+781040	HPChange	-0.07	0	perc	120000	1	-0.07	苦痛			神の攻撃で体力が持続的に減少致します。	icon_status.firedamage_tex	DOT
+781041	Power	0	0	perc	120000	0	1	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	DOT
+781041	HPChange	-300000	0	seta	1500	1	-300000	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	DOT
+781042	Power	0	0	perc	120000	0	1	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	DOT
+781042	HPChange	-300000	0	seta	1500	1	-300000	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	DOT
+781044	HPChange	-300000	0	seta	1500	1	-300000	予定された死			ラカンの強力な攻撃を受けました。まもなく死亡します。	icon_status.diseaseup_tex	DOT
+781052	Power	0	0	perc	0	0	1.4	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	Buff
+781052	Endurance	0	0	perc	0	0	1.1	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	Buff
+781052	MovSpd	0	0	perc	0	0	1.2	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	Buff
+781055	MovSpd	0	0	setp	5000	0	0	盗み			ラカンの精気を盗み出して引っ張り回されないようになりました。	icon_skills.voidtrap_tex	Debuff
+781055	MovSpdInCombat	0	0	setp	5000	0	0	盗み			ラカンの精気を盗み出して引っ張り回されないようになりました。	icon_skills.voidtrap_tex	Debuff
+781059	Endurance	0	0	perc	0	0	0.9	不均衡			均衡が破られてラカンが集中力を失います。防御力が減少します。	icon_status.fearstatus_tex	Buff
+781060	HPChange	-0.05	0	perc	120000	1	-0.05	火傷			ラカンの攻撃を受けて火傷を負いました。HPが持続的に減少します。	icon_status.firedamage_tex	DOT
+781061	Endurance	0	0	perc	6000000	0	0.8	集中力欠落			ラカンの攻撃を受けて精神が朦朧とし、防御力が10％減少します。最大5回まで重複します。	icon_status.fearstatus_tex	DOT
+781081	Power	0	0	perc	20000000	0	1	瞬間移動後遺症			瞬間移動の後遺症で30,000のダメージを受けます。	icon_status.firedamage_tex	Debuff
+781083	MovSpd	0	0	perc	30000	0	1	集中注視対象			復活のデュリオンが見つめています。何か嫌な予感がします！	icon_skills.througharrow_tex	Debuff
+781087	MovSpd	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+781087	MovSpdInCombat	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+781088	MovSpd	0	0	perc	30000	0	1	注視			復活のデュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	Debuff
+781089	Power	0	0	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	Buff
+781089	ASpd	0	0	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	Buff
+781093	HPChange	-0.3	0	perc	30000	2	-0.3	ラカンの呪い			呪いにより、1秒毎にHPの30％が減少します。	icon_status.blooduanty_tex	Debuff
+781099	MovSpd	0	0	setp	2000	0	0	気絶			ラカンの攻撃を受ける直前、強力な力があなたを襲い気絶させました。	icon_status.confuseup_tex	DOT
+781099	Block	0	0	swch	2000	0	0	気絶			ラカンの攻撃を受ける直前、強力な力があなたを襲い気絶させました。	icon_status.confuseup_tex	DOT
+781111	Endurance	0	0	perc	10000	0	1	ラカンの種			ラカンがあなたに魔力の種を蒔きました。一定時間後、爆発します。	icon_status.heat_tex	Buff
+781116	Endurance	0	0	perc	10000	0	1	ラカンの種			ラカンがあなたに魔力の種を蒔きました。一定時間後、爆発します。	icon_status.heat_tex	Buff
 800100	HPChange	88	0	abs	10000	2	88	リプロダクションウィンド I			吹き寄せる風に温もりを感じます。2s毎にHPが回復します。	icon_skills.healingwind_tex	Buff
 800101	HPChange	111	0	abs	10000	2	111	リプロダクションウィンド II			吹き寄せる風に温もりを感じます。2s毎にHPが回復します。	icon_skills.healingwind_tex	Buff
 800102	HPChange	136	0	abs	10000	2	136	リプロダクションウィンド III			吹き寄せる風に温もりを感じます。2s毎にHPが回復します。	icon_skills.healingwind_tex	Buff
@@ -1875,8 +1927,8 @@
 905423	MPChange	0	-0.05	perc	180000	1	-0.05	強力な粘液			深海魚の強力な粘液によりMP回復ができません。キレイな水で体を洗うと解除できます。	icon_status.minusmove_tex	DOT
 905424	MovSpd	0	0	perc	3000	0	1.4	スッキリとした体			身体にまとわり付いていた粘液をキレイな水で洗い流しました。移動速度が50%上昇します。 	icon_status.minushp_tex	Debuff
 905424	MPChange	0	0.5	perc	3000	2	0.5	スッキリとした体			身体にまとわり付いていた粘液をキレイな水で洗い流しました。移動速度が50%上昇します。 	icon_status.minushp_tex	Debuff
-905426	Endurance	0	0	perc	10000	0	0.45	深海の恐怖			深海魚の恐怖により、耐久力が55%減少し、しばらくコントロール不能の状態になります。	icon_status.fearstatus_tex	Stun
-905426	MovSpd	0	0	setp	10000	0	0.3	深海の恐怖			深海魚の恐怖により、耐久力が55%減少し、しばらくコントロール不能の状態になります。	icon_status.fearstatus_tex	Stun
+905426	Endurance	0	0	perc	10000	0	0.6	深海の恐怖			深海魚の恐怖により、耐久力が40%減少し、しばらくコントロール不能の状態になります。	icon_status.fearstatus_tex	Stun
+905426	MovSpd	0	0	setp	10000	0	0.3	深海の恐怖			深海魚の恐怖により、耐久力が40%減少し、しばらくコントロール不能の状態になります。	icon_status.fearstatus_tex	Stun
 905432	HPChange	-0.08	0	perc	30000	2	-0.08	猛毒			強力な猛毒に感染しました。2s毎に全HPの8％が減少します。	icon_status.poisonstatus_tex	DOT
 905433	HPChange	-0.08	0	perc	10000	2	-0.08	猛毒な煙			猛毒に感染しました。2s毎に全HPの8％が減少します。	icon_status.purifydagon_tex	Debuff
 905441	Endurance	0	0	perc	0	0	1.2	心臓			心体にダメージを与えることができる状態。	icon_status.battlefieldbuff02_tex	Debuff
@@ -1995,8 +2047,6 @@
 950340	HPChange	-0.15	0	perc	10000	2	-0.15	風による切り傷			アガレスの羽ばたきによって切り付けられました。持続的にダメージを受けます。	icon_status.whirl_tex	DOT
 950342	DefPotion	0	0	perc	0	0	0.1	防衛本能			サレオスが危機を感じて甲皮を堅くします。この效果を解除する必要があります。	icon_status.earthpower_tex	Buff
 950343	DefPotion	0	0	perc	0	0	0.1	硬い甲皮			サレオスの甲皮が硬くなり受けるダメージが90％減少して、与えるダメージが20％増加します。硬い甲皮は攻撃する度に少しずつ剥がれます。	icon_status.earthpower_tex	Buff
-950600	Power	0	0	abs	0	0	23	女神の加護			女神ヴェリックの強力な加護を受けました。力と耐久力が23上昇します。	icon_skills.tranquility_tex	Buff
-950600	Endurance	0	0	abs	0	0	23	女神の加護			女神ヴェリックの強力な加護を受けました。力と耐久力が23上昇します。	icon_skills.tranquility_tex	Buff
 975031	HPChange	-0.01	0	perc	5000	1	-0.01	冷温湿布			炎と冷気が混ざり、ダメージを受けます。	icon_status.poisonstatus_tex	Debuff
 975039	MovSpdInCombat	0	0	perc	5000	0	2	ケルサイクの巣_専用_中間ボス移動速度上昇_効果			周囲5mの味方に移動速度上昇	icon_status.plusmove_tex	Debuff
 975041	DefPotion	0	0	perc	5000	0	0	ケルサイクの巣_専用_ボス周辺無敵_効果			周囲10mの味方に無敵バリア	icon_status.plusedefence_tex	Debuff
@@ -2018,11 +2068,59 @@
 980103	HPChange	-0.07	0	perc	15000	1	-0.07	火傷			青い火炎が全身を巻き付けます！1s毎に最大HPの7％ずつダメージを受けます。	icon_status.minusmp_tex	DOT
 980104	MovSpd	0	0	perc	15000	0	0.5	燃え上がる足裏			残り火に触れて足が燃え上がります。移動速度が50％減少します。	icon_skills.kumas_frontroll_tex	Debuff
 980200	HPChange	-0.05	0	perc	10000	1	-0.05	強酸性胃液			強力な酸性の胃液に1s毎に最大HPの5％のダメージを受けます。	icon_status.poisonstatus_tex	DOT
-980202	HPChange	-0.01	0	perc	60000	2	-0.01	出血			斧に打たれて出血が発生しました。2sごとに最大HPの1％ずつダメージを受けます。	icon_status.injuredbtdarkness_tex	DOT
+980202	HPChange	-0.05	0	perc	20000	2	-0.05	出血			斧に打たれて出血が発生しました。2sごとに最大HPの5％ずつダメージを受けます。	icon_status.injuredbtdarkness_tex	DOT
 980203	HPChange	-0.1	0	perc	5000	1	-0.1	激甚な出血			ヴェルデグの強力な一撃により激しい出血を起こしました。1s毎に最大HPの10％ずつダメージを受けます。	icon_status.damagedown_tex	DOT
 980204	Power	0	0	setp	15000	0	3	燃え上がる武器			ヴェルデグが強力な攻撃の準備をします。妨害をしなければ全てが破壊されてしまいます。	icon_skills.downattack_tex	Buff
 980205	Power	0	0	setp	15000	0	3	燃え上がる怒り			ヴェルデグの憤怒により全てを破壊し尽します。諦めてください。	icon_skills.dragonrisingblow_tex	Buff
 980206	HPChange	-0.1	0	perc	15000	2	-0.1	恐ろしい苦痛			火炎放出による火傷が治りません。2s毎に最大HPの10％ずつダメージを受けます。	icon_status.firedamage_tex	DOT
+981001	Power	0	0	perc	50000	0	1	ダルカンの種			ダルカンの種が蒔かれました！3重複で種が発芽して配下が召喚されます！この呪いは解除されません。	icon_status.injuredbtdarkness_tex	DOT
+981002	Power	0	0	perc	10000	0	1	無気力			スキル使用が不可能です。	icon_status.confuseup_tex	DOT
+981003	Power	0	0	perc	3000	0	1	喜ばしくない魅力			全ての敵があなたを攻撃しようとします！	icon_status.confuseup_tex	Buff
+981004	Power	0	0	perc	10000	0	1	鬼			鬼になりました！幽霊があなたを追いかけます！	icon_status.injuredbtdarkness_tex	Buff
+981010	HPChange	-0.08	0	perc	10000	1	-0.08	闇の破片			効果が解除されるまでの間、1s毎に全HPの8％が減少し、スキルを使用できません。 	icon_status.fearstatus_tex	Debuff
+981010	Block	0	0	swch	10000	0	0	闇の破片			効果が解除されるまでの間、1s毎に全HPの8％が減少し、スキルを使用できません。 	icon_status.fearstatus_tex	Debuff
+981011	HPChange	-0.1	0	perc	15000	3	-0.1	火傷			3sごとに全HP対比 10％に至るHPが持続的に減少します。ダルカンの炎は解除できません。	icon_status.firedamage_tex	DOT
+981016	Power	0	0	perc	6000000	0	1.1	デュリオンの狂気			復活のデュリオンがどんどん狂気に包まれていきます！攻撃力が10％増加し、防御力が5％減少します。	icon_skills.gatheringrage_tex	Debuff
+981016	Endurance	0	0	perc	6000000	0	0.95	デュリオンの狂気			復活のデュリオンがどんどん狂気に包まれていきます！攻撃力が10％増加し、防御力が5％減少します。	icon_skills.gatheringrage_tex	Debuff
+981018	HPChange	-300000	0	seta	17000	17	-300000	デュリオンの呪い			17s毎に全HPの100％が減少します。解除するためには浄化装置に接近してください！	icon_status.firedamage_tex	DOT
+981019	Power	0	0	perc	2000	0	1	呪い解除			デュリオンの呪いが解除されました！	icon_status.valrhona_sun_tex	Buff
+981026	Endurance	0	0	perc	14000	0	80	黒魔法の呪い			黒魔法の呪いにかかりました。呪いを解かないと大変なことが起こりそうです。	icon_status.cruel_slayer_3_tex	Buff
+981027	MovSpd	0	0	perc	10000	0	1	黒魔力集中			復活のデュリオンの黒魔法が周囲に集中しています。何か不吉な予感がします。	icon_status.minusfocus_tex	Debuff
+981028	MovSpd	0	0	perc	30000	0	0.26	黒魔力シールド			復活のデュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	Buff
+981028	MovSpdInCombat	0	0	perc	30000	0	0.26	黒魔力シールド			復活のデュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	Buff
+981029	MovSpd	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+981029	MovSpdInCombat	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+981036	Power	0	0	perc	0	0	1.1	凶暴化			再び訪れた死の危機を前にして復活のダルカンが憤怒します。攻撃力が10％上昇し、移動速度と攻撃速度が5％上昇します。	icon_status.archerspirit_tex	Buff
+981036	MovSpd	0	0	perc	0	0	1.05	凶暴化			再び訪れた死の危機を前にして復活のダルカンが憤怒します。攻撃力が10％上昇し、移動速度と攻撃速度が5％上昇します。	icon_status.archerspirit_tex	Buff
+981036	ASpd	0	0	perc	0	0	1.05	凶暴化			再び訪れた死の危機を前にして復活のダルカンが憤怒します。攻撃力が10％上昇し、移動速度と攻撃速度が5％上昇します。	icon_status.archerspirit_tex	Buff
+981038	MovSpd	0	0	perc	30000	0	0.5	重圧感			神を相手にしている重圧感のせいで移動速度が低下します！解除できます！	icon_status.archerspirit_tex	DOT
+981038	MovSpdInCombat	0	0	perc	30000	0	0.5	重圧感			神を相手にしている重圧感のせいで移動速度が低下します！解除できます！	icon_status.archerspirit_tex	DOT
+981040	HPChange	-0.07	0	perc	120000	1	-0.07	苦痛			神の攻撃で体力が持続的に減少致します。	icon_status.firedamage_tex	DOT
+981041	Power	0	0	perc	120000	0	1	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	DOT
+981041	HPChange	-300000	0	seta	1500	1	-300000	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	DOT
+981042	Power	0	0	perc	120000	0	1	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	DOT
+981042	HPChange	-300000	0	seta	1500	1	-300000	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	DOT
+981044	HPChange	-300000	0	seta	1500	1	-300000	予定された死			ラカンの強力な攻撃を受けました。貴様は既に死んでいる。	icon_status.diseaseup_tex	DOT
+981052	Power	0	0	perc	0	0	1.4	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	Buff
+981052	Endurance	0	0	perc	0	0	1.1	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	Buff
+981052	MovSpd	0	0	perc	0	0	1.2	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	Buff
+981055	MovSpd	0	0	setp	5000	0	0	盗み			ラカンの精気を盗み出して引っ張り回されないようになりました。	icon_skills.voidtrap_tex	Debuff
+981055	MovSpdInCombat	0	0	setp	5000	0	0	盗み			ラカンの精気を盗み出して引っ張り回されないようになりました。	icon_skills.voidtrap_tex	Debuff
+981059	Endurance	0	0	perc	0	0	0.9	不均衡			均衡が破られてラカンが集中力を失います。防御力が減少します。	icon_status.fearstatus_tex	Buff
+981060	HPChange	-0.05	0	perc	120000	1	-0.05	火傷			ラカンの攻撃を受けて火傷を負いました。HPが持続的に減少します。	icon_status.firedamage_tex	DOT
+981061	Endurance	0	0	perc	6000000	0	0.8	集中力欠落			ラカンの攻撃を受けて精神が朦朧とします。防御力が10％減少し、最大5回まで重複されます。	icon_status.fearstatus_tex	DOT
+981081	Power	0	0	perc	20000000	0	1	瞬間移動後遺症			瞬間移動の後遺症で30,000のダメージを受けます。	icon_status.firedamage_tex	Debuff
+981083	MovSpd	0	0	perc	30000	0	1	集中注視対象			復活のデュリオンが見つめています。何か嫌な予感がします！	icon_skills.througharrow_tex	Debuff
+981087	MovSpd	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+981087	MovSpdInCombat	0	0	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	Debuff
+981088	MovSpd	0	0	perc	30000	0	1	注視			復活のデュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	Debuff
+981089	Power	0	0	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	Buff
+981089	ASpd	0	0	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	Buff
+981093	HPChange	-0.3	0	perc	30000	2	-0.3	ラカンの呪い			呪われて、1秒毎にHPの30％が減少します。	icon_status.blooduanty_tex	Debuff
+981099	MovSpd	0	0	setp	2000	0	0	気絶			ラカンの攻撃を受ける直前、強力な力があなたを襲い気絶させました。	icon_status.confuseup_tex	Stun
+981099	Block	0	0	swch	2000	0	0	気絶			ラカンの攻撃を受ける直前、強力な力があなたを襲い気絶させました。	icon_status.confuseup_tex	Stun
+981111	Endurance	0	0	perc	10000	0	1	ラカンの種			ラカンがあなたに魔力の種を蒔きました。一定時間後、爆発します。	icon_status.heat_tex	Buff
+981116	Endurance	0	0	perc	10000	0	1	ラカンの種			ラカンがあなたに魔力の種を蒔きました。一定時間後、爆発します。	icon_status.heat_tex	Buff
 988504	MaxHP	0	0	perc	0	1	1.1	最大HP増加(1段階)			自身とパーティメンバーの最大HPが10％増加します。	icon_status.plusmp_tex	Buff
 988505	MaxHP	0	0	perc	0	1	1.2	最大HP増加(２段階)			自身とパーティメンバーの最大HPが20％増加します。	icon_status.mprecoverup_tex	Buff
 988506	MaxHP	0	0	perc	0	1	1.4	最大HP増加(３段階)			自身とパーティメンバーの最大HPが40％増加します。	icon_status.plushp_tex	Buff
@@ -2221,12 +2319,12 @@
 10154030	AtkPotion	0	0	swch	0	0	1.05	極功術			集中力が高まっています。攻撃力が上昇します。	icon_skills.c12_atkupbuff	Buff
 10154032	AtkPotion	0	0	swch	60000	0	1.01	強力な極功術			強力な極功術により、攻撃力が更に増加します。	icon_skills.c12_atkupbuff	Buff
 10154090	Endurance	0	0	perc	60000	0	1	変化の術 I			相手の姿に変身した状態です。	icon_skills.c12_transform	Buff
-10155030	AtkPotion	0	0	perc	0	0	1.2	満月の饗宴			与えるダメージが重複毎に20％増加します。	icon_skills.fullmoon_tex	Buff
-10155031	AtkPotion	0	0	perc	0	0	1.3	朱月の饗宴			与えるダメージが重複毎に30％増加します。	icon_skills.fullmoon_red_tex	Buff
-10155036	AtkPotion	0	0	perc	0	0	1.2	満月			満月の2打目の攻撃ダメージが重複毎に20％、クリティカル発生率が0.2倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
-10155036	CritChance	0	0	perc	0	0	1.2	満月			満月の2打目の攻撃ダメージが重複毎に20％、クリティカル発生率が0.2倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
-10155037	AtkPotion	0	0	perc	0	0	1.3	満月			満月の2打目の攻撃ダメージが重複毎に30％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
-10155037	CritChance	0	0	perc	0	0	1.3	満月			満月の2打目の攻撃ダメージが重複毎に30％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
+10155030	AtkPotion	0	0	perc	0	0	1.1	満月の饗宴			与えるダメージが10％増加します。	icon_skills.fullmoon_tex	Buff
+10155031	AtkPotion	0	0	perc	0	0	1.15	朱月の饗宴			与えるダメージが15％増加します。	icon_skills.fullmoon_red_tex	Buff
+10155036	AtkPotion	0	0	perc	0	0	1.1	満月			満月の2打目の攻撃ダメージが重複毎に10％、クリティカル発生率が0.2倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
+10155036	CritChance	0	0	perc	0	0	1.2	満月			満月の2打目の攻撃ダメージが重複毎に10％、クリティカル発生率が0.2倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
+10155037	AtkPotion	0	0	perc	0	0	1.1	満月			満月の2打目の攻撃ダメージが重複毎に10％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
+10155037	CritChance	0	0	perc	0	0	1.3	満月			満月の2打目の攻撃ダメージが重複毎に10％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex	Buff
 10155130	Power	0	0	abs	25000	0	50	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex	Buff
 10155130	Endurance	0	0	swch	1500	0	0	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex	Buff
 10155130	ASpd	0	0	abs	25000	0	20	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex	Buff
@@ -2640,6 +2738,7 @@
 77703439	Power	0	0	perc	30000	0	2.5	充填：デモクロンエネルギー			デモクロンのエネルギーが集まっています。解除できない場合、強大な力を獲得します。	icon_status.fearstatus_tex	Buff
 77703442	HPChange	-0.25	0	perc	1000	1	-0.25	感染：デモクロンウィルス			デモクロンウィルスに感染しました。非常に強力なためデモクロンからもダメージを受けます。	icon_status.cruel_slayer_3_tex	Buff
 77703443	Endurance	0	0	perc	0	0	10	デモクロンの甲皮			デモクロンの甲皮による保護を受けています。一般的な攻撃による討伐は困難です。	icon_status.plusedefence_tex	Buff
+78100009	HPChange	-0.03	0	perc	200000	1	-0.03	ラカンの注視			ラカンが見つめています。1s毎に全HPの3％が減少します。	icon_items.q_animaleyeball_tex	DOT
 80401500	Power	0	0	perc	3600000	0	3	破滅の鎧			最大4000000のダメージを無効化します。最大値を超えると、結界は破壊されます。持続時間内に破壊できない場合、その効果により全ての対象プレイヤーは死亡し、ケルサイクは破滅の憤怒に飲み込まれます！	icon_skills.manashield_tex	Buff
 80900001	Endurance	0	0	setp	15000	0	0.3	集中攻撃			標的となった対象は、耐久力と移動速度が70%低下します。この効果は解除できません。	icon_status.minusdefence_tex	Debuff
 80900001	MovSpd	0	0	setp	15000	0	0.3	集中攻撃			標的となった対象は、耐久力と移動速度が70%低下します。この効果は解除できません。	icon_status.minusdefence_tex	Debuff
@@ -2741,16 +2840,16 @@
 81120113	CritResist	0	0	abs	5000	0	6	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex	Buff
 81120114	CritResist	0	0	abs	5000	0	6	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex	Buff
 81120115	CritResist	0	0	abs	5000	0	6	致命の教え			クリティカル抵抗が6増加。ダウン時に解除。	icon_ep.ep_fatal_injury_tex	Buff
-81120301	CritResist	0	0	abs	5000	0	-3	クリティカル抵抗減少			クリティカル抵抗が-3減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120302	CritResist	0	0	abs	5000	0	-4	クリティカル抵抗減少			クリティカル抵抗が-4減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120303	CritResist	0	0	abs	5000	0	-5	クリティカル抵抗減少			クリティカル抵抗が-5減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120304	CritResist	0	0	abs	5000	0	-6	クリティカル抵抗減少			クリティカル抵抗が-6減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120305	CritResist	0	0	abs	5000	0	-7	クリティカル抵抗減少			クリティカル抵抗が-7減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120306	CritResist	0	0	abs	5000	0	-8	クリティカル抵抗減少			クリティカル抵抗が-8減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120307	CritResist	0	0	abs	5000	0	-9	クリティカル抵抗減少			クリティカル抵抗が-9減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120308	CritResist	0	0	abs	5000	0	-10	クリティカル抵抗減少			クリティカル抵抗が-10減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120309	CritResist	0	0	abs	5000	0	-11	クリティカル抵抗減少			クリティカル抵抗が-11減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
-81120310	CritResist	0	0	abs	5000	0	-12	クリティカル抵抗減少			クリティカル抵抗が-12減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120301	CritResist	0	0	abs	18000	0	-3	クリティカル抵抗減少			クリティカル抵抗が-3減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120302	CritResist	0	0	abs	18000	0	-4	クリティカル抵抗減少			クリティカル抵抗が-4減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120303	CritResist	0	0	abs	18000	0	-5	クリティカル抵抗減少			クリティカル抵抗が-5減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120304	CritResist	0	0	abs	18000	0	-6	クリティカル抵抗減少			クリティカル抵抗が-6減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120305	CritResist	0	0	abs	18000	0	-7	クリティカル抵抗減少			クリティカル抵抗が-7減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120306	CritResist	0	0	abs	18000	0	-8	クリティカル抵抗減少			クリティカル抵抗が-8減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120307	CritResist	0	0	abs	18000	0	-9	クリティカル抵抗減少			クリティカル抵抗が-9減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120308	CritResist	0	0	abs	18000	0	-10	クリティカル抵抗減少			クリティカル抵抗が-10減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120309	CritResist	0	0	abs	18000	0	-11	クリティカル抵抗減少			クリティカル抵抗が-11減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
+81120310	CritResist	0	0	abs	18000	0	-12	クリティカル抵抗減少			クリティカル抵抗が-12減少。ダウン/硬直/スタン時に解除	icon_ep.ep_special_load_tex	Debuff
 81120401	CritResist	0	0	abs	10000	0	3	クリティカル抵抗上昇			クリティカル抵抗が3上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex	Buff
 81120402	CritResist	0	0	abs	10000	0	4	クリティカル抵抗上昇			クリティカル抵抗が4上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex	Buff
 81120403	CritResist	0	0	abs	10000	0	5	クリティカル抵抗上昇			クリティカル抵抗が5上昇。 ダウン/硬直/スタン時に解除	icon_ep.ep_fatal_injury_tex	Buff
@@ -3546,14 +3645,10 @@
 98000091	HPChange	-0.06	0	perc	10000	3	-0.06	出血			ひな鳥の強烈な攻撃により、出血が発生します。移動速度が50%減少し、3毎に全HPの6％が減少します。	icon_status.minuscriticalresist_tex	DOT
 98000092	HPChange	0.0033	0	perc	12000	3	0.0033	雛の祝福			3s毎に全HPの0.33％が回復します。効果は最大3回まで重複します。	icon_status.aura_of_regeneration_hp_tex	Buff
 98000095	HPChange	50000	0	abs	1000	1	50000	司祭の手			HPが30000回復します。	icon_items.potion5_tex	Buff
-98000100	Power	0	0	abs	10000000	0	25	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - パワーブレシングII（力25）、プロテクションブレシングII（耐久力11）、ブレシングバルダーV（体力持続回復）、エンデュランスブレシングI（全ての状態異常抵抗5）、シークレッドサンダー（力40、攻撃速度8）、耐久力減少（10％）が適用されます。	icon_skills.attackup_tex	Buff
-98000100	Endurance	0	0	abs	10000000	0	11	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - パワーブレシングII（力25）、プロテクションブレシングII（耐久力11）、ブレシングバルダーV（体力持続回復）、エンデュランスブレシングI（全ての状態異常抵抗5）、シークレッドサンダー（力40、攻撃速度8）、耐久力減少（10％）が適用されます。	icon_skills.attackup_tex	Buff
-98000100	ASpd	0	0	abs	10000000	0	8	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - パワーブレシングII（力25）、プロテクションブレシングII（耐久力11）、ブレシングバルダーV（体力持続回復）、エンデュランスブレシングI（全ての状態異常抵抗5）、シークレッドサンダー（力40、攻撃速度8）、耐久力減少（10％）が適用されます。	icon_skills.attackup_tex	Buff
-98000100	HPChange	773	0	abs	10000000	2	773	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - パワーブレシングII（力25）、プロテクションブレシングII（耐久力11）、ブレシングバルダーV（体力持続回復）、エンデュランスブレシングI（全ての状態異常抵抗5）、シークレッドサンダー（力40、攻撃速度8）、耐久力減少（10％）が適用されます。	icon_skills.attackup_tex	Buff
-98000101	Power	0	0	abs	10000000	0	25	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストのバフ　-レイジオーラ(クリティカル発生2倍)、マインドオーラ(1秒毎にMP20回復)、プロテクションエレメントの紋章効果(耐久力10％上昇)、耐久力減少（10％）が適用されました。	icon_status.plusecritical_tex	Buff
-98000101	Endurance	0	0	perc	10000000	0	1.1	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストのバフ　-レイジオーラ(クリティカル発生2倍)、マインドオーラ(1秒毎にMP20回復)、プロテクションエレメントの紋章効果(耐久力10％上昇)、耐久力減少（10％）が適用されました。	icon_status.plusecritical_tex	Buff
-98000101	Crit	0	0	perc	10000000	0	2	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストのバフ　-レイジオーラ(クリティカル発生2倍)、マインドオーラ(1秒毎にMP20回復)、プロテクションエレメントの紋章効果(耐久力10％上昇)、耐久力減少（10％）が適用されました。	icon_status.plusecritical_tex	Buff
-98000101	MPChange	0	20	abs	10000000	1	20	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストのバフ　-レイジオーラ(クリティカル発生2倍)、マインドオーラ(1秒毎にMP20回復)、プロテクションエレメントの紋章効果(耐久力10％上昇)、耐久力減少（10％）が適用されました。	icon_status.plusecritical_tex	Buff
+98000100	Power	0	0	abs	2400000	0	25	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - パワーブレシングII（力25）、プロテクションブレシングII（耐久力11）、ブレシングバルダーV（体力持続回復）、エンデュランスブレシングI（全ての状態異常抵抗5）、シークレッドサンダー（力40、攻撃速度8）、耐久力減少（10％）が適用されます。	icon_skills.attackup_tex	Buff
+98000100	Endurance	0	0	abs	900000	0	11	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - パワーブレシングII（力25）、プロテクションブレシングII（耐久力11）、ブレシングバルダーV（体力持続回復）、エンデュランスブレシングI（全ての状態異常抵抗5）、シークレッドサンダー（力40、攻撃速度8）、耐久力減少（10％）が適用されます。	icon_skills.attackup_tex	Buff
+98000101	Endurance	0	0	perc	99999999	0	1.1	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストのバフ　-レイジオーラ(クリティカル発生2倍)、マインドオーラ(1秒毎にMP20回復)、プロテクションエレメントの紋章効果(耐久力10％上昇)、耐久力減少（10％）が適用されました。	icon_status.plusecritical_tex	Buff
+98000101	MPChange	0	-30	abs	0	2	-30	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストのバフ　-レイジオーラ(クリティカル発生2倍)、マインドオーラ(1秒毎にMP20回復)、プロテクションエレメントの紋章効果(耐久力10％上昇)、耐久力減少（10％）が適用されました。	icon_status.plusecritical_tex	Buff
 98000102	MaxHP	0	0	perc	99999999	0	1.05	デイリープレイガイドバフポーション			力が6、最大HPが5％、非戦闘状態の移動速度が20上昇します。		Buff
 98000102	Power	0	0	abs	99999999	0	6	デイリープレイガイドバフポーション			力が6、最大HPが5％、非戦闘状態の移動速度が20上昇します。		Buff
 98000103	ASpd	0	0	perc	0	0	1.04	守護の連係 III			全攻撃スキルによる敵対値が20%、攻撃速度が4%上昇します。受けるダメージが10%減少し、ダウン/硬直発生率も30%減少します。		Buff
@@ -3564,6 +3659,11 @@
 98000105	ASpd	0	0	perc	0	0	1.04	回復の連係 III			スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。		Buff
 98000105	DefPotion	0	0	perc	0	0	0.9	回復の連係 III			スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。		Buff
 98000105	AtkPotion	0	0	perc	0	0	1.1	回復の連係 III			スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。		Buff
+98000106	Endurance	0	0	perc	10000000	0	0.9	耐久力減少［弱化の紋章］			耐久力が10%減少します。	icon_crest.crestactivedefencedown_tex	Debuff
+98000106	CritResist	0	0	abs	10000000	0	-12	耐久力減少［弱化の紋章］			耐久力が10%減少します。	icon_crest.crestactivedefencedown_tex	Debuff
+98000107	Power	0	0	abs	99999999	0	40	シークレッドサンダー VI			力が40、攻撃速度が8上昇します。	icon_skills.divinelightning_tex	Buff
+98000107	ASpd	0	0	abs	99999999	0	8	シークレッドサンダー VI			力が40、攻撃速度が8上昇します。	icon_skills.divinelightning_tex	Buff
+98000108	Endurance	0	0	perc	99999999	0	1.1	耐久力上昇［協同の紋章］			耐久力が10%上昇します。	icon_crest.crestactivedefenceup_tex	Buff
 98850002	DropUp	0	0	perc	7200000	0	1.2	豊穣の祝福 I			豊穣の魔石を守護し報酬率が25％増加します。	icon_items.tresurebox3_tex	Buff
 98850003	DropUp	0	0	perc	7200000	0	1.4	豊穣の祝福 II			豊穣の魔石を守護し報酬率が50％増加します。	icon_items.tresurebox3_tex	Buff
 98850004	DropUp	0	0	perc	7200000	0	1.6	豊穣の祝福 III			豊穣の魔石を守護し報酬率が75％増加します。	icon_items.tresurebox3_tex	Buff
