@@ -30,8 +30,8 @@
 601	ASpd	0	0	abs	0	0	6	광기의 힘 I			광기어린 정령의 기운을 받아 힘이 20 증가하고, 공격 속도가 6 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_skills.rage_tex	Buff	True
 602	Power	0	0	abs	0	0	25	광기의 힘 II			광기어린 정령의 기운을 받아 힘이 25 증가하고, 공격 속도가 6 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_skills.rage_tex	Buff	True
 602	ASpd	0	0	abs	0	0	6	광기의 힘 II			광기어린 정령의 기운을 받아 힘이 25 증가하고, 공격 속도가 6 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_skills.rage_tex	Buff	True
-603	Power	0	0	abs	0	0	40	광기의 힘 III			광기어린 정령의 기운을 받아 힘이 40 증가하고, 공격 속도가 6 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_skills.rage_tex	Buff	True
-603	ASpd	0	0	abs	0	0	6	광기의 힘 III			광기어린 정령의 기운을 받아 힘이 40 증가하고, 공격 속도가 6 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_skills.rage_tex	Buff	True
+603	Power	0	0	abs	0	0	48	광기의 힘 III			광기어린 정령의 기운을 받아 힘이 48 증가하고, 공격 속도가 9.6 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_skills.rage_tex	Buff	True
+603	ASpd	0	0	abs	0	0	9.6	광기의 힘 III			광기어린 정령의 기운을 받아 힘이 48 증가하고, 공격 속도가 9.6 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_skills.rage_tex	Buff	True
 901	Endurance	0	0	perc	20000	0	1	섬광탄			순간적인 강한 빛에 의해 기절했습니다.	icon_skills.flashball_tex	Buff	False
 902	Noctenium	0	0	swch	0	0	1	녹테늄 강화탄	1300	녹테늄 강화탄	녹테늄 강화탄을 사용하여 스킬의 효과를 증대화 시킵니다.	icon_items.union_supplies5_tex	Buff	True
 903	Power	0	0	abs	30000	0	15	살의			살의를 통해 힘이 15 향상되며 공격 속도 8% , 치명타 확률 4% , 이동속도가 4% 증가 합니다.	icon_skills.battlefield_high_ranking_tex	Buff	True
@@ -797,7 +797,7 @@
 27110	MovSpdInCombat	0	0	abs	3000	0	50	섬광탄(활력의 문장)			전투 상태에서의 이동 속도가 50 증가됩니다.	icon_skills.flashball_tex	Buff	True
 27120	Endurance	0	0	perc	600000	0	1.1	정령 소환 : 수호의 정령(협동의 문장)			맷집이 10% 향상됩니다.	icon_skills.summonspiritofaggro_tex	Buff	True
 27140	HPChange	0.2	0	perc	1000	1	0.2	회복의 정기(근성의 문장)			전체 HP 대비 20%에 달하는 HP가 회복됩니다.	icon_skills.hprefresher_tex	Buff	True
-27160	Endurance	0	0	perc	21000	0	0.91	고통의 주박(약화의 문장)			맷집이 9% 감소됩니다.	icon_skills.painfulshackle_tex	Debuff	False
+27160	Endurance	0	0	perc	21000	0	0.9	고통의 주박(약화의 문장)			맷집이 10% 감소됩니다.	icon_skills.painfulshackle_tex	Debuff	False
 27170	HPChange	1	0	perc	1000	1	1	최대 HP 상태로 회복 [영혼의 문장]			이상상태 툴팁 표시 안됨 (isShow=False) 이 툴팁이 보이면 BTS 처리 필요!	icon_crest.crestpassivehpwhileheal_tex	Buff	True
 28010	AtkPotion	0	0	perc	6000	0	1.25	심판의 손길(연계 투지의 문장 [징벌의 손길])			연계 스킬로 징벌의 손길 사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.damagedeal_tex	Buff	True
 28020	AtkPotion	0	0	perc	5000	0	1.25	천벌의 연쇄(연계 투지의 문장 [징벌의 장막])			연계 스킬로 징벌의 장막 사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.divineretribution_tex	Buff	True
@@ -1014,47 +1014,51 @@
 100103	Endurance	0	0	perc	0	0	0.9	칼날의 결의 IV			힘 18과 치명타 유발 55, 몬스터 공격 시 스킬 위력이 10%  증가되지만 맷집은 10% 감소됩니다.	icon_skills.ironwilla_tex	Buff	True
 100103	Crit	0	0	abs	0	0	55	칼날의 결의 IV			힘 18과 치명타 유발 55, 몬스터 공격 시 스킬 위력이 10%  증가되지만 맷집은 10% 감소됩니다.	icon_skills.ironwilla_tex	Buff	True
 100103	AtkPotion	0	0	perc	0	0	1.1	칼날의 결의 IV			힘 18과 치명타 유발 55, 몬스터 공격 시 스킬 위력이 10%  증가되지만 맷집은 10% 감소됩니다.	icon_skills.ironwilla_tex	Buff	True
-100200	Endurance	0	0	perc	0	0	1.15	강철의 결의 I			맷집이 15%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100200	CritChance	0	0	perc	0	0	1.15	강철의 결의 I			맷집이 15%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100200	Block	0	0	perc	0	0	0	강철의 결의 I			맷집이 15%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 65% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100201	Endurance	0	0	perc	0	0	1.2	강철의 결의 II			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100201	CritChance	0	0	perc	0	0	1.15	강철의 결의 II			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100201	Block	0	0	perc	0	0	0	강철의 결의 II			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 80% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100202	Endurance	0	0	perc	0	0	1.25	강철의 결의			맷집이 25%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100202	CritChance	0	0	perc	0	0	1.15	강철의 결의			맷집이 25%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
-100202	Block	0	0	perc	0	0	0	강철의 결의			맷집이 25%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100200	Endurance	0	0	perc	0	0	1.2	강철의 결의 I			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100200	CritChance	0	0	perc	0	0	1.15	강철의 결의 I			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100200	Block	0	0	perc	0	0	0	강철의 결의 I			맷집이 20%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100201	Endurance	0	0	perc	0	0	1.25	강철의 결의 II			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100201	CritChance	0	0	perc	0	0	1.15	강철의 결의 II			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100201	Block	0	0	perc	0	0	0	강철의 결의 II			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100202	Endurance	0	0	perc	0	0	100296	강철의 결의			맷집이 10029500%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100202	CritChance	0	0	perc	0	0	1.15	강철의 결의			맷집이 10029500%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
+100202	Block	0	0	perc	0	0	0	강철의 결의			맷집이 10029500%, 균형이 20, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 100% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
 100203	Endurance	0	0	perc	0	0	1.25	강철의 결의 IV			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
 100203	CritChance	0	0	perc	0	0	1.15	강철의 결의 IV			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
 100203	Block	0	0	perc	0	0	0	강철의 결의 IV			맷집이 25%, 균형이 30, 몬스터 공격 시 치명타 발생 확률이 15% 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 120% 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	Buff	True
 100294	MPChange	0	0.05	perc	1000	1	0.05	극기Ⅰ			극기Ⅰ효과로 Mp가 5% 회복됩니다.	icon_skills.twinswordsdefence_tex	Buff	True
-100500	HPChange	-116	0	abs	10000	2	-116	맹독의 일격 I			치명적인 맹독에 감염되어 2s마다 HP가 -116씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100501	HPChange	-175	0	abs	10000	2	-175	맹독의 일격 II			치명적인 맹독에 감염되어 2s마다 HP가 -175씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100502	HPChange	-292	0	abs	10000	2	-292	맹독의 일격 III			치명적인 맹독에 감염되어 2s마다 HP가 -292씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100503	HPChange	-438	0	abs	10000	2	-438	맹독의 일격 IV			치명적인 맹독에 감염되어 2s마다 HP가 -438씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100504	HPChange	-612	0	abs	10000	2	-612	맹독의 일격 V			치명적인 맹독에 감염되어 2s마다 HP가 -612씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100505	HPChange	-845	0	abs	10000	2	-845	맹독의 일격 VI			치명적인 맹독에 감염되어 2s마다 HP가 -845씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100506	HPChange	-1428	0	abs	10000	2	-1428	맹독의 일격 VII			치명적인 맹독에 감염되어 2s마다 HP가 -1428씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100507	HPChange	-1892	0	abs	10000	2	-1892	맹독의 일격			치명적인 맹독에 감염되어 2s마다 HP가 -1892씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100508	HPChange	-6068	0	abs	10000	2	-6068	맹독의 일격 IX			치명적인 맹독에 감염되어 2s마다 HP가 -6068씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100520	HPChange	-92	0	abs	10000	2	-92	맹독의 일격 I			치명적인 맹독에 감염되어 2s마다 HP가 -92씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100521	HPChange	-127	0	abs	10000	2	-127	맹독의 일격 II			치명적인 맹독에 감염되어 2s마다 HP가 -127씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100522	HPChange	-175	0	abs	10000	2	-175	맹독의 일격 III			치명적인 맹독에 감염되어 2s마다 HP가 -175씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100523	HPChange	-242	0	abs	10000	2	-242	맹독의 일격 IV			치명적인 맹독에 감염되어 2s마다 HP가 -242씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100524	HPChange	-334	0	abs	10000	2	-334	맹독의 일격 V			치명적인 맹독에 감염되어 2s마다 HP가 -334씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100525	HPChange	-461	0	abs	10000	2	-461	맹독의 일격 VI			치명적인 맹독에 감염되어 2s마다 HP가 -461씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100526	HPChange	-720	0	abs	10000	2	-720	맹독의 일격 VII			치명적인 맹독에 감염되어 2s마다 HP가 -720씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100527	HPChange	-954	0	abs	10000	2	-954	맹독의 일격 VIII			치명적인 맹독에 감염되어 2s마다 HP가 -954씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
-100528	HPChange	-1420	0	abs	10000	2	-1420	맹독의 일격 IX			치명적인 맹독에 감염되어 2s마다 HP가 -1420씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100500	HPChange	-40	0	abs	10000	2	-40	맹독의 일격 I			치명적인 맹독에 감염되어 2s마다 HP가 -40씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100501	HPChange	-60	0	abs	10000	2	-60	맹독의 일격 II			치명적인 맹독에 감염되어 2s마다 HP가 -60씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100502	HPChange	-90	0	abs	10000	2	-90	맹독의 일격 III			치명적인 맹독에 감염되어 2s마다 HP가 -90씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100503	HPChange	-136	0	abs	10000	2	-136	맹독의 일격 IV			치명적인 맹독에 감염되어 2s마다 HP가 -136씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100504	HPChange	-214	0	abs	10000	2	-214	맹독의 일격 V			치명적인 맹독에 감염되어 2s마다 HP가 -214씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100505	HPChange	-341	0	abs	10000	2	-341	맹독의 일격 VI			치명적인 맹독에 감염되어 2s마다 HP가 -341씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100506	HPChange	-496	0	abs	10000	2	-496	맹독의 일격 VII			치명적인 맹독에 감염되어 2s마다 HP가 -496씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100507	HPChange	-690	0	abs	10000	2	-690	맹독의 일격 VIII			치명적인 맹독에 감염되어 2s마다 HP가 -690씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100508	HPChange	-1039	0	abs	10000	2	-1039	맹독의 일격 IX			치명적인 맹독에 감염되어 2s마다 HP가 -1039씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100509	HPChange	-1582	0	abs	10000	2	-1582	맹독의 일격 X			치명적인 맹독에 감염되어 2s마다 HP가 -1582씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100510	HPChange	-1892	0	abs	10000	2	-1892	맹독의 일격 XI			치명적인 맹독에 감염되어 2s마다 HP가 -1892씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100520	HPChange	-36	0	abs	10000	2	-36	맹독의 일격 I			치명적인 맹독에 감염되어 2s마다 HP가 -36씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100521	HPChange	-55	0	abs	10000	2	-55	맹독의 일격 II			치명적인 맹독에 감염되어 2s마다 HP가 -55씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100522	HPChange	-75	0	abs	10000	2	-75	맹독의 일격 III			치명적인 맹독에 감염되어 2s마다 HP가 -75씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100523	HPChange	-104	0	abs	10000	2	-104	맹독의 일격 IV			치명적인 맹독에 감염되어 2s마다 HP가 -104씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100524	HPChange	-143	0	abs	10000	2	-143	맹독의 일격 V			치명적인 맹독에 감염되어 2s마다 HP가 -143씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100525	HPChange	-197	0	abs	10000	2	-197	맹독의 일격 VI			치명적인 맹독에 감염되어 2s마다 HP가 -197씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100526	HPChange	-273	0	abs	10000	2	-273	맹독의 일격 VII			치명적인 맹독에 감염되어 2s마다 HP가 -273씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100527	HPChange	-376	0	abs	10000	2	-376	맹독의 일격 VIII			치명적인 맹독에 감염되어 2s마다 HP가 -376씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100528	HPChange	-547	0	abs	10000	2	-547	맹독의 일격 IX			치명적인 맹독에 감염되어 2s마다 HP가 -547씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100529	HPChange	-798	0	abs	10000	2	-798	맹독의 일격 X			치명적인 맹독에 감염되어 2s마다 HP가 -798씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
+100530	HPChange	-954	0	abs	10000	2	-954	맹독의 일격 XI			치명적인 맹독에 감염되어 2s마다 HP가 -954씩 지속적으로 감소됩니다.	icon_skills.poisonblowattack_tex	DOT	False
 100600	MPChange	0	-10	abs	0	2	-10	살기 분출			대상의 발목을 노려 일정 확률로 이동 속도와 공격 속도를 15% 감소 시킵니다. 스킬을 활성화하고 있는 동안 2 마다 -10씩 지속적으로 MP가 감소되며, 연속 공격 마지막 타격에서만 효과가 발동됩니다.	icon_skills.murderousvent_tex	Buff	True
 100630	MovSpd	0	0	setp	5000	0	0.85	발목 부상			발목 부상으로 인해 이동 속도와 공격 속도가 15% 감소됩니다.	icon_skills.aimingankle_tex	Debuff	False
 100630	ASpd	0	0	perc	5000	0	0.85	발목 부상			발목 부상으로 인해 이동 속도와 공격 속도가 15% 감소됩니다.	icon_skills.aimingankle_tex	Debuff	False
 100800	Power	0	0	perc	20000	0	1	필살의 의지			20s간 치명타 확률이 35% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
 100800	Endurance	0	0	perc	20000	0	1	필살의 의지			20s간 치명타 확률이 35% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
 100800	CritChance	0	0	perc	20000	0	1.35	필살의 의지			20s간 치명타 확률이 35% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
-100801	Power	0	0	perc	20000	0	1	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 XI]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 VII]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 II]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
-100801	Endurance	0	0	perc	20000	0	1	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 XI]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 VII]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 II]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
-100801	CritChance	0	0	perc	20000	0	1.5	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 XI]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 VII]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 II]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
-100801	CDR	0	0	swch	20000	0	0.5	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 XI]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 VII]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 II]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
+100801	Power	0	0	perc	20000	0	1	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 IX]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
+100801	Endurance	0	0	perc	20000	0	1	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 IX]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
+100801	CritChance	0	0	perc	20000	0	1.5	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 IX]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
+100801	CDR	0	0	swch	20000	0	0.5	필살의 의지 II			20s간 치명타 확률이 50% 증가합니다. 효과 지속 시간 동안 사용한 근접 공격 스킬의 재사용 시간이 절반으로 감소하며 지속 시간 중 아래 스킬들이 강화됩니다.  - [몰아치기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [무쌍난무 : 가르기 IX]: 10%의 추가 대미지를 가지며 스택이 2배로 쌓입니다.  - [질풍 가르기 IX]: 스킬의 위력이 10%, 범위가 20% 증가합니다.	icon_skills.deadlywill_tex	Buff	True
 101200	Endurance	0	0	perc	15000	0	0.92	투지의 일격			맷집이 8% 감소됩니다	icon_skills.aggravatingstrike_tex	Debuff	False
 101220	Endurance	0	0	perc	15000	0	0.92	투지의 일격			맷집이 8% 감소되며 HP 회복효과가 30% 감소됩니다.	icon_skills.aggravatingstrike_tex	Debuff	False
 101300	ASpd	0	0	perc	27000	0	1.009	무쌍난무 : 찌르기			매 중첩 시마다 공격자의 공격속도가 0.9%씩 증가합니다. 이 효과는 최대 13번까지 중첩됩니다.	icon_skills.dualrapidpiercing_tex	Buff	True
@@ -1095,9 +1099,9 @@
 300201	MovSpdInCombat	0	0	setp	5000	0	0	뒤잡기 II			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.turnaroundattack_tex	Stun	False
 300300	Attack	0	0	perc	20000	0	1.3	힘 모으기			다음 1회의 공격은 30% 향상된 피해를 입힙니다.	icon_skills.gatheringstrength_tex	Buff	True
 300301	Attack	0	0	perc	20000	0	1.33	힘 모으기 II			다음 1회의 공격은 33% 향상된 피해를 입힙니다.	icon_skills.gatheringstrength_tex	Buff	True
-300500	ASpd	0	0	perc	10000	0	1.3	전진 도약 I			다음 1회의 공격은 30% 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	Buff	True
-300501	ASpd	0	0	perc	10000	0	1.4	전진 도약 II			다음 1회의 공격은 40% 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	Buff	True
-300502	ASpd	0	0	perc	10000	0	1.5	전진 도약 III			다음 1회의 공격은 50% 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	Buff	True
+300500	ASpd	0	0	perc	10000	0	1.4	전진 도약 I			다음 1회의 공격은 40% 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	Buff	True
+300501	ASpd	0	0	perc	10000	0	1.5	전진 도약 II			다음 1회의 공격은 50% 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	Buff	True
+300502	ASpd	0	0	perc	10000	0	1.6	전진 도약 III			다음 1회의 공격은 60% 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	Buff	True
 300503	ASpd	0	0	perc	10000	0	1.6	전진 도약 IV			다음 1회의 공격은 60% 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	Buff	True
 300600	MovSpd	0	0	perc	10000	0	1.5	질주 I			이동 속도가 50% 향상됩니다.	icon_skills.dash_tex	Buff	True
 300601	MovSpd	0	0	perc	15000	0	1.5	질주			이동 속도가 50% 향상됩니다.	icon_skills.dash_tex	Buff	True
@@ -1148,7 +1152,7 @@
 400900	Power	0	0	perc	100	0	1	늑골 부수기			늑골 부수기 스킬을 사용할 수 있습니다.	icon_skills.ribbreaker_tex	Buff	True
 401400	Crit	0	0	abs	0	0	-18	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 40% 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex	Buff	True
 401400	MPChange	0	50	abs	0	1	50	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 40% 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex	Buff	True
-401400	CDR	0	0	swch	0	0	0.33	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 40% 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex	Buff	True
+401400	CDR	0	0	swch	0	0	0.22	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 40% 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex	Buff	True
 401400	Block	0	0	perc	0	0	0	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 40% 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex	Buff	True
 401500	Endurance	0	0	perc	15000	0	0.96	올려 베기 I			매 중첩 시마다 맷집이 4%씩 감소됩니다. 이 효과는 최대 2번까지 중첩됩니다.	icon_skills.upperslashcombo_tex	Debuff	False
 425001	MPChange	0	50	abs	0	1	50	어그로			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 unk2 향상됩니다. 	icon_skills.toughspirit_tex	Buff	True
@@ -1371,33 +1375,37 @@
 500300	MPChange	0	120	abs	25000	2	120	마력 응집 I			2s마다 MP가 120씩 점차 회복됩니다.	icon_skills.mpcondensing_tex	Buff	True
 500301	MPChange	0	120	abs	25000	1	120	마력 응집			1s마다 MP가 120씩 점차 회복됩니다.	icon_skills.mpcondensing_tex	Buff	True
 500500	MovSpd	0	0	setp	5000	0	0.8	서리 구체			몸이 얼어 붙어 이동 속도가 20% 감소됩니다.	icon_skills.c5_iceorb	Debuff	False
-500700	HPChange	-26	0	abs	10000	2	-26	오염의 저주 I			오염의 저주에 의해 2s마다 HP가 -26씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500701	HPChange	-40	0	abs	10000	2	-40	오염의 저주 II			오염의 저주에 의해 2s마다 HP가 -40씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500702	HPChange	-58	0	abs	10000	2	-58	오염의 저주 III			오염의 저주에 의해 2s마다 HP가 -58씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500703	HPChange	-85	0	abs	10000	2	-85	오염의 저주 IV			오염의 저주에 의해 2s마다 HP가 -85씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500704	HPChange	-121	0	abs	10000	2	-121	오염의 저주 V			오염의 저주에 의해 2s마다 HP가 -121씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500705	HPChange	-174	0	abs	10000	2	-174	오염의 저주 VI			오염의 저주에 의해 2s마다 HP가 -174씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500706	HPChange	-241	0	abs	10000	2	-241	오염의 저주 VII			오염의 저주에 의해 2s마다 HP가 -241씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500707	HPChange	-341	0	abs	10000	2	-341	오염의 저주			오염의 저주에 의해 2s마다 HP가 -341씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500708	HPChange	-516	0	abs	10000	2	-516	오염의 저주 IX			오염의 저주에 의해 2s마다 HP가 -516씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500720	HPChange	-27	0	abs	10000	2	-27	오염의 저주 I			오염의 저주에 의해 2s마다 HP가 -27씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500721	HPChange	-37	0	abs	10000	2	-37	오염의 저주 II			오염의 저주에 의해 2s마다 HP가 -37씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500722	HPChange	-51	0	abs	10000	2	-51	오염의 저주 III			오염의 저주에 의해 2s마다 HP가 -51씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500723	HPChange	-71	0	abs	10000	2	-71	오염의 저주 IV			오염의 저주에 의해 2s마다 HP가 -71씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500724	HPChange	-97	0	abs	10000	2	-97	오염의 저주 V			오염의 저주에 의해 2s마다 HP가 -97씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500725	HPChange	-134	0	abs	10000	2	-134	오염의 저주 VI			오염의 저주에 의해 2s마다 HP가 -134씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500726	HPChange	-186	0	abs	10000	2	-186	오염의 저주 VII			오염의 저주에 의해 2s마다 HP가 -186씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500727	HPChange	-258	0	abs	10000	2	-258	오염의 저주			오염의 저주에 의해 2s마다 HP가 -258씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
-500728	HPChange	-382	0	abs	10000	2	-382	오염의 저주 IX			오염의 저주에 의해 2s마다 HP가 -382씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500700	HPChange	-40	0	abs	10000	2	-40	오염의 저주 I			오염의 저주에 의해 2s마다 HP가 -40씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500701	HPChange	-58	0	abs	10000	2	-58	오염의 저주 II			오염의 저주에 의해 2s마다 HP가 -58씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500702	HPChange	-85	0	abs	10000	2	-85	오염의 저주 III			오염의 저주에 의해 2s마다 HP가 -85씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500703	HPChange	-121	0	abs	10000	2	-121	오염의 저주 IV			오염의 저주에 의해 2s마다 HP가 -121씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500704	HPChange	-174	0	abs	10000	2	-174	오염의 저주 V			오염의 저주에 의해 2s마다 HP가 -174씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500705	HPChange	-241	0	abs	10000	2	-241	오염의 저주 VI			오염의 저주에 의해 2s마다 HP가 -241씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500706	HPChange	-341	0	abs	10000	2	-341	오염의 저주 VII			오염의 저주에 의해 2s마다 HP가 -341씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500707	HPChange	-516	0	abs	10000	2	-516	오염의 저주			오염의 저주에 의해 2s마다 HP가 -516씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500720	HPChange	-37	0	abs	10000	2	-37	오염의 저주 I			오염의 저주에 의해 2s마다 HP가 -37씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500721	HPChange	-51	0	abs	10000	2	-51	오염의 저주 II			오염의 저주에 의해 2s마다 HP가 -51씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500722	HPChange	-71	0	abs	10000	2	-71	오염의 저주 III			오염의 저주에 의해 2s마다 HP가 -71씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500723	HPChange	-97	0	abs	10000	2	-97	오염의 저주 IV			오염의 저주에 의해 2s마다 HP가 -97씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500724	HPChange	-134	0	abs	10000	2	-134	오염의 저주 V			오염의 저주에 의해 2s마다 HP가 -134씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500725	HPChange	-186	0	abs	10000	2	-186	오염의 저주 VI			오염의 저주에 의해 2s마다 HP가 -186씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500726	HPChange	-258	0	abs	10000	2	-258	오염의 저주 VII			오염의 저주에 의해 2s마다 HP가 -258씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
+500727	HPChange	-382	0	abs	10000	2	-382	오염의 저주			오염의 저주에 의해 2s마다 HP가 -382씩 지속적으로 감소됩니다.	icon_skills.disease_tex	DOT	False
 500900	Block	0	0	swch	5000	0	0	신경 쇠약			쇠약해진 신경으로 인해 모든 스킬을 사용할 수 없습니다. 이 효과는 플레이어 캐릭터에 한해서만 적용되며 피격 및 다운 발생 시 해제됩니다.	icon_skills.neurasthenia_tex	Stun	False
-501000	HPChange	-1175	0	abs	10000	2	-1175	불타는 숨결 I			불타는 숨결에 의해 2s마다 HP가 -1175씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
-501001	HPChange	-1631	0	abs	10000	2	-1631	불타는 숨결 II			불타는 숨결에 의해 2s마다 HP가 -1631씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
-501002	HPChange	-2305	0	abs	10000	2	-2305	불타는 숨결			불타는 숨결에 의해 2s마다 HP가 -2305씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
-501003	HPChange	-3120	0	abs	10000	2	-3120	불타는 숨결 IV			불타는 숨결에 의해 2s마다 HP가 -3120씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
-501020	HPChange	-890	0	abs	10000	2	-890	불타는 숨결 I			불타는 숨결에 의해 2s마다 HP가 -890씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
-501021	HPChange	-1228	0	abs	10000	2	-1228	불타는 숨결 II			불타는 숨결에 의해 2s마다 HP가 -1228씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
-501022	HPChange	-1704	0	abs	10000	2	-1704	불타는 숨결			불타는 숨결에 의해 2s마다 HP가 -1704씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
-501023	HPChange	-2259	0	abs	10000	2	-2259	불타는 숨결 IV			불타는 숨결에 의해 2s마다 HP가 -2259씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501000	HPChange	-443	0	abs	10000	2	-443	불타는 숨결 I			불타는 숨결에 의해 2s마다 HP가 -443씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501001	HPChange	-613	0	abs	10000	2	-613	불타는 숨결 II			불타는 숨결에 의해 2s마다 HP가 -613씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501002	HPChange	-849	0	abs	10000	2	-849	불타는 숨결 III			불타는 숨결에 의해 2s마다 HP가 -849씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501003	HPChange	-1175	0	abs	10000	2	-1175	불타는 숨결 IV			불타는 숨결에 의해 2s마다 HP가 -1175씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501004	HPChange	-1631	0	abs	10000	2	-1631	불타는 숨결 V			불타는 숨결에 의해 2s마다 HP가 -1631씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501005	HPChange	-2305	0	abs	10000	2	-2305	불타는 숨결 VI			불타는 숨결에 의해 2s마다 HP가 -2305씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501006	HPChange	-3120	0	abs	10000	2	-3120	불타는 숨결 VII			불타는 숨결에 의해 2s마다 HP가 -3120씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501020	HPChange	-338	0	abs	10000	2	-338	불타는 숨결 I			불타는 숨결에 의해 2s마다 HP가 -338씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501021	HPChange	-467	0	abs	10000	2	-467	불타는 숨결 II			불타는 숨결에 의해 2s마다 HP가 -467씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501022	HPChange	-645	0	abs	10000	2	-645	불타는 숨결 III			불타는 숨결에 의해 2s마다 HP가 -645씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501023	HPChange	-890	0	abs	10000	2	-890	불타는 숨결 IV			불타는 숨결에 의해 2s마다 HP가 -890씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501024	HPChange	-1228	0	abs	10000	2	-1228	불타는 숨결 V			불타는 숨결에 의해 2s마다 HP가 -1228씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501025	HPChange	-1704	0	abs	10000	2	-1704	불타는 숨결 VI			불타는 숨결에 의해 2s마다 HP가 -1704씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
+501026	HPChange	-2259	0	abs	10000	2	-2259	불타는 숨결 VII			불타는 숨결에 의해 2s마다 HP가 -2259씩 지속적으로 감소됩니다.	icon_skills.burningbreath_tex	DOT	False
 501100	MPChange	0	-172	abs	10000	2	-172	정신 고갈			정신이 점점 메말라 갑니다! 2s마다 MP가 -172씩 지속적으로 감소됩니다.	icon_skills.mpsink_tex	DOT	False
 501101	MPChange	0	-206	abs	10000	2	-206	정신 고갈 II			정신이 점점 메말라 갑니다! 2s마다 MP가 -206씩 지속적으로 감소됩니다.	icon_skills.mpsink_tex	DOT	False
 501150	MPChange	0	-0.25	perc	1000	1	-0.25	정신 고갈			이상상태 툴팁 표시 안됨 (isShow=False) 이 툴팁이 보이면 BTS 처리 필요!	icon_skills.mpsink_tex	DOT	False
@@ -1451,23 +1459,23 @@
 600700	MovSpd	0	0	setp	7000	0	0.8	거미줄 화살			교묘한 거미줄에 걸려 이동 속도가 20% 감소됩니다.	icon_skills.spiderarrow_tex	Debuff	False
 600701	MovSpd	0	0	setp	7000	0	0.7	거미줄 화살			교묘한 거미줄에 걸려 이동 속도가 30% 감소됩니다.	icon_skills.spiderarrow_tex	Debuff	False
 600702	MovSpd	0	0	setp	7000	0	0.67	거미줄 화살 III			교묘한 거미줄에 걸려 이동 속도가 33% 감소됩니다.	icon_skills.spiderarrow_tex	Debuff	False
-600900	HPChange	-270	0	abs	12000	2	-270	맹독의 화살 I			2s마다 HP가 -270씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600901	HPChange	-389	0	abs	12000	2	-389	맹독의 화살 II			2s마다 HP가 -389씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600902	HPChange	-589	0	abs	12000	2	-589	맹독의 화살 III			2s마다 HP가 -589씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600903	HPChange	-849	0	abs	12000	2	-849	맹독의 화살 IV			2s마다 HP가 -849씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600904	HPChange	-1179	0	abs	12000	2	-1179	맹독의 화살 V			2s마다 HP가 -1179씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600905	HPChange	-1626	0	abs	12000	2	-1626	맹독의 화살 VI			2s마다 HP가 -1626씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600906	HPChange	-2360	0	abs	12000	2	-2360	맹독의 화살			2s마다 HP가 -2360씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600900	HPChange	-215	0	abs	12000	2	-215	맹독의 화살 I			2s마다 HP가 -215씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600901	HPChange	-310	0	abs	12000	2	-310	맹독의 화살 II			2s마다 HP가 -310씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600902	HPChange	-456	0	abs	12000	2	-456	맹독의 화살 III			2s마다 HP가 -456씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600903	HPChange	-676	0	abs	12000	2	-676	맹독의 화살 IV			2s마다 HP가 -676씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600904	HPChange	-959	0	abs	12000	2	-959	맹독의 화살 V			2s마다 HP가 -959씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600905	HPChange	-1328	0	abs	12000	2	-1328	맹독의 화살 VI			2s마다 HP가 -1328씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600906	HPChange	-1871	0	abs	12000	2	-1871	맹독의 화살			2s마다 HP가 -1871씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
 600907	HPChange	-3128	0	abs	12000	2	-3128	맹독의 화살 VIII			2s마다 HP가 -3128씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
 600908	HPChange	-3780	0	abs	12000	2	-3780	맹독의 화살 IX			2s마다 HP가 -3780씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600920	HPChange	-232	0	abs	12000	2	-232	맹독의 화살 I			2s마다 HP가 -232씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600921	HPChange	-160	0	abs	12000	2	-160	맹독의 화살 II			2s마다 HP가 -160씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600922	HPChange	-221	0	abs	12000	2	-221	맹독의 화살 III			2s마다 HP가 -221씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600923	HPChange	-306	0	abs	12000	2	-306	맹독의 화살 IV			2s마다 HP가 -306씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600924	HPChange	-422	0	abs	12000	2	-422	맹독의 화살 V			2s마다 HP가 -422씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600925	HPChange	-583	0	abs	12000	2	-583	맹독의 화살 VI			2s마다 HP가 -583씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600926	HPChange	-813	0	abs	12000	2	-813	맹독의 화살			2s마다 HP가 -813씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
-600927	HPChange	-1078	0	abs	12000	2	-1078	맹독의 화살 VIII			2s마다 HP가 -1078씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600920	HPChange	-95	0	abs	12000	2	-95	맹독의 화살 I			2s마다 HP가 -95씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600921	HPChange	-131	0	abs	12000	2	-131	맹독의 화살 II			2s마다 HP가 -131씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600922	HPChange	-249	0	abs	12000	2	-249	맹독의 화살 III			2s마다 HP가 -249씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600923	HPChange	-345	0	abs	12000	2	-345	맹독의 화살 IV			2s마다 HP가 -345씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600924	HPChange	-476	0	abs	12000	2	-476	맹독의 화살 V			2s마다 HP가 -476씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600925	HPChange	-660	0	abs	12000	2	-660	맹독의 화살 VI			2s마다 HP가 -660씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600926	HPChange	-1078	0	abs	12000	2	-1078	맹독의 화살			2s마다 HP가 -1078씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
+600927	HPChange	-1427	0	abs	12000	2	-1427	맹독의 화살 VIII			2s마다 HP가 -1427씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
 600928	HPChange	-1427	0	abs	12000	2	-1427	맹독의 화살 IX			2s마다 HP가 -1427씩 지속적으로 감소됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_skills.venomarrow_tex	DOT	False
 601000	MovSpd	0	0	setp	4000	0	0.5	견제 사격 I			이동 속도가 50%, 공격 속도가 15% 감소됩니다.	icon_skills.contaningshot_tex	Debuff	False
 601000	ASpd	0	0	perc	4000	0	0.85	견제 사격 I			이동 속도가 50%, 공격 속도가 15% 감소됩니다.	icon_skills.contaningshot_tex	Debuff	False
@@ -1516,6 +1524,7 @@
 700406	HPChange	0	0	abs	10000	1	0	회복탄 VII			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.healshot_tex	Buff	True
 700407	HPChange	0	0	abs	10000	1	0	회복탄 VIII			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.healshot_tex	Buff	True
 700408	HPChange	0	0	abs	10000	1	0	회복탄 IX			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.healshot_tex	Buff	True
+700409	HPChange	0	0	abs	10000	1	0	회복탄 X			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.healshot_tex	Buff	True
 700500	MovSpd	0	0	setp	6000	0	0.5	구속탄 I			알 수 없는 힘에 의해 몸이 무거워져 이동 속도가 50% 감소됩니다.	icon_skills.slowball_tex	Debuff	False
 700501	MovSpd	0	0	setp	6000	0	0.4	구속탄 II			알 수 없는 힘에 의해 몸이 무거워져 이동 속도가 60% 감소됩니다.	icon_skills.slowball_tex	Debuff	False
 700600	MPChange	0	-30	abs	0	2	-30	분노의 결계			자신을 포함한 주변 30m 범위 내 파티원들에게 광기의 힘 효과를 부여합니다. 스킬을 활성화하고 있는 동안 2 마다 -30씩 지속적으로 MP가 감소 합니다.	icon_skills.criticalupaura_tex	Buff	True
@@ -1528,26 +1537,8 @@
 700701	MPChange	0	-30	abs	0	2	-30	신속의 결계 II			자신을 포함한 주변 30m 범위 내 파티원들에게 신속의 결계 효과를 부여합니다. 스킬을 활성화하고 있는 동안 2 마다 -30씩 지속적으로 MP가 감소 합니다.	icon_skills.speedupaura_tex	Buff	True
 700730	MovSpd	0	0	perc	0	0	1.1	신속의 결계 I			이동 속도가 10% 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_status.plusmove_tex	Buff	True
 700731	MovSpd	0	0	perc	0	0	1.3	신속의 결계 II			이동 속도가 30% 향상됩니다. 시전자 주변 30m 범위 내에 있을 때만 결계 효과를 받을 수 있습니다.	icon_status.plusmove_tex	Buff	True
-700800	HPChange	-40	0	abs	10000	2	-40	고통의 주박			2s마다 HP가 -40씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700801	HPChange	-62	0	abs	10000	2	-62	고통의 주박			2s마다 HP가 -62씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700802	HPChange	-96	0	abs	10000	2	-96	고통의 주박			2s마다 HP가 -96씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700803	HPChange	-138	0	abs	10000	2	-138	고통의 주박			2s마다 HP가 -138씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700804	HPChange	-205	0	abs	10000	2	-205	고통의 주박			2s마다 HP가 -205씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700805	HPChange	-289	0	abs	10000	2	-289	고통의 주박			2s마다 HP가 -289씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700806	HPChange	-417	0	abs	10000	2	-417	고통의 주박			2s마다 HP가 -417씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700807	HPChange	-578	0	abs	10000	2	-578	고통의 주박			2s마다 HP가 -578씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700808	HPChange	-817	0	abs	10000	2	-817	고통의 주박 IX			2s마다 HP가 -817씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700809	HPChange	-1238	0	abs	10000	2	-1238	고통의 주박			2s마다 HP가 -1238씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700820	HPChange	-41	0	abs	10000	2	-41	고통의 주박 I			2s마다 HP가 -41씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700821	HPChange	-63	0	abs	10000	2	-63	고통의 주박 II			2s마다 HP가 -63씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700822	HPChange	-86	0	abs	10000	2	-86	고통의 주박 III			2s마다 HP가 -86씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700823	HPChange	-133	0	abs	10000	2	-133	고통의 주박 IV			2s마다 HP가 -133씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700824	HPChange	-191	0	abs	10000	2	-191	고통의 주박 V			2s마다 HP가 -191씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700825	HPChange	-283	0	abs	10000	2	-283	고통의 주박 VI			2s마다 HP가 -283씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700826	HPChange	-399	0	abs	10000	2	-399	고통의 주박 VII			2s마다 HP가 -399씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700827	HPChange	-576	0	abs	10000	2	-576	고통의 주박 VIII			2s마다 HP가 -576씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700828	HPChange	-802	0	abs	10000	2	-802	고통의 주박 IX			2s마다 HP가 -802씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
-700829	HPChange	-1212	0	abs	10000	2	-1212	고통의 주박			2s마다 HP가 -1212씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
+700800	HPChange	-1238	0	abs	10000	2	-1238	고통의 주박			2s마다 HP가 -1238씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
+700820	HPChange	-1212	0	abs	10000	2	-1212	고통의 주박 I			2s마다 HP가 -1212씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	DOT	False
 700900	MPChange	0	100	abs	20000	1	100	마력 회복 I			1s마다 MP가 100씩 점차 회복됩니다. 효과 시간 중 공격을 받거나 전투용 스킬 및 전투용 아이템을 사용하면 효과는 즉시 해제됩니다.	icon_skills.mpcharge_tex	Buff	True
 701000	HPChange	70	0	abs	10000	2	70	정령의 가호 I			2s마다 HP가 70씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	Buff	True
 701001	HPChange	88	0	abs	10000	2	88	정령의 가호 II			2s마다 HP가 88씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	Buff	True
@@ -1613,9 +1604,41 @@
 701605	HPChange	529	0	abs	15000	2	529	영기 소환 - 보호 I			소횐된 영기로 인해 2s마다 HP가 529씩 점차 회복됩니다.	icon_skills.energiesofprotection_tex	Buff	True
 701607	HPChange	700	0	abs	15000	2	700	영기 소환 - 보호 II			소횐된 영기로 인해 2s마다 HP가 700씩 점차 회복됩니다.	icon_skills.energiesofprotection_tex	Buff	True
 701700	Endurance	0	0	perc	20000	0	0.95	역병 창궐			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
-701701	Endurance	0	0	perc	20000	0	0.95	역병 창궐 I			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
-701800	HPChange	-15086	0	abs	5000	1	-15086	역병 창궐 I			역병에 감염되었습니다. 지속적으로 -15086만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
-701801	HPChange	-1953	0	abs	5000	1	-1953	역병 창궐 I			역병에 감염되었습니다. 지속적으로 -1953만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701701	Endurance	0	0	perc	20000	0	0.95	역병 창궐 II			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701702	Endurance	0	0	perc	20000	0	0.95	역병 창궐 III			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701703	Endurance	0	0	perc	20000	0	0.95	역병 창궐 IV			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701704	Endurance	0	0	perc	20000	0	0.95	역병 창궐 V			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701705	Endurance	0	0	perc	20000	0	0.95	역병 창궐 VI			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701706	Endurance	0	0	perc	20000	0	0.95	역병 창궐 VII			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701707	Endurance	0	0	perc	20000	0	0.95	역병 창궐 VIII			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701708	Endurance	0	0	perc	20000	0	0.95	역병 창궐 IX			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701720	Endurance	0	0	perc	20000	0	0.95	역병 창궐 I			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701721	Endurance	0	0	perc	20000	0	0.95	역병 창궐 II			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701722	Endurance	0	0	perc	20000	0	0.95	역병 창궐 III			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701723	Endurance	0	0	perc	20000	0	0.95	역병 창궐 IV			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701724	Endurance	0	0	perc	20000	0	0.95	역병 창궐 V			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701725	Endurance	0	0	perc	20000	0	0.95	역병 창궐 VI			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701726	Endurance	0	0	perc	20000	0	0.95	역병 창궐 VII			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701727	Endurance	0	0	perc	20000	0	0.95	역병 창궐 VIII			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701728	Endurance	0	0	perc	20000	0	0.95	역병 창궐 IX			20s동안 역병의 숙주가 되어 맷집이 5%만큼 감소됩니다. 숙주는 정화 스킬로 해제가 불가능하며, 주변 7m 내의 아군에게 역병을 전파합니다. 	icon_skills.plague_tex	Debuff	False
+701800	HPChange	-1141	0	abs	5000	1	-1141	역병 창궐 I			역병에 감염되었습니다. 지속적으로 -1141만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701801	HPChange	-1585	0	abs	5000	1	-1585	역병 창궐 II			역병에 감염되었습니다. 지속적으로 -1585만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701802	HPChange	-2202	0	abs	5000	1	-2202	역병 창궐 III			역병에 감염되었습니다. 지속적으로 -2202만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701803	HPChange	-3059	0	abs	5000	1	-3059	역병 창궐 IV			역병에 감염되었습니다. 지속적으로 -3059만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701804	HPChange	-4248	0	abs	5000	1	-4248	역병 창궐 V			역병에 감염되었습니다. 지속적으로 -4248만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701805	HPChange	-5900	0	abs	5000	1	-5900	역병 창궐 VI			역병에 감염되었습니다. 지속적으로 -5900만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701806	HPChange	-8194	0	abs	5000	1	-8194	역병 창궐 VII			역병에 감염되었습니다. 지속적으로 -8194만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701807	HPChange	-11380	0	abs	5000	1	-11380	역병 창궐 VIII			역병에 감염되었습니다. 지속적으로 -11380만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701808	HPChange	-15086	0	abs	5000	1	-15086	역병 창궐 IX			역병에 감염되었습니다. 지속적으로 -15086만큼 피해를 받습니다.	icon_skills.plague_tex	DOT	False
+701820	HPChange	-141	0	abs	5000	1	-141	역병 창궐 I			역병에 감염되었습니다. 지속적으로 -141만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701821	HPChange	-196	0	abs	5000	1	-196	역병 창궐 II			역병에 감염되었습니다. 지속적으로 -196만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701822	HPChange	-272	0	abs	5000	1	-272	역병 창궐 III			역병에 감염되었습니다. 지속적으로 -272만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701823	HPChange	-378	0	abs	5000	1	-378	역병 창궐 IV			역병에 감염되었습니다. 지속적으로 -378만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701824	HPChange	-525	0	abs	5000	1	-525	역병 창궐 V			역병에 감염되었습니다. 지속적으로 -525만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701825	HPChange	-729	0	abs	5000	1	-729	역병 창궐 VI			역병에 감염되었습니다. 지속적으로 -729만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701826	HPChange	-1012	0	abs	5000	1	-1012	역병 창궐 VII			역병에 감염되었습니다. 지속적으로 -1012만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701827	HPChange	-1406	0	abs	5000	1	-1406	역병 창궐 VIII			역병에 감염되었습니다. 지속적으로 -1406만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
+701828	HPChange	-1953	0	abs	5000	1	-1953	역병 창궐 IX			역병에 감염되었습니다. 지속적으로 -1953만큼 피해를 받으며, HP회복량이 10%만큼 감소합니다. 	icon_skills.plague_tex	DOT	False
 757002	ASpd	0	0	perc	0	0	1	타올라라			돌거인이 분노하여 몸에 불이 붙었습니다. 반경 21m안에 위치한 대상은 '열기' 이상상태를 획득합니다.	icon_status.firedamage_tex	Buff	False
 757004	HPChange	-0.03	0	perc	2000	1	-0.03	열기			돌거인의 뜨거운 열기에 몸이 녹아내리는 것 같습니다.	icon_status.firedamage_tex	Stun	True
 757005	HPChange	-0.1	0	perc	20000	2	-0.1	꺼지지 않는 불			용암의 강력한 열기에 몸이 불타고 있습니다.	icon_status.firedamage_tex	Stun	False
@@ -1821,17 +1844,8 @@
 801001	DefPotion	0	0	perc	10000	0	0.7	수호자의 성역 II			원거리 공격에 의한 피해가 30% 감소 되며 상태약화, 지속피해 이상상태 저항이 100% 향상되며  행동불능 이상상태 저항 수치가 높게 향상 됩니다	icon_skills.guardianaura_tex	Buff	True
 801100	HPChange	0.018	0	perc	10000	1	0.018	쾌유의 가호 I			1s마다 전체 HP 기준 1.8%씩 HP가 지속적으로 회복됩니다.	icon_skills.restoration_tex	Buff	True
 801101	HPChange	0.02	0	perc	10000	1	0.02	쾌유의 가호 II			1s마다 전체 HP 기준 2%씩 HP가 지속적으로 회복됩니다.	icon_skills.restoration_tex	Buff	True
-801400	HPChange	136	0	abs	5000	1	136	재생의 성역 I			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801401	HPChange	181	0	abs	5000	1	181	재생의 성역 II			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801402	HPChange	235	0	abs	5000	1	235	재생의 성역 III			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801403	HPChange	298	0	abs	5000	1	298	재생의 성역 IV			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801404	HPChange	366	0	abs	5000	1	366	재생의 성역 V			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801405	HPChange	431	0	abs	5000	1	431	재생의 성역 VI			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801406	HPChange	489	0	abs	5000	1	489	재생의 성역 VII			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801407	HPChange	533	0	abs	5000	1	533	재생의 성역 VIII			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801408	HPChange	559	0	abs	5000	1	559	재생의 성역 IX			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801409	HPChange	575	0	abs	5000	1	575	재생의 성역			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
-801410	HPChange	588	0	abs	5000	1	588	재생의 성역 XI			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
+801400	HPChange	575	0	abs	5000	1	575	재생의 성역 I			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
+801401	HPChange	588	0	abs	5000	1	588	재생의 성역 II			1s마다 HP가 지속적으로 회복됩니다.	icon_skills.sanctuaryofregeneration_tex	Buff	True
 801500	Power	0	0	abs	20000	0	20	신성의 번개 I			힘이 20 증가하고, 공격 속도도 8 향상됩니다.	icon_skills.divinelightning_tex	Buff	True
 801500	ASpd	0	0	abs	20000	0	8	신성의 번개 I			힘이 20 증가하고, 공격 속도도 8 향상됩니다.	icon_skills.divinelightning_tex	Buff	True
 801501	Power	0	0	abs	20000	0	28	신성의 번개 II			힘이 28 증가하고, 공격 속도도 8 향상됩니다.	icon_skills.divinelightning_tex	Buff	True
@@ -2065,6 +2079,8 @@
 950517	Endurance	0	0	perc	1	0	1	분진 밀집			곧 분진에 뒤덮입니다.	icon_status.vergosdust_tex	DOT	True
 950518	Endurance	0	0	perc	1000	0	1	앞발의 상처			베르고스의 앞발에 피격되어 상처가 벌어졌습니다. 다시 한번 해당 공격에 맞으면 폭발합니다.	icon_status.damageup_tex	Buff	True
 950519	Endurance	0	0	perc	1000	0	1	뒷발의 상처			베르고스의 뒷발에 피격되어 상처가 벌어졌습니다. 다시 한번 해당 공격에 맞으면 폭발합니다.	icon_status.damagedown_tex	Buff	True
+950600	Power	0	0	abs	0	0	23	여신의 가호			벨릭 여신의 가호가 느껴집니다. 더욱 강력해진 느낌입니다.	icon_skills.tranquility_tex	Buff	True
+950600	Endurance	0	0	abs	0	0	23	여신의 가호			벨릭 여신의 가호가 느껴집니다. 더욱 강력해진 느낌입니다.	icon_skills.tranquility_tex	Buff	True
 975031	HPChange	-0.01	0	perc	5000	1	-0.01	냉온찜질			화염과 냉기가 적절히 섞이면 피가 깎입니다	icon_status.poisonstatus_tex	Debuff	False
 975039	MovSpdInCombat	0	0	perc	5000	0	2	켈사이크의둥지_전용_중간보스이속증가_효과			주변 5m 범위 아군에게 이동속도 증가	icon_status.plusmove_tex	Debuff	True
 975041	DefPotion	0	0	perc	5000	0	0	켈사이크의둥지_전용_보스주변무적_효과			주변 10m 범위 아군에게 무적 보호막	icon_status.plusedefence_tex	Debuff	True
@@ -2472,6 +2488,11 @@
 45000039	ASpd	0	0	perc	0	0	5	발광			카슈바르가 미쳐 날뛰고 있습니다. 더 이상 카슈바르를 막는 것은 불가능해 보입니다. 카슈바르의 힘이 1000% 향상되며 공격 속도가 5배 증가됩니다.	icon_status.diseaseup_tex	Buff	True
 45000116	Resurrect	0	0	seta	5000	0	1	벨릭의 은총			벨릭의 은총으로 지속 시간 내에 사망 시 그 자리에서 즉시 부활할 수 있습니다.	icon_skills.selfpreresurrection_tex	Buff	True
 45000120	Block	0	0	swch	5000	0	0	고소공포증			고소공포증 증상으로 스킬 사용이 일시적으로 제한됩니다.	icon_status.fearstatus_tex	Buff	True
+46600002	Endurance	0	0	perc	0	0	1000	데모로스의 압도			주사위를 굴리는 데모로스는 방해를 받지 않습니다. 데모로스의 방어력이 1000배 증가합니다.	icon_status.plusedefence_tex	Buff	True
+46600018	HPChange	-0.1	0	perc	15000	2	-0.1	데모로스의 저주			2s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소됩니다.	icon_status.injuredbtdarkness_tex	DOT	False
+46600079	Endurance	0	0	perc	25000	0	1000	데모로스의 광기			데모로스가 이공간으로 이동 할 준비를 합니다. 방어력이 1000배 증가합니다.	icon_status.plusedefence_tex	Buff	True
+46600099	HPChange	0.0035	0	perc	600000	1	0.0035	이공간 흡수			1s마다 전체 HP 대비 0.35%에 달하는 HP가 지속적으로 회복됩니다.	icon_skills.refreshbless_tex	Buff	True
+46600113	HPChange	-0.1	0	perc	10000	1	-0.1	투르가스가 할퀸 상처			1s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소됩니다.	icon_status.injuredbtdarkness_tex	DOT	False
 47300100	HPChange	-0.5	0	perc	600000	60	-0.5	맹독 진액			치명적인 독에 중독되어 60s마다 전체 HP 대비 50%에 달하는 HP가 지속적으로 감소됩니다. 맹독 진액은 해제 할 수 없습니다.	icon_status.poisonstatus_tex	DOT	False
 47300200	HPChange	-0.05	0	perc	60000	3	-0.05	툴사의 맹독			치명적인 독에 중독되어 3s마다 전체 HP 대비 5%에 달하는 HP가 지속적으로 감소됩니다. 툴사의 맹독은 해제 할 수 없습니다.	icon_status.poisonstatus_tex	DOT	False
 47300300	HPChange	-0.3	0	perc	5000	4	-0.3	툴사의 독			툴사의 독이 온 몸에 퍼져 나가고 있습니다! 4s 후에 전체 HP 대비 30%에 달하는 피해를 입게 됩니다. 툴사의 독은 해제 할 수 없습니다.	icon_status.poisonstatus_tex	DOT	False
@@ -3700,7 +3721,7 @@
 98000095	HPChange	50000	0	abs	1000	1	50000	사제의 손길			체력이 3만 회복됩니다.	icon_items.potion5_tex	Buff	True
 98000100	Power	0	0	abs	10000000	0	25	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 아룬의 축복III, 샤라의 축복V, 신성의 번개가 적용됩니다. 힘25, 맷집11, 체력 지속 회복, 모든 이상상태 저항5, 힘40, 공속8 효과를 얻었습니다.	icon_skills.attackup_tex	Buff	True
 98000100	Endurance	0	0	abs	10000000	0	11	사제 버프 물약	96000	테스트용 물약_사제 버프	사제 버프 - 아룬의 축복III, 샤라의 축복V, 신성의 번개가 적용됩니다. 힘25, 맷집11, 체력 지속 회복, 모든 이상상태 저항5, 힘40, 공속8 효과를 얻었습니다.	icon_skills.attackup_tex	Buff	True
-98000101	Power	0	0	abs	0	0	40	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계II, 광기의 가호III, 안개의 결계IV, 수호의 정령 문장 맷집 증가가 적용됩니다. 치명타유발 2.2배, 힘40, 공속6, 치명타 저항40%, 맷집 10% 효과를 얻었습니다. 광기의 가호는 사제 버프 중 신성의 번개에 하위 중복됩니다.	icon_status.plusecritical_tex	Buff	True
+98000101	Power	0	0	abs	0	0	48	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계II, 광기의 가호III, 안개의 결계IV, 수호의 정령 문장 맷집 증가가 적용됩니다. 치명타유발 2.2배, 힘40, 공속6, 치명타 저항40%, 맷집 10% 효과를 얻었습니다. 광기의 가호는 사제 버프 중 신성의 번개에 하위 중복됩니다.	icon_status.plusecritical_tex	Buff	True
 98000101	Endurance	0	0	perc	10000000	0	1.1	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계II, 광기의 가호III, 안개의 결계IV, 수호의 정령 문장 맷집 증가가 적용됩니다. 치명타유발 2.2배, 힘40, 공속6, 치명타 저항40%, 맷집 10% 효과를 얻었습니다. 광기의 가호는 사제 버프 중 신성의 번개에 하위 중복됩니다.	icon_status.plusecritical_tex	Buff	True
 98000101	Crit	0	0	perc	10000000	0	2.2	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계II, 광기의 가호III, 안개의 결계IV, 수호의 정령 문장 맷집 증가가 적용됩니다. 치명타유발 2.2배, 힘40, 공속6, 치명타 저항40%, 맷집 10% 효과를 얻었습니다. 광기의 가호는 사제 버프 중 신성의 번개에 하위 중복됩니다.	icon_status.plusecritical_tex	Buff	True
 98000101	CritResist	0	0	perc	0	0	1.4	정령사 버프 물약	96001	테스트용 물약_정령사 버프	정령사 버프 - 분노의 결계II, 광기의 가호III, 안개의 결계IV, 수호의 정령 문장 맷집 증가가 적용됩니다. 치명타유발 2.2배, 힘40, 공속6, 치명타 저항40%, 맷집 10% 효과를 얻었습니다. 광기의 가호는 사제 버프 중 신성의 번개에 하위 중복됩니다.	icon_status.plusecritical_tex	Buff	True
