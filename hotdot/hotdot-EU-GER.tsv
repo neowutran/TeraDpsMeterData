@@ -32,6 +32,7 @@
 602	ASpd	Buff	True	abs	0	0	6	Kraft der Raserei II			Erhöht die Kraft um 25 und die Angriffsgeschwindigkeit um 6. Nur wer sich innerhalb eines Radius von 30m um den Anwender befindet, erhält den Effekt der Aura.	icon_skills.rage_tex
 603	Power	Buff	True	abs	0	0	40	Kraft der Raserei III			Erhöht die Kraft um 40 und die Angriffsgeschwindigkeit um 6. Nur wer sich innerhalb eines Radius von 30m um den Anwender befindet, erhält den Effekt der Aura.	icon_skills.rage_tex
 603	ASpd	Buff	True	abs	0	0	6	Kraft der Raserei III			Erhöht die Kraft um 40 und die Angriffsgeschwindigkeit um 6. Nur wer sich innerhalb eines Radius von 30m um den Anwender befindet, erhält den Effekt der Aura.	icon_skills.rage_tex
+901	Endurance	Buff	False	perc	20000	0	1	Sharas Peitsche			Betäubt. Bewegungsunfähig.	icon_skills.flashball_tex
 902	Noctenium	Buff	True	swch	0	0	1	Nokteniuminfusion	1300	Nokteniuminfusion	Die Nokteniuminfusion wird verwendet, um den Fertigkeitseffekt zu erhöhen.	icon_items.union_supplies5_tex
 903	Power	Buff	True	abs	30000	0	15	Tötungsabsicht			Erhöht die Kraft um 15, die Angriffsgeschwindigkeit um 8%, den kritischen Trefferwert um 4% und die Bewegungsgeschwindigkeit um 4%.	icon_skills.battlefield_high_ranking_tex
 903	MovSpd	Buff	True	perc	30000	0	1.04	Tötungsabsicht			Erhöht die Kraft um 15, die Angriffsgeschwindigkeit um 8%, den kritischen Trefferwert um 4% und die Bewegungsgeschwindigkeit um 4%.	icon_skills.battlefield_high_ranking_tex
@@ -856,14 +857,14 @@
 33170	HPChange	Buff	True	perc	12000	1	0.03	Mondsegen(Glyphe der Erneuerung)			Heilt immer nach 1s 2% der Gesamt-LP.	icon_skills.moongracebuff_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	Mondumbra(Glyphe der Kraft)			Erhöht den Fertigkeitsschaden des nächsten Angriffes um 30%.	icon_skills.mooncatch_tex
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	Kettenglyphe [Kraftvoller Lunasonus]			Erhöht den Schaden von Lunasonus um 25%.	icon_skills.moongravity_tex
-46705	Endurance	Debuff	True	perc	60000	0	0.95	Unheil			Durch einen Säureangriff wird die Verteidigung verringert. Dieser Effekt akkumuliert und kann nicht aufgehoben werden.	icon_status.minusdefence_tex
+46705	Endurance	Debuff	True	perc	60000	0	0.9	Unheil			Durch einen Säureangriff wird die Verteidigung verringert. Dieser Effekt akkumuliert und kann nicht aufgehoben werden.	icon_status.minusdefence_tex
 46706	Endurance	Debuff	True	perc	60000	0	0.85	Großes Unheil			Durch einen Säureangriff wird die Verteidigung stark verringert. Dieser Effekt akkumuliert und kann nicht aufgehoben werden.	icon_status.minusdefence_tex
 46750	Power	Buff	True	perc	180000	0	1.2	Aufflammender Zorn			Aufflammender Zorn erhöht Eure Kraft um 20% und Eure Verteidigung um 20%.	icon_status.archerspirit_tex
 46750	Endurance	Buff	True	perc	180000	0	1.2	Aufflammender Zorn			Aufflammender Zorn erhöht Eure Kraft um 20% und Eure Verteidigung um 20%.	icon_status.archerspirit_tex
 46751	Endurance	Buff	True	perc	20000	0	1.2	Verstärkte Rüstung			Erhöht die Verteidigung um 20%.	icon_status.balanceup_tex
 46753	Endurance	Buff	True	perc	20000	0	1.2	Gebrüll			Wenn Gebrüll innerhalb der Dauer noch ein weiteres Mal akkumuliert wird, erhaltet ihr den Effekt "Verstärkte Rüstung".	icon_status.angerwarrior_tex
 46755	MovSpd	Buff	True	perc	15000	0	2	Besessenheit			Die gegenseitige Zuneigung wird verstärkt. Ihr seid immun gegen schädliche Effekte und habt keine Angriffsresistenz.	icon_skills.recallfriend_tex
-46756	HPChange	DOT	True	abs	30000	2	-5000	Fauliges Wasser			Ihr erleidet alle 2 Sekunden 5.000 Schaden.	icon_status.purifydagon_tex
+46756	HPChange	DOT	True	abs	30000	2	-15000	Fauliges Wasser			Ihr erleidet alle 2 Sekunden 15.000 Schaden.	icon_status.purifydagon_tex
 46761	Power	Stun	False	perc	30000	0	0.5	Kontaminiertes Wasser			Eine seltsame Aura schwächt Euch. Verringert die Kraft um 50% und die Angriffsgeschwindigkeit um 70%.	icon_items.q_greenmucus_tex
 46761	ASpd	Stun	False	perc	30000	0	0.3	Kontaminiertes Wasser			Eine seltsame Aura schwächt Euch. Verringert die Kraft um 50% und die Angriffsgeschwindigkeit um 70%.	icon_items.q_greenmucus_tex
 46762	MovSpdInCombat	Buff	True	abs	30000	0	40	Unerklärlich	46701	Experimentelle Flüssigkeit	Immun gegen alle schädlichen Effekte. Erhöht die Bewegungsgeschwindigkeit, aber die Angriffsstärke wird erheblich verringert.	icon_status.confusestatusnpc_tex
@@ -893,7 +894,7 @@
 60008	HPChange	DOT	False	abs	5000	1	-227	Waffe: Giftigkeit			Zieht immer nach 1s -227 LP ab.	icon_status.poisonstatus_tex
 60009	MovSpd	DOT	False	perc	5000	0	0.8	Waffe: Blitz			Verringert die Bewegungsgeschwindigkeit um 20% und zieht immer nach 1 -882 LP ab.	icon_status.minusmove_tex
 60009	HPChange	DOT	False	abs	5000	1	-882	Waffe: Blitz			Verringert die Bewegungsgeschwindigkeit um 20% und zieht immer nach 1 -882 LP ab.	icon_status.minusmove_tex
-60010	Endurance	Debuff	False	perc	20000	0	0.9	Rüstung: Wirbelsturm			Starker Wind verringert die Verteidigung um 10%.	icon_skills.armorbreak_tex
+60010	Endurance	Debuff	False	perc	20000	0	0.93	Rüstung: Wirbelsturm			Starker Wind verringert die Verteidigung um 7%.	icon_skills.armorbreak_tex
 60011	HPChange	DOT	False	abs	5000	1	-351	Rüstung: Dornengriff			Blutung. Zieht immer nach 1s -351 LP ab.	icon_status.minuscriticalresist_tex
 60012	Endurance	Buff	True	perc	60000	0	1.1	Rüstung: Rückenschild			Erhöht die Konstitution um 10%.	icon_status.plusedefence_tex
 60013	HPChange	Buff	True	perc	10000	1	0.03	Rüstung: Lebenswoge			Stellt immer nach 1s 3% der maximalen LP wieder her.	icon_items.potion1_tex
@@ -918,7 +919,7 @@
 60027	HPChange	Buff	True	abs	15000	1	1405	Wiederherstellend IV			Stellt immer nach 1s 1405 LP und 145 MP wieder her.	icon_items.body_enchant_scroll_3_tex
 60027	MPChange	Buff	True	abs	15000	1	145	Wiederherstellend IV			Stellt immer nach 1s 1405 LP und 145 MP wieder her.	icon_items.body_enchant_scroll_3_tex
 60029	MPChange	Buff	True	perc	10000	1	0.05	Konzentration des Geistes II			Stellt immer nach 1s 5% der maximalen MP wieder her.	icon_skills.neutralizepoison_tex
-60030	MPChange	Buff	True	perc	10000	1	0.03	Konzentration des Geistes I			Zieht immer nach 1s 3% der maximalen MP ab.	icon_skills.neutralizepoison_tex
+60030	MPChange	Buff	True	perc	10000	1	0.03	Konzentration des Geistes I			Stellt immer nach 1s 3% der maximalen MP wieder her.	icon_skills.neutralizepoison_tex
 70201	MaxHP	Buff	True	perc	900000	0	1.05	Röstmais	71415	Röstmais	Erhöht die maximalen LP um 5%.	icon_items.fallfestival_popcorn_tex
 70202	HPChange	Buff	True	perc	900000	5	0.01	Kartoffelsalat	71416	Kartoffelsalat	Stellt immer nach 5s 1% Eurer maximalen LP wieder her.	icon_items.fallfestival_potatosalad_tex
 70203	MPChange	Buff	True	perc	900000	5	0.01	Gegrilltes Ferkel	71417	Gegrilltes Ferkel	Stellt immer nach 5s 1% Eurer maximalen MP wieder her.	icon_items.q_roastmeat_tex
@@ -962,7 +963,7 @@
 70459	ASpd	Debuff	True	perc	600000	0	1.01	Aufbäumen			Grindella kann ihren Hunger nicht länger ertragen und bäumt sich auf. Mit jedem Aufbäumen erhöht sich ihre Angriffsgeschwindigkeit um  1%. Dieser Effekt kann nicht beendet werden.	icon_status.plusattack_tex
 70461	MovSpd	Debuff	False	setp	7000	0	0.8	Elektroschock			Durch den Elektroschock verringert sich die Bewegungsgeschwindigkeit um  20%.	icon_status.plusfocus_tex
 70463	HPChange	DOT	False	perc	1000	1	-0.03	Todesgift			Die Vergiftung mit Todesgift verringert die maximalen LP um 3%.	icon_status.poisonstatus_tex
-76756	HPChange	DOT	True	abs	30000	2	-5000	Fauliges Wasser			Ihr erleidet alle 2 Sekunden 5.000 Schaden.	icon_status.purifydagon_tex
+76756	HPChange	DOT	True	abs	30000	2	-7000	Fauliges Wasser			Ihr erleidet alle 2 Sekunden 7.000 Schaden.	icon_status.purifydagon_tex
 76901	Power	Buff	True	perc	0	0	5	Warnung: Wilde Raserei			Nach Ablauf der Dauer verfallt Ihr in wilde Raserei.	icon_status.darkriftwill_tex
 76902	Power	Buff	True	perc	0	0	5	Wilde Raserei			Ihr verfallt in wilde Raserei, sodass Euch niemand aufhalten kann.	icon_status.darkriftarearage_tex
 76902	ASpd	Buff	True	perc	0	0	2	Wilde Raserei			Ihr verfallt in wilde Raserei, sodass Euch niemand aufhalten kann.	icon_status.darkriftarearage_tex
@@ -1517,7 +1518,7 @@
 700602	MPChange	Buff	True	abs	0	2	-30	Aura der Gnadenlosen III			Verleiht Gruppenmitgliedern innerhalb von 30m die Kraft der Gnadenlosen und die Kraft der Raserei. Zieht immer nach 2 -30 MP ab.	icon_skills.criticalupaura_tex
 700603	MPChange	Buff	True	abs	0	2	-30	Aura der Gnadenlosen IV			Verleiht Gruppenmitgliedern innerhalb von 30m die Kraft der Gnadenlosen und die Kraft der Raserei. Zieht immer nach 2 -30 MP ab.	icon_skills.criticalupaura_tex
 700630	Crit	Buff	True	perc	0	0	2	Kraft der Gnadenlosen I			Verdoppelt den kritischen Trefferwert.	icon_status.plusecritical_tex
-700631	Crit	Buff	True	perc	0	0	2.1	Kraft der Gnadenlosen II			Verdoppelt den kritischen Trefferwert.	icon_status.plusecritical_tex
+700631	Crit	Buff	True	perc	0	0	2.2	Kraft der Gnadenlosen II			Erhöht den kritischen Trefferwert um das 2,2-fache. Dieser Effekt betrifft nur Personen, die sich in einem Umkreis von 30m um den Ausführenden befinden.	icon_status.plusecritical_tex
 700700	MPChange	Buff	True	abs	0	2	-30	Aura der Flinken			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Flinken. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.speedupaura_tex
 700701	MPChange	Buff	True	abs	0	2	-30	Aura der Flinken II			Verleiht Gruppenmitgliedern innerhalb von 30m die Aura der Flinken. Für die Aufrechterhaltung werden immer nach 2 -30 MP abgezogen.	icon_skills.speedupaura_tex
 700730	MovSpd	Buff	True	perc	0	0	1.1	Aura der Flinken I			Erhöht die Bewegungsgeschwindigkeit um 10%.	icon_status.plusmove_tex
@@ -1556,9 +1557,13 @@
 701010	HPChange	Buff	True	abs	10000	2	614	Anmut des Geistes XI			Heilt immer nach 2s 614 LP.	icon_skills.summonspiritofheal_tex
 701011	HPChange	Buff	True	abs	10000	2	769	Anmut des Geistes XII			Heilt immer nach 2s 769 LP.	icon_skills.summonspiritofheal_tex
 701012	HPChange	Buff	True	abs	10000	2	914	Anmut des Geistes XIII			Heilt immer nach 2s 914 LP.	icon_skills.summonspiritofheal_tex
+701100	Endurance	Buff	False	perc	20000	0	1	Klangvolle Träume I			Das Ziel fällt in einen tiefen Schlaf. Endet sofort, wenn es getroffen wird.	icon_skills.shackleofquicksand_tex
+701101	Endurance	Buff	False	perc	20000	0	1	Klangvolle Träume			Das Ziel fällt in einen tiefen Schlaf. Endet sofort, wenn es getroffen wird.	icon_skills.shackleofquicksand_tex
 701200	CDR	DOT	False	swch	6000	0	1.2	Fluch der Erschöpfung I			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
 701201	CDR	DOT	False	swch	8000	0	1.2	Fluch der Erschöpfung			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
 701202	CDR	DOT	False	swch	10000	0	1.2	Fluch der Erschöpfung III			Erhöht die Abklingzeit Eurer Fertigkeiten um 20%.	icon_skills.spiritoflassitude_tex
+701300	Endurance	Buff	False	perc	20000	0	1	Fluch der Verwirrung			Flieht in panischer Angst! Der Effekt endet, wenn Ihr niederschlagen werdet. Im PvP endet der Effekt, wenn Ihr angegriffen werdet.	icon_skills.spiritofconfusion_tex
+701320	Endurance	Buff	False	perc	20000	0	1	Fluch der Verwirrung			Flieht in panischer Angst! Der Effekt endet, wenn Ihr niederschlagen werdet. Im PvP endet der Effekt, wenn Ihr angegriffen werdet.	icon_skills.spiritofconfusion_tex
 701400	MovSpd	Stun	False	setp	4000	0	0.1	Morast I			Verringert die Geschwindigkeit um 90% und erhöht den Gleichgewichtsfaktor 4s lang um 100%. Der Effekt endet, wenn das Ziel erheblichen Schaden erleidet oder niedergeschlagen wird.	icon_skills.shackleofstone_tex
 701401	MovSpd	Stun	False	setp	6000	0	0.1	Morast			Verringert die Geschwindigkeit um 90% und erhöht den Gleichgewichtsfaktor 6s lang um 100%. Der Effekt endet, wenn das Ziel erheblichen Schaden erleidet oder niedergeschlagen wird.	icon_skills.shackleofstone_tex
 701420	MovSpd	Stun	False	setp	5500	0	0.1	Morast I			Verringert die Geschwindigkeit um 90% und erhöht den Gleichgewichtsfaktor 5s lang um 100%. Der Effekt endet, wenn das Ziel erheblichen Schaden erleidet oder niedergeschlagen wird.	icon_skills.shackleofstone_tex
@@ -1713,11 +1718,58 @@
 777037	Block	Buff	True	seta	30000	0	0	Demokronmarke			Mit Ausweichen und Bewegung assoziierte Fertigkeiten sind nicht verfügbar.	icon_items.cancel_evade_potion_level_51_tex
 780100	HPChange	DOT	True	abs	10000	1	-1000000	BTS, falls sichtbar			BTS, falls sichtbar	
 780102	HPChange	DOT	True	abs	2000	1	-500000	BTS, falls sichtbar			BTS, falls sichtbar	
-780103	HPChange	DOT	False	perc	15000	1	-0.05	Verbrennung			Blaue Flammen hüllen Euch ein! Verringert Eure Gesamt-LP pro 1s um 7%.	icon_status.minusmp_tex
+780103	HPChange	DOT	False	perc	15000	1	-0.05	Verbrennung			Blaue Flammen hüllen Euch ein! Verringert Eure Gesamt-LP pro 1s um 5%.	icon_status.minusmp_tex
 780104	MovSpd	Debuff	False	perc	15000	0	0.5	Lodernde Füße			Die Lohe verbrennt die Füße. Verringert die Bewegungsgeschwindigkeit um 50%.	icon_skills.kumas_frontroll_tex
 780200	HPChange	DOT	False	perc	10000	1	-0.05	Starke Magensäure			Die starke Magensäure verringert Eure Gesamt-LP pro 1s um 5%.	icon_status.poisonstatus_tex
 780202	HPChange	DOT	False	perc	60000	2	-0.01	Blutung			Ihr erleidet pro 2s 1% Schaden durch eine Blutung.	icon_status.injuredbtdarkness_tex
 780203	HPChange	DOT	False	perc	5000	1	-0.1	Massive Blutung			Veldeg hat euch eine stark blutende Wunde zugefügt. Verringert Eure Gesamt-LP pro 1s um 10%.	icon_status.damagedown_tex
+781001	Power	DOT	True	perc	50000	0	1	Darkans Samen			Darkans Samen wurde gesät! Bei 3-facher Akkumulierung sprießt der Samen und es wird ein Diener beschworen! Dieser Flucht kann nicht aufgehoben werden.	icon_status.injuredbtdarkness_tex
+781002	Power	DOT	False	perc	10000	0	1	Lethargie			Ihr könnt die Fertigkeit nicht verwenden.	icon_status.confuseup_tex
+781003	Power	Buff	False	perc	3000	0	1	Unerfreuliche Attraktivität			Sämtliche feindlichen Objekte werden sich auf Euch stürzen!	icon_status.confuseup_tex
+781004	Power	Buff	False	perc	10000	0	1	Fänger			Ihr seid nun der Fänger! Der Geist verfolgt Euch!	icon_status.injuredbtdarkness_tex
+781010	HPChange	Debuff	False	perc	7000	1	-0.03	Dunkles Herz			Zieht immer nach 1s 3% der Gesamt-LP ab, bis der Effekt aufgehoben wird. Außerdem könnt Ihr keine Fertigkeiten verwenden.	icon_status.fearstatus_tex
+781010	Block	Debuff	False	swch	7000	0	0	Dunkles Herz			Zieht immer nach 1s 3% der Gesamt-LP ab, bis der Effekt aufgehoben wird. Außerdem könnt Ihr keine Fertigkeiten verwenden.	icon_status.fearstatus_tex
+781011	HPChange	DOT	True	perc	15000	3	-0.03	Verbrennung			Zieht immer nach 3s 3% der Gesamt-LP ab. Kann nicht entfernt werden.	icon_status.firedamage_tex
+781016	Power	Debuff	True	perc	6000000	0	1.1	Durions Raserei			Der Wiederbelebte Durion verfällt immer mehr in Raserei! Erhöht die Angriffsstärke um 10% und verringert die Verteidigung um 5%.	icon_skills.gatheringrage_tex
+781016	Endurance	Debuff	True	perc	6000000	0	0.95	Durions Raserei			Der Wiederbelebte Durion verfällt immer mehr in Raserei! Erhöht die Angriffsstärke um 10% und verringert die Verteidigung um 5%.	icon_skills.gatheringrage_tex
+781018	HPChange	DOT	False	seta	17000	17	-300000	Durions Fluch			Zieht immer nach 17s 100% der Gesamt-LP ab. Kann nur mithilfe des Reinigungsgeräts aufgehoben werden!	icon_status.firedamage_tex
+781019	Power	Buff	True	perc	2000	0	1	Fluch aufheben			Durions Fluch wurde aufgehoben!	icon_status.valrhona_sun_tex
+781026	Endurance	Buff	False	perc	14000	0	80	Blutmagie			Ihr wurdet vollkommen von Blutmagie umhüllt. Wenn Ihr den Fluch nicht bannt, wird etwas Schlimmes passieren.	icon_status.cruel_slayer_3_tex
+781027	MovSpd	Debuff	True	perc	10000	0	1	Macht der Dunkelheit			Der Wiederbelebte Durion konzentriert seine Blutmagie auf Euch. Ihr habt eine unheilvolle Vorahnung.	icon_status.minusfocus_tex
+781028	MovSpd	Buff	True	perc	30000	0	0.26	Schild der dunklen Magie			Der Wiederbelebte Durion schützt sich durch dunkle Blutmagie.	icon_skills.manashield_tex
+781028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Schild der dunklen Magie			Der Wiederbelebte Durion schützt sich durch dunkle Blutmagie.	icon_skills.manashield_tex
+781029	MovSpd	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+781029	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+781036	Power	Buff	True	perc	0	0	1.1	Wilde Raserei			Angesichts der Lebensgefahr, in der er erneut schwebt, gerät der Wiederbelebte Darkan in Rage. Erhöht die Angriffsstärke um 10% und die Bewegungsgeschwindigkeit um 5%.	icon_status.archerspirit_tex
+781036	MovSpd	Buff	True	perc	0	0	1.05	Wilde Raserei			Angesichts der Lebensgefahr, in der er erneut schwebt, gerät der Wiederbelebte Darkan in Rage. Erhöht die Angriffsstärke um 10% und die Bewegungsgeschwindigkeit um 5%.	icon_status.archerspirit_tex
+781038	MovSpd	DOT	False	perc	30000	0	0.5	Druck			Durch den Druck, gegen einen Gott kämpfen zu müssen, sinkt die Bewegungsgeschwindigkeit! Kann aufgehoben werden!	icon_status.archerspirit_tex
+781038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Druck			Durch den Druck, gegen einen Gott kämpfen zu müssen, sinkt die Bewegungsgeschwindigkeit! Kann aufgehoben werden!	icon_status.archerspirit_tex
+781040	HPChange	DOT	True	perc	120000	1	-0.07	Schmerz			Da Ihr vom Angriff eines Gottes getroffen wurdet, sinken Eure LP kontinuierlich.	icon_status.firedamage_tex
+781041	Power	DOT	True	perc	120000	0	1	Roter Geschmack			Ihr steht unter dem Effekt "Roter Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff02_tex
+781041	HPChange	DOT	True	seta	1500	1	-300000	Roter Geschmack			Ihr steht unter dem Effekt "Roter Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff02_tex
+781042	Power	DOT	True	perc	120000	0	1	Blauer Geschmack			Ihr steht unter dem Effekt "Blauer Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff01_tex
+781042	HPChange	DOT	True	seta	1500	1	-300000	Blauer Geschmack			Ihr steht unter dem Effekt "Blauer Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff01_tex
+781044	HPChange	DOT	True	seta	1500	1	-300000	Geplanter Tod			Ihr wurdet von Lakans mächtigem Angriff getroffen. Du bist bereits tot, du weißt es nur noch nicht!	icon_status.diseaseup_tex
+781052	Power	Buff	True	perc	0	0	1.4	Gleichgewicht			Lakan sieht, dass es gut ist, und ist zufrieden. Erhöht die Angriffsstärke, die Verteidigung und die Angriffsgeschwindigkeit.	icon_status.archerspirit_tex
+781052	Endurance	Buff	True	perc	0	0	1.1	Gleichgewicht			Lakan sieht, dass es gut ist, und ist zufrieden. Erhöht die Angriffsstärke, die Verteidigung und die Angriffsgeschwindigkeit.	icon_status.archerspirit_tex
+781052	MovSpd	Buff	True	perc	0	0	1.2	Gleichgewicht			Lakan sieht, dass es gut ist, und ist zufrieden. Erhöht die Angriffsstärke, die Verteidigung und die Angriffsgeschwindigkeit.	icon_status.archerspirit_tex
+781055	MovSpd	Debuff	True	setp	5000	0	0	Diebstahl			Ihr habt Lakans Energie geraubt und müsst Euch nicht mehr von ihm ziehen lassen.	icon_skills.voidtrap_tex
+781055	MovSpdInCombat	Debuff	True	setp	5000	0	0	Diebstahl			Ihr habt Lakans Energie geraubt und müsst Euch nicht mehr von ihm ziehen lassen.	icon_skills.voidtrap_tex
+781059	Endurance	Buff	True	perc	0	0	0.9	Ungleichgewicht			Lakan hat das Gleichgewicht verloren und seine Konzentration lässt nach. Verringert die Verteidigung.	icon_status.fearstatus_tex
+781060	HPChange	DOT	True	perc	120000	1	-0.05	Verbrennung			Ihr wurdet von Lakans Angriff getroffen und habt Verbrennungen erlitten. Eure LP verringern sich kontinuierlich.	icon_status.firedamage_tex
+781061	Endurance	DOT	True	perc	6000000	0	0.8	Konzentrationsabfall			Ihr wurdet von Lakans Angriff getroffen und könnt nicht mehr klar denken. Verringert die Verteidigung um 10%. Kann bis zu 5-mal akkumuliert werden.	icon_status.fearstatus_tex
+781081	Power	Debuff	True	perc	20000000	0	1	Nebenwirkungen der Teleportation			Als Nebenwirkung der Teleportation erleidet Ihr 30.000 Schaden.	icon_status.firedamage_tex
+781083	MovSpd	Debuff	True	perc	30000	0	1	Fokussiertes Beobachten			Der Wiederbelebte Durion scheint sich auf Euch zu konzentrieren. Gleich wird etwas Schreckliches passieren!	icon_skills.througharrow_tex
+781087	MovSpd	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+781087	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+781088	MovSpd	Debuff	True	perc	30000	0	1	Beobachten			Der Wiederbelebte Durion beobachtet Euch. Ihr habt ein ungutes Gefühl.	icon_skills.markingofarcher_tex
+781089	Power	Buff	False	perc	990000000	0	1.03	Instabile magische Energie			Der Wiederbelebte Durion lässt die Magie, die er durch Lakans Macht erhalten hat, explodieren. Seine Angriffsstärke und Angriffsgeschwindigkeit sind erhöht, sein Körper ist jedoch von einer instabilen Magie umgeben. Wenn er es schafft, sie zu stabilisieren, habt Ihr keine Chance mehr gegen ihn.	icon_status.darkriftarearage_tex
+781089	ASpd	Buff	False	perc	990000000	0	1.03	Instabile magische Energie			Der Wiederbelebte Durion lässt die Magie, die er durch Lakans Macht erhalten hat, explodieren. Seine Angriffsstärke und Angriffsgeschwindigkeit sind erhöht, sein Körper ist jedoch von einer instabilen Magie umgeben. Wenn er es schafft, sie zu stabilisieren, habt Ihr keine Chance mehr gegen ihn.	icon_status.darkriftarearage_tex
+781093	HPChange	Debuff	False	perc	30000	2	-0.3	Lakans Wut			Ihr wurdet mit einem Fluch belegt, der Eure LP um 30% pro Sekunde verringert.	icon_status.blooduanty_tex
+781099	MovSpd	DOT	True	setp	2000	0	0	Betäubung			Kurz bevor Ihr von Lakans Angriff getroffen wurdet, wurdet Ihr von einer starken Aura überwältigt und betäubt.	icon_status.confuseup_tex
+781099	Block	DOT	True	swch	2000	0	0	Betäubung			Kurz bevor Ihr von Lakans Angriff getroffen wurdet, wurdet Ihr von einer starken Aura überwältigt und betäubt.	icon_status.confuseup_tex
+781111	Endurance	Buff	True	perc	10000	0	1	Lakans Samen			Lakan hat Euch mit einem magischen Samen versehen. Er explodiert nach einer bestimmten Zeit.	icon_status.heat_tex
+781116	Endurance	Buff	True	perc	10000	0	1	Lakans Samen			Lakan hat Euch mit einem magischen Samen versehen. Er explodiert nach einer bestimmten Zeit.	icon_status.heat_tex
 800100	HPChange	Buff	True	abs	10000	2	88	Regenerationskreis I			Heilt immer nach 2s LP.	icon_skills.healingwind_tex
 800101	HPChange	Buff	True	abs	10000	2	111	Regenerationskreis II			Heilt immer nach 2s LP.	icon_skills.healingwind_tex
 800102	HPChange	Buff	True	abs	10000	2	136	Regenerationskreis III			Heilt immer nach 2s LP.	icon_skills.healingwind_tex
@@ -1875,8 +1927,8 @@
 905423	MPChange	DOT	False	perc	180000	1	-0.05	Phrenikusschleim			Verhindert die MP-Regeneration. Dieser Effekt endet, wenn Ihr schwimmen geht.	icon_status.minusmove_tex
 905424	MovSpd	Debuff	True	perc	3000	0	1.4	Quietschsauber			Ihr habt den Schleim fortgespült. Erhöht die Bewegungsgeschwindigkeit um 50%.	icon_status.minushp_tex
 905424	MPChange	Debuff	True	perc	3000	2	0.5	Quietschsauber			Ihr habt den Schleim fortgespült. Erhöht die Bewegungsgeschwindigkeit um 50%.	icon_status.minushp_tex
-905426	Endurance	Stun	False	perc	10000	0	0.45	Urangst			Schrecken verringert die Konstitution um 55% und Ihr könnt keine Aktionen ausführen.	icon_status.fearstatus_tex
-905426	MovSpd	Stun	False	setp	10000	0	0.3	Urangst			Schrecken verringert die Konstitution um 55% und Ihr könnt keine Aktionen ausführen.	icon_status.fearstatus_tex
+905426	Endurance	Stun	False	perc	10000	0	0.6	Urangst			Schrecken verringert die Konstitution um 40% und Ihr könnt keine Aktionen ausführen.	icon_status.fearstatus_tex
+905426	MovSpd	Stun	False	setp	10000	0	0.3	Urangst			Schrecken verringert die Konstitution um 40% und Ihr könnt keine Aktionen ausführen.	icon_status.fearstatus_tex
 905432	HPChange	DOT	False	perc	30000	2	-0.08	Giftig			Vergiftet! Zieht immer nach 2s 8% Eurer maximalen LP ab.	icon_status.poisonstatus_tex
 905433	HPChange	Debuff	False	perc	10000	2	-0.08	Giftige Schmuckfeder			Ihr habt giftige Dämpfe eingeatmet. Zieht immer nach 2s 8% Eurer maximalen LP ab.	icon_status.purifydagon_tex
 905441	Endurance	Debuff	True	perc	0	0	1.2	Weichherzig			Das Herz ist zerbrechlich.	icon_status.battlefieldbuff02_tex
@@ -1995,8 +2047,6 @@
 950340	HPChange	DOT	False	perc	10000	2	-0.15	Wunde durch Wind			Ihr wurdet durch den Flügelschlag von Agares verwundet. Ihr erleidet kontinuierlich Schaden.	icon_status.whirl_tex
 950342	DefPotion	Buff	True	perc	0	0	0.1	Gefahrenbewusstsein			Saleos spürt Gefahr und härtet seinen Panzer. Ihr müsst diesen Effekt aufheben.	icon_status.earthpower_tex
 950343	DefPotion	Buff	True	perc	0	0	0.1	Harter Panzer			Der Panzer von Saleos ist härter geworden, sodass er 90% weniger Schaden erleidet und 20% mehr Schaden zufügt. Der Härte des Panzers nimmt mit jedem Treffer ein wenig ab.	icon_status.earthpower_tex
-950600	Power	Buff	True	abs	0	0	23	Gunst der Göttin			Der strahlende Schutz der Göttin umgibt Euch. Ihr fühlt Euch stärker.	icon_skills.tranquility_tex
-950600	Endurance	Buff	True	abs	0	0	23	Gunst der Göttin			Der strahlende Schutz der Göttin umgibt Euch. Ihr fühlt Euch stärker.	icon_skills.tranquility_tex
 975031	HPChange	Debuff	False	perc	5000	1	-0.01	Heißkaltpackung			Das Mischen von Feuer und Eis entzieht Euch LP.	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	Debuff	True	perc	5000	0	2	Nur für Kelsaiks Nest_Erhöhung der Bewegungsgeschwindigkeit mittlerer Bossmonster_Effekt			Erhöht die Bewegungsgeschwindigkeit aller Verbündeten innerhalb von 5m.	icon_status.plusmove_tex
 975041	DefPotion	Debuff	True	perc	5000	0	0	Nur für Kelsaiks Nest_Unsichtbarkeit um Boss_Effekt			Macht Verbündete innerhalb von 10m unsichtbar.	icon_status.plusedefence_tex
@@ -2018,11 +2068,59 @@
 980103	HPChange	DOT	True	perc	15000	1	-0.07	Verbrennung			Blaue Flammen hüllen Euch ein! Verringert Eure Gesamt-LP pro 1s um 7%.	icon_status.minusmp_tex
 980104	MovSpd	Debuff	False	perc	15000	0	0.5	Lodernde Füße			Die Lohe verbrennt die Füße. Verringert die Bewegungsgeschwindigkeit um 50%.	icon_skills.kumas_frontroll_tex
 980200	HPChange	DOT	False	perc	10000	1	-0.05	Starke Magensäure			Die starke Magensäure verringert Eure Gesamt-LP pro 1s um 5%.	icon_status.poisonstatus_tex
-980202	HPChange	DOT	False	perc	60000	2	-0.01	Blutung			Ihr erleidet pro 2s 1% Schaden durch eine Blutung.	icon_status.injuredbtdarkness_tex
+980202	HPChange	DOT	False	perc	20000	2	-0.05	Blutung			Ihr erleidet pro 2s 5% Schaden durch eine Blutung.	icon_status.injuredbtdarkness_tex
 980203	HPChange	DOT	False	perc	5000	1	-0.1	Massive Blutung			Veldeg hat euch eine stark blutende Wunde zugefügt. Verringert Eure Gesamt-LP pro 1s um 10%.	icon_status.damagedown_tex
 980204	Power	Buff	False	setp	15000	0	3	Flammende Waffe			Veldeg bereitet einen schrecklichen Angriff vor. Wenn Ihr ihn nicht aufhaltet, wird alles zerstört.	icon_skills.downattack_tex
 980205	Power	Buff	False	setp	15000	0	3	Aufflammender Zorn			In seiner Raserei wird Veldeg alles zerstören. Macht Euch bereit zu sterben.	icon_skills.dragonrisingblow_tex
 980206	HPChange	DOT	True	perc	15000	2	-0.1	Quälender Schmerz			Die Flammen versengen Eure Wunde und verzögern die Heilung. Verringert Eure Gesamt-LP pro 2s um 10%.	icon_status.firedamage_tex
+981001	Power	DOT	True	perc	50000	0	1	Darkans Samen			Darkans Samen wurde gesät! Bei 3-facher Akkumulierung sprießt der Samen und es wird ein Diener beschworen! Dieser Flucht kann nicht aufgehoben werden.	icon_status.injuredbtdarkness_tex
+981002	Power	DOT	False	perc	10000	0	1	Lethargie			Ihr könnt die Fertigkeit nicht verwenden.	icon_status.confuseup_tex
+981003	Power	Buff	False	perc	3000	0	1	Unerfreuliche Attraktivität			Sämtliche feindlichen Objekte werden sich auf Euch stürzen!	icon_status.confuseup_tex
+981004	Power	Buff	False	perc	10000	0	1	Fänger			Ihr seid nun der Fänger! Der Geist verfolgt Euch!	icon_status.injuredbtdarkness_tex
+981010	HPChange	Debuff	False	perc	10000	1	-0.08	Dunkles Herz			Zieht immer nach 1s 8% der Gesamt-LP ab, bis der Effekt aufgehoben wird. Außerdem könnt Ihr keine Fertigkeiten verwenden.	icon_status.fearstatus_tex
+981010	Block	Debuff	False	swch	10000	0	0	Dunkles Herz			Zieht immer nach 1s 8% der Gesamt-LP ab, bis der Effekt aufgehoben wird. Außerdem könnt Ihr keine Fertigkeiten verwenden.	icon_status.fearstatus_tex
+981011	HPChange	DOT	True	perc	15000	3	-0.1	Verbrennung			Zieht immer nach 3s 10% der Gesamt-LP ab. Kann nicht entfernt werden.	icon_status.firedamage_tex
+981016	Power	Debuff	True	perc	6000000	0	1.1	Durions Raserei			Der Wiederbelebte Durion verfällt immer mehr in Raserei! Erhöht die Angriffsstärke um 10% und verringert die Verteidigung um 5%.	icon_skills.gatheringrage_tex
+981016	Endurance	Debuff	True	perc	6000000	0	0.95	Durions Raserei			Der Wiederbelebte Durion verfällt immer mehr in Raserei! Erhöht die Angriffsstärke um 10% und verringert die Verteidigung um 5%.	icon_skills.gatheringrage_tex
+981018	HPChange	DOT	False	seta	17000	17	-300000	Durions Fluch			Zieht immer nach 17s 100% der Gesamt-LP ab. Kann nur mithilfe des Reinigungsgeräts aufgehoben werden!	icon_status.firedamage_tex
+981019	Power	Buff	True	perc	2000	0	1	Fluch aufheben			Durions Fluch wurde aufgehoben!	icon_status.valrhona_sun_tex
+981026	Endurance	Buff	False	perc	14000	0	80	Blutmagie			Ihr wurdet vollkommen von Blutmagie umhüllt. Wenn Ihr den Fluch nicht bannt, wird etwas Schlimmes passieren.	icon_status.cruel_slayer_3_tex
+981027	MovSpd	Debuff	True	perc	10000	0	1	Macht der Dunkelheit			Der Wiederbelebte Durion konzentriert seine Blutmagie auf Euch. Ihr habt eine unheilvolle Vorahnung.	icon_status.minusfocus_tex
+981028	MovSpd	Buff	True	perc	30000	0	0.26	Schild der dunklen Magie			Der Wiederbelebte Durion schützt sich durch dunkle Blutmagie.	icon_skills.manashield_tex
+981028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Schild der dunklen Magie			Der Wiederbelebte Durion schützt sich durch dunkle Blutmagie.	icon_skills.manashield_tex
+981029	MovSpd	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+981029	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+981036	Power	Buff	True	perc	0	0	1.1	Wilde Raserei			Angesichts der Lebensgefahr, in der er erneut schwebt, gerät der Wiederbelebte Darkan in Rage. Erhöht die Angriffsstärke um 10% und die Bewegungs- und Angriffsgeschwindigkeit um jeweils 5%.	icon_status.archerspirit_tex
+981036	MovSpd	Buff	True	perc	0	0	1.05	Wilde Raserei			Angesichts der Lebensgefahr, in der er erneut schwebt, gerät der Wiederbelebte Darkan in Rage. Erhöht die Angriffsstärke um 10% und die Bewegungs- und Angriffsgeschwindigkeit um jeweils 5%.	icon_status.archerspirit_tex
+981036	ASpd	Buff	True	perc	0	0	1.05	Wilde Raserei			Angesichts der Lebensgefahr, in der er erneut schwebt, gerät der Wiederbelebte Darkan in Rage. Erhöht die Angriffsstärke um 10% und die Bewegungs- und Angriffsgeschwindigkeit um jeweils 5%.	icon_status.archerspirit_tex
+981038	MovSpd	DOT	False	perc	30000	0	0.5	Druck			Durch den Druck, gegen einen Gott kämpfen zu müssen, sinkt die Bewegungsgeschwindigkeit! Kann aufgehoben werden!	icon_status.archerspirit_tex
+981038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Druck			Durch den Druck, gegen einen Gott kämpfen zu müssen, sinkt die Bewegungsgeschwindigkeit! Kann aufgehoben werden!	icon_status.archerspirit_tex
+981040	HPChange	DOT	True	perc	120000	1	-0.07	Schmerz			Da Ihr vom Angriff eines Gottes getroffen wurdet, sinken Eure LP kontinuierlich.	icon_status.firedamage_tex
+981041	Power	DOT	True	perc	120000	0	1	Roter Geschmack			Ihr steht unter dem Effekt "Roter Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff02_tex
+981041	HPChange	DOT	True	seta	1500	1	-300000	Roter Geschmack			Ihr steht unter dem Effekt "Roter Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff02_tex
+981042	Power	DOT	True	perc	120000	0	1	Blauer Geschmack			Ihr steht unter dem Effekt "Blauer Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff01_tex
+981042	HPChange	DOT	True	seta	1500	1	-300000	Blauer Geschmack			Ihr steht unter dem Effekt "Blauer Geschmack". Bei 2-facher Akkumulierung sterbt Ihr.	icon_status.battlefieldbuff01_tex
+981044	HPChange	DOT	True	seta	1500	1	-300000	Geplanter Tod			Ihr wurdet von Lakans mächtigem Angriff getroffen. Du bist bereits tot, du weißt es nur noch nicht!	icon_status.diseaseup_tex
+981052	Power	Buff	True	perc	0	0	1.4	Gleichgewicht			Lakan sieht, dass es gut ist, und ist zufrieden. Erhöht die Angriffsstärke, die Verteidigung und die Angriffsgeschwindigkeit.	icon_status.archerspirit_tex
+981052	Endurance	Buff	True	perc	0	0	1.1	Gleichgewicht			Lakan sieht, dass es gut ist, und ist zufrieden. Erhöht die Angriffsstärke, die Verteidigung und die Angriffsgeschwindigkeit.	icon_status.archerspirit_tex
+981052	MovSpd	Buff	True	perc	0	0	1.2	Gleichgewicht			Lakan sieht, dass es gut ist, und ist zufrieden. Erhöht die Angriffsstärke, die Verteidigung und die Angriffsgeschwindigkeit.	icon_status.archerspirit_tex
+981055	MovSpd	Debuff	True	setp	5000	0	0	Diebstahl			Ihr habt Lakans Energie geraubt und müsst Euch nicht mehr von ihm ziehen lassen.	icon_skills.voidtrap_tex
+981055	MovSpdInCombat	Debuff	True	setp	5000	0	0	Diebstahl			Ihr habt Lakans Energie geraubt und müsst Euch nicht mehr von ihm ziehen lassen.	icon_skills.voidtrap_tex
+981059	Endurance	Buff	True	perc	0	0	0.9	Ungleichgewicht			Lakan hat das Gleichgewicht verloren und seine Konzentration lässt nach. Verringert die Verteidigung.	icon_status.fearstatus_tex
+981060	HPChange	DOT	True	perc	120000	1	-0.05	Verbrennung			Ihr wurdet von Lakans Angriff getroffen und habt Verbrennungen erlitten. Eure LP verringern sich kontinuierlich.	icon_status.firedamage_tex
+981061	Endurance	DOT	True	perc	6000000	0	0.8	Konzentrationsabfall			Ihr wurdet von Lakans Angriff getroffen und könnt nicht mehr klar denken. Verringert die Verteidigung um 10%. Kann bis zu 5-mal akkumuliert werden.	icon_status.fearstatus_tex
+981081	Power	Debuff	True	perc	20000000	0	1	Nebenwirkungen der Teleportation			Als Nebenwirkung der Teleportation erleidet Ihr 30.000 Schaden.	icon_status.firedamage_tex
+981083	MovSpd	Debuff	True	perc	30000	0	1	Fokussiertes Beobachten			Der Wiederbelebte Durion scheint sich auf Euch zu konzentrieren. Gleich wird etwas Schreckliches passieren!	icon_skills.througharrow_tex
+981087	MovSpd	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+981087	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dunkle Ambition			Ihr seid ganz von der Blutmagie des Wiederbelebten Durion erfüllt und könnt Euch nicht bewegen.	icon_status.staminadown_tex
+981088	MovSpd	Debuff	True	perc	30000	0	1	Beobachten			Der Wiederbelebte Durion beobachtet Euch. Ihr habt ein ungutes Gefühl.	icon_skills.markingofarcher_tex
+981089	Power	Buff	False	perc	990000000	0	1.03	Instabile magische Energie			Der Wiederbelebte Durion lässt die Magie, die er durch Lakans Macht erhalten hat, explodieren. Seine Angriffsstärke und Angriffsgeschwindigkeit sind erhöht, sein Körper ist jedoch von einer instabilen Magie umgeben. Wenn er es schafft, sie zu stabilisieren, habt Ihr keine Chance mehr gegen ihn.	icon_status.darkriftarearage_tex
+981089	ASpd	Buff	False	perc	990000000	0	1.03	Instabile magische Energie			Der Wiederbelebte Durion lässt die Magie, die er durch Lakans Macht erhalten hat, explodieren. Seine Angriffsstärke und Angriffsgeschwindigkeit sind erhöht, sein Körper ist jedoch von einer instabilen Magie umgeben. Wenn er es schafft, sie zu stabilisieren, habt Ihr keine Chance mehr gegen ihn.	icon_status.darkriftarearage_tex
+981093	HPChange	Debuff	False	perc	30000	2	-0.3	Lakans Wut			Ihr wurdet mit einem Fluch belegt, der Eure LP um 30% pro Sekunde verringert.	icon_status.blooduanty_tex
+981099	MovSpd	Stun	True	setp	2000	0	0	Betäubung			Kurz bevor Ihr von Lakans Angriff getroffen wurdet, wurdet Ihr von einer starken Aura überwältigt und betäubt.	icon_status.confuseup_tex
+981099	Block	Stun	True	swch	2000	0	0	Betäubung			Kurz bevor Ihr von Lakans Angriff getroffen wurdet, wurdet Ihr von einer starken Aura überwältigt und betäubt.	icon_status.confuseup_tex
+981111	Endurance	Buff	True	perc	10000	0	1	Lakans Samen			Lakan hat Euch mit einem magischen Samen versehen. Er explodiert nach einer bestimmten Zeit.	icon_status.heat_tex
+981116	Endurance	Buff	True	perc	10000	0	1	Lakans Samen			Lakan hat Euch mit einem magischen Samen versehen. Er explodiert nach einer bestimmten Zeit.	icon_status.heat_tex
 988504	MaxHP	Buff	True	perc	0	1	1.1	Minimalkonstitution			Erhöht die maximalen LP um 10%.	icon_status.plusmp_tex
 988505	MaxHP	Buff	True	perc	0	1	1.2	Hauptkonstitution			Erhöht die maximalen LP um 20%.	icon_status.mprecoverup_tex
 988506	MaxHP	Buff	True	perc	0	1	1.4	Maximalkonstitution			Erhöht die maximalen LP um 40%.	icon_status.plushp_tex
@@ -2219,16 +2317,16 @@
 10154030	AtkPotion	Buff	True	swch	0	0	1.05	Geist der Klingen			Geist der Klingen erhöht Eure Angriffsstärke.	icon_skills.c12_atkupbuff
 10154032	AtkPotion	Buff	True	swch	60000	0	1.01	Mächtiger Geist der Klingen			Der Mächtige Geist der Klingen erhöht Eure Angriffsstärke.	icon_skills.c12_atkupbuff
 10154090	Endurance	Buff	True	perc	60000	0	1	Gestaltwandlung I			In anvisiertes Ziel verwandelt.	icon_skills.c12_transform
-10155030	AtkPotion	Buff	True	perc	0	0	1.2	Vollmond-Dunst			Die Mondlicht-Aura erhöht Euren Schaden an Gegnern pro Akkumulierung um 20%.	icon_skills.fullmoon_tex
-10155031	AtkPotion	Buff	True	perc	0	0	1.3	Blutvollmond-Dunst			Die Mondlicht-Aura erhöht Euren Schaden an Gegnern pro Akkumulierung um 30%.	icon_skills.fullmoon_red_tex
-10155036	AtkPotion	Buff	True	perc	0	0	1.2	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 20% und den kritischen Trefferwert um das 0,2-fache.	icon_skills.fullmoon_tex
-10155036	CritChance	Buff	True	perc	0	0	1.2	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 20% und den kritischen Trefferwert um das 0,2-fache.	icon_skills.fullmoon_tex
-10155037	AtkPotion	Buff	True	perc	0	0	1.3	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 30% und den kritischen Trefferwert um das 0,3-fache.	icon_skills.fullmoon_tex
-10155037	CritChance	Buff	True	perc	0	0	1.3	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 30% und den kritischen Trefferwert um das 0,3-fache.	icon_skills.fullmoon_tex
-10155130	Power	Buff	True	abs	25000	0	50	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, den kritischen Trefferwert um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
-10155130	Endurance	Buff	True	swch	1500	0	0	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, den kritischen Trefferwert um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
-10155130	ASpd	Buff	True	abs	25000	0	20	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, den kritischen Trefferwert um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
-10155130	CDR	Buff	True	perc	25000	0	0.4	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, den kritischen Trefferwert um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
+10155030	AtkPotion	Buff	True	perc	0	0	1.1	Vollmond-Dunst			Die Mondlicht-Aura erhöht Euren Schaden an Gegnern um 10%.	icon_skills.fullmoon_tex
+10155031	AtkPotion	Buff	True	perc	0	0	1.15	Blutvollmond-Dunst			Die Mondlicht-Aura erhöht Euren Schaden an Gegnern um 15%.	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	Buff	True	perc	0	0	1.1	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 10% und den kritischen Trefferwert um das 0,2-fache.	icon_skills.fullmoon_tex
+10155036	CritChance	Buff	True	perc	0	0	1.2	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 10% und den kritischen Trefferwert um das 0,2-fache.	icon_skills.fullmoon_tex
+10155037	AtkPotion	Buff	True	perc	0	0	1.1	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 10% und den kritischen Trefferwert um das 0,3-fache.	icon_skills.fullmoon_tex
+10155037	CritChance	Buff	True	perc	0	0	1.3	Lunaplena			Die Mondlicht-Aura erhöht den zweiten Angriff von Lunaplena pro Akkumulierung um 10% und den kritischen Trefferwert um das 0,3-fache.	icon_skills.fullmoon_tex
+10155130	Power	Buff	True	abs	25000	0	50	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
+10155130	Endurance	Buff	True	swch	1500	0	0	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
+10155130	ASpd	Buff	True	abs	25000	0	20	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
+10155130	CDR	Buff	True	perc	25000	0	0.4	Blutmond			Ihr erhaltet die blutgetränkte Mondlicht-Aura. Erhöht die Kraft um 50, die Angriffsgeschwindigkeit um 20 und die Angriffsreichweite um 20%. Sobald der Effekt einsetzt, werden die Abklingzeiten von Fertigkeiten, die eine Abklingzeit von unter 60 Sekunden haben, zurückgesetzt (außer [Ausweichen] und [Vergeltung]). Solange der Effekt anhält, verringert sich die Abklingzeit der betroffenen Fertigkeiten um 60%.	icon_skills.redmoon_tex
 10155150	CritChance	Buff	True	perc	10000	0	100	Grausamkeit			Ihr weicht dem Angriff des Gegners aus und ergreift die Chance auf einen Gegenangriff. Alle Angriffsfertigkeiten verursachen beim nächsten Angriff mit 100%iger Wahrscheinlichkeit einen kritischen Treffer (außer [Magishieb]).	icon_status.darkriftareadance_tex
 10155250	Endurance	Buff	True	perc	1	0	1	Mondsegen I			Der Mondsegen verleiht Euch Immunität gegen Niederschlagen, Wegschieben und Taumeln. Der erlittene Schaden sinkt um 70%.	icon_skills.moongracebuff_tex
 10155250	DefPotion	Buff	True	perc	15000	0	0.3	Mondsegen I			Der Mondsegen verleiht Euch Immunität gegen Niederschlagen, Wegschieben und Taumeln. Der erlittene Schaden sinkt um 70%.	icon_skills.moongracebuff_tex
@@ -2644,6 +2742,7 @@
 77703439	Power	Buff	False	perc	30000	0	2.5	Demokronladung			Die Demokronenergie sammelt sich. Zerstreut sie, ehe sie sich zu einer Quelle großer Kraft entwickelt.	icon_status.fearstatus_tex
 77703442	HPChange	Buff	True	perc	1000	1	-0.25	Demokronvirus			Das Demokronvirus, das Euch infiziert hat, ist so aggressiv, dass es selbst von seinem Demokronwirt seinen Tribut gefordert hat.	icon_status.cruel_slayer_3_tex
 77703443	Endurance	Buff	True	perc	0	0	10	Demokronhaut			Durch den Schutz ihrer undurchdringbaren Haut sind die Demokronen nun gegen normale Angriffe immun.	icon_status.plusedefence_tex
+78100009	HPChange	DOT	True	perc	200000	1	-0.03	Lakans Aufmerksamkeit			Lakan beobachtet Euch. Zieht immer nach 1s 3% der Gesamt-LP ab.	icon_items.q_animaleyeball_tex
 80401500	Power	Buff	True	perc	3600000	0	3	Kelsaiks Rüstung des Verhängnisses			Absorbiert bis zu 4000000 Schaden.	icon_skills.manashield_tex
 80900001	Endurance	Debuff	False	setp	15000	0	0.3	Ausgeweidet			Verringert die Konstitution und die Bewegungsgeschwindigkeit um 70%. Effekt kann nicht entfernt werden.	icon_status.minusdefence_tex
 80900001	MovSpd	Debuff	False	setp	15000	0	0.3	Ausgeweidet			Verringert die Konstitution und die Bewegungsgeschwindigkeit um 70%. Effekt kann nicht entfernt werden.	icon_status.minusdefence_tex
@@ -2745,16 +2844,16 @@
 81120113	CritResist	Buff	True	abs	5000	0	6	Tödliche Lektion			Erhöht die kritische Trefferresistenz um 6. Der Effekt endet, wenn Ihr niedergeschlagen werdet.	icon_ep.ep_fatal_injury_tex
 81120114	CritResist	Buff	True	abs	5000	0	6	Tödliche Lektion			Erhöht die kritische Trefferresistenz um 6. Der Effekt endet, wenn Ihr niedergeschlagen werdet.	icon_ep.ep_fatal_injury_tex
 81120115	CritResist	Buff	True	abs	5000	0	6	Tödliche Lektion			Erhöht die kritische Trefferresistenz um 6. Der Effekt endet, wenn Ihr niedergeschlagen werdet.	icon_ep.ep_fatal_injury_tex
-81120301	CritResist	Debuff	False	abs	5000	0	-3	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -3. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120302	CritResist	Debuff	False	abs	5000	0	-4	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -4. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120303	CritResist	Debuff	False	abs	5000	0	-5	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -5. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120304	CritResist	Debuff	False	abs	5000	0	-6	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -6. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120305	CritResist	Debuff	False	abs	5000	0	-7	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -7. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120306	CritResist	Debuff	False	abs	5000	0	-8	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -8. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120307	CritResist	Debuff	False	abs	5000	0	-9	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -9. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120308	CritResist	Debuff	False	abs	5000	0	-10	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -10. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120309	CritResist	Debuff	False	abs	5000	0	-11	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -11. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
-81120310	CritResist	Debuff	False	abs	5000	0	-12	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -12. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120301	CritResist	Debuff	False	abs	18000	0	-3	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -3. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120302	CritResist	Debuff	False	abs	18000	0	-4	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -4. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120303	CritResist	Debuff	False	abs	18000	0	-5	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -5. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120304	CritResist	Debuff	False	abs	18000	0	-6	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -6. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120305	CritResist	Debuff	False	abs	18000	0	-7	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -7. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120306	CritResist	Debuff	False	abs	18000	0	-8	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -8. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120307	CritResist	Debuff	False	abs	18000	0	-9	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -9. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120308	CritResist	Debuff	False	abs	18000	0	-10	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -10. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120309	CritResist	Debuff	False	abs	18000	0	-11	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -11. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
+81120310	CritResist	Debuff	False	abs	18000	0	-12	Verringerte kritische Trefferresistenz			Verringert die kritische Trefferresistenz um -12. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_special_load_tex
 81120401	CritResist	Buff	True	abs	10000	0	3	Erhöhte kritische Trefferresistenz			Erhöht die kritische Trefferresistenz um 3. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_fatal_injury_tex
 81120402	CritResist	Buff	True	abs	10000	0	4	Erhöhte kritische Trefferresistenz			Erhöht die kritische Trefferresistenz um 4. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_fatal_injury_tex
 81120403	CritResist	Buff	True	abs	10000	0	5	Erhöhte kritische Trefferresistenz			Erhöht die kritische Trefferresistenz um 5. Der Effekt endet, wenn Ihr niedergeschlagen, ins Taumeln gebracht oder betäubt werdet.	icon_ep.ep_fatal_injury_tex
@@ -3539,14 +3638,10 @@
 98000091	HPChange	DOT	False	perc	10000	3	-0.06	Flügel stutzen			Verringert die Bewegungsgeschwindigkeit um 50% und zieht immer nach 3 6% der maximalen LP ab.	icon_status.minuscriticalresist_tex
 98000092	HPChange	Buff	True	perc	12000	3	0.0033	Piepsers Segen			Heilt immer nach 3s 0,33% der maximalen LP.	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	Buff	True	abs	1000	1	50000	Berührung des Priesters			Stellt 30.000 LP wieder her.	icon_items.potion5_tex
-98000100	Power	Buff	True	abs	10000000	0	25	Trank des Segens	96000	Test Trank_Priester	Erhöht die Kraft um 65, die Konstitution um 11, die Resistenz um 5, die Angriffsgeschwindigkeit um 8 und heilt fortwährend.	icon_skills.attackup_tex
-98000100	Endurance	Buff	True	abs	10000000	0	11	Trank des Segens	96000	Test Trank_Priester	Erhöht die Kraft um 65, die Konstitution um 11, die Resistenz um 5, die Angriffsgeschwindigkeit um 8 und heilt fortwährend.	icon_skills.attackup_tex
-98000100	ASpd	Buff	True	abs	10000000	0	8	Trank des Segens	96000	Test Trank_Priester	Erhöht die Kraft um 65, die Konstitution um 11, die Resistenz um 5, die Angriffsgeschwindigkeit um 8 und heilt fortwährend.	icon_skills.attackup_tex
-98000100	HPChange	Buff	True	abs	10000000	2	773	Trank des Segens	96000	Test Trank_Priester	Erhöht die Kraft um 65, die Konstitution um 11, die Resistenz um 5, die Angriffsgeschwindigkeit um 8 und heilt fortwährend.	icon_skills.attackup_tex
-98000101	Power	Buff	True	abs	10000000	0	25	Trank des Schwungs	96001	Test Trank_Mystiker	Verdoppelt den kritischen Trefferwert, stellt pro Sekunde 20 MP wieder her und verbessert die Konstitution von Leibeigener des Schutzes um 10%.	icon_status.plusecritical_tex
-98000101	Endurance	Buff	True	perc	10000000	0	1.1	Trank des Schwungs	96001	Test Trank_Mystiker	Verdoppelt den kritischen Trefferwert, stellt pro Sekunde 20 MP wieder her und verbessert die Konstitution von Leibeigener des Schutzes um 10%.	icon_status.plusecritical_tex
-98000101	Crit	Buff	True	perc	10000000	0	2	Trank des Schwungs	96001	Test Trank_Mystiker	Verdoppelt den kritischen Trefferwert, stellt pro Sekunde 20 MP wieder her und verbessert die Konstitution von Leibeigener des Schutzes um 10%.	icon_status.plusecritical_tex
-98000101	MPChange	Buff	True	abs	10000000	1	20	Trank des Schwungs	96001	Test Trank_Mystiker	Verdoppelt den kritischen Trefferwert, stellt pro Sekunde 20 MP wieder her und verbessert die Konstitution von Leibeigener des Schutzes um 10%.	icon_status.plusecritical_tex
+98000100	Power	Buff	True	abs	2400000	0	25	Trank des Segens	96000	Test Trank_Priester	Erhöht die Kraft um 65, die Konstitution um 11, die Resistenz um 5, die Angriffsgeschwindigkeit um 8 und heilt fortwährend.	icon_skills.attackup_tex
+98000100	Endurance	Buff	True	abs	900000	0	11	Trank des Segens	96000	Test Trank_Priester	Erhöht die Kraft um 65, die Konstitution um 11, die Resistenz um 5, die Angriffsgeschwindigkeit um 8 und heilt fortwährend.	icon_skills.attackup_tex
+98000101	Endurance	Buff	True	perc	99999999	0	1.1	Trank des Schwungs	96001	Test Trank_Mystiker	Verdoppelt den kritischen Trefferwert, stellt pro Sekunde 20 MP wieder her und verbessert die Konstitution von Leibeigener des Schutzes um 10%.	icon_status.plusecritical_tex
+98000101	MPChange	Buff	True	abs	0	2	-30	Trank des Schwungs	96001	Test Trank_Mystiker	Verdoppelt den kritischen Trefferwert, stellt pro Sekunde 20 MP wieder her und verbessert die Konstitution von Leibeigener des Schutzes um 10%.	icon_status.plusecritical_tex
 98000102	MaxHP	Buff	True	perc	99999999	0	1.05	Perfekte Teilnahme			Erhöht die Kraft um 6%, die LP um 5% und die Bewegungsgeschwindigkeit außerhalb des Kampfes um 20.	
 98000102	Power	Buff	True	abs	99999999	0	6	Perfekte Teilnahme			Erhöht die Kraft um 6%, die LP um 5% und die Bewegungsgeschwindigkeit außerhalb des Kampfes um 20.	
 98000103	ASpd	Buff	True	perc	0	0	1.04	Kette des Schutzes III			Angriffe ziehen 20% mehr Aggro an. Erhöht die Angriffsgeschwindigkeit um 4%, reduziert den erlittenen Schaden um 10% und verringert die Chance, niedergeschlagen oder ins Taumeln gebracht zu werden um 30%.	
@@ -3557,6 +3652,11 @@
 98000105	ASpd	Buff	True	perc	0	0	1.04	Kette der Wiederherstellung III			Erhöht den Fertigkeitsschaden um 10% und verringert den erlittenen Schaden um 10%. Zusätzlich erhöht sich die Angriffsgeschwindigkeit um 4%.	
 98000105	DefPotion	Buff	True	perc	0	0	0.9	Kette der Wiederherstellung III			Erhöht den Fertigkeitsschaden um 10% und verringert den erlittenen Schaden um 10%. Zusätzlich erhöht sich die Angriffsgeschwindigkeit um 4%.	
 98000105	AtkPotion	Buff	True	perc	0	0	1.1	Kette der Wiederherstellung III			Erhöht den Fertigkeitsschaden um 10% und verringert den erlittenen Schaden um 10%. Zusätzlich erhöht sich die Angriffsgeschwindigkeit um 4%.	
+98000106	Endurance	Debuff	False	perc	10000000	0	0.9	Glyphe der Schwächung			Verringert die Konstitution um 10%.	icon_crest.crestactivedefencedown_tex
+98000106	CritResist	Debuff	False	abs	10000000	0	-12	Glyphe der Schwächung			Verringert die Konstitution um 10%.	icon_crest.crestactivedefencedown_tex
+98000107	Power	Buff	True	abs	99999999	0	40	Energiesterne IV			Erhöht die Kraft um 40 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
+98000107	ASpd	Buff	True	abs	99999999	0	8	Energiesterne IV			Erhöht die Kraft um 40 und die Angriffsgeschwindigkeit um 8.	icon_skills.divinelightning_tex
+98000108	Endurance	Buff	True	perc	99999999	0	1.1	Glyphe der Erdung			Erhöht die Konstitution um 10%.	icon_crest.crestactivedefenceup_tex
 98850002	DropUp	Buff	True	perc	7200000	0	1.2	Segen des Überflusses I			Erhöht die Belohnungsrate um 25%.	icon_items.tresurebox3_tex
 98850003	DropUp	Buff	True	perc	7200000	0	1.4	Segen des Überflusses II			Erhöht die Belohnungsrate um 50%.	icon_items.tresurebox3_tex
 98850004	DropUp	Buff	True	perc	7200000	0	1.6	Segen des Überflusses III			Erhöht die Belohnungsrate um 75%.	icon_items.tresurebox3_tex
