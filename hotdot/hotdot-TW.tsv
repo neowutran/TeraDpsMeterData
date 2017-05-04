@@ -31,6 +31,7 @@
 602	ASpd	Buff	True	abs	0	0	6	狂氣之力 II			獲得狂氣彌漫的精靈氣息力量增加 25，攻擊速度則上升 6。只有在施展者周邊 30m範圍內才能得到結界效果。	icon_skills.rage_tex
 603	Power	Buff	True	abs	0	0	40	狂氣之力 III			獲得狂氣彌漫的精靈氣息力量增加 40，攻擊速度則上升 6。只有在施展者周邊 30m範圍內才能得到結界效果。	icon_skills.rage_tex
 603	ASpd	Buff	True	abs	0	0	6	狂氣之力 III			獲得狂氣彌漫的精靈氣息力量增加 40，攻擊速度則上升 6。只有在施展者周邊 30m範圍內才能得到結界效果。	icon_skills.rage_tex
+901	Endurance	Buff	False	perc	20000	0	1	閃光彈			因為瞬間強光而昏厥了。	icon_skills.flashball_tex
 902	Noctenium	Buff	True	swch	0	0	1	綠鈦強化彈	1300	綠鈦強化彈	使用綠鈦強化彈，讓技能效果增大化。	icon_items.union_supplies5_tex
 903	Power	Buff	True	abs	30000	0	15	殺意			透過殺意使力量提升15攻擊速度增加8%，暴擊機率增加4%，移動速度增加4%增加。	icon_skills.battlefield_high_ranking_tex
 903	MovSpd	Buff	True	perc	30000	0	1.04	殺意			透過殺意使力量提升15攻擊速度增加8%，暴擊機率增加4%，移動速度增加4%增加。	icon_skills.battlefield_high_ranking_tex
@@ -847,14 +848,14 @@
 33170	HPChange	Buff	True	perc	12000	1	0.03	月光的庇護(特質紋章)			每1s，持續恢復相當於整體HP的 2%之HP。	icon_skills.moongracebuff_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	月光煉(鬥志紋章)			下一次攻擊時技能威力增加 30%	icon_skills.mooncatch_tex
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	月光的引力(連續鬥志紋章 [月光的共鳴] )			以連續技能使用[月光的共鳴]時，技能威力增加力量25%。	icon_skills.moongravity_tex
-46705	Endurance	Debuff	True	perc	60000	0	0.95	災難			因酸性攻擊而使防禦力減少，此效果堆疊且無法解除。	icon_status.minusdefence_tex
+46705	Endurance	Debuff	True	perc	60000	0	0.9	災難			因酸性攻擊而使防禦力減少，此效果堆疊且無法解除。	icon_status.minusdefence_tex
 46706	Endurance	Debuff	True	perc	60000	0	0.85	大災難			因酸性攻擊而使防禦力大幅減少，此效果堆疊且無法解除。	icon_status.minusdefence_tex
 46750	Power	Buff	True	perc	180000	0	1.2	燃燒的憤怒			進入燃燒的憤怒狀態時，力量增加 20%、防禦力增加 20%。	icon_status.archerspirit_tex
 46750	Endurance	Buff	True	perc	180000	0	1.2	燃燒的憤怒			進入燃燒的憤怒狀態時，力量增加 20%、防禦力增加 20%。	icon_status.archerspirit_tex
 46751	Endurance	Buff	True	perc	20000	0	1.2	堅硬盔甲			防禦力增加 20%。	icon_status.balanceup_tex
 46753	Endurance	Buff	True	perc	20000	0	1.2	咆哮			堅硬盔甲	icon_status.angerwarrior_tex
 46755	MovSpd	Buff	True	perc	15000	0	2	對對方的執念			若擴大雙方的悲痛之心並對異常狀態免疫時，則不會產生反作用。	icon_skills.recallfriend_tex
-46756	HPChange	DOT	True	abs	30000	2	-5000	腐敗汙水			使用腐敗汙水，每2秒受到5,000的傷害。	icon_status.purifydagon_tex
+46756	HPChange	DOT	True	abs	30000	2	-15000	腐敗汙水			使用腐敗汙水，每2秒受到15,000的傷害。	icon_status.purifydagon_tex
 46761	Power	Stun	False	perc	30000	0	0.5	受汙染的廢水			有奇怪的氣息在身體繚繞而失去力量。力量減少 50%、攻擊速度減少 70%。	icon_items.q_greenmucus_tex
 46761	ASpd	Stun	False	perc	30000	0	0.3	受汙染的廢水			有奇怪的氣息在身體繚繞而失去力量。力量減少 50%、攻擊速度減少 70%。	icon_items.q_greenmucus_tex
 46762	MovSpdInCombat	Buff	True	abs	30000	0	40	不知名	46701	來路不明的晶球	忽略所有異常狀態，雖然移動速度增加，但攻擊力卻大幅減少。	icon_status.confusestatusnpc_tex
@@ -884,7 +885,7 @@
 60008	HPChange	DOT	False	abs	5000	1	-227	魔獸詛咒 : 猛毒			因為強烈劇毒而引發的中毒效果，每1s逐漸減少-227的HP。	icon_status.poisonstatus_tex
 60009	MovSpd	DOT	False	perc	5000	0	0.8	魔獸詛咒 : 雷電			受到閃電衝擊，移動速度減少20%，每1持續減少-882的HP。	icon_status.minusmove_tex
 60009	HPChange	DOT	False	abs	5000	1	-882	魔獸詛咒 : 雷電			受到閃電衝擊，移動速度減少20%，每1持續減少-882的HP。	icon_status.minusmove_tex
-60010	Endurance	Debuff	False	perc	20000	0	0.9	野獸詛咒 : 衝擊			因為強大的衝擊，防禦力減少10%。	icon_skills.armorbreak_tex
+60010	Endurance	Debuff	False	perc	20000	0	0.93	野獸詛咒 : 衝擊			因為強大的衝擊，防禦力減少7%。	icon_skills.armorbreak_tex
 60011	HPChange	DOT	False	abs	5000	1	-351	魔獸詛咒 : 針刺			受到尖銳盔甲的影響引發出血效果，每1s逐漸減少 -351的HP。	icon_status.minuscriticalresist_tex
 60012	Endurance	Buff	True	perc	60000	0	1.1	精靈的祝福 : 生存			獲得祝福，抗打增加10%。	icon_status.plusedefence_tex
 60013	HPChange	Buff	True	perc	10000	1	0.03	精靈的祝福 : 保護			獲得祝福，每1s逐漸恢復3%的HP。	icon_items.potion1_tex
@@ -953,7 +954,7 @@
 70459	ASpd	Debuff	True	perc	600000	0	1.01	掙扎			庫林多菈肚子餓的話會變得更加殘暴。殘暴化時攻擊速度1%增加，且該效果無法解除。	icon_status.plusattack_tex
 70461	MovSpd	Debuff	False	setp	7000	0	0.8	觸電			因觸電導致移動速度20%減少。	icon_status.plusfocus_tex
 70463	HPChange	DOT	False	perc	1000	1	-0.03	猛毒			身受致命之毒，總HP的3%的HP減少。	icon_status.poisonstatus_tex
-76756	HPChange	DOT	True	abs	30000	2	-5000	腐敗汙水			使用腐敗汙水，每2秒就會得到10000的傷害。	icon_status.purifydagon_tex
+76756	HPChange	DOT	True	abs	30000	2	-7000	腐敗汙水			使用腐敗汙水，每2秒受到7,000的傷害。	icon_status.purifydagon_tex
 76901	Power	Buff	True	perc	0	0	5	狂暴化警告			持續時間結束後，開始狂暴化	icon_status.darkriftwill_tex
 76902	Power	Buff	True	perc	0	0	5	狂暴化			變為狂暴化，無論什麼也無法阻止了。	icon_status.darkriftarearage_tex
 76902	ASpd	Buff	True	perc	0	0	2	狂暴化			變為狂暴化，無論什麼也無法阻止了。	icon_status.darkriftarearage_tex
@@ -1508,7 +1509,7 @@
 700602	MPChange	Buff	True	abs	0	2	-30	憤怒的結界 III			包括自身在內的周邊約 30m範圍內，賦予組隊隊員們憤怒力量與狂氣力量的效果。結界發動後每 2持續消耗MP -30。	icon_skills.criticalupaura_tex
 700603	MPChange	Buff	True	abs	0	2	-30	憤怒的結界 IV			包括自身在內的周邊約 30m範圍內，賦予組隊隊員們憤怒力量與狂氣力量的效果。結界發動後每 2持續消耗MP -30。	icon_skills.criticalupaura_tex
 700630	Crit	Buff	True	perc	0	0	2	憤怒結界 I			暴擊率增加2倍。只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusecritical_tex
-700631	Crit	Buff	True	perc	0	0	2.1	憤怒結界 II			暴擊率增加2倍。只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusecritical_tex
+700631	Crit	Buff	True	perc	0	0	2.2	憤怒結界 II			暴擊率增加2.2倍。只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusecritical_tex
 700700	MPChange	Buff	True	abs	0	2	-30	迅速結界			對周邊30m範圍內的組隊隊員和自己賦予迅速結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.speedupaura_tex
 700701	MPChange	Buff	True	abs	0	2	-30	迅速結界 II			對周邊30m範圍內的組隊隊員和自己賦予迅速結界效果。在技能活性化期間，每2持續減少-30的MP。	icon_skills.speedupaura_tex
 700730	MovSpd	Buff	True	perc	0	0	1.1	迅速結界 I			移動速度提升10%。只有在施展者周邊30m範圍內時可以獲得結界效果。	icon_status.plusmove_tex
@@ -1547,9 +1548,13 @@
 701010	HPChange	Buff	True	abs	10000	2	614	精靈庇護 XI			每2s逐漸恢復614的HP。	icon_skills.summonspiritofheal_tex
 701011	HPChange	Buff	True	abs	10000	2	769	精靈庇護 XII			每2s逐漸恢復769的HP。	icon_skills.summonspiritofheal_tex
 701012	HPChange	Buff	True	abs	10000	2	914	精靈庇護 XIII			每2s逐漸恢復914的HP。	icon_skills.summonspiritofheal_tex
+701100	Endurance	Buff	False	perc	20000	0	1	流沙束縛 I			安靜中沈睡了。若受到傷害立即醒來。	icon_skills.shackleofquicksand_tex
+701101	Endurance	Buff	False	perc	20000	0	1	流沙束縛			安靜中沈睡了。若受到傷害立即醒來。	icon_skills.shackleofquicksand_tex
 701200	CDR	DOT	False	swch	6000	0	1.2	慵懶詛咒 I			效果持續時間中使用的所有技能的冷卻時間增加20%。	icon_skills.spiritoflassitude_tex
 701201	CDR	DOT	False	swch	8000	0	1.2	慵懶詛咒			效果持續時間中使用的所有技能的冷卻時間增加20%。	icon_skills.spiritoflassitude_tex
 701202	CDR	DOT	False	swch	10000	0	1.2	慵懶詛咒 III			效果持續時間中使用的所有技能的冷卻時間增加20%。	icon_skills.spiritoflassitude_tex
+701300	Endurance	Buff	False	perc	20000	0	1	混沌詛咒 I			因為混沌詛咒而感到害怕逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.spiritofconfusion_tex
+701320	Endurance	Buff	False	perc	20000	0	1	混沌詛咒 I			因為混沌詛咒而感到害怕逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.spiritofconfusion_tex
 701400	MovSpd	Stun	False	setp	4000	0	0.1	岩石束縛 I			身體變得跟岩石一樣重，移動速度減少90%。但效果持續時間內平衡提升100%。若受到一定以上傷害或是被擊倒，效果立即解除。	icon_skills.shackleofstone_tex
 701401	MovSpd	Stun	False	setp	6000	0	0.1	岩石束縛			身體變得跟岩石一樣重，移動速度減少90%。但效果持續時間內平衡提升100%。若受到一定以上傷害或是被擊倒，效果立即解除。	icon_skills.shackleofstone_tex
 701420	MovSpd	Stun	False	setp	5500	0	0.1	岩石束縛 I			身體變得跟岩石一樣重，移動速度減少90%。但效果持續時間內平衡提升100%。若受到一定以上傷害或是被擊倒，效果立即解除。	icon_skills.shackleofstone_tex
@@ -1704,11 +1709,58 @@
 777037	Block	Buff	True	seta	30000	0	0	戴蒙克隆的標記			效果持續時間內無法使用迴避和移動系列技能。	icon_items.cancel_evade_potion_level_51_tex
 780100	HPChange	DOT	True	abs	10000	1	-1000000	看見的話則為BTS			看見的話則為BTS	
 780102	HPChange	DOT	True	abs	2000	1	-500000	看見的話則為BTS			看見的話則為BTS	
-780103	HPChange	DOT	False	perc	15000	1	-0.05	灼傷			藍色火焰籠罩全身!每1s會受到最大體力 7%傷害。	icon_status.minusmp_tex
+780103	HPChange	DOT	False	perc	15000	1	-0.05	灼傷			藍色火焰籠罩全身!每1s會受到最大體力 5%傷害。	icon_status.minusmp_tex
 780104	MovSpd	Debuff	False	perc	15000	0	0.5	燃燒的腳掌			踏上殘留火花的火路，腳掌燃燒起來。移動速度減少50%。	icon_skills.kumas_frontroll_tex
 780200	HPChange	DOT	False	perc	10000	1	-0.05	強酸性胃液			因強力的酸性胃液，每1s會受到最大體力 5%傷害。	icon_status.poisonstatus_tex
 780202	HPChange	DOT	False	perc	60000	2	-0.01	出血			被鋒利的斧頭擊中而出血，每2s會受到最大體力 1%傷害。	icon_status.injuredbtdarkness_tex
 780203	HPChange	DOT	False	perc	5000	1	-0.1	嚴重出血			因貝爾德克強力的一擊，造成極大的傷口，流了相當多血。每1s會受到最大體力 10%傷害。	icon_status.damagedown_tex
+781001	Power	DOT	True	perc	50000	0	1	達魯坎的種子			種下了達魯坎的種子! 重疊3個時種子會發芽並召喚手下! 無法解除此詛咒。	icon_status.injuredbtdarkness_tex
+781002	Power	DOT	False	perc	10000	0	1	乏力			無法使用技能。	icon_status.confuseup_tex
+781003	Power	Buff	False	perc	3000	0	1	不討喜的魅力			所有敵人都打算要攻擊你!	icon_status.confuseup_tex
+781004	Power	Buff	False	perc	10000	0	1	捉迷藏			變成鬼了! 幽靈要去抓你了!	icon_status.injuredbtdarkness_tex
+781010	HPChange	Debuff	False	perc	7000	1	-0.03	暗黑破片			解除之前每1s整體 HP會持續減少3%，無法使用技能。	icon_status.fearstatus_tex
+781010	Block	Debuff	False	swch	7000	0	0	暗黑破片			解除之前每1s整體 HP會持續減少3%，無法使用技能。	icon_status.fearstatus_tex
+781011	HPChange	DOT	True	perc	15000	3	-0.03	灼傷			每 3s整體 HP會持續減少 3%。達魯坎的不滅火花無法解除。	icon_status.firedamage_tex
+781016	Power	Debuff	True	perc	6000000	0	1.1	杜利溫的狂氣			復活的杜利溫漸漸陷入狂氣之中! 攻擊力增加10%，防禦力下降5%。	icon_skills.gatheringrage_tex
+781016	Endurance	Debuff	True	perc	6000000	0	0.95	杜利溫的狂氣			復活的杜利溫漸漸陷入狂氣之中! 攻擊力增加10%，防禦力下降5%。	icon_skills.gatheringrage_tex
+781018	HPChange	DOT	False	seta	17000	17	-300000	杜利溫的詛咒			每17s整體 HP會持續減少 100%。需靠近淨化裝置才能解除!	icon_status.firedamage_tex
+781019	Power	Buff	True	perc	2000	0	1	詛咒解除			已解除杜利溫的詛咒!	icon_status.valrhona_sun_tex
+781026	Endurance	Buff	False	perc	14000	0	80	黑魔法的詛咒			被黑魔法的詛咒圍繞著全身。若不解除詛咒則會釀成大禍。	icon_status.cruel_slayer_3_tex
+781027	MovSpd	Debuff	True	perc	10000	0	1	黑魔法集中			復活的杜利溫正在將黑魔法集中在你身上。有不好的預感…	icon_status.minusfocus_tex
+781028	MovSpd	Buff	True	perc	30000	0	0.26	黑魔法盾牌			復活的杜利溫使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
+781028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	黑魔法盾牌			復活的杜利溫使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
+781029	MovSpd	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+781029	MovSpdInCombat	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+781036	Power	Buff	True	perc	0	0	1.1	狂暴化			重新面臨死亡的危機使得復活的達魯坎非常憤怒。攻擊力增加10%，移動速度增加5%。	icon_status.archerspirit_tex
+781036	MovSpd	Buff	True	perc	0	0	1.05	狂暴化			重新面臨死亡的危機使得復活的達魯坎非常憤怒。攻擊力增加10%，移動速度增加5%。	icon_status.archerspirit_tex
+781038	MovSpd	DOT	False	perc	30000	0	0.5	負擔感			對付神的負擔感導致移動速度低落! 可以解除!	icon_status.archerspirit_tex
+781038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	負擔感			對付神的負擔感導致移動速度低落! 可以解除!	icon_status.archerspirit_tex
+781040	HPChange	DOT	True	perc	120000	1	-0.07	痛苦			受到神的攻擊，體力持續下降。	icon_status.firedamage_tex
+781041	Power	DOT	True	perc	120000	0	1	紅色味道			受到紅色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff02_tex
+781041	HPChange	DOT	True	seta	1500	1	-300000	紅色味道			受到紅色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff02_tex
+781042	Power	DOT	True	perc	120000	0	1	藍色味道			受到藍色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff01_tex
+781042	HPChange	DOT	True	seta	1500	1	-300000	藍色味道			受到藍色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff01_tex
+781044	HPChange	DOT	True	seta	1500	1	-300000	預定的死亡			受到了拉坎的攻擊。你已經死了!!	icon_status.diseaseup_tex
+781052	Power	Buff	True	perc	0	0	1.4	平衡			看到和諧的狀態使拉坎很滿意。提升攻擊力、防禦力、攻擊速度。	icon_status.archerspirit_tex
+781052	Endurance	Buff	True	perc	0	0	1.1	平衡			看到和諧的狀態使拉坎很滿意。提升攻擊力、防禦力、攻擊速度。	icon_status.archerspirit_tex
+781052	MovSpd	Buff	True	perc	0	0	1.2	平衡			看到和諧的狀態使拉坎很滿意。提升攻擊力、防禦力、攻擊速度。	icon_status.archerspirit_tex
+781055	MovSpd	Debuff	True	setp	5000	0	0	偷竊			偷取拉坎的精氣，不受其牽引。	icon_skills.voidtrap_tex
+781055	MovSpdInCombat	Debuff	True	setp	5000	0	0	偷竊			偷取拉坎的精氣，不受其牽引。	icon_skills.voidtrap_tex
+781059	Endurance	Buff	True	perc	0	0	0.9	不平衡			破壞平衡，拉坎失去集中力。防禦力下降。	icon_status.fearstatus_tex
+781060	HPChange	DOT	True	perc	120000	1	-0.05	灼傷			受到拉坎的攻擊遭到灼傷。體力持續下降。	icon_status.firedamage_tex
+781061	Endurance	DOT	True	perc	6000000	0	0.8	集中力下降			受到拉坎的攻擊有些頭暈。防禦力下降10%，最多可疊加5次。	icon_status.fearstatus_tex
+781081	Power	Debuff	True	perc	20000000	0	1	瞬間移動後遺症			因瞬間移動後遺症而受到3萬的傷害。	icon_status.firedamage_tex
+781083	MovSpd	Debuff	True	perc	30000	0	1	集中注視對象			復活的杜利溫一直注視著我。好像有什麼恐怖的事情要發生!	icon_skills.througharrow_tex
+781087	MovSpd	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+781087	MovSpdInCombat	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+781088	MovSpd	Debuff	True	perc	30000	0	1	注視			復活的杜利溫正在注視你，有種不祥的感覺。	icon_skills.markingofarcher_tex
+781089	Power	Buff	False	perc	990000000	0	1.03	不穩定的魔氣			復活的杜利溫借助拉坎的權能，使得魔氣暴走。復活的杜利溫雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+781089	ASpd	Buff	False	perc	990000000	0	1.03	不穩定的魔氣			復活的杜利溫借助拉坎的權能，使得魔氣暴走。復活的杜利溫雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+781093	HPChange	Debuff	False	perc	30000	2	-0.3	拉坎的詛咒			受到詛咒後，於1秒內下降30%的體力。	icon_status.blooduanty_tex
+781099	MovSpd	DOT	True	setp	2000	0	0	昏厥			受到拉坎的攻擊之前，因被強烈的氣息侵襲而昏厥。	icon_status.confuseup_tex
+781099	Block	DOT	True	swch	2000	0	0	昏厥			受到拉坎的攻擊之前，因被強烈的氣息侵襲而昏厥。	icon_status.confuseup_tex
+781111	Endurance	Buff	True	perc	10000	0	1	拉坎的種子			拉坎種下魔力的種子，一定時間後將會爆炸。	icon_status.heat_tex
+781116	Endurance	Buff	True	perc	10000	0	1	拉坎的種子			拉坎種下魔力的種子，一定時間後將會爆炸。	icon_status.heat_tex
 800100	HPChange	Buff	True	abs	10000	2	88	再生之風 I			微風徐徐吹來感到一股暖意。每2s持續恢復HP。	icon_skills.healingwind_tex
 800101	HPChange	Buff	True	abs	10000	2	111	再生之風 II			微風徐徐吹來感到一股暖意。每2s持續恢復HP。	icon_skills.healingwind_tex
 800102	HPChange	Buff	True	abs	10000	2	136	再生之風 III			微風徐徐吹來感到一股暖意。每2s持續恢復HP。	icon_skills.healingwind_tex
@@ -1866,8 +1918,8 @@
 905423	MPChange	DOT	False	perc	180000	1	-0.05	噁心黏液			因為深海魚的噁心黏液，MP無法恢復。用乾淨的水沖洗，就會消失。	icon_status.minusmove_tex
 905424	MovSpd	Debuff	True	perc	3000	0	1.4	輕快的身體			用乾淨的水將附著在身體上的黏液都清洗掉了。移動速度提升50%。	icon_status.minushp_tex
 905424	MPChange	Debuff	True	perc	3000	2	0.5	輕快的身體			用乾淨的水將附著在身體上的黏液都清洗掉了。移動速度提升50%。	icon_status.minushp_tex
-905426	Endurance	Stun	False	perc	10000	0	0.45	深海的恐怖			因為深海魚的恐怖，抗打減少55%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex
-905426	MovSpd	Stun	False	setp	10000	0	0.3	深海的恐怖			因為深海魚的恐怖，抗打減少55%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex
+905426	Endurance	Stun	False	perc	10000	0	0.6	深海的恐怖			因為深海魚的恐怖，抗打減少40%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex
+905426	MovSpd	Stun	False	setp	10000	0	0.3	深海的恐怖			因為深海魚的恐怖，抗打減少40%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex
 905432	HPChange	DOT	False	perc	30000	2	-0.08	劇毒			中了致命性病毒，每2s持續減少8%的HP。	icon_status.poisonstatus_tex
 905433	HPChange	Debuff	False	perc	10000	2	-0.08	劇毒煙氣			透過地氣感染了劇毒。每2s逐漸減少8%的HP。	icon_status.purifydagon_tex
 905441	Endurance	Debuff	True	perc	0	0	1.2	心臟			可以給心臟體傷害的狀態	icon_status.battlefieldbuff02_tex
@@ -1986,8 +2038,6 @@
 950340	HPChange	DOT	False	perc	10000	2	-0.15	風造成的傷害			因為阿加雷斯振翅而受到傷害。會持續受到傷害。	icon_status.whirl_tex
 950342	DefPotion	Buff	True	perc	0	0	0.1	危機意識			煞雷奧斯感覺到危機意識，甲皮變得堅硬。此效果必須要解除。	icon_status.earthpower_tex
 950343	DefPotion	Buff	True	perc	0	0	0.1	堅硬的甲皮			煞雷奧斯的甲皮變得堅硬，受到的傷害減少 90%，給予的傷害增加 20%。堅硬的甲皮每次打擊時會被剝落一點。	icon_status.earthpower_tex
-950600	Power	Buff	True	abs	0	0	23	女神的庇護			感受到貝里克女神的庇護. 能感受到更強大的感覺。	icon_skills.tranquility_tex
-950600	Endurance	Buff	True	abs	0	0	23	女神的庇護			感受到貝里克女神的庇護. 能感受到更強大的感覺。	icon_skills.tranquility_tex
 975031	HPChange	Debuff	False	perc	5000	1	-0.01	冷熱交替			火焰和寒氣適當交替混合將會減少損血量。	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	Debuff	True	perc	5000	0	2	凱爾賽克巢穴_專用_中間BOSS移動速度增加_效果			周圍5m範圍內我軍移動速度增加	icon_status.plusmove_tex
 975041	DefPotion	Debuff	True	perc	5000	0	0	凱爾賽克巢穴_專用_BOSS周圍無敵_效果			周圍10m範圍內我軍有無敵保護膜效果 	icon_status.plusedefence_tex
@@ -2009,11 +2059,59 @@
 980103	HPChange	DOT	True	perc	15000	1	-0.07	灼傷			藍色火焰籠罩全身!每1s會受到最大體力 7%傷害。	icon_status.minusmp_tex
 980104	MovSpd	Debuff	False	perc	15000	0	0.5	燃燒的腳掌			踏上殘留火花的火路，腳掌燃燒起來。移動速度減少50%。	icon_skills.kumas_frontroll_tex
 980200	HPChange	DOT	False	perc	10000	1	-0.05	強酸性胃液			因強力的酸性胃液，每1s會受到最大體力 5%傷害。	icon_status.poisonstatus_tex
-980202	HPChange	DOT	False	perc	60000	2	-0.01	出血			被鋒利的斧頭擊中而出血，每2s會受到最大體力 1%傷害。	icon_status.injuredbtdarkness_tex
+980202	HPChange	DOT	False	perc	20000	2	-0.05	出血			被鋒利的斧頭擊中而出血，每2s會受到最大體力 5%傷害。	icon_status.injuredbtdarkness_tex
 980203	HPChange	DOT	False	perc	5000	1	-0.1	嚴重出血			因貝爾德克強力的一擊，造成極大的傷口，流了相當多血。每1s會受到最大體力 10%傷害。	icon_status.damagedown_tex
 980204	Power	Buff	False	setp	15000	0	3	燃燒的武器			貝爾德克準備了可怕的攻擊。不解除的話所有東西都會被破壞。	icon_skills.downattack_tex
 980205	Power	Buff	False	setp	15000	0	3	燃燒的憤怒			貝爾德克利用憤怒來破壞所有東西。迎接死亡吧	icon_skills.dragonrisingblow_tex
 980206	HPChange	DOT	True	perc	15000	2	-0.1	難以忍受的痛苦			因噴射出的火焰，傷口著火而無法癒合。每2s會受到最大體力 10%傷害。	icon_status.firedamage_tex
+981001	Power	DOT	True	perc	50000	0	1	達魯坎的種子			種下了達魯坎的種子! 重疊3個時種子會發芽並召喚手下! 無法解除此詛咒。	icon_status.injuredbtdarkness_tex
+981002	Power	DOT	False	perc	10000	0	1	乏力			無法使用技能。	icon_status.confuseup_tex
+981003	Power	Buff	False	perc	3000	0	1	不討喜的魅力			所有敵人都打算要攻擊你!	icon_status.confuseup_tex
+981004	Power	Buff	False	perc	10000	0	1	捉迷藏			變成鬼了! 幽靈要去抓你了!	icon_status.injuredbtdarkness_tex
+981010	HPChange	Debuff	False	perc	10000	1	-0.08	暗黑破片			解除之前每1s整體 HP會持續減少8%，無法使用技能。 	icon_status.fearstatus_tex
+981010	Block	Debuff	False	swch	10000	0	0	暗黑破片			解除之前每1s整體 HP會持續減少8%，無法使用技能。 	icon_status.fearstatus_tex
+981011	HPChange	DOT	True	perc	15000	3	-0.1	灼傷			解除之前每3s整體 HP會持續減少10%。達魯坎的不滅火花無法解除。	icon_status.firedamage_tex
+981016	Power	Debuff	True	perc	6000000	0	1.1	杜利溫的狂氣			復活的杜利溫漸漸陷入狂氣之中! 攻擊力增加10%，防禦力下降5%。	icon_skills.gatheringrage_tex
+981016	Endurance	Debuff	True	perc	6000000	0	0.95	杜利溫的狂氣			復活的杜利溫漸漸陷入狂氣之中! 攻擊力增加10%，防禦力下降5%。	icon_skills.gatheringrage_tex
+981018	HPChange	DOT	False	seta	17000	17	-300000	杜利溫的詛咒			每17s整體 HP會持續減少 100%。需靠近淨化裝置才能解除!	icon_status.firedamage_tex
+981019	Power	Buff	True	perc	2000	0	1	解除詛咒			已解除杜利溫的詛咒!	icon_status.valrhona_sun_tex
+981026	Endurance	Buff	False	perc	14000	0	80	黑魔法的詛咒			被黑魔法的詛咒圍繞著全身。若不解除詛咒則會釀成大禍。	icon_status.cruel_slayer_3_tex
+981027	MovSpd	Debuff	True	perc	10000	0	1	黑魔法集中			復活的杜利溫正在將黑魔法集中在你身上。有不好的預感…	icon_status.minusfocus_tex
+981028	MovSpd	Buff	True	perc	30000	0	0.26	黑魔法盾牌			復活的杜利溫使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
+981028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	黑魔法盾牌			復活的杜利溫使用邪惡的黑魔力防禦著全身。	icon_skills.manashield_tex
+981029	MovSpd	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+981029	MovSpdInCombat	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+981036	Power	Buff	True	perc	0	0	1.1	狂暴化			重新面臨死亡的危機使得復活的達魯坎非常憤怒。攻擊力增加10%，移動速度增加5%。	icon_status.archerspirit_tex
+981036	MovSpd	Buff	True	perc	0	0	1.05	狂暴化			重新面臨死亡的危機使得復活的達魯坎非常憤怒。攻擊力增加10%，移動速度增加5%。	icon_status.archerspirit_tex
+981036	ASpd	Buff	True	perc	0	0	1.05	狂暴化			重新面臨死亡的危機使得復活的達魯坎非常憤怒。攻擊力增加10%，移動速度增加5%。	icon_status.archerspirit_tex
+981038	MovSpd	DOT	False	perc	30000	0	0.5	負擔感			對付神的負擔感導致移動速度低落! 可以解除!	icon_status.archerspirit_tex
+981038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	負擔感			對付神的負擔感導致移動速度低落! 可以解除!	icon_status.archerspirit_tex
+981040	HPChange	DOT	True	perc	120000	1	-0.07	痛苦			受到神的攻擊，體力持續下降。	icon_status.firedamage_tex
+981041	Power	DOT	True	perc	120000	0	1	紅色味道			受到紅色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff02_tex
+981041	HPChange	DOT	True	seta	1500	1	-300000	紅色味道			受到紅色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff02_tex
+981042	Power	DOT	True	perc	120000	0	1	藍色味道			受到藍色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff01_tex
+981042	HPChange	DOT	True	seta	1500	1	-300000	藍色味道			受到藍色味道異常狀態。重疊2次的話即死亡。	icon_status.battlefieldbuff01_tex
+981044	HPChange	DOT	True	seta	1500	1	-300000	預定的死亡			受到了拉坎的攻擊。你已經死了!!	icon_status.diseaseup_tex
+981052	Power	Buff	True	perc	0	0	1.4	平衡			看到和諧的狀態使拉坎很滿意。提升攻擊力、防禦力、攻擊速度。	icon_status.archerspirit_tex
+981052	Endurance	Buff	True	perc	0	0	1.1	平衡			看到和諧的狀態使拉坎很滿意。提升攻擊力、防禦力、攻擊速度。	icon_status.archerspirit_tex
+981052	MovSpd	Buff	True	perc	0	0	1.2	平衡			看到和諧的狀態使拉坎很滿意。提升攻擊力、防禦力、攻擊速度。	icon_status.archerspirit_tex
+981055	MovSpd	Debuff	True	setp	5000	0	0	偷竊			偷取拉坎的精氣，不受其牽引。	icon_skills.voidtrap_tex
+981055	MovSpdInCombat	Debuff	True	setp	5000	0	0	偷竊			偷取拉坎的精氣，不受其牽引。	icon_skills.voidtrap_tex
+981059	Endurance	Buff	True	perc	0	0	0.9	不平衡			破壞平衡，拉坎失去集中力。防禦力下降。	icon_status.fearstatus_tex
+981060	HPChange	DOT	True	perc	120000	1	-0.05	灼傷			受到拉坎的攻擊遭到灼傷。體力持續下降。	icon_status.firedamage_tex
+981061	Endurance	DOT	True	perc	6000000	0	0.8	集中力下降			受到拉坎的攻擊有些頭暈。防禦力下降10%，最多可疊加5次。	icon_status.fearstatus_tex
+981081	Power	Debuff	True	perc	20000000	0	1	瞬間移動後遺症			因瞬間移動後遺症而受到3萬的傷害。	icon_status.firedamage_tex
+981083	MovSpd	Debuff	True	perc	30000	0	1	集中注視對象			復活的杜利溫一直注視著我。好像有什麼恐怖的事情要發生!	icon_skills.througharrow_tex
+981087	MovSpd	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+981087	MovSpdInCombat	Debuff	True	setp	30000	0	0	暗黑霸氣			復活的杜利溫的黑魔法入侵全身以致動彈不得。	icon_status.staminadown_tex
+981088	MovSpd	Debuff	True	perc	30000	0	1	注視			復活的杜利溫正在注視你，有種不祥的感覺。	icon_skills.markingofarcher_tex
+981089	Power	Buff	False	perc	990000000	0	1.03	不穩定的魔氣			復活的杜利溫借助拉坎的權能，使得魔氣暴走。復活的杜利溫雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+981089	ASpd	Buff	False	perc	990000000	0	1.03	不穩定的魔氣			復活的杜利溫借助拉坎的權能，使得魔氣暴走。復活的杜利溫雖然攻擊力變強、攻擊速度也變得更快，但他的身體被不穩定的魔氣環繞。如果有給予魔石的魔氣變穩定的時間的話，可能將無法承受。	icon_status.darkriftarearage_tex
+981093	HPChange	Debuff	False	perc	30000	2	-0.3	拉坎的詛咒			受到詛咒後，於1秒內下降30%的體力。	icon_status.blooduanty_tex
+981099	MovSpd	Stun	True	setp	2000	0	0	昏厥			受到拉坎的攻擊之前，因被強烈的氣息侵襲而昏厥。	icon_status.confuseup_tex
+981099	Block	Stun	True	swch	2000	0	0	昏厥			受到拉坎的攻擊之前，因被強烈的氣息侵襲而昏厥。	icon_status.confuseup_tex
+981111	Endurance	Buff	True	perc	10000	0	1	拉坎的種子			拉坎種下魔力的種子，一定時間後將會爆炸。	icon_status.heat_tex
+981116	Endurance	Buff	True	perc	10000	0	1	拉坎的種子			拉坎種下魔力的種子，一定時間後將會爆炸。	icon_status.heat_tex
 988504	MaxHP	Buff	True	perc	0	1	1.1	最大HP增加 1			自己及隊員們的最大HP增加10%。	icon_status.plusmp_tex
 988505	MaxHP	Buff	True	perc	0	1	1.2	最大HP增加 2			自己及隊員們的最大HP增加20%。	icon_status.mprecoverup_tex
 988506	MaxHP	Buff	True	perc	0	1	1.4	最大HP增加 3			自己及隊員們的最大HP增加40%。	icon_status.plushp_tex
@@ -2211,16 +2309,16 @@
 10154030	AtkPotion	Buff	True	swch	0	0	1.05	劍氣術			發現劍器而使攻擊力增加。	icon_skills.c12_atkupbuff
 10154032	AtkPotion	Buff	True	swch	60000	0	1.01	強力劍氣			展現強力劍氣後，攻擊力會增加更多。	icon_skills.c12_atkupbuff
 10154090	Endurance	Buff	True	perc	60000	0	1	變身術 I			處於變身為對方樣貌的狀態。	icon_skills.c12_transform
-10155030	AtkPotion	Buff	True	perc	0	0	1.2	滿月的饗宴			接收月光氣息，傷害量每次重疊增加20%。	icon_skills.fullmoon_tex
-10155031	AtkPotion	Buff	True	perc	0	0	1.3	血滿月的饗宴			接收月光氣息，傷害量每次重疊增加30%。	icon_skills.fullmoon_red_tex
-10155036	AtkPotion	Buff	True	perc	0	0	1.2	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加20%，爆擊率增加0.2倍。	icon_skills.fullmoon_tex
-10155036	CritChance	Buff	True	perc	0	0	1.2	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加20%，爆擊率增加0.2倍。	icon_skills.fullmoon_tex
-10155037	AtkPotion	Buff	True	perc	0	0	1.3	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加30%，爆擊率增加0.3倍。	icon_skills.fullmoon_tex
-10155037	CritChance	Buff	True	perc	0	0	1.3	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加30%，爆擊率增加0.3倍。	icon_skills.fullmoon_tex
-10155130	Power	Buff	True	abs	25000	0	50	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
-10155130	Endurance	Buff	True	swch	1500	0	0	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
-10155130	ASpd	Buff	True	abs	25000	0	20	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
-10155130	CDR	Buff	True	perc	25000	0	0.4	赤月			吸收被血染紅的月光之氣息。力量增加50，爆擊誘發增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155030	AtkPotion	Buff	True	perc	0	0	1.1	滿月的饗宴			接收月光氣息，傷害量增加10%。	icon_skills.fullmoon_tex
+10155031	AtkPotion	Buff	True	perc	0	0	1.15	血滿月的饗宴			接收月光氣息，傷害量增加15%。	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	Buff	True	perc	0	0	1.1	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加10%，爆擊率增加0.2倍。	icon_skills.fullmoon_tex
+10155036	CritChance	Buff	True	perc	0	0	1.2	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加10%，爆擊率增加0.2倍。	icon_skills.fullmoon_tex
+10155037	AtkPotion	Buff	True	perc	0	0	1.1	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加10%，爆擊率增加0.3倍。	icon_skills.fullmoon_tex
+10155037	CritChance	Buff	True	perc	0	0	1.3	滿月			接收月光氣息，滿月第二次的攻擊傷害量，每次重疊增加10%，爆擊率增加0.3倍。	icon_skills.fullmoon_tex
+10155130	Power	Buff	True	abs	25000	0	50	赤月			吸收被血染紅的月光之氣息。力量增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155130	Endurance	Buff	True	swch	1500	0	0	赤月			吸收被血染紅的月光之氣息。力量增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155130	ASpd	Buff	True	abs	25000	0	20	赤月			吸收被血染紅的月光之氣息。力量增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
+10155130	CDR	Buff	True	perc	25000	0	0.4	赤月			吸收被血染紅的月光之氣息。力量增加50，攻擊速度增加20，攻擊範圍增加20%。當效力一發生，除了[迴避]和[起身攻擊]，冷卻時間不到60秒的技能，冷卻時間將初始化，在效力持續期間，那些技能的冷卻時間減少60%。	icon_skills.redmoon_tex
 10155150	CritChance	Buff	True	perc	10000	0	100	捕捉機會			把握住可以完美迴避敵人攻擊以及反擊的機會。除了 [連擊斬]以外，下一個使用的攻擊技能有100%的機率會發生爆擊。	icon_status.darkriftareadance_tex
 10155250	Endurance	Buff	True	perc	1	0	1	月光的庇護 I			受到月光的庇護，而不會被攻擊擊倒或僵硬，也不會受到延遲效果的影響。所受到的傷害減少70%。	icon_skills.moongracebuff_tex
 10155250	DefPotion	Buff	True	perc	15000	0	0.3	月光的庇護 I			受到月光的庇護，而不會被攻擊擊倒或僵硬，也不會受到延遲效果的影響。所受到的傷害減少70%。	icon_skills.moongracebuff_tex
@@ -2630,6 +2728,7 @@
 77703439	Power	Buff	False	perc	30000	0	2.5	充電 : 戴蒙克隆能源			正在聚集戴蒙克隆能量。如果無法解除，就會獲得到強大的力量。	icon_status.fearstatus_tex
 77703442	HPChange	Buff	True	perc	1000	1	-0.25	感染 : 戴蒙克隆病毒			已感染強大的戴蒙克隆病毒。非常強大，對戴蒙克隆來說也會受到傷害。	icon_status.cruel_slayer_3_tex
 77703443	Endurance	Buff	True	perc	0	0	10	戴蒙克隆的堅硬皮革			受到戴蒙克隆的堅硬皮革的保護。很難以一般攻擊消滅牠。	icon_status.plusedefence_tex
+78100009	HPChange	DOT	True	perc	200000	1	-0.03	拉坎的注視			拉坎正在注視你。每 1s整體 HP會持續減少 3%。	icon_items.q_animaleyeball_tex
 80401500	Power	Buff	True	perc	3600000	0	3	毀滅盔甲			破滅盔甲最多吸收4000000的傷害。在持續時間內，無法給予最大傷害吸收量以上的傷害時，受到牽制效果玩家角色會死亡，且凱爾賽克陷入毀滅憤怒！	icon_skills.manashield_tex
 80900001	Endurance	Debuff	False	setp	15000	0	0.3	集中攻擊			集中攻擊對象的抗打和移動速度減少70%。集中攻擊無法解除。	icon_status.minusdefence_tex
 80900001	MovSpd	Debuff	False	setp	15000	0	0.3	集中攻擊			集中攻擊對象的抗打和移動速度減少70%。集中攻擊無法解除。	icon_status.minusdefence_tex
@@ -2731,16 +2830,16 @@
 81120113	CritResist	Buff	True	abs	5000	0	6	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
 81120114	CritResist	Buff	True	abs	5000	0	6	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
 81120115	CritResist	Buff	True	abs	5000	0	6	致命教訓			暴擊抵抗增加6 。擊倒時將解除。	icon_ep.ep_fatal_injury_tex
-81120301	CritResist	Debuff	False	abs	5000	0	-3	暴擊抵抗減少			暴擊抵抗減少-3。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120302	CritResist	Debuff	False	abs	5000	0	-4	暴擊抵抗減少			暴擊抵抗減少-4。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120303	CritResist	Debuff	False	abs	5000	0	-5	暴擊抵抗減少			暴擊抵抗減少-5。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120304	CritResist	Debuff	False	abs	5000	0	-6	暴擊抵抗減少			暴擊抵抗減少-6。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120305	CritResist	Debuff	False	abs	5000	0	-7	暴擊抵抗減少			暴擊抵抗減少-7。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120306	CritResist	Debuff	False	abs	5000	0	-8	暴擊抵抗減少			暴擊抵抗減少-8。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120307	CritResist	Debuff	False	abs	5000	0	-9	暴擊抵抗減少			暴擊抵抗減少-9。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120308	CritResist	Debuff	False	abs	5000	0	-10	暴擊抵抗減少			暴擊抵抗減少-10。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120309	CritResist	Debuff	False	abs	5000	0	-11	暴擊抵抗減少			暴擊抵抗減少-11。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
-81120310	CritResist	Debuff	False	abs	5000	0	-12	暴擊抵抗減少			暴擊抵抗減少-12。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120301	CritResist	Debuff	False	abs	18000	0	-3	暴擊抵抗減少			暴擊抵抗減少-3。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120302	CritResist	Debuff	False	abs	18000	0	-4	暴擊抵抗減少			暴擊抵抗減少-4。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120303	CritResist	Debuff	False	abs	18000	0	-5	暴擊抵抗減少			暴擊抵抗減少-5。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120304	CritResist	Debuff	False	abs	18000	0	-6	暴擊抵抗減少			暴擊抵抗減少-6。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120305	CritResist	Debuff	False	abs	18000	0	-7	暴擊抵抗減少			暴擊抵抗減少-7。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120306	CritResist	Debuff	False	abs	18000	0	-8	暴擊抵抗減少			暴擊抵抗減少-8。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120307	CritResist	Debuff	False	abs	18000	0	-9	暴擊抵抗減少			暴擊抵抗減少-9。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120308	CritResist	Debuff	False	abs	18000	0	-10	暴擊抵抗減少			暴擊抵抗減少-10。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120309	CritResist	Debuff	False	abs	18000	0	-11	暴擊抵抗減少			暴擊抵抗減少-11。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
+81120310	CritResist	Debuff	False	abs	18000	0	-12	暴擊抵抗減少			暴擊抵抗減少-12。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_special_load_tex
 81120401	CritResist	Buff	True	abs	10000	0	3	暴擊抵抗增加			暴擊抵抗增加3。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
 81120402	CritResist	Buff	True	abs	10000	0	4	暴擊抵抗增加			暴擊抵抗增加4。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
 81120403	CritResist	Buff	True	abs	10000	0	5	暴擊抵抗增加			暴擊抵抗增加5。擊倒 / 僵直 / 擊昏時將會解除	icon_ep.ep_fatal_injury_tex
@@ -3534,14 +3633,10 @@
 98000091	HPChange	DOT	False	perc	10000	3	-0.06	出血			因為小傢伙的強力一擊而發生出血，移動速度減少50%，且每3持續減少6%的HP。	icon_status.minuscriticalresist_tex
 98000092	HPChange	Buff	True	perc	12000	3	0.0033	小傢伙的祝福			因為HP恢復試藥的特別效果，每3s持續恢復0%的HP。	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	Buff	True	abs	1000	1	50000	祭司之手			體力只恢復 3	icon_items.potion5_tex
-98000100	Power	Buff	True	abs	10000000	0	25	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
-98000100	Endurance	Buff	True	abs	10000000	0	11	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
-98000100	ASpd	Buff	True	abs	10000000	0	8	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
-98000100	HPChange	Buff	True	abs	10000000	2	773	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
-98000101	Power	Buff	True	abs	10000000	0	25	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
-98000101	Endurance	Buff	True	perc	10000000	0	1.1	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
-98000101	Crit	Buff	True	perc	10000000	0	2	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
-98000101	MPChange	Buff	True	abs	10000000	1	20	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
+98000100	Power	Buff	True	abs	2400000	0	25	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
+98000100	Endurance	Buff	True	abs	900000	0	11	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex
+98000101	Endurance	Buff	True	perc	99999999	0	1.1	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
+98000101	MPChange	Buff	True	abs	0	2	-30	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex
 98000102	MaxHP	Buff	True	perc	99999999	0	1.05	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。	
 98000102	Power	Buff	True	abs	99999999	0	6	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。	
 98000103	ASpd	Buff	True	perc	0	0	1.04	守護連續 III			所有攻擊技能的仇恨值增加20%，攻擊速度增加4%。另外受到的傷害減少10%，擊倒 / 僵直發生機率也減少30%。	
@@ -3552,6 +3647,11 @@
 98000105	ASpd	Buff	True	perc	0	0	1.04	恢復連續 III			技能傷害提升10%，所受到的傷害減少10%。另外攻擊速度也會跟著提升4%。	
 98000105	DefPotion	Buff	True	perc	0	0	0.9	恢復連續 III			技能傷害提升10%，所受到的傷害減少10%。另外攻擊速度也會跟著提升4%。	
 98000105	AtkPotion	Buff	True	perc	0	0	1.1	恢復連續 III			技能傷害提升10%，所受到的傷害減少10%。另外攻擊速度也會跟著提升4%。	
+98000106	Endurance	Debuff	False	perc	10000000	0	0.9	抗打減少 [弱化紋章]			抗打減少10%。	icon_crest.crestactivedefencedown_tex
+98000106	CritResist	Debuff	False	abs	10000000	0	-12	抗打減少 [弱化紋章]			抗打減少10%。	icon_crest.crestactivedefencedown_tex
+98000107	Power	Buff	True	abs	99999999	0	40	神聖閃電 IV			力量增加40，攻擊速度也增加8。	icon_skills.divinelightning_tex
+98000107	ASpd	Buff	True	abs	99999999	0	8	神聖閃電 IV			力量增加40，攻擊速度也增加8。	icon_skills.divinelightning_tex
+98000108	Endurance	Buff	True	perc	99999999	0	1.1	抗打增加 [協力紋章]			抗打增加10%。	icon_crest.crestactivedefenceup_tex
 98850002	DropUp	Buff	True	perc	7200000	0	1.2	豐饒祝福 I			守護豐饒魔石，獎勵率增加 25%	icon_items.tresurebox3_tex
 98850003	DropUp	Buff	True	perc	7200000	0	1.4	豐饒祝福 II			守護豐饒魔石，獎勵率增加 50%	icon_items.tresurebox3_tex
 98850004	DropUp	Buff	True	perc	7200000	0	1.6	豐饒祝福 III			守護豐饒魔石，獎勵率增加 50%	icon_items.tresurebox3_tex
