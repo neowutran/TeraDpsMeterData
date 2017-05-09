@@ -71,6 +71,7 @@
 602	ASpd	Buff	True	abs	0	0	6	Titanic Wrath II			Increases Power by 25. Increases Attack Speed by 6.	icon_skills.rage_tex
 603	Power	Buff	True	abs	0	0	40	Titanic Wrath III			Increases Power by 40. Increases Attack Speed by 6.	icon_skills.rage_tex
 603	ASpd	Buff	True	abs	0	0	6	Titanic Wrath III			Increases Power by 40. Increases Attack Speed by 6.	icon_skills.rage_tex
+901	Endurance	Buff	False	perc	20000	0	1	Shara's Lash			Stunned. Cannot move.	icon_skills.flashball_tex
 901	Stun	Stun	False	swch	3000	0	5	Shara's Lash			Stunned. Cannot move.	icon_skills.flashball_tex
 902	PVPDef	Buff	True	abs	0	0	0	Noctenium Infusion	1300	Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
 902	PVPAtk	Buff	True	abs	0	0	0	Noctenium Infusion	1300	Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex
@@ -943,8 +944,8 @@
 15020	Endurance	Buff	True	abs	30000	0	10	Dancing Bones			Increases Endurance by 10.	icon_status.plusedefence_tex
 15030	Stun	Stun	False	swch	5000	0	5	Freezing Prison			Stunned and frozen in place.	icon_status.exhaustion_tex
 15031	Stun	Stun	False	swch	3000	0	5	Freezing Prison			Stunned and frozen in place.	icon_status.exhaustion_tex
-15040	HPChange	DOT	False	abs	6000	2	-3710	Pulsing Flame			Applies a stun every 2. Reduces HP by -3710  of maximum when stunned by this effect.	icon_status.delaydamage_tex
-15040	Stun1	DOT	False	swch	6000	2	1	Pulsing Flame			Applies a stun every 2. Reduces HP by -3710  of maximum when stunned by this effect.	icon_status.delaydamage_tex
+15040	HPChange	DOT	False	abs	6000	2	-3710	Pulsing Flame			Applies a stun every 2. Reduces HP by -3710 of maximum when stunned by this effect.	icon_status.delaydamage_tex
+15040	Stun1	DOT	False	swch	6000	2	1	Pulsing Flame			Applies a stun every 2. Reduces HP by -3710 of maximum when stunned by this effect.	icon_status.delaydamage_tex
 15041	HPChange	DOT	False	abs	6000	2	-3710	Pulsing Flame			Applies a stun every 2. Reduces HP by -3710 of maximum when stunned by this effect.	icon_status.delaydamage_tex
 15041	Stun1	DOT	False	swch	6000	5	1	Pulsing Flame			Applies a stun every 2. Reduces HP by -3710 of maximum when stunned by this effect.	icon_status.delaydamage_tex
 15050	ASpd	Buff	True	perc	30000	0	1.2	Ancestor's Call			Increases Attack Speed by 20%.	icon_status.pluswill_tex
@@ -1209,7 +1210,7 @@
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Dark Herald 			Increases skill damage of Runeburst by 25%.	icon_skills.moongravity_tex
 45301	StunKnockDown	Debuff	False	swch	20000	0	2	Great Shock			Massively shocked.	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	Blown Over			Shocked and knocked over.	icon_status.minuscriticalresist_tex
-46705	Endurance	Debuff	True	perc	60000	0	0.95	Acid Attack I			Decreases Defense. This effect stacks up to 10 times, and cannot be removed with cleanse skills.	icon_status.minusdefence_tex
+46705	Endurance	Debuff	True	perc	60000	0	0.9	Acid Attack I			Decreases Defense. This effect stacks up to 10 times, and cannot be removed with cleanse skills.	icon_status.minusdefence_tex
 46706	Endurance	Debuff	True	perc	60000	0	0.85	Acid Attack II			Decreases Defense. This effect stacks up to 10 times, and cannot be removed with cleanse skills.	icon_status.minusdefence_tex
 46710	DelayedEffect	Stun	False	swch	5000	0	46711	Doomed Hero			If not removed before duration expires, you explode, damaging yourself and any allies near you.	icon_skills.voidtrap_tex
 46750	Power	Buff	True	perc	180000	0	1.2	Electrified Sap			Increases Power by 20%. Increases Defense by 20%.	icon_status.archerspirit_tex
@@ -1220,7 +1221,7 @@
 46753	Endurance	Buff	True	perc	20000	0	1.2	Shriek			When stacked, produces Hardened Bark.	icon_status.angerwarrior_tex
 46755	MovSpd	Buff	True	perc	15000	0	2	Obsession			Prima and Vera are immune to debuffs, stun, stagger, and knockdown.	icon_skills.recallfriend_tex
 46755	StatusImmune	Buff	True	swch	15000	0	0	Obsession			Prima and Vera are immune to debuffs, stun, stagger, and knockdown.	icon_skills.recallfriend_tex
-46756	HPChange	DOT	True	abs	30000	2	-5000	Stagnant Pool			Deals 5,000 damage every 2 seconds.	icon_status.purifydagon_tex
+46756	HPChange	DOT	True	abs	30000	2	-15000	Stagnant Pool			Deals 15,000 damage every 2 seconds.	icon_status.purifydagon_tex
 46758	Reflect	Buff	True	perc	10000	1	0.1	Unpredictable Growth			Reflects a portion of received damage to the attacker.	icon_skills.overhelm_tex
 46759	DelayedEffect	Stun	False	swch	5000	0	46760	Noxious Fumes			Briefly stuns target after 5 seconds if not cleansed.	icon_status.poisonstatus_tex
 46760	Stun	Stun	False	swch	3000	0	5	Vomiting			You are stunned and cannot move.	icon_status.poisonup_tex
@@ -1272,7 +1273,7 @@
 60008	HPChange	DOT	False	abs	5000	1	-227	Weapon: Toxicity			Reduces HP by -227 every 1s.	icon_status.poisonstatus_tex
 60009	MovSpd	DOT	False	perc	5000	0	0.8	Weapon: Lightning			Reduces Movement Speed by 20% and HP by -882 every 1.	icon_status.minusmove_tex
 60009	HPChange	DOT	False	abs	5000	1	-882	Weapon: Lightning			Reduces Movement Speed by 20% and HP by -882 every 1.	icon_status.minusmove_tex
-60010	Endurance	Debuff	False	perc	20000	0	0.9	Armor: Hurricane			Reduces Defense by 10% from strong winds.	icon_skills.armorbreak_tex
+60010	Endurance	Debuff	False	perc	20000	0	0.93	Armor: Hurricane			Reduces Defense by 7% from strong winds.	icon_skills.armorbreak_tex
 60011	HPChange	DOT	False	abs	5000	1	-351	Armor: Thorngrip			Bleeding. Reduces HP by -351 every 1s.	icon_status.minuscriticalresist_tex
 60012	Endurance	Buff	True	perc	60000	0	1.1	Armor: Carapace			Increases Endurance by 10%.	icon_status.plusedefence_tex
 60013	HPChange	Buff	True	perc	10000	1	0.03	Armor: Lifeswell			Recovers 3% of maximum HP every 1s.	icon_items.potion1_tex
@@ -1379,7 +1380,7 @@
 70461	HPDrain	Debuff	False	perc	7000	0	0.9	Electric Shock			Decreases Movement Speed by 20%.	icon_status.plusfocus_tex
 70462	Absorb	Debuff	True	abs	20000	0	500000	Shield			Absorbs damage.	icon_status.balanceup_tex
 70463	HPChange	DOT	False	perc	1000	1	-0.03	Venom			Reduces HP by 3% of maximum HP.	icon_status.poisonstatus_tex
-76756	HPChange	DOT	True	abs	30000	2	-5000	Waste Water			Deals 5,000 damage every 2 seconds.	icon_status.purifydagon_tex
+76756	HPChange	DOT	True	abs	30000	2	-7000	Waste Water			Deals 7,000 damage every 2 seconds.	icon_status.purifydagon_tex
 76901	DelayedEffect	Buff	True	swch	60000	0	76902	Building Rage			Will soon become enraged.	icon_status.darkriftwill_tex
 76902	Power	Buff	True	perc	0	0	5	Enraged			Completely out of control.	icon_status.darkriftarearage_tex
 76902	ASpd	Buff	True	perc	0	0	2	Enraged			Completely out of control.	icon_status.darkriftarearage_tex
@@ -2244,7 +2245,7 @@
 700603	MPChange	Buff	True	abs	0	2	-30	Aura of the Merciless IV			Grants Titanic Wrath III and Titanic Fury II to you and your allies within 30m. Costs 30 MP every 2 seconds to maintain.	icon_skills.criticalupaura_tex
 700603	BuffNearbyParty	Buff	True	seta	0	3	700631	Aura of the Merciless IV			Grants Titanic Wrath III and Titanic Fury II to you and your allies within 30m. Costs 30 MP every 2 seconds to maintain.	icon_skills.criticalupaura_tex
 700630	Crit	Buff	True	perc	0	0	2	Titanic Fury I			Doubles Crit Factor.	icon_status.plusecritical_tex
-700631	Crit	Buff	True	perc	0	0	2.1	Titanic Fury II			Increases Crit Factor by 2.1 times.	icon_status.plusecritical_tex
+700631	Crit	Buff	True	perc	0	0	2.2	Titanic Fury II			Increases Crit Factor by 2.2 times.	icon_status.plusecritical_tex
 700700	MPChange	Buff	True	abs	0	2	-30	Aura of the Swift			Grants Aura of the Swift to party members within 30m. Costs 30 MP every 2 seconds to maintain.	icon_skills.speedupaura_tex
 700700	BuffNearbyParty	Buff	True	seta	0	3	700730	Aura of the Swift			Grants Aura of the Swift to party members within 30m. Costs 30 MP every 2 seconds to maintain.	icon_skills.speedupaura_tex
 700701	MPChange	Buff	True	abs	0	2	-30	Aura of the Swift II			Grants Aura of the Swift to party members within 30m. Costs 30 MP every 2 seconds to maintain.	icon_skills.speedupaura_tex
@@ -2285,12 +2286,16 @@
 701010	HPChange	Buff	True	abs	10000	2	614	Grace of the Spirit XI			Recovers 614 HP every 2s.	icon_skills.summonspiritofheal_tex
 701011	HPChange	Buff	True	abs	10000	2	769	Grace of the Spirit XII			Recovers 769 HP every 2s.	icon_skills.summonspiritofheal_tex
 701012	HPChange	Buff	True	abs	10000	2	914	Grace of the Spirit XIII			Recovers 914 HP every 2s.	icon_skills.summonspiritofheal_tex
+701100	Endurance	Buff	False	perc	20000	0	1	Sonorous Dreams I			Sleep comfortably. Ends immediately when hit.	icon_skills.shackleofquicksand_tex
 701100	Stun	Stun	False	swch	20000	0	5	Sonorous Dreams I			Sleep comfortably. Ends immediately when hit.	icon_skills.shackleofquicksand_tex
+701101	Endurance	Buff	False	perc	20000	0	1	Sonorous Dreams			Sleep comfortably. Ends immediately when hit.	icon_skills.shackleofquicksand_tex
 701101	Stun	Stun	False	swch	20000	0	5	Sonorous Dreams			Sleep comfortably. Ends immediately when hit.	icon_skills.shackleofquicksand_tex
 701200	CDR	DOT	False	swch	6000	0	1.2	Curse of Exhaustion I			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
 701201	CDR	DOT	False	swch	8000	0	1.2	Curse of Exhaustion			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
 701202	CDR	DOT	False	swch	10000	0	1.2	Curse of Exhaustion III			Increases cooldown time of all skills by 20%.	icon_skills.spiritoflassitude_tex
+701300	Endurance	Buff	False	perc	20000	0	1	Curse of Confusion			Flee in terror! Knockdown cancels the effect. In PvP, Fear effect ends if attacked.	icon_skills.spiritofconfusion_tex
 701300	Fear	Stun	False	abs	9000	0	150	Curse of Confusion			Flee in terror! Knockdown cancels the effect. In PvP, Fear effect ends if attacked.	icon_skills.spiritofconfusion_tex
+701320	Endurance	Buff	False	perc	20000	0	1	Curse of Confusion			Flee in terror! Knockdown cancels the effect. In PvP, Fear effect ends if attacked.	icon_skills.spiritofconfusion_tex
 701320	Fear	Stun	False	abs	4000	0	150	Curse of Confusion			Flee in terror! Knockdown cancels the effect. In PvP, Fear effect ends if attacked.	icon_skills.spiritofconfusion_tex
 701400	MovSpd	Stun	False	setp	4000	0	0.1	Mire I			Decreases Movement Speed by 90%. Increases Balance Factor by 100% for 4s. Effect ends if you suffer significant damage or knockdown.	icon_skills.shackleofstone_tex
 701400	Ballance	Stun	False	perc	4000	0	2	Mire I			Decreases Movement Speed by 90%. Increases Balance Factor by 100% for 4s. Effect ends if you suffer significant damage or knockdown.	icon_skills.shackleofstone_tex
@@ -2504,12 +2509,98 @@
 777035	StunKnockDown	Debuff	False	swch	1000	0	2	Shaky Ground			Lose balance and fall down.	icon_status.minuscriticalresist_tex
 777036	MovSpd	Debuff	False	setp	30000	0	0.2	Demokron's Token			Slowed and marked as the demokron's target.	icon_status.poisonup_tex
 777037	Block	Buff	True	seta	30000	0	0	Demokron's Token			Evasion and movement-related skills are unavailable.	icon_items.cancel_evade_potion_level_51_tex
-780103	HPChange	DOT	False	perc	15000	1	-0.05	Burning Wounds			Blue flames reduce 7% of max HP every 1s.	icon_status.minusmp_tex
+780103	HPChange	DOT	False	perc	15000	1	-0.05	Burning Wound			Blue flames reduce HP by 5% of maximum every 1s.	icon_status.minusmp_tex
 780104	MovSpd	Debuff	False	perc	15000	0	0.5	Burning Feet			Burns your feet, reducing Movement Speed by 50%.	icon_skills.kumas_frontroll_tex
 780200	HPChange	DOT	False	perc	10000	1	-0.05	Acidic Fluid			Acidic fluid reduces 5% of your max HP every 1s.	icon_status.poisonstatus_tex
 780201	Stun	Stun	False	swch	10000	0	5	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
 780202	HPChange	DOT	False	perc	60000	2	-0.01	Bleeding			Bleed damage reduces 1% of your max HP every 2s.	icon_status.injuredbtdarkness_tex
-780203	HPChange	DOT	False	perc	5000	1	-0.1	Hemorrhage			Reduces 10% of your max HP every 1s.	icon_status.damagedown_tex
+780203	HPChange	DOT	False	perc	5000	1	-0.1	Hemorrhage			Reduces HP by 10% of your max HP every 1s.	icon_status.damagedown_tex
+781001	Power	DOT	True	perc	50000	0	1	Creeping Doom			Creeping Doom cannot be removed, and when stacked three times applies Lethargy, which prevents all skill use for a few seconds.	icon_status.injuredbtdarkness_tex
+781002	Power	DOT	False	perc	10000	0	1	Lethargy			Cannot use skills.	icon_status.confuseup_tex
+781002	DelayedEffect	DOT	False	abs	10000	0	781014	Lethargy			Cannot use skills.	icon_status.confuseup_tex
+781003	Power	Buff	False	perc	3000	0	1	Unsavory			All enemy targets are attacking you!	icon_status.confuseup_tex
+781004	Power	Buff	False	perc	10000	0	1	It			You're it! Ghosts are following you!	icon_status.injuredbtdarkness_tex
+781010	HPChange	Debuff	False	perc	7000	1	-0.03	Dark Heart			Reduces HP by 3% of maximum every 1s. Cannot use skills.	icon_status.fearstatus_tex
+781010	Block	Debuff	False	swch	7000	0	0	Dark Heart			Reduces HP by 3% of maximum every 1s. Cannot use skills.	icon_status.fearstatus_tex
+781011	HPChange	DOT	True	perc	15000	3	-0.03	Searing Wound			Reduces HP by 3% of maximum every 3s. While active, Dark Siphon cannot be removed.	icon_status.firedamage_tex
+781016	Power	Debuff	True	perc	6000000	0	1.1	Dakuryon's Wrath			Attack increases by 10%, and Defense decreases by 5%.	icon_skills.gatheringrage_tex
+781016	Endurance	Debuff	True	perc	6000000	0	0.95	Dakuryon's Wrath			Attack increases by 10%, and Defense decreases by 5%.	icon_skills.gatheringrage_tex
+781018	HPChange	DOT	False	seta	17000	17	-300000	Dakuryon's Curse			Reduces HP by 100% of maximum every 17s. Can only be removed if a purifier is nearby.	icon_status.firedamage_tex
+781019	Power	Buff	True	perc	2000	0	1	Curse Cured			Dakuryon's Curse has ended. For now...	icon_status.valrhona_sun_tex
+781024	Stun	Debuff	True	swch	3000	0	5	Dark Chains			Stunned. Cannot move.	icon_status.positionswap_tex
+781025	Stun	Debuff	True	swch	5000	0	5	Dark Chains			Stunned. Cannot move.	icon_status.positionswap_tex
+781026	Endurance	Buff	False	perc	14000	0	80	Sanguine Curse			Cursed by blood magic.	icon_status.cruel_slayer_3_tex
+781026	HPLoss	Debuff	True	abs	18000	0	-10000000	Sanguine Curse			Cursed by blood magic.	icon_status.cruel_slayer_3_tex
+781027	MovSpd	Debuff	True	perc	10000	0	1	Dark Forces			Dakuryon is infusing you with blood magic.	icon_status.minusfocus_tex
+781027	295	Debuff	True	swch	10000	0	0	Dark Forces			Dakuryon is infusing you with blood magic.	icon_status.minusfocus_tex
+781028	MovSpd	Buff	True	perc	30000	0	0.26	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+781028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+781028	DelayedEffect	Buff	True	abs	30000	0	781131	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+781028	Absorb	Buff	True	abs	30000	0	19500000	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+781029	MovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+781029	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+781029	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+781029	HPDrain	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+781029	Stun	Debuff	True	swch	30000	0	5	Dark Clutches			Stunned.	icon_status.staminadown_tex
+781029	295	Debuff	True	swch	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+781030	Stun	Debuff	True	swch	3000	0	5	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.blooduanty_tex
+781030	Immune	Debuff	True	seta	3000	0	0	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.blooduanty_tex
+781031	Stun	Debuff	True	swch	3000	0	5	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+781031	275	Debuff	True	swch	3000	0	0	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+781033	Stun	Debuff	True	swch	9000	0	5	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+781033	Immune	Debuff	True	abs	9000	0	0	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+781036	Power	Buff	True	perc	0	0	1.1	Frenzy			Increases Attack by 10%, and Movement Speed by 5%.	icon_status.archerspirit_tex
+781036	MovSpd	Buff	True	perc	0	0	1.05	Frenzy			Increases Attack by 10%, and Movement Speed by 5%.	icon_status.archerspirit_tex
+781038	MovSpd	DOT	False	perc	30000	0	0.5	Stressed Out			Decreases Movement Speed. Can be removed.	icon_status.archerspirit_tex
+781038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Stressed Out			Decreases Movement Speed. Can be removed.	icon_status.archerspirit_tex
+781040	HPChange	DOT	True	perc	120000	1	-0.07	Agony			HP decreases over time.	icon_status.firedamage_tex
+781041	Power	DOT	True	perc	120000	0	1	Red			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff02_tex
+781041	HPChange	DOT	True	seta	1500	1	-300000	Red			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff02_tex
+781042	Power	DOT	True	perc	120000	0	1	Blue			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff01_tex
+781042	HPChange	DOT	True	seta	1500	1	-300000	Blue			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff01_tex
+781044	HPChange	DOT	True	seta	1500	1	-300000	Doom			Hit by one of Lakan's powerful attacks.	icon_status.diseaseup_tex
+781051	271	Buff	True	swch	2000	0	61902002	Countdown			An explosion is imminent.	icon_skills.explosiontrap_tex
+781052	Power	Buff	True	perc	0	0	1.4	Bitter Tears			Increased Attack, Defense, and Attack Speed.	icon_status.archerspirit_tex
+781052	Endurance	Buff	True	perc	0	0	1.1	Bitter Tears			Increased Attack, Defense, and Attack Speed.	icon_status.archerspirit_tex
+781052	MovSpd	Buff	True	perc	0	0	1.2	Bitter Tears			Increased Attack, Defense, and Attack Speed.	icon_status.archerspirit_tex
+781053	Stun	DOT	False	swch	6000	0	5	Fainting Spell			Stunned for 6 seconds. Can be removed.	icon_status.confuseup_tex
+781055	MovSpd	Debuff	True	setp	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+781055	MovSpdInCombat	Debuff	True	setp	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+781055	HPDrain	Debuff	True	setp	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+781055	Immune	Debuff	True	17	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+781059	Endurance	Buff	True	perc	0	0	0.9	Off-Balance			Decreased Defense.	icon_status.fearstatus_tex
+781060	HPChange	DOT	True	perc	120000	1	-0.05	Infected Wound			Your HP decreases over time.	icon_status.firedamage_tex
+781061	Endurance	DOT	True	perc	6000000	0	0.8	Staggering Blow			Reduces your Defense by 10%. Effect can be stacked up to 5 times.	icon_status.fearstatus_tex
+781066	DelayedEffect	DOT	True	abs	60000	0	781067	Twisted Fate			In 60 seconds, your healing spells will deal damage instead.	icon_items.q_watch_tex
+781067	164	DOT	True	perc	10000	0	-10	Curse of the Heirophant			Your healing spells now deal damage instead.	icon_status.confusestatuspc_tex
+781067	DelayedEffect	DOT	True	abs	10000	0	781066	Curse of the Heirophant			Your healing spells now deal damage instead.	icon_status.confusestatuspc_tex
+781081	Power	Debuff	True	perc	20000000	0	1	Bad Trip			Received 30,000 damage from teleportation.	icon_status.firedamage_tex
+781083	MovSpd	Debuff	True	perc	30000	0	1	Center of Attention			Dakuryon is targeting you.	icon_skills.througharrow_tex
+781085	Stun	Debuff	True	swch	1500	0	5	Dark Chains			Stunned. Cannot move.	icon_status.positionswap_tex
+781086	Stun	Debuff	True	swch	1000	0	5	Blood Rune			Stunned. Cannot move.	icon_status.staminadown_tex
+781087	MovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+781087	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+781087	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+781087	HPDrain	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+781087	Stun	Debuff	True	swch	30000	0	5	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+781087	295	Debuff	True	swch	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+781088	MovSpd	Debuff	True	perc	30000	0	1	Imperator's Stare			Dakuryon is staring at you.	icon_skills.markingofarcher_tex
+781089	Power	Buff	False	perc	990000000	0	1.03	Unstable Mana			Increases damage and Attack Speed.	icon_status.darkriftarearage_tex
+781089	ASpd	Buff	False	perc	990000000	0	1.03	Unstable Mana			Increases damage and Attack Speed.	icon_status.darkriftarearage_tex
+781090	Absorb	Buff	True	abs	6000000	0	30794400	Internal Shield			Lakan creates a shield.	icon_status.balanceup_tex
+781093	HPChange	Debuff	False	perc	30000	2	-0.3	Lakan's Curse			Reduces HP by 30% per second.	icon_status.blooduanty_tex
+781094	DelayedEffect	Buff	True	swch	4000	0	781090	Out of Phase			Lakan has partially teleported into another dimension. Can be removed.	icon_skills.selfbuff_tex
+781095	HPChange	Debuff	False	perc	30000	2	-0.3	Bitter Tears			Lakan is empowered by your misfortune.	icon_skills.selfbuff_tex
+781095	DelayedEffect	Buff	True	abs	120000	0	781097	Bitter Tears			Lakan is empowered by your misfortune.	icon_skills.selfbuff_tex
+781099	MovSpd	DOT	True	setp	2000	0	0	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+781099	Block	DOT	True	swch	2000	0	0	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+781099	Stun	DOT	True	swch	2000	0	5	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+781099	295	DOT	True	swch	2000	0	0	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+781111	DelayedEffect	Debuff	False	swch	3000	0	781112	Corpse Thumb			Lakan's touch will explode in a few seconds.	icon_status.heat_tex
+781116	DelayedEffect	Debuff	False	swch	3000	0	781117	Corpse Thumb			Lakan's touch will explode in a few seconds.	icon_status.heat_tex
+781119	AllResist	Buff	True	perc	2000	0	3.87E-09	Energy Concentration			Lakan is concentrating his energy. A sleep attack will stop him!	icon_status.windtyrant_tex
+781125	MaxMP	Buff	True	perc	0	0	1	Lakan's Grip			Reduced Attack in the presence of Lakan.	icon_status.minushp_tex
+781127	HPChange	Debuff	True	abs	1000	0	-35000	Curse of the Orb			Reduced HP.	icon_skills.darkexplosion_tex
 800100	HPChange	Buff	True	abs	10000	2	88	Regeneration Circle I			Recovers HP every 2s.	icon_skills.healingwind_tex
 800101	HPChange	Buff	True	abs	10000	2	111	Regeneration Circle II			Recovers HP every 2s.	icon_skills.healingwind_tex
 800102	HPChange	Buff	True	abs	10000	2	136	Regeneration Circle III			Recovers HP every 2s.	icon_skills.healingwind_tex
@@ -2745,9 +2836,9 @@
 905424	MovSpd	Debuff	True	perc	3000	0	1.4	Squeaky Clean			Washed the slime away. Increases Movement Speed by 50%.	icon_status.minushp_tex
 905424	MPChange	Debuff	True	perc	3000	2	0.5	Squeaky Clean			Washed the slime away. Increases Movement Speed by 50%.	icon_status.minushp_tex
 905424	Drunk1	Debuff	True	seta	3000	0	0	Squeaky Clean			Washed the slime away. Increases Movement Speed by 50%.	icon_status.minushp_tex
-905426	Endurance	Stun	False	perc	10000	0	0.45	Primal Fear			Terror decreases Endurance by 55%. Cannot take actions.	icon_status.fearstatus_tex
-905426	MovSpd	Stun	False	setp	10000	0	0.3	Primal Fear			Terror decreases Endurance by 55%. Cannot take actions.	icon_status.fearstatus_tex
-905426	Fear	Stun	False	swch	10000	0	200	Primal Fear			Terror decreases Endurance by 55%. Cannot take actions.	icon_status.fearstatus_tex
+905426	Endurance	Stun	False	perc	10000	0	0.6	Primal Fear			Terror decreases Endurance by 40%. Cannot take actions.	icon_status.fearstatus_tex
+905426	MovSpd	Stun	False	setp	10000	0	0.3	Primal Fear			Terror decreases Endurance by 40%. Cannot take actions.	icon_status.fearstatus_tex
+905426	Fear	Stun	False	swch	10000	0	200	Primal Fear			Terror decreases Endurance by 40%. Cannot take actions.	icon_status.fearstatus_tex
 905430	Absorb	Debuff	True	abs	10000	0	1584000	Chelonian Armor			The hardened shell absorbs all damage.	icon_status.balanceup_tex
 905432	HPChange	DOT	False	perc	30000	2	-0.08	Toxic			Poisoned! Reduces HP by 8% of maximum every 2s.	icon_status.poisonstatus_tex
 905433	HPChange	Debuff	False	perc	10000	2	-0.08	Noxious Plume			Inhaled poisonous fumes. Reduces HP by 8% of maximum every 2s.	icon_status.purifydagon_tex
@@ -2950,8 +3041,6 @@
 950341	AllResist	Buff	True	perc	0	0	3.87E-09	Whirl of Chaos			Aquadrax summons Whirl of Chaos. Stun him to stop the summoning.	icon_status.windtyrant_tex
 950342	DelayedEffect	Buff	True	swch	4000	0	950343	In Crisis			Terradrax hardens his scales. Cancel the effect.	icon_status.earthpower_tex
 950343	DefPotion	Buff	True	perc	0	0	0.1	Hardened Scales			Terradrax receives 90% less damage and deals 20% more damage. Hardened scales come off little by little with each hit.	icon_status.earthpower_tex
-950600	Power	Buff	True	abs	0	0	23	Goddess Blessing			Velik's blessing is upon you. Increases Power.	icon_skills.tranquility_tex
-950600	Endurance	Buff	True	abs	0	0	23	Goddess Blessing			Velik's blessing is upon you. Increases Power.	icon_skills.tranquility_tex
 975029	HPChange	Buff	True	perc	6000	0	0.03	Velik's Power			Increases Power and the chance to crit.	icon_status.plusattack_tex
 975031	HPChange	Debuff	False	perc	5000	1	-0.01	Hot and Cold Pack			A mix of fire and ice drains your HP.	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	Debuff	True	perc	5000	0	2	For Nest of Kelsaik_Only_Medium Boss Movement Speed Increase_Effect			Increases Movement Speed of allies within 5m.	icon_status.plusmove_tex
@@ -2974,15 +3063,103 @@
 975661	StaminaDecay	Buff	True	swch	90000	0	0	Light of the Sun			Recovers HP by 3% every 5 seconds.	icon_status.valrhona_sun_tex
 975662	MPChange	Buff	True	perc	90000	15	1	Dark of the Night			Replenishes Mana 100% every 15 seconds.	icon_status.valrhona_devil_tex
 975663	Endurance	Buff	True	perc	90000	0	1.05	Weight of the World			Increases Defense by 5%	icon_status.valrhona_goddess_tex
-980103	HPChange	DOT	True	perc	15000	1	-0.07	Burning Wound			Blue flames reduce 7% of max HP every 1s.	icon_status.minusmp_tex
+980008	Stun	Stun	False	swch	7000	0	5	Stunned.			Stunned. Cannot move.	icon_status.confuseup_tex
+980103	HPChange	DOT	True	perc	15000	1	-0.07	Burning Wound			Blue flames reduce HP by 7% of maximum every 1s.	icon_status.minusmp_tex
 980104	MovSpd	Debuff	False	perc	15000	0	0.5	Burning Feet			Burns your feet, reducing movement speed by 50%.	icon_skills.kumas_frontroll_tex
-980200	HPChange	DOT	False	perc	10000	1	-0.05	Acidic Fluid			Acidic fluid reduces 5% of your max HP every 1s.	icon_status.poisonstatus_tex
+980200	HPChange	DOT	False	perc	10000	1	-0.05	Acidic Fluid			Acidic fluid reduces HP by 5% of maximum every 1s.	icon_status.poisonstatus_tex
 980201	Stun	Stun	False	swch	10000	0	5	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
-980202	HPChange	DOT	False	perc	60000	2	-0.01	Bleeding			Bleed damage reduces 1% of your max HP every 2s.	icon_status.injuredbtdarkness_tex
-980203	HPChange	DOT	False	perc	5000	1	-0.1	Hemorrhage			Reduces 10% of your max HP every 1s.	icon_status.damagedown_tex
+980202	HPChange	DOT	False	perc	20000	2	-0.05	Bleeding			Reduces HP by 5% of maximum every 2s.	icon_status.injuredbtdarkness_tex
+980203	HPChange	DOT	False	perc	5000	1	-0.1	Hemorrhage			Reduces HP by 10% of maximum every 1s.	icon_status.damagedown_tex
 980204	DelayedEffect	Buff	True	perc	6000	0	980205	Burning Weapon			Veldeg prepares an abominable attack. Everything will be destroyed if Veldeg is not stopped.	icon_skills.downattack_tex
 980205	Power	Buff	False	setp	15000	0	3	Burning Rage			Veldeg's wrath is out of control. It is time to meet your doom.	icon_skills.dragonrisingblow_tex
-980206	HPChange	DOT	True	perc	15000	2	-0.1	Burning Agony			Reduces 10% of your max HP every 2s.	icon_status.firedamage_tex
+980206	HPChange	DOT	True	perc	15000	2	-0.1	Burning Agony			Reduces HP by 10% of maximum every 2s.	icon_status.firedamage_tex
+981001	Power	DOT	True	perc	50000	0	1	Creeping Doom			Creeping Doom cannot be removed, and when stacked three times applies Lethargy, which prevents all skill use for a few seconds.	icon_status.injuredbtdarkness_tex
+981002	Power	DOT	False	perc	10000	0	1	Lethargy			Cannot use skills.	icon_status.confuseup_tex
+981002	DelayedEffect	DOT	False	abs	10000	0	981014	Lethargy			Cannot use skills.	icon_status.confuseup_tex
+981003	Power	Buff	False	perc	3000	0	1	Unsavory			All enemies are about to attack you!	icon_status.confuseup_tex
+981004	Power	Buff	False	perc	10000	0	1	It			You're it! Ghosts are following you!	icon_status.injuredbtdarkness_tex
+981010	HPChange	Debuff	False	perc	10000	1	-0.08	Dark Heart			Reduces HP by 8% of maximum every 1s. Cannot use skills.	icon_status.fearstatus_tex
+981010	Block	Debuff	False	swch	10000	0	0	Dark Heart			Reduces HP by 8% of maximum every 1s. Cannot use skills.	icon_status.fearstatus_tex
+981011	HPChange	DOT	True	perc	15000	3	-0.1	Searing Wound			Reduces HP by 10% of maximum every 3s. While active, Dark Siphon cannot be removed.	icon_status.firedamage_tex
+981016	Power	Debuff	True	perc	6000000	0	1.1	Dakuryon's Wrath			Attack increases by 10%, and Defense decreases by 5%.	icon_skills.gatheringrage_tex
+981016	Endurance	Debuff	True	perc	6000000	0	0.95	Dakuryon's Wrath			Attack increases by 10%, and Defense decreases by 5%.	icon_skills.gatheringrage_tex
+981018	HPChange	DOT	False	seta	17000	17	-300000	Dakuryon's Curse			Reduces HP by 100% of maximum every 17s. Can only be removed if a purifier is nearby.	icon_status.firedamage_tex
+981019	Power	Buff	True	perc	2000	0	1	Curse Cured			Dakuryon's Curse has ended. For now...	icon_status.valrhona_sun_tex
+981024	Stun	Debuff	True	swch	3000	0	5	Dark Chains			Stunned. Cannot move.	icon_status.positionswap_tex
+981025	Stun	Debuff	True	swch	5000	0	5	Dark Chains			Stunned. Cannot move.	icon_status.positionswap_tex
+981026	Endurance	Buff	False	perc	14000	0	80	Sanguine Curse			Cursed by blood magic.	icon_status.cruel_slayer_3_tex
+981026	HPLoss	Debuff	True	abs	21000	0	-10000000	Sanguine Curse			Cursed by blood magic.	icon_status.cruel_slayer_3_tex
+981027	MovSpd	Debuff	True	perc	10000	0	1	Dark Forces			Dakuryon is infusing you with blood magic.	icon_status.minusfocus_tex
+981027	295	Debuff	True	swch	10000	0	0	Dark Forces			Dakuryon is infusing you with blood magic.	icon_status.minusfocus_tex
+981028	MovSpd	Buff	True	perc	30000	0	0.26	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+981028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+981028	DelayedEffect	Buff	True	abs	30000	0	981131	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+981028	Absorb	Buff	True	abs	30000	0	24000000	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex
+981029	MovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+981029	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+981029	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+981029	HPDrain	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+981029	Stun	Debuff	True	swch	30000	0	5	Dark Clutches			Stunned.	icon_status.staminadown_tex
+981029	295	Debuff	True	swch	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex
+981030	Stun	Debuff	True	swch	3000	0	5	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.blooduanty_tex
+981030	Immune	Debuff	True	seta	3000	0	0	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.blooduanty_tex
+981031	Stun	Debuff	True	swch	3000	0	5	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+981031	275	Debuff	True	swch	3000	0	0	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+981033	Stun	Debuff	True	swch	9000	0	5	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+981033	Immune	Debuff	True	abs	9000	0	0	Impaled			Stunned. Blood magic is spreading in your body.	icon_status.fearstatus_tex
+981036	Power	Buff	True	perc	0	0	1.1	Frenzy			Increases Attack by 10%, and Movement Speed by 5%.	icon_status.archerspirit_tex
+981036	MovSpd	Buff	True	perc	0	0	1.05	Frenzy			Increases Attack by 10%, and Movement Speed by 5%.	icon_status.archerspirit_tex
+981036	ASpd	Buff	True	perc	0	0	1.05	Frenzy			Increases Attack by 10%, and Movement Speed by 5%.	icon_status.archerspirit_tex
+981038	MovSpd	DOT	False	perc	30000	0	0.5	Stressed Out			Decreases Movement Speed. Can be removed.	icon_status.archerspirit_tex
+981038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Stressed Out			Decreases Movement Speed. Can be removed.	icon_status.archerspirit_tex
+981040	HPChange	DOT	True	perc	120000	1	-0.07	Agony			HP decreases over time.	icon_status.firedamage_tex
+981041	Power	DOT	True	perc	120000	0	1	Red			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff02_tex
+981041	HPChange	DOT	True	seta	1500	1	-300000	Red			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff02_tex
+981042	Power	DOT	True	perc	120000	0	1	Blue			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff01_tex
+981042	HPChange	DOT	True	seta	1500	1	-300000	Blue			You will die if this effect stacks 2 times.	icon_status.battlefieldbuff01_tex
+981044	HPChange	DOT	True	seta	1500	1	-300000	Doom			Hit by one of Lakan's powerful attacks.	icon_status.diseaseup_tex
+981051	271	Buff	True	swch	2000	0	61902002	Countdown			An explosion is imminent.	icon_skills.explosiontrap_tex
+981052	Power	Buff	True	perc	0	0	1.4	Bitter Tears			Increased Attack, Defense, and Attack Speed.	icon_status.archerspirit_tex
+981052	Endurance	Buff	True	perc	0	0	1.1	Bitter Tears			Increased Attack, Defense, and Attack Speed.	icon_status.archerspirit_tex
+981052	MovSpd	Buff	True	perc	0	0	1.2	Bitter Tears			Increased Attack, Defense, and Attack Speed.	icon_status.archerspirit_tex
+981053	Stun	DOT	False	swch	6000	0	5	Fainting Spell			Stunned for 6 seconds. Can be removed.	icon_status.confuseup_tex
+981055	MovSpd	Debuff	True	setp	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+981055	MovSpdInCombat	Debuff	True	setp	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+981055	HPDrain	Debuff	True	setp	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+981055	Immune	Debuff	True	17	5000	0	0	Inner Light			You are free from Lakan's influence.	icon_skills.voidtrap_tex
+981059	Endurance	Buff	True	perc	0	0	0.9	Off-Balance			Decreased Defense.	icon_status.fearstatus_tex
+981060	HPChange	DOT	True	perc	120000	1	-0.05	Infected Wound			Your HP decreases over time.	icon_status.firedamage_tex
+981061	Endurance	DOT	True	perc	6000000	0	0.8	Staggering Blow			Reduces your Defense by 10%. Effect can be stacked up to 5 times.	icon_status.fearstatus_tex
+981066	DelayedEffect	DOT	True	abs	60000	0	981067	Twisted Fate			In 60 seconds, your healing spells will deal damage instead.	icon_items.q_watch_tex
+981067	164	DOT	True	perc	10000	0	-10	Curse of the Heirophant			Your healing spells now deal damage instead.	icon_status.confusestatuspc_tex
+981067	DelayedEffect	DOT	True	abs	10000	0	981066	Curse of the Heirophant			Your healing spells now deal damage instead.	icon_status.confusestatuspc_tex
+981081	Power	Debuff	True	perc	20000000	0	1	Bad Trip			Received 30,000 damage from teleportation.	icon_status.firedamage_tex
+981083	MovSpd	Debuff	True	perc	30000	0	1	Center of Attention			Dakuryon is targeting you.	icon_skills.througharrow_tex
+981085	Stun	Debuff	True	swch	1500	0	5	Dark Chains			Stunned. Cannot move.	icon_status.positionswap_tex
+981086	Stun	Debuff	True	swch	1000	0	5	Blood Rune			Stunned. Cannot move.	icon_status.staminadown_tex
+981087	MovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+981087	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+981087	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+981087	HPDrain	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+981087	Stun	Debuff	True	swch	30000	0	5	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+981087	295	Debuff	True	swch	30000	0	0	Dark Clutches			Stunned. Cannot move.	icon_status.staminadown_tex
+981088	MovSpd	Debuff	True	perc	30000	0	1	Imperator's Stare			Dakuryon is staring at you.	icon_skills.markingofarcher_tex
+981089	Power	Buff	False	perc	990000000	0	1.03	Unstable Mana			Increases damage and Attack Speed.	icon_status.darkriftarearage_tex
+981089	ASpd	Buff	False	perc	990000000	0	1.03	Unstable Mana			Increases damage and Attack Speed.	icon_status.darkriftarearage_tex
+981090	Absorb	Buff	True	abs	6000000	0	54172800	Internal Shield			Lakan creates a shield.	icon_status.balanceup_tex
+981093	HPChange	Debuff	False	perc	30000	2	-0.3	Lakan's Curse			Reduces HP by 30% per second.	icon_status.blooduanty_tex
+981094	DelayedEffect	Buff	True	swch	2500	0	981090	Out of Phase			Lakan has partially teleported into another dimension. Can be removed.	icon_skills.selfbuff_tex
+981095	HPChange	Debuff	False	perc	30000	2	-0.3	Bitter Tears			Lakan is empowered by your misfortune.	icon_skills.selfbuff_tex
+981095	DelayedEffect	Buff	True	abs	120000	0	981097	Bitter Tears			Lakan is empowered by your misfortune.	icon_skills.selfbuff_tex
+981099	MovSpd	Stun	True	setp	2000	0	0	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+981099	Block	Stun	True	swch	2000	0	0	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+981099	Stun	Stun	True	swch	2000	0	5	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+981099	295	Stun	True	swch	2000	0	0	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex
+981111	DelayedEffect	Debuff	False	swch	3000	0	981112	Corpse Thumb			Lakan's touch will explode in a few seconds.	icon_status.heat_tex
+981116	DelayedEffect	Debuff	False	swch	3000	0	981117	Corpse Thumb			Lakan's touch will explode in a few seconds.	icon_status.heat_tex
+981119	AllResist	Buff	True	perc	2500	0	3.87E-09	Energy Concentration			Lakan is concentrating his energy. A sleep attack will stop him!	icon_status.windtyrant_tex
+981125	MaxMP	Buff	True	perc	0	0	1	Lakan's Grip			Reduced Attack in the presence of Lakan.	icon_status.minushp_tex
+981127	HPChange	Debuff	True	abs	1000	0	-70000	Curse of the Orb			Reduced HP.	icon_skills.darkexplosion_tex
 988504	MaxHP	Buff	True	perc	0	1	1.1	Endurance Minor			Increases maximum HP by 10%	icon_status.plusmp_tex
 988505	MaxHP	Buff	True	perc	0	1	1.2	Endurance Major			Increases maximum HP by 20%	icon_status.mprecoverup_tex
 988506	MaxHP	Buff	True	perc	0	1	1.4	Endurance Maximus			Increases maximum HP by 40%	icon_status.plushp_tex
@@ -3016,16 +3193,16 @@
 988585	DelayedEffect	Debuff	False	abs	5000	0	988579	Warning: Suryati's Curse (Insanity)			In 5 seconds, Spreader of Suryati's Curse (Insanity) will be applied.	icon_status.firedamage_tex
 988586	DelayedEffect	Debuff	False	abs	5000	0	988580	Warning: Suryati's Curse (Panic)			In 5 seconds, Spreader of Suryati's Curse (Panic) will be applied.	icon_status.firedamage_tex
 988587	DelayedEffect	Debuff	False	abs	5000	0	988581	Warning: Suryati's Curse (Failure)			In 5 seconds, Spreader of Suryati's Curse (Failure) will be applied.	icon_status.firedamage_tex
-990070	HPChange	Buff	True	perc	30000	1	0.0025	Adiar's Protection			Adiar's holy energy. Recovers 0.25% of maximum HP every 1s.	icon_status.delayheal_tex
-990071	MPChange	Buff	True	perc	30000	1	0.003	Derene's Protection			Drene's core energy. Recovers 0.3% of maximum MP every 1s.	icon_status.aura_of_regeneration_mp_tex
+990070	HPChange	Buff	True	perc	30000	1	0.0025	Adiar's Protection			Adiar's holy energy. Recovers HP by 0.25% of maximum every 1s.	icon_status.delayheal_tex
+990071	MPChange	Buff	True	perc	30000	1	0.003	Derene's Protection			Drene's core energy. Replenishes MP 0.3% of maximum every 1s.	icon_status.aura_of_regeneration_mp_tex
 990072	Endurance	Buff	True	abs	30000	0	1	Frateko's Protection			Frateko's aura. Increases Endurance by 1.	icon_status.plusedefence_tex
 990101	Immune	Buff	True	16	30000	0	0	Tenacious Aura			Immune to knockdown, stagger, and stun effects. (This effect cancels that of Battle Prayer.)	icon_crest.crestfightingwill_tex
 990101	StatusImmune	Buff	True	swch	30000	0	0	Tenacious Aura			Immune to knockdown, stagger, and stun effects. (This effect cancels that of Battle Prayer.)	icon_crest.crestfightingwill_tex
 990102	Endurance	Buff	True	abs	30000	1	10	Enduring Aura			Increases Endurance and Defense for allies near the defense commander. (This effect cancels the Fortification effect.)	icon_crest.crestironwillb_tex
 990103	StaminaRegen	Buff	True	perc	30000	1	1	Wholehearted Aura			Continually restores the HP and MP of allies near the adjunct commander. (This effect does not stack with Restful Travel.)	icon_status.aura_of_condition_tex
-991000	MovSpd	DOT	False	perc	5000	0	0.5	Warflame			Reduces HP by -100 every 1s by Warflame. Reduces walking speed by 50%.	icon_status.firedamage_tex
-991000	OutOfCombatMovSpd	DOT	False	perc	5000	0	0.5	Warflame			Reduces HP by -100 every 1s by Warflame. Reduces walking speed by 50%.	icon_status.firedamage_tex
-991000	HPChange	DOT	False	abs	5000	1	-100	Warflame			Reduces HP by -100 every 1s by Warflame. Reduces walking speed by 50%.	icon_status.firedamage_tex
+991000	MovSpd	DOT	False	perc	5000	0	0.5	Warflame			Reduces HP by -100 of maximum every 1s. Reduces walking speed by 50%.	icon_status.firedamage_tex
+991000	OutOfCombatMovSpd	DOT	False	perc	5000	0	0.5	Warflame			Reduces HP by -100 of maximum every 1s. Reduces walking speed by 50%.	icon_status.firedamage_tex
+991000	HPChange	DOT	False	abs	5000	1	-100	Warflame			Reduces HP by -100 of maximum every 1s. Reduces walking speed by 50%.	icon_status.firedamage_tex
 999800	242	Buff	True	abs	0	0	0	Seren's Protection			Goddess Seren's blessing protects you from attacks by outlaws.	icon_status.bless_of_velic_tex
 999801	Drunk1	Debuff	False	abs	0	0	0	Infamous			You can attack other players and other players can attack you. Effect ends if you remain out of combat for 60 seconds.	icon_status.cruel_slayer_1_tex
 999802	Drunk1	Debuff	False	abs	0	0	0	Notorious			You have escalated to a notorious criminal. Cannot use Clerics of Restoration or Noble Clerics of Restoration. Increased chance of crystal breakage. Effect ends if you remain out of combat for 60 seconds once your infamy is 0.	icon_status.cruel_slayer_2_tex
@@ -3164,14 +3341,14 @@
 7102000	Endurance	Debuff	True	perc	40000	0	1	Hostile Environment			Decreases HP recovery by 30%. When it reaches 5 stacks, something terrible may happen to you.	
 7102000	HPChange	DOT	True	perc	6000	1	-0.5	Hostile Environment			Decreases HP recovery by 30%. When it reaches 5 stacks, something terrible may happen to you.	
 7102000	IncreasedHeal	Debuff	True	perc	40000	0	0.3	Hostile Environment			Decreases HP recovery by 30%. When it reaches 5 stacks, something terrible may happen to you.	
-7102001	MovSpd	DOT	True	perc	6000	0	0.5	Energy Burst			Reduces 50% of your HP every second.	
-7102001	HPDrain	DOT	True	perc	6000	0	0.9	Energy Burst			Reduces 50% of your HP every second.	
-7102001	HPChange	DOT	True	perc	6000	1	-0.5	Energy Burst			Reduces 50% of your HP every second.	
-7102001	Drunk	DOT	True	426716	6000	0	0	Energy Burst			Reduces 50% of your HP every second.	
-7102002	MovSpd	DOT	False	setp	15000	0	0.2	Ominous Aura			Decreases Movement Speed by 80%. Reduces 10% of your maximum HP every 3.	icon_skills.painfulshackle_tex
-7102002	HPChange	DOT	False	perc	15000	3	-0.1	Ominous Aura			Decreases Movement Speed by 80%. Reduces 10% of your maximum HP every 3.	icon_skills.painfulshackle_tex
-7102003	HPChange	DOT	False	perc	10000	2	-0.1	Toxic Zone			Reduces 10% of HP every 2 seconds.	
-7102005	HPChange	DOT	False	perc	5000	1	-0.05	Hemorrhage			Reduces 1% of your HP every second. This effect cannot be removed.	
+7102001	MovSpd	DOT	True	perc	6000	0	0.5	Energy Burst			Reduces HP by 50% every second.	
+7102001	HPDrain	DOT	True	perc	6000	0	0.9	Energy Burst			Reduces HP by 50% every second.	
+7102001	HPChange	DOT	True	perc	6000	1	-0.5	Energy Burst			Reduces HP by 50% every second.	
+7102001	Drunk	DOT	True	426716	6000	0	0	Energy Burst			Reduces HP by 50% every second.	
+7102002	MovSpd	DOT	False	setp	15000	0	0.2	Ominous Aura			Decreases Movement Speed by 80%. Reduces HP by 10% of maximum every 3.	icon_skills.painfulshackle_tex
+7102002	HPChange	DOT	False	perc	15000	3	-0.1	Ominous Aura			Decreases Movement Speed by 80%. Reduces HP by 10% of maximum every 3.	icon_skills.painfulshackle_tex
+7102003	HPChange	DOT	False	perc	10000	2	-0.1	Toxic Zone			Reduces HP by 10% of maximum every 2 seconds.	
+7102005	HPChange	DOT	False	perc	5000	1	-0.05	Hemorrhage			Reduces HP by 1% of maximum every second. This effect cannot be removed.	
 7102006	Drunk1	Debuff	True	seta	8000	0	0	Fire Aura			You are wreathed in flames.	icon_status.firedamage_tex
 7102007	Drunk1	Debuff	True	seta	8000	0	0	Lightning Aura			You are surrounded by lightning.	icon_skills.electricshock_tex
 7102008	Stun	Stun	False	swch	6000	0	5	Stun V			Stunned. Cannot move.	icon_status.confuseup_tex
@@ -3371,15 +3548,15 @@
 9810009	HPDrain	Debuff	False	perc	3000	0	0.9	Trolok's Burden			Decreases Movement Speed by 80%.	icon_status.minusmove_tex
 9810011	MovSpd	Stun	False	perc	5000	0	0.2	Lakan's Wrath			Skills cannot be used due to Lakan's Curse. Reduces Movement Speed.	icon_status.minusmove_tex
 9810011	Block	Stun	False	swch	5000	0	0	Lakan's Wrath			Skills cannot be used due to Lakan's Curse. Reduces Movement Speed.	icon_status.minusmove_tex
-9810012	HPChange	DOT	False	abs	20000	5	-2300	Lakan's Searing Gaze			Reduces HP by -2300 every 5s per overlapping hit.	icon_status.firedamage_tex
+9810012	HPChange	DOT	False	abs	20000	5	-2300	Lakan's Searing Gaze			Reduces HP by -2300 of maximum every 5s per overlapping hit.	icon_status.firedamage_tex
 9810013	HPChange	DOT	False	abs	15000	5	0	Archer's Mark			Marked by an archer as the focus of their attack.	icon_skills.througharrow_tex
 9810015	Absorb	Buff	False	abs	60000	0	9000000	Lakan's Aegis			Lakan's Aegis absorbs damage.	icon_status.immunedebuff_tex
 9810015	Immune	Buff	False	20	60000	0	0	Lakan's Aegis			Lakan's Aegis absorbs damage.	icon_status.immunedebuff_tex
 9810015	StatusImmune	Buff	False	swch	60000	0	0	Lakan's Aegis			Lakan's Aegis absorbs damage.	icon_status.immunedebuff_tex
 9999019	ASpd	Buff	True	perc	0	0	1	Wibbley Wobbley Timey Wimey			Increases damage by 10%. This effect does not stack with the effects of Chain of Protection, Chain of Attack, Chain of Recovery, or Bravery Potion.	icon_status.speedystatus_tex
 10151000	239	Buff	True	perc	4000	0	1	Shadow Step			Using Shadow Jump again will trigger a cooldown.	icon_skills.instantleap_tex
-10151010	CDR	Buff	True	swch	15000	0	0.3	Shadow Reaping			Reap the shadows around you. While  reaping, the cooldown time of Double Shear, Grim Strike, Pendulum Strike, Whipsaw, Sundering Strike, Cable Step, Death Spiral, and Smite are reduced by 70%.	icon_skills.descentofdarkness_tex
-10151010	ReloadingSkill	Buff	True	swch	1000	0	170	Shadow Reaping			Reap the shadows around you. While  reaping, the cooldown time of Double Shear, Grim Strike, Pendulum Strike, Whipsaw, Sundering Strike, Cable Step, Death Spiral, and Smite are reduced by 70%.	icon_skills.descentofdarkness_tex
+10151010	CDR	Buff	True	swch	15000	0	0.3	Shadow Reaping			Reap the shadows around you. While reaping, the cooldown time of Double Shear, Grim Strike, Pendulum Strike, Whipsaw, Sundering Strike, Cable Step, Death Spiral, and Smite are reduced by 70%.	icon_skills.descentofdarkness_tex
+10151010	ReloadingSkill	Buff	True	swch	1000	0	170	Shadow Reaping			Reap the shadows around you. While reaping, the cooldown time of Double Shear, Grim Strike, Pendulum Strike, Whipsaw, Sundering Strike, Cable Step, Death Spiral, and Smite are reduced by 70%.	icon_skills.descentofdarkness_tex
 10151031	ReloadingSkill	Buff	True	perc	9500	0	90013	Soul Reversal Ready			Soul Reversal skill ready.	icon_status.darkwater_tex
 10151032	HPChange	Debuff	False	abs	10000	2	-3454	Soul Reversal			Entangled by shadowy cables that inflict 3,454 damage every 2 seconds. The entangled target can be forced to switch positions with the caster of this skill at any time.	icon_skills.darkgrasp_tex
 10151032	263	Debuff	False	perc	10000	0	10151031	Soul Reversal			Entangled by shadowy cables that inflict 3,454 damage every 2 seconds. The entangled target can be forced to switch positions with the caster of this skill at any time.	icon_skills.darkgrasp_tex
@@ -3406,9 +3583,9 @@
 10151130	MovSpd	Buff	False	perc	5000	0	0.3	Death Spiral			Movement Speed reduced by Death Spiral.	icon_skills.chainbrandish_tex
 10151131	ReloadingSkill	Buff	True	perc	6000	0	90006	Death Spiral			Can use Death Spiral one more time. Cooldown time triggers after using Death Spiral again or when the effect ends.	icon_skills.chainbrandish_tex
 10151160	IncreasedHeal	Debuff	False	swch	10000	0	0.94	Whipsaw			Reduces the effect of healing skills on you by 6% per Whipsaw hit.	icon_skills.chainblade_tex
-10151170	Immune	Debuff	True	8	1241	0	0	Retribution			Reaper is prepared to exact retribution on next attacker. Immune to all abnormal states while preparing.	icon_skills.counterattack_tex
-10151171	AllowAggro	Buff	True	swch	8000	0	0	Shrouded Escape			Reaper hides in the shadows for 8s, dropping all aggro. This effect automatically ends on using a skill or being attacked.	icon_skills.hideindarkness_tex
-10151171	Visibility	Buff	True	swch	8000	0	0	Shrouded Escape			Reaper hides in the shadows for 8s, dropping all aggro. This effect automatically ends on using a skill or being attacked.	icon_skills.hideindarkness_tex
+10151170	Immune	Debuff	True	8	1241	0	0	Retribution			You are prepared to exact retribution your next attacker. Immune to all abnormal states while preparing.	icon_skills.counterattack_tex
+10151171	AllowAggro	Buff	True	swch	8000	0	0	Shrouded Escape			Hide in the shadows for 8s, dropping all aggro. This effect automatically ends on using a skill or being attacked.	icon_skills.hideindarkness_tex
+10151171	Visibility	Buff	True	swch	8000	0	0	Shrouded Escape			Hide in the shadows for 8s, dropping all aggro. This effect automatically ends on using a skill or being attacked.	icon_skills.hideindarkness_tex
 10151200	MaxHP	Buff	True	seta	60000	0	50000	Da Bomb			Blow yourself up in time or face meaningless death. You may not ride a mount when you are da bomb. 	icon_skills.explosiontrap_tex
 10151200	MovSpdInCombat	Buff	True	seta	60000	0	240	Da Bomb			Blow yourself up in time or face meaningless death. You may not ride a mount when you are da bomb. 	icon_skills.explosiontrap_tex
 10151200	OutOfCombatMovSpd	Buff	True	seta	60000	0	240	Da Bomb			Blow yourself up in time or face meaningless death. You may not ride a mount when you are da bomb. 	icon_skills.explosiontrap_tex
@@ -3510,28 +3687,28 @@
 10154081	Aggro	Buff	True	perc	2000	0	0.38	Raining Fire II			Can cast a greatly enhanced Fire Avalanche.	icon_skills.c12_flamestrike
 10154081	ReloadingSkill	Buff	True	swch	5000	0	93008	Raining Fire II			Can cast a greatly enhanced Fire Avalanche.	icon_skills.c12_flamestrike
 10154090	Endurance	Buff	True	perc	60000	0	1	Clone Jutsu			Duplicating a target.	icon_skills.c12_transform
-10155010	33	Buff	True	seta	30000	0	0	Gjallar Horn			Ragnarok points are stored in the Ragnarok meter for up to 30 seconds, after which they decay rapidly. Damaging an enemy restarts this countdown.	icon_skills.moongrace_tex
-10155020	Immune	Buff	True	seta	0	0	0	Quick Evasion			Can use Evasion again.	icon_skills.moonshadow_tex
-10155030	AtkPotion	Buff	True	perc	0	0	1.2	Arun's Wail			Increases all skill damage by 20% per stack.	icon_skills.fullmoon_tex
-10155031	AtkPotion	Buff	True	perc	0	0	1.3	Shara's Scream			Increases all skill damage by 30% per stack.	icon_skills.fullmoon_red_tex
-10155036	AtkPotion	Buff	True	perc	0	0	1.2	Titansbane			Increases the skill damage and chance to crit of Titansbane's secondary explosion by 20% per stack.	icon_skills.fullmoon_tex
-10155036	CritChance	Buff	True	perc	0	0	1.2	Titansbane			Increases the skill damage and chance to crit of Titansbane's secondary explosion by 20% per stack.	icon_skills.fullmoon_tex
-10155037	AtkPotion	Buff	True	perc	0	0	1.3	Titansbane			Increases the skill damage and chance to crit of Titansbane's secondary explosion by 30% per stack.	icon_skills.fullmoon_tex
-10155037	CritChance	Buff	True	perc	0	0	1.3	Titansbane			Increases the skill damage and chance to crit of Titansbane's secondary explosion by 30% per stack.	icon_skills.fullmoon_tex
+10155010	33	Buff	True	seta	30000	0	0	Gjaller Horn			Ragnarok points are stored in the Ragnarok meter for up to 30 seconds, after which they decay rapidly. Damaging an enemy restarts this countdown.	icon_skills.moongrace_tex
+10155020	Immune	Buff	True	40	0	0	0	Quick Evasion			Can use Evasion again.	icon_skills.moonshadow_tex
+10155030	AtkPotion	Buff	True	perc	0	0	1.1	Arun's Wail			Increases damage dealt by 10%.	icon_skills.fullmoon_tex
+10155031	AtkPotion	Buff	True	perc	0	0	1.15	Shara's Scream			Increases damage dealt by 15%.	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	Buff	True	perc	0	0	1.1	Titansbane			Increases the damage of Titansbane's secondary explosion by 10% per stack, and its chance to crit by 20% per stack.	icon_skills.fullmoon_tex
+10155036	CritChance	Buff	True	perc	0	0	1.2	Titansbane			Increases the damage of Titansbane's secondary explosion by 10% per stack, and its chance to crit by 20% per stack.	icon_skills.fullmoon_tex
+10155037	AtkPotion	Buff	True	perc	0	0	1.1	Titansbane			Increases the damage of Titansbane's secondary explosion by 10% per stack, and its chance to crit by 30% per stack.	icon_skills.fullmoon_tex
+10155037	CritChance	Buff	True	perc	0	0	1.3	Titansbane			Increases the damage of Titansbane's secondary explosion by 10% per stack, and its chance to crit by 30% per stack.	icon_skills.fullmoon_tex
 10155040	Stun	Stun	False	swch	4000	0	5	Bloodflower			When stacked 6 times, causes stun.	icon_skills.brust_tex
 10155041	Stun	Stun	False	swch	4000	0	5	Bloodflower			Stunned, cannot move.	icon_skills.brust_tex
 10155070	ReloadingSkill	Buff	True	swch	5000	0	13007	Spin, Spin!			Can use Spinning Death.	icon_skills.helicoptercuts_tex
 10155071	ReloadingSkill	Buff	True	swch	5000	0	13007	Spin, Spin, Spin!			Can use Spinning Death.	icon_skills.helicoptercuts_tex
 10155100	Stun	Stun	False	swch	2500	0	5	Overhead Slash			Stunned.	icon_skills.fatalshot_tex
-10155130	Power	Buff	True	abs	25000	0	50	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	ASpd	Buff	True	abs	25000	0	20	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	32	Buff	True	seta	25000	0	0	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	153	Buff	True	perc	25000	0	0	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	190	Buff	True	swch	25000	0	2	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	CDR	Buff	True	perc	25000	0	0.4	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	DelayedEffect	Buff	True	swch	25000	0	10155131	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	Range	Buff	True	swch	25000	0	0.2	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
-10155130	ReloadingSkill	Buff	True	swch	25000	0	763	Ragnarok			Increases Power by 50, Crit Factor by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	Power	Buff	True	abs	25000	0	50	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	ASpd	Buff	True	abs	25000	0	20	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	32	Buff	True	seta	25000	0	0	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	153	Buff	True	perc	25000	0	0	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	190	Buff	True	swch	25000	0	2	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	CDR	Buff	True	perc	25000	0	0.4	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	DelayedEffect	Buff	True	swch	25000	0	10155131	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	Range	Buff	True	swch	25000	0	0.2	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
+10155130	ReloadingSkill	Buff	True	swch	25000	0	763	Ragnarok			Increases Power by 50, Attack Speed by 20, attack range by 20%, and decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less (excluding Evasion and Retaliate).	icon_skills.redmoon_tex
 10155150	CritChance	Buff	True	perc	10000	0	100	Perfect Evasion			Your next attack with any skill but Slash has a guaranteed chance to crit.	icon_status.darkriftareadance_tex
 10155170	Stun	Stun	False	swch	3000	0	5	Dark Herald			Stunned.	icon_skills.moongravity_tex
 10155240	33	Buff	True	seta	60000	0	0	Max Ragnarok Points			The Ragnarok meter is full. You may now cast Ragnarok.	icon_items.fullmoon_gemstone_tex
@@ -3703,9 +3880,9 @@
 45000007	Ballance	Debuff	True	perc	3000	0	3.87E-06	Weak Point			A hidden weakness in Koleogg's skin. Once the skin is removed, Koleogg becomes vulnerable to knockdown.	icon_status.risindagon_tex
 45000008	MovSpd	Debuff	False	setp	5000	0	0.2	Toxic Gas			Reduces Movement Speed, and you cannot use skills.	icon_status.minusmove_tex
 45000008	Block	Debuff	False	swch	5000	0	0	Toxic Gas			Reduces Movement Speed, and you cannot use skills.	icon_status.minusmove_tex
-45000011	MovSpd	DOT	False	perc	30000	0	0.2	Beetle Dust			Reduces Movement Speed by 80% and HP equivalent to 2% of Max HP is reduced every second. (Max. 5 accumulations.) You must jump to shake the dust off you.	icon_status.minusmove_tex
-45000011	HPChange	DOT	False	perc	30000	1	-0.02	Beetle Dust			Reduces Movement Speed by 80% and HP equivalent to 2% of Max HP is reduced every second. (Max. 5 accumulations.) You must jump to shake the dust off you.	icon_status.minusmove_tex
-45000011	Drunk	DOT	False	450001	30000	0	0	Beetle Dust			Reduces Movement Speed by 80% and HP equivalent to 2% of Max HP is reduced every second. (Max. 5 accumulations.) You must jump to shake the dust off you.	icon_status.minusmove_tex
+45000011	MovSpd	DOT	False	perc	30000	0	0.2	Beetle Dust			Reduces Movement Speed by 80%. Reduces HP by 2% of maximum every second. (Max. 5 accumulations.) You must jump to shake the dust off you.	icon_status.minusmove_tex
+45000011	HPChange	DOT	False	perc	30000	1	-0.02	Beetle Dust			Reduces Movement Speed by 80%. Reduces HP by 2% of maximum every second. (Max. 5 accumulations.) You must jump to shake the dust off you.	icon_status.minusmove_tex
+45000011	Drunk	DOT	False	450001	30000	0	0	Beetle Dust			Reduces Movement Speed by 80%. Reduces HP by 2% of maximum every second. (Max. 5 accumulations.) You must jump to shake the dust off you.	icon_status.minusmove_tex
 45000012	MovSpd	Buff	True	perc	1000	0	1.1	Shed Dust			Increases Movement Speed by 10%. .	icon_status.plusattack_tex
 45000012	Drunk	Buff	True	450003	1000	0	0	Shed Dust			Increases Movement Speed by 10%. .	icon_status.plusattack_tex
 45000015	Power	Debuff	False	perc	30000	0	1.2	Empower Clutch			Increases power by 20%. Recovers 20% of maximum HP.	icon_skills.berserk_tex
@@ -4136,7 +4313,7 @@
 75000007	Ballance	Debuff	True	perc	3000	0	1E-08	Weak Point			A hidden weakness in Koleogg's skin. Once the skin is removed, Koleogg becomes vulnerable to knockdown.	icon_status.risindagon_tex
 75000015	Power	Debuff	False	perc	30000	0	1.06	Empower Clutch			Increases Power by 6%. Recovers 6% of maximum HP.	icon_skills.berserk_tex
 75000016	Absorb	Buff	False	abs	0	0	3000000	Harden Skin			Koleogg's skin becomes thicker, to absorb damage.	icon_status.plusedefence_tex
-75000027	HPChange	DOT	False	perc	10000	3	-0.016	Bee Venom			Reduces 1.6% of maximum HP every second..	icon_status.poisonstatus_tex
+75000027	HPChange	DOT	False	perc	10000	3	-0.016	Bee Venom			Reduces HP by 1.6% of maximum every second.	icon_status.poisonstatus_tex
 76600018	Power	Buff	True	perc	15000	0	1.1	Piratical Bent			Increases Endurance and Power by 10%. The effect stacks up to 10 times.	icon_status.plusattack_tex
 76600018	Endurance	Buff	True	perc	15000	0	1.1	Piratical Bent			Increases Endurance and Power by 10%. The effect stacks up to 10 times.	icon_status.plusattack_tex
 76600019	Immune	Debuff	True	seta	10000000	0	0	Pirate's Toughness			Can be removed by Regression or Plague of Exhaustion.	icon_status.plusedefence_tex
@@ -4239,6 +4416,9 @@
 77703442	HPChange	Buff	True	perc	1000	1	-0.25	Demokron Virus			The Demokron virus that has infected you is so powerful that it has taken a toll on its own carrier Demokron.	icon_status.cruel_slayer_3_tex
 77703443	Endurance	Buff	True	perc	0	0	10	Demokron Hide			Protected by impenetrable skin, the Demokrons are now invulnerable to normal attacks.	icon_status.plusedefence_tex
 77703444	IncreasedHeal	DOT	True	swch	180000	0	0.3	Curse of Demokron			The Demokron's attack has traumatized you inside and out; healing skills now recover fewer HP.	icon_status.diffusionabnormality_tex
+78100006	Drunk	Debuff	False	781003	0	0	0	Lakan's Soul World			Entered Lakan's Soul World.	icon_socials.social_010_tex
+78100009	HPChange	DOT	True	perc	200000	1	-0.03	Stare			Lakan is staring at you. Reduces HP by 3% of maximum every 1s.	icon_items.q_animaleyeball_tex
+78100009	HPLoss	Debuff	False	abs	1000	0	-50000000	Stare			Lakan is staring at you. Reduces HP by 3% of maximum every 1s.	icon_items.q_animaleyeball_tex
 80401500	DelayedEffect	Buff	True	abs	35000	0	475150	Kelsaik's Armor of Doom			Absorbs up to 4000000 damage.	icon_skills.manashield_tex
 80401500	Absorb	Buff	True	abs	35000	0	4000000	Kelsaik's Armor of Doom			Absorbs up to 4000000 damage.	icon_skills.manashield_tex
 80900001	Endurance	Debuff	False	setp	15000	0	0.3	Gutripped			Decreases Endurance and Movement Speed by 70%. Effect cannot be removed.	icon_status.minusdefence_tex
@@ -4389,16 +4569,16 @@
 81120208	Immune	Buff	True	21	2900	0	0	Immune to Damage			Immune to all attacks. Effect ends when casting skills.	icon_ep.ep_special_unbeatable_tex
 81120209	Immune	Buff	True	21	3200	0	0	Immune to Damage			Immune to all attacks. Effect ends when casting skills.	icon_ep.ep_special_unbeatable_tex
 81120210	Immune	Buff	True	21	3500	0	0	Immune to Damage			Immune to all attacks. Effect ends when casting skills.	icon_ep.ep_special_unbeatable_tex
-81120301	CritResist	Debuff	False	abs	5000	0	-3	Resistance to Crit Decreases			Critical resistance decreases by -3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120302	CritResist	Debuff	False	abs	5000	0	-4	Resistance to Crit Decreases			Critical resistance decreases by -4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120303	CritResist	Debuff	False	abs	5000	0	-5	Resistance to Crit Decreases			Critical resistance decreases by -5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120304	CritResist	Debuff	False	abs	5000	0	-6	Resistance to Crit Decreases			Critical resistance decreases by -6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120305	CritResist	Debuff	False	abs	5000	0	-7	Resistance to Crit Decreases			Critical resistance decreases by -7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120306	CritResist	Debuff	False	abs	5000	0	-8	Resistance to Crit Decreases			Critical resistance decreases by -8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120307	CritResist	Debuff	False	abs	5000	0	-9	Resistance to Crit Decreases			Critical resistance decreases by -9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120308	CritResist	Debuff	False	abs	5000	0	-10	Resistance to Crit Decreases			Critical resistance decreases by -10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120309	CritResist	Debuff	False	abs	5000	0	-11	Resistance to Crit Decreases			Critical resistance decreases by -11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
-81120310	CritResist	Debuff	False	abs	5000	0	-12	Resistance to Crit Decreases			Critical resistance decreases by -12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120301	CritResist	Debuff	False	abs	18000	0	-3	Resistance to Crit Decreases			Critical resistance decreases by -3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120302	CritResist	Debuff	False	abs	18000	0	-4	Resistance to Crit Decreases			Critical resistance decreases by -4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120303	CritResist	Debuff	False	abs	18000	0	-5	Resistance to Crit Decreases			Critical resistance decreases by -5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120304	CritResist	Debuff	False	abs	18000	0	-6	Resistance to Crit Decreases			Critical resistance decreases by -6. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120305	CritResist	Debuff	False	abs	18000	0	-7	Resistance to Crit Decreases			Critical resistance decreases by -7. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120306	CritResist	Debuff	False	abs	18000	0	-8	Resistance to Crit Decreases			Critical resistance decreases by -8. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120307	CritResist	Debuff	False	abs	18000	0	-9	Resistance to Crit Decreases			Critical resistance decreases by -9. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120308	CritResist	Debuff	False	abs	18000	0	-10	Resistance to Crit Decreases			Critical resistance decreases by -10. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120309	CritResist	Debuff	False	abs	18000	0	-11	Resistance to Crit Decreases			Critical resistance decreases by -11. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
+81120310	CritResist	Debuff	False	abs	18000	0	-12	Resistance to Crit Decreases			Critical resistance decreases by -12. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_special_load_tex
 81120401	CritResist	Buff	True	abs	10000	0	3	Resistance to Crit Decreases			Critical resistance increases by 3. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
 81120402	CritResist	Buff	True	abs	10000	0	4	Resistance to Crit Decreases			Critical resistance increases by 4. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
 81120403	CritResist	Buff	True	abs	10000	0	5	Resistance to Crit Decreases			Critical resistance increases by 5. Knockdown, stun, or stagger cancel the effect.	icon_ep.ep_fatal_injury_tex
@@ -5379,15 +5559,10 @@
 98000091	HPChange	DOT	False	perc	10000	3	-0.06	Wing Clip			Decreases Movement Speed by 50%. Reduces HP by 6% of maximum every 3.	icon_status.minuscriticalresist_tex
 98000092	HPChange	Buff	True	perc	12000	3	0.0033	Cheeper's Blessing			Recovers 0.33% of maximum HP every 3s. Stacks up to 3 times.	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	Buff	True	abs	1000	1	50000	Priest's Touch			Recovers 30,000 HP.	icon_items.potion5_tex
-98000100	Power	Buff	True	abs	10000000	0	25	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	Endurance	Buff	True	abs	10000000	0	11	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	AllResist	Buff	True	abs	10000000	0	5	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	ASpd	Buff	True	abs	10000000	0	8	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000100	HPChange	Buff	True	abs	10000000	2	773	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
-98000101	Power	Buff	True	abs	10000000	0	25	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
-98000101	Endurance	Buff	True	perc	10000000	0	1.1	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
-98000101	Crit	Buff	True	perc	10000000	0	2	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
-98000101	MPChange	Buff	True	abs	10000000	1	20	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
+98000100	Power	Buff	True	abs	2400000	0	25	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000100	Endurance	Buff	True	abs	900000	0	11	Potion of Blessing	96000	테스트용 물약_사제 버프	Increases Power by 25, Endurance by 11, resistance by 5, attack speed by 8, and provides constant healing.	icon_skills.attackup_tex
+98000101	Endurance	Buff	True	perc	99999999	0	1.1	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
+98000101	BuffNearbyParty	Buff	True	seta	0	3	700233	Potion of Verve	96001	테스트용 물약_정령사 버프	Doubles Crit Factor, replenishes 20 MP per second, and boosts the Thrall of Protection's Endurance by 10%.	icon_status.plusecritical_tex
 98000102	MaxHP	Buff	True	perc	99999999	0	1.05	Perfect Attendance			Increases Power by 6%. Increases HP by 5%. Increased out-of-combat Movement Speed by 20.	
 98000102	Power	Buff	True	abs	99999999	0	6	Perfect Attendance			Increases Power by 6%. Increases HP by 5%. Increased out-of-combat Movement Speed by 20.	
 98000102	OutOfCombatMovSpd	Buff	True	abs	99999999	0	20	Perfect Attendance			Increases Power by 6%. Increases HP by 5%. Increased out-of-combat Movement Speed by 20.	
@@ -5401,6 +5576,11 @@
 98000105	ASpd	Buff	True	perc	0	0	1.04	Chain of Recovery III			Increases skill damage by 10%.Reduces damage taken by 10%. Increases Attack Speed by 4%.	
 98000105	DefPotion	Buff	True	perc	0	0	0.9	Chain of Recovery III			Increases skill damage by 10%.Reduces damage taken by 10%. Increases Attack Speed by 4%.	
 98000105	AtkPotion	Buff	True	perc	0	0	1.1	Chain of Recovery III			Increases skill damage by 10%.Reduces damage taken by 10%. Increases Attack Speed by 4%.	
+98000106	Endurance	Debuff	False	perc	10000000	0	0.9	Glyph of Enfeeblement			Decreases Endurance by 10%.	icon_crest.crestactivedefencedown_tex
+98000106	CritResist	Debuff	False	abs	10000000	0	-12	Glyph of Enfeeblement			Decreases Endurance by 10%.	icon_crest.crestactivedefencedown_tex
+98000107	Power	Buff	True	abs	99999999	0	40	Energy Stars IV			Increases Power by 40; Attack Speed by 8.	icon_skills.divinelightning_tex
+98000107	ASpd	Buff	True	abs	99999999	0	8	Energy Stars IV			Increases Power by 40; Attack Speed by 8.	icon_skills.divinelightning_tex
+98000108	Endurance	Buff	True	perc	99999999	0	1.1	Glyph of Grounding			Increases Endurance by 10%.	icon_crest.crestactivedefenceup_tex
 98850002	DropUp	Buff	True	perc	7200000	0	1.2	Blessing of Abundance I			Increases reward rate by 25%.	icon_items.tresurebox3_tex
 98850003	DropUp	Buff	True	perc	7200000	0	1.4	Blessing of Abundance II			Increases reward rate by 50%.	icon_items.tresurebox3_tex
 98850004	DropUp	Buff	True	perc	7200000	0	1.6	Blessing of Abundance III			Increases reward rate by 75%.	icon_items.tresurebox3_tex
@@ -5597,7 +5777,7 @@
 99001310	HPChange	Buff	True	perc	1000	1	0.15	Heal II			[Test]	icon_status.plushp_tex
 99001320	HPChange	Buff	True	perc	1000	1	0.2	Heal III			[Test]	icon_status.plushp_tex
 99001330	HPChange	Buff	True	perc	1000	1	0.25	Heal IV			[Test]	icon_status.plushp_tex
-99001340	HPChange	Buff	True	perc	1000	1	0.3	Heal V	1146	Health Potion	[Test]	icon_status.plushp_tex
+99001340	HPChange	Buff	True	perc	1000	1	0.3	Heal V	1146	Expired Potion	[Test]	icon_status.plushp_tex
 99001350	HPChange	Buff	True	perc	1000	1	0.35	Heal VI			[Test]	icon_status.plushp_tex
 99001360	HPChange	Buff	True	perc	1000	1	0.4	Heal VII			[Test]	icon_status.plushp_tex
 99001370	HPChange	Buff	True	perc	1000	1	0.45	Heal VIII			[Test]	icon_status.plushp_tex
