@@ -71,6 +71,7 @@
 602	ASpd	Buff	True	abs	0	0	6	Сила безумия II			Энергия безумного духа повышает силу на 25, а скорость атаки на 6. Эффект барьера можно получить в радиусе 30 метров от заклинателя.	icon_skills.rage_tex
 603	Power	Buff	True	abs	0	0	40	Сила безумия III			Энергия безумного духа повышает силу на 40, а скорость атаки на 6. Эффект барьера можно получить в радиусе 30 метров от заклинателя.	icon_skills.rage_tex
 603	ASpd	Buff	True	abs	0	0	6	Сила безумия III			Энергия безумного духа повышает силу на 40, а скорость атаки на 6. Эффект барьера можно получить в радиусе 30 метров от заклинателя.	icon_skills.rage_tex
+901	Endurance	Buff	False	perc	20000	0	1	Плеть Шары			Оглушение. Движение невозможно.	icon_skills.flashball_tex
 901	Stun	Stun	False	swch	3000	0	5	Плеть Шары			Оглушение. Движение невозможно.	icon_skills.flashball_tex
 902	PVPDef	Buff	True	abs	0	0	0	Настой ноктиния	1300	Настой ноктиния	Повышает эффективность умений при использовании Настоя ноктиния.	icon_items.union_supplies5_tex
 902	PVPAtk	Buff	True	abs	0	0	0	Настой ноктиния	1300	Настой ноктиния	Повышает эффективность умений при использовании Настоя ноктиния.	icon_items.union_supplies5_tex
@@ -1208,7 +1209,7 @@
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	Усиленное притяжение луны I 			При использовании умения "Отблеск лунного света" в цепочке, повышает урон умений на 25%.	icon_skills.moongravity_tex
 45301	StunKnockDown	Debuff	False	swch	20000	0	2	Великий удар			Тяжелое оглушение.	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	Забытье			Оглушение и опрокидывание.	icon_status.minuscriticalresist_tex
-46705	Endurance	Debuff	True	perc	60000	0	0.95	Трагедия			Атака кислотой снижает уровень защиты, эффект суммируется. Данный эффект отменить нельзя.	icon_status.minusdefence_tex
+46705	Endurance	Debuff	True	perc	60000	0	0.9	Трагедия			Атака кислотой снижает уровень защиты, эффект суммируется. Данный эффект отменить нельзя.	icon_status.minusdefence_tex
 46706	Endurance	Debuff	True	perc	60000	0	0.85	Великая трагедия			Атака кислотой существенно снижает уровень защиты, эффект суммируется. Данный эффект отменить нельзя.	icon_status.minusdefence_tex
 46710	DelayedEffect	Stun	False	swch	5000	0	46711	Взрыв кожи			Спустя некоторое время едкая жидкость прожжет кожу, и она лопнет, нанося урон обладателю и окружающим.	icon_skills.voidtrap_tex
 46750	Power	Buff	True	perc	180000	0	1.2	Пламенная ярость			Пламенная ярость повышает силу на 20% и защиту на 20%.	icon_status.archerspirit_tex
@@ -1219,7 +1220,7 @@
 46753	Endurance	Buff	True	perc	20000	0	1.2	Рев			При получении дополнительного эффекта "Рев" в течение времени действия, будет получен эффект "Прочная защита".	icon_status.angerwarrior_tex
 46755	MovSpd	Buff	True	perc	15000	0	2	Упорство противника			Дает иммунитет к негативным эффектам.	icon_skills.recallfriend_tex
 46755	StatusImmune	Buff	True	swch	15000	0	0	Упорство противника			Дает иммунитет к негативным эффектам.	icon_skills.recallfriend_tex
-46756	HPChange	DOT	True	abs	30000	2	-5000	Расщепленные отходы			Расщепленные отходы наносят 5 000 урона каждые 2 секунды.	icon_status.purifydagon_tex
+46756	HPChange	DOT	True	abs	30000	2	-15000	Расщепленные отходы			Расщепленные отходы наносят 15 000 урона каждые 2 секунды.	icon_status.purifydagon_tex
 46758	Reflect	Buff	True	perc	10000	1	0.1	Пламенное безумие			Отражает в нападающего определенную часть полученного урона.	icon_skills.overhelm_tex
 46759	DelayedEffect	Stun	False	swch	5000	0	46760	Тошнота			Если эффект не снять, то спустя какое-то время вы будете оглушены и почувствуете тошноту.	icon_status.poisonstatus_tex
 46760	Stun	Stun	False	swch	3000	0	5	Рвота			Сильная тошнота вызывает рвоту. Во время рвоты двигаться не получится. 	icon_status.poisonup_tex
@@ -1271,7 +1272,7 @@
 60008	HPChange	DOT	False	abs	5000	1	-227	Оружие: токсичность			Уменьшает HP на 2% раз в 1s	icon_status.poisonstatus_tex
 60009	MovSpd	DOT	False	perc	5000	0	0.8	Оружие: молния			Снижает скорость перемещения на 20%, а также HP на -882 раз в 1	icon_status.minusmove_tex
 60009	HPChange	DOT	False	abs	5000	1	-882	Оружие: молния			Снижает скорость перемещения на 20%, а также HP на -882 раз в 1	icon_status.minusmove_tex
-60010	Endurance	Debuff	False	perc	20000	0	0.9	Броня: ураган			Сильные ветра снижают защиту на 10%.	icon_skills.armorbreak_tex
+60010	Endurance	Debuff	False	perc	20000	0	0.93	Броня: ураган			Сильные ветра снижают защиту на 7%.	icon_skills.armorbreak_tex
 60011	HPChange	DOT	False	abs	5000	1	-351	Броня: Зацеп			Кровотечение. HP уменьшаются на -351 раз в 1s	icon_status.minuscriticalresist_tex
 60012	Endurance	Buff	True	perc	60000	0	1.1	Броня: панцирь			Увеличивает выносливость на 10%.	icon_status.plusedefence_tex
 60013	HPChange	Buff	True	perc	10000	1	0.03	Броня: наросты			Восстанавливает 3% от максимального уровня HP раз в 1s	icon_items.potion1_tex
@@ -1336,7 +1337,7 @@
 70238	Drunk	Buff	True	60032	10000	1	0	Медовый напиток Дигори из лунной тыквы	80082	Медовый напиток Дигори из лунной тыквы	Увеличивает выносливость на 10 в течение 10s, но заставляет вас опьянеть.	icon_items.solventd5_tex
 70241	IncreasedHeal	Buff	True	perc	10000	0	1.09	Традиционный шашлык Унылых полей			Восстанавливает дополнительно 9% HP при использовании умений исцеления.	icon_items.pigling_ribs_tex
 70301	MovSpdInCombat	Buff	True	abs	180000	0	2	Спокойное проворство			Увеличивает скорость перемещения в бою на 2. Эффект может суммироваться до 3 раз.	icon_status.aura_of_wind_tex
-70302	DamgaeAura	Buff	True	abs	180001	0	20	Спокойная сосредоточенность			Повышает урон от умений на 20.	icon_status.aura_of_damage_tex
+70302	DamageAura	Buff	True	abs	180001	0	20	Спокойная сосредоточенность			Повышает урон от умений на 20.	icon_status.aura_of_damage_tex
 70303	Stamina	Buff	True	abs	180002	0	5	Спокойная энергичность			Увеличивает максимальный уровень бодрости на 5. Эффект может суммироваться до 3 раз.	icon_status.aura_of_condition_tex
 70304	HPChange	Buff	True	perc	180003	3	0.005	Спокойная регенерация			Восстанавливает 0,5% от максимального уровня HP за экземпляр эффекта раз в 3s Эффект может суммироваться до 3 раз.	icon_status.aura_of_regeneration_hp_tex
 70305	MPChange	Buff	True	perc	180004	3	0.005	Спокойное восполнение			Восстанавливает 0,5% от максимального уровня MP за экземпляр эффекта раз в 3s Эффект может суммироваться до 3 раз.	icon_status.aura_of_regeneration_mp_tex
@@ -1378,7 +1379,7 @@
 70461	HPDrain	Debuff	False	perc	7000	0	0.9	Электрошок			Снижает скорость на 20% после удара электрическим током.	icon_status.plusfocus_tex
 70462	Absorb	Debuff	True	abs	20000	0	500000	Броня			Достигнут максимальный уровень энергии. Урон поглощается.	icon_status.balanceup_tex
 70463	HPChange	DOT	False	perc	1000	1	-0.03	Яд			При ядовитом укусе HP начинает снижаться, пока не достигнет 3%.	icon_status.poisonstatus_tex
-76756	HPChange	DOT	True	abs	30000	2	-5000	Расщепленные отходы			Расщепленные отходы наносят 5 000 урона каждые 2 секунды.	icon_status.purifydagon_tex
+76756	HPChange	DOT	True	abs	30000	2	-7000	Расщепленные отходы			Расщепленные отходы наносят 7 000 урона каждые 2 секунды.	icon_status.purifydagon_tex
 76901	DelayedEffect	Buff	True	swch	60000	0	76902	Предупреждение "Огненная ярость"			По истечении установленного времени получает эффект "Огненная ярость".	icon_status.darkriftwill_tex
 76902	Power	Buff	True	perc	0	0	5	Огненная ярость			Никто не может противостоять огненной ярости.	icon_status.darkriftarearage_tex
 76902	ASpd	Buff	True	perc	0	0	2	Огненная ярость			Никто не может противостоять огненной ярости.	icon_status.darkriftarearage_tex
@@ -2246,7 +2247,7 @@
 700603	MPChange	Buff	True	abs	0	2	-30	Аура безжалостности IV			Активирует эффекты "Сила безумия" и "Cила ярости" на всех членов группы в радиусе 30 м. Каждые 2, уровень MP снижается на -30.	icon_skills.criticalupaura_tex
 700603	BuffNearbyParty	Buff	True	seta	0	3	700631	Аура безжалостности IV			Активирует эффекты "Сила безумия" и "Cила ярости" на всех членов группы в радиусе 30 м. Каждые 2, уровень MP снижается на -30.	icon_skills.criticalupaura_tex
 700630	Crit	Buff	True	perc	0	0	2	Сила ярости I			Под влиянием духа гнева вероятность критического удара повышается в 2 раза. Эффект барьера можно получить в радиусе 30 метров от заклинателя.	icon_status.plusecritical_tex
-700631	Crit	Buff	True	perc	0	0	2.1	Сила ярости II			Под влиянием духа гнева вероятность критического удара повышается в 2,1 раза. Эффект барьера можно получить в радиусе 30 метров от заклинателя.	icon_status.plusecritical_tex
+700631	Crit	Buff	True	perc	0	0	2.2	Сила ярости II			Под влиянием духа гнева вероятность критического удара повышается в 2,2 раза. Эффект барьера можно получить в радиусе 30 метров от заклинателя.	icon_status.plusecritical_tex
 700700	MPChange	Buff	True	abs	0	2	-30	Аура скорости			Ко всем членам группы в радиусе 30 метров от вас применяется эффект "Аура скорости". Пока умение активно, вы теряете -30 MP раз в 2	icon_skills.speedupaura_tex
 700700	BuffNearbyParty	Buff	True	seta	0	3	700730	Аура скорости			Ко всем членам группы в радиусе 30 метров от вас применяется эффект "Аура скорости". Пока умение активно, вы теряете -30 MP раз в 2	icon_skills.speedupaura_tex
 700701	MPChange	Buff	True	abs	0	2	-30	Аура скорости II			Ко всем членам группы в радиусе 30 метров от вас применяется эффект "Аура скорости". Пока умение активно, вы теряете -30 MP раз в 2	icon_skills.speedupaura_tex
@@ -2287,12 +2288,16 @@
 701010	HPChange	Buff	True	abs	10000	2	614	Дар духов XI			Восстанавливает 614 HP раз в 2s	icon_skills.summonspiritofheal_tex
 701011	HPChange	Buff	True	abs	10000	2	769	Дар духов XII			Восстанавливает 769 HP раз в 2s	icon_skills.summonspiritofheal_tex
 701012	HPChange	Buff	True	abs	10000	2	914	Дар духов XIII			Восстанавливает 914 HP раз в 2s	icon_skills.summonspiritofheal_tex
+701100	Endurance	Buff	False	perc	20000	0	1	Глубокий сон I			Приятный сон. Завершается в случае атаки.	icon_skills.shackleofquicksand_tex
 701100	Stun	Stun	False	swch	20000	0	5	Глубокий сон I			Приятный сон. Завершается в случае атаки.	icon_skills.shackleofquicksand_tex
+701101	Endurance	Buff	False	perc	20000	0	1	Глубокий сон			Приятный сон. Завершается в случае атаки.	icon_skills.shackleofquicksand_tex
 701101	Stun	Stun	False	swch	20000	0	5	Глубокий сон			Приятный сон. Завершается в случае атаки.	icon_skills.shackleofquicksand_tex
 701200	CDR	DOT	False	swch	6000	0	1.2	Проклятие изнурения I			+20% к времени перезарядки всех умений.	icon_skills.spiritoflassitude_tex
 701201	CDR	DOT	False	swch	8000	0	1.2	Проклятие изнурения			+20% к времени перезарядки всех умений.	icon_skills.spiritoflassitude_tex
 701202	CDR	DOT	False	swch	10000	0	1.2	Проклятие изнурения III			+20% к времени перезарядки всех умений.	icon_skills.spiritoflassitude_tex
+701300	Endurance	Buff	False	perc	20000	0	1	Ужасное проклятие			Беги в ужасе! Эффект ужаса завершается в случае опрокидывания. В режиме PvP эффект ужаса заканчивается в случае атаки.	icon_skills.spiritofconfusion_tex
 701300	Fear	Stun	False	abs	9000	0	150	Ужасное проклятие			Беги в ужасе! Эффект ужаса завершается в случае опрокидывания. В режиме PvP эффект ужаса заканчивается в случае атаки.	icon_skills.spiritofconfusion_tex
+701320	Endurance	Buff	False	perc	20000	0	1	Ужасное проклятие			Беги в ужасе! Эффект ужаса завершается в случае опрокидывания. В режиме PvP эффект ужаса заканчивается в случае атаки.	icon_skills.spiritofconfusion_tex
 701320	Fear	Stun	False	abs	4000	0	150	Ужасное проклятие			Беги в ужасе! Эффект ужаса завершается в случае опрокидывания. В режиме PvP эффект ужаса заканчивается в случае атаки.	icon_skills.spiritofconfusion_tex
 701400	MovSpd	Stun	False	setp	4000	0	0.1	Трясина I			Снижает скорость перемещения на 90%. Повышает равновесие на 100% на 4s Действие эффекта прекращается в случае опрокидывания или получения значительного урона.	icon_skills.shackleofstone_tex
 701400	Ballance	Stun	False	perc	4000	0	2	Трясина I			Снижает скорость перемещения на 90%. Повышает равновесие на 100% на 4s Действие эффекта прекращается в случае опрокидывания или получения значительного урона.	icon_skills.shackleofstone_tex
@@ -2507,12 +2512,98 @@
 777035	StunKnockDown	Debuff	False	swch	1000	0	2	Шаткая земля			Потеря равновесия и падение.	icon_status.minuscriticalresist_tex
 777036	MovSpd	Debuff	False	setp	30000	0	0.2	Плазма демокрона			Скорость перемещения замедлена, метка цели для демокронов.	icon_status.poisonup_tex
 777037	Block	Buff	True	seta	30000	0	0	Плазма демокрона			Все умения перемещения и уклонения недоступны.	icon_items.cancel_evade_potion_level_51_tex
-780103	HPChange	DOT	False	perc	15000	1	-0.05	Ожог			Голубое пламя охватило все тело! Вы теряете 7% от максимального запаса здоровья в течение 1s	icon_status.minusmp_tex
+780103	HPChange	DOT	False	perc	15000	1	-0.05	Ожог			Голубое пламя охватило все тело! Вы теряете 5% от максимального запаса здоровья в течение 1s	icon_status.minusmp_tex
 780104	MovSpd	Debuff	False	perc	15000	0	0.5	Обожженная нога			Если ходить по углям, можно обжечь ноги. Скорость перемещения уменьшается на 50%.	icon_skills.kumas_frontroll_tex
 780200	HPChange	DOT	False	perc	10000	1	-0.05	Жгучая кислота			Кислота разъедает ваше тело. Вы теряете по 5% от максимального запаса здоровья в течение 1s	icon_status.poisonstatus_tex
 780201	Stun	Stun	False	swch	10000	0	5	Оглушение			Вы оглушены и обездвижены.	icon_status.confuseup_tex
 780202	HPChange	DOT	False	perc	60000	2	-0.01	Кровотечение			Рана, образовавшаяся от удара топором кровоточит. Вы теряете по 1% от максимального запаса здоровья в течение 2s	icon_status.injuredbtdarkness_tex
 780203	HPChange	DOT	False	perc	5000	1	-0.1	Сильное кровотечение			Мощный удар Бальдака пробил доспех и кожу. Вы теряете по 10% от максимального запаса здоровья в течение 1s	icon_status.damagedown_tex
+781001	Power	DOT	True	perc	50000	0	1	Семя Даркана			Семя Даркана пустило корни. Если появится еще 3 экземпляра эффекта, семя прорастет и появится слуга Даркана. Эффект проклятия невозможно снять.	icon_status.injuredbtdarkness_tex
+781002	Power	DOT	False	perc	10000	0	1	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex
+781002	DelayedEffect	DOT	False	abs	10000	0	781014	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex
+781003	Power	Buff	False	perc	3000	0	1	Чрезмерное внимание			Все враги собираются вас атаковать.	icon_status.confuseup_tex
+781004	Power	Buff	False	perc	10000	0	1	Водящий			Призрак гонится за тобой!	icon_status.injuredbtdarkness_tex
+781010	HPChange	Debuff	False	perc	7000	1	-0.03	Темное сердце			Отнимает 3% от максимального уровня HP раз в 1s Невозможно использовать умения. 	icon_status.fearstatus_tex
+781010	Block	Debuff	False	swch	7000	0	0	Темное сердце			Отнимает 3% от максимального уровня HP раз в 1s Невозможно использовать умения. 	icon_status.fearstatus_tex
+781011	HPChange	DOT	True	perc	15000	3	-0.03	Ожог			Отнимает 3% от максимального уровня HP раз в 3s Эффект нельзя снять.	icon_status.firedamage_tex
+781016	Power	Debuff	True	perc	6000000	0	1.1	Гнев Дуриона			Перевоплощенный Дурион начинает злиться! Атака увеличивается на 10%, защита уменьшается на 5%.	icon_skills.gatheringrage_tex
+781016	Endurance	Debuff	True	perc	6000000	0	0.95	Гнев Дуриона			Перевоплощенный Дурион начинает злиться! Атака увеличивается на 10%, защита уменьшается на 5%.	icon_skills.gatheringrage_tex
+781018	HPChange	DOT	False	seta	17000	17	-300000	Проклятие Дуриона			Во время действия эффекта отнимается 100% от максимального уровня HP раз в 17s Чтобы снять действие эффектов, подойдите к очищающему устройству.	icon_status.firedamage_tex
+781019	Power	Buff	True	perc	2000	0	1	Сброс проклятия			Проклятие отменено.	icon_status.valrhona_sun_tex
+781024	Stun	Debuff	True	swch	3000	0	5	Гарпун тьмы			Оковы воскресшего Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex
+781025	Stun	Debuff	True	swch	5000	0	5	Гарпун тьмы			Оковы воскресшего Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex
+781026	Endurance	Buff	False	perc	14000	0	80	Магия крови!			Темная магия окружает вас. Если эффект не снять, произойдет нечто ужасное.	icon_status.cruel_slayer_3_tex
+781026	HPLoss	Debuff	True	abs	18000	0	-10000000	Магия крови!			Темная магия окружает вас. Если эффект не снять, произойдет нечто ужасное.	icon_status.cruel_slayer_3_tex
+781027	MovSpd	Debuff	True	perc	10000	0	1	Концентрация темной магии			Воскресший Дурион направил на вас темную энергию. Произойдет что-то ужасное.	icon_status.minusfocus_tex
+781027	295	Debuff	True	swch	10000	0	0	Концентрация темной магии			Воскресший Дурион направил на вас темную энергию. Произойдет что-то ужасное.	icon_status.minusfocus_tex
+781028	MovSpd	Buff	True	perc	30000	0	0.26	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+781028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+781028	DelayedEffect	Buff	True	abs	30000	0	781131	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+781028	Absorb	Buff	True	abs	30000	0	19500000	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+781029	MovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781029	MovSpdInCombat	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781029	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781029	HPDrain	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781029	Stun	Debuff	True	swch	30000	0	5	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781029	295	Debuff	True	swch	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781030	Stun	Debuff	True	swch	3000	0	5	Проникновение			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex
+781030	Immune	Debuff	True	seta	3000	0	0	Проникновение			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex
+781031	Stun	Debuff	True	swch	3000	0	5	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+781031	275	Debuff	True	swch	3000	0	0	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+781033	Stun	Debuff	True	swch	9000	0	5	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+781033	Immune	Debuff	True	abs	9000	0	0	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+781036	Power	Buff	True	perc	0	0	1.1	Огненная ярость			Новая смертельная угроза привела воскресшего Дуриона в ярость. Его атака увеличивается на 10%, защита уменьшается на 5%.	icon_status.archerspirit_tex
+781036	MovSpd	Buff	True	perc	0	0	1.05	Огненная ярость			Новая смертельная угроза привела воскресшего Дуриона в ярость. Его атака увеличивается на 10%, защита уменьшается на 5%.	icon_status.archerspirit_tex
+781038	MovSpd	DOT	False	perc	30000	0	0.5	Тяжелое бремя			Богам противостоять сложно. Скорость перемещения уменьшается! Эффект можно отменить!	icon_status.archerspirit_tex
+781038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Тяжелое бремя			Богам противостоять сложно. Скорость перемещения уменьшается! Эффект можно отменить!	icon_status.archerspirit_tex
+781040	HPChange	DOT	True	perc	120000	1	-0.07	Страдания			Вы попали под атаку богов. Ваш уровень НР сокращается.	icon_status.firedamage_tex
+781041	Power	DOT	True	perc	120000	0	1	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex
+781041	HPChange	DOT	True	seta	1500	1	-300000	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex
+781042	Power	DOT	True	perc	120000	0	1	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex
+781042	HPChange	DOT	True	seta	1500	1	-300000	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex
+781044	HPChange	DOT	True	seta	1500	1	-300000	Ожидание смерти			Вы попали под мощную атаку Лакана. Игра окончена!	icon_status.diseaseup_tex
+781051	271	Buff	True	swch	2000	0	61902002	Готово, взрываю!			Вы скоро взорветесь.	icon_skills.explosiontrap_tex
+781052	Power	Buff	True	perc	0	0	1.4	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex
+781052	Endurance	Buff	True	perc	0	0	1.1	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex
+781052	MovSpd	Buff	True	perc	0	0	1.2	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex
+781053	Stun	DOT	False	swch	6000	0	5	Оглушение			Вы оглушены на 6 секунд. Данный эффект можно отменить.	icon_status.confuseup_tex
+781055	MovSpd	Debuff	True	setp	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+781055	MovSpdInCombat	Debuff	True	setp	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+781055	HPDrain	Debuff	True	setp	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+781055	Immune	Debuff	True	17	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+781059	Endurance	Buff	True	perc	0	0	0.9	Нарушение баланса			Баланс нарушен, Лакан потерял концентрацию. Защита понижается.	icon_status.fearstatus_tex
+781060	HPChange	DOT	True	perc	120000	1	-0.05	Ожог			Вы получили ожог. Ваш уровень НР снижается.	icon_status.firedamage_tex
+781061	Endurance	DOT	True	perc	6000000	0	0.8	Потеря концентрации			Вы попали под атаку Лакана и дезориентированы. Ваша защита понизилась на 10%, допустимо пятикратное суммирование эффекта.	icon_status.fearstatus_tex
+781066	DelayedEffect	DOT	True	abs	60000	0	781067	Ожидаемое проклятие			Эффект через 1 минуту превращается в проклятие. При использовании исцеляющих умений, вы не излечиваетесь, а теряете НР.	icon_items.q_watch_tex
+781067	164	DOT	True	perc	10000	0	-10	Заклинание во имя милости			На вас наложено проклятие. При использовании исцеляющих умений, ваши союзники не излечиваются, а получают урон.	icon_status.confusestatuspc_tex
+781067	DelayedEffect	DOT	True	abs	10000	0	781066	Заклинание во имя милости			На вас наложено проклятие. При использовании исцеляющих умений, ваши союзники не излечиваются, а получают урон.	icon_status.confusestatuspc_tex
+781081	Power	Debuff	True	perc	20000000	0	1	Последствие телепортации			Вы получаете 30 000 урона из-за тошноты после телепортации.	icon_status.firedamage_tex
+781083	MovSpd	Debuff	True	perc	30000	0	1	Цель наблюдения			Кажется, воскресший Дурион следит за вами. Может случиться нечто ужасное!	icon_skills.througharrow_tex
+781085	Stun	Debuff	True	swch	1500	0	5	Гарпун тьмы			Оковы воскресшего Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex
+781086	Stun	Debuff	True	swch	1000	0	5	Оковы темной магии			Темная магия воскресшего Дуриона окутывает тело и временно обездвиживает.	icon_status.staminadown_tex
+781087	MovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781087	MovSpdInCombat	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781087	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781087	HPDrain	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781087	Stun	Debuff	True	swch	30000	0	5	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781087	295	Debuff	True	swch	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+781088	MovSpd	Debuff	True	perc	30000	0	1	Наблюдение			Воскресший Дурион следит за тобой.	icon_skills.markingofarcher_tex
+781089	Power	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex
+781089	ASpd	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex
+781090	Absorb	Buff	True	abs	6000000	0	30794400	Внутренний щит			Лакан создал щит, чтобы противостоять атакам.	icon_status.balanceup_tex
+781093	HPChange	Debuff	False	perc	30000	2	-0.3	Гнев Лакана			Ваши HP понижаются со скоростью 30% в секунду.	icon_status.blooduanty_tex
+781094	DelayedEffect	Buff	True	swch	4000	0	781090	В мир души			Лакан погружается в мир души и создает щит. Эффект можно отменить.	icon_skills.selfbuff_tex
+781095	HPChange	Debuff	False	perc	30000	2	-0.3	Довольный Лакан			Лакан очень рад видеть ваши страдания.	icon_skills.selfbuff_tex
+781095	DelayedEffect	Buff	True	abs	120000	0	781097	Довольный Лакан			Лакан очень рад видеть ваши страдания.	icon_skills.selfbuff_tex
+781099	MovSpd	DOT	True	setp	2000	0	0	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+781099	Block	DOT	True	swch	2000	0	0	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+781099	Stun	DOT	True	swch	2000	0	5	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+781099	295	DOT	True	swch	2000	0	0	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+781111	DelayedEffect	Debuff	False	swch	3000	0	781112	Семя Лакана			Лакан посадил в вас заколдованное семя, которое скоро взорвется.	icon_status.heat_tex
+781116	DelayedEffect	Debuff	False	swch	3000	0	781117	Семя Лакана			Лакан посадил в вас заколдованное семя, которое скоро взорвется.	icon_status.heat_tex
+781119	AllResist	Buff	True	perc	2000	0	3.87E-09	Концентрация магии			Лакан накапливает силы для уничтожения. Постарайтесь его усыпить.	icon_status.windtyrant_tex
+781125	MaxMP	Buff	True	perc	0	0	1	Влияние Лакана			Данная область во власти Лакана. Он отнимает ваши силы. Сила атаки понижается.	icon_status.minushp_tex
+781127	HPChange	Debuff	True	abs	1000	0	-35000	Вуаль сферы			Вы попали под влияние сферы темной магии. Уровень HP уменьшается.	icon_skills.darkexplosion_tex
 800100	HPChange	Buff	True	abs	10000	2	88	Круг регенерации I			Восстанавливает HP раз в 2s	icon_skills.healingwind_tex
 800101	HPChange	Buff	True	abs	10000	2	111	Круг регенерации II			Восстанавливает HP раз в 2s	icon_skills.healingwind_tex
 800102	HPChange	Buff	True	abs	10000	2	136	Круг регенерации III			Восстанавливает HP раз в 2s	icon_skills.healingwind_tex
@@ -2748,9 +2839,9 @@
 905424	MovSpd	Debuff	True	perc	3000	0	1.4	Чисто и безупречно			Удаляет слизь. Скорость перемещения увеличивается на 50%.	icon_status.minushp_tex
 905424	MPChange	Debuff	True	perc	3000	2	0.5	Чисто и безупречно			Удаляет слизь. Скорость перемещения увеличивается на 50%.	icon_status.minushp_tex
 905424	Drunk1	Debuff	True	seta	3000	0	0	Чисто и безупречно			Удаляет слизь. Скорость перемещения увеличивается на 50%.	icon_status.minushp_tex
-905426	Endurance	Stun	False	perc	10000	0	0.45	Первобытный страх			Ужас снижает выносливость на 55%. Нельзя выполнять действия.	icon_status.fearstatus_tex
-905426	MovSpd	Stun	False	setp	10000	0	0.3	Первобытный страх			Ужас снижает выносливость на 55%. Нельзя выполнять действия.	icon_status.fearstatus_tex
-905426	Fear	Stun	False	swch	10000	0	200	Первобытный страх			Ужас снижает выносливость на 55%. Нельзя выполнять действия.	icon_status.fearstatus_tex
+905426	Endurance	Stun	False	perc	10000	0	0.6	Первобытный страх			Ужас снижает выносливость на 40%. Нельзя выполнять действия.	icon_status.fearstatus_tex
+905426	MovSpd	Stun	False	setp	10000	0	0.3	Первобытный страх			Ужас снижает выносливость на 40%. Нельзя выполнять действия.	icon_status.fearstatus_tex
+905426	Fear	Stun	False	swch	10000	0	200	Первобытный страх			Ужас снижает выносливость на 40%. Нельзя выполнять действия.	icon_status.fearstatus_tex
 905430	Absorb	Debuff	True	abs	10000	0	1584000	Черепашья броня			Прочный панцирь поглощает весь урон.	icon_status.balanceup_tex
 905432	HPChange	DOT	False	perc	30000	2	-0.08	Интоксикация			Отравление! Заставляет терять 8% от максимального уровня HP раз в 2s	icon_status.poisonstatus_tex
 905433	HPChange	Debuff	False	perc	10000	2	-0.08	Перья гибели			Отравление ядовитыми парами. Заставляет терять 8% от максимального уровня HP раз в 2s	icon_status.purifydagon_tex
@@ -2955,8 +3046,6 @@
 950341	AllResist	Buff	True	perc	0	0	3.87E-09	Водоворот Хаоса			Агарес создает Водоворот Хаоса. Оглушите Агареса, чтобы не дать ему создать водоворот.	icon_status.windtyrant_tex
 950342	DelayedEffect	Buff	True	swch	4000	0	950343	Осознание угрозы			Саллеос почувствовал угрозу и покрылся толстой броней. Вы должны сбросить этот эффект.	icon_status.earthpower_tex
 950343	DefPotion	Buff	True	perc	0	0	0.1	Толстая броня			Толстая броня снижает получаемый урон на 90% и увеличивает наносимый урон на 20%. С каждым полученным ударом броня понемногу спадает.	icon_status.earthpower_tex
-950600	Power	Buff	True	abs	0	0	23	Присутствие богини			Вы чувствуете незримое присутствие богини Велики. Силы переполняют вас.	icon_skills.tranquility_tex
-950600	Endurance	Buff	True	abs	0	0	23	Присутствие богини			Вы чувствуете незримое присутствие богини Велики. Силы переполняют вас.	icon_skills.tranquility_tex
 975029	HPChange	Buff	True	perc	6000	0	0.03	Сила Велики			Повышает вероятность нанесения критического удара.	icon_status.plusattack_tex
 975031	HPChange	Debuff	False	perc	5000	1	-0.01	Лед и пламень			Смесь льда и пламени уменьшает ваши HP.	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	Debuff	True	perc	5000	0	2	Эффект убыстрения босса Утеса Kelsaik_Only_Medium Increase_Effect			Увеличивает скорость перемещения союзников в радиусе 5 м.	icon_status.plusmove_tex
@@ -2979,15 +3068,103 @@
 975661	StaminaDecay	Buff	True	swch	90000	0	0	Свет Солнца			+3% от общего уровня HP каждые 5 секунд.	icon_status.valrhona_sun_tex
 975662	MPChange	Buff	True	perc	90000	15	1	Ночная тьма			Восстанавливает 100% маны каждые 15 секунд.	icon_status.valrhona_devil_tex
 975663	Endurance	Buff	True	perc	90000	0	1.05	Вес мира			+5% к защите.	icon_status.valrhona_goddess_tex
+980008	Stun	Stun	False	swch	7000	0	5	Оглушение			Вы оглушены и обездвижены.	icon_status.confuseup_tex
 980103	HPChange	DOT	True	perc	15000	1	-0.07	Ожог			Голубое пламя охватило все тело! Вы теряете 7% от максимального запаса здоровья в течение 1s	icon_status.minusmp_tex
 980104	MovSpd	Debuff	False	perc	15000	0	0.5	Обожженная нога			Если ходить по углям, можно обжечь ноги. Скорость перемещения уменьшается на 50%.	icon_skills.kumas_frontroll_tex
 980200	HPChange	DOT	False	perc	10000	1	-0.05	Жгучая кислота			Кислота разъедает ваше тело. Вы теряете по 5% от максимального запаса здоровья в течение 1s	icon_status.poisonstatus_tex
 980201	Stun	Stun	False	swch	10000	0	5	Оглушение			Вы оглушены и обездвижены.	icon_status.confuseup_tex
-980202	HPChange	DOT	False	perc	60000	2	-0.01	Кровотечение			Рана, образовавшаяся от удара топором кровоточит. Вы теряете по 1% от максимального запаса здоровья в течение 2s	icon_status.injuredbtdarkness_tex
+980202	HPChange	DOT	False	perc	20000	2	-0.05	Кровотечение			Рана, образовавшаяся от удара топором кровоточит. Вы теряете по 5% от максимального запаса здоровья в течение 2s	icon_status.injuredbtdarkness_tex
 980203	HPChange	DOT	False	perc	5000	1	-0.1	Сильное кровотечение			Мощный удар Бальдака пробил доспех и кожу. Вы теряете по 10% от максимального запаса здоровья в течение 1s	icon_status.damagedown_tex
 980204	DelayedEffect	Buff	True	perc	6000	0	980205	Пылающее оружие			Бальдак готовится к Ужасной атаке. Если ее не предотвратить, все будет разрушено.	icon_skills.downattack_tex
 980205	Power	Buff	False	setp	15000	0	3	Пламенная ярость			Ярость Бальдака разрушит все вокруг. Готовьтесь к смерти!	icon_skills.dragonrisingblow_tex
 980206	HPChange	DOT	True	perc	15000	2	-0.1	Нестерпимая мука			Вы получили ожоги. Вы теряете по 10% от максимального запаса здоровья в течение 2s	icon_status.firedamage_tex
+981001	Power	DOT	True	perc	50000	0	1	Семя Даркана			Семя Даркана пустило корни. Если появится еще 3 экземпляра эффекта, семя прорастет и появится слуга Даркана. Эффект проклятия невозможно снять.	icon_status.injuredbtdarkness_tex
+981002	Power	DOT	False	perc	10000	0	1	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex
+981002	DelayedEffect	DOT	False	abs	10000	0	981014	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex
+981003	Power	Buff	False	perc	3000	0	1	Чрезмерное внимание			Все враги собираются вас атаковать.	icon_status.confuseup_tex
+981004	Power	Buff	False	perc	10000	0	1	Водящий			Призрак гонится за тобой!	icon_status.injuredbtdarkness_tex
+981010	HPChange	Debuff	False	perc	10000	1	-0.08	Темное сердце			Отнимает 8% от максимального уровня HP раз в 1s Невозможно использовать умения. 	icon_status.fearstatus_tex
+981010	Block	Debuff	False	swch	10000	0	0	Темное сердце			Отнимает 8% от максимального уровня HP раз в 1s Невозможно использовать умения. 	icon_status.fearstatus_tex
+981011	HPChange	DOT	True	perc	15000	3	-0.1	Ожог			Отнимает 10% от максимального уровня HP раз в 3s Эффект нельзя снять.	icon_status.firedamage_tex
+981016	Power	Debuff	True	perc	6000000	0	1.1	Гнев Дуриона			Перевоплощенный Дурион начинает злиться! Атака увеличивается на 10%, защита уменьшается на 5%.	icon_skills.gatheringrage_tex
+981016	Endurance	Debuff	True	perc	6000000	0	0.95	Гнев Дуриона			Перевоплощенный Дурион начинает злиться! Атака увеличивается на 10%, защита уменьшается на 5%.	icon_skills.gatheringrage_tex
+981018	HPChange	DOT	False	seta	17000	17	-300000	Проклятие Дуриона			Во время действия эффекта отнимается 100% от максимального уровня HP раз в 17s Чтобы снять действие эффектов, подойдите к очищающему устройству.	icon_status.firedamage_tex
+981019	Power	Buff	True	perc	2000	0	1	Сброс проклятия			Проклятие отменено.	icon_status.valrhona_sun_tex
+981024	Stun	Debuff	True	swch	3000	0	5	Гарпун тьмы			Оковы воскресшего Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex
+981025	Stun	Debuff	True	swch	5000	0	5	Гарпун тьмы			Оковы воскресшего Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex
+981026	Endurance	Buff	False	perc	14000	0	80	Магия крови!			Темная магия окружает вас. Если эффект не снять, произойдет нечто ужасное.	icon_status.cruel_slayer_3_tex
+981026	HPLoss	Debuff	True	abs	21000	0	-10000000	Магия крови!			Темная магия окружает вас. Если эффект не снять, произойдет нечто ужасное.	icon_status.cruel_slayer_3_tex
+981027	MovSpd	Debuff	True	perc	10000	0	1	Концентрация темной магии			Воскресший Дурион направил на вас темную энергию. Произойдет что-то ужасное.	icon_status.minusfocus_tex
+981027	295	Debuff	True	swch	10000	0	0	Концентрация темной магии			Воскресший Дурион направил на вас темную энергию. Произойдет что-то ужасное.	icon_status.minusfocus_tex
+981028	MovSpd	Buff	True	perc	30000	0	0.26	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+981028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+981028	DelayedEffect	Buff	True	abs	30000	0	981131	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+981028	Absorb	Buff	True	abs	30000	0	24000000	Щит темной магии			Воскресший Дурион защищает свое тело при помощи темной магии.	icon_skills.manashield_tex
+981029	MovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981029	MovSpdInCombat	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981029	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981029	HPDrain	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981029	Stun	Debuff	True	swch	30000	0	5	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981029	295	Debuff	True	swch	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981030	Stun	Debuff	True	swch	3000	0	5	Проникновение			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex
+981030	Immune	Debuff	True	seta	3000	0	0	Проникновение			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex
+981031	Stun	Debuff	True	swch	3000	0	5	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+981031	275	Debuff	True	swch	3000	0	0	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+981033	Stun	Debuff	True	swch	9000	0	5	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+981033	Immune	Debuff	True	abs	9000	0	0	Передача темной магии			Удар копья воскресшего Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex
+981036	Power	Buff	True	perc	0	0	1.1	Огненная ярость			Новая смертельная угроза привела воскресшего Дуриона в ярость. Атака увеличивается на 10%, а скорость перемещения и атаки - на 5%.	icon_status.archerspirit_tex
+981036	MovSpd	Buff	True	perc	0	0	1.05	Огненная ярость			Новая смертельная угроза привела воскресшего Дуриона в ярость. Атака увеличивается на 10%, а скорость перемещения и атаки - на 5%.	icon_status.archerspirit_tex
+981036	ASpd	Buff	True	perc	0	0	1.05	Огненная ярость			Новая смертельная угроза привела воскресшего Дуриона в ярость. Атака увеличивается на 10%, а скорость перемещения и атаки - на 5%.	icon_status.archerspirit_tex
+981038	MovSpd	DOT	False	perc	30000	0	0.5	Тяжелое бремя			Богам противостоять сложно. Скорость перемещения уменьшается! Эффект можно отменить!	icon_status.archerspirit_tex
+981038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Тяжелое бремя			Богам противостоять сложно. Скорость перемещения уменьшается! Эффект можно отменить!	icon_status.archerspirit_tex
+981040	HPChange	DOT	True	perc	120000	1	-0.07	Страдания			Вы попали под атаку богов. Ваш уровень НР сокращается.	icon_status.firedamage_tex
+981041	Power	DOT	True	perc	120000	0	1	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex
+981041	HPChange	DOT	True	seta	1500	1	-300000	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex
+981042	Power	DOT	True	perc	120000	0	1	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex
+981042	HPChange	DOT	True	seta	1500	1	-300000	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex
+981044	HPChange	DOT	True	seta	1500	1	-300000	Ожидание смерти			Вы попали под мощную атаку Лакана. Игра окончена!	icon_status.diseaseup_tex
+981051	271	Buff	True	swch	2000	0	61902002	Готово, взрываю!			Вы скоро взорветесь.	icon_skills.explosiontrap_tex
+981052	Power	Buff	True	perc	0	0	1.4	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex
+981052	Endurance	Buff	True	perc	0	0	1.1	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex
+981052	MovSpd	Buff	True	perc	0	0	1.2	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex
+981053	Stun	DOT	False	swch	6000	0	5	Оглушение			Вы оглушены на 6 секунд. Данный эффект можно отменить.	icon_status.confuseup_tex
+981055	MovSpd	Debuff	True	setp	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+981055	MovSpdInCombat	Debuff	True	setp	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+981055	HPDrain	Debuff	True	setp	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+981055	Immune	Debuff	True	17	5000	0	0	Воровство			Дух Лакана похищен.	icon_skills.voidtrap_tex
+981059	Endurance	Buff	True	perc	0	0	0.9	Нарушение баланса			Баланс нарушен, Лакан потерял концентрацию. Защита понижается.	icon_status.fearstatus_tex
+981060	HPChange	DOT	True	perc	120000	1	-0.05	Ожог			Вы получили ожог. Ваш уровень НР снижается.	icon_status.firedamage_tex
+981061	Endurance	DOT	True	perc	6000000	0	0.8	Потеря концентрации			Вы попали под атаку Лакана и дезориентированы. Ваша защита понизилась на 10%, допустимо пятикратное суммирование эффекта.	icon_status.fearstatus_tex
+981066	DelayedEffect	DOT	True	abs	60000	0	981067	Ожидаемое проклятие			Эффект через 1 минуту превращается в проклятие. При использовании исцеляющих умений, вы не излечиваетесь, а теряете НР.	icon_items.q_watch_tex
+981067	164	DOT	True	perc	10000	0	-10	Заклинание во имя милости			На вас наложено проклятие. При использовании исцеляющих умений, ваши союзники не излечиваются, а получают урон.	icon_status.confusestatuspc_tex
+981067	DelayedEffect	DOT	True	abs	10000	0	981066	Заклинание во имя милости			На вас наложено проклятие. При использовании исцеляющих умений, ваши союзники не излечиваются, а получают урон.	icon_status.confusestatuspc_tex
+981081	Power	Debuff	True	perc	20000000	0	1	Последствие телепортации			Вы получаете 30 000 урона из-за тошноты после телепортации.	icon_status.firedamage_tex
+981083	MovSpd	Debuff	True	perc	30000	0	1	Цель наблюдения			Кажется, воскресший Дурион следит за вами. Может случиться нечто ужасное!	icon_skills.througharrow_tex
+981085	Stun	Debuff	True	swch	1500	0	5	Гарпун тьмы			Оковы воскресшего Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex
+981086	Stun	Debuff	True	swch	1000	0	5	Оковы темной магии			Темная магия воскресшего Дуриона окутывает тело и временно обездвиживает.	icon_status.staminadown_tex
+981087	MovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981087	MovSpdInCombat	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981087	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981087	HPDrain	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981087	Stun	Debuff	True	swch	30000	0	5	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981087	295	Debuff	True	swch	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex
+981088	MovSpd	Debuff	True	perc	30000	0	1	Наблюдение			Воскресший Дурион следит за тобой.	icon_skills.markingofarcher_tex
+981089	Power	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex
+981089	ASpd	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex
+981090	Absorb	Buff	True	abs	6000000	0	54172800	Внутренний щит			Лакан создал щит, чтобы противостоять атакам.	icon_status.balanceup_tex
+981093	HPChange	Debuff	False	perc	30000	2	-0.3	Гнев Лакана			Ваши HP понижаются со скоростью 30% в секунду.	icon_status.blooduanty_tex
+981094	DelayedEffect	Buff	True	swch	2500	0	981090	В мир души			Лакан погружается в мир души и создает щит. Эффект можно отменить.	icon_skills.selfbuff_tex
+981095	HPChange	Debuff	False	perc	30000	2	-0.3	Довольный Лакан			Лакан очень рад видеть ваши страдания.	icon_skills.selfbuff_tex
+981095	DelayedEffect	Buff	True	abs	120000	0	981097	Довольный Лакан			Лакан очень рад видеть ваши страдания.	icon_skills.selfbuff_tex
+981099	MovSpd	Stun	True	setp	2000	0	0	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+981099	Block	Stun	True	swch	2000	0	0	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+981099	Stun	Stun	True	swch	2000	0	5	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+981099	295	Stun	True	swch	2000	0	0	Оглушение			За секунду до атаки Лакана вас оглушило мощной волной энергии.	icon_status.confuseup_tex
+981111	DelayedEffect	Debuff	False	swch	3000	0	981112	Семя Лакана			Лакан посадил в вас заколдованное семя, которое скоро взорвется.	icon_status.heat_tex
+981116	DelayedEffect	Debuff	False	swch	3000	0	981117	Семя Лакана			Лакан посадил в вас заколдованное семя, которое скоро взорвется.	icon_status.heat_tex
+981119	AllResist	Buff	True	perc	2500	0	3.87E-09	Концентрация магии			Лакан накапливает силы для уничтожения. Постарайтесь его усыпить.	icon_status.windtyrant_tex
+981125	MaxMP	Buff	True	perc	0	0	1	Влияние Лакана			Данная область во власти Лакана. Он отнимает ваши силы. Сила атаки понижается.	icon_status.minushp_tex
+981127	HPChange	Debuff	True	abs	1000	0	-70000	Вуаль сферы			Вы попали под влияние сферы темной магии. Уровень HP уменьшается.	icon_skills.darkexplosion_tex
 988504	MaxHP	Buff	True	perc	0	1	1.1	Выносливость: малая			Увеличивает максимальный уровень HP на 10%.	icon_status.plusmp_tex
 988505	MaxHP	Buff	True	perc	0	1	1.2	Выносливость: большая			Увеличивает максимальный уровень HP на 20%.	icon_status.mprecoverup_tex
 988506	MaxHP	Buff	True	perc	0	1	1.4	Выносливость: максимальная			Увеличивает максимальный уровень HP на 40%.	icon_status.plushp_tex
@@ -3387,8 +3564,8 @@
 9810015	StatusImmune	Buff	False	swch	60000	0	0	Защита Лакана			Защита Лакана поглощает урон.	icon_status.immunedebuff_tex
 9999019	ASpd	Buff	True	perc	0	0	1	Спираль времени			Увеличивает урон на 10%. Этот эффект не сочетается с умениями "Цепь защиты", "Цепь атаки", "Цепь восстановления" или "Зелье храбрости".	icon_status.speedystatus_tex
 10151000	239	Buff	True	perc	4000	0	1	Призрачный шаг			Призрачный шаг не может использоваться более одного раза.	icon_skills.instantleap_tex
-10151010	CDR	Buff	True	swch	15000	0	0.3	Темная жатва			Сбрасывает время перезарядки умений и дополнительно уменьшает время перезарядки умений "Двойной разрез", "Свирепый удар", "Удар маятника", "Пила", "Разделяющий удар", "Бросок косы", "Спираль смерти" и "Безжалостный удар".	icon_skills.descentofdarkness_tex
-10151010	ReloadingSkill	Buff	True	swch	1000	0	170	Темная жатва			Сбрасывает время перезарядки умений и дополнительно уменьшает время перезарядки умений "Двойной разрез", "Свирепый удар", "Удар маятника", "Пила", "Разделяющий удар", "Бросок косы", "Спираль смерти" и "Безжалостный удар".	icon_skills.descentofdarkness_tex
+10151010	CDR	Buff	True	swch	15000	0	0.3	Темная жатва			Сбрасывает время перезарядки умений и дополнительно уменьшает время перезарядки умений "Двойной разрез", "Свирепый удар", "Удар маятника", "Пила", "Разделяющий удар", "Бросок косы", "Спираль смерти" и "Безжалостный удар". Время действия умения 15 сек.	icon_skills.descentofdarkness_tex
+10151010	ReloadingSkill	Buff	True	swch	1000	0	170	Темная жатва			Сбрасывает время перезарядки умений и дополнительно уменьшает время перезарядки умений "Двойной разрез", "Свирепый удар", "Удар маятника", "Пила", "Разделяющий удар", "Бросок косы", "Спираль смерти" и "Безжалостный удар". Время действия умения 15 сек.	icon_skills.descentofdarkness_tex
 10151031	ReloadingSkill	Buff	True	perc	9500	0	90013	Смена мест готова			Умение "Смена мест" готово.	icon_status.darkwater_tex
 10151032	HPChange	Debuff	False	abs	10000	2	-3454	Смена мест			Темные цепи держат цель, нанося ей 3,454 урона каждые 2 секунды. Использующий умение может поменяться местами с целью в любое время.	icon_skills.darkgrasp_tex
 10151032	263	Debuff	False	perc	10000	0	10151031	Смена мест			Темные цепи держат цель, нанося ей 3,454 урона каждые 2 секунды. Использующий умение может поменяться местами с целью в любое время.	icon_skills.darkgrasp_tex
@@ -3520,27 +3697,27 @@
 10154081	ReloadingSkill	Buff	True	swch	5000	0	93008	Техника тройного теплового удара			Позволяет испустить мощную тепловую волну. Во время использования активируется перезарядка.	icon_skills.c12_flamestrike
 10154090	Endurance	Buff	True	perc	60000	0	1	Техника перевоплощения I			Вы приняли облик цели.	icon_skills.c12_transform
 10155010	33	Buff	True	seta	30000	0	0	Концентрация лунного света			Сила лунного света не исчезает сама по себе.	icon_skills.moongrace_tex
-10155020	Immune	Buff	True	seta	0	0	0	Новое уклонение			Вы можете использовать "Уклонение".	icon_skills.moonshadow_tex
-10155030	AtkPotion	Buff	True	perc	0	0	1.2	Свет полумесяца			Энергия света увеличивает наносимый урон на 20%. Эффект может складываться.	icon_skills.fullmoon_tex
-10155031	AtkPotion	Buff	True	perc	0	0	1.3	Свет кровавого полумесяца			Энергия света увеличивает наносимый урон на 30%. Эффект может складываться.	icon_skills.fullmoon_red_tex
-10155036	AtkPotion	Buff	True	perc	0	0	1.2	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 20% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,2.	icon_skills.fullmoon_tex
-10155036	CritChance	Buff	True	perc	0	0	1.2	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 20% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,2.	icon_skills.fullmoon_tex
-10155037	AtkPotion	Buff	True	perc	0	0	1.3	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 30% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,3.	icon_skills.fullmoon_tex
-10155037	CritChance	Buff	True	perc	0	0	1.3	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 30% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,3.	icon_skills.fullmoon_tex
+10155020	Immune	Buff	True	40	0	0	0	Новое уклонение			Вы можете использовать "Уклонение".	icon_skills.moonshadow_tex
+10155030	AtkPotion	Buff	True	perc	0	0	1.1	Свет полумесяца			Энергия света увеличивает наносимый урон на 10%.	icon_skills.fullmoon_tex
+10155031	AtkPotion	Buff	True	perc	0	0	1.15	Свет кровавого полумесяца			Энергия света увеличивает наносимый урон на 15%.	icon_skills.fullmoon_red_tex
+10155036	AtkPotion	Buff	True	perc	0	0	1.1	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 10% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,2.	icon_skills.fullmoon_tex
+10155036	CritChance	Buff	True	perc	0	0	1.2	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 10% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,2.	icon_skills.fullmoon_tex
+10155037	AtkPotion	Buff	True	perc	0	0	1.1	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 10% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,3.	icon_skills.fullmoon_tex
+10155037	CritChance	Buff	True	perc	0	0	1.3	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 10% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,3.	icon_skills.fullmoon_tex
 10155040	Stun	Stun	False	swch	4000	0	5	Прорыв			При колющей атаке возникает кровотечение. При 6 наложении добавляется эффект "Разрыв", и противник обездвиживается.	icon_skills.brust_tex
 10155041	Stun	Stun	False	swch	4000	0	5	Разрыв			Из-за сильного кровотечения движение невозможно.	icon_skills.brust_tex
 10155070	ReloadingSkill	Buff	True	swch	5000	0	13007	Новое избиение			Вы можете использовать "Избиение".	icon_skills.helicoptercuts_tex
 10155071	ReloadingSkill	Buff	True	swch	5000	0	13007	Новое избиение			Вы можете использовать "Избиение".	icon_skills.helicoptercuts_tex
 10155100	Stun	Stun	False	swch	2500	0	5	Двойной размах			Движение невозможно.	icon_skills.fatalshot_tex
-10155130	Power	Buff	True	abs	25000	0	50	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	ASpd	Buff	True	abs	25000	0	20	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	32	Buff	True	seta	25000	0	0	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	153	Buff	True	perc	25000	0	0	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	190	Buff	True	swch	25000	0	2	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	CDR	Buff	True	perc	25000	0	0.4	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	DelayedEffect	Buff	True	swch	25000	0	10155131	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	Range	Buff	True	swch	25000	0	0.2	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
-10155130	ReloadingSkill	Buff	True	swch	25000	0	763	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +50 к вероятности критического удара, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	Power	Buff	True	abs	25000	0	50	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	ASpd	Buff	True	abs	25000	0	20	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	32	Buff	True	seta	25000	0	0	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	153	Buff	True	perc	25000	0	0	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	190	Buff	True	swch	25000	0	2	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	CDR	Buff	True	perc	25000	0	0.4	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	DelayedEffect	Buff	True	swch	25000	0	10155131	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	Range	Buff	True	swch	25000	0	0.2	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
+10155130	ReloadingSkill	Buff	True	swch	25000	0	763	Багровая луна			Получение энергии напитанной кровью луны. +50 к силе, +20 к скорости атаки и +20% к радиусу атаки. При получении эффекта мгновенно восстанавливается время использования всех умений со временем перезарядки менее 60 секунд (кроме умения "Уклонение" и "Ответный удар"). Пока действует эффект, время перезарядки всех этих умений уменьшается на 60%.	icon_skills.redmoon_tex
 10155150	CritChance	Buff	True	perc	10000	0	100	Чистый конках			Дает неуязвимость к атакам врагов и "Воздаяние". За исключением "Трагедии" для всех атакующих умений вероятность критического удара становится 100%.	icon_status.darkriftareadance_tex
 10155170	Stun	Stun	False	swch	3000	0	5	Притяжение луны			Притяжение луны не позволяет двигаться.	icon_skills.moongravity_tex
 10155240	33	Buff	True	seta	60000	0	0	Чистая сила лунного света			После того, как лунный свет будет полностью заряжен, можно использовать умение Багровая луна. Во время действия эффекта сила лунного света не уменьшается.	icon_items.fullmoon_gemstone_tex
@@ -4248,6 +4425,9 @@
 77703442	HPChange	Buff	True	perc	1000	1	-0.25	Вирус демокрона			Поразивший вас вирус демокронов настолько силен, что является угрозой для самих демокронов.	icon_status.cruel_slayer_3_tex
 77703443	Endurance	Buff	True	perc	0	0	10	Укрытие демокрона			Демокроны покрываются твердой кожей и становятся неуязвимы к обычным атакам.	icon_status.plusedefence_tex
 77703444	IncreasedHeal	DOT	True	swch	180000	0	0.3	Демокронское проклятие			Атака демокронов поразила вас изнутри: Лечащие умения восстанавливают меньше HP.	icon_status.diffusionabnormality_tex
+78100006	Drunk	Debuff	False	781003	0	0	0	Мир души Лакана			Вы в мире души Лакана.	icon_socials.social_010_tex
+78100009	HPChange	DOT	True	perc	200000	1	-0.03	Наблюдение Лакана			Лакан наблюдает за вами. Вы теряете по 3% от максимального уровня HP раз в 1s	icon_items.q_animaleyeball_tex
+78100009	HPLoss	Debuff	False	abs	1000	0	-50000000	Наблюдение Лакана			Лакан наблюдает за вами. Вы теряете по 3% от максимального уровня HP раз в 1s	icon_items.q_animaleyeball_tex
 80401500	DelayedEffect	Buff	True	abs	35000	0	475150	Адская броня Келсаика			Поглощает до 4000000 урона.	icon_skills.manashield_tex
 80401500	Absorb	Buff	True	abs	35000	0	4000000	Адская броня Келсаика			Поглощает до 4000000 урона.	icon_skills.manashield_tex
 80900001	Endurance	Debuff	False	setp	15000	0	0.3	Свежевание			-70% к скорости перемещения и выносливости. Эффект нельзя снять.	icon_status.minusdefence_tex
@@ -4400,16 +4580,16 @@
 81120208	Immune	Buff	True	21	2900	0	0	Неуязвимость к урону			Неуязвимость ко всем видам урона. Эффект перестает действовать после использования умения.	icon_ep.ep_special_unbeatable_tex
 81120209	Immune	Buff	True	21	3200	0	0	Неуязвимость к урону			Неуязвимость ко всем видам урона. Эффект перестает действовать после использования умения.	icon_ep.ep_special_unbeatable_tex
 81120210	Immune	Buff	True	21	3500	0	0	Неуязвимость к урону			Неуязвимость ко всем видам урона. Эффект перестает действовать после использования умения.	icon_ep.ep_special_unbeatable_tex
-81120301	CritResist	Debuff	False	abs	5000	0	-3	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -3. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120302	CritResist	Debuff	False	abs	5000	0	-4	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -4. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120303	CritResist	Debuff	False	abs	5000	0	-5	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -5. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120304	CritResist	Debuff	False	abs	5000	0	-6	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -6. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120305	CritResist	Debuff	False	abs	5000	0	-7	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -7. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120306	CritResist	Debuff	False	abs	5000	0	-8	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -8. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120307	CritResist	Debuff	False	abs	5000	0	-9	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -9. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120308	CritResist	Debuff	False	abs	5000	0	-10	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -10. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120309	CritResist	Debuff	False	abs	5000	0	-11	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -11. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
-81120310	CritResist	Debuff	False	abs	5000	0	-12	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -12. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120301	CritResist	Debuff	False	abs	18000	0	-3	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -3. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120302	CritResist	Debuff	False	abs	18000	0	-4	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -4. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120303	CritResist	Debuff	False	abs	18000	0	-5	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -5. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120304	CritResist	Debuff	False	abs	18000	0	-6	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -6. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120305	CritResist	Debuff	False	abs	18000	0	-7	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -7. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120306	CritResist	Debuff	False	abs	18000	0	-8	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -8. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120307	CritResist	Debuff	False	abs	18000	0	-9	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -9. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120308	CritResist	Debuff	False	abs	18000	0	-10	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -10. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120309	CritResist	Debuff	False	abs	18000	0	-11	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -11. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
+81120310	CritResist	Debuff	False	abs	18000	0	-12	Снижение сопротивляемости к критическим ударам			Сопротивление критическим атакам снижается на -12. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_special_load_tex
 81120401	CritResist	Buff	True	abs	10000	0	3	Повышение сопротивляемости к критическим ударам			Сопротивление критическим атакам повышается на 3. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_fatal_injury_tex
 81120402	CritResist	Buff	True	abs	10000	0	4	Повышение сопротивляемости к критическим ударам			Сопротивление критическим атакам повышается на 4. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_fatal_injury_tex
 81120403	CritResist	Buff	True	abs	10000	0	5	Повышение сопротивляемости к критическим ударам			Сопротивление критическим атакам повышается на 5. Эффект перестает действовать в случае опрокидывания/оглушения/обездвиживания.	icon_ep.ep_fatal_injury_tex
@@ -5408,15 +5588,10 @@
 98000091	HPChange	DOT	False	perc	10000	3	-0.06	Подрезанные крылья			Скорость перемещения снижается на 50%, а HP уменьшаются на 6% от максимального уровня HP раз в 3	icon_status.minuscriticalresist_tex
 98000092	HPChange	Buff	True	perc	12000	3	0.0033	Благословение птенца			Восстанавливает 0,33% от максимального уровня HP раз в 3s Эффект может суммироваться до 3 раз.	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	Buff	True	abs	1000	1	50000	Длань жреца			Восстанавливает HP на 30 000.	icon_items.potion5_tex
-98000100	Power	Buff	True	abs	10000000	0	25	Зелье благословения	96000	테스트용 물약_사제 버프	Эффект жреца - Благословение силы II(Сила 25), Благословение защиты II(Выносливость 11), Благословение возрождения V(Восстановление HP), Благословение терпения I(Иммунитет ко всем негативным эффектам 5), Священная молния (Сила 40, Скорость атаки 8), Снижение выносливости (10%).	icon_skills.attackup_tex
-98000100	Endurance	Buff	True	abs	10000000	0	11	Зелье благословения	96000	테스트용 물약_사제 버프	Эффект жреца - Благословение силы II(Сила 25), Благословение защиты II(Выносливость 11), Благословение возрождения V(Восстановление HP), Благословение терпения I(Иммунитет ко всем негативным эффектам 5), Священная молния (Сила 40, Скорость атаки 8), Снижение выносливости (10%).	icon_skills.attackup_tex
-98000100	AllResist	Buff	True	abs	10000000	0	5	Зелье благословения	96000	테스트용 물약_사제 버프	Эффект жреца - Благословение силы II(Сила 25), Благословение защиты II(Выносливость 11), Благословение возрождения V(Восстановление HP), Благословение терпения I(Иммунитет ко всем негативным эффектам 5), Священная молния (Сила 40, Скорость атаки 8), Снижение выносливости (10%).	icon_skills.attackup_tex
-98000100	ASpd	Buff	True	abs	10000000	0	8	Зелье благословения	96000	테스트용 물약_사제 버프	Эффект жреца - Благословение силы II(Сила 25), Благословение защиты II(Выносливость 11), Благословение возрождения V(Восстановление HP), Благословение терпения I(Иммунитет ко всем негативным эффектам 5), Священная молния (Сила 40, Скорость атаки 8), Снижение выносливости (10%).	icon_skills.attackup_tex
-98000100	HPChange	Buff	True	abs	10000000	2	773	Зелье благословения	96000	테스트용 물약_사제 버프	Эффект жреца - Благословение силы II(Сила 25), Благословение защиты II(Выносливость 11), Благословение возрождения V(Восстановление HP), Благословение терпения I(Иммунитет ко всем негативным эффектам 5), Священная молния (Сила 40, Скорость атаки 8), Снижение выносливости (10%).	icon_skills.attackup_tex
-98000101	Power	Buff	True	abs	10000000	0	25	Зелье живости	96001	테스트용 물약_정령사 버프	Удваивает вероятность критического удара, восстанавливает 20 MP в секунду и повышает выносливость Миньона-защитника на 10%.	icon_status.plusecritical_tex
-98000101	Endurance	Buff	True	perc	10000000	0	1.1	Зелье живости	96001	테스트용 물약_정령사 버프	Удваивает вероятность критического удара, восстанавливает 20 MP в секунду и повышает выносливость Миньона-защитника на 10%.	icon_status.plusecritical_tex
-98000101	Crit	Buff	True	perc	10000000	0	2	Зелье живости	96001	테스트용 물약_정령사 버프	Удваивает вероятность критического удара, восстанавливает 20 MP в секунду и повышает выносливость Миньона-защитника на 10%.	icon_status.plusecritical_tex
-98000101	MPChange	Buff	True	abs	10000000	1	20	Зелье живости	96001	테스트용 물약_정령사 버프	Удваивает вероятность критического удара, восстанавливает 20 MP в секунду и повышает выносливость Миньона-защитника на 10%.	icon_status.plusecritical_tex
+98000100	Power	Buff	True	abs	2400000	0	25	Зелье благословения	96000	테스트용 물약_사제 버프	Эффект жреца - Благословение силы II(Сила 25), Благословение защиты II(Выносливость 11), Благословение возрождения V(Восстановление HP), Благословение терпения I(Иммунитет ко всем негативным эффектам 5), Священная молния (Сила 40, Скорость атаки 8), Снижение выносливости (10%).	icon_skills.attackup_tex
+98000100	Endurance	Buff	True	abs	900000	0	11	Зелье благословения	96000	테스트용 물약_사제 버프	Эффект жреца - Благословение силы II(Сила 25), Благословение защиты II(Выносливость 11), Благословение возрождения V(Восстановление HP), Благословение терпения I(Иммунитет ко всем негативным эффектам 5), Священная молния (Сила 40, Скорость атаки 8), Снижение выносливости (10%).	icon_skills.attackup_tex
+98000101	Endurance	Buff	True	perc	99999999	0	1.1	Зелье живости	96001	테스트용 물약_정령사 버프	Удваивает вероятность критического удара, восстанавливает 20 MP в секунду и повышает выносливость Миньона-защитника на 10%.	icon_status.plusecritical_tex
+98000101	BuffNearbyParty	Buff	True	seta	0	3	700233	Зелье живости	96001	테스트용 물약_정령사 버프	Удваивает вероятность критического удара, восстанавливает 20 MP в секунду и повышает выносливость Миньона-защитника на 10%.	icon_status.plusecritical_tex
 98000102	MaxHP	Buff	True	perc	99999999	0	1.05	Идеальная посещаемость			+6% к силе. +5% к HP. +20 к скорости перемещения вне боя.	
 98000102	Power	Buff	True	abs	99999999	0	6	Идеальная посещаемость			+6% к силе. +5% к HP. +20 к скорости перемещения вне боя.	
 98000102	OutOfCombatMovSpd	Buff	True	abs	99999999	0	20	Идеальная посещаемость			+6% к силе. +5% к HP. +20 к скорости перемещения вне боя.	
@@ -5430,6 +5605,11 @@
 98000105	ASpd	Buff	True	perc	0	0	1.04	Цепь восстановления III			+10% к урону от умений, -10% к получаемому урону. +4% к скорости атаки.	
 98000105	DefPotion	Buff	True	perc	0	0	0.9	Цепь восстановления III			+10% к урону от умений, -10% к получаемому урону. +4% к скорости атаки.	
 98000105	AtkPotion	Buff	True	perc	0	0	1.1	Цепь восстановления III			+10% к урону от умений, -10% к получаемому урону. +4% к скорости атаки.	
+98000106	Endurance	Debuff	False	perc	10000000	0	0.9	Символ одряхления			-10% к выносливости.	icon_crest.crestactivedefencedown_tex
+98000106	CritResist	Debuff	False	abs	10000000	0	-12	Символ одряхления			-10% к выносливости.	icon_crest.crestactivedefencedown_tex
+98000107	Power	Buff	True	abs	99999999	0	40	Энергия звезд IV			+40 к силе, +8 к скорости атаки.	icon_skills.divinelightning_tex
+98000107	ASpd	Buff	True	abs	99999999	0	8	Энергия звезд IV			+40 к силе, +8 к скорости атаки.	icon_skills.divinelightning_tex
+98000108	Endurance	Buff	True	perc	99999999	0	1.1	Символ приземленности			+10% к выносливости.	icon_crest.crestactivedefenceup_tex
 98850002	DropUp	Buff	True	perc	7200000	0	1.2	Благословенное изобилие I			Увеличивает вероятность получения награды на 25%.	icon_items.tresurebox3_tex
 98850003	DropUp	Buff	True	perc	7200000	0	1.4	Благословенное изобилие II			Увеличивает вероятность получения награды на 50%.	icon_items.tresurebox3_tex
 98850004	DropUp	Buff	True	perc	7200000	0	1.6	Благословенное изобилие III			Увеличивает вероятность получения награды на 75%.	icon_items.tresurebox3_tex
@@ -5752,7 +5932,7 @@
 99003160	IncreasedHeal	Debuff	False	perc	60000	0	0.4	Заражение крови VII			Снижает количество восстанавливаемых HP на 60%.	icon_status.petrifystatus_tex
 99003170	IncreasedHeal	Debuff	False	perc	60000	0	0.35	Заражение крови VIII			Снижает количество восстанавливаемых HP на 65%.	icon_status.petrifystatus_tex
 99003200	MovSpdInCombat	Buff	True	abs	600000	0	2	Благословение скорости			+2 к скорости перемещения в бою. Эффект может суммироваться до трех раз.	icon_status.aura_of_wind_tex
-99003300	DamgaeAura	Buff	True	abs	300000	0	20	Концентрация			Повышает урон от умений на 20.	icon_status.aura_of_damage_tex
+99003300	DamageAura	Buff	True	abs	300000	0	20	Концентрация			Повышает урон от умений на 20.	icon_status.aura_of_damage_tex
 99003400	Gathering	Buff	True	abs	300000	0	10	Обретение знания			+10 к эффективности сбора. Эффект может суммироваться до четырех раз.	icon_status.aura_of_collect_tex
 99003600	HPChange	Buff	True	perc	600000	3	0.005	Обретение здоровья			Восстанавливает 0,5% от максимального уровня HP раз в 3s Эффект может суммироваться до трех раз.	icon_status.aura_of_regeneration_hp_tex
 99003700	MPChange	Buff	True	perc	600000	3	0.005	Обретение души			Восстанавливает 0,5% от максимального уровня MP за экземпляр эффекта раз в 3s Эффект может суммироваться до 3 раз.	icon_status.aura_of_regeneration_mp_tex
