@@ -57,6 +57,9 @@
 46	EnchantChance	Buff	True	perc	600000	1	1.2	빛나는 강화 장인의 가호	149333	[PC방] 빛나는 강화 장인의 가호 주문서 (10분)	강화 시도 시, 최종 성공 확률이 크게 증가합니다. (각성 강화, 동일 장비 강화에는 적용되지 않습니다)	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex
 47	Aggro	Buff	True	perc	9900000	0	0.5	테스트_스킬데미지증가/적대치 감소			테스트 전용! 모든 스킬 데미지 50% 증가/적대치 50% 감소	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 47	Attack	Buff	True	perc	9900000	0	1.5	테스트_스킬데미지증가/적대치 감소			테스트 전용! 모든 스킬 데미지 50% 증가/적대치 50% 감소	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+51	Endurance	Buff	True	perc	36000000	0	0.88	DPS테스트용 기절	7216	DPS측정용 폭탄	DPS 테스트를 위해 기절 된 상태. 아래 이상상태가 추가 적용 됨 맷집 12%감소 (방어구 부수기 3중첩) 맷집 10% 감소 (고통의 주박 문장) 치명타 저항 -12 감소 (고통의 주박 특성)	icon_items.q_bones_tex	icon_items.q_bones_tex
+51	CritResist	Buff	True	abs	36000000	0	-12	DPS테스트용 기절	7216	DPS측정용 폭탄	DPS 테스트를 위해 기절 된 상태. 아래 이상상태가 추가 적용 됨 맷집 12%감소 (방어구 부수기 3중첩) 맷집 10% 감소 (고통의 주박 문장) 치명타 저항 -12 감소 (고통의 주박 특성)	icon_items.q_bones_tex	icon_items.q_bones_tex
+51	Stun	Buff	True	swch	36000000	0	4	DPS테스트용 기절	7216	DPS측정용 폭탄	DPS 테스트를 위해 기절 된 상태. 아래 이상상태가 추가 적용 됨 맷집 12%감소 (방어구 부수기 3중첩) 맷집 10% 감소 (고통의 주박 문장) 치명타 저항 -12 감소 (고통의 주박 특성)	icon_items.q_bones_tex	icon_items.q_bones_tex
 101	Immune	Buff	True	16	2100	0	0	기상 공격			효과가 지속되는 동안 리액션에 면역이 됩니다.	icon_skills.risingattack2_tex	icon_skills.risingattack_tex
 101	StatusImmune	Buff	True	swch	2100	0	0	기상 공격			효과가 지속되는 동안 리액션에 면역이 됩니다.	icon_skills.risingattack2_tex	icon_skills.risingattack_tex
 201	Power	Buff	True	abs	2400000	0	17	힘의 축복 I			강인한 힘의 축복을 받아 힘이 17 향상됩니다.	icon_skills.attackup_tex	icon_skills.attackup_tex
@@ -1156,7 +1159,7 @@
 33150	AtkPotion	Buff	True	perc	10000	0	1.25	풍참(연계 투지의 문장 [승격참])			연계 스킬로 [승격참]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.twister_tex	icon_crest.crestnextskillattackup_tex
 33170	HPChange	Buff	True	perc	12000	1	0.03	달빛의 가호(근성의 문장)			1s마다 전체 HP 대비 2%에 달하는 HP가 지속적으로 회복됩니다.	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	월광연(투지의 문장)			다음 1회의 공격에 스킬 위력이 30% 증가됩니다.	icon_skills.mooncatch_tex	icon_crest.crestnextskillattackup_tex
-33210	AtkPotion	Buff	True	perc	5000	0	1.25	달빛의 인력(연계 투지의 문장 [달빛의 공명] )			연계 스킬로 [달빛의 공명]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.moongravity_tex	icon_crest.crestpassivehpheal_tex
+33210	AtkPotion	Buff	True	perc	5000	0	1.25	달빛의 인력(연계 투지의 문장 [달빛의 공명] )			연계 스킬로 [달빛의 공명]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.moongravity_tex	icon_crest.e_crestnextskillattackup_tex
 45301	StunKnockDown	Debuff	False	swch	20000	0	2	강한 충격			포탄에 맞아 강한 충격을 받았습니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	균형 상실			강한 충격을 받아 균형을 잃고 넘어집니다.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 46705	Endurance	Debuff	True	perc	60000	0	0.9	재앙			산성 공격으로 방어력이 감소하며, 이 효과는 중첩 됩니다. 이 효과는 해제로 해제할 수 없습니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -1762,6 +1765,7 @@
 460006	HPChange	DOT	False	perc	60000	1	-0.05	과부화 쇼크			켈리반의 전기 에너지에 감전되어 지속적으로 HP가 감소합니다.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 460009	Endurance	Stun	True	perc	4000	0	1	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
 460009	Stun	Stun	True	swch	6000	0	5	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
+460009	295	Stun	True	swch	6000	0	0	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
 460011	MovSpd	Buff	True	perc	3000	0	2	미끄러짐			바닥에 물이 고여 있습니다! 미끄러짐 효과를 받아 이동 속도가 2배 증가합니다!	icon_skills.kumas_frontjump_tex	icon_skills.kumas_frontjump_tex
 460011	MovSpdInCombat	Buff	True	perc	3000	0	2	미끄러짐			바닥에 물이 고여 있습니다! 미끄러짐 효과를 받아 이동 속도가 2배 증가합니다!	icon_skills.kumas_frontjump_tex	icon_skills.kumas_frontjump_tex
 460016	Power	Debuff	True	perc	30000	0	10	기력 분출			몬스터가 자신의 기력을 분출해 힘이 더욱 강해졌습니다! 단, 이동속도는 그만큼 느려집니다.	icon_status.firedamage_tex	icon_status.firedamage_tex
@@ -2425,6 +2429,7 @@
 760006	HPChange	DOT	False	perc	60000	1	-0.05	과부하 쇼크			켈리반의 전기 에너지에 감전되어 지속적으로 HP가 감소합니다.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 760009	Endurance	Stun	True	perc	4000	0	1	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
 760009	Stun	Stun	False	swch	6000	0	5	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
+760009	295	Stun	False	swch	6000	0	0	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
 760011	MovSpd	Buff	True	perc	3000	0	2	미끄러짐			바닥에 물이 고여 있습니다! 미끄러짐 효과를 받아 이동 속도가 2배 증가합니다!	icon_skills.kumas_frontjump_tex	icon_skills.kumas_frontjump_tex
 760011	MovSpdInCombat	Buff	True	perc	3000	0	2	미끄러짐			바닥에 물이 고여 있습니다! 미끄러짐 효과를 받아 이동 속도가 2배 증가합니다!	icon_skills.kumas_frontjump_tex	icon_skills.kumas_frontjump_tex
 760016	Power	Debuff	True	perc	30000	0	10	기력 분출			몬스터가 자신의 기력을 분출해 힘이 더욱 강해졌습니다! 단, 이동속도는 그만큼 느려집니다.	icon_status.firedamage_tex	icon_status.firedamage_tex
@@ -2784,6 +2789,7 @@
 860005	Stun	Stun	True	swch	5000	0	5	감전 쇼크			켈리반의 전기 에너지에 감전되어 쇼크가 일어나고 있습니다. 전기 에너지에 몸을 가눌 방법이 없습니다!	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 860006	HPChange	DOT	False	perc	60000	1	-0.05	과부하 쇼크			켈리반의 전기 에너지에 감전되어 지속적으로 HP가 감소합니다.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 860009	Stun	Stun	False	swch	6000	0	5	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
+860009	295	Stun	False	swch	6000	0	0	번개의 분노			공포로 꼼작 할 수 없습니다. 누군가 도와주지 않는다면 이대로 죽어 버릴 것 같습니다.	icon_status.electriccharge1_tex	icon_status.electriccharge1_tex
 860011	MovSpd	Buff	True	perc	3000	0	2	미끄러짐			바닥에 물이 고여 있습니다! 미끄러짐 효과를 받아 이동 속도가 2배 증가합니다!	icon_skills.kumas_frontjump_tex	icon_skills.kumas_frontjump_tex
 860011	MovSpdInCombat	Buff	True	perc	3000	0	2	미끄러짐			바닥에 물이 고여 있습니다! 미끄러짐 효과를 받아 이동 속도가 2배 증가합니다!	icon_skills.kumas_frontjump_tex	icon_skills.kumas_frontjump_tex
 860016	Power	Debuff	True	perc	30000	0	10	기력 분출			몬스터가 자신의 기력을 분출해 힘이 더욱 강해졌습니다! 단, 이동속도는 그만큼 느려집니다.	icon_status.firedamage_tex	icon_status.firedamage_tex
@@ -2918,7 +2924,7 @@
 905933	Endurance	DOT	True	perc	90000	0	0.7	락도스의 저주			2s마다 HP가 8%씩 지속적으로 감소되며, 3중첩 시 사망합니다. 락도스의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905933	ASpd	DOT	False	perc	1000	0	1	락도스의 저주			2s마다 HP가 8%씩 지속적으로 감소되며, 3중첩 시 사망합니다. 락도스의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905933	HPChange	DOT	True	perc	90000	2	-0.08	락도스의 저주			2s마다 HP가 8%씩 지속적으로 감소되며, 3중첩 시 사망합니다. 락도스의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905933	HPLoss	Buff	True	abs	1000	0	-80000	락도스의 저주			2s마다 HP가 8%씩 지속적으로 감소되며, 3중첩 시 사망합니다. 락도스의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905933	HPLoss	Buff	True	abs	1000	0	-120000	락도스의 저주			2s마다 HP가 8%씩 지속적으로 감소되며, 3중첩 시 사망합니다. 락도스의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905934	HPChange	Buff	True	perc	5000	1	-0.07	악령섬의 유령			유령의 영향으로 자신도 유령이 되며, 유령화가 되어 있는 동안 HP가 8%씩 지속적으로 감소됩니다. 단, 특정 공격에 대해 면역 상태가 됩니다.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	IncreasedHeal	Buff	True	swch	5000	0	0	악령섬의 유령			유령의 영향으로 자신도 유령이 되며, 유령화가 되어 있는 동안 HP가 8%씩 지속적으로 감소됩니다. 단, 특정 공격에 대해 면역 상태가 됩니다.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Block	Buff	True	swch	5000	0	0	악령섬의 유령			유령의 영향으로 자신도 유령이 되며, 유령화가 되어 있는 동안 HP가 8%씩 지속적으로 감소됩니다. 단, 특정 공격에 대해 면역 상태가 됩니다.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
@@ -2933,13 +2939,14 @@
 905940	Immune	Debuff	True	25	3000	0	0	어둠의 파편(3단계)			3중첩 시, 어둠의 보호막 효과를 얻습니다.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905941	IncreasedHeal	Debuff	False	swch	3000	0	0.75	어둠의 파편(4단계)			4중첩 시, 어둠의 보호막 효과를 얻습니다.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905941	Immune	Debuff	True	25	3000	0	0	어둠의 파편(4단계)			4중첩 시, 어둠의 보호막 효과를 얻습니다.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+905942	Absorb	Debuff	True	swch	3000	0	300000	어둠의 보호막			락도스의 강력한 공격으로부터 보호받습니다.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 905942	Immune	Debuff	True	25	3000	0	0	어둠의 보호막			락도스의 강력한 공격으로부터 보호받습니다.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 905945	MaxHP	Debuff	True	abs	1000	0	1	악령섬의 유령			유령의 영향으로 자신도 유령이 되며, 유령화가 되어 있는 동안 HP가 8%씩 지속적으로 감소됩니다. 단, 특정 공격에 대해 면역 상태가 됩니다.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905947	Fear	Stun	False	swch	3000	0	200	락도스의 공포			겁에 질려 도망치고 있습니다.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 905949	HPChange	DOT	True	perc	15000	1	-0.02	번스타인의 저주			1s마다 전체 HP 대비 2%에 달하는 HP가 지속적으로 감소됩니다. 번스타인의 저주는 해제할 수 없습니다.	icon_status.firedamage_tex	icon_status.firedamage_tex
 905950	Endurance	DOT	True	perc	90000	0	0.7	번스타인의 저주			2s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소되며, 3중첩 시 사망합니다. 번스타인의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905950	HPChange	DOT	True	perc	90000	2	-0.1	번스타인의 저주			2s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소되며, 3중첩 시 사망합니다. 번스타인의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905950	HPLoss	Buff	True	abs	1000	0	-80000	번스타인의 저주			2s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소되며, 3중첩 시 사망합니다. 번스타인의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905950	HPLoss	Buff	True	abs	1000	0	-120000	번스타인의 저주			2s마다 전체 HP 대비 10%에 달하는 HP가 지속적으로 감소되며, 3중첩 시 사망합니다. 번스타인의 저주는 해제할 수 없습니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905951	Immune	Debuff	True	25	2000	0	0	무적			무적	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 905952	MovSpd	Debuff	False	perc	5000	0	0.1	악령의 손길			악령의 손길에 의해 이동속도가 90% 감소됩니다.	icon_status.minusmove_tex	icon_status.minusmove_tex
 905952	HPDrain	Debuff	False	perc	5000	0	0.9	악령의 손길			악령의 손길에 의해 이동속도가 90% 감소됩니다.	icon_status.minusmove_tex	icon_status.minusmove_tex
@@ -3358,8 +3365,8 @@
 7000020	266	Buff	True	setp	60000	0	7	속옷 보기: 나에게만	100920	나에게만 속옷이 보이는 물약 (1분)	나에게만 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_status.icon_yookduk00_ab_tex	icon_status.icon_yookduk00_ab_tex
 7000021	265	Buff	True	setp	86400000	0	7	속옷 보기: 모두에게	100932	모두에게 속옷이 보이는 물약 (1일)	모두에게 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
 7000022	266	Buff	True	setp	86400000	0	7	속옷 보기: 나에게만	100933	나에게만 속옷이 보이는 물약 (1일)	나에게만 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
-7000023	265	Buff	True	setp	259200000	0	7	속옷 보기: 모두에게	139377	모두에게 보이는 탈의 물약(3일)	모두에게 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
-7000024	266	Buff	True	setp	259200000	0	7	속옷 보기: 나에게만	139378	나에게만 보이는 탈의 물약(3일)	나에게만 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
+7000023	265	Buff	True	setp	259200000	0	7	속옷 보기: 모두에게	117507	모두에게 속옷이 보이는 물약(3일)	모두에게 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
+7000024	266	Buff	True	setp	259200000	0	7	속옷 보기: 나에게만	117508	나에게만 속옷이 보이는 물약(3일)	나에게만 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
 7000025	265	Buff	True	setp	172800000	0	7	속옷 보기: 모두에게	139489	모두에게 보이는 탈의 물약(2일)	모두에게 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
 7000026	266	Buff	True	setp	172800000	0	7	속옷 보기: 나에게만	139490	나에게만 보이는 탈의 물약(2일)	나에게만 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
 7000027	265	Buff	True	setp	432000000	0	7	속옷 보기: 모두에게	139491	모두에게 보이는 탈의 물약(5일)	모두에게 속옷이 보이는 상태입니다.   일정 시간이 지나면 다시 원래대로 속옷이 보이지 않게 됩니다.	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
@@ -5694,8 +5701,8 @@
 98000105	AtkPotion	Buff	True	perc	0	0	1.1	회복의 연계 III			스킬 데미지가 10% 향상되고, 받는 피해가 10% 감소됩니다. 추가로 공격 속도도 4% 향상됩니다.		
 98000106	Endurance	Debuff	False	perc	10000000	0	0.9	맷집 감소 [약화의 문장]			맷집이 10% 감소됩니다.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex
 98000106	CritResist	Debuff	False	abs	10000000	0	-12	맷집 감소 [약화의 문장]			맷집이 10% 감소됩니다.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex
-98000107	Power	Buff	True	abs	10000000	0	40	신성의 번개 IV			힘이 40 증가하고, 공격 속도도 8 향상됩니다.	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
-98000107	ASpd	Buff	True	abs	10000000	0	8	신성의 번개 IV			힘이 40 증가하고, 공격 속도도 8 향상됩니다.	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
+98000107	Power	Buff	True	abs	10000000	0	48	신성의 번개 IV			힘이 48 증가하고, 공격 속도도 9.6 향상됩니다.	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
+98000107	ASpd	Buff	True	abs	10000000	0	9.6	신성의 번개 IV			힘이 48 증가하고, 공격 속도도 9.6 향상됩니다.	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
 98000108	Endurance	Buff	True	perc	10000000	0	1.1	맷집 증가 [협동의 문장]			맷집이 10% 향상됩니다.	icon_crest.crestactivedefenceup_tex	icon_crest.crestactivedefenceup_tex
 98000109	Power	Buff	True	abs	2400000	0	25	아룬의 축복 III			아룬의 축복을 받아 평화 상태에서의 이동 속도가 10 향상되고 힘이 25 향상됩니다.	icon_skills.attackup_tex	icon_skills.attackup_tex
 98000109	OutOfCombatMovSpd	Buff	True	abs	10000000	0	10	아룬의 축복 III			아룬의 축복을 받아 평화 상태에서의 이동 속도가 10 향상되고 힘이 25 향상됩니다.	icon_skills.attackup_tex	icon_skills.attackup_tex
