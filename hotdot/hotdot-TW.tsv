@@ -695,8 +695,8 @@
 4886	DefPotion	Buff	True	perc	1800000	0	0.9	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex	icon_items.potion10_tex
 4886	AtkPotion	Buff	True	perc	1800000	0	1.1	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex	icon_items.potion10_tex
 4951	Resurrect	Buff	True	seta	0	0	1	凱亞的祝福			獲得凱亞的祝福，死亡時可在該場所上復活1次，並恢復所有的 HP和 MP、健康狀態。無法和復活庇護及轉生祝福、貝里克的恩寵技能重複套用。	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex
-4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化藥水			攻擊力增加 12%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
-4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化藥水			攻擊力增加 15%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
+4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化藥水	216616	Зелье Канефоры	攻擊力增加 12%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
+4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化藥水	216618	Сильное зелье Канефоры	攻擊力增加 15%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
 4956	HPChange	Buff	True	perc	1000	1	0.15	復活節彩蛋籃子	155016	Exotic Beach Drink	立即恢復15%的HP。	icon_items.ricecake_tex	icon_items.ricecake_tex
 4957	HPChange	Buff	True	perc	1000	1	0.15	萬聖節方籃			可立即恢復整體HP的15%。	icon_items.sweetypumpkinpie_tex	icon_items.sweetypumpkinpie_tex
 6001	CritPower1	Buff	True	abs	6000	0	1	龍之血脈			攻擊怪物時爆擊威力增加+1.5倍。	icon_status.passive_dragonblood	icon_status.passive_dragonblood
@@ -1147,7 +1147,7 @@
 33150	AtkPotion	Buff	True	perc	10000	0	1.25	風斬(連續 鬥志紋章 [昇擊斬])			以連續技能使用[昇擊斬]時，技能威力增加力量25%。	icon_skills.twister_tex	icon_crest.crestnextskillattackup_tex
 33170	HPChange	Buff	True	perc	12000	1	0.03	月光的庇護(特質紋章)			每1s，持續恢復相當於整體HP的 2%之HP。	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	月光煉(鬥志紋章)			下一次攻擊時技能威力增加 30%	icon_skills.mooncatch_tex	icon_crest.crestnextskillattackup_tex
-33210	AtkPotion	Buff	True	perc	5000	0	1.25	月光的引力(連續鬥志紋章 [月光的共鳴] )			以連續技能使用[月光的共鳴]時，技能威力增加力量25%。	icon_skills.moongravity_tex	icon_crest.crestpassivehpheal_tex
+33210	AtkPotion	Buff	True	perc	5000	0	1.25	月光的引力(連續鬥志紋章 [月光的共鳴] )			以連續技能使用[月光的共鳴]時，技能威力增加力量25%。	icon_skills.moongravity_tex	icon_crest.e_crestnextskillattackup_tex
 45301	StunKnockDown	Debuff	False	swch	20000	0	2	強力衝擊			被砲彈打到受到強大衝擊。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	均衡喪失			受到強大衝擊失去平衡而跌倒。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 46705	Endurance	Debuff	True	perc	60000	0	0.9	災難			因酸性攻擊而使防禦力減少，此效果堆疊且無法解除。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -1632,6 +1632,7 @@
 400801	HPDrain	Stun	False	perc	6000	0	0.87	殺氣爆發 II			移動速度減少62%。另外對PC套用效果時，效果持續時間內無法使用迴避及移動系列技能。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex
 400801	Block	Stun	False	perc	6000	0	0	殺氣爆發 II			移動速度減少62%。另外對PC套用效果時，效果持續時間內無法使用迴避及移動系列技能。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex
 400900	209	Buff	True	perc	4000	0	0	肋骨粉碎			可使用肋骨粉碎技能。	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex
+400900	DelayedEffect	Buff	True	abs	4000	0	400910	肋骨粉碎			可使用肋骨粉碎技能。	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex
 400900	ReloadingSkill	Buff	True	perc	1	0	4029	肋骨粉碎			可使用肋骨粉碎技能。	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex
 401000	WeakResist	Buff	True	perc	8000	0	1001	吶喊			效果持續時，對倒下及僵直免疫。大幅提高狀態虛弱抵抗。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
 401000	KnockDownChance	Buff	True	perc	8000	0	0	吶喊			效果持續時，對倒下及僵直免疫。大幅提高狀態虛弱抵抗。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
@@ -2054,11 +2055,15 @@
 501500	StatusImmune	Buff	True	swch	5000	0	0	石化 I			發生石化效果，持續時間內不會受到任何有害效果的損傷。	icon_skills.stoneshape_tex	icon_skills.stoneshape_tex
 501600	MPChange	Buff	True	perc	900	1	0.05	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501600	KnockDownChance	Buff	True	perc	1000	0	0	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
-501600	AtkPotion	Buff	True	perc	4000	0	0.8	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
-501600	DelayedEffect	Buff	True	swch	1000	0	501608	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501600	Immune	Buff	True	9	1000	0	0	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501600	StatusImmune	Buff	True	swch	1000	0	0	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501601	MPChange	Buff	True	perc	900	1	0.05	空間扭曲 I			讓受到的傷害無效化並恢復最大MP的5%。身受異常狀態時將不能套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	ASpd	Buff	True	perc	1000	0	0.7	空間扭曲 I			1s間讓受到的傷害無效，最多恢復 MP的 5%。異常狀態持續的期間不會套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	MPChange	Buff	True	perc	900	1	0.05	空間扭曲 I			1s間讓受到的傷害無效，最多恢復 MP的 5%。異常狀態持續的期間不會套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	KnockDownChance	Buff	True	perc	1000	0	0	空間扭曲 I			1s間讓受到的傷害無效，最多恢復 MP的 5%。異常狀態持續的期間不會套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	AtkPotion	Buff	True	perc	1000	0	0.8	空間扭曲 I			1s間讓受到的傷害無效，最多恢復 MP的 5%。異常狀態持續的期間不會套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	Immune	Buff	True	9	1000	0	0	空間扭曲 I			1s間讓受到的傷害無效，最多恢復 MP的 5%。異常狀態持續的期間不會套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	StatusImmune	Buff	True	swch	1000	0	0	空間扭曲 I			1s間讓受到的傷害無效，最多恢復 MP的 5%。異常狀態持續的期間不會套用魔力強化II的效果。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 600100	AllowAggro	Buff	True	swch	60000	0	0	裝死			裝死中。若使用技能或被攻擊時，效果立即解除。	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex
 600100	220	Buff	True	swch	60000	0	0	裝死			裝死中。若使用技能或被攻擊時，效果立即解除。	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex
 600101	AllowAggro	Buff	True	swch	60000	0	0	裝死 II			裝死中。若使用技能或被攻擊時，效果立即解除。	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex
@@ -2965,8 +2970,12 @@
 950192	DelayedEffect	Buff	True	swch	600000	0	950168	沸騰的憤怒			貝勒古斯的憤怒已沸騰。隨著時間過去，貝勒古斯變得狂暴化。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950193	DelayedEffect	Buff	True	swch	600000	0	950168	沸騰的憤怒			貝勒古斯的憤怒已沸騰。隨著時間過去，貝勒古斯變得狂暴化。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950197	Endurance	Buff	True	perc	20000	0	1.5	吸收神界魔力			貝勒古斯正在吸收神界魔力。靠著神界魔力讓貝勒古斯的防禦力增強 1.5倍。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950200	Endurance	DOT	True	perc	1	0	1	氣息密集			馬上覆蓋未知的氣息。	icon_items.question1a_tex	icon_items.question1a_tex
+950200	DelayedEffect	Debuff	True	swch	5000	0	950064	氣息密集			馬上覆蓋未知的氣息。	icon_items.question1a_tex	icon_items.question1a_tex
+950201	Endurance	DOT	True	perc	1	0	1	氣息密集			馬上覆蓋未知的氣息。	icon_items.question1a_tex	icon_items.question1a_tex
+950201	DelayedEffect	Debuff	True	swch	5000	0	950065	氣息密集			馬上覆蓋未知的氣息。	icon_items.question1a_tex	icon_items.question1a_tex
 950300	ASpd	Buff	True	perc	90000	0	1.25	大地之力			煞雷奧斯接收大地之力而變強。每次重疊攻擊速度增加 25%。	icon_status.earthblessing_tex	icon_status.earthblessing_tex
-950303	Absorb	Buff	True	abs	17000	0	45000000	吼叫			龍發出吼叫向貝勒古斯請求協助。破壞保護膜並解決牠。	icon_status.summonvergos_tex	icon_status.summonvergos_tex
+950303	Absorb	Buff	True	abs	17000	0	25500000	吼叫			龍發出吼叫向貝勒古斯請求協助。破壞保護膜並解決牠。	icon_status.summonvergos_tex	icon_status.summonvergos_tex
 950306	Attack	Buff	True	perc	0	0	10	狂暴化			龍狂暴化且攻擊力增加 10倍，攻擊速度增加 2倍。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950306	ASpd	Buff	True	perc	0	0	2	狂暴化			龍狂暴化且攻擊力增加 10倍，攻擊速度增加 2倍。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950334	HPChange	DOT	True	perc	5000	2	-0.2	無秩序的魔力			不受到魔力的均衡，定期受到傷害。且攻擊力和治癒量、接收的恢復量等減少 50%。	icon_status.omniousspell_tex	icon_status.omniousspell_tex
@@ -2977,9 +2986,23 @@
 950335	MovSpd	Buff	True	perc	20000	0	3	士氣增進			士氣增進且移動速度增加。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950335	MovSpdInCombat	Buff	True	perc	20000	0	3	士氣增進			士氣增進且移動速度增加。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950340	HPChange	DOT	False	perc	10000	2	-0.15	風造成的傷害			因為阿加雷斯振翅而受到傷害。會持續受到傷害。	icon_status.whirl_tex	icon_status.whirl_tex
-950341	AllResist	Buff	True	perc	0	0	3.87E-09	召喚混沌的旋風			阿加雷斯召喚混沌的旋風。讓阿加雷斯昏厥以阻止他。	icon_status.windtyrant_tex	icon_status.windtyrant_tex
+950341	AllResist	Buff	True	perc	0	0	0.0387	召喚混沌的旋風			阿加雷斯召喚混沌的旋風。讓阿加雷斯昏厥以阻止他。	icon_status.windtyrant_tex	icon_status.windtyrant_tex
 950342	DelayedEffect	Buff	True	swch	4000	0	950343	危機意識			煞雷奧斯感覺到危機意識，甲皮變得堅硬。此效果必須要解除。	icon_status.earthpower_tex	icon_status.earthpower_tex
 950343	DefPotion	Buff	True	perc	0	0	0.1	堅硬的甲皮			煞雷奧斯的甲皮變得堅硬，受到的傷害減少 90%，給予的傷害增加 20%。堅硬的甲皮每次打擊時會被剝落一點。	icon_status.earthpower_tex	icon_status.earthpower_tex
+950415	HPChange	Debuff	True	perc	5000	1	-0.1	很深的傷口			因為很深的傷口而發生出血。每 1秒 10%的 HP會 減少。	icon_status.curse_tex	icon_status.curse_tex
+950435	Absorb	Buff	True	abs	180000	0	50000000	邪念體的執念			因強大的保護膜而受到保護。則可 解除。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
+950436	Block	Stun	True	swch	30000	0	0	大地之石			被困於大地之石中。隨著時間過去，岩石會爆炸，大範圍的地區會受到大傷害。	icon_status.rock_tex	icon_status.rock_tex
+950436	Stun	Stun	True	swch	30000	0	5	大地之石			被困於大地之石中。隨著時間過去，岩石會爆炸，大範圍的地區會受到大傷害。	icon_status.rock_tex	icon_status.rock_tex
+950436	Immune	Stun	True	perc	30000	0	0	大地之石			被困於大地之石中。隨著時間過去，岩石會爆炸，大範圍的地區會受到大傷害。	icon_status.rock_tex	icon_status.rock_tex
+950513	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮			貝勒古斯將魔力注入自己的甲皮。每次重疊，防禦增加 10%，攻擊速度增加 20%。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950513	ASpd	Buff	True	perc	60000	0	1.2	魔力甲皮			貝勒古斯將魔力注入自己的甲皮。每次重疊，防禦增加 10%，攻擊速度增加 20%。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮生成			貝勒古斯將魔力注入自己的甲皮。必須要解除才行。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	DelayedEffect	Debuff	True	swch	3000	0	950513	魔力甲皮生成			貝勒古斯將魔力注入自己的甲皮。必須要解除才行。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	Drunk1	Buff	True	seta	1300	0	0	魔力甲皮生成			貝勒古斯將魔力注入自己的甲皮。必須要解除才行。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950515	Endurance	Buff	True	perc	0	0	1.7	最後的抵抗			貝勒古斯傾盡自己剩餘的力量抵抗。攻擊速度增加 40%，防禦增加 70%。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950515	ASpd	Buff	True	perc	0	0	1.4	最後的抵抗			貝勒古斯傾盡自己剩餘的力量抵抗。攻擊速度增加 40%，防禦增加 70%。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950518	Endurance	Buff	True	perc	1000	0	1	前腳的傷口			貝勒古斯的前腳受到攻擊而產生傷口。再一次受到攻擊的話會爆炸。	icon_status.damageup_tex	icon_status.damageup_tex
+950519	Endurance	Buff	True	perc	1000	0	1	後腳的傷口			貝勒古斯的後腳受到攻擊而產生傷口。再一次受到攻擊的話會爆炸。	icon_status.damagedown_tex	icon_status.damagedown_tex
 975029	HPChange	Buff	True	perc	6000	0	0.03	貝里克力量			力量和暴擊機率增加。	icon_status.plusattack_tex	icon_status.plusattack_tex
 975031	HPChange	Debuff	False	perc	5000	1	-0.01	冷熱交替			火焰和寒氣適當交替混合將會減少損血量。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	Debuff	True	perc	5000	0	2	凱爾賽克巢穴_專用_中間BOSS移動速度增加_效果			周圍5m範圍內我軍移動速度增加	icon_status.plusmove_tex	icon_status.plusmove_tex
@@ -5317,6 +5340,10 @@
 91240001	AtkPotion	Buff	True	perc	40000	0	1.2	訓練教官的教鞭			因為訓練教官的鞭策，技能攻擊力增加20%、爆擊率增口20%。此效果最多重疊20次。	icon_status.plusattack_tex	icon_status.plusattack_tex
 91240002	HPChange	Buff	True	perc	10000	1	0.04	訓練教官的紅蘿蔔			每1s持續恢復4%的HP。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 91240003	MovSpd	Debuff	False	setp	5000	0	0.8	奧坎詛咒_乏力			移動速度降低 20%。	icon_status.minusattack_tex	icon_status.minusattack_tex
+91260001	Stun	Stun	False	swch	4000	0	5	衝擊			因強大的能量而受到衝擊、無法移動。	icon_status.confuseup_tex	icon_status.confuseup_tex
+91260002	Stun	Debuff	False	swch	0	0	5	保護			守護佩特萊的養成所保護效果一直持續。	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex
+91260002	Immune	Debuff	False	seta	0	0	0	保護			守護佩特萊的養成所保護效果一直持續。	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex
+91260003	Immune	Debuff	False	seta	0	0	0	保護			守護佩特萊的養成所保護效果一直持續。	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex
 91600001	HPChange	Debuff	False	perc	3000	1	-0.05	暗黑碎片			直到解除為止，每1s持續減少10%的HP。技能無法使用。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600001	Block	Debuff	False	swch	3000	0	0	暗黑碎片			直到解除為止，每1s持續減少10%的HP。技能無法使用。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600003	MovSpd	Stun	False	perc	10000	0	0.5	達魯坎的威脅			嚇壞膽子逃跑了。	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
