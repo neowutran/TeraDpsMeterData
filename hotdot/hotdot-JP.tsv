@@ -703,9 +703,9 @@
 4886	DefPotion	Buff	True	perc	1800000	0	0.9	勇猛のポーション II	139536	勇猛のポーション II	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex	icon_items.potion10_tex
 4886	AtkPotion	Buff	True	perc	1800000	0	1.1	勇猛のポーション II	139536	勇猛のポーション II	スキルダメージが10%、攻撃速度が4%上昇し、受けるダメージが10%減少します。	icon_items.potion10_tex	icon_items.potion10_tex
 4951	Resurrect	Buff	True	seta	0	0	1	カイアの祝福			戦神カイアの祝福を受けて、死亡時にその場所でHP、MPが回復した状態で1回復活が可能です。リザレクションサイン、リバースブレシング、 ヴェリックの恩寵スキルと重複しません。	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex
-4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化のポーション			攻撃力が12％上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex
+4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化のポーション	216616	Зелье Канефоры	攻撃力が12％上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 4954	Resurrect	Buff	True	seta	0	0	1	カイアの祝福			戦神カイアの祝福を受けて、死亡時にその場所でHP、MPが回復した状態で1回復活が可能です。	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex
-4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化のポーション			攻撃力が15％上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex
+4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化のポーション	216618	Сильное зелье Канефоры	攻撃力が15％上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 4956	HPChange	Buff	True	perc	1000	1	0.15	イースターエッグのバスケット	155016	Exotic Beach Drink	全HPの15％が即時に回復します。	icon_items.ricecake_tex	icon_items.ricecake_tex
 4957	HPChange	Buff	True	perc	1000	1	0.15	キューブバスケット			全HPの15％を即時に回復。	icon_items.sweetypumpkinpie_tex	icon_items.sweetypumpkinpie_tex
 6001	CritPower1	Buff	True	abs	6000	0	1	竜の血脈			モンスター攻撃時クリティカル威力が1.5倍上昇します。	icon_status.passive_dragonblood	icon_status.passive_dragonblood
@@ -1156,7 +1156,7 @@
 33150	AtkPotion	Buff	True	perc	10000	0	1.25	スピニングリッパー(連闘の紋章)			連係して「エクステンドスラッシュ」使用時、スキル威力が25%増加します。	icon_skills.crossway_tex	icon_crest.crestnextskillattackup_tex
 33170	HPChange	Buff	True	perc	12000	1	0.03	守護光玉(忍耐の紋章)			1s毎に全HPの2％が回復します。	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	回り込み(闘志の紋章)			次に使用するスキルの威力が30％増加します。	icon_skills.mooncatch_tex	icon_crest.crestnextskillattackup_tex
-33210	AtkPotion	Buff	True	perc	5000	0	1.25	月光陣(連闘の紋章)			連係して「月鳴り」使用時、スキル威力が25%上昇します。	icon_skills.moongravity_tex	icon_crest.crestpassivehpheal_tex
+33210	AtkPotion	Buff	True	perc	5000	0	1.25	月光陣(連闘の紋章)			連係して「月鳴り」使用時、スキル威力が25%上昇します。	icon_skills.moongravity_tex	icon_crest.e_crestnextskillattackup_tex
 45301	StunKnockDown	Debuff	False	swch	20000	0	2	強い衝撃			砲弾による強い衝撃を受けました。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	均衡喪失			強い衝撃でバランスを崩し、倒れます。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 46705	Endurance	Debuff	True	perc	60000	0	0.9	ディザスター			酸により耐久力が減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -1641,6 +1641,7 @@
 400801	HPDrain	Stun	False	perc	6000	0	0.87	ホミサイドオーラ II			移動速度が62%減少します。対象がプレイヤーの場合、効果持続中は回避及び移動系スキルを封印します。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex
 400801	Block	Stun	False	perc	6000	0	0	ホミサイドオーラ II			移動速度が62%減少します。対象がプレイヤーの場合、効果持続中は回避及び移動系スキルを封印します。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex
 400900	209	Buff	True	perc	4000	0	0	アクシスブレイク			「アクシスブレイク」を使用できます。	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex
+400900	DelayedEffect	Buff	True	abs	4000	0	400910	アクシスブレイク			「アクシスブレイク」を使用できます。	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex
 400900	ReloadingSkill	Buff	True	perc	1	0	4029	アクシスブレイク			「アクシスブレイク」を使用できます。	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex
 401000	WeakResist	Buff	True	perc	8000	0	1001	モッキングシャウト			効果持続中、ダウン/硬直状態になりません。状態弱化抵抗が上昇します。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
 401000	KnockDownChance	Buff	True	perc	8000	0	0	モッキングシャウト			効果持続中、ダウン/硬直状態になりません。状態弱化抵抗が上昇します。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
@@ -2063,11 +2064,15 @@
 501500	StatusImmune	Buff	True	swch	5000	0	0	ペトリファイドスケイル I			効果持続中、全障害ステータスを防ぎます。	icon_skills.stoneshape_tex	icon_skills.stoneshape_tex
 501600	MPChange	Buff	True	perc	900	1	0.05	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501600	KnockDownChance	Buff	True	perc	1000	0	0	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
-501600	AtkPotion	Buff	True	perc	4000	0	0.8	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
-501600	DelayedEffect	Buff	True	swch	1000	0	501608	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501600	Immune	Buff	True	9	1000	0	0	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501600	StatusImmune	Buff	True	swch	1000	0	0	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501601	MPChange	Buff	True	perc	900	1	0.05	ディストーションフィールド I			1s間、ダメージを無効化し、最大MPの5％を回復します。状態異常が適用されている間、マナイグニッションIIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	ASpd	Buff	True	perc	1000	0	0.7	ディストーションフィールド I			1s間、ダメージを無効化させ、最大MPの5％を回復します。異常状態が持続される間、マナイグニッション IIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	MPChange	Buff	True	perc	900	1	0.05	ディストーションフィールド I			1s間、ダメージを無効化させ、最大MPの5％を回復します。異常状態が持続される間、マナイグニッション IIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	KnockDownChance	Buff	True	perc	1000	0	0	ディストーションフィールド I			1s間、ダメージを無効化させ、最大MPの5％を回復します。異常状態が持続される間、マナイグニッション IIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	AtkPotion	Buff	True	perc	1000	0	0.8	ディストーションフィールド I			1s間、ダメージを無効化させ、最大MPの5％を回復します。異常状態が持続される間、マナイグニッション IIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	Immune	Buff	True	9	1000	0	0	ディストーションフィールド I			1s間、ダメージを無効化させ、最大MPの5％を回復します。異常状態が持続される間、マナイグニッション IIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	StatusImmune	Buff	True	swch	1000	0	0	ディストーションフィールド I			1s間、ダメージを無効化させ、最大MPの5％を回復します。異常状態が持続される間、マナイグニッション IIの効果が適用されません。	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 600100	AllowAggro	Buff	True	swch	60000	0	0	デッドプレイ			死んだふりをしています。スキルを使用したりダメージを受けると効果は即解除されます。	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex
 600100	220	Buff	True	swch	60000	0	0	デッドプレイ			死んだふりをしています。スキルを使用したりダメージを受けると効果は即解除されます。	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex
 600101	AllowAggro	Buff	True	swch	60000	0	0	デッドプレイ II			死んだふりをしています。スキルを使用したりダメージを受けると効果は即解除されます。	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex
@@ -2974,8 +2979,12 @@
 950192	DelayedEffect	Buff	True	swch	600000	0	950168	燃え上がる憤怒			ベルゴスの憤怒が燃え上がってます。時間が過ぎるとベルゴスが凶暴化します。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950193	DelayedEffect	Buff	True	swch	600000	0	950168	燃え上がる憤怒			ベルゴスの憤怒が燃え上がってます。時間が過ぎるとベルゴスが凶暴化します。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950197	Endurance	Buff	True	perc	20000	0	1.5	新界の魔力吸収			ベルゴスが新界の魔力を吸収しています。新界の魔力のせいでベルゴスの防御力が1.5倍増加します。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950200	Endurance	DOT	True	perc	1	0	1	密集する魔力			正体不明の魔力に包まれます。	icon_items.question1a_tex	icon_items.question1a_tex
+950200	DelayedEffect	Debuff	True	swch	5000	0	950064	密集する魔力			正体不明の魔力に包まれます。	icon_items.question1a_tex	icon_items.question1a_tex
+950201	Endurance	DOT	True	perc	1	0	1	密集する魔力			正体不明の魔力に包まれます。	icon_items.question1a_tex	icon_items.question1a_tex
+950201	DelayedEffect	Debuff	True	swch	5000	0	950065	密集する魔力			正体不明の魔力に包まれます。	icon_items.question1a_tex	icon_items.question1a_tex
 950300	ASpd	Buff	True	perc	90000	0	1.25	大地の力			サレオスが大地の力を受けて強力になります。効果は重複し、1ストックにつき攻撃速度が25％ずつ上昇します。	icon_status.earthblessing_tex	icon_status.earthblessing_tex
-950303	Absorb	Buff	True	abs	17000	0	45000000	泣き叫ぶ			竜たちベルゴスを呼んでいます。バリアを割ってこれを阻止してください。	icon_status.summonvergos_tex	icon_status.summonvergos_tex
+950303	Absorb	Buff	True	abs	17000	0	25500000	泣き叫ぶ			竜たちベルゴスを呼んでいます。バリアを割ってこれを阻止してください。	icon_status.summonvergos_tex	icon_status.summonvergos_tex
 950306	Attack	Buff	True	perc	0	0	10	凶暴化			竜たちが凶暴化し、攻撃力が10倍増加、攻撃速度が2倍増加します。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950306	ASpd	Buff	True	perc	0	0	2	凶暴化			竜たちが凶暴化し、攻撃力が10倍増加、攻撃速度が2倍増加します。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex
 950334	HPChange	DOT	True	perc	5000	2	-0.2	無秩序な魔力			魔力の均衡が合わずに持続的にダメージを受けます。また攻撃力と回復量、受ける回復量等が50％減少します。	icon_status.omniousspell_tex	icon_status.omniousspell_tex
@@ -2986,9 +2995,23 @@
 950335	MovSpd	Buff	True	perc	20000	0	3	高まる闘志			闘志が高まり移動速度が上昇します。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950335	MovSpdInCombat	Buff	True	perc	20000	0	3	高まる闘志			闘志が高まり移動速度が上昇します。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950340	HPChange	DOT	False	perc	10000	2	-0.15	風による切り傷			アガレスの羽ばたきによって切り付けられました。持続的にダメージを受けます。	icon_status.whirl_tex	icon_status.whirl_tex
-950341	AllResist	Buff	True	perc	0	0	3.87E-09	竜巻召喚			アガレスが竜巻を召喚します。アガレスを気絶させて防いで下さい。	icon_status.windtyrant_tex	icon_status.windtyrant_tex
+950341	AllResist	Buff	True	perc	0	0	0.0387	竜巻召喚			アガレスが竜巻を召喚します。アガレスを気絶させて防いで下さい。	icon_status.windtyrant_tex	icon_status.windtyrant_tex
 950342	DelayedEffect	Buff	True	swch	4000	0	950343	防衛本能			サレオスが危機を感じて甲皮を堅くします。この效果を解除する必要があります。	icon_status.earthpower_tex	icon_status.earthpower_tex
 950343	DefPotion	Buff	True	perc	0	0	0.1	硬い甲皮			サレオスの甲皮が硬くなり受けるダメージが90％減少して、与えるダメージが20％増加します。硬い甲皮は攻撃する度に少しずつ剥がれます。	icon_status.earthpower_tex	icon_status.earthpower_tex
+950415	HPChange	Debuff	True	perc	5000	1	-0.1	深い傷			深い傷により出血が発生します。1秒ごとに 10％のHPが減少します。	icon_status.curse_tex	icon_status.curse_tex
+950435	Absorb	Buff	True	abs	180000	0	50000000	思念体の執念			強力なバリアによって守られています。解除が 可能です。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
+950436	Block	Stun	True	swch	30000	0	0	大地の岩			大地の岩に閉じ込められました。一定時間が過ぎると爆発し、広範囲にわたって大きなダメージを与えます。	icon_status.rock_tex	icon_status.rock_tex
+950436	Stun	Stun	True	swch	30000	0	5	大地の岩			大地の岩に閉じ込められました。一定時間が過ぎると爆発し、広範囲にわたって大きなダメージを与えます。	icon_status.rock_tex	icon_status.rock_tex
+950436	Immune	Stun	True	perc	30000	0	0	大地の岩			大地の岩に閉じ込められました。一定時間が過ぎると爆発し、広範囲にわたって大きなダメージを与えます。	icon_status.rock_tex	icon_status.rock_tex
+950513	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮			ベルゴスが自分の甲皮に魔力を集中させました。重複ごとに防御力が10％ずつ、攻撃速度が20％ずつ増加します。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950513	ASpd	Buff	True	perc	60000	0	1.2	魔力甲皮			ベルゴスが自分の甲皮に魔力を集中させました。重複ごとに防御力が10％ずつ、攻撃速度が20％ずつ増加します。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮生成			ベルゴスが自分の甲皮に魔力を集中させています。解除してください。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	DelayedEffect	Debuff	True	swch	3000	0	950513	魔力甲皮生成			ベルゴスが自分の甲皮に魔力を集中させています。解除してください。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	Drunk1	Buff	True	seta	1300	0	0	魔力甲皮生成			ベルゴスが自分の甲皮に魔力を集中させています。解除してください。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950515	Endurance	Buff	True	perc	0	0	1.7	最後の抵抗			ベルゴスが全力で抵抗しています。攻撃速度が40％増加し、防御力が70％増加します。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950515	ASpd	Buff	True	perc	0	0	1.4	最後の抵抗			ベルゴスが全力で抵抗しています。攻撃速度が40％増加し、防御力が70％増加します。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950518	Endurance	Buff	True	perc	1000	0	1	前足の傷			ベルゴスの前足により、傷を負いました。もう一度同じ攻撃を受けると爆発します。	icon_status.damageup_tex	icon_status.damageup_tex
+950519	Endurance	Buff	True	perc	1000	0	1	後足の傷			ベルゴスの後ろ足により、傷を負いました。もう一度同じ攻撃を受けると爆発します。	icon_status.damagedown_tex	icon_status.damagedown_tex
 975029	HPChange	Buff	True	perc	6000	0	0.03	ヴェリックパワー			力とクリティカル率が上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 975031	HPChange	Debuff	False	perc	5000	1	-0.01	冷温湿布			炎と冷気が混ざり、ダメージを受けます。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	Debuff	True	perc	5000	0	2	ケルサイクの巣_専用_中間ボス移動速度上昇_効果			周囲5mの味方に移動速度上昇	icon_status.plusmove_tex	icon_status.plusmove_tex
@@ -3275,8 +3298,8 @@
 7000020	266	Buff	True	setp	60000	0	7	インナー：非公開	100920	みえみえポーション	自分だけインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_status.icon_yookduk00_ab_tex	icon_status.icon_yookduk00_ab_tex
 7000021	265	Buff	True	setp	86400000	0	7	インナー：公開	100932	すけすけポーション（1日）	他のプレイヤーもインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
 7000022	266	Buff	True	setp	86400000	0	7	インナー：非公開	100933	みえみえポーション（1日）	自分だけインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
-7000023	265	Buff	True	setp	259200000	0	7	インナー：公開	139377	すけすけポーション（3日）	他のプレイヤーもインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
-7000024	266	Buff	True	setp	259200000	0	7	インナー：非公開	139378	みえみえポーション（3日）	自分だけインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
+7000023	265	Buff	True	setp	259200000	0	7	インナー：公開	117507	すけすけポーション（3日）	他のプレイヤーもインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
+7000024	266	Buff	True	setp	259200000	0	7	インナー：非公開	117508	みえみえポーション（3日）	自分だけインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
 7000025	265	Buff	True	setp	172800000	0	7	インナー：公開	139489	すけすけポーション（2日）	他のプレイヤーもインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
 7000026	266	Buff	True	setp	172800000	0	7	インナー：非公開	139490	みえみえポーション（2日）	自分だけインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear1_tex	icon_items.portion_underwear1_tex
 7000027	265	Buff	True	setp	432000000	0	7	インナー：公開	139491	すけすけポーション（5日）	他のプレイヤーもインナーを見ることができる状態です。   一定時間後、元の状態に戻ります。	icon_items.portion_underwear2_tex	icon_items.portion_underwear2_tex
@@ -3645,7 +3668,7 @@
 10155130	DelayedEffect	Buff	True	swch	25000	0	10155131	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex	icon_skills.redmoon_tex
 10155130	Range	Buff	True	swch	25000	0	0.2	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex	icon_skills.redmoon_tex
 10155130	ReloadingSkill	Buff	True	swch	25000	0	763	朱月			力が50、攻撃速度が20、攻撃範囲が20％増加します。スキル発動時、「エヴァシブロール」と「反撃」を除くクールタイム60秒未満の全てのスキルのクールタイムを初期化し、効果持続中はスキルのクールタイムが60％減少します。	icon_skills.redmoon_tex	icon_skills.redmoon_tex
-10155150	CritChance	Buff	True	perc	10000	0	100	標的捕捉			敵の攻撃を完璧に回避して、反撃の機会を掴みます。「連撃」を除いた次の攻撃スキルでクリティカルが100％発生します。	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
+10155150	CritChance	Buff	True	perc	10000	0	100	標的捕捉			敵の攻撃を完璧に回避して、反撃の機会を掴みます。「連撃」を除いた次の攻撃スキルの一撃目でクリティカルが100％発生します。	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
 10155170	Stun	Stun	False	swch	3000	0	5	月光陣			月明かりによって引き付けられ、気絶します。	icon_skills.moongravity_tex	icon_skills.moongravity_tex
 10155240	33	Buff	True	seta	60000	0	0	ルナティックゲージ最大回復			ルナティックゲージが最大となり、朱月スキルを使用できます。効果持続中はルナティックゲージは減少しません。	icon_items.fullmoon_gemstone_tex	icon_items.fullmoon_gemstone_tex
 10155250	KnockDownChance	Buff	True	perc	15000	0	0	守護光玉 I			守護光玉を纏い、攻撃にるダウン及び硬直が発生せず、押し出されなくなります。受けるダメージが70％減少します。	icon_skills.moongracebuff_tex	icon_skills.moongracebuff_tex
@@ -5334,6 +5357,10 @@
 91240001	AtkPotion	Buff	True	perc	40000	0	1.2	訓練教官の鞭			訓練教官の鞭打ちにより、スキル攻撃力20%、クリティカル発生率20%が上昇します。效果は最大20回まで重複します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 91240002	HPChange	Buff	True	perc	10000	1	0.04	訓練教官の力			1s毎に全HPの4％が回復します。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 91240003	MovSpd	Debuff	False	setp	5000	0	0.8	ボルカンの呪い_無気力			移動速度が20%減少されます。	icon_status.minusattack_tex	icon_status.minusattack_tex
+91260001	Stun	Stun	False	swch	4000	0	5	衝撃			強力なエネルギーによる衝撃で動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex
+91260002	Stun	Debuff	False	swch	0	0	5	保護			ペトレを守るための養成所の保護効果が持続されます。	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex
+91260002	Immune	Debuff	False	seta	0	0	0	保護			ペトレを守るための養成所の保護効果が持続されます。	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex
+91260003	Immune	Debuff	False	seta	0	0	0	保護			ペトレを守るための養成所の保護効果が持続されます。	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex
 91600001	HPChange	Debuff	False	perc	3000	1	-0.05	闇の破片			効果が解除されるまでの間、1s毎に全HPの10%が減少し、スキルを使用できません。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600001	Block	Debuff	False	swch	3000	0	0	闇の破片			効果が解除されるまでの間、1s毎に全HPの10%が減少し、スキルを使用できません。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600003	MovSpd	Stun	False	perc	10000	0	0.5	ダルカンの脅威			おびえて逃げています。	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
