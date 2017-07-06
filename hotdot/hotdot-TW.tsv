@@ -695,8 +695,8 @@
 4886	DefPotion	Buff	True	perc	1800000	0	0.9	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex	icon_items.potion10_tex
 4886	AtkPotion	Buff	True	perc	1800000	0	1.1	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升4%，攻擊力增加10%，防禦力增加10%。	icon_items.potion10_tex	icon_items.potion10_tex
 4951	Resurrect	Buff	True	seta	0	0	1	凱亞的祝福			獲得凱亞的祝福，死亡時可在該場所上復活1次，並恢復所有的 HP和 MP、健康狀態。無法和復活庇護及轉生祝福、貝里克的恩寵技能重複套用。	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex
-4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化藥水	216616	Зелье Канефоры	攻擊力增加 12%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
-4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化藥水	216618	Сильное зелье Канефоры	攻擊力增加 15%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
+4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化藥水			攻擊力增加 12%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
+4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化藥水			攻擊力增加 15%。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex
 4956	HPChange	Buff	True	perc	1000	1	0.15	復活節彩蛋籃子	155016	Exotic Beach Drink	立即恢復15%的HP。	icon_items.ricecake_tex	icon_items.ricecake_tex
 4957	HPChange	Buff	True	perc	1000	1	0.15	萬聖節方籃			可立即恢復整體HP的15%。	icon_items.sweetypumpkinpie_tex	icon_items.sweetypumpkinpie_tex
 6001	CritPower1	Buff	True	abs	6000	0	1	龍之血脈			攻擊怪物時爆擊威力增加+1.5倍。	icon_status.passive_dragonblood	icon_status.passive_dragonblood
@@ -1702,7 +1702,7 @@
 457016	Endurance	Buff	True	perc	0	0	20	要堅固			熔岩怪物為了吸收水蒸氣，佔據位置並躺下來了。抗打提升1900%。	icon_status.dimensionguard_tex	icon_status.dimensionguard_tex
 457017	MovSpd	Debuff	True	setp	0	0	0.9	阿凱倫的保護			獲得阿凱倫的保護。在保護持續的期間裡，只會跟著各位而已。	icon_skills.manashield_tex	icon_skills.manashield_tex
 457017	220	Debuff	True	swch	0	0	0	阿凱倫的保護			獲得阿凱倫的保護。在保護持續的期間裡，只會跟著各位而已。	icon_skills.manashield_tex	icon_skills.manashield_tex
-457017	Absorb	Debuff	True	abs	0	0	16000000	阿凱倫的保護			獲得阿凱倫的保護。在保護持續的期間裡，只會跟著各位而已。	icon_skills.manashield_tex	icon_skills.manashield_tex
+457017	Absorb	Debuff	True	abs	0	0	100000000	阿凱倫的保護			獲得阿凱倫的保護。在保護持續的期間裡，只會跟著各位而已。	icon_skills.manashield_tex	icon_skills.manashield_tex
 457018	113	Stun	False	perc	20000	0	0.6	熔化武器			受到石巨人的強烈熱氣的影響，防具都熔化了。	icon_status.balancedown_tex	icon_status.balancedown_tex
 457019	Block	Stun	True	seta	0	0	0	阿凱倫的標記			被阿凱倫指名了。火石會開始追逐你。	icon_status.plusattack_tex	icon_status.plusattack_tex
 457022	AllResist	Buff	True	perc	25000	0	0.001	阿凱倫的命令			因為阿凱倫的命令，精神開始發愣。請攻擊空隙吧。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
@@ -1729,7 +1729,7 @@
 457051	ASpd	Buff	True	perc	60000	0	1.1	巫女的祝福-神速			獲得巫女的祝福，攻擊速度增加10%。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex
 457052	MovSpd	Buff	True	perc	0	0	0.8	阿凱倫的呼喚			和阿凱倫的呼喚一起受到保護。如果無法打破保護，暗黑尖爪獸會變得更強。	icon_skills.manashield_tex	icon_skills.manashield_tex
 457052	220	Buff	True	swch	0	0	0	阿凱倫的呼喚			和阿凱倫的呼喚一起受到保護。如果無法打破保護，暗黑尖爪獸會變得更強。	icon_skills.manashield_tex	icon_skills.manashield_tex
-457052	Absorb	Buff	True	abs	0	0	12000000	阿凱倫的呼喚			和阿凱倫的呼喚一起受到保護。如果無法打破保護，暗黑尖爪獸會變得更強。	icon_skills.manashield_tex	icon_skills.manashield_tex
+457052	Absorb	Buff	True	abs	0	0	65000000	阿凱倫的呼喚			和阿凱倫的呼喚一起受到保護。如果無法打破保護，暗黑尖爪獸會變得更強。	icon_skills.manashield_tex	icon_skills.manashield_tex
 457053	Power	Buff	True	perc	60000	0	2	阿凱倫的祝福-狂暴			獲得阿凱倫的祝福變得狂暴起來。	icon_status.darkriftgravity_tex	icon_status.darkriftgravity_tex
 457053	ASpd	Buff	True	perc	60000	0	1.3	阿凱倫的祝福-狂暴			獲得阿凱倫的祝福變得狂暴起來。	icon_status.darkriftgravity_tex	icon_status.darkriftgravity_tex
 457054	HPChange	Stun	False	perc	10000	2	-0.1	出血			因為尖利的爪子而受傷，造成HP持續減少。	icon_status.blooduanty_tex	icon_status.blooduanty_tex
@@ -1944,8 +1944,8 @@
 476806	Drunk	Debuff	False	60018	10000	0	0	時空崩壞!			時空正在崩壞! 如果不快點解除，10s後，你將可能面臨無法避免的死亡...!!	icon_status.darkriftdestroy_tex	icon_status.darkriftdestroy_tex
 476814	Stun	Stun	False	swch	5000	0	15	跳舞的喜悅!			因為次元的群舞效果堆疊而導致強制跳舞！這真是，實在無法停下來啊！	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
 476815	Power	Buff	True	perc	20000	0	1.15	高點! 再高點!			依照次元的活力效果每次跳躍時，力量會增加15%，最多增加到75%。	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex
-476818	Power	Buff	True	perc	20000	0	1.5	暗黑次元的本能			力量將提升50%，攻擊速度提升20%。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
-476818	ASpd	Buff	True	perc	20000	0	1.2	暗黑次元的本能			力量將提升50%，攻擊速度提升20%。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
+476818	Power	Buff	True	perc	30000	0	1.5	暗黑次元的本能			力量將提升50%，攻擊速度提升20%。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
+476818	ASpd	Buff	True	perc	30000	0	1.2	暗黑次元的本能			力量將提升50%，攻擊速度提升20%。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 476905	Stun1	Debuff	False	swch	15000	2	1	電流釋放 - 效果			每2s將產生僵硬。 電流釋放 - 效果無法解除。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 476906	HPChange	Debuff	False	perc	1000	1	-0.5	死亡宣言			每1s將傳播異常狀態，並在每1s持續減少50%的HP。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 476907	HPChange	DOT	False	perc	60000	1	-0.02	精神崩潰 - 效果			以昏厥的狀態無法行動，並在每1持續減少2%的HP。 精神崩潰-效果無法解除。	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -2756,21 +2756,21 @@
 900400	MPChange	Buff	True	perc	15000	1	0.02	指揮官祝福			已獲得戰場指揮官祝福!每1s持續恢復2%的MP。	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex
 900401	MPChange	Buff	True	perc	15000	1	0.02	指揮官祝福			已獲得戰場指揮官祝福!每1s持續恢復2%的MP。	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex
 905401	AllowAggro	Buff	True	swch	0	0	0	奧露卡的電氣隱身			消失在空間的某處。	icon_status.calldimension_tex	icon_status.calldimension_tex
-905401	Absorb	Buff	True	abs	0	0	99999999	奧露卡的電氣隱身			消失在空間的某處。	icon_status.calldimension_tex	icon_status.calldimension_tex
+905401	Immune	Buff	True	25	0	0	0	奧露卡的電氣隱身			消失在空間的某處。	icon_status.calldimension_tex	icon_status.calldimension_tex
 905401	Visibility	Buff	True	swch	0	0	0	奧露卡的電氣隱身			消失在空間的某處。	icon_status.calldimension_tex	icon_status.calldimension_tex
 905403	HPChange	Debuff	True	perc	20000	2	-0.15	奧露卡的閃電			因為奧露卡的電擊，每2s持續減少%的HP。	icon_status.electriceffect1_tex	icon_status.electriceffect1_tex
 905407	HPChange	Debuff	False	perc	1000	1	-0.3	奧露卡的閃電				icon_status.electriceffect3_tex	icon_status.electriceffect3_tex
 905408	Block	Stun	False	swch	5000	0	0	奧露卡的電擊衝擊			受到奧露卡的電擊，目前為無法使用技能的狀態	icon_status.electriceffect3_tex	icon_status.electriceffect3_tex
-905409	Absorb	Debuff	True	abs	14000	0	3300000	奧露卡的保護膜			因為強大的保護膜，而受到保護的狀態	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
+905409	Absorb	Debuff	True	abs	14000	0	35000000	奧露卡的保護膜			因為強大的保護膜，而受到保護的狀態	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 905413	Power	Buff	True	perc	0	0	1.1	神格化			強大的力強將奧露卡的力量和速度提升至界限，不過防禦力減少35%。	icon_status.plusattack_tex	icon_status.plusattack_tex
 905413	Endurance	Buff	True	perc	0	0	0.65	神格化			強大的力強將奧露卡的力量和速度提升至界限，不過防禦力減少35%。	icon_status.plusattack_tex	icon_status.plusattack_tex
 905413	MovSpd	Buff	True	perc	0	0	1.3	神格化			強大的力強將奧露卡的力量和速度提升至界限，不過防禦力減少35%。	icon_status.plusattack_tex	icon_status.plusattack_tex
 905413	ASpd	Buff	True	perc	0	0	1.88	神格化			強大的力強將奧露卡的力量和速度提升至界限，不過防禦力減少35%。	icon_status.plusattack_tex	icon_status.plusattack_tex
 905414	Drunk1	Stun	False	seta	10000	0	0	被水弄濕的身體			對奧露卡的電擊強烈反應。	icon_status.minushp_tex	icon_status.minushp_tex
 905416	HPChange	Debuff	False	perc	1000	1	-0.3	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
-905416	DelayedEffect	Debuff	False	abs	3000	0	905417	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
+905416	DelayedEffect	Buff	True	abs	3000	0	905417	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
 905417	HPChange	Debuff	False	perc	1000	1	-0.3	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
-905417	DelayedEffect	Debuff	False	abs	3000	0	905418	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
+905417	DelayedEffect	Buff	True	abs	3000	0	905418	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
 905418	HPChange	Debuff	False	perc	1000	1	-0.3	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
 905419	HPChange	Debuff	False	perc	1000	1	-0.3	奧露卡的電波閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們持續減少30%的HP。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
 905420	HPChange	Debuff	False	perc	1000	1	-0.3	奧露卡的閃電			受到奧露卡的電擊影響，造成周邊範圍內的同伴們受到強力的電擊傷害。	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex
@@ -2783,7 +2783,7 @@
 905426	Endurance	Stun	False	perc	10000	0	0.6	深海的恐怖			因為深海魚的恐怖，抗打減少40%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 905426	MovSpd	Stun	False	setp	10000	0	0.3	深海的恐怖			因為深海魚的恐怖，抗打減少40%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 905426	Fear	Stun	False	swch	10000	0	200	深海的恐怖			因為深海魚的恐怖，抗打減少40%，暫時間會變成無法控制的狀態。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
-905430	Absorb	Debuff	True	abs	10000	0	1584000	堅強的防禦罩			使用甲殼一邊保護自己，一邊聚集強大的力量。	icon_status.balanceup_tex	icon_status.balanceup_tex
+905430	Absorb	Debuff	True	abs	10000	0	20000000	堅強的防禦罩			使用甲殼一邊保護自己，一邊聚集強大的力量。	icon_status.balanceup_tex	icon_status.balanceup_tex
 905432	HPChange	DOT	False	perc	30000	2	-0.08	劇毒			中了致命性病毒，每2s持續減少8%的HP。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 905433	HPChange	Debuff	False	perc	10000	2	-0.08	劇毒煙氣			透過地氣感染了劇毒。每2s逐漸減少8%的HP。	icon_status.purifydagon_tex	icon_status.purifydagon_tex
 905440	Immune	Debuff	True	abs	0	0	0	無敵			無敵狀態下，不會受到任何傷害	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
@@ -2986,14 +2986,15 @@
 950335	MovSpd	Buff	True	perc	20000	0	3	士氣增進			士氣增進且移動速度增加。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950335	MovSpdInCombat	Buff	True	perc	20000	0	3	士氣增進			士氣增進且移動速度增加。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950340	HPChange	DOT	False	perc	10000	2	-0.15	風造成的傷害			因為阿加雷斯振翅而受到傷害。會持續受到傷害。	icon_status.whirl_tex	icon_status.whirl_tex
-950341	AllResist	Buff	True	perc	0	0	0.0387	召喚混沌的旋風			阿加雷斯召喚混沌的旋風。讓阿加雷斯昏厥以阻止他。	icon_status.windtyrant_tex	icon_status.windtyrant_tex
+950341	AllResist	Buff	True	perc	0	0	3.87E-05	召喚混沌的旋風			阿加雷斯召喚混沌的旋風。讓阿加雷斯昏厥以阻止他。	icon_status.windtyrant_tex	icon_status.windtyrant_tex
 950342	DelayedEffect	Buff	True	swch	4000	0	950343	危機意識			煞雷奧斯感覺到危機意識，甲皮變得堅硬。此效果必須要解除。	icon_status.earthpower_tex	icon_status.earthpower_tex
 950343	DefPotion	Buff	True	perc	0	0	0.1	堅硬的甲皮			煞雷奧斯的甲皮變得堅硬，受到的傷害減少 90%，給予的傷害增加 20%。堅硬的甲皮每次打擊時會被剝落一點。	icon_status.earthpower_tex	icon_status.earthpower_tex
-950415	HPChange	Debuff	True	perc	5000	1	-0.1	很深的傷口			因為很深的傷口而發生出血。每 1秒 10%的 HP會 減少。	icon_status.curse_tex	icon_status.curse_tex
+950415	HPChange	Debuff	False	perc	5000	1	-0.1	很深的傷口			因為很深的傷口而發生出血。每 1秒 10%的 HP會 減少。	icon_status.curse_tex	icon_status.curse_tex
 950435	Absorb	Buff	True	abs	180000	0	50000000	邪念體的執念			因強大的保護膜而受到保護。則可 解除。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 950436	Block	Stun	True	swch	30000	0	0	大地之石			被困於大地之石中。隨著時間過去，岩石會爆炸，大範圍的地區會受到大傷害。	icon_status.rock_tex	icon_status.rock_tex
 950436	Stun	Stun	True	swch	30000	0	5	大地之石			被困於大地之石中。隨著時間過去，岩石會爆炸，大範圍的地區會受到大傷害。	icon_status.rock_tex	icon_status.rock_tex
 950436	Immune	Stun	True	perc	30000	0	0	大地之石			被困於大地之石中。隨著時間過去，岩石會爆炸，大範圍的地區會受到大傷害。	icon_status.rock_tex	icon_status.rock_tex
+950436	295	Stun	True	swch	30000	0	0	大地之石			被困於大地之石中。隨著時間過去，岩石會爆炸，大範圍的地區會受到大傷害。	icon_status.rock_tex	icon_status.rock_tex
 950513	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮			貝勒古斯將魔力注入自己的甲皮。每次重疊，防禦增加 10%，攻擊速度增加 20%。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950513	ASpd	Buff	True	perc	60000	0	1.2	魔力甲皮			貝勒古斯將魔力注入自己的甲皮。每次重疊，防禦增加 10%，攻擊速度增加 20%。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950514	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮生成			貝勒古斯將魔力注入自己的甲皮。必須要解除才行。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
@@ -3001,8 +3002,14 @@
 950514	Drunk1	Buff	True	seta	1300	0	0	魔力甲皮生成			貝勒古斯將魔力注入自己的甲皮。必須要解除才行。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950515	Endurance	Buff	True	perc	0	0	1.7	最後的抵抗			貝勒古斯傾盡自己剩餘的力量抵抗。攻擊速度增加 40%，防禦增加 70%。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950515	ASpd	Buff	True	perc	0	0	1.4	最後的抵抗			貝勒古斯傾盡自己剩餘的力量抵抗。攻擊速度增加 40%，防禦增加 70%。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950516	Endurance	DOT	True	perc	1	0	1	火焰密集			馬上就要被火焰覆蓋。	icon_status.vergosflame_tex	icon_status.vergosflame_tex
+950516	DelayedEffect	Debuff	True	swch	7000	0	950064	火焰密集			馬上就要被火焰覆蓋。	icon_status.vergosflame_tex	icon_status.vergosflame_tex
+950517	Endurance	DOT	True	perc	1	0	1	粉塵密集			馬上就要被粉塵覆蓋。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950517	DelayedEffect	Debuff	True	swch	7000	0	950065	粉塵密集			馬上就要被粉塵覆蓋。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950518	Endurance	Buff	True	perc	1000	0	1	前腳的傷口			貝勒古斯的前腳受到攻擊而產生傷口。再一次受到攻擊的話會爆炸。	icon_status.damageup_tex	icon_status.damageup_tex
 950519	Endurance	Buff	True	perc	1000	0	1	後腳的傷口			貝勒古斯的後腳受到攻擊而產生傷口。再一次受到攻擊的話會爆炸。	icon_status.damagedown_tex	icon_status.damagedown_tex
+950600	Power	Buff	True	abs	0	0	23	女神的庇護			感受到貝里克女神的庇護. 能感受到更強大的感覺。	icon_skills.tranquility_tex	icon_skills.tranquility_tex
+950600	Endurance	Buff	True	abs	0	0	23	女神的庇護			感受到貝里克女神的庇護. 能感受到更強大的感覺。	icon_skills.tranquility_tex	icon_skills.tranquility_tex
 975029	HPChange	Buff	True	perc	6000	0	0.03	貝里克力量			力量和暴擊機率增加。	icon_status.plusattack_tex	icon_status.plusattack_tex
 975031	HPChange	Debuff	False	perc	5000	1	-0.01	冷熱交替			火焰和寒氣適當交替混合將會減少損血量。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 975039	MovSpdInCombat	Debuff	True	perc	5000	0	2	凱爾賽克巢穴_專用_中間BOSS移動速度增加_效果			周圍5m範圍內我軍移動速度增加	icon_status.plusmove_tex	icon_status.plusmove_tex
@@ -3601,15 +3608,15 @@
 10153000	209	Buff	True	perc	6000	0	0	(反擊) 可使用			(反擊) 可以使用技能。	icon_skills.counterattack2_tex	icon_skills.counterattack2_tex
 10153020	Block	Stun	False	swch	3000	0	0	強打 (防禦)			在半空中失重，無法提起精神。	icon_skills.smashattack02_tex	icon_skills.lossofbalance_tex
 10153030	Stun	Stun	False	swch	3000	0	5	飛踢			因為被攻擊頭部，暫時昏厥了。	icon_skills.airkick_tex	icon_skills.concussion_tex
-10153040	Power	Buff	True	abs	0	0	30	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	Crit	Buff	True	abs	0	0	30	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	Aggro	Buff	True	perc	0	0	1.1	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	ASpd	Buff	True	abs	0	0	-10	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	RageChange	Buff	True	abs	0	1	-300	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	CDR	Buff	True	swch	0	0	0.7	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	Block	Buff	True	swch	0	0	0	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	Range	Buff	True	swch	0	0	0.1	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
-10153040	SuperArmor	Buff	True	swch	0	0	0	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量和暴擊率增加50，所有技能的冷卻時間減少30%，所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	Power	Buff	True	abs	0	0	45	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	Crit	Buff	True	abs	0	0	50	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	Aggro	Buff	True	perc	0	0	1.1	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	ASpd	Buff	True	abs	0	0	-10	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	RageChange	Buff	True	abs	0	1	-250	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	CDR	Buff	True	swch	0	0	0.7	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	Block	Buff	True	swch	0	0	0	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	Range	Buff	True	swch	0	0	0.1	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
+10153040	SuperArmor	Buff	True	swch	0	0	0	巨人之力 (防禦)			把身體巨大化，提升身體內面的力量。攻擊速度減少10，但力量增加45，爆擊率增加50，追加獲得仇恨值10%，所有技能的冷卻時間減少30%，且所有技能具有前方防禦效果。	icon_skills.rampage_tex	icon_skills.rampage_tex
 10153050	209	Buff	True	perc	0	0	0	充斥的憤怒			無法累積憤怒。	icon_skills.flaringanger_tex	icon_skills.flaringanger_tex
 10153052	33	Buff	True	seta	30000	0	0	戰鬥的欲望			憤怒沒有消失。	icon_skills.desireofbattle_tex	icon_skills.desireofbattle_tex
 10153053	33	Buff	True	seta	60000	0	0	充斥的憤怒			無法累積憤怒。	icon_skills.flaringanger_tex	icon_skills.flaringanger_tex
@@ -3618,6 +3625,7 @@
 10153110	RageChange	Buff	True	abs	20000	1	50	怒氣累積			憤怒漸漸上漲。	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex
 10153110	Rage	Buff	True	perc	20000	0	1.5	怒氣累積			憤怒漸漸上漲。	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex
 10153140	Endurance	Debuff	False	perc	20000	0	0.99	狂暴連打			被攻擊要害，抗打減少1%。最多可堆疊8次。	icon_skills.rapidattack_tex	icon_skills.rapidattack_tex
+10153150	239	Buff	True	perc	8000	0	1	瞬閃 (迴避)			可以再使用一次瞬閃。	icon_skills.instancerush_tex	icon_skills.instancerush_tex
 10153503	209	Buff	True	perc	5000	0	0	(上踢) 可使用			(上踢) 可以使用技能。	icon_skills.kick2_tex	icon_skills.kick2_tex
 10154010	239	Buff	True	perc	3000	0	1	迴避啟動 I			可再使用一次迴避啟動。使用時會套用冷卻時間。	icon_skills.c12_dash	icon_skills.c12_dash
 10154020	Stun	Stun	False	swch	1500	0	5	昏厥			下顎被加擊而處於昏厥狀態。	icon_skills.c12_dashattack	icon_skills.c12_dashattack
@@ -4128,7 +4136,7 @@
 47681601	Endurance	Buff	True	perc	3600000	0	1	次元召喚			已感覺到逐漸被捲入暗黑裂縫的縫隙裡。只能在該效果堆疊2次的狀態下，才能進入暗黑次元的異空間。 只要同一帳號內有任何一隻角色進入過異空間，其他角色將於一小時內無法進入異空間。	icon_status.calldimension_tex	icon_status.calldimension_tex
 47681602	Endurance	Buff	True	perc	3600000	0	1	次元召喚			已感覺到逐漸被捲入暗黑裂縫的縫隙裡。只能在該效果堆疊2次的狀態下，才能進入暗黑次元的異空間。 只要同一帳號內有任何一隻角色進入過異空間，其他角色將於一小時內無法進入異空間。	icon_status.calldimension_tex	icon_status.calldimension_tex
 47681700	Endurance	Buff	True	perc	46800000	0	1	次元哨兵			到暗黑次元的異空間探險過的冒險家。有此狀態效果時，就不會獲得次元召喚的異常狀態，且無法進入暗黑次元的異空間。	icon_status.dimensionguard_tex	icon_status.dimensionguard_tex
-47681800	Power	Buff	True	perc	20000	0	1.5	暗黑次元的吸引			每0s向周圍12m範圍內的我軍觸發暗黑次元的本能效果。	icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex
+47681800	Power	Buff	True	perc	30000	0	1.5	暗黑次元的吸引			每0s向周圍12m範圍內的我軍觸發暗黑次元的本能效果。	icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex
 47690000	Block	Stun	False	swch	10000	0	0	超音波衝擊			因為超音波的強力衝擊，在效果持續時間內無法使用任何技能！ 超音波衝擊無法解除。	icon_status.sealskill_tex	icon_status.sealskill_tex
 47690100	Endurance	Debuff	False	perc	60000	0	0.2	突進粉碎			因為突進波長，抗打將減少80%。 突進粉碎無法解除。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 47690200	DefPotion	Buff	True	perc	0	0	0.2	赤紅盾牌			以鮮明的赤紅盾牌之力量，被遠距離攻擊時所受的傷害將減少80%。 赤紅盾牌無法解除。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
@@ -5348,7 +5356,7 @@
 91600001	Block	Debuff	False	swch	3000	0	0	暗黑碎片			直到解除為止，每1s持續減少10%的HP。技能無法使用。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600003	MovSpd	Stun	False	perc	10000	0	0.5	達魯坎的威脅			嚇壞膽子逃跑了。	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
 91600003	Fear	Stun	False	abs	10000	0	150	達魯坎的威脅			嚇壞膽子逃跑了。	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
-91600004	HPChange	DOT	False	perc	15000	2	-0.1	達魯坎的不滅火花			每2s減少10%的HP。	icon_status.firedamage_tex	icon_status.firedamage_tex
+91600004	HPChange	DOT	False	perc	15000	2	-0.12	達魯坎的不滅火花			每2s減少10%的HP。	icon_status.firedamage_tex	icon_status.firedamage_tex
 91600007	Power	Debuff	False	perc	600000	0	1.2	亞爾庫斯的悲鳴			每堆疊1次，攻擊力增加20%，攻擊速度增加10%。無法解除。	icon_status.plusattack_tex	icon_status.plusattack_tex
 91600007	ASpd	Debuff	False	perc	600000	0	1.2	亞爾庫斯的悲鳴			每堆疊1次，攻擊力增加20%，攻擊速度增加10%。無法解除。	icon_status.plusattack_tex	icon_status.plusattack_tex
 91600008	Endurance	Stun	False	seta	30000	0	10000000	達魯坎的喝斥			昏厥狀態無法行動。	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -5441,8 +5449,8 @@
 97000051	HPChange	Debuff	False	perc	3000	1	-0.05	小蜘蛛的毒			感染了小蜘蛛的毒移動速度減少，每0s減少5%的HP。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000052	DefPotion	DOT	True	perc	100000	0	1.5	強大的拉坎里斯的詛咒			超越的拉坎里斯造成的傷害增加50%，並追加受到靈魂球體兩倍的傷害。重疊2次的話即死亡。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 97000052	HPLoss	Debuff	False	abs	1000	0	-50000000	強大的拉坎里斯的詛咒			超越的拉坎里斯造成的傷害增加50%，並追加受到靈魂球體兩倍的傷害。重疊2次的話即死亡。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97500100	HPChange	DOT	False	perc	120000	2	-0.07	毀滅業火			每2s持續減少3%的HP，持續時間結束時令對象當場死亡。 毀滅業火只有透過毀滅寒氣才可以消除。	icon_status.firedamage_tex	icon_status.firedamage_tex
-97500100	HPLoss	DOT	False	abs	120000	0	-10000000	毀滅業火			每2s持續減少3%的HP，持續時間結束時令對象當場死亡。 毀滅業火只有透過毀滅寒氣才可以消除。	icon_status.firedamage_tex	icon_status.firedamage_tex
+97500100	HPChange	DOT	False	perc	70000	2	-0.09	毀滅業火			每2s持續減少3%的HP，持續時間結束時令對象當場死亡。 毀滅業火只有透過毀滅寒氣才可以消除。	icon_status.firedamage_tex	icon_status.firedamage_tex
+97500100	HPLoss	DOT	False	abs	70000	0	-10000000	毀滅業火			每2s持續減少3%的HP，持續時間結束時令對象當場死亡。 毀滅業火只有透過毀滅寒氣才可以消除。	icon_status.firedamage_tex	icon_status.firedamage_tex
 97500250	KnockDownChance	Buff	True	perc	20000	0	0	堅固結界			對所有有害效果100%扺抗。效果維持期間不會發生擊倒及僵硬。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 97500250	ResistNegative	Buff	True	swch	20000	0	0	堅固結界			對所有有害效果100%扺抗。效果維持期間不會發生擊倒及僵硬。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 97500250	StatusImmune	Buff	True	swch	20000	0	0	堅固結界			對所有有害效果100%扺抗。效果維持期間不會發生擊倒及僵硬。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
@@ -5452,8 +5460,8 @@
 97500500	AtkPotion	DOT	False	perc	35000	0	0.4	懲罰結界			懲罰結界已纏住全身!每5持續減少20%的HP，另外遠距離攻擊技能的威力減少60%。 懲罰結界無法解除。	icon_status.minorexhaustion_tex	icon_status.minorexhaustion_tex
 97500600	HPChange	DOT	False	perc	35000	2	-0.02	死亡結界			死亡結界已纏住全身!每2持續減少1%的HP，結界維持期間不管用什麼方法都不能令HP恢復。 死亡結界無法解除。	icon_status.minusfocus_tex	icon_status.minusfocus_tex
 97500600	NoHeal	DOT	False	seta	35000	0	0	死亡結界			死亡結界已纏住全身!每2持續減少1%的HP，結界維持期間不管用什麼方法都不能令HP恢復。 死亡結界無法解除。	icon_status.minusfocus_tex	icon_status.minusfocus_tex
-97501100	HPChange	DOT	False	perc	120000	2	-0.07	毀滅寒氣			每0持續減少20%的HP，持續時間結束時令對象當場死亡。 BR毀滅寒氣只有透過毀滅業火才可以消除。	icon_status.icedamage_tex	icon_status.icedamage_tex
-97501100	HPLoss	DOT	False	abs	120000	0	-10000000	毀滅寒氣			每0持續減少20%的HP，持續時間結束時令對象當場死亡。 BR毀滅寒氣只有透過毀滅業火才可以消除。	icon_status.icedamage_tex	icon_status.icedamage_tex
+97501100	HPChange	DOT	False	perc	70000	2	-0.09	毀滅寒氣			每0持續減少20%的HP，持續時間結束時令對象當場死亡。 BR毀滅寒氣只有透過毀滅業火才可以消除。	icon_status.icedamage_tex	icon_status.icedamage_tex
+97501100	HPLoss	DOT	False	abs	70000	0	-10000000	毀滅寒氣			每0持續減少20%的HP，持續時間結束時令對象當場死亡。 BR毀滅寒氣只有透過毀滅業火才可以消除。	icon_status.icedamage_tex	icon_status.icedamage_tex
 97501200	Stun	Stun	False	swch	20000	0	5	凱爾賽克的憤怒			昏厥狀態無法行動。無法解除凱爾賽克的憤怒。	icon_status.confuseup_tex	icon_status.confuseup_tex
 97501300	Power	DOT	False	perc	10000	0	3	凱爾賽克的詛咒			每次堆疊時力量雖然增加 200%，但每1持續減少0.5%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 97501300	HPChange	DOT	False	perc	10000	1	-0.005	凱爾賽克的詛咒			每次堆疊時力量雖然增加 200%，但每1持續減少0.5%的HP。此效果最多可堆疊99次。	icon_status.diseaseup_tex	icon_status.diseaseup_tex
@@ -5534,13 +5542,15 @@
 98000091	HPChange	DOT	False	perc	10000	3	-0.06	出血			因為小傢伙的強力一擊而發生出血，移動速度減少50%，且每3持續減少6%的HP。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 98000092	HPChange	Buff	True	perc	12000	3	0.0033	小傢伙的祝福			因為HP恢復試藥的特別效果，每3s持續恢復0%的HP。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 98000095	HPChange	Buff	True	abs	1000	1	50000	祭司之手			體力只恢復 3	icon_items.potion5_tex	icon_items.potion5_tex
-98000100	Power	Buff	True	abs	2400000	0	25	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex	icon_skills.attackup_tex
-98000100	Endurance	Buff	True	abs	900000	0	11	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 獲得力量祝福II(力量25)，保護祝福II(抗打11)，再生祝福V(體力持續恢復)，忍耐祝福I(所有異常狀態扺抗5)，神聖閃電(力量40、攻速8)，抗打減少(10%)的效果。	icon_skills.attackup_tex	icon_skills.attackup_tex
-98000101	Endurance	Buff	True	perc	99999999	0	1.1	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex	icon_status.plusecritical_tex
-98000101	BuffNearbyParty	Buff	True	seta	0	3	700233	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使Buff - 已獲得憤怒結界 (暴擊引發 2倍)、精神結界 (每1秒恢復MP 20)、守護精靈紋章效果(抗打提升 10%)、抗打減少(10%)的效果。	icon_status.plusecritical_tex	icon_status.plusecritical_tex
-98000102	MaxHP	Buff	True	perc	99999999	0	1.05	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。		
-98000102	Power	Buff	True	abs	99999999	0	6	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。		
-98000102	OutOfCombatMovSpd	Buff	True	abs	99999999	0	20	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。		
+98000100	Power	Buff	True	abs	10000000	0	25	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 套用亞倫的祝福III、夏拉的祝福V、神聖閃電。獲得力量25、抗打11、體力持續恢復、所有異常狀態抵抗5、力量40、攻速8的效果。	icon_skills.attackup_tex	icon_skills.attackup_tex
+98000100	Endurance	Buff	True	abs	10000000	0	11	祭司增益藥水	96000	테스트용 물약_사제 버프	祭司BUFF - 套用亞倫的祝福III、夏拉的祝福V、神聖閃電。獲得力量25、抗打11、體力持續恢復、所有異常狀態抵抗5、力量40、攻速8的效果。	icon_skills.attackup_tex	icon_skills.attackup_tex
+98000101	Power	Buff	True	abs	0	0	40	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使BUFF - 套用憤怒結界II、狂氣庇護III、迷霧結界IV、守護精靈紋章抗打增加。獲得爆擊率 2.2倍、力量40、攻速6、爆擊抗打40%、抗打 10%的效果。狂氣庇護與祭司BUFF中的低階神聖閃電重複。	icon_status.plusecritical_tex	icon_status.plusecritical_tex
+98000101	Endurance	Buff	True	perc	10000000	0	1.1	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使BUFF - 套用憤怒結界II、狂氣庇護III、迷霧結界IV、守護精靈紋章抗打增加。獲得爆擊率 2.2倍、力量40、攻速6、爆擊抗打40%、抗打 10%的效果。狂氣庇護與祭司BUFF中的低階神聖閃電重複。	icon_status.plusecritical_tex	icon_status.plusecritical_tex
+98000101	Crit	Buff	True	perc	10000000	0	2.2	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使BUFF - 套用憤怒結界II、狂氣庇護III、迷霧結界IV、守護精靈紋章抗打增加。獲得爆擊率 2.2倍、力量40、攻速6、爆擊抗打40%、抗打 10%的效果。狂氣庇護與祭司BUFF中的低階神聖閃電重複。	icon_status.plusecritical_tex	icon_status.plusecritical_tex
+98000101	CritResist	Buff	True	perc	0	0	1.4	元素使增益藥水	96001	테스트용 물약_정령사 버프	元素使BUFF - 套用憤怒結界II、狂氣庇護III、迷霧結界IV、守護精靈紋章抗打增加。獲得爆擊率 2.2倍、力量40、攻速6、爆擊抗打40%、抗打 10%的效果。狂氣庇護與祭司BUFF中的低階神聖閃電重複。	icon_status.plusecritical_tex	icon_status.plusecritical_tex
+98000102	MaxHP	Buff	True	perc	10000000	0	1.05	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。		
+98000102	Power	Buff	True	abs	10000000	0	6	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。		
+98000102	OutOfCombatMovSpd	Buff	True	abs	10000000	0	20	每日玩家導遊BUFF藥水			增加力量 6 、增加最大 HP 5% 、增加和平狀態移動速度 20。		
 98000103	Aggro	Buff	True	perc	0	0	1.2	守護連續 III			所有攻擊技能的仇恨值增加20%，攻擊速度增加4%。另外受到的傷害減少10%，擊倒 / 僵直發生機率也減少30%。		
 98000103	ASpd	Buff	True	perc	0	0	1.04	守護連續 III			所有攻擊技能的仇恨值增加20%，攻擊速度增加4%。另外受到的傷害減少10%，擊倒 / 僵直發生機率也減少30%。		
 98000103	KnockDownChance	Buff	True	perc	0	0	0.7	守護連續 III			所有攻擊技能的仇恨值增加20%，攻擊速度增加4%。另外受到的傷害減少10%，擊倒 / 僵直發生機率也減少30%。		
@@ -5553,9 +5563,14 @@
 98000105	AtkPotion	Buff	True	perc	0	0	1.1	恢復連續 III			技能傷害提升10%，所受到的傷害減少10%。另外攻擊速度也會跟著提升4%。		
 98000106	Endurance	Debuff	False	perc	10000000	0	0.9	抗打減少 [弱化紋章]			抗打減少10%。	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex
 98000106	CritResist	Debuff	False	abs	10000000	0	-12	抗打減少 [弱化紋章]			抗打減少10%。	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex
-98000107	Power	Buff	True	abs	99999999	0	40	神聖閃電 IV			力量增加40，攻擊速度也增加8。	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
-98000107	ASpd	Buff	True	abs	99999999	0	8	神聖閃電 IV			力量增加40，攻擊速度也增加8。	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
-98000108	Endurance	Buff	True	perc	99999999	0	1.1	抗打增加 [協力紋章]			抗打增加10%。	icon_crest.crestactivedefenceup_tex	icon_crest.crestactivedefenceup_tex
+98000107	Power	Buff	True	abs	10000000	0	40	神聖閃電 IV			力量增加40，攻擊速度也增加8。	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
+98000107	ASpd	Buff	True	abs	10000000	0	8	神聖閃電 IV			力量增加40，攻擊速度也增加8。	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
+98000108	Endurance	Buff	True	perc	10000000	0	1.1	抗打增加 [協力紋章]			抗打增加10%。	icon_crest.crestactivedefenceup_tex	icon_crest.crestactivedefenceup_tex
+98000109	Power	Buff	True	abs	2400000	0	25	亞倫的祝福 III			受到亞倫的祝福，和平狀態下的移動速度增加10，力量增加25。	icon_skills.attackup_tex	icon_skills.attackup_tex
+98000109	OutOfCombatMovSpd	Buff	True	abs	10000000	0	10	亞倫的祝福 III			受到亞倫的祝福，和平狀態下的移動速度增加10，力量增加25。	icon_skills.attackup_tex	icon_skills.attackup_tex
+98000110	Endurance	Buff	True	abs	10000000	0	11	夏拉的祝福 V			受到夏拉的祝福，HP每 2秒會持續恢復、抗打增加11、所有異常狀態抵抗增加 5。	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex
+98000110	AllResist	Buff	True	abs	10000000	0	5	夏拉的祝福 V			受到夏拉的祝福，HP每 2秒會持續恢復、抗打增加11、所有異常狀態抵抗增加 5。	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex
+98000110	HPChange	Buff	True	abs	10000000	2	73	夏拉的祝福 V			受到夏拉的祝福，HP每 2秒會持續恢復、抗打增加11、所有異常狀態抵抗增加 5。	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex
 98850002	DropUp	Buff	True	perc	7200000	0	1.2	豐饒祝福 I			守護豐饒魔石，獎勵率增加 25%	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex
 98850003	DropUp	Buff	True	perc	7200000	0	1.4	豐饒祝福 II			守護豐饒魔石，獎勵率增加 50%	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex
 98850004	DropUp	Buff	True	perc	7200000	0	1.6	豐饒祝福 III			守護豐饒魔石，獎勵率增加 50%	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex
