@@ -1129,7 +1129,7 @@
 29060	CritChance	Buff	True	abs	5000	0	0.3	비검 올려치기(연계 투지의 문장 [비검 회전 칼날])			연계 스킬로 비검 회전 칼날 사용 시 치명타 유발 확률 30% 증가됩니다.	icon_skills.chainuppercut_tex	icon_crest.crestnextskillattackup_tex
 29070	MovSpd	Debuff	False	setp	4000	0	0	이동 불가 [나태의 문장]			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_crest.crestactivespeeddown_tex	icon_crest.crestactivespeeddown_tex
 29070	HPDrain	Debuff	False	perc	4000	0	0.1	이동 불가 [나태의 문장]			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_crest.crestactivespeeddown_tex	icon_crest.crestactivespeeddown_tex
-29090	ASpd	Buff	True	perc	5000	0	1.5	역포획(신속의 문장)			역포획 스킬 적중 성공 시 다음 사용하는 스킬의 시전 속도가 50% 증가합니다.	icon_skills.reversecapture_tex	icon_crest.e_crestpassiveskillspeedup_tex
+29090	ASpd	Buff	True	perc	2500	0	1.5	역포획(신속의 문장)			역포획 스킬 적중 성공 시 2.5초간 스킬의 시전 속도가 50% 증가합니다.	icon_skills.reversecapture_tex	icon_crest.e_crestpassiveskillspeedup_tex
 29100	AtkPotion	Buff	True	perc	5000	0	1.2	역포획(연계 투지의 문장 [암흑 폭발])			연계 스킬로 비검 암흑 폭발 사용 시 스킬 위력이 20% 증가됩니다.	icon_skills.reversecapture_tex	icon_crest.crestnextskillattackup_tex
 29110	MovSpdInCombat	Buff	True	abs	2000	0	50	순간 도약(활력의 문장)			전투 상태에서의 이동 속도가 50 증가됩니다.	icon_skills.instantleap_tex	icon_crest.e_crestactivespeedup_tex
 29111	Crit	Buff	True	perc	0	0	2	비검 내려치기(필살의 문장)			치명타 유발이 2배 증가됩니다.	icon_skills.chainsuperblow_tex	icon_crest.crestpassivecriticalup_tex
@@ -1165,7 +1165,7 @@
 33100	HPDrain	Debuff	False	perc	5000	0	0.9	월파참(나태의 문장)			이동 속도가 50% 감소됩니다.	icon_skills.split_tex	icon_crest.crestpassivespeeddown_tex
 33130	AtkPotion	Buff	True	perc	10000	0	1.25	파열참(연계 투지의 문장 [승격참])			연계 스킬로 [승격참]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.brust_tex	icon_crest.crestnextskillattackup_tex
 33150	AtkPotion	Buff	True	perc	10000	0	1.25	풍참(연계 투지의 문장 [승격참])			연계 스킬로 [승격참]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.twister_tex	icon_crest.crestnextskillattackup_tex
-33170	HPChange	Buff	True	perc	12000	1	0.03	달빛의 가호(근성의 문장)			1s마다 전체 HP 대비 2%에 달하는 HP가 지속적으로 회복됩니다.	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
+33170	HPChange	Buff	True	perc	6000	1	0.03	달빛의 가호(근성의 문장)			1s마다 전체 HP 대비 3%에 달하는 HP가 지속적으로 회복됩니다.	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	월광연(투지의 문장)			다음 1회의 공격에 스킬 위력이 30% 증가됩니다.	icon_skills.mooncatch_tex	icon_crest.crestnextskillattackup_tex
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	달빛의 인력(연계 투지의 문장 [달빛의 공명] )			연계 스킬로 [달빛의 공명]  사용 시 스킬 위력이 25% 증가됩니다.	icon_skills.moongravity_tex	icon_crest.e_crestnextskillattackup_tex
 45301	StunKnockDown	Debuff	False	swch	20000	0	2	강한 충격			포탄에 맞아 강한 충격을 받았습니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -1504,6 +1504,7 @@
 101104	Stun	Stun	False	swch	3000	0	5	반격 뒤돌리기 V			기절한 상태로 움직일 수 없습니다.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
 101105	Stun	Stun	False	swch	3000	0	5	반격 뒤돌리기 VI			기절한 상태로 움직일 수 없습니다.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
 101200	Endurance	Debuff	False	perc	15000	0	0.92	투지의 일격			맷집이 8% 감소됩니다	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
+101210	Endurance	Debuff	False	perc	15000	0	0.9	투지의 일격			맷집이 10% 감소됩니다	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
 101220	Endurance	Debuff	False	perc	15000	0	0.92	투지의 일격			맷집이 8% 감소되며 HP 회복효과가 30% 감소됩니다.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
 101220	IncreasedHeal	Debuff	False	perc	15000	0	0.7	투지의 일격			맷집이 8% 감소되며 HP 회복효과가 30% 감소됩니다.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
 101300	ASpd	Buff	True	perc	27000	0	1.009	무쌍난무 : 찌르기			매 중첩 시마다 공격자의 공격속도가 0.9%씩 증가합니다. 이 효과는 최대 13번까지 중첩됩니다.	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex
@@ -2101,7 +2102,7 @@
 501600	Immune	Buff	True	9	1000	0	0	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501600	StatusImmune	Buff	True	swch	1000	0	0	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501601	MPChange	Buff	True	perc	900	1	0.05	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
-501650	ASpd	Buff	True	perc	1000	0	1	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
+501650	ASpd	Buff	True	perc	1000	0	0.7	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501650	MPChange	Buff	True	perc	900	1	0.05	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501650	KnockDownChance	Buff	True	perc	1000	0	0	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
 501650	AtkPotion	Buff	True	perc	1000	0	0.8	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex
@@ -3683,7 +3684,9 @@
 9999019	ASpd	Buff	True	perc	0	0	1	던전 탐험대의 축복			던전 탐험대의 축복으로 공격력이 10% 상승합니다. '수호의 연계', '공격의 연계', '회복의 연계', '용맹의 물약' 효과가 중복 적용되지 않습니다.	icon_status.speedystatus_tex	icon_status.speedystatus_tex
 10151000	239	Buff	True	perc	4000	0	1	순간 도약 I			순간 도약을 한 번 더 사용할 수 있습니다. 처음 순간 도약보다 더 긴 거리를 도약합니다.	icon_skills.instantleap_tex	icon_status.instantleap_continuous_tex
 10151010	CDR	Buff	True	swch	15000	0	0.3	어둠 강림 I			비검사가 어둠의 힘을 내려받습니다. 이 효과가 지속되는 동안 비검을 사용하는 기술인 [비검 가르기], [비검 내려치기], [비검 올려치기], [비검 회전 칼날], [비검 최후의 일격], [역포획], [비검 휘두르기], [비검 강타]의 재사용 시간이 70% 감소합니다.	icon_skills.descentofdarkness_tex	icon_status.descentofdarkness_tex
+10151010	DelayedEffect	Buff	True	swch	15000	0	10151013	어둠 강림 I			비검사가 어둠의 힘을 내려받습니다. 이 효과가 지속되는 동안 비검을 사용하는 기술인 [비검 가르기], [비검 내려치기], [비검 올려치기], [비검 회전 칼날], [비검 최후의 일격], [역포획], [비검 휘두르기], [비검 강타]의 재사용 시간이 70% 감소합니다.	icon_skills.descentofdarkness_tex	icon_status.descentofdarkness_tex
 10151010	ReloadingSkill	Buff	True	swch	1000	0	170	어둠 강림 I			비검사가 어둠의 힘을 내려받습니다. 이 효과가 지속되는 동안 비검을 사용하는 기술인 [비검 가르기], [비검 내려치기], [비검 올려치기], [비검 회전 칼날], [비검 최후의 일격], [역포획], [비검 휘두르기], [비검 강타]의 재사용 시간이 70% 감소합니다.	icon_skills.descentofdarkness_tex	icon_status.descentofdarkness_tex
+10151012	ASpd	Buff	True	perc	0	0	1.05	어둠 강림 강화			몬스터 타격 시, 공격속도가 5%씩 상승합니다. 이 효과는 최대 5회 중첩됩니다.	icon_skills.descentofdarkness_tex	icon_skills.descentofdarkness_tex
 10151031	ReloadingSkill	Buff	True	perc	9500	0	90013	위치 교환 가능			위치 교환 스킬 적중 시 스킬을 다시 사용하면 피격된 적과 위치를 바꿀 수 있습니다. 이 효과는 어둠의 촉수가 적에게 적중했을 때만 나타납니다.	icon_status.darkwater_tex	icon_status.darkwater_tex
 10151032	HPChange	Debuff	False	abs	10000	2	-3454	위치 교환 I			어둠의 촉수에 의해 발동된 어둠의 사슬이 몸을 휘감아 2초마다 3454씩 피해를 입힙니다. 이 효과가 지속되는 동안 언제든지 어둠의 촉수를 발사한 시전자와 위치가 뒤바뀔 수 있습니다.	icon_skills.darkgrasp_tex	icon_status.positionswap_tex
 10151032	263	Debuff	False	perc	10000	0	10151031	위치 교환 I			어둠의 촉수에 의해 발동된 어둠의 사슬이 몸을 휘감아 2초마다 3454씩 피해를 입힙니다. 이 효과가 지속되는 동안 언제든지 어둠의 촉수를 발사한 시전자와 위치가 뒤바뀔 수 있습니다.	icon_skills.darkgrasp_tex	icon_status.positionswap_tex
@@ -3701,12 +3704,12 @@
 10151070	247	Buff	False	swch	10000	0	4	역중력			혼돈의 소용돌이 속에 빨려 들어와 몸이 공중으로 뜨기 시작합니다. 이 효과가 지속되는 동안 아무런 피해를 입지 않지만 아무런 행동도 할 수 없습니다.	icon_skills.tornadoprison_tex	icon_skills.tornadoprison_tex
 10151074	Endurance	Buff	True	perc	30000	0	1	균형			중력에 적응하여 일정 시간동안 혼돈의 소용돌이 효과에 걸리지 않습니다.	icon_skills.tornadoprison_tex	icon_skills.tornadoprison_tex
 10151080	Stun	Stun	False	swch	2500	0	5	비검 강타			머리를 강타 당하여 잠시 동안 의식을 잃습니다.	icon_skills.chainstrike_tex	icon_status.strikeskull_tex
-10151090	Power	Debuff	True	abs	300000	0	0	어둠의 장막			죽음에 이르는 치명상을 입었지만 어두운 기운이 당신을 보호하였습니다. 이 효과가 지속되는 동안 모든 데미지를 50% 감소시키며, 지속 시간이 종료될 때 최대 HP의 15% 를 회복합니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
+10151090	Power	Debuff	True	abs	3600000	0	0	어둠의 장막			죽음에 이르는 치명상을 입었지만 어두운 기운이 당신을 보호하였습니다. 이 효과가 지속되는 동안 모든 데미지를 50% 감소시키며, 지속 시간이 종료될 때 최대 HP의 15% 를 회복합니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
 10151090	DefPotion	Buff	True	perc	7000	0	0.5	어둠의 장막			죽음에 이르는 치명상을 입었지만 어두운 기운이 당신을 보호하였습니다. 이 효과가 지속되는 동안 모든 데미지를 50% 감소시키며, 지속 시간이 종료될 때 최대 HP의 15% 를 회복합니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
 10151090	HPLoss	Buff	True	perc	7000	0	1.15	어둠의 장막			죽음에 이르는 치명상을 입었지만 어두운 기운이 당신을 보호하였습니다. 이 효과가 지속되는 동안 모든 데미지를 50% 감소시키며, 지속 시간이 종료될 때 최대 HP의 15% 를 회복합니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
 10151090	StunKnockDown	Buff	True	seta	7000	0	2	어둠의 장막			죽음에 이르는 치명상을 입었지만 어두운 기운이 당신을 보호하였습니다. 이 효과가 지속되는 동안 모든 데미지를 50% 감소시키며, 지속 시간이 종료될 때 최대 HP의 15% 를 회복합니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
 10151090	HPChange2	Buff	True	perc	7000	0	1.15	어둠의 장막			죽음에 이르는 치명상을 입었지만 어두운 기운이 당신을 보호하였습니다. 이 효과가 지속되는 동안 모든 데미지를 50% 감소시키며, 지속 시간이 종료될 때 최대 HP의 15% 를 회복합니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
-10151092	Power	Debuff	True	abs	300000	0	0	어둠의 장막 [패시브] 대기시간			어둠의 기운이 모여들고 있습니다. 어둠의 기운이 모두 모여들기 전까지 기사회생의 효과가 발동되지 않습니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
+10151092	Power	Debuff	True	abs	3600000	0	0	어둠의 장막 [패시브] 대기시간			어둠의 기운이 모여들고 있습니다. 어둠의 기운이 모두 모여들기 전까지 기사회생의 효과가 발동되지 않습니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex
 10151130	MovSpd	Buff	False	perc	5000	0	0.3	비검 휘두르기			비검 휘두르기 스킬에 의해 행동이 제압되어 일정 시간동안 이동 속도가 감소합니다.	icon_skills.chainbrandish_tex	icon_status.chainsnare_tex
 10151131	ReloadingSkill	Buff	True	perc	6000	0	90006	비검 휘두르기			효과 지속 시간 내에 비검 휘두르기 스킬을 한 번 더 사용 가능합니다. 비검 휘두르기 스킬을 사용하거나 지속 시간이 지나면 재사용 시간이 적용됩니다.	icon_skills.chainbrandish_tex	icon_skills.chainbrandish_tex
 10151160	IncreasedHeal	Debuff	False	swch	10000	0	0.94	비검 회전 칼날			비검에 의해 찢겨진 상처는 쉽게 아물지 않습니다. 중첩당 6%씩 치유량이 감소됩니다.	icon_skills.chainblade_tex	icon_status.injuredbtdarkness_tex
@@ -3754,15 +3757,15 @@
 10152090	Rage	Buff	True	abs	500	0	50	마법 탄환 장전			마법 탄환이 장전되어 다음 3번의 [일반 포탄 발사] 공격은 50% 더 강력한 마법 탄환이 대체되어 발사됩니다.	icon_skills.reload_tex	icon_skills.reload_tex
 10152100	Aggro	Buff	True	perc	60000	0	0.85	에너지 충전			마공사가 적들을 처치해가며 무기에 비전 에너지를 충전합니다. 지속 시간 동안 아케인 에너지가 소모되지 않습니다.	icon_skills.energycharging_tex	icon_skills.energycharging_tex
 10152100	33	Buff	True	seta	60000	0	0	에너지 충전			마공사가 적들을 처치해가며 무기에 비전 에너지를 충전합니다. 지속 시간 동안 아케인 에너지가 소모되지 않습니다.	icon_skills.energycharging_tex	icon_skills.energycharging_tex
-10152110	Power	Debuff	True	abs	300000	0	0	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 27858의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
+10152110	Power	Debuff	True	abs	3600000	0	0	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 27858의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
 10152110	Absorb	Buff	True	swch	6100	0	27858	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 27858의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
 10152110	281	Buff	True	abs	6100	0	-1000	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 27858의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
-10152111	Power	Debuff	True	abs	300000	0	0	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 34900의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
+10152111	Power	Debuff	True	abs	3600000	0	0	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 34900의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
 10152111	Absorb	Buff	True	swch	6100	0	34900	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 34900의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
 10152111	281	Buff	True	abs	6100	0	-1000	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 34900의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
 10152112	Absorb	Buff	True	swch	6100	0	46534	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 46534의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
 10152112	281	Buff	True	abs	6100	0	-1000	비상 방어막 가동			죽음에 이르는 피해를 무마하기 위해 비상 방어막이 가동되었습니다. 비상 방어막은 최대 46534의 피해를 흡수합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
-10152113	Power	Debuff	True	abs	300000	0	0	비상 방어막 [패시브] 대기 시간			비상 방어막이 충전되고 있습니다. 비상 방어막이 모두 충전되기 전까지 기사회생의 효과가 발동되지 않습니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
+10152113	Power	Debuff	True	abs	3600000	0	0	비상 방어막 [패시브] 대기 시간			비상 방어막이 충전되고 있습니다. 비상 방어막이 모두 충전되기 전까지 기사회생의 효과가 발동되지 않습니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex
 10152120	Endurance	Buff	True	perc	0	0	1	과부하			아케인 에너지가 가득 충전되었습니다. 이제 눈 앞에 거슬리는 모든 것들을 부숴버릴 때입니다.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
 10152130	MovSpd	Buff	True	perc	5100	0	1.5	전쟁광			마공사가 미쳐 날뜁니다!!	icon_skills.warmonger_tex	icon_skills.warmonger_tex
 10152130	Rage	Buff	True	abs	5100	0	100	전쟁광			마공사가 미쳐 날뜁니다!!	icon_skills.warmonger_tex	icon_skills.warmonger_tex
@@ -3794,7 +3797,7 @@
 10153050	209	Buff	True	perc	0	0	0	넘치는 분노			분노를 주체할 수 없습니다.	icon_skills.flaringanger_tex	icon_skills.flaringanger_tex
 10153052	33	Buff	True	seta	30000	0	0	싸움의 욕망			분노가 사그라들지 않습니다.	icon_skills.desireofbattle_tex	icon_skills.desireofbattle_tex
 10153053	33	Buff	True	seta	60000	0	0	넘치는 분노			분노를 주체할 수 없습니다.	icon_skills.flaringanger_tex	icon_skills.flaringanger_tex
-10153071	Power	Debuff	True	abs	300000	0	0	맹렬한 의지 [패시브] 대기시간			맹렬한 의지가 차오르고 있습니다. 맹렬한 의지가 모두 차오르기 전까지 기사회생 효과가 발동되지 않습니다.	icon_skills.ferociouswill_tex	icon_skills.ferociouswill_tex
+10153071	Power	Debuff	True	abs	3600000	0	0	맹렬한 의지 [패시브] 대기시간			맹렬한 의지가 차오르고 있습니다. 맹렬한 의지가 모두 차오르기 전까지 기사회생 효과가 발동되지 않습니다.	icon_skills.ferociouswill_tex	icon_skills.ferociouswill_tex
 10153110	33	Buff	True	seta	20000	0	0	차오르는 분노			분노가 점점 치밀어 오릅니다.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex
 10153110	RageChange	Buff	True	abs	20000	1	50	차오르는 분노			분노가 점점 치밀어 오릅니다.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex
 10153110	Rage	Buff	True	perc	20000	0	1.5	차오르는 분노			분노가 점점 치밀어 오릅니다.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex
@@ -3823,8 +3826,8 @@
 10155036	CritChance	Buff	True	perc	0	0	1.2	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 10%, 치명타 확률이 0.2배씩 증가합니다.	icon_skills.fullmoon_tex	icon_skills.fullmoon_tex
 10155037	AtkPotion	Buff	True	perc	0	0	1.1	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 10%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex	icon_skills.fullmoon_red_tex
 10155037	CritChance	Buff	True	perc	0	0	1.3	만월			달빛의 기운을 받아 만월 두 번째 공격의 피해량이 중첩 당 10%, 치명타 확률이 0.3배씩 증가합니다.	icon_skills.fullmoon_tex	icon_skills.fullmoon_red_tex
-10155040	Stun	Stun	False	swch	4000	0	5	파열참			찔리는 공격에 의해 출혈이 발생합니다. 6중첩 시 파열 효과가 부여되어 기절합니다.	icon_skills.brust_tex	icon_items.vicious_red_blood_tex
-10155041	Stun	Stun	False	swch	4000	0	5	파열			과다 출혈로 인해 잠시 기절합니다.	icon_skills.brust_tex	icon_skills.brust_tex
+10155040	Stun	Stun	False	swch	3000	0	5	파열참			찔리는 공격에 의해 출혈이 발생합니다. 6중첩 시 파열 효과가 부여되어 기절합니다.	icon_skills.brust_tex	icon_items.vicious_red_blood_tex
+10155041	Stun	Stun	False	swch	3000	0	5	파열			과다 출혈로 인해 잠시 기절합니다.	icon_skills.brust_tex	icon_skills.brust_tex
 10155070	ReloadingSkill	Buff	True	swch	5000	0	13007	연화참 추가 사용 가능			추가로 [연화참]을 사용 가능합니다.	icon_skills.helicoptercuts_tex	icon_skills.helicoptercuts_tex
 10155071	ReloadingSkill	Buff	True	swch	5000	0	13007	연화참 추가 사용 가능			추가로 [연화참]을 사용 가능합니다.	icon_skills.helicoptercuts_tex	icon_skills.helicoptercuts_tex
 10155100	Stun	Stun	False	swch	2500	0	5	혼격참			둔탁한 피해를 입어 기절합니다.	icon_skills.fatalshot_tex	icon_skills.fatalshot_tex
@@ -3844,6 +3847,10 @@
 10155250	DefPotion	Buff	True	perc	15000	0	0.3	달빛의 가호 I			달빛의 가호를 받아 공격에 대해 다운 및 경직되지 않으며 밀림 효과에도 영향을 받지 않습니다. 받는 피해가 70% 감소합니다.	icon_skills.moongracebuff_tex	icon_skills.moongracebuff_tex
 10155250	DelayedEffect	Buff	True	swch	15000	0	10155255	달빛의 가호 I			달빛의 가호를 받아 공격에 대해 다운 및 경직되지 않으며 밀림 효과에도 영향을 받지 않습니다. 받는 피해가 70% 감소합니다.	icon_skills.moongracebuff_tex	icon_skills.moongracebuff_tex
 10155270	Endurance	Buff	True	perc	20000	0	1	달빛의 인력			효과가 지속되는 동안 달빛의 인력에 의해 끌려가지 않습니다.	icon_skills.moongravity_tex	icon_skills.moongravity_tex
+10155400	MovSpd	Stun	False	setp	5000	0	0	월광연			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.mooncatch_tex	icon_skills.mooncatch_tex
+10155400	MovSpdInCombat	Stun	False	setp	5000	0	0	월광연			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.mooncatch_tex	icon_skills.mooncatch_tex
+10155400	HPDrain	Stun	False	perc	5000	0	0.1	월광연			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.mooncatch_tex	icon_skills.mooncatch_tex
+10230001	Block	Stun	False	swch	10000	0	0	초음파 충격			초음파의 강력한 충격으로 인해 효과 지속 시간 동안 그 어떤 종류의 스킬도 사용할 수 없습니다! 초음파 충격은 해제 할 수 없습니다.	icon_status.sealskill_tex	icon_status.sealskill_tex
 14400001	HPChange	Buff	True	perc	900000	1	0.01	Emblem of Success	152903	Emblem of Success	다음 효과들을 획득합니다.   매 초마다 전체 HP의 1% 회복 몬스터 사냥시 드랍율 100% 증가	icon_items.parts_magicweaponc15_tex	icon_items.parts_magicweaponc15_tex
 14400001	DropUp	Buff	True	perc	900000	0	2	Emblem of Success	152903	Emblem of Success	다음 효과들을 획득합니다.   매 초마다 전체 HP의 1% 회복 몬스터 사냥시 드랍율 100% 증가	icon_items.parts_magicweaponc15_tex	icon_items.parts_magicweaponc15_tex
 14400002	MaxHP	Buff	True	perc	900000	0	1.07	Memento of Fame	152904	Memento of Fame	다음 효과들을 획득합니다.   최대 HP 7% 증가 맷집 20% 증가 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
@@ -4724,16 +4731,16 @@
 81120208	Immune	Buff	True	21	2900	0	0	피격 면역			모든 종류의 피격을 받지 않습니다. 스킬 사용 시 해제됩니다.	icon_ep.ep_special_unbeatable_tex	icon_ep.ep_special_unbeatable_tex
 81120209	Immune	Buff	True	21	3200	0	0	피격 면역			모든 종류의 피격을 받지 않습니다. 스킬 사용 시 해제됩니다.	icon_ep.ep_special_unbeatable_tex	icon_ep.ep_special_unbeatable_tex
 81120210	Immune	Buff	True	21	3500	0	0	피격 면역			모든 종류의 피격을 받지 않습니다. 스킬 사용 시 해제됩니다.	icon_ep.ep_special_unbeatable_tex	icon_ep.ep_special_unbeatable_tex
-81120301	CritResist	Debuff	False	abs	18000	0	-3	치명타 저항 감소			치명타 저항 -3 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120302	CritResist	Debuff	False	abs	18000	0	-4	치명타 저항 감소			치명타 저항 -4 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120303	CritResist	Debuff	False	abs	18000	0	-5	치명타 저항 감소			치명타 저항 -5 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120304	CritResist	Debuff	False	abs	18000	0	-6	치명타 저항 감소			치명타 저항 -6 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120305	CritResist	Debuff	False	abs	18000	0	-7	치명타 저항 감소			치명타 저항 -7 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120306	CritResist	Debuff	False	abs	18000	0	-8	치명타 저항 감소			치명타 저항 -8 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120307	CritResist	Debuff	False	abs	18000	0	-9	치명타 저항 감소			치명타 저항 -9 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120308	CritResist	Debuff	False	abs	18000	0	-10	치명타 저항 감소			치명타 저항 -10 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120309	CritResist	Debuff	False	abs	18000	0	-11	치명타 저항 감소			치명타 저항 -11 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
-81120310	CritResist	Debuff	False	abs	18000	0	-12	치명타 저항 감소			치명타 저항 -12 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120301	CritResist	Debuff	False	abs	12000	0	-3	치명타 저항 감소			치명타 저항 -3 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120302	CritResist	Debuff	False	abs	12000	0	-4	치명타 저항 감소			치명타 저항 -4 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120303	CritResist	Debuff	False	abs	12000	0	-5	치명타 저항 감소			치명타 저항 -5 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120304	CritResist	Debuff	False	abs	12000	0	-6	치명타 저항 감소			치명타 저항 -6 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120305	CritResist	Debuff	False	abs	12000	0	-7	치명타 저항 감소			치명타 저항 -7 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120306	CritResist	Debuff	False	abs	12000	0	-8	치명타 저항 감소			치명타 저항 -8 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120307	CritResist	Debuff	False	abs	12000	0	-9	치명타 저항 감소			치명타 저항 -9 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120308	CritResist	Debuff	False	abs	12000	0	-10	치명타 저항 감소			치명타 저항 -10 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120309	CritResist	Debuff	False	abs	12000	0	-11	치명타 저항 감소			치명타 저항 -11 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
+81120310	CritResist	Debuff	False	abs	12000	0	-12	치명타 저항 감소			치명타 저항 -12 감소. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex
 81120401	CritResist	Buff	True	abs	10000	0	3	치명타 저항 증가			치명타 저항 3 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex	icon_ep.ep_fatal_injury_tex
 81120402	CritResist	Buff	True	abs	10000	0	4	치명타 저항 증가			치명타 저항 4 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex	icon_ep.ep_fatal_injury_tex
 81120403	CritResist	Buff	True	abs	10000	0	5	치명타 저항 증가			치명타 저항 5 증가. 다운 / 경직 / 스턴 시 해제	icon_ep.ep_fatal_injury_tex	icon_ep.ep_fatal_injury_tex
