@@ -168,8 +168,8 @@
 1495	OutOfCombatMovSpd	Debuff	True	perc	2000	0	0.2	전장의 독기			전장의 독기에 취해, HP가 초당 20000씩 감소됩니다.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 1495	HPChange	Debuff	True	perc	2000	1	-20000	전장의 독기			전장의 독기에 취해, HP가 초당 20000씩 감소됩니다.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 1510	HPChange	Buff	True	perc	1000	1	0.5	급속 회복 물약	114	연합 보급품: 급속 회복 물약	전체 HP 대비 50%에 달하는 HP가 즉시 회복됩니다.	icon_items.potion5_tex	icon_items.potion5_tex
-1511	HPChange	Buff	True	perc	1000	1	0.6	엘릭서	7219	엘릭서	전체 HP, MP 대비 60%에 달하는 HP, MP가 즉시 회복됩니다.	icon_items.potion5_tex	icon_items.potion5_tex
-1511	MPChange	Buff	True	perc	1000	1	0.6	엘릭서	7219	엘릭서	전체 HP, MP 대비 60%에 달하는 HP, MP가 즉시 회복됩니다.	icon_items.potion5_tex	icon_items.potion5_tex
+1511	HPChange	Buff	True	perc	1000	1	0.6	엘릭서	7219	엘릭서	전체 HP, MP 대비 60%에 달하는 HP, MP가 즉시 회복됩니다.	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex
+1511	MPChange	Buff	True	perc	1000	1	0.6	엘릭서	7219	엘릭서	전체 HP, MP 대비 60%에 달하는 HP, MP가 즉시 회복됩니다.	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex
 1530	MPChange	Buff	True	perc	15000	1	0.05	MP 회복 물약	130	MP 회복 물약	1s마다 전체 MP 대비 5%에 달하는 MP가 지속적으로 회복됩니다.	icon_items.potion19_tex	icon_items.potion19_tex
 1610	HPChange	Buff	True	perc	10000	1	0.02	회복 구슬	8000	회복 구슬	1s마다 전체 HP 대비 2%에 달하는 HP가 지속적으로 회복됩니다.	icon_items.potion1_tex	icon_items.potion1_tex
 1630	HPChange	Buff	True	perc	1000	1	0.25	강력 회복 구슬	8005	강력 회복 구슬	전체 HP 대비 25%에 달하는 HP가 즉시 회복됩니다.	icon_items.potion5_tex	icon_items.potion5_tex
@@ -1508,6 +1508,7 @@
 101220	Endurance	Debuff	False	perc	15000	0	0.92	투지의 일격			맷집이 8% 감소되며 HP 회복효과가 30% 감소됩니다.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
 101220	IncreasedHeal	Debuff	False	perc	15000	0	0.7	투지의 일격			맷집이 8% 감소되며 HP 회복효과가 30% 감소됩니다.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
 101300	ASpd	Buff	True	perc	27000	0	1.009	무쌍난무 : 찌르기			매 중첩 시마다 공격자의 공격속도가 0.9%씩 증가합니다. 이 효과는 최대 13번까지 중첩됩니다.	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex
+101301	ASpd	Buff	True	perc	27000	0	1.009	무쌍난무 : 찌르기			매 중첩 시마다 공격자의 공격속도가 0.9%씩 증가합니다. 이 효과는 최대 13번까지 중첩됩니다.	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex
 101400	MovSpd	Debuff	False	setp	3000	0	0.5	물어 뜯기			이동 속도가 50% 감소됩니다.	icon_skills.heavybite_tex	icon_skills.heavybite_tex
 101400	HPDrain	Debuff	False	perc	3000	0	0.7	물어 뜯기			이동 속도가 50% 감소됩니다.	icon_skills.heavybite_tex	icon_skills.heavybite_tex
 101500	DefPotion	Debuff	False	perc	15000	0	1.25	파열			질풍 가르기 피격 시 스킬 위력이 25% 증가됩니다.	icon_skills.rupture_tex	icon_skills.rupture_tex
@@ -1574,7 +1575,7 @@
 201701	Aggro	Buff	True	perc	50000	0	1.04	방패 방어 강화 I 			각 중첩 당 적대치 4%, 힘 4, 치명타 유발 6이 향상됩니다. 최대 10회까지 중첩되며, 넘어지면 해제됩니다.	icon_skills.defence_tex	icon_skills.defence_tex
 201702	StaggerImmune	Buff	True	seta	20000	0	0	도발의 포효			전투 시 몬스터의 특수한 일부 공격을 제외하고 밀려나지 않습니다.	icon_skills.roar_tex	icon_skills.roar_tex
 300100	NoMPDecay	Buff	True	seta	20000	0	0	집념			MP가 자연 감소되고 있는 상황이면 내지른 기합의 힘으로 기운이 안정되어 효과 지속 시간 동안 MP 자연 감소가 멈춥니다.	icon_skills.tenacity_tex	icon_skills.shout_tex
-300101	NoMPDecay	Buff	True	seta	22000	0	0	집념 III			MP가 자연 감소되고 있는 상황이면 내지른 기합의 힘으로 기운이 안정되어 효과 지속 시간 동안 MP 자연 감소가 멈춥니다.	icon_skills.tenacity_tex	icon_skills.shout_tex
+300101	NoMPDecay	Buff	True	seta	22000	0	0	기합 II			MP가 자연 감소되고 있는 상황이면 내지른 기합의 힘으로 기운이 안정되어 효과 지속 시간 동안 MP 자연 감소가 멈춥니다.	icon_skills.shout_tex	icon_skills.shout_tex
 300200	MovSpd	Stun	False	setp	5000	0	0	뒤잡기			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex
 300200	MovSpdInCombat	Stun	False	setp	5000	0	0	뒤잡기			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex
 300200	HPDrain	Stun	False	perc	5000	0	0.1	뒤잡기			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex
@@ -1634,7 +1635,7 @@
 400302	MovSpd	Buff	True	perc	15000	0	1.5	질주 III			이동 속도가 50% 향상됩니다.	icon_skills.dash_tex	icon_skills.dash_tex
 400303	MovSpd	Buff	True	perc	5000	0	2.2	질주_분노 III			이동 속도가 120% 향상됩니다.	icon_skills.dash_tex	icon_skills.dash_tex
 400400	NoMPDecay	Buff	True	seta	20000	0	0	집념			MP가 자연 감소되고 있는 상황이면 내지른 기합의 힘으로 기운이 안정되어 효과 지속 시간 동안 MP 자연 감소가 멈춥니다.	icon_skills.tenacity_tex	icon_skills.shout_tex
-400401	NoMPDecay	Buff	True	seta	22000	0	0	집념 III			MP가 자연 감소되고 있는 상황이면 내지른 기합의 힘으로 기운이 안정되어 효과 지속 시간 동안 MP 자연 감소가 멈춥니다.	icon_skills.tenacity_tex	icon_skills.shout_tex
+400401	NoMPDecay	Buff	True	seta	22000	0	0	기합 II			MP가 자연 감소되고 있는 상황이면 내지른 기합의 힘으로 기운이 안정되어 효과 지속 시간 동안 MP 자연 감소가 멈춥니다.	icon_skills.shout_tex	icon_skills.shout_tex
 400500	ASpd	Buff	True	perc	18000	0	1.2	광폭화			공격 속도와 차징 속도가 20% 만큼 증가됩니다.	icon_skills.berserk_tex	icon_skills.gatheringrage_tex
 400500	29	Buff	True	perc	18000	0	1.2	광폭화			공격 속도와 차징 속도가 20% 만큼 증가됩니다.	icon_skills.berserk_tex	icon_skills.gatheringrage_tex
 400501	ASpd	Buff	True	perc	18000	0	1.4	광폭화			공격 속도와 차징 속도가 40% 만큼 증가됩니다.	icon_skills.berserk_tex	icon_skills.gatheringrage_tex
@@ -3348,7 +3349,7 @@
 5010008	MaxHP	Buff	True	perc	1800000	0	1.07	영광의 기억	117532	영광의 기억	다음 효과들을 획득합니다.   최대 HP 7% 증가 받는 피해 20% 감소 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
 5010008	ASpd	Buff	True	perc	1800000	0	1.15	영광의 기억	117532	영광의 기억	다음 효과들을 획득합니다.   최대 HP 7% 증가 받는 피해 20% 감소 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
 5010008	MovSpdInCombat	Buff	True	abs	1800000	0	10	영광의 기억	117532	영광의 기억	다음 효과들을 획득합니다.   최대 HP 7% 증가 받는 피해 20% 감소 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
-5010008	DefPotion	Buff	True	perc	1800000	0	1.2	영광의 기억	117532	영광의 기억	다음 효과들을 획득합니다.   최대 HP 7% 증가 받는 피해 20% 감소 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
+5010008	DefPotion	Buff	True	perc	1800000	0	0.8	영광의 기억	117532	영광의 기억	다음 효과들을 획득합니다.   최대 HP 7% 증가 받는 피해 20% 감소 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
 5010008	AtkPotion	Buff	True	perc	1800000	0	1.2	영광의 기억	117532	영광의 기억	다음 효과들을 획득합니다.   최대 HP 7% 증가 받는 피해 20% 감소 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
 5010008	CrystalBind	Buff	True	abs	1800000	0	1	영광의 기억	117532	영광의 기억	다음 효과들을 획득합니다.   최대 HP 7% 증가 받는 피해 20% 감소 공격 속도 15% 증가 스킬 공격력 20% 증가 크리스탈 1회 깨짐 방지 이동 속도 7% 증가	icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex
 5020000	EnchantChance	Buff	True	perc	300000	1	1.01	유럽 강화 주문서 1(5분)	153495	[PC방] 강화 장인의 가호 주문서 (5분)	1%	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex
@@ -3649,7 +3650,7 @@
 9940001	HPChange	Debuff	False	perc	5000	1	-0.06	화상			화상을 입어 지속적으로 체력이 감소합니다.	icon_status.minushp_tex	icon_status.minushp_tex
 9940002	MovSpd	Debuff	False	setp	5000	0	0.3	동상			동상을 입어 이동 속도가 낮아졌습니다.	icon_skills.freezingtheearth_tex	icon_skills.freezingtheearth_tex
 9940002	HPDrain	Debuff	False	perc	5000	0	0.9	동상			동상을 입어 이동 속도가 낮아졌습니다.	icon_skills.freezingtheearth_tex	icon_skills.freezingtheearth_tex
-9941001	Stun	Stun	False	swch	5000	0	5	강력한 두통			케이브키퍼가 나무에 머리를 박고 정신을 못 차리고 있습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex
+9941001	Stun	Stun	False	swch	7000	0	5	강력한 두통			케이브키퍼가 나무에 머리를 박고 정신을 못 차리고 있습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex
 9941002	Drunk1	Debuff	True	seta	45000	0	0	케이브키퍼의 관심			케이브키퍼가 당신을 노려봅니다. 당신을 향해 강력한 공격을 퍼부을 것 같습니다.	icon_skills.througharrow_tex	icon_skills.througharrow_tex
 9941014	HPChange	Stun	False	abs	15000	1	-8000	출혈			바닥에 떨어지면서 다쳤습니다. 지속적으로 HP가 감소합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 9941015	Stun	Stun	False	swch	3500	0	5	충격			강한 충격을 받아 아무것도 할 수가 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -3676,8 +3677,8 @@
 9943028	DelayedEffect	Buff	True	swch	3000	0	9943034	신속한 이동 : 준비			고블린의 이동 속도가 곧 빨라질 것 같습니다.	icon_status.plusmove_tex	icon_status.plusmove_tex
 9943034	MovSpd	Buff	True	perc	0	0	7	신속한 이동			고블린의 이동 속도가 매우 빨라졌습니다.	icon_status.plusmove_tex	icon_status.plusmove_tex
 9943034	MovSpdInCombat	Buff	True	perc	0	0	7	신속한 이동			고블린의 이동 속도가 매우 빨라졌습니다.	icon_status.plusmove_tex	icon_status.plusmove_tex
-9943040	NoHeal	Debuff	True	seta	12000	0	0	전염-회복 불가			고블린에게 전염되어 회복할 수 없는 상태가 되었습니다.	icon_status.poisondown_tex	icon_status.poisondown_tex
-9943042	Stun	Stun	False	swch	5000	0	5	전염-스턴			고블린에게 전염되어 움직일 수 없는 상태가 되었습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex
+9943040	NoHeal	Debuff	True	seta	7000	0	0	전염-회복 불가			고블린에게 전염되어 회복할 수 없는 상태가 되었습니다.	icon_status.poisondown_tex	icon_status.poisondown_tex
+9943042	Stun	Stun	False	swch	2000	0	5	전염-스턴			고블린에게 전염되어 움직일 수 없는 상태가 되었습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex
 9943045	Drunk1	Debuff	True	seta	0	0	0	차가운 기운			차가운 기운이 당신을 맴돕니다. 이 기운이 응집할 때 데워 주지 않으면 피해를 입을 것 같습니다.	icon_status.icedamage_tex	icon_status.icedamage_tex
 9943046	Drunk1	Debuff	True	seta	0	0	0	뜨거운 기운			뜨거운 기운이 당신을 맴돕니다. 이 기운이 응집할 때 식혀 주지 않으면 피해를 입을 것 같습니다.	icon_status.firedamage_tex	icon_status.firedamage_tex
 9943054	AllResist	Debuff	True	perc	0	0	3.87E-09	불길한 마력 충전			사이럭스가 불길한 마력을 모으면서 무방비 상태가 되었습니다.	icon_status.heat_tex	icon_status.heat_tex
