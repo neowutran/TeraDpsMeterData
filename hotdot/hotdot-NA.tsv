@@ -61,16 +61,14 @@
 101	StatusImmune	Buff	True	swch	2100	0	0	Retaliate			Immune to knockdown, stagger, and stuns.	icon_skills.risingattack2_tex	icon_skills.risingattack_tex
 201	Power	Buff	True	abs	2400000	0	17	Blessing of Shakan I			Increases Power by 17.	icon_skills.attackup_tex	icon_skills.attackup_tex
 202	Power	Buff	True	abs	2400000	0	25	Blessing of Shakan V			Increases Power by 25.	icon_skills.attackup_tex	icon_skills.attackup_tex
-301	Stun	Stun	False	swch	3000	0	5	Lightning Trap I			Stunned. Cannot move.	icon_skills.shocktrap_tex	icon_skills.shocktrap_tex
-302	Stun	Stun	False	swch	5000	0	5	Lightning Trap			Stunned. Cannot move.	icon_skills.shocktrap_tex	icon_skills.shocktrap_tex
-303	Stun	Stun	False	swch	6000	0	5	Lightning Trap III			Stunned. Cannot move.	icon_skills.shocktrap_tex	icon_skills.shocktrap_tex
+301	Stun	Stun	False	swch	6000	0	5	Lightning Trap I			Stunned. Cannot move.	icon_skills.shocktrap_tex	icon_skills.shocktrap_tex
 501	OutOfCombatMovSpd	Buff	True	abs	600000	0	40	Movement Speed Increases	649	Speed Mote	Increases Movement Speed immensely.	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex
 601	Power	Buff	True	abs	0	0	20	Titanic Wrath I			Increases Power by 20. Increases Attack Speed by 6.	icon_skills.rage_tex	icon_skills.rage_tex
 601	ASpd	Buff	True	abs	0	0	6	Titanic Wrath I			Increases Power by 20. Increases Attack Speed by 6.	icon_skills.rage_tex	icon_skills.rage_tex
 602	Power	Buff	True	abs	0	0	25	Titanic Wrath II			Increases Power by 25. Increases Attack Speed by 6.	icon_skills.rage_tex	icon_skills.rage_tex
 602	ASpd	Buff	True	abs	0	0	6	Titanic Wrath II			Increases Power by 25. Increases Attack Speed by 6.	icon_skills.rage_tex	icon_skills.rage_tex
-603	Power	Buff	True	abs	0	0	40	Titanic Wrath III			Increases Power by 40. Increases Attack Speed by 6.	icon_skills.rage_tex	icon_skills.rage_tex
-603	ASpd	Buff	True	abs	0	0	6	Titanic Wrath III			Increases Power by 40. Increases Attack Speed by 6.	icon_skills.rage_tex	icon_skills.rage_tex
+603	Power	Buff	True	abs	0	0	48	Titanic Wrath III			Increases Power by 48. Increases Attack Speed by 9.6.	icon_skills.rage_tex	icon_skills.rage_tex
+603	ASpd	Buff	True	abs	0	0	9.6	Titanic Wrath III			Increases Power by 48. Increases Attack Speed by 9.6.	icon_skills.rage_tex	icon_skills.rage_tex
 901	Endurance	Buff	False	perc	20000	0	1	Shara's Lash			Stunned. Cannot move.	icon_skills.flashball_tex	icon_skills.flashball_tex
 901	Stun	Stun	False	swch	3000	0	5	Shara's Lash			Stunned. Cannot move.	icon_skills.flashball_tex	icon_skills.flashball_tex
 902	PVPDef	Buff	True	abs	0	0	0	Noctenium Infusion	1300	Noctenium Infusion	Activates a skill's noctenium effects.	icon_items.union_supplies5_tex	icon_items.union_supplies5_tex
@@ -1000,7 +998,7 @@
 21160	Endurance	Buff	True	abs	8000	0	25	Grounded Death From Above			Increases Endurance by 25.	icon_skills.evasionattack_tex	icon_crest.crestactivedefenceup_tex
 21170	Crit	Buff	True	perc	0	0	2	Glyph of Keenness			Doubles Crit Factor.	icon_crest.crestpassivecriticalup_tex	icon_crest.crestpassivecriticalup_tex
 21180	Power	Buff	True	perc	10000	0	1.15	Pumped Cross Parry			Increases Power by 15%.	icon_skills.twinswordsdefence_tex	icon_crest.crestactiveattackup_tex
-21190	AtkPotion	Buff	True	perc	5000	0	1.1	Powerlinked Staggering Counter			Increases damage of Cascade of Stuns by 10%.	icon_skills.reversalturningattack_tex	icon_crest.crestnextskillattackup_tex
+21190	AtkPotion	Buff	True	perc	5000	0	1.1	Powerlinked Spinning Counter			Increases damage of Cascade of Stuns by 10%.	icon_skills.reversalturningattack_tex	icon_crest.crestnextskillattackup_tex
 21200	MovSpd	Debuff	False	setp	5000	0	0.5	Slowing Infuriate			Decreases Movement Speed by 50%.	icon_skills.provokerage_tex	icon_crest.crestpassivespeeddown_tex
 21200	HPDrain	Debuff	False	perc	5000	0	0.9	Slowing Infuriate			Decreases Movement Speed by 50%.	icon_skills.provokerage_tex	icon_crest.crestpassivespeeddown_tex
 22010	Power	Buff	True	perc	10000	0	1.15	Pumped Stand Fast			Power increases by 15%.	icon_skills.defence_tex	icon_crest.crestactiveattackup_tex
@@ -1045,11 +1043,11 @@
 23200	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Evasive Roll			Increases damage of Backstab by 25%.	icon_skills.tumbling_tex	icon_crest.crestnextskillattackup_tex
 23210	MPChange	Buff	True	perc	5000	1	0.06	Spirited Tenacity			Replenishes 6% of maximum MP every 1s.	icon_skills.tenacity_tex	icon_crest.crestpassivemprecoveryup_tex
 24010	Power	Buff	True	perc	5000	0	1.2	Pumped Axe Block			Power increases by 20%.	icon_skills.weapondefence_tex	icon_crest.crestactiveattackup_tex
-24020	ReducedMPCost	Buff	True	abs	10000	0	-63	Influential Staggering Strike			Decreases MP consumption of Flatten by -63.	icon_skills.turnback_tex	icon_crest.crestnextskillmpdown_tex
+24020	ReducedMPCost	Buff	True	abs	10000	0	-63	Influential Sweeping Strike			Decreases MP consumption of Flatten by -63.	icon_skills.turnback_tex	icon_crest.crestnextskillmpdown_tex
 24030	ReducedMPCost	Buff	True	abs	10000	0	-75	Influential Tenacity			Decreases MP consumption of Dash by -75.	icon_skills.tenacity_tex	icon_crest.crestnextskillmpdown_tex
 24050	ReducedMPCost	Buff	True	abs	10000	0	-63	Influential Inescapable Doom			Decreases MP consumption of Flatten by -63.	icon_skills.murderousvent_tex	icon_crest.crestnextskillmpdown_tex
 24060	Power	Buff	True	perc	20000	0	1.1	Pumped Fiery Rage			Power increases by 10%.	icon_skills.berserk_tex	icon_crest.crestactiveattackup_tex
-24070	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Mocking Shout			Increases damage of Staggering Strike by 25%.	icon_skills.shockingshout_tex	icon_crest.crestnextskillattackup_tex
+24070	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Mocking Shout			Increases damage of Sweeping Strike by 25%.	icon_skills.shockingshout_tex	icon_crest.crestnextskillattackup_tex
 24080	ImpactEffective	Buff	True	perc	20000	0	1.1	Strengthened Unchained Anger			Increases Impact Factor by 10%.	icon_skills.vitalconversion_tex	icon_crest.crestactivereactionup_tex
 24090	MovSpdInCombat	Buff	True	abs	15000	0	20	Fleetfooted Fiery Rage			Increases combat Movement Speed by 20.	icon_skills.berserk_tex	icon_crest.crestactivespeedup_tex
 24091	MovSpdInCombat	Buff	True	abs	15000	0	20	Fleetfooted Tackle			Increases combat Movement Speed by 20.	icon_skills.throwaxe_tex	icon_crest.crestactivespeedup_tex
@@ -1059,7 +1057,7 @@
 24110	Ballance	Buff	True	perc	15000	0	1.5	Balancing Tenacity			Increases Balance Factor by 50%.	icon_skills.tenacity_tex	icon_crest.crestactivereactionresist_tex
 24111	Ballance	Buff	True	perc	15000	0	2	Balancing Tenacity			Increases Balance Factor by 100%.	icon_skills.tenacity_tex	icon_crest.crestactivereactionresist_tex
 24120	CastSpeed	Buff	True	perc	6000	0	1.3	Blazing Leaping Strike			Speeds charging by 30% for Lethal Strike.	icon_skills.downattack_tex	icon_crest.crestnextskillattackspeedup_tex
-24130	CastSpeed	Buff	True	perc	6000	0	1.3	Blazing Staggering Strike			Speeds charging by 30% for Thunder Strike.	icon_skills.turnback_tex	icon_crest.crestnextskillattackspeedup_tex
+24130	CastSpeed	Buff	True	perc	6000	0	1.3	Blazing Sweeping Strike			Speeds charging by 30% for Thunder Strike.	icon_skills.turnback_tex	icon_crest.crestnextskillattackspeedup_tex
 24140	Endurance	Buff	True	abs	12000	0	16	Grounded Tenacity			Increases Endurance by 16.	icon_skills.tenacity_tex	icon_crest.crestpassiveskilleffectup_tex
 24150	MPChange	Buff	True	perc	5000	1	0.06	Spirited Tenacity			Replenishes 6% of maximum MP every 1s.	icon_skills.tenacity_tex	icon_crest.crestpassivemprecoveryup_tex
 24160	Crit	Buff	True	perc	0	0	2	Keen Leaping Strike			Doubles Crit Factor for the next attack.	icon_skills.downattack_tex	icon_crest.crestpassivecriticalup_tex
@@ -1142,7 +1140,7 @@
 27130	Ballance	Buff	True	perc	2000	0	5	Balancing Retaliate			Increases Balance Factor by 400%.	icon_skills.risingattack_tex	icon_crest.crestactivereactionresist_tex
 27140	HPChange	Buff	True	perc	1000	1	0.2	Restorative Arun's Vitae			Recovers 20% of maximum HP.	icon_skills.hprefresher_tex	icon_crest.crestpassivehpheal_tex
 27150	IncreasedHeal	Buff	True	perc	10000	0	1.2	Restorative Warding Totem			Warding Totem recovers 20% more HP.	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex
-27160	Endurance	Debuff	False	perc	21000	0	0.91	Enfeebling Volley of Curses			Decreases Endurance by 9%.	icon_skills.painfulshackle_tex	icon_crest.crestactivedefencedown_tex
+27160	Endurance	Debuff	False	perc	21000	0	0.9	Enfeebling Volley of Curses			Decreases Endurance by 10%.	icon_skills.painfulshackle_tex	icon_crest.crestactivedefencedown_tex
 27161	IncreasedHeal	Buff	True	perc	10000	0	1.25	Restorative Warding Totem			Increases HP recovery by 25%	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex
 28010	AtkPotion	Buff	True	perc	6000	0	1.25	Powerlinked Shocking Implosion			Increases skill damage by 25% for Final Reprisal.	icon_skills.damagedeal_tex	icon_crest.crestnextskillattackup_tex
 28020	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Triple Nemesis			Increases damage of Metamorphic Blast by 25%.	icon_skills.divineretribution_tex	icon_crest.crestnextskillattackup_tex
@@ -1207,7 +1205,7 @@
 33150	AtkPotion	Buff	True	perc	10000	0	1.25	Powerlinked Windslash			Increases damage of Leaping Slash by 25%.	icon_skills.crossway_tex	icon_crest.crestnextskillattackup_tex
 33170	HPChange	Buff	True	perc	12000	1	0.03	Restorative Balder's Tears			Recovers 2% of maximum HP every 1s.	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	Powerlinked Backstab			Increases skill damage of your next attack by 30%.	icon_skills.mooncatch_tex	icon_crest.crestnextskillattackup_tex
-33210	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Dark Herald 			Increases skill damage of Runeburst by 25%.	icon_skills.moongravity_tex	icon_crest.e_crestnextskillattackup_tex
+33210	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Dark Herald 			Increases skill damage of Runeburst by 25%.	icon_skills.moongravity_tex	icon_crest.crestpassivehpheal_tex
 45301	StunKnockDown	Debuff	False	swch	20000	0	2	Great Shock			Massively shocked.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	Blown Over			Shocked and knocked over.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 46705	Endurance	Debuff	True	perc	60000	0	0.9	Acid Attack I			Decreases Defense. This effect stacks up to 10 times, and cannot be removed with cleanse skills.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -1453,32 +1451,33 @@
 100103	Endurance	Buff	True	perc	0	0	0.9	Assault Stance IV			Increases Power by 18, Crit Factor by 55, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex
 100103	Crit	Buff	True	abs	0	0	55	Assault Stance IV			Increases Power by 18, Crit Factor by 55, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex
 100103	AtkPotion	Buff	True	perc	0	0	1.1	Assault Stance IV			Increases Power by 18, Crit Factor by 55, and skill damage by 10% when attacking monsters. However, decreases Endurance by 10%.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex
-100200	MaxHP	Buff	True	perc	3000	0	1	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	Endurance	Buff	True	perc	0	0	1.15	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	Ballance	Buff	True	abs	0	0	20	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	Aggro	Buff	True	perc	0	0	1.65	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	113	Buff	True	perc	0	0	1.2	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	CritChance	Buff	True	perc	0	0	1.15	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	209	Buff	True	perc	0	0	0	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	Block	Buff	True	perc	0	0	0	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100200	StaggerImmune	Buff	True	seta	0	0	0	Defensive Stance I			Increases Endurance by 15% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 65% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	MaxHP	Buff	True	perc	3000	0	1	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	Endurance	Buff	True	perc	0	0	1.2	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	Ballance	Buff	True	abs	0	0	20	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	Aggro	Buff	True	perc	0	0	1.8	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	CritChance	Buff	True	perc	0	0	1.15	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	209	Buff	True	perc	0	0	0	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	Block	Buff	True	perc	0	0	0	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100201	StaggerImmune	Buff	True	seta	0	0	0	Defensive Stance II			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 80% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	MaxHP	Buff	True	perc	3000	0	1	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	Endurance	Buff	True	perc	0	0	1.25	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	Ballance	Buff	True	abs	0	0	20	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	Aggro	Buff	True	perc	0	0	2	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	113	Buff	True	perc	0	0	1.2	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	CritChance	Buff	True	perc	0	0	1.15	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	209	Buff	True	perc	0	0	0	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	Block	Buff	True	perc	0	0	0	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
-100202	StaggerImmune	Buff	True	seta	0	0	0	Defensive Stance			Increases Endurance by 25% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	MaxHP	Buff	True	perc	3000	0	1	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	Endurance	Buff	True	perc	0	0	1.2	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	Ballance	Buff	True	abs	0	0	20	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	Aggro	Buff	True	perc	0	0	2	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	113	Buff	True	perc	0	0	1.2	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	CritChance	Buff	True	perc	0	0	1.15	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	209	Buff	True	perc	0	0	0	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	Block	Buff	True	perc	0	0	0	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100200	StaggerImmune	Buff	True	seta	0	0	0	Defensive Stance I			Increases Endurance by 20% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	MaxHP	Buff	True	perc	3000	0	1	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	Endurance	Buff	True	perc	0	0	1.25	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	Ballance	Buff	True	abs	0	0	30	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	Aggro	Buff	True	perc	0	0	2.2	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	113	Buff	True	perc	0	0	1.2	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	CritChance	Buff	True	perc	0	0	1.15	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	209	Buff	True	perc	0	0	0	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	Block	Buff	True	perc	0	0	0	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100201	StaggerImmune	Buff	True	seta	0	0	0	Defensive Stance II			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	MaxHP	Buff	True	perc	3000	0	1	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	Endurance	Buff	True	perc	0	0	100296	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	Ballance	Buff	True	abs	0	0	20	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	Aggro	Buff	True	perc	0	0	2	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	113	Buff	True	perc	0	0	1.2	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	CritChance	Buff	True	perc	0	0	1.15	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	209	Buff	True	perc	0	0	0	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	Block	Buff	True	perc	0	0	0	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
+100202	StaggerImmune	Buff	True	seta	0	0	0	Defensive Stance			Increases Endurance by 10029500% and Balance Factor by 20. Increases the chance to crit by 15% when attacking monsters. Attacks draw 100% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
 100203	MaxHP	Buff	True	perc	3000	0	1	Defensive Stance IV			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
 100203	Endurance	Buff	True	perc	0	0	1.25	Defensive Stance IV			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
 100203	Ballance	Buff	True	abs	0	0	30	Defensive Stance IV			Increases Endurance by 25% and Balance Factor by 30. Increases the chance to crit by 15% when attacking monsters. Attacks draw 120% more aggro. Immune to push-back from monsters, save for certain special attacks.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex
@@ -1492,24 +1491,28 @@
 100300	Stun	Stun	False	swch	2000	0	5	Battle Cry			Stunned. Cannot move.	icon_skills.thunderingroar_tex	icon_skills.thunderingroar_tex
 100301	Stun	Stun	False	swch	4000	0	5	Battle Cry			Stunned. Cannot move.	icon_skills.thunderingroar_tex	icon_skills.thunderingroar_tex
 100400	209	Buff	True	perc	5000	0	0	Evasive Roll			You may now use Vortex Slash.	icon_skills.tumbling_tex	icon_skills.allroundslash_tex
-100500	HPChange	DOT	False	abs	10000	2	-116	Poison Blade I			Reduces HP by -116 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100501	HPChange	DOT	False	abs	10000	2	-175	Poison Blade II			Reduces HP by -175 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100502	HPChange	DOT	False	abs	10000	2	-292	Poison Blade III			Reduces HP by -292 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100503	HPChange	DOT	False	abs	10000	2	-438	Poison Blade IV			Reduces HP by -438 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100504	HPChange	DOT	False	abs	10000	2	-612	Poison Blade V			Reduces HP by -612 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100505	HPChange	DOT	False	abs	10000	2	-845	Poison Blade VI			Reduces HP by -845 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100506	HPChange	DOT	False	abs	10000	2	-1428	Poison Blade VII			Reduces HP by -1428 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100507	HPChange	DOT	False	abs	10000	2	-1892	Poison Blade			Reduces HP by -1892 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100508	HPChange	DOT	False	abs	10000	2	-6068	Poison Blade IX			Reduces HP by -6068 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100520	HPChange	DOT	False	abs	10000	2	-92	Poison Blade I			Reduces HP by -92 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100521	HPChange	DOT	False	abs	10000	2	-127	Poison Blade II			Reduces HP by -127 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100522	HPChange	DOT	False	abs	10000	2	-175	Poison Blade III			Reduces HP by -175 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100523	HPChange	DOT	False	abs	10000	2	-242	Poison Blade IV			Reduces HP by -242 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100524	HPChange	DOT	False	abs	10000	2	-334	Poison Blade V			Reduces HP by -334 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100525	HPChange	DOT	False	abs	10000	2	-461	Poison Blade VI			Reduces HP by -461 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100526	HPChange	DOT	False	abs	10000	2	-720	Poison Blade VII			Reduces HP by -720 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100527	HPChange	DOT	False	abs	10000	2	-954	Poison Blade VIII			Reduces HP by -954 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
-100528	HPChange	DOT	False	abs	10000	2	-1420	Poison Blade IX			Reduces HP by -1420 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100500	HPChange	DOT	False	abs	10000	2	-40	Poison Blade I			Reduces HP by -40 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100501	HPChange	DOT	False	abs	10000	2	-60	Poison Blade II			Reduces HP by -60 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100502	HPChange	DOT	False	abs	10000	2	-90	Poison Blade III			Reduces HP by -90 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100503	HPChange	DOT	False	abs	10000	2	-136	Poison Blade IV			Reduces HP by -136 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100504	HPChange	DOT	False	abs	10000	2	-214	Poison Blade V			Reduces HP by -214 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100505	HPChange	DOT	False	abs	10000	2	-341	Poison Blade VI			Reduces HP by -341 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100506	HPChange	DOT	False	abs	10000	2	-496	Poison Blade VII			Reduces HP by -496 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100507	HPChange	DOT	False	abs	10000	2	-690	Poison Blade VIII			Reduces HP by -690 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100508	HPChange	DOT	False	abs	10000	2	-1039	Poison Blade IX			Reduces HP by -1039 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100509	HPChange	DOT	False	abs	10000	2	-1582	Poison Blade X			Reduces HP by -1582 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100510	HPChange	DOT	False	abs	10000	2	-1892	Poison Blade XI			Reduces HP by -1892 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100520	HPChange	DOT	False	abs	10000	2	-36	Poison Blade I			Reduces HP by -36 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100521	HPChange	DOT	False	abs	10000	2	-55	Poison Blade II			Reduces HP by -55 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100522	HPChange	DOT	False	abs	10000	2	-75	Poison Blade III			Reduces HP by -75 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100523	HPChange	DOT	False	abs	10000	2	-104	Poison Blade IV			Reduces HP by -104 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100524	HPChange	DOT	False	abs	10000	2	-143	Poison Blade V			Reduces HP by -143 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100525	HPChange	DOT	False	abs	10000	2	-197	Poison Blade VI			Reduces HP by -197 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100526	HPChange	DOT	False	abs	10000	2	-273	Poison Blade VII			Reduces HP by -273 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100527	HPChange	DOT	False	abs	10000	2	-376	Poison Blade VIII			Reduces HP by -376 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100528	HPChange	DOT	False	abs	10000	2	-547	Poison Blade IX			Reduces HP by -547 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100529	HPChange	DOT	False	abs	10000	2	-798	Poison Blade X			Reduces HP by -798 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
+100530	HPChange	DOT	False	abs	10000	2	-954	Poison Blade XI			Reduces HP by -954 every 2s.	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex
 100600	MovSpd	Debuff	False	setp	5000	0	0.85	Inescapable Doom			Your fourth consecutive use of the Combo Attack skill cuts your foe's Attack Speed and movement by 15%. You spend -10 MP every 2 while this effect is active.	icon_skills.murderousvent_tex	icon_skills.aimingankle_tex
 100600	MPChange	Buff	True	abs	0	2	-10	Inescapable Doom			Your fourth consecutive use of the Combo Attack skill cuts your foe's Attack Speed and movement by 15%. You spend -10 MP every 2 while this effect is active.	icon_skills.murderousvent_tex	icon_skills.aimingankle_tex
 100630	MovSpd	Debuff	False	setp	5000	0	0.85	Mangle			Speed decreases by 15%.	icon_skills.aimingankle_tex	icon_skills.aimingankle_tex
@@ -1518,16 +1521,23 @@
 100800	Power	Buff	True	perc	20000	0	1	Deadly Gamble			Increases the chance to crit by 35% for 20s. 	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
 100800	Endurance	Buff	True	perc	20000	0	1	Deadly Gamble			Increases the chance to crit by 35% for 20s. 	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
 100800	CritChance	Buff	True	perc	20000	0	1.35	Deadly Gamble			Increases the chance to crit by 35% for 20s. 	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
-100801	Power	Buff	True	perc	20000	0	1	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
-100801	Endurance	Buff	True	perc	20000	0	1	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
-100801	CritChance	Buff	True	perc	20000	0	1.5	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
-100801	CDR	Buff	True	swch	20000	0	0.5	Deadly Gamble II			Increases the chance to crit by 50%. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows XI]: Increases damage by 10% and doubles Edge generation. - [Blade Draw VII]: Increases damage by 10% and doubles the Edge generation. - [Scythe II]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
+100801	Power	Buff	True	perc	20000	0	1	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows IX]: Increases damage by 10% and doubles Edge generation. - [Blade Draw IX]: Increases damage by 10% and doubles the Edge generation. - [Scythe IX]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
+100801	Endurance	Buff	True	perc	20000	0	1	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows IX]: Increases damage by 10% and doubles Edge generation. - [Blade Draw IX]: Increases damage by 10% and doubles the Edge generation. - [Scythe IX]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
+100801	CritChance	Buff	True	perc	20000	0	1.5	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows IX]: Increases damage by 10% and doubles Edge generation. - [Blade Draw IX]: Increases damage by 10% and doubles the Edge generation. - [Scythe IX]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
+100801	CDR	Buff	True	swch	20000	0	0.5	Deadly Gamble II			Increases the chance to crit by 50% for 20s. Decreases Melee attack skill cooldown by 50%. The following skills are enhanced while Deadly Gamble II is active: - [Rain of Blows IX]: Increases damage by 10% and doubles Edge generation. - [Blade Draw IX]: Increases damage by 10% and doubles the Edge generation. - [Scythe IX]: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex
 100900	Stun	Stun	False	swch	4000	0	5	Cascade of Stuns I			Stunned. Cannot move.	icon_skills.hardslash_tex	icon_skills.hardslash_tex
 100901	Stun	Stun	False	swch	4000	0	5	Cascade of Stuns II			Stunned. Cannot move.	icon_skills.hardslash_tex	icon_skills.hardslash_tex
+100902	Stun	Stun	False	swch	4000	0	5	Cascade of Stuns III			Stunned. Cannot move.	icon_skills.hardslash_tex	icon_skills.hardslash_tex
+100903	Stun	Stun	False	swch	4000	0	5	Cascade of Stuns IV			Stunned. Cannot move.	icon_skills.hardslash_tex	icon_skills.hardslash_tex
+100904	Stun	Stun	False	swch	4000	0	5	Cascade of Stuns V			Stunned. Cannot move.	icon_skills.hardslash_tex	icon_skills.hardslash_tex
 101000	Stun	Stun	False	swch	4000	0	5	Backstab			Stunned. Cannot move.	icon_skills.backattack_tex	icon_skills.backattack_tex
 101001	Stun	Stun	False	swch	4000	0	5	Backstab II			Stunned. Cannot move.	icon_skills.backattack_tex	icon_skills.backattack_tex
-101100	Stun	Stun	False	swch	3000	0	5	Staggering Counter I			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
-101101	Stun	Stun	False	swch	3000	0	5	Staggering Counter II			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
+101100	Stun	Stun	False	swch	3000	0	5	Spinning Counter I			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
+101101	Stun	Stun	False	swch	3000	0	5	Spinning Counter			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
+101102	Stun	Stun	False	swch	3000	0	5	Spinning Counter III			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
+101103	Stun	Stun	False	swch	3000	0	5	Spinning Counter IV			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
+101104	Stun	Stun	False	swch	3000	0	5	Spinning Counter V			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
+101105	Stun	Stun	False	swch	3000	0	5	Spinning Counter VI			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex
 101200	Endurance	Debuff	False	perc	15000	0	0.92	Combative Strike			Reduces Endurance by 8%.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
 101220	Endurance	Debuff	False	perc	15000	0	0.92	Combative Strike			Reduces Endurance by 8% and the effect of healing skills on you by 30%.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
 101220	IncreasedHeal	Debuff	False	perc	15000	0	0.7	Combative Strike			Reduces Endurance by 8% and the effect of healing skills on you by 30%.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex
@@ -1608,9 +1618,9 @@
 300300	Attack	Buff	True	perc	20000	0	1.3	Overpower			Your next attack does 30% more damage.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex
 300301	Attack	Buff	True	perc	20000	0	1.33	Overpower II			Your next attack does 33% more damage.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex
 300400	Stun	Stun	False	swch	2500	0	5	Startling Kick			Stunned. Cannot move.	icon_skills.retreatingkick_tex	icon_skills.retreatingkick_tex
-300500	ASpd	Buff	True	perc	10000	0	1.3	Headlong Rush I			Your next attack is 30% faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex
-300501	ASpd	Buff	True	perc	10000	0	1.4	Headlong Rush II			Your next attack is 40% faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex
-300502	ASpd	Buff	True	perc	10000	0	1.5	Headlong Rush III			Your next attack is 50% faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex
+300500	ASpd	Buff	True	perc	10000	0	1.4	Headlong Rush I			Your next attack is 40% faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex
+300501	ASpd	Buff	True	perc	10000	0	1.5	Headlong Rush II			Your next attack is 50% faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex
+300502	ASpd	Buff	True	perc	10000	0	1.6	Headlong Rush III			Your next attack is 60% faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex
 300503	ASpd	Buff	True	perc	10000	0	1.6	Headlong Rush IV			Your next attack is 60% faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex
 300600	MovSpd	Buff	True	perc	10000	0	1.5	Dash I			Increases Movement Speed by 50%.	icon_skills.dash_tex	icon_skills.dash_tex
 300601	MovSpd	Buff	True	perc	15000	0	1.5	Dash			Increases Movement Speed by 50%.	icon_skills.dash_tex	icon_skills.dash_tex
@@ -1651,8 +1661,8 @@
 400105	Power	Buff	True	perc	40000	0	1.2	Fiery Rage			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex	icon_skills.berserk_tex
 400105	Endurance	Buff	True	perc	40000	0	0.9	Fiery Rage			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex	icon_skills.berserk_tex
 400105	Crit	Buff	True	perc	40000	0	1.1	Fiery Rage			Increases Power by 20% and increases Crit Factor by 10%. But decreases Endurance by 10%.	icon_skills.berserk_tex	icon_skills.berserk_tex
-400200	Stun	Stun	False	swch	2000	0	5	Staggering Strike			Stunned and disoriented.	icon_skills.turnback_tex	icon_skills.turnback_tex
-400201	Stun	Stun	False	swch	4000	0	5	Staggering Strike			Got stunned from a powerful blow.	icon_skills.turnback_tex	icon_skills.turnback_tex
+400200	Stun	Stun	False	swch	2000	0	5	Sweeping Strike			Stunned and disoriented.	icon_skills.turnback_tex	icon_skills.turnback_tex
+400201	Stun	Stun	False	swch	4000	0	5	Sweeping Strike			Got stunned from a powerful blow.	icon_skills.turnback_tex	icon_skills.turnback_tex
 400300	MovSpd	Buff	True	perc	10000	0	1.5	Dash I			Increases Movement Speed by 50%.	icon_skills.dash_tex	icon_skills.dash_tex
 400301	MovSpd	Buff	True	perc	15000	0	1.5	Dash			Increases Movement Speed by 50%.	icon_skills.dash_tex	icon_skills.dash_tex
 400302	MovSpd	Buff	True	perc	15000	0	1.5	Dash III			Increases Movement Speed by 50%.	icon_skills.dash_tex	icon_skills.dash_tex
@@ -2006,8 +2016,8 @@
 476806	Drunk	Debuff	False	60018	10000	0	0	Nexus Implosion!			A nexus implodes upon you! In 10s, you will die.	icon_status.darkriftdestroy_tex	icon_status.darkriftdestroy_tex
 476814	Stun	Stun	False	swch	5000	0	15	Untimely Frivolity			Infused with Nexus Revelry, you're forced to dance! Oh geez, you can't stop!	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
 476815	Power	Buff	True	perc	20000	0	1.15	High! Higher!			Increases Power by 15% (up to 75%) every time you jump.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex
-476818	Power	Buff	True	perc	30000	0	1.5	Nexus Energy			Increases Power by 50%. Increases Attack Speed by 20%.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
-476818	ASpd	Buff	True	perc	30000	0	1.2	Nexus Energy			Increases Power by 50%. Increases Attack Speed by 20%.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
+476818	Power	Buff	True	perc	20000	0	1.5	Nexus Energy			Increases Power by 50%. Increases Attack Speed by 20%.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
+476818	ASpd	Buff	True	perc	20000	0	1.2	Nexus Energy			Increases Power by 50%. Increases Attack Speed by 20%.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 476905	Stun1	Debuff	False	swch	15000	2	1	Electric Arc			Staggers targets every 2s. Electric Arc cannot be removed.	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 476906	HPChange	Debuff	False	perc	1000	1	-0.5	Death's Touch			Drains 50% of maximum HP every 1s.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 476907	HPChange	DOT	False	perc	60000	1	-0.02	Spiritual Breakdown			Stuns and immobilizes you. Drains 2% of maximum HP every 1. Spiritual Breakdown cannot be removed.	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -2047,36 +2057,40 @@
 500600	AbsorbToMP	Buff	True	swch	45000	0	7063	Mana Barrier I			Absorbs up to 7063 damage. Costs 1 MP per 14 points of damage. Ends when maximum damage is reached or you run out of MP.	icon_skills.manashield_tex	icon_skills.manashield_tex
 500601	AbsorbToMP	Buff	True	swch	45000	0	13529	Mana Barrier II			Absorbs up to 13529 damage. Costs 1 MP per 33 points of damage. Ends when maximum damage is reached or you run out of MP.	icon_skills.manashield_tex	icon_skills.manashield_tex
 500602	AbsorbToMP	Buff	True	swch	45000	0	17346	Mana Barrier III			Absorbs up to 17346 damage. Costs 1 MP per 50 points of damage. Ends when maximum damage is reached or you run out of MP.	icon_skills.manashield_tex	icon_skills.manashield_tex
-500700	HPChange	DOT	False	abs	10000	2	-26	Painblast I			Reduces HP by -26 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500701	HPChange	DOT	False	abs	10000	2	-40	Painblast II			Reduces HP by -40 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500702	HPChange	DOT	False	abs	10000	2	-58	Painblast III			Reduces HP by -58 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500703	HPChange	DOT	False	abs	10000	2	-85	Painblast IV			Reduces HP by -85 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500704	HPChange	DOT	False	abs	10000	2	-121	Painblast V			Reduces HP by -121 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500705	HPChange	DOT	False	abs	10000	2	-174	Painblast VI			Reduces HP by -174 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500706	HPChange	DOT	False	abs	10000	2	-241	Painblast VII			Reduces HP by -241 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500707	HPChange	DOT	False	abs	10000	2	-341	Painblast			Reduces HP by -341 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500708	HPChange	DOT	False	abs	10000	2	-516	Painblast IX			Reduces HP by -516 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500720	HPChange	DOT	False	abs	10000	2	-27	Painblast I			Reduces HP by -27 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500721	HPChange	DOT	False	abs	10000	2	-37	Painblast II			Reduces HP by -37 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500722	HPChange	DOT	False	abs	10000	2	-51	Painblast III			Reduces HP by -51 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500723	HPChange	DOT	False	abs	10000	2	-71	Painblast IV			Reduces HP by -71 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500724	HPChange	DOT	False	abs	10000	2	-97	Painblast V			Reduces HP by -97 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500725	HPChange	DOT	False	abs	10000	2	-134	Painblast VI			Reduces HP by -134 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500726	HPChange	DOT	False	abs	10000	2	-186	Painblast VII			Reduces HP by -186 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500727	HPChange	DOT	False	abs	10000	2	-258	Painblast			Reduces HP by -258 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
-500728	HPChange	DOT	False	abs	10000	2	-382	Painblast IX			Reduces HP by -382 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500700	HPChange	DOT	False	abs	10000	2	-40	Painblast I			Reduces HP by -40 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500701	HPChange	DOT	False	abs	10000	2	-58	Painblast II			Reduces HP by -58 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500702	HPChange	DOT	False	abs	10000	2	-85	Painblast III			Reduces HP by -85 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500703	HPChange	DOT	False	abs	10000	2	-121	Painblast IV			Reduces HP by -121 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500704	HPChange	DOT	False	abs	10000	2	-174	Painblast V			Reduces HP by -174 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500705	HPChange	DOT	False	abs	10000	2	-241	Painblast VI			Reduces HP by -241 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500706	HPChange	DOT	False	abs	10000	2	-341	Painblast VII			Reduces HP by -341 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500707	HPChange	DOT	False	abs	10000	2	-516	Painblast			Reduces HP by -516 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500720	HPChange	DOT	False	abs	10000	2	-37	Painblast I			Reduces HP by -37 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500721	HPChange	DOT	False	abs	10000	2	-51	Painblast II			Reduces HP by -51 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500722	HPChange	DOT	False	abs	10000	2	-71	Painblast III			Reduces HP by -71 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500723	HPChange	DOT	False	abs	10000	2	-97	Painblast IV			Reduces HP by -97 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500724	HPChange	DOT	False	abs	10000	2	-134	Painblast V			Reduces HP by -134 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500725	HPChange	DOT	False	abs	10000	2	-186	Painblast VI			Reduces HP by -186 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500726	HPChange	DOT	False	abs	10000	2	-258	Painblast VII			Reduces HP by -258 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
+500727	HPChange	DOT	False	abs	10000	2	-382	Painblast			Reduces HP by -382 every 2s.	icon_skills.disease_tex	icon_skills.disease_tex
 500800	Stun	Stun	False	swch	7000	0	5	Mindblast I			Stunned. Cannot move.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex
 500801	Stun	Stun	False	swch	10000	0	5	Mindblast			Stunned. Cannot move.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex
 500802	Stun	Stun	False	swch	12000	0	5	Mindblast III			Stunned. Cannot move.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex
 500900	Block	Stun	False	swch	5000	0	0	Nerve Exhaustion			Unable to use skills. This effect ends when attacked or knocked down.	icon_skills.neurasthenia_tex	icon_skills.neurasthenia_tex
-501000	HPChange	DOT	False	abs	10000	2	-1175	Burning Breath I			Reduces HP by -1175 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
-501001	HPChange	DOT	False	abs	10000	2	-1631	Burning Breath II			Reduces HP by -1631 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
-501002	HPChange	DOT	False	abs	10000	2	-2305	Burning Breath			Reduces HP by -2305 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
-501003	HPChange	DOT	False	abs	10000	2	-3120	Burning Breath IV			Reduces HP by -3120 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
-501020	HPChange	DOT	False	abs	10000	2	-890	Burning Breath I			Reduces HP by -890 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
-501021	HPChange	DOT	False	abs	10000	2	-1228	Burning Breath II			Reduces HP by -1228 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
-501022	HPChange	DOT	False	abs	10000	2	-1704	Burning Breath			Reduces HP by -1704 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
-501023	HPChange	DOT	False	abs	10000	2	-2259	Burning Breath IV			Reduces HP by -2259 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501000	HPChange	DOT	False	abs	10000	2	-443	Burning Breath I			Reduces HP by -443 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501001	HPChange	DOT	False	abs	10000	2	-613	Burning Breath II			Reduces HP by -613 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501002	HPChange	DOT	False	abs	10000	2	-849	Burning Breath III			Reduces HP by -849 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501003	HPChange	DOT	False	abs	10000	2	-1175	Burning Breath IV			Reduces HP by -1175 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501004	HPChange	DOT	False	abs	10000	2	-1631	Burning Breath V			Reduces HP by -1631 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501005	HPChange	DOT	False	abs	10000	2	-2305	Burning Breath VI			Reduces HP by -2305 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501006	HPChange	DOT	False	abs	10000	2	-3120	Burning Breath VII			Reduces HP by -3120 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501020	HPChange	DOT	False	abs	10000	2	-338	Burning Breath I			Reduces HP by -338 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501021	HPChange	DOT	False	abs	10000	2	-467	Burning Breath II			Reduces HP by -467 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501022	HPChange	DOT	False	abs	10000	2	-645	Burning Breath III			Reduces HP by -645 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501023	HPChange	DOT	False	abs	10000	2	-890	Burning Breath IV			Reduces HP by -890 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501024	HPChange	DOT	False	abs	10000	2	-1228	Burning Breath V			Reduces HP by -1228 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501025	HPChange	DOT	False	abs	10000	2	-1704	Burning Breath VI			Reduces HP by -1704 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
+501026	HPChange	DOT	False	abs	10000	2	-2259	Burning Breath VII			Reduces HP by -2259 every 2s.	icon_skills.burningbreath_tex	icon_skills.burningbreath_tex
 501100	MPChange	DOT	False	abs	10000	2	-172	Mana Volley			Reduces MP by -172 every 2s.	icon_skills.mpsink_tex	icon_skills.mpsink_tex
 501101	MPChange	DOT	False	abs	10000	2	-206	Mana Volley II			Reduces MP by -206 every 2s.	icon_skills.mpsink_tex	icon_skills.mpsink_tex
 501150	MPChange	DOT	False	perc	1000	1	-0.25	Mana Volley			[Test]	icon_skills.mpsink_tex	icon_skills.mpsink_tex
@@ -2161,23 +2175,23 @@
 600702	MovSpd	Debuff	False	setp	7000	0	0.67	Web Arrow III			Decreases Movement Speed by 33%.	icon_skills.spiderarrow_tex	icon_skills.spiderarrow_tex
 600702	HPDrain	Debuff	False	perc	7000	0	0.9	Web Arrow III			Decreases Movement Speed by 33%.	icon_skills.spiderarrow_tex	icon_skills.spiderarrow_tex
 600800	Stun	Stun	False	swch	3000	0	5	Close Quarters			Stunned. Cannot move.	icon_skills.turningkick_tex	icon_skills.turningkick_tex
-600900	HPChange	DOT	False	abs	12000	2	-270	Poison Arrow I			Reduces HP by -270 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600901	HPChange	DOT	False	abs	12000	2	-389	Poison Arrow II			Reduces HP by -389 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600902	HPChange	DOT	False	abs	12000	2	-589	Poison Arrow III			Reduces HP by -589 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600903	HPChange	DOT	False	abs	12000	2	-849	Poison Arrow IV			Reduces HP by -849 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600904	HPChange	DOT	False	abs	12000	2	-1179	Poison Arrow V			Reduces HP by -1179 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600905	HPChange	DOT	False	abs	12000	2	-1626	Poison Arrow VI			Reduces HP by -1626 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600906	HPChange	DOT	False	abs	12000	2	-2360	Poison Arrow			Reduces HP by -2360 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600900	HPChange	DOT	False	abs	12000	2	-215	Poison Arrow I			Reduces HP by -215 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600901	HPChange	DOT	False	abs	12000	2	-310	Poison Arrow II			Reduces HP by -310 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600902	HPChange	DOT	False	abs	12000	2	-456	Poison Arrow III			Reduces HP by -456 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600903	HPChange	DOT	False	abs	12000	2	-676	Poison Arrow IV			Reduces HP by -676 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600904	HPChange	DOT	False	abs	12000	2	-959	Poison Arrow V			Reduces HP by -959 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600905	HPChange	DOT	False	abs	12000	2	-1328	Poison Arrow VI			Reduces HP by -1328 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600906	HPChange	DOT	False	abs	12000	2	-1871	Poison Arrow			Reduces HP by -1871 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
 600907	HPChange	DOT	False	abs	12000	2	-3128	Poison Arrow VIII			Reduces HP by -3128 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
 600908	HPChange	DOT	False	abs	12000	2	-3780	Poison Arrow			Reduces HP by -3780 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600920	HPChange	DOT	False	abs	12000	2	-232	Poison Arrow I			Reduces HP by -232 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600921	HPChange	DOT	False	abs	12000	2	-160	Poison Arrow II			Reduces HP by -160 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600922	HPChange	DOT	False	abs	12000	2	-221	Poison Arrow III			Reduces HP by -221 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600923	HPChange	DOT	False	abs	12000	2	-306	Poison Arrow IV			Reduces HP by -306 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600924	HPChange	DOT	False	abs	12000	2	-422	Poison Arrow V			Reduces HP by -422 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600925	HPChange	DOT	False	abs	12000	2	-583	Poison Arrow VI			Reduces HP by -583 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600926	HPChange	DOT	False	abs	12000	2	-813	Poison Arrow			Reduces HP by -813 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
-600927	HPChange	DOT	False	abs	12000	2	-1078	Poison Arrow VIII			Reduces HP by -1078 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600920	HPChange	DOT	False	abs	12000	2	-95	Poison Arrow I			Reduces HP by -95 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600921	HPChange	DOT	False	abs	12000	2	-131	Poison Arrow II			Reduces HP by -131 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600922	HPChange	DOT	False	abs	12000	2	-249	Poison Arrow III			Reduces HP by -249 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600923	HPChange	DOT	False	abs	12000	2	-345	Poison Arrow IV			Reduces HP by -345 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600924	HPChange	DOT	False	abs	12000	2	-476	Poison Arrow V			Reduces HP by -476 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600925	HPChange	DOT	False	abs	12000	2	-660	Poison Arrow VI			Reduces HP by -660 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600926	HPChange	DOT	False	abs	12000	2	-1078	Poison Arrow			Reduces HP by -1078 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
+600927	HPChange	DOT	False	abs	12000	2	-1427	Poison Arrow VIII			Reduces HP by -1427 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
 600928	HPChange	DOT	False	abs	12000	2	-1427	Poison Arrow IX			Reduces HP by -1427 every 2s. This effect can be stacked up to 3 times.	icon_skills.venomarrow_tex	icon_skills.venomarrow_tex
 601000	MovSpd	Debuff	False	setp	4000	0	0.5	Restraining Arrow I			Decreases Movement Speed by 50% and Attack Speed by 15%.	icon_skills.contaningshot_tex	icon_skills.contaningshot_tex
 601000	ASpd	Debuff	False	perc	4000	0	0.85	Restraining Arrow I			Decreases Movement Speed by 50% and Attack Speed by 15%.	icon_skills.contaningshot_tex	icon_skills.contaningshot_tex
@@ -2240,6 +2254,7 @@
 700406	HPChange	Buff	True	abs	10000	1	0	Titanic Favor VII			Recovers HP every 1s.	icon_skills.healshot_tex	icon_skills.healshot_tex
 700407	HPChange	Buff	True	abs	10000	1	0	Titanic Favor VIII			Recovers HP every 1s.	icon_skills.healshot_tex	icon_skills.healshot_tex
 700408	HPChange	Buff	True	abs	10000	1	0	Titanic Favor IX			Recovers HP every 1s.	icon_skills.healshot_tex	icon_skills.healshot_tex
+700409	HPChange	Buff	True	abs	10000	1	0	Titanic Favor X			Recovers HP every 1s.	icon_skills.healshot_tex	icon_skills.healshot_tex
 700500	MovSpd	Debuff	False	setp	6000	0	0.5	Ancient Binding I			Decreases Movement Speed by 50%.	icon_skills.slowball_tex	icon_skills.slowball_tex
 700500	HPDrain	Debuff	False	perc	6000	0	0.9	Ancient Binding I			Decreases Movement Speed by 50%.	icon_skills.slowball_tex	icon_skills.slowball_tex
 700501	MovSpd	Debuff	False	setp	6000	0	0.4	Ancient Binding II			Decreases Movement Speed by 60%.	icon_skills.slowball_tex	icon_skills.slowball_tex
@@ -2260,26 +2275,8 @@
 700701	BuffNearbyParty	Buff	True	seta	0	3	700731	Aura of the Swift II			Grants Aura of the Swift to party members within 30m. Costs 30 MP every 2 seconds to maintain.	icon_skills.speedupaura_tex	icon_skills.speedupaura_tex
 700730	MovSpd	Buff	True	perc	0	0	1.1	Aura of the Swift I			Increases Movement Speed by 10%.	icon_status.plusmove_tex	icon_status.plusmove_tex
 700731	MovSpd	Buff	True	perc	0	0	1.3	Aura of the Swift II			Increases Movement Speed by 30%.	icon_status.plusmove_tex	icon_status.plusmove_tex
-700800	HPChange	DOT	False	abs	10000	2	-40	Volley of Curses			Reduces HP by -40 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700801	HPChange	DOT	False	abs	10000	2	-62	Volley of Curses			Reduces HP by -62 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700802	HPChange	DOT	False	abs	10000	2	-96	Volley of Curses			Reduces HP by -96 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700803	HPChange	DOT	False	abs	10000	2	-138	Volley of Curses			Reduces HP by -138 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700804	HPChange	DOT	False	abs	10000	2	-205	Volley of Curses			Reduces HP by -205 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700805	HPChange	DOT	False	abs	10000	2	-289	Volley of Curses			Reduces HP by -289 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700806	HPChange	DOT	False	abs	10000	2	-417	Volley of Curses			Reduces HP by -417 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700807	HPChange	DOT	False	abs	10000	2	-578	Volley of Curses			Reduces HP by -578 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700808	HPChange	DOT	False	abs	10000	2	-817	Volley of Curses IX			Reduces HP by -817 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700809	HPChange	DOT	False	abs	10000	2	-1238	Volley of Curses			Reduces HP by -1238 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700820	HPChange	DOT	False	abs	10000	2	-41	Volley of Curses I			Reduces HP by -41 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700821	HPChange	DOT	False	abs	10000	2	-63	Volley of Curses II			Reduces HP by -63 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700822	HPChange	DOT	False	abs	10000	2	-86	Volley of Curses III			Reduces HP by -86 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700823	HPChange	DOT	False	abs	10000	2	-133	Volley of Curses IV			Reduces HP by -133 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700824	HPChange	DOT	False	abs	10000	2	-191	Volley of Curses V			Reduces HP by -191 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700825	HPChange	DOT	False	abs	10000	2	-283	Volley of Curses VI			Reduces HP by -283 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700826	HPChange	DOT	False	abs	10000	2	-399	Volley of Curses VII			Reduces HP by -399 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700827	HPChange	DOT	False	abs	10000	2	-576	Volley of Curses VIII			Reduces HP by -576 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700828	HPChange	DOT	False	abs	10000	2	-802	Volley of Curses IX			Reduces HP by -802 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
-700829	HPChange	DOT	False	abs	10000	2	-1212	Volley of Curses			Reduces HP by -1212 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
+700800	HPChange	DOT	False	abs	10000	2	-1238	Volley of Curses			Reduces HP by -1238 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
+700820	HPChange	DOT	False	abs	10000	2	-1212	Volley of Curses I			Reduces HP by -1212 every 2s.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex
 700900	MPChange	Buff	True	abs	20000	1	100	Mana Infusion			Replenishes 100 MP every 1s, or until you take damage or use another combat skill or item.	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex
 701000	HPChange	Buff	True	abs	10000	2	70	Grace of the Spirit I			Recovers 70 HP every 2s.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex
 701001	HPChange	Buff	True	abs	10000	2	88	Grace of the Spirit II			Recovers 88 HP every 2s.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex
@@ -2360,13 +2357,69 @@
 701605	HPChange	Buff	True	abs	15000	2	529	Warding Totem I			Summoned energy recovers HP by 529 every 2s.	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex
 701606	Absorb	Buff	True	swch	5000	0	7149	Warding Totem II			Summoned energy absorbs up to 7149. Effect ends when totem absorbs its maximum damage, redardless of duration.	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex
 701607	HPChange	Buff	True	abs	15000	2	700	Warding Totem II			Summoned energy restores HP by 700 every 2s.	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex
-701700	Endurance	Debuff	False	perc	20000	0	0.95	Contagion			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects creatures within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
-701700	HPChange	DOT	False	abs	5000	1	-15086	Contagion			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects creatures within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
-701701	Endurance	Debuff	False	perc	20000	0	0.95	Contagion			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects creatures within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
-701701	HPChange	DOT	False	abs	5000	1	-1953	Contagion			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects creatures within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
-701800	HPChange	DOT	False	abs	5000	1	-15086	Affliction			Diseased. Deals -15086 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
-701801	HPChange	DOT	False	abs	5000	1	-1953	Affliction			Diseased. Reduces HP recovery by 10%. Deals -1953 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
-701801	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction			Diseased. Reduces HP recovery by 10%. Deals -1953 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701700	Endurance	Debuff	False	perc	20000	0	0.95	Contagion			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
+701700	HPChange	DOT	False	abs	5000	1	-1141	Contagion			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
+701701	Endurance	Debuff	False	perc	20000	0	0.95	Contagion II			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
+701701	HPChange	DOT	False	abs	5000	1	-1585	Contagion II			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you.	icon_skills.plague_tex	icon_skills.plague_tex
+701702	Endurance	Debuff	False	perc	20000	0	0.95	Contagion III			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701702	HPChange	DOT	False	abs	5000	1	-2202	Contagion III			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701703	Endurance	Debuff	False	perc	20000	0	0.95	Contagion IV			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701703	HPChange	DOT	False	abs	5000	1	-3059	Contagion IV			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701704	Endurance	Debuff	False	perc	20000	0	0.95	Contagion V			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701704	HPChange	DOT	False	abs	5000	1	-4248	Contagion V			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701705	Endurance	Debuff	False	perc	20000	0	0.95	Contagion VI			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701705	HPChange	DOT	False	abs	5000	1	-5900	Contagion VI			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701706	Endurance	Debuff	False	perc	20000	0	0.95	Contagion VII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701706	HPChange	DOT	False	abs	5000	1	-8194	Contagion VII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701707	Endurance	Debuff	False	perc	20000	0	0.95	Contagion VIII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701707	HPChange	DOT	False	abs	5000	1	-11380	Contagion VIII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701708	Endurance	Debuff	False	perc	20000	0	0.95	Contagion IX			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701708	HPChange	DOT	False	abs	5000	1	-15086	Contagion IX			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701720	Endurance	Debuff	False	perc	20000	0	0.95	Contagion I			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701720	HPChange	DOT	False	abs	5000	1	-141	Contagion I			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701721	Endurance	Debuff	False	perc	20000	0	0.95	Contagion II			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701721	HPChange	DOT	False	abs	5000	1	-196	Contagion II			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701722	Endurance	Debuff	False	perc	20000	0	0.95	Contagion III			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701722	HPChange	DOT	False	abs	5000	1	-272	Contagion III			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701723	Endurance	Debuff	False	perc	20000	0	0.95	Contagion IV			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701723	HPChange	DOT	False	abs	5000	1	-378	Contagion IV			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701724	Endurance	Debuff	False	perc	20000	0	0.95	Contagion V			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701724	HPChange	DOT	False	abs	5000	1	-525	Contagion V			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701725	Endurance	Debuff	False	perc	20000	0	0.95	Contagion VI			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701725	HPChange	DOT	False	abs	5000	1	-729	Contagion VI			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701726	Endurance	Debuff	False	perc	20000	0	0.95	Contagion VII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701726	HPChange	DOT	False	abs	5000	1	-1012	Contagion VII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701727	Endurance	Debuff	False	perc	20000	0	0.95	Contagion VIII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701727	HPChange	DOT	False	abs	5000	1	-1406	Contagion VIII			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701728	Endurance	Debuff	False	perc	20000	0	0.95	Contagion IX			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701728	HPChange	DOT	False	abs	5000	1	-1953	Contagion IX			You are diseased for 5s. Decreases Endurance by 5%. Cannot be cleared with purifying skill. Infects allies within 7m of you. 	icon_skills.plague_tex	icon_skills.plague_tex
+701800	HPChange	DOT	False	abs	5000	1	-1141	Affliction I			Diseased. You take -1141 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701801	HPChange	DOT	False	abs	5000	1	-1585	Affliction II			Diseased. You take -1585 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701802	HPChange	DOT	False	abs	5000	1	-2202	Affliction III			Diseased. You take -2202 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701803	HPChange	DOT	False	abs	5000	1	-3059	Affliction IV			Diseased. You take -3059 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701804	HPChange	DOT	False	abs	5000	1	-4248	Affliction V			Diseased. You take -4248 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701805	HPChange	DOT	False	abs	5000	1	-5900	Affliction VI			Diseased. You take -5900 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701806	HPChange	DOT	False	abs	5000	1	-8194	Affliction VII			Diseased. You take -8194 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701807	HPChange	DOT	False	abs	5000	1	-11380	Affliction VIII			Diseased. You take -11380 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701808	HPChange	DOT	False	abs	5000	1	-15086	Affliction IX			Diseased. You take -15086 damage every second.	icon_skills.plague_tex	icon_skills.plague_tex
+701820	HPChange	DOT	False	abs	5000	1	-141	Affliction I			Diseased. Reduces HP recovery by 10%. You take -141 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701820	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction I			Diseased. Reduces HP recovery by 10%. You take -141 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701821	HPChange	DOT	False	abs	5000	1	-196	Affliction II			Diseased. Reduces HP recovery by 10%. You take -196 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701821	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction II			Diseased. Reduces HP recovery by 10%. You take -196 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701822	HPChange	DOT	False	abs	5000	1	-272	Affliction III			Diseased. Reduces HP recovery by 10%. You take -272 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701822	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction III			Diseased. Reduces HP recovery by 10%. You take -272 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701823	HPChange	DOT	False	abs	5000	1	-378	Affliction IV			Diseased. Reduces HP recovery by 10%. You take -378 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701823	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction IV			Diseased. Reduces HP recovery by 10%. You take -378 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701824	HPChange	DOT	False	abs	5000	1	-525	Affliction V			Diseased. Reduces HP recovery by 10%. You take -525 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701824	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction V			Diseased. Reduces HP recovery by 10%. You take -525 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701825	HPChange	DOT	False	abs	5000	1	-729	Affliction VI			Diseased. Reduces HP recovery by 10%. You take -729 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701825	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction VI			Diseased. Reduces HP recovery by 10%. You take -729 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701826	HPChange	DOT	False	abs	5000	1	-1012	Affliction VII			Diseased. Reduces HP recovery by 10%. You take -1012 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701826	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction VII			Diseased. Reduces HP recovery by 10%. You take -1012 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701827	HPChange	DOT	False	abs	5000	1	-1406	Affliction VIII			Diseased. Reduces HP recovery by 10%. You take -1406 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701827	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction VIII			Diseased. Reduces HP recovery by 10%. You take -1406 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701828	HPChange	DOT	False	abs	5000	1	-1953	Affliction IX			Diseased. Reduces HP recovery by 10%. You take -1953 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
+701828	IncreasedHeal	DOT	False	perc	5000	0	0.9	Affliction IX			Diseased. Reduces HP recovery by 10%. You take -1953 damage every second. 	icon_skills.plague_tex	icon_skills.plague_tex
 757002	ASpd	Buff	False	perc	0	0	1	Firestone			The stone giant is on fire. Targets within 21m gain "Heat."	icon_status.firedamage_tex	icon_status.firedamage_tex
 757002	HPChange	Stun	False	perc	20000	2	-0.2	Firestone			The stone giant is on fire. Targets within 21m gain "Heat."	icon_status.firedamage_tex	icon_status.firedamage_tex
 757003	HPChange	Stun	False	perc	20000	2	-0.2	Firestone			The stone giant is on fire. Targets within 3m gain "Heat."	icon_status.firedamage_tex	icon_status.firedamage_tex
@@ -2681,17 +2734,8 @@
 801202	Stun	Stun	False	swch	20000	0	5	Ishara's Lullaby III			Sleep comfortably. Ends immediately if you are hit.	icon_skills.lullabyoflshara_tex	icon_skills.lullabyoflshara_tex
 801300	Ballance	Buff	True	perc	5000	0	2	Arise I			Increases balance by 100%.	icon_skills.recovery_tex	icon_skills.recovery_tex
 801301	Ballance	Buff	True	perc	5000	0	2	Arise II			Increases balance by 100%.	icon_skills.recovery_tex	icon_skills.recovery_tex
-801400	HPChange	Buff	True	abs	5000	1	136	Restorative Burst I			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801401	HPChange	Buff	True	abs	5000	1	181	Restorative Burst II			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801402	HPChange	Buff	True	abs	5000	1	235	Restorative Burst III			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801403	HPChange	Buff	True	abs	5000	1	298	Restorative Burst IV			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801404	HPChange	Buff	True	abs	5000	1	366	Restorative Burst V			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801405	HPChange	Buff	True	abs	5000	1	431	Restorative Burst VI			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801406	HPChange	Buff	True	abs	5000	1	489	Restorative Burst VII			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801407	HPChange	Buff	True	abs	5000	1	533	Restorative Burst VIII			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801408	HPChange	Buff	True	abs	5000	1	559	Restorative Burst IX			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801409	HPChange	Buff	True	abs	5000	1	575	Restorative Burst			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
-801410	HPChange	Buff	True	abs	5000	1	588	Restorative Burst XI			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
+801400	HPChange	Buff	True	abs	5000	1	575	Restorative Burst I			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
+801401	HPChange	Buff	True	abs	5000	1	588	Restorative Burst II			Recovers HP every 1s.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex
 801500	Power	Buff	True	abs	20000	0	20	Energy Stars I			Increases Power by 20; Attack Speed by 8.	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
 801500	ASpd	Buff	True	abs	20000	0	8	Energy Stars I			Increases Power by 20; Attack Speed by 8.	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
 801501	Power	Buff	True	abs	20000	0	28	Energy Stars II			Increases Power by 28; Attack Speed by 8.	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex
@@ -2913,7 +2957,7 @@
 905924	Ballance	Stun	False	perc	3500	0	100	Terror of Rokdos			Decreases Endurance by 60% and sends you fleeing in terror.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 905924	Fear	Stun	False	swch	3500	0	200	Terror of Rokdos			Decreases Endurance by 60% and sends you fleeing in terror.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 905926	Stun	DOT	False	swch	5000	0	5	Curse of the Forsaken			You are paralyzed and will die in 5 seconds.	icon_status.minusconfuseresist_tex	icon_status.minusconfuseresist_tex
-905926	HPLoss	DOT	False	perc	5000	0	0.5	Curse of the Forsaken			You are paralyzed and will die in 5 seconds.	icon_status.minusconfuseresist_tex	icon_status.minusconfuseresist_tex
+905926	HPLoss	DOT	False	perc	5000	0	0	Curse of the Forsaken			You are paralyzed and will die in 5 seconds.	icon_status.minusconfuseresist_tex	icon_status.minusconfuseresist_tex
 905928	HPChange	Buff	True	perc	3000	1	-0.05	Curse of the Spectre			Drains 8% of maximum HP every second. Grants immunity to Viyor's full power attack.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905928	Block	Buff	True	swch	3000	0	0	Curse of the Spectre			Drains 8% of maximum HP every second. Grants immunity to Viyor's full power attack.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905928	DelayedEffect	Buff	True	seta	3000	0	905929	Curse of the Spectre			Drains 8% of maximum HP every second. Grants immunity to Viyor's full power attack.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
@@ -2924,7 +2968,7 @@
 905933	Endurance	DOT	True	perc	90000	0	0.7	Curse of Rokdos			Drains 8% of maximum HP every 2s. Rokdos's Curse is unbreakable, and is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905933	ASpd	DOT	False	perc	1000	0	1	Curse of Rokdos			Drains 8% of maximum HP every 2s. Rokdos's Curse is unbreakable, and is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905933	HPChange	DOT	True	perc	90000	2	-0.08	Curse of Rokdos			Drains 8% of maximum HP every 2s. Rokdos's Curse is unbreakable, and is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905933	HPLoss	Buff	True	abs	1000	0	-35000	Curse of Rokdos			Drains 8% of maximum HP every 2s. Rokdos's Curse is unbreakable, and is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905933	HPLoss	Buff	True	abs	1000	0	-80000	Curse of Rokdos			Drains 8% of maximum HP every 2s. Rokdos's Curse is unbreakable, and is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905934	HPChange	Buff	True	perc	5000	1	-0.07	Spectral Curse			Drains 8% of maximum HP every second.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	IncreasedHeal	Buff	True	swch	5000	0	0	Spectral Curse			Drains 8% of maximum HP every second.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Block	Buff	True	swch	5000	0	0	Spectral Curse			Drains 8% of maximum HP every second.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
@@ -2945,7 +2989,7 @@
 905949	HPChange	DOT	True	perc	15000	1	-0.02	Tyrant's Curse			Drains 2% of maximum HP every 1s. Tyrant's Curse is unbreakable.	icon_status.firedamage_tex	icon_status.firedamage_tex
 905950	Endurance	DOT	True	perc	90000	0	0.7	Doom of Desolarus			Drains 10% of maximum HP every 2s. Doom of Desolarus is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905950	HPChange	DOT	True	perc	90000	2	-0.1	Doom of Desolarus			Drains 10% of maximum HP every 2s. Doom of Desolarus is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905950	HPLoss	Buff	True	abs	1000	0	-35000	Doom of Desolarus			Drains 10% of maximum HP every 2s. Doom of Desolarus is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905950	HPLoss	Buff	True	abs	1000	0	-80000	Doom of Desolarus			Drains 10% of maximum HP every 2s. Doom of Desolarus is fatal when stacked 3 times.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905951	Immune	Debuff	True	25	2000	0	0	Invincible			Immune to all damage	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 905952	MovSpd	Debuff	False	perc	5000	0	0.1	Spectral Talons			Decreases Movement Speed by 90%.	icon_status.minusmove_tex	icon_status.minusmove_tex
 905952	HPDrain	Debuff	False	perc	5000	0	0.9	Spectral Talons			Decreases Movement Speed by 90%.	icon_status.minusmove_tex	icon_status.minusmove_tex
@@ -3713,7 +3757,7 @@
 10154030	MPChange	Buff	True	abs	0	1	-20	Focus			Skill damage increased.	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff
 10154030	112	Buff	True	swch	0	0	10154031	Focus			Skill damage increased.	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff
 10154030	AtkPotion	Buff	True	swch	0	0	1.05	Focus			Skill damage increased.	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff
-10154032	AtkPotion	Buff	True	swch	60000	0	1.01	Intense Focus			Skill damage increased.	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff
+10154032	AtkPotion	Buff	True	swch	60000	0	1.01	Intense Focus			Skill damage increases over time.	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff
 10154040	33	Buff	True	seta	30000	0	0	Mind and Body as One			Chi can be stored for up to 30 seconds, after which it decays rapidly. Damaging an enemy restarts this countdown.	icon_skills.c12_chakracohesion	icon_skills.c12_chakracohesion
 10154050	Immune	Buff	True	9	1200	0	0	Smoke Bomb			Can evade enemy attacks.	icon_skills.c12_smokebomb	icon_skills.c12_smokebombevade
 10154080	Aggro	Buff	True	perc	2000	0	0.38	Raining Fire I			Can cast an enhanced Fire Avalanche.	icon_skills.c12_flamestrike	icon_skills.c12_flamestrike
@@ -3943,6 +3987,13 @@
 45000121	StatusImmune	Buff	True	swch	60000	0	0	Strengthen Skin			Koleogg's Skin becomes strong. Immune to all damage.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 45000122	Immune	Buff	True	10	10000	0	0	Velik's Protection			5-second shield activated due to Velik's Protection.	icon_status.bless_of_velic_tex	icon_status.bless_of_velic_tex
 45000122	StatusImmune	Buff	True	swch	10000	0	0	Velik's Protection			5-second shield activated due to Velik's Protection.	icon_status.bless_of_velic_tex	icon_status.bless_of_velic_tex
+46600002	Endurance	Buff	True	perc	0	0	1000	Demon's Dominance			Demoros is not affected. Demoros's defense increases 1,000 times.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+46600018	HPChange	DOT	False	perc	15000	2	-0.1	Demon's Curse			Reduces HP by 10% of maximum every 2s seconds.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+46600040	Stun	Stun	False	swch	5000	0	5	Stunned			Cannot move for 5 seconds.	icon_status.positionswap_tex	icon_status.positionswap_tex
+46600079	Endurance	Buff	True	perc	25000	0	1000	Demon's Wrath			Demoros prepares to move to the otherworld. Defense increased 1,000 times.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+46600099	MaxMP	Buff	True	perc	600000	0	1	Otherworldly Recovery			Recovers 0.35% of maximum HP every 1s.	icon_skills.refreshbless_tex	icon_skills.refreshbless_tex
+46600099	HPChange	Buff	True	perc	600000	1	0.0035	Otherworldly Recovery			Recovers 0.35% of maximum HP every 1s.	icon_skills.refreshbless_tex	icon_skills.refreshbless_tex
+46600113	HPChange	DOT	False	perc	10000	1	-0.1	Claw Wound			Reduces HP by 10% of maximum every 1s seconds.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 47300100	HPChange	DOT	False	perc	600000	60	-0.5	Venom Resin			Reduces HP by 50% of maximum every 60s. Venom Resin cannot be purified or cleansed.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 47300200	HPChange	DOT	False	perc	60000	3	-0.05	Thulsa's Venom			Reduces HP by 5% of maximum every 3s. Thulsa's Venom cannot be purified or cleansed.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 47300300	HPChange	DOT	False	perc	5000	4	-0.3	Thulsa's Poison			Reduces HP by 30% of maximum after 4s. Thulsa's Poison cannot be purified or cleansed.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
@@ -4236,7 +4287,7 @@
 47681601	Endurance	Buff	True	perc	3600000	0	1	Nexus Call			You are being pulled into the nexus. You can enter Nexus Traverse. The two-hour cooldown for Nexus Traverse applies to all characters on this account.	icon_status.calldimension_tex	icon_status.calldimension_tex
 47681602	Endurance	Buff	True	perc	3600000	0	1	Nexus Call			You are being pulled into the nexus. You can enter Nexus Traverse. The two-hour cooldown for Nexus Traverse applies to all characters on this account.	icon_status.calldimension_tex	icon_status.calldimension_tex
 47681700	Endurance	Buff	True	perc	46800000	0	1	Dimensional Anchor			You have recently explored the Nexus Traverse. You cannot re-enter the Nexus Traverse.	icon_status.dimensionguard_tex	icon_status.dimensionguard_tex
-47681800	Power	Buff	True	perc	30000	0	1.5	Nexus Conduit			Infuses allies within 12m with Nexus Energy every 0s.	icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex
+47681800	Power	Buff	True	perc	20000	0	1.5	Nexus Conduit			Infuses allies within 12m with Nexus Energy every 0s.	icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex
 47690000	Block	Stun	False	swch	10000	0	0	Ultrasonic Impact			You are unable to use any skills for the effect duration. Effect cannot be removed.	icon_status.sealskill_tex	icon_status.sealskill_tex
 47690100	Endurance	Debuff	False	perc	60000	0	0.2	Trampled			Decreases Endurance by 80%. Effect cannot be removed.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 47690200	DefPotion	Buff	True	perc	0	0	0.2	Red Shield			Reduces damage from ranged attacks by 80%. Red Shield cannot be removed.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
@@ -4935,21 +4986,21 @@
 88402108	SkillCastSpeed	Buff	True	perc	3000	0	1.65	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
 88402109	SkillCastSpeed	Buff	True	perc	3000	0	1.7	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
 88402110	SkillCastSpeed	Buff	True	perc	3000	0	1.75	Chained Speed Skating: Retribution			Attack Speed increases when casting Axe Counter	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406201	SkillCastSpeed	Buff	True	perc	3000	0	1.04	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406202	SkillCastSpeed	Buff	True	perc	3000	0	1.055	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406203	SkillCastSpeed	Buff	True	perc	3000	0	1.07	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406204	SkillCastSpeed	Buff	True	perc	3000	0	1.085	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406205	SkillCastSpeed	Buff	True	perc	3000	0	1.1	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406206	SkillCastSpeed	Buff	True	perc	3000	0	1.115	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406207	SkillCastSpeed	Buff	True	perc	3000	0	1.13	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406208	SkillCastSpeed	Buff	True	perc	3000	0	1.145	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406209	SkillCastSpeed	Buff	True	perc	3000	0	1.16	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406210	SkillCastSpeed	Buff	True	perc	3000	0	1.175	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406211	SkillCastSpeed	Buff	True	perc	3000	0	1.19	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406212	SkillCastSpeed	Buff	True	perc	3000	0	1.205	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406213	SkillCastSpeed	Buff	True	perc	3000	0	1.22	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406214	SkillCastSpeed	Buff	True	perc	3000	0	1.235	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
-88406215	SkillCastSpeed	Buff	True	perc	3000	0	1.25	Chained Speed Skating: Staggering Strike			Attack Speed increases when casting Staggering Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406201	SkillCastSpeed	Buff	True	perc	3000	0	1.04	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406202	SkillCastSpeed	Buff	True	perc	3000	0	1.055	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406203	SkillCastSpeed	Buff	True	perc	3000	0	1.07	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406204	SkillCastSpeed	Buff	True	perc	3000	0	1.085	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406205	SkillCastSpeed	Buff	True	perc	3000	0	1.1	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406206	SkillCastSpeed	Buff	True	perc	3000	0	1.115	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406207	SkillCastSpeed	Buff	True	perc	3000	0	1.13	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406208	SkillCastSpeed	Buff	True	perc	3000	0	1.145	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406209	SkillCastSpeed	Buff	True	perc	3000	0	1.16	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406210	SkillCastSpeed	Buff	True	perc	3000	0	1.175	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406211	SkillCastSpeed	Buff	True	perc	3000	0	1.19	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406212	SkillCastSpeed	Buff	True	perc	3000	0	1.205	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406213	SkillCastSpeed	Buff	True	perc	3000	0	1.22	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406214	SkillCastSpeed	Buff	True	perc	3000	0	1.235	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
+88406215	SkillCastSpeed	Buff	True	perc	3000	0	1.25	Chained Speed Skating: Sweeping Strike			Attack Speed increases when casting Sweeping Strike	icon_ep.ep_attack_speed_tex	icon_ep.ep_attack_speed_tex
 88407101	Aggro	Buff	True	perc	8000	0	1.1	Taunting			Aggro increases by 10% through casting the skill.	icon_ep.ep_special_chaff_tex	icon_ep.ep_special_chaff_tex
 88407102	Aggro	Buff	True	perc	8000	0	1.12	Taunting			Aggro increases by 12% through casting the skill.	icon_ep.ep_special_chaff_tex	icon_ep.ep_special_chaff_tex
 88407103	Aggro	Buff	True	perc	8000	0	1.14	Taunting			Aggro increases by 14% through casting the skill.	icon_ep.ep_special_chaff_tex	icon_ep.ep_special_chaff_tex
@@ -5409,7 +5460,7 @@
 91600001	Block	Debuff	False	swch	3000	0	0	Dark Heart			Reduces HP by 10% of maximum every 1s. Cannot use skills.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600003	MovSpd	Stun	False	perc	10000	0	0.5	Gripped by Fear			Running around in terror!	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
 91600003	Fear	Stun	False	abs	10000	0	150	Gripped by Fear			Running around in terror!	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
-91600004	HPChange	DOT	False	perc	15000	2	-0.12	Dark Siphon			Reduces HP by 10% of maximum every 2s.	icon_status.firedamage_tex	icon_status.firedamage_tex
+91600004	HPChange	DOT	False	perc	15000	2	-0.1	Dark Siphon			Reduces HP by 10% of maximum every 2s.	icon_status.firedamage_tex	icon_status.firedamage_tex
 91600007	Power	Debuff	False	perc	600000	0	1.2	Dracoloth's Shriek			Increases Power by 20% and Attack Speed by 10% per stack. Cannot be removed.	icon_status.plusattack_tex	icon_status.plusattack_tex
 91600007	ASpd	Debuff	False	perc	600000	0	1.2	Dracoloth's Shriek			Increases Power by 20% and Attack Speed by 10% per stack. Cannot be removed.	icon_status.plusattack_tex	icon_status.plusattack_tex
 91600008	Endurance	Stun	False	seta	30000	0	10000000	Darkan's Scolding			Stunned and immobilized.	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -5502,8 +5553,8 @@
 97000051	HPChange	Debuff	False	perc	3000	1	-0.05	Baby Venom			Decreases Movement Speed by half. Reduces HP by 5% of maximum every 0s.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000052	DefPotion	DOT	True	perc	100000	0	1.5	Lachelith's Wrath			Increases damage from Nightmare Lachelith by 50%. Doubles the damage from Lachelith's Soul Sphere. 2 stacks brings death.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 97000052	HPLoss	Debuff	False	abs	1000	0	-50000000	Lachelith's Wrath			Increases damage from Nightmare Lachelith by 50%. Doubles the damage from Lachelith's Soul Sphere. 2 stacks brings death.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97500100	HPChange	DOT	False	perc	70000	2	-0.09	Doomfire			7% of maximum HP is lost every 2s. Target dies when effect ends. Doomfire can be removed only with Doomchill.	icon_status.firedamage_tex	icon_status.firedamage_tex
-97500100	HPLoss	DOT	False	abs	70000	0	-10000000	Doomfire			7% of maximum HP is lost every 2s. Target dies when effect ends. Doomfire can be removed only with Doomchill.	icon_status.firedamage_tex	icon_status.firedamage_tex
+97500100	HPChange	DOT	False	perc	120000	2	-0.07	Doomfire			7% of maximum HP is lost every 2s. Target dies when effect ends. Doomfire can be removed only with Doomchill.	icon_status.firedamage_tex	icon_status.firedamage_tex
+97500100	HPLoss	DOT	False	abs	120000	0	-10000000	Doomfire			7% of maximum HP is lost every 2s. Target dies when effect ends. Doomfire can be removed only with Doomchill.	icon_status.firedamage_tex	icon_status.firedamage_tex
 97500250	KnockDownChance	Buff	True	perc	20000	0	0	Strong Sealing			100% resistant to all harmful effects. Immune to knockdown and stagger. 	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 97500250	ResistNegative	Buff	True	swch	20000	0	0	Strong Sealing			100% resistant to all harmful effects. Immune to knockdown and stagger. 	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 97500250	StatusImmune	Buff	True	swch	20000	0	0	Strong Sealing			100% resistant to all harmful effects. Immune to knockdown and stagger. 	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
@@ -5513,8 +5564,8 @@
 97500500	AtkPotion	DOT	False	perc	35000	0	0.4	Seal of Punishment			Reduces HP by 3% of maximum every 5 . Ranged damage decreases by 60%. Seal of Punishment cannot be removed.	icon_status.minorexhaustion_tex	icon_status.minorexhaustion_tex
 97500600	HPChange	DOT	False	perc	35000	2	-0.02	Seal of Death			Reduces HP by 3% of maximum every 2, and you cannot be healed. Seal of Death cannot be removed.	icon_status.minusfocus_tex	icon_status.minusfocus_tex
 97500600	NoHeal	DOT	False	seta	35000	0	0	Seal of Death			Reduces HP by 3% of maximum every 2, and you cannot be healed. Seal of Death cannot be removed.	icon_status.minusfocus_tex	icon_status.minusfocus_tex
-97501100	HPChange	DOT	False	perc	70000	2	-0.09	Doomchill			Reduces HP by 3% of maximum every 2s. Target dies when effect ends. Doomchill can be removed only with Doomfire.	icon_status.icedamage_tex	icon_status.icedamage_tex
-97501100	HPLoss	DOT	False	abs	70000	0	-10000000	Doomchill			Reduces HP by 3% of maximum every 2s. Target dies when effect ends. Doomchill can be removed only with Doomfire.	icon_status.icedamage_tex	icon_status.icedamage_tex
+97501100	HPChange	DOT	False	perc	120000	2	-0.07	Doomchill			Reduces HP by 3% of maximum every 2s. Target dies when effect ends. Doomchill can be removed only with Doomfire.	icon_status.icedamage_tex	icon_status.icedamage_tex
+97501100	HPLoss	DOT	False	abs	120000	0	-10000000	Doomchill			Reduces HP by 3% of maximum every 2s. Target dies when effect ends. Doomchill can be removed only with Doomfire.	icon_status.icedamage_tex	icon_status.icedamage_tex
 97501200	Stun	Stun	False	swch	20000	0	5	Wrath of Kelsaik			Stunned. Cannot move. Wrath of Kelsaik cannot be removed.	icon_status.confuseup_tex	icon_status.confuseup_tex
 97501300	Power	DOT	False	perc	10000	0	3	Curse of Kelsaik			Increases Power by 200%, but reduces HP by 0.5% of maximum every 1. The effect stacks up to 99 times.	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 97501300	HPChange	DOT	False	perc	10000	1	-0.005	Curse of Kelsaik			Increases Power by 200%, but reduces HP by 0.5% of maximum every 1. The effect stacks up to 99 times.	icon_status.diseaseup_tex	icon_status.diseaseup_tex
@@ -5599,7 +5650,7 @@
 98000095	HPChange	Buff	True	abs	1000	1	50000	Priest's Touch			Recovers 30,000 HP.	icon_items.potion5_tex	icon_items.potion5_tex
 98000100	Power	Buff	True	abs	10000000	0	25	Potion of Blessing	96000	테스트용 물약_사제 버프	You gained the following priest buffs: Blessing of Shakan III, Blessing of Balder V, and Energy Stars.	icon_skills.attackup_tex	icon_skills.attackup_tex
 98000100	Endurance	Buff	True	abs	10000000	0	11	Potion of Blessing	96000	테스트용 물약_사제 버프	You gained the following priest buffs: Blessing of Shakan III, Blessing of Balder V, and Energy Stars.	icon_skills.attackup_tex	icon_skills.attackup_tex
-98000101	Power	Buff	True	abs	0	0	40	Potion of Verve	96001	테스트용 물약_정령사 버프	You gained the following mystic buffs: Aura of the Merciless II, Titanic Wrath III, Aura of the Unyielding IV, and Endurance buff from Thrall of Protection (Glyph of Grounding). Titanic Wrath III does not apply if priest's Energy Star is in effect.	icon_status.plusecritical_tex	icon_status.plusecritical_tex
+98000101	Power	Buff	True	abs	0	0	48	Potion of Verve	96001	테스트용 물약_정령사 버프	You gained the following mystic buffs: Aura of the Merciless II, Titanic Wrath III, Aura of the Unyielding IV, and Endurance buff from Thrall of Protection (Glyph of Grounding). Titanic Wrath III does not apply if priest's Energy Star is in effect.	icon_status.plusecritical_tex	icon_status.plusecritical_tex
 98000101	Endurance	Buff	True	perc	10000000	0	1.1	Potion of Verve	96001	테스트용 물약_정령사 버프	You gained the following mystic buffs: Aura of the Merciless II, Titanic Wrath III, Aura of the Unyielding IV, and Endurance buff from Thrall of Protection (Glyph of Grounding). Titanic Wrath III does not apply if priest's Energy Star is in effect.	icon_status.plusecritical_tex	icon_status.plusecritical_tex
 98000101	Crit	Buff	True	perc	10000000	0	2.2	Potion of Verve	96001	테스트용 물약_정령사 버프	You gained the following mystic buffs: Aura of the Merciless II, Titanic Wrath III, Aura of the Unyielding IV, and Endurance buff from Thrall of Protection (Glyph of Grounding). Titanic Wrath III does not apply if priest's Energy Star is in effect.	icon_status.plusecritical_tex	icon_status.plusecritical_tex
 98000101	CritResist	Buff	True	perc	0	0	1.4	Potion of Verve	96001	테스트용 물약_정령사 버프	You gained the following mystic buffs: Aura of the Merciless II, Titanic Wrath III, Aura of the Unyielding IV, and Endurance buff from Thrall of Protection (Glyph of Grounding). Titanic Wrath III does not apply if priest's Energy Star is in effect.	icon_status.plusecritical_tex	icon_status.plusecritical_tex
