@@ -696,10 +696,9 @@
 4870	Immune	Stun	False	seta	5000	0	0	スノーマン			体が凍りつき、スノーマンになりました！　他のプレイヤーから「火の玉」で解除してもらうことができます。	icon_items.snowman_scroll_tex	icon_items.snowman_scroll_tex
 4871	Stun	Stun	False	swch	2000	0	5	混乱			石入り雪玉に当たったため混乱！	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 4872	Immune	Buff	True	setp	3000	0	0	カイロ			スノーマン状態と凍傷状態が解除されます。効果持続中、スノーマン/凍傷状態になりません。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
-4873	HPLoss	Buff	True	abs	200	0	-100000	寒さ			寒さのため体が凍っていきます！　効果が$H_W_BAD3回$COLOR_END重なると、スノーマン状態になります。	icon_status.icedamage_tex	icon_status.icedamage_tex
+4873	StackCounter	Stun	False	abs	30000	0	4870	寒さ			寒さのため体が凍っていきます！　効果が$H_W_BAD3回$COLOR_END重なると、スノーマン状態になります。	icon_status.icedamage_tex	icon_status.icedamage_tex
 4874	MovSpd	Stun	False	perc	3000	0	0.6	フラフラ			巨大雪玉のせいで移動速度が減少します！　	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
-4874	Stun	Stun	False	swch	2000	0	5	フラフラ			巨大雪玉のせいで移動速度が減少します！　	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
-4874	HPLoss	Buff	True	abs	200	0	-100000	フラフラ			巨大雪玉のせいで移動速度が減少します！　	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
+4874	StackCounter	Stun	False	abs	3000	0	4870	フラフラ			巨大雪玉のせいで移動速度が減少します！　	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 4875	191	Buff	True	perc	30000	0	0	スノーマン			体が凍りつき、スノーマンになりました！　効果持続中、ダメージを受けるかスキルを使用すると状態が解除されます。また、他のプレイヤーから「火の玉」で解除してもらうことも可能です。	icon_items.snowman_scroll_tex	icon_items.snowman_scroll_tex
 4879	Immune	Debuff	True	21	2000	0	0	スノーマンの祝福			全てのデバフ、ダメージを受け付けません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 4879	StatusImmune	Debuff	True	swch	2000	0	0	スノーマンの祝福			全てのデバフ、ダメージを受け付けません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
@@ -1177,7 +1176,7 @@
 33170	HPChange	Buff	True	perc	6000	1	0.03	守護光玉(忍耐の紋章)			$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD3％$COLOR_ENDが回復します。	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	回り込み(闘志の紋章)			次に使用するスキルの威力が30％増加します。	icon_skills.mooncatch_tex	icon_crest.crestnextskillattackup_tex
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	月光陣(連闘の紋章)			連係して「月鳴り」使用時、スキル威力が$H_W_GOOD25%$COLOR_END上昇します。	icon_skills.moongravity_tex	icon_crest.e_crestnextskillattackup_tex
-45301	StunKnockDown	Debuff	False	swch	20000	0	2	強い衝撃			砲弾による強い衝撃を受けました。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
+45301	StackCounter	Debuff	False	swch	30000	0	45302	強い衝撃			砲弾による強い衝撃を受けました。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	均衡喪失			強い衝撃でバランスを崩し、倒れます。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 46705	Endurance	Debuff	True	perc	60000	0	0.9	ディザスター			酸により耐久力が減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 46706	Endurance	Debuff	True	perc	60000	0	0.85	カタストロフィ			酸により耐久力が大幅に減少しています。この効果は重複し、解除できません。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -1187,7 +1186,7 @@
 46751	Endurance	Buff	True	perc	20000	0	1.2	堅鎧			防御力が$H_W_GOOD20%$COLOR_END上昇します。	icon_status.balanceup_tex	icon_status.balanceup_tex
 46752	Immune	Buff	True	18	30000	0	0	金剛鎧			防御力が大幅に上昇し、ダメージを受けません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 46752	StatusImmune	Buff	True	swch	30000	0	0	金剛鎧			防御力が大幅に上昇し、ダメージを受けません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
-46753	Endurance	Buff	True	perc	20000	0	1.2	咆哮			持続時間の間、咆哮が更に重複すると、「堅硬な鎧｣の効果が適用されます｡	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex
+46753	StackCounter	Buff	True	seta	10000	0	46751	咆哮			持続時間の間、咆哮が更に重複すると、「堅硬な鎧｣の効果が適用されます｡	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex
 46755	MovSpd	Buff	True	perc	15000	0	2	執着			お互いの切ない思いが増幅し、デバフ、ダウン、硬直、スタン状態になりません。	icon_skills.recallfriend_tex	icon_skills.recallfriend_tex
 46755	StatusImmune	Buff	True	swch	15000	0	0	執着			お互いの切ない思いが増幅し、デバフ、ダウン、硬直、スタン状態になりません。	icon_skills.recallfriend_tex	icon_skills.recallfriend_tex
 46756	HPChange	DOT	True	abs	30000	2	-15000	排水			汚水により、2秒毎にHPが15,000減少します。	icon_status.purifydagon_tex	icon_status.purifydagon_tex
@@ -1200,13 +1199,11 @@
 46762	OutOfCombatMovSpd	Buff	True	abs	30000	0	40	正体不明	46701	正体不明の玉	全てのデバフを無視し、移動速度が上昇しますが、攻撃力は大幅に減少します。	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
 46762	AtkPotion	Buff	True	perc	30000	2	0.1	正体不明	46701	正体不明の玉	全てのデバフを無視し、移動速度が上昇しますが、攻撃力は大幅に減少します。	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
 46762	Immune	Buff	True	8	30000	0	0	正体不明	46701	正体不明の玉	全てのデバフを無視し、移動速度が上昇しますが、攻撃力は大幅に減少します。	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
-48730	MovSpd	Stun	False	perc	10000	0	0.9	冷たっ	70047	かき氷	冷たいものを食べたため、涼しくなります。	icon_status.icedamage_tex	icon_status.icedamage_tex
+48730	StackCounter	Buff	True	seta	600000	0	48732	冷たっ	70047	かき氷	冷たいものを食べたため、涼しくなります。	icon_status.icedamage_tex	icon_status.icedamage_tex
 48731	MPChange	Buff	True	perc	15000	1	0.05	かき氷	70047	かき氷	$H_W_GOOD1s$COLOR_END毎に全MPの$H_W_GOOD5％$COLOR_ENDが回復します。	icon_items.bluesmoothie_tex	icon_items.bluesmoothie_tex
 48732	MovSpd	Stun	False	perc	10000	0	0.9	キーン			冷たいものを急いで食べたため、頭がキーンと痛くなります。体が冷えて、移動速度が$H_W_BAD10%$COLOR_END減少します。	icon_status.confusedown_tex	icon_status.confusedown_tex
 48732	Drunk	Stun	False	60023	10000	1	0	キーン			冷たいものを急いで食べたため、頭がキーンと痛くなります。体が冷えて、移動速度が$H_W_BAD10%$COLOR_END減少します。	icon_status.confusedown_tex	icon_status.confusedown_tex
-48733	Endurance	Buff	True	abs	60000	0	1	ポイズンティアー	70054	酒爆弾	ロセッツの酒を飲んだため、酔いが回ります。	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
-48733	Stun	Stun	False	swch	3000	0	5	ポイズンティアー	70054	酒爆弾	ロセッツの酒を飲んだため、酔いが回ります。	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
-48733	Drunk1	Buff	True	seta	1000	0	0	ポイズンティアー	70054	酒爆弾	ロセッツの酒を飲んだため、酔いが回ります。	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
+48733	StackCounter	Buff	True	swch	60000	0	48734	ポイズンティアー	70054	酒爆弾	ロセッツの酒を飲んだため、酔いが回ります。	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
 48734	Endurance	Buff	True	abs	60000	0	1	酔い I			酔いが回って、視野が歪み感覚が麻痺します。耐久力が$H_W_GOOD1$COLOR_END上昇します。	icon_status.poisondown_tex	icon_status.poisondown_tex
 48734	Drunk	Buff	True	60024	60000	1	0	酔い I			酔いが回って、視野が歪み感覚が麻痺します。耐久力が$H_W_GOOD1$COLOR_END上昇します。	icon_status.poisondown_tex	icon_status.poisondown_tex
 48735	Endurance	Buff	True	abs	60000	0	2	酔い II			酔いが回って、視野が歪み感覚が麻痺します。耐久力が$H_W_GOOD2$COLOR_END上昇します。	icon_status.poisondown_tex	icon_status.poisondown_tex
@@ -1522,7 +1519,7 @@
 101500	DefPotion	Debuff	False	perc	15000	0	1.25	シュレッド			「ゲイルレイザー」命中時、スキル威力が$H_W_BAD25%$COLOR_END増加します。	icon_skills.rupture_tex	icon_skills.rupture_tex
 101501	Stun	Stun	False	swch	2000	0	5	シュレッド			全身が破裂するような痛みを感じながら$H_W_BAD2s$COLOR_END間気絶します。	icon_skills.rupture_tex	icon_skills.rupture_tex
 101600	Endurance	Buff	True	perc	15000	0	1	シャドウチェンジ			維持時間は「シャドウツイン」と同じです。	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-101700	SkillCastSpeed	Buff	True	perc	10000	0	1.2	連撃			連撃が14回成功時、連撃の速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+101700	StackCounter	Buff	True	seta	10000	0	101750	連撃			連撃が14回成功時、連撃の速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 101750	SkillCastSpeed	Buff	True	perc	10000	0	1.2	連撃			連撃の速度が$H_W_GOOD20%$COLOR_END上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 102500	Block	Debuff	True	perc	180000	0	0	レイジインダクション			効果持続中は「ディフェンススタンス」、「ブレードスタンス」を使用できません。	icon_skills.provokerage_tex	icon_skills.provokerage_tex
 102600	HPLoss	Buff	True	perc	0	0	1.2	シャドウツイン			受けたダメージの$H_W_GOOD50％$COLOR_ENDをシャドウに移します。シャドウ周辺20m範囲内にいる時のみ效果を受けることができます。PVPの場合、20％移すことができます。	icon_skills.decoy_tex	icon_skills.decoy_tex
@@ -1574,7 +1571,7 @@
 201305	AbsorbToMP	Buff	True	swch	10000	0	32834	アイアンウィル VI			MP1あたり100まで、最大$H_W_GOOD32834$COLOR_ENDのダメージを無効化します。最大値を超えたり、MPが0になると、効果は即解除されます。	icon_skills.armoredwill_tex	icon_skills.armoredwill_tex
 201400	Stun	Stun	False	swch	2000	0	5	チェインアンカー I			気絶しているため動けません。	icon_skills.harpoonshot_tex	icon_skills.harpoonshot_tex
 201401	Stun	Stun	False	swch	2000	0	5	チェインアンカー I			気絶しているため動けません。	icon_skills.harpoonshot_tex	icon_skills.harpoonshot_tex
-201500	SkillCastSpeed	Buff	True	perc	10000	0	1.2	連撃			連撃が8回成功時、シールドバレッジの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+201500	StackCounter	Buff	True	seta	10000	0	201550	連撃			連撃が8回成功時、シールドバレッジの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 201550	SkillCastSpeed	Buff	True	perc	10000	0	1.2	連撃			次の攻撃時、シールドバレッジの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 201600	KnockDownChance	Buff	True	perc	6000	0	0	戦線維持 I			効果持続中、ダウン/硬直抵抗が増加します。	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex
 201600	StatusImmune	Buff	True	swch	6000	0	0	戦線維持 I			効果持続中、ダウン/硬直抵抗が増加します。	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex
@@ -1615,7 +1612,7 @@
 301020	HPLoss	Debuff	False	perc	3000	0	0.7	モータルスラッシュ I			デバフ終了時、HPが$H_W_BAD30%$COLOR_END減少します。	icon_skills.cuthead_tex	icon_skills.cuthead_tex
 301030	IncreasedHeal	Debuff	False	perc	10000	0	0.7	フューリーストライク			HP回復効果が$H_W_BAD30%$COLOR_END減少します。	icon_skills.ragingstrike_tex	icon_skills.ragingstrike_tex
 301040	StunResist	Buff	True	perc	5000	0	100000	執念			デバフ【行動不能】抵抗が大幅に上昇します。	icon_skills.tenacity_tex	icon_skills.tenacity_tex
-301100	SkillCastSpeed	Buff	True	perc	10000	0	1.2	連撃			連撃が4回成功時、ホイールウィンドの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+301100	StackCounter	Buff	True	seta	10000	0	301150	連撃			連撃が4回成功時、ホイールウィンドの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 301150	SkillCastSpeed	Buff	True	perc	10000	0	1.2	連撃			次の攻撃時、ホイールウィンドの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 301200	239	Buff	True	perc	4000	0	1	回避 II			4s以内に回避を再度使用できますが、クールタイムが適用されます。	icon_skills.tumbling_tex	icon_skills.tumbling_tex
 400100	Power	Buff	True	perc	22500	0	1.2	フェリーレイジ			力が$H_W_GOOD20%$COLOR_END、クリティカル発生が$H_W_GOOD10%$COLOR_END上昇し、耐久力が$H_W_BAD10%$COLOR_END減少します。	icon_skills.berserk_tex	icon_skills.berserk_tex
@@ -1688,7 +1685,7 @@
 401002	WeakResist	Buff	True	perc	8000	0	1001	モッキングシャウト III			効果持続中、ダウン/硬直状態になりません。状態弱化抵抗が上昇します。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
 401002	KnockDownChance	Buff	True	perc	8000	0	0	モッキングシャウト III			効果持続中、ダウン/硬直状態になりません。状態弱化抵抗が上昇します。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
 401002	StatusImmune	Buff	True	swch	8000	0	0	モッキングシャウト III			効果持続中、ダウン/硬直状態になりません。状態弱化抵抗が上昇します。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
-401100	29	Buff	True	perc	10000	0	1.2	連撃			連撃が4回成功時、チャージ速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+401100	StackCounter	Buff	True	seta	10000	0	401150	連撃			連撃が4回成功時、チャージ速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 401150	29	Buff	True	perc	10000	0	1.2	連撃			次のチャージ攻撃のチャージ速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 401200	StunResist	Buff	True	perc	5000	0	100000	執念			【行動不能】抵抗が大幅に上昇します。	icon_skills.tenacity_tex	icon_skills.tenacity_tex
 401300	275	Buff	True	swch	8000	0	0	イモータルバーサーカー I			効果持続中、攻撃を受けてもHPが1以下になりません。ただし、最大HPを超えるダメージを一度に受けると死亡します。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
@@ -1737,10 +1734,11 @@
 457002	HPChange	Stun	False	perc	20000	2	-0.2	燃え上がれ			ゴーレムの怒りによって、周囲が熱気に包まれます。半径21m以内にいる対象は「熱気」状態になります。	icon_status.firedamage_tex	icon_status.firedamage_tex
 457003	HPChange	Stun	False	perc	20000	2	-0.2	燃え上がれ			ゴーレムの怒りがピークに達し、体に火が付きました。半径3m以内にいる対象は「熱気」状態になります。	icon_status.firedamage_tex	icon_status.firedamage_tex
 457004	HPChange	Stun	True	perc	2000	1	-0.05	熱気			ゴーレムの熱気で体が溶けそうです。	icon_status.firedamage_tex	icon_status.firedamage_tex
+457004	StackCounter	Stun	True	seta	2000	0	457005	熱気			ゴーレムの熱気で体が溶けそうです。	icon_status.firedamage_tex	icon_status.firedamage_tex
 457005	HPChange	Stun	False	perc	20000	2	-0.2	不知火			溶岩の熱気により、体が焼けます。	icon_status.firedamage_tex	icon_status.firedamage_tex
 457006	DelayedEffect	Buff	True	seta	5000	0	457007	焔の華			近づくと「熱気」状態となります。状態異常が解除されると強力な攻撃が広がります。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
 457007	Power	Stun	False	perc	0	0	1	焔の華			近づくと「熱気」状態となります。状態異常が解除されると強力な攻撃が広がります。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
-457011	StunKnockDown	Debuff	False	swch	20000	0	6	爆発の衝撃			魔石の爆発で衝撃を受けました。この効果が重複すると、ダウンする場合があります。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
+457011	StackCounter	Buff	True	seta	10000	0	457012	爆発の衝撃			魔石の爆発で衝撃を受けました。この効果が重複すると、ダウンする場合があります。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
 457012	StunKnockDown	Debuff	False	swch	20000	0	6	ドカン			衝撃を受け続けたことにより、ダウンしました。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 457013	HPChange	Debuff	False	perc	3000	2	0.1	封印剣			封印剣は持続的にHPが回復します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 457015	Stun	Buff	False	swch	1500	0	5	吸収			溶岩怪物が水蒸気を吸収しています。水蒸気を吸収する前に倒しましょう。	icon_skills.paralysistrap_tex	icon_skills.paralysistrap_tex
@@ -1781,7 +1779,7 @@
 457056	HPChange	Debuff	True	perc	3000	1	-10000000	ラカンの呪い			ラカンの呪いを受けました。解除しないと死亡します。	icon_status.delaydamage_tex	icon_status.delaydamage_tex
 460001	MovSpd	Debuff	False	perc	10000	0	1	ボンバーの標的			自爆兵に狙われています。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 460001	MovSpdInCombat	Debuff	False	perc	10000	0	1	ボンバーの標的			自爆兵に狙われています。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
-460003	HPChange	DOT	False	perc	60000	1	-0.05	感電 - オーバーロード			ケリーヴァンの電撃により感電しています。負荷が高まると恐ろしいことになりそうです。水に近づかないように注意してください。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
+460003	StackCounter	Debuff	True	swch	45000	0	460006	感電 - オーバーロード			ケリーヴァンの電撃により感電しています。負荷が高まると恐ろしいことになりそうです。水に近づかないように注意してください。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
 460005	HPChange	DOT	False	perc	60000	1	-0.05	感電ショック			電気ショックにより身体が思うように動きません。	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 460005	Stun	Stun	True	swch	5000	0	5	感電ショック			電気ショックにより身体が思うように動きません。	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 460006	HPChange	DOT	False	perc	60000	1	-0.05	オーバーヒート			感電により、持続的にHPが減少します。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
@@ -1814,7 +1812,7 @@
 468009	Stun	Debuff	True	swch	3000	0	5	貫通			デュリオンの槍に貫かれ動けません。	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 468009	Immune	Debuff	True	seta	3000	0	0	貫通			デュリオンの槍に貫かれ動けません。	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 468010	Stun	Debuff	True	swch	1500	0	5	暗黒の鎖			変身したデュリオンの鎖に捕えられました。	icon_status.positionswap_tex	icon_status.positionswap_tex
-468013	MovSpd	Debuff	True	perc	30000	0	1	注視			完全体デュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+468013	StackCounter	Debuff	True	swch	90000	0	468014	注視			完全体デュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 468014	MovSpd	Debuff	True	perc	30000	0	1	集中注視対象			完全体デュリオンが見つめています。何か嫌な予感がします！	icon_skills.througharrow_tex	icon_skills.througharrow_tex
 468015	Power	Debuff	True	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
 468015	Endurance	Debuff	True	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
@@ -1843,7 +1841,7 @@
 468042	Absorb	Buff	True	abs	30000	0	18500000	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex
 468043	Endurance	Buff	False	perc	0	0	5	黒魔法			デュリオンが邪悪な黒魔法を使い防御力が上昇しています。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 468044	HPChange	Stun	True	perc	160000	1	-0.05	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex
-468044	HPLoss	Debuff	True	abs	10	0	-50000000	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex
+468044	StackCounter	Stun	True	swch	160000	0	98000020	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex
 468047	Power	Buff	True	perc	0	0	10	安定した魔力（フェリーレイジ）			完全体デュリオンが爆発した魔石の魔力を安定化させました。もう彼を止める事はできません！	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 468047	ASpd	Buff	True	perc	0	0	2	安定した魔力（フェリーレイジ）			完全体デュリオンが爆発した魔石の魔力を安定化させました。もう彼を止める事はできません！	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 468048	Stun	Debuff	True	swch	3000	0	5	黒魔法転移			完全体デュリオンの槍に貫かれて身動きがとれません。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
@@ -1974,19 +1972,19 @@
 476615	DefPotion	Debuff	False	perc	30000	0	0.95	ライトニングショック1段階			ライトニングショックを受けました。電気属性の攻撃によるダメージが$H_W_BAD5%$COLOR_END増加します。効果は最大4回まで重複します。	icon_status.electriceffect1_tex	icon_status.electriceffect1_tex
 476616	DefPotion	Debuff	False	perc	30000	0	0.95	ライトニングショック2段階			ライトニングショックを受けました。電気属性の攻撃によるダメージが$H_W_BAD5%$COLOR_END増加します。効果は最大4回まで重複します。	icon_status.electriceffect2_tex	icon_status.electriceffect2_tex
 476617	DefPotion	Debuff	False	perc	30000	0	0.95	ライトニングショック3段階			ライトニングショックを受けました。電気属性の攻撃によるダメージが$H_W_BAD5%$COLOR_END増加します。効果は最大4回まで重複します。	icon_status.electriceffect3_tex	icon_status.electriceffect3_tex
-476618	Endurance	Debuff	False	perc	1000	0	1	ストロングインパクト			気絶状態のため動くことができず、数秒後に全HPの$H_W_BAD60％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	HPChange	Debuff	False	perc	10000	10	-0.6	ストロングインパクト			気絶状態のため動くことができず、数秒後に全HPの$H_W_BAD60％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	Stun	Debuff	False	swch	10000	0	5	ストロングインパクト			気絶状態のため動くことができず、数秒後に全HPの$H_W_BAD60％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	Immune	Debuff	False	16	10000	0	0	ストロングインパクト			気絶状態のため動くことができず、数秒後に全HPの$H_W_BAD60％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
+476618	StackCounter	Debuff	False	swch	10000	0	476619	ストロングインパクト			気絶状態のため動くことができず、数秒後に全HPの$H_W_BAD60％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	StatusImmune	Debuff	False	swch	10000	0	0	ストロングインパクト			気絶状態のため動くことができず、数秒後に全HPの$H_W_BAD60％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476621	HPChange	Buff	True	perc	1000	1	0.2	熟睡			$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD20％$COLOR_ENDが回復します。	icon_status.delayheal_tex	icon_status.delayheal_tex
 476625	DefPotion	Debuff	False	perc	30000	0	0.95	ライトニングショック1段階			ライトニングショックを受けました。攻撃をされるとHPが$H_W_BAD5%$COLOR_END減少します。効果は最大4回まで重複します。	icon_status.electriceffect1_tex	icon_status.electriceffect1_tex
 476626	DefPotion	Debuff	False	perc	30000	0	0.95	ライトニングショック2段階			ライトニングショックを受けました。攻撃をされるとHPが$H_W_BAD5%$COLOR_END減少します。効果は最大4回まで重複します。	icon_status.electriceffect2_tex	icon_status.electriceffect2_tex
 476627	DefPotion	Debuff	False	perc	30000	0	0.95	ライトニングショック3段階			ライトニングショックを受けました。攻撃をされるとHPが$H_W_BAD5%$COLOR_END減少します。効果は最大4回まで重複します。	icon_status.electriceffect3_tex	icon_status.electriceffect3_tex
-476628	Endurance	Debuff	False	perc	1000	0	1	ストロングインパクト			ストロングインパクトによる気絶状態のため動くことができません。また、効果解除後に全HPの$H_W_BAD30％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	HPChange	Debuff	False	perc	5000	5	-0.3	ストロングインパクト			ストロングインパクトによる気絶状態のため動くことができません。また、効果解除後に全HPの$H_W_BAD30％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	Stun	Debuff	False	swch	5000	0	5	ストロングインパクト			ストロングインパクトによる気絶状態のため動くことができません。また、効果解除後に全HPの$H_W_BAD30％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	Immune	Debuff	False	16	5000	0	0	ストロングインパクト			ストロングインパクトによる気絶状態のため動くことができません。また、効果解除後に全HPの$H_W_BAD30％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
+476628	StackCounter	Debuff	False	swch	5000	0	476629	ストロングインパクト			ストロングインパクトによる気絶状態のため動くことができません。また、効果解除後に全HPの$H_W_BAD30％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	StatusImmune	Debuff	False	swch	5000	0	0	ストロングインパクト			ストロングインパクトによる気絶状態のため動くことができません。また、効果解除後に全HPの$H_W_BAD30％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476705	MPChange	DOT	False	perc	30000	1	-0.5	ダゴンの浄化効果			浄化により、$H_W_BAD1s$COLOR_END毎に全MPの$H_W_BAD50％$COLOR_ENDが減少します。この効果は解除できません。	icon_status.purifydagon_tex	icon_status.purifydagon_tex
 476806	HPLoss	Debuff	False	abs	10000	0	-10000000	時空崩壊！			解除しなければ、$H_W_BAD10s$COLOR_END後に死亡します。	icon_status.darkriftdestroy_tex	icon_status.darkriftdestroy_tex
@@ -2202,7 +2200,7 @@
 601310	HPDrain	Debuff	False	perc	5000	0	0.9	アラクノイドアロー I			移動速度が$H_W_BAD20%$COLOR_END減少します。	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex
 601311	MovSpd	Debuff	False	perc	5500	0	0.8	アラクノイドアロー II			移動速度が$H_W_BAD20%$COLOR_END減少します。	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex
 601311	HPDrain	Debuff	False	perc	5500	0	0.9	アラクノイドアロー II			移動速度が$H_W_BAD20%$COLOR_END減少します。	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex
-601400	CastSpeed	Buff	True	perc	10000	0	1.5	アロー			アロー、クイックフィリング、クイックシュート10回成功時、ペネトレーティングアロー、ラバントアローのチャージ速度が上昇します。	icon_skills.arrowshot_tex	icon_skills.focusstance_moveslow_tex
+601400	StackCounter	Buff	True	seta	10000	0	601450	アロー			アロー、クイックフィリング、クイックシュート10回成功時、ペネトレーティングアロー、ラバントアローのチャージ速度が上昇します。	icon_skills.arrowshot_tex	icon_skills.focusstance_moveslow_tex
 601450	CastSpeed	Buff	True	perc	10000	0	1.5	集中			10秒間ペネトレーティングアロー、ラバントアローのチャージ速度が上昇します。	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex
 601500	StunResist	Buff	True	perc	5000	0	80000	執念 I			デバフ【行動不能】抵抗が大幅に上昇します。	icon_skills.tenacity_tex	icon_skills.tenacity_tex
 601600	ForceCrit	Buff	True	seta	8000	0	80000	フェイタルヴィジョン			次の1回目の攻撃のみ、どの位置からでも後方攻撃と等しいダメージを与えます。	icon_skills.weak_point_observed	icon_skills.weak_point_observed
@@ -2402,9 +2400,10 @@
 757002	HPChange	Stun	False	perc	20000	2	-0.2	燃え上がれ			ゴーレムの怒りによって、周囲が熱気に包まれます。半径21m以内にいる対象は「熱気」状態になります。	icon_status.firedamage_tex	icon_status.firedamage_tex
 757003	HPChange	Stun	False	perc	20000	2	-0.2	燃え上がれ			ゴーレムの怒りがピークに達し、体に火が付きました。半径3m以内にいる対象は「熱気」状態になります。	icon_status.firedamage_tex	icon_status.firedamage_tex
 757004	HPChange	Stun	True	perc	2000	1	-0.03	熱気			ゴーレムの熱気で体が溶けそうです。	icon_status.firedamage_tex	icon_status.firedamage_tex
+757004	StackCounter	Stun	True	seta	2000	0	457005	熱気			ゴーレムの熱気で体が溶けそうです。	icon_status.firedamage_tex	icon_status.firedamage_tex
 757005	HPChange	Stun	False	perc	20000	2	-0.1	不知火			溶岩の熱気により、体が焼けます。	icon_status.firedamage_tex	icon_status.firedamage_tex
 757006	DelayedEffect	Buff	True	seta	5000	0	457007	焔の華			近づくと「熱気」状態となります。状態異常が解除されると強力な攻撃が広がります。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
-757011	StunKnockDown	Debuff	False	swch	20000	0	6	爆発の衝撃			魔石の爆発で衝撃を受けました。この効果が重複すると、ダウンする場合があります。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
+757011	StackCounter	Buff	True	seta	10000	0	457012	爆発の衝撃			魔石の爆発で衝撃を受けました。この効果が重複すると、ダウンする場合があります。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
 757012	StunKnockDown	Debuff	False	swch	20000	0	6	ドカン			衝撃を受け続けたことにより、ダウンしました。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 757013	HPChange	Debuff	False	perc	3000	2	0.1	封印剣			封印剣は持続的にHPが回復します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 757015	Stun	Buff	False	swch	1500	0	5	吸収			溶岩怪物が水蒸気を吸収しています。水蒸気を吸収する前に倒しましょう。	icon_skills.paralysistrap_tex	icon_skills.paralysistrap_tex
@@ -2445,7 +2444,7 @@
 760001	MovSpd	Debuff	False	perc	10000	0	1	ボンバーの標的			自爆兵に狙われています。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 760001	MovSpdInCombat	Debuff	False	perc	10000	0	1	ボンバーの標的			自爆兵に狙われています。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 760003	Endurance	Debuff	True	perc	45000	0	1	感電 - オーバーロード			ケリーヴァンの電撃により感電しています。負荷が高まると恐ろしいことになりそうです。水に近づかないように注意してください。 	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
-760003	HPChange	DOT	False	perc	60000	1	-0.05	感電 - オーバーロード			ケリーヴァンの電撃により感電しています。負荷が高まると恐ろしいことになりそうです。水に近づかないように注意してください。 	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
+760003	StackCounter	Debuff	True	swch	45000	0	760006	感電 - オーバーロード			ケリーヴァンの電撃により感電しています。負荷が高まると恐ろしいことになりそうです。水に近づかないように注意してください。 	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
 760005	HPChange	DOT	False	perc	60000	1	-0.05	感電ショック			電気ショックにより身体が思うように動きません。	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 760005	Stun	Stun	True	swch	5000	0	5	感電ショック			電気ショックにより身体が思うように動きません。	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 760006	HPChange	DOT	False	perc	60000	1	-0.05	オーバーロードの衝撃			感電により、持続的にHPが減少します。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
@@ -2479,7 +2478,7 @@
 768009	Stun	Debuff	True	swch	3000	0	5	貫通			デュリオンの槍に貫かれ動けません。	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 768009	Immune	Debuff	True	seta	3000	0	0	貫通			デュリオンの槍に貫かれ動けません。	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 768010	Stun	Debuff	True	swch	1500	0	5	暗黒の鎖			デュリオンの鎖に捕えられました。	icon_status.positionswap_tex	icon_status.positionswap_tex
-768013	MovSpd	Debuff	True	perc	30000	0	1	注視			デュリオンが見ています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+768013	StackCounter	Debuff	True	swch	120000	0	768014	注視			デュリオンが見ています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 768014	MovSpd	Debuff	True	perc	30000	0	1	集中注視対象			デュリオンが見つめています。何か嫌な予感がします！	icon_skills.througharrow_tex	icon_skills.througharrow_tex
 768015	Power	Debuff	True	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
 768015	Endurance	Debuff	True	perc	3600000	0	1.1	暗黒強化			魔石を食べて暗黒守護ゴーレムがさらに強くなりました！	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
@@ -2508,7 +2507,7 @@
 768042	Absorb	Buff	True	abs	30000	0	12000000	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex
 768043	Endurance	Buff	False	perc	0	0	5	黒魔法			デュリオンが邪悪な黒魔法を使い防御力が上昇しています。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 768044	HPChange	Stun	True	perc	160000	1	-0.05	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex
-768044	HPLoss	Debuff	True	abs	10	0	-50000000	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex
+768044	StackCounter	Stun	True	swch	160000	0	98000020	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex
 768047	Power	Buff	True	perc	0	0	10	安定した魔力（フェリーレイジ）			完全体デュリオンが魔石の魔力を覚醒しようとしています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 768047	ASpd	Buff	True	perc	0	0	2	安定した魔力（フェリーレイジ）			完全体デュリオンが魔石の魔力を覚醒しようとしています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 768048	Stun	Debuff	True	swch	3000	0	5	黒魔法転移			完全体デュリオンの槍に貫かれて身動きがとれません。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
@@ -2555,7 +2554,7 @@
 780201	Stun	Stun	False	swch	10000	0	5	気絶			気絶した状態で動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex
 780202	HPChange	DOT	False	perc	60000	2	-0.01	出血			斧に打たれて出血が発生しました。$H_W_BAD2s$COLOR_ENDごとに最大HPの$H_W_BAD1％$COLOR_ENDずつダメージを受けます。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 780203	HPChange	DOT	False	perc	5000	1	-0.1	激しい出血			ヴェルデグの強力な一撃により激しい出血を起こしました。$H_W_BAD1s$COLOR_END毎に最大HPの$H_W_BAD10％$COLOR_ENDずつダメージを受けます。	icon_status.damagedown_tex	icon_status.damagedown_tex
-781001	Power	DOT	True	perc	50000	0	1	ダルカンの種			ダルカンの種が蒔かれました！3重複で種が発芽して配下が召喚されます！この呪いは解除されません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+781001	StackCounter	DOT	True	seta	40000	0	781002	ダルカンの種			ダルカンの種が蒔かれました！3重複で種が発芽して配下が召喚されます！この呪いは解除されません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 781002	Power	DOT	False	perc	10000	0	1	無気力			スキル使用が不可能です。	icon_status.confuseup_tex	icon_status.confuseup_tex
 781002	DelayedEffect	DOT	False	abs	10000	0	781014	無気力			スキル使用が不可能です。	icon_status.confuseup_tex	icon_status.confuseup_tex
 781003	Power	Buff	False	perc	3000	0	1	喜ばしくない魅力			全ての敵があなたを攻撃しようとします！	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -2595,9 +2594,9 @@
 781038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	重圧感			神を相手にしている重圧感のせいで移動速度が低下します！解除可能です。	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 781040	HPChange	DOT	True	perc	120000	1	-0.07	苦痛			神の攻撃で体力が持続的に減少致します。	icon_status.firedamage_tex	icon_status.firedamage_tex
 781041	Power	DOT	True	perc	120000	0	1	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
-781041	HPChange	DOT	True	seta	1500	1	-300000	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
+781041	StackCounter	DOT	True	seta	120000	0	781044	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 781042	Power	DOT	True	perc	120000	0	1	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
-781042	HPChange	DOT	True	seta	1500	1	-300000	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
+781042	StackCounter	DOT	True	seta	120000	0	781044	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 781044	HPChange	DOT	True	seta	1500	1	-300000	予定された死			ラカンの強力な攻撃を受けました。まもなく死亡します。	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 781051	271	Buff	True	swch	2000	0	61902002	自爆			ラカンの攻撃を受けてしばらくすると爆発します。	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex
 781052	Power	Buff	True	perc	0	0	1.4	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex
@@ -2624,7 +2623,7 @@
 781087	HPDrain	Debuff	True	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex
 781087	Stun	Debuff	True	swch	30000	0	5	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex
 781087	295	Debuff	True	swch	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex
-781088	MovSpd	Debuff	True	perc	30000	0	1	注視			復活のデュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+781088	StackCounter	Debuff	True	swch	90000	0	781083	注視			復活のデュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 781089	Power	Buff	False	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 781089	ASpd	Buff	False	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 781090	Absorb	Buff	True	abs	6000000	0	30794400	内面のバリア			ラカンが内面世界に転換し、プレイヤーの攻撃を防御するバリアを生成しました。	icon_status.balanceup_tex	icon_status.balanceup_tex
@@ -2887,7 +2886,7 @@
 905616	Stun	Buff	False	swch	4000	0	5	空間移動後遺症			テレポートの後遺症によって精神的に混乱してしまいます。	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex
 905623	Power	Buff	False	perc	600000	0	1.5	サンダーチャージ！！			クーマスが雷を吸収して強くなります。		
 905624	HPChange	Buff	False	perc	120000	3	-0.125	サンダーチャージ！！			強力な雷によって、$H_W_BAD3s$COLOR_END毎に全HPの$H_W_BAD12.5％$COLOR_ENDが減少します。再度、雷を受けると「オーバーチャージ」状態になります。		
-905624	Stun	Buff	False	swch	5000	0	5	サンダーチャージ！！			強力な雷によって、$H_W_BAD3s$COLOR_END毎に全HPの$H_W_BAD12.5％$COLOR_ENDが減少します。再度、雷を受けると「オーバーチャージ」状態になります。		
+905624	StackCounter	Buff	False	seta	120000	0	905625	サンダーチャージ！！			強力な雷によって、$H_W_BAD3s$COLOR_END毎に全HPの$H_W_BAD12.5％$COLOR_ENDが減少します。再度、雷を受けると「オーバーチャージ」状態になります。		
 905625	HPChange	Buff	False	perc	60000	3	-0.3	オーバーチャージ			体内に膨大な電気が蓄積されています。周辺にいるプレイヤーはスタン状態になります。		
 905625	Stun	Buff	False	swch	5000	0	5	オーバーチャージ			体内に膨大な電気が蓄積されています。周辺にいるプレイヤーはスタン状態になります。		
 905626	Stun	Buff	False	swch	5000	0	5	感電			オーバーチャージによりスタンしています。		
@@ -2944,23 +2943,23 @@
 905932	Endurance	Buff	True	perc	0	0	0.65	狂暴化			悪霊の力により、バーンスタインの力と攻撃速度が限界まで引き上げられている。耐久力が$H_W_BAD35%$COLOR_END減少します。	icon_skills.berserk_tex	icon_skills.berserk_tex
 905932	ASpd	Buff	True	perc	0	0	1.8	狂暴化			悪霊の力により、バーンスタインの力と攻撃速度が限界まで引き上げられている。耐久力が$H_W_BAD35%$COLOR_END減少します。	icon_skills.berserk_tex	icon_skills.berserk_tex
 905933	Endurance	DOT	True	perc	90000	0	0.7	ラクドスの呪い			$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD8%$COLOR_END減少し、3回重複すると死亡します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905933	ASpd	DOT	False	perc	1000	0	1	ラクドスの呪い			$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD8%$COLOR_END減少し、3回重複すると死亡します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905933	HPChange	DOT	True	perc	90000	2	-0.08	ラクドスの呪い			$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD8%$COLOR_END減少し、3回重複すると死亡します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905933	HPLoss	Buff	True	abs	1000	0	-120000	ラクドスの呪い			$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD8%$COLOR_END減少し、3回重複すると死亡します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905933	StackCounter	DOT	True	seta	90000	0	905931	ラクドスの呪い			$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD8%$COLOR_END減少し、3回重複すると死亡します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905934	HPChange	Buff	True	perc	5000	1	-0.07	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	IncreasedHeal	Buff	True	swch	5000	0	0	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Block	Buff	True	swch	5000	0	0	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	DelayedEffect	Buff	True	seta	5000	0	905929	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Drunk	Buff	True	905901	5000	0	0	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Immune	Buff	True	17	5000	0	0	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
+905934	StackCounter	Buff	True	swch	5000	0	905943	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905935	Drunk	Buff	True	905902	1000	0	0	伝播					
 905936	DelayedEffect	Buff	True	abs	15000	1	905935	幽霊解除					
 905939	IncreasedHeal	Debuff	False	swch	3000	0	0.75	闇の破片（2段階）			2回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
-905939	Immune	Debuff	True	25	3000	0	0	闇の破片（2段階）			2回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+905939	StackCounter	Debuff	False	seta	3000	0	905942	闇の破片（2段階）			2回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905940	IncreasedHeal	Debuff	False	swch	3000	0	0.75	闇の破片（3段階）			3回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
-905940	Immune	Debuff	True	25	3000	0	0	闇の破片（3段階）			3回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+905940	StackCounter	Debuff	False	seta	3000	0	905942	闇の破片（3段階）			3回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905941	IncreasedHeal	Debuff	False	swch	3000	0	0.75	闇の破片（4段階）			4回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
-905941	Immune	Debuff	True	25	3000	0	0	闇の破片（4段階）			4回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+905941	StackCounter	Debuff	False	seta	3000	0	905942	闇の破片（4段階）			4回重複すると闇の障壁の効果が発生します。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905942	Absorb	Debuff	True	swch	3000	0	300000	闇の障壁			ラクドスの攻撃から守られています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 905942	Immune	Debuff	True	25	3000	0	0	闇の障壁			ラクドスの攻撃から守られています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 905945	MaxHP	Debuff	True	abs	1000	0	1	幽霊島の亡霊			持続的にHPが$H_W_BAD8%$COLOR_END減少します。ただし、特定の攻撃に対して免疫を持ちます。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
@@ -2968,7 +2967,7 @@
 905949	HPChange	DOT	True	perc	15000	1	-0.02	バーンスタインの呪い			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。バーンスタインの呪いは解除できません。	icon_status.firedamage_tex	icon_status.firedamage_tex
 905950	Endurance	DOT	True	perc	90000	0	0.7	バーンスタインの呪い			$H_W_BAD2s$COLOR_END毎に全体HPに対して $H_W_BAD2%$COLOR_ENDに達するHPが持続的に減少します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905950	HPChange	DOT	True	perc	90000	2	-0.1	バーンスタインの呪い			$H_W_BAD2s$COLOR_END毎に全体HPに対して $H_W_BAD2%$COLOR_ENDに達するHPが持続的に減少します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905950	HPLoss	Buff	True	abs	1000	0	-120000	バーンスタインの呪い			$H_W_BAD2s$COLOR_END毎に全体HPに対して $H_W_BAD2%$COLOR_ENDに達するHPが持続的に減少します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905950	StackCounter	DOT	True	seta	90000	0	905931	バーンスタインの呪い			$H_W_BAD2s$COLOR_END毎に全体HPに対して $H_W_BAD2%$COLOR_ENDに達するHPが持続的に減少します。この効果は解除できません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905951	Immune	Debuff	True	25	2000	0	0	無敵			無敵	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 905952	MovSpd	Debuff	False	perc	5000	0	0.1	悪霊の手			悪霊に掴まれました。移動速度が$H_W_BAD90%$COLOR_END減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex
 905952	HPDrain	Debuff	False	perc	5000	0	0.9	悪霊の手			悪霊に掴まれました。移動速度が$H_W_BAD90%$COLOR_END減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex
@@ -3003,11 +3002,11 @@
 950009	MovSpdInCombat	Buff	True	perc	0	0	1.5	ヴェリックの祝福			移動速度が$H_W_GOOD50％$COLOR_END増加します。 ランサーのガーディアンシャウト、ガードプロミスの効果範囲が$H_W_GOOD10m$COLOR_END増加します。エレメンタリストのすべてのオーラスキル効果範囲が$H_W_GOOD20m$COLOR_END増加します。	icon_status.lightweight_tex	icon_status.lightweight_tex
 950009	314	Buff	True	abs	0	0	2.002002002012002E+29	ヴェリックの祝福			移動速度が$H_W_GOOD50％$COLOR_END増加します。 ランサーのガーディアンシャウト、ガードプロミスの効果範囲が$H_W_GOOD10m$COLOR_END増加します。エレメンタリストのすべてのオーラスキル効果範囲が$H_W_GOOD20m$COLOR_END増加します。	icon_status.lightweight_tex	icon_status.lightweight_tex
 950009	315	Buff	True	seta	0	0	100000000	ヴェリックの祝福			移動速度が$H_W_GOOD50％$COLOR_END増加します。 ランサーのガーディアンシャウト、ガードプロミスの効果範囲が$H_W_GOOD10m$COLOR_END増加します。エレメンタリストのすべてのオーラスキル効果範囲が$H_W_GOOD20m$COLOR_END増加します。	icon_status.lightweight_tex	icon_status.lightweight_tex
-950013	HPChange2	DOT	True	abs	500	0	-200000	アガレスの呪い			アガレスから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.whiteaura_tex	icon_status.whiteaura_tex
-950015	HPChange2	DOT	True	abs	500	0	-200000	グラドリムの呪い			グラドリムから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.redaura_tex	icon_status.redaura_tex
-950017	HPChange2	DOT	True	abs	500	0	-200000	サブナクの呪い			サブナクから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.orangeaura_tex	icon_status.orangeaura_tex
-950019	HPChange2	DOT	True	abs	500	0	-200000	サレオスの呪い			サレオスから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex
-950023	MovSpd	Debuff	True	perc	30000	0	1	ベルゴスの威圧			ベルゴスに睨まれました。ベルゴスの威圧が6重複すれば、ベルゴスの恐怖效果にかかり恐ろしい事が起きます。	icon_status.vergosfocus_tex	icon_status.vergosfocus_tex
+950013	StackCounter	Debuff	True	swch	700000	0	950011	アガレスの呪い			アガレスから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.whiteaura_tex	icon_status.whiteaura_tex
+950015	StackCounter	Debuff	True	swch	700000	0	950011	グラドリムの呪い			グラドリムから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.redaura_tex	icon_status.redaura_tex
+950017	StackCounter	Debuff	True	swch	700000	0	950011	サブナクの呪い			サブナクから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.orangeaura_tex	icon_status.orangeaura_tex
+950019	StackCounter	Debuff	True	swch	700000	0	950011	サレオスの呪い			サレオスから不吉なオーラが出てます。呪いが10重複すると死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex
+950023	StackCounter	Debuff	True	swch	150000	0	950038	ベルゴスの威圧			ベルゴスに睨まれました。ベルゴスの威圧が6重複すれば、ベルゴスの恐怖效果にかかり恐ろしい事が起きます。	icon_status.vergosfocus_tex	icon_status.vergosfocus_tex
 950035	AllResist	Buff	True	perc	18000	0	3.87E-09	大地の加護			サレオスが大地の力を借りて自身を強化、守護します。サレオスを守護する石を破壊し、気絶させて強化を防いでください。	icon_status.earthblessing_tex	icon_status.earthblessing_tex
 950035	Absorb	Buff	True	abs	18000	0	2100000000	大地の加護			サレオスが大地の力を借りて自身を強化、守護します。サレオスを守護する石を破壊し、気絶させて強化を防いでください。	icon_status.earthblessing_tex	icon_status.earthblessing_tex
 950035	Immune	Buff	True	8	18000	0	0	大地の加護			サレオスが大地の力を借りて自身を強化、守護します。サレオスを守護する石を破壊し、気絶させて強化を防いでください。	icon_status.earthblessing_tex	icon_status.earthblessing_tex
@@ -3035,16 +3034,17 @@
 950107	Stun	Stun	True	swch	30000	0	5	燃える石			燃える石に閉じ込められました。一定時間が過ぎると爆発し、全領域に大きなダメージを与えます。	icon_status.rock_tex	icon_status.rock_tex
 950107	DelayedEffect	Stun	True	swch	30000	0	950138	燃える石			燃える石に閉じ込められました。一定時間が過ぎると爆発し、全領域に大きなダメージを与えます。	icon_status.rock_tex	icon_status.rock_tex
 950110	209	Buff	True	perc	0	0	0	連続発射準備完了			連続発射スキル使用が可能です。	icon_status.shotarrowblindly_tex	icon_status.shotarrowblindly_tex
-950113	Endurance	DOT	True	perc	0	0	1	連続発射準備			連続発射を準備します。	icon_status.shotarrow_tex	icon_status.shotarrow_tex
-950113	209	Buff	True	perc	0	0	0	連続発射準備			連続発射を準備します。	icon_status.shotarrow_tex	icon_status.shotarrow_tex
-950138	HPChange	Debuff	True	perc	3000	1	-10000000	閉所恐怖症			再び石に閉じ込まれると窒息して死亡するかもしれません。	icon_status.vergoscurse_tex	icon_status.vergoscurse_tex
+950113	StackCounter	Buff	True	swch	0	0	950110	連続発射準備			連続発射を準備します。	icon_status.shotarrow_tex	icon_status.shotarrow_tex
+950138	StackCounter	Debuff	True	seta	420000	0	950189	閉所恐怖症			再び石に閉じ込まれると窒息して死亡するかもしれません。	icon_status.vergoscurse_tex	icon_status.vergoscurse_tex
 950140	HPChange	DOT	False	perc	8000	2	-0.15	火球の破片			体の全身に火球の破片がくっつきました。HPが持続的に減少します。	icon_status.scald_tex	icon_status.scald_tex
 950163	ASpd	Buff	True	perc	10000	0	1.2	高まる闘志			闘志が高まり攻撃速度が20％増加し、スキルクールタイムが50％減少します。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950163	CDR	Buff	True	swch	10000	0	0.5	高まる闘志			闘志が高まり攻撃速度が20％増加し、スキルクールタイムが50％減少します。	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950164	DefPotion	Debuff	True	perc	9000	0	0.1	粉塵			粉塵を被りました。一定時間が過ぎると、粉塵により窒息して死亡します。また、ベルゴスの粉塵攻撃に当たると窒息して即時死亡します。ベルゴスの火炎攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950164	DelayedEffect	Debuff	True	swch	9000	0	950198	粉塵			粉塵を被りました。一定時間が過ぎると、粉塵により窒息して死亡します。また、ベルゴスの粉塵攻撃に当たると窒息して即時死亡します。ベルゴスの火炎攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950164	StackCounter	Debuff	True	swch	9000	0	950198	粉塵			粉塵を被りました。一定時間が過ぎると、粉塵により窒息して死亡します。また、ベルゴスの粉塵攻撃に当たると窒息して即時死亡します。ベルゴスの火炎攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950165	DefPotion	Debuff	True	perc	9000	0	0.1	火炎			粉塵を被りました。一定時間が過ぎると、粉塵により爆発します。また、ベルゴスの火炎攻撃や打ち下ろす攻撃に当たると爆発します。ベルゴスの粉塵攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950165	DelayedEffect	Debuff	True	swch	9000	0	950199	火炎			粉塵を被りました。一定時間が過ぎると、粉塵により爆発します。また、ベルゴスの火炎攻撃や打ち下ろす攻撃に当たると爆発します。ベルゴスの粉塵攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosflame_tex	icon_status.vergosflame_tex
+950165	StackCounter	Debuff	True	swch	9000	0	950199	火炎			粉塵を被りました。一定時間が過ぎると、粉塵により爆発します。また、ベルゴスの火炎攻撃や打ち下ろす攻撃に当たると爆発します。ベルゴスの粉塵攻撃に当たると爆発し、状態が解除されます。	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950168	Endurance	Buff	True	perc	0	0	100	凶暴化			ベルゴスが凶暴化し、力と攻撃速度、防御力が飛躍的に増加します。	icon_status.summonvergos_tex	icon_status.summonvergos_tex
 950168	Attack	Buff	True	perc	0	0	10	凶暴化			ベルゴスが凶暴化し、力と攻撃速度、防御力が飛躍的に増加します。	icon_status.summonvergos_tex	icon_status.summonvergos_tex
 950168	ASpd	Buff	True	perc	0	0	2	凶暴化			ベルゴスが凶暴化し、力と攻撃速度、防御力が飛躍的に増加します。	icon_status.summonvergos_tex	icon_status.summonvergos_tex
@@ -3084,17 +3084,16 @@
 950436	295	Stun	True	swch	30000	0	0	大地の岩			大地の岩に閉じ込められました。一定時間が過ぎると爆発し、広範囲にわたって大きなダメージを与えます。	icon_status.rock_tex	icon_status.rock_tex
 950513	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮			ベルゴスが自分の甲皮に魔力を集中させました。重複ごとに防御力が10％ずつ、攻撃速度が20％ずつ増加します。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950513	ASpd	Buff	True	perc	60000	0	1.2	魔力甲皮			ベルゴスが自分の甲皮に魔力を集中させました。重複ごとに防御力が10％ずつ、攻撃速度が20％ずつ増加します。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
-950514	Endurance	Buff	True	perc	60000	0	1.1	魔力甲皮生成			ベルゴスが自分の甲皮に魔力を集中させています。解除してください。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950514	DelayedEffect	Debuff	True	swch	3000	0	950513	魔力甲皮生成			ベルゴスが自分の甲皮に魔力を集中させています。解除してください。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
-950514	Drunk1	Buff	True	seta	1300	0	0	魔力甲皮生成			ベルゴスが自分の甲皮に魔力を集中させています。解除してください。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	StackCounter	Debuff	True	seta	3000	0	950513	魔力甲皮生成			ベルゴスが自分の甲皮に魔力を集中させています。解除してください。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950515	Endurance	Buff	True	perc	0	0	1.7	最後の抵抗			ベルゴスが全力で抵抗しています。攻撃速度が40％増加し、防御力が70％増加します。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950515	ASpd	Buff	True	perc	0	0	1.4	最後の抵抗			ベルゴスが全力で抵抗しています。攻撃速度が40％増加し、防御力が70％増加します。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950516	Endurance	DOT	True	perc	1	0	1	火炎の渦			間もなく火炎に巻き込まれます。	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950516	DelayedEffect	Debuff	True	swch	7000	0	950064	火炎の渦			間もなく火炎に巻き込まれます。	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950517	Endurance	DOT	True	perc	1	0	1	粉塵の渦			間もなく粉塵に巻き込まれます。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950517	DelayedEffect	Debuff	True	swch	7000	0	950065	粉塵の渦			間もなく粉塵に巻き込まれます。	icon_status.vergosdust_tex	icon_status.vergosdust_tex
-950518	Endurance	Buff	True	perc	1000	0	1	前足の傷			ベルゴスの前足により、傷を負いました。もう一度同じ攻撃を受けると爆発します。	icon_status.damageup_tex	icon_status.damageup_tex
-950519	Endurance	Buff	True	perc	1000	0	1	後足の傷			ベルゴスの後ろ足により、傷を負いました。もう一度同じ攻撃を受けると爆発します。	icon_status.damagedown_tex	icon_status.damagedown_tex
+950518	StackCounter	Debuff	True	abs	300000	0	950502	前足の傷			ベルゴスの前足により、傷を負いました。もう一度同じ攻撃を受けると爆発します。	icon_status.damageup_tex	icon_status.damageup_tex
+950519	StackCounter	Debuff	True	abs	300000	0	950502	後足の傷			ベルゴスの後ろ足により、傷を負いました。もう一度同じ攻撃を受けると爆発します。	icon_status.damagedown_tex	icon_status.damagedown_tex
 950600	Power	Buff	True	abs	0	0	23	女神の加護			より強力な女神ヴェリックの加護を感じます。	icon_skills.tranquility_tex	icon_skills.tranquility_tex
 950600	Endurance	Buff	True	abs	0	0	23	女神の加護			より強力な女神ヴェリックの加護を感じます。	icon_skills.tranquility_tex	icon_skills.tranquility_tex
 975029	HPChange	Buff	True	perc	6000	0	0.03	ヴェリックパワー			力とクリティカル率が上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex
@@ -3129,7 +3128,7 @@
 980204	DelayedEffect	Buff	True	perc	6000	0	980205	燃え上がる武器			ヴェルデグが$H_W_BAD強力な攻撃$COLOR_ENDの準備をします。妨害をしなければ全てが破壊されてしまいます。	icon_skills.downattack_tex	icon_skills.downattack_tex
 980205	Power	Buff	False	setp	15000	0	3	燃え上がる怒り			ヴェルデグの憤怒により全てを破壊し尽します。$H_W_BAD諦めてください。$COLOR_END	icon_skills.dragonrisingblow_tex	icon_skills.dragonrisingblow_tex
 980206	HPChange	DOT	True	perc	15000	2	-0.1	恐ろしい苦痛			火炎放出による火傷が治りません。$H_W_BAD2s$COLOR_END毎に最大HPの$H_W_BAD10％$COLOR_ENDずつダメージを受けます。	icon_status.firedamage_tex	icon_status.firedamage_tex
-981001	Power	DOT	True	perc	50000	0	1	ダルカンの種			ダルカンの種が蒔かれました！3重複で種が発芽して配下が召喚されます！この呪いは解除されません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+981001	StackCounter	DOT	True	seta	40000	0	981002	ダルカンの種			ダルカンの種が蒔かれました！3重複で種が発芽して配下が召喚されます！この呪いは解除されません。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 981002	Power	DOT	False	perc	10000	0	1	無気力			スキル使用が不可能です。	icon_status.confuseup_tex	icon_status.confuseup_tex
 981002	DelayedEffect	DOT	False	abs	10000	0	981014	無気力			スキル使用が不可能です。	icon_status.confuseup_tex	icon_status.confuseup_tex
 981003	Power	Buff	False	perc	3000	0	1	喜ばしくない魅力			全ての敵があなたを攻撃しようとします！	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -3170,9 +3169,9 @@
 981038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	重圧感			神を相手にしている重圧感のせいで移動速度が低下します！解除できます！	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 981040	HPChange	DOT	True	perc	120000	1	-0.07	苦痛			神の攻撃で体力が持続的に減少致します。	icon_status.firedamage_tex	icon_status.firedamage_tex
 981041	Power	DOT	True	perc	120000	0	1	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
-981041	HPChange	DOT	True	seta	1500	1	-300000	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
+981041	StackCounter	DOT	True	seta	120000	0	981044	赤味			赤味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 981042	Power	DOT	True	perc	120000	0	1	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
-981042	HPChange	DOT	True	seta	1500	1	-300000	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
+981042	StackCounter	DOT	True	seta	120000	0	981044	青味			青味異常状態にかかりました。2重複すると死亡します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 981044	HPChange	DOT	True	seta	1500	1	-300000	予定された死			ラカンの強力な攻撃を受けました。貴様は既に死んでいる。	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 981051	271	Buff	True	swch	2000	0	61902002	自爆			ラカンの攻撃を受けてしばらくすると爆発します。	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex
 981052	Power	Buff	True	perc	0	0	1.4	均衡			調和している状況を見たラカンが満足します。攻撃力、防御力、攻撃速度が上昇します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex
@@ -3199,7 +3198,7 @@
 981087	HPDrain	Debuff	True	setp	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex
 981087	Stun	Debuff	True	swch	30000	0	5	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex
 981087	295	Debuff	True	swch	30000	0	0	暗黒覇気			復活のデュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex
-981088	MovSpd	Debuff	True	perc	30000	0	1	注視			復活のデュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+981088	StackCounter	Debuff	True	swch	90000	0	981083	注視			復活のデュリオンが見つめています。不吉です。	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 981089	Power	Buff	False	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 981089	ASpd	Buff	False	perc	990000000	0	1.03	不安定な魔力			復活のデュリオンがラカンの力を借りて、魔力を爆発させました。復活のデュリオンの攻撃力、攻撃速度がさらに増加し、不安定な魔力に包まれます。もし、魔力を安定化する隙を与えてしまうと、防ぐ術がありません。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 981090	Absorb	Buff	True	abs	6000000	0	54172800	内面のバリア			ラカンが内面世界に転換し、プレイヤーの攻撃を防御するバリアを生成しました。	icon_status.balanceup_tex	icon_status.balanceup_tex
@@ -3414,8 +3413,8 @@
 7101000	ASpd	Debuff	True	perc	600000	0	1.1	魔力凝縮			力強い魔力を凝縮して力と攻撃速度が増加します。この状態異常は解除できないです。		
 7101008	Power	Buff	True	perc	600000	0	1.05	火と雷のオーラ			ゴルゴスが属性のオーラを纏い、自身の攻撃力を上昇させました。	icon_status.darkriftgravity_tex	icon_status.darkriftgravity_tex
 7102000	Endurance	Debuff	True	perc	40000	0	1	この場所は危険です！！			不吉な魔力のオーラが身を包みます。急いでここから離れてください。回復量が$H_W_BAD30％$COLOR_END減少し、$H_W_BAD5$COLOR_END重複時に何かよくない事が起こります。		
-7102000	HPChange	DOT	True	perc	6000	1	-0.5	この場所は危険です！！			不吉な魔力のオーラが身を包みます。急いでここから離れてください。回復量が$H_W_BAD30％$COLOR_END減少し、$H_W_BAD5$COLOR_END重複時に何かよくない事が起こります。		
 7102000	IncreasedHeal	Debuff	True	perc	40000	0	0.3	この場所は危険です！！			不吉な魔力のオーラが身を包みます。急いでここから離れてください。回復量が$H_W_BAD30％$COLOR_END減少し、$H_W_BAD5$COLOR_END重複時に何かよくない事が起こります。		
+7102000	StackCounter	Debuff	True	swch	40000	0	7102001	この場所は危険です！！			不吉な魔力のオーラが身を包みます。急いでここから離れてください。回復量が$H_W_BAD30％$COLOR_END減少し、$H_W_BAD5$COLOR_END重複時に何かよくない事が起こります。		
 7102001	MovSpd	DOT	True	perc	6000	0	0.5	魔力噴出			力強い魔力に充てられ体がもちません。毎秒$H_W_BAD50％$COLOR_ENDのHPが減少します。		
 7102001	HPDrain	DOT	True	perc	6000	0	0.9	魔力噴出			力強い魔力に充てられ体がもちません。毎秒$H_W_BAD50％$COLOR_ENDのHPが減少します。		
 7102001	HPChange	DOT	True	perc	6000	1	-0.5	魔力噴出			力強い魔力に充てられ体がもちません。毎秒$H_W_BAD50％$COLOR_ENDのHPが減少します。		
@@ -3450,6 +3449,7 @@
 7691007	Power	Buff	True	perc	600000	0	1.1	凶暴化			リリスがエネルギーを吸収し、攻撃力が$H_W_GOOD10％$COLOR_END増加します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 7691011	MovSpd	Debuff	True	setp	5000	0	0.5	スロー			移動速度が$H_W_BAD50％$COLOR_END減少します。この異常状態は解除できません。	icon_status.minusmove_tex	icon_status.minusmove_tex
 7691012	DelayedEffect	DOT	False	swch	5000	0	7691013	リリスの呪い			リリスの呪いが発生しました。時間内に解除できないと即死します。	icon_status.minuswill_tex	icon_status.minuswill_tex
+7691014	StackCounter	Debuff	True	swch	90000	0	7691015	意志の弱さ			リリスの幻惑に対する耐性が弱くなります。5重複時、何かよくないことが起こりそうです。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 7691015	Stun	Debuff	True	swch	10000	0	5	幻惑			リリスに幻惑されました。間もなく、恐ろしい事が起こります。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 7691015	HPLoss	Debuff	True	abs	10000	0	-50000000	幻惑			リリスに幻惑されました。間もなく、恐ろしい事が起こります。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 7691016	Stun	Debuff	True	swch	12000	0	5	エネルギー吸収			リリスの魅惑に惑わされました。行動することができません。	icon_status.minusfocus_tex	icon_status.minusfocus_tex
@@ -3583,11 +3583,11 @@
 8000087	XPBoost	Buff	True	perc	259200000	1	2	高速成長100（3日）	139180	高速成長100（3日）	3日間、狩りの獲得経験値が100％増加します。接続を終了しても残り時間は減少します。	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex
 8000088	42	Buff	True	perc	259200000	1	2	信頼の証票100（3日）	139184	信頼の証票100（3日）	3日間、獲得する信用数値と信用ポイントが100％増加します。ただし、戦場信用数値と戦場信用ポイントには適用されません。接続を終了しても残り時間は減少します。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex
 8000683	HPChange	Buff	True	perc	3000	1	0.5	入場した時回復せる異常状態見えたらいけない！バグ！			入場した時回復せる異常状態見えたらいけない！バグ！		
-8000684	Power	Debuff	False	abs	900000	0	0	雪だるまの呪い			スタート地点から動かない人に雪だるまが呪いを掛けます。スタート地点から降りると、15秒後に呪いが解除されます。13回重複すると、雪だるまに変わって、死亡します。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
-8000685	Power	Debuff	False	abs	900000	0	0	雪だるまの呪い			雪だるまに変わりました！間もなく死亡します！ 戦場で放置は厳禁です。	icon_status.firedamage_tex	icon_status.firedamage_tex
+8000684	StackCounter	Debuff	False	seta	15000	0	8000685	雪だるまの呪い			スタート地点から動かない人に雪だるまが呪いを掛けます。スタート地点から降りると、15秒後に呪いが解除されます。13回重複すると、雪だるまに変わって、死亡します。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	雪だるまの呪い			雪だるまに変わりました！間もなく死亡します！ 戦場で放置は厳禁です。	icon_status.firedamage_tex	icon_status.firedamage_tex
 8000685	191	Debuff	False	perc	60000	0	0	雪だるまの呪い			雪だるまに変わりました！間もなく死亡します！ 戦場で放置は厳禁です。	icon_status.firedamage_tex	icon_status.firedamage_tex
 8000685	Stun	Debuff	False	swch	60000	0	5	雪だるまの呪い			雪だるまに変わりました！間もなく死亡します！ 戦場で放置は厳禁です。	icon_status.firedamage_tex	icon_status.firedamage_tex
+8000685	StackCounter	Debuff	False	seta	60000	0	8000686	雪だるまの呪い			雪だるまに変わりました！間もなく死亡します！ 戦場で放置は厳禁です。	icon_status.firedamage_tex	icon_status.firedamage_tex
 8000711	MovSpd	Debuff	False	seta	10000	0	0	ネバネバ			ベタベタ地雷の効果により、移動できません。	icon_status.minusmove_tex	icon_status.minusmove_tex
 8000711	HPDrain	Debuff	False	perc	10000	0	0.9	ネバネバ			ベタベタ地雷の効果により、移動できません。	icon_status.minusmove_tex	icon_status.minusmove_tex
 8000712	Block	Stun	False	swch	10000	0	5	ヘロヘロ			メロメロ地雷の効果により、攻撃スキルを使用できません。	icon_skills.paralysistrap_tex	icon_skills.paralysistrap_tex
@@ -3618,6 +3618,7 @@
 9691006	Stun	Stun	True	swch	15000	0	5	無気力			体に力が入りません。どの行動もとることができません。	icon_skills.stoneshape_tex	icon_skills.stoneshape_tex
 9691007	Power	Buff	True	perc	600000	0	1.1	凶暴化			リリスがエネルギーを吸収し、攻撃力が$H_W_GOOD10％$COLOR_END増加します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 9691011	MovSpd	Debuff	True	setp	5000	0	0.5	スロー			移動速度が$H_W_BAD50％$COLOR_END減少します。この異常状態は解除できません。	icon_status.minusmove_tex	icon_status.minusmove_tex
+9691014	StackCounter	Debuff	True	swch	90000	0	9691015	意志の弱さ			リリスの幻惑に対する耐性が弱くなります。5重複時、何かよくないことが起こりそうです。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 9691015	Stun	Debuff	True	swch	10000	0	5	幻惑			リリスに幻惑されました。間もなく、恐ろしい事が起こります。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 9691015	HPLoss	Debuff	True	abs	10000	0	-50000000	幻惑			リリスに幻惑されました。間もなく、恐ろしい事が起こります。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 9691016	Stun	Debuff	True	swch	12000	0	5	エネルギー吸収			リリスの魅惑に惑わされました。行動することができません。	icon_status.minusfocus_tex	icon_status.minusfocus_tex
@@ -3823,7 +3824,7 @@
 10155036	CritChance	Buff	True	perc	0	0	1.2	満月			満月の2打目の攻撃ダメージが重複毎に10％、クリティカル発生率が0.2倍ずつ増加します。	icon_skills.fullmoon_tex	icon_skills.fullmoon_tex
 10155037	AtkPotion	Buff	True	perc	0	0	1.1	満月			満月の2打目の攻撃ダメージが重複毎に10％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex	icon_skills.fullmoon_red_tex
 10155037	CritChance	Buff	True	perc	0	0	1.3	満月			満月の2打目の攻撃ダメージが重複毎に10％、クリティカル発生率が0.3倍ずつ増加します。	icon_skills.fullmoon_tex	icon_skills.fullmoon_red_tex
-10155040	Stun	Stun	False	swch	3000	0	5	ピアーズスパイク			強烈な突き攻撃により出血が発生します。6重複すると破裂効果が付与され、対象は気絶します。	icon_skills.brust_tex	icon_items.vicious_red_blood_tex
+10155040	StackCounter	Stun	False	abs	1000	0	10155041	ピアーズスパイク			強烈な突き攻撃により出血が発生します。6重複すると破裂効果が付与され、対象は気絶します。	icon_skills.brust_tex	icon_items.vicious_red_blood_tex
 10155041	Stun	Stun	False	swch	3000	0	5	破裂			出血過多によりしばらく気絶します。	icon_skills.brust_tex	icon_skills.brust_tex
 10155070	ReloadingSkill	Buff	True	swch	5000	0	13007	エアストライク連係			もう一度「エアストライク」を使用できます。	icon_skills.helicoptercuts_tex	icon_skills.helicoptercuts_tex
 10155071	ReloadingSkill	Buff	True	swch	5000	0	13007	エアストライク連係			もう一度「エアストライク」を使用できます。使用時にクールタイムが適用されます。	icon_skills.helicoptercuts_tex	icon_skills.helicoptercuts_tex
@@ -4274,7 +4275,7 @@
 47662120	ASpd	Buff	True	perc	86400000	0	1.05	潤滑油			攻撃速度が$H_W_GOOD5%$COLOR_END上昇します。効果は最大3回まで重複します。	icon_status.plusmove_tex	icon_status.plusmove_tex
 47662130	AtkPotion	Buff	True	perc	30000	0	2	完璧な機械			全てのダメージを受け付けません。また、スキルダメージが$H_W_GOOD100%$COLOR_END増加します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 47662130	Immune	Buff	True	seta	30000	0	0	完璧な機械			全てのダメージを受け付けません。また、スキルダメージが$H_W_GOOD100%$COLOR_END増加します。	icon_status.plusattack_tex	icon_status.plusattack_tex
-47662140	HPChange	Buff	True	perc	1000	1	0.2	Zzz……………			効果が10回重複すると、熟睡します。	icon_status.sleepstatus_tex	icon_status.sleepstatus_tex
+47662140	StackCounter	Buff	True	swch	3000	0	476621	Zzz……………			効果が10回重複すると、熟睡します。	icon_status.sleepstatus_tex	icon_status.sleepstatus_tex
 47662200	Immune	Buff	True	17	20000	0	0	ココナッツエナジー			ココナッツに対する情熱により無敵状態になります。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 47662200	StatusImmune	Buff	True	swch	20000	0	0	ココナッツエナジー			ココナッツに対する情熱により無敵状態になります。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 47662300	Drunk	Debuff	False	60010	35000	0	0	暗黒 I			徐々に視界が暗くなります。	icon_status.darkeffect_tex	icon_status.darkeffect_tex
@@ -4308,7 +4309,7 @@
 47680400	RestoreHpOnHit	Buff	True	perc	0	0	1.002	黒時空の再生			攻撃成功時に、全HPの$H_W_GOOD0.2％$COLOR_ENDが即時に回復します。$BRこの効果は解除できません。	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 47680500	Power	Buff	True	perc	600000	0	1.5	黒時空の意志			重複する度に、力と耐久力が$H_W_GOOD50%$COLOR_END上昇します。効果は最大10回まで重複します。$BRこの効果は解除できません。	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex
 47680500	Endurance	Buff	True	perc	600000	0	1.5	黒時空の意志			重複する度に、力と耐久力が$H_W_GOOD50%$COLOR_END上昇します。効果は最大10回まで重複します。$BRこの効果は解除できません。	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex
-47680600	HPLoss	Debuff	False	abs	10000	0	-10000000	黒時空の鳴動			黒時空から轟音が鳴り響いています！　$H_W_BAD5回重複$COLOR_END時、対象者を即死させる「時空崩壊！」が発生します。$BRこの効果は解除できません。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+47680600	StackCounter	Debuff	False	seta	15000	0	476806	黒時空の鳴動			黒時空から轟音が鳴り響いています！　$H_W_BAD5回重複$COLOR_END時、対象者を即死させる「時空崩壊！」が発生します。$BRこの効果は解除できません。	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 47680700	Power	Buff	True	perc	600000	0	1	憤激の猛獣			印書の実験は失敗したようだ……相当頭にきている……。	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 47680800	MaxHP	Buff	True	perc	7200000	0	1.05	黒時空の引力			黒時空を越えてさらに強力になりました！　重複する毎に最大HPが$H_W_GOOD5%$COLOR_END増加します。	icon_status.darkriftgravity_tex	icon_status.darkriftgravity_tex
 47680900	251	Buff	True	perc	7200000	0	0.2	黒時空の報酬			黒時空の引力により、重複するたびに、アイテムを獲得できる確率が上昇します。	icon_status.darkriftreward_tex	icon_status.darkriftreward_tex
@@ -4317,7 +4318,7 @@
 47681200	ASpd	Debuff	True	perc	20000	0	1.1	次元の旋風			重複する度に、攻撃速度が$H_W_GOOD10%$COLOR_END上昇します。効果は最大5回まで重複可能で、解除できません。	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex
 47681300	253	Debuff	True	perc	20000	0	1	次元の白刃			攻撃対象が1体増える度にスキルダメージが$H_W_GOOD50％$COLOR_END増加し、対象が5体以上になると$H_W_GOOD3倍$COLOR_ENDになります。効果は最大5回まで重複可能で、解除できません。	icon_status.darkriftareasword_tex	icon_status.darkriftareasword_tex
 47681400	Power	Debuff	True	perc	20000	0	1.2	次元の群舞			重複する度に、力が$H_W_GOOD20%$COLOR_END上昇します。効果は最大5回まで重複しますが、最大回数に達すると勝手に踊り始め、重複は初期化されます。この効果は解除できません。	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
-47681400	Stun	Stun	False	swch	5000	0	15	次元の群舞			重複する度に、力が$H_W_GOOD20%$COLOR_END上昇します。効果は最大5回まで重複しますが、最大回数に達すると勝手に踊り始め、重複は初期化されます。この効果は解除できません。	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
+47681400	StackCounter	Debuff	True	seta	20000	0	476814	次元の群舞			重複する度に、力が$H_W_GOOD20%$COLOR_END上昇します。効果は最大5回まで重複しますが、最大回数に達すると勝手に踊り始め、重複は初期化されます。この効果は解除できません。	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
 47681500	Power	Buff	True	perc	20000	0	1.15	次元の活力			効果持続中、ジャンプする度に力が$H_W_GOOD15％$COLOR_ENDずつ、最大$H_W_GOOD75％$COLOR_ENDまで上昇します。効果は最大5回まで重複可能で、解除できません。	icon_status.darkriftareafunny_tex	icon_status.darkriftareafunny_tex
 47681600	Endurance	Buff	True	perc	3600000	0	1	次元の誘引			暗黒の領域の内部に引き込まれるような感覚です。効果発動中にのみ暗黒次元の亜空間に入場できます。$BRキャラクターが亜空間に入場すると、同一アカウントの他キャラクターは13時間入場することができません。	icon_status.calldimension_tex	icon_status.calldimension_tex
 47681601	Endurance	Buff	True	perc	3600000	0	1	次元の誘引			暗黒の領域の内部に引き込まれるような感覚です。効果発動中にのみ暗黒次元の亜空間に入場できます。$BRキャラクターが亜空間に入場すると、同一アカウントの他キャラクターは2時間入場することができません。	icon_status.calldimension_tex	icon_status.calldimension_tex
@@ -4335,7 +4336,7 @@
 47690600	64	Debuff	False	seta	3000	1	476906	死の宣告 - 放出			数秒後、$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD50％$COLOR_ENDが減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 47690700	DelayedEffect	DOT	False	abs	5000	0	476907	精神崩壊			数秒後、気絶状態に陥り、HPが減少します。	icon_status.confuseup_tex	icon_status.confuseup_tex
 47690800	HPChange	Debuff	False	perc	10000	10	-0.1	黄泉の誘い			数秒後、全HPの$H_W_BAD10％$COLOR_ENDが減少します。$BRこの効果は解除できません。	icon_status.minushp_tex	icon_status.minushp_tex
-47690800	HPLoss	DOT	False	abs	10000	0	-10000000	黄泉の誘い			数秒後、全HPの$H_W_BAD10％$COLOR_ENDが減少します。$BRこの効果は解除できません。	icon_status.minushp_tex	icon_status.minushp_tex
+47690800	StackCounter	Debuff	False	swch	10000	0	47690900	黄泉の誘い			数秒後、全HPの$H_W_BAD10％$COLOR_ENDが減少します。$BRこの効果は解除できません。	icon_status.minushp_tex	icon_status.minushp_tex
 47690900	HPLoss	DOT	False	abs	10000	0	-10000000	黄泉の誘い			数秒後、即死します。$BRこの効果は解除できません。	icon_status.delaydamage_tex	icon_status.delaydamage_tex
 47691000	MPChange	Debuff	False	perc	5000	1	-100000000	魔力喪失			MPが$H_W_BAD0$COLOR_ENDになり、MP回復効果は適用されません。$BRこの効果は解除できません。	icon_status.minusmp_tex	icon_status.minusmp_tex
 47691000	NoHeal	Debuff	False	abs	5000	0	0	魔力喪失			MPが$H_W_BAD0$COLOR_ENDになり、MP回復効果は適用されません。$BRこの効果は解除できません。	icon_status.minusmp_tex	icon_status.minusmp_tex
@@ -4353,15 +4354,16 @@
 47700800	MovSpd	Buff	True	perc	10000	0	1.1	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD50％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
 47700800	HPChange	DOT	False	perc	30000	1	-0.02	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD50％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
 47700800	Drunk	DOT	False	426717	30000	0	0	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD50％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
+47700800	StackCounter	DOT	False	swch	30000	0	477007	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD50％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
 47701000	Immune	Buff	True	30	0	0	0	生命エネルギーバリア			生命エネルギーによるバリアが発生しました。全てのデバフを防ぎます。$BRこの効果は解除できません。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 47701000	StatusImmune	Buff	True	swch	0	0	0	生命エネルギーバリア			生命エネルギーによるバリアが発生しました。全てのデバフを防ぎます。$BRこの効果は解除できません。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 47701100	Endurance	Debuff	False	seta	0	0	100	免疫破壊			耐久力を$H_W_BAD100$COLOR_ENDに固定します。$BRこの効果は解除できません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 47701200	Endurance	Buff	True	perc	0	0	1	鋼鉄の意思			アルゴンの女王が全ての敵対値を無視します。$BRこの効果は解除できません。	icon_status.diffusionaggro_tex	icon_status.diffusionaggro_tex
 47701300	Endurance	Buff	True	perc	0	0	1	自我崩壊			アルゴンの女王の自我が崩壊し、敵対値の高い対象を無条件に攻撃します。$BRこの効果は解除できません。	icon_status.stackabnormality_tex	icon_status.stackabnormality_tex
 47701400	Endurance	Debuff	False	perc	40000	0	1	アルゴン細胞転移			重複5回目に、アルゴンのウィルスが発動します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
-47701400	HPChange	DOT	False	perc	6000	1	-0.5	アルゴン細胞転移			重複5回目に、アルゴンのウィルスが発動します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
+47701400	StackCounter	Debuff	False	swch	40000	0	477014	アルゴン細胞転移			重複5回目に、アルゴンのウィルスが発動します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 47701600	101	Buff	True	perc	5000	0	1.05	エネルギー吸収			ダメージを受けると、HPが$H_W_GOOD5%$COLOR_END回復します。$BRこの効果は解除できません。	icon_status.plushp_tex	icon_status.plushp_tex
-47701700	Power	Buff	False	perc	0	0	3	女王の咆哮			女王の咆哮が聞こえます。重複3回目に、「女王の激怒」が発生します。	icon_status.plusattack_tex	icon_status.plusattack_tex
+47701700	StackCounter	Buff	True	swch	20000	0	477026	女王の咆哮			女王の咆哮が聞こえます。重複3回目に、「女王の激怒」が発生します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 47701800	DelayedEffect	Debuff	False	swch	5000	0	477014	アルゴン細胞侵食			数秒後、アルゴン末期ガンに陥ります。	icon_status.confuseup_tex	icon_status.confuseup_tex
 47701900	Endurance	Buff	False	perc	0	0	1	アルゴン			アルゴン	icon_status.plusabnormality_tex	icon_status.plusabnormality_tex
 47702000	Endurance	Buff	False	perc	0	0	1	カルゴン			カルゴン	icon_status.minusabnormality_tex	icon_status.minusabnormality_tex
@@ -4475,6 +4477,7 @@
 77600017	Power	Buff	False	perc	30000	0	1.3	ボス一定時間凶暴化			周囲から集めた闇の力を使います。効果持続中、非常に強力になります。	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex
 77700001	Aggro	Buff	True	perc	80000	0	0.5	不安定な破壊力			重複するたびに、スキル攻撃力が$H_W_GOOD5％$COLOR_ENDずつ上昇します。この効果は、最大10回まで重複します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 77700001	AtkPotion	Buff	True	perc	80000	2	1.05	不安定な破壊力			重複するたびに、スキル攻撃力が$H_W_GOOD5％$COLOR_ENDずつ上昇します。この効果は、最大10回まで重複します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
+77700001	StackCounter	Buff	True	seta	80000	0	777002	不安定な破壊力			重複するたびに、スキル攻撃力が$H_W_GOOD5％$COLOR_ENDずつ上昇します。この効果は、最大10回まで重複します。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 77700002	HPChange	Buff	True	perc	900000	2	0.05	古代の再生力			$H_W_GOOD2s$COLOR_END毎に全HPの$H_W_GOOD5％$COLOR_ENDが回復します。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 77700002	MPChange	Buff	True	perc	900000	2	0.01	古代の再生力			$H_W_GOOD2s$COLOR_END毎に全HPの$H_W_GOOD5％$COLOR_ENDが回復します。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 77700003	DefPotion	Stun	True	swch	30000	0	1	スイッチ作動バフ			スイッチが作動し、不安定なバリアがかかりました。3回重複すると、破滅を防ぐことができます。	icon_skills.manashield_tex	icon_skills.manashield_tex
@@ -4488,6 +4491,7 @@
 77700009	HPLoss	Debuff	True	abs	13000	0	-10000	地下水路_1番部屋_集団ダメージ			数秒後、30,000のダメージ	icon_status.plusattack_tex	icon_status.plusattack_tex
 77700010	Aggro	Buff	False	perc	80000	0	0.5	不安定な狂気			重複するたびに、クリティカル発生が$H_W_GOOD5％$COLOR_ENDずつ上昇します。この効果は、最大10回まで重複します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 77700010	CritChance	Buff	False	abs	80000	2	0.05	不安定な狂気			重複するたびに、クリティカル発生が$H_W_GOOD5％$COLOR_ENDずつ上昇します。この効果は、最大10回まで重複します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
+77700010	StackCounter	Buff	False	seta	80000	0	777001	不安定な狂気			重複するたびに、クリティカル発生が$H_W_GOOD5％$COLOR_ENDずつ上昇します。この効果は、最大10回まで重複します。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 77700011	Stun	Stun	True	swch	30000	0	5	地下水路_1番部屋_幽霊_睡眠			幽霊の睡眠	icon_skills.shackleofquicksand_tex	icon_skills.shackleofquicksand_tex
 77700012	Stun	Stun	False	swch	20000	0	5	ゴーレムの呪い			ゴーレムに精神を支配されています。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 77700012	AllowAggro	Stun	False	swch	20000	0	0	ゴーレムの呪い			ゴーレムに精神を支配されています。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
@@ -4509,9 +4513,10 @@
 77700800	MovSpd	Buff	True	perc	10000	0	1.1	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD30％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
 77700800	HPChange	DOT	False	perc	30000	1	-0.02	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD30％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
 77700800	Drunk	DOT	False	426717	30000	0	0	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD30％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
+77700800	StackCounter	DOT	False	swch	30000	0	777007	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。この効果は最大5回まで重複し、重複5回目に全HPの$H_W_BAD30％$COLOR_ENDが減少します。$BRジャンプすると「リムーブパラサイト」が発生します。$BRこの効果は解除できません。	icon_status.minusattack_tex	icon_status.minusattack_tex
 77701400	Endurance	Debuff	False	perc	40000	0	1	アルゴン細胞転移			重複5回目に、アルゴンのウィルスが発動します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
-77701400	HPChange	DOT	False	perc	6000	1	-0.2	アルゴン細胞転移			重複5回目に、アルゴンのウィルスが発動します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
-77701700	Power	Buff	False	perc	30000	0	3	女王の咆哮			女王の咆哮が聞こえます。重複3回目に、「女王の激怒」が発生します。	icon_status.plusattack_tex	icon_status.plusattack_tex
+77701400	StackCounter	Debuff	False	swch	40000	0	777014	アルゴン細胞転移			重複5回目に、アルゴンのウィルスが発動します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
+77701700	StackCounter	Buff	True	swch	20000	0	777026	女王の咆哮			女王の咆哮が聞こえます。重複3回目に、「女王の激怒」が発生します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 77702100	HPChange	DOT	False	perc	10000	3	-0.1	セル・バースト			$H_W_BAD3s$COLOR_END毎に全HPの$H_W_BAD10％$COLOR_ENDが持続的に減少します。この効果は解除できません。	icon_status.delaydamage_tex	icon_status.delaydamage_tex
 77702400	Absorb	Buff	False	abs	15000	0	700000	鉄のカーテン			鉄のカーテンが最大$H_W_GOOD700000$COLOR_ENDのダメージを無効化します。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.manashield_tex	icon_skills.manashield_tex
 77702400	Immune	Buff	False	20	15000	0	0	鉄のカーテン			鉄のカーテンが最大$H_W_GOOD700000$COLOR_ENDのダメージを無効化します。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.manashield_tex	icon_skills.manashield_tex
@@ -4539,7 +4544,7 @@
 77703424	DelayedEffect	Debuff	True	abs	4000	0	777032	デモクロンの呪い			デモクロンの呪いにかかりました。動きがだんだん鈍くなります。		
 77703426	Power	Buff	True	perc	600000	0	1.1	捕食			デモクロンを補食し強化しました。	icon_status.minusdiseaseresist_tex	icon_status.minusdiseaseresist_tex
 77703428	NoHeal	DOT	False	seta	35000	0	0	デモクロンの呪い			デモクロンの呪いにかかりました。全てのHP回復効果が無効化します。	icon_status.minusfocus_tex	icon_status.minusfocus_tex
-77703430	Power	Buff	False	perc	30000	0	2.5	捕食			キルガルがプレイヤーの犠牲により強化されました。この効果が3回重複すると「進化：キルガル」効果が発動します。	icon_status.plusattack_tex	icon_status.plusattack_tex
+77703430	StackCounter	Buff	True	swch	600000	0	777032	捕食			キルガルがプレイヤーの犠牲により強化されました。この効果が3回重複すると「進化：キルガル」効果が発動します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 77703431	HPChange	DOT	False	abs	20000	2	-5000	感染：デモクロンウィルス			デモクロンウィルスに感染しました。HPが持続的に減少し、回復量が減少します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 77703431	IncreasedHeal	DOT	False	swch	20000	0	0.8	感染：デモクロンウィルス			デモクロンウィルスに感染しました。HPが持続的に減少し、回復量が減少します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 77703432	Power	DOT	False	perc	20000	0	3	変型：デモクロンウィルス			致命的なデモクロンウィルスに感染しました。急激にHPが減少し、デモクロンの力を感じます。	icon_status.delaydamage_tex	icon_status.delaydamage_tex
@@ -4560,7 +4565,7 @@
 77703444	IncreasedHeal	DOT	True	swch	180000	0	0.3	デモクロンの呪い			デモクロンに魂を侵食されました。回復量が減少します。	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 78100006	Drunk	Debuff	False	781003	0	0	0	ラカンの魂世界			ラカンの魂世界に入りました。	icon_socials.social_010_tex	icon_socials.social_010_tex
 78100009	HPChange	DOT	True	perc	200000	1	-0.03	ラカンの注視			ラカンが見つめています。$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD3％$COLOR_ENDが減少します。	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex
-78100009	HPLoss	Debuff	False	abs	1000	0	-50000000	ラカンの注視			ラカンが見つめています。$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD3％$COLOR_ENDが減少します。	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex
+78100009	StackCounter	DOT	True	seta	200000	0	78100010	ラカンの注視			ラカンが見つめています。$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD3％$COLOR_ENDが減少します。	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex
 80401500	DelayedEffect	Buff	True	abs	35000	0	475150	破滅の鎧			最大$H_W_GOOD4000000$COLOR_ENDのダメージを無効化します。最大値を超えると、結界は破壊されます。持続時間内に破壊できない場合、その効果により全ての対象プレイヤーは死亡し、ケルサイクは破滅の憤怒に飲み込まれます！	icon_skills.manashield_tex	icon_skills.manashield_tex
 80401500	Absorb	Buff	True	abs	35000	0	4000000	破滅の鎧			最大$H_W_GOOD4000000$COLOR_ENDのダメージを無効化します。最大値を超えると、結界は破壊されます。持続時間内に破壊できない場合、その効果により全ての対象プレイヤーは死亡し、ケルサイクは破滅の憤怒に飲み込まれます！	icon_skills.manashield_tex	icon_skills.manashield_tex
 80900001	Endurance	Debuff	False	setp	15000	0	0.3	集中攻撃			標的となった対象は、耐久力と移動速度が$H_W_BAD70%$COLOR_END低下します。この効果は解除できません。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -4844,7 +4849,9 @@
 81300017	AtkPotion	Buff	True	perc	1800000	2	1	森の祝福			森の祝福によりスキルクールタイムが$H_W_GOOD20％$COLOR_END減少します。プリースト、エレメンタリストにのみ適用。	icon_status.cruel_slayer_4_tex	icon_status.cruel_slayer_4_tex
 81300017	CDR	Buff	True	swch	1800000	0	0.8	森の祝福			森の祝福によりスキルクールタイムが$H_W_GOOD20％$COLOR_END減少します。プリースト、エレメンタリストにのみ適用。	icon_status.cruel_slayer_4_tex	icon_status.cruel_slayer_4_tex
 81300018	AtkPotion	Buff	True	perc	1800000	2	1.1	守護者の力			攻撃力が$H_W_GOOD10％$COLOR_END上昇します。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex
+81300018	StackCounter	Buff	True	seta	1800000	0	813002	守護者の力			攻撃力が$H_W_GOOD10％$COLOR_END上昇します。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex
 81300019	HPChange	Buff	True	perc	1800000	2	0.02	守護者の回復力			$H_W_GOOD2s$COLOR_END毎に全HPの$H_W_GOOD2％$COLOR_ENDが回復します。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
+81300019	StackCounter	Buff	True	seta	1800000	0	813003	守護者の回復力			$H_W_GOOD2s$COLOR_END毎に全HPの$H_W_GOOD2％$COLOR_ENDが回復します。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 81300020	Power	Debuff	True	perc	600000	0	1.3	汚染された塵			攻撃力が$H_W_GOOD30％$COLOR_END上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex
 81300021	HPChange	DOT	False	perc	5000	2	-0.01	岩に刻まれた傷			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD1.5％$COLOR_ENDが減少します。	icon_status.firedamage_tex	icon_status.firedamage_tex
 81300022	Immune	Debuff	False	seta	0	0	0	ギルリアンの保護			ギルリアンが自身を保護しています。全てのダメージを無効化します。	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
@@ -5106,6 +5113,7 @@
 88430200	ReloadingSkill	Buff	True	swch	100	0	4030	「アックスカウンター」再使用			ツールチップが見えたらいけない異常状態	icon_ep.ep_cooltime_restart_tex	icon_ep.ep_cooltime_restart_tex
 88500010	HPChange	DOT	False	perc	6000	1	-0.005	火傷			一秒毎にHPの$H_W_BAD0.5％$COLOR_END（最大1000）が減少	icon_ep.ep_debuff_burn_tex	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	DOT	False	perc	6000	0	0.9	凍傷			移動速度が$H_W_BAD10%$COLOR_END減少。5回重複すると凍結し、移動速度が大幅に減少します。	icon_ep.ep_debuff_frostbite_tex	icon_ep.ep_debuff_frostbite_tex
+88500100	StackCounter	DOT	False	swch	6000	0	88500150	凍傷			移動速度が$H_W_BAD10%$COLOR_END減少。5回重複すると凍結し、移動速度が大幅に減少します。	icon_ep.ep_debuff_frostbite_tex	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	DOT	False	perc	2000	0	0.75	深刻な凍傷			凍結が重複し、移動速度が$H_W_BAD25%$COLOR_END減少。ダウン時に解除されます。	icon_ep.ep_debuff_frostbite_tex	icon_ep.ep_debuff_frostbite_tex
 88505101	MPChange	Buff	True	abs	25000	1	7	(シークレット) アグロメレーションチャージ			見えてはいけない異常状態です。		
 88505102	MPChange	Buff	True	abs	25000	1	9	(シークレット) アグロメレーションチャージ			見えてはいけない異常状態です。		
@@ -5573,8 +5581,8 @@
 91600007	ASpd	Debuff	False	perc	600000	0	1.2	アルクスの悲鳴			効果が重複する毎に攻撃力が$H_W_GOOD20%$COLOR_END、攻撃速度が$H_W_GOOD10%$COLOR_END上昇します。この効果を解除することはできません。	icon_status.plusattack_tex	icon_status.plusattack_tex
 91600008	Endurance	Stun	False	seta	30000	0	10000000	ダルカンの怒号			気絶しているため動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex
 91600008	Stun	Stun	False	swch	30000	0	5	ダルカンの怒号			気絶しているため動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex
-91600010	ASpd	DOT	False	perc	1000	0	1	火傷のあと			効果が解除されるまでの間、$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD10％$COLOR_ENDが減少します。	icon_status.firedamage_tex	icon_status.firedamage_tex
 91600010	HPChange	DOT	False	perc	10000	1	-0.1	火傷のあと			効果が解除されるまでの間、$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD10％$COLOR_ENDが減少します。	icon_status.firedamage_tex	icon_status.firedamage_tex
+91600010	StackCounter	DOT	False	swch	10000	0	916035	火傷のあと			効果が解除されるまでの間、$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD10％$COLOR_ENDが減少します。	icon_status.firedamage_tex	icon_status.firedamage_tex
 91600013	HPChange	Debuff	False	perc	44000	1	-0.02	闇の破片 I			闇の中に閉じ込められています。回復量が25%減少し$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600013	IncreasedHeal	Debuff	False	swch	44000	0	0.75	闇の破片 I			闇の中に閉じ込められています。回復量が25%減少し$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600014	HPChange	Debuff	False	perc	44000	1	-0.02	闇の破片 II			闇の中に閉じ込められています。回復量が50%減少し$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2％$COLOR_ENDが減少します。	icon_status.fearstatus_tex	icon_status.fearstatus_tex
@@ -5635,9 +5643,9 @@
 97000003	MovSpd	Debuff	True	setp	3000	0	0.3	子グモの強力な毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_ENDごとに全HP対比$H_W_BAD10％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000003	HPDrain	Debuff	True	perc	3000	0	0.7	子グモの強力な毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_ENDごとに全HP対比$H_W_BAD10％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000003	HPChange	Debuff	True	perc	3000	1	-0.1	子グモの強力な毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_ENDごとに全HP対比$H_W_BAD10％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
-97000004	Endurance	Buff	True	perc	30000	0	1	クモの成長			重複するたびに移動速度$H_W_GOOD10%$COLOR_ENDと攻撃力$H_W_GOOD20%$COLOR_ENDが向上します。	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 97000004	MovSpd	Buff	True	perc	7200000	0	1.1	クモの成長			重複するたびに移動速度$H_W_GOOD10%$COLOR_ENDと攻撃力$H_W_GOOD20%$COLOR_ENDが向上します。	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 97000004	AtkPotion	Buff	True	perc	7200000	2	1.2	クモの成長			重複するたびに移動速度$H_W_GOOD10%$COLOR_ENDと攻撃力$H_W_GOOD20%$COLOR_ENDが向上します。	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
+97000004	StackCounter	Buff	True	swch	7200000	0	97000049	クモの成長			重複するたびに移動速度$H_W_GOOD10%$COLOR_ENDと攻撃力$H_W_GOOD20%$COLOR_ENDが向上します。	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 97000005	MaxHP	Debuff	False	perc	10000	0	1	雌の針			色用	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000007	Ballance	Debuff	True	perc	10000	0	1.87E-06	精神集中			復活したベルベロスが何かに集中しています。ダウン時に弱化状態になります。	icon_status.minusfocus_tex	icon_status.minusfocus_tex
 97000008	MaxHP	Debuff	False	perc	3600000	0	1	ラケリス_透明NPC_ハート			ハート	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
@@ -5646,15 +5654,15 @@
 97000011	MaxHP	Debuff	False	perc	3600000	0	1	ラケリス_透明NPC_スペード			スペード	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000012	MaxHP	Debuff	False	perc	3600000	0	1	ラケリス_透明NPC_三角			三角	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000013	MaxHP	Debuff	True	perc	90000	0	1	ラケリス_PC_ハート			ハート	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000013	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_ハート			ハート	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000013	StackCounter	Debuff	True	swch	90000	0	97000018	ラケリス_PC_ハート			ハート	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000014	MaxHP	Debuff	True	perc	90000	0	1	ラケリス_PC_ダイヤ			ダイヤ	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000014	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_ダイヤ			ダイヤ	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000014	StackCounter	Debuff	True	swch	90000	0	97000019	ラケリス_PC_ダイヤ			ダイヤ	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000015	MaxHP	Debuff	True	perc	90000	0	1	ラケリス_PC_クローバ			クローバ	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000015	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_クローバ			クローバ	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000015	StackCounter	Debuff	True	swch	90000	0	97000020	ラケリス_PC_クローバ			クローバ	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000016	MaxHP	Debuff	True	perc	90000	0	1	ラケリス_PC_スペード			スペード	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000016	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_スペード			スペード	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000016	StackCounter	Debuff	True	swch	90000	0	97000021	ラケリス_PC_スペード			スペード	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000017	MaxHP	Debuff	True	perc	90000	0	1	ラケリス_PC_三角			三角	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000017	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_三角			三角	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000017	StackCounter	Debuff	True	swch	90000	0	97000022	ラケリス_PC_三角			三角	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000018	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_(逆)ハート			(逆)ハート	icon_status.confuseup_tex	icon_status.confuseup_tex
 97000019	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_(逆)ダイヤ			(逆)ダイヤ	icon_status.confuseup_tex	icon_status.confuseup_tex
 97000020	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_(逆)クローバ			(逆)クローバ	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -5666,15 +5674,17 @@
 97000027	DelayedEffect	Debuff	True	perc	30000	0	97000028	覚醒したリリス(3ネームド)_集中攻撃			覚醒したリリス(3ネームド)_集中攻撃	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 97000028	MaxHP	Debuff	True	perc	3000	0	1	覚醒したリリス(3ネームド)_集中攻撃_発射			覚醒したリリス(3ネームド)_集中攻撃_発射	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 97000032	DefPotion	DOT	True	perc	100000	0	1.5	ラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加します。またラケリスの魂の球体から2倍のダメージを受けます。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97000032	HPLoss	Debuff	False	abs	1000	0	-50000000	ラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加します。またラケリスの魂の球体から2倍のダメージを受けます。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97000033	Power	DOT	True	perc	60000	0	11	ラカンの力			重複するたびに攻撃速度が$H_W_GOOD10%$COLOR_ENDずつ増加します。	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex
+97000032	StackCounter	DOT	True	seta	100000	0	97000038	ラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加します。またラケリスの魂の球体から2倍のダメージを受けます。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 97000033	ASpd	DOT	True	perc	60000	0	1.1	ラカンの力			重複するたびに攻撃速度が$H_W_GOOD10%$COLOR_ENDずつ増加します。	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex
+97000033	StackCounter	DOT	True	swch	60000	0	97000034	ラカンの力			重複するたびに攻撃速度が$H_W_GOOD10%$COLOR_ENDずつ増加します。	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex
 97000035	Power	DOT	True	perc	60000	0	11	完成されたラカンの力			力が$H_W_GOOD1000%$COLOR_END上昇し、攻撃速度が$H_W_GOOD50%$COLOR_END増加します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 97000035	ASpd	DOT	True	perc	60000	0	1.5	完成されたラカンの力			力が$H_W_GOOD1000%$COLOR_END上昇し、攻撃速度が$H_W_GOOD50%$COLOR_END増加します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 97000040	MovSpd	Buff	False	perc	0	0	1	ダークリッパ-の怒り			ダークリッパーの魂が宿っています。	icon_status.delayheal_tex	icon_status.delayheal_tex
 97000041	MovSpd	Buff	False	perc	0	0	1	クリューエルハウンドの怒り			クリューエルハウンドの魂が宿っています。	icon_status.delaympgain_tex	icon_status.delaympgain_tex
 97000042	HPLoss	Debuff	True	abs	60000	0	-10000000	ダークリッパ-の怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex
+97000042	StackCounter	Debuff	True	seta	60000	0	97000044	ダークリッパ-の怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex
 97000043	HPLoss	Debuff	True	abs	60000	0	-10000000	クリューエルハウンドの怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex
+97000043	StackCounter	Debuff	True	seta	60000	0	97000044	クリューエルハウンドの怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex
 97000044	HPChange	Debuff	False	abs	1100	1	-50000000	ラケリス(1ネームド) 2重複_死亡			ラケリス(1ネームド) 2重複_死亡	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 97000045	HPChange	Debuff	True	perc	0	1	1	ラケリス(3ネームド) 透明NPC保護用			ラケリス(3ネームド) 透明NPC保護用	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000045	AllowAggro	Debuff	True	swch	0	0	0	ラケリス(3ネームド) 透明NPC保護用			ラケリス(3ネームド) 透明NPC保護用	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
@@ -5685,7 +5695,7 @@
 97000051	HPDrain	Debuff	False	perc	3000	0	0.9	子グモの毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_ENDごとに全HP対比$H_W_BAD5％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000051	HPChange	Debuff	False	perc	3000	1	-0.05	子グモの毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_ENDごとに全HP対比$H_W_BAD5％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000052	DefPotion	DOT	True	perc	100000	0	1.5	力強いラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加し、ラケリスの魂の躯体から2倍のダメージを受けます。重複すると死亡します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97000052	HPLoss	Debuff	False	abs	1000	0	-50000000	力強いラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加し、ラケリスの魂の躯体から2倍のダメージを受けます。重複すると死亡します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
+97000052	StackCounter	DOT	True	seta	100000	0	97000038	力強いラケリスの呪い			冥々たるラケリスから受けるダメージが50％増加し、ラケリスの魂の躯体から2倍のダメージを受けます。重複すると死亡します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 97500100	HPChange	DOT	False	perc	120000	2	-0.07	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD7％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex
 97500100	HPLoss	DOT	False	abs	120000	0	-10000000	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD7％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex
 97500250	KnockDownChance	Buff	True	perc	20000	0	0	強固な結界			全てのデバフを受け付けません。効果持続中、ダウン/硬直状態になりません。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex

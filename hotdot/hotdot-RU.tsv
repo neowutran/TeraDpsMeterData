@@ -694,10 +694,9 @@
 4870	Immune	Stun	False	seta	5000	0	0	Снеговик			Вы превратились в снеговика! Другой игрок должен быстро попасть в вас огненным шаром, чтобы вы не потеряли 100,000 HP.	icon_items.snowman_scroll_tex	icon_items.snowman_scroll_tex
 4871	Stun	Stun	False	swch	2000	0	5	Грязный бой			Меткое попадание грязным снежком!	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 4872	Immune	Buff	True	setp	3000	0	0	Грелка для рук			Снимает эффекты Зимнего холода и снеговика, а также дает вам невосприимчивость к таким эффектам.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
-4873	HPLoss	Buff	True	abs	200	0	-100000	Зимний холод			Попадание снежком. Если эффект Зимнего холода применяется $H_W_BAD3 раза$COLOR_END, вы превращаетесь в снеговика.	icon_status.icedamage_tex	icon_status.icedamage_tex
+4873	StackCounter	Stun	False	abs	30000	0	4870	Зимний холод			Попадание снежком. Если эффект Зимнего холода применяется $H_W_BAD3 раза$COLOR_END, вы превращаетесь в снеговика.	icon_status.icedamage_tex	icon_status.icedamage_tex
 4874	MovSpd	Stun	False	perc	3000	0	0.6	Ошеломление			Снижает скорость перемещения.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
-4874	Stun	Stun	False	swch	2000	0	5	Ошеломление			Снижает скорость перемещения.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
-4874	HPLoss	Buff	True	abs	200	0	-100000	Ошеломление			Снижает скорость перемещения.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
+4874	StackCounter	Stun	False	abs	3000	0	4870	Ошеломление			Снижает скорость перемещения.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 4875	191	Buff	True	perc	30000	0	0	Снеговик			Вы превратились в снеговика. Вы растаете, если на вас нападут, или если вы используете умение. А еще вы можете подождать, пока другой игрок не бросит в вас огненным шаром.	icon_items.snowman_scroll_tex	icon_items.snowman_scroll_tex
 4879	Immune	Debuff	True	21	2000	0	0	Благословение снеговика			Защищает вас от действия всех зимних эффектов, а также от их урона.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 4879	StatusImmune	Debuff	True	swch	2000	0	0	Благословение снеговика			Защищает вас от действия всех зимних эффектов, а также от их урона.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
@@ -1227,7 +1226,7 @@
 33170	HPChange	Buff	True	perc	6000	1	0.03	Восстанавливающее благословение луны			Восстанавливает $H_W_GOOD3%$COLOR_END от максимального уровня HP раз в $H_W_GOOD1s$COLOR_END	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	Усиленная связка лунного света			Следующая атака умением наносит на 30% больше урона.	icon_skills.mooncatch_tex	icon_crest.crestnextskillattackup_tex
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	Усиленное притяжение луны I 			При использовании умения "Отблеск лунного света" в цепочке, повышает урон умений на $H_W_GOOD25%$COLOR_END.	icon_skills.moongravity_tex	icon_crest.e_crestnextskillattackup_tex
-45301	StunKnockDown	Debuff	False	swch	20000	0	2	Великий удар			Тяжелое оглушение.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
+45301	StackCounter	Debuff	False	swch	30000	0	45302	Великий удар			Тяжелое оглушение.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	Забытье			Оглушение и опрокидывание.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 46705	Endurance	Debuff	True	perc	60000	0	0.9	Трагедия			Атака кислотой снижает уровень защиты, эффект суммируется. Данный эффект отменить нельзя.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 46706	Endurance	Debuff	True	perc	60000	0	0.85	Великая трагедия			Атака кислотой существенно снижает уровень защиты, эффект суммируется. Данный эффект отменить нельзя.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -1237,7 +1236,7 @@
 46751	Endurance	Buff	True	perc	20000	0	1.2	Прочная защита			Повышает защиту на $H_W_GOOD20%$COLOR_END.	icon_status.balanceup_tex	icon_status.balanceup_tex
 46752	Immune	Buff	True	18	30000	0	0	Алмазная защита			Повышает защиту до максимального уровня, предотвращая любой урон.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 46752	StatusImmune	Buff	True	swch	30000	0	0	Алмазная защита			Повышает защиту до максимального уровня, предотвращая любой урон.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
-46753	Endurance	Buff	True	perc	20000	0	1.2	Рев			При получении дополнительного эффекта "Рев" в течение времени действия, будет получен эффект "Прочная защита".	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex
+46753	StackCounter	Buff	True	seta	10000	0	46751	Рев			При получении дополнительного эффекта "Рев" в течение времени действия, будет получен эффект "Прочная защита".	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex
 46755	MovSpd	Buff	True	perc	15000	0	2	Упорство противника			Дает иммунитет к негативным эффектам.	icon_skills.recallfriend_tex	icon_skills.recallfriend_tex
 46755	StatusImmune	Buff	True	swch	15000	0	0	Упорство противника			Дает иммунитет к негативным эффектам.	icon_skills.recallfriend_tex	icon_skills.recallfriend_tex
 46756	HPChange	DOT	True	abs	30000	2	-15000	Расщепленные отходы			Расщепленные отходы наносят 15 000 урона каждые 2 секунды.	icon_status.purifydagon_tex	icon_status.purifydagon_tex
@@ -1250,13 +1249,11 @@
 46762	OutOfCombatMovSpd	Buff	True	abs	30000	0	40	Непознанное	46701	Невидимая сфера	Дает иммунитет ко всем негативным эффектам, повышает скорость перемещения, но понижает уровень атаки.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
 46762	AtkPotion	Buff	True	perc	30000	2	0.1	Непознанное	46701	Невидимая сфера	Дает иммунитет ко всем негативным эффектам, повышает скорость перемещения, но понижает уровень атаки.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
 46762	Immune	Buff	True	8	30000	0	0	Непознанное	46701	Невидимая сфера	Дает иммунитет ко всем негативным эффектам, повышает скорость перемещения, но понижает уровень атаки.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex
-48730	MovSpd	Stun	False	perc	10000	0	0.9	Простуда	70047	Мороженое из сароники	Вы съели что-то холодное.	icon_status.icedamage_tex	icon_status.icedamage_tex
+48730	StackCounter	Buff	True	seta	600000	0	48732	Простуда	70047	Мороженое из сароники	Вы съели что-то холодное.	icon_status.icedamage_tex	icon_status.icedamage_tex
 48731	MPChange	Buff	True	perc	15000	1	0.05	Аппетитные ягоды сара	70047	Мороженое из сароники	Восстанавливает $H_W_GOOD5%$COLOR_END от максимального уровня MP раз в $H_W_GOOD1s$COLOR_END	icon_items.bluesmoothie_tex	icon_items.bluesmoothie_tex
 48732	MovSpd	Stun	False	perc	10000	0	0.9	Заморозка мозга			Вы съели холодную еду слишком быстро. Ваше тело окоченело, а скорость перемещения снизилась на $H_W_BAD10%$COLOR_END.	icon_status.confusedown_tex	icon_status.confusedown_tex
 48732	Drunk	Stun	False	60023	10000	1	0	Заморозка мозга			Вы съели холодную еду слишком быстро. Ваше тело окоченело, а скорость перемещения снизилась на $H_W_BAD10%$COLOR_END.	icon_status.confusedown_tex	icon_status.confusedown_tex
-48733	Endurance	Buff	True	abs	60000	0	1	Летнее вино	70054	Винная бомба	Крепкое вино Рамси. Чем быстрее пьешь, тем быстрее пьянеешь.	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
-48733	Stun	Stun	False	swch	3000	0	5	Летнее вино	70054	Винная бомба	Крепкое вино Рамси. Чем быстрее пьешь, тем быстрее пьянеешь.	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
-48733	Drunk1	Buff	True	seta	1000	0	0	Летнее вино	70054	Винная бомба	Крепкое вино Рамси. Чем быстрее пьешь, тем быстрее пьянеешь.	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
+48733	StackCounter	Buff	True	swch	60000	0	48734	Летнее вино	70054	Винная бомба	Крепкое вино Рамси. Чем быстрее пьешь, тем быстрее пьянеешь.	icon_items.q_bottlewine_tex	icon_items.q_bottlewine_tex
 48734	Endurance	Buff	True	abs	60000	0	1	Легкое опьянение			Вы немного выпили. Зрение расфокусировано, все чувства притупились. Увеличивает выносливость на $H_W_GOOD1$COLOR_END. 	icon_status.poisondown_tex	icon_status.poisondown_tex
 48734	Drunk	Buff	True	60024	60000	1	0	Легкое опьянение			Вы немного выпили. Зрение расфокусировано, все чувства притупились. Увеличивает выносливость на $H_W_GOOD1$COLOR_END. 	icon_status.poisondown_tex	icon_status.poisondown_tex
 48735	Endurance	Buff	True	abs	60000	0	2	Интоксикация			Вы напились. Зрение расфокусировано, все чувства притупились. Увеличивает выносливость на $H_W_GOOD2$COLOR_END. 	icon_status.poisondown_tex	icon_status.poisondown_tex
@@ -1573,7 +1570,7 @@
 101500	DefPotion	Debuff	False	perc	15000	0	1.25	Удар жнеца			Коса наносит на $H_W_BAD25%$COLOR_END больше урона.	icon_skills.rupture_tex	icon_skills.rupture_tex
 101501	Stun	Stun	False	swch	2000	0	5	Удар жнеца			Оглушение на $H_W_BAD2s$COLOR_END	icon_skills.rupture_tex	icon_skills.rupture_tex
 101600	Endurance	Buff	True	perc	15000	0	1	Теневой удар			На некоторое время появляется тень.	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-101700	SkillCastSpeed	Buff	True	perc	10000	0	1.2	Комбо-атака			Увеличивает скорость умения "Комбо-атака" после 14 ударов, нанесенных с его помощью.	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+101700	StackCounter	Buff	True	seta	10000	0	101750	Комбо-атака			Увеличивает скорость умения "Комбо-атака" после 14 ударов, нанесенных с его помощью.	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 101750	SkillCastSpeed	Buff	True	perc	10000	0	1.2	Комбо-атака			Повышает скорость умения "Комбо-атака" на $H_W_GOOD20%$COLOR_END.	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 102500	Block	Debuff	True	perc	180000	0	0	Вспышка гнева			Во время действия эффекта, умения "Защитная стойка" и "Штурмовая стойка" недоступны. 	icon_skills.provokerage_tex	icon_skills.provokerage_tex
 102600	HPLoss	Buff	True	perc	0	0	1.2	Призрачный воин			Переносит $H_W_GOOD50%$COLOR_END полученного урона на тень. Эффект активен, только пока тень находится в пределах 20 метров от игрока. В PvP на тень переносится только 20% от полученного урона.	icon_skills.decoy_tex	icon_skills.decoy_tex
@@ -1625,7 +1622,7 @@
 201305	AbsorbToMP	Buff	True	swch	10000	0	32834	Железная воля VI			Поглощает до $H_W_GOOD32834$COLOR_END урона.$BRНа поглощение 100 единиц урона расходуется 1 MP. Заканчивает действие в случае поглощения максимального урона или когда у вас кончаются MP.	icon_skills.armoredwill_tex	icon_skills.armoredwill_tex
 201400	Stun	Stun	False	swch	2000	0	5	Идеальный гарпун			Оглушает и обездвиживает вас.	icon_skills.harpoonshot_tex	icon_skills.harpoonshot_tex
 201401	Stun	Stun	False	swch	2000	0	5	Идеальный гарпун			Оглушает и обездвиживает вас.	icon_skills.harpoonshot_tex	icon_skills.harpoonshot_tex
-201500	SkillCastSpeed	Buff	True	perc	10000	0	1.2	Комбо-атака			Увеличивает скорость умения "Штурм" после 8 ударов, нанесенных с помощью умения "Комбо-атака".	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+201500	StackCounter	Buff	True	seta	10000	0	201550	Комбо-атака			Увеличивает скорость умения "Штурм" после 8 ударов, нанесенных с помощью умения "Комбо-атака".	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 201550	SkillCastSpeed	Buff	True	perc	10000	0	1.2	Комбо-атака			Увеличивает скорость атаки умения "Штурм" время следующей атаки.	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 201600	KnockDownChance	Buff	True	perc	6000	0	0	Сзывающий клич			Вы и другие игроки вокруг вас становятся невосприимчивы к опрокидыванию и ошеломлению.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex
 201600	StatusImmune	Buff	True	swch	6000	0	0	Сзывающий клич			Вы и другие игроки вокруг вас становятся невосприимчивы к опрокидыванию и ошеломлению.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex
@@ -1666,7 +1663,7 @@
 301020	HPLoss	Debuff	False	perc	3000	0	0.7	Выверенный удар			Уменьшает HP на $H_W_BAD30%$COLOR_END после окончания действия эффекта.	icon_skills.cuthead_tex	icon_skills.cuthead_tex
 301030	IncreasedHeal	Debuff	False	perc	10000	0	0.7	Яростная атака			Снижает количество восстанавливаемых HP на $H_W_BAD30%$COLOR_END.	icon_skills.ragingstrike_tex	icon_skills.ragingstrike_tex
 301040	StunResist	Buff	True	perc	5000	0	100000	Упорство			Значительно повышает сопротивляемость эффектам контроля.	icon_skills.tenacity_tex	icon_skills.tenacity_tex
-301100	SkillCastSpeed	Buff	True	perc	10000	0	1.2	Комбо-атака			Увеличивает скорость умения "Смерч" после 4 ударов, нанесенных с помощью умения "Комбо-атака".	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+301100	StackCounter	Buff	True	seta	10000	0	301150	Комбо-атака			Увеличивает скорость умения "Смерч" после 4 ударов, нанесенных с помощью умения "Комбо-атака".	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 301150	SkillCastSpeed	Buff	True	perc	10000	0	1.2	Комбо-атака			Увеличивает скорость умения "Смерч" во время следующей атаки.	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 301200	239	Buff	True	perc	4000	0	1	Уклонение II			Вы можете использовать Уклонение еще раз в течение 4s	icon_skills.tumbling_tex	icon_skills.tumbling_tex
 400100	Power	Buff	True	perc	22500	0	1.2	Огненная ярость			Увеличивает силу на $H_W_GOOD20%$COLOR_END, вероятность нанесения критического удара на $H_W_GOOD10%$COLOR_END, но снижает выносливость на $H_W_BAD10%$COLOR_END.	icon_skills.berserk_tex	icon_skills.berserk_tex
@@ -1739,7 +1736,7 @@
 401002	WeakResist	Buff	True	perc	8000	0	1001	Насмешка III			Невосприимчивость к опрокидыванию и ошеломлению. Значительно повышает сопротивляемость ослабляющим эффектам.	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
 401002	KnockDownChance	Buff	True	perc	8000	0	0	Насмешка III			Невосприимчивость к опрокидыванию и ошеломлению. Значительно повышает сопротивляемость ослабляющим эффектам.	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
 401002	StatusImmune	Buff	True	swch	8000	0	0	Насмешка III			Невосприимчивость к опрокидыванию и ошеломлению. Значительно повышает сопротивляемость ослабляющим эффектам.	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex
-401100	29	Buff	True	perc	10000	0	1.2	Комбо-атака			Увеличивает скорость зарядки после 4 ударов, нанесенных с помощью умения "Комбо-атака".	icon_skills.comboattack_tex	icon_skills.comboattack_tex
+401100	StackCounter	Buff	True	seta	10000	0	401150	Комбо-атака			Увеличивает скорость зарядки после 4 ударов, нанесенных с помощью умения "Комбо-атака".	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 401150	29	Buff	True	perc	10000	0	1.2	Комбо-атака			Повышает скорость зарядки во время следующей атаки.	icon_skills.comboattack_tex	icon_skills.comboattack_tex
 401200	StunResist	Buff	True	perc	5000	0	100000	Упорство			Значительно повышает сопротивляемость эффектам контроля.	icon_skills.tenacity_tex	icon_skills.tenacity_tex
 401300	275	Buff	True	swch	8000	0	0	Неразрушимость			Во время действия этого эффекта уровень HP не опускается ниже 1. Тем не менее, урон, превышающий максимум HP за один удар, все равно приводит к смерти.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
@@ -1790,10 +1787,11 @@
 457002	HPChange	Stun	False	perc	20000	2	-0.2	Кремень			Каменный великан охвачен огнем. На цели в радиусе 21 м. накладывается эффект "Жар".	icon_status.firedamage_tex	icon_status.firedamage_tex
 457003	HPChange	Stun	False	perc	20000	2	-0.2	Кремень			Этот каменный великан охвачен огнем. На цели в радиусе 3 м. накладывается эффект "Жар".	icon_status.firedamage_tex	icon_status.firedamage_tex
 457004	HPChange	Stun	True	perc	2000	1	-0.05	Жар			Окружающее каменного великана пламя излучает мощнейший жар.	icon_status.firedamage_tex	icon_status.firedamage_tex
+457004	StackCounter	Stun	True	seta	2000	0	457005	Жар			Окружающее каменного великана пламя излучает мощнейший жар.	icon_status.firedamage_tex	icon_status.firedamage_tex
 457005	HPChange	Stun	False	perc	20000	2	-0.2	Затухающее пламя			Исходящий от лавы ужасающий жар иссушает ваше тело.	icon_status.firedamage_tex	icon_status.firedamage_tex
 457006	DelayedEffect	Buff	True	seta	5000	0	457007	Огненный цветок			Стоя у созданного Акероном огненного цветка, вы получаете эффект "Жар". Действие "Жара" сопровождается мощной атакой.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
 457007	Power	Stun	False	perc	0	0	1	Огненный цветок			Стоя у созданного Акероном огненного цветка, вы получаете эффект "Жар". Действие "Жара" сопровождается мощной атакой.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
-457011	StunKnockDown	Debuff	False	swch	20000	0	6	Воздействие взрыва			Если вы получите несколько экземпляров эффекта взрыва, вы можете упасть.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
+457011	StackCounter	Buff	True	seta	10000	0	457012	Воздействие взрыва			Если вы получите несколько экземпляров эффекта взрыва, вы можете упасть.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
 457012	StunKnockDown	Debuff	False	swch	20000	0	6	БАМ-БАМ-БАМ!			Несколько мощных ударов привело к опрокидыванию.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 457013	HPChange	Debuff	False	perc	3000	2	0.1	Супер-мощный запечатанный меч			Этот меч восстанавливает HP.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 457015	Stun	Buff	False	swch	1500	0	5	Поглощение			Пировор поглощает влагу из окружающего воздуха.	icon_skills.paralysistrap_tex	icon_skills.paralysistrap_tex
@@ -1834,7 +1832,7 @@
 457056	HPChange	Debuff	True	perc	3000	1	-10000000	Угасание			Эта подсказка не должна быть показана. (isShow=False) Если она показывается, произошла ошибка.	icon_status.delaydamage_tex	icon_status.delaydamage_tex
 460001	MovSpd	Debuff	False	perc	10000	0	1	Цель солдата-самоубийцы			Солдат-самоубийца выбрал данный объект в качестве цели.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 460001	MovSpdInCombat	Debuff	False	perc	10000	0	1	Цель солдата-самоубийцы			Солдат-самоубийца выбрал данный объект в качестве цели.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
-460003	HPChange	DOT	False	perc	60000	1	-0.05	Электрический удар - Усиленный заряд			Вы поражены электрической энергией Келивана. Если заряд станет сильнее, произойдет нечто ужасное. Лучше не подходить к воде.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
+460003	StackCounter	Debuff	True	swch	45000	0	460006	Электрический удар - Усиленный заряд			Вы поражены электрической энергией Келивана. Если заряд станет сильнее, произойдет нечто ужасное. Лучше не подходить к воде.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
 460005	HPChange	DOT	False	perc	60000	1	-0.05	Электрический удар			Электрическая энергия Келивана вызывает шок. Электрическая энергия не дает управлять телом!	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 460005	Stun	Stun	True	swch	5000	0	5	Электрический удар			Электрическая энергия Келивана вызывает шок. Электрическая энергия не дает управлять телом!	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 460006	HPChange	DOT	False	perc	60000	1	-0.05	Усиленный заряд			Уровень HP сокращается под действием электрической энергии Келивана.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
@@ -1867,7 +1865,7 @@
 468009	Stun	Debuff	True	swch	3000	0	5	Проникновение			Удар копья Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 468009	Immune	Debuff	True	seta	3000	0	0	Проникновение			Удар копья Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 468010	Stun	Debuff	True	swch	1500	0	5	Гарпун тьмы			Оковы перевоплощенного Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex	icon_status.positionswap_tex
-468013	MovSpd	Debuff	True	perc	30000	0	1	Наблюдение			Совершенное создание Дуриона следит за тобой. Зловеще.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+468013	StackCounter	Debuff	True	swch	90000	0	468014	Наблюдение			Совершенное создание Дуриона следит за тобой. Зловеще.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 468014	MovSpd	Debuff	True	perc	30000	0	1	Цель наблюдения			Кажется, Совершенное создание Дуриона следит за тобой. Может случиться нечто ужасное!	icon_skills.througharrow_tex	icon_skills.througharrow_tex
 468015	Power	Debuff	True	perc	3600000	0	1.1	Усиление тьмы			Съев самородок маны, Сторожевой голем станет еще сильнее!	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
 468015	Endurance	Debuff	True	perc	3600000	0	1.1	Усиление тьмы			Съев самородок маны, Сторожевой голем станет еще сильнее!	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
@@ -1896,7 +1894,7 @@
 468042	Absorb	Buff	True	abs	30000	0	18500000	Щит темной магии			Совершенное создание Дуриона защищает свое тело при помощи темной магии.	icon_skills.manashield_tex	icon_skills.manashield_tex
 468043	Endurance	Buff	False	perc	0	0	5	Темная магия			Дурион повышает уровень защиты при помощи темной магии.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 468044	HPChange	Stun	True	perc	160000	1	-0.05	Гнев Лакана			Дурион получил силу Лакана! Уровень HP постепенно снижается. Если попасть под действие проклятия больше 3 раз, цель мгновенно умрет, сила Лакана активируется при воздействии проклятия на всех членов группы.	icon_status.delayheal_tex	icon_status.delayheal_tex
-468044	HPLoss	Debuff	True	abs	10	0	-50000000	Гнев Лакана			Дурион получил силу Лакана! Уровень HP постепенно снижается. Если попасть под действие проклятия больше 3 раз, цель мгновенно умрет, сила Лакана активируется при воздействии проклятия на всех членов группы.	icon_status.delayheal_tex	icon_status.delayheal_tex
+468044	StackCounter	Stun	True	swch	160000	0	98000020	Гнев Лакана			Дурион получил силу Лакана! Уровень HP постепенно снижается. Если попасть под действие проклятия больше 3 раз, цель мгновенно умрет, сила Лакана активируется при воздействии проклятия на всех членов группы.	icon_status.delayheal_tex	icon_status.delayheal_tex
 468047	Power	Buff	True	perc	0	0	10	Стабильная магическая энергия (Огненная ярость)			Совершенное создание Дуриона стабилизировало магическую энергию. Остановить его не удалось.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 468047	ASpd	Buff	True	perc	0	0	2	Стабильная магическая энергия (Огненная ярость)			Совершенное создание Дуриона стабилизировало магическую энергию. Остановить его не удалось.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 468048	Stun	Debuff	True	swch	3000	0	5	Передача темной магии			Удар копья Совершенного создания Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
@@ -2027,19 +2025,19 @@
 476615	DefPotion	Debuff	False	perc	30000	0	0.95	Электрический удар - 1 стадия			Повышает урон электричеством на $H_W_BAD5%$COLOR_END. Четвертая стадия, Оглушение ударом, не может быть снята.	icon_status.electriceffect1_tex	icon_status.electriceffect1_tex
 476616	DefPotion	Debuff	False	perc	30000	0	0.95	Электрический удар - 2 стадия			Повышает урон электричеством на $H_W_BAD5%$COLOR_END. Четвертая стадия, Оглушение ударом, не может быть снята.	icon_status.electriceffect2_tex	icon_status.electriceffect2_tex
 476617	DefPotion	Debuff	False	perc	30000	0	0.95	Электрический удар - 3 стадия			Повышает урон электричеством на $H_W_BAD5%$COLOR_END. Четвертая стадия, Оглушение ударом, не может быть снята.	icon_status.electriceffect3_tex	icon_status.electriceffect3_tex
-476618	Endurance	Debuff	False	perc	1000	0	1	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD60%$COLOR_END раз в $H_W_BAD10s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	HPChange	Debuff	False	perc	10000	10	-0.6	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD60%$COLOR_END раз в $H_W_BAD10s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	Stun	Debuff	False	swch	10000	0	5	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD60%$COLOR_END раз в $H_W_BAD10s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	Immune	Debuff	False	16	10000	0	0	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD60%$COLOR_END раз в $H_W_BAD10s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
+476618	StackCounter	Debuff	False	swch	10000	0	476619	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD60%$COLOR_END раз в $H_W_BAD10s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476618	StatusImmune	Debuff	False	swch	10000	0	0	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD60%$COLOR_END раз в $H_W_BAD10s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476621	HPChange	Buff	True	perc	1000	1	0.2	Крепкий сон			Восстанавливает $H_W_GOOD20%$COLOR_END от максимального уровня HP раз в $H_W_GOOD1s$COLOR_END	icon_status.delayheal_tex	icon_status.delayheal_tex
 476625	DefPotion	Debuff	False	perc	30000	0	0.95	Электрический удар - 1 стадия			Повышает урон электричеством на $H_W_BAD5%$COLOR_END. Четвертая стадия, Оглушение ударом, не может быть снята.	icon_status.electriceffect1_tex	icon_status.electriceffect1_tex
 476626	DefPotion	Debuff	False	perc	30000	0	0.95	Электрический удар - 2 стадия			Повышает урон электричеством на $H_W_BAD5%$COLOR_END. Четвертая стадия, Оглушение ударом, не может быть снята.	icon_status.electriceffect2_tex	icon_status.electriceffect2_tex
 476627	DefPotion	Debuff	False	perc	30000	0	0.95	Электрический удар - 3 стадия			Повышает урон электричеством на $H_W_BAD5%$COLOR_END. Четвертая стадия, Оглушение ударом, не может быть снята.	icon_status.electriceffect3_tex	icon_status.electriceffect3_tex
-476628	Endurance	Debuff	False	perc	1000	0	1	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD30%$COLOR_END раз в $H_W_BAD5s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	HPChange	Debuff	False	perc	5000	5	-0.3	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD30%$COLOR_END раз в $H_W_BAD5s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	Stun	Debuff	False	swch	5000	0	5	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD30%$COLOR_END раз в $H_W_BAD5s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	Immune	Debuff	False	16	5000	0	0	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD30%$COLOR_END раз в $H_W_BAD5s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
+476628	StackCounter	Debuff	False	swch	5000	0	476629	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD30%$COLOR_END раз в $H_W_BAD5s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476628	StatusImmune	Debuff	False	swch	5000	0	0	Оглушение ударом			Ваши HP уменьшаются на $H_W_BAD30%$COLOR_END раз в $H_W_BAD5s$COLOR_END Оглушает и обездвиживает вас. Оглушение ударом невозможно снять.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
 476705	MPChange	DOT	False	perc	30000	1	-0.5	Эффект очищения дракона			Уменьшает MP на $H_W_BAD50%$COLOR_END раз в $H_W_BAD1s$COLOR_END "Очищение Дагона" нельзя снять.	icon_status.purifydagon_tex	icon_status.purifydagon_tex
 476806	HPLoss	Debuff	False	abs	10000	0	-10000000	Взрыв Нексуса!			Рядом с вами был уничтожен Нексус! Вы умрете через $H_W_BAD10s$COLOR_END	icon_status.darkriftdestroy_tex	icon_status.darkriftdestroy_tex
@@ -2255,7 +2253,7 @@
 601310	HPDrain	Debuff	False	perc	5000	0	0.9	Опутывающая ловушка I			-$H_W_BAD20%$COLOR_END к скорости перемещения.	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex
 601311	MovSpd	Debuff	False	perc	5500	0	0.8	Опутывающая ловушка II			-$H_W_BAD20%$COLOR_END к скорости перемещения.	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex
 601311	HPDrain	Debuff	False	perc	5500	0	0.9	Опутывающая ловушка II			-$H_W_BAD20%$COLOR_END к скорости перемещения.	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex
-601400	CastSpeed	Buff	True	perc	10000	0	1.5	Стрела			Увеличивает скорость зарядки умений "Проникающий выстрел" и "Прицельный выстрел" после 10 попаданий "Стрелой", "Беглым огнем" и "Залпом".	icon_skills.arrowshot_tex	icon_skills.focusstance_moveslow_tex
+601400	StackCounter	Buff	True	seta	10000	0	601450	Стрела			Увеличивает скорость зарядки умений "Проникающий выстрел" и "Прицельный выстрел" после 10 попаданий "Стрелой", "Беглым огнем" и "Залпом".	icon_skills.arrowshot_tex	icon_skills.focusstance_moveslow_tex
 601450	CastSpeed	Buff	True	perc	10000	0	1.5	Фокусировка			На 10 секунд увеличивает скорость зарядки атаки "Проникающий выстрелом" и "Прицельным выстрелом".	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex
 601500	StunResist	Buff	True	perc	5000	0	80000	Упорство			Значительно повышает сопротивляемость оглушению.	icon_skills.tenacity_tex	icon_skills.tenacity_tex
 601600	ForceCrit	Buff	True	seta	8000	0	80000	Ахиллесова пята			Вне зависимости от того, с какой стороны вы нанесете следующий удар, будет считаться, что вы нанесли удар сзади.	icon_skills.weak_point_observed	icon_skills.weak_point_observed
@@ -2455,9 +2453,10 @@
 757002	HPChange	Stun	False	perc	20000	2	-0.2	Кремень			Каменный великан охвачен огнем. На цели в радиусе 21 м. накладывается эффект "Жар".	icon_status.firedamage_tex	icon_status.firedamage_tex
 757003	HPChange	Stun	False	perc	20000	2	-0.2	Кремень			Каменный великан охвачен огнем. На цели в радиусе 3 м. накладывается эффект "Жар".	icon_status.firedamage_tex	icon_status.firedamage_tex
 757004	HPChange	Stun	True	perc	2000	1	-0.03	Жар			Окружающее каменного великана пламя излучает мощнейший жар.	icon_status.firedamage_tex	icon_status.firedamage_tex
+757004	StackCounter	Stun	True	seta	2000	0	457005	Жар			Окружающее каменного великана пламя излучает мощнейший жар.	icon_status.firedamage_tex	icon_status.firedamage_tex
 757005	HPChange	Stun	False	perc	20000	2	-0.1	Затухающее пламя			Исходящий от лавы ужасающий жар иссушает ваше тело.	icon_status.firedamage_tex	icon_status.firedamage_tex
 757006	DelayedEffect	Buff	True	seta	5000	0	457007	Огненный цветок			Стоя у созданного Акероном огненного цветка, вы получаете эффект "Жар". Действие "Жара" сопровождается мощной атакой.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
-757011	StunKnockDown	Debuff	False	swch	20000	0	6	Воздействие взрыва			Если вы получите несколько экземпляров эффекта взрыва, вы можете упасть.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
+757011	StackCounter	Buff	True	seta	10000	0	457012	Воздействие взрыва			Если вы получите несколько экземпляров эффекта взрыва, вы можете упасть.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex
 757012	StunKnockDown	Debuff	False	swch	20000	0	6	БАМ-БАМ-БАМ!			Множество мощных ударов подряд приводит к опрокидыванию.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 757013	HPChange	Debuff	False	perc	3000	2	0.1	Супер-мощный запечатанный меч			Этот меч самостоятельно восстанавливает HP.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 757015	Stun	Buff	False	swch	1500	0	5	Поглощение			Пировор поглощает влагу из окружающего воздуха.	icon_skills.paralysistrap_tex	icon_skills.paralysistrap_tex
@@ -2498,7 +2497,7 @@
 760001	MovSpd	Debuff	False	perc	10000	0	1	Цель солдата-самоубийцы			Солдат-самоубийца выбрал данный объект в качестве цели.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 760001	MovSpdInCombat	Debuff	False	perc	10000	0	1	Цель солдата-самоубийцы			Солдат-самоубийца выбрал данный объект в качестве цели.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 760003	Endurance	Debuff	True	perc	45000	0	1	Электрический удар - Усиленный заряд			Вы поражены электрической энергией Келивана. Если заряд станет сильнее, произойдет нечто ужасное. Лучше не подходить к воде. 	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
-760003	HPChange	DOT	False	perc	60000	1	-0.05	Электрический удар - Усиленный заряд			Вы поражены электрической энергией Келивана. Если заряд станет сильнее, произойдет нечто ужасное. Лучше не подходить к воде. 	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
+760003	StackCounter	Debuff	True	swch	45000	0	760006	Электрический удар - Усиленный заряд			Вы поражены электрической энергией Келивана. Если заряд станет сильнее, произойдет нечто ужасное. Лучше не подходить к воде. 	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex
 760005	HPChange	DOT	False	perc	60000	1	-0.05	Электрический удар			Электрическая энергия Келивана вызывает шок. Электрическая энергия не дает управлять телом!	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 760005	Stun	Stun	True	swch	5000	0	5	Электрический удар			Электрическая энергия Келивана вызывает шок. Электрическая энергия не дает управлять телом!	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex
 760006	HPChange	DOT	False	perc	60000	1	-0.05	Усиленный заряд			Уровень HP сокращается под действием электрической энергии Келивана.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex
@@ -2532,7 +2531,7 @@
 768009	Stun	Debuff	True	swch	3000	0	5	Проникновение			Удар копья Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 768009	Immune	Debuff	True	seta	3000	0	0	Проникновение			Удар копья Дуриона обездвиживает. Очень больно. Темная магия проникает в тело.	icon_status.blooduanty_tex	icon_status.blooduanty_tex
 768010	Stun	Debuff	True	swch	1500	0	5	Гарпун тьмы			Оковы перевоплощенного Дуриона сковывают и обездвиживают.	icon_status.positionswap_tex	icon_status.positionswap_tex
-768013	MovSpd	Debuff	True	perc	30000	0	1	Наблюдение			Дурион следит за вами. Вам становится страшно.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+768013	StackCounter	Debuff	True	swch	120000	0	768014	Наблюдение			Дурион следит за вами. Вам становится страшно.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 768014	MovSpd	Debuff	True	perc	30000	0	1	Цель наблюдения			Кажется, Дурион следит за вами. Может случиться нечто ужасное!	icon_skills.througharrow_tex	icon_skills.througharrow_tex
 768015	Power	Debuff	True	perc	3600000	0	1.1	Усиление тьмы			Съев самородок маны, Сторожевой голем станет еще сильнее!	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
 768015	Endurance	Debuff	True	perc	3600000	0	1.1	Усиление тьмы			Съев самородок маны, Сторожевой голем станет еще сильнее!	icon_status.valrhona_devil_tex	icon_status.valrhona_devil_tex
@@ -2561,7 +2560,7 @@
 768042	Absorb	Buff	True	abs	30000	0	12000000	Щит темной магии			Совершенное создание Дуриона защищает свое тело при помощи темной магии.	icon_skills.manashield_tex	icon_skills.manashield_tex
 768043	Endurance	Buff	False	perc	0	0	5	Темная магия			Дурион повышает уровень защиты при помощи темной магии.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 768044	HPChange	Stun	True	perc	160000	1	-0.05	Гнев Лакана			Дурион получил силу Лакана! Уровень HP постепенно снижается. Если попасть под действие проклятия больше 3 раз, цель мгновенно умрет, сила Лакана активируется при воздействии проклятия на всех членов группы.	icon_status.delayheal_tex	icon_status.delayheal_tex
-768044	HPLoss	Debuff	True	abs	10	0	-50000000	Гнев Лакана			Дурион получил силу Лакана! Уровень HP постепенно снижается. Если попасть под действие проклятия больше 3 раз, цель мгновенно умрет, сила Лакана активируется при воздействии проклятия на всех членов группы.	icon_status.delayheal_tex	icon_status.delayheal_tex
+768044	StackCounter	Stun	True	swch	160000	0	98000020	Гнев Лакана			Дурион получил силу Лакана! Уровень HP постепенно снижается. Если попасть под действие проклятия больше 3 раз, цель мгновенно умрет, сила Лакана активируется при воздействии проклятия на всех членов группы.	icon_status.delayheal_tex	icon_status.delayheal_tex
 768047	Power	Buff	True	perc	0	0	10	Стабильная магическая энергия (Огненная ярость)			Совершенное создание Дуриона стабилизировало магическую энергию самородка маны. Остановить его не удалось.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 768047	ASpd	Buff	True	perc	0	0	2	Стабильная магическая энергия (Огненная ярость)			Совершенное создание Дуриона стабилизировало магическую энергию самородка маны. Остановить его не удалось.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 768048	Stun	Debuff	True	swch	3000	0	5	Передача темной магии			Удар копья Совершенного создания Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
@@ -2608,7 +2607,7 @@
 780201	Stun	Stun	False	swch	10000	0	5	Оглушение			Вы оглушены и обездвижены.	icon_status.confuseup_tex	icon_status.confuseup_tex
 780202	HPChange	DOT	False	perc	60000	2	-0.01	Кровотечение			Рана, образовавшаяся от удара топором кровоточит. Вы теряете по $H_W_BAD1%$COLOR_END от максимального запаса здоровья в течение $H_W_BAD2s$COLOR_END	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 780203	HPChange	DOT	False	perc	5000	1	-0.1	Сильное кровотечение			Мощный удар Бальдака пробил доспех и кожу. Вы теряете по $H_W_BAD10%$COLOR_END от максимального запаса здоровья в течение $H_W_BAD1s$COLOR_END	icon_status.damagedown_tex	icon_status.damagedown_tex
-781001	Power	DOT	True	perc	50000	0	1	Семя Даркана			Семя Даркана пустило корни. Если появится еще 3 экземпляра эффекта, семя прорастет и появится слуга Даркана. Эффект проклятия невозможно снять.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+781001	StackCounter	DOT	True	seta	40000	0	781002	Семя Даркана			Семя Даркана пустило корни. Если появится еще 3 экземпляра эффекта, семя прорастет и появится слуга Даркана. Эффект проклятия невозможно снять.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 781002	Power	DOT	False	perc	10000	0	1	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex	icon_status.confuseup_tex
 781002	DelayedEffect	DOT	False	abs	10000	0	781014	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex	icon_status.confuseup_tex
 781003	Power	Buff	False	perc	3000	0	1	Чрезмерное внимание			Все враги собираются вас атаковать.	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -2648,9 +2647,9 @@
 781038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Тяжелое бремя			Богам противостоять сложно. Скорость перемещения уменьшается! Эффект можно отменить!	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 781040	HPChange	DOT	True	perc	120000	1	-0.07	Страдания			Вы попали под атаку богов. Ваш уровень НР сокращается.	icon_status.firedamage_tex	icon_status.firedamage_tex
 781041	Power	DOT	True	perc	120000	0	1	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
-781041	HPChange	DOT	True	seta	1500	1	-300000	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
+781041	StackCounter	DOT	True	seta	120000	0	781044	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 781042	Power	DOT	True	perc	120000	0	1	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
-781042	HPChange	DOT	True	seta	1500	1	-300000	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
+781042	StackCounter	DOT	True	seta	120000	0	781044	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 781044	HPChange	DOT	True	seta	1500	1	-300000	Ожидание смерти			Вы попали под мощную атаку Лакана. Игра окончена!	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 781051	271	Buff	True	swch	2000	0	61902002	Готово, взрываю!			Вы скоро взорветесь.	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex
 781052	Power	Buff	True	perc	0	0	1.4	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex	icon_status.archerspirit_tex
@@ -2677,7 +2676,7 @@
 781087	HPDrain	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex	icon_status.staminadown_tex
 781087	Stun	Debuff	True	swch	30000	0	5	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex	icon_status.staminadown_tex
 781087	295	Debuff	True	swch	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex	icon_status.staminadown_tex
-781088	MovSpd	Debuff	True	perc	30000	0	1	Наблюдение			Воскресший Дурион следит за тобой.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+781088	StackCounter	Debuff	True	swch	90000	0	781083	Наблюдение			Воскресший Дурион следит за тобой.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 781089	Power	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 781089	ASpd	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 781090	Absorb	Buff	True	abs	6000000	0	30794400	Внутренний щит			Лакан создал щит, чтобы противостоять атакам.	icon_status.balanceup_tex	icon_status.balanceup_tex
@@ -2944,7 +2943,7 @@
 905622	MovSpdInCombat	Buff	False	abs	0	0	0	Сила_атаки кумаса - увеличивается во избежание ПК			Эта подсказка не должна быть показана. (isShow=False) Если она показывается, произошла ошибка.		
 905623	Power	Buff	False	perc	600000	0	1.5	Заряженная молния!			Кумас поглощает молнию и становится сильнее.		
 905624	HPChange	Buff	False	perc	120000	3	-0.125	Заряженная молния!			Отнимает $H_W_BAD12,5%$COLOR_END от общего количества HP раз в $H_W_GOOD3s$COLOR_END При двойном ударе начинается Перезагрузка.		
-905624	Stun	Buff	False	swch	5000	0	5	Заряженная молния!			Отнимает $H_W_BAD12,5%$COLOR_END от общего количества HP раз в $H_W_GOOD3s$COLOR_END При двойном ударе начинается Перезагрузка.		
+905624	StackCounter	Buff	False	seta	120000	0	905625	Заряженная молния!			Отнимает $H_W_BAD12,5%$COLOR_END от общего количества HP раз в $H_W_GOOD3s$COLOR_END При двойном ударе начинается Перезагрузка.		
 905625	HPChange	Buff	False	perc	60000	3	-0.3	Перезагрузка			Находящиеся рядом игроки оглушаются.		
 905625	Stun	Buff	False	swch	5000	0	5	Перезагрузка			Находящиеся рядом игроки оглушаются.		
 905626	Stun	Buff	False	swch	5000	0	5	Электрошок			Оглушающий разряд молнии.		
@@ -3001,23 +3000,23 @@
 905932	Endurance	Buff	True	perc	0	0	0.65	Огненная ярость			Под действием сильного злого духа повышается сила и скорость Бьорндена, но уровень защиты сокращается на $H_W_BAD35%$COLOR_END.	icon_skills.berserk_tex	icon_skills.berserk_tex
 905932	ASpd	Buff	True	perc	0	0	1.8	Огненная ярость			Под действием сильного злого духа повышается сила и скорость Бьорндена, но уровень защиты сокращается на $H_W_BAD35%$COLOR_END.	icon_skills.berserk_tex	icon_skills.berserk_tex
 905933	Endurance	DOT	True	perc	90000	0	0.7	Проклятие Лактоса			Во время действия эффекта отнимается $H_W_BAD8%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Лактоса отменить нельзя.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905933	ASpd	DOT	False	perc	1000	0	1	Проклятие Лактоса			Во время действия эффекта отнимается $H_W_BAD8%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Лактоса отменить нельзя.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905933	HPChange	DOT	True	perc	90000	2	-0.08	Проклятие Лактоса			Во время действия эффекта отнимается $H_W_BAD8%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Лактоса отменить нельзя.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905933	HPLoss	Buff	True	abs	1000	0	-120000	Проклятие Лактоса			Во время действия эффекта отнимается $H_W_BAD8%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Лактоса отменить нельзя.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905933	StackCounter	DOT	True	seta	90000	0	905931	Проклятие Лактоса			Во время действия эффекта отнимается $H_W_BAD8%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Лактоса отменить нельзя.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905934	HPChange	Buff	True	perc	5000	1	-0.07	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	IncreasedHeal	Buff	True	swch	5000	0	0	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Block	Buff	True	swch	5000	0	0	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	DelayedEffect	Buff	True	seta	5000	0	905929	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Drunk	Buff	True	905901	5000	0	0	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905934	Immune	Buff	True	17	5000	0	0	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
+905934	StackCounter	Buff	True	swch	5000	0	905943	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 905935	Drunk	Buff	True	905902	1000	0	0	Распространение					
 905936	DelayedEffect	Buff	True	abs	15000	1	905935	Отзыв призрака					
 905939	IncreasedHeal	Debuff	False	swch	3000	0	0.75	Осколок тьмы (Ур. 2)			При накоплении 2 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
-905939	Immune	Debuff	True	25	3000	0	0	Осколок тьмы (Ур. 2)			При накоплении 2 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+905939	StackCounter	Debuff	False	seta	3000	0	905942	Осколок тьмы (Ур. 2)			При накоплении 2 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905940	IncreasedHeal	Debuff	False	swch	3000	0	0.75	Осколок тьмы (Ур. 3)			При накоплении 3 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
-905940	Immune	Debuff	True	25	3000	0	0	Осколок тьмы (Ур. 3)			При накоплении 3 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+905940	StackCounter	Debuff	False	seta	3000	0	905942	Осколок тьмы (Ур. 3)			При накоплении 3 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905941	IncreasedHeal	Debuff	False	swch	3000	0	0.75	Осколок тьмы (Ур. 4)			При накоплении 4 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
-905941	Immune	Debuff	True	25	3000	0	0	Осколок тьмы (Ур. 4)			При накоплении 4 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+905941	StackCounter	Debuff	False	seta	3000	0	905942	Осколок тьмы (Ур. 4)			При накоплении 4 эффектов активируется эффект завесы тьмы.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 905942	Absorb	Debuff	True	swch	3000	0	300000	Завеса тьмы			Вы защищены от мощных атак Лактоса.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 905942	Immune	Debuff	True	25	3000	0	0	Завеса тьмы			Вы защищены от мощных атак Лактоса.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 905945	MaxHP	Debuff	True	abs	1000	0	1	Призрак Острова Мертвых			Влияние призрака превращает вас в призрака, в течение этого времени сокращает HP на $H_W_BAD8%$COLOR_END. Иммунитет к определенным видам атак.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
@@ -3025,7 +3024,7 @@
 905949	HPChange	DOT	True	perc	15000	1	-0.02	Проклятие Бьюрндена			Во время действия эффекта отнимается $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END . Проклятие Бьюрндена нельзя отменить.	icon_status.firedamage_tex	icon_status.firedamage_tex
 905950	Endurance	DOT	True	perc	90000	0	0.7	Проклятие Бьюрндена			Во время действия эффекта отнимается $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Бьюрндена нельзя отменить.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905950	HPChange	DOT	True	perc	90000	2	-0.1	Проклятие Бьюрндена			Во время действия эффекта отнимается $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Бьюрндена нельзя отменить.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
-905950	HPLoss	Buff	True	abs	1000	0	-120000	Проклятие Бьюрндена			Во время действия эффекта отнимается $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Бьюрндена нельзя отменить.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+905950	StackCounter	DOT	True	seta	90000	0	905931	Проклятие Бьюрндена			Во время действия эффекта отнимается $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END, при накоплении 3 эффектов персонаж умрет. Проклятие Бьюрндена нельзя отменить.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 905951	Immune	Debuff	True	25	2000	0	0	Неуязвимость			Неуязвимость	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 905952	MovSpd	Debuff	False	perc	5000	0	0.1	Прикосновение злого духа			Действует прикосновение злого духа. -$H_W_BAD90%$COLOR_END к скорости перемещения.	icon_status.minusmove_tex	icon_status.minusmove_tex
 905952	HPDrain	Debuff	False	perc	5000	0	0.9	Прикосновение злого духа			Действует прикосновение злого духа. -$H_W_BAD90%$COLOR_END к скорости перемещения.	icon_status.minusmove_tex	icon_status.minusmove_tex
@@ -3060,11 +3059,11 @@
 950009	MovSpdInCombat	Buff	True	perc	0	0	1.5	Благословение Велики			Увеличивает скорость передвижения на $H_W_GOOD50%$COLOR_END. Увеличивает радиус действия "Клича стража" и "Клятвы защиты" у рыцаря на $H_W_GOOD10 метров$COLOR_END, и на $H_W_GOOD20 метров$COLOR_END - радиус действия всех оборонительных умений мистика.	icon_status.lightweight_tex	icon_status.lightweight_tex
 950009	314	Buff	True	abs	0	0	2.002002002012002E+29	Благословение Велики			Увеличивает скорость передвижения на $H_W_GOOD50%$COLOR_END. Увеличивает радиус действия "Клича стража" и "Клятвы защиты" у рыцаря на $H_W_GOOD10 метров$COLOR_END, и на $H_W_GOOD20 метров$COLOR_END - радиус действия всех оборонительных умений мистика.	icon_status.lightweight_tex	icon_status.lightweight_tex
 950009	315	Buff	True	seta	0	0	100000000	Благословение Велики			Увеличивает скорость передвижения на $H_W_GOOD50%$COLOR_END. Увеличивает радиус действия "Клича стража" и "Клятвы защиты" у рыцаря на $H_W_GOOD10 метров$COLOR_END, и на $H_W_GOOD20 метров$COLOR_END - радиус действия всех оборонительных умений мистика.	icon_status.lightweight_tex	icon_status.lightweight_tex
-950013	HPChange2	DOT	True	abs	500	0	-200000	Проклятие Агареса			Воздух темнеет от проклятия Агареса. 10 экземпляров эффекта приводят к смерти.	icon_status.whiteaura_tex	icon_status.whiteaura_tex
-950015	HPChange2	DOT	True	abs	500	0	-200000	Проклятие Кулатрима			Воздух темнеет от проклятия Кулатрима. 10 экземпляров эффекта приводят к смерти.	icon_status.redaura_tex	icon_status.redaura_tex
-950017	HPChange2	DOT	True	abs	500	0	-200000	Проклятие Сабнака			Воздух темнеет от проклятия Сабнака. 10 экземпляров эффекта приводят к смерти.	icon_status.orangeaura_tex	icon_status.orangeaura_tex
-950019	HPChange2	DOT	True	abs	500	0	-200000	Проклятие Саллеоса			Воздух темнеет от проклятия Саллеоса. 10 экземпляров эффекта приводят к смерти.	icon_status.yellowaura_tex	icon_status.yellowaura_tex
-950023	MovSpd	Debuff	True	perc	30000	0	1	Взгляд Драколота			Взгляд Драколота наводит страх. 6 экземпляров эффекта приводит героя в панический ужас.	icon_status.vergosfocus_tex	icon_status.vergosfocus_tex
+950013	StackCounter	Debuff	True	swch	700000	0	950011	Проклятие Агареса			Воздух темнеет от проклятия Агареса. 10 экземпляров эффекта приводят к смерти.	icon_status.whiteaura_tex	icon_status.whiteaura_tex
+950015	StackCounter	Debuff	True	swch	700000	0	950011	Проклятие Кулатрима			Воздух темнеет от проклятия Кулатрима. 10 экземпляров эффекта приводят к смерти.	icon_status.redaura_tex	icon_status.redaura_tex
+950017	StackCounter	Debuff	True	swch	700000	0	950011	Проклятие Сабнака			Воздух темнеет от проклятия Сабнака. 10 экземпляров эффекта приводят к смерти.	icon_status.orangeaura_tex	icon_status.orangeaura_tex
+950019	StackCounter	Debuff	True	swch	700000	0	950011	Проклятие Саллеоса			Воздух темнеет от проклятия Саллеоса. 10 экземпляров эффекта приводят к смерти.	icon_status.yellowaura_tex	icon_status.yellowaura_tex
+950023	StackCounter	Debuff	True	swch	150000	0	950038	Взгляд Драколота			Взгляд Драколота наводит страх. 6 экземпляров эффекта приводит героя в панический ужас.	icon_status.vergosfocus_tex	icon_status.vergosfocus_tex
 950035	AllResist	Buff	True	perc	18000	0	3.87E-09	Защита Земли			Саллеос призывает силы Земли, чтобы защитить себя. Разрушьте утес и оглушите Саллеоса. Только это его остановит.	icon_status.earthblessing_tex	icon_status.earthblessing_tex
 950035	Absorb	Buff	True	abs	18000	0	2100000000	Защита Земли			Саллеос призывает силы Земли, чтобы защитить себя. Разрушьте утес и оглушите Саллеоса. Только это его остановит.	icon_status.earthblessing_tex	icon_status.earthblessing_tex
 950035	Immune	Buff	True	8	18000	0	0	Защита Земли			Саллеос призывает силы Земли, чтобы защитить себя. Разрушьте утес и оглушите Саллеоса. Только это его остановит.	icon_status.earthblessing_tex	icon_status.earthblessing_tex
@@ -3092,16 +3091,17 @@
 950107	Stun	Stun	True	swch	30000	0	5	Горящая скала			Вы застряли в горящей скале. Скала скоро взорвется, нанося значительный урон по области.	icon_status.rock_tex	icon_status.rock_tex
 950107	DelayedEffect	Stun	True	swch	30000	0	950138	Горящая скала			Вы застряли в горящей скале. Скала скоро взорвется, нанося значительный урон по области.	icon_status.rock_tex	icon_status.rock_tex
 950110	209	Buff	True	perc	0	0	0	Заградительный огонь готов			Позволяет использовать умение "Заградительный огонь".	icon_status.shotarrowblindly_tex	icon_status.shotarrowblindly_tex
-950113	Endurance	DOT	True	perc	0	0	1	Заградительный огонь к бою			Активирует "Заградительный огонь".	icon_status.shotarrow_tex	icon_status.shotarrow_tex
-950113	209	Buff	True	perc	0	0	0	Заградительный огонь к бою			Активирует "Заградительный огонь".	icon_status.shotarrow_tex	icon_status.shotarrow_tex
-950138	HPChange	Debuff	True	perc	3000	1	-10000000	Клаустрофобия			От одной мысли оказаться замурованным в каменный мешок вы начинаете задыхаться.	icon_status.vergoscurse_tex	icon_status.vergoscurse_tex
+950113	StackCounter	Buff	True	swch	0	0	950110	Заградительный огонь к бою			Активирует "Заградительный огонь".	icon_status.shotarrow_tex	icon_status.shotarrow_tex
+950138	StackCounter	Debuff	True	seta	420000	0	950189	Клаустрофобия			От одной мысли оказаться замурованным в каменный мешок вы начинаете задыхаться.	icon_status.vergoscurse_tex	icon_status.vergoscurse_tex
 950140	HPChange	DOT	False	perc	8000	2	-0.15	Из искры возгорится пламя			Искры попали на вашу одежду. Ваши HP уменьшаются.	icon_status.scald_tex	icon_status.scald_tex
 950163	ASpd	Buff	True	perc	10000	0	1.2	Поднятие боевого духа			Увеличивает скорость атаки на 20%, сокращает время перезарядки на 50%.	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950163	CDR	Buff	True	swch	10000	0	0.5	Поднятие боевого духа			Увеличивает скорость атаки на 20%, сокращает время перезарядки на 50%.	icon_status.bloodmadness_tex	icon_status.bloodmadness_tex
 950164	DefPotion	Debuff	True	perc	9000	0	0.1	Пыльца жуков			На вас попала пыльца жуков. Скоро вы взорветесь. Взорваться можно и от сферы огня Драколота или Удара в прыжке. Соприкосновение с пламенем Драколота приведет к взрыву, который отменит этот эффект.	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950164	DelayedEffect	Debuff	True	swch	9000	0	950198	Пыльца жуков			На вас попала пыльца жуков. Скоро вы взорветесь. Взорваться можно и от сферы огня Драколота или Удара в прыжке. Соприкосновение с пламенем Драколота приведет к взрыву, который отменит этот эффект.	icon_status.vergosdust_tex	icon_status.vergosdust_tex
+950164	StackCounter	Debuff	True	swch	9000	0	950198	Пыльца жуков			На вас попала пыльца жуков. Скоро вы взорветесь. Взорваться можно и от сферы огня Драколота или Удара в прыжке. Соприкосновение с пламенем Драколота приведет к взрыву, который отменит этот эффект.	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950165	DefPotion	Debuff	True	perc	9000	0	0.1	Пламя			Вас охватило пламя. Скоро вы взорветесь. Пламя Драколота, как и Удар в прыжке уничтожает любую цель. Соприкосновение с пыльцой жуков Драколота приведет к взрыву, который отменит этот эффект.	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950165	DelayedEffect	Debuff	True	swch	9000	0	950199	Пламя			Вас охватило пламя. Скоро вы взорветесь. Пламя Драколота, как и Удар в прыжке уничтожает любую цель. Соприкосновение с пыльцой жуков Драколота приведет к взрыву, который отменит этот эффект.	icon_status.vergosflame_tex	icon_status.vergosflame_tex
+950165	StackCounter	Debuff	True	swch	9000	0	950199	Пламя			Вас охватило пламя. Скоро вы взорветесь. Пламя Драколота, как и Удар в прыжке уничтожает любую цель. Соприкосновение с пыльцой жуков Драколота приведет к взрыву, который отменит этот эффект.	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950168	Endurance	Buff	True	perc	0	0	100	Огненная ярость			Сила, скорость атаки и защита разъяренного Драколота значительно увеличиваются. В таком состоянии его ничто не остановит.	icon_status.summonvergos_tex	icon_status.summonvergos_tex
 950168	Attack	Buff	True	perc	0	0	10	Огненная ярость			Сила, скорость атаки и защита разъяренного Драколота значительно увеличиваются. В таком состоянии его ничто не остановит.	icon_status.summonvergos_tex	icon_status.summonvergos_tex
 950168	ASpd	Buff	True	perc	0	0	2	Огненная ярость			Сила, скорость атаки и защита разъяренного Драколота значительно увеличиваются. В таком состоянии его ничто не остановит.	icon_status.summonvergos_tex	icon_status.summonvergos_tex
@@ -3141,17 +3141,16 @@
 950436	295	Stun	True	swch	30000	0	0	Скала			Вы застряли в скале. Скала скоро взорвется, нанося значительный урон всем находящимся рядом объектам.	icon_status.rock_tex	icon_status.rock_tex
 950513	Endurance	Buff	True	perc	60000	0	1.1	Магический панцирь			Драколот покрыл себя магическим панцирем. +10% к защите и +20% к скорости атаки за экземпляр эффекта.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950513	ASpd	Buff	True	perc	60000	0	1.2	Магический панцирь			Драколот покрыл себя магическим панцирем. +10% к защите и +20% к скорости атаки за экземпляр эффекта.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
-950514	Endurance	Buff	True	perc	60000	0	1.1	Создание магического панциря			Драколот создает магический панцирь. Остановите его.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950514	DelayedEffect	Debuff	True	swch	3000	0	950513	Создание магического панциря			Драколот создает магический панцирь. Остановите его.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
-950514	Drunk1	Buff	True	seta	1300	0	0	Создание магического панциря			Драколот создает магический панцирь. Остановите его.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
+950514	StackCounter	Debuff	True	seta	3000	0	950513	Создание магического панциря			Драколот создает магический панцирь. Остановите его.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 950515	Endurance	Buff	True	perc	0	0	1.7	Последнее сопротивление			Драколот сопротивляется из последних сил. Скорость атаки увеличивается на 40%, а броня на 70%.	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950515	ASpd	Buff	True	perc	0	0	1.4	Последнее сопротивление			Драколот сопротивляется из последних сил. Скорость атаки увеличивается на 40%, а броня на 70%.	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950516	Endurance	DOT	True	perc	1	0	1	Приближение пламени			Вас скоро настигнет пламя.	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950516	DelayedEffect	Debuff	True	swch	7000	0	950064	Приближение пламени			Вас скоро настигнет пламя.	icon_status.vergosflame_tex	icon_status.vergosflame_tex
 950517	Endurance	DOT	True	perc	1	0	1	Приближение пыльцы жуков			Вас скоро накроет пыльцой жуков.	icon_status.vergosdust_tex	icon_status.vergosdust_tex
 950517	DelayedEffect	Debuff	True	swch	7000	0	950065	Приближение пыльцы жуков			Вас скоро накроет пыльцой жуков.	icon_status.vergosdust_tex	icon_status.vergosdust_tex
-950518	Endurance	Buff	True	perc	1000	0	1	Ранение передней лапы			Передняя лапа Драколота ранена. Еще одна атака и лапа взорвется.	icon_status.damageup_tex	icon_status.damageup_tex
-950519	Endurance	Buff	True	perc	1000	0	1	Ранение задней лапы			Драколот получил ранение задней лапы. Еще одна атака и лапа взорвется.	icon_status.damagedown_tex	icon_status.damagedown_tex
+950518	StackCounter	Debuff	True	abs	300000	0	950502	Ранение передней лапы			Передняя лапа Драколота ранена. Еще одна атака и лапа взорвется.	icon_status.damageup_tex	icon_status.damageup_tex
+950519	StackCounter	Debuff	True	abs	300000	0	950502	Ранение задней лапы			Драколот получил ранение задней лапы. Еще одна атака и лапа взорвется.	icon_status.damagedown_tex	icon_status.damagedown_tex
 950600	Power	Buff	True	abs	0	0	23	Присутствие богини			Вы чувствуете незримое присутствие богини Велики. Силы переполняют вас.	icon_skills.tranquility_tex	icon_skills.tranquility_tex
 950600	Endurance	Buff	True	abs	0	0	23	Присутствие богини			Вы чувствуете незримое присутствие богини Велики. Силы переполняют вас.	icon_skills.tranquility_tex	icon_skills.tranquility_tex
 975029	HPChange	Buff	True	perc	6000	0	0.03	Сила Велики			Повышает вероятность нанесения критического удара.	icon_status.plusattack_tex	icon_status.plusattack_tex
@@ -3186,7 +3185,7 @@
 980204	DelayedEffect	Buff	True	perc	6000	0	980205	Пылающее оружие			Бальдак готовится к $H_W_BADУжасной атаке$COLOR_END. Если ее не предотвратить, все будет разрушено.	icon_skills.downattack_tex	icon_skills.downattack_tex
 980205	Power	Buff	False	setp	15000	0	3	Пламенная ярость			Ярость Бальдака разрушит все вокруг. $H_W_BADГотовьтесь к смерти!$COLOR_END	icon_skills.dragonrisingblow_tex	icon_skills.dragonrisingblow_tex
 980206	HPChange	DOT	True	perc	15000	2	-0.1	Нестерпимая мука			Вы получили ожоги. Вы теряете по $H_W_BAD10%$COLOR_END от максимального запаса здоровья в течение $H_W_BAD2s$COLOR_END	icon_status.firedamage_tex	icon_status.firedamage_tex
-981001	Power	DOT	True	perc	50000	0	1	Семя Даркана			Семя Даркана пустило корни. Если появится еще 3 экземпляра эффекта, семя прорастет и появится слуга Даркана. Эффект проклятия невозможно снять.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
+981001	StackCounter	DOT	True	seta	40000	0	981002	Семя Даркана			Семя Даркана пустило корни. Если появится еще 3 экземпляра эффекта, семя прорастет и появится слуга Даркана. Эффект проклятия невозможно снять.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 981002	Power	DOT	False	perc	10000	0	1	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex	icon_status.confuseup_tex
 981002	DelayedEffect	DOT	False	abs	10000	0	981014	Летаргический сон			Вы не можете использовать умения.	icon_status.confuseup_tex	icon_status.confuseup_tex
 981003	Power	Buff	False	perc	3000	0	1	Чрезмерное внимание			Все враги собираются вас атаковать.	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -3227,9 +3226,9 @@
 981038	MovSpdInCombat	DOT	False	perc	30000	0	0.5	Тяжелое бремя			Богам противостоять сложно. Скорость перемещения уменьшается! Эффект можно отменить!	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 981040	HPChange	DOT	True	perc	120000	1	-0.07	Страдания			Вы попали под атаку богов. Ваш уровень НР сокращается.	icon_status.firedamage_tex	icon_status.firedamage_tex
 981041	Power	DOT	True	perc	120000	0	1	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
-981041	HPChange	DOT	True	seta	1500	1	-300000	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
+981041	StackCounter	DOT	True	seta	120000	0	981044	Красный вкус			Вы попали под действие эффекта "Красный вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 981042	Power	DOT	True	perc	120000	0	1	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
-981042	HPChange	DOT	True	seta	1500	1	-300000	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
+981042	StackCounter	DOT	True	seta	120000	0	981044	Синий вкус			Вы попали под действие эффекта "Синий вкус". При повторном попадании наступит смерть.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 981044	HPChange	DOT	True	seta	1500	1	-300000	Ожидание смерти			Вы попали под мощную атаку Лакана. Игра окончена!	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 981051	271	Buff	True	swch	2000	0	61902002	Готово, взрываю!			Вы скоро взорветесь.	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex
 981052	Power	Buff	True	perc	0	0	1.4	Базовое равновесие			Лакан доволен установившемуся равновесию. Атака, защита, скорость атаки увеличиваются.	icon_status.archerspirit_tex	icon_status.archerspirit_tex
@@ -3256,7 +3255,7 @@
 981087	HPDrain	Debuff	True	setp	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex	icon_status.staminadown_tex
 981087	Stun	Debuff	True	swch	30000	0	5	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex	icon_status.staminadown_tex
 981087	295	Debuff	True	swch	30000	0	0	Темный дух			Темная магия воскресшего Дуриона окутывает все тело и обездвиживает.	icon_status.staminadown_tex	icon_status.staminadown_tex
-981088	MovSpd	Debuff	True	perc	30000	0	1	Наблюдение			Воскресший Дурион следит за тобой.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
+981088	StackCounter	Debuff	True	swch	90000	0	981083	Наблюдение			Воскресший Дурион следит за тобой.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex
 981089	Power	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 981089	ASpd	Buff	False	perc	990000000	0	1.03	Нестабильная магическая энергия			Воскресший Дурион призвал силу Лакана и усилил свою магию. Сила и скорость его атаки увеличилась. Но сам он окружен нестабильной магией. Если вы дадите ему время стабилизировать магию, то не сможете устоять перед ним.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex
 981090	Absorb	Buff	True	abs	6000000	0	54172800	Внутренний щит			Лакан создал щит, чтобы противостоять атакам.	icon_status.balanceup_tex	icon_status.balanceup_tex
@@ -3461,8 +3460,8 @@
 7101000	ASpd	Debuff	True	perc	600000	0	1.1	Концентрация магии			Концентрация магии увеличивает силу и скорость атаки. Эффект нельзя снять.		
 7101008	Power	Buff	True	perc	600000	0	1.05	Энергия огня и молнии			Увеличивает нанесенный урон.	icon_status.darkriftgravity_tex	icon_status.darkriftgravity_tex
 7102000	Endurance	Debuff	True	perc	40000	0	1	Здесь небезопасно!			Вас окутывает черной магией. Скорее покиньте зону действия. Черная магия снижает эффект лечения на $H_W_BAD30%$COLOR_END. $H_W_BAD5$COLOR_END экземпляров эффекта могут привести к непоправимой беде.		
-7102000	HPChange	DOT	True	perc	6000	1	-0.5	Здесь небезопасно!			Вас окутывает черной магией. Скорее покиньте зону действия. Черная магия снижает эффект лечения на $H_W_BAD30%$COLOR_END. $H_W_BAD5$COLOR_END экземпляров эффекта могут привести к непоправимой беде.		
 7102000	IncreasedHeal	Debuff	True	perc	40000	0	0.3	Здесь небезопасно!			Вас окутывает черной магией. Скорее покиньте зону действия. Черная магия снижает эффект лечения на $H_W_BAD30%$COLOR_END. $H_W_BAD5$COLOR_END экземпляров эффекта могут привести к непоправимой беде.		
+7102000	StackCounter	Debuff	True	swch	40000	0	7102001	Здесь небезопасно!			Вас окутывает черной магией. Скорее покиньте зону действия. Черная магия снижает эффект лечения на $H_W_BAD30%$COLOR_END. $H_W_BAD5$COLOR_END экземпляров эффекта могут привести к непоправимой беде.		
 7102001	MovSpd	DOT	True	perc	6000	0	0.5	Распыление магии			Концентрация магии достигла критического уровня. Вы теряете по $H_W_BAD50%$COLOR_END НР каждую секунду.		
 7102001	HPDrain	DOT	True	perc	6000	0	0.9	Распыление магии			Концентрация магии достигла критического уровня. Вы теряете по $H_W_BAD50%$COLOR_END НР каждую секунду.		
 7102001	HPChange	DOT	True	perc	6000	1	-0.5	Распыление магии			Концентрация магии достигла критического уровня. Вы теряете по $H_W_BAD50%$COLOR_END НР каждую секунду.		
@@ -3497,6 +3496,7 @@
 7691007	Power	Buff	True	perc	600000	0	1.1	Огненная ярость			Когда Лилит поглотит энергию, она получит $H_W_GOOD+10%$COLOR_END к силе атаки.	icon_status.plusattack_tex	icon_status.plusattack_tex
 7691011	MovSpd	Debuff	True	setp	5000	0	0.5	Замедление			$H_W_BAD-50%$COLOR_END к скорости перемещения. Этот эффект невозможно снять.	icon_status.minusmove_tex	icon_status.minusmove_tex
 7691012	DelayedEffect	DOT	False	swch	5000	0	7691013	Проклятие Лилит			Лилит прокляла вас. Если за определенное время не снять заклятие, вы умрете.	icon_status.minuswill_tex	icon_status.minuswill_tex
+7691014	StackCounter	Debuff	True	swch	90000	0	7691015	Ослабление воли			Сопротивление чарам Лилит понемногу ослабевает. Если эффект будет наложен пятикратно, произойдет что-то нехорошее.	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 7691015	Stun	Debuff	True	swch	10000	0	5	Ошеломление			Вас зачаровала Лилит. Сейчас произойдет нечто ужасное.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 7691015	HPLoss	Debuff	True	abs	10000	0	-50000000	Ошеломление			Вас зачаровала Лилит. Сейчас произойдет нечто ужасное.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 7691016	Stun	Debuff	True	swch	12000	0	5	Кольцо разрушения			Вы в плену чар Лилит. Вы ничего не можете сделать.	icon_status.minusfocus_tex	icon_status.minusfocus_tex
@@ -3644,11 +3644,11 @@
 8000087	XPBoost	Buff	True	perc	259200000	1	2	Свиток опыта: 100% (3 дня)	139180	Свиток опыта: 100% (3 дня)	На 3 дня увеличивает на 100% получаемый при убийстве монстров опыт. Время продолжает идти, даже если в этот момент вы не играете.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex
 8000088	42	Buff	True	perc	259200000	1	2	Свиток Признания: 100% (3 дня)	139184	Свиток Признания: 100% (3 дня)	На 3 дня увеличивает на 100% получаемые очки репутации и доблести. Не влияет на очки репутации и доблести, зарабатываемые на аренах. Время продолжает идти, даже если в этот момент вы не играете.	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex
 8000683	HPChange	Buff	True	perc	3000	1	0.5	Нельзя, чтобы в момент входа действовало восстановление! Это баг!			Нельзя, чтобы в момент входа действовало восстановление! Это баг!		
-8000684	Power	Debuff	False	abs	900000	0	0	Проклятие снеговика			Находящиеся под водой в момент старта, получают проклятие снеговика. Если спуститься под воду, проклятие будет снято через 15 сек. Суммируется 13 раз, после чего произойдет превращение в снеговика и наступит смерть.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
-8000685	Power	Debuff	False	abs	900000	0	0	Проклятие снеговика			Вы превратились в снеговика! Скоро наступит смерть. Больше не погружайтесь под воду!	icon_status.firedamage_tex	icon_status.firedamage_tex
+8000684	StackCounter	Debuff	False	seta	15000	0	8000685	Проклятие снеговика			Находящиеся под водой в момент старта, получают проклятие снеговика. Если спуститься под воду, проклятие будет снято через 15 сек. Суммируется 13 раз, после чего произойдет превращение в снеговика и наступит смерть.	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	Проклятие снеговика			Вы превратились в снеговика! Скоро наступит смерть. Больше не погружайтесь под воду!	icon_status.firedamage_tex	icon_status.firedamage_tex
 8000685	191	Debuff	False	perc	60000	0	0	Проклятие снеговика			Вы превратились в снеговика! Скоро наступит смерть. Больше не погружайтесь под воду!	icon_status.firedamage_tex	icon_status.firedamage_tex
 8000685	Stun	Debuff	False	swch	60000	0	5	Проклятие снеговика			Вы превратились в снеговика! Скоро наступит смерть. Больше не погружайтесь под воду!	icon_status.firedamage_tex	icon_status.firedamage_tex
+8000685	StackCounter	Debuff	False	seta	60000	0	8000686	Проклятие снеговика			Вы превратились в снеговика! Скоро наступит смерть. Больше не погружайтесь под воду!	icon_status.firedamage_tex	icon_status.firedamage_tex
 8000711	MovSpd	Debuff	False	seta	10000	0	0	Прилипание!			Липкая трава не дает двигаться	icon_status.minusmove_tex	icon_status.minusmove_tex
 8000711	HPDrain	Debuff	False	perc	10000	0	0.9	Прилипание!			Липкая трава не дает двигаться	icon_status.minusmove_tex	icon_status.minusmove_tex
 8000712	Block	Stun	False	swch	10000	0	5	Ледышка!			Эффект "Ледышка!" не дает использовать атакующие умения.	icon_skills.paralysistrap_tex	icon_skills.paralysistrap_tex
@@ -3679,6 +3679,7 @@
 9691006	Stun	Stun	True	swch	15000	0	5	Летаргический сон			Силы оставили вас. Вы ничего не можете сделать.	icon_skills.stoneshape_tex	icon_skills.stoneshape_tex
 9691007	Power	Buff	True	perc	600000	0	1.1	Огненная ярость			Когда Лилит поглотит энергию, она получит $H_W_GOOD+10%$COLOR_END к силе атаки.	icon_status.plusattack_tex	icon_status.plusattack_tex
 9691011	MovSpd	Debuff	True	setp	5000	0	0.5	Замедление			$H_W_BAD-50%$COLOR_END к скорости перемещения. Этот эффект невозможно снять.	icon_status.minusmove_tex	icon_status.minusmove_tex
+9691014	StackCounter	Debuff	True	swch	90000	0	9691015	Ослабление воли			Сопротивление чарам Лилит понемногу ослабевает. Если эффект будет наложен пятикратно, произойдет что-то нехорошее.	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex
 9691015	Stun	Debuff	True	swch	10000	0	5	Ошеломление			Вас зачаровала Лилит. Сейчас произойдет нечто ужасное.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 9691015	HPLoss	Debuff	True	abs	10000	0	-50000000	Ошеломление			Вас зачаровала Лилит. Сейчас произойдет нечто ужасное.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 9691016	Stun	Debuff	True	swch	12000	0	5	Кольцо разрушения			Вы в плену чар Лилит. Вы ничего не можете сделать.	icon_status.minusfocus_tex	icon_status.minusfocus_tex
@@ -3884,7 +3885,7 @@
 10155036	CritChance	Buff	True	perc	0	0	1.2	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 10% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,2.	icon_skills.fullmoon_tex	icon_skills.fullmoon_tex
 10155037	AtkPotion	Buff	True	perc	0	0	1.1	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 10% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,3.	icon_skills.fullmoon_tex	icon_skills.fullmoon_red_tex
 10155037	CritChance	Buff	True	perc	0	0	1.3	Полнолуние			Энергия света от второй атаки "Полнолуния" увеличивает наносимый урон на 10% за экземпляр эффекта, а также увеличивает множитель критического удара на 0,3.	icon_skills.fullmoon_tex	icon_skills.fullmoon_red_tex
-10155040	Stun	Stun	False	swch	3000	0	5	Прорыв			При колющей атаке возникает кровотечение. При 6 наложении добавляется эффект "Разрыв", и противник обездвиживается.	icon_skills.brust_tex	icon_items.vicious_red_blood_tex
+10155040	StackCounter	Stun	False	abs	1000	0	10155041	Прорыв			При колющей атаке возникает кровотечение. При 6 наложении добавляется эффект "Разрыв", и противник обездвиживается.	icon_skills.brust_tex	icon_items.vicious_red_blood_tex
 10155041	Stun	Stun	False	swch	3000	0	5	Разрыв			Из-за сильного кровотечения движение невозможно.	icon_skills.brust_tex	icon_skills.brust_tex
 10155070	ReloadingSkill	Buff	True	swch	5000	0	13007	Новое избиение			Вы можете использовать "Избиение".	icon_skills.helicoptercuts_tex	icon_skills.helicoptercuts_tex
 10155071	ReloadingSkill	Buff	True	swch	5000	0	13007	Новое избиение			Вы можете использовать "Избиение".	icon_skills.helicoptercuts_tex	icon_skills.helicoptercuts_tex
@@ -4352,7 +4353,7 @@
 47662120	ASpd	Buff	True	perc	86400000	0	1.05	Смазывание			+$H_W_GOOD5%$COLOR_END к скорости атаки. Эффект может суммироваться до 3 раз.	icon_status.plusmove_tex	icon_status.plusmove_tex
 47662130	AtkPotion	Buff	True	perc	30000	0	2	Отличная машина			Отражает на 100% весь урон, а также увеличивает урон от умений на $H_W_GOOD100%$COLOR_END.	icon_status.plusattack_tex	icon_status.plusattack_tex
 47662130	Immune	Buff	True	seta	30000	0	0	Отличная машина			Отражает на 100% весь урон, а также увеличивает урон от умений на $H_W_GOOD100%$COLOR_END.	icon_status.plusattack_tex	icon_status.plusattack_tex
-47662140	HPChange	Buff	True	perc	1000	1	0.2	Хр-р-р-р...			Десять наложений "Хр-р-р-р..." вызывают Крепкий сон.	icon_status.sleepstatus_tex	icon_status.sleepstatus_tex
+47662140	StackCounter	Buff	True	swch	3000	0	476621	Хр-р-р-р...			Десять наложений "Хр-р-р-р..." вызывают Крепкий сон.	icon_status.sleepstatus_tex	icon_status.sleepstatus_tex
 47662200	Immune	Buff	True	17	20000	0	0	Сила кокоса			Неуязвимость к урону. Невозможно опрокинуть или ошеломить.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 47662200	StatusImmune	Buff	True	swch	20000	0	0	Сила кокоса			Неуязвимость к урону. Невозможно опрокинуть или ошеломить.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 47662300	Drunk	Debuff	False	60010	35000	0	0	Темнота I			Вы постепенно слепнете.	icon_status.darkeffect_tex	icon_status.darkeffect_tex
@@ -4386,7 +4387,7 @@
 47680400	RestoreHpOnHit	Buff	True	perc	0	0	1.002	Регенерация Нексуса			Восстанавливает по $H_W_GOOD0,2%$COLOR_END от максимального уровня HP после каждого успешного попадания. $BRЭффект "Регенерации Нексуса" нельзя снять.	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 47680500	Power	Buff	True	perc	600000	0	1.5	Рвение Нексуса			Повышает силу и выносливость на $H_W_GOOD50%$COLOR_END за каждый экземпляр эффекта. Суммируется до 10 раз. Эффект "Рвения Нексуса" нельзя снять.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex
 47680500	Endurance	Buff	True	perc	600000	0	1.5	Рвение Нексуса			Повышает силу и выносливость на $H_W_GOOD50%$COLOR_END за каждый экземпляр эффекта. Суммируется до 10 раз. Эффект "Рвения Нексуса" нельзя снять.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex
-47680600	HPLoss	Debuff	False	abs	10000	0	-10000000	Атака Нексуса			Когда "Атака Нексуса" применяется $H_W_BAD5$COLOR_END раз, вас убивает взрывом на месте.$BRЭффект "Атаки Нексуса" нельзя снять.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
+47680600	StackCounter	Debuff	False	seta	15000	0	476806	Атака Нексуса			Когда "Атака Нексуса" применяется $H_W_BAD5$COLOR_END раз, вас убивает взрывом на месте.$BRЭффект "Атаки Нексуса" нельзя снять.	icon_status.darkriftwhisper_tex	icon_status.darkriftwhisper_tex
 47680700	Power	Buff	True	perc	600000	0	1	Яростный взрыв!			Ох, похоже, что эксперимент провалился... Похоже, что вы здорово разозлились...	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 47680800	MaxHP	Buff	True	perc	7200000	0	1.05	Отстраненность			Увеличивает максимальный уровень HP на $H_W_GOOD5%$COLOR_END за экземпляр эффекта.	icon_status.darkriftgravity_tex	icon_status.darkriftgravity_tex
 47680900	251	Buff	True	perc	7200000	0	0.2	Дар Нексуса			С увеличением размера группы повышается шанс на получение материалов.	icon_status.darkriftreward_tex	icon_status.darkriftreward_tex
@@ -4395,7 +4396,7 @@
 47681200	ASpd	Debuff	True	perc	20000	0	1.1	Ускорение Нексуса			+$H_W_GOOD10%$COLOR_END к скорости атаки за каждый экземпляр эффекта. Эффект "Ускорения Нексуса" может суммироваться до 5 раз.Снять его невозможно.	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex
 47681300	253	Debuff	True	perc	20000	0	1	Проклятие Нексуса			Увеличивает урон умениями на $H_W_GOOD50%$COLOR_END при увеличении количества целей, максимум - 5. В $H_W_GOOD3 раза$COLOR_END увеличивает урон умениями. Эффект Проклятия Нексуса может суммироваться до 5 раз, снять его невозможно.	icon_status.darkriftareasword_tex	icon_status.darkriftareasword_tex
 47681400	Power	Debuff	True	perc	20000	0	1.2	Пирушка Нексуса			+$H_W_GOOD20%$COLOR_END к силе за каждый экземпляр эффекта. Когда количество эффектов достигнет 5, вы пускаетесь в пляс, а счетчик обнуляется. Эффект "Пирушки Нексуса" нельзя снять.	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
-47681400	Stun	Stun	False	swch	5000	0	15	Пирушка Нексуса			+$H_W_GOOD20%$COLOR_END к силе за каждый экземпляр эффекта. Когда количество эффектов достигнет 5, вы пускаетесь в пляс, а счетчик обнуляется. Эффект "Пирушки Нексуса" нельзя снять.	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
+47681400	StackCounter	Debuff	True	seta	20000	0	476814	Пирушка Нексуса			+$H_W_GOOD20%$COLOR_END к силе за каждый экземпляр эффекта. Когда количество эффектов достигнет 5, вы пускаетесь в пляс, а счетчик обнуляется. Эффект "Пирушки Нексуса" нельзя снять.	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex
 47681500	Power	Buff	True	perc	20000	0	1.15	Сила пространств			Увеличивает силу на $H_W_GOOD15%$COLOR_END (до $H_W_GOOD75%$COLOR_END) после каждого прыжка. Эффект Силы пространств может суммироваться до 5 раз, снять его невозможно.	icon_status.darkriftareafunny_tex	icon_status.darkriftareafunny_tex
 47681600	Endurance	Buff	True	perc	3600000	0	1	Зов Нексуса			Вы вошли в Нексус. Вы можете войти в Нексус: Грань Миров.$BRДвухчасовое время перезарядки Нексуса: Грани Миров применяется ко всем персонажам вашей учетной записи.	icon_status.calldimension_tex	icon_status.calldimension_tex
 47681601	Endurance	Buff	True	perc	3600000	0	1	Зов Нексуса			Вы вошли в Нексус. Вы можете войти в Нексус: Грань Миров.$BRДвухчасовое время перезарядки Нексуса: Грани Миров применяется ко всем персонажам вашей учетной записи.	icon_status.calldimension_tex	icon_status.calldimension_tex
@@ -4413,7 +4414,7 @@
 47690600	64	Debuff	False	seta	3000	1	476906	Рука смерти			Когда "Рука смерти" прекращает действовать, все оказавшиеся рядом союзники получают эффект "Прикосновения смерти", который отнимает $H_W_BAD50%$COLOR_END от их максимального уровня HP раз в $H_W_BAD1s$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 47690700	DelayedEffect	DOT	False	abs	5000	0	476907	Духовная рана			Когда "Духовная рана" прекращает действовать, все оказавшиеся рядом союзники получают "Потерю веры", которая оглушает их, обездвиживает и заставлять терять HP.	icon_status.confuseup_tex	icon_status.confuseup_tex
 47690800	HPChange	Debuff	False	perc	10000	10	-0.1	Свет глубин			Когда эффект прекращает действовать, вы теряете $H_W_BAD10%$COLOR_END от максимального уровня HP.$BRЭффект "Света глубин" нельзя снять.	icon_status.minushp_tex	icon_status.minushp_tex
-47690800	HPLoss	DOT	False	abs	10000	0	-10000000	Свет глубин			Когда эффект прекращает действовать, вы теряете $H_W_BAD10%$COLOR_END от максимального уровня HP.$BRЭффект "Света глубин" нельзя снять.	icon_status.minushp_tex	icon_status.minushp_tex
+47690800	StackCounter	Debuff	False	swch	10000	0	47690900	Свет глубин			Когда эффект прекращает действовать, вы теряете $H_W_BAD10%$COLOR_END от максимального уровня HP.$BRЭффект "Света глубин" нельзя снять.	icon_status.minushp_tex	icon_status.minushp_tex
 47690900	HPLoss	DOT	False	abs	10000	0	-10000000	Хватка глубин			Когда Хватка глубин прекращает действовать, вы умираете.$BRЭффект Хватки глубин нельзя снять.	icon_status.delaydamage_tex	icon_status.delaydamage_tex
 47691000	MPChange	Debuff	False	perc	5000	1	-100000000	Агония маны			Снижает MP до $H_W_BAD0$COLOR_END и предотвращает восстановление MP.$BRЭффект "Агонии маны" нельзя снять.	icon_status.minusmp_tex	icon_status.minusmp_tex
 47691000	NoHeal	Debuff	False	abs	5000	0	0	Агония маны			Снижает MP до $H_W_BAD0$COLOR_END и предотвращает восстановление MP.$BRЭффект "Агонии маны" нельзя снять.	icon_status.minusmp_tex	icon_status.minusmp_tex
@@ -4431,15 +4432,16 @@
 47700800	MovSpd	Buff	True	perc	10000	0	1.1	Паразит			Заставляет терять $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз. $BRПрыгайте, чтобы стряхнуть паразитов.$BRДругими способами от них не избавиться.	icon_status.minusattack_tex	icon_status.minusattack_tex
 47700800	HPChange	DOT	False	perc	30000	1	-0.02	Паразит			Заставляет терять $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз. $BRПрыгайте, чтобы стряхнуть паразитов.$BRДругими способами от них не избавиться.	icon_status.minusattack_tex	icon_status.minusattack_tex
 47700800	Drunk	DOT	False	426717	30000	0	0	Паразит			Заставляет терять $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз. $BRПрыгайте, чтобы стряхнуть паразитов.$BRДругими способами от них не избавиться.	icon_status.minusattack_tex	icon_status.minusattack_tex
+47700800	StackCounter	DOT	False	swch	30000	0	477007	Паразит			Заставляет терять $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз. $BRПрыгайте, чтобы стряхнуть паразитов.$BRДругими способами от них не избавиться.	icon_status.minusattack_tex	icon_status.minusattack_tex
 47701000	Immune	Buff	True	30	0	0	0	Щит существования			Ваша жизненная сила используется в качестве щита. 100% сопротивляемость всем негативным эффектам.$BRЭффект Щита существования нельзя снять.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 47701000	StatusImmune	Buff	True	swch	0	0	0	Щит существования			Ваша жизненная сила используется в качестве щита. 100% сопротивляемость всем негативным эффектам.$BRЭффект Щита существования нельзя снять.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
 47701100	Endurance	Debuff	False	seta	0	0	100	Нейтрализация			Делает выносливость равной $H_W_BAD100$COLOR_END.$BRЭффект "Нейтрализации" нельзя снять.	icon_status.plusedefence_tex	icon_status.plusedefence_tex
 47701200	Endurance	Buff	True	perc	0	0	1	Крепкий разум			Аргонская королева не обращает внимания на показатель агрессии.$BRЭффект Крепкого разума нельзя снять.	icon_status.diffusionaggro_tex	icon_status.diffusionaggro_tex
 47701300	Endurance	Buff	True	perc	0	0	1	Ослабленный разум			Аргонская королева обращает внимание на показатель агрессии.$BRЭффект Ослабленного разума нельзя снять.	icon_status.stackabnormality_tex	icon_status.stackabnormality_tex
 47701400	Endurance	Debuff	False	perc	40000	0	1	Метастазы аргона			Включает Захват системы при наложении эффекта 5 раз.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
-47701400	HPChange	DOT	False	perc	6000	1	-0.5	Метастазы аргона			Включает Захват системы при наложении эффекта 5 раз.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
+47701400	StackCounter	Debuff	False	swch	40000	0	477014	Метастазы аргона			Включает Захват системы при наложении эффекта 5 раз.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
 47701600	101	Buff	True	perc	5000	0	1.05	Волна отдохновения			Восстанавливает $H_W_GOOD5%$COLOR_END HP при атаке.$BRЭффект "Волны отдохновения" нельзя снять.	icon_status.plushp_tex	icon_status.plushp_tex
-47701700	Power	Buff	False	perc	0	0	3	Вопль королевы			Трехкратное применение вызывает Гнев королевы.	icon_status.plusattack_tex	icon_status.plusattack_tex
+47701700	StackCounter	Buff	True	swch	20000	0	477026	Вопль королевы			Трехкратное применение вызывает Гнев королевы.	icon_status.plusattack_tex	icon_status.plusattack_tex
 47701800	DelayedEffect	Debuff	False	swch	5000	0	477014	Мутаген аргона			Завершение "Мутагена аргона" приводит к наложению "Захвата системы".	icon_status.confuseup_tex	icon_status.confuseup_tex
 47701900	Endurance	Buff	False	perc	0	0	1	Положительный заряд			Положительный заряд	icon_status.plusabnormality_tex	icon_status.plusabnormality_tex
 47702000	Endurance	Buff	False	perc	0	0	1	Отрицательный заряд			Отрицательный заряд	icon_status.minusabnormality_tex	icon_status.minusabnormality_tex
@@ -4555,6 +4557,7 @@
 77600017	Power	Buff	False	perc	30000	0	1.3	Огненная ярость капитана			Сверхсила.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex
 77700001	Aggro	Buff	True	perc	80000	0	0.5	Право следящего			+$H_W_GOOD5%$COLOR_ENDк силе атаки за каждый экземпляр эффекта. Эффект может суммироваться до 10 раз.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 77700001	AtkPotion	Buff	True	perc	80000	2	1.05	Право следящего			+$H_W_GOOD5%$COLOR_ENDк силе атаки за каждый экземпляр эффекта. Эффект может суммироваться до 10 раз.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
+77700001	StackCounter	Buff	True	seta	80000	0	777002	Право следящего			+$H_W_GOOD5%$COLOR_ENDк силе атаки за каждый экземпляр эффекта. Эффект может суммироваться до 10 раз.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex
 77700002	HPChange	Buff	True	perc	900000	2	0.05	Обратное восстановление			Восстанавливает $H_W_GOOD5%$COLOR_END от максимального уровня HP раз в $H_W_GOOD2s$COLOR_END	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 77700002	MPChange	Buff	True	perc	900000	2	0.01	Обратное восстановление			Восстанавливает $H_W_GOOD5%$COLOR_END от максимального уровня HP раз в $H_W_GOOD2s$COLOR_END	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 77700003	DefPotion	Stun	True	swch	30000	0	1	Эффект переключателя			Повернув переключатель, вы получили эффект Нестабильного щита. Когда он будет применен три раза, вы сможете остановить уничтожение.	icon_skills.manashield_tex	icon_skills.manashield_tex
@@ -4568,6 +4571,7 @@
 77700009	HPLoss	Debuff	True	abs	13000	0	-10000	Стена зала			Наносит 30,000 урона.	icon_status.plusattack_tex	icon_status.plusattack_tex
 77700010	Aggro	Buff	False	perc	80000	0	0.5	Растущее безумие			Увеличивает вероятность критического удара на $H_W_GOOD5%$COLOR_END. Эффект может суммироваться до 10 раз.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 77700010	CritChance	Buff	False	abs	80000	2	0.05	Растущее безумие			Увеличивает вероятность критического удара на $H_W_GOOD5%$COLOR_END. Эффект может суммироваться до 10 раз.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
+77700010	StackCounter	Buff	False	seta	80000	0	777001	Растущее безумие			Увеличивает вероятность критического удара на $H_W_GOOD5%$COLOR_END. Эффект может суммироваться до 10 раз.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex
 77700011	Stun	Stun	True	swch	30000	0	5	Воды каналов			Вы уснули!	icon_skills.shackleofquicksand_tex	icon_skills.shackleofquicksand_tex
 77700012	Stun	Stun	False	swch	20000	0	5	Проклятие Смуггла			Управляется Смугглом.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 77700012	AllowAggro	Stun	False	swch	20000	0	0	Проклятие Смуггла			Управляется Смугглом.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
@@ -4589,9 +4593,10 @@
 77700800	MovSpd	Buff	True	perc	10000	0	1.1	Паразит			Отнимает $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз, заставляя терять до $H_W_BAD30%$COLOR_END HP каждый раз. $BRПрыгайте для активации эффекта "Стряхнуть паразитов".$BRЭффект "Паразита" нельзя снять.	icon_status.minusattack_tex	icon_status.minusattack_tex
 77700800	HPChange	DOT	False	perc	30000	1	-0.02	Паразит			Отнимает $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз, заставляя терять до $H_W_BAD30%$COLOR_END HP каждый раз. $BRПрыгайте для активации эффекта "Стряхнуть паразитов".$BRЭффект "Паразита" нельзя снять.	icon_status.minusattack_tex	icon_status.minusattack_tex
 77700800	Drunk	DOT	False	426717	30000	0	0	Паразит			Отнимает $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз, заставляя терять до $H_W_BAD30%$COLOR_END HP каждый раз. $BRПрыгайте для активации эффекта "Стряхнуть паразитов".$BRЭффект "Паразита" нельзя снять.	icon_status.minusattack_tex	icon_status.minusattack_tex
+77700800	StackCounter	DOT	False	swch	30000	0	777007	Паразит			Отнимает $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END Эффект может суммироваться до 5 раз, заставляя терять до $H_W_BAD30%$COLOR_END HP каждый раз. $BRПрыгайте для активации эффекта "Стряхнуть паразитов".$BRЭффект "Паразита" нельзя снять.	icon_status.minusattack_tex	icon_status.minusattack_tex
 77701400	Endurance	Debuff	False	perc	40000	0	1	Метастазы аргонной клетки			5 экземпляров эффекта приводят к появлению Вируса аргона.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
-77701400	HPChange	DOT	False	perc	6000	1	-0.2	Метастазы аргонной клетки			5 экземпляров эффекта приводят к появлению Вируса аргона.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
-77701700	Power	Buff	False	perc	30000	0	3	Вопль королевы			Трехкратное применение вызывает Гнев королевы.	icon_status.plusattack_tex	icon_status.plusattack_tex
+77701400	StackCounter	Debuff	False	swch	40000	0	777014	Метастазы аргонной клетки			5 экземпляров эффекта приводят к появлению Вируса аргона.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex
+77701700	StackCounter	Buff	True	swch	20000	0	777026	Вопль королевы			Трехкратное применение вызывает Гнев королевы.	icon_status.plusattack_tex	icon_status.plusattack_tex
 77702100	HPChange	DOT	False	perc	10000	3	-0.1	Разложение клеток			Во время действия эффекта отнимается $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD3s$COLOR_END Когда эффект исчезает, HP снижается на $H_W_BAD10% (unk2)$COLOR_END. $BR"Клеточный взрыв" нельзя отменить.	icon_status.delaydamage_tex	icon_status.delaydamage_tex
 77702400	Absorb	Buff	False	abs	15000	0	700000	Железная стена			Поглощает до $H_W_GOOD700000$COLOR_END урона. Эффект прекратится после поглощения определенного количества урона, вне зависимости от времени.	icon_skills.manashield_tex	icon_skills.manashield_tex
 77702400	Immune	Buff	False	20	15000	0	0	Железная стена			Поглощает до $H_W_GOOD700000$COLOR_END урона. Эффект прекратится после поглощения определенного количества урона, вне зависимости от времени.	icon_skills.manashield_tex	icon_skills.manashield_tex
@@ -4619,7 +4624,7 @@
 77703424	DelayedEffect	Debuff	True	abs	4000	0	777032	Демокронское проклятие			Замедление в результате действия Проклятия демокрона.		
 77703426	Power	Buff	True	perc	600000	0	1.1	Хищность			Поедание демокронов увеличивает силу.	icon_status.minusdiseaseresist_tex	icon_status.minusdiseaseresist_tex
 77703428	NoHeal	DOT	False	seta	35000	0	0	Демокронское проклятие			Проклятие демокрона падает на вас, запрещая восстановление HP любым способом.	icon_status.minusfocus_tex	icon_status.minusfocus_tex
-77703430	Power	Buff	False	perc	30000	0	2.5	Хищность			Кракатокс получает энергию демокронов и использует ее в качестве щита. Уничтожьте щит, пока он не набрал слишком большую силу.	icon_status.plusattack_tex	icon_status.plusattack_tex
+77703430	StackCounter	Buff	True	swch	600000	0	777032	Хищность			Кракатокс получает энергию демокронов и использует ее в качестве щита. Уничтожьте щит, пока он не набрал слишком большую силу.	icon_status.plusattack_tex	icon_status.plusattack_tex
 77703431	HPChange	DOT	False	abs	20000	2	-5000	Инфекция демокрона			Отнимает HP через определенные промежутки времени. Лечебные умения действуют менее эффективно.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 77703431	IncreasedHeal	DOT	False	swch	20000	0	0.8	Инфекция демокрона			Отнимает HP через определенные промежутки времени. Лечебные умения действуют менее эффективно.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex
 77703432	Power	DOT	False	perc	20000	0	3	Мутация демокрона			Быстро отнимает HP. При этом вы ощущаете силу демокронов, вливающуюся в ваше тело.	icon_status.delaydamage_tex	icon_status.delaydamage_tex
@@ -4640,7 +4645,7 @@
 77703444	IncreasedHeal	DOT	True	swch	180000	0	0.3	Демокронское проклятие			Атака демокронов поразила вас изнутри: Лечащие умения восстанавливают меньше HP.	icon_status.diffusionabnormality_tex	icon_status.diffusionabnormality_tex
 78100006	Drunk	Debuff	False	781003	0	0	0	Мир души Лакана			Вы в мире души Лакана.	icon_socials.social_010_tex	icon_socials.social_010_tex
 78100009	HPChange	DOT	True	perc	200000	1	-0.03	Наблюдение Лакана			Лакан наблюдает за вами. Вы теряете по $H_W_BAD3%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex
-78100009	HPLoss	Debuff	False	abs	1000	0	-50000000	Наблюдение Лакана			Лакан наблюдает за вами. Вы теряете по $H_W_BAD3%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex
+78100009	StackCounter	DOT	True	seta	200000	0	78100010	Наблюдение Лакана			Лакан наблюдает за вами. Вы теряете по $H_W_BAD3%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex
 80401500	DelayedEffect	Buff	True	abs	35000	0	475150	Адская броня Келсаика			Поглощает до $H_W_GOOD4000000$COLOR_END урона.	icon_skills.manashield_tex	icon_skills.manashield_tex
 80401500	Absorb	Buff	True	abs	35000	0	4000000	Адская броня Келсаика			Поглощает до $H_W_GOOD4000000$COLOR_END урона.	icon_skills.manashield_tex	icon_skills.manashield_tex
 80900001	Endurance	Debuff	False	setp	15000	0	0.3	Свежевание			-$H_W_BAD70%$COLOR_END к скорости перемещения и выносливости. Эффект нельзя снять.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
@@ -4924,7 +4929,9 @@
 81300017	AtkPotion	Buff	True	perc	1800000	2	1	Благословение лесов			Задержка при использовании умений сокращается на $H_W_GOOD20%$COLOR_END. Действует только на жрецов или мистиков.	icon_status.cruel_slayer_4_tex	icon_status.cruel_slayer_4_tex
 81300017	CDR	Buff	True	swch	1800000	0	0.8	Благословение лесов			Задержка при использовании умений сокращается на $H_W_GOOD20%$COLOR_END. Действует только на жрецов или мистиков.	icon_status.cruel_slayer_4_tex	icon_status.cruel_slayer_4_tex
 81300018	AtkPotion	Buff	True	perc	1800000	2	1.1	Сила хранителя леса			+$H_W_GOOD10%$COLOR_END к урону от умений.	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex
+81300018	StackCounter	Buff	True	seta	1800000	0	813002	Сила хранителя леса			+$H_W_GOOD10%$COLOR_END к урону от умений.	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex
 81300019	HPChange	Buff	True	perc	1800000	2	0.02	Восстановление хранителя леса			Восстанавливает $H_W_GOOD2%$COLOR_END от максимального уровня HP раз в $H_W_GOOD2s$COLOR_END	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
+81300019	StackCounter	Buff	True	seta	1800000	0	813003	Восстановление хранителя леса			Восстанавливает $H_W_GOOD2%$COLOR_END от максимального уровня HP раз в $H_W_GOOD2s$COLOR_END	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex
 81300020	Power	Debuff	True	perc	600000	0	1.3	Зараженная пыльца			+$H_W_GOOD30%$COLOR_END к силе.	icon_status.plusattack_tex	icon_status.plusattack_tex
 81300021	HPChange	DOT	False	perc	5000	2	-0.01	Раны об камни			Уменьшает HP на $H_W_BAD1,5%$COLOR_END от максимального уровня раз в $H_W_BAD2s$COLOR_END	icon_status.firedamage_tex	icon_status.firedamage_tex
 81300022	Immune	Debuff	False	seta	0	0	0	Защита Баньякаса			Баньякас перешел в оборону: теперь он неуязвим к любому урону.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex
@@ -5186,6 +5193,7 @@
 88430200	ReloadingSkill	Buff	True	swch	100	0	4030	Перезарядка контрудара топором			Для этого эффекта подсказки нет.	icon_ep.ep_cooltime_restart_tex	icon_ep.ep_cooltime_restart_tex
 88500010	HPChange	DOT	False	perc	6000	1	-0.005	Ожог			Каждую секунду наносит урон, равный $H_W_BAD0.5%$COLOR_END% HP (макс. 1000)	icon_ep.ep_debuff_burn_tex	icon_ep.ep_debuff_burn_tex
 88500100	MovSpd	DOT	False	perc	6000	0	0.9	Обморожение			Скорость атаки снижается на $H_W_BAD10%$COLOR_END. Суммируется до 5 раз, после чего происходит обморожение и скорость передвижения падает.	icon_ep.ep_debuff_frostbite_tex	icon_ep.ep_debuff_frostbite_tex
+88500100	StackCounter	DOT	False	swch	6000	0	88500150	Обморожение			Скорость атаки снижается на $H_W_BAD10%$COLOR_END. Суммируется до 5 раз, после чего происходит обморожение и скорость передвижения падает.	icon_ep.ep_debuff_frostbite_tex	icon_ep.ep_debuff_frostbite_tex
 88500150	MovSpd	DOT	False	perc	2000	0	0.75	Жуткое обморожение			Обморожение суммируется, скорость передвижения снижается на $H_W_BAD25%$COLOR_END. Эффект перестает действовать в случае опрокидывания.	icon_ep.ep_debuff_frostbite_tex	icon_ep.ep_debuff_frostbite_tex
 88505101	MPChange	Buff	True	abs	25000	1	7	(Скрытый) Накопленный заряд			Этот эффект должен оставаться невидимым.		
 88505102	MPChange	Buff	True	abs	25000	1	9	(Скрытый) Накопленный заряд			Этот эффект должен оставаться невидимым.		
@@ -5653,8 +5661,8 @@
 91600007	ASpd	Debuff	False	perc	600000	0	1.2	Вопль драколота			+$H_W_GOOD20%$COLOR_END к силе, +$H_W_GOOD10%$COLOR_END к скорости атаки за экземпляр эффекта. Эффект нельзя снять.	icon_status.plusattack_tex	icon_status.plusattack_tex
 91600008	Endurance	Stun	False	seta	30000	0	10000000	Взбучка Даркана			Вы оглушены и обездвижены.	icon_status.confuseup_tex	icon_status.confuseup_tex
 91600008	Stun	Stun	False	swch	30000	0	5	Взбучка Даркана			Вы оглушены и обездвижены.	icon_status.confuseup_tex	icon_status.confuseup_tex
-91600010	ASpd	DOT	False	perc	1000	0	1	Опустошение Даркана			Отнимает $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END до снятия эффекта.	icon_status.firedamage_tex	icon_status.firedamage_tex
 91600010	HPChange	DOT	False	perc	10000	1	-0.1	Опустошение Даркана			Отнимает $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END до снятия эффекта.	icon_status.firedamage_tex	icon_status.firedamage_tex
+91600010	StackCounter	DOT	False	swch	10000	0	916035	Опустошение Даркана			Отнимает $H_W_BAD10%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END до снятия эффекта.	icon_status.firedamage_tex	icon_status.firedamage_tex
 91600013	HPChange	Debuff	False	perc	44000	1	-0.02	Кровавая плеть I			Снижает эффективность лечения на $H_W_BAD25%$COLOR_END и заставляет терять $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600013	IncreasedHeal	Debuff	False	swch	44000	0	0.75	Кровавая плеть I			Снижает эффективность лечения на $H_W_BAD25%$COLOR_END и заставляет терять $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END	icon_status.fearstatus_tex	icon_status.fearstatus_tex
 91600014	HPChange	Debuff	False	perc	44000	1	-0.02	Кровавая плеть II			Снижает эффективность лечения на $H_W_BAD50%$COLOR_END и заставляет терять $H_W_BAD2%$COLOR_END от максимального уровня HP раз в $H_W_BAD1s$COLOR_END	icon_status.fearstatus_tex	icon_status.fearstatus_tex
@@ -5715,9 +5723,9 @@
 97000003	MovSpd	Debuff	True	setp	3000	0	0.3	Усиливающий паучат яд			Отравление ядовитыми парами паучат. Каждые $H_W_BAD0s$COLOR_END вы теряете по $H_W_BAD10%$COLOR_END от максимального уровня HP.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000003	HPDrain	Debuff	True	perc	3000	0	0.7	Усиливающий паучат яд			Отравление ядовитыми парами паучат. Каждые $H_W_BAD0s$COLOR_END вы теряете по $H_W_BAD10%$COLOR_END от максимального уровня HP.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000003	HPChange	Debuff	True	perc	3000	1	-0.1	Усиливающий паучат яд			Отравление ядовитыми парами паучат. Каждые $H_W_BAD0s$COLOR_END вы теряете по $H_W_BAD10%$COLOR_END от максимального уровня HP.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
-97000004	Endurance	Buff	True	perc	30000	0	1	Рост пауков			Каждый экземпляр эффекта повышает скорость перемещения на $H_W_GOOD10%$COLOR_END, а силу атаки на $H_W_GOOD20%$COLOR_END.	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 97000004	MovSpd	Buff	True	perc	7200000	0	1.1	Рост пауков			Каждый экземпляр эффекта повышает скорость перемещения на $H_W_GOOD10%$COLOR_END, а силу атаки на $H_W_GOOD20%$COLOR_END.	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 97000004	AtkPotion	Buff	True	perc	7200000	2	1.2	Рост пауков			Каждый экземпляр эффекта повышает скорость перемещения на $H_W_GOOD10%$COLOR_END, а силу атаки на $H_W_GOOD20%$COLOR_END.	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
+97000004	StackCounter	Buff	True	swch	7200000	0	97000049	Рост пауков			Каждый экземпляр эффекта повышает скорость перемещения на $H_W_GOOD10%$COLOR_END, а силу атаки на $H_W_GOOD20%$COLOR_END.	icon_status.darkriftrecovery_tex	icon_status.darkriftrecovery_tex
 97000005	MaxHP	Debuff	False	perc	10000	0	1	Слюна королевы пауков			Для цвета!	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000007	Ballance	Debuff	True	perc	10000	0	1.87E-06	Сосредоточение			Воскресшая Демония что-то почуяла. Сопротивление ослабевает.	icon_status.minusfocus_tex	icon_status.minusfocus_tex
 97000008	MaxHP	Debuff	False	perc	3600000	0	1	Абнукта_прозрачный NPC_черви			Черви	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
@@ -5726,15 +5734,15 @@
 97000011	MaxHP	Debuff	False	perc	3600000	0	1	Абнукта_прозрачный NPC_пики			Пики	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000012	MaxHP	Debuff	False	perc	3600000	0	1	Абнукта_прозрачный NPC_треугольник			Треугольник	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000013	MaxHP	Debuff	True	perc	90000	0	1	Абнукта_игрок_черви			Черви	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000013	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_черви			Черви	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000013	StackCounter	Debuff	True	swch	90000	0	97000018	Абнукта_игрок_черви			Черви	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000014	MaxHP	Debuff	True	perc	90000	0	1	Абнукта_игрок_бубны			Бубны	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000014	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_бубны			Бубны	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000014	StackCounter	Debuff	True	swch	90000	0	97000019	Абнукта_игрок_бубны			Бубны	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000015	MaxHP	Debuff	True	perc	90000	0	1	Абнукта_игрок_крести			Крести	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000015	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_крести			Крести	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000015	StackCounter	Debuff	True	swch	90000	0	97000020	Абнукта_игрок_крести			Крести	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000016	MaxHP	Debuff	True	perc	90000	0	1	Абнукта_игрок_пики			Пики	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000016	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_пики			Пики	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000016	StackCounter	Debuff	True	swch	90000	0	97000021	Абнукта_игрок_пики			Пики	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000017	MaxHP	Debuff	True	perc	90000	0	1	Абнукта_игрок_треугольник			Треугольник	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
-97000017	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_треугольник			Треугольник	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
+97000017	StackCounter	Debuff	True	swch	90000	0	97000022	Абнукта_игрок_треугольник			Треугольник	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000018	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_ (обратные) черви			(обратные) черви	icon_status.confuseup_tex	icon_status.confuseup_tex
 97000019	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_ (обратные) бубны			(обратные) бубны	icon_status.confuseup_tex	icon_status.confuseup_tex
 97000020	HPLoss	Debuff	True	abs	1000	0	-50000000	Абнукта_игрок_ (обратные) крести			(обратные) крести	icon_status.confuseup_tex	icon_status.confuseup_tex
@@ -5746,15 +5754,17 @@
 97000027	DelayedEffect	Debuff	True	perc	30000	0	97000028	Пробужденная Лилит (3 босс)_тотальная атака			Пробужденная Лилит (3 босс)_тотальная атака	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 97000028	MaxHP	Debuff	True	perc	3000	0	1	Пробужденная Лилит (3 босс)_тотальная атака_выстрел			Пробужденная Лилит (3 босс)_тотальная атака_выстрел	icon_status.diseaseup_tex	icon_status.diseaseup_tex
 97000032	DefPotion	DOT	True	perc	100000	0	1.5	Проклятие Абнукты			+50% к урону, полученному от Абнукты. При повторном применении наступает смерть.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97000032	HPLoss	Debuff	False	abs	1000	0	-50000000	Проклятие Абнукты			+50% к урону, полученному от Абнукты. При повторном применении наступает смерть.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97000033	Power	DOT	True	perc	60000	0	11	Мощь Лакана			С каждым экземпляром эффекта скорость атаки увеличивается на $H_W_GOOD10%$COLOR_END.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex
+97000032	StackCounter	DOT	True	seta	100000	0	97000038	Проклятие Абнукты			+50% к урону, полученному от Абнукты. При повторном применении наступает смерть.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 97000033	ASpd	DOT	True	perc	60000	0	1.1	Мощь Лакана			С каждым экземпляром эффекта скорость атаки увеличивается на $H_W_GOOD10%$COLOR_END.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex
+97000033	StackCounter	DOT	True	swch	60000	0	97000034	Мощь Лакана			С каждым экземпляром эффекта скорость атаки увеличивается на $H_W_GOOD10%$COLOR_END.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex
 97000035	Power	DOT	True	perc	60000	0	11	Полная мощь Лакана			+$H_W_GOOD1000%$COLOR_END к силе, +$H_W_GOOD50%$COLOR_END к скорости атаки.	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 97000035	ASpd	DOT	True	perc	60000	0	1.5	Полная мощь Лакана			+$H_W_GOOD1000%$COLOR_END к силе, +$H_W_GOOD50%$COLOR_END к скорости атаки.	icon_status.archerspirit_tex	icon_status.archerspirit_tex
 97000040	MovSpd	Buff	False	perc	0	0	1	Ярость фимбрилиска			Появляется дух Фимбрилиска.	icon_status.delayheal_tex	icon_status.delayheal_tex
 97000041	MovSpd	Buff	False	perc	0	0	1	Ярость Атроцитоса			Появляется дух Атроцитоса.	icon_status.delaympgain_tex	icon_status.delaympgain_tex
 97000042	HPLoss	Debuff	True	abs	60000	0	-10000000	Ярость фимбрилиска			Действие эффекта заканчивается через некоторое время. Два экземпляра эффекта приводят к смерти.	icon_status.delayheal_tex	icon_status.delayheal_tex
+97000042	StackCounter	Debuff	True	seta	60000	0	97000044	Ярость фимбрилиска			Действие эффекта заканчивается через некоторое время. Два экземпляра эффекта приводят к смерти.	icon_status.delayheal_tex	icon_status.delayheal_tex
 97000043	HPLoss	Debuff	True	abs	60000	0	-10000000	Ярость Атроцитоса			Действие эффекта заканчивается через некоторое время. Два экземпляра эффекта приводят к смерти.	icon_status.delaympgain_tex	icon_status.delaympgain_tex
+97000043	StackCounter	Debuff	True	seta	60000	0	97000044	Ярость Атроцитоса			Действие эффекта заканчивается через некоторое время. Два экземпляра эффекта приводят к смерти.	icon_status.delaympgain_tex	icon_status.delaympgain_tex
 97000044	HPChange	Debuff	False	abs	1100	1	-50000000	Абнукта (1 босс) двойное наложение_смерть			Абнукта (1 босс) двойное наложение_смерть	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex
 97000045	HPChange	Debuff	True	perc	0	1	1	Для защиты Абнукты (3 босс) прозрачный NPC			Для защиты Абнукты (3 босс) прозрачный NPC	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
 97000045	AllowAggro	Debuff	True	swch	0	0	0	Для защиты Абнукты (3 босс) прозрачный NPC			Для защиты Абнукты (3 босс) прозрачный NPC	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex
@@ -5765,7 +5775,7 @@
 97000051	HPDrain	Debuff	False	perc	3000	0	0.9	Яд паучат			Отравление ядовитыми парами паучат. Каждый $H_W_BAD0s$COLOR_END вы теряете по $H_W_BAD5%$COLOR_END от максимального уровня HP.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000051	HPChange	Debuff	False	perc	3000	1	-0.05	Яд паучат			Отравление ядовитыми парами паучат. Каждый $H_W_BAD0s$COLOR_END вы теряете по $H_W_BAD5%$COLOR_END от максимального уровня HP.	icon_status.diseasedown_tex	icon_status.diseasedown_tex
 97000052	DefPotion	DOT	True	perc	100000	0	1.5	Проклятие могучей Абнукты			+50% к урону, полученному от Абнукты. Кроме того, урон от Сферы души Абнукты увеличивается вдвое. При повторном применении наступает смерть.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
-97000052	HPLoss	Debuff	False	abs	1000	0	-50000000	Проклятие могучей Абнукты			+50% к урону, полученному от Абнукты. Кроме того, урон от Сферы души Абнукты увеличивается вдвое. При повторном применении наступает смерть.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
+97000052	StackCounter	DOT	True	seta	100000	0	97000038	Проклятие могучей Абнукты			+50% к урону, полученному от Абнукты. Кроме того, урон от Сферы души Абнукты увеличивается вдвое. При повторном применении наступает смерть.	icon_status.minusdefence_tex	icon_status.minusdefence_tex
 97500100	HPChange	DOT	False	perc	120000	2	-0.07	Адское пламя			Отнимает $H_W_BAD7%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END Цель умирает после окончания действия эффекта.$BRЭффект "Адского пламени" может снять только "Адский холод".	icon_status.firedamage_tex	icon_status.firedamage_tex
 97500100	HPLoss	DOT	False	abs	120000	0	-10000000	Адское пламя			Отнимает $H_W_BAD7%$COLOR_END от максимального уровня HP раз в $H_W_BAD2s$COLOR_END Цель умирает после окончания действия эффекта.$BRЭффект "Адского пламени" может снять только "Адский холод".	icon_status.firedamage_tex	icon_status.firedamage_tex
 97500250	KnockDownChance	Buff	True	perc	20000	0	0	Крепкая печать			100% сопротивляемость всем негативным эффектам, опрокидыванию и ошеломлению. 	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex
