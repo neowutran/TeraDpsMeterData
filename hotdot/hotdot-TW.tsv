@@ -166,8 +166,8 @@
 1495	OutOfCombatMovSpd	Debuff	True	perc	2000	0	0.2	戰場的毒氣			被戰場毒氣中了，每秒減少20000的HP。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 1495	HPChange	Debuff	True	perc	2000	1	-20000	戰場的毒氣			被戰場毒氣中了，每秒減少20000的HP。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 1510	HPChange	Buff	True	perc	1000	1	0.5	急速恢復藥水	114	聯盟補給品：急速恢復藥水	立即恢復$H_W_GOOD50%$COLOR_END的HP。	icon_items.potion5_tex	icon_items.potion5_tex	False
-1511	HPChange	Buff	True	perc	1000	1	0.6	萬能藥	7219	萬能藥	整體HP，MP立即恢復 $H_W_GOOD60%$COLOR_END的HP及MP。	icon_items.potion5_tex	icon_items.potion5_tex	False
-1511	MPChange	Buff	True	perc	1000	1	0.6	萬能藥	7219	萬能藥	整體HP，MP立即恢復 $H_W_GOOD60%$COLOR_END的HP及MP。	icon_items.potion5_tex	icon_items.potion5_tex	False
+1511	HPChange	Buff	True	perc	1000	1	0.6	萬能藥	7219	萬能藥	整體HP，MP立即恢復 $H_W_GOOD60%$COLOR_END的HP及MP。	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
+1511	MPChange	Buff	True	perc	1000	1	0.6	萬能藥	7219	萬能藥	整體HP，MP立即恢復 $H_W_GOOD60%$COLOR_END的HP及MP。	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
 1530	MPChange	Buff	True	perc	15000	1	0.05	MP恢復藥水	130	MP恢復藥水	每$H_W_GOOD1s$COLOR_END持續恢復$H_W_GOOD5%$COLOR_END的MP。	icon_items.potion19_tex	icon_items.potion19_tex	True
 1610	HPChange	Buff	True	perc	10000	1	0.02	恢復晶球	8000	恢復晶球	每$H_W_GOOD1s$COLOR_END持續恢復$H_W_GOOD2%$COLOR_END的HP。	icon_items.potion1_tex	icon_items.potion1_tex	True
 1630	HPChange	Buff	True	perc	1000	1	0.25	強力恢復晶球	8005	強力恢復晶球	立即恢復$H_W_GOOD25%$COLOR_END的HP。	icon_items.potion5_tex	icon_items.potion5_tex	False
@@ -597,8 +597,9 @@
 4514	XPBoost	Buff	True	perc	0	0	10	高速成長			狩獵時獲得經驗值增加$H_W_GOOD10倍$COLOR_END。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
 4600	CrystalBind	Buff	True	abs	3600000	0	1	水晶防護卷軸	354	水晶防護卷軸	死亡時防止水晶爆破，並會刪除1個堆疊。此效果最多可堆疊99次。在套用完整的水晶防護卷軸狀態時不套用此效果。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
 4610	CCrystalBind	Buff	True	abs	43200000	0	1	完整的水晶防護卷軸	396	聯盟補給品：完整的水晶防護卷軸	死亡時防止水晶爆破。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
-4611	CCrystalBind	Buff	True	abs	3600000	0	1	聯盟補給品：完整的水晶防護卷軸 (1小時)	98526	聯盟補給品：完整的水晶防護卷軸 (1小時)		icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
-4612	CCrystalBind	Buff	True	abs	3600000	0	1	完整的水晶防護卷軸			死亡時可防止水晶碎裂。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
+4612	CCrystalBind	Buff	True	abs	3600000	0	1	完整的水晶防護卷軸	98526	聯盟補給品：完整的水晶防護卷軸 (1小時)	死亡時可防止水晶碎裂。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
+4615	CCrystalBind	Buff	True	abs	10800000	0	1	完整的水晶防護卷軸	98570	聯盟補給品：完整的水晶防護卷軸 (3小時)	死亡時可防止水晶碎裂。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
+4616	CCrystalBind	Buff	True	abs	21600000	0	1	完整的水晶防護卷軸	98572	聯盟補給品：完整的水晶防護卷軸 (6小時)	死亡時可防止水晶碎裂。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
 4620	CraftTime	Buff	True	perc	300000	0	0.5	製作速度增加卷軸	6293	製作速度增加卷軸	所有道具的製作速度提升$H_W_GOOD50%$COLOR_END。	icon_items.scroll_produce_speedup_tex	icon_items.scroll_produce_speedup_tex	True
 4621	CraftTime	Buff	True	perc	3600000	0	0.5	強力製作速度增加卷軸	6296	強力製作速度增加卷軸	所有道具製作速度提升$H_W_GOOD50%$COLOR_END。	icon_items.scroll_produce_speedup_tex	icon_items.scroll_produce_speedup_tex	True
 4630	Gathering	Buff	True	seta	600000	0	410	採集熟練度增加卷軸	6295	採集熟練度增加卷軸	600s內，採集熟練度增加$H_W_GOOD410$COLOR_END。	icon_items.scroll_collection_expup_tex	icon_items.scroll_collection_expup_tex	True
@@ -1506,6 +1507,7 @@
 101220	Endurance	Debuff	False	perc	15000	0	0.92	鬥志一擊			抗打減少$H_W_BAD8%$COLOR_END、HP恢復效果減少$H_W_BAD30%$COLOR_END。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101220	IncreasedHeal	Debuff	False	perc	15000	0	0.7	鬥志一擊			抗打減少$H_W_BAD8%$COLOR_END、HP恢復效果減少$H_W_BAD30%$COLOR_END。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101300	ASpd	Buff	True	perc	27000	0	1.009	無雙亂舞：刺擊			每次重疊時，攻擊者的攻擊速度增加 0.9%。此效果最多可重疊 13次。	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex	True
+101301	ASpd	Buff	True	perc	27000	0	1.009	無雙亂舞：刺擊			每次重疊時，攻擊者的攻擊速度增加 0.9%。此效果最多可重疊 13次。	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex	True
 101400	MovSpd	Debuff	False	setp	3000	0	0.5	撕咬擊I			移動速度減少$H_W_GOOD50%$COLOR_END。	icon_skills.heavybite_tex	icon_skills.heavybite_tex	True
 101400	HPDrain	Debuff	False	perc	3000	0	0.7	撕咬擊I			移動速度減少$H_W_GOOD50%$COLOR_END。	icon_skills.heavybite_tex	icon_skills.heavybite_tex	True
 101500	DefPotion	Debuff	False	perc	15000	0	1.25	破烈			使用疾風劈擊攻擊時，技能威力增加$H_W_BAD25%$COLOR_END。	icon_skills.rupture_tex	icon_skills.rupture_tex	True
@@ -3329,7 +3331,7 @@
 4510012	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	太陽晶球			追隨著太陽晶球，和平狀態下移動速度提升$H_W_GOOD15$COLOR_END。	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510013	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	太陽晶球			追隨著太陽晶球，和平狀態下移動速度提升$H_W_GOOD15$COLOR_END。	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510014	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	太陽晶球			追隨著太陽晶球，和平狀態下移動速度提升$H_W_GOOD15$COLOR_END。	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
-4510015	AtkPotion	Buff	True	perc	60000	0	1.03	勇氣的旋律			聽到扈卡笛子的聲音，勇氣好像湧出來了一樣。 技能偒害值增加$H_W_GOOD3%$COLOR_END。	icon_items.fallfestival_whistle_tex	icon_items.fallfestival_whistle_tex	True
+4510015	AtkPotion	Buff	True	perc	60000	0	1.01	勇氣的旋律			聽到扈卡笛子的聲音，勇氣好像湧出來了一樣。 技能偒害值增加$H_W_GOOD1%$COLOR_END。	icon_items.fallfestival_whistle_tex	icon_items.fallfestival_whistle_tex	True
 5000000	Power	Buff	True	abs	0	0	3	從今天開始，我們變得更強了!!			力量 / 抗打 / 衝擊 / 均衡 / 爆擊率 / 移動速度增加$H_W_GOOD3$COLOR_END。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 5000000	Endurance	Buff	True	abs	0	0	3	從今天開始，我們變得更強了!!			力量 / 抗打 / 衝擊 / 均衡 / 爆擊率 / 移動速度增加$H_W_GOOD3$COLOR_END。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 5000000	MovSpd	Buff	True	abs	0	0	3	從今天開始，我們變得更強了!!			力量 / 抗打 / 衝擊 / 均衡 / 爆擊率 / 移動速度增加$H_W_GOOD3$COLOR_END。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
