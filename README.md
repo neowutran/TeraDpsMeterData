@@ -13,7 +13,7 @@ File formats:
 ----------------------
 HotDot*.tsv:
 
-AbnormalId	AbnormalType	AbnormalClass	IsBuff	Method	Time	Tick	Amount	Name	Itemid	ItemName	Tooltip	IconName	IsShow
+AbnormalId	AbnormalType	AbnormalClass	IsBuff	Method	Time	Tick	Amount	Name	Itemid	ItemName	Tooltip	IconName	EffectIconName	IsShow
 
 
 skills*.tsv:
