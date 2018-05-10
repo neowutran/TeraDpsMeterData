@@ -138,6 +138,8 @@
 1134	Immune	Buff	True	27	12000	0	0	女神的祝福	60260	女神的祝福	持續時間內將變成無敵狀態。使用技能時將會解除。	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 1134	StatusImmune	Buff	True	swch	12000	0	0	女神的祝福	60260	女神的祝福	持續時間內將變成無敵狀態。使用技能時將會解除。	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 1135	Endurance	Buff	True	perc	0	0	1	聯盟的召喚			為了巴其溫聯盟的新兵，已將任務的獎勵提升了！除了循環任務之外，所有任務的金幣獎勵將以兩倍支付。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
+1136	Immune	Buff	True	27	13000	0	0	艾連的鑰匙	201957	艾連的鑰匙	持續時間內為無敵狀態。使用技能時解除。	icon_items.ellenkey_tex	icon_items.ellenkey_tex	True
+1136	StatusImmune	Buff	True	swch	13000	0	0	艾連的鑰匙	201957	艾連的鑰匙	持續時間內為無敵狀態。使用技能時解除。	icon_items.ellenkey_tex	icon_items.ellenkey_tex	True
 1150	HPChange	Buff	True	perc	1800000	5	0.01	HP恢復試藥			因為HP恢復試藥的特別效果，每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP。	icon_items.potion14_tex	icon_items.potion14_tex	True
 1151	HPChange	Buff	True	perc	10800000	5	0.01	強力HP恢復試藥			因為強力HP恢復試藥的特別效果，每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP。	icon_items.potion14_tex	icon_items.potion14_tex	True
 1200	MPChange	Buff	True	abs	1800000	5	5	MP恢復試藥			因為MP恢復試藥的特別效果，每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD5$COLOR_END的MP。	icon_items.potion15_tex	icon_items.potion15_tex	True
@@ -175,6 +177,7 @@
 1510	HPChange	Buff	True	perc	1000	1	0.5	急速恢復藥水	114	聯盟補給品：急速恢復藥水	立即恢復$H_W_GOOD50%$COLOR_END的HP。	icon_items.potion5_tex	icon_items.potion5_tex	False
 1511	HPChange	Buff	True	perc	1000	1	0.6	萬能藥	7219	萬能藥	整體HP，MP立即恢復 $H_W_GOOD60%$COLOR_END的HP及MP。	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
 1511	MPChange	Buff	True	perc	1000	1	0.6	萬能藥	7219	萬能藥	整體HP，MP立即恢復 $H_W_GOOD60%$COLOR_END的HP及MP。	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
+1512	HPChange	Buff	True	perc	1000	1	0.6	莎夏的馬鈴薯	201955	莎夏的馬鈴薯	整體HP $H_W_GOOD60%$COLOR_END立即恢復HP。	icon_items.sashapotato_tex	icon_items.sashapotato_tex	False
 1530	MPChange	Buff	True	perc	15000	1	0.05	MP恢復藥水	130	MP恢復藥水	每$H_W_GOOD1s$COLOR_END持續恢復$H_W_GOOD5%$COLOR_END的MP。	icon_items.potion19_tex	icon_items.potion19_tex	True
 1610	HPChange	Buff	True	perc	10000	1	0.02	恢復晶球	8000	恢復晶球	每$H_W_GOOD1s$COLOR_END持續恢復$H_W_GOOD2%$COLOR_END的HP。	icon_items.potion1_tex	icon_items.potion1_tex	True
 1630	HPChange	Buff	True	perc	1000	1	0.25	強力恢復晶球	8005	強力恢復晶球	立即恢復$H_W_GOOD25%$COLOR_END的HP。	icon_items.potion5_tex	icon_items.potion5_tex	False
@@ -734,8 +737,8 @@
 4886	DefPotion	Buff	True	perc	1800000	0	0.9	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升$H_W_GOOD4%$COLOR_END，攻擊力增加$H_W_GOOD10%$COLOR_END，防禦力增加$H_W_GOOD10%$COLOR_END。	icon_items.potion10_tex	icon_items.potion10_tex	True
 4886	AtkPotion	Buff	True	perc	1800000	0	1.1	勇猛藥水 II	139536	勇猛藥水 II	攻擊速度提升$H_W_GOOD4%$COLOR_END，攻擊力增加$H_W_GOOD10%$COLOR_END，防禦力增加$H_W_GOOD10%$COLOR_END。	icon_items.potion10_tex	icon_items.potion10_tex	True
 4951	Resurrect	Buff	True	seta	0	0	1	凱亞的祝福			獲得凱亞的祝福，死亡時可在該場所上復活1次，並恢復所有的 HP和 MP、健康狀態。無法和復活庇護及轉生祝福、貝里克的恩寵技能重複套用。	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex	True
-4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化藥水	216616	Зелье Канефоры	攻擊力增加 $H_W_GOOD12%$COLOR_END。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
-4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化藥水	216618	Сильное зелье Канефоры	攻擊力增加 $H_W_GOOD15%$COLOR_END。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+4953	AtkPotion	Buff	True	perc	3600000	0	1.12	強化藥水			攻擊力增加 $H_W_GOOD12%$COLOR_END。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+4955	AtkPotion	Buff	True	perc	1800000	0	1.15	強化藥水			攻擊力增加 $H_W_GOOD15%$COLOR_END。 不會和跨服組隊配對的BUFF效果重疊。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 4956	HPChange	Buff	True	perc	1000	1	0.15	復活節彩蛋籃子	155016	Exotic Beach Drink	立即恢復$H_W_GOOD15%$COLOR_END的HP。	icon_items.ricecake_tex	icon_items.ricecake_tex	False
 4957	HPChange	Buff	True	perc	1000	1	0.15	萬聖節方籃			可立即恢復整體HP的$H_W_GOOD15%$COLOR_END。	icon_items.sweetypumpkinpie_tex	icon_items.sweetypumpkinpie_tex	False
 5050	ReloadingSkill	Buff	True	swch	1	0	8008	初始化懲罰帳幕的冷卻時間。			(測試用) 大地之怒擊中時，立即結束懲罰帳幕的冷卻時間。	icon_ep.ep_cooltime_restart_tex	icon_ep.ep_cooltime_restart_tex	False
@@ -1348,6 +1351,9 @@
 70223	Power	Buff	True	abs	900000	0	2	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
 70223	ASpd	Buff	True	abs	900000	0	3	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
 70223	MPChange	Buff	True	perc	900000	5	0.01	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
+70224	MaxHP	Buff	True	perc	900000	0	1.1	超硬質刀片	201959	超硬質刀片	最大HP $H_W_GOOD10%$COLOR_END 增加，爆擊觸發 $H_W_GOOD20$COLOR_END，攻擊速度 $H_W_GOOD3$COLOR_END增加。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
+70224	Crit	Buff	True	abs	900000	0	20	超硬質刀片	201959	超硬質刀片	最大HP $H_W_GOOD10%$COLOR_END 增加，爆擊觸發 $H_W_GOOD20$COLOR_END，攻擊速度 $H_W_GOOD3$COLOR_END增加。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
+70224	ASpd	Buff	True	abs	900000	0	3	超硬質刀片	201959	超硬質刀片	最大HP $H_W_GOOD10%$COLOR_END 增加，爆擊觸發 $H_W_GOOD20$COLOR_END，攻擊速度 $H_W_GOOD3$COLOR_END增加。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
 70231	MaxHP	Buff	True	perc	900000	0	1.05	利卡諾勒火花沙拉	71423	利卡諾勒火花沙拉	最大HP、MP提升$H_W_GOOD5%$COLOR_END。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
 70231	MaxMP	Buff	True	perc	900000	0	1.05	利卡諾勒火花沙拉	71423	利卡諾勒火花沙拉	最大HP、MP提升$H_W_GOOD5%$COLOR_END。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
 70232	CritResist	Buff	True	abs	900000	0	20	貝里克翅膀	71424	貝里克翅膀	爆擊抵抗提升$H_W_GOOD20$COLOR_END。	icon_items.fallfestival_wing_tex	icon_items.fallfestival_wing_tex	True
@@ -1719,12 +1725,12 @@
 201805	ReloadingSkill	Buff	True	swch	3000	0	2008	刺盾 : 反擊突刺初始化			不該看到的異常狀態_反擊突刺初始化			False
 201806	AtkPotion	Buff	True	perc	10000	0	1.1	防壁全開			對僵硬及擊倒免疫。此效果可解除。	icon_skills.shieldwall_tex	icon_skills.shieldwall_tex	True
 201806	Immune	Buff	True	16	0	0	0	防壁全開			對僵硬及擊倒免疫。此效果可解除。	icon_skills.shieldwall_tex	icon_skills.shieldwall_tex	True
-201807	MovSpdInCombat	Buff	True	abs	10000	0	50	天界盾牌 I			在10s期間，可以吸收所有攻擊的一定傷害，及賦予對擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	DelayedEffect	Buff	True	swch	10000	0	201812	天界盾牌 I			在10s期間，可以吸收所有攻擊的一定傷害，及賦予對擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	Immune	Buff	True	16	10000	0	0	天界盾牌 I			在10s期間，可以吸收所有攻擊的一定傷害，及賦予對擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	330	Buff	True	swch	10000	0	0	天界盾牌 I			在10s期間，可以吸收所有攻擊的一定傷害，及賦予對擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	331	Buff	True	swch	10000	0	0	天界盾牌 I			在10s期間，可以吸收所有攻擊的一定傷害，及賦予對擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	337	Buff	True	seta	10000	0	99999	天界盾牌 I			在10s期間，可以吸收所有攻擊的一定傷害，及賦予對擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	MovSpdInCombat	Buff	True	abs	10000	0	50	天界盾牌 I			在10s期間吸收所有攻擊的一定傷害並增加戰鬥移動速度，賦予擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	DelayedEffect	Buff	True	swch	10000	0	201812	天界盾牌 I			在10s期間吸收所有攻擊的一定傷害並增加戰鬥移動速度，賦予擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	Immune	Buff	True	16	10000	0	0	天界盾牌 I			在10s期間吸收所有攻擊的一定傷害並增加戰鬥移動速度，賦予擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	330	Buff	True	swch	10000	0	0	天界盾牌 I			在10s期間吸收所有攻擊的一定傷害並增加戰鬥移動速度，賦予擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	331	Buff	True	swch	10000	0	0	天界盾牌 I			在10s期間吸收所有攻擊的一定傷害並增加戰鬥移動速度，賦予擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	337	Buff	True	seta	10000	0	99999	天界盾牌 I			在10s期間吸收所有攻擊的一定傷害並增加戰鬥移動速度，賦予擊倒和僵硬免疫的盾牌效果。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
 201808	Immune	Buff	True	9	2000	0	0	正義跳躍 : 防禦			在2s期間阻擋一次攻擊。無法以迴避避開的特殊攻擊無法防禦。此效果不因祝福解除、乏力預言技能而解除。 	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
 201809	StaggerImmune	Buff	True	seta	0	0	0	防禦姿勢			不該看到的異常狀態_戰鬥時除了怪物的一部份特殊攻擊外，戰鬥時除了怪物的部份特殊攻擊外，不可驅趕，和平時解除。	icon_skills.roar_tex	icon_skills.roar_tex	False
 201811	MaxHP	Buff	True	perc	10000	0	1	防壁破壞			防壁被破壞，再生成需要10分鐘。			False
@@ -1784,13 +1790,13 @@
 301500	335	Buff	True	swch	0	0	0	完美的連續			連擊成功時下個技能威力增加 30%	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	False
 301510	Ballance	Buff	True	seta	0	0	10000	氣斬			施展氣斬時所獲得的傷害減少50%，對擊倒/反應免疫，移動速度減少。	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	False
 301510	DefPotion	Buff	True	perc	0	0	0.5	氣斬			施展氣斬時所獲得的傷害減少50%，對擊倒/反應免疫，移動速度減少。	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	False
-301600	29	Buff	True	perc	4000	0	1.4	武士: 氣斬全標高			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	False
-301600	335	Buff	True	swch	4000	0	0	武士: 氣斬全標高			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	False
-301601	Power	Buff	True	perc	5000	0	1	武士: 氣斬標高蓄力			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-301601	29	Buff	True	perc	4000	0	1.6	武士: 氣斬標高蓄力			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-301601	ReloadingSkill	Buff	True	abs	100	0	3027	武士: 氣斬標高蓄力			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-301601	ForceCrit	Buff	True	seta	8000	0	80000	武士: 氣斬標高蓄力			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-301601	335	Buff	True	swch	4000	0	0	武士: 氣斬標高蓄力			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
+301600	29	Buff	True	perc	4000	0	1.4	屠殺者: 氣斬全標高			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	False
+301600	335	Buff	True	swch	4000	0	0	屠殺者: 氣斬全標高			看不見的異常狀態	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	False
+301601	Power	Buff	True	perc	5000	0	1	屠殺者: 氣斬標高蓄力			看不見的異常狀態	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
+301601	29	Buff	True	perc	4000	0	1.6	屠殺者: 氣斬標高蓄力			看不見的異常狀態	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
+301601	ReloadingSkill	Buff	True	abs	100	0	3027	屠殺者: 氣斬標高蓄力			看不見的異常狀態	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
+301601	ForceCrit	Buff	True	seta	8000	0	80000	屠殺者: 氣斬標高蓄力			看不見的異常狀態	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
+301601	335	Buff	True	swch	4000	0	0	屠殺者: 氣斬標高蓄力			看不見的異常狀態	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
 301602	ReloadingSkill	Buff	True	abs	100	0	3027	三斬			效果持續時間內可以再使用一次三斬技能。使用三斬或是持續時間過了會套用冷卻時間。	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	False
 301603	ReloadingSkill	Buff	True	abs	5000	0	3027	三斬			效果持續時間內可以再使用一次三斬技能。該效果持續期間，攻擊怪物時套用從後方進行攻擊的效果。使用三斬或是持續時間過了會套用冷卻時間。	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
 301603	ForceCrit	Buff	True	seta	8000	0	80000	三斬			效果持續時間內可以再使用一次三斬技能。該效果持續期間，攻擊怪物時套用從後方進行攻擊的效果。使用三斬或是持續時間過了會套用冷卻時間。	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
@@ -1799,7 +1805,7 @@
 301800	Crit	Buff	True	perc	20000	0	1.05	釋放力量			各重疊攻擊速度增加5%，爆擊增加 5%。	icon_skills.energyrelease_tex	icon_skills.energyrelease_tex	True
 301800	ASpd	Buff	True	perc	20000	0	1.05	釋放力量			各重疊攻擊速度增加5%，爆擊增加 5%。	icon_skills.energyrelease_tex	icon_skills.energyrelease_tex	True
 301801	ASpd	Buff	True	swch	100	0	1.05	解除釋放力量			每次重疊，攻擊速度增加5%，爆擊增加 5%。	icon_skills.energyrelease_tex	icon_skills.energyrelease_tex	False
-301802	ForceCrit	Buff	True	seta	8000	0	80000	武士: 氣斬標高蓄力			看不見的異常狀態	icon_skills.weak_point_observed	icon_skills.weak_point_observed	False
+301802	ForceCrit	Buff	True	seta	8000	0	80000	屠殺者: 氣斬標高蓄力			看不見的異常狀態	icon_skills.weak_point_observed	icon_skills.weak_point_observed	False
 301804	333	Buff	True	perc	0	0	1	氣斬				icon_skills.drawsword_tex	icon_skills.gatheringstrength_tex	False
 301900	Block	Stun	False	swch	2000	0	0	下巴粉碎			下巴被擊中，暫時無法移動及使用迴避技能。	icon_skills.jawbreaker_tex	icon_skills.jawbreaker_tex	True
 400100	Power	Buff	True	perc	22500	0	1.2	狂暴化			因爆發之怒而使力量提升$H_W_GOOD20%$COLOR_END、暴擊誘發提升$H_W_GOOD10%$COLOR_END，但抗打則減少$H_W_BAD10%$COLOR_END。	icon_skills.berserk_tex	icon_skills.berserk_tex	True
@@ -1881,7 +1887,7 @@
 401002	StatusImmune	Buff	True	swch	8000	0	0	吶喊 III			效果持續時，對倒下及僵直免疫。大幅提高狀態虛弱抵抗。	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	True
 401100	StackCounter	Buff	True	seta	10000	0	401150	連續攻擊			命中敵人4次的話，會產生蓄力速度增加的增益效果。	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
 401150	29	Buff	True	perc	10000	0	1.2	連續攻擊			下一次蓄力速度增加。	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
-401200	StunResist	Buff	True	perc	5000	0	100000	氣合			效果持續期間，對倒下及僵硬免疫，無法行動異常狀態抵抗大幅上升。狀態弱化抵抗也提升。	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
+401200	StunResist	Buff	True	perc	6000	0	100000	氣合			效果持續期間，對倒下及僵硬免疫，無法行動異常狀態抵抗大幅上升。狀態弱化抵抗也提升。	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
 401300	275	Buff	True	swch	8000	0	0	不滅的狂戰士			在效果持續期間內，HP不會低於 1以下。但是，如果受到一次超過最大HP的傷害，就會死亡。	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex	True
 401400	Crit	Buff	True	abs	0	0	-18	憤怒逆流 I			對周圍 8m 範圍放出怒氣，另外對於所有攻擊技能的仇恨值將增加$H_W_GOOD40%$COLOR_END。但戰鬥時除了怪物的部分特殊攻擊外，其餘皆無法抵抗。	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
 401400	Aggro	Buff	True	perc	0	0	1.4	憤怒逆流 I			對周圍 8m 範圍放出怒氣，另外對於所有攻擊技能的仇恨值將增加$H_W_GOOD40%$COLOR_END。但戰鬥時除了怪物的部分特殊攻擊外，其餘皆無法抵抗。	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
@@ -2546,9 +2552,9 @@
 601311	MovSpd	Debuff	False	perc	5500	0	0.8	蜘蛛陷阱箭矢 II			移動速度減少 $H_W_BAD20%$COLOR_END 。	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex	True
 601311	HPDrain	Debuff	False	perc	5500	0	0.9	蜘蛛陷阱箭矢 II			移動速度減少 $H_W_BAD20%$COLOR_END 。	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex	True
 601400	StackCounter	Buff	True	seta	10000	0	601450	一般射擊			用一般射擊、速射、連射技能打擊10次命中的話，穿透射擊和集中射擊的蓄力速度增加。	icon_skills.arrowshot_tex	icon_skills.focusstance_moveslow_tex	True
-601450	CritPower1	Buff	True	abs	10000	0	0.8	集中			7秒間蓄力速度上升50% ，爆擊威力上升0.4，爆擊率上升7%。 	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
-601450	CritChance	Buff	True	abs	10000	0	0.07	集中			7秒間蓄力速度上升50% ，爆擊威力上升0.4，爆擊率上升7%。 	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
-601450	CastSpeed	Buff	True	perc	10000	0	1.5	集中			7秒間蓄力速度上升50% ，爆擊威力上升0.4，爆擊率上升7%。 	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
+601450	CritPower1	Buff	True	abs	10000	0	0.8	集中			10秒間蓄力速度上升50% ，爆擊威力上升0.4，爆擊率上升7%。 	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
+601450	CritChance	Buff	True	abs	10000	0	0.07	集中			10秒間蓄力速度上升50% ，爆擊威力上升0.4，爆擊率上升7%。 	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
+601450	CastSpeed	Buff	True	perc	10000	0	1.5	集中			10秒間蓄力速度上升50% ，爆擊威力上升0.4，爆擊率上升7%。 	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
 601460	CastSpeed	Buff	True	perc	8000	0	1.5	集中			10秒間穿透射擊ê、集中射擊的蓄力速度增加。	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
 601500	StunResist	Buff	True	perc	5000	0	80000	執念 I			行動不能異常狀態抵抗大幅提升。	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
 601600	ForceCrit	Buff	True	seta	8000	0	80000	弱點觀察			下一次的攻擊不管是在哪個位置，都會受到跟後方攻擊一樣的傷害	icon_skills.weak_point_observed	icon_skills.weak_point_observed	True
@@ -2782,7 +2788,7 @@
 702122	Immune	Buff	True	9	5000	0	0	精靈：閃電精靈			不該看到	icon_skills.summonspiritofrange_tex	icon_skills.summonspiritofrange_tex	False
 702123	DelayedEffect	Buff	True	abs	5000	0	702023	精靈：破壞精靈			不該看到	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack_tex	False
 702123	Immune	Buff	True	9	5000	0	0	精靈：破壞精靈			不該看到	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack_tex	False
-702124	AllowAggro	Buff	True	swch	50000	0	0	元素王仇恨值初始化			不該看到	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack_tex	False
+702124	AllowAggro	Buff	True	swch	50000	0	0	元素王仇恨值初始化\			不該看到	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack_tex	False
 757001	Plague	Buff	False	setp	5000	5	0	不要顯示出來的內容			不要顯示出來的內容	icon_status.firedamage_tex	icon_status.firedamage_tex	False
 757002	ASpd	Buff	False	perc	0	0	1	燃燒吧			石巨人感到憤怒而全身都著火了。在半徑 21m裡的對象都會獲得 '熱氣' 異常狀態。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 757002	Plague	Buff	False	setp	0	2	757004	燃燒吧			石巨人感到憤怒而全身都著火了。在半徑 21m裡的對象都會獲得 '熱氣' 異常狀態。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -3225,14 +3231,15 @@
 806001	DelayedEffect	Buff	True	seta	0	0	806002	殭屍爆血效果			看不見的異常狀態			False
 806001	Drunk	Buff	True	906000	0	0	0	殭屍爆血效果			看不見的異常狀態			False
 806002	Drunk	Buff	True	906001	10000	0	0	解除殭屍爆血效果			看不見的異常狀態			False
-806020	HPChange	Buff	True	abs	10000	1	100	燦爛的閃爍			接收祝福氣息，受到的傷害減少$H_W_GOOD5%$COLOR_END ，每秒恢復HP100。	icon_skills.lightspark_tex	icon_skills.blessingaura_tex	True
-806020	DefPotion	Buff	True	perc	10000	0	0.95	燦爛的閃爍			接收祝福氣息，受到的傷害減少$H_W_GOOD5%$COLOR_END ，每秒恢復HP100。	icon_skills.lightspark_tex	icon_skills.blessingaura_tex	True
+806020	Endurance	Buff	True	perc	10000	0	1	祝福氣息 I			接收祝福氣息，受到的傷害減少$H_W_GOOD5%$COLOR_END ，每秒恢復HP100。	icon_skills.blessingaura_tex	icon_skills.blessingaura_tex	False
 806021	HPChange	Buff	True	abs	3000	1	500	燦爛的閃爍			接收強化祝福氣息，受到的傷害減少20%，抵抗跌倒、僵硬、昏厥。每秒恢復HP 500。	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
 806021	DefPotion	Buff	True	perc	3000	0	0.8	燦爛的閃爍			接收強化祝福氣息，受到的傷害減少20%，抵抗跌倒、僵硬、昏厥。每秒恢復HP 500。	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
 806021	Immune	Buff	True	16	3000	0	0	燦爛的閃爍			接收強化祝福氣息，受到的傷害減少20%，抵抗跌倒、僵硬、昏厥。每秒恢復HP 500。	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
 806022	HPChange	Buff	True	abs	3000	1	500	燦爛的閃爍			接收強化祝福氣息，受到的傷害減少20%，抵抗跌倒、僵硬、昏厥。每秒恢復HP 500。	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
 806022	DefPotion	Buff	True	perc	3000	0	0.8	燦爛的閃爍			接收強化祝福氣息，受到的傷害減少20%，抵抗跌倒、僵硬、昏厥。每秒恢復HP 500。	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
 806022	Immune	Buff	True	16	3000	0	0	燦爛的閃爍			接收強化祝福氣息，受到的傷害減少20%，抵抗跌倒、僵硬、昏厥。每秒恢復HP 500。	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
+806023	HPChange	Buff	True	abs	10000	1	100	再生之風			接收祝福氣息，受到的傷害減少$H_W_GOOD5%$COLOR_END ，每秒恢復HP100。	icon_skills.healingwind_tex	icon_skills.blessingaura_tex	True
+806023	DefPotion	Buff	True	perc	10000	0	0.95	再生之風			接收祝福氣息，受到的傷害減少$H_W_GOOD5%$COLOR_END ，每秒恢復HP100。	icon_skills.healingwind_tex	icon_skills.blessingaura_tex	True
 806028	HPChange	Buff	True	abs	1000	1	1181	治癒翅膀 I			看不見的異常狀態	icon_items.essence_of_epidemic_tex	icon_items.essence_of_epidemic_tex	False
 808101	Chaos	Stun	False	swch	10000	0	0	黑魔法的詛咒			已陷入精神錯亂狀態!輸入移動按鍵時的移動方向會相反。$BR突沙詛咒-混亂無法解除。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 808102	Stun	Stun	False	swch	5000	0	5	黑魔法解除			解除黑魔法，BOSS級怪物昏厥。	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
@@ -3853,7 +3860,7 @@
 2000000	40	Buff	True	perc	3600000	1	1.3	幸運收集家 30 (1小時)			1小時內狩獵時獲得金幣增加30%。	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	True
 2000001	41	Buff	True	perc	3600000	1	1.3	合成名手 30 (1小時)			1小時內任務金幣獎勵增加30%。	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	True
 2000002	41	Buff	True	perc	3600000	1	1.5	合成名手 50 (1小時)			1小時內任務金幣獎勵增加50%。	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	True
-2000003	41	Buff	True	perc	3600000	1	2	合成名手 100 (1小時)			1小時內任務金幣獎勵增加100%。	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	True
+2000003	41	Buff	True	perc	3600000	1	2	合成名手 100 (1小時)	855586	협상의 명수 100 (1시간)	1小時內任務金幣獎勵增加100%。	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	True
 2000004	42	Buff	True	perc	3600000	1	1.3	信賴的證明 30 (1小時)			1小時內獲得的聲望數值和聲望點數增加30%。 但獲得戰場聲望數值和戰場聲望點數時則不套用。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	True
 2000005	42	Buff	True	perc	3600000	1	1.5	信賴的證明 50 (1小時)			1小時內獲得的聲望數值和聲望點數增加50%。 但獲得戰場聲望數值和戰場聲望點數時則不套用。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	True
 2000006	42	Buff	True	perc	3600000	1	2	信賴的證明 100 (1小時)			1小時內獲得的聲望數值和聲望點數增加100%。 但獲得戰場聲望數值和戰場聲望點數時則不套用。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	True
@@ -3926,31 +3933,30 @@
 5000002	296	Buff	True	perc	0	1	1.1	製作大成功機率提升			此為大陸上備受稱讚的鐵匠頓坎家族的祝福。$BR進行製作時大成功機率增加10%。	icon_items.artisanmaster_up_tex	icon_items.artisanmaster_up_tex	True
 5000003	CCrystalBind	Buff	True	abs	0	0	1	完整的水晶防護			死亡時可防止水晶碎裂。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
 5000004	GatheringTime	Buff	True	perc	0	0	0.6	採集速度提升			採集速度增加$H_W_GOOD40%$COLOR_END。	icon_status.collect_speedup_tex	icon_status.collect_speedup_tex	True
-5020007	190	Buff	True	swch	300000	0	0	Potion: Murderous Intend			Rewarded to the best PvP players. A cloak of dark energy transforms you into the reaper of death!	icon_skills.battlefield_high_ranking_tex	icon_skills.battlefield_high_ranking_tex	True
-5020008	190	Buff	True	swch	300000	0	2	Potion: Eclipse the Sun			Rewarded to the best PvP player during 3 seasons. The power of the sun fills your veigns, and lets you glow in an eerie orange glow and makes you grow considerably in size!	icon_skills.redmoon_tex	icon_skills.redmoon_tex	True
-5020009	ChangeBody	Buff	True	setp	300000	0	8	Potion: Size of the Mighty			Infuse your body with the energy of the giant, and grow in size. Can be used up to 15x to increase size even more.	icon_status.vitality_tex	icon_status.vitality_tex	True
-5020010	MovSpd	Buff	True	perc	30000	0	0.9	Thoughts of Ice			Decreases movement speed by 10% and increases skill damage by 5%. Covers your body in ice.	icon_skills.c5_iceorb	icon_skills.c5_iceorb	True
-5020010	AtkPotion	Buff	True	perc	30000	0	1.05	Thoughts of Ice			Decreases movement speed by 10% and increases skill damage by 5%. Covers your body in ice.	icon_skills.c5_iceorb	icon_skills.c5_iceorb	True
-5020011	ASpd	Buff	True	perc	60000	0	1.05	Breath of Fire			Reduces your HP by 75%, decreases received healing by 85%, and increases attack speed by 5%. Covers your body in fire.	icon_skills.hellfire_tex	icon_skills.hellfire_tex	True
-5020011	IncreasedHeal	Buff	True	swch	60000	0	0.15	Breath of Fire			Reduces your HP by 75%, decreases received healing by 85%, and increases attack speed by 5%. Covers your body in fire.	icon_skills.hellfire_tex	icon_skills.hellfire_tex	True
-5020011	HPChange2	Buff	True	perc	60000	0	0.25	Breath of Fire			Reduces your HP by 75%, decreases received healing by 85%, and increases attack speed by 5%. Covers your body in fire.	icon_skills.hellfire_tex	icon_skills.hellfire_tex	True
-5020012	339	Buff	True	perc	10800000	0	1.05	5% Item XP			Increases the Item XP you get from Vanguard initiative quests by 5%.	icon_items.vip_growth_tex	icon_items.vip_growth_tex	True
-5030002	HPChange	Buff	True	perc	900000	1	0.01	Emblem of Success	216820	Emblem of Success		icon_items.parts_magicweaponc15_tex	icon_items.parts_magicweaponc15_tex	True
-5030003	MPChange	Buff	True	perc	900000	1	0.05	Power potion - CD, MP regen	216820	Emblem of Success		icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex	True
-5030003	CDR	Buff	True	perc	900000	0	0.8	Power potion - CD, MP regen	216820	Emblem of Success		icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex	True
-5030004	MaxHP	Buff	True	perc	900000	0	1.07	Memento of Fame	216821	Memento of Fame		icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex	True
-5030004	Endurance	Buff	True	perc	900000	0	1.2	Memento of Fame	216821	Memento of Fame		icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex	True
-5030004	ASpd	Buff	True	perc	900000	0	1.15	Memento of Fame	216821	Memento of Fame		icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex	True
-5030004	MovSpdInCombat	Buff	True	abs	900000	0	10	Memento of Fame	216821	Memento of Fame		icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex	True
-5030004	AtkPotion	Buff	True	perc	900000	0	1.2	Memento of Fame	216821	Memento of Fame		icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex	True
-5030004	CrystalBind	Buff	True	abs	900000	0	1	Memento of Fame	216821	Memento of Fame		icon_items.parts_lightweaponc9_tex	icon_items.parts_lightweaponc9_tex	True
-5030005	MaxHP	Buff	True	perc	900000	0	1.07	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
-5030005	Endurance	Buff	True	perc	900000	0	1.2	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
-5030005	ASpd	Buff	True	perc	900000	0	1.15	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
-5030005	MovSpdInCombat	Buff	True	abs	900000	0	10	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
-5030005	HPChange	Buff	True	perc	900000	1	0.01	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
-5030005	AtkPotion	Buff	True	perc	900000	0	1.2	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
-5030005	CrystalBind	Buff	True	abs	900000	0	1	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
+5060000	AtkPotion	Buff	True	perc	1800000	0	1.15	강화의 물약	854569	강화의 물약	공격력이 $H_W_GOOD15%$COLOR_END 증가됩니다. 서버간 파티 매칭 버프와 중첩되지 않습니다.	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+5060001	ASpd	Buff	True	perc	1800000	0	1.06	용맹의 물약	855593	용맹의 물약	스킬 데미지가 $H_W_GOOD12%$COLOR_END 향상되고, 받는 피해가 $H_W_GOOD10%$COLOR_END 감소됩니다. 추가로 공격 속도도 $H_W_GOOD6%$COLOR_END 향상됩니다.	icon_items.potion10_tex	icon_items.potion10_tex	True
+5060001	DefPotion	Buff	True	perc	1800000	0	0.9	용맹의 물약	855593	용맹의 물약	스킬 데미지가 $H_W_GOOD12%$COLOR_END 향상되고, 받는 피해가 $H_W_GOOD10%$COLOR_END 감소됩니다. 추가로 공격 속도도 $H_W_GOOD6%$COLOR_END 향상됩니다.	icon_items.potion10_tex	icon_items.potion10_tex	True
+5060001	AtkPotion	Buff	True	perc	1800000	0	1.12	용맹의 물약	855593	용맹의 물약	스킬 데미지가 $H_W_GOOD12%$COLOR_END 향상되고, 받는 피해가 $H_W_GOOD10%$COLOR_END 감소됩니다. 추가로 공격 속도도 $H_W_GOOD6%$COLOR_END 향상됩니다.	icon_items.potion10_tex	icon_items.potion10_tex	True
+5060002	XPBoost	Buff	True	perc	0	1	1.1	고속 성장 10			사냥 시 획득 경험치가 10% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
+5060003	XPBoost	Buff	True	perc	0	1	1.2	고속 성장 20			사냥 시 획득 경험치가 20% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
+5060004	XPBoost	Buff	True	perc	0	1	1.3	고속 성장 30			사냥 시 획득 경험치가 30% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
+5060005	XPBoost	Buff	True	perc	0	1	1.5	고속 성장 50			사냥 시 획득 경험치가 50% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
+5060006	XPBoost	Buff	True	perc	0	1	1.7	고속 성장 70			사냥 시 획득 경험치가 70% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
+5060007	XPBoost	Buff	True	perc	0	1	1.8	고속 성장 80			사냥 시 획득 경험치가 80% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
+5060008	XPBoost	Buff	True	perc	0	1	2	고속 성장 100			사냥 시 획득 경험치가 100% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
+5060009	40	Buff	True	perc	0	1	1.1	행운의 수집가 10			사냥 시 획득 골드가 10% 증가합니다.	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	False
+5060010	40	Buff	True	perc	0	1	1.2	행운의 수집가 20			사냥 시 획득 골드가 20% 증가합니다.	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	False
+5060011	40	Buff	True	perc	0	1	1.3	행운의 수집가 30			사냥 시 획득 골드가 30% 증가합니다.	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	False
+5060012	40	Buff	True	perc	0	1	1.5	행운의 수집가 50			사냥 시 획득 골드가 50% 증가합니다.	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	False
+5060013	40	Buff	True	perc	0	1	1.7	행운의 수집가 70			사냥 시 획득 골드가 70% 증가합니다.	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	False
+5060014	40	Buff	True	perc	0	1	1.8	행운의 수집가 80			사냥 시 획득 골드가 80% 증가합니다.	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	False
+5060015	40	Buff	True	perc	0	1	2	행운의 수집가 100			사냥 시 획득 골드가 100% 증가합니다.	icon_items.f2p_dropgoldbooster_tex	icon_items.f2p_dropgoldbooster_tex	False
+5060016	41	Buff	True	perc	0	1	1.5	협상의 명수 50			퀘스트 골드 보상이 50% 증가합니다.	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	False
+5060017	41	Buff	True	perc	0	1	2	협상의 명수 100			퀘스트 골드 보상이 100% 증가합니다.	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	False
+5060018	42	Buff	True	perc	0	1	1.5	신뢰의 증표 50			획득하게 되는 평판 수치와 평판 포인트가 50% 증가합니다. 단, 전장 평판 수치와 전장 평판 포인트 획득시에는 적용되지 않습니다.	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+5060019	42	Buff	True	perc	0	1	2	신뢰의 증표 100			획득하게 되는 평판 수치와 평판 포인트가 100% 증가합니다. 단, 전장 평판 수치와 전장 평판 포인트 획득시에는 적용되지 않습니다.	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+5060020	296	Buff	True	perc	0	1	1.1	둔칸의 축복			대륙 최고의 철기장, 둔칸 가문의 축복입니다.$BR제작 진행 시 대성공 확률이 10% 증가합니다.	icon_items.artisanmaster_up_tex	icon_items.artisanmaster_up_tex	False
+5060021	322	Buff	True	perc	259200000	0	2	제작의 즐거움	856064	제작 숙련도 고속 성장 100 (3일)	무기, 방어구, 소모품, 마법 각인서의 숙련도가 500 이하일 때 제작 시 2배의 숙련도를 획득할 수 있습니다.	icon_items.small_insecta8_tex	icon_items.small_insecta8_tex	True
 5690001	StaminaDecay	Buff	True	seta	0	0	0	記憶的追蹤者			為了收集記憶的殘骸，將無法破壞強化水晶。	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690001	CrystalBind	Buff	True	abs	0	0	1	記憶的追蹤者			為了收集記憶的殘骸，將無法破壞強化水晶。	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690002	Resurrect	Buff	True	seta	60000	0	1	記憶重建			透過記憶重建，死去的記憶被刪除後可重新復活。	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex	True
@@ -4492,8 +4498,8 @@
 10154020	Stun	Stun	False	swch	1500	0	5	昏厥			下顎被加擊而處於昏厥狀態。	icon_skills.c12_dashattack	icon_skills.c12_dashattack	True
 10154021	Stun	Stun	False	swch	3000	0	5	擊中胸口			胸口被加擊而處於失神狀態。	icon_skills.c12_evadestingshot	icon_skills.c12_evadestingshot	True
 10154030	MPChange	Buff	True	abs	0	1	-20	劍氣術			發現劍器而使攻擊力增加。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
-10154030	112	Buff	True	swch	0	0	10154031	劍氣術			發現劍器而使攻擊力增加。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154030	AtkPotion	Buff	True	swch	0	0	1.05	劍氣術			發現劍器而使攻擊力增加。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
+10154030	BuffNearbyParty	Buff	True	swch	0	5	10154032	劍氣術			發現劍器而使攻擊力增加。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154032	AtkPotion	Buff	True	swch	60000	0	1.01	強力劍氣			展現強力劍氣後，攻擊力會增加更多。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154040	33	Buff	True	seta	30000	0	0	查克拉凝集			查克拉沒有減少。	icon_skills.c12_chakracohesion	icon_skills.c12_chakracohesion	True
 10154050	Immune	Buff	True	9	1200	0	0	迴避煙幕術 I			因於煙幕內而能夠迴避敵人的攻擊。	icon_skills.c12_smokebomb	icon_skills.c12_smokebombevade	True
@@ -5164,6 +5170,12 @@
 73504001	OutOfCombatMovSpd	Debuff	True	setp	2000	0	0.01	觸電狀態			由於磁氣場迴轉裝置暫時陷入觸電狀態無法移動。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 73504001	HPDrain	Debuff	True	setp	2000	0	0.01	觸電狀態			由於磁氣場迴轉裝置暫時陷入觸電狀態無法移動。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 73504001	43	Debuff	True	setp	2000	0	0.01	觸電狀態			由於磁氣場迴轉裝置暫時陷入觸電狀態無法移動。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
+73910003	HPChange	DOT	False	perc	15000	2	-0.1	卡拉布斯的火花			受到灼傷每$H_W_BAD2s$COLOR_END整體HP會持續減少$H_W_BAD7%$COLOR_END。	icon_status.strongheat_tex	icon_status.strongheat_tex	True
+73920001	HPChange	DOT	False	perc	15000	2	-0.07	托勒門屯的刺			受到強烈的攻擊引起出血。每$H_W_BAD2s$COLOR_END整體HP持續減少$H_W_BAD7%$COLOR_END。	icon_status.instantleap_continuous_tex	icon_status.instantleap_continuous_tex	True
+73920002	Stun	Stun	False	swch	5000	0	5	攻城鐵鎚的衝擊			受到強烈攻擊5秒內無法行動。	icon_status.strikeskull_tex	icon_status.strikeskull_tex	True
+73920012	MovSpd	Debuff	True	perc	5000	0	0.1	纏黏的大地			受到黏著炮彈攻擊! 移動速度減少$H_W_BAD90%$COLOR_END。	icon_status.delaymploss_tex	icon_status.delaymploss_tex	True
+73930010	Stun	Stun	False	swch	4000	0	5	野獸的咆哮			受到強烈咆哮全身麻痺。4秒內無法行動。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
+73930011	HPChange	DOT	True	perc	10000	2	-0.1	野獸的腳爪			受到強烈的攻擊引起出血。每$H_W_BAD2s$COLOR_END整體HP持續減少$H_W_BAD10%$COLOR_END。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 74300002	Endurance	DOT	True	perc	16000	0	1	暗黑霧氣			四周佈滿暗黑霧氣，在霧氣中大幅提升移動速度。	icon_status.darkeffect_tex	icon_status.darkeffect_tex	True
 74300003	Power	Buff	True	perc	0	0	1.5	受咒的碑石力量			怪物們的力量提升$H_W_GOOD50%$COLOR_END。	icon_status.minushp_tex	icon_status.minushp_tex	True
 74300012	HPLoss	Debuff	True	abs	60000	0	-9000	魔導士的詛咒(紅)			中了魔導士的詛咒，若不按順序解除將會受到很大的傷害。	icon_status.battlecommand03_tex	icon_status.battlecommand03_tex	True
@@ -6575,6 +6587,27 @@
 93504001	OutOfCombatMovSpd	Debuff	True	setp	2000	0	0.01	觸電狀態			由於磁氣場迴轉裝置暫時陷入觸電狀態無法移動。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 93504001	HPDrain	Debuff	True	setp	2000	0	0.01	觸電狀態			由於磁氣場迴轉裝置暫時陷入觸電狀態無法移動。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 93504001	43	Debuff	True	setp	2000	0	0.01	觸電狀態			由於磁氣場迴轉裝置暫時陷入觸電狀態無法移動。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
+93900004	Block	Debuff	True	swch	0	0	0	躡手躡腳			屏住呼吸躡手躡腳地移動。潛入期間無法使用技能。	icon_status.plusmove_tex	icon_status.plusmove_tex	True
+93910002	Stun	Stun	False	swch	5000	0	5	卡拉布斯的鐵砧			受到強烈攻擊全身不聽使喚。5秒內無法行動。	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+93910003	HPChange	DOT	False	perc	15000	2	-0.1	卡拉布斯的火花			受到灼傷每$H_W_BAD2s$COLOR_END整體HP持續減少$H_W_BAD10%$COLOR_END。	icon_status.strongheat_tex	icon_status.strongheat_tex	True
+93910005	DelayedEffect	Debuff	True	swch	45000	0	93910006	易燃物			於體內累積易燃物。在累積更多的易燃物前，必須先燃燒體內的易燃物。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+93910006	Power	Debuff	True	perc	10000	0	1	累積易燃物			易燃物覆蓋了體內。身體承受不了煙霧而爆發。	icon_status.orangeaura_tex	icon_status.orangeaura_tex	True
+93910010	Stun	Stun	True	swch	5000	0	5	爆發的中心			身體中心產生巨大的爆炸。5秒內無法行動。	icon_status.scald_tex	icon_status.scald_tex	True
+93910013	HPChange	DOT	True	perc	10000	2	-0.1	鐵匠場的熱氣			被強烈的火焰包圍灼傷。每$H_W_BAD2s$COLOR_END整體HP持續減少$H_W_BAD10%$COLOR_END。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+93920001	HPChange	DOT	False	perc	15000	2	-0.1	托勒門屯的刺			受到強烈的攻擊引起出血。每$H_W_BAD2s$COLOR_END整體HP持續減少$H_W_BAD10%$COLOR_END。	icon_status.instantleap_continuous_tex	icon_status.instantleap_continuous_tex	True
+93920002	Stun	Stun	False	swch	5000	0	5	攻城鐵鎚的衝擊			受到強烈攻擊5秒內無法行動。	icon_status.strikeskull_tex	icon_status.strikeskull_tex	True
+93920003	HPChange	DOT	False	perc	10000	2	-0.1	灼傷10秒			受到爆擊造成10秒灼傷傷害。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+93920008	Power	Debuff	True	perc	15000	0	1	集中砲火			托勒門屯對你留下了標誌。更容易成為投石器的目標了。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
+93920012	MovSpd	Debuff	True	perc	5000	0	0.1	纏黏的大地			受到黏著炮彈攻擊! 移動速度減少$H_W_BAD90%$COLOR_END。	icon_status.delaymploss_tex	icon_status.delaymploss_tex	True
+93920012	Block	Debuff	True	swch	4000	0	0	纏黏的大地			受到黏著炮彈攻擊! 移動速度減少$H_W_BAD90%$COLOR_END。	icon_status.delaymploss_tex	icon_status.delaymploss_tex	True
+93920018	Block	Debuff	True	swch	4000	0	0	黏稠			受到黏著炮彈攻擊! 全身被纏住動彈不得。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+93930007	Power	Debuff	True	perc	10000	0	1	標誌			成為野性的亞斯蘭的獵物。			False
+93930007	Drunk	Debuff	True	939002	10000	0	0	標誌			成為野性的亞斯蘭的獵物。			False
+93930008	Power	Debuff	True	perc	10000	0	1	標誌			成為野性的亞斯蘭的獵物。			False
+93930008	Drunk	Debuff	True	939003	10000	0	0	標誌			成為野性的亞斯蘭的獵物。			False
+93930010	Stun	Stun	False	swch	4000	0	5	野獸的咆哮			受到強烈咆哮全身麻痺。4秒內無法行動。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
+93930011	HPChange	DOT	True	perc	10000	2	-0.12	野獸的腳爪			受到強烈的攻擊引起出血。每$H_W_BAD2s$COLOR_END整體HP持續減少$H_W_BAD10%$COLOR_END。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+93930012	Stun	Stun	True	swch	5000	0	5	野獸的壓倒			被亞斯蘭的野性壓倒。5秒內無法行動。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
 97000001	MaxHP	Debuff	False	perc	0	0	1	獵物			肚子餓的小蜘蛛正在追著你。	icon_status.curse_tex	icon_status.curse_tex	True
 97000002	MaxHP	Debuff	True	perc	0	0	1	飽足感			感到肚子飽，正在取消休息。	icon_status.sleepstatus_tex	icon_status.sleepstatus_tex	True
 97000003	MovSpd	Debuff	True	setp	3000	0	0.3	小蜘蛛的劇毒			感染了小蜘蛛的毒移動速度減少，每$H_W_BAD0s$COLOR_END減少$H_W_BAD10%$COLOR_END的HP。	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
@@ -7281,6 +7314,19 @@
 990070317	Power	Buff	True	perc	180000	0	3	強力的聖所氣息			3分鐘內攻擊力大幅上升。聖所氣息效果不會重覆套用。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 990070318	Crit	Buff	True	perc	60000	0	5	敏銳的感覺	8025	增幅的晶球	於一分鐘內，爆擊誘發與爆擊威力大幅上升。離開黎明庭園時則將解除。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 990070318	CritPower	Buff	True	abs	60000	0	4	敏銳的感覺	8025	增幅的晶球	於一分鐘內，爆擊誘發與爆擊威力大幅上升。離開黎明庭園時則將解除。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+990070319	MovSpd	Buff	True	abs	500	0	5	精氣的凶暴 : 技能傷害增加			1分鐘內技能傷害大幅提升。逃出黎明庭園即解除。	icon_status.vitality_tex	icon_status.vitality_tex	True
+990070319	Attack	Buff	True	perc	60000	0	1.3	精氣的凶暴 : 技能傷害增加			1分鐘內技能傷害大幅提升。逃出黎明庭園即解除。	icon_status.vitality_tex	icon_status.vitality_tex	True
+990070320	MovSpd	Buff	True	abs	500	0	5	精氣的靈敏 : 冷卻時間減少			1分鐘內冷卻時間大幅減少。逃出黎明庭園即解除。	icon_status.accelration_tex	icon_status.accelration_tex	True
+990070320	CDR	Buff	True	swch	60000	0	0.75	精氣的靈敏 : 冷卻時間減少			1分鐘內冷卻時間大幅減少。逃出黎明庭園即解除。	icon_status.accelration_tex	icon_status.accelration_tex	True
+990070321	MovSpd	Buff	True	abs	500	0	5	精氣的銳利 : 爆擊威力增加			1分鐘內爆擊威力大幅提升。逃出黎明庭園即解除。	icon_status.damageup_tex	icon_status.damageup_tex	True
+990070321	CritPower	Buff	True	abs	60000	0	2	精氣的銳利 : 爆擊威力增加			1分鐘內爆擊威力大幅提升。逃出黎明庭園即解除。	icon_status.damageup_tex	icon_status.damageup_tex	True
+990070322	MovSpd	Buff	True	abs	500	0	5	精氣的堅韌 : 擊倒免疫			1分鐘內對反應免疫。逃出黎明庭園即解除。	icon_skills.risingattack_tex	icon_skills.risingattack_tex	True
+990070322	Immune	Buff	True	16	60000	0	0	精氣的堅韌 : 擊倒免疫			1分鐘內對反應免疫。逃出黎明庭園即解除。	icon_skills.risingattack_tex	icon_skills.risingattack_tex	True
+990070322	StatusImmune	Buff	True	swch	60000	0	0	精氣的堅韌 : 擊倒免疫			1分鐘內對反應免疫。逃出黎明庭園即解除。	icon_skills.risingattack_tex	icon_skills.risingattack_tex	True
+990070323	MovSpd	Buff	True	abs	500	0	5	[特效用]精氣的凶暴 : 技能傷害增加			特效用增益效果	icon_status.vitality_tex	icon_status.vitality_tex	False
+990070324	MovSpd	Buff	True	abs	500	0	5	[特效用]精氣的靈敏 : 冷卻時間減少			特效用增益效果	icon_status.accelration_tex	icon_status.accelration_tex	False
+990070325	MovSpd	Buff	True	abs	500	0	5	[特效用]精氣的銳利 : 爆擊威力增加			特效用增益效果	icon_status.damageup_tex	icon_status.damageup_tex	False
+990070326	MovSpd	Buff	True	abs	500	0	5	[特效用]精氣的堅韌 : 擊倒免疫			特效用增益效果	icon_skills.risingattack_tex	icon_skills.risingattack_tex	False
 999001001	Drunk1	Buff	True	seta	0	0	0	幸運獎勵[積分]			幸運兒就是你！！此次戰場中獲勝時可獲得更多積分。	icon_items.reputationpoint_tex	icon_items.reputationpoint_tex	True
 999001002	Drunk1	Buff	True	seta	0	0	0	幸運獎勵[道具]			幸運兒就是你！！此次戰場獲勝時可獲得追加獎勵。	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex	True
 999001003	Drunk1	Buff	True	seta	0	0	0	掉寶活動！			目前該地區正在進行掉寶率增加活動。 	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex	True
