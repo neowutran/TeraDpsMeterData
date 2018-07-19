@@ -785,14 +785,6 @@
 6016	Immune	Buff	True	27	12000	0	0	피닉스의 기운			지속 시간 동안 무적 상태가 됩니다. 스킬 사용 시 해제됩니다.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	ReloadingSkill	Debuff	True	abs	3600000	0	6500004	피닉스의 기운			지속 시간 동안 무적 상태가 됩니다. 스킬 사용 시 해제됩니다.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	StatusImmune	Buff	True	swch	12000	0	0	피닉스의 기운			지속 시간 동안 무적 상태가 됩니다. 스킬 사용 시 해제됩니다.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
-6017	CritPower1	Buff	True	abs	6000	0	1	흑룡의 혈맥			몬스터 공격 시 치명타 위력이 $H_W_GOOD+1.5$COLOR_END배 증가됩니다.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
-6018	CritPower1	Buff	True	abs	6000	0	2	암룡의 혈맥			몬스터 공격 시 치명타 위력이 $H_W_GOOD+2$COLOR_END배 증가됩니다.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
-6019	HPChange	Buff	False	abs	200	1	-320000	흑룡의 분노			HP가 320000 감소합니다			False
-6020	HPChange	Buff	False	abs	200	1	-400000	암룡의 분노			HP가 400000 감소합니다			False
-6021	DelayedEffect	Buff	True	seta	1700	0	6023	흑룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 320000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	False
-6022	DelayedEffect	Buff	True	seta	1700	0	6024	암룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 400000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	False
-6023	Endurance	Buff	True	perc	1800000	0	1	흑룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 320000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	True
-6024	Endurance	Buff	True	perc	1800000	0	1	암룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 400000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	True
 10100	HPChange	DOT	False	abs	5000	1	-11	맹독 I [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-11$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	맹독 II [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-23$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	맹독 III [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-58$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -2503,7 +2495,7 @@
 501650	StatusImmune	Buff	True	swch	1000	0	0	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
 501700	DefPotion	Buff	True	perc	4800	0	0.5	마력 폭발			다른 플레이어 캐릭터에게 피격 시 받는 데미지가 $H_W_GOOD50%$COLOR_END 감소됩니다.	icon_skills.manaburst_tex	icon_skills.manaburst_tex	False
 501800	AtkPotion	Buff	True	perc	4000	0	1.3	얼음 창 강화			지속 시간동안 얼음 창의 표면을 비전 에너지로 강화시켜 30%의 추가 위력을 부여합니다.	icon_skills.icespear_tex	icon_skills.icespear_tex	True
-502001	ForceCrit	Buff	True	swch	5000	0	0	공간 단층			지속 시간동안 모든 스킬에 후방판정을 부여합니다.	icon_skills.spacefault_tex	icon_skills.spacefault_tex	True
+502001	ForceCrit	Buff	True	seta	5000	0	0	공간 단층			지속 시간동안 모든 스킬에 후방판정을 부여합니다.	icon_skills.spacefault_tex	icon_skills.spacefault_tex	True
 502020	209	Buff	True	perc	12000	0	0	[융합] (화염+냉기)			[태초의 불꽃]스킬을 사용 할 수 있습니다.	icon_skills.primalfire_tex	icon_skills.primalfire_tex	True
 502020	354	Buff	True	swch	12000	0	0	[융합] (화염+냉기)			[태초의 불꽃]스킬을 사용 할 수 있습니다.	icon_skills.primalfire_tex	icon_skills.primalfire_tex	True
 502021	209	Buff	True	abs	5000	0	0	[융합] (화염+냉기)			[태초의 불꽃]스킬을 사용 할 수 있습니다.	icon_skills.primalfire_tex	icon_skills.primalfire_tex	True
@@ -2638,8 +2630,8 @@
 602101	ReloadingSkill	Buff	True	swch	22000	0	333	바람의 선율 I			바람에 몸을 맡깁니다.	icon_skills.breeze_tex	icon_skills.breeze_tex	True
 602101	330	Buff	True	swch	22000	0	0	바람의 선율 I			바람에 몸을 맡깁니다.	icon_skills.breeze_tex	icon_skills.breeze_tex	True
 602101	331	Buff	True	swch	22000	0	0	바람의 선율 I			바람에 몸을 맡깁니다.	icon_skills.breeze_tex	icon_skills.breeze_tex	True
-602103	AtkPotion	Buff	True	perc	5000	0	1.1	요동치는 시위			다음 <font color = '#f9b600'>[집중 사격], [관통 사격], [뇌룡의 일격]</font> 스킬의 <font color = '#66bbff'>위력</font>이 10% <font color = '#66bbff'>증가</font>합니다.	icon_skills.windwalk_tex	icon_skills.windwalk_tex	True
-602105	ForceCrit	Buff	True	swch	5000	0	0	추격자			지속 시간동안 모든 스킬에 후방 공격 판정을 부여합니다.	icon_skills.advancingleap_awaken_tex	icon_skills.advancingleap_awaken_tex	True
+602103	AtkPotion	Buff	True	perc	5000	0	1.1	요동치는 시위			다음 <font color = '#f9b600'>[집중 사격], [관통 사격], [뇌룡의 일격]</font> 스킬의 위력이 10% <font color = '#66bbff'>증가</font>합니다.	icon_skills.windwalk_tex	icon_skills.windwalk_tex	True
+602105	ForceCrit	Buff	True	seta	5000	0	0	추격자			지속 시간동안 모든 스킬에 후방 공격 판정을 부여합니다.	icon_skills.advancingleap_awaken_tex	icon_skills.advancingleap_awaken_tex	True
 602107	239	Buff	True	abs	22000	0	-30	바람의 선율			바람에 몸을 맡깁니다.	icon_skills.breeze_tex	icon_skills.breeze_tex	False
 602108	SkillCastSpeed	Buff	True	swch	22000	0	1.3	바람의 선율			바람에 몸을 맡깁니다.	icon_skills.breeze_tex	icon_skills.breeze_tex	False
 620000	Block	Buff	True	swch	5000	0	0	부웅~~I			강한 충격파에 몸이 공중으로 떠 올라서 움직일 수 없습니다.	icon_status.whirl_tex	icon_status.whirl_tex	True
@@ -4141,10 +4133,6 @@
 5010026	StackCounter	Buff	True	swch	1800000	0	5010027	전투 체형 변화 : 체격	101505	전투 급성장 캔디 (중복 - 30분)	전투 급성장 캔디 효과로 체격이 변화됩니다.<br>전투 상태에서도 해제되지 않습니다.	icon_status.icon_janggoe_ab_tex	icon_status.icon_janggoe_ab_tex	True
 5010027	AtkPotion	Buff	True	perc	0	0	1.05	완전한 거대한 힘			공격력 5% 증가	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 5010028	AtkPotion	Buff	True	perc	100	0	1	전투 체형 변화 : 체격			전투 급성장 캔디 효과로 체격이 변화됩니다.<br>전투 상태에서도 해제되지 않습니다.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	False
-5010029	AtkPotion	Buff	True	perc	0	0	1.77	7주년 기념 버프(강력)			스킬 위력이 $H_W_GOOD77%$COLOR_END 증가합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
-5010030	CritChance	Buff	True	perc	0	0	1.77	7주년 기념 버프(명중)			크리티컬 발생율이 $H_W_GOOD77%$COLOR_END 증가합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
-5010031	ASpd	Buff	True	perc	0	0	1.77	7주년 기념 버프(신속)			공격 속도가 $H_W_GOOD77%$COLOR_END 증가하고, 스킬 쿨타임이 $H_W_GOOD77%$COLOR_END 감소합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
-5010031	CDR	Buff	True	swch	0	0	0.23	7주년 기념 버프(신속)			공격 속도가 $H_W_GOOD77%$COLOR_END 증가하고, 스킬 쿨타임이 $H_W_GOOD77%$COLOR_END 감소합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
 5020000	EnchantChance	Buff	True	perc	300000	1	1.01	유럽 강화 주문서 1(5분)	153495	[PC방] 강화 장인의 가호 주문서 (5분)	0.01	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020001	EnchantChance	Buff	True	perc	300000	1	1.05	유럽 강화 주문서 2(5분)	153496	[PC방] 축복받은 강화 장인의 가호 주문서 (5분)	0.05	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020002	EnchantChance	Buff	True	perc	300000	1	1.15	유럽 강화 주문서 3(5분)	153497	[PC방] 빛나는 강화 장인의 가호 주문서 (5분)	0.15	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -4222,19 +4210,6 @@
 5060029	CDR	Buff	True	swch	0	0	0.85	테라타임[스킬 쿨타임]			모든 스킬 쿨타임이 15% 감소합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
 5060030	Crit	Buff	True	perc	0	0	30	슈퍼 테라타임[치명타 유발]			크리티컬 발생 확률이 2900% 상승합니다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
 5060031	Crit	Buff	True	abs	0	0	55	테라타임[치명타 유발]			치명타 유발이 55 상승합니다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-5060032	HPChange	Buff	True	perc	0	1	0.5	슈퍼 테라타임[스킬 쿨타임/HP회복]			모든 스킬 쿨타임이 80% 감소, 초당 HP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060032	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/HP회복]			모든 스킬 쿨타임이 80% 감소, 초당 HP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060033	ASpd	Buff	True	perc	0	0	1.2	슈퍼 테라타임[스킬 쿨타임/공격속도]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060033	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/공격속도]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060034	Attack	Buff	True	perc	0	0	1.5	슈퍼 테라타임[스킬 쿨타임/스킬위력]			모든 스킬 쿨타임이 80% 감소, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060034	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/스킬위력]			모든 스킬 쿨타임이 80% 감소, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060035	Attack	Buff	True	perc	0	0	1.5	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060035	ASpd	Buff	True	perc	0	0	1.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060035	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060036	Attack	Buff	True	perc	0	0	1.5	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060036	ASpd	Buff	True	perc	0	0	1.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060036	MPChange	Buff	True	perc	0	1	0.5	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-5060036	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
 5690001	StaminaDecay	Buff	True	seta	0	0	0	기억의 추적자			기억의 파편 수집 중에는 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690001	CrystalBind	Buff	True	abs	0	0	1	기억의 추적자			기억의 파편 수집 중에는 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690002	Resurrect	Buff	True	seta	60000	0	1	기억의 재구성			기억 재구성을 통해 사망했던 기억을 삭제하여 부활할 수 있습니다. 	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex	True
@@ -4551,30 +4526,6 @@
 8000091	XPBoost	Buff	True	perc	0	1	2	고속 성장 100 (프리미엄)			VIP 패키지가 적용되는 동안 사냥 시 획득 경험치가 100% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
 8000092	42	Buff	True	perc	0	1	2	신뢰의 증표 100 (프리미엄)			VIP 패키지가 적용되는 동안 평판 수치와 평판 포인트가 100% 증가합니다. 단, 전장 평판 수치와 전장 평판 포인트 획득시에는 적용되지 않습니다.	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
 8000093	41	Buff	True	perc	0	1	2	협상의 명수 100 (TERA Club)			VIP 패키지가 적용되는 동안 동안 퀘스트 골드 보상이 100% 증가합니다.	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	False
-8000094	339	Buff	True	perc	7200000	0	1.1	숙련도 10% 증가(2시간)	202144	숙련도 10% 증가(2시간)	2시간 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
-8000095	339	Buff	True	perc	86400000	0	1.1	숙련도 10% 증가(1일)	202145	숙련도 10% 증가(1일)	1일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
-8000096	339	Buff	True	perc	259200000	0	1.1	숙련도 10% 증가(3일)	202146	숙련도 10% 증가(3일)	3일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
-8000097	339	Buff	True	perc	604800000	0	1.1	숙련도 10% 증가(7일)	202147	숙련도 10% 증가(7일)	7일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
-8000098	339	Buff	True	perc	1296000000	0	1.1	숙련도 10% 증가(15일)	202148	숙련도 10% 증가(15일)	15일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
-8000099	339	Buff	True	perc	2147483647	0	1.1	숙련도 10% 증가(30일)	202149	숙련도 10% 증가(30일)	30일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
-8000100	339	Buff	True	perc	7200000	0	1.2	숙련도 20% 증가(2시간)	202150	숙련도 20% 증가(2시간)	2시간 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
-8000101	339	Buff	True	perc	86400000	0	1.2	숙련도 20% 증가(1일)	202151	숙련도 20% 증가(1일)	1일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
-8000102	339	Buff	True	perc	259200000	0	1.2	숙련도 20% 증가(3일)	202152	숙련도 20% 증가(3일)	3일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
-8000103	339	Buff	True	perc	604800000	0	1.2	숙련도 20% 증가(7일)	202153	숙련도 20% 증가(7일)	7일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
-8000104	339	Buff	True	perc	1296000000	0	1.2	숙련도 20% 증가(15일)	202154	숙련도 20% 증가(15일)	15일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
-8000105	339	Buff	True	perc	2147483647	0	1.2	숙련도 20% 증가(30일)	202155	숙련도 20% 증가(30일)	30일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
-8000106	339	Buff	True	perc	7200000	0	1.25	숙련도 25% 증가(2시간)	202156	숙련도 25% 증가(2시간)	2시간 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
-8000107	339	Buff	True	perc	86400000	0	1.25	숙련도 25% 증가(1일)	202157	숙련도 25% 증가(1일)	1일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
-8000108	339	Buff	True	perc	259200000	0	1.25	숙련도 25% 증가(3일)	202158	숙련도 25% 증가(3일)	3일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
-8000109	339	Buff	True	perc	604800000	0	1.25	숙련도 25% 증가(7일)	202159	숙련도 25% 증가(7일)	7일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
-8000110	339	Buff	True	perc	1296000000	0	1.25	숙련도 25% 증가(15일)	202160	숙련도 25% 증가(15일)	15일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
-8000111	339	Buff	True	perc	2147483647	0	1.25	숙련도 25% 증가(30일)	202161	숙련도 25% 증가(30일)	30일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
-8000112	339	Buff	True	perc	7200000	0	1.3	숙련도 30% 증가(2시간)	202162	숙련도 30% 증가(2시간)	2시간 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
-8000113	339	Buff	True	perc	86400000	0	1.3	숙련도 30% 증가(1일)	202163	숙련도 30% 증가(1일)	1일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
-8000114	339	Buff	True	perc	259200000	0	1.3	숙련도 30% 증가(3일)	202164	숙련도 30% 증가(3일)	3일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
-8000115	339	Buff	True	perc	604800000	0	1.3	숙련도 30% 증가(7일)	202165	숙련도 30% 증가(7일)	7일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
-8000116	339	Buff	True	perc	1296000000	0	1.3	숙련도 30% 증가(15일)	202166	숙련도 30% 증가(15일)	15일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
-8000117	339	Buff	True	perc	2147483647	0	1.3	숙련도 30% 증가(30일)	202167	숙련도 30% 증가(30일)	30일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
 8000683	HPChange	Buff	True	perc	3000	1	0.5	입장했을 때 회복 시키는 이상 상태 보이면 안됨! 버그!			입장했을 때 회복 시키는 이상 상태 보이면 안됨! 버그!			False
 8000684	StackCounter	Debuff	False	seta	15000	0	8000685	눈사람의 저주			시작 지점에서 잠수 타는 사람들에겐 눈사람이 저주를 내립니다. 시작 지점에서 내려가면, 15초 후에 저주가 해제됩니다. 13중첩이 되면 눈사람으로 변하며, 죽게 됩니다.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	눈사람의 저주			눈사람으로 변했습니다! 곧 죽을 겁니다. 다신 잠수 타지 마세요!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -4933,7 +4884,7 @@
 10152351	ForceCrit	Buff	True	seta	5000	0	0	후방 포격			잠시 동안, 몬스터 공격 시 후방 판정이 적용됩니다.	icon_skills.superrocketjump_awaken_tex	icon_skills.superrocketjump_awaken_tex	True
 10152352	DelayedEffect	Buff	True	swch	3000	0	10152353	대쉬: 미사일 장전			스킬 액션이 끝난 후, 10152352 이상상태를 호출하는 용도(보이지 않는 이상상태)	icon_skills.airdash_tex	icon_skills.airdash_tex	False
 10152353	MovSpd	Buff	True	abs	2000	0	80	추진력 가동			전투 이동속도가 80 상승합니다.	icon_skills.airdash_tex	icon_skills.airdash_tex	True
-10152354	334	Buff	True	swch	6000	0	400100	구르기: 산탄 장전			구르기 2단 연계용(보이면 bts)	icon_skills.ambushrolling_tex	icon_skills.ambushrolling_tex	False
+10152354	334	Buff	True	swch	4000	0	400100	구르기: 산탄 장전			구르기 2단 연계용(보이면 bts)	icon_skills.ambushrolling_tex	icon_skills.ambushrolling_tex	False
 10153000	209	Buff	True	perc	6000	0	0	[반격타] 사용 가능			[반격타] 스킬을 사용 가능합니다.	icon_skills.counterattack2_tex	icon_skills.counterattack2_tex	True
 10153010	HPChange2	Buff	True	perc	500	0	1.4	진정				icon_skills.relax_tex	icon_skills.relax_tex	False
 10153010	281	Buff	True	perc	500	0	1.4	진정				icon_skills.relax_tex	icon_skills.relax_tex	False
