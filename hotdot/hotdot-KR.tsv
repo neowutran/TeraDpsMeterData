@@ -785,6 +785,14 @@
 6016	Immune	Buff	True	27	12000	0	0	피닉스의 기운			지속 시간 동안 무적 상태가 됩니다. 스킬 사용 시 해제됩니다.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	ReloadingSkill	Debuff	True	abs	3600000	0	6500004	피닉스의 기운			지속 시간 동안 무적 상태가 됩니다. 스킬 사용 시 해제됩니다.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	StatusImmune	Buff	True	swch	12000	0	0	피닉스의 기운			지속 시간 동안 무적 상태가 됩니다. 스킬 사용 시 해제됩니다.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
+6017	CritPower1	Buff	True	abs	6000	0	1	흑룡의 혈맥			몬스터 공격 시 치명타 위력이 $H_W_GOOD+1.5$COLOR_END배 증가됩니다.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
+6018	CritPower1	Buff	True	abs	6000	0	2	암룡의 혈맥			몬스터 공격 시 치명타 위력이 $H_W_GOOD+2$COLOR_END배 증가됩니다.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
+6019	HPChange	Buff	False	abs	200	1	-320000	흑룡의 분노			HP가 320000 감소합니다			False
+6020	HPChange	Buff	False	abs	200	1	-400000	암룡의 분노			HP가 400000 감소합니다			False
+6021	DelayedEffect	Buff	True	seta	1700	0	6023	흑룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 320000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	False
+6022	DelayedEffect	Buff	True	seta	1700	0	6024	암룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 400000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	False
+6023	Endurance	Buff	True	perc	1800000	0	1	흑룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 320000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	True
+6024	Endurance	Buff	True	perc	1800000	0	1	암룡의 분노			아무르타트가 방출한 분노의 힘을 부여 받아, 치명타 적중 시 400000의 추가 고정 피해를 입힙니다. 단, 해당 효과는 발동 후 1분간 다시 발동하지 않습니다.	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	True
 10100	HPChange	DOT	False	abs	5000	1	-11	맹독 I [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-11$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	맹독 II [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-23$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	맹독 III [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-58$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -1227,7 +1235,7 @@
 31120	Endurance	Buff	True	perc	5000	0	1	올려 차기(보호의 문장)			다음 사용하는 폭연타/승천타/일격타 스킬이 전방 방어 효과가 적용됩니다.	icon_skills.upperkick_tex	icon_crest.crestactivedefenceup_tex	True
 31140	169	Buff	True	perc	10000	0	92007	승천타(기회의 문장)				icon_skills.dragonrisingblow_tex	icon_skills.dragonrisingblow_tex	False
 32002	ASpd	Buff	True	perc	5000	0	1.1	연속 공격(신속의 문장)			공격 속도가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.c12_meleecombo	icon_crest.crestactiveattackspeedup_tex	True
-32005	AtkPotion	Buff	True	perc	3000	0	1.1	연쇄 도약(연계 투지의 문장)			스킬 위력이 $H_W_GOOD10%$COLOR_END 증가됩니다.	icon_skills.c12_dashattack	icon_crest.crestnextskillattackup_tex	True
+32005	AtkPotion	Buff	True	perc	4000	0	1.1	화염탄 투척(연계 투지의 문장)			스킬 위력이 $H_W_GOOD10%$COLOR_END 증가됩니다.	icon_skills.c12_flamebomb	icon_crest.crestnextskillattackup_tex	True
 32010	169	Buff	True	perc	10000	0	93014	후방 이동술(기회의 문장)			이 이상상태가 보이면 버그	icon_skills.c12_catchback	icon_skills.c12_catchback	False
 32020	AtkPotion	Buff	True	perc	5000	0	1.25	삼각 베기(연계 투지의 문장)			연계 스킬로 돌려 베기 사용 시 스킬 위력이 $H_W_GOOD25%$COLOR_END 증가됩니다.	icon_skills.c12_airstepstrike	icon_crest.crestnextskillattackup_tex	True
 32024	AtkPotion	Buff	True	perc	5000	0	1.25	이단 베기(연계 투지의 문장)			연계 스킬로 삼각 베기 사용 시 스킬 위력이 $H_W_GOOD25%$COLOR_END 증가됩니다.	icon_skills.c12_twinslash	icon_crest.crestnextskillattackup_tex	True
@@ -1580,6 +1588,7 @@
 100203	Block	Buff	True	perc	0	0	0	강철의 결의 IV			맷집이 $H_W_GOOD25%$COLOR_END, 균형이 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 치명타 발생 확률이 $H_W_GOOD15%$COLOR_END 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD120%$COLOR_END 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100203	StaggerImmune	Buff	True	seta	0	0	0	강철의 결의 IV			맷집이 $H_W_GOOD25%$COLOR_END, 균형이 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 치명타 발생 확률이 $H_W_GOOD15%$COLOR_END 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD120%$COLOR_END 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100294	MPChange	Buff	True	perc	1000	1	0.05	극기Ⅰ			극기Ⅰ효과로 Mp가 5% 회복됩니다.	icon_skills.twinswordsdefence_tex	icon_skills.twinswordsdefence_tex	True
+100294	318	Buff	True	abs	1000	0	-500	극기Ⅰ			극기Ⅰ효과로 Mp가 5% 회복됩니다.	icon_skills.twinswordsdefence_tex	icon_skills.twinswordsdefence_tex	True
 100295	318	Buff	True	abs	1000	0	-500	질풍Ⅰ			질풍Ⅰ 효과로 질풍 가르기 재사용 대기시간이 0.5초 감소합니다	icon_skills.twinswordsdefence_tex	icon_skills.twinswordsdefence_tex	False
 100296	CritChance	Buff	True	perc	0	0	1.15	강철의 결의(몬스터대상 크리티컬 확률 추가)			몬스터대상 크리티컬 확률 15% 추가(보이지 않는 이상상태)	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	False
 100297	113	Buff	True	perc	0	0	1.6	강철의 결의 I			맷집이 $H_W_GOOD20%$COLOR_END, 균형이 $H_W_GOOD20$COLOR_END, 몬스터 공격 시 치명타 발생 확률이 $H_W_GOOD15%$COLOR_END 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD100%$COLOR_END 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	False
@@ -1744,7 +1753,6 @@
 201600	KnockDownChance	Buff	True	perc	6000	0	0	전선 유지 I			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 201600	StatusImmune	Buff	True	swch	6000	0	0	전선 유지 I			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 201700	181	Buff	True	abs	1000	0	50	방패 방어 강화 I 			보이지 않는 이상상태	icon_skills.defence_tex	icon_skills.defence_tex	False
-201700	183	Buff	True	swch	1000	0	0	방패 방어 강화 I 			보이지 않는 이상상태	icon_skills.defence_tex	icon_skills.defence_tex	False
 201701	Power	Buff	True	abs	50000	0	4	방패 방어 강화 I 			각 중첩 당 적대치 $H_W_GOOD4%$COLOR_END, 힘 $H_W_GOOD4$COLOR_END, 치명타 유발 $H_W_GOOD6$COLOR_END이 향상됩니다. 최대 10회까지 중첩되며, 넘어지면 해제됩니다.	icon_skills.defence_tex	icon_skills.defence_tex	True
 201701	Crit	Buff	True	abs	50000	0	6	방패 방어 강화 I 			각 중첩 당 적대치 $H_W_GOOD4%$COLOR_END, 힘 $H_W_GOOD4$COLOR_END, 치명타 유발 $H_W_GOOD6$COLOR_END이 향상됩니다. 최대 10회까지 중첩되며, 넘어지면 해제됩니다.	icon_skills.defence_tex	icon_skills.defence_tex	True
 201701	Aggro	Buff	True	perc	50000	0	1.04	방패 방어 강화 I 			각 중첩 당 적대치 $H_W_GOOD4%$COLOR_END, 힘 $H_W_GOOD4$COLOR_END, 치명타 유발 $H_W_GOOD6$COLOR_END이 향상됩니다. 최대 10회까지 중첩되며, 넘어지면 해제됩니다.	icon_skills.defence_tex	icon_skills.defence_tex	True
@@ -4133,6 +4141,10 @@
 5010026	StackCounter	Buff	True	swch	1800000	0	5010027	전투 체형 변화 : 체격	101505	전투 급성장 캔디 (중복 - 30분)	전투 급성장 캔디 효과로 체격이 변화됩니다.<br>전투 상태에서도 해제되지 않습니다.	icon_status.icon_janggoe_ab_tex	icon_status.icon_janggoe_ab_tex	True
 5010027	AtkPotion	Buff	True	perc	0	0	1.05	완전한 거대한 힘			공격력 5% 증가	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 5010028	AtkPotion	Buff	True	perc	100	0	1	전투 체형 변화 : 체격			전투 급성장 캔디 효과로 체격이 변화됩니다.<br>전투 상태에서도 해제되지 않습니다.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	False
+5010029	AtkPotion	Buff	True	perc	0	0	1.77	7주년 기념 버프(강력)			스킬 위력이 $H_W_GOOD77%$COLOR_END 증가합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
+5010030	CritChance	Buff	True	perc	0	0	1.77	7주년 기념 버프(명중)			크리티컬 발생율이 $H_W_GOOD77%$COLOR_END 증가합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
+5010031	ASpd	Buff	True	perc	0	0	1.77	7주년 기념 버프(신속)			공격 속도가 $H_W_GOOD77%$COLOR_END 증가하고, 스킬 쿨타임이 $H_W_GOOD77%$COLOR_END 감소합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
+5010031	CDR	Buff	True	swch	0	0	0.23	7주년 기념 버프(신속)			공격 속도가 $H_W_GOOD77%$COLOR_END 증가하고, 스킬 쿨타임이 $H_W_GOOD77%$COLOR_END 감소합니다.	icon_items.fireworks_num_7_tex	icon_items.fireworks_num_7_tex	True
 5020000	EnchantChance	Buff	True	perc	300000	1	1.01	유럽 강화 주문서 1(5분)	153495	[PC방] 강화 장인의 가호 주문서 (5분)	0.01	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020001	EnchantChance	Buff	True	perc	300000	1	1.05	유럽 강화 주문서 2(5분)	153496	[PC방] 축복받은 강화 장인의 가호 주문서 (5분)	0.05	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020002	EnchantChance	Buff	True	perc	300000	1	1.15	유럽 강화 주문서 3(5분)	153497	[PC방] 빛나는 강화 장인의 가호 주문서 (5분)	0.15	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -4210,6 +4222,19 @@
 5060029	CDR	Buff	True	swch	0	0	0.85	테라타임[스킬 쿨타임]			모든 스킬 쿨타임이 15% 감소합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
 5060030	Crit	Buff	True	perc	0	0	30	슈퍼 테라타임[치명타 유발]			크리티컬 발생 확률이 2900% 상승합니다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
 5060031	Crit	Buff	True	abs	0	0	55	테라타임[치명타 유발]			치명타 유발이 55 상승합니다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
+5060032	HPChange	Buff	True	perc	0	1	0.5	슈퍼 테라타임[스킬 쿨타임/HP회복]			모든 스킬 쿨타임이 80% 감소, 초당 HP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060032	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/HP회복]			모든 스킬 쿨타임이 80% 감소, 초당 HP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060033	ASpd	Buff	True	perc	0	0	1.2	슈퍼 테라타임[스킬 쿨타임/공격속도]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060033	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/공격속도]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060034	Attack	Buff	True	perc	0	0	1.5	슈퍼 테라타임[스킬 쿨타임/스킬위력]			모든 스킬 쿨타임이 80% 감소, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060034	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/스킬위력]			모든 스킬 쿨타임이 80% 감소, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060035	Attack	Buff	True	perc	0	0	1.5	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060035	ASpd	Buff	True	perc	0	0	1.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060035	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50% 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060036	Attack	Buff	True	perc	0	0	1.5	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060036	ASpd	Buff	True	perc	0	0	1.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060036	MPChange	Buff	True	perc	0	1	0.5	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+5060036	CDR	Buff	True	swch	0	0	0.2	슈퍼 테라타임[스킬 쿨타임/공격속도/스킬위력/MP회복]			모든 스킬 쿨타임이 80% 감소, 공격 속도가 20%, 스킬 위력이 50%, MP회복량이 증가합니다.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
 5690001	StaminaDecay	Buff	True	seta	0	0	0	기억의 추적자			기억의 파편 수집 중에는 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690001	CrystalBind	Buff	True	abs	0	0	1	기억의 추적자			기억의 파편 수집 중에는 사망 시 강화 크리스탈이 파괴되지 않습니다. 	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690002	Resurrect	Buff	True	seta	60000	0	1	기억의 재구성			기억 재구성을 통해 사망했던 기억을 삭제하여 부활할 수 있습니다. 	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex	True
@@ -4526,6 +4551,30 @@
 8000091	XPBoost	Buff	True	perc	0	1	2	고속 성장 100 (프리미엄)			VIP 패키지가 적용되는 동안 사냥 시 획득 경험치가 100% 증가합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
 8000092	42	Buff	True	perc	0	1	2	신뢰의 증표 100 (프리미엄)			VIP 패키지가 적용되는 동안 평판 수치와 평판 포인트가 100% 증가합니다. 단, 전장 평판 수치와 전장 평판 포인트 획득시에는 적용되지 않습니다.	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
 8000093	41	Buff	True	perc	0	1	2	협상의 명수 100 (TERA Club)			VIP 패키지가 적용되는 동안 동안 퀘스트 골드 보상이 100% 증가합니다.	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	False
+8000094	339	Buff	True	perc	7200000	0	1.1	숙련도 10% 증가(2시간)	202144	숙련도 10% 증가(2시간)	2시간 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000095	339	Buff	True	perc	86400000	0	1.1	숙련도 10% 증가(1일)	202145	숙련도 10% 증가(1일)	1일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000096	339	Buff	True	perc	259200000	0	1.1	숙련도 10% 증가(3일)	202146	숙련도 10% 증가(3일)	3일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000097	339	Buff	True	perc	604800000	0	1.1	숙련도 10% 증가(7일)	202147	숙련도 10% 증가(7일)	7일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000098	339	Buff	True	perc	1296000000	0	1.1	숙련도 10% 증가(15일)	202148	숙련도 10% 증가(15일)	15일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000099	339	Buff	True	perc	2147483647	0	1.1	숙련도 10% 증가(30일)	202149	숙련도 10% 증가(30일)	30일 동안 숙련도가 10% 증가합니다.	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000100	339	Buff	True	perc	7200000	0	1.2	숙련도 20% 증가(2시간)	202150	숙련도 20% 증가(2시간)	2시간 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000101	339	Buff	True	perc	86400000	0	1.2	숙련도 20% 증가(1일)	202151	숙련도 20% 증가(1일)	1일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000102	339	Buff	True	perc	259200000	0	1.2	숙련도 20% 증가(3일)	202152	숙련도 20% 증가(3일)	3일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000103	339	Buff	True	perc	604800000	0	1.2	숙련도 20% 증가(7일)	202153	숙련도 20% 증가(7일)	7일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000104	339	Buff	True	perc	1296000000	0	1.2	숙련도 20% 증가(15일)	202154	숙련도 20% 증가(15일)	15일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000105	339	Buff	True	perc	2147483647	0	1.2	숙련도 20% 증가(30일)	202155	숙련도 20% 증가(30일)	30일 동안 숙련도가 20% 증가합니다.	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000106	339	Buff	True	perc	7200000	0	1.25	숙련도 25% 증가(2시간)	202156	숙련도 25% 증가(2시간)	2시간 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000107	339	Buff	True	perc	86400000	0	1.25	숙련도 25% 증가(1일)	202157	숙련도 25% 증가(1일)	1일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000108	339	Buff	True	perc	259200000	0	1.25	숙련도 25% 증가(3일)	202158	숙련도 25% 증가(3일)	3일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000109	339	Buff	True	perc	604800000	0	1.25	숙련도 25% 증가(7일)	202159	숙련도 25% 증가(7일)	7일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000110	339	Buff	True	perc	1296000000	0	1.25	숙련도 25% 증가(15일)	202160	숙련도 25% 증가(15일)	15일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000111	339	Buff	True	perc	2147483647	0	1.25	숙련도 25% 증가(30일)	202161	숙련도 25% 증가(30일)	30일 동안 숙련도가 25% 증가합니다.	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000112	339	Buff	True	perc	7200000	0	1.3	숙련도 30% 증가(2시간)	202162	숙련도 30% 증가(2시간)	2시간 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000113	339	Buff	True	perc	86400000	0	1.3	숙련도 30% 증가(1일)	202163	숙련도 30% 증가(1일)	1일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000114	339	Buff	True	perc	259200000	0	1.3	숙련도 30% 증가(3일)	202164	숙련도 30% 증가(3일)	3일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000115	339	Buff	True	perc	604800000	0	1.3	숙련도 30% 증가(7일)	202165	숙련도 30% 증가(7일)	7일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000116	339	Buff	True	perc	1296000000	0	1.3	숙련도 30% 증가(15일)	202166	숙련도 30% 증가(15일)	15일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000117	339	Buff	True	perc	2147483647	0	1.3	숙련도 30% 증가(30일)	202167	숙련도 30% 증가(30일)	30일 동안 숙련도가 30% 증가합니다.	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
 8000683	HPChange	Buff	True	perc	3000	1	0.5	입장했을 때 회복 시키는 이상 상태 보이면 안됨! 버그!			입장했을 때 회복 시키는 이상 상태 보이면 안됨! 버그!			False
 8000684	StackCounter	Debuff	False	seta	15000	0	8000685	눈사람의 저주			시작 지점에서 잠수 타는 사람들에겐 눈사람이 저주를 내립니다. 시작 지점에서 내려가면, 15초 후에 저주가 해제됩니다. 13중첩이 되면 눈사람으로 변하며, 죽게 됩니다.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	눈사람의 저주			눈사람으로 변했습니다! 곧 죽을 겁니다. 다신 잠수 타지 마세요!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -4769,8 +4818,8 @@
 10151172	Immune	Buff	True	9	1000	0	0	어둠숨기 무적용 이상상태			보이면 안됨	icon_skills.hideindarkness_tex	icon_skills.hideindarkness_tex	False
 10151180	RestoreHpOnHit	Buff	True	perc	3000	0	0.985	비검 회전 칼날(근력의 문장)				icon_skills.chainblade_tex	icon_skills.chainblade_tex	False
 10151180	AtkPotion	Buff	True	perc	3000	0	1.3	비검 회전 칼날(근력의 문장)				icon_skills.chainblade_tex	icon_skills.chainblade_tex	False
-10151192	AtkPotion	Buff	True	perc	6000	0	2.5	암살: 어둠 숨기			해당 기간 동안 몬스터 공격 시 100% 확률로 치명타가 적용되며, 스킬 위력이 2.5배 증가합니다.	icon_skills.assassination_tex	icon_skills.assassination_tex	True
-10151192	CritChance	Buff	True	perc	6000	0	100	암살: 어둠 숨기			해당 기간 동안 몬스터 공격 시 100% 확률로 치명타가 적용되며, 스킬 위력이 2.5배 증가합니다.	icon_skills.assassination_tex	icon_skills.assassination_tex	True
+10151192	AtkPotion	Buff	True	perc	6000	0	2	암살: 어둠 숨기			해당 기간 동안 몬스터 공격 시 100% 확률로 치명타가 적용되며, 스킬 위력이 2배 증가합니다.	icon_skills.assassination_tex	icon_skills.assassination_tex	True
+10151192	CritChance	Buff	True	perc	6000	0	100	암살: 어둠 숨기			해당 기간 동안 몬스터 공격 시 100% 확률로 치명타가 적용되며, 스킬 위력이 2배 증가합니다.	icon_skills.assassination_tex	icon_skills.assassination_tex	True
 10151193	MovSpd	Stun	False	perc	1000	0	0.8	속박의 낫			사슬이 점점 조여와 움직이기 힘들어집니다.	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
 10151193	ASpd	Stun	False	perc	1000	0	0.8	속박의 낫			사슬이 점점 조여와 움직이기 힘들어집니다.	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
 10151193	HPDrain	Stun	False	perc	1000	0	0.8	속박의 낫			사슬이 점점 조여와 움직이기 힘들어집니다.	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
@@ -4872,12 +4921,11 @@
 10152330	334	Buff	True	swch	1800	0	430100	아케인 광선 1타 사용 후, 2타가 바로 사용되지 않도록 하기 위함			보이지 않는 이상상태			False
 10152331	ReloadingSkill	Buff	True	perc	1800	0	91043	아케인 광선				icon_skills.arcanebeam_tex	icon_skills.arcanebeam_tex	False
 10152331	334	Buff	True	swch	1800	0	430100	아케인 광선				icon_skills.arcanebeam_tex	icon_skills.arcanebeam_tex	False
-10152340	209	Buff	True	swch	0	0	0	빔 판넬			<font color = '#F9B600'>[섬멸의 빛]</font>, <font color = '#F9B600'>[아케인 광선]</font> : 스킬 위력이 20% 상승합니다. $BR<font color = '#F9B600'>[구르기: 산탄장전]</font>이 <font color = '#F9B600'>[대쉬: 미사일 장전]</font>로 변경됩니다.$BR<font color = '#F9B600'>[일반 포탄 발사]</font>가 <font color = '#F9B600'>[아케인 빔 포격]</font>으로 변경됩니다.$BR<font color = '#F9B600'>[속사포 발사]</font>가 <font color = '#F9B600'>[아케인 빔 연사]</font>로 변경됩니다.$BR빔 판넬 소환 중 <font color = '#F9B600'>[마력 장전]</font>을 사용할 수 없습니다.	icon_skills.beampanel_tex	icon_skills.beampanel_tex	True
-10152340	Block	Buff	True	swch	0	0	0	빔 판넬			<font color = '#F9B600'>[섬멸의 빛]</font>, <font color = '#F9B600'>[아케인 광선]</font> : 스킬 위력이 20% 상승합니다. $BR<font color = '#F9B600'>[구르기: 산탄장전]</font>이 <font color = '#F9B600'>[대쉬: 미사일 장전]</font>로 변경됩니다.$BR<font color = '#F9B600'>[일반 포탄 발사]</font>가 <font color = '#F9B600'>[아케인 빔 포격]</font>으로 변경됩니다.$BR<font color = '#F9B600'>[속사포 발사]</font>가 <font color = '#F9B600'>[아케인 빔 연사]</font>로 변경됩니다.$BR빔 판넬 소환 중 <font color = '#F9B600'>[마력 장전]</font>을 사용할 수 없습니다.	icon_skills.beampanel_tex	icon_skills.beampanel_tex	True
-10152340	330	Buff	True	swch	32000	0	0	빔 판넬			<font color = '#F9B600'>[섬멸의 빛]</font>, <font color = '#F9B600'>[아케인 광선]</font> : 스킬 위력이 20% 상승합니다. $BR<font color = '#F9B600'>[구르기: 산탄장전]</font>이 <font color = '#F9B600'>[대쉬: 미사일 장전]</font>로 변경됩니다.$BR<font color = '#F9B600'>[일반 포탄 발사]</font>가 <font color = '#F9B600'>[아케인 빔 포격]</font>으로 변경됩니다.$BR<font color = '#F9B600'>[속사포 발사]</font>가 <font color = '#F9B600'>[아케인 빔 연사]</font>로 변경됩니다.$BR빔 판넬 소환 중 <font color = '#F9B600'>[마력 장전]</font>을 사용할 수 없습니다.	icon_skills.beampanel_tex	icon_skills.beampanel_tex	True
-10152340	353	Buff	True	perc	30000	0	1	빔 판넬			<font color = '#F9B600'>[섬멸의 빛]</font>, <font color = '#F9B600'>[아케인 광선]</font> : 스킬 위력이 20% 상승합니다. $BR<font color = '#F9B600'>[구르기: 산탄장전]</font>이 <font color = '#F9B600'>[대쉬: 미사일 장전]</font>로 변경됩니다.$BR<font color = '#F9B600'>[일반 포탄 발사]</font>가 <font color = '#F9B600'>[아케인 빔 포격]</font>으로 변경됩니다.$BR<font color = '#F9B600'>[속사포 발사]</font>가 <font color = '#F9B600'>[아케인 빔 연사]</font>로 변경됩니다.$BR빔 판넬 소환 중 <font color = '#F9B600'>[마력 장전]</font>을 사용할 수 없습니다.	icon_skills.beampanel_tex	icon_skills.beampanel_tex	True
+10152340	209	Buff	True	swch	0	0	0	빔 판넬			<font color = '#F9B600'>[섬멸의 빛]</font>, <font color = '#F9B600'>[아케인 광선]</font> : 스킬 위력이 20% 상승합니다. $BR<font color = '#F9B600'>[구르기: 산탄장전]</font>이 <font color = '#F9B600'>[대쉬: 미사일 장전]</font>로 변경됩니다.$BR<font color = '#F9B600'>[일반 포탄 발사]</font>가 <font color = '#F9B600'>[아케인 빔 포격]</font>으로 변경됩니다.$BR<font color = '#F9B600'>[속사포 발사]</font>가 <font color = '#F9B600'>[아케인 빔 연사]</font>로 변경됩니다.	icon_skills.beampanel_tex	icon_skills.beampanel_tex	True
+10152340	330	Buff	True	swch	32000	0	0	빔 판넬			<font color = '#F9B600'>[섬멸의 빛]</font>, <font color = '#F9B600'>[아케인 광선]</font> : 스킬 위력이 20% 상승합니다. $BR<font color = '#F9B600'>[구르기: 산탄장전]</font>이 <font color = '#F9B600'>[대쉬: 미사일 장전]</font>로 변경됩니다.$BR<font color = '#F9B600'>[일반 포탄 발사]</font>가 <font color = '#F9B600'>[아케인 빔 포격]</font>으로 변경됩니다.$BR<font color = '#F9B600'>[속사포 발사]</font>가 <font color = '#F9B600'>[아케인 빔 연사]</font>로 변경됩니다.	icon_skills.beampanel_tex	icon_skills.beampanel_tex	True
+10152340	353	Buff	True	perc	30000	0	1	빔 판넬			<font color = '#F9B600'>[섬멸의 빛]</font>, <font color = '#F9B600'>[아케인 광선]</font> : 스킬 위력이 20% 상승합니다. $BR<font color = '#F9B600'>[구르기: 산탄장전]</font>이 <font color = '#F9B600'>[대쉬: 미사일 장전]</font>로 변경됩니다.$BR<font color = '#F9B600'>[일반 포탄 발사]</font>가 <font color = '#F9B600'>[아케인 빔 포격]</font>으로 변경됩니다.$BR<font color = '#F9B600'>[속사포 발사]</font>가 <font color = '#F9B600'>[아케인 빔 연사]</font>로 변경됩니다.	icon_skills.beampanel_tex	icon_skills.beampanel_tex	True
 10152342	209	Buff	True	swch	0	0	0	융단 폭격 준비			융단 폭격을 사용할 수 있습니다(보이지 않는 이상상태)	icon_skills.beampanel_tex	icon_skills.beampanel_tex	False
-10152343	Block	Buff	True	swch	0	0	0	마력 장전 사용 불가			보이지 않는 이상상태	icon_skills.beampanel_tex	icon_skills.beampanel_tex	False
+10152343	Block	Buff	True	swch	0	0	0	마력 장전 사용 불가			보이지 않는 이상상태			False
 10152345	330	Buff	True	swch	32000	0	0	빔 판넬			보이지 않는 이상상태	icon_skills.beampanel_tex	icon_skills.beampanel_tex	False
 10152345	331	Buff	True	swch	32000	0	0	빔 판넬			보이지 않는 이상상태	icon_skills.beampanel_tex	icon_skills.beampanel_tex	False
 10152350	DelayedEffect	Buff	True	swch	3000	0	10152351	후방 포격			보이지 않는 이상상태			False
@@ -4940,7 +4988,7 @@
 10154030	BuffNearbyParty	Buff	True	seta	0	1	10154031	검기술			검기가 발현되어 공격력이 증가합니다.	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154032	AtkPotion	Buff	True	swch	60000	0	1.01	강력한 검기			강력한 검기가 발현되어 공격력이 더 증가합니다.	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154040	33	Buff	True	seta	30000	0	0	차크라 응집			차크라가 감소되지 않습니다.	icon_skills.c12_chakracohesion	icon_skills.c12_chakracohesion	True
-10154050	Immune	Buff	True	10	1200	0	0	회피 연막술 I			연막 내에 있어 적의 공격을 회피할 수 있습니다.	icon_skills.c12_smokebomb	icon_skills.c12_smokebombevade	True
+10154050	Immune	Buff	True	9	1200	0	0	회피 연막술 I			연막 내에 있어 적의 공격을 회피할 수 있습니다.	icon_skills.c12_smokebomb	icon_skills.c12_smokebombevade	True
 10154052	Endurance	Buff	True	perc	1	0	1	회피 연막술 I			자폭병이 되었습니다. 시간 내에 자폭하지 않으면 허무한 죽음을 맞이하게 됩니다. 자폭병 상태에서는 탈 것에 탑승할 수 없습니다.	icon_skills.c12_smokebomb	icon_skills.explosiontrap_tex	False
 10154053	AtkPotion	Buff	True	9	6000	0	1.1	회피 연막술 I			붉은 연막을 뿌려 적을 공격할 때 더 강력하게 공격할 수 있으나, 푸른 연막술이 적용되지 않습니다.	icon_skills.c12_smokebomb	icon_skills.c12_smokebombatk	True
 10154054	ReloadingSkill	Buff	True	perc	6000	0	92003	분노의승천타 쿨안돌면 돌아야한다			분노의 승천타 쓰고 쿨타임 돌리자	icon_skills.c12_smokebombatk	icon_skills.c12_smokebombatk	False
@@ -4956,11 +5004,11 @@
 10154301	CastSpeed	Buff	True	perc	10000	0	1.5	부메랑 왼쪽 던지기			이 이상상태는 보이지 않아야 합니다.	icon_skills.througharrow_tex	icon_skills.througharrow_tex	False
 10154352	Power	Buff	True	perc	1000	0	1	부메랑 수리검 후 수리검 연계용			수리검 연계 쉽게 되게 하기	icon_skills.comboattack_tex	icon_skills.comboattack_tex	False
 10154400	AtkPotion	Buff	True	perc	5000	0	1.05	침투안			근접 공격의 스킬 위력이 5% 증가합니다.	icon_skills.penetrationeye_tex	icon_skills.penetrationeye_tex	True
-10154450	CritChance	Buff	True	perc	8000	0	1.3	차크라 순환			원거리 공격의 치명타 확률이 30% 증가합니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
-10154470	StunKnockDown	Debuff	True	swch	500	0	11	부메랑 수리검			부메랑을 돌려받았다!	icon_skills.bumelang_tex	icon_skills.markingofarcher_tex	False
-10154470	ReloadingSkill	Debuff	True	swch	500	0	93021	부메랑 수리검			부메랑을 돌려받았다!	icon_skills.bumelang_tex	icon_skills.markingofarcher_tex	False
-10154471	StunKnockDown	Debuff	True	swch	500	0	12	부메랑 수리검			부메랑을 돌려받았다!	icon_skills.bumelang_tex	icon_skills.markingofarcher_tex	False
-10154471	ReloadingSkill	Debuff	True	swch	500	0	93021	부메랑 수리검			부메랑을 돌려받았다!	icon_skills.bumelang_tex	icon_skills.markingofarcher_tex	False
+10154450	CritChance	Buff	True	perc	8000	0	1.3	차크라 순환			원거리 공격의 치명타 확률이 30% 증가하며, 후방에서 공격하는효과를 가집니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
+10154450	ForceCrit	Buff	True	seta	8000	0	80000	차크라 순환			원거리 공격의 치명타 확률이 30% 증가하며, 후방에서 공격하는효과를 가집니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
+10154470	ReloadingSkill	Debuff	True	seta	500	0	93021	부메랑 수리검			부메랑을 돌려받았다!	icon_skills.bumelang_tex	icon_skills.markingofarcher_tex	False
+10154471	ReloadingSkill	Debuff	True	seta	500	0	93021	부메랑 수리검			부메랑을 돌려받았다!	icon_skills.bumelang_tex	icon_skills.markingofarcher_tex	False
+10154480	Aggro	Buff	True	perc	25000	0	0.3	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	MPChange	Buff	True	abs	25000	0	3000	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	RageChange	Buff	True	abs	25000	0	1000	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	AtkPotion	Buff	True	perc	30000	0	1.1	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
@@ -4970,7 +5018,8 @@
 10154480	331	Buff	True	swch	25000	0	0	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154481	ReloadingSkill	Buff	True	swch	300	0	93015	선인화				icon_skills.taoist_tex	icon_skills.taoist_tex	False
 10154482	AtkPotion	Buff	True	perc	30000	0	1.1	선인화: 침투안			근접 공격의 스킬 위력이 10% 증가합니다.	icon_skills.penetrationeye_tex	icon_skills.penetrationeye_tex	True
-10154483	CritChance	Buff	True	perc	30000	0	1.3	선인화: 차크라 순환			원거리 공격의 치명타 확률이 30% 증가합니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
+10154483	CritChance	Buff	True	perc	30000	0	1.3	선인화: 차크라 순환			원거리 공격의 치명타 확률이 30% 증가하며, 후방에서 공격하는효과를 가집니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
+10154483	ForceCrit	Buff	True	seta	30000	0	80000	선인화: 차크라 순환			원거리 공격의 치명타 확률이 30% 증가하며, 후방에서 공격하는효과를 가집니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
 10155010	33	Buff	True	seta	30000	0	0	달빛 집중			월광력이 자연 감소되지 않습니다.	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
 10155020	Immune	Buff	True	40	0	0	0	회피 추가 사용 가능			추가로 [회피]를 사용 가능합니다.	icon_skills.moonshadow_tex	icon_skills.moonshadow_tex	True
 10155030	AtkPotion	Buff	True	perc	0	0	1.1	보름달의 향연			달빛의 기운을 받아 주는 피해량이 10% 증가합니다.	icon_skills.fullmoon_tex	icon_skills.fullmoon_tex	True
@@ -6661,7 +6710,7 @@
 88605209	DefPotion	Buff	True	perc	10000	0	0.73	철벽			시전 중 피격시 받는 데미지 $H_W_GOOD27%$COLOR_END 감소. 다운 시 해제	icon_ep.ep_defense_well_tex	icon_ep.ep_defense_well_tex	False
 88605210	DefPotion	Buff	True	perc	10000	0	0.7	철벽			시전 중 피격시 받는 데미지 $H_W_GOOD30%$COLOR_END 감소. 다운 시 해제	icon_ep.ep_defense_well_tex	icon_ep.ep_defense_well_tex	False
 88606100	Rage	Buff	True	abs	100	0	150	물러서기 함정			툴팁이 보이면 안되는 이상상태	icon_ep.ep_cooltime_restart_tex	icon_ep.ep_cooltime_restart_tex	True
-88606300	Rage	Buff	True	abs	100	0	150	물러서기 재장전			툴팁이 보이면 안되는 이상상태			True
+88606300	239	Buff	True	abs	500	0	-150	물러서기 재장전			툴팁이 보이면 안되는 이상상태			True
 88607101	Immune	Buff	True	25	800	0	0	피격 면역			모든 종류의 피격을 받지 않습니다. 스킬 사용 시 해제됩니다.	icon_ep.ep_special_unbeatable_tex	icon_ep.ep_special_unbeatable_tex	True
 88607102	Immune	Buff	True	25	1100	0	0	피격 면역			모든 종류의 피격을 받지 않습니다. 스킬 사용 시 해제됩니다.	icon_ep.ep_special_unbeatable_tex	icon_ep.ep_special_unbeatable_tex	True
 88607103	Immune	Buff	True	25	1400	0	0	피격 면역			모든 종류의 피격을 받지 않습니다. 스킬 사용 시 해제됩니다.	icon_ep.ep_special_unbeatable_tex	icon_ep.ep_special_unbeatable_tex	True
@@ -6928,7 +6977,7 @@
 88837258	MPChange	Buff	True	abs	3000	1	76	충전			초당 $H_W_GOOD76$COLOR_END MP 지속 회복. 피격 시 해제	icon_ep.ep_resources_mpmore_tex	icon_ep.ep_resources_mpmore_tex	True
 88837259	MPChange	Buff	True	abs	3000	1	84	충전			초당 $H_W_GOOD84$COLOR_END MP 지속 회복. 피격 시 해제	icon_ep.ep_resources_mpmore_tex	icon_ep.ep_resources_mpmore_tex	True
 88837260	MPChange	Buff	True	abs	3000	1	92	충전			초당 $H_W_GOOD92$COLOR_END MP 지속 회복. 피격 시 해제	icon_ep.ep_resources_mpmore_tex	icon_ep.ep_resources_mpmore_tex	True
-89003100	ReloadingSkill	Buff	True	swch	100	0	90004	최후의 일격 재장전			툴팁이 보이면 안되는 이상상태	icon_ep.ep_cooltime_restart_tex	icon_ep.ep_cooltime_restart_tex	True
+89003100	ReloadingSkill	Buff	True	swch	100	0	90004	비검 최후의 일격 추진력			툴팁이 보이면 안되는 이상상태	icon_ep.ep_cooltime_restart_tex	icon_ep.ep_cooltime_restart_tex	True
 89010100	ReloadingSkill	Buff	True	swch	100	0	90010	비검 올려치기 재장전			툴팁이 보이면 안되는 이상상태	icon_ep.ep_cooltime_restart_tex	icon_ep.ep_cooltime_restart_tex	True
 89011301	Endurance	Debuff	False	perc	3000	0	1	(숨김) 채찍 1타			보이면 안되는 이상상태입니다.	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex	False
 89011302	Endurance	Debuff	False	perc	3000	0	1	(숨김) 채찍 2타			보이면 안되는 이상상태입니다.	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex	False
@@ -7231,6 +7280,41 @@
 90341014	MovSpd	Stun	False	setp	10000	0	0	여왕의 주박			지속 시간 동안 제 자리에서 움직일 수 없으며, 그 어떤 종류의 이동,방어 스킬도 사용할 수 없습니다!	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 90341014	Block	Stun	False	swch	10000	0	0	여왕의 주박			지속 시간 동안 제 자리에서 움직일 수 없으며, 그 어떤 종류의 이동,방어 스킬도 사용할 수 없습니다!	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 90341015	ASpd	Debuff	False	perc	7200000	0	1.1	끝 없는 힘			공격 속도가 $H_W_GOOD10%$COLOR_END 증가됩니다. 이 효과는 최대 3번 중첩됩니다.	icon_status.plusmove_tex	icon_status.plusmove_tex	True
+90440000	OutOfCombatMovSpd	Buff	True	abs	3600000	0	80	할라트의 축복			방랑의 신 할라트가 당신에게 축복을 내렸습니다. 바하르의 신전 이동 구간에서 $H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.	icon_status.lightweight_tex	icon_status.lightweight_tex	True
+90440000	RidingSpeed	Buff	True	perc	3600000	0	2	할라트의 축복			방랑의 신 할라트가 당신에게 축복을 내렸습니다. 바하르의 신전 이동 구간에서 $H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.	icon_status.lightweight_tex	icon_status.lightweight_tex	True
+90440009	Stun	Stun	False	swch	5000	0	5	멍해짐			바하르의 강력한 공격에 기절한 상태로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+90442006	335	Buff	True	swch	20000	0	0	바하르의 분노			분노 상태에서 많은 피해를 받으면 바하르는 진노하게 됩니다.	icon_status.baharrrage_tex	icon_status.baharrrage_tex	False
+90442100	335	Buff	True	swch	0	0	0	바하르의 분노			분노 상태에서 많은 피해를 받으면 바하르는 진노하게 됩니다.	icon_status.baharrrage_tex	icon_status.baharrrage_tex	False
+90442101	DelayedEffect	Buff	True	swch	0	0	90442102	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	False
+90442102	DelayedEffect	Buff	True	swch	15000	0	90442103	바하르의 분노			분노 상태에서 많은 피해를 받으면 바하르는 진노하게 됩니다.	icon_status.baharrrage_tex	icon_status.baharrrage_tex	True
+90442103	Power	Buff	True	perc	0	0	1.2	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
+90442103	Endurance	Buff	True	perc	0	0	0.85	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
+90442103	DelayedEffect	Buff	True	swch	0	0	90442101	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
+90442103	335	Buff	True	swch	0	0	0	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
+90442104	DelayedEffect	Buff	True	swch	50000	0	90442101	바하르의 분노			분노 상태에서 많은 피해를 받으면 바하르는 진노하게 됩니다.	icon_status.baharrrage_tex	icon_status.baharrrage_tex	False
+90442106	Endurance	Debuff	False	perc	10000	0	0.5	방어구 녹아내림			진노한 바하르의 힘이 방어구를 녹이고 있습니다. 중첩 당 맷집이 $H_W_BAD50%$COLOR_END 감소합니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+90442107	Power	Buff	True	perc	0	0	1.2	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
+90442107	Endurance	Buff	True	perc	0	0	0.85	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
+90442107	335	Buff	True	swch	0	0	0	바하르의 진노			불의 신 바하르가 진노하였습니다. 바하르의 맷집이 $H_W_BAD15%$COLOR_END 감소하지만 공격력이 $H_W_GOOD20%$COLOR_END 증가합니다.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
+90442202	Endurance	Buff	True	perc	0	0	10	세월의 흔적			오랜 세월 화산 지하에 뭍혀있던 격노의 병사는 방금 깨어나 다시 잠들 수 있지만, 먼지와 화산재가 굳어 방어력이 높은 상태입니다. 하지만 오랜 시간 힘을 얻지 못하면 영원한 죽음을 맞이합니다.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
+90442204	Endurance	Buff	True	perc	0	0	10	깨어난 힘			군단의 병사가 뜨거운 화산의 힘을 흡수했습니다! 터질듯한 힘으로 그의 지휘관을 향해 뛰어갈 것입니다.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
+90442204	220	Buff	True	seta	0	0	0	깨어난 힘			군단의 병사가 뜨거운 화산의 힘을 흡수했습니다! 터질듯한 힘으로 그의 지휘관을 향해 뛰어갈 것입니다.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
+90442204	Immune	Buff	True	24	0	0	0	깨어난 힘			군단의 병사가 뜨거운 화산의 힘을 흡수했습니다! 터질듯한 힘으로 그의 지휘관을 향해 뛰어갈 것입니다.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
+90442211	Attack	Debuff	True	perc	15000	0	0.5	용암 열기			뜨거운 용암에 노출되어 15초 동안 스킬 공격력이 $H_W_BAD50%$COLOR_END 감소합니다. 이 효과는 정화되지 않습니다.	icon_status.minusattack_tex	icon_status.minusattack_tex	True
+90442300	Immune	Buff	True	16	0	0	0	진노의 폭풍 - 시전			바하르가 진노하여 화신의 힘을 응축하고 있습니다.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	False
+90442300	StatusImmune	Buff	True	swch	0	0	0	진노의 폭풍 - 시전			바하르가 진노하여 화신의 힘을 응축하고 있습니다.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	False
+90442301	Immune	Buff	True	16	0	0	0	진노의 폭풍 - 시전			바하르가 진노하여 화신의 힘을 응축하고 있습니다.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	True
+90442301	StackCounter	Buff	True	seta	0	0	90442302	진노의 폭풍 - 시전			바하르가 진노하여 화신의 힘을 응축하고 있습니다.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	True
+90442301	StatusImmune	Buff	True	swch	0	0	0	진노의 폭풍 - 시전			바하르가 진노하여 화신의 힘을 응축하고 있습니다.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	True
+90442303	DelayedEffect	Buff	True	swch	5000	0	90442300	진노의 폭풍 - 완료			바하르의 진노가 모든 것을 불태울 준비가 되었습니다!	icon_status.wrathstormcompleted_tex	icon_status.wrathstormcompleted_tex	True
+90442303	Immune	Buff	True	16	5000	0	0	진노의 폭풍 - 완료			바하르의 진노가 모든 것을 불태울 준비가 되었습니다!	icon_status.wrathstormcompleted_tex	icon_status.wrathstormcompleted_tex	True
+90442303	StatusImmune	Buff	True	swch	5000	0	0	진노의 폭풍 - 완료			바하르의 진노가 모든 것을 불태울 준비가 되었습니다!	icon_status.wrathstormcompleted_tex	icon_status.wrathstormcompleted_tex	True
+90442304	DelayedEffect	Buff	True	swch	12000	0	90442300	진노의 폭풍 - 약화됨			바하르를 보호하는 힘이 해제되었습니다! 기절 스킬로 진노의 폭풍 시전을 차단할 수 있습니다.	icon_skills.finalblow_tex	icon_skills.finalblow_tex	True
+90442502	335	Debuff	True	swch	0	0	0	필멸의 낙인			바하르의 거대한 힘이 당신을 주시하고 있습니다. 조심하십시오!	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
+90442600	StackCounter	Buff	True	swch	0	0	90442601	불타는 복수의 힘			티투스를 향한 바하르의 복수가 완성되고 있습니다. 그의 복수가 완성되면 아무도 그를 저지할 수 없습니다.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+90442601	Power	Buff	True	perc	0	0	10	완성된 바하르의 복수			바하르의 힘이 완벽하게 돌아왔습니다!	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
+90442601	Endurance	Buff	True	perc	0	0	5	완성된 바하르의 복수			바하르의 힘이 완벽하게 돌아왔습니다!	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
+90442601	ASpd	Buff	True	perc	0	0	1.5	완성된 바하르의 복수			바하르의 힘이 완벽하게 돌아왔습니다!	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
 90991001	MovSpd	Debuff	False	setp	0	0	0.3	개발용_무궁화꽃이 피었습니다			무궁화꽃이 피었나요?	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 90991001	MovSpdInCombat	Debuff	False	setp	0	0	0.1	개발용_무궁화꽃이 피었습니다			무궁화꽃이 피었나요?	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 90991001	HPDrain	Debuff	False	setp	0	0	0.1	개발용_무궁화꽃이 피었습니다			무궁화꽃이 피었나요?	icon_status.minusmove_tex	icon_status.minusmove_tex	True
@@ -7537,57 +7621,59 @@
 98000091	HPChange	DOT	False	perc	10000	3	-0.06	출혈			새끼새의 강력한 일격에 의해 출혈이 발생해 이동 속도가 $H_W_BAD50%$COLOR_END 감소되고, $H_W_BAD3$COLOR_END 마다 전체 HP 대비 $H_W_BAD6%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 98000092	HPChange	Buff	True	perc	12000	3	0.0033	새끼의 축복			$H_W_GOOD3s$COLOR_END마다 전체 HP 대비 $H_W_GOOD0.33%$COLOR_END에 달하는 HP가 지속적으로 회복됩니다. 이 효과는 최대 3번까지 중첩됩니다.	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex	True
 98000095	HPChange	Buff	True	abs	1000	1	50000	사제의 손길			체력이 3만 회복됩니다.	icon_items.potion5_tex	icon_items.potion5_tex	True
-98000100	Power	Buff	True	abs	1800000	0	40	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000100	Endurance	Buff	True	abs	1800000	0	11	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000100	AllResist	Buff	True	abs	1800000	0	5	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000100	ASpd	Buff	True	abs	1800000	0	8	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000100	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000100	HPChange	Buff	True	abs	1800000	2	73	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000100	CDR	Buff	True	swch	1800000	0	0.95	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000100	BuffNearbyParty	Buff	True	seta	1800000	45	98000109	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용. 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	Power	Buff	True	abs	1800000	0	40	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	Endurance	Buff	True	abs	1800000	0	11	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	AllResist	Buff	True	abs	1800000	0	5	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	ASpd	Buff	True	abs	1800000	0	8	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	HPChange	Buff	True	abs	1800000	2	73	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	CDR	Buff	True	swch	1800000	0	0.95	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000101	BuffNearbyParty	Buff	True	seta	1800000	33	98000109	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	Power	Buff	True	abs	1800000	0	40	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	Endurance	Buff	True	abs	1800000	0	11	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	AllResist	Buff	True	abs	1800000	0	5	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	ASpd	Buff	True	abs	1800000	0	8	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	HPChange	Buff	True	abs	1800000	2	73	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	CDR	Buff	True	swch	1800000	0	0.95	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000102	BuffNearbyParty	Buff	True	seta	1800000	25	98000109	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
-98000103	Power	Buff	True	abs	1800000	0	48	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000103	Endurance	Buff	True	perc	1800000	0	1.1	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000103	Crit	Buff	True	perc	1800000	0	2.2	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000103	CritResist	Buff	True	perc	1800000	0	1.4	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000103	ASpd	Buff	True	abs	1800000	0	9.6	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000103	CritPower1	Buff	True	abs	20000	0	0.6	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000103	BuffNearbyParty	Buff	True	seta	1800000	40	98000107	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000104	Power	Buff	True	abs	1800000	0	48	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000104	Endurance	Buff	True	perc	1800000	0	1.1	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000104	Crit	Buff	True	perc	1800000	0	2.2	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000104	CritResist	Buff	True	perc	1800000	0	1.4	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000104	ASpd	Buff	True	abs	1800000	0	9.6	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000104	CritPower1	Buff	True	abs	20000	0	0.6	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000104	BuffNearbyParty	Buff	True	seta	1800000	25	98000107	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000105	Power	Buff	True	abs	1800000	0	48	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000105	Endurance	Buff	True	perc	1800000	0	1.1	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000105	Crit	Buff	True	perc	1800000	0	2.2	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000105	CritResist	Buff	True	perc	1800000	0	1.4	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000105	ASpd	Buff	True	abs	1800000	0	9.6	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000105	CritPower1	Buff	True	abs	20000	0	0.6	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000105	BuffNearbyParty	Buff	True	seta	1800000	18	98000107	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용.	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-98000106	Endurance	Debuff	False	perc	1800000	0	0.9	NPC 약화 디버프 [PvE TEST]			몬스터에게 탱커 맷집 감소 / 힐러 맷집 감소 / 힐러 치명타 저항 감소 디버프를 적용합니다.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
+98000100	Power	Buff	True	abs	1800000	0	40	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	Endurance	Buff	True	abs	1800000	0	11	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	AllResist	Buff	True	abs	1800000	0	5	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	ASpd	Buff	True	abs	1800000	0	8	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	HPChange	Buff	True	abs	1800000	2	73	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	CDR	Buff	True	swch	1800000	0	0.95	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	BuffNearbyParty	Buff	True	seta	1800000	45	98000109	중위 사제 버프 물약 [PvE TEST]	230000	중위 사제 버프[PvE TEST]	중위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/45s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	Power	Buff	True	abs	1800000	0	40	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	Endurance	Buff	True	abs	1800000	0	11	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	AllResist	Buff	True	abs	1800000	0	5	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	ASpd	Buff	True	abs	1800000	0	8	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	HPChange	Buff	True	abs	1800000	2	73	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	CDR	Buff	True	swch	1800000	0	0.95	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	BuffNearbyParty	Buff	True	seta	1800000	33	98000109	상위 사제 버프 물약 [PvE TEST]	230002	상위 사제 버프[PvE TEST]	상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/33s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	Power	Buff	True	abs	1800000	0	40	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	Endurance	Buff	True	abs	1800000	0	11	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	AllResist	Buff	True	abs	1800000	0	5	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	ASpd	Buff	True	abs	1800000	0	8	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	HPChange	Buff	True	abs	1800000	2	73	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	CDR	Buff	True	swch	1800000	0	0.95	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	BuffNearbyParty	Buff	True	seta	1800000	25	98000109	최상위 사제 버프 물약 [PvE TEST]	96000	최상위 사제 버프[PvE TEST]	최상위 사제 버프 - 아룬의 축복III, 신성의 번개IV [상시적용] ::::: 강화 혼신의 주문IV/25s 적용	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000103	Power	Buff	True	abs	1800000	0	48	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	Endurance	Buff	True	perc	1800000	0	1.1	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	Crit	Buff	True	perc	1800000	0	2.2	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	CritResist	Buff	True	perc	1800000	0	1.4	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	ASpd	Buff	True	abs	1800000	0	9.6	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	CritPower1	Buff	True	abs	20000	0	0.6	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	BuffNearbyParty	Buff	True	seta	1800000	40	98000107	중위 정령사 버프 물약 [PvE TEST]	230001	중위 정령사 버프[PvE TEST]	중위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/40s, 파괴의 정령/150s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	Power	Buff	True	abs	1800000	0	48	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	Endurance	Buff	True	perc	1800000	0	1.1	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	Crit	Buff	True	perc	1800000	0	2.2	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	CritResist	Buff	True	perc	1800000	0	1.4	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	ASpd	Buff	True	abs	1800000	0	9.6	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	CritPower1	Buff	True	abs	20000	0	0.6	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	BuffNearbyParty	Buff	True	seta	1800000	25	98000107	상위 정령사 버프 물약 [PvE TEST]	230003	상위 정령사 버프[PvE TEST]	상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/25s, 파괴의 정령/100s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	Power	Buff	True	abs	1800000	0	48	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	Endurance	Buff	True	perc	1800000	0	1.1	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	Crit	Buff	True	perc	1800000	0	2.2	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	CritResist	Buff	True	perc	1800000	0	1.4	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	ASpd	Buff	True	abs	1800000	0	9.6	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	CritPower1	Buff	True	abs	20000	0	0.6	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	BuffNearbyParty	Buff	True	seta	1800000	18	98000107	최상위 정령사 버프 물약 [PvE TEST]	96001	최상위 정령사 버프[PvE TEST]	최상위 정령사 버프 - 분노의 힘II, 광기의 힘III, 안개의 결계IV, 맷집 증가 [상시적용] ::::: 번개의 정령/18s, 파괴의 정령/75s 적용	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000106	Endurance	Debuff	False	perc	1800000	0	0.78	NPC 약화 디버프 [PvE TEST]			몬스터에게 탱커 맷집 감소 / 힐러 맷집 감소 / 힐러 치명타 저항 감소 디버프를 적용합니다.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
 98000106	CritResist	Debuff	False	abs	1800000	0	-12	NPC 약화 디버프 [PvE TEST]			몬스터에게 탱커 맷집 감소 / 힐러 맷집 감소 / 힐러 치명타 저항 감소 디버프를 적용합니다.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
 98000107	Power	Buff	True	abs	12000	0	15	정령화_번개의 정령 [PvE TEST]			밸런스 테스트를 위한 정령사 버프. 번개의 정령이 당신에게 깃들어 힘 15가 상승합니다.	icon_skills.summonspiritofrange2_tex	icon_skills.summonspiritofrange2_tex	True
 98000108	CritPower1	Buff	True	abs	20000	0	0.6	정령화_파괴의 정령 [PvE TEST]			밸런스 테스트를 위한 정령사 버프. 파괴의 정령이 당신에게 깃들어 치명타 위력이 0.6 증가합니다.	icon_skills.summonspiritofattack2_tex	icon_skills.summonspiritofattack2_tex	True
 98000109	Power	Buff	True	abs	10000	0	15	강화 혼신의 주문 IV [PvE TEST]			강화된 혼신의 주문을 받아 힘이 $H_W_GOOD15$COLOR_END, 치명타 위력이 $H_W_GOOD0.2$COLOR_END 증가합니다.	icon_skills.spirit3_tex	icon_skills.spirit3_tex	True
 98000109	CritPower	Buff	True	abs	10000	0	0.2	강화 혼신의 주문 IV [PvE TEST]			강화된 혼신의 주문을 받아 힘이 $H_W_GOOD15$COLOR_END, 치명타 위력이 $H_W_GOOD0.2$COLOR_END 증가합니다.	icon_skills.spirit3_tex	icon_skills.spirit3_tex	True
+98000110	KnockDownChance	Buff	True	perc	1800000	0	0	리액션 면역 [TEST]			효과가 지속되는 동안 리액션에 면역이 됩니다.	icon_skills.risingattack_tex	icon_skills.risingattack_tex	True
+98000111	Attack	Buff	True	perc	1800000	0	3	NPC HP 테스트 - 스킬 피해 증가			던전 몬스터의 체력 수치를 테스트하기 위한 공격력 이상상태. 스킬 피해량이 증가합니다. 워크패스에 원하는 값을 넣고 테스트 하세요. 현재 증가치: $H_W_GOOD200%$COLOR_END	icon_skills.nostalgia_tex	icon_skills.nostalgia_tex	True
 98200123	Stun	Stun	False	swch	5000	0	5	기절			충격에 의해 몸을 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 98200125	Power	Buff	True	perc	600000	0	1.15	포만감			진노한 네드라가 수호자를 잡아 먹고 강해졌습니다. 공격력과 공격 속도가 증가합니다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
 98200125	ASpd	Buff	True	perc	600000	0	1.05	포만감			진노한 네드라가 수호자를 잡아 먹고 강해졌습니다. 공격력과 공격 속도가 증가합니다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
