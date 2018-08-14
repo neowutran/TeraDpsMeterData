@@ -71,7 +71,7 @@
 202	Power	Buff	True	abs	2400000	0	25	Blessing of Shakan II			Increases Power by $H_W_GOOD25$COLOR_END.	icon_skills.attackup_tex	icon_skills.attackup_tex	False
 202	Endurance	Buff	True	abs	2400000	0	11	Blessing of Shakan II			Increases Power by $H_W_GOOD25$COLOR_END.	icon_skills.attackup_tex	icon_skills.attackup_tex	False
 202	AllResist	Buff	True	abs	2400000	0	5	Blessing of Shakan II			Increases Power by $H_W_GOOD25$COLOR_END.	icon_skills.attackup_tex	icon_skills.attackup_tex	False
-301	Stun	Stun	False	swch	6000	0	5	Lightning Trap I			Stunned. Cannot move.	icon_skills.shocktrap_tex	icon_skills.shocktrap_tex	True
+301	Stun	Stun	False	swch	6000	0	5	Lightning Trap			Stunned. Cannot move.	icon_skills.shocktrap_tex	icon_skills.shocktrap_tex	True
 501	OutOfCombatMovSpd	Buff	True	abs	600000	0	40	Movement Speed Increases	649	Speed Mote	Increases Movement Speed immensely.	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 601	Power	Buff	True	abs	0	0	20	Titanic Wrath I			Increases Power by $H_W_GOOD20$COLOR_END. Increases Attack Speed by $H_W_GOOD6$COLOR_END.	icon_skills.rage_tex	icon_skills.rage_tex	True
 601	ASpd	Buff	True	abs	0	0	6	Titanic Wrath I			Increases Power by $H_W_GOOD20$COLOR_END. Increases Attack Speed by $H_W_GOOD6$COLOR_END.	icon_skills.rage_tex	icon_skills.rage_tex	True
@@ -188,6 +188,10 @@
 1640	CraftTime	Buff	True	perc	3600000	0	0.8	Midnight Oil	1	Velika Midnight Oil	Increases crafting speed by $H_W_GOOD20%$COLOR_END.	icon_items.artisan_potion_tex	icon_items.artisan_potion_tex	True
 1641	CraftTime	Buff	True	perc	3600000	0	0.5	Kaiator Midnight Oil	344	Kaiator Midnight Oil	Increases crafting speed by $H_W_GOOD50%$COLOR_END.	icon_items.artisan_lamp_tex	icon_items.artisan_lamp_tex	True
 1642	CraftTime	Buff	True	perc	3600000	0	0.5	Castanica Midnight Oil	361	Castanica Midnight Oil	Increases crafting speed by $H_W_GOOD50%$COLOR_END.	icon_items.eviloflight_tex	icon_items.eviloflight_tex	True
+1643	CraftTime	Buff	True	perc	1800000	0	0.5	Artisan Potion	567	Artisan Potion	Accelerates crafting by $H_W_GOOD50%$COLOR_END for 30 minutes.	icon_items.parts_lightarmorc14_tex	icon_items.parts_lightarmorc14_tex	True
+1644	CraftTime	Buff	True	perc	3600000	0	0.5	Large Artisan Potion	568	Large Artisan Potion	Accelerates crafting by $H_W_GOOD50%$COLOR_END for 1 hour.	icon_items.parts_lightarmorc14_tex	icon_items.parts_lightarmorc14_tex	True
+1645	CraftTime	Buff	True	perc	1800000	0	0.2	Master Craftsman Potion	569	Master Craftsman Potion	Accelerates crafting by $H_W_GOOD80%$COLOR_END for 30 minutes.	icon_items.parts_lightarmorc13_tex	icon_items.parts_lightarmorc13_tex	True
+1646	CraftTime	Buff	True	perc	3600000	0	0.2	Large Master Craftsman Potion	570	Large Master Craftsman Potion	Accelerates crafting by $H_W_GOOD80%$COLOR_END for 1 hour.	icon_items.parts_lightarmorc13_tex	icon_items.parts_lightarmorc13_tex	True
 1650	HPChange	Buff	True	perc	1000	1	1	Kaia's Horn	3	Kaia's Bound Mead	Test	icon_items.artisan_potion_tex	icon_items.artisan_potion_tex	False
 1660	MPChange	Buff	True	perc	1000	1	1	Seren's Perfume	4	Seren's Bound Perfume	Test	icon_items.artisan_potion_tex	icon_items.artisan_potion_tex	False
 1670	XPBoost	Buff	True	perc	180000	0	1.03	Game Hunter's Boon	8024	Fine Game Hunter's Boon	Increases hunting XP by $H_W_GOOD3%$COLOR_END.	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
@@ -197,7 +201,7 @@
 1800	MovSpd	Debuff	True	setp	600000	0	0.7	Ghostly Pallor	305	Kaia's Binding	Decreases Power by $H_W_BAD90%$COLOR_END, Endurance by $H_W_BAD90%$COLOR_END, and Movement Speed by $H_W_BAD30%$COLOR_END.$BRCannot be purified or cleansed.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 1800	ResistNegative	Debuff	True	swch	600000	0	0	Ghostly Pallor	305	Kaia's Binding	Decreases Power by $H_W_BAD90%$COLOR_END, Endurance by $H_W_BAD90%$COLOR_END, and Movement Speed by $H_W_BAD30%$COLOR_END.$BRCannot be purified or cleansed.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 2000	MPChange	Buff	True	perc	80000	2	0.05	MP Replenishment II	8003	Spirited MP Replenishment Mote	Replenishes $H_W_GOOD5%$COLOR_END of maximum MP every $H_W_GOOD2s$COLOR_END.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-2010	MPChange	Buff	True	perc	80000	2	0.02	MP Replenishment I	8002	MP Replenishment Mote	Replenishes $H_W_GOOD2%$COLOR_END of maximum MP every $H_W_GOOD2s$COLOR_END.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+2010	MPChange	Buff	True	perc	20000	2	0.08	MP Replenishment I	8002	MP Replenishment Mote	Replenishes $H_W_GOOD2%$COLOR_END of maximum MP every $H_W_GOOD2s$COLOR_END.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 2020	HPChange	Buff	True	perc	1000	1	0.35	Health Burst	8001	HP Recovery Mote	Recovers $H_W_GOOD35%$COLOR_END of maximum HP.	icon_status.delayheal_tex	icon_status.delayheal_tex	False
 2030	AllResist	Buff	True	abs	10000	0	20	Immunity Burst			Increase resistances by $H_W_GOOD20$COLOR_END.	icon_status.pluseconfuseresist_tex	icon_status.pluseconfuseresist_tex	True
 2040	Endurance	Buff	True	perc	20000	0	1.7	Indomitable Will I	8004	Strong Resistance Mote	Increase Endurance, Balance Factor, and resistances by $H_W_GOOD70%$COLOR_END.	icon_status.pluswill_tex	icon_status.pluswill_tex	True
@@ -772,6 +776,14 @@
 6016	Immune	Buff	True	27	12000	0	0	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	ReloadingSkill	Debuff	True	abs	3600000	0	6500004	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	StatusImmune	Buff	True	swch	12000	0	0	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
+6017	CritPower1	Buff	True	abs	6000	0	1	Cursed Howl			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
+6018	CritPower1	Buff	True	abs	6000	0	2	Destiny's Howl			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
+6019	HPChange	Buff	False	abs	200	1	-320000	Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 320,000 damage.			False
+6020	HPChange	Buff	False	abs	200	1	-400000	Ancient Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 400,000 damage.			False
+6021	DelayedEffect	Buff	True	seta	1700	0	6023	Corrupting Tide			Inflicts an additional 320,000 damage on critical hits against monsters.<br>Cooldown: 1 minute	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	False
+6022	DelayedEffect	Buff	True	seta	1700	0	6024	Ancient Corrupting Tide			Inflicts an additional 400,000 damage on critical hits against monsters.<br>Cooldown: 1 minute	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	False
+6023	Endurance	Buff	True	perc	1800000	0	1	Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 320,000 damage.	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	True
+6024	Endurance	Buff	True	perc	1800000	0	1	Ancient Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 400,000 damage.	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	True
 10100	HPChange	DOT	False	abs	5000	1	-11	Virulence			Reduces HP by $H_W_BAD-11$COLOR_END every $H_W_BAD1s$COLOR_END.	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	Virulence			Reduces HP by $H_W_BAD-23$COLOR_END every $H_W_BAD1s$COLOR_END.	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	Virulence			Reduces HP by $H_W_BAD-58$COLOR_END every $H_W_BAD1s$COLOR_END.	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -1121,7 +1133,7 @@
 24101	SkillCastSpeed	Buff	True	perc	5000	0	1.3	Blazing Inescapable Doom			Speeds casting by $H_W_GOOD30%$COLOR_END for Flatten.	icon_skills.murderousvent_tex	icon_crest.crestnextskillattackspeedup_tex	True
 24110	Ballance	Buff	True	perc	15000	0	1.5	Balancing Triumphant Shout			Increases Balance Factor by $H_W_GOOD50%$COLOR_END.	icon_skills.tenacity_tex	icon_crest.crestactivereactionresist_tex	True
 24111	Ballance	Buff	True	perc	15000	0	2	Balancing Triumphant Shout			Increases Balance Factor by $H_W_GOOD100%$COLOR_END.	icon_skills.tenacity_tex	icon_crest.crestactivereactionresist_tex	True
-24120	CastSpeed	Buff	True	perc	6000	0	1.3	Swiftlinked Leaping Strike			Speeds attacking by $H_W_GOOD30%$COLOR_END for Lethal Strike.	icon_skills.downattack_tex	icon_crest.crestnextskillattackspeedup_tex	True
+24120	SkillCastSpeed	Buff	True	perc	6000	0	1.3	Swiftlinked Leaping Strike			Speeds attacking by $H_W_GOOD30%$COLOR_END for Lethal Strike.	icon_skills.downattack_tex	icon_crest.crestnextskillattackspeedup_tex	True
 24130	CastSpeed	Buff	True	perc	6000	0	1.3	Blazing Sweeping Strike			Speeds charging by $H_W_GOOD30%$COLOR_END for Thunder Strike.	icon_skills.turnback_tex	icon_crest.crestnextskillattackspeedup_tex	True
 24140	Endurance	Buff	True	abs	12000	0	16	Grounded Triumphant Shout			Increases Endurance by $H_W_GOOD16$COLOR_END.	icon_skills.tenacity_tex	icon_crest.crestpassiveskilleffectup_tex	True
 24150	MPChange	Buff	True	perc	5000	1	0.06	Spirited Triumphant Shout			Replenishes $H_W_GOOD6%$COLOR_END of maximum MP every $H_W_GOOD1s$COLOR_END.	icon_skills.tenacity_tex	icon_crest.crestpassivemprecoveryup_tex	True
@@ -1662,7 +1674,7 @@
 101104	Stun	Stun	False	swch	3000	0	5	Spinning Counter V			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex	True
 101105	Stun	Stun	False	swch	3000	0	5	Spinning Counter VI			Stunned. Cannot move.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex	True
 101200	Endurance	Debuff	False	perc	15000	0	0.92	Combative Strike			Reduces Endurance by $H_W_BAD8%$COLOR_END.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
-101210	Endurance	Debuff	False	perc	15000	0	0.9	Combative Strike XI			Reduces Endurance by $H_W_BAD10%$COLOR_END.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
+101210	Endurance	Debuff	False	perc	15000	0	0.88	Combative Strike XI			Reduces Endurance by $H_W_BAD12%$COLOR_END.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101220	Endurance	Debuff	False	perc	15000	0	0.92	Combative Strike			Reduces Endurance by $H_W_BAD8%$COLOR_END and the effect of healing skills on you by $H_W_BAD30%$COLOR_END.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101220	IncreasedHeal	Debuff	False	perc	15000	0	0.7	Combative Strike			Reduces Endurance by $H_W_BAD8%$COLOR_END and the effect of healing skills on you by $H_W_BAD30%$COLOR_END.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101300	ASpd	Buff	True	perc	27000	0	1.009	Traverse Cut			Increases Attack Speed by 0.9% with every stack. The effect stacks up to 13 times.	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex	True
@@ -1721,16 +1733,17 @@
 200231	Endurance	Buff	True	perc	0	0	1.91	Guardian Power II			Endurance increases by $H_W_GOOD91%$COLOR_END, Power increases by $H_W_GOOD30%$COLOR_END while within 40m of the caster.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 200232	Power	Buff	True	perc	0	0	1.3	Guardian Power III			Endurance increases by $H_W_GOOD91%$COLOR_END, Power increases by $H_W_GOOD30%$COLOR_END while within 40m of the caster.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 200232	Endurance	Buff	True	perc	0	0	1.91	Guardian Power III			Endurance increases by $H_W_GOOD91%$COLOR_END, Power increases by $H_W_GOOD30%$COLOR_END while within 40m of the caster.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
-200300	Endurance	Debuff	False	perc	12000	0	0.96	Debilitate			Decreases Endurance by $H_W_BAD4%$COLOR_END (stacks up to 3 times). In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
-200301	Endurance	Debuff	False	perc	15000	0	0.96	Debilitate			Decreases Endurance by $H_W_BAD4%$COLOR_END (stacks up to 3 times). In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
-200302	Endurance	Debuff	False	perc	18000	0	0.96	Debilitate			Decreases Endurance by $H_W_BAD4%$COLOR_END (stacks up to 3 times). In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
+200300	Endurance	Debuff	False	perc	12000	0	0.88	Debilitate			Decreases Endurance by $H_W_BAD12%$COLOR_END. In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
+200301	Endurance	Debuff	False	perc	15000	0	0.88	Debilitate			Decreases Endurance by $H_W_BAD12%$COLOR_END. In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
+200302	Endurance	Debuff	False	perc	18000	0	0.88	Debilitate			Decreases Endurance by $H_W_BAD12%$COLOR_END. In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
 200350	IncreasedHeal	Debuff	False	perc	12000	0	0.7	Debilitate				icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	False
 200351	IncreasedHeal	Debuff	False	perc	15000	0	0.7	Debilitate				icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	False
 200352	IncreasedHeal	Debuff	False	perc	15000	0	0.7	Debilitate			Test	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	False
 200400	Stun	Stun	False	swch	4000	0	5	Shield Bash			Stunned. Cannot move.	icon_skills.shieldstrike_tex	icon_skills.shieldstrike_tex	True
 200500	Power	Buff	True	abs	2000	0	0	Mana Extraction			###NotShow###Mana extracted from a Magic Stone quickly restores your MP.	icon_skills.useholywater_tex	icon_skills.useholywater_tex	False
-200700	ASpd	Buff	True	perc	20000	0	1.15	Adrenaline Rush I			Increases Attack Speed by $H_W_GOOD15%$COLOR_END.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
-200701	ASpd	Buff	True	perc	20000	0	1.2	Adrenaline Rush II			Increases Attack Speed by $H_W_GOOD20%$COLOR_END.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200700	ASpd	Buff	True	perc	20000	0	1.15	Adrenaline Rush I			Increases Attack Speed by $H_W_GOOD15%$COLOR_END and damage by 5% when attacking monsters.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200701	ASpd	Buff	True	perc	20000	0	1.2	Adrenaline Rush II			Increases Attack Speed by $H_W_GOOD20%$COLOR_END and damage by 5% when attacking monsters.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200701	AtkPotion	Buff	True	perc	20000	0	1.05	Adrenaline Rush II			Increases Attack Speed by $H_W_GOOD20%$COLOR_END and damage by 5% when attacking monsters.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200731	Aggro	Buff	True	perc	20000	0	1.08	Adrenaline Rush II			Attacks draw $H_W_GOOD8%$COLOR_END more aggro. Reduces cooldown of melee attack skills by $H_W_GOOD50%$COLOR_END, except for <font color = '#f9b600'>[Shield Bash]</font>, <font color = '#f9b600'>[Charging Lunge]</font>, and <font color = '#f9b600'>[Lockdown Blow]</font>.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200731	CDR	Buff	True	swch	20000	0	0.5	Adrenaline Rush II			Attacks draw $H_W_GOOD8%$COLOR_END more aggro. Reduces cooldown of melee attack skills by $H_W_GOOD50%$COLOR_END, except for <font color = '#f9b600'>[Shield Bash]</font>, <font color = '#f9b600'>[Charging Lunge]</font>, and <font color = '#f9b600'>[Lockdown Blow]</font>.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200800	Stun	Stun	False	swch	3000	0	5	Shield Barrage			Stunned. Cannot move.	icon_skills.shieldattack_tex	icon_skills.shieldattack_tex	True
@@ -1767,7 +1780,6 @@
 201600	KnockDownChance	Buff	True	perc	6000	0	0	Rallying Cry			You and others around you are immune to knockdown and stagger.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 201600	StatusImmune	Buff	True	swch	6000	0	0	Rallying Cry			You and others around you are immune to knockdown and stagger.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 201700	181	Buff	True	abs	1000	0	50	Line Held I			Invisible abnormality.	icon_skills.defence_tex	icon_skills.defence_tex	False
-201700	183	Buff	True	swch	1000	0	0	Line Held I			Invisible abnormality.	icon_skills.defence_tex	icon_skills.defence_tex	False
 201701	Power	Buff	True	abs	50000	0	4	Line Held I			Increases aggro by $H_W_GOOD4%$COLOR_END, Power by $H_W_GOOD4$COLOR_END, and Crit Factor by $H_W_GOOD6$COLOR_END. Stacks up to 10 times and is removed when you are knocked down.	icon_skills.defence_tex	icon_skills.defence_tex	True
 201701	Crit	Buff	True	abs	50000	0	6	Line Held I			Increases aggro by $H_W_GOOD4%$COLOR_END, Power by $H_W_GOOD4$COLOR_END, and Crit Factor by $H_W_GOOD6$COLOR_END. Stacks up to 10 times and is removed when you are knocked down.	icon_skills.defence_tex	icon_skills.defence_tex	True
 201701	Aggro	Buff	True	perc	50000	0	1.04	Line Held I			Increases aggro by $H_W_GOOD4%$COLOR_END, Power by $H_W_GOOD4$COLOR_END, and Crit Factor by $H_W_GOOD6$COLOR_END. Stacks up to 10 times and is removed when you are knocked down.	icon_skills.defence_tex	icon_skills.defence_tex	True
@@ -1781,18 +1793,18 @@
 201804	AtkPotion	Buff	True	perc	10000	0	1.1	Retribution Shield			Increases skill damage of Shield Counter by 10%. Stacks up to 10 times. Ends upon casting Shield Counter.	icon_skills.thornshield_tex	icon_skills.thornshield_tex	True
 201806	AtkPotion	Buff	True	perc	10000	0	1.1	Guardian's Barrier			Immune to knockdown and immobilization. This effect can be removed.	icon_skills.shieldwall_tex	icon_skills.shieldwall_tex	True
 201806	Immune	Buff	True	16	0	0	0	Guardian's Barrier			Immune to knockdown and immobilization. This effect can be removed.	icon_skills.shieldwall_tex	icon_skills.shieldwall_tex	True
-201807	MovSpdInCombat	Buff	True	abs	10000	0	50	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 10s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	DelayedEffect	Buff	True	swch	10000	0	201812	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 10s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	Immune	Buff	True	16	10000	0	0	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 10s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	330	Buff	True	swch	10000	0	0	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 10s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	331	Buff	True	swch	10000	0	0	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 10s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201807	337	Buff	True	seta	10000	0	99999	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 10s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	MovSpdInCombat	Buff	True	abs	5000	0	50	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 5s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	DelayedEffect	Buff	True	swch	5000	0	201812	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 5s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	Immune	Buff	True	16	5000	0	0	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 5s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	330	Buff	True	swch	5000	0	0	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 5s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	331	Buff	True	swch	5000	0	0	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 5s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
+201807	337	Buff	True	seta	5000	0	99999	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 5s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
 201808	Immune	Buff	True	9	2000	0	0	Super Leap: Defense			Blocks attacks for 2s. Cannot block attacks that cannot be evaded. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
 201809	StaggerImmune	Buff	True	seta	0	0	0	Unwavering			You are immune to push-back except for certain special attacks. Ends when not in combat.	icon_skills.roar_tex	icon_skills.roar_tex	False
 201810	Immune	Buff	True	16	0	0	0	Unwavering			Immune to knockdown and immobilization. This effect can be removed.	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
 201811	MaxHP	Buff	True	perc	10000	0	1	Barrier Destroyed			Your barrier is destroyed. Can be activated again after 10 minutes.			False
 201812	MaxHP	Buff	True	perc	0	0	1	Unprotectable			You are immune to Divine Protection. Cannot be purified.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	True
-201813	MaxHP	Buff	True	perc	0	0	1	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 10s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	False
+201813	MaxHP	Buff	True	perc	0	0	1	Divine Protection			Absorbs damage from all attacks and becomes immune to knockdown and immobilization for 5s. Cannot be removed using Regression and Plague of Exhaustion.	icon_skills.arcaneshield_tex	icon_skills.arcaneshield_tex	False
 201821	MPChange	Buff	True	perc	1000	1	0.05	Perseverance I			Replenishes 5% MP.	icon_skills.thornshield_tex	icon_skills.thornshield_tex	False
 201822	318	Buff	True	abs	1000	0	-500	Guardian's Barrier			Immune to knockdown and immobilization. This effect can be removed.	icon_skills.thornshield_tex	icon_skills.thornshield_tex	False
 201830	Endurance	Buff	True	perc	2000	0	1	Invisible abnormality.				icon_crest.crestpassivemprecoveryup_tex	icon_crest.crestpassivemprecoveryup_tex	False
@@ -2583,7 +2595,7 @@
 601140	AtkPotion	Buff	True	perc	0	0	1.1	Eagle's Eye(Additional Damage To monsters)			Additional Damage To monsters (Invisible Abnormality)	icon_skills.focusstance_tex	icon_skills.focusstance_tex	False
 601141	AtkPotion	Buff	True	perc	0	0	1.1	Eagle's Eye(Additional Damage To monsters)			Additional Damage To monsters (Invisible Abnormality)	icon_skills.focusstance_tex	icon_skills.focusstance_tex	False
 601200	Stun	Stun	False	swch	3000	0	5	Stunning Trap Arrow			Stunned. Cannot move.	icon_skills.paralysistraparrow_tex	icon_skills.paralysistraparrow_tex	True
-601201	Stun	Stun	False	swch	3000	0	5	Stunning Trap Arrow II			Stunned. Cannot move.	icon_skills.paralysistraparrow_tex	icon_skills.paralysistraparrow_tex	True
+601201	Stun	Stun	False	swch	3000	0	5	Stunning Trap Arrow			Stunned. Cannot move.	icon_skills.paralysistraparrow_tex	icon_skills.paralysistraparrow_tex	True
 601300	MovSpd	Debuff	False	perc	10000	0	0.1	Snare			Decreases Movement Speed by $H_W_BAD90%$COLOR_END.	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex	True
 601300	HPDrain	Debuff	False	perc	10000	0	0.6	Snare			Decreases Movement Speed by $H_W_BAD90%$COLOR_END.	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex	True
 601301	MovSpd	Debuff	False	perc	11000	0	0.1	Snare II			Decreases Movement Speed by $H_W_BAD90%$COLOR_END.	icon_skills.webtraparrow_tex	icon_skills.webtraparrow_tex	True
@@ -2637,6 +2649,34 @@
 628018	Endurance	Debuff	True	perc	60000	0	0	Hatred Barrier			Grants protection from Magnuut's Hatred Power and Hatred Attack.	icon_skills.focusstance_tex	icon_skills.focusstance_tex	True
 628018	330	Debuff	True	swch	60000	0	0	Hatred Barrier			Grants protection from Magnuut's Hatred Power and Hatred Attack.	icon_skills.focusstance_tex	icon_skills.focusstance_tex	True
 628018	331	Debuff	True	swch	60000	0	0	Hatred Barrier			Grants protection from Magnuut's Hatred Power and Hatred Attack.	icon_skills.focusstance_tex	icon_skills.focusstance_tex	True
+630201	55	DOT	True	abs	10000	1	1000	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+630201	Drunk	DOT	True	630101	10000	0	0	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+630202	55	DOT	True	abs	10000	1	1000	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+630202	Drunk	DOT	True	630102	10000	0	0	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+630210	55	DOT	True	abs	20000	1	1000	Hot Pursuit			Recovers Flight Gauge while in effect.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+630210	DelayedEffect	DOT	True	swch	20000	0	630211	Hot Pursuit			Recovers Flight Gauge while in effect.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+630211	Power	DOT	True	perc	440000	1	1	Hot Pursuit			Recovers Flight Gauge while in effect.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
+630400	Power	DOT	True	perc	1	1	1	Air Essence			Can slay a target of fire type when stacked 10 times.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+630400	StackCounter	DOT	True	swch	60000	1	630410	Air Essence			Can slay a target of fire type when stacked 10 times.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+630411	Drunk	DOT	True	630004	1000	0	0	Air Essence			Can slay a target of fire type when stacked 10 times.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	False
+630412	Power	DOT	True	perc	60000	1	1	Air Essence			Can slay a target of fire type when stacked 10 times.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	False
+630413	Power	DOT	True	perc	1	1	1	Air Essence			Can slay a target of fire type when stacked 10 times.	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	False
+630500	Power	DOT	True	perc	1	1	1	Fire Essence			Can slay a target of air type when stacked 10 times.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+630500	StackCounter	DOT	True	swch	60000	1	630510	Fire Essence			Can slay a target of air type when stacked 10 times.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+630511	Drunk	DOT	True	630005	1000	0	0	Fire Essence			Can slay a target of air type when stacked 10 times.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	False
+630512	Power	DOT	True	perc	60000	1	1	Fire Essence			Can slay a target of air type when stacked 10 times.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	False
+630513	Power	DOT	True	perc	1	1	1	Fire Essence			Can slay a target of air type when stacked 10 times.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	False
+631001	StackCounter	DOT	True	swch	60000	1	631002	Spark			Flight Speed increases when stacked 10 times.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
+631002	Power	DOT	True	perc	1	1	1	Spark Overcharge			Increases Flight Speed.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+631002	44	DOT	True	abs	5000	0	0.5	Spark Overcharge			Increases Flight Speed.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+631002	DelayedEffect	DOT	True	swch	5000	0	631003	Spark Overcharge			Increases Flight Speed.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+631002	Drunk	DOT	True	631002	5000	0	0	Spark Overcharge			Increases Flight Speed.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+631003	Drunk	DOT	True	631003	1000	0	0	Spark			Flight Speed increases when stacked 10 times.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	False
+631004	Power	DOT	True	perc	1	1	1	Spark			Flight Speed increases when stacked 10 times.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	False
+631201	55	DOT	True	abs	10000	1	1000	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+631201	Drunk	DOT	True	631101	10000	0	0	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+631202	55	DOT	True	abs	10000	1	1000	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+631202	Drunk	DOT	True	631102	10000	0	0	Flight Gauge Recovery			Recovers Flight Gauge while the mission guide is displayed.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 700100	Resurrect	Buff	True	seta	600000	0	1	Vow of Rebirth			Resurrect instantly if you are killed.	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex	True
 700200	MPChange	Buff	True	abs	0	2	-30	Aura of the Unyielding I			Grants Aura of the Unyielding to party members within 30m. Costs $H_W_BAD-30$COLOR_END MP per $H_W_BAD2$COLOR_END to maintain.	icon_skills.areahpgain_tex	icon_skills.areahpgain_tex	True
 700200	BuffNearbyParty	Buff	True	seta	0	3	700230	Aura of the Unyielding I			Grants Aura of the Unyielding to party members within 30m. Costs $H_W_BAD-30$COLOR_END MP per $H_W_BAD2$COLOR_END to maintain.	icon_skills.areahpgain_tex	icon_skills.areahpgain_tex	True
@@ -2836,15 +2876,16 @@
 701900	Immune	Buff	True	25	1000	0	0	Mass Teleport				icon_skills.masstel_tex	icon_skills.voidtrap_tex	False
 702000	MovSpdInCombat	Buff	True	abs	0	0	10	Thrall Augmentation			Increases Movement Speed by 10. Costs 200 MP every 2 seconds. Effect varies per summoned Thrall.	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
 702000	MPChange	Buff	True	abs	0	2	-200	Thrall Augmentation			Increases Movement Speed by 10. Costs 200 MP every 2 seconds. Effect varies per summoned Thrall.	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
-702000	330	Buff	True	swch	0	0	0	Thrall Augmentation			Increases Movement Speed by 10. Costs 200 MP every 2 seconds. Effect varies per summoned Thrall.	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
+702000	330	Buff	True	swch	1000	0	0	Thrall Augmentation			Increases Movement Speed by 10. Costs 200 MP every 2 seconds. Effect varies per summoned Thrall.	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
 702001	KnockDownChance	Buff	True	perc	12000	0	0	Thrall of Protection II			<font color = '#66bbff'>Absorbs</font> up to 30000 damage. Immune to knockdown and stagger while in effect. Ends when maximum damage is reached regardless of duration.	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702001	Absorb	Buff	True	swch	12000	0	30000	Thrall of Protection II			<font color = '#66bbff'>Absorbs</font> up to 30000 damage. Immune to knockdown and stagger while in effect. Ends when maximum damage is reached regardless of duration.	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702001	StatusImmune	Buff	True	swch	12000	0	0	Thrall of Protection II			<font color = '#66bbff'>Absorbs</font> up to 30000 damage. Immune to knockdown and stagger while in effect. Ends when maximum damage is reached regardless of duration.	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
-702002	MovSpdInCombat	Buff	True	abs	5000	0	10	Thrall of Life XIII			<font color = '#66bbff'>Recovers</font> HP by 1.5% and <font color = '#66bbff'>replenishes</font> MP by 10% every second. Increases combat Movement Speed by 10. Ends when knocked down.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
-702002	HPChange	Buff	True	perc	5000	1	0.015	Thrall of Life XIII			<font color = '#66bbff'>Recovers</font> HP by 1.5% and <font color = '#66bbff'>replenishes</font> MP by 10% every second. Increases combat Movement Speed by 10. Ends when knocked down.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
-702002	MPChange	Buff	True	perc	5000	1	0.1	Thrall of Life XIII			<font color = '#66bbff'>Recovers</font> HP by 1.5% and <font color = '#66bbff'>replenishes</font> MP by 10% every second. Increases combat Movement Speed by 10. Ends when knocked down.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	MovSpdInCombat	Buff	True	abs	5000	0	10	Thrall of Life II			<font color = '#66bbff'>Recovers</font> HP by 1.5% and <font color = '#66bbff'>replenishes</font> MP by 10% every second. Increases combat Movement Speed by 10. Ends when knocked down.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	HPChange	Buff	True	perc	5000	1	0.015	Thrall of Life II			<font color = '#66bbff'>Recovers</font> HP by 1.5% and <font color = '#66bbff'>replenishes</font> MP by 10% every second. Increases combat Movement Speed by 10. Ends when knocked down.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	MPChange	Buff	True	perc	5000	1	0.1	Thrall of Life II			<font color = '#66bbff'>Recovers</font> HP by 1.5% and <font color = '#66bbff'>replenishes</font> MP by 10% every second. Increases combat Movement Speed by 10. Ends when knocked down.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
 702003	Power	Buff	True	abs	12000	0	15	Thrall of Vengeance II			Increases Power by 15. Ends when knocked down.	icon_skills.summonspiritofrange_tex	icon_skills.summonspiritofrange2_tex	True
 702004	CritPower1	Buff	True	abs	20000	0	0.6	Thrall of Wrath II			Increases Crit Power by 60%. Ends when knocked down.	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack2_tex	True
+702005	330	Buff	True	swch	1000	0	0	Elementalize			Increases Movement Speed by 10. Costs 200 MP every 2 seconds. Effect varies per summoned Thrall.	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	False
 702012	MovSpd	Buff	True	abs	2000	0	0	Arun's Breath			While in effect, <font color = '#66bbff'>recovers</font> additional 15,000 HP when hit by Titanic Favor or Boomerang Pulse.	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
 757001	Plague	Buff	False	setp	5000	5	0	Not Supposed To Be Shown			Not Supposed To Be Shown	icon_status.firedamage_tex	icon_status.firedamage_tex	False
 757002	ASpd	Buff	False	perc	0	0	1	Firestone			The stone giant is on fire. Targets within 21m gain "Heat."	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -3200,9 +3241,11 @@
 801000	StunResist	Buff	True	perc	5000	0	100000	Guardian Sanctuary I			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
 801000	AllResist	Buff	True	perc	5000	0	2	Guardian Sanctuary I			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
 801000	DefPotion	Buff	True	perc	5000	0	0.7	Guardian Sanctuary I			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
+801000	ReloadingSkill	Buff	True	swch	5000	0	7038	Guardian Sanctuary I			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
 801001	StunResist	Buff	True	perc	10000	0	100000	Guardian Sanctuary II			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
 801001	AllResist	Buff	True	perc	10000	0	2	Guardian Sanctuary II			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
 801001	DefPotion	Buff	True	perc	10000	0	0.7	Guardian Sanctuary II			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
+801001	ReloadingSkill	Buff	True	swch	10000	0	7038	Guardian Sanctuary II			Reduces ranged damage taken by $H_W_GOOD30%$COLOR_END, while increasing weakening and DOT resistances by $H_W_GOOD100%$COLOR_END and greatly increasing stun resistance.	icon_skills.guardianaura_tex	icon_skills.guardianaura_tex	True
 801100	HPChange	Buff	True	perc	10000	1	0.018	Divine Prayer I			Recovers $H_W_GOOD1.8%$COLOR_END of maximum HP every $H_W_GOOD1s$COLOR_END.	icon_skills.restoration_tex	icon_skills.restoration_tex	True
 801101	HPChange	Buff	True	perc	10000	1	0.02	Divine Prayer II			Recovers $H_W_GOOD2%$COLOR_END of maximum HP every $H_W_GOOD1s$COLOR_END.	icon_skills.restoration_tex	icon_skills.restoration_tex	True
 801200	Stun	Stun	False	swch	20000	0	5	Ishara's Lullaby I			Sleep comfortably. Ends immediately if you are hit.	icon_skills.lullabyoflshara_tex	icon_skills.lullabyoflshara_tex	True
@@ -3240,8 +3283,8 @@
 801901	StatusImmune	Buff	True	swch	1200	0	0	Zenobia's Vortex			Lifts the target into the air. (NotShown Abnormality)			False
 801920	Stun	Stun	False	swch	1200	0	5	Zenobia's Vortex			Lifts the target into the air.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	False
 801920	274	Stun	False	swch	1200	0	80	Zenobia's Vortex			Lifts the target into the air.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	False
-802000	Stun	Buff	True	swch	1200	0	8	Divine Intervention			Summons an ally ahead of you to a spot right in front of you.	icon_skills.helpinghand_tex	icon_skills.shocktrap_tex	False
-802000	Immune	Buff	True	8	1200	0	0	Divine Intervention			Summons an ally ahead of you to a spot right in front of you.	icon_skills.helpinghand_tex	icon_skills.shocktrap_tex	False
+802000	Stun	Buff	True	swch	1300	0	8	Divine Intervention			Summons an ally ahead of you to a spot right in front of you.	icon_skills.helpinghand_tex	icon_skills.shocktrap_tex	False
+802000	Immune	Buff	True	8	1300	0	0	Divine Intervention			Summons an ally ahead of you to a spot right in front of you.	icon_skills.helpinghand_tex	icon_skills.shocktrap_tex	False
 802001	Immune	Buff	True	25	2500	0	0	Divine Intervention			Temporarily resists all attacks.	icon_skills.helpinghand_tex	icon_skills.helpinghand_tex	True
 802002	Immune	Buff	True	25	2500	0	0	Divine Intervention			Resists all attacks for a few seconds.	icon_skills.helpinghand_tex	icon_skills.spirithand_tex	True
 805100	OutOfCombatMovSpd	Buff	True	abs	900000	0	10	Blessing of Shakan I			Increases noncombat Movement Speed by $H_W_GOOD10$COLOR_END and continuously recovers HP.	icon_skills.attackup_tex	icon_skills.attackup_tex	True
@@ -3289,12 +3332,12 @@
 806001	Drunk	Buff	True	906000	0	0	0	Zombie effect on			Invisible abnormality.			False
 806002	Drunk	Buff	True	906001	10000	0	0	Zombie effect off			Invisible abnormality.			False
 806020	Endurance	Buff	True	perc	10000	0	1	Devoted Favor			Reduces damage received by $H_W_GOOD5%$COLOR_END. Recovers 100 HP per second.	icon_skills.blessingaura_tex	icon_skills.blessingaura_tex	False
-806021	HPChange	Buff	True	abs	3000	1	500	Holy Burst			Reduces damage received by 20%. Resists to knockdown, stagger, and stuns. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
-806021	DefPotion	Buff	True	perc	3000	0	0.8	Holy Burst			Reduces damage received by 20%. Resists to knockdown, stagger, and stuns. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
-806021	Immune	Buff	True	16	3000	0	0	Holy Burst			Reduces damage received by 20%. Resists to knockdown, stagger, and stuns. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
-806022	HPChange	Buff	True	abs	3000	1	500	Holy Burst			Reduces damage received by 20%. Resists to knockdown, stagger, and stuns. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
-806022	DefPotion	Buff	True	perc	3000	0	0.8	Holy Burst			Reduces damage received by 20%. Resists to knockdown, stagger, and stuns. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
-806022	Immune	Buff	True	16	3000	0	0	Holy Burst			Reduces damage received by 20%. Resists to knockdown, stagger, and stuns. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
+806021	HPChange	Buff	True	abs	3000	1	500	Holy Burst			Reduces damage received by 30%. Resists to knockdown and stagger. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
+806021	KnockDownChance	Buff	True	perc	3000	0	0	Holy Burst			Reduces damage received by 30%. Resists to knockdown and stagger. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
+806021	DefPotion	Buff	True	perc	3000	0	0.7	Holy Burst			Reduces damage received by 30%. Resists to knockdown and stagger. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
+806022	HPChange	Buff	True	abs	3000	1	500	Holy Burst			Reduces damage received by 30%. Resists to knockdown and stagger. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
+806022	KnockDownChance	Buff	True	perc	3000	0	0	Holy Burst			Reduces damage received by 30%. Resists to knockdown and stagger. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
+806022	DefPotion	Buff	True	perc	3000	0	0.7	Holy Burst			Reduces damage received by 30%. Resists to knockdown and stagger. Recovers 500 HP per second.	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
 806023	HPChange	Buff	True	abs	10000	1	100	Regeneration Circle			Reduces damage received by $H_W_GOOD5%$COLOR_END. Recovers 100 HP per second.	icon_skills.healingwind_tex	icon_skills.blessingaura_tex	True
 806023	DefPotion	Buff	True	perc	10000	0	0.95	Regeneration Circle			Reduces damage received by $H_W_GOOD5%$COLOR_END. Recovers 100 HP per second.	icon_skills.healingwind_tex	icon_skills.blessingaura_tex	True
 808101	Chaos	Stun	False	swch	10000	0	0	Panic			Panicked! Movement controls are inverted. Cannot be removed.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
@@ -4111,14 +4154,14 @@
 7102011	Drunk1	Debuff	True	seta	8000	0	0	Lightning Check			Lightning Check			False
 7102012	Drunk1	Debuff	True	seta	8000	0	0	Light Check			Light Check			True
 7102015	Drunk1	Debuff	True	seta	50000	0	0	Lightning Ring			A lightning ring appears around you. Be careful not to hurt your allies.	icon_skills.electricshock_tex	icon_skills.electricshock_tex	True
-7102051	Power	Buff	True	perc	0	0	1.3	Joyful Molek			Molek is joyful, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
-7102051	ASpd	Buff	True	perc	0	0	1.05	Joyful Molek			Molek is joyful, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
-7102052	Power	Buff	True	perc	0	0	1.6	Jubilant Molek			Molek is jubilant, greatly increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-7102052	ASpd	Buff	True	perc	0	0	1.1	Jubilant Molek			Molek is jubilant, greatly increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-7102053	Power	Buff	True	perc	0	0	1.3	Angry Molek			Molek is angry, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
-7102053	ASpd	Buff	True	perc	0	0	1.05	Angry Molek			Molek is angry, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
-7102054	Power	Buff	True	perc	0	0	1.6	Furious Molek			Molek is furious, increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-7102054	ASpd	Buff	True	perc	0	0	1.1	Furious Molek			Molek is furious, increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
+7102051	Power	Buff	True	perc	0	0	1.1	Joyful Molek			Molek is joyful, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
+7102051	ASpd	Buff	True	perc	0	0	1.02	Joyful Molek			Molek is joyful, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
+7102052	Power	Buff	True	perc	0	0	1.2	Jubilant Molek			Molek is jubilant, greatly increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
+7102052	ASpd	Buff	True	perc	0	0	1.04	Jubilant Molek			Molek is jubilant, greatly increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
+7102053	Power	Buff	True	perc	0	0	1.1	Angry Molek			Molek is angry, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
+7102053	ASpd	Buff	True	perc	0	0	1.02	Angry Molek			Molek is angry, increasing his damage and Attack Speed.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
+7102054	Power	Buff	True	perc	0	0	1.2	Furious Molek			Molek is furious, increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
+7102054	ASpd	Buff	True	perc	0	0	1.04	Furious Molek			Molek is furious, increasing his damage and Attack Speed.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
 7102059	Block	Stun	False	swch	3000	0	0	Silence			You are overwhelmed by Molek's power. You cannot use skills.	icon_status.sealskill_tex	icon_status.sealskill_tex	True
 7103007	MovSpd	Debuff	True	perc	6000	0	1	Otherworldly Aura			Balbatos is preparing to attack.	icon_status.godspell_tex	icon_status.godspell_tex	True
 7103008	MovSpd	Debuff	True	perc	6000	0	1	Otherworldly Aura			Balbatos is preparing to attack.	icon_status.godspell_tex	icon_status.godspell_tex	True
@@ -4355,6 +4398,30 @@
 8000091	XPBoost	Buff	True	perc	0	1	2	100% XP Boost (Premium)			While VIP Pack is in use, increases hunting XP reward by 100%.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
 8000092	42	Buff	True	perc	0	1	2	100% Reputation Boost (Premium)			While VIP Pack is in use, increases reputation and credits gained by 100%. Does not apply to battleground reputation or credits.	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
 8000093	41	Buff	True	perc	0	1	2	100% Quester's Gold Boost (TERA Rewards)			Increases base gold rewards from quests by 100%.	icon_items.f2p_questrewardbooster_tex	icon_items.f2p_questrewardbooster_tex	False
+8000094	339	Buff	True	perc	7200000	0	1.1	Item XP +10%	202144	Item XP +10% (2 Hours)	Increases item XP earned through Vanguard Initiative quests by 10%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000095	339	Buff	True	perc	86400000	0	1.1	Item XP +10%	202145	Item XP +10% (1 Day)	Increases item XP earned through Vanguard Initiative quests by 10%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000096	339	Buff	True	perc	259200000	0	1.1	Item XP +10%	202146	Item XP +10% (3 Days)	Increases item XP earned through Vanguard Initiative quests by 10%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000097	339	Buff	True	perc	604800000	0	1.1	Item XP +10%	202147	Item XP +10% (7 Days)	Increases item XP earned through Vanguard Initiative quests by 10%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000098	339	Buff	True	perc	1296000000	0	1.1	Item XP +10%	202148	Item XP +10% (15 Days)	Increases item XP earned through Vanguard Initiative quests by 10%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000099	339	Buff	True	perc	2147483647	0	1.1	Item XP +10%	202149	Item XP +10% (30 Days)	Increases item XP earned through Vanguard Initiative quests by 10%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_10_tex	icon_items.itemxp_10_tex	True
+8000100	339	Buff	True	perc	7200000	0	1.2	Item XP +20%	202150	Item XP +20% (2 Hours)	Increases item XP earned through Vanguard Initiative quests by 20%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000101	339	Buff	True	perc	86400000	0	1.2	Item XP +20%	202151	Item XP +20% (1 Day)	Increases item XP earned through Vanguard Initiative quests by 20%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000102	339	Buff	True	perc	259200000	0	1.2	Item XP +20%	202152	Item XP +20% (3 Days)	Increases item XP earned through Vanguard Initiative quests by 20%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000103	339	Buff	True	perc	604800000	0	1.2	Item XP +20%	202153	Item XP +20% (7 Days)	Increases item XP earned through Vanguard Initiative quests by 20%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000104	339	Buff	True	perc	1296000000	0	1.2	Item XP +20%	202154	Item XP +20% (15 Days)	Increases item XP earned through Vanguard Initiative quests by 20%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000105	339	Buff	True	perc	2147483647	0	1.2	Item XP +20%	202155	Item XP +20% (30 Days)	Increases item XP earned through Vanguard Initiative quests by 20%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_20_tex	icon_items.itemxp_20_tex	True
+8000106	339	Buff	True	perc	7200000	0	1.25	Item XP +25%	202156	Item XP +25% (2 Hours)	Increases item XP earned through Vanguard Initiative quests by 25%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000107	339	Buff	True	perc	86400000	0	1.25	Item XP +25%	202157	Item XP +25% (1 Day)	Increases item XP earned through Vanguard Initiative quests by 25%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000108	339	Buff	True	perc	259200000	0	1.25	Item XP +25%	202158	Item XP +25% (3 Days)	Increases item XP earned through Vanguard Initiative quests by 25%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000109	339	Buff	True	perc	604800000	0	1.25	Item XP +25%	202159	Item XP +25% (7 Days)	Increases item XP earned through Vanguard Initiative quests by 25%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000110	339	Buff	True	perc	1296000000	0	1.25	Item XP +25%	202160	Item XP +25% (15 Days)	Increases item XP earned through Vanguard Initiative quests by 25%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000111	339	Buff	True	perc	2147483647	0	1.25	Item XP +25%	202161	Item XP +25% (30 Days)	Increases item XP earned through Vanguard Initiative quests by 25%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_25_tex	icon_items.itemxp_25_tex	True
+8000112	339	Buff	True	perc	7200000	0	1.3	Item XP +30%	202162	Item XP +30% (2 Hours)	Increases item XP earned through Vanguard Initiative quests by 30%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000113	339	Buff	True	perc	86400000	0	1.3	Item XP +30%	202163	Item XP +30% (1 Day)	Increases item XP earned through Vanguard Initiative quests by 30%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000114	339	Buff	True	perc	259200000	0	1.3	Item XP +30%	202164	Item XP +30% (3 Days)	Increases item XP earned through Vanguard Initiative quests by 30%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000115	339	Buff	True	perc	604800000	0	1.3	Item XP +30%	202165	Item XP +30% (7 Days)	Increases item XP earned through Vanguard Initiative quests by 30%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000116	339	Buff	True	perc	1296000000	0	1.3	Item XP +30%	202166	Item XP +30% (15 Days)	Increases item XP earned through Vanguard Initiative quests by 30%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
+8000117	339	Buff	True	perc	2147483647	0	1.3	Item XP +30%	202167	Item XP +30% (30 Days)	Increases item XP earned through Vanguard Initiative quests by 30%.<br><font color = '#FF0000'>Time also counts when you are offline.</font>	icon_items.itemxp_30_tex	icon_items.itemxp_30_tex	True
 8000684	StackCounter	Debuff	False	seta	15000	0	8000685	Snowman's Curse			Exit the spawn point in 15 seconds to cancel the curse. Effect can be stacked up to 13 times—then you die as a snowman.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	The Curse of Snowman			You went AFK, and you will die if you don't act soon!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 8000685	191	Debuff	False	perc	60000	0	0	The Curse of Snowman			You went AFK, and you will die if you don't act soon!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -4475,9 +4542,9 @@
 9691018	Absorb	Buff	True	abs	5000	0	100000	Shield			Absorbs 100,000 damage.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 9691019	DelayedEffect	Debuff	True	abs	7000	0	9691020	Hypnotic Preparation			Lilith is preparing to hypnotize you. If you fail to break the hypnosis, you will fall into a deep sleep.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	True
 9691020	Drunk1	Debuff	True	seta	10000	0	0	Hypnosis			Sleep after checking the effect	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	False
-9691021	HPChange	Debuff	True	abs	20000	2	-20000	Sleep			You fall into a deep sleep and cannot wake up. Your HP keeps draining.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	True
-9691021	Stun	Debuff	True	swch	20000	0	5	Sleep			You fall into a deep sleep and cannot wake up. Your HP keeps draining.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	True
-9691021	HPLoss	Debuff	True	abs	20000	0	-50000000	Sleep			You fall into a deep sleep and cannot wake up. Your HP keeps draining.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	True
+9691021	HPChange	Debuff	True	abs	5000	2	-20000	Sleep			You fall into a deep sleep and cannot wake up. Your HP keeps draining.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	True
+9691021	Stun	Debuff	True	swch	5000	0	5	Sleep			You fall into a deep sleep and cannot wake up. Your HP keeps draining.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	True
+9691021	HPLoss	Debuff	True	abs	5000	0	-50000000	Sleep			You fall into a deep sleep and cannot wake up. Your HP keeps draining.	icon_skills.sleepwind_tex	icon_skills.sleepwind_tex	True
 9692000	MovSpd	Stun	False	setp	10000	0	0	Waxy Trap			Wax drippings slow you down.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 9692002	MovSpd	DOT	False	setp	10000	0	0	Hardened Wax			You are immobilized by hardened wax.	icon_status.chainsnare_tex	icon_status.chainsnare_tex	True
 9692002	Block	DOT	False	swch	10000	0	0	Hardened Wax			You are immobilized by hardened wax.	icon_status.chainsnare_tex	icon_status.chainsnare_tex	True
@@ -4982,15 +5049,16 @@
 45000122	Immune	Buff	True	10	10000	0	0	Velik's Protection			5-second shield activated due to Velik's Protection.	icon_status.bless_of_velic_tex	icon_status.bless_of_velic_tex	True
 45000122	StatusImmune	Buff	True	swch	10000	0	0	Velik's Protection			5-second shield activated due to Velik's Protection.	icon_status.bless_of_velic_tex	icon_status.bless_of_velic_tex	True
 46600001	Stun	Stun	False	swch	2000	0	5	2nd boss capture skill_2 sec stun						False
-46600002	Endurance	Buff	True	perc	0	0	1000	Demon's Dominance			Demoros is not affected. Demoros's defense increases 1,000 times.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
+46600002	Endurance	Buff	True	perc	0	0	1000	Demon's Dominance			Demoros cannot be interrupted while he's rolling the dice. Demoros's defense increases 1,000 times.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 46600018	HPChange	DOT	False	perc	15000	2	-0.1	Demon's Curse			Reduces HP by $H_W_BAD10%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END seconds.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
-46600029	StackCounter	Buff	True	swch	300000	0	46600030	Abnormality_Achievement			Abnormality_Achievement			False
-46600030	Power	Buff	True	perc	1000	0	1	Abnormality_Achievement			Abnormality_Achievement			False
+46600029	Power	Buff	True	perc	30000	0	1	Abnormality_Achievement			Abnormality_Achievement			False
+46600030	StackCounter	Buff	True	swch	600000	0	46600029	Abnormality_Achievement			Abnormality_Achievement			False
 46600040	Stun	Stun	False	swch	5000	0	5	Stunned			Cannot move for 5 seconds.	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+46600044	HPChange	DOT	True	perc	15000	2	-0.1	Curse Explosion			Reduces HP by $H_W_BAD10%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END.	icon_status.instantleap_continuous_tex	icon_status.instantleap_continuous_tex	True
 46600053	MaxMP	Buff	True	perc	0	0	1	Shiny Die			Summons a shiny die.			False
 46600079	Endurance	Buff	True	perc	25000	0	1000	Demon's Wrath			Demoros prepares to move to the otherworld. Defense increased 1,000 times.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 46600099	MaxMP	Buff	True	perc	600000	0	1	Otherworldly Recovery			Recovers $H_W_GOOD0.35%$COLOR_END of maximum HP every $H_W_GOOD1s$COLOR_END.	icon_skills.refreshbless_tex	icon_skills.refreshbless_tex	True
-46600099	HPChange	Buff	True	perc	600000	1	0.0035	Otherworldly Recovery			Recovers $H_W_GOOD0.35%$COLOR_END of maximum HP every $H_W_GOOD1s$COLOR_END.	icon_skills.refreshbless_tex	icon_skills.refreshbless_tex	True
+46600099	HPChange	Buff	True	perc	600000	1	0.0037	Otherworldly Recovery			Recovers $H_W_GOOD0.35%$COLOR_END of maximum HP every $H_W_GOOD1s$COLOR_END.	icon_skills.refreshbless_tex	icon_skills.refreshbless_tex	True
 46600113	HPChange	DOT	False	perc	10000	1	-0.1	Claw Wound			Reduces HP by $H_W_BAD10%$COLOR_END of maximum every $H_W_BAD1s$COLOR_END seconds.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 47300100	HPChange	DOT	False	perc	600000	60	-0.5	Venom Resin			Reduces HP by $H_W_BAD50%$COLOR_END of maximum every $H_W_BAD60s$COLOR_END.$BRVenom Resin cannot be purified or cleansed.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 47300200	HPChange	DOT	False	perc	60000	3	-0.05	Thulsa's Venom			Reduces HP by $H_W_BAD5%$COLOR_END of maximum every $H_W_BAD3s$COLOR_END.$BRThulsa's Venom cannot be purified or cleansed.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
@@ -5565,6 +5633,8 @@
 77771004	Crit	Buff	True	perc	30000	0	2.2	Titanic Fury II (Guardian)			Increases Crit Factor by $H_W_GOOD2.2$COLOR_END times.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
 77771005	Power	Buff	True	abs	30000	0	48	Titanic Wrath III (Guardian)			Increases Power by $H_W_GOOD48$COLOR_END. Increases Attack Speed by $H_W_GOOD9.6$COLOR_END.	icon_skills.rage_tex	icon_skills.rage_tex	True
 77771005	ASpd	Buff	True	abs	30000	0	9.6	Titanic Wrath III (Guardian)			Increases Power by $H_W_GOOD48$COLOR_END. Increases Attack Speed by $H_W_GOOD9.6$COLOR_END.	icon_skills.rage_tex	icon_skills.rage_tex	True
+77771101	44	Buff	True	abs	30000	0	0.2	Protection of Wind (Guardian Legion Flight Mission)			Increases Flight Speed and prevents falling damage.	icon_items.scroll_move_speed_level_59_tex	icon_items.scroll_move_speed_level_59_tex	True
+77771101	278	Buff	True	seta	30000	0	0	Protection of Wind (Guardian Legion Flight Mission)			Increases Flight Speed and prevents falling damage.	icon_items.scroll_move_speed_level_59_tex	icon_items.scroll_move_speed_level_59_tex	True
 78100001	MaxMP	Buff	True	perc	90000	0	1	Lakan's Soul Mode			Lakan's Soul	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
 78100001	DelayedEffect	Buff	True	swch	90000	0	78100004	Lakan's Soul Mode			Lakan's Soul	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
 78100002	DelayedEffect	Debuff	True	swch	90000	0	78100005	Lakan Normal Mode			Lakan Normal Mode	icon_status.curse_tex	icon_status.curse_tex	False
@@ -5988,16 +6058,16 @@
 88219118	Endurance	Buff	True	abs	7500	0	13	Spirit of Guardian			Endurance increases by $H_W_GOOD13$COLOR_END. Effect ends when knocked down.	icon_ep.ep_defense_wellup_tex	icon_ep.ep_defense_wellup_tex	True
 88219119	Endurance	Buff	True	abs	7500	0	14	Spirit of Guardian			Endurance increases by $H_W_GOOD14$COLOR_END. Effect ends when knocked down.	icon_ep.ep_defense_wellup_tex	icon_ep.ep_defense_wellup_tex	True
 88219120	Endurance	Buff	True	abs	7500	0	15	Spirit of Guardian			Endurance increases by $H_W_GOOD15$COLOR_END. Effect ends when knocked down.	icon_ep.ep_defense_wellup_tex	icon_ep.ep_defense_wellup_tex	True
-88222101	HPChange	Buff	True	abs	10000	1	300	EP Recovery			Provides HP restoration of $H_W_GOOD300$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222102	HPChange	Buff	True	abs	10000	1	350	EP Recovery			Provides HP restoration of $H_W_GOOD350$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222103	HPChange	Buff	True	abs	10000	1	400	EP Recovery			Provides HP restoration of $H_W_GOOD400$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222104	HPChange	Buff	True	abs	10000	1	450	EP Recovery			Provides HP restoration of $H_W_GOOD450$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222105	HPChange	Buff	True	abs	10000	1	500	EP Recovery			Provides HP restoration of $H_W_GOOD500$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222106	HPChange	Buff	True	abs	10000	1	550	EP Recovery			Provides HP restoration of $H_W_GOOD550$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222107	HPChange	Buff	True	abs	10000	1	600	EP Recovery			Provides HP restoration of $H_W_GOOD600$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222108	HPChange	Buff	True	abs	10000	1	650	EP Recovery			Provides HP restoration of $H_W_GOOD650$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222109	HPChange	Buff	True	abs	10000	1	700	EP Recovery			Provides HP restoration of $H_W_GOOD700$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
-88222110	HPChange	Buff	True	abs	10000	1	750	EP Recovery			Provides HP restoration of $H_W_GOOD750$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222101	HPChange	Buff	True	abs	10000	1	150	EP Recovery			Provides HP restoration of $H_W_GOOD150$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222102	HPChange	Buff	True	abs	10000	1	175	EP Recovery			Provides HP restoration of $H_W_GOOD175$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222103	HPChange	Buff	True	abs	10000	1	200	EP Recovery			Provides HP restoration of $H_W_GOOD200$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222104	HPChange	Buff	True	abs	10000	1	225	EP Recovery			Provides HP restoration of $H_W_GOOD225$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222105	HPChange	Buff	True	abs	10000	1	250	EP Recovery			Provides HP restoration of $H_W_GOOD250$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222106	HPChange	Buff	True	abs	10000	1	275	EP Recovery			Provides HP restoration of $H_W_GOOD275$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222107	HPChange	Buff	True	abs	10000	1	300	EP Recovery			Provides HP restoration of $H_W_GOOD300$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222108	HPChange	Buff	True	abs	10000	1	325	EP Recovery			Provides HP restoration of $H_W_GOOD325$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222109	HPChange	Buff	True	abs	10000	1	350	EP Recovery			Provides HP restoration of $H_W_GOOD350$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
+88222110	HPChange	Buff	True	abs	10000	1	375	EP Recovery			Provides HP restoration of $H_W_GOOD375$COLOR_END per second.Effect ends when Iron Will effect ends.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	False
 88227151	Endurance	Buff	True	abs	5000	0	4	Keen Front			Endurance increases by $H_W_GOOD4$COLOR_END.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	True
 88227152	Endurance	Buff	True	abs	5000	0	5	Keen Front			Endurance increases by $H_W_GOOD5$COLOR_END.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	True
 88227153	Endurance	Buff	True	abs	5000	0	6	Keen Front			Endurance increases by $H_W_GOOD6$COLOR_END.	icon_ep.ep_resources_hp_tex	icon_ep.ep_resources_hp_tex	True
