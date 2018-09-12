@@ -717,10 +717,10 @@
 4841	AtkPotion	Buff	True	perc	1800000	0	1.05	連係のポーション（攻撃・回復）	100999	連係のポーション（攻撃・回復）	攻撃速度が$H_W_GOOD3%$COLOR_END、スキルダメージが$H_W_GOOD5%$COLOR_END上昇し、受けるダメージが$H_W_GOOD5%$COLOR_END減少します。この効果は勇猛のポーションと効果は重複しません。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 4850	Drunk	Buff	True	60013	2000	0	0	潜入状態			周囲が薄暗くなります。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
 4851	Plague	Buff	True	seta	3600000	4	4852	カイアの守護			自身を除くプレイヤーの攻撃速度が$H_W_GOOD100％$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90％$COLOR_END短縮されます。有効範囲は周囲約20mです。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-4852	Power	Buff	True	perc	30000	0	150	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90%$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-4852	Endurance	Buff	True	perc	30000	0	150	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90%$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-4852	ASpd	Buff	True	perc	30000	0	2	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90%$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
-4852	CDR	Buff	True	swch	30000	0	0.1	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90%$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+4852	Power	Buff	True	perc	30000	0	150	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90％$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+4852	Endurance	Buff	True	perc	30000	0	150	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90％$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+4852	ASpd	Buff	True	perc	30000	0	2	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90％$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+4852	CDR	Buff	True	swch	30000	0	0.1	カイアの守護			攻撃速度が$H_W_GOOD100%$COLOR_END、力と耐久力が$H_W_GOOD100倍$COLOR_END上昇します。また、クールタイムが$H_W_GOOD90％$COLOR_END短縮されます。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
 4860	Aggro	Buff	True	perc	0	0	1.2	ウォーリアーの神髄			ウォーリアーのダメージが$H_W_GOOD40%$COLOR_END減少し、敵対値が$H_W_GOOD20%$COLOR_END上昇します。また、ダウン/硬直状態になりません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 4860	DefPotion	Buff	True	perc	0	0	0.6	ウォーリアーの神髄			ウォーリアーのダメージが$H_W_GOOD40%$COLOR_END減少し、敵対値が$H_W_GOOD20%$COLOR_END上昇します。また、ダウン/硬直状態になりません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 4860	Immune	Buff	True	16	0	0	0	ウォーリアーの神髄			ウォーリアーのダメージが$H_W_GOOD40%$COLOR_END減少し、敵対値が$H_W_GOOD20%$COLOR_END上昇します。また、ダウン/硬直状態になりません。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
@@ -786,10 +786,10 @@
 6018	CritPower1	Buff	True	abs	6000	0	2	真竜の胎動			モンスター攻撃時クリティカル威力が$H_W_GOOD2$COLOR_END倍増加します。	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
 6019	HPChange	Buff	False	abs	200	1	-320000	邪竜の憎悪			HPが320,000減少します。			False
 6020	HPChange	Buff	False	abs	200	1	-400000	邪竜の怨念			HPが400,000減少します。			False
-6021	DelayedEffect	Buff	True	seta	1700	0	6023	邪竜の憎悪			邪竜が放った憎悪が敵を苛み、クリティカル発生時、320,000の固定ダメージを与えるデバフを敵に付与します。一度デバフを付与すると、次にデバフを付与できるまで1分間のクールタイムが必要になります。	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	False
-6022	DelayedEffect	Buff	True	seta	1700	0	6024	邪竜の怨念			邪竜が放った怨念が敵を蝕み、クリティカル発生時、400,000の固定ダメージを与えるデバフを敵に付与します。一度デバフを付与すると、次にデバフを付与できるまで1分間のクールタイムが必要になります。	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	False
-6023	Endurance	Buff	True	perc	1800000	0	1	邪竜の憎悪			邪竜が放った憎悪が敵を苛み、クリティカル発生時、320,000の固定ダメージを与えるデバフを敵に付与します。一度デバフを付与すると、次にデバフを付与できるまで1分間のクールタイムが必要になります。	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	True
-6024	Endurance	Buff	True	perc	1800000	0	1	邪竜の怨念			邪竜が放った怨念が敵を蝕み、クリティカル発生時、400,000の固定ダメージを与えるデバフを敵に付与します。一度デバフを付与すると、次にデバフを付与できるまで1分間のクールタイムが必要になります。	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	True
+6021	DelayedEffect	Buff	True	seta	1700	0	6023	邪竜の憎悪			邪竜が放った憎悪が敵を苛み、クリティカル発生時、320,000の固定ダメージを敵に与えます。一度ダメージを与えると、次の追加ダメージを与えるまで1分間のクールタイムが発生します。	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	False
+6022	DelayedEffect	Buff	True	seta	1700	0	6024	邪竜の怨念			邪竜が放った怨念が敵を蝕み、クリティカル発生時、400,000の固定ダメージを敵に与えます。一度ダメージを与えると、次の追加ダメージを与えるまで1分間のクールタイムが発生します。	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	False
+6023	Endurance	Buff	True	perc	1800000	0	1	邪竜の憎悪			邪竜が放った憎悪が敵を苛み、クリティカル発生時、320,000の固定ダメージを敵に与えます。一度ダメージを与えると、次の追加ダメージを与えるまで1分間のクールタイムが発生します。	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	True
+6024	Endurance	Buff	True	perc	1800000	0	1	邪竜の怨念			邪竜が放った怨念が敵を蝕み、クリティカル発生時、400,000の固定ダメージを敵に与えます。一度ダメージを与えると、次の追加ダメージを与えるまで1分間のクールタイムが発生します。	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	True
 10100	HPChange	DOT	False	abs	5000	1	-11	猛毒 I［クリスタル］			$H_W_BAD1s$COLOR_END毎にHPが$H_W_BAD-11$COLOR_END減少します。	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	猛毒 II［クリスタル］			$H_W_BAD1s$COLOR_END毎にHPが$H_W_BAD-23$COLOR_END減少します。	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	猛毒 III［クリスタル］			$H_W_BAD1s$COLOR_END毎にHPが$H_W_BAD-58$COLOR_END減少します。	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -1363,6 +1363,7 @@
 60029	MPChange	Buff	True	perc	10000	1	0.05	精神集中 II			$H_W_GOOD1s$COLOR_END毎に全MPの$H_W_GOOD5％$COLOR_ENDが回復します。	icon_skills.neutralizepoison_tex	icon_skills.neutralizepoison_tex	True
 60030	MPChange	Buff	True	perc	10000	1	0.03	精神集中 I			$H_W_GOOD1s$COLOR_END毎に全MPの$H_W_GOOD3％$COLOR_ENDが回復します。	icon_skills.neutralizepoison_tex	icon_skills.neutralizepoison_tex	True
 60031	MPChange	Buff	True	perc	10000	1	0.07	精神集中 III			$H_W_GOOD1s$COLOR_END毎に全MPの$H_W_GOOD7％$COLOR_ENDが回復します。	icon_skills.neutralizepoison_tex	icon_skills.neutralizepoison_tex	True
+60032	MPChange	Buff	True	perc	10000	1	0.09	精神集中 IV			$H_W_GOOD1s$COLOR_END毎に全MPの$H_W_GOOD9％$COLOR_ENDが回復します。	icon_skills.neutralizepoison_tex	icon_skills.neutralizepoison_tex	True
 70201	MaxHP	Buff	True	perc	900000	0	1.05	ポップコーン	71415	ポップコーン	最大HPが$H_W_GOOD5%$COLOR_END増加します。	icon_items.fallfestival_popcorn_tex	icon_items.fallfestival_popcorn_tex	True
 70202	HPChange	Buff	True	perc	900000	5	0.01	ポテトサラダ	71416	ポテトサラダ	$H_W_GOOD5s$COLOR_END毎に全HPの$H_W_GOOD1％$COLOR_ENDが回復します。	icon_items.fallfestival_potatosalad_tex	icon_items.fallfestival_potatosalad_tex	True
 70203	MPChange	Buff	True	perc	900000	5	0.01	ピグリンソテー	71417	ピグリンソテー	$H_W_GOOD5s$COLOR_END毎に$H_W_GOOD$1％$COLOR_ENDずつMPが持続回復します。	icon_items.q_roastmeat_tex	icon_items.q_roastmeat_tex	True
@@ -1403,6 +1404,12 @@
 70245	MaxHP	Buff	True	perc	900000	0	1.05	高級リカノールファイヤーサラダ			最大HPが$H_W_GOOD5％$COLOR_END、最大MPが$H_W_GOOD10％$COLOR_END増加し、$H_W_GOOD5$COLOR_END毎に全MPの$H_W_GOOD1％$COLOR_ENDが回復します。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
 70245	MaxMP	Buff	True	perc	900000	0	1.05	高級リカノールファイヤーサラダ			最大HPが$H_W_GOOD5％$COLOR_END、最大MPが$H_W_GOOD10％$COLOR_END増加し、$H_W_GOOD5$COLOR_END毎に全MPの$H_W_GOOD1％$COLOR_ENDが回復します。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
 70245	MPChange	Buff	True	perc	900000	5	0.01	高級リカノールファイヤーサラダ			最大HPが$H_W_GOOD5％$COLOR_END、最大MPが$H_W_GOOD10％$COLOR_END増加し、$H_W_GOOD5$COLOR_END毎に全MPの$H_W_GOOD1％$COLOR_ENDが回復します。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
+70247	MaxHP	Buff	True	perc	3600000	0	1.03	ブラッドソルトプラム			1時間、最大HPが$H_W_GOOD3％$COLOR_END増加します。	icon_items.essence_nimpie_tex	icon_items.essence_nimpie_tex	True
+70248	Power	Buff	True	perc	3600000	0	1.01	インフェルノグリル			1時間、力が$H_W_GOOD1％$COLOR_END増加します。	icon_items.uglyfood_tex	icon_items.uglyfood_tex	True
+70249	Crit	Buff	True	abs	3600000	0	5	フィアンマジェラート			1時間、クリティカル発生が$H_W_GOOD5$COLOR_END増加します。	icon_items.campfire02_tex	icon_items.campfire02_tex	True
+70250	MaxHP	Buff	True	perc	3600000	0	1.03	オリバンのお弁当			1時間、最大HPが$H_W_GOOD3％$COLOR_END、クリティカル発生が$H_W_GOOD5$COLOR_END、力が$H_W_GOOD1％$COLOR_END増加します。	icon_items.q_present_tex	icon_items.q_present_tex	True
+70250	Power	Buff	True	perc	3600000	0	1.01	オリバンのお弁当			1時間、最大HPが$H_W_GOOD3％$COLOR_END、クリティカル発生が$H_W_GOOD5$COLOR_END、力が$H_W_GOOD1％$COLOR_END増加します。	icon_items.q_present_tex	icon_items.q_present_tex	True
+70250	Crit	Buff	True	abs	3600000	0	5	オリバンのお弁当			1時間、最大HPが$H_W_GOOD3％$COLOR_END、クリティカル発生が$H_W_GOOD5$COLOR_END、力が$H_W_GOOD1％$COLOR_END増加します。	icon_items.q_present_tex	icon_items.q_present_tex	True
 70301	MovSpdInCombat	Buff	True	abs	180000	0	2	聖域_精霊の波紋(臨時)			戦闘中の移動速度が$H_W_GOOD2$COLOR_END上昇します。効果は最大3回まで重複します。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 70302	DamageAura	Buff	True	abs	180001	0	20	聖域_集中の気運(臨時)			スキル命中時、ダメージが$H_W_GOOD20$COLOR_END増加します。	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
 70303	Stamina	Buff	True	abs	180002	0	5	聖域_活力の波紋(臨時)			最大コンディションが$H_W_GOOD5$COLOR_END上昇します。効果は最大3回まで重複します。	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	True
@@ -1766,8 +1773,8 @@
 201822	318	Buff	True	abs	1000	0	-500	反撃 I			シールドカウンタークールタイムが0.5秒減少します。(異常状態ツールチップ非表示)	icon_skills.thornshield_tex	icon_skills.thornshield_tex	False
 201830	Endurance	Buff	True	perc	2000	0	1	見えない異常状態				icon_crest.crestpassivemprecoveryup_tex	icon_crest.crestpassivemprecoveryup_tex	False
 201831	Endurance	Buff	True	perc	2000	0	1	見えない異常状態				icon_crest.crestpassivemprecoveryup_tex	icon_crest.crestpassivemprecoveryup_tex	False
-300100	NoMPDecay	Buff	True	seta	20000	0	0	執念			効果持続中、MPの自然減少を防ぎます。	icon_skills.tenacity_tex	icon_skills.shout_tex	True
-300101	NoMPDecay	Buff	True	seta	22000	0	0	執念 III			効果持続中、MPの自然減少を防ぎます。	icon_skills.tenacity_tex	icon_skills.shout_tex	True
+300100	NoMPDecay	Buff	True	seta	20000	0	0	気合 I			効果持続中、MPの自然減少を防ぎます。	icon_skills.shout_tex	icon_skills.shout_tex	True
+300101	NoMPDecay	Buff	True	seta	22000	0	0	気合 II			効果持続中、MPの自然減少を防ぎます。	icon_skills.shout_tex	icon_skills.shout_tex	True
 300200	MovSpd	Stun	False	setp	5000	0	0	回り込み			効果持続中は、その場から動けません。ダウンすると効果は即解除されます。	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex	True
 300200	MovSpdInCombat	Stun	False	setp	5000	0	0	回り込み			効果持続中は、その場から動けません。ダウンすると効果は即解除されます。	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex	True
 300200	HPDrain	Stun	False	perc	5000	0	0.1	回り込み			効果持続中は、その場から動けません。ダウンすると効果は即解除されます。	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex	True
@@ -1828,8 +1835,8 @@
 301603	ForceCrit	Buff	True	seta	8000	0	80000	スラッシュペネトレイト			もう一度「スラッシュペネトレイト」を使用できます。使用時にクールタイムが適用されます。さらに、効果時間中、モンスターに対してのみ、全ての攻撃が後方判定になります。	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
 301603	334	Buff	True	swch	5000	0	270100	スラッシュペネトレイト			もう一度「スラッシュペネトレイト」を使用できます。使用時にクールタイムが適用されます。さらに、効果時間中、モンスターに対してのみ、全ての攻撃が後方判定になります。	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	True
 301604	Power	Buff	True	perc	5000	0	1	見えない異常状態			見えない異常状態	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	False
-301800	Crit	Buff	True	perc	20000	0	1.05	ボルテージ			1重複毎に攻撃速度が5％、クリティカル発生率が5％上昇します。	icon_skills.energyrelease_tex	icon_skills.energyrelease_tex	True
 301800	ASpd	Buff	True	perc	20000	0	1.05	ボルテージ			1重複毎に攻撃速度が5％、クリティカル発生率が5％上昇します。	icon_skills.energyrelease_tex	icon_skills.energyrelease_tex	True
+301800	CritChance	Buff	True	perc	20000	0	1.05	ボルテージ			1重複毎に攻撃速度が5％、クリティカル発生率が5％上昇します。	icon_skills.energyrelease_tex	icon_skills.energyrelease_tex	True
 301801	ASpd	Buff	True	swch	100	0	1.05	ボルテージ解除			1重複毎に攻撃速度が5％、クリティカル発生率が5％上昇します。	icon_skills.energyrelease_tex	icon_skills.energyrelease_tex	False
 301802	ForceCrit	Buff	True	seta	8000	0	80000	スラッシュペネトレイト			効果時間中、モンスター攻撃時、常に後方から殴る効果が適用されます。	icon_skills.weak_point_observed	icon_skills.weak_point_observed	False
 301804	333	Buff	True	perc	0	0	1	ディバイド				icon_skills.drawsword_tex	icon_skills.gatheringstrength_tex	False
@@ -1858,8 +1865,8 @@
 400301	MovSpd	Buff	True	perc	15000	0	1.5	疾駆			移動速度が$H_W_GOOD50%$COLOR_END上昇します。	icon_skills.dash_tex	icon_skills.dash_tex	True
 400302	MovSpd	Buff	True	perc	15000	0	1.5	疾駆 III			移動速度が$H_W_GOOD50%$COLOR_END上昇します。	icon_skills.dash_tex	icon_skills.dash_tex	True
 400303	MovSpd	Buff	True	perc	5000	0	2.2	疾駆_憤激 III			移動速度が$H_W_GOOD120%$COLOR_END上昇します。	icon_skills.dash_tex	icon_skills.dash_tex	True
-400400	NoMPDecay	Buff	True	seta	20000	0	0	気迫			効果持続中、MPの自然減少を防ぎます。	icon_skills.tenacity_tex	icon_skills.shout_tex	True
-400401	NoMPDecay	Buff	True	seta	22000	0	0	気迫 III			効果持続中、MPの自然減少を防ぎます。	icon_skills.tenacity_tex	icon_skills.shout_tex	True
+400400	NoMPDecay	Buff	True	seta	20000	0	0	気合 I			効果持続中、MPの自然減少を防ぎます。	icon_skills.shout_tex	icon_skills.shout_tex	True
+400401	NoMPDecay	Buff	True	seta	22000	0	0	気合 II			効果持続中、MPの自然減少を防ぎます。	icon_skills.shout_tex	icon_skills.shout_tex	True
 400500	ASpd	Buff	True	perc	18000	0	1.2	マーチャントゴッド(助力の紋章)			攻撃速度とチャージ速度が$H_W_GOOD20%$COLOR_END上昇します。	icon_skills.vitalconversion_tex	icon_skills.gatheringrage_tex	True
 400500	29	Buff	True	perc	18000	0	1.2	マーチャントゴッド(助力の紋章)			攻撃速度とチャージ速度が$H_W_GOOD20%$COLOR_END上昇します。	icon_skills.vitalconversion_tex	icon_skills.gatheringrage_tex	True
 400501	ASpd	Buff	True	perc	18000	0	1.4	フリューリーブロー II			攻撃速度とチャージ速度が$H_W_GOOD40%$COLOR_END上昇します。	icon_skills.gatheringrage_tex	icon_skills.gatheringrage_tex	True
@@ -2122,7 +2129,7 @@
 460031	HPChange	Debuff	True	abs	3000	1	-10000	火炎地帯！			火炎地帯の中にいます！HPと移動速度が減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 460032	67	Buff	True	seta	50000	0	460031	魔法の火薬			魔法の火薬が全身に付着しています。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 468002	220	Buff	True	swch	1	0	0	デュリオンテレポート			空間のどこかに消えている。	icon_status.calldimension_tex	icon_status.calldimension_tex	False
-468004	HPChange	Debuff	True	abs	1000	0	-35000	宝玉の呪い			黒魔法の玉に飲み込まれました。HPが減少します。	icon_skills.darkexplosion_tex	icon_skills.darkexplosion_tex	True
+468004	HPChange	Debuff	True	abs	1000	0	-70000	宝玉の呪い			黒魔法の玉に飲み込まれました。HPが減少します。	icon_skills.darkexplosion_tex	icon_skills.darkexplosion_tex	True
 468005	MovSpdInCombat	Buff	True	perc	20000	0	1	闇の結界			デュリオンが変形した黒魔石から力を吸収しています。急いでデュリオンを阻止してください。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
 468006	Stun	Debuff	True	swch	1000	0	5	黒魔法の束縛			デュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 468008	Stun	Debuff	True	swch	30000	0	5	暗黒覇気			完全体デュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
@@ -2148,7 +2155,7 @@
 468019	MovSpd	Debuff	True	perc	10000	0	1	黒魔力集中			完全体デュリオンの黒魔法が周囲に集中しています。何か不吉な予感がします。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 468019	295	Debuff	True	swch	10000	0	0	黒魔力集中			完全体デュリオンの黒魔法が周囲に集中しています。何か不吉な予感がします。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 468020	DelayedEffect	Buff	True	swch	10000	0	468022	変形した魔力の結晶			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収しています。この時とても不安定なので、保護膜で自分を保護しています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-468020	Absorb	Buff	True	abs	10000	0	14500000	変形した魔力の結晶			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収しています。この時とても不安定なので、保護膜で自分を保護しています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+468020	Absorb	Buff	True	abs	10000	0	43000000	変形した魔力の結晶			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収しています。この時とても不安定なので、保護膜で自分を保護しています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 468021	MovSpd	Debuff	True	perc	6000	0	1	魔力浸透			体に何かが満ちています。何かとんでもないことが起こりそうです。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 468022	MovSpd	Buff	True	perc	0	0	1	魔力チャージ			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収し、エネルギーを確保しました。残酷な結果が待っています。	icon_status.cruel_slayer_2_tex	icon_status.cruel_slayer_2_tex	True
 468028	DelayedEffect	Stun	True	swch	19500	0	468032	絶望			絶望に満ちていた時間を思い出しました…酷いです。	icon_status.cruel_slayer_1_tex	icon_status.cruel_slayer_1_tex	True
@@ -2170,7 +2177,7 @@
 468041	HPChange	Stun	False	perc	10000	2	-0.01	不安定な魔力			デュリオンの魔力により、HPが持続的に減少します。	icon_status.minushp_tex	icon_status.minushp_tex	True
 468042	MovSpd	Buff	True	perc	30000	0	0.26	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 468042	MovSpdInCombat	Buff	True	perc	30000	0	0.26	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
-468042	Absorb	Buff	True	abs	30000	0	18500000	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+468042	Absorb	Buff	True	abs	30000	0	45000000	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 468043	Endurance	Buff	False	perc	0	0	5	黒魔法			デュリオンが邪悪な黒魔法を使い防御力が上昇しています。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 468044	HPChange	Stun	True	perc	160000	1	-0.05	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 468044	StackCounter	Stun	True	swch	160000	0	98000020	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
@@ -2847,18 +2854,18 @@
 701828	HPChange	DOT	False	abs	5000	1	-1953	デッドインフェクション IX			持続ダメージ$H_W_BAD-1953$COLOR_ENDを受け、HP回復量が$H_W_BAD10%$COLOR_END減少します。 	icon_skills.plague_tex	icon_skills.plague_tex	True
 701828	IncreasedHeal	DOT	False	perc	5000	0	0.9	デッドインフェクション IX			持続ダメージ$H_W_BAD-1953$COLOR_ENDを受け、HP回復量が$H_W_BAD10%$COLOR_END減少します。 	icon_skills.plague_tex	icon_skills.plague_tex	True
 701900	Immune	Buff	True	25	1000	0	0	アカンパニー			見えちゃだめ	icon_skills.masstel_tex	icon_skills.voidtrap_tex	False
-702000	MovSpdInCombat	Buff	True	abs	0	0	10	フォースエレメント			精霊と心を通わせている状態。移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
-702000	MPChange	Buff	True	abs	0	2	-200	フォースエレメント			精霊と心を通わせている状態。移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
-702000	330	Buff	True	swch	1000	0	0	フォースエレメント			精霊と心を通わせている状態。移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
+702000	MovSpdInCombat	Buff	True	abs	0	0	10	フォースエレメント			精霊と心を通わせている状態。戦闘状態の移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
+702000	MPChange	Buff	True	abs	0	2	-200	フォースエレメント			精霊と心を通わせている状態。戦闘状態の移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
+702000	330	Buff	True	swch	1000	0	0	フォースエレメント			精霊と心を通わせている状態。戦闘状態の移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	True
 702001	KnockDownChance	Buff	True	perc	12000	0	0	プロテクションエレメント II			プロテクションエレメントの加護により、最大30000のダメージを<font color = '#66bbff'>無効化</font>します。効果時間中、ダウン/硬直状態になりません。無効化できるダメージ量を超えると、持続時間に関わらず加護が解除されます。	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702001	Absorb	Buff	True	swch	12000	0	30000	プロテクションエレメント II			プロテクションエレメントの加護により、最大30000のダメージを<font color = '#66bbff'>無効化</font>します。効果時間中、ダウン/硬直状態になりません。無効化できるダメージ量を超えると、持続時間に関わらず加護が解除されます。	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702001	StatusImmune	Buff	True	swch	12000	0	0	プロテクションエレメント II			プロテクションエレメントの加護により、最大30000のダメージを<font color = '#66bbff'>無効化</font>します。効果時間中、ダウン/硬直状態になりません。無効化できるダメージ量を超えると、持続時間に関わらず加護が解除されます。	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
-702002	MovSpdInCombat	Buff	True	abs	5000	0	10	ライフエレメント II			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
-702002	HPChange	Buff	True	perc	5000	1	0.015	ライフエレメント II			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
-702002	MPChange	Buff	True	perc	5000	1	0.1	ライフエレメント II			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	MovSpdInCombat	Buff	True	abs	5000	0	10	ライフエレメント XIII			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	HPChange	Buff	True	perc	5000	1	0.015	ライフエレメント XIII			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	MPChange	Buff	True	perc	5000	1	0.1	ライフエレメント XIII			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
 702003	Power	Buff	True	abs	12000	0	15	サンダーエレメント II			サンダーエレメントの加護により、力が15増加します。ダウン時、解除されます。	icon_skills.summonspiritofrange_tex	icon_skills.summonspiritofrange2_tex	True
 702004	CritPower1	Buff	True	abs	20000	0	0.6	デストラクションエレメント II			デストラクションエレメントの加護により、クリティカル威力が0.6増加します。ダウン時、解除されます。	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack2_tex	True
-702005	330	Buff	True	swch	1000	0	0	フォースエレメント			精霊と心を通わせている状態。移動速度が10増加し、2秒毎にMPを200消費します。精霊召喚スキル使用時、精霊ごとに異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	False
+702005	330	Buff	True	swch	1000	0	0	フォースエレメント			精霊と心を通わせている状態。戦闘状態の移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	False
 702012	MovSpd	Buff	True	abs	2000	0	0	回復の流れ			効果時間中、リカバリーバレット、ミスティックボールを受けると、追加でHP15,000が<font color = '#66bbff'>回復</font>します。	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
 702120	DelayedEffect	Buff	True	abs	5000	0	425001	精霊：プロテクションエレメント			見えてはいけない	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro_tex	False
 702120	Immune	Buff	True	9	5000	0	0	精霊：プロテクションエレメント			見えてはいけない	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro_tex	False
@@ -2963,7 +2970,7 @@
 760031	HPChange	Debuff	True	abs	3000	1	-10000	火炎地帯！			火炎地帯の中にいます！HPと移動速度が減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 760032	67	Buff	True	seta	50000	0	760031	魔法の火薬			魔法の火薬が全身に付着しています。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 768002	220	Buff	True	swch	1	0	0	デュリオンテレポート			空間のどこかに消えている。	icon_status.calldimension_tex	icon_status.calldimension_tex	False
-768004	HPChange	Debuff	True	abs	1000	0	-25000	宝玉の呪い			黒魔法の玉に飲み込まれました。HPが減少します。	icon_skills.darkexplosion_tex	icon_skills.darkexplosion_tex	True
+768004	HPChange	Debuff	True	abs	1000	0	-40000	宝玉の呪い			黒魔法の玉に飲み込まれました。HPが減少します。	icon_skills.darkexplosion_tex	icon_skills.darkexplosion_tex	True
 768005	MovSpdInCombat	Buff	True	perc	20000	0	1	闇の結界			デュリオンが変形した黒魔石から力を吸収しています。急いでデュリオンを阻止してください！	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
 768006	Stun	Debuff	True	swch	1000	0	5	黒魔法の束縛			デュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 768008	Stun	Debuff	True	swch	30000	0	5	暗黒覇気			完全体デュリオンの黒魔法により身動きが取れません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
@@ -2989,7 +2996,7 @@
 768019	MovSpd	Debuff	True	perc	10000	0	1	黒魔力集中			完全体デュリオンの黒魔法が周囲に集中しています。何か不吉な予感がします。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 768019	295	Debuff	True	swch	10000	0	0	黒魔力集中			完全体デュリオンの黒魔法が周囲に集中しています。何か不吉な予感がします。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 768020	DelayedEffect	Buff	True	swch	10000	0	768022	魔力吸収			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収しています。この時とても不安定なので、保護膜で自分を保護しています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-768020	Absorb	Buff	True	abs	10000	0	10000000	魔力吸収			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収しています。この時とても不安定なので、保護膜で自分を保護しています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+768020	Absorb	Buff	True	abs	10000	0	26000000	魔力吸収			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収しています。この時とても不安定なので、保護膜で自分を保護しています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 768021	MovSpd	Debuff	True	perc	6000	0	1	魔力浸透			体に何かが満ちています。何かとんでもないことが起こりそうです。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 768022	MovSpd	Buff	True	perc	0	0	1	魔力チャージ			暗黒守護ゴーレムが変形した黒魔石から魔力を吸収し、エネルギーを確保しました。残酷な結果が待っています。	icon_status.cruel_slayer_2_tex	icon_status.cruel_slayer_2_tex	True
 768028	DelayedEffect	Stun	True	swch	19500	0	768032	絶望			絶望に満ちていた時間を思い出しました…酷いです。	icon_status.cruel_slayer_1_tex	icon_status.cruel_slayer_1_tex	True
@@ -3011,7 +3018,7 @@
 768041	HPChange	Stun	False	perc	10000	2	-0.01	不安定な魔力			デュリオンの魔力により、HPが持続的に減少します。	icon_status.minushp_tex	icon_status.minushp_tex	True
 768042	MovSpd	Buff	True	perc	30000	0	0.26	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 768042	MovSpdInCombat	Buff	True	perc	30000	0	0.26	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
-768042	Absorb	Buff	True	abs	30000	0	12000000	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+768042	Absorb	Buff	True	abs	30000	0	19000000	黒魔力シールド			完全体デュリオンが邪悪な黒魔力で防御しています。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 768043	Endurance	Buff	False	perc	0	0	5	黒魔法			デュリオンが邪悪な黒魔法を使い防御力が上昇しています。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 768044	HPChange	Stun	True	perc	160000	1	-0.05	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 768044	StackCounter	Stun	True	swch	160000	0	98000020	ラカンの呪い			ラカンの呪いにかかりました。HPが持続的に減少し、3回以上呪いにかかると即死します。全てのパーティーメンバーに呪いが掛けられた場合、ラカンの権能が発動します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
@@ -3169,7 +3176,7 @@
 800106	HPChange	Buff	True	abs	10000	2	291	リプロダクションウィンド VII			吹き寄せる風に温もりを感じます。$H_W_GOOD2s$COLOR_END毎にHPが回復します。	icon_skills.healingwind_tex	icon_skills.healingwind_tex	True
 800107	HPChange	Buff	True	abs	10000	2	300	リプロダクションウィンド VIII			吹き寄せる風に温もりを感じます。$H_W_GOOD2s$COLOR_END毎にHPが回復します。	icon_skills.healingwind_tex	icon_skills.healingwind_tex	True
 800108	HPChange	Buff	True	abs	10000	2	308	リプロダクションウィンド IX			吹き寄せる風に温もりを感じます。$H_W_GOOD2s$COLOR_END毎にHPが回復します。	icon_skills.healingwind_tex	icon_skills.healingwind_tex	True
-800200	MPChange	Buff	True	abs	20000	1	100	魔力回復 I			$H_W_GOOD1s$COLOR_END毎にMPが$H_W_GOOD100$COLOR_END回復します。攻撃を受けたり、戦闘用スキルまたは戦闘用アイテムを使用すると、効果は即解除されます。	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex	True
+800200	MPChange	Buff	True	abs	10000	1	500	魔力回復 I			$H_W_GOOD1s$COLOR_END毎にMPが$H_W_GOOD500$COLOR_ENDずつ回復します。	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex	True
 800300	KnockDownChance	Buff	True	perc	12000	0	0	プロテクションアーマー I			最大$H_W_GOOD5111$COLOR_ENDのダメージを無効化します。効果持続中、ダウン/硬直状態になりません。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
 800300	Absorb	Buff	True	swch	12000	0	5111	プロテクションアーマー I			最大$H_W_GOOD5111$COLOR_ENDのダメージを無効化します。効果持続中、ダウン/硬直状態になりません。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
 800300	StatusImmune	Buff	True	swch	12000	0	0	プロテクションアーマー I			最大$H_W_GOOD5111$COLOR_ENDのダメージを無効化します。効果持続中、ダウン/硬直状態になりません。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
@@ -4616,7 +4623,7 @@
 10151010	DelayedEffect	Buff	True	swch	15000	0	10151013	闇神降臨 I			ソウルリーパーが闇の加護を受けます。この効果の適用中は、飛鎌を使用するスキル［デスクリーブ］、［ムーンスラッシュ］、［バックスラッシュ］、［スピニングエッジ］、［メテオストライク］、［デッドリーリープ］、［サタンフレイル］、［スマッシュ］のクールタイムが70％短縮します。	icon_skills.descentofdarkness_tex	icon_status.descentofdarkness_tex	True
 10151010	ReloadingSkill	Buff	True	swch	1000	0	170	闇神降臨 I			ソウルリーパーが闇の加護を受けます。この効果の適用中は、飛鎌を使用するスキル［デスクリーブ］、［ムーンスラッシュ］、［バックスラッシュ］、［スピニングエッジ］、［メテオストライク］、［デッドリーリープ］、［サタンフレイル］、［スマッシュ］のクールタイムが70％短縮します。	icon_skills.descentofdarkness_tex	icon_status.descentofdarkness_tex	True
 10151011	ReloadingSkill	Buff	True	swch	1000	0	170	闇神降臨			「デスクリーブ」、「ムーンスラッシュ」、「バックスラッシュ」、「スピニングエッジ」、「メテオストライク」、「デッドリーリープ」、「サタンフレイル」、「スマッシュ」が初期化されます。	icon_status.descentofdarkness_tex	icon_status.descentofdarkness_tex	False
-10151012	ASpd	Buff	True	perc	0	0	1.05	闇神降臨強化			モンスターを攻撃すると攻撃速度が5％ずつ上昇します。この効果は5回まで重複します。	icon_skills.descentofdarkness_tex	icon_skills.descentofdarkness_tex	True
+10151012	ASpd	Buff	True	perc	0	0	1.04	闇神降臨強化			モンスターを攻撃すると攻撃速度が4％上昇します。この効果は5回まで重複します。	icon_skills.descentofdarkness_tex	icon_skills.descentofdarkness_tex	True
 10151013	Endurance	Buff	True	perc	500	0	1	闇神降臨			ソウルリーパーが闇の加護を受けます。この効果の適用中は、飛鎌を使用するスキル［デスクリーブ］、［ムーンスラッシュ］、［バックスラッシュ］、［スピニングエッジ］、［メテオストライク］、［デッドリーリープ］、［サタンフレイル］、［スマッシュ］のクールタイムが70％短縮します。	icon_status.descentofdarkness_tex	icon_status.descentofdarkness_tex	False
 10151020	Drunk1	Buff	True	seta	2000	0	0	連撃			見えないバフ。見えたらバグ申請をしてください！	icon_skills.comboattack2_tex	icon_skills.comboattack2_tex	False
 10151021	Drunk1	Buff	True	seta	2000	0	0	連撃			見えないバフ。見えたらバグ申請をしてください！	icon_skills.comboattack2_tex	icon_skills.comboattack2_tex	False
@@ -4797,11 +4804,10 @@
 10154021	Stun	Stun	False	swch	3000	0	5	水月衝			鳩尾に打撃を受け、失神しています。	icon_skills.c12_evadestingshot	icon_skills.c12_evadestingshot	True
 10154030	MPChange	Buff	True	abs	0	1	-20	極功術			集中力が高まっています。攻撃力が上昇します。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154030	AtkPotion	Buff	True	swch	0	0	1.05	極功術			集中力が高まっています。攻撃力が上昇します。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
-10154030	BuffNearbyParty	Buff	True	seta	0	5	10154032	極功術			集中力が高まっています。攻撃力が上昇します。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
+10154030	BuffNearbyParty	Buff	True	seta	0	1	10154031	極功術			集中力が高まっています。攻撃力が上昇します。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154032	AtkPotion	Buff	True	swch	60000	0	1.01	強力な極功術			強力な極功術により、攻撃力が更に増加します。	icon_skills.c12_atkupbuff	icon_skills.c12_atkupbuff	True
 10154040	33	Buff	True	seta	30000	0	0	行気			チャクラが減少しません。	icon_skills.c12_chakracohesion	icon_skills.c12_chakracohesion	True
 10154050	Immune	Buff	True	9	1200	0	0	朧月 I			煙幕により、敵の攻撃を回避しています。	icon_skills.c12_smokebomb	icon_skills.c12_smokebombevade	True
-10154051	DelayedEffect	Buff	True	swch	1000	0	10154052	朧月 I				icon_skills.c12_smokebomb	icon_skills.c12_smokebomb	False
 10154052	Endurance	Buff	True	perc	1	0	1	朧月 I			時間内に爆弾を処理しなければ死亡してしまいます。この状態では乗り物に搭乗できません。	icon_skills.c12_smokebomb	icon_skills.explosiontrap_tex	False
 10154054	ReloadingSkill	Buff	True	perc	6000	0	92003	レイジングバーストクール回らなかったら回そう			レイジングバースト使ってクール回そう			False
 10154080	Aggro	Buff	True	perc	2000	0	0.38	爆炎風車2打連係			より強力な「爆炎風車」を使用できます。	icon_skills.c12_flamestrike	icon_skills.c12_flamestrike	True
@@ -7206,35 +7212,57 @@
 98000091	HPChange	DOT	False	perc	10000	3	-0.06	出血			ひな鳥の強烈な攻撃により、出血が発生します。移動速度が$H_W_BAD50%$COLOR_END減少し、$H_W_BAD3$COLOR_END毎に全HPの$H_W_BAD6％$COLOR_ENDが減少します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 98000092	HPChange	Buff	True	perc	12000	3	0.0033	雛の祝福			$H_W_GOOD3s$COLOR_END毎に全HPの$H_W_GOOD0.33％$COLOR_ENDが回復します。効果は最大3回まで重複します。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex	True
 98000095	HPChange	Buff	True	abs	1000	1	50000	司祭の手			HPが30000回復します。	icon_items.potion5_tex	icon_items.potion5_tex	True
-98000100	Power	Buff	True	abs	10000000	0	25	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - ブレシングアルン III、ブレシングシャラ V、シークレッドサンダーが適用されます。力25、耐久力11、体力持続回復、全ての状態異常抵抗5、力40、攻撃速度8が適用されます。	icon_skills.attackup_tex	icon_skills.attackup_tex	True
-98000100	Endurance	Buff	True	abs	10000000	0	11	司祭バフポーション	96000	테스트용 물약_사제 버프	プリーストの加護 - ブレシングアルン III、ブレシングシャラ V、シークレッドサンダーが適用されます。力25、耐久力11、体力持続回復、全ての状態異常抵抗5、力40、攻撃速度8が適用されます。	icon_skills.attackup_tex	icon_skills.attackup_tex	True
-98000101	Power	Buff	True	abs	0	0	48	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストの加護 - レイジオーラ II、インサニティーエレメンタル III、フォグオーラ IV、プロテクションエレメント紋章耐久力増加が適用されます。クリティカル発生2.2倍、力40、攻撃速度6、クリティカル抵抗40%、耐久力10%が適用されます。インサニティーエレメンタルはプリーストのバフの中、シークレッドサンダーに下位重複されます。	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-98000101	Endurance	Buff	True	perc	10000000	0	1.1	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストの加護 - レイジオーラ II、インサニティーエレメンタル III、フォグオーラ IV、プロテクションエレメント紋章耐久力増加が適用されます。クリティカル発生2.2倍、力40、攻撃速度6、クリティカル抵抗40%、耐久力10%が適用されます。インサニティーエレメンタルはプリーストのバフの中、シークレッドサンダーに下位重複されます。	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-98000101	Crit	Buff	True	perc	10000000	0	2.2	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストの加護 - レイジオーラ II、インサニティーエレメンタル III、フォグオーラ IV、プロテクションエレメント紋章耐久力増加が適用されます。クリティカル発生2.2倍、力40、攻撃速度6、クリティカル抵抗40%、耐久力10%が適用されます。インサニティーエレメンタルはプリーストのバフの中、シークレッドサンダーに下位重複されます。	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-98000101	CritResist	Buff	True	perc	0	0	1.4	精霊士バフポーション	96001	테스트용 물약_정령사 버프	エレメンタリストの加護 - レイジオーラ II、インサニティーエレメンタル III、フォグオーラ IV、プロテクションエレメント紋章耐久力増加が適用されます。クリティカル発生2.2倍、力40、攻撃速度6、クリティカル抵抗40%、耐久力10%が適用されます。インサニティーエレメンタルはプリーストのバフの中、シークレッドサンダーに下位重複されます。	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
-98000102	MaxHP	Buff	True	perc	10000000	0	1.05	デイリープレイガイドバフポーション			力が6、最大HPが5％、非戦闘状態の移動速度が20上昇します。			True
-98000102	Power	Buff	True	abs	10000000	0	6	デイリープレイガイドバフポーション			力が6、最大HPが5％、非戦闘状態の移動速度が20上昇します。			True
-98000102	OutOfCombatMovSpd	Buff	True	abs	10000000	0	20	デイリープレイガイドバフポーション			力が6、最大HPが5％、非戦闘状態の移動速度が20上昇します。			True
-98000103	Aggro	Buff	True	perc	0	0	1.2	守護の連係 III			全攻撃スキルによる敵対値が$H_W_GOOD20%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇します。受けるダメージが$H_W_GOOD10%$COLOR_END減少し、ダウン/硬直発生率も$H_W_GOOD30%$COLOR_END減少します。			True
-98000103	ASpd	Buff	True	perc	0	0	1.04	守護の連係 III			全攻撃スキルによる敵対値が$H_W_GOOD20%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇します。受けるダメージが$H_W_GOOD10%$COLOR_END減少し、ダウン/硬直発生率も$H_W_GOOD30%$COLOR_END減少します。			True
-98000103	KnockDownChance	Buff	True	perc	0	0	0.7	守護の連係 III			全攻撃スキルによる敵対値が$H_W_GOOD20%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇します。受けるダメージが$H_W_GOOD10%$COLOR_END減少し、ダウン/硬直発生率も$H_W_GOOD30%$COLOR_END減少します。			True
-98000103	DefPotion	Buff	True	perc	0	0	0.9	守護の連係 III			全攻撃スキルによる敵対値が$H_W_GOOD20%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇します。受けるダメージが$H_W_GOOD10%$COLOR_END減少し、ダウン/硬直発生率も$H_W_GOOD30%$COLOR_END減少します。			True
-98000104	ASpd	Buff	True	perc	0	0	1.04	攻撃の連係 III			スキルダメージが$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇し、受けるダメージが$H_W_GOOD10%$COLOR_END減少します。			True
-98000104	DefPotion	Buff	True	perc	0	0	0.9	攻撃の連係 III			スキルダメージが$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇し、受けるダメージが$H_W_GOOD10%$COLOR_END減少します。			True
-98000104	AtkPotion	Buff	True	perc	0	0	1.1	攻撃の連係 III			スキルダメージが$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇し、受けるダメージが$H_W_GOOD10%$COLOR_END減少します。			True
-98000105	ASpd	Buff	True	perc	0	0	1.04	回復の連係 III			スキルダメージが$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇し、受けるダメージが$H_W_GOOD10%$COLOR_END減少します。			True
-98000105	DefPotion	Buff	True	perc	0	0	0.9	回復の連係 III			スキルダメージが$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇し、受けるダメージが$H_W_GOOD10%$COLOR_END減少します。			True
-98000105	AtkPotion	Buff	True	perc	0	0	1.1	回復の連係 III			スキルダメージが$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END上昇し、受けるダメージが$H_W_GOOD10%$COLOR_END減少します。			True
-98000106	Endurance	Debuff	False	perc	10000000	0	0.9	耐久力減少［弱化の紋章］			耐久力が$H_W_BAD10%$COLOR_END減少します。	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
-98000106	CritResist	Debuff	False	abs	10000000	0	-12	耐久力減少［弱化の紋章］			耐久力が$H_W_BAD10%$COLOR_END減少します。	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
-98000107	Power	Buff	True	abs	10000000	0	48	シークレッドサンダー VI			力が$H_W_GOOD48$COLOR_END、攻撃速度が$H_W_GOOD9.6$COLOR_END上昇します。	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex	True
-98000107	ASpd	Buff	True	abs	10000000	0	9.6	シークレッドサンダー VI			力が$H_W_GOOD48$COLOR_END、攻撃速度が$H_W_GOOD9.6$COLOR_END上昇します。	icon_skills.divinelightning_tex	icon_skills.divinelightning_tex	True
-98000108	Endurance	Buff	True	perc	10000000	0	1.1	耐久力上昇［協同の紋章］			耐久力が$H_W_GOOD10%$COLOR_END上昇します。	icon_crest.crestactivedefenceup_tex	icon_crest.crestactivedefenceup_tex	True
-98000109	Power	Buff	True	abs	2400000	0	25	ブレシングアルン III			アルンの祝福を受け、非戦闘状態での移動速度が$H_W_GOOD10$COLOR_END上昇し、力が $H_W_GOOD25$COLOR_END上昇します。	icon_skills.attackup_tex	icon_skills.attackup_tex	True
-98000109	OutOfCombatMovSpd	Buff	True	abs	10000000	0	10	ブレシングアルン III			アルンの祝福を受け、非戦闘状態での移動速度が$H_W_GOOD10$COLOR_END上昇し、力が $H_W_GOOD25$COLOR_END上昇します。	icon_skills.attackup_tex	icon_skills.attackup_tex	True
-98000110	Endurance	Buff	True	abs	10000000	0	11	ブレシングシャラ V			シャラの祝福を受け、$H_W_GOOD2秒$COLOR_END毎にHPが持続的に回復され、耐久力が11、全ての状態異常抵抗が5上昇します。	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex	True
-98000110	AllResist	Buff	True	abs	10000000	0	5	ブレシングシャラ V			シャラの祝福を受け、$H_W_GOOD2秒$COLOR_END毎にHPが持続的に回復され、耐久力が11、全ての状態異常抵抗が5上昇します。	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex	True
-98000110	HPChange	Buff	True	abs	10000000	2	73	ブレシングシャラ V			シャラの祝福を受け、$H_W_GOOD2秒$COLOR_END毎にHPが持続的に回復され、耐久力が11、全ての状態異常抵抗が5上昇します。	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex	True
+98000100	Power	Buff	True	abs	1800000	0	40	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	Endurance	Buff	True	abs	1800000	0	11	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	AllResist	Buff	True	abs	1800000	0	5	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	ASpd	Buff	True	abs	1800000	0	8	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	HPChange	Buff	True	abs	1800000	2	73	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	CDR	Buff	True	swch	1800000	0	0.95	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000100	BuffNearbyParty	Buff	True	seta	1800000	45	98000109	中級プリーストバフポーション［PvE TEST］	230000	중위 사제 버프[PvE TEST]	中級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/45s適用 	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	Power	Buff	True	abs	1800000	0	40	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	Endurance	Buff	True	abs	1800000	0	11	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	AllResist	Buff	True	abs	1800000	0	5	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	ASpd	Buff	True	abs	1800000	0	8	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	HPChange	Buff	True	abs	1800000	2	73	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	CDR	Buff	True	swch	1800000	0	0.95	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000101	BuffNearbyParty	Buff	True	seta	1800000	33	98000109	上級プリーストバフポーション［PvE TEST］	230002	상위 사제 버프[PvE TEST]	上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/33s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	Power	Buff	True	abs	1800000	0	40	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	Endurance	Buff	True	abs	1800000	0	11	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	AllResist	Buff	True	abs	1800000	0	5	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	ASpd	Buff	True	abs	1800000	0	8	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	OutOfCombatMovSpd	Buff	True	abs	1800000	0	10	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	HPChange	Buff	True	abs	1800000	2	73	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	CDR	Buff	True	swch	1800000	0	0.95	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000102	BuffNearbyParty	Buff	True	seta	1800000	25	98000109	最上級プリーストバフポーション［PvE TEST］	96000	최상위 사제 버프[PvE TEST]	最上級プリーストバフ - ブレシングアルン III、シークレッドサンダー IV［常時適用］ ::::: 強化レザルスペル IV/25s適用	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
+98000103	Power	Buff	True	abs	1800000	0	48	中級エレメンタリストバフポーション［PvE TEST］	230001	중위 정령사 버프[PvE TEST]	中級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/40s、デストラクションエレメント/150s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	Endurance	Buff	True	perc	1800000	0	1.1	中級エレメンタリストバフポーション［PvE TEST］	230001	중위 정령사 버프[PvE TEST]	中級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/40s、デストラクションエレメント/150s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	Crit	Buff	True	perc	1800000	0	2.2	中級エレメンタリストバフポーション［PvE TEST］	230001	중위 정령사 버프[PvE TEST]	中級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/40s、デストラクションエレメント/150s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	CritResist	Buff	True	perc	1800000	0	1.4	中級エレメンタリストバフポーション［PvE TEST］	230001	중위 정령사 버프[PvE TEST]	中級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/40s、デストラクションエレメント/150s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	ASpd	Buff	True	abs	1800000	0	9.6	中級エレメンタリストバフポーション［PvE TEST］	230001	중위 정령사 버프[PvE TEST]	中級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/40s、デストラクションエレメント/150s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	CritPower1	Buff	True	abs	20000	0	0.6	中級エレメンタリストバフポーション［PvE TEST］	230001	중위 정령사 버프[PvE TEST]	中級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/40s、デストラクションエレメント/150s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000103	BuffNearbyParty	Buff	True	seta	1800000	40	98000107	中級エレメンタリストバフポーション［PvE TEST］	230001	중위 정령사 버프[PvE TEST]	中級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/40s、デストラクションエレメント/150s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	Power	Buff	True	abs	1800000	0	48	上級エレメンタリストバフポーション［PvE TEST］	230003	상위 정령사 버프[PvE TEST]	上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/25s、デストラクションエレメント/100s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	Endurance	Buff	True	perc	1800000	0	1.1	上級エレメンタリストバフポーション［PvE TEST］	230003	상위 정령사 버프[PvE TEST]	上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/25s、デストラクションエレメント/100s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	Crit	Buff	True	perc	1800000	0	2.2	上級エレメンタリストバフポーション［PvE TEST］	230003	상위 정령사 버프[PvE TEST]	上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/25s、デストラクションエレメント/100s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	CritResist	Buff	True	perc	1800000	0	1.4	上級エレメンタリストバフポーション［PvE TEST］	230003	상위 정령사 버프[PvE TEST]	上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/25s、デストラクションエレメント/100s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	ASpd	Buff	True	abs	1800000	0	9.6	上級エレメンタリストバフポーション［PvE TEST］	230003	상위 정령사 버프[PvE TEST]	上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/25s、デストラクションエレメント/100s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	CritPower1	Buff	True	abs	20000	0	0.6	上級エレメンタリストバフポーション［PvE TEST］	230003	상위 정령사 버프[PvE TEST]	上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/25s、デストラクションエレメント/100s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000104	BuffNearbyParty	Buff	True	seta	1800000	25	98000107	上級エレメンタリストバフポーション［PvE TEST］	230003	상위 정령사 버프[PvE TEST]	上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/25s、デストラクションエレメント/100s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	Power	Buff	True	abs	1800000	0	48	最上級エレメンタリストバフポーション［PvE TEST］	96001	최상위 정령사 버프[PvE TEST]	最上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/18s、デストラクションエレメント/75s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	Endurance	Buff	True	perc	1800000	0	1.1	最上級エレメンタリストバフポーション［PvE TEST］	96001	최상위 정령사 버프[PvE TEST]	最上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/18s、デストラクションエレメント/75s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	Crit	Buff	True	perc	1800000	0	2.2	最上級エレメンタリストバフポーション［PvE TEST］	96001	최상위 정령사 버프[PvE TEST]	最上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/18s、デストラクションエレメント/75s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	CritResist	Buff	True	perc	1800000	0	1.4	最上級エレメンタリストバフポーション［PvE TEST］	96001	최상위 정령사 버프[PvE TEST]	最上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/18s、デストラクションエレメント/75s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	ASpd	Buff	True	abs	1800000	0	9.6	最上級エレメンタリストバフポーション［PvE TEST］	96001	최상위 정령사 버프[PvE TEST]	最上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/18s、デストラクションエレメント/75s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	CritPower1	Buff	True	abs	20000	0	0.6	最上級エレメンタリストバフポーション［PvE TEST］	96001	최상위 정령사 버프[PvE TEST]	最上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/18s、デストラクションエレメント/75s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000105	BuffNearbyParty	Buff	True	seta	1800000	18	98000107	最上級エレメンタリストバフポーション［PvE TEST］	96001	최상위 정령사 버프[PvE TEST]	最上級エレメンタリストバフ - レイジオーラ II、インサニティーオーラ III、フォグオーラ IV、耐久力上昇［常時適用］ ::::: サンダーエレメント/18s、デストラクションエレメント/75s適用	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+98000106	Endurance	Debuff	False	perc	1800000	0	0.9	NPC弱化デバフ［PvE TEST］			モンスターに、タンカー耐久力減少/ヒーラー耐久力減少/ヒーラークリティカル抵抗減少デバフを適用します。	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
+98000106	CritResist	Debuff	False	abs	1800000	0	-12	NPC弱化デバフ［PvE TEST］			モンスターに、タンカー耐久力減少/ヒーラー耐久力減少/ヒーラークリティカル抵抗減少デバフを適用します。	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
+98000107	Power	Buff	True	abs	12000	0	15	フォースエレメント_サンダーエレメント［PvE TEST］			バランステストのためのエレメンタリストバフサンダーエレメントの加護により、力が15増加します。	icon_skills.summonspiritofrange2_tex	icon_skills.summonspiritofrange2_tex	True
+98000108	CritPower1	Buff	True	abs	20000	0	0.6	フォースエレメント_デストラクションエレメント［PvE TEST］			バランステストのためのエレメンタリストバフデストラクションエレメントの加護により、クリティカル威力が0.6増加します。	icon_skills.summonspiritofattack2_tex	icon_skills.summonspiritofattack2_tex	True
+98000109	Power	Buff	True	abs	10000	0	15	強化レザルスペル IV［PvE TEST］			強化レザルスペルの効果により、力が$H_W_GOOD15$COLOR_END、クリティカル威力が$H_W_GOOD0.2倍$COLOR_END増加します。	icon_skills.spirit3_tex	icon_skills.spirit3_tex	True
+98000109	CritPower	Buff	True	abs	10000	0	0.2	強化レザルスペル IV［PvE TEST］			強化レザルスペルの効果により、力が$H_W_GOOD15$COLOR_END、クリティカル威力が$H_W_GOOD0.2倍$COLOR_END増加します。	icon_skills.spirit3_tex	icon_skills.spirit3_tex	True
 98850001	DropUp	Buff	True	perc	1000	0	1	豊穣の祝福			報酬率が０％増加します。	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex	False
 98850002	DropUp	Buff	True	perc	7200000	0	1.2	豊穣の祝福 I			豊穣の魔石を守護し報酬率が25％増加します。	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex	True
 98850003	DropUp	Buff	True	perc	7200000	0	1.4	豊穣の祝福 II			豊穣の魔石を守護し報酬率が50％増加します。	icon_items.tresurebox3_tex	icon_items.tresurebox3_tex	True
