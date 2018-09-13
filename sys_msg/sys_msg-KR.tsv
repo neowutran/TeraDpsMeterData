@@ -678,14 +678,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	대상의 채집 등급이 낮아 채집 숙련도를 얻을 수 없습니다.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	이미 다른 사람이 채집 중입니다.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	곤충 채집 숙련도가 {prof}포인트로 상승했습니다.
-201	SMT_COL_CHATLOG_ENERGY	정기 채집 숙련도가 {prof}포인트로 상승했습니다.
-201	SMT_COL_CHATLOG_HERB	식물 채집 숙련도가 {prof}포인트로 상승했습니다.
-201	SMT_COL_CHATLOG_MINERAL	광석 채집 숙련도가 {prof}포인트로 상승했습니다.
 201	SMT_COL_SYSMSG_PICK_CANCEL	채집을 취소했습니다.
-201	SMT_COL_SYSMSG_PICK_FAIL	채집에 실패했습니다.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	채집을 중단했습니다.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	채집에 성공했습니다.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	식물 채집 레벨이 {grade}{가} 되었습니다.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	광석 채집 레벨이 {grade}{가} 되었습니다.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	정기 채집 레벨이 {grade}{가} 되었습니다.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	{itemName}{이} 부족하여 사용할 수 없습니다.
 302	SMT_COMPENSATION_ACQUIRED	보상 획득!
 203	SMT_COMPENSATION_NOT_ACQUIRED	보상 획득 실패!
@@ -851,8 +848,8 @@
 201	SMT_FAILED_QUEST	[{QuestName}]퀘스트를 실패했습니다.
 203	SMT_FAILED_QUEST_CANCLE	[{QuestName}]퀘스트는 포기할 수 없습니다.
 203	SMT_FAILED_QUEST_COMPENSATION	[{QuestName}]퀘스트를 완료할 수 없습니다.
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	스킬을 모두 습득한 상태에서만 퀘스트를 진행할 수 있습니다.
 201	SMT_FAIL_EXTRACT	{ItemName} 추출에 실패했습니다.
-201	SMT_FAIL_PRODUCE	{Item}제작에 실패하였습니다.
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	{ItemName}{을} 사용하여 추가 캐릭터 소켓을 확장할 수 없습니다. 조건에 맞는 다른 아이템을 사용해주세요.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	캐릭터 소켓 확장에 실패하였습니다.
 203	SMT_FAIL_UNION_PRODUCE	자격이 되지 않아 해당 아이템을 제작할 수 없습니다.
@@ -1162,8 +1159,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	벌서기 중에는 게임을 종료할 수 없습니다.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	벌서기 중에는 아이템을 사용할 수 없습니다.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	이벤트가 진행 중이오니 자세한 내용은 홈페이지를 참고해 주시기 바랍니다.
-201	SMT_INCREASE_SKILL_PROF	숙련도가 상승하였습니다.
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName}의 숙련도가 {SkillProf}만큼 올랐습니다.
 201	SMT_INCREASE_SKILL_RANK	{Skill}{이} {Rank}랭크가 되었습니다.
 201	SMT_INCREMENT_CHARACTER_SOCKET	캐릭터 소켓이 확장되었습니다.
 201	SMT_INGAMESTORE_BASKET_ADDED	선택한 아이템을 장바구니에 보관 하였습니다.
@@ -1852,7 +1847,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	퀘스트 추가 보상을 받을 수 있는 조건이 만족되었습니다.
 201	SMT_SUCCESS_CHANGE_TAX	세율이 정상적으로 적용되었습니다.
 201	SMT_SUCCESS_EXTRACT	{ItemName}의 추출에 성공했습니다.
-201	SMT_SUCCESS_PRODUCE	{ItemName}{을} 제작했습니다.
 201	SMT_SUCCESS_PRODUCE_CRITICAL	대성공의 징조가 느껴집니다.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	{UserName}님을 소환하는데 실패했습니다.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName}님은 사망 상태입니다. 소환에 실패했습니다.
@@ -2020,7 +2014,7 @@
 203	SMT_USE_ITEM_NO_EXIST	수량이 남아 있지 않아 사용할 수 없습니다.
 203	SMT_USE_ITEM_RACE_MISMATCH	종족이 맞지 않아 사용할 수 없습니다.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	상태 조건이 맞지 않아 사용할 수 없습니다.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	생산력이 {Num} 회복되었습니다. 회복된 생산력은 최대 4000을 넘길 수 없습니다.
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	생산력이 {Num} 회복되었습니다. 회복된 생산력은 최대 {maxFatiguePoint}{을} 넘길 수 없습니다.
 201	SMT_USE_SKILL_CANCEL	스킬 사용을 취소했습니다.
 302	SMT_USING_ACCOUNT_BENEFIT	{AccountBenefitName}{을} 이용 중입니다.
 203	SMT_VENDER_CANT_OFF_IS_USE	상점 거래 상태일 때 종료 할 수 없습니다. 거래를 중단하고 시도하세요.
@@ -2290,3 +2284,16 @@
 302	SMT_MENTOR_COMPLIMENT	칭찬을 완료하였습니다. 칭찬을 받은 숙련 수호자님에겐 추가 보상이 전달됩니다.
 203	SMT_CANT_DECOMPOSE_BIND_ITEM	귀속된 캐릭터만 분해할 수 있습니다.
 203	SMT_CANNOT_INHERITANCE_BIND_ITEM	귀속된 캐릭터만 변환할 수 있습니다.
+203	SMT_CANNOT_FISHING_NON_BAIT	미끼를 먼저 사용하여야 합니다.
+202	SMT_CANNOT_FISHING_NON_AREA	낚시 지역을 벗어났습니다.
+203	SMT_CANNOT_FISHING_FULL_INVEN	인벤토리 공간이 부족하여 사용할 수 없습니다.
+203	SMT_CANNOT_FISHING_SERVERDOWN	지금은 낚시를 진행할 수 없습니다.
+202	SMT_FISHING_BITE_WAIT	낚시 중입니다. 반응이 올 때까지 기다려주세요.
+202	SMT_FISHING_BITE_STATE	무언가 걸렸습니다. {ActionKey}키를 눌러 낚아 올리세요.	{autoWaitingTime}초 후 물고기를 자동으로 낚습니다.
+201	SMT_FISHING_RESULT_SUCCESS	낚시에 성공하였습니다.
+201	SMT_FISHING_RESULT_FAIL	낚시에 실패하였습니다.
+201	SMT_FISHING_RESULT_CANCLE	낚시를 취소하였습니다.
+201	SMT_FISHING_MINIGAME_HOWTO	{ActionKey}키를 눌러 물고기를 영역안으로 당기세요
+201	SMT_FISHING_REWARD	{UserName}님이 {ItemName}{을} {ItemCount}개를 획득하였습니다.
+203	SMT_DELIVERY_INFOR_RESET	정보 변경으로 납품 화면이 갱신되었습니다.
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName}님이 골든벨을 울렸습니다! <font color = '#f7ff7a'>{AbnormalityName}</font>
