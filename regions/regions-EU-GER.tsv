@@ -187,6 +187,8 @@
 9770	Lachelitas-Ruine (leicht)
 9780	Velika-Untergrundtor
 9781	Veliks Zuflucht
+9782	Lians Untergrundhalle
+9783	Tenebrisfestung
 9794	Syruks Forschungsstation
 9795	
 9810	Eingang zu Lakans Gefängnis
@@ -201,6 +203,8 @@
 9970	Lachelitas-Ruine (schwierig)
 9980	Eingestürztes Velika-Untergrundtor
 9981	Eingestürzte Zuflucht
+9982	Lians Untergrundhalle (schwierig)
+9983	Tenebrisfestung (schwierig)
 9994	Syruks Forschungsstation (schwierig)
 9999	TERA Instanzumgebung
 10001	Schlangeninsel
@@ -349,7 +353,7 @@
 19102	Inferuszugang
 19103	Domaraußenposten
 19104	Eisiges Tal
-19105	Die Bresche
+19105	Kriegsgebiet
 19106	Parthianeraußenposten Alpha
 19107	Parthianeraußenposten Beta
 19108	Delviasfront
@@ -358,8 +362,8 @@
 19111	Mingorklippen
 19112	Sturmaußenposten
 19113	Infernalischer Steg
-19114	Teleportplattform der Delviasfront
-19115	Teleportplattform des Aussichtspunkts
+19114	Kriegsgebiet-Teleportplattform - Delviasfront
+19115	Kriegsgebiet-Teleportplattform - Eingang der Raqnanfestung
 19116	Östliche Teleportplattform
 19117	Westliche Teleportplattform
 19118	Nördliche Teleportplattform
@@ -791,21 +795,21 @@
 62003	Wachpostenkommando
 63001	Velika
 63002	Reisezentrale von Velika
-63003	Kreativwerkstätten
+63003	Kreativwerkstatt
 63004	Nordtormarkt
 63005	Nordtor von Velika
-63006	Collegium Arcanum
+63006	Magieakademie
 63007	Veliks Treppe
 63008	Platz der Freiheit
 63009	Hauptquartier der Valkyon-Föderation
 63010	Platz der Jägerin
-63011	Waffenlegion
+63011	Kriegernoviziat
 63012	Vanarchenamt von Velika
 63013	Westtor von Velika
 63014	Strategisches Kommando
 63015	Notusgasse
 63016	Boreasgasse
-63017	Konsulbüro von Velika
+63017	Velika-Konsulat
 63023	Umland von Velika
 63024	Ringplatz
 63025	Teleportal der Stadt
@@ -844,15 +848,15 @@
 72002	Umland von Allemantheia
 72003	Westliches Allemantheia
 72004	Säule der Äonen
-72005	Arkanes Symposium
+72005	Magieakademie
 72006	Symposium der Ältesten
 72007	Agora
-72008	Symposium der Kunsthandwerker
-72009	Kriegssymposium
+72008	Kreativwerkstatt
+72009	Kriegernoviziat
 72010	Strategisches Kommando
 72011	Sharas Gebot
 72012	Tore der Ehre
-72013	Halle des Exarchen
+72013	Allemantheia-Konsulat
 72099	Hauptquartier von Allemantheia
 72100	Via Westonia
 72101	Via Essenia
@@ -892,7 +896,7 @@
 84006	Siegesbrücke
 84007	Triumphplatz
 84008	Kammer der Tapferkeit
-84009	Kammer der Kunsthandwerker
+84009	Kreativwerkstatt
 84010	Hauptstraße
 84011	Verbindungsstraße
 84012	Handelszentrum
@@ -901,13 +905,13 @@
 84015	Festungseingang
 84016	Halle der Macht
 84017	Kommandozentrum von Kaiator
-84018	Halle der Stärke
+84018	Kriegernoviziat
 84019	Handelszentrum
 84020	Nördlicher Zugang nach Kaiator
 84021	Westtor von Kaiator
 84022	Nordtor von Kaiator
 84023	Südtor von Kaiator
-84024	Konsulbüro von Kaiator
+84024	Kaiator-Konsulat
 84025	Nördliche Straße des Triumphplatzes
 84026	Transporthalle
 84027	Kaiator
@@ -1127,7 +1131,7 @@
 200003	Gildenverwalter
 200004	Farbenhändler
 200005	Handelsagent
-200006	Händler
+200006	Fahrender Händler
 200007	Rufhändler
 200008	Markenbelohnungen
 221501	Eingang zum Mogelplateau
@@ -1146,6 +1150,7 @@
 506015	Unbekannter Raum
 506016	Weltenwand
 507001	Unbekannter Raum
+508001	Unbekannter Raum
 569001	Raqnanfestung-Erinnerung (Einzelspieler)
 599001	Insel des Baumes
 599002	Wirrwarrplatz
@@ -1316,8 +1321,8 @@
 8000056	Ebenholzkontrollpunkt
 8000057	Grabwacht der Verbannten
 8000058	Zugang zu Kelsaiks Nest
-8000059	Kommandozentrum von Kaiator
-8000060	Konsulbüro von Kaiator
+8000059	Kaiator-Zentrale
+8000060	Kaiator-Konsulat
 8000061	Schmiedeherz
 8000062	Salerons Forschungslager
 8000063	Korpusforschungslager
@@ -1332,7 +1337,7 @@
 8000072	Salerons Forschungslager
 8000073	Korpusforschungslager
 8000074	Krypta des Untergangs - Ebenholzsteg
-8000075	Schmiedeherz
+8000075	Eingang zum Kaiator-Konsulat
 8000076	Villa des Narren
 8000077	Ebenholzturm (schwierig)
 8000078	Labyrinth des Schreckens (schwierig)
@@ -1745,6 +1750,15 @@
 9781005	Veliks Umweg
 9781006	Velika-Untergrundtor
 9781007	Eingang zu Veliks Zuflucht
+9782000	Eingang zu Lians Untergrundhalle
+9782001	Nedras Zuflucht
+9782002	Hinrichtungsplatz
+9782003	Verzerrter Raum
+9782004	Eingang zum Verzerrten Raum
+9783000	Eingang zur Tenebrisfestung
+9783001	Hauptplatz
+9783002	Hauptbibliothek
+9783003	Festungsdach
 9793001	Akashas Versteck (schwierig)
 9793002	Flur der Pestilenz (schwierig)
 9793003	Sanguinarium (schwierig)
@@ -1906,6 +1920,15 @@
 9981005	Eingestürzter Umweg
 9981006	Velika-Untergrundtor
 9981007	Eingang zur Eingestürzten Zuflucht
+9982000	Eingang zu Lians Untergrundhalle
+9982001	Nedras Zuflucht
+9982002	Hinrichtungsplatz
+9982003	Verzerrter Raum
+9982004	Eingang zum Verzerrten Raum
+9983000	Eingang zur Tenebrisfestung (schwierig)
+9983001	Hauptplatz
+9983002	Hauptbibliothek
+9983003	Festungsdach
 9990001	Angriff!
 9990002	Verteidigung!
 9990003	Gefahr!

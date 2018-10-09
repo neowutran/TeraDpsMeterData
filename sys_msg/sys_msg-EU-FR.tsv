@@ -361,6 +361,7 @@
 203	SMT_CANNOT_USE_ITS_FUNCTION_FREE_SERVICE	Ce type de compte ne peut pas utiliser cette fonction.
 203	SMT_CANNOT_USE_ITS_FUNCTION_TO_FREE_SERVICE_USER	Ce type de compte ne peut pas utiliser cette fonction.
 201	SMT_CANNOT_USE_PARTYMATCHING	Vous ne pouvez pas utiliser la recherche d'instances lorsque vous faites partie d'un groupe de raid.
+203	SMT_CANNOT_USE_PREMIUM_DUNGEON	Ce donjon est inutilisable pour le moment.
 203	SMT_CANNOT_USE_SKILL_IN_BATTLE_FIELD	Vous ne pouvez pas utiliser cette compétence dans un champ de bataille.
 203	SMT_CANNOT_USE_THISITEM_WHILE_DOING_SKILL	Vous ne pouvez pas utiliser cet objet en même temps qu'une compétence.
 203	SMT_CANNOT_USE_UNKNOWN_REPUTATION_ITEM	Impossible d'utiliser ceci car vous n'avez pas encore découvert la faction "{NPCGuildName}".
@@ -554,7 +555,7 @@
 201	SMT_CHANGE_COLOR_END_LIFETIME	La teinture de {ItemName} a disparu.
 201	SMT_CHANGE_COLOR_PROGRESS_CANCEL	Annulation du processus de teinture.
 201	SMT_CHANGE_COLOR_PROGRESS_SUCCESS	Vous avez teint {ItemName}
-205	SMT_CHANGE_GUILDLEVEL	Vous avez atteint le niveau de guilde <font size='28' color = '#ff6753'>{GuildLevel}</font>.
+205	SMT_CHANGE_GUILDLEVEL	Vous avez atteint le niveau de guilde <font color = '#ff6753'>{GuildLevel}</font>.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_ACCEPTABLE	Accepter la bataille de guilde GcG de l'adversaire.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_NON_ACCEPTABLE	Refuser la bataille de guilde GcG de l'adversaire.
 204	SMT_CHANGE_PARTYMASTER	Vous êtes désormais le chef du {party}.
@@ -850,6 +851,7 @@
 201	SMT_FAILED_QUEST	Échec de la quête : {QuestName}.
 203	SMT_FAILED_QUEST_CANCLE	Impossible d'abandonner [{QuestName}].
 203	SMT_FAILED_QUEST_COMPENSATION	Vous ne pouvez plus avancer dans la quête "{QuestName}" parce que votre inventaire est plein, que vous ne pouvez pas porter plus d'or ou que vous avez atteint la limite de quêtes journalières.
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Vous devez avoir appris toutes les compétences pour pouvoir réaliser cette quête.
 201	SMT_FAIL_EXTRACT	Échec de l'extraction de l'objet : {ItemName}
 201	SMT_FAIL_PRODUCE	Échec dans la fabrication de {ItemName}
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	Vous ne pouvez pas ajoutez d'emplacement de personnage à l'aide de {ItemName} car vous ne remplissez pas les conditions nécessaires.
@@ -2077,7 +2079,7 @@
 203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	Certains paramètres PE ne sont pas sauvegardés.
 203	SMT_CAN_MATCH_OVER_MIN_MEMBER_COUNT	La recherche d'instances est disponible pour plus de {number} personnes.
 203	SMT_CAN_MATCH_UNDER_MAX_MEMBER_COUNT	La recherche d'instances est disponible pour plus de {number} personnes.
-203	SMT_EP_EXP_TOOLTIP	PE-PEX atteint à {CurrentEpExpPercent}&nbsp;%. (Lorsque vous aurez atteint 100&nbsp;%, vous recevrez {EarnEP}&nbsp;points de PE.)
+203	SMT_EP_EXP_TOOLTIP	PE-PEX atteint à {CurrentEpExpPercent} %. (Lorsque vous aurez atteint 100 %, vous recevrez {EarnEP} points de PE.)
 203	SMT_DUNGEON_WORK_SUCCESS_TITLE	Succès
 203	SMT_DUNGEON_WORK_FAIL_TITLE	Échec
 203	SMT_YOU_CANT_RETRY_SOLO_DUNGEON	Vous n'avez pas assez d'entrées au donjon pour retenter votre chance.
@@ -2127,6 +2129,7 @@
 203	SMT_CANNOT_TRADE_PROMOTION_ITEM	Les objets obtenus via les évènements de connexion en cybercafés ne peuvent pas être échangés, revendus ou déposés à la banque.
 203	SMT_CANNOT_USE_SERVICE	Ce service est inutilisable pour le moment.
 203	SMT_STOP_USE_SERVICE	Ce service est suspendu.
+203	SMT_CANNOT_USE_PREMIUM_SERVICE	Aucun avantage premium n'est disponible. Merci de vérifier la boutique TERA.
 203	SMT_PROMOTION_OFF_BY_ADMIN	Vous ne pouvez pas profiter de l'évènement de cybercafés pour le moment.
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	Le Donjon des épreuves est momentanément indisponible.
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	Cette fonctionnalité ne peut pas être utilisée avec le système d'exploitation actuel.
@@ -2282,4 +2285,9 @@
 203	SMT_SHOW_ELAPSED_TIME	Durée : {time}
 203	SMT_CANNOT_TELEPORT_DURING_BATTLE	Vous ne pouvez pas vous téléporter en combat.
 203	SMT_CANNOT_TELEPORT_DURING_FLIGHT	Vous ne pouvez pas vous téléporter en vol.
-203	SMT_CANNOT_TAKE_EQUIPMENT_EXP	Le niveau de compétence de votre équipement a atteint son maximum.
+203	SMT_CANNOT_TAKE_EQUIPMENT_EXP	Vous avez atteint les PEX d'équipement maximums.
+203	SMT_MAIN_MENU_NO_EVENT	Aucun évènement disponible.
+203	SMT_MAIN_MENU_INCOMPLETE_SOULLESS_QUEST_FOR_ORDERS	Vous devez terminer la quête dans la zone de départ.
+302	SMT_MENTOR_COMPLIMENT	Un compliment a été prononcé. Le gardien expérimenté à qui le compliment était adressé empoche une récompense supplémentaire.
+203	SMT_CANT_DECOMPOSE_BIND_ITEM	Seuls les objets liés peuvent être démontés.
+203	SMT_CANNOT_INHERITANCE_BIND_ITEM	Seuls les objets liés peuvent être convertis.
