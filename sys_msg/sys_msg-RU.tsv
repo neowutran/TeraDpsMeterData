@@ -361,6 +361,7 @@
 203	SMT_CANNOT_USE_ITS_FUNCTION_FREE_SERVICE	Этот тип учетной записи не может использовать эту функцию.
 203	SMT_CANNOT_USE_ITS_FUNCTION_TO_FREE_SERVICE_USER	Этот тип учетной записи не может использовать эту функцию.
 201	SMT_CANNOT_USE_PARTYMATCHING	Вы не можете использовать подбор подземелий, пока участвуете в рейде.
+203	SMT_CANNOT_USE_PREMIUM_DUNGEON	Сейчас попасть в это подземелье нельзя.
 203	SMT_CANNOT_USE_SKILL_IN_BATTLE_FIELD	Вы не можете использовать это умение на арене.
 203	SMT_CANNOT_USE_THISITEM_WHILE_DOING_SKILL	Вы не можете использовать этот предмет, пока используете умение.
 203	SMT_CANNOT_USE_UNKNOWN_REPUTATION_ITEM	Вы не можете это использовать, так как пока не поговорили с персонажем "{NPCGuildName}".
@@ -554,7 +555,7 @@
 201	SMT_CHANGE_COLOR_END_LIFETIME	Окраска предмета "{ItemName}" исчезла.
 201	SMT_CHANGE_COLOR_PROGRESS_CANCEL	Отменен процесс окраски.
 201	SMT_CHANGE_COLOR_PROGRESS_SUCCESS	Окраска предмета "{ItemName}" завершена.
-205	SMT_CHANGE_GUILDLEVEL	Уровень гильдии изменился на <font size='28' color = '#ff6753'>{GuildLevel}</font>.
+205	SMT_CHANGE_GUILDLEVEL	Уровень гильдии изменился на <font color = '#ff6753'>{GuildLevel}</font>.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_ACCEPTABLE	Вы можете проводить сражения между гильдиями.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_NON_ACCEPTABLE	Вы не можете проводить сражения между гильдиями.
 204	SMT_CHANGE_PARTYMASTER	[{party}]: Вы теперь являетесь лидером.
@@ -850,6 +851,7 @@
 201	SMT_FAILED_QUEST	Неудача: {QuestName}.
 203	SMT_FAILED_QUEST_CANCLE	Задание "[{QuestName}]" нельзя отменить.
 203	SMT_FAILED_QUEST_COMPENSATION	Вы не можете выполнить задание "{QuestName}": в сумке недостаточно места, либо достигнут лимит количества валюты/ежедневных заданий.
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Задание можно выполнить только после получения всех умений.
 201	SMT_FAIL_EXTRACT	Не удалось извлечь: "{ItemName}".
 201	SMT_FAIL_PRODUCE	Не удалось создать: "{ItemName}".
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	Вы не можете добавлять ячейки персонажей с помощью {ItemName}, поскольку не соответствуете требованиям.
@@ -2058,7 +2060,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	Срок службы предмета "{item}" скоро заканчивается. После его окончания предмет будет удален.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	Это снаряжение является шедевром или зачаровано.&#xA;
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	У вас есть предметы во временном банке. Подтвердите обращение во временный банк.
-203	SMT_WARN_PLAY_MATINEE	Персонаж не выбран, или же для выбранного персонажа фильм отсутствует. Воспроизведение невозможно.
+203	SMT_WARN_PLAY_MATINEE	На данный момент персонаж не выбран или видео о данном персонаже отсутствует, поэтому видео проиграть нельзя.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	Название вашей гильдии должно быть изменено по причине слияния серверов. Вы можете поменять название гильдии во вкладке "Детали гильдии" в интерфейсе гильдии.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	Призываемое существо уже существует.
 201	SMT_WORLD_CHANNEL_MOVED	Текущий канал: {number}.
@@ -2074,7 +2076,7 @@
 203	SMT_YOU_CANT_RESET_DUNGEON_NO_NOTHING	Нет подземелья для сброса.
 203	SMT_YOU_MUST_DETACH_CRYSTAL	Удалите сначала все кристаллы, пожалуйста.
 203	SMT_EP_CANT_USE_ITEM_BY_LEVEL_MAX	Недостаточный уровень персонажа для использования.
-203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	Есть не сохраненная настройка особенности.
+203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	Присутствует несохраненная настройка особенности.
 203	SMT_CAN_MATCH_OVER_MIN_MEMBER_COUNT	Использовать подбор подземелий и арен можно от {number} игроков.
 203	SMT_CAN_MATCH_UNDER_MAX_MEMBER_COUNT	Использовать подбор подземелий и арен могут не больше {number} игроков.
 203	SMT_EP_EXP_TOOLTIP	Достигнуто {CurrentEpExpPercent}% опыта особенностей (В случае достижения 100% будет получено {EarnEp} очков особенностей)
@@ -2127,6 +2129,7 @@
 203	SMT_CANNOT_TRADE_PROMOTION_ITEM	Предметы магазина костюмов, полученные за участие в событиях интернет-кафе, нельзя продать/обменять/положить в банк.
 203	SMT_CANNOT_USE_SERVICE	Данная услуга на данный момент недоступна.
 203	SMT_STOP_USE_SERVICE	Сервис больше недоступен.
+203	SMT_CANNOT_USE_PREMIUM_SERVICE	Отсутствует премиум-подписка. Зайдите в магазин TERA.
 203	SMT_PROMOTION_OFF_BY_ADMIN	На данный момент принять участие в событии интернет-кафе нельзя.
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	Сейчас нельзя использовать подземелье испытаний.
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	В текущей системе данная функция недоступна. 
@@ -2283,3 +2286,8 @@
 203	SMT_CANNOT_TELEPORT_DURING_BATTLE	Во время боя телепортироваться нельзя.
 203	SMT_CANNOT_TELEPORT_DURING_FLIGHT	Во время полета телепортироваться нельзя.
 203	SMT_CANNOT_TAKE_EQUIPMENT_EXP	Используется снаряжение, мастерство которого повысить нельзя.
+203	SMT_MAIN_MENU_NO_EVENT	Событие отсутствует.
+203	SMT_MAIN_MENU_INCOMPLETE_SOULLESS_QUEST_FOR_ORDERS	Сначала необходимо выполнить начальное задание.
+302	SMT_MENTOR_COMPLIMENT	Получена похвала. Хранители, получившие похвалу, получат дополнительную награду.
+203	SMT_CANT_DECOMPOSE_BIND_ITEM	Извлечь может только персонаж, которому принадлежит предмет.
+203	SMT_CANNOT_INHERITANCE_BIND_ITEM	Трансформировать может только персонаж, которому принадлежит предмет.
