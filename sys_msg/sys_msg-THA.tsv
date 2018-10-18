@@ -361,6 +361,7 @@
 203	SMT_CANNOT_USE_ITS_FUNCTION_FREE_SERVICE	รูปแบบบัญชีนี้ไม่สามารถใช้หน้าที่นี้ได้
 203	SMT_CANNOT_USE_ITS_FUNCTION_TO_FREE_SERVICE_USER	รูปแบบบัญชีนี้ไม่สามารถใช้หน้าที่นี้ได้
 201	SMT_CANNOT_USE_PARTYMATCHING	เจ้าไม่สามารถใช้ instance matching ในขณะโจมตี
+203	SMT_CANNOT_USE_PREMIUM_DUNGEON	ขณะนี้ยังไม่สามารถใช้งานดันเจี้ยนดังกล่าวได้
 203	SMT_CANNOT_USE_SKILL_IN_BATTLE_FIELD	เจ้าไม่สามารถใช้สกิลนี้ในสนามรบ
 203	SMT_CANNOT_USE_THISITEM_WHILE_DOING_SKILL	เจ้าไม่สามารถใช้ไอเทมนั้นขณะกำลังใช้สกิล
 203	SMT_CANNOT_USE_UNKNOWN_REPUTATION_ITEM	เจ้าไม่สามารถใช้สิ่งนั้นเพราะเจ้ายังไม่คุ้นเคยกับ {NPCGuildName}
@@ -554,7 +555,7 @@
 201	SMT_CHANGE_COLOR_END_LIFETIME	การย้อม {ItemName} หายไป
 201	SMT_CHANGE_COLOR_PROGRESS_CANCEL	ยกเลิกขั้นตอนการย้อม
 201	SMT_CHANGE_COLOR_PROGRESS_SUCCESS	ย้อม {ItemName}
-205	SMT_CHANGE_GUILDLEVEL	เลเวลกิลด์ตอนนี้ <font size='28' color = '#ff6753'>{GuildLevel}</font>
+205	SMT_CHANGE_GUILDLEVEL	เลเวลกิลด์ตอนนี้ <font color='#ff6753'>{GuildLevel}</font>
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_ACCEPTABLE	ยอมรับการรบกิลด์ GvG ของฝ่ายตรงข้าม
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_NON_ACCEPTABLE	ปฏิเสธการรบกิลด์ GvG ของฝ่ายตรงข้าม
 204	SMT_CHANGE_PARTYMASTER	เจ้าเป็นผู้นำ {party} ตอนนี้
@@ -824,13 +825,13 @@
 203	SMT_ENTER_FAILED_REASON_QUEST_PROGRESS	เจ้าต้องทำงานในขั้นตอนที่ถูกต้องของ  {QuestName} เพื่อเข้า
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER	เจ้ามีสมาชิกโจมตีไม่มากพอที่จะเข้า
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER_OVER	เจ้ามีผู้เล่นมากเกินไปที่จะเข้า
-203	SMT_EP_CANT_LEARN_EP_PERK	การรับ EP ล้มเหลว ลองอีกครั้งภายหลัง
+203	SMT_EP_CANT_LEARN_EP_PERK	เรียน EP ล้มเหลว กรุณาลองใหม่อีกครั้ง
 302	SMT_EP_CANT_OPEN_WINDOW_WHEN_ACTION	ไม่สามารถเปิดตั้งค่า EP ในขณะเคลื่อนไหวหรือต่อสู้
 302	SMT_EP_CANT_RESET_NO_USED_EP	ไม่สามารถรีเซ็ตการตั้งค่า EP   เจ้าไม่ได้ทำการเปลี่ยนแปลงสิ่งใด
-302	SMT_EP_CANT_USE_RESET_EP_ITEM	ไม่สามารถรีเซ็ตได้ในขณะนี้.
+302	SMT_EP_CANT_USE_RESET_EP_ITEM	ไม่สามารถรีเซ็ต EP ได้ในขณะนี้
 203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_MAX	ไม่สามารถรรับ EP XP ได้อีก
-203	SMT_EP_CANT_EARN_EP_POINT	ไม่สามารถรับคะแนน EP มากกว่านี้
-203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	สามารถใช้เมื่อ EP ได้เปิดใช้
+203	SMT_EP_CANT_EARN_EP_POINT	ไม่สามารถรับ EP Point ได้อีก
+203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	ต้องเปิดใช้งาน EP จึงจะสามารถใช้งานได้
 203	SMT_EQUIPMENT_PRESET_CANT_FIND_ALLEQUIPMENT	ไม่สามารถหาอุปกรณ์สำหรับเสื้อผ้าชุดนี้
 203	SMT_ESCAPE_FAILED_BUSY	เจ้ายุ่งอยู่ เจ้าไม่สามารถใช้ฟังก์ชันแยกออกในตอนนี้
 203	SMT_EVENT_CANNOT_USE_NOT_ENOUGH_SPACE	ไม่สามารถใช้ {ItemName} ที่นี่ กรุณาลองอีกครั้งในสถานที่อื่น
@@ -850,6 +851,7 @@
 201	SMT_FAILED_QUEST	ล้มเหลว: {QuestName} 
 203	SMT_FAILED_QUEST_CANCLE	[{QuestName}] ไม่สามารถละทิ้งได้
 203	SMT_FAILED_QUEST_COMPENSATION	เจ้าไม่สามารถทำ "{QuestName}"  เควส เนื่องจากรายการสินค้า, เงิน, หรือการจำกัดเควสประจำวัน
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	สามารถทำเควสได้ก็ต่อเมื่อ ได้รับสกิลทั้งหมดแล้วเท่านั้น
 201	SMT_FAIL_EXTRACT	เจ้าล้มเหลวในการสกัด {ItemName}
 201	SMT_FAIL_PRODUCE	ล้มเหลวในการสร้าง {ItemName}
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	เจ้าไม่สามารถเพิ่มตัวรับตัวละครโดยใช้ {ชื่อไอเทม} เพราะเจ้าไม่มีสิ่งที่ต้องการ
@@ -1755,7 +1757,7 @@
 201	SMT_SEAL_SUCCESS	เจ้าได้เปลี่ยนเวทมนตร์ของ {ItemName}
 201	SMT_SEAT_ATTACH_FAIL	เจ้าไม่สามารถขี่ม้าได้
 203	SMT_SECOND_CHAR_CANNOT_RECORD_TELEPORT	ไม่มีที่ตั้งในการลงทะเบียน
-203	SMT_SECOND_CHAR_NOT_ENOUGH_EP	เจ้ามี EP ไม่พอ
+203	SMT_SECOND_CHAR_NOT_ENOUGH_EP	เจ้ามี EP ไม่พอ จึงไม่สามารถดำเนินการได้
 203	SMT_SELL_AGIT_FAIL_GUILD_HAVENOAGIT	กิลด์ของเจ้าไม่ได้เป็นเจ้าของ Skycastle
 203	SMT_SELL_AGIT_FAIL_INVALID_STAT	เจ้าไม่สามารถขาย Skycastle ได้ในเวลานี้
 203	SMT_SELL_AGIT_FAIL_NOT_GUILD	เจ้าไม่สามารถซื้อ Skycastle เจ้าไม่ได้อยู่ในกิลด์
@@ -1871,7 +1873,7 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	ท่านไม่สามารถบุ๊กมาร์กที่ตั้งได้ในเวลานี้
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	ท่านไม่สามารถเคลื่อนย้ายได้ในเวลานี้
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	ท่านไม่สามารถเคลื่อนย้ายได้ โดยปราศจาก {ItemName}
-203	SMT_TELEPORT_NOT_ENOUGH_EP	ท่านมี EP ไม่พอ
+203	SMT_TELEPORT_NOT_ENOUGH_EP	เจ้ามี EP ไม่พอ จึงไม่สามารถดำเนินการได้
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	ท่านไม่สามารถบุ๊กมาร์กที่ตั้งได้มากกว่านี้
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName} ยอมรับการเรียก
 201	SMT_TELEPORT_TARGET_REJECT	{UserName} ปฏิเสธการเรียก
@@ -2058,7 +2060,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	ช่วงเวลาสำหรับ {ไอเทม} กำลังจะสิ้นสุดในไม่ช้า มันจะหายไปจากรายการสิ่งของเมื่อช่วงเวลาจบสิ้น
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	อุปกรณ์นั้นเป็นงานชิ้นเอกหรือเวทมนตร์
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	เจ้ามีไอเทมในธนาคารชั่วคราว กรุณาตรวจสอบธนาคารชั่วคราว
-203	SMT_WARN_PLAY_MATINEE	ไม่มีตัวละครที่เลือก หรือไม่มีวิดีโอที่เกี่ยวข้องกับตัวละครที่เลือก จึงไม่สามารถเล่นซ้ำได้
+203	SMT_WARN_PLAY_MATINEE	วิดีโอไม่สามารถเล่นได้ เนื่องจากว่าท่านยังไม่ได้เลือกตัวละคร หรือยังไม่มีตัวละครให้เลือกอยู่ปัจจุบัน
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	ชื่อกิลด์ของเจ้าจะต้องเปลี่ยนเนื่องจากมีการรวมเซิร์ฟเวอร์ เจ้าสามารถเปลี่ยนชื่อกิลด์ในแท๊บรายละเอียดกิลด์ของ UI กิลด์ของเจ้า
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	เรียกสิ่งที่ยังคงมีอยู่แล้ว
 201	SMT_WORLD_CHANNEL_MOVED	ย้ายไปแชนแนล {number}
@@ -2074,10 +2076,10 @@
 203	SMT_YOU_CANT_RESET_DUNGEON_NO_NOTHING	ไม่มีตัวอย่างให้รีเซ็ต
 203	SMT_YOU_MUST_DETACH_CRYSTAL	กรุณาถอดคริสตัลทั้งหมดก่อน
 203	SMT_EP_CANT_USE_ITEM_BY_LEVEL_MAX	เจ้าต้องมีเลเวลที่สูงกว่าเพื่อใช้สิ่งนั้น
-203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	เจ้าสามารถบันทึกการเปลี่ยนแปลงซึ่งทำในการตั้งค่า EP
+203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	มีการตั้งค่า EP ที่ยังไม่บันทึก
 203	SMT_CAN_MATCH_OVER_MIN_MEMBER_COUNT	กลุ่มน้อยที่สุดสำหรับการต่อคิวนี้ {number}  ผู้เล่น
 203	SMT_CAN_MATCH_UNDER_MAX_MEMBER_COUNT	กลุ่มมากที่สุดสำหรับการต่อคิวนี้  {number}  ผู้เล่น
-203	SMT_EP_EXP_TOOLTIP	ทำให้สำเร็จ {CurrentEpExpPercent}% ของ EP XP (สามารถรับ {EarnEp} คะแนน EP เมื่อถึง 100%)
+203	SMT_EP_EXP_TOOLTIP	EP XP ถึง {CurrentEpExpPercent}% (เมื่อถึง 100% จะสามารถได้รับ {EarnEp} EP Point)
 203	SMT_DUNGEON_WORK_SUCCESS_TITLE	สำเร็จ
 203	SMT_DUNGEON_WORK_FAIL_TITLE	ล้มเหลว
 203	SMT_YOU_CANT_RETRY_SOLO_DUNGEON	ท่านได้ถึงขีดจำกัด สำหรับการเข้าสู่ดันเจี้ยนผู้พิชิตแล้ว
@@ -2095,8 +2097,8 @@
 203	SMT_CANT_SETTING_SKILL_SCRIPT	ไม่สามารถใช้ข้อความต้อนรับ
 201	SMT_JACKPOT_DUNGEON_REWARD_MESSAGE1	เคลม {ItemName} {amount} โดยการเคลียร์ดันเจี้ยนนี้!
 201	SMT_JACKPOT_DUNGEON_START_MESSAGE	เคลมรางวัลเพิ่มเติมในดันเจี้ยนนี้
-203	SMT_EP_RESET_EP_PERK	รีเซ็ต EP
-203	SMT_EP_CANT_RESET_EP_PERK	ล้มเหลวในการรีเซ็ต EP  ลองอีกครั้ง
+203	SMT_EP_RESET_EP_PERK	รีเซ็ต EP แล้ว
+203	SMT_EP_CANT_RESET_EP_PERK	รีเซ็ต EP ไม่สำเร็จ กรุณาลองใหม่อีกครั้ง
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_SPAWN_USER	ตำแหน่งศัตรู!!
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_WARNING	!!!!
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_BOMB	ตำแหน่งที่ศัตรูฆ่าตัวตาย!!
@@ -2127,6 +2129,7 @@
 203	SMT_CANNOT_TRADE_PROMOTION_ITEM	ไอเทมจาก PC Cafe กิจกรรมล็อกอิน ไม่สามารถทำการค้า, ขายร้าน หรือใส่ในธนาคารกิลด์ได้
 203	SMT_CANNOT_USE_SERVICE	บริการไม่สามารถใช้ได้ในขณะนี้
 203	SMT_STOP_USE_SERVICE	บริการนี้ยังไม่เปิดใช้
+203	SMT_CANNOT_USE_PREMIUM_SERVICE	ไม่มีสิทธิพิเศษที่สามารถใช้ได้ กรุณาตรวจสอบ Tera Store
 203	SMT_PROMOTION_OFF_BY_ADMIN	ไม่สามารถเข้าสู่กิจกรรม PC Cafe ในตอนนี้
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	เจ้าไม่สามารถเข้าสู่ดันเจี้ยนชั้นเยี่ยมในเวลานี้
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	ลักษณะนี้ไม่ถูกสนับสนุนใน Window 2003 หรือ Window XP
@@ -2283,3 +2286,8 @@
 203	SMT_CANNOT_TELEPORT_DURING_BATTLE	ขณะต่อสู้ไม่สามารถใช้ Teleport ได้
 203	SMT_CANNOT_TELEPORT_DURING_FLIGHT	ขณะบินไม่สามารถใช้งาน Teleport ได้
 203	SMT_CANNOT_TAKE_EQUIPMENT_EXP	อุปกรณ์ที่สวมใส่อยู่ไม่สามารถได้รับความชำนาญอุปกรณ์เพิ่มได้ 
+203	SMT_MAIN_MENU_NO_EVENT	ไม่มีกิจกรรมที่อยู่ในระหว่างดำเนินการ
+203	SMT_MAIN_MENU_INCOMPLETE_SOULLESS_QUEST_FOR_ORDERS	ต้องสำเร็จเควสพื้นที่เริ่มต้น
+302	SMT_MENTOR_COMPLIMENT	ชมเชยแล้ว ของรางวัลเพิ่มเติมถูกส่งไปยัง Skilled Guardian ที่ได้รับคำชมเชย
+203	SMT_CANT_DECOMPOSE_BIND_ITEM	แยกได้เฉพาะตัวละครที่ผูกมัดเท่านั้น
+203	SMT_CANNOT_INHERITANCE_BIND_ITEM	เปลี่ยนได้เฉพาะตัวละครที่ผูกมัดเท่านั้น
