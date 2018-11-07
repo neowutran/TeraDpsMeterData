@@ -667,7 +667,7 @@
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>様が</font> <font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>様を殺しました。</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	ギルド対戦<font color = '#01ff96'>{WARRANK}</font>上記の報酬でギルド経験値<font color = '#01ff96'>+{EXPPOINT}</font>を獲得しました。
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	ギルド対戦の参加貢献度を<font color = '#01ff96'>+{CPOINT}</font>獲得しました。
-202	SMT_CITYWAR_OPTIMIZE_OPTION	ギルド対戦自動最適化機能が適用されました。該当の地域から脱する場合、本来のビデオ設定に復旧されます。
+202	SMT_CITYWAR_OPTIMIZE_OPTION	システム設定最適化が適用中です。当該地域から離脱すると、適用前のシステム設定に戻ります。この機能は、システム設定ウィンドウのゲーム項目で設定できます。
 202	SMT_CITYWAR_START	<font color = '#ffee92'>ギルド対戦が始まりました。</font>
 202	SMT_CITYWAR_NONPK_AREA	該当の地域では反逆宣言のスキルを使う事ができません。
 203	SMT_CLEAR_CURSE_FAILED	呪いが強力なため、解除に失敗しました。
@@ -813,7 +813,7 @@
 201	SMT_ENCHANT_FAILED	{ItemName}の強化に失敗しました。
 201	SMT_ENCHANT_FAILED_CRI	{ItemName}の強化段階が{Count}減少しました。
 201	SMT_ENCHANT_SUCCEED	{ItemName}の強化に成功しました。
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	+{Added}{ItemName}強化に成功しました。解除アイテムを使って解除できます。
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	{ItemName}の強化に成功しました。解放アイテムを使用して解放できるようになりました。
 201	SMT_END_COMPETITION_TIME	連盟争奪戦が終了しました。
 201	SMT_END_SEASON	連盟のシーズンが終了しました。
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	条件を満たしていないため、入場できません。
@@ -826,12 +826,12 @@
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER	レイドの人数が{Count}人以上でなければ入場できません。
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER_OVER	人数を超過しているため入場できません。
 203	SMT_EP_CANT_LEARN_EP_PERK	特性の習得に失敗しました。しばらくしてからもう一度試してください。
-302	SMT_EP_CANT_OPEN_WINDOW_WHEN_ACTION	移動および戦闘中は特性設定ウィンドウを開くことができません。
-302	SMT_EP_CANT_RESET_NO_USED_EP	特性を設定していないため、リセットできません。
-302	SMT_EP_CANT_USE_RESET_EP_ITEM	現在、特定リセットができません。
-203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_MAX	これ以上特性経験値を獲得できません。
+302	SMT_EP_CANT_OPEN_WINDOW_WHEN_ACTION	戦闘状態・移動中は特性習得ウィンドウを開けません。
+302	SMT_EP_CANT_RESET_NO_USED_EP	リセットする特性がありません。
+302	SMT_EP_CANT_USE_RESET_EP_ITEM	現在、特性をリセットできません。
+203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_MAX	特性経験値を獲得できません。
 203	SMT_EP_CANT_EARN_EP_POINT	これ以上特性ポイントを獲得できません。
-203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	特性を活性化することで使用できます。
+203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	特性が解放されると使用できます。
 203	SMT_EQUIPMENT_PRESET_CANT_FIND_ALLEQUIPMENT	かばんに無いアイテムは装備設定から除外されます。
 203	SMT_ESCAPE_FAILED_BUSY	行動中はエスケープできません。
 203	SMT_EVENT_CANNOT_USE_NOT_ENOUGH_SPACE	{ItemName}を使用できません。障害物のないところでもう一度使用してください。
@@ -1739,13 +1739,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	復活場所を選択してください。選択しない場合、{Sec}秒後に要塞で自動復活します。
 201	SMT_SAVE_SCREEN_SHOT	{Folder}フォルダにスクリーンショットを保存しました。
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	{Folder}フォルダにテキストファイルを保存しました。
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' >強化ランダムオプションに同じオプションは重複して適用されません。</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >適用可能な強化ランダムオプション</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >適用可能なランダムパッシブオプション</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font>強化ランダムオプションに同じオプションは重複して適用されません。</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font>適用可能な強化ランダムオプション</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	適用可能なランダムパッシブオプション<br/><br/>
 203	SMT_SEAL_ERROR_GRADE	名品や覚醒したアイテムに {ItemName2}は使用できません。
 203	SMT_SEAL_FAIL	{ItemName}の封印に失敗しました。
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	おめでとうございます！{ItemName}が名品化に成功しました！
@@ -1757,7 +1757,7 @@
 201	SMT_SEAL_SUCCESS	{ItemName}のオプションが変更されました。
 201	SMT_SEAT_ATTACH_FAIL	搭乗権限がありません。
 203	SMT_SECOND_CHAR_CANNOT_RECORD_TELEPORT	これ以上、テレポート位置を登録できません。
-203	SMT_SECOND_CHAR_NOT_ENOUGH_EP	EPが足りないため実行できません。
+203	SMT_SECOND_CHAR_NOT_ENOUGH_EP	特性ポイントが不足しています。
 203	SMT_SELL_AGIT_FAIL_GUILD_HAVENOAGIT	ギルドがアジトを所有していないため、アジトを購入できません。
 203	SMT_SELL_AGIT_FAIL_INVALID_STAT	今はアジトを販売できる状態ではありません。
 203	SMT_SELL_AGIT_FAIL_NOT_GUILD	ギルドに加入していないため、アジトを購入できません。
@@ -1873,7 +1873,7 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	戦闘中はテレポート位置を登録できません。
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	戦闘中はテレポートできません。
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	{ItemName}がないため移動できません。
-203	SMT_TELEPORT_NOT_ENOUGH_EP	EPが足りないため実行できません。
+203	SMT_TELEPORT_NOT_ENOUGH_EP	特性ポイントが不足しています。
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	これ以上テレポート位置を登録できません。
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName}が召喚を承諾しました。
 201	SMT_TELEPORT_TARGET_REJECT	{UserName}が召喚を拒否しました。
@@ -2075,7 +2075,7 @@
 203	SMT_YOU_CANT_PRODUCE_NOT_ENOUGH_FATIGUE	生産力が足りないため製作できません。
 203	SMT_YOU_CANT_RESET_DUNGEON_NO_NOTHING	初期化するダンジョンがありません。
 203	SMT_YOU_MUST_DETACH_CRYSTAL	クリスタルを解除した装備のみ分解できます。
-203	SMT_EP_CANT_USE_ITEM_BY_LEVEL_MAX	レベルが低いため使用できません。
+203	SMT_EP_CANT_USE_ITEM_BY_LEVEL_MAX	レベルが不足しているため使用できません。
 203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	保存していない設定があります。
 203	SMT_CAN_MATCH_OVER_MIN_MEMBER_COUNT	{number}名以上の場合のみマッチング申請が可能です
 203	SMT_CAN_MATCH_UNDER_MAX_MEMBER_COUNT	{number}名以下の場合のみマッチング申請が可能です
@@ -2097,8 +2097,8 @@
 203	SMT_CANT_SETTING_SKILL_SCRIPT	該当の挨拶文は使用できません。
 201	SMT_JACKPOT_DUNGEON_REWARD_MESSAGE1	このダンジョンをクリアすると、{ItemName}を{amount}個プレゼント！
 201	SMT_JACKPOT_DUNGEON_START_MESSAGE	このダンジョンでは追加報酬が支給されます！
-203	SMT_EP_RESET_EP_PERK	特性が初期化されました。
-203	SMT_EP_CANT_RESET_EP_PERK	特性の初期化に失敗しました。しばらくしてからもう一度試してください。
+203	SMT_EP_RESET_EP_PERK	特性を初期化しました。
+203	SMT_EP_CANT_RESET_EP_PERK	特性の初期化処理ができませんでした。数分後にもう一度お試しください。
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_SPAWN_USER	敵軍発見！
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_WARNING	！！！！
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_BOMB	敵軍の自爆兵発見！
@@ -2140,7 +2140,7 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	すでに購買した商品です。
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	現在状態ではショップを利用することができません。
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	進行しやすい段階にクエストが再設定されました。
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color = '#cccccc'>選択した場所で自動復活します。<br><font size='18' color = '#ffffff'>復活まで残り時間<br> <font size='20' color = '#ff0000'>{ReviveSec}</font>秒
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>選択した場所で自動復活します。<br><font color = '#ffffff'>復活まで残り時間<br><font  color = '#ff0000'>{ReviveSec}</font>秒
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[緊急] {questName}</font>ギルド任務受諾が可能です。しばらくすると<font color = '#fcb7ff'>{zoneName}(1ch)</font>にて<font color = '#fcb7ff'>{npcName}</font> が出現します。
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}（1ch）</font> が <font color = '#fcb7ff'>出現</font>しました。
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font> が <font color = '#fcb7ff'>逃亡</font>しました。
@@ -2291,3 +2291,16 @@
 302	SMT_MENTOR_COMPLIMENT	称賛を完了しました。称賛を受けた熟練の守護者様には追加報酬が支給されます。
 203	SMT_CANT_DECOMPOSE_BIND_ITEM	帰属されたキャラクターだけ分解できます。
 203	SMT_CANNOT_INHERITANCE_BIND_ITEM	帰属されたキャラクターだけが変換できます。
+203	SMT_CANNOT_FISHING_NON_BAIT	餌を使用してください。
+202	SMT_CANNOT_FISHING_NON_AREA	釣り地域を離れました。
+203	SMT_CANNOT_FISHING_FULL_INVEN	かばんの空きスロットが不足しているため、使用できません。
+203	SMT_CANNOT_FISHING_SERVERDOWN	現在は「釣り」を発動できません。
+202	SMT_FISHING_BITE_WAIT	待機中
+202	SMT_FISHING_BITE_STATE	ヒットしました！　{ActionKey}キーを押して釣り上げてください。	{autoWaitingTime}秒経過すると、自動で魚を釣り上げます。
+201	SMT_FISHING_RESULT_SUCCESS	成功
+201	SMT_FISHING_RESULT_FAIL	失敗
+201	SMT_FISHING_RESULT_CANCLE	中断
+201	SMT_FISHING_MINIGAME_HOWTO	エリア内に獲物が入ったとき、{ActionKey}キーを押して引き寄せます
+201	SMT_FISHING_REWARD	{UserName}様が{ItemName}を{ItemCount}個獲得しました
+203	SMT_DELIVERY_INFOR_RESET	日付変更に伴い、納品画面が更新されました。
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName}様がゴールデンベールを鳴らしました！<font color = '#f7ff7a'>{AbnormalityName}</font>
