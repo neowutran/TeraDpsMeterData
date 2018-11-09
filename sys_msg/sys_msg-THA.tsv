@@ -667,7 +667,7 @@
 201	SMT_CITYWAR_GUILD_DEATH	<font color='#ee1c24'>{GuildName2} {Name2}</font> <font color='#c8c8b6'> ได้ฆ่า</font> <font color='#40fb40'>{Name1}</font> <font color='#c8c8b6'>แล้ว!!</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	เป็นรางวัลสำหรับอันดับ <font color='#01ff96'>{WARRANK}</font> ใน Civil Unrest ซึ่งกิลด์ของท่านจะได้รับ <font color='#01ff96'>+{EXPPOINT}</font> XP กิลด์
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	ท่านได้รับ <font color='#01ff96'>+{CPOINT}</font> สำหรับการเข้าร่วมใน Civil Unrest: Velika
-202	SMT_CITYWAR_OPTIMIZE_OPTION	การตั้งค่ากราฟิก ได้ทำให้เหมาะสำหรับ PvP และของแฟชั่นทั้งหมด จะใช้ไม่ได้ชั่วคราว เมื่อออกจากบริเวณนี้ การตั้งค่าของท่าน จะเป็นปกติเหมือนเดิม
+202	SMT_CITYWAR_OPTIMIZE_OPTION	ฟังก์ชั่นปรับการตั้งค่าระบบให้เหมาะสมได้ถูกปรับใช้แล้ว เมื่อออกจากบริเวณนี้ จะกลับสู่การตั้งค่าเดิม ฟังก์ชั่นดังกล่าวสามารถปลดได้ จากการตั้งค่าเกมในหน้าต่างการตั้งค่าระบบ
 202	SMT_CITYWAR_START	<font color='#ffee92'>Civil Unrest: Velika ได้เริ่มต้นขึ้นแล้ว</font>
 202	SMT_CITYWAR_NONPK_AREA	ท่านไม่สามารถ ทำการประกาศไร้กฏหมาย ในบริเวณนี้ได้
 203	SMT_CLEAR_CURSE_FAILED	ท่านล้มเหลวในการเอาคำสาปออก
@@ -813,7 +813,7 @@
 201	SMT_ENCHANT_FAILED	การใช้เวทมนตร์ {ItemName} ล้มเหลว
 201	SMT_ENCHANT_FAILED_CRI	เวทมนตร์สำหรับ {ItemName} ลงลด {Count}
 201	SMT_ENCHANT_SUCCEED	ประสบความสำเร็จในการใช้เวทมนตร์ {ItemName}
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	เจ้าประสบความสำเร็จในการได้รับ +{Added}{ItemName} โบนัสเวทมนตร์ เจ้าจะปลดปล่อยอุปกรณ์ชนิดนี้ด้วยม้วนกระดาษแห่งอิสรภาพ
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	เสริมแกร่ง {ItemName} สำเร็จแล้ว ใช้ไอเทมปลดปล่อย เพื่อปลดปล่อยอุปกรณ์นี้
 201	SMT_END_COMPETITION_TIME	การแข่งขันพันธมิตรได้จบลงแล้ว
 201	SMT_END_SEASON	ฤดูกาลพันธมิตรได้จบลงแล้ว
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	เจ้าไม่ได้พบสิ่งที่ต้องการเพื่อเข้าสู่ตัวอย่างนี้
@@ -1739,13 +1739,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	เลือกที่ตั้งที่จะฟื้นคืนชีพ, หรือเจ้าจะฟื้นคืนชีพอัตโนมัติในที่ตั้งของเจ้าใน{Sec} วินาที(s)
 201	SMT_SAVE_SCREEN_SHOT	ภาพหน้าจอบันทึกไปยัง: {Folder}
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	คำบรรยายบันทึกใน{Folder}
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' > เอฟเฟกต์เวทมนต์ที่พัฒนาขึ้นสามารถใช้ได้เพียงครั้งเดียวเท่านั้น, แต่อาจทำซ้ำและกองรวมกับเอฟเฟกต์เวทมนตร์พื้นฐานได้ </font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >เอฟเฟกต์เสริมแกร่งที่เพิ่มขึ้น (+3 ถึง +9)</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >Primary Enchantment Effects</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font> เอฟเฟกต์เวทมนตร์ที่พัฒนาขึ้น สามารถใช้ได้เพียงครั้งเดียวเท่านั้น แต่อาจทำซ้ำและกองรวมกับเอฟเฟกต์เวทมนตร์พื้นฐานได้</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font>เอฟเฟกต์เสริมแกร่งที่เพิ่มขึ้น (+3 ถึง +9)</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font>เอฟเฟกต์เสริมแกร่งที่เพิ่มขึ้น (+3 ถึง +9)</font><br/><br/>
 203	SMT_SEAL_ERROR_GRADE	เจ้าไม่สามารถใช้ {ItemName2} กับงานชิ้นเอกหรือไอเทมปลุกให้ตื่น
 203	SMT_SEAL_FAIL	เจ้าล้มเหลวในการรวม {ItemName} ในสิ่งลึกลับใหม่
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	ขอแสดงความยินดี! {ItemName} ได้ถูกรับรองให้เป็นงานชิ้นเอก!
@@ -2140,7 +2140,7 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	เจ้าได้ซื้อไอเทมนี้แล้ว
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	ศูนย์กลางการค้ารางวัล TERA ใช้งานไม่ได้ชั่วคราว
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	เควสจะถูกรีเซ็ตในคะแนนที่เหมาะสม
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color='#cccccc'>ท่านจะต้องฟื้นคืนชีพ ในที่ตั้งที่เลือกไว้<br>ภายใน <font size='20' color='#ff0000'>{ReviveSec} วินาที</font>
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color='#cccccc'>ท่านจะต้องฟื้นคืนชีพ ในที่ตั้งที่เลือกไว้<br>ภายใน <font color='#ff0000'>{ReviveSec} วินาที</font>
 202	SMT_GQUEST_URGENT_NOTIFY	<font color='#fcb7ff'>[การฟื้นตัว]{questName}</font>ใช้ได้แล้วในตอนนี้สำหรับกิลด์ของเจ้า <font color='#fcb7ff'> {npcName </font>จะปรากฏใน<font color='#fcb7ff'>{zoneName} (Channel 1)</font> เร็ว ๆ นี้
 202	SMT_GQUEST_URGENT_APPEAR	<font color='#fcb7ff'>{npcname}</font><font color='#fcb7ff'>ปรากฏ</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color='#fcb7ff'>{npcname} </font><font color='#fcb7ff'>หนีไป</font>.
@@ -2291,3 +2291,16 @@
 302	SMT_MENTOR_COMPLIMENT	ชมเชยแล้ว ของรางวัลเพิ่มเติมถูกส่งไปยัง Skilled Guardian ที่ได้รับคำชมเชย
 203	SMT_CANT_DECOMPOSE_BIND_ITEM	แยกได้เฉพาะตัวละครที่ผูกมัดเท่านั้น
 203	SMT_CANNOT_INHERITANCE_BIND_ITEM	เปลี่ยนได้เฉพาะตัวละครที่ผูกมัดเท่านั้น
+203	SMT_CANNOT_FISHING_NON_BAIT	ต้องใส่เหยื่อก่อน
+202	SMT_CANNOT_FISHING_NON_AREA	ออกนอกเขตตกปลาแล้ว
+203	SMT_CANNOT_FISHING_FULL_INVEN	ไม่สามารถใช้ได้ เนื่องจากพื้นที่ในกระเป๋าไม่เพียงพอ
+203	SMT_CANNOT_FISHING_SERVERDOWN	ขณะนี้ไม่สามารถตกปลาได้
+202	SMT_FISHING_BITE_WAIT	กำลังตกปลา กรุณารอจนกว่าจะมีการตอบรับ 
+202	SMT_FISHING_BITE_STATE	มีบางอย่างติดเบ็ดแล้ว กรุณากดปุ่ม {ActionKey} เพื่อดึงปลาขึ้นมา จะตกปลาอัตโนมัติในอีก {autoWaitingTime} วินาที
+201	SMT_FISHING_RESULT_SUCCESS	ตกปลาสำเร็จแล้ว
+201	SMT_FISHING_RESULT_FAIL	การตกปลาล้มเหลว
+201	SMT_FISHING_RESULT_CANCLE	ยกเลิกการตกปลาแล้ว
+201	SMT_FISHING_MINIGAME_HOWTO	กรุณากด {ActionKey} เพื่อดึงปลาเข้ามาในขอบเขต
+201	SMT_FISHING_REWARD	ท่าน {UserName} ได้รับ {ItemName} จำนวน {ItemCount} ชิ้น
+203	SMT_DELIVERY_INFOR_RESET	รีเฟรชหน้าจอการส่งมอบ เนื่องจากมีการเปลี่ยนข้อมูล
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> ท่าน {UserName} ได้สั่นระฆัง Golden Bell แล้ว! <font color='#f7ff7a'>{AbnormalityName}</font>
