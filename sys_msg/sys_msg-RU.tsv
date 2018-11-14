@@ -667,7 +667,7 @@
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#40fb40'>{Name1}</font> убивает игрока <font color = '#ee1c24'>{Name2} из {GuildName2}</font>.
 201	SMT_CITYWAR_REWARD_RANKEXP	Война гильдий: В соответствии с рейтингом <font color = '#01ff96'>{WARRANK}</font> вы получаете в качестве награды <font color = '#01ff96'>+{EXPPOINT}</font> очков опыта гильдии.
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	Вы получили <font color = '#01ff96'>+{CPOINT}</font> за личный вклад в битве за город.
-202	SMT_CITYWAR_OPTIMIZE_OPTION	В зоне битвы за город автоматически используются оптимальные параметры отображения. Когда вы покинете битву, будут восстановлены ваши настройки графики.
+202	SMT_CITYWAR_OPTIMIZE_OPTION	Активирована функция оптимизации системных настроек. Если покинуть данную зону, произойдет возврат к исходным настройкам изображения. Данную функцию можно отключить в настройках игры в окне системных настроек.
 202	SMT_CITYWAR_START	<font color = '#ffee92'>Началась битва за город.</font>
 202	SMT_CITYWAR_NONPK_AREA	В этой зоне вы не можете использовать умение "Декларация разбойника".
 203	SMT_CLEAR_CURSE_FAILED	Вы не смогли снять проклятие.
@@ -813,7 +813,7 @@
 201	SMT_ENCHANT_FAILED	Не удалось зачаровать предмет "{ItemName}".
 201	SMT_ENCHANT_FAILED_CRI	Уровень зачарования предмета "{ItemName}" снизился на {Count}.
 201	SMT_ENCHANT_SUCCEED	Вы успешно зачаровали {ItemName}.
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	Вы зачаровали предмет до уровня +{Added}{ItemName}. Вы можете отвязать этот предмет при помощи свитка освобождения.
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	Вы успешно зачаровали {ItemName}. Отвязать можно с помощью особого предмета.
 201	SMT_END_COMPETITION_TIME	Состязание альянсов закончилось.
 201	SMT_END_SEASON	Сезон альянсов закончился.
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	Вы не соответствуете требованиям для входа в это подземелье.
@@ -825,13 +825,13 @@
 203	SMT_ENTER_FAILED_REASON_QUEST_PROGRESS	Для входа вы должны выполнять нужный этап задания "{QuestName}".
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER	У вас недостаточно участников рейда для входа.
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER_OVER	У вас слишком много игроков для входа.
-203	SMT_EP_CANT_LEARN_EP_PERK	Ошибка при получении особенности. Повторите попытку позже.
+203	SMT_EP_CANT_LEARN_EP_PERK	Ошибка при получении таланта. Повторите попытку позже.
 302	SMT_EP_CANT_OPEN_WINDOW_WHEN_ACTION	Во время перемещения и битвы открыть окно нельзя.
-302	SMT_EP_CANT_RESET_NO_USED_EP	Нет настроенных особенностей, поэтому сбросить настройки особенностей нельзя.
-302	SMT_EP_CANT_USE_RESET_EP_ITEM	На данный момент сбросить особенности нельзя.
-203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_MAX	Получить больше опыта особенностей нельзя.
-203	SMT_EP_CANT_EARN_EP_POINT	Нельзя получить больше очков особенностей.
-203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	Доступно только после активации особенностей.
+302	SMT_EP_CANT_RESET_NO_USED_EP	Нет настроенных талантов, поэтому сбросить настройки нельзя.
+302	SMT_EP_CANT_USE_RESET_EP_ITEM	На данный момент сбросить таланты нельзя.
+203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_MAX	Получить больше опыта талантов нельзя.
+203	SMT_EP_CANT_EARN_EP_POINT	Нельзя получить больше очков талантов.
+203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	Доступно только после активации талантов.
 203	SMT_EQUIPMENT_PRESET_CANT_FIND_ALLEQUIPMENT	Не удается найти часть деталей этого костюма.
 203	SMT_ESCAPE_FAILED_BUSY	Вы заняты. Сейчас вы не можете использовать функцию освобождения.
 203	SMT_EVENT_CANNOT_USE_NOT_ENOUGH_SPACE	Вы не можете использовать предмет "{ItemName}" здесь. Пожалуйста, попробуйте в другом месте.
@@ -1739,13 +1739,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	Выберите место для воскрешения, в противном случае вы будете автоматически воскрешены на своей базе через {Sec} сек.
 201	SMT_SAVE_SCREEN_SHOT	Снимок экрана сохранен в {Folder}.
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	Подпись сохранена в {Folder}.
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' >Одинаковые эффекты не суммируются.</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >Список случайных эффектов</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >Список случайных классовых эффектов</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font >Одинаковые эффекты не суммируются.</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font >Список случайных эффектов</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font >Список случайных классовых эффектов</font><br/><br/>
 203	SMT_SEAL_ERROR_GRADE	Вы не можете использовать предмет "{ItemName2}" на шедевральных и зачарованных предметах.
 203	SMT_SEAL_FAIL	Вам не удалось наложить на предмет "{ItemName}" новую печать энигмы.
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	Поздравляем! Предмет "{ItemName}" превратился в шедевр.
@@ -2076,10 +2076,10 @@
 203	SMT_YOU_CANT_RESET_DUNGEON_NO_NOTHING	Нет подземелья для сброса.
 203	SMT_YOU_MUST_DETACH_CRYSTAL	Удалите сначала все кристаллы, пожалуйста.
 203	SMT_EP_CANT_USE_ITEM_BY_LEVEL_MAX	Недостаточный уровень персонажа для использования.
-203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	Присутствует несохраненная настройка особенности.
+203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	Присутствует не сохраненная настройка таланта.
 203	SMT_CAN_MATCH_OVER_MIN_MEMBER_COUNT	Использовать подбор подземелий и арен можно от {number} игроков.
 203	SMT_CAN_MATCH_UNDER_MAX_MEMBER_COUNT	Использовать подбор подземелий и арен могут не больше {number} игроков.
-203	SMT_EP_EXP_TOOLTIP	Достигнуто {CurrentEpExpPercent}% опыта особенностей (В случае достижения 100% будет получено {EarnEp} очков особенностей)
+203	SMT_EP_EXP_TOOLTIP	Достигнуто {CurrentEpExpPercent}% опыта талантов (В случае достижения 100% будет получено {EarnEp} очков талантов).
 203	SMT_DUNGEON_WORK_SUCCESS_TITLE	Успех
 203	SMT_DUNGEON_WORK_FAIL_TITLE	Неудача
 203	SMT_YOU_CANT_RETRY_SOLO_DUNGEON	Вы использовали все попытки для входа в подземелье, повторить попытку нельзя.
@@ -2097,8 +2097,8 @@
 203	SMT_CANT_SETTING_SKILL_SCRIPT	Использовать данное приветствие нельзя.
 201	SMT_JACKPOT_DUNGEON_REWARD_MESSAGE1	Если пройти подземелье, будет получено: {ItemName} {amount} шт.
 201	SMT_JACKPOT_DUNGEON_START_MESSAGE	На этот раз в подземелье будет выдана дополнительная награда!
-203	SMT_EP_RESET_EP_PERK	Особенности обнулены.
-203	SMT_EP_CANT_RESET_EP_PERK	Ошибка при обнулении особенностей. Повторите попытку позже.
+203	SMT_EP_RESET_EP_PERK	Таланты обнулены.
+203	SMT_EP_CANT_RESET_EP_PERK	Ошибка при обнулении талантов. Повторите попытку позже.
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_SPAWN_USER	Обнаружен противник!
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_WARNING	!!!!
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_BOMB	Обнаружен самоубийца противника!
@@ -2140,7 +2140,7 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	Задание можно продолжить с удобного места.
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color = '#cccccc'>Вы автоматически воскреснете в выбранном месте.<br><font size='18' color = '#ffffff'>До воскрешения: <br><font size='20' color = '#ff0000'>{ReviveSec}</font> секунд.
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>Вы автоматически воскреснете в выбранном месте.<br><font color = '#ffffff'>До воскрешения: <br><font color = '#ff0000'>{ReviveSec}</font> секунд.
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Внимание] Можно принять срочное поручение гильдии: {questName}</font>. Цель скоро появится: {npcName} ({zoneName}, 1 канал).
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>Появляется</font><font color = '#fcb7ff'> {npcname}</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'>сбегает</font>.
@@ -2291,3 +2291,16 @@
 302	SMT_MENTOR_COMPLIMENT	Получена похвала. Хранители, получившие похвалу, получат дополнительную награду.
 203	SMT_CANT_DECOMPOSE_BIND_ITEM	Извлечь может только персонаж, которому принадлежит предмет.
 203	SMT_CANNOT_INHERITANCE_BIND_ITEM	Трансформировать может только персонаж, которому принадлежит предмет.
+203	SMT_CANNOT_FISHING_NON_BAIT	Необходимо использовать наживку.
+202	SMT_CANNOT_FISHING_NON_AREA	Вы покинули зону рыбалки.
+203	SMT_CANNOT_FISHING_FULL_INVEN	Недостаточно места в сумке - вы не можете собрать предметы.
+203	SMT_CANNOT_FISHING_SERVERDOWN	Сейчас заняться рыбалкой нельзя.
+202	SMT_FISHING_BITE_WAIT	Рыба ловится. Дождитесь поклевки.
+202	SMT_FISHING_BITE_STATE	Клюет. Нажмите клавишу {ActionKey}, чтобы подсечь. Через {autoWaitingTime} сек. рыба будет поймана автоматически.
+201	SMT_FISHING_RESULT_SUCCESS	Рыба поймана.
+201	SMT_FISHING_RESULT_FAIL	Поймать рыбу не удалось.
+201	SMT_FISHING_RESULT_CANCLE	Рыбалка отменена.
+201	SMT_FISHING_MINIGAME_HOWTO	Нажмите клавишу {ActionKey} и подтяните рыбу в указанную область.
+201	SMT_FISHING_REWARD	{UserName} получает {ItemName} {ItemCount} шт.
+203	SMT_DELIVERY_INFOR_RESET	Экран передачи предметов обновлен в связи с изменением информации.
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} бьет в золотой колокол! <font color = '#f7ff7a'>{AbnormalityName}</font>
