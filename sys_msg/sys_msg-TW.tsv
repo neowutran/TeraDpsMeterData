@@ -667,7 +667,7 @@
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>已將</font> <font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>擊殺了。</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	公會戰 <font color = '#01ff96'>{WARRANK}</font> 上獲得公會經驗值 <font color = '#01ff96'>+{EXPPOINT}</font> 作為獎勵。
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	獲得了<font color = '#01ff96'>+{CPOINT}</font>的公會戰參與貢獻度。
-202	SMT_CITYWAR_OPTIMIZE_OPTION	已套用公會戰自動優化。若退出該地區將會回到原始設定。
+202	SMT_CITYWAR_OPTIMIZE_OPTION	已套用系統設定自動優化。若退出該地區將會回到原始設定。該功能可在系統設定視窗的遊戲設定中解除。
 202	SMT_CITYWAR_START	<font color = '#ffee92'>公會戰已開始。</font>
 202	SMT_CITYWAR_NONPK_AREA	於該地區無法使用反叛者宣言技能。
 203	SMT_CLEAR_CURSE_FAILED	詛咒太強烈，解除咒語失敗了。
@@ -813,7 +813,7 @@
 201	SMT_ENCHANT_FAILED	{ItemName}強化失敗了。
 201	SMT_ENCHANT_FAILED_CRI	{ItemName}的強化數值已減少1。
 201	SMT_ENCHANT_SUCCEED	{ItemName}強化成功了。
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	 +{Added}{ItemName} 強化成功。可以使用解放道具而進行解放。
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	{ItemName} 強化成功了。可以使用解放道具而進行解放。
 201	SMT_END_COMPETITION_TIME	聯盟競爭已結束。
 201	SMT_END_SEASON	聯盟季賽已結束。
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	由於尚未符合進場條件，所以無法進入特殊空間。
@@ -1739,13 +1739,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	請選擇復活地點。未選擇時候，{Sec}秒後自動在要塞復活。
 201	SMT_SAVE_SCREEN_SHOT	截圖已儲存於{Folder}路徑。
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	在{Folder}路徑上儲存了.txt檔。
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' >強化隨機附屬效果上不會重複套用一樣的附屬效果。</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >可套用的強化隨機附屬效果列表</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >可套用的隨機被動附屬效果列表</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font >強化隨機附屬效果上不會重複套用一樣的附屬效果。</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font >可套用的強化隨機附屬效果列表</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font >可套用的隨機被動附屬效果列表</font><br/><br/>
 203	SMT_SEAL_ERROR_GRADE	名品或覺醒完成的道具上無法使用 {ItemName2}。
 203	SMT_SEAL_FAIL	{ItemName}的再封印已失敗。
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	恭喜你! {ItemName}判定為名品!
@@ -2140,7 +2140,7 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	此為已購買的商品
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	以目前的狀態無法使用商店。
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	已回朔到方便執行的階段，任務重新設置完畢。
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color = '#cccccc'>稍後將自動於下面所選的場所復活。<br><font size='18' color = '#ffffff'>復活剩餘時間<br> <font size='20' color = '#ff0000'>{ReviveSec}</font>秒
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>稍後將自動於下面所選的場所復活。<br><font color = '#ffffff'>復活剩餘時間<br> <font color = '#ff0000'>{ReviveSec}</font>秒
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[緊急] {questName}</font> 可接受公會任務。稍後在 <font color = '#fcb7ff'>{zoneName}(1頻道)</font>會出現 <font color = '#fcb7ff'>{npcName}</font> 。
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font>  <font color = '#fcb7ff'>已登場</font>。 
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font>  <font color = '#fcb7ff'>已逃亡</font> 。
@@ -2291,3 +2291,16 @@
 302	SMT_MENTOR_COMPLIMENT	完成稱讚。向獲得稱讚之熟練守護者轉交追加獎勵。 
 203	SMT_CANT_DECOMPOSE_BIND_ITEM	只有歸屬的角色可以分解。
 203	SMT_CANNOT_INHERITANCE_BIND_ITEM	只有歸屬的角色可以變化。
+203	SMT_CANNOT_FISHING_NON_BAIT	要先使用誘餌。
+202	SMT_CANNOT_FISHING_NON_AREA	已離開釣魚區域。
+203	SMT_CANNOT_FISHING_FULL_INVEN	背包空間不足，無法使用。
+203	SMT_CANNOT_FISHING_SERVERDOWN	現在無法釣魚。
+202	SMT_FISHING_BITE_WAIT	釣魚中。到有反應為止，請等待。
+202	SMT_FISHING_BITE_STATE	好像釣到什麼了。請按下 {ActionKey}鍵，將東西釣上來吧。	{autoWaitingTime}秒後，會自動把魚釣起。
+201	SMT_FISHING_RESULT_SUCCESS	釣魚成功。
+201	SMT_FISHING_RESULT_FAIL	釣魚失敗。
+201	SMT_FISHING_RESULT_CANCLE	釣魚已取消。
+201	SMT_FISHING_MINIGAME_HOWTO	請按下{ActionKey}鍵，將於拉到領域內。
+201	SMT_FISHING_REWARD	{UserName}獲得 {ItemName} {ItemCount}個。
+203	SMT_DELIVERY_INFOR_RESET	以資訊變更更新交付畫面。
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName}你敲響了黃金鐘! <font color = '#f7ff7a'>{AbnormalityName}</font>
