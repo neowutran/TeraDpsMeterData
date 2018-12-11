@@ -678,14 +678,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	Nicht in der Lage, Eure Sammelfertigkeit zu erhöhen.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	Dies wird bereits gesammelt.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	In der Insektenjagd habt Ihr die Stufe "{prof}" erreicht.
-201	SMT_COL_CHATLOG_ENERGY	In der Energiegewinnung habt Ihr die Stufe "{prof}" erreicht.
-201	SMT_COL_CHATLOG_HERB	Im Pflanzensammeln habt Ihr die Stufe "{prof}" erreicht.
-201	SMT_COL_CHATLOG_MINERAL	Im Bergbau habt Ihr die Stufe "{prof}" erreicht.
 201	SMT_COL_SYSMSG_PICK_CANCEL	Sammeln abgebrochen.
-201	SMT_COL_SYSMSG_PICK_FAIL	Sammeln gescheitert.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	Sammeln unterbrochen.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	Sammeln erfolgreich.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	Ihr habt Stufe {grade} im Pflanzen sammeln erreicht.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	Ihr habt Stufe {grade} im Bergbau erreicht.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	Ihr habt Stufe {grade} im Odem sammeln erreicht.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	Ihr habt nicht genug Gegenstände des Typs "{ItemName}".
 302	SMT_COMPENSATION_ACQUIRED	Belohnung erhalten!
 203	SMT_COMPENSATION_NOT_ACQUIRED	Keine Belohnung erhalten.
@@ -853,7 +850,6 @@
 203	SMT_FAILED_QUEST_COMPENSATION	Ihr könnt die Quest "{QuestName}" nicht fortsetzen: Euer Inventar ist voll, Ihr besitzt zu viel Geld oder Ihr habt Euer tägliches Questmaximum erreicht.
 203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Ihr könnt die Quest nur ausführen, wenn Ihr alle Fertigkeiten erlernt habt.
 201	SMT_FAIL_EXTRACT	Die Extraktion des Gegenstands "{ItemName}" ist gescheitert.
-201	SMT_FAIL_PRODUCE	Herstellung gescheitert: {ItemName}.
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	Ihr könnt keine Charakterverankerungen durch die Verwendung von {ItemName} hinzufügen, weil Ihr die Voraussetzungen nicht erfüllt.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	Erweiterung der Charakterplätze gescheitert.
 203	SMT_FAIL_UNION_PRODUCE	Ihr erfüllt nicht die Voraussetzungen für dieses Handwerk.
@@ -1163,8 +1159,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	Ihr könnt das Spiel nicht beenden, während Ihr Schaden erleidet.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	Ihr könnt den Gegenstand nicht benutzen, während Ihr Schaden erleidet.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Momentan laufen Events. Bitte besucht http://de.tera.gameforge.com für mehr Details.
-201	SMT_INCREASE_SKILL_PROF	Fertigkeitsstufe wurde erhöht.
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName} wurde um {SkillProf} erhöht.
 201	SMT_INCREASE_SKILL_RANK	{Skill} hat nun die Stufe {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Ein zusätzlicher Charakterplatz wurde hinzugefügt.
 201	SMT_INGAMESTORE_BASKET_ADDED	Der ausgewählte Gegenstand wurde in Eurem Warenkorb abgelegt.
@@ -1853,7 +1847,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	Ihr habt Euch zusätzliche Questbelohnungen verdient.
 201	SMT_SUCCESS_CHANGE_TAX	Der Steuersatz wurde geändert.
 201	SMT_SUCCESS_EXTRACT	"{ItemName}" erfolgreich extrahiert.
-201	SMT_SUCCESS_PRODUCE	Hergestellt: {ItemName}.
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Mit Euren außergewöhnlichen handwerklichen Fähigkeiten habt Ihr Euch Bonusmaterialien verdient.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	Eure Beschwörung von {UserName} ist gescheitert.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} ist tot und kann nicht beschworen werden.
@@ -2021,7 +2014,7 @@
 203	SMT_USE_ITEM_NO_EXIST	Dieser Gegenstand ist Euch ausgegangen.
 203	SMT_USE_ITEM_RACE_MISMATCH	Dieser Gegenstand steht Eurem Volk nicht zur Verfügung.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	Ihr könnt dies jetzt nicht benutzen.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	{Num} Produktionspunkte wiederhergestellt. Produktionspunkte können 4.000 nicht überschreiten.
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	{Num} Produktionspunkte wiederhergestellt. Produktionspunkte können {maxFatiguePoint} nicht überschreiten.
 201	SMT_USE_SKILL_CANCEL	Fertigkeit abgebrochen.
 302	SMT_USING_ACCOUNT_BENEFIT	Kontotyp: {AccountBenefitName}
 203	SMT_VENDER_CANT_OFF_IS_USE	Ihr könnt keinen Laden schließen, in dem sich Gegenstände auf Lager befinden. Bitte entnehmt die Gegenstände und versucht es erneut.
@@ -2300,7 +2293,8 @@
 201	SMT_FISHING_RESULT_SUCCESS	Ihr habt erfolgreich geangelt.
 201	SMT_FISHING_RESULT_FAIL	Angeln ist fehlgeschlagen.
 201	SMT_FISHING_RESULT_CANCLE	Ihr habt das Angeln abgebrochen.
-201	SMT_FISHING_MINIGAME_HOWTO	Zieht den Fisch mit der Taste {ActionKey} in das Angelgebiet.
+201	SMT_FISHING_MINIGAME_HOWTO	Zieht den Fisch mit der Taste {ActionKey} in das sichere Angelgebiet.
 201	SMT_FISHING_REWARD	{UserName} hat {ItemName} verwendet und {ItemCount} erhalten.
 203	SMT_DELIVERY_INFOR_RESET	Das Liefer-Fenster wurde neu geladen.
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} hat die Goldglocke geläutet. <font color = '#f7ff7a'>{AbnormalityName}</font>
+201	SMT_CANT_SAVE_SCREENSHOT	Der Screenshot wurde nicht gespeichert.

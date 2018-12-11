@@ -678,14 +678,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	Ne peut pas augmenter votre compétence de collecte.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	Collecte déjà en cours.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	Votre chasse aux insectes est passée à {prof}.
-201	SMT_COL_CHATLOG_ENERGY	Votre extraction d'énergie est passée à {prof}.
-201	SMT_COL_CHATLOG_HERB	Votre collecte de plantes est passée à {prof}.
-201	SMT_COL_CHATLOG_MINERAL	Votre minage est passé à {prof}.
 201	SMT_COL_SYSMSG_PICK_CANCEL	Collecte annulée.
-201	SMT_COL_SYSMSG_PICK_FAIL	Échec de la collecte.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	Collecte interrompue.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	Collecte réussie.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	Vous avez atteint le niveau {grade} pour la collecte des plantes.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	Vous avez atteint le niveau {grade} pour le minage.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	Vous avez atteint le niveau {grade} pour la collecte de flux.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	Vous n'avez plus de {ItemName}.
 302	SMT_COMPENSATION_ACQUIRED	Récompense obtenue !
 203	SMT_COMPENSATION_NOT_ACQUIRED	Récompense perdue.
@@ -853,7 +850,6 @@
 203	SMT_FAILED_QUEST_COMPENSATION	Vous ne pouvez plus avancer dans la quête "{QuestName}" parce que votre inventaire est plein, que vous ne pouvez pas porter plus d'or ou que vous avez atteint la limite de quêtes journalières.
 203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Vous devez avoir appris toutes les compétences pour pouvoir réaliser cette quête.
 201	SMT_FAIL_EXTRACT	Échec de l'extraction de l'objet : {ItemName}
-201	SMT_FAIL_PRODUCE	Échec dans la fabrication de {ItemName}
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	Vous ne pouvez pas ajoutez d'emplacement de personnage à l'aide de {ItemName} car vous ne remplissez pas les conditions nécessaires.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	Échec de l'ajout de l'emplacement de personnage supplémentaire.
 203	SMT_FAIL_UNION_PRODUCE	Vous ne remplissez pas les conditions requises pour cette fabrication.
@@ -1163,8 +1159,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	Vous ne pouvez pas quitter le jeu pendant que vous subissez des dégâts.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	Vous ne pouvez pas utiliser d'objet pendant que vous subissez des dégâts.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Des évènements sont en cours. Pour en savoir plus, rendez-vous sur http://fr.tera.gameforge.com.
-201	SMT_INCREASE_SKILL_PROF	Niveau de compétence augmenté.
-201	SMT_INCREASE_SKILL_PROF_MORE	Votre {SkillName} a augmenté de {SkillProf}.
 201	SMT_INCREASE_SKILL_RANK	{Skill} est désormais de rang {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Emplacement de personnage supplémentaire ajouté.
 201	SMT_INGAMESTORE_BASKET_ADDED	L'objet sélectionné a été ajouté à votre panier.
@@ -1853,7 +1847,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	Vous obtenez des récompenses de quêtes supplémentaires.
 201	SMT_SUCCESS_CHANGE_TAX	Le taux de taxe a été modifié.
 201	SMT_SUCCESS_EXTRACT	Extraction de {ItemName} réussie.
-201	SMT_SUCCESS_PRODUCE	Objet fabriqué : {ItemName}
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Votre impressionnante habileté artisanale a produit des matériaux bonus.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	Échec de l'invocation de {UserName}.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} est mort et ne peut être invoqué.
@@ -2021,7 +2014,7 @@
 203	SMT_USE_ITEM_NO_EXIST	Vous n'avez plus d'objet de ce type.
 203	SMT_USE_ITEM_RACE_MISMATCH	Cet objet n'est pas accessible à votre race.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	Vous ne pouvez pas utiliser ceci maintenant.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	{Num} points de production restaurés. Le nombre de points de production ne peut excéder 4 000.
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	{Num} points de production restaurés. Le nombre de points de production ne peut excéder {maxFatiguePoint}.
 201	SMT_USE_SKILL_CANCEL	Compétence annulée.
 302	SMT_USING_ACCOUNT_BENEFIT	Type de compte : {AccountBenefitName}
 203	SMT_VENDER_CANT_OFF_IS_USE	Vous ne pouvez pas fermer boutique si vous avez des objets en stock. Récupérez-les puis réessayez.
@@ -2300,7 +2293,8 @@
 201	SMT_FISHING_RESULT_SUCCESS	Vous avez réussi à pêcher.
 201	SMT_FISHING_RESULT_FAIL	La pêche a échoué.
 201	SMT_FISHING_RESULT_CANCLE	Vous avez interrompu votre partie de pêche.
-201	SMT_FISHING_MINIGAME_HOWTO	Tirez le poisson en appuyant sur la touche {ActionKey} dans la zone de pêche.
+201	SMT_FISHING_MINIGAME_HOWTO	Tirez le poisson dans la zone de pêche sûre en appuyant sur la touche {ActionKey}.
 201	SMT_FISHING_REWARD	{UserName} a utilisé {ItemName} et obtenu {ItemCount}.
 203	SMT_DELIVERY_INFOR_RESET	La fenêtre de livraison a été actualisée.
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} a fait tinter la cloche dorée. <font color = '#f7ff7a'>{AbnormalityName}</font>
+201	SMT_CANT_SAVE_SCREENSHOT	La capture d'écran n'a pas été enregistrée.
