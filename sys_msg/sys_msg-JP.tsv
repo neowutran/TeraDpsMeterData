@@ -678,14 +678,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	採集対象のランクが低いため、採集熟練度は上昇しません。
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	他のプレイヤーが採集中です
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	昆虫採集の熟練度が{prof}ポイントに上昇しました。
-201	SMT_COL_CHATLOG_ENERGY	精気採集の熟練度が{prof}ポイントに上昇しました。
-201	SMT_COL_CHATLOG_HERB	植物採集の熟練度が{prof}ポイントに上昇しました。
-201	SMT_COL_CHATLOG_MINERAL	鉱物採集の熟練度が{prof}ポイントに上昇しました。
 201	SMT_COL_SYSMSG_PICK_CANCEL	採集をキャンセルしました。
-201	SMT_COL_SYSMSG_PICK_FAIL	採集に失敗しました。
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	採集が中断されました。
-201	SMT_COL_SYSMSG_PICK_SUCCESS	採集に成功しました。
+201	SMT_COL_SYSMSG_UPGRADE_HERB	植物採集レベル{grade}になりました。
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	鉱石採集レベル{grade}になりました。
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	精気採集レベル{grade}になりました。
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	{itemName}が足りないため使用できません。
 302	SMT_COMPENSATION_ACQUIRED	報酬獲得！
 203	SMT_COMPENSATION_NOT_ACQUIRED	報酬獲得失敗！
@@ -813,7 +810,7 @@
 201	SMT_ENCHANT_FAILED	{ItemName}の強化に失敗しました。
 201	SMT_ENCHANT_FAILED_CRI	{ItemName}の強化段階が{Count}減少しました。
 201	SMT_ENCHANT_SUCCEED	{ItemName}の強化に成功しました。
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	{ItemName}の強化に成功しました。解放アイテムを使用して解放できるようになりました。
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	{ItemName}の強化に成功しました。解放アイテムを使用して解放させることができます。
 201	SMT_END_COMPETITION_TIME	連盟争奪戦が終了しました。
 201	SMT_END_SEASON	連盟のシーズンが終了しました。
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	条件を満たしていないため、入場できません。
@@ -853,7 +850,6 @@
 203	SMT_FAILED_QUEST_COMPENSATION	【{QuestName}】クエストを完了できません。
 203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	スキルをすべて習得した状態でのみ、クエストを進行できます
 201	SMT_FAIL_EXTRACT	{ItemName}の抽出に失敗しました。
-201	SMT_FAIL_PRODUCE	{Item}の製作に失敗しました。
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	{ItemName}は、追加キャラクタースロットを拡張できるアイテムではありません。条件に合った他のアイテムを使用してください。
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	スロット追加に失敗しました。
 203	SMT_FAIL_UNION_PRODUCE	このアイテムを製作する条件が足りません。
@@ -1163,8 +1159,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	制裁中はゲームを終了することができません。
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	制裁中はアイテムを使用することができません。
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	イベントが進行中です。詳しい内容は公式ページをご確認ください。
-201	SMT_INCREASE_SKILL_PROF	熟練度が上昇しました。
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName}の熟練度が{SkillProf}上がりました。
 201	SMT_INCREASE_SKILL_RANK	{Skill}が{Rank}ランクになりました。
 201	SMT_INCREMENT_CHARACTER_SOCKET	スロットを追加しました。
 201	SMT_INGAMESTORE_BASKET_ADDED	ショッピングカートに追加しました
@@ -1853,7 +1847,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	クエストの追加報酬を受け取る条件を達成しました。
 201	SMT_SUCCESS_CHANGE_TAX	税率が正常に適用されました。
 201	SMT_SUCCESS_EXTRACT	{ItemName}の抽出に成功しました。
-201	SMT_SUCCESS_PRODUCE	{ItemName}を製作しました。
 201	SMT_SUCCESS_PRODUCE_CRITICAL	いいものができそうだ。
 203	SMT_SUMMON_FAIL_IS_PEGASUS	{UserName}の召喚に失敗しました。
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName}は死亡状態です。召喚に失敗しました。
@@ -2021,7 +2014,7 @@
 203	SMT_USE_ITEM_NO_EXIST	数が残っていないため使用できません。
 203	SMT_USE_ITEM_RACE_MISMATCH	種族が違うため使用できません。
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	状態条件に合わないため使用できません。
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	生産力が{Num}回復しました。生産力の最大値は4,000ポイントです。
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	生産力を{Num}回復しました。（上限：最大生産力{maxFatiguePoint}）
 201	SMT_USE_SKILL_CANCEL	スキルの使用をキャンセルしました。
 302	SMT_USING_ACCOUNT_BENEFIT	{AccountBenefitName}を利用中です。
 203	SMT_VENDER_CANT_OFF_IS_USE	商店での取引中は終了できません。取引を中断してからお試しください。
@@ -2292,15 +2285,16 @@
 203	SMT_CANT_DECOMPOSE_BIND_ITEM	帰属されたキャラクターだけ分解できます。
 203	SMT_CANNOT_INHERITANCE_BIND_ITEM	帰属されたキャラクターだけが変換できます。
 203	SMT_CANNOT_FISHING_NON_BAIT	餌を使用してください。
-202	SMT_CANNOT_FISHING_NON_AREA	釣り地域を離れました。
+202	SMT_CANNOT_FISHING_NON_AREA	釣り場から離脱しました
 203	SMT_CANNOT_FISHING_FULL_INVEN	かばんの空きスロットが不足しているため、使用できません。
 203	SMT_CANNOT_FISHING_SERVERDOWN	現在は「釣り」を発動できません。
-202	SMT_FISHING_BITE_WAIT	待機中
+202	SMT_FISHING_BITE_WAIT	ヒットがあるまで待機します
 202	SMT_FISHING_BITE_STATE	ヒットしました！　{ActionKey}キーを押して釣り上げてください。	{autoWaitingTime}秒経過すると、自動で魚を釣り上げます。
-201	SMT_FISHING_RESULT_SUCCESS	成功
-201	SMT_FISHING_RESULT_FAIL	失敗
-201	SMT_FISHING_RESULT_CANCLE	中断
-201	SMT_FISHING_MINIGAME_HOWTO	エリア内に獲物が入ったとき、{ActionKey}キーを押して引き寄せます
+201	SMT_FISHING_RESULT_SUCCESS	獲物を釣り上げました
+201	SMT_FISHING_RESULT_FAIL	釣り上げに失敗しました
+201	SMT_FISHING_RESULT_CANCLE	釣りを中断しました
+201	SMT_FISHING_MINIGAME_HOWTO	エリア内に獲物が入るように、{ActionKey}キーを押して操作します
 201	SMT_FISHING_REWARD	{UserName}様が{ItemName}を{ItemCount}個獲得しました
 203	SMT_DELIVERY_INFOR_RESET	日付変更に伴い、納品画面が更新されました。
-202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName}様がゴールデンベールを鳴らしました！<font color = '#f7ff7a'>{AbnormalityName}</font>
+202	SMT_GOLDENBELL_MESSAGE	{UserName}様がすべての守護者に幸せを呼び寄せました。
+201	SMT_CANT_SAVE_SCREENSHOT	スクリーンショット保存に失敗しました。
