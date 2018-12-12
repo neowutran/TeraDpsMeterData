@@ -300,7 +300,7 @@
 203	SMT_CANNOT_DELETE_THISITEM	Невозможно выбросить предмет: {ItemName}.
 203	SMT_CANNOT_DO_THIS_HERE	Вы не можете это здесь сделать.
 203	SMT_CANNOT_DUNGEONMATCHING_ERROR	Жнецы должны быть как минимум 58-го уровня для входа в это подземелье.
-203	SMT_CANNOT_ENCHANT_IN_BATTLE	Вы сейчас не можете заниматься обработкой.
+203	SMT_CANNOT_ENCHANT_IN_BATTLE	Вы сейчас не можете заниматься отделкой.
 203	SMT_CANNOT_EQUIP_THISITEM	Невозможно надеть или взять в руки: {ItemName}.
 203	SMT_CANNOT_FOLLOW	Вы не можете следовать за игроком "{UserName}".
 203	SMT_CANNOT_GAIN_REPUTATION_POINT_BY_MAXLIMIT	{NpcGuildName}: Вы набрали максимальное количество медалей. Вы не сможете заработать больше медалей.
@@ -678,14 +678,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	Данный ресурс не повысит ваш уровень сбора.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	Уже собирается.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	Ваш навык охоты на жуков увеличился до уровня {prof}.
-201	SMT_COL_CHATLOG_ENERGY	Ваш навык сбора эссенции увеличился до уровня {prof}.
-201	SMT_COL_CHATLOG_HERB	Ваш навык сбора растений увеличился до уровня {prof}.
-201	SMT_COL_CHATLOG_MINERAL	Ваш навык добычи руды увеличился до уровня {prof}.
 201	SMT_COL_SYSMSG_PICK_CANCEL	Сбор отменен.
-201	SMT_COL_SYSMSG_PICK_FAIL	Собрать не удалось.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	Сбор прерван.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	Успешный сбор.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	Уровень сбора растений повышен до {grade}.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	Уровень добычи руды повышен до {grade}.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	Уровень сбора энергии повышен до {grade}.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	Предметы "{ItemName}" кончились.
 302	SMT_COMPENSATION_ACQUIRED	Получена награда!
 203	SMT_COMPENSATION_NOT_ACQUIRED	Награда не получена.
@@ -853,7 +850,6 @@
 203	SMT_FAILED_QUEST_COMPENSATION	Вы не можете выполнить задание "{QuestName}": в сумке недостаточно места, либо достигнут лимит количества валюты/ежедневных заданий.
 203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Задание можно выполнить только после получения всех умений.
 201	SMT_FAIL_EXTRACT	Не удалось извлечь: "{ItemName}".
-201	SMT_FAIL_PRODUCE	Не удалось создать: "{ItemName}".
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	Вы не можете добавлять ячейки персонажей с помощью {ItemName}, поскольку не соответствуете требованиям.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	Не удалось создать дополнительный слот для персонажа.
 203	SMT_FAIL_UNION_PRODUCE	Вы не соответствуете требованиям для работы над этим предметом.
@@ -1163,8 +1159,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	Вы не можете закончить игру, пока получаете урон.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	Вы не можете использовать предмет, пока получаете урон.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Проводится событие! Посетите сайт http://www.tera-online.ru/ для получения дополнительной информации. 
-201	SMT_INCREASE_SKILL_PROF	Уровень умения повышен.
-201	SMT_INCREASE_SKILL_PROF_MORE	Умение "{SkillName}" повышено на {SkillProf}.
 201	SMT_INCREASE_SKILL_RANK	Умение "{Skill}" теперь {Rank} уровня.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Добавлен дополнительный слот для персонажа.
 201	SMT_INGAMESTORE_BASKET_ADDED	Выбранный предмет сохранен в вашей корзине.
@@ -1853,7 +1847,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	Вы заработали дополнительные награды за задание!
 201	SMT_SUCCESS_CHANGE_TAX	Ставка налогов изменилась.
 201	SMT_SUCCESS_EXTRACT	Успешно извлечено: {ItemName}.
-201	SMT_SUCCESS_PRODUCE	Создано: {ItemName}.
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Ваша замечательная работа принесла дополнительные материалы.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	Не удалось призвать игрока "{UserName}".
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} мертв(а) и не может быть призван(а).
@@ -2021,7 +2014,7 @@
 203	SMT_USE_ITEM_NO_EXIST	У вас кончились такие предметы.
 203	SMT_USE_ITEM_RACE_MISMATCH	Этот предмет нельзя использовать персонажам вашей расы.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	Сейчас вы не можете это использовать.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	Восстановлено {Num} очков производства. Очков производства не может быть больше 4 000. 
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	Восстановлено {Num} очков производства. Очки производства не могут превысить {maxFatiguePoint} очков.
 201	SMT_USE_SKILL_CANCEL	Умение отменено.
 302	SMT_USING_ACCOUNT_BENEFIT	Учетная запись "{AccountBenefitName}".
 203	SMT_VENDER_CANT_OFF_IS_USE	Вы не можете закрыть магазин с предметами. Пожалуйста, заберите предметы и попробуйте снова.
@@ -2296,7 +2289,7 @@
 203	SMT_CANNOT_FISHING_FULL_INVEN	Недостаточно места в сумке - вы не можете собрать предметы.
 203	SMT_CANNOT_FISHING_SERVERDOWN	Сейчас заняться рыбалкой нельзя.
 202	SMT_FISHING_BITE_WAIT	Рыба ловится. Дождитесь поклевки.
-202	SMT_FISHING_BITE_STATE	Клюет. Нажмите клавишу {ActionKey}, чтобы подсечь. Через {autoWaitingTime} сек. рыба будет поймана автоматически.
+202	SMT_FISHING_BITE_STATE	Клюет. Нажмите клавишу {ActionKey}, чтобы подсечь. Через {autoWaitingTime} мин. рыба будет поймана автоматически.
 201	SMT_FISHING_RESULT_SUCCESS	Рыба поймана.
 201	SMT_FISHING_RESULT_FAIL	Поймать рыбу не удалось.
 201	SMT_FISHING_RESULT_CANCLE	Рыбалка отменена.
@@ -2304,3 +2297,4 @@
 201	SMT_FISHING_REWARD	{UserName} получает {ItemName} {ItemCount} шт.
 203	SMT_DELIVERY_INFOR_RESET	Экран передачи предметов обновлен в связи с изменением информации.
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} бьет в золотой колокол! <font color = '#f7ff7a'>{AbnormalityName}</font>
+201	SMT_CANT_SAVE_SCREENSHOT	Ошибка сохранения снимка экрана.
