@@ -615,7 +615,7 @@
 4402	XPBoost	Buff	True	perc	2147483647	0	2	[好友邀請優惠] 追加發送100%經驗值  	81174	經驗值100%額外提供卷軸	受到好友邀請優惠，30天內狩獵時經驗值額外獲得$H_W_GOOD100%$COLOR_END。其他種類的經驗值提升卷軸使用時，效果重複套用，下線後時間仍持續計算。	icon_status.vitality_tex	icon_status.vitality_tex	True
 4403	OutOfCombatMovSpd	Buff	True	abs	1000	0	0	好心情打招呼_若顯示就是Bug			若顯示就是Bug	icon_skills.greeting_tex	icon_skills.greeting_tex	False
 4404	Power	Buff	True	perc	604800000	0	1.1	[好友邀請優惠] 增加攻擊力10%效果	81227	攻擊力強化試藥	請感受一下驚心動魄的攻擊手感！7天內攻擊時攻擊力增加$H_W_GOOD10%$COLOR_END。其他種類的攻擊力增加道具使用時，效果重複套用，下線後時間仍持續計算。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
-4405	322	Buff	True	perc	3600000	0	2	製作的樂趣	1772	製作熟練度高速成長 100 (1小時)	武器，防具，消耗品，魔法刻印石的熟練度在500以下時，可獲得製作時2倍熟練度。	icon_items.small_insecta8_tex	icon_items.small_insecta8_tex	True
+4405	322	Buff	True	perc	3600000	0	2	製作的樂趣	1772	製作熟練度高速成長 100 (1小時)	煉金、精鍊、加工、刻印的熟練度在500以下時，可獲得製作時2倍熟練度。	icon_items.small_insecta8_tex	icon_items.small_insecta8_tex	True
 4500	XPBoost	Buff	True	perc	0	0	1.1	高速成長			狩獵時獲得經驗值增加$H_W_GOOD10%$COLOR_END。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
 4501	XPBoost	Buff	True	perc	0	0	1.2	高速成長			狩獵時獲得經驗值增加$H_W_GOOD20%$COLOR_END。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
 4502	XPBoost	Buff	True	perc	0	0	1.3	高速成長			狩獵時獲得經驗值增加$H_W_GOOD30%$COLOR_END。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
@@ -1357,57 +1357,211 @@
 60030	MPChange	Buff	True	perc	10000	1	0.03	集中精神 I			每 $H_W_GOOD1s$COLOR_END持續恢復 $H_W_GOOD3%$COLOR_END的 MP。	icon_skills.neutralizepoison_tex	icon_skills.neutralizepoison_tex	True
 60031	MPChange	Buff	True	perc	10000	1	0.07	集中精神 III			每$H_W_GOOD1s$COLOR_END持續恢復$H_W_GOOD7%$COLOR_END的MP。	icon_skills.neutralizepoison_tex	icon_skills.neutralizepoison_tex	True
 60032	MPChange	Buff	True	perc	10000	1	0.09	集中精神 IV			每$H_W_GOOD1s$COLOR_END持續恢復$H_W_GOOD9%$COLOR_END的MP。	icon_skills.neutralizepoison_tex	icon_skills.neutralizepoison_tex	True
-70201	MaxHP	Buff	True	perc	900000	0	1.05	爆米花	71415	爆米花	最大HP增加$H_W_GOOD5%$COLOR_END。	icon_items.fallfestival_popcorn_tex	icon_items.fallfestival_popcorn_tex	True
-70202	HPChange	Buff	True	perc	900000	5	0.01	馬鈴薯沙拉	71416	馬鈴薯沙拉	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP。	icon_items.fallfestival_potatosalad_tex	icon_items.fallfestival_potatosalad_tex	True
-70203	MPChange	Buff	True	perc	900000	5	0.01	煙燻肉	71417	煙燻肉	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP。	icon_items.q_roastmeat_tex	icon_items.q_roastmeat_tex	True
-70211	MaxHP	Buff	True	perc	900000	0	1.05	花椰菜濃湯	71413	花椰菜濃湯	最大HP增加$H_W_GOOD5%$COLOR_END，暴擊觸發增加$H_W_GOOD10$COLOR_END。	icon_items.fallfestival_broccolisoup_tex	icon_items.fallfestival_broccolisoup_tex	True
-70211	Crit	Buff	True	abs	900000	0	10	花椰菜濃湯	71413	花椰菜濃湯	最大HP增加$H_W_GOOD5%$COLOR_END，暴擊觸發增加$H_W_GOOD10$COLOR_END。	icon_items.fallfestival_broccolisoup_tex	icon_items.fallfestival_broccolisoup_tex	True
-70212	Endurance	Buff	True	abs	900000	0	1	南瓜馬芬蛋糕	71414	南瓜馬芬蛋糕	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP，且抗打增加$H_W_GOOD1$COLOR_END。	icon_items.fallfestival_pumpkinmuffin_tex	icon_items.fallfestival_pumpkinmuffin_tex	True
-70212	HPChange	Buff	True	perc	900000	5	0.01	南瓜馬芬蛋糕	71414	南瓜馬芬蛋糕	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP，且抗打增加$H_W_GOOD1$COLOR_END。	icon_items.fallfestival_pumpkinmuffin_tex	icon_items.fallfestival_pumpkinmuffin_tex	True
-70213	Power	Buff	True	abs	900000	0	1	蔓越莓餅乾	71420	蔓越莓餅乾	每$H_W_GOOD5s$COLOR_END持續恢復H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD1$COLOR_END。	icon_items.fallfestival_cookies_tex	icon_items.fallfestival_cookies_tex	True
-70213	MPChange	Buff	True	perc	900000	5	0.01	蔓越莓餅乾	71420	蔓越莓餅乾	每$H_W_GOOD5s$COLOR_END持續恢復H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD1$COLOR_END。	icon_items.fallfestival_cookies_tex	icon_items.fallfestival_cookies_tex	True
-70221	MaxHP	Buff	True	perc	900000	0	1.05	烤羊肉	71418	烤羊肉	最大HP增加$H_W_GOOD5%$COLOR_END，暴擊觸發增加$H_W_GOOD20$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_bulgogi_tex	icon_items.fallfestival_bulgogi_tex	True
-70221	Crit	Buff	True	abs	900000	0	20	烤羊肉	71418	烤羊肉	最大HP增加$H_W_GOOD5%$COLOR_END，暴擊觸發增加$H_W_GOOD20$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_bulgogi_tex	icon_items.fallfestival_bulgogi_tex	True
-70221	ASpd	Buff	True	abs	900000	0	3	烤羊肉	71418	烤羊肉	最大HP增加$H_W_GOOD5%$COLOR_END，暴擊觸發增加$H_W_GOOD20$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_bulgogi_tex	icon_items.fallfestival_bulgogi_tex	True
-70222	Endurance	Buff	True	abs	900000	0	2	鴕鳥胸肉沙拉	71419	鴕鳥胸肉沙拉	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP，且抗打增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
-70222	ASpd	Buff	True	abs	900000	0	3	鴕鳥胸肉沙拉	71419	鴕鳥胸肉沙拉	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP，且抗打增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
-70222	HPChange	Buff	True	perc	900000	5	0.01	鴕鳥胸肉沙拉	71419	鴕鳥胸肉沙拉	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP，且抗打增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
-70223	Power	Buff	True	abs	900000	0	2	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
-70223	ASpd	Buff	True	abs	900000	0	3	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
-70223	MPChange	Buff	True	perc	900000	5	0.01	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP，且力量增加$H_W_GOOD2$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
-70224	MaxHP	Buff	True	perc	900000	0	1.1	超硬質刀片	201959	超硬質刀片	最大HP $H_W_GOOD10%$COLOR_END 增加，爆擊觸發 $H_W_GOOD20$COLOR_END，攻擊速度 $H_W_GOOD3$COLOR_END增加。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
-70224	Crit	Buff	True	abs	900000	0	20	超硬質刀片	201959	超硬質刀片	最大HP $H_W_GOOD10%$COLOR_END 增加，爆擊觸發 $H_W_GOOD20$COLOR_END，攻擊速度 $H_W_GOOD3$COLOR_END增加。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
-70224	ASpd	Buff	True	abs	900000	0	3	超硬質刀片	201959	超硬質刀片	最大HP $H_W_GOOD10%$COLOR_END 增加，爆擊觸發 $H_W_GOOD20$COLOR_END，攻擊速度 $H_W_GOOD3$COLOR_END增加。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
-70231	MaxHP	Buff	True	perc	900000	0	1.05	利卡諾勒火花沙拉	71423	利卡諾勒火花沙拉	最大HP、MP提升$H_W_GOOD5%$COLOR_END。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
-70231	MaxMP	Buff	True	perc	900000	0	1.05	利卡諾勒火花沙拉	71423	利卡諾勒火花沙拉	最大HP、MP提升$H_W_GOOD5%$COLOR_END。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
-70232	CritResist	Buff	True	abs	900000	0	20	貝里克翅膀	71424	貝里克翅膀	爆擊抵抗提升$H_W_GOOD20$COLOR_END。	icon_items.fallfestival_wing_tex	icon_items.fallfestival_wing_tex	True
-70233	IncreasedHeal	Buff	True	perc	900000	0	1.09	凱亞多勒正統烤肉			套用HP恢復效果時，HP恢復量增加$H_W_GOOD9%$COLOR_END。	icon_items.pigling_ribs_tex	icon_items.pigling_ribs_tex	True
-70234	Drunk	Buff	True	60032	10000	1	0	利卡諾勒啤酒	80078	利卡諾勒啤酒	10s內，心情會變得很好，但是會暈眩。	icon_items.solventd15_tex	icon_items.solventd15_tex	True
-70235	Drunk	Buff	True	60032	10000	1	0	覆盆子酒	80079	覆盆子酒	10s內，心情會變得很好，但是會暈眩。	icon_items.solventa12_tex	icon_items.solventa12_tex	True
-70236	KnockDownChance	Buff	True	perc	10000	0	0	天蓮花酒	80080	天蓮花酒	10s 內，對擊倒和僵硬可以$H_W_GOOD100%$COLOR_END 扺抗，但是會暈眩。	icon_items.solventf16_tex	icon_items.solventf16_tex	True
-70236	Drunk	Buff	True	60032	10000	1	0	天蓮花酒	80080	天蓮花酒	10s 內，對擊倒和僵硬可以$H_W_GOOD100%$COLOR_END 扺抗，但是會暈眩。	icon_items.solventf16_tex	icon_items.solventf16_tex	True
-70236	StatusImmune	Buff	True	swch	10000	0	0	天蓮花酒	80080	天蓮花酒	10s 內，對擊倒和僵硬可以$H_W_GOOD100%$COLOR_END 扺抗，但是會暈眩。	icon_items.solventf16_tex	icon_items.solventf16_tex	True
-70237	ASpd	Buff	True	abs	10000	0	20	萊納式黑啤酒	80081	萊納式黑啤酒	10s 內，攻擊速度增加$H_W_GOOD20$COLOR_END，但是會暈眩。	icon_items.solventc15_tex	icon_items.solventc15_tex	True
-70237	Drunk	Buff	True	60032	10000	1	0	萊納式黑啤酒	80081	萊納式黑啤酒	10s 內，攻擊速度增加$H_W_GOOD20$COLOR_END，但是會暈眩。	icon_items.solventc15_tex	icon_items.solventc15_tex	True
-70238	Endurance	Buff	True	abs	10000	0	10	塔克式蜂蜜南瓜酒	80082	塔克式蜂蜜南瓜酒	10s 內，抗打增加$H_W_GOOD10$COLOR_END，但是會暈眩。	icon_items.solventd5_tex	icon_items.solventd5_tex	True
-70238	Drunk	Buff	True	60032	10000	1	0	塔克式蜂蜜南瓜酒	80082	塔克式蜂蜜南瓜酒	10s 內，抗打增加$H_W_GOOD10$COLOR_END，但是會暈眩。	icon_items.solventd5_tex	icon_items.solventd5_tex	True
-70239	Stamina	Buff	True	abs	1000	0	0	利卡諾勒火花沙拉			最大健康狀態提升$H_W_GOOD0$COLOR_END。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	False
-70240	StaminaDecay	Buff	True	seta	1000	0	0	貝里克翅膀			效果持續時間內，健康狀態不會減少。	icon_items.fallfestival_wing_tex	icon_items.fallfestival_wing_tex	False
-70241	IncreasedHeal	Buff	True	perc	10000	0	1.09	凱亞多勒正統烤肉			套用HP恢復效果時，HP恢復量增加 $H_W_GOOD9%$COLOR_END。	icon_items.pigling_ribs_tex	icon_items.pigling_ribs_tex	True
-70245	MaxHP	Buff	True	perc	900000	0	1.05	高級利卡諾勒火花沙拉			最大 HP $H_W_GOOD5%$COLOR_END 最大MP $H_W_GOOD10%$COLOR_END 提升，每$H_W_GOOD5$COLOR_END整體MP持續恢復 $H_W_GOOD1%$COLOR_END的MP。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
-70245	MaxMP	Buff	True	perc	900000	0	1.05	高級利卡諾勒火花沙拉			最大 HP $H_W_GOOD5%$COLOR_END 最大MP $H_W_GOOD10%$COLOR_END 提升，每$H_W_GOOD5$COLOR_END整體MP持續恢復 $H_W_GOOD1%$COLOR_END的MP。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
-70245	MPChange	Buff	True	perc	900000	5	0.01	高級利卡諾勒火花沙拉			最大 HP $H_W_GOOD5%$COLOR_END 最大MP $H_W_GOOD10%$COLOR_END 提升，每$H_W_GOOD5$COLOR_END整體MP持續恢復 $H_W_GOOD1%$COLOR_END的MP。	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
+70201	MaxHP	Buff	True	perc	900000	0	1.05	爆米花	71415	爆米花	最大HP增加$H_W_GOOD5%$COLOR_END	icon_items.fallfestival_popcorn_tex	icon_items.fallfestival_popcorn_tex	True
+70202	HPChange	Buff	True	perc	900000	5	0.01	馬鈴薯沙拉	71416	馬鈴薯沙拉	每$H_W_GOOD5s$COLOR_END持續恢復整體HP的$H_W_GOOD1%$COLOR_END	icon_items.fallfestival_potatosalad_tex	icon_items.fallfestival_potatosalad_tex	True
+70203	MPChange	Buff	True	perc	900000	5	0.01	煙燻肉	71417	煙燻肉	每$H_W_GOOD5s$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END	icon_items.q_roastmeat_tex	icon_items.q_roastmeat_tex	True
+70211	MaxHP	Buff	True	perc	900000	0	1.05	花椰菜濃湯	71413	花椰菜濃湯	最大HP增加$H_W_GOOD5%$COLOR_END$BR爆擊觸發增加$H_W_GOOD10$COLOR_END	icon_items.fallfestival_broccolisoup_tex	icon_items.fallfestival_broccolisoup_tex	True
+70211	Crit	Buff	True	abs	900000	0	10	花椰菜濃湯	71413	花椰菜濃湯	最大HP增加$H_W_GOOD5%$COLOR_END$BR爆擊觸發增加$H_W_GOOD10$COLOR_END	icon_items.fallfestival_broccolisoup_tex	icon_items.fallfestival_broccolisoup_tex	True
+70212	Endurance	Buff	True	abs	900000	0	1	南瓜馬芬蛋糕	71414	南瓜馬芬蛋糕	每$H_W_GOOD5s$COLOR_END持續恢復整體HP的$H_W_GOOD1%$COLOR_END$BR抗打增加$H_W_GOOD1$COLOR_END	icon_items.fallfestival_pumpkinmuffin_tex	icon_items.fallfestival_pumpkinmuffin_tex	True
+70212	HPChange	Buff	True	perc	900000	5	0.01	南瓜馬芬蛋糕	71414	南瓜馬芬蛋糕	每$H_W_GOOD5s$COLOR_END持續恢復整體HP的$H_W_GOOD1%$COLOR_END$BR抗打增加$H_W_GOOD1$COLOR_END	icon_items.fallfestival_pumpkinmuffin_tex	icon_items.fallfestival_pumpkinmuffin_tex	True
+70213	Power	Buff	True	abs	900000	0	1	蔓越莓餅乾	71420	蔓越莓餅乾	每$H_W_GOOD5s$COLOR_END持續恢復整體MP$H_W_GOOD1%$COLOR_END的MP$BR力量增加$H_W_GOOD1$COLOR_END	icon_items.fallfestival_cookies_tex	icon_items.fallfestival_cookies_tex	True
+70213	MPChange	Buff	True	perc	900000	5	0.01	蔓越莓餅乾	71420	蔓越莓餅乾	每$H_W_GOOD5s$COLOR_END持續恢復整體MP$H_W_GOOD1%$COLOR_END的MP$BR力量增加$H_W_GOOD1$COLOR_END	icon_items.fallfestival_cookies_tex	icon_items.fallfestival_cookies_tex	True
+70214	MaxHP	Buff	True	perc	900000	0	1.05	水煮蛋	206010	水煮蛋	最大HP增加$H_W_GOOD5%$COLOR_END	icon_items.boildegg_tex	icon_items.boildegg_tex	True
+70221	Endurance	Buff	True	abs	900000	0	2	鴕鳥胸肉沙拉	71419	鴕鳥胸肉沙拉	每$H_W_GOOD5s$COLOR_END持續恢復整體HP的$H_W_GOOD1%$COLOR_END$BR抗打增加$H_W_GOOD2$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
+70221	ASpd	Buff	True	abs	900000	0	3	鴕鳥胸肉沙拉	71419	鴕鳥胸肉沙拉	每$H_W_GOOD5s$COLOR_END持續恢復整體HP的$H_W_GOOD1%$COLOR_END$BR抗打增加$H_W_GOOD2$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
+70221	HPChange	Buff	True	perc	900000	5	0.01	鴕鳥胸肉沙拉	71419	鴕鳥胸肉沙拉	每$H_W_GOOD5s$COLOR_END持續恢復整體HP的$H_W_GOOD1%$COLOR_END$BR抗打增加$H_W_GOOD2$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
+70222	Power	Buff	True	abs	900000	0	2	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復整體MP$H_W_GOOD1%$COLOR_END的MP$BR力量增加$H_W_GOOD2$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
+70222	ASpd	Buff	True	abs	900000	0	3	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復整體MP$H_W_GOOD1%$COLOR_END的MP$BR力量增加$H_W_GOOD2$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
+70222	MPChange	Buff	True	perc	900000	5	0.01	半月炸肉丸	71421	半月炸肉丸	每$H_W_GOOD5s$COLOR_END持續恢復整體MP$H_W_GOOD1%$COLOR_END的MP$BR力量增加$H_W_GOOD2$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_croquette_tex	icon_items.fallfestival_croquette_tex	True
+70223	MaxHP	Buff	True	perc	900000	0	1.05	利卡諾勒火花沙拉	71423	利卡諾勒火花沙拉	最大HP、MP增加$H_W_GOOD5%$COLOR_END	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
+70223	MaxMP	Buff	True	perc	900000	0	1.05	利卡諾勒火花沙拉	71423	利卡諾勒火花沙拉	最大HP、MP增加$H_W_GOOD5%$COLOR_END	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
+70224	CritResist	Buff	True	abs	900000	0	20	貝里克翅膀	71424	貝里克翅膀	爆擊抵抗增加$H_W_GOOD20$COLOR_END	icon_items.fallfestival_wing_tex	icon_items.fallfestival_wing_tex	True
+70225	IncreasedHeal	Buff	True	perc	900000	0	1.09	凱亞多勒正統烤肉	71422	凱亞多勒正統烤肉	套用HP恢復效果時，HP恢復量增加$H_W_GOOD9%$COLOR_END	icon_items.pigling_ribs_tex	icon_items.pigling_ribs_tex	True
+70226	CritResist	Buff	True	abs	900000	0	20	烤魚	206011	烤魚	爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fishroast_tex	icon_items.fishroast_tex	True
+70226	ASpd	Buff	True	abs	900000	0	3	烤魚	206011	烤魚	爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fishroast_tex	icon_items.fishroast_tex	True
+70226	HPChange	Buff	True	perc	900000	5	0.01	烤魚	206011	烤魚	爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的HP$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fishroast_tex	icon_items.fishroast_tex	True
+70227	MaxHP	Buff	True	perc	900000	0	1.1	蒸魚	206012	蒸魚	最大HP、MP增加$H_W_GOOD10%$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP	icon_items.steamedfish_tex	icon_items.steamedfish_tex	True
+70227	MaxMP	Buff	True	perc	900000	0	1.1	蒸魚	206012	蒸魚	最大HP、MP增加$H_W_GOOD10%$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP	icon_items.steamedfish_tex	icon_items.steamedfish_tex	True
+70227	ASpd	Buff	True	abs	900000	0	3	蒸魚	206012	蒸魚	最大HP、MP增加$H_W_GOOD10%$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP	icon_items.steamedfish_tex	icon_items.steamedfish_tex	True
+70227	MPChange	Buff	True	perc	900000	5	0.01	蒸魚	206012	蒸魚	最大HP、MP增加$H_W_GOOD10%$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復$H_W_GOOD1%$COLOR_END的MP	icon_items.steamedfish_tex	icon_items.steamedfish_tex	True
+70228	ASpd	Buff	True	abs	900000	0	3	鮮魚湯	206013	鮮魚湯	使用恢復技能時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fishsoup_tex	icon_items.fishsoup_tex	True
+70228	164	Buff	True	perc	900000	0	1.09	鮮魚湯	206013	鮮魚湯	使用恢復技能時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fishsoup_tex	icon_items.fishsoup_tex	True
+70231	MaxHP	Buff	True	perc	900000	0	1.05	烤羊肉	71418	烤羊肉	最大HP增加$H_W_GOOD5%$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_bulgogi_tex	icon_items.fallfestival_bulgogi_tex	True
+70231	Crit	Buff	True	abs	900000	0	20	烤羊肉	71418	烤羊肉	最大HP增加$H_W_GOOD5%$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_bulgogi_tex	icon_items.fallfestival_bulgogi_tex	True
+70231	ASpd	Buff	True	abs	900000	0	3	烤羊肉	71418	烤羊肉	最大HP增加$H_W_GOOD5%$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fallfestival_bulgogi_tex	icon_items.fallfestival_bulgogi_tex	True
+70232	Crit	Buff	True	abs	900000	0	20	魚排	206014	魚排	爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fishstake_tex	icon_items.fishstake_tex	True
+70232	ASpd	Buff	True	abs	900000	0	3	魚排	206014	魚排	爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.fishstake_tex	icon_items.fishstake_tex	True
+70233	Power	Buff	True	abs	900000	0	10	炸魚	206015	炸魚	力量增加 $H_W_GOOD10$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.friedfish_tex	icon_items.friedfish_tex	True
+70233	ASpd	Buff	True	abs	900000	0	3	炸魚	206015	炸魚	力量增加 $H_W_GOOD10$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.friedfish_tex	icon_items.friedfish_tex	True
+70234	Endurance	Buff	True	abs	900000	0	10	醃漬魚	206016	醃漬魚	抗打增加 $H_W_GOOD10$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.pickledfish_tex	icon_items.pickledfish_tex	True
+70234	ASpd	Buff	True	abs	900000	0	3	醃漬魚	206016	醃漬魚	抗打增加 $H_W_GOOD10$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.pickledfish_tex	icon_items.pickledfish_tex	True
+70235	MaxHP	Buff	True	perc	900000	0	1.1	超硬質銀翼刀刃	201959	超硬質刀片	最大HP增加 $H_W_GOOD10%$COLOR_END並觸發爆擊$H_W_GOOD20$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
+70235	Crit	Buff	True	abs	900000	0	20	超硬質銀翼刀刃	201959	超硬質刀片	最大HP增加 $H_W_GOOD10%$COLOR_END並觸發爆擊$H_W_GOOD20$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
+70235	ASpd	Buff	True	abs	900000	0	3	超硬質銀翼刀刃	201959	超硬質刀片	最大HP增加 $H_W_GOOD10%$COLOR_END並觸發爆擊$H_W_GOOD20$COLOR_END，攻擊速度增加$H_W_GOOD3$COLOR_END。	icon_items.bladeknife_tex	icon_items.bladeknife_tex	True
+70241	MaxHP	Buff	True	perc	900000	0	1.05	梅利沙的高級宴會組合	71474	梅利沙的高級宴會組合	具有利卡諾勒沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR最大HP、MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加 $H_W_GOOD20$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70241	MaxMP	Buff	True	perc	900000	0	1.05	梅利沙的高級宴會組合	71474	梅利沙的高級宴會組合	具有利卡諾勒沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR最大HP、MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加 $H_W_GOOD20$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70241	CritResist	Buff	True	abs	900000	0	20	梅利沙的高級宴會組合	71474	梅利沙的高級宴會組合	具有利卡諾勒沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR最大HP、MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加 $H_W_GOOD20$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70241	IncreasedHeal	Buff	True	perc	900000	0	1.09	梅利沙的高級宴會組合	71474	梅利沙的高級宴會組合	具有利卡諾勒沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR最大HP、MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加 $H_W_GOOD20$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70242	MaxHP	Buff	True	perc	900000	0	1.1	宴席	7218	宴席	具有烤羊肉、高級利卡諾勒火花沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END$BR最大HP增加$H_W_GOOD10%$COLOR_END$BR最大MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70242	MaxMP	Buff	True	perc	900000	0	1.05	宴席	7218	宴席	具有烤羊肉、高級利卡諾勒火花沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END$BR最大HP增加$H_W_GOOD10%$COLOR_END$BR最大MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70242	Crit	Buff	True	abs	900000	0	20	宴席	7218	宴席	具有烤羊肉、高級利卡諾勒火花沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END$BR最大HP增加$H_W_GOOD10%$COLOR_END$BR最大MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70242	CritResist	Buff	True	abs	900000	0	20	宴席	7218	宴席	具有烤羊肉、高級利卡諾勒火花沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END$BR最大HP增加$H_W_GOOD10%$COLOR_END$BR最大MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70242	ASpd	Buff	True	abs	900000	0	3	宴席	7218	宴席	具有烤羊肉、高級利卡諾勒火花沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END$BR最大HP增加$H_W_GOOD10%$COLOR_END$BR最大MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70242	MPChange	Buff	True	perc	900000	5	0.01	宴席	7218	宴席	具有烤羊肉、高級利卡諾勒火花沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END$BR最大HP增加$H_W_GOOD10%$COLOR_END$BR最大MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70242	IncreasedHeal	Buff	True	perc	900000	0	1.09	宴席	7218	宴席	具有烤羊肉、高級利卡諾勒火花沙拉、貝里克翅膀、凱亞多勒正統烤肉效果。$BR$BRHP恢復效果套用時，HP恢復量增加$H_W_GOOD9%$COLOR_END$BR每$H_W_GOOD5$COLOR_END持續恢復整體MP的$H_W_GOOD1%$COLOR_END$BR最大HP增加$H_W_GOOD10%$COLOR_END$BR最大MP增加$H_W_GOOD5%$COLOR_END$BR爆擊抵抗增加$H_W_GOOD20$COLOR_END$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR攻擊速度增加$H_W_GOOD3$COLOR_END	icon_items.melissaparty_tex	icon_items.melissaparty_tex	True
+70243	MaxHP	Buff	True	perc	900000	0	1.1	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70243	MaxMP	Buff	True	perc	900000	0	1.1	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70243	Crit	Buff	True	abs	900000	0	20	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70243	CritResist	Buff	True	abs	900000	0	20	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70243	ASpd	Buff	True	abs	900000	0	3	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70243	HPChange	Buff	True	perc	900000	5	0.01	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70243	MPChange	Buff	True	perc	900000	5	0.01	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70243	164	Buff	True	perc	900000	0	1.09	尖銳的魚類料理組合	206017	尖銳的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、魚排效果。$BR$BR爆擊觸發增加$H_W_GOOD20$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD208$COLOR_END 	icon_items.fishset_01_tex	icon_items.fishset_01_tex	True
+70244	MaxHP	Buff	True	perc	900000	0	1.1	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70244	MaxMP	Buff	True	perc	900000	0	1.1	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70244	Power	Buff	True	abs	900000	0	10	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70244	CritResist	Buff	True	abs	900000	0	20	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70244	ASpd	Buff	True	abs	900000	0	3	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70244	HPChange	Buff	True	perc	900000	5	0.01	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70244	MPChange	Buff	True	perc	900000	5	0.01	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70244	164	Buff	True	perc	900000	0	1.09	堅強的魚類料理組合	206018	堅強的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、炸魚效果。$BR$BR力量增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_02_tex	icon_items.fishset_02_tex	True
+70245	MaxHP	Buff	True	perc	900000	0	1.1	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
+70245	MaxMP	Buff	True	perc	900000	0	1.1	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
+70245	Endurance	Buff	True	abs	900000	0	10	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
+70245	CritResist	Buff	True	abs	900000	0	20	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
+70245	ASpd	Buff	True	abs	900000	0	3	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
+70245	HPChange	Buff	True	perc	900000	5	0.01	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
+70245	MPChange	Buff	True	perc	900000	5	0.01	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
+70245	164	Buff	True	perc	900000	0	1.09	守護的魚類料理組合	206019	守護的魚類料理組合	具有烤魚、蒸魚、鮮魚湯、醃漬魚效果。$BR$BR抗打增加 $H_W_GOOD10$COLOR_END$BR爆擊抵抗增加增加 $H_W_GOOD20$COLOR_END $BR最大HP增加 $H_W_GOOD10%$COLOR_END $BR最大MP增加 $H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體HP的$H_W_GOOD1%$COLOR_END之HP$BR每$H_W_GOOD5$COLOR_END，持續恢復相當於整體MP的$H_W_GOOD1%$COLOR_END之MP$BR用於恢復時，HP恢復功能增加$H_W_GOOD9%$COLOR_END $BR攻擊速度增加$H_W_GOOD108$COLOR_END 	icon_items.fishset_03_tex	icon_items.fishset_03_tex	True
 70247	MaxHP	Buff	True	perc	3600000	0	1.03	血腥沙拉			1小時內體力增加$H_W_GOOD3%$COLOR_END。	icon_items.essence_nimpie_tex	icon_items.essence_nimpie_tex	True
 70248	Power	Buff	True	perc	3600000	0	1.01	地獄翅膀			1小時內力量增加$H_W_GOOD1%$COLOR_END。	icon_items.uglyfood_tex	icon_items.uglyfood_tex	True
 70249	Crit	Buff	True	abs	3600000	0	5	岩漿冰淇淋			1小時內爆擊率增加$H_W_GOOD5%$COLOR_END。	icon_items.campfire02_tex	icon_items.campfire02_tex	True
 70250	MaxHP	Buff	True	perc	3600000	0	1.03	歐利風的必殺便當			1小時內體力增加$H_W_GOOD3%$COLOR_END、爆擊率增加$H_W_GOOD5$COLOR_END、力量增加$H_W_GOOD1%$COLOR_END。	icon_items.q_present_tex	icon_items.q_present_tex	True
 70250	Power	Buff	True	perc	3600000	0	1.01	歐利風的必殺便當			1小時內體力增加$H_W_GOOD3%$COLOR_END、爆擊率增加$H_W_GOOD5$COLOR_END、力量增加$H_W_GOOD1%$COLOR_END。	icon_items.q_present_tex	icon_items.q_present_tex	True
 70250	Crit	Buff	True	abs	3600000	0	5	歐利風的必殺便當			1小時內體力增加$H_W_GOOD3%$COLOR_END、爆擊率增加$H_W_GOOD5$COLOR_END、力量增加$H_W_GOOD1%$COLOR_END。	icon_items.q_present_tex	icon_items.q_present_tex	True
-70301	MovSpdInCombat	Buff	True	abs	180000	0	2	聖所_精靈氣息(臨時)			戰鬥狀態的移動速度提升$H_W_GOOD2$COLOR_END。最多可堆疊3次。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
-70302	DamageAura	Buff	True	abs	180001	0	20	聖所_集中氣息(臨時)			技能擊中時傷害增加$H_W_GOOD20$COLOR_END。	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
-70303	Stamina	Buff	True	abs	180002	0	5	聖所_活力氣息(臨時)			最大健康狀態提升$H_W_GOOD5$COLOR_END。最多可堆疊3次。	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	True
-70304	HPChange	Buff	True	perc	180003	3	0.005	聖所_再生氣息(臨時)			每$H_W_GOOD3s$COLOR_END持續恢復$H_W_GOOD0.5%$COLOR_END的HP。最多可堆疊3次。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex	True
-70305	MPChange	Buff	True	perc	180004	3	0.005	聖所_魔力氣息(臨時)			每$H_W_GOOD3s$COLOR_END持續恢復$H_W_GOOD0.5%$COLOR_END的MP。最多可堆疊3次。	icon_status.aura_of_regeneration_mp_tex	icon_status.aura_of_regeneration_mp_tex	True
+70251	Drunk	Buff	True	60032	10000	1	0	利卡諾勒啤酒	80078	利卡諾勒啤酒	10s內心情雖然會變好，但可能會很暈。	icon_items.solventd15_tex	icon_items.solventd15_tex	True
+70252	Drunk	Buff	True	60032	10000	1	0	覆盆子酒	80079	覆盆子酒	10s內心情雖然會變好，但可能會很暈。	icon_items.solventa12_tex	icon_items.solventa12_tex	True
+70253	KnockDownChance	Buff	True	perc	10000	0	0	天蓮花酒	80080	天蓮花酒	10s內雖然可$H_W_GOOD100%$COLOR_END 抵抗擊倒及僵直，但可能會很暈。	icon_items.solventf16_tex	icon_items.solventf16_tex	True
+70253	Drunk	Buff	True	60032	10000	1	0	天蓮花酒	80080	天蓮花酒	10s內雖然可$H_W_GOOD100%$COLOR_END 抵抗擊倒及僵直，但可能會很暈。	icon_items.solventf16_tex	icon_items.solventf16_tex	True
+70253	StatusImmune	Buff	True	swch	10000	0	0	天蓮花酒	80080	天蓮花酒	10s內雖然可$H_W_GOOD100%$COLOR_END 抵抗擊倒及僵直，但可能會很暈。	icon_items.solventf16_tex	icon_items.solventf16_tex	True
+70254	ASpd	Buff	True	abs	10000	0	20	萊納式黑啤酒	80081	萊納式黑啤酒	10s內攻擊速度雖會增加$H_W_GOOD20$COLOR_END，但可能會很暈。	icon_items.solventc15_tex	icon_items.solventc15_tex	True
+70254	Drunk	Buff	True	60032	10000	1	0	萊納式黑啤酒	80081	萊納式黑啤酒	10s內攻擊速度雖會增加$H_W_GOOD20$COLOR_END，但可能會很暈。	icon_items.solventc15_tex	icon_items.solventc15_tex	True
+70255	Endurance	Buff	True	abs	10000	0	10	塔克式蜂蜜南瓜酒	80082	塔克式蜂蜜南瓜酒	10s內抗打雖會增加$H_W_GOOD10$COLOR_END，但可能會很暈。	icon_items.solventd5_tex	icon_items.solventd5_tex	True
+70255	Drunk	Buff	True	60032	10000	1	0	塔克式蜂蜜南瓜酒	80082	塔克式蜂蜜南瓜酒	10s內抗打雖會增加$H_W_GOOD10$COLOR_END，但可能會很暈。	icon_items.solventd5_tex	icon_items.solventd5_tex	True
+70256	Crit	Buff	True	abs	10000	0	14	水果酒	206024	水果酒	10s內爆擊誘發雖會增加$H_W_GOOD14$COLOR_END，但可能會很暈。	icon_items.solvente8_tex	icon_items.solvente8_tex	True
+70256	Drunk	Buff	True	60032	10000	1	0	水果酒	206024	水果酒	10s內爆擊誘發雖會增加$H_W_GOOD14$COLOR_END，但可能會很暈。	icon_items.solvente8_tex	icon_items.solvente8_tex	True
+70261	360	Buff	True	perc	1800000	0	0.8	魚沙拉	206020	魚沙拉	上鉤等待時間減少$H_W_GOOD20%$COLOR_END $BR釣魚難易度減少$H_W_GOOD30%$COLOR_END 	icon_items.fishsalad_tex	icon_items.fishsalad_tex	True
+70261	361	Buff	True	perc	1800000	0	0.7	魚沙拉	206020	魚沙拉	上鉤等待時間減少$H_W_GOOD20%$COLOR_END $BR釣魚難易度減少$H_W_GOOD30%$COLOR_END 	icon_items.fishsalad_tex	icon_items.fishsalad_tex	True
+70262	44	Buff	True	perc	1800000	0	1.1	海鮮蘑菇沙拉	206021	海鮮蘑菇沙拉	飛行速度增加$H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD45$COLOR_END，飛行計量條恢復$H_W_GOOD200$COLOR_END 	icon_items.seafoodmushroomsalad_tex	icon_items.seafoodmushroomsalad_tex	True
+70262	55	Buff	True	abs	1800000	45	200	海鮮蘑菇沙拉	206021	海鮮蘑菇沙拉	飛行速度增加$H_W_GOOD10%$COLOR_END $BR每$H_W_GOOD45$COLOR_END，飛行計量條恢復$H_W_GOOD200$COLOR_END 	icon_items.seafoodmushroomsalad_tex	icon_items.seafoodmushroomsalad_tex	True
+70263	GatheringTime	Buff	True	perc	1800000	0	0.8	醃紅蘿蔔	206022	醃紅蘿蔔	採集所需時間減少$H_W_GOOD20%$COLOR_END 	icon_items.pickledcarrot_tex	icon_items.pickledcarrot_tex	True
+70264	CraftTime	Buff	True	perc	1800000	0	0.8	南瓜派	206023	南瓜派	製作所需時間減少$H_W_GOOD20%$COLOR_END $BR大成功機率較原先增加$H_W_GOOD10%$COLOR_END 	icon_items.sweetypumpkinpie_tex	icon_items.sweetypumpkinpie_tex	True
+70264	296	Buff	True	perc	1800000	0	1.1	南瓜派	206023	南瓜派	製作所需時間減少$H_W_GOOD20%$COLOR_END $BR大成功機率較原先增加$H_W_GOOD10%$COLOR_END 	icon_items.sweetypumpkinpie_tex	icon_items.sweetypumpkinpie_tex	True
+70271	358	Buff	True	perc	0	0	1	最初階集魚餌	206000	最初階魚餌	將集魚餌掛在魚鉤上。$BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait01_tex	icon_items.pastebait01_tex	True
+70271	362	Buff	True	swch	0	0	206000	最初階集魚餌	206000	最初階魚餌	將集魚餌掛在魚鉤上。$BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait01_tex	icon_items.pastebait01_tex	True
+70272	358	Buff	True	abs	0	0	0.2	初階集魚餌	206001	初階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD20%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait02_tex	icon_items.pastebait02_tex	True
+70272	362	Buff	True	swch	0	0	206001	初階集魚餌	206001	初階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD20%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait02_tex	icon_items.pastebait02_tex	True
+70273	358	Buff	True	abs	0	0	0.4	中階集魚餌	206002	中階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD40%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait03_tex	icon_items.pastebait03_tex	True
+70273	362	Buff	True	swch	0	0	206002	中階集魚餌	206002	中階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD40%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait03_tex	icon_items.pastebait03_tex	True
+70274	358	Buff	True	abs	0	0	0.6	高階集魚餌	206003	高階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD60%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait04_tex	icon_items.pastebait04_tex	True
+70274	362	Buff	True	swch	0	0	206003	高階集魚餌	206003	高階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD60%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait04_tex	icon_items.pastebait04_tex	True
+70275	358	Buff	True	abs	0	0	0.8	最高階集魚餌	206004	最高階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait05_tex	icon_items.pastebait05_tex	True
+70275	362	Buff	True	swch	0	0	206004	最高階集魚餌	206004	最高階集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.pastebait05_tex	icon_items.pastebait05_tex	True
+70281	358	Buff	True	perc	0	0	1	最初階蚯蚓	206005	最初階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm01_tex	icon_items.worm01_tex	True
+70281	362	Buff	True	swch	0	0	206005	最初階蚯蚓	206005	最初階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm01_tex	icon_items.worm01_tex	True
+70282	358	Buff	True	abs	0	0	0.2	初階蚯蚓	206006	初階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD20%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm02_tex	icon_items.worm02_tex	True
+70282	362	Buff	True	swch	0	0	206006	初階蚯蚓	206006	初階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD20%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm02_tex	icon_items.worm02_tex	True
+70283	358	Buff	True	abs	0	0	0.4	中階蚯蚓	206007	中階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD40%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm03_tex	icon_items.worm03_tex	True
+70283	362	Buff	True	swch	0	0	206007	中階蚯蚓	206007	中階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD40%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm03_tex	icon_items.worm03_tex	True
+70284	358	Buff	True	abs	0	0	0.6	高階蚯蚓	206008	高階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD60%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm04_tex	icon_items.worm04_tex	True
+70284	362	Buff	True	swch	0	0	206008	高階蚯蚓	206008	高階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD60%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm04_tex	icon_items.worm04_tex	True
+70285	358	Buff	True	abs	0	0	0.8	最高階蚯蚓	206009	最高階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm05_tex	icon_items.worm05_tex	True
+70285	362	Buff	True	swch	0	0	206009	最高階蚯蚓	206009	最高階蚯蚓	將蚯蚓掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.worm05_tex	icon_items.worm05_tex	True
+70286	358	Buff	True	abs	0	0	1	誘餌用硒碎片			將誘餌用硒碎片掛在魚鉤上。$BR$BR在天群釣魚場可釣到研究用錒。	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
+70286	362	Buff	True	swch	0	0	206828	誘餌用硒碎片			將誘餌用硒碎片掛在魚鉤上。$BR$BR在天群釣魚場可釣到研究用錒。	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
+70287	358	Buff	True	abs	0	0	1	迷幻草花瓣			將迷幻草花瓣掛在魚鉤上。$BR$BR在荒涼港口釣魚場可釣到發出惡臭的深海魚。	icon_items.raw_flower6_tex	icon_items.raw_flower6_tex	True
+70287	362	Buff	True	swch	0	0	206830	迷幻草花瓣			將迷幻草花瓣掛在魚鉤上。$BR$BR在荒涼港口釣魚場可釣到發出惡臭的深海魚。	icon_items.raw_flower6_tex	icon_items.raw_flower6_tex	True
+70288	358	Buff	True	abs	0	0	1	任務用誘餌3			將誘餌掛在魚鉤上。$BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
+70288	362	Buff	True	swch	0	0	206832	任務用誘餌3			將誘餌掛在魚鉤上。$BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
+70289	358	Buff	True	abs	0	0	1	誘餌用白骨碎片			將誘餌用白骨碎片掛在魚鉤上。$BR$BR在食人沼澤釣魚場可釣到爛泥魚。	icon_items.people_item_relic03_tex	icon_items.people_item_relic03_tex	True
+70289	362	Buff	True	swch	0	0	206834	誘餌用白骨碎片			將誘餌用白骨碎片掛在魚鉤上。$BR$BR在食人沼澤釣魚場可釣到爛泥魚。	icon_items.people_item_relic03_tex	icon_items.people_item_relic03_tex	True
+70290	358	Buff	True	abs	0	0	1	沾有極樂草汁液的誘餌			將沾有極樂草汁液的誘餌掛在魚鉤上。$BR$BR在冰凍的眼淚湖釣魚場可釣到銀鱒。	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
+70290	362	Buff	True	swch	0	0	206836	沾有極樂草汁液的誘餌			將沾有極樂草汁液的誘餌掛在魚鉤上。$BR$BR在冰凍的眼淚湖釣魚場可釣到銀鱒。	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
+70300	364	Buff	True	abs	0	0	200	破舊的鐮刀	206600	破舊的鐮刀	植物採集時間減少$H_W_GOOD2秒$COLOR_END 	icon_items.parts_lightarmorc8_tex	icon_items.parts_lightarmorc8_tex	True
+70301	364	Buff	True	abs	0	0	200	最初階鐮刀	206601	最初階鐮刀	植物採集時間減少$H_W_GOOD2秒$COLOR_END 	icon_items.parts_lightarmorc8_tex	icon_items.parts_lightarmorc8_tex	True
+70302	364	Buff	True	abs	0	0	300	初階鐮刀	206602	初階鐮刀	植物採集時間減少$H_W_GOOD3秒$COLOR_END 	icon_items.parts_lightarmorc7_tex	icon_items.parts_lightarmorc7_tex	True
+70303	364	Buff	True	abs	0	0	400	中階鐮刀	206603	中階鐮刀	植物採集時間減少$H_W_GOOD4秒$COLOR_END 	icon_items.parts_lightarmorc7_tex	icon_items.parts_lightarmorc7_tex	True
+70304	364	Buff	True	abs	0	0	600	高階鐮刀	206604	高階鐮刀	植物採集時間減少$H_W_GOOD6秒$COLOR_END 	icon_items.parts_lightarmorc7_tex	icon_items.parts_lightarmorc7_tex	True
+70305	364	Buff	True	abs	0	0	800	最高階鐮刀	206605	最高階鐮刀	植物採集時間減少$H_W_GOOD8秒$COLOR_END 	icon_items.parts_lightarmorc7_tex	icon_items.parts_lightarmorc7_tex	True
+70310	364	Buff	True	abs	0	0	200	破舊的採礦鎬	206610	破舊的採礦鎬	礦石採集時間減少 $H_W_GOOD2秒$COLOR_END 	icon_items.pickaxe_01_tex	icon_items.pickaxe_01_tex	True
+70311	364	Buff	True	abs	0	0	200	最初階採礦鎬	206611	最初階採礦鎬	礦石採集時間減少 $H_W_GOOD2秒$COLOR_END 	icon_items.pickaxe_01_tex	icon_items.pickaxe_01_tex	True
+70312	364	Buff	True	abs	0	0	300	初階採礦鎬	206612	初階採礦鎬	礦石採集時間減少 $H_W_GOOD3秒$COLOR_END 	icon_items.pickaxe_tex	icon_items.pickaxe_tex	True
+70313	364	Buff	True	abs	0	0	400	中階採礦鎬	206613	中階採礦鎬	礦石採集時間減少 $H_W_GOOD4秒$COLOR_END 	icon_items.pickaxe_tex	icon_items.pickaxe_tex	True
+70314	364	Buff	True	abs	0	0	600	高階採礦鎬	206614	高階採礦鎬	礦石採集時間減少 $H_W_GOOD6秒$COLOR_END 	icon_items.pickaxe_tex	icon_items.pickaxe_tex	True
+70315	364	Buff	True	abs	0	0	800	最高階採礦鎬	206615	最高階採礦鎬	礦石採集時間減少 $H_W_GOOD8秒$COLOR_END 	icon_items.pickaxe_tex	icon_items.pickaxe_tex	True
+70320	364	Buff	True	abs	0	0	200	破舊的萃取器	206620	破舊的萃取器	精氣採集時間減少 $H_W_GOOD2秒$COLOR_END 	icon_items.machineofargon_01_tex	icon_items.machineofargon_01_tex	True
+70321	364	Buff	True	abs	0	0	200	最初階萃取器	206621	最初階萃取器	精氣採集時間減少 $H_W_GOOD2秒$COLOR_END 	icon_items.machineofargon_01_tex	icon_items.machineofargon_01_tex	True
+70322	364	Buff	True	abs	0	0	300	初階萃取器	206622	初階萃取器	精氣採集時間減少 $H_W_GOOD3秒$COLOR_END 	icon_items.machineofargon_tex	icon_items.machineofargon_tex	True
+70323	364	Buff	True	abs	0	0	400	中階萃取器	206623	中階萃取器	精氣採集時間減少 $H_W_GOOD4秒$COLOR_END 	icon_items.machineofargon_tex	icon_items.machineofargon_tex	True
+70324	364	Buff	True	abs	0	0	600	高階萃取器	206624	高階萃取器	精氣採集時間減少 $H_W_GOOD6秒$COLOR_END 	icon_items.machineofargon_tex	icon_items.machineofargon_tex	True
+70325	364	Buff	True	abs	0	0	800	最高階萃取器	206625	最高階萃取器	精氣採集時間減少 $H_W_GOOD8秒$COLOR_END 	icon_items.machineofargon_tex	icon_items.machineofargon_tex	True
+70330	358	Buff	True	perc	0	0	1	老舊的釣竿			可抓到 0 ~ 2等級的魚。	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70331	358	Buff	True	abs	0	0	0.03	鋼鐵釣竿 I			可抓到 1 ~ 3等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD3%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD1.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70331	360	Buff	True	perc	0	0	0.985	鋼鐵釣竿 I			可抓到 1 ~ 3等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD3%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD1.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70332	358	Buff	True	abs	0	0	0.06	鋼鐵釣竿 II			可抓到 2 ~ 4等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD6%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD3%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70332	360	Buff	True	perc	0	0	0.97	鋼鐵釣竿 II			可抓到 2 ~ 4等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD6%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD3%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70333	358	Buff	True	abs	0	0	0.09	鋼鐵釣竿 III			可抓到 3 ~ 5等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD9%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD4.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70333	360	Buff	True	perc	0	0	0.955	鋼鐵釣竿 III			可抓到 3 ~ 5等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD9%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD4.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70334	358	Buff	True	abs	0	0	0.12	鋼鐵釣竿 IV			可抓到 4 ~ 6等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD12%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD6%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70334	360	Buff	True	perc	0	0	0.94	鋼鐵釣竿 IV			可抓到 4 ~ 6等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD12%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD6%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70335	358	Buff	True	abs	0	0	0.15	鋼鐵釣竿 V			可抓到 5 ~ 7等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD15%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD7.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70335	360	Buff	True	perc	0	0	0.925	鋼鐵釣竿 V			可抓到 5 ~ 7等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD15%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD7.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70336	358	Buff	True	abs	0	0	0.18	鋼鐵釣竿 VI			可抓到 6 ~ 8等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD18%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD9%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70336	360	Buff	True	perc	0	0	0.91	鋼鐵釣竿 VI			可抓到 6 ~ 8等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD18%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD9%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70337	358	Buff	True	abs	0	0	0.21	鋼鐵釣竿 VII			可抓到 7 ~ 9等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD21%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD10.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70337	360	Buff	True	perc	0	0	0.895	鋼鐵釣竿 VII			可抓到 7 ~ 9等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD21%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD10.5%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70338	358	Buff	True	abs	0	0	0.25	鋼鐵釣竿 VIII			可抓到 8 ~ 10等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD25%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD12%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70338	360	Buff	True	perc	0	0	0.88	鋼鐵釣竿 VIII			可抓到 8 ~ 10等級的魚。<br>釣到等級高的魚的機率 + $H_W_GOOD25%$COLOR_END<br>上鉤等待時間減少 $H_W_GOOD12%$COLOR_END 	icon_skills.fishing_rod01_tex	icon_skills.fishing_rod01_tex	True
+70341	358	Buff	True	abs	0	0	0.003	木樨釣竿 I			可抓到 1 ~ 3等級的魚。<br>釣到大物的機率 + $H_W_GOOD0.3%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70342	358	Buff	True	abs	0	0	0.006	木樨釣竿 II			可抓到 2 ~ 4等級的魚。<br>釣到大物的機率 + $H_W_GOOD0.6%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70343	358	Buff	True	abs	0	0	0.009	木樨釣竿 III			可抓到 3 ~ 5等級的魚。<br>釣到大物的機率 + $H_W_GOOD0.9%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70344	358	Buff	True	abs	0	0	0.012	木樨釣竿 IV			可抓到 4 ~ 6等級的魚。<br>釣到大物的機率 + $H_W_GOOD1.2%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70345	358	Buff	True	abs	0	0	0.015	木樨釣竿 V			可抓到 5 ~ 7等級的魚。<br>釣到大物的機率 + $H_W_GOOD1.5%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70346	358	Buff	True	abs	0	0	0.018	木樨釣竿 VI			可抓到 6 ~ 8等級的魚。<br>釣到大物的機率 + $H_W_GOOD1.8%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70347	358	Buff	True	abs	0	0	0.021	木樨釣竿 VII			可抓到 7 ~ 9等級的魚。<br>釣到大物的機率 + $H_W_GOOD2.1%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70348	358	Buff	True	abs	0	0	0.026	木樨釣竿 VIII			可抓到 8 ~ 10等級的魚。<br>釣到大物的機率 + $H_W_GOOD2.6%$COLOR_END	icon_skills.fishing_rod02_tex	icon_skills.fishing_rod02_tex	True
+70351	359	Buff	True	perc	0	0	0.97	妖精翅膀釣竿 I			可抓到 1 ~ 3等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD3%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70352	359	Buff	True	perc	0	0	0.94	妖精翅膀釣竿 II			可抓到 2 ~ 4等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD6%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70353	359	Buff	True	perc	0	0	0.91	妖精翅膀釣竿 III			可抓到 3 ~ 5等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD9%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70354	359	Buff	True	perc	0	0	0.88	妖精翅膀釣竿 IV			可抓到 4 ~ 6等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD12%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70355	359	Buff	True	perc	0	0	0.85	妖精翅膀釣竿 V			可抓到 5 ~ 7等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD15%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70356	359	Buff	True	perc	0	0	0.82	妖精翅膀釣竿 VI			可抓到 6 ~ 8等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD18%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70357	359	Buff	True	perc	0	0	0.79	妖精翅膀釣竿 VII			可抓到 7 ~ 9等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD21%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70358	359	Buff	True	perc	0	0	0.75	妖精翅膀釣竿 VIII			可抓到 8 ~ 10等級的魚。<br>自動釣魚等待時間減少 $H_W_GOOD25%$COLOR_END	icon_skills.fishing_rod03_tex	icon_skills.fishing_rod03_tex	True
+70359	358	Buff	True	abs	1200000	0	0.04	黃金鐘-釣魚增益			收到黃金鐘的氣息，釣魚效率大幅增加。<br><br>上鉤等待時間減少 $H_W_GOOD30%$COLOR_END <br>釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_equipments.acc_325_tex	icon_equipments.acc_325_tex	True
+70359	360	Buff	True	perc	1200000	0	0.7	黃金鐘-釣魚增益			收到黃金鐘的氣息，釣魚效率大幅增加。<br><br>上鉤等待時間減少 $H_W_GOOD30%$COLOR_END <br>釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_equipments.acc_325_tex	icon_equipments.acc_325_tex	True
+70360	358	Buff	True	abs	0	0	0.8	波波利集魚餌	206900	波波利集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD30%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.poporibait_tex	icon_items.poporibait_tex	True
+70360	362	Buff	True	swch	0	0	206900	波波利集魚餌	206900	波波利集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD30%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.poporibait_tex	icon_items.poporibait_tex	True
+70361	358	Buff	True	abs	0	0	0.8	波林集魚餌	206901	波林集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD25%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.poporibait_01_tex	icon_items.poporibait_01_tex	True
+70361	362	Buff	True	swch	0	0	206901	波林集魚餌	206901	波林集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD25%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.poporibait_01_tex	icon_items.poporibait_01_tex	True
+70362	358	Buff	True	abs	0	0	0.8	強化機器蚯蚓	206902	強化機器蚯蚓	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD20%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_worm_01_tex	icon_items.premium_worm_01_tex	True
+70362	362	Buff	True	swch	0	0	206902	強化機器蚯蚓	206902	強化機器蚯蚓	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD20%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_worm_01_tex	icon_items.premium_worm_01_tex	True
+70363	358	Buff	True	abs	0	0	0.8	機器蚯蚓	206903	機器蚯蚓	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD15%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_worm_02_tex	icon_items.premium_worm_02_tex	True
+70363	362	Buff	True	swch	0	0	206903	機器蚯蚓	206903	機器蚯蚓	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD15%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_worm_02_tex	icon_items.premium_worm_02_tex	True
+70364	358	Buff	True	abs	0	0	0.8	彩虹集魚餌	206904	彩虹集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD10%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70364	362	Buff	True	swch	0	0	206904	彩虹集魚餌	206904	彩虹集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD10%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70365	358	Buff	True	abs	0	0	0.8	繽紛集魚餌	206905	繽紛集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD5%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
+70365	362	Buff	True	swch	0	0	206905	繽紛集魚餌	206905	繽紛集魚餌	將集魚餌掛在魚鉤上。$BR$BR釣到等級高的魚的機率增加$H_W_GOOD80%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD5%$COLOR_END $BR$BR使用越高等的誘餌，釣到等級高的魚的機率就越高。	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
+70366	358	Buff	True	abs	3600000	0	0.04	四葉草的幸運 (1小時)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70366	360	Buff	True	perc	3600000	0	0.8	四葉草的幸運 (1小時)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70367	358	Buff	True	abs	1800000	0	0.04	四葉草的幸運 (30分鐘)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70367	360	Buff	True	perc	1800000	0	0.8	四葉草的幸運 (30分鐘)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70368	358	Buff	True	abs	1200000	0	0.04	四葉草的幸運 (20分鐘)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70368	360	Buff	True	perc	1200000	0	0.8	四葉草的幸運 (20分鐘)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70369	358	Buff	True	abs	600000	0	0.04	四葉草的幸運 (10分鐘)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70369	360	Buff	True	perc	600000	0	0.8	四葉草的幸運 (10分鐘)			已套用四葉草的幸運。$BR$BR上鉤等待時間減少 $H_W_GOOD20%$COLOR_END $BR釣到大物的機率增加 $H_W_GOOD4%$COLOR_END 	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
+70370	358	Buff	True	abs	0	0	1	[活動] 寶石路亞			閃閃發亮的路亞。在所有釣魚場都能釣到稀有的東西。	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
+70370	362	Buff	True	swch	0	0	143188	[活動] 寶石路亞			閃閃發亮的路亞。在所有釣魚場都能釣到稀有的東西。	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
 70403	MovSpd	Debuff	False	perc	5000	0	0.5	時空的裂痕_減速			移動速度減少$H_W_BAD50%$COLOR_END。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	OutOfCombatMovSpd	Debuff	False	perc	5000	0	0.5	時空的裂痕_減速			移動速度減少$H_W_BAD50%$COLOR_END。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	HPDrain	Debuff	False	perc	5000	0	0.5	時空的裂痕_減速			移動速度減少$H_W_BAD50%$COLOR_END。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
@@ -1664,20 +1818,20 @@
 103101	Endurance	Buff	True	perc	1000	0	1	暴風的氣息 II 解除看不見的異常狀態						False
 103102	332	Buff	True	swch	60000	0	1	暴風的氣息 II			該效果持續期間使用攻擊技能時，暴風之暗影增加10%的追加打擊。並且所有攻擊技能的最後一次打擊成功時，技能威力增加 $H_W_GOOD2%$COLOR_END ，攻擊速度增加$H_W_GOOD0.5%$COLOR_END及冷卻時間減少$H_W_GOOD0.5%$COLOR_END 之效果重疊。	icon_skills.guildskill2_hardup_1_tex	icon_skills.guildskill2_hardup_1_tex	False
 103103	Endurance	Buff	True	perc	1000	0	1	刀刃暴風				icon_skills.bladestorm_tex	icon_skills.guildskill2_hardup_1_tex	False
-103104	ASpd	Buff	True	perc	10000	0	1.07	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加10%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
-103104	173	Buff	True	perc	10000	0	0.1	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加10%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
-103104	190	Buff	True	swch	10000	0	3	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加10%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
-103104	CDR	Buff	True	perc	10000	0	0.93	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加10%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
-103104	332	Buff	True	swch	60000	0	1	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加10%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
+103104	ASpd	Buff	True	perc	10000	0	1.07	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加12%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
+103104	173	Buff	True	perc	10000	0	0.12	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加12%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
+103104	190	Buff	True	swch	10000	0	3	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加12%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
+103104	CDR	Buff	True	perc	10000	0	0.93	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加12%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
+103104	332	Buff	True	swch	60000	0	1	暴風之暗影 II			該效果持續期間使用攻擊技能時，暴風之暗影增加12%的追加打擊。並且攻擊速度增加$H_W_GOOD7%$COLOR_END 及冷卻時間減少$H_W_GOOD7%$COLOR_END。	icon_skills.stormstrength_2_tex	icon_skills.stormstrength_2_tex	True
 103110	Endurance	Buff	True	perc	0	0	1	暴風的氣息 I			習得暴風的氣息被動技時永久持續。只有在有此異常狀態的情形時，103120異常狀態會發生在自己身上(看不見的異常狀態)	icon_skills.guildskill3_1_quest10_tex	icon_skills.guildskill3_1_quest10_tex	False
 103120	ASpd	Buff	True	perc	45000	0	1.001	暴風的氣息 I			該效果持續期間，所有攻擊技能的最後打擊成功時，攻擊速度增加$H_W_GOOD0.1%$COLOR_END及冷卻時間減少$H_W_GOOD0.1%$COLOR_END效果重疊。	icon_skills.stormstrength_1_tex	icon_skills.stormstrength_1_tex	True
 103120	CDR	Buff	True	perc	45000	0	0.999	暴風的氣息 I			該效果持續期間，所有攻擊技能的最後打擊成功時，攻擊速度增加$H_W_GOOD0.1%$COLOR_END及冷卻時間減少$H_W_GOOD0.1%$COLOR_END效果重疊。	icon_skills.stormstrength_1_tex	icon_skills.stormstrength_1_tex	True
 103120	StackCounter	Buff	True	swch	45000	0	103130	暴風的氣息 I			該效果持續期間，所有攻擊技能的最後打擊成功時，攻擊速度增加$H_W_GOOD0.1%$COLOR_END及冷卻時間減少$H_W_GOOD0.1%$COLOR_END效果重疊。	icon_skills.stormstrength_1_tex	icon_skills.stormstrength_1_tex	True
-103130	ASpd	Buff	True	perc	10000	0	1.05	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加5%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	173	Buff	True	perc	10000	0	0.05	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加5%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	190	Buff	True	swch	10000	0	3	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加5%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	CDR	Buff	True	perc	10000	0	0.95	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加5%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	332	Buff	True	swch	60000	0	1	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加5%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	ASpd	Buff	True	perc	10000	0	1.05	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加8%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	173	Buff	True	perc	10000	0	0.08	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加8%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	190	Buff	True	swch	10000	0	3	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加8%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	CDR	Buff	True	perc	10000	0	0.95	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加8%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	332	Buff	True	swch	60000	0	1	暴風之暗影 I			在該效果持續期間使用攻擊技能時，暴風之暗影增加8%的追加打擊。並且攻擊速度增加$H_W_GOOD5%$COLOR_END 及冷卻時間減少$H_W_GOOD5%$COLOR_END。	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
 103131	332	Buff	True	swch	60000	0	1	暴風的氣息 I			該效果持續期間，所有攻擊技能的最後打擊成功時，攻擊速度增加$H_W_GOOD0.1%$COLOR_END及冷卻時間減少$H_W_GOOD0.1%$COLOR_END效果重疊。	icon_skills.guildskill2_hardup_1_tex	icon_skills.guildskill2_hardup_1_tex	False
 104100	ReloadingSkill	Buff	True	perc	8000	0	1040	二段劍舞攻擊準備			在效果持續時間內可再使用一次二段劍舞技能來攻擊敵人。	icon_skills.kumas_3combo_tex	icon_skills.kumas_3combo_tex	False
 104100	334	Buff	True	swch	8000	0	400100	二段劍舞攻擊準備			在效果持續時間內可再使用一次二段劍舞技能來攻擊敵人。	icon_skills.kumas_3combo_tex	icon_skills.kumas_3combo_tex	False
@@ -1878,10 +2032,10 @@
 400602	Fear	Stun	False	abs	7000	0	150	尖銳吶喊			因為尖銳吶喊聲受到驚嚇逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
 400603	Fear	Stun	False	abs	8000	0	150	尖銳吶喊 IV			因為尖銳吶喊聲受到驚嚇逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
 400604	Fear	Stun	False	abs	9000	0	150	尖銳吶喊 V			因為尖銳吶喊聲受到驚嚇逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
-400611	KnockDownChance	Buff	True	perc	1000	0	0	狂氣的高喊 I				icon_skills.roar_tex	icon_skills.roar_tex	False
-400611	Immune	Buff	True	9	1000	0	0	狂氣的高喊 I				icon_skills.roar_tex	icon_skills.roar_tex	False
-400611	StatusImmune	Buff	True	swch	1000	0	0	狂氣的高喊 I				icon_skills.roar_tex	icon_skills.roar_tex	False
-400612	MovSpd	Buff	True	abs	4000	0	80	狂亂的疾走			移動速度增加$H_W_GOOD80$COLOR_END。	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex	True
+400611	KnockDownChance	Buff	True	perc	1000	0	0	狂氣的高喊I				icon_skills.roar_tex	icon_skills.roar_tex	False
+400611	Immune	Buff	True	9	1000	0	0	狂氣的高喊I				icon_skills.roar_tex	icon_skills.roar_tex	False
+400611	StatusImmune	Buff	True	swch	1000	0	0	狂氣的高喊I				icon_skills.roar_tex	icon_skills.roar_tex	False
+400612	MovSpd	Buff	True	abs	4000	0	80	狂亂疾走			移動速度增加 $H_W_GOOD80$COLOR_END。	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex	True
 400620	Fear	Stun	False	abs	2000	0	150	尖銳吶喊I			因為尖銳吶喊聲受到驚嚇逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
 400621	Fear	Stun	False	abs	3500	0	150	尖銳吶喊 II			因為尖銳吶喊聲受到驚嚇逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
 400622	Fear	Stun	False	abs	5000	0	150	尖銳吶喊			因為尖銳吶喊聲受到驚嚇逃走了！目標是怪物時被擊倒恐怖效果就會解除，目標是玩家時被擊打恐怖效果就會解除。	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
@@ -2616,7 +2770,7 @@
 601500	StunResist	Buff	True	perc	5000	0	80000	執念 I			行動不能異常狀態抵抗大幅提升。	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
 601600	ForceCrit	Buff	True	seta	8000	0	80000	弱點觀察			下一次的攻擊不管是在哪個位置，都會受到跟後方攻擊一樣的傷害	icon_skills.weak_point_observed	icon_skills.weak_point_observed	True
 601610	352	Debuff	False	swch	8000	0	601611	弱點觀察 III				icon_skills.weak_point_observed_awaken_tex	icon_skills.weak_point_observed	False
-601611	357	Buff	True	perc	8000	0	335	弱點暴露			以<font color = '#f9b600'>[集中射擊]、[穿透射擊]、[雷龍一擊]</font> 技能攻擊弱點的話，<font color = '#66bbff'>後方攻擊效果</font>及威力會有 20% <font color = '#66bbff'>的增加</font> 。	icon_skills.weak_point_observed_awaken_tex	icon_skills.weak_point_observed_awaken_tex	True
+601611	357	Buff	True	perc	8000	0	335	弱點暴露			以<font color = '#f9b600'>[集中射擊]、[穿透射擊]、[雷龍一擊]</font> 技能攻擊弱點的話，<font color = '#66bbff'>後方攻擊效果</font>及威力會有 15% <font color = '#66bbff'>的增加</font> 。	icon_skills.weak_point_observed_awaken_tex	icon_skills.weak_point_observed_awaken_tex	True
 601700	ReloadingSkill	Buff	True	perc	3100	0	6024	蜘蛛陷阱箭矢爆發			(不該看到的異常狀態)	icon_skills.arcaneshockshot02_tex	icon_skills.arcaneshockshot02_tex	False
 601800	253	Buff	True	perc	8000	0	1	箭雨強化 I			箭雨的傷害不會分散(不該看到的異常狀態)	icon_skills.arrowfall_tex	icon_skills.arrowfall_tex	False
 601900	253	Buff	True	perc	8000	0	1	連射活性化			可以使用連射技能。	icon_skills.chain_arrow	icon_skills.chain_arrow	False
@@ -4088,6 +4242,7 @@
 5020011	HPChange2	Buff	True	perc	60000	0	0.25	Breath of Fire			Reduces your HP by 75%, decreases received healing by 85%, and increases attack speed by 5%. Covers your body in fire.	icon_skills.hellfire_tex	icon_skills.hellfire_tex	True
 5020012	339	Buff	True	perc	10800000	0	1.05	5% Item XP				icon_items.vip_growth_tex	icon_items.vip_growth_tex	True
 5020013	AtkPotion	Buff	True	perc	1800000	0	1.125	Combat Enhancer			Increases your skill damage by +12.5%	icon_items.add_extract_potion_1_tex	icon_items.add_extract_potion_1_tex	True
+5020016	DropUp	Buff	True	perc	1200000	0	2	Potion: Fata Morgana			Given to all group members when used. Increases Loot by 100%.	icon_items.refinedplanta12_tex	icon_items.refinedplanta12_tex	True
 5030002	HPChange	Buff	True	perc	900000	1	0.01	Emblem of Success	216820	Emblem of Success		icon_items.parts_magicweaponc15_tex	icon_items.parts_magicweaponc15_tex	True
 5030003	MPChange	Buff	True	perc	900000	1	0.05	Power potion - CD, MP regen	216820	Emblem of Success		icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex	True
 5030003	CDR	Buff	True	perc	900000	0	0.8	Power potion - CD, MP regen	216820	Emblem of Success		icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex	True
@@ -4104,6 +4259,8 @@
 5030005	HPChange	Buff	True	perc	900000	1	0.01	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
 5030005	AtkPotion	Buff	True	perc	900000	0	1.2	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
 5030005	CrystalBind	Buff	True	abs	900000	0	1	Sigil of Indestructible Flame	216822	Sigil of Indestructible Flame		icon_items.parts_magicweaponc6_tex	icon_items.parts_magicweaponc6_tex	True
+5050000	358	Buff	True	abs	0	0	1	[活動] 寶石路亞	222813	[活動] 寶石路亞		icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
+5050000	362	Buff	True	swch	0	0	222813	[活動] 寶石路亞	222813	[活動] 寶石路亞		icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
 5690001	StaminaDecay	Buff	True	seta	0	0	0	記憶的追蹤者			為了收集記憶的殘骸，將無法破壞強化水晶。	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690001	CrystalBind	Buff	True	abs	0	0	1	記憶的追蹤者			為了收集記憶的殘骸，將無法破壞強化水晶。	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690002	Resurrect	Buff	True	seta	60000	0	1	記憶重建			透過記憶重建，死去的記憶被刪除後可重新復活。	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex	True
@@ -4671,9 +4828,10 @@
 10151180	AtkPotion	Buff	True	perc	3000	0	1.3	飛劍迴旋刀刃(體力紋章)				icon_skills.chainblade_tex	icon_skills.chainblade_tex	False
 10151192	AtkPotion	Buff	True	perc	6000	0	2	暗殺：暗黑藏身			該期間內攻擊怪物時100%套用爆擊，且技能威力增加2.5倍。	icon_skills.assassination_tex	icon_skills.assassination_tex	True
 10151192	CritChance	Buff	True	perc	6000	0	100	暗殺：暗黑藏身			該期間內攻擊怪物時100%套用爆擊，且技能威力增加2.5倍。	icon_skills.assassination_tex	icon_skills.assassination_tex	True
-10151193	MovSpd	Stun	False	perc	1000	0	0.8	束縛之鐮			鎖鏈漸漸勒緊，難以行動。	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
-10151193	HPDrain	Stun	False	perc	1000	0	0.8	束縛之鐮			鎖鏈漸漸勒緊，難以行動。	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
-10151193	45	Stun	False	perc	1000	0	0.8	束縛之鐮			鎖鏈漸漸勒緊，難以行動。	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
+10151193	MovSpd	Stun	False	perc	2000	0	0.8	束縛之鐮			鎖鏈漸漸勒緊，難以行動。	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
+10151193	HPDrain	Stun	False	perc	2000	0	0.8	束縛之鐮			鎖鏈漸漸勒緊，難以行動。	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
+10151193	45	Stun	False	perc	2000	0	0.8	束縛之鐮			鎖鏈漸漸勒緊，難以行動。	icon_skills.sickleofbondage_tex	icon_skills.icestorm_tex	False
+10151194	MovSpd	Stun	False	perc	100	0	0.8	束縛之鐮				icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	False
 10151200	MaxHP	Buff	True	seta	60000	0	50000	自爆兵			成為自爆兵。在時間內如果不自爆，就會面臨虛無的死亡。自爆兵狀態下無法騎乘座騎。	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex	True
 10151200	MovSpdInCombat	Buff	True	seta	60000	0	240	自爆兵			成為自爆兵。在時間內如果不自爆，就會面臨虛無的死亡。自爆兵狀態下無法騎乘座騎。	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex	True
 10151200	OutOfCombatMovSpd	Buff	True	seta	60000	0	240	自爆兵			成為自爆兵。在時間內如果不自爆，就會面臨虛無的死亡。自爆兵狀態下無法騎乘座騎。	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex	True
@@ -4691,7 +4849,8 @@
 10151220	209	Buff	True	perc	3000	0	0	可使用飛劍逆收割			施展[飛劍重擊斬]、[飛劍最後的一擊]時可使用飛劍逆收割(不該看到)	icon_skills.tornadoprison_tex	icon_skills.tornadoprison_tex	False
 10151221	209	Buff	True	perc	2000	0	0	可使用飛劍收割			[飛劍重擊斬]、[飛劍最後的一擊]命中時可使用飛劍收割(不該看到)	icon_skills.tornadoprison_tex	icon_skills.tornadoprison_tex	False
 10151230	332	Buff	True	swch	10000	0	4	逆收割之影			[束縛之鐮] 影子演出用異常狀態(不該看到	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	False
-10151241	ReloadingSkill	Buff	True	perc	1000	0	90015	反擊冷卻時間控制不該看到			反擊冷卻時間控制不該看到			False
+10151241	ReloadingSkill	Buff	True	perc	100	0	90015	反擊  III			反擊冷卻時間控制不該看到	icon_skills.counterattack_tex	icon_skills.counterattack_tex	False
+10151242	ReloadingSkill	Buff	True	perc	3000	0	90015	反擊冷卻時間控制不該看到			反擊冷卻時間控制不該看到			False
 10152010	Endurance	Buff	True	perc	3100	0	1	祕傳衝擊彈爆發可能			可以讓飛行的祕傳衝擊彈大爆炸。	icon_skills.arcaneshockshot02_tex	icon_skills.arcaneshockshot02_tex	False
 10152020	Stun	Stun	False	swch	2600	0	5	投擲秘傳手榴彈			從電擊能源那裡發生觸電，暫時無法移動身體。	icon_skills.arcanegrenadethrow_tex	icon_skills.electricshock2_tex	True
 10152021	Stun	Stun	False	swch	2600	0	5	投擲秘傳手榴彈			從電擊能源那裡發生觸電，暫時無法移動身體。	icon_skills.arcanegrenadethrow_tex	icon_skills.electricshock2_tex	True
@@ -7939,9 +8098,9 @@
 99003150	IncreasedHeal	Debuff	False	perc	60000	0	0.45	傷口感染 VI			因為受感染的傷口，獲得HP恢復效果時，HP恢復量減少$H_W_BAD55%$COLOR_END。	icon_status.petrifystatus_tex	icon_status.petrifystatus_tex	True
 99003160	IncreasedHeal	Debuff	False	perc	60000	0	0.4	傷口感染 VII			因為受感染的傷口，獲得HP恢復效果時，HP恢復量減少$H_W_BAD60%$COLOR_END。	icon_status.petrifystatus_tex	icon_status.petrifystatus_tex	True
 99003170	IncreasedHeal	Debuff	False	perc	60000	0	0.35	傷口感染 VIII			因為受感染的傷口，獲得HP恢復效果時，HP恢復量減少$H_W_BAD65%$COLOR_END。	icon_status.petrifystatus_tex	icon_status.petrifystatus_tex	True
-99003200	MovSpdInCombat	Buff	True	abs	600000	0	2	精靈氣息			戰鬥狀態的移動速度提升$H_W_GOOD2$COLOR_END。最多可堆疊3次。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
+99003200	OutOfCombatMovSpd	Buff	True	abs	60000	0	3	精靈氣息			和平狀態下移動速度提升 $H_W_GOOD3$COLOR_END。最多可重疊3次。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 99003300	DamageAura	Buff	True	abs	300000	0	20	集中氣息			技能擊中時傷害增加$H_W_GOOD20$COLOR_END。	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
-99003400	Gathering	Buff	True	abs	300000	0	10	採集達人			採集熟練度提升$H_W_GOOD10$COLOR_END。最多可堆疊4次。	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
+99003400	GatheringTime	Buff	True	perc	60000	0	0.96	採集的氣息			採集速度提升 $H_W_GOOD4%$COLOR_END。最多可重疊3次。	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
 99003500	Stamina	Buff	True	abs	1000	0	0	活力氣息			最大健康狀態提升$H_W_GOOD0$COLOR_END。最多可堆疊3次。	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	False
 99003600	HPChange	Buff	True	perc	600000	3	0.005	再生氣息			每$H_W_GOOD3s$COLOR_END持續恢復$H_W_GOOD0.5%$COLOR_END的HP。最多可堆疊3次。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex	True
 99003700	MPChange	Buff	True	perc	600000	3	0.005	魔力氣息			每$H_W_GOOD3s$COLOR_END持續恢復$H_W_GOOD0.5%$COLOR_END的MP。最多可堆疊3次。	icon_status.aura_of_regeneration_mp_tex	icon_status.aura_of_regeneration_mp_tex	True
