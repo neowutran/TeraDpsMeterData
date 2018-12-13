@@ -361,6 +361,7 @@
 203	SMT_CANNOT_USE_ITS_FUNCTION_FREE_SERVICE	รูปแบบบัญชีนี้ไม่สามารถใช้หน้าที่นี้ได้
 203	SMT_CANNOT_USE_ITS_FUNCTION_TO_FREE_SERVICE_USER	รูปแบบบัญชีนี้ไม่สามารถใช้หน้าที่นี้ได้
 201	SMT_CANNOT_USE_PARTYMATCHING	เจ้าไม่สามารถใช้ instance matching ในขณะโจมตี
+203	SMT_CANNOT_USE_PREMIUM_DUNGEON	ขณะนี้ยังไม่สามารถใช้งานดันเจี้ยนดังกล่าวได้
 203	SMT_CANNOT_USE_SKILL_IN_BATTLE_FIELD	เจ้าไม่สามารถใช้สกิลนี้ในสนามรบ
 203	SMT_CANNOT_USE_THISITEM_WHILE_DOING_SKILL	เจ้าไม่สามารถใช้ไอเทมนั้นขณะกำลังใช้สกิล
 203	SMT_CANNOT_USE_UNKNOWN_REPUTATION_ITEM	เจ้าไม่สามารถใช้สิ่งนั้นเพราะเจ้ายังไม่คุ้นเคยกับ {NPCGuildName}
@@ -554,7 +555,7 @@
 201	SMT_CHANGE_COLOR_END_LIFETIME	การย้อม {ItemName} หายไป
 201	SMT_CHANGE_COLOR_PROGRESS_CANCEL	ยกเลิกขั้นตอนการย้อม
 201	SMT_CHANGE_COLOR_PROGRESS_SUCCESS	ย้อม {ItemName}
-205	SMT_CHANGE_GUILDLEVEL	เลเวลกิลด์ตอนนี้ <font size='28' color = '#ff6753'>{GuildLevel}</font>
+205	SMT_CHANGE_GUILDLEVEL	เลเวลกิลด์ตอนนี้ <font color='#ff6753'>{GuildLevel}</font>
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_ACCEPTABLE	ยอมรับการรบกิลด์ GvG ของฝ่ายตรงข้าม
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_NON_ACCEPTABLE	ปฏิเสธการรบกิลด์ GvG ของฝ่ายตรงข้าม
 204	SMT_CHANGE_PARTYMASTER	เจ้าเป็นผู้นำ {party} ตอนนี้
@@ -666,7 +667,7 @@
 201	SMT_CITYWAR_GUILD_DEATH	<font color='#ee1c24'>{GuildName2} {Name2}</font> <font color='#c8c8b6'> ได้ฆ่า</font> <font color='#40fb40'>{Name1}</font> <font color='#c8c8b6'>แล้ว!!</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	เป็นรางวัลสำหรับอันดับ <font color='#01ff96'>{WARRANK}</font> ใน Civil Unrest ซึ่งกิลด์ของท่านจะได้รับ <font color='#01ff96'>+{EXPPOINT}</font> XP กิลด์
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	ท่านได้รับ <font color='#01ff96'>+{CPOINT}</font> สำหรับการเข้าร่วมใน Civil Unrest: Velika
-202	SMT_CITYWAR_OPTIMIZE_OPTION	การตั้งค่ากราฟิก ได้ทำให้เหมาะสำหรับ PvP และของแฟชั่นทั้งหมด จะใช้ไม่ได้ชั่วคราว เมื่อออกจากบริเวณนี้ การตั้งค่าของท่าน จะเป็นปกติเหมือนเดิม
+202	SMT_CITYWAR_OPTIMIZE_OPTION	ฟังก์ชั่นปรับการตั้งค่าระบบให้เหมาะสมได้ถูกปรับใช้แล้ว เมื่อออกจากบริเวณนี้ จะกลับสู่การตั้งค่าเดิม ฟังก์ชั่นดังกล่าวสามารถปลดได้ จากการตั้งค่าเกมในหน้าต่างการตั้งค่าระบบ
 202	SMT_CITYWAR_START	<font color='#ffee92'>Civil Unrest: Velika ได้เริ่มต้นขึ้นแล้ว</font>
 202	SMT_CITYWAR_NONPK_AREA	ท่านไม่สามารถ ทำการประกาศไร้กฏหมาย ในบริเวณนี้ได้
 203	SMT_CLEAR_CURSE_FAILED	ท่านล้มเหลวในการเอาคำสาปออก
@@ -812,7 +813,7 @@
 201	SMT_ENCHANT_FAILED	การใช้เวทมนตร์ {ItemName} ล้มเหลว
 201	SMT_ENCHANT_FAILED_CRI	เวทมนตร์สำหรับ {ItemName} ลงลด {Count}
 201	SMT_ENCHANT_SUCCEED	ประสบความสำเร็จในการใช้เวทมนตร์ {ItemName}
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	เจ้าประสบความสำเร็จในการได้รับ +{Added}{ItemName} โบนัสเวทมนตร์ เจ้าจะปลดปล่อยอุปกรณ์ชนิดนี้ด้วยม้วนกระดาษแห่งอิสรภาพ
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	เสริมแกร่ง {ItemName} สำเร็จแล้ว ใช้ไอเทมปลดปล่อย เพื่อปลดปล่อยอุปกรณ์นี้
 201	SMT_END_COMPETITION_TIME	การแข่งขันพันธมิตรได้จบลงแล้ว
 201	SMT_END_SEASON	ฤดูกาลพันธมิตรได้จบลงแล้ว
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	เจ้าไม่ได้พบสิ่งที่ต้องการเพื่อเข้าสู่ตัวอย่างนี้
@@ -824,13 +825,13 @@
 203	SMT_ENTER_FAILED_REASON_QUEST_PROGRESS	เจ้าต้องทำงานในขั้นตอนที่ถูกต้องของ  {QuestName} เพื่อเข้า
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER	เจ้ามีสมาชิกโจมตีไม่มากพอที่จะเข้า
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER_OVER	เจ้ามีผู้เล่นมากเกินไปที่จะเข้า
-203	SMT_EP_CANT_LEARN_EP_PERK	การรับ EP ล้มเหลว ลองอีกครั้งภายหลัง
+203	SMT_EP_CANT_LEARN_EP_PERK	เรียน EP ล้มเหลว กรุณาลองใหม่อีกครั้ง
 302	SMT_EP_CANT_OPEN_WINDOW_WHEN_ACTION	ไม่สามารถเปิดตั้งค่า EP ในขณะเคลื่อนไหวหรือต่อสู้
 302	SMT_EP_CANT_RESET_NO_USED_EP	ไม่สามารถรีเซ็ตการตั้งค่า EP   เจ้าไม่ได้ทำการเปลี่ยนแปลงสิ่งใด
-302	SMT_EP_CANT_USE_RESET_EP_ITEM	ไม่สามารถรีเซ็ตได้ในขณะนี้.
+302	SMT_EP_CANT_USE_RESET_EP_ITEM	ไม่สามารถรีเซ็ต EP ได้ในขณะนี้
 203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_MAX	ไม่สามารถรรับ EP XP ได้อีก
-203	SMT_EP_CANT_EARN_EP_POINT	ไม่สามารถรับคะแนน EP มากกว่านี้
-203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	สามารถใช้เมื่อ EP ได้เปิดใช้
+203	SMT_EP_CANT_EARN_EP_POINT	ไม่สามารถรับ EP Point ได้อีก
+203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	ต้องเปิดใช้งาน EP จึงจะสามารถใช้งานได้
 203	SMT_EQUIPMENT_PRESET_CANT_FIND_ALLEQUIPMENT	ไม่สามารถหาอุปกรณ์สำหรับเสื้อผ้าชุดนี้
 203	SMT_ESCAPE_FAILED_BUSY	เจ้ายุ่งอยู่ เจ้าไม่สามารถใช้ฟังก์ชันแยกออกในตอนนี้
 203	SMT_EVENT_CANNOT_USE_NOT_ENOUGH_SPACE	ไม่สามารถใช้ {ItemName} ที่นี่ กรุณาลองอีกครั้งในสถานที่อื่น
@@ -850,6 +851,7 @@
 201	SMT_FAILED_QUEST	ล้มเหลว: {QuestName} 
 203	SMT_FAILED_QUEST_CANCLE	[{QuestName}] ไม่สามารถละทิ้งได้
 203	SMT_FAILED_QUEST_COMPENSATION	เจ้าไม่สามารถทำ "{QuestName}"  เควส เนื่องจากรายการสินค้า, เงิน, หรือการจำกัดเควสประจำวัน
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	สามารถทำเควสได้ก็ต่อเมื่อ ได้รับสกิลทั้งหมดแล้วเท่านั้น
 201	SMT_FAIL_EXTRACT	เจ้าล้มเหลวในการสกัด {ItemName}
 201	SMT_FAIL_PRODUCE	ล้มเหลวในการสร้าง {ItemName}
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	เจ้าไม่สามารถเพิ่มตัวรับตัวละครโดยใช้ {ชื่อไอเทม} เพราะเจ้าไม่มีสิ่งที่ต้องการ
@@ -876,7 +878,7 @@
 203	SMT_FREE_SERVICE_CANT_ACTION	การกระทำนี้ใช้ไม่ได้กับรูปแบบบัญชีนั้น
 201	SMT_FREE_SERVICE_IS_OVER	กรุณาซื้อและสมัครสมาชิกเพื่อความตื่นเต้นของเจ้าต่อไป!
 203	SMT_FREE_SERVICE_LIMIT_ACTION	รูปแบบบัญชีนี้ไม่สามารถเข้าสู่บริเวณนี้ได้
-201	SMT_FREE_SERVICE_LITTLE_TIME_LEFT	เลเวล {Level} เป็นเลเวลสูงสุดสำหรับบัญชีทดลอง เวลาเล่นของเจ้ากับตัวละครนี้จะหมดเวลาใน {minute} นาที {@select:{minute}/s//s} กรุณาลองตัวละครอื่นหรือซื้อ TERA ที่ store.enmasse.com.
+201	SMT_FREE_SERVICE_LITTLE_TIME_LEFT	เลเวล {Level} เป็นเลเวลสูงสุดสำหรับบัญชีทดลอง เวลาเล่นของเจ้ากับตัวละครนี้จะหมดเวลาใน {minute} นาที {@select:{minute}/s//s} กรุณาลองตัวละครอื่นหรือซื้อ ที่ tera.playwith.in.th
 201	SMT_FRIENDSHIP_GETTING_POINT_MSG	{Point} ข้อผูกมัดมิตรภาพได้รับโดย {type}
 201	SMT_FRIEND_ADD_SUCCESS	เพิ่ม {UserName}  อยู่ในรายชื่อเพื่อนของเจ้า
 203	SMT_FRIEND_ALREADY_EXIST	ผู้เล่นคนนั้นอยู่ในรายชื่อเพื่อนของเจ้าแล้ว, หรือการร้องขอเป็นเพื่อนยังค้างอยู่
@@ -1178,8 +1180,8 @@
 203	SMT_INGAMESTORE_CHECKING_BALANCE_FAILED_MESSAGE	ไม่สามารถตรวจสอบความสมดุลได้ กรุณาลองอีกครั้งภายหลัง [รหัสผิดพลาด:{ErrorText}]
 203	SMT_INGAMESTORE_CLOSED	เราไม่สามารถให้เข้าสู่ TERA Store ได้ในขณะนี้
 203	SMT_INGAMESTORE_ERROR	ไม่สามารถซื้อผลผลิต
-203	SMT_INGAMESTORE_LOWMONEY	มีคะแนน En Masse ไม่พอสำหรับซื้อสิ่งนั้น กรุณาซื้อ EMP เพิ่มเติมที่เวปไซต์ร้าน En Masse
-201	SMT_INGAMESTORE_OPEN_CHARGE_PAGE	ซื้อ EMP
+203	SMT_INGAMESTORE_LOWMONEY	มี Pcash ไม่พอสำหรับซื้อสิ่งนั้น กรุณาซื้อ Pcash เพิ่มเติมที่เวปไซต์ [เติมเงิน]
+201	SMT_INGAMESTORE_OPEN_CHARGE_PAGE	ซื้อ Pcash
 201	SMT_INGAMESTORE_OPEN_ITEM_CLAIM	เปิดเคลมไอเทม
 203	SMT_INGAMESTORE_TCAT_BUYALERT	ไอเทมที่ซื้อมาจะอยู่ใน <font color='#FFFFFF'>รายการไอเทม</font><br><font color='#FF0000'>การซื้อไอเทมด้วยเงินสหพันธ์ ไม่สามารถเรียกคืนได้</font>
 201	SMT_INGAMESTORE_TERA_SHOP	TERA Store
@@ -1304,7 +1306,7 @@
 201	SMT_LOAN_REGISTER_LOAN_INTEREST_RATE	SMT_LOAN_REGISTER_LOAN_INTEREST_RATE
 201	SMT_LOAN_REGISTER_LOAN_MONEY	SMT_LOAN_REGISTER_LOAN_MONEY
 201	SMT_LOAN_REGISTER_MORTGAGE_FAILED	SMT_LOAN_REGISTER_MORTGAGE_FAILED
-201	SMT_LOBBY_CANNOT_CONNECT_TIME_EXPIRED	เจ้าใช้เวลาเล่นที่จำกัดของเจ้าหมดแล้ว กรุณาดู TERA.enmasse.com สำหรับวันที่ช่วงเวลาทดสอบในอนาคต
+201	SMT_LOBBY_CANNOT_CONNECT_TIME_EXPIRED	เจ้าใช้เวลาเล่นที่จำกัดของเจ้าหมดแล้ว กรุณาดู tera.playwith.in.th สำหรับวันที่ช่วงเวลาทดสอบในอนาคต
 209	SMT_LOOTED_ITEM	ท่านได้รับ {ItemName} x{ItemAmount}
 211	SMT_LOOTED_MONEY	ท่านได้รับ {Money@money}
 209	SMT_LOOTED_SPECIAL_ITEM	ท่านได้รับ {ItemName} x{ItemAmount}
@@ -1737,13 +1739,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	เลือกที่ตั้งที่จะฟื้นคืนชีพ, หรือเจ้าจะฟื้นคืนชีพอัตโนมัติในที่ตั้งของเจ้าใน{Sec} วินาที(s)
 201	SMT_SAVE_SCREEN_SHOT	ภาพหน้าจอบันทึกไปยัง: {Folder}
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	คำบรรยายบันทึกใน{Folder}
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' > เอฟเฟกต์เวทมนต์ที่พัฒนาขึ้นสามารถใช้ได้เพียงครั้งเดียวเท่านั้น, แต่อาจทำซ้ำและกองรวมกับเอฟเฟกต์เวทมนตร์พื้นฐานได้ </font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >เอฟเฟกต์เสริมแกร่งที่เพิ่มขึ้น (+3 ถึง +9)</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >Primary Enchantment Effects</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font> เอฟเฟกต์เวทมนตร์ที่พัฒนาขึ้น สามารถใช้ได้เพียงครั้งเดียวเท่านั้น แต่อาจทำซ้ำและกองรวมกับเอฟเฟกต์เวทมนตร์พื้นฐานได้</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font>เอฟเฟกต์เสริมแกร่งที่เพิ่มขึ้น (+3 ถึง +9)</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font>เอฟเฟกต์เสริมแกร่งที่เพิ่มขึ้น (+3 ถึง +9)</font><br/><br/>
 203	SMT_SEAL_ERROR_GRADE	เจ้าไม่สามารถใช้ {ItemName2} กับงานชิ้นเอกหรือไอเทมปลุกให้ตื่น
 203	SMT_SEAL_FAIL	เจ้าล้มเหลวในการรวม {ItemName} ในสิ่งลึกลับใหม่
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	ขอแสดงความยินดี! {ItemName} ได้ถูกรับรองให้เป็นงานชิ้นเอก!
@@ -1755,7 +1757,7 @@
 201	SMT_SEAL_SUCCESS	เจ้าได้เปลี่ยนเวทมนตร์ของ {ItemName}
 201	SMT_SEAT_ATTACH_FAIL	เจ้าไม่สามารถขี่ม้าได้
 203	SMT_SECOND_CHAR_CANNOT_RECORD_TELEPORT	ไม่มีที่ตั้งในการลงทะเบียน
-203	SMT_SECOND_CHAR_NOT_ENOUGH_EP	เจ้ามี EP ไม่พอ
+203	SMT_SECOND_CHAR_NOT_ENOUGH_EP	เจ้ามี EP ไม่พอ จึงไม่สามารถดำเนินการได้
 203	SMT_SELL_AGIT_FAIL_GUILD_HAVENOAGIT	กิลด์ของเจ้าไม่ได้เป็นเจ้าของ Skycastle
 203	SMT_SELL_AGIT_FAIL_INVALID_STAT	เจ้าไม่สามารถขาย Skycastle ได้ในเวลานี้
 203	SMT_SELL_AGIT_FAIL_NOT_GUILD	เจ้าไม่สามารถซื้อ Skycastle เจ้าไม่ได้อยู่ในกิลด์
@@ -1871,7 +1873,7 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	ท่านไม่สามารถบุ๊กมาร์กที่ตั้งได้ในเวลานี้
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	ท่านไม่สามารถเคลื่อนย้ายได้ในเวลานี้
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	ท่านไม่สามารถเคลื่อนย้ายได้ โดยปราศจาก {ItemName}
-203	SMT_TELEPORT_NOT_ENOUGH_EP	ท่านมี EP ไม่พอ
+203	SMT_TELEPORT_NOT_ENOUGH_EP	เจ้ามี EP ไม่พอ จึงไม่สามารถดำเนินการได้
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	ท่านไม่สามารถบุ๊กมาร์กที่ตั้งได้มากกว่านี้
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName} ยอมรับการเรียก
 201	SMT_TELEPORT_TARGET_REJECT	{UserName} ปฏิเสธการเรียก
@@ -2058,7 +2060,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	ช่วงเวลาสำหรับ {ไอเทม} กำลังจะสิ้นสุดในไม่ช้า มันจะหายไปจากรายการสิ่งของเมื่อช่วงเวลาจบสิ้น
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	อุปกรณ์นั้นเป็นงานชิ้นเอกหรือเวทมนตร์
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	เจ้ามีไอเทมในธนาคารชั่วคราว กรุณาตรวจสอบธนาคารชั่วคราว
-203	SMT_WARN_PLAY_MATINEE	วิดีโอไม่สามารถเล่นได้ เนื่องจากว่าท่าน ยังไม่ได้เลือกตัวละคร
+203	SMT_WARN_PLAY_MATINEE	วิดีโอไม่สามารถเล่นได้ เนื่องจากว่าท่านยังไม่ได้เลือกตัวละคร หรือยังไม่มีตัวละครให้เลือกอยู่ปัจจุบัน
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	ชื่อกิลด์ของเจ้าจะต้องเปลี่ยนเนื่องจากมีการรวมเซิร์ฟเวอร์ เจ้าสามารถเปลี่ยนชื่อกิลด์ในแท๊บรายละเอียดกิลด์ของ UI กิลด์ของเจ้า
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	เรียกสิ่งที่ยังคงมีอยู่แล้ว
 201	SMT_WORLD_CHANNEL_MOVED	ย้ายไปแชนแนล {number}
@@ -2074,10 +2076,10 @@
 203	SMT_YOU_CANT_RESET_DUNGEON_NO_NOTHING	ไม่มีตัวอย่างให้รีเซ็ต
 203	SMT_YOU_MUST_DETACH_CRYSTAL	กรุณาถอดคริสตัลทั้งหมดก่อน
 203	SMT_EP_CANT_USE_ITEM_BY_LEVEL_MAX	เจ้าต้องมีเลเวลที่สูงกว่าเพื่อใช้สิ่งนั้น
-203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	เจ้าสามารถบันทึกการเปลี่ยนแปลงซึ่งทำในการตั้งค่า EP
+203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	มีการตั้งค่า EP ที่ยังไม่บันทึก
 203	SMT_CAN_MATCH_OVER_MIN_MEMBER_COUNT	กลุ่มน้อยที่สุดสำหรับการต่อคิวนี้ {number}  ผู้เล่น
 203	SMT_CAN_MATCH_UNDER_MAX_MEMBER_COUNT	กลุ่มมากที่สุดสำหรับการต่อคิวนี้  {number}  ผู้เล่น
-203	SMT_EP_EXP_TOOLTIP	ทำให้สำเร็จ {CurrentEpExpPercent}% ของ EP XP (สามารถรับ {EarnEp} คะแนน EP เมื่อถึง 100%)
+203	SMT_EP_EXP_TOOLTIP	EP XP ถึง {CurrentEpExpPercent}% (เมื่อถึง 100% จะสามารถได้รับ {EarnEp} EP Point)
 203	SMT_DUNGEON_WORK_SUCCESS_TITLE	สำเร็จ
 203	SMT_DUNGEON_WORK_FAIL_TITLE	ล้มเหลว
 203	SMT_YOU_CANT_RETRY_SOLO_DUNGEON	ท่านได้ถึงขีดจำกัด สำหรับการเข้าสู่ดันเจี้ยนผู้พิชิตแล้ว
@@ -2095,8 +2097,8 @@
 203	SMT_CANT_SETTING_SKILL_SCRIPT	ไม่สามารถใช้ข้อความต้อนรับ
 201	SMT_JACKPOT_DUNGEON_REWARD_MESSAGE1	เคลม {ItemName} {amount} โดยการเคลียร์ดันเจี้ยนนี้!
 201	SMT_JACKPOT_DUNGEON_START_MESSAGE	เคลมรางวัลเพิ่มเติมในดันเจี้ยนนี้
-203	SMT_EP_RESET_EP_PERK	รีเซ็ต EP
-203	SMT_EP_CANT_RESET_EP_PERK	ล้มเหลวในการรีเซ็ต EP  ลองอีกครั้ง
+203	SMT_EP_RESET_EP_PERK	รีเซ็ต EP แล้ว
+203	SMT_EP_CANT_RESET_EP_PERK	รีเซ็ต EP ไม่สำเร็จ กรุณาลองใหม่อีกครั้ง
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_SPAWN_USER	ตำแหน่งศัตรู!!
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_WARNING	!!!!
 302	SMT_WORLD_OF_TANK_ACTIVE_MOVE_BY_BOMB	ตำแหน่งที่ศัตรูฆ่าตัวตาย!!
@@ -2127,6 +2129,7 @@
 203	SMT_CANNOT_TRADE_PROMOTION_ITEM	ไอเทมจาก PC Cafe กิจกรรมล็อกอิน ไม่สามารถทำการค้า, ขายร้าน หรือใส่ในธนาคารกิลด์ได้
 203	SMT_CANNOT_USE_SERVICE	บริการไม่สามารถใช้ได้ในขณะนี้
 203	SMT_STOP_USE_SERVICE	บริการนี้ยังไม่เปิดใช้
+203	SMT_CANNOT_USE_PREMIUM_SERVICE	ไม่มีสิทธิพิเศษที่สามารถใช้ได้ กรุณาตรวจสอบ Tera Store
 203	SMT_PROMOTION_OFF_BY_ADMIN	ไม่สามารถเข้าสู่กิจกรรม PC Cafe ในตอนนี้
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	เจ้าไม่สามารถเข้าสู่ดันเจี้ยนชั้นเยี่ยมในเวลานี้
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	ลักษณะนี้ไม่ถูกสนับสนุนใน Window 2003 หรือ Window XP
@@ -2137,7 +2140,7 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	เจ้าได้ซื้อไอเทมนี้แล้ว
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	ศูนย์กลางการค้ารางวัล TERA ใช้งานไม่ได้ชั่วคราว
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	เควสจะถูกรีเซ็ตในคะแนนที่เหมาะสม
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color='#cccccc'>ท่านจะต้องฟื้นคืนชีพ ในที่ตั้งที่เลือกไว้<br>ภายใน <font size='20' color='#ff0000'>{ReviveSec} วินาที</font>
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color='#cccccc'>ท่านจะต้องฟื้นคืนชีพ ในที่ตั้งที่เลือกไว้<br>ภายใน <font color='#ff0000'>{ReviveSec} วินาที</font>
 202	SMT_GQUEST_URGENT_NOTIFY	<font color='#fcb7ff'>[การฟื้นตัว]{questName}</font>ใช้ได้แล้วในตอนนี้สำหรับกิลด์ของเจ้า <font color='#fcb7ff'> {npcName </font>จะปรากฏใน<font color='#fcb7ff'>{zoneName} (Channel 1)</font> เร็ว ๆ นี้
 202	SMT_GQUEST_URGENT_APPEAR	<font color='#fcb7ff'>{npcname}</font><font color='#fcb7ff'>ปรากฏ</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color='#fcb7ff'>{npcname} </font><font color='#fcb7ff'>หนีไป</font>.
@@ -2263,13 +2266,15 @@
 203	SMT_FIELD_EVENT_LEAVE	ออกจากพื้นที่ของ Guardian's Mission แล้ว
 203	SMT_FIELD_EVENT_COMPLETE	ครบเงื่อนไขทั้งหมดของ Guardian's Mission แล้ว
 203	SMT_FIELD_EVENT_FAIL_OVERTIME	สิ้นสุดเวลาของ Guardian's Mission แล้ว
-203	SMT_FIELD_EVENT_REWARD_AVAILABLE	สามารถรับรางวัลครั้งที่ {number} ของ Guairdian Mission ({number}/40)
+203	SMT_FIELD_EVENT_REWARD_AVAILABLE	สามารถได้รับรางวัล Guardian's Mission
 203	SMT_FIELD_EVENT_USER_LIMIT_FULL	จำนวนสมาชิก ของภารกิจดังกล่าวเต็มแล้ว ไม่สามารถเคลื่อนย้ายไปได้
 203	SMT_FIELD_EVENT_TELEPORT_FAIL_ENTERED_EVENT	Guardian's Mission ที่เข้าร่วมอยู่ในปัจจุบัน
 203	SMT_FIELD_EVENT_TELEPORT_FAIL_IN_COMBAT	ไม่สามารถใช้ได้ในขณะต่อสู้
 203	SMT_FIELD_EVENT_TELEPORT_FAIL_NONEXISTENT_EVENT	ไม่พบ Guardian Mission ดังกล่าวในขณะนี้
 201	SMT_FIELD_EVENT_BAN_GUIDE_MESSAGE	อยู่ในสถานะไม่อยู่ อีก {Sec} วินาที จะถูกย้ายไปยังสถานที่ปลอดภัย<br>หากขยับตัวละคร จะสามารถยกเลิกได้
 203	SMT_FIELD_EVENT_BAN_MESSAGE	สถานะไม่อยู่หากไม่ถูกยกเลิก จะย้ายไปยังสถานที่ปลอดภัย
+203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	ส่งรางวัลเพิ่มเติมของ Guardian's Mission ไปทางจดหมายแล้ว
+202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	Guardian's Mission ระดับตำนานได้เริ่มขึ้นแล้ว
 203	SMT_NON_PK_SECTION	ไม่สามารถ PK ได้ในพื้นที่นี้
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	ไม่มีไอเทมที่ใช้งาน จึงไม่สามารถใช้งาน '{SkillName}' ได้
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	{SkillName}' ไม่สามารถใช้โดย {ItemName} ได้
@@ -2278,3 +2283,24 @@
 203	SMT_START_RANK_TIMER	Rank Timer เริ่มต้นแล้ว
 203	SMT_STOP_RANK_TIMER	Rank Timer สิ้นสุดแล้ว
 203	SMT_SHOW_ELAPSED_TIME	เวลาที่ใช้ : {time}
+203	SMT_CANNOT_TELEPORT_DURING_BATTLE	ขณะต่อสู้ไม่สามารถใช้ Teleport ได้
+203	SMT_CANNOT_TELEPORT_DURING_FLIGHT	ขณะบินไม่สามารถใช้งาน Teleport ได้
+203	SMT_CANNOT_TAKE_EQUIPMENT_EXP	อุปกรณ์ที่สวมใส่อยู่ไม่สามารถได้รับความชำนาญอุปกรณ์เพิ่มได้ 
+203	SMT_MAIN_MENU_NO_EVENT	ไม่มีกิจกรรมที่อยู่ในระหว่างดำเนินการ
+203	SMT_MAIN_MENU_INCOMPLETE_SOULLESS_QUEST_FOR_ORDERS	ต้องสำเร็จเควสพื้นที่เริ่มต้น
+302	SMT_MENTOR_COMPLIMENT	ชมเชยแล้ว ของรางวัลเพิ่มเติมถูกส่งไปยัง Skilled Guardian ที่ได้รับคำชมเชย
+203	SMT_CANT_DECOMPOSE_BIND_ITEM	แยกได้เฉพาะตัวละครที่ผูกมัดเท่านั้น
+203	SMT_CANNOT_INHERITANCE_BIND_ITEM	เปลี่ยนได้เฉพาะตัวละครที่ผูกมัดเท่านั้น
+203	SMT_CANNOT_FISHING_NON_BAIT	ต้องใส่เหยื่อก่อน
+202	SMT_CANNOT_FISHING_NON_AREA	ออกนอกเขตตกปลาแล้ว
+203	SMT_CANNOT_FISHING_FULL_INVEN	ไม่สามารถใช้ได้ เนื่องจากพื้นที่ในกระเป๋าไม่เพียงพอ
+203	SMT_CANNOT_FISHING_SERVERDOWN	ขณะนี้ไม่สามารถตกปลาได้
+202	SMT_FISHING_BITE_WAIT	กำลังตกปลา กรุณารอจนกว่าจะมีการตอบรับ 
+202	SMT_FISHING_BITE_STATE	มีบางอย่างติดเบ็ดแล้ว กรุณากดปุ่ม {ActionKey} เพื่อดึงปลาขึ้นมา จะตกปลาอัตโนมัติในอีก {autoWaitingTime} วินาที
+201	SMT_FISHING_RESULT_SUCCESS	ตกปลาสำเร็จแล้ว
+201	SMT_FISHING_RESULT_FAIL	การตกปลาล้มเหลว
+201	SMT_FISHING_RESULT_CANCLE	ยกเลิกการตกปลาแล้ว
+201	SMT_FISHING_MINIGAME_HOWTO	กรุณากด {ActionKey} เพื่อดึงปลาเข้ามาในขอบเขต
+201	SMT_FISHING_REWARD	ท่าน {UserName} ได้รับ {ItemName} จำนวน {ItemCount} ชิ้น
+203	SMT_DELIVERY_INFOR_RESET	รีเฟรชหน้าจอการส่งมอบ เนื่องจากมีการเปลี่ยนข้อมูล
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> ท่าน {UserName} ได้สั่นระฆัง Golden Bell แล้ว! <font color='#f7ff7a'>{AbnormalityName}</font>

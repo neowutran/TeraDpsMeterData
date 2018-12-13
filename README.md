@@ -7,7 +7,7 @@ https://github.com/gothos-folly/TeraDataTools
 
 Decrypted Database repository:
 ----------------------
-https://neowutran.ovh/files-storage/TeraDB/
+https://neowutran.ovh/teraDB/
 
 File formats:
 ----------------------

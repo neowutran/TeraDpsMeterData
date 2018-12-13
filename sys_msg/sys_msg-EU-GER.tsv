@@ -361,6 +361,7 @@
 203	SMT_CANNOT_USE_ITS_FUNCTION_FREE_SERVICE	Mit diesem Kontotyp könnt Ihr diese Funktion nicht benutzen.
 203	SMT_CANNOT_USE_ITS_FUNCTION_TO_FREE_SERVICE_USER	Mit diesem Kontotyp könnt Ihr diese Funktion nicht benutzen.
 201	SMT_CANNOT_USE_PARTYMATCHING	Ihr könnt die Instanzgruppensuche nicht verwenden, wenn Ihr in einer Schlachtgruppe seid.
+203	SMT_CANNOT_USE_PREMIUM_DUNGEON	Derzeit kann dieser Dungeon nicht genutzt werden.
 203	SMT_CANNOT_USE_SKILL_IN_BATTLE_FIELD	Ihr könnt diese Fertigkeit nicht auf dem Schlachtfeld benutzen.
 203	SMT_CANNOT_USE_THISITEM_WHILE_DOING_SKILL	Solange Ihr eine Fertigkeit benutzt, könnt Ihr diesen Gegenstand nicht verwenden.
 203	SMT_CANNOT_USE_UNKNOWN_REPUTATION_ITEM	Ihr könnt dies nicht benutzen, da Ihr nicht mit {NPCGuildName} bekannt seid.
@@ -554,7 +555,7 @@
 201	SMT_CHANGE_COLOR_END_LIFETIME	Färbung von {ItemName} ist aufgehoben.
 201	SMT_CHANGE_COLOR_PROGRESS_CANCEL	Färbungsprozess abgebrochen.
 201	SMT_CHANGE_COLOR_PROGRESS_SUCCESS	"{ItemName}" gefärbt.
-205	SMT_CHANGE_GUILDLEVEL	Ihr habt die Gildenstufe <font size='28' color = '#ff6753'>{GuildLevel}</font> erreicht.
+205	SMT_CHANGE_GUILDLEVEL	Ihr habt die Gildenstufe <font color = '#ff6753'>{GuildLevel}</font> erreicht.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_ACCEPTABLE	Einladung der gegnerischen Gilde zum GvG annehmen.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_NON_ACCEPTABLE	Einladung der gegnerischen Gilde zum GvG ablehnen.
 204	SMT_CHANGE_PARTYMASTER	Ihr seid jetzt {Party}nanführer.
@@ -666,7 +667,7 @@
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2}{Name2}</font><font color = '#c8c8b6'> hat </font><font color = '#40fb40'>{Name1}</font><font color = '#c8c8b6'> besiegt.</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	Als Belohnung für den <font color = '#01ff96'>{WARRANK}</font> Platz im Gildenkrieg, erhaltet Ihr <font color = '#01ff96'>+{EXPPOINT}</font> Gilden-EP.
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	Im Gildenkrieg habt Ihr an Teilnahmefortschritt <font color = '#01ff96'>+{CPOINT}</font> erworben.
-202	SMT_CITYWAR_OPTIMIZE_OPTION	Die Funktion zur automatischen Optimierung ist während des Gildenkriegs aktiv. Wenn Ihr den betreffenden Bereich verlasst, werden die eigentlichen Video-Einstellungen wiederhergestellt.
+202	SMT_CITYWAR_OPTIMIZE_OPTION	Die Funktion zur System-Optimierung wurde aktiviert. Wenn Ihr den betreffenden Bereich verlasst, werden die eigentlichen Video-Einstellungen wiederhergestellt. Die Funktion kann in den Systemeinstellungen entfernt werden.
 202	SMT_CITYWAR_START	<font color = '#ffee92'>Der Gildenkrieg hat begonnen.</font>
 202	SMT_CITYWAR_NONPK_AREA	In dieser Region könnt Ihr die Gesetzlosenerklärung nicht verwenden.
 203	SMT_CLEAR_CURSE_FAILED	Ihr konntet den Fluch nicht aufheben.
@@ -677,14 +678,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	Nicht in der Lage, Eure Sammelfertigkeit zu erhöhen.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	Dies wird bereits gesammelt.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	In der Insektenjagd habt Ihr die Stufe "{prof}" erreicht.
-201	SMT_COL_CHATLOG_ENERGY	In der Energiegewinnung habt Ihr die Stufe "{prof}" erreicht.
-201	SMT_COL_CHATLOG_HERB	Im Pflanzensammeln habt Ihr die Stufe "{prof}" erreicht.
-201	SMT_COL_CHATLOG_MINERAL	Im Bergbau habt Ihr die Stufe "{prof}" erreicht.
 201	SMT_COL_SYSMSG_PICK_CANCEL	Sammeln abgebrochen.
-201	SMT_COL_SYSMSG_PICK_FAIL	Sammeln gescheitert.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	Sammeln unterbrochen.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	Sammeln erfolgreich.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	Ihr habt Stufe {grade} im Pflanzen sammeln erreicht.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	Ihr habt Stufe {grade} im Bergbau erreicht.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	Ihr habt Stufe {grade} im Odem sammeln erreicht.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	Ihr habt nicht genug Gegenstände des Typs "{ItemName}".
 302	SMT_COMPENSATION_ACQUIRED	Belohnung erhalten!
 203	SMT_COMPENSATION_NOT_ACQUIRED	Keine Belohnung erhalten.
@@ -812,7 +810,7 @@
 201	SMT_ENCHANT_FAILED	Verzaubern gescheitert: {ItemName}.
 201	SMT_ENCHANT_FAILED_CRI	Verzauberung von "{ItemName}" wurde um {Count} reduziert.
 201	SMT_ENCHANT_SUCCEED	Erfolgreich verzaubert: {ItemName}.
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	Ihr habt einen Verzauberungsbonus von +{Added} {ItemName} erhalten. Ihr könnt diese Ausrüstung mit einer Befreiungsschriftrolle befreien.
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	Erfolgreich verzaubert: {ItemName}. Ihr könnt diese Ausrüstung mit einer Befreiungsschriftrolle befreien.
 201	SMT_END_COMPETITION_TIME	Der Allianzwettkampf ist beendet.
 201	SMT_END_SEASON	Der Allianzzyklus ist beendet.
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	Ihr erfüllt nicht die Voraussetzungen, um die Instanz zu betreten.
@@ -850,8 +848,8 @@
 201	SMT_FAILED_QUEST	Gescheitert: {QuestName}
 203	SMT_FAILED_QUEST_CANCLE	Ihr könnt die Quest "{QuestName}" nicht aufgeben.
 203	SMT_FAILED_QUEST_COMPENSATION	Ihr könnt die Quest "{QuestName}" nicht fortsetzen: Euer Inventar ist voll, Ihr besitzt zu viel Geld oder Ihr habt Euer tägliches Questmaximum erreicht.
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Ihr könnt die Quest nur ausführen, wenn Ihr alle Fertigkeiten erlernt habt.
 201	SMT_FAIL_EXTRACT	Die Extraktion des Gegenstands "{ItemName}" ist gescheitert.
-201	SMT_FAIL_PRODUCE	Herstellung gescheitert: {ItemName}.
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	Ihr könnt keine Charakterverankerungen durch die Verwendung von {ItemName} hinzufügen, weil Ihr die Voraussetzungen nicht erfüllt.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	Erweiterung der Charakterplätze gescheitert.
 203	SMT_FAIL_UNION_PRODUCE	Ihr erfüllt nicht die Voraussetzungen für dieses Handwerk.
@@ -1161,8 +1159,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	Ihr könnt das Spiel nicht beenden, während Ihr Schaden erleidet.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	Ihr könnt den Gegenstand nicht benutzen, während Ihr Schaden erleidet.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Momentan laufen Events. Bitte besucht http://de.tera.gameforge.com für mehr Details.
-201	SMT_INCREASE_SKILL_PROF	Fertigkeitsstufe wurde erhöht.
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName} wurde um {SkillProf} erhöht.
 201	SMT_INCREASE_SKILL_RANK	{Skill} hat nun die Stufe {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Ein zusätzlicher Charakterplatz wurde hinzugefügt.
 201	SMT_INGAMESTORE_BASKET_ADDED	Der ausgewählte Gegenstand wurde in Eurem Warenkorb abgelegt.
@@ -1737,13 +1733,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	Wählt einen Wiederbelebungsort oder Ihr werdet in {Sec} Sek. automatisch an Eurer Basis wiederbelebt.
 201	SMT_SAVE_SCREEN_SHOT	Screenshot wird gespeichert in: {Folder}
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	Bildunterschrift gespeichert in {Folder}.
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' >Dieselbe Option kann nicht auf eine zufällige Verzauberungsoption angewendet werden.</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >Liste verfügbarer zufälliger Verzauberungsoptionen</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >Liste verfügbarer zufälliger Passivoptionen</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font >Dieselbe Option kann nicht auf eine zufällige Verzauberungsoption angewendet werden.</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font >Liste verfügbarer zufälliger Verzauberungsoptionen</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font >Liste verfügbarer zufälliger Passivoptionen</font><br/><br/>
 203	SMT_SEAL_ERROR_GRADE	Ihr könnt {ItemName2} nicht auf Meisterwerk- oder Apexgegenständen anwenden.
 203	SMT_SEAL_FAIL	Ihr konntet den Gegenstand "{ItemName}" nicht mit einem neuen Enigma belegen.
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	Herzlichen Glückwunsch! {ItemName} wurde zum Meisterwerk!
@@ -1851,7 +1847,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	Ihr habt Euch zusätzliche Questbelohnungen verdient.
 201	SMT_SUCCESS_CHANGE_TAX	Der Steuersatz wurde geändert.
 201	SMT_SUCCESS_EXTRACT	"{ItemName}" erfolgreich extrahiert.
-201	SMT_SUCCESS_PRODUCE	Hergestellt: {ItemName}.
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Mit Euren außergewöhnlichen handwerklichen Fähigkeiten habt Ihr Euch Bonusmaterialien verdient.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	Eure Beschwörung von {UserName} ist gescheitert.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} ist tot und kann nicht beschworen werden.
@@ -2019,7 +2014,7 @@
 203	SMT_USE_ITEM_NO_EXIST	Dieser Gegenstand ist Euch ausgegangen.
 203	SMT_USE_ITEM_RACE_MISMATCH	Dieser Gegenstand steht Eurem Volk nicht zur Verfügung.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	Ihr könnt dies jetzt nicht benutzen.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	{Num} Produktionspunkte wiederhergestellt. Produktionspunkte können 4.000 nicht überschreiten.
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	{Num} Produktionspunkte wiederhergestellt. Produktionspunkte können {maxFatiguePoint} nicht überschreiten.
 201	SMT_USE_SKILL_CANCEL	Fertigkeit abgebrochen.
 302	SMT_USING_ACCOUNT_BENEFIT	Kontotyp: {AccountBenefitName}
 203	SMT_VENDER_CANT_OFF_IS_USE	Ihr könnt keinen Laden schließen, in dem sich Gegenstände auf Lager befinden. Bitte entnehmt die Gegenstände und versucht es erneut.
@@ -2058,7 +2053,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	Die Laufzeit von {item} endet bald. Der Gegenstand verschwindet aus Eurem Inventar, wenn die Zeit abgelaufen ist.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	Diese Ausrüstung ist entweder ein Meisterwerk oder verzaubert.
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	Ihr habt Gegenstände in einer temporären Bank hinterlegt. Bitte überprüft die temporäre Bank.
-203	SMT_WARN_PLAY_MATINEE	Das Video kann für diesen Charakter nicht abgespielt werden.
+203	SMT_WARN_PLAY_MATINEE	Entweder wurde kein Charakter ausgewählt oder es gibt kein Video zu diesem Charakter.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	Aufgrund einer Serverzusammenlegung ist es erforderlich, dass Ihr Euren Gildennamen ändert. Ihr könnt den Gildennamen im Reiter Gildeninfos des Gilden-Interface ändern.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	Die beschworene Kreatur existiert bereits.
 201	SMT_WORLD_CHANNEL_MOVED	Wechsel zu Kanal {number}.
@@ -2127,6 +2122,7 @@
 203	SMT_CANNOT_TRADE_PROMOTION_ITEM	Gegenstände, die durch Login-Events in Internetcafes vergeben wurden, können nicht gehandelt, verkauft oder in der Bank gelagert werden.
 203	SMT_CANNOT_USE_SERVICE	Dieser Service kann zur Zeit nicht verwendet werden.
 203	SMT_STOP_USE_SERVICE	Dieser Service wurde eingestellt.
+203	SMT_CANNOT_USE_PREMIUM_SERVICE	Es gibt keine nutzbaren Premiumvorzüge. Überprüfe den TERA-Shop.
 203	SMT_PROMOTION_OFF_BY_ADMIN	Ihr könnt das Internetcafe-Event zur Zeit nicht nutzen.
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	Momentan kann der Dungeon der Prüfungen nicht betreten werden.
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	Diese Funktion kann auf dem aktuellen Betriebssystem nicht verwendet werden.
@@ -2137,7 +2133,7 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	Die Quest-Einstellungen wurden auf eine bessere Stufe eingestellt.
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color = '#cccccc'>In Kürze werdet Ihr am unten ausgewählten Ort wiederbelebt.<br><font size='18' color = '#ffffff'>Bis zur Wiederbelebung verbleibende Zeit<br><font size='20' color = '#ff0000'>{ReviveSec}</font>Sek.
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>In Kürze werdet Ihr am unten ausgewählten Ort wiederbelebt.<br><font color = '#ffffff'>Bis zur Wiederbelebung verbleibende Zeit:<br> <font color = '#ff0000'>{ReviveSec}</font> Sek.
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Notfall]{questName}</font> Eine Gildenmission kann angenommen werden. In Kürze erscheint <font color = '#fcb7ff'>{npcName}</font> im <font color = '#fcb7ff'>{zoneName} (Kanal 1)</font>.
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font> <font color = '#fcb7ff'>ist erschienen</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font> <font color = '#fcb7ff'>ist geflohen</font>.
@@ -2280,3 +2276,25 @@
 203	SMT_START_RANK_TIMER	Der Timer für den Rang wurde gestartet.
 203	SMT_STOP_RANK_TIMER	Der Timer für den Rang wurde gestoppt.
 203	SMT_SHOW_ELAPSED_TIME	Dauer: {time}
+203	SMT_CANNOT_TELEPORT_DURING_BATTLE	Im Kampf könnt Ihr nicht teleportieren.
+203	SMT_CANNOT_TELEPORT_DURING_FLIGHT	Im Flug könnt Ihr nicht teleportieren.
+203	SMT_CANNOT_TAKE_EQUIPMENT_EXP	Ihr habt das max. Ausrüstungsgeschick erreicht.
+203	SMT_MAIN_MENU_NO_EVENT	Kein Event vorhanden.
+203	SMT_MAIN_MENU_INCOMPLETE_SOULLESS_QUEST_FOR_ORDERS	Ihr müsst die Quest im Startgebiet abschließen.
+302	SMT_MENTOR_COMPLIMENT	Lob ausgesprochen. Der erfahrene Wächter, der gelobt wurde, erhält eine Zusatzbelohnung.
+203	SMT_CANT_DECOMPOSE_BIND_ITEM	Du kannst dieses Item nicht zerlegen, da es nicht an dich gebunden ist.
+203	SMT_CANNOT_INHERITANCE_BIND_ITEM	Du kannst dieses Item nicht umwandeln, da es nicht an dich gebunden ist.
+203	SMT_CANNOT_FISHING_NON_BAIT	Ihr braucht einen Köder.
+202	SMT_CANNOT_FISHING_NON_AREA	Hier könnt Ihr nicht angeln.
+203	SMT_CANNOT_FISHING_FULL_INVEN	Ihr verfügt nicht über ausreichend Inventarplatz, um den Gegenstand zu verwenden.
+203	SMT_CANNOT_FISHING_SERVERDOWN	Ihr könnt im Moment nicht angeln.
+202	SMT_FISHING_BITE_WAIT	Ihr angelt. Wartet, bis etwas angebissen hat.
+202	SMT_FISHING_BITE_STATE	Etwas hat angebissen. Verwendet die Taste {ActionKey}, um den Fang herauszuziehen.	In {autoWaitingTime} Sek. wird der Fisch automatisch herausgezogen.
+201	SMT_FISHING_RESULT_SUCCESS	Ihr habt erfolgreich geangelt.
+201	SMT_FISHING_RESULT_FAIL	Angeln ist fehlgeschlagen.
+201	SMT_FISHING_RESULT_CANCLE	Ihr habt das Angeln abgebrochen.
+201	SMT_FISHING_MINIGAME_HOWTO	Zieht den Fisch mit der Taste {ActionKey} in das sichere Angelgebiet.
+201	SMT_FISHING_REWARD	{UserName} hat {ItemName} verwendet und {ItemCount} erhalten.
+203	SMT_DELIVERY_INFOR_RESET	Das Liefer-Fenster wurde neu geladen.
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} hat die Goldglocke geläutet. <font color = '#f7ff7a'>{AbnormalityName}</font>
+201	SMT_CANT_SAVE_SCREENSHOT	Der Screenshot wurde nicht gespeichert.

@@ -361,6 +361,7 @@
 203	SMT_CANNOT_USE_ITS_FUNCTION_FREE_SERVICE	This account type can't use that function.
 203	SMT_CANNOT_USE_ITS_FUNCTION_TO_FREE_SERVICE_USER	This account type can't use that function.
 201	SMT_CANNOT_USE_PARTYMATCHING	You can't use instance matching while in a raid.
+203	SMT_CANNOT_USE_PREMIUM_DUNGEON	You can't enter the dungeon now.
 203	SMT_CANNOT_USE_SKILL_IN_BATTLE_FIELD	You can't use this skill in a battleground.
 203	SMT_CANNOT_USE_THISITEM_WHILE_DOING_SKILL	You can't use that item while using a skill.
 203	SMT_CANNOT_USE_UNKNOWN_REPUTATION_ITEM	You can't use that because you're not yet acquainted with {NPCGuildName}.
@@ -554,7 +555,7 @@
 201	SMT_CHANGE_COLOR_END_LIFETIME	{ItemName}'s dye disappeared.
 201	SMT_CHANGE_COLOR_PROGRESS_CANCEL	Canceled dye process.
 201	SMT_CHANGE_COLOR_PROGRESS_SUCCESS	Dyed {ItemName}.
-205	SMT_CHANGE_GUILDLEVEL	Guild level is now <font size='28' color = '#ff6753'>{GuildLevel}</font>.
+205	SMT_CHANGE_GUILDLEVEL	Guild level is now <font color = '#ff6753'>{GuildLevel}</font>.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_ACCEPTABLE	Accept opponent's GvG guild battle.
 302	SMT_CHANGE_GUILDWAR_ACCEPTABLE_STATE_TO_NON_ACCEPTABLE	Decline opponent's GvG guild battle.
 204	SMT_CHANGE_PARTYMASTER	You are now {party} leader.
@@ -666,7 +667,7 @@
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'> has killed </font> <font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>.</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	As a reward for rank <font color = '#01ff96'>{WARRANK}</font> in Civil Unrest, your guild received <font color = '#01ff96'>+{EXPPOINT}</font> Guild XP.
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	You have earned <font color = '#01ff96'>+{CPOINT}</font> for participating in Civil Unrest: Velika.
-202	SMT_CITYWAR_OPTIMIZE_OPTION	Your graphics settings have been optimized for PvP, and all costumes and weapon skins have been temporarily disabled. Leaving this zone will revert your settings to normal.
+202	SMT_CITYWAR_OPTIMIZE_OPTION	Your system settings have been optimized. Leaving this zone will revert your settings to normal. This option can be disabled in Options - Game.
 202	SMT_CITYWAR_START	<font color = '#ffee92'>Civil Unrest: Velika has started.</font>
 202	SMT_CITYWAR_NONPK_AREA	You cannot use Outlaw Declaration in this zone.
 203	SMT_CLEAR_CURSE_FAILED	You failed to remove the curse.
@@ -677,14 +678,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	Inadequate to increase your gathering skill.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	That is already being gathered.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	Your bug hunting has increased to {prof}.
-201	SMT_COL_CHATLOG_ENERGY	Your essence gathering has increased to {prof}.
-201	SMT_COL_CHATLOG_HERB	Your plant collecting has increased to {prof}.
-201	SMT_COL_CHATLOG_MINERAL	Your mining has increased to {prof}.
 201	SMT_COL_SYSMSG_PICK_CANCEL	Gathering canceled.
-201	SMT_COL_SYSMSG_PICK_FAIL	Gathering failed.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	Gathering interrupted.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	Gathering successful.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	Congratulations! You are now level {grade}.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	Congratulations! You are now level {grade}.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	Congratulations! You are now level {grade}.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	You're out of {ItemName}.
 302	SMT_COMPENSATION_ACQUIRED	Reward earned!
 203	SMT_COMPENSATION_NOT_ACQUIRED	Reward not earned.
@@ -812,7 +810,7 @@
 201	SMT_ENCHANT_FAILED	Failed to enchant {ItemName}.
 201	SMT_ENCHANT_FAILED_CRI	Enchantment for {ItemName} decreased by {Count}.
 201	SMT_ENCHANT_SUCCEED	You've successfully enchanted {ItemName}.
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	You have succeeded in obtaining +{Added}{ItemName} enchantment bonus. You may liberate this equipment with a Liberation Scroll.
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	You've successfully enchanted {ItemName}. You may liberate this equipment with a Liberation Scroll.
 201	SMT_END_COMPETITION_TIME	The alliance competition has ended.
 201	SMT_END_SEASON	The alliance season has ended.
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	You do not meet the requirements to enter this instance.
@@ -825,11 +823,11 @@
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER	You do not have enough raid members to enter.
 203	SMT_ENTER_FAILED_REASON_UNIONPARTY_MEMBER_OVER	You have too many players to enter.
 203	SMT_EP_CANT_LEARN_EP_PERK	Failed to obtain EP. Try again later.
-302	SMT_EP_CANT_OPEN_WINDOW_WHEN_ACTION	Cannot open EP Setting while moving or battling.
-302	SMT_EP_CANT_RESET_NO_USED_EP	Cannot reset EP Setting. You did not make any changes.
-302	SMT_EP_CANT_USE_RESET_EP_ITEM	
+302	SMT_EP_CANT_OPEN_WINDOW_WHEN_ACTION	Cannot open Enhancement Points menu while moving or battling.
+302	SMT_EP_CANT_RESET_NO_USED_EP	Cannot reset Enhancement Points. You did not make any changes.
+302	SMT_EP_CANT_USE_RESET_EP_ITEM	EP reset currently unavailable.
 203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_MAX	Cannot gain anymore EP XP.
-203	SMT_EP_CANT_EARN_EP_POINT	Cannot obtain more EP Points.
+203	SMT_EP_CANT_EARN_EP_POINT	Cannot obtain more EP.
 203	SMT_EP_CANT_USE_ITEM_BY_EP_LEVEL_ZERO	Can use when EP is activated.
 203	SMT_EQUIPMENT_PRESET_CANT_FIND_ALLEQUIPMENT	Can't find some equipment for this outfit.
 203	SMT_ESCAPE_FAILED_BUSY	You're busy. You can't use the unstuck function right now.
@@ -850,8 +848,8 @@
 201	SMT_FAILED_QUEST	Failed: {QuestName}.
 203	SMT_FAILED_QUEST_CANCLE	[{QuestName}] can't be abandoned.
 203	SMT_FAILED_QUEST_COMPENSATION	You cannot progress "{QuestName}" quest due to inventory, currency, or daily quest limits. 
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Learn all skills to progress the quest.
 201	SMT_FAIL_EXTRACT	You failed to extract {ItemName}.
-201	SMT_FAIL_PRODUCE	Failed to craft {ItemName}.
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	You cannot add character sockets by using {ItemName} because you don't meet the requirements.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	Failed to add the additional character slot.
 203	SMT_FAIL_UNION_PRODUCE	You do not meet the requirements for this crafting.
@@ -1161,8 +1159,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	You cannot exit the game while taking damage.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	You cannot use an item while taking damage.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	There are active Events. Visit tera.gameforge.com for more details. 
-201	SMT_INCREASE_SKILL_PROF	Skill level increased.
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName} increased by {SkillProf}.
 201	SMT_INCREASE_SKILL_RANK	{Skill} is now level {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Additional character slot added.
 201	SMT_INGAMESTORE_BASKET_ADDED	The selected item has been saved in your cart.
@@ -1305,9 +1301,9 @@
 201	SMT_LOAN_REGISTER_LOAN_MONEY	SMT_LOAN_REGISTER_LOAN_MONEY
 201	SMT_LOAN_REGISTER_MORTGAGE_FAILED	SMT_LOAN_REGISTER_MORTGAGE_FAILED
 201	SMT_LOBBY_CANNOT_CONNECT_TIME_EXPIRED	You have used up all your limited playtime. Please watch Tera-europe.com for dates of future test periods.
-209	SMT_LOOTED_ITEM	You receive {ItemName} x{ItemAmount}
+209	SMT_LOOTED_ITEM	You receive {ItemName} ×{ItemAmount}
 211	SMT_LOOTED_MONEY	You receive {Money@money}
-209	SMT_LOOTED_SPECIAL_ITEM	You receive {ItemName} x{ItemAmount}
+209	SMT_LOOTED_SPECIAL_ITEM	You receive {ItemName} ×{ItemAmount}
 201	SMT_LOOTING_EXCEPTION_CHANGED	Looting has changed to {rule}.
 201	SMT_LOOTING_EXCEPTION_OFF	Loot exceptions disabled.
 203	SMT_LOOT_ITEM_BUSY	SMT_LOOT_ITEM_BUSY
@@ -1737,13 +1733,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	Choose a resurrection location, or you will automatically resurrect at your base in {Sec} second(s).
 201	SMT_SAVE_SCREEN_SHOT	Screenshot saved to: {Folder}
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	Caption saved in {Folder}.
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' >Progressive enchantment effects can only be applied once, but may duplicate and stack with Primary enchantment effects.</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >Progressive Enchantment Effects (+3 to +9)</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >Primary Enchantment Effects</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font>Progressive enchantment effects can only be applied once, but may duplicate and stack with Primary enchantment effects.</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font>Progressive Enchantment Effects (+3 to +9)</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font>Primary Enchantment Effects</font><br/><br/>
 203	SMT_SEAL_ERROR_GRADE	You can't use {ItemName2} on a Masterwork or Awakened items.
 203	SMT_SEAL_FAIL	You've failed to wrap {ItemName} in a new enigma.
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	Congratulations! {ItemName} is verified as Masterwork!
@@ -1851,11 +1847,10 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	You've earned additional quest rewards!
 201	SMT_SUCCESS_CHANGE_TAX	The tax rate has been changed.
 201	SMT_SUCCESS_EXTRACT	Successfully extracted {ItemName}.
-201	SMT_SUCCESS_PRODUCE	Crafted {ItemName}.
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Your exceptional crafting work produced bonus materials.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	You failed to summon {UserName}.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} is dead and can't be summoned.
-203	SMT_SUMMON_FRIEND_CANNOT_FALLING	The Friend Summon function is not useable while you or your friend is falling.
+203	SMT_SUMMON_FRIEND_CANNOT_FALLING	The Friend Summon function is not usable while you or your friend is falling.
 302	SMT_SUMMON_UNION_NPC_COUNT_EXCEED	You've exceeded the summoning maximum: {Num}.
 302	SMT_SUMMON_UNION_NPC_WRONG_AREA	You can't summon here. You can only summon within your alliance territory.
 201	SMT_SUPPLEMENT_CANCEL_STATE	Additional recruitment canceled.
@@ -2019,7 +2014,7 @@
 203	SMT_USE_ITEM_NO_EXIST	You are out of that item.
 203	SMT_USE_ITEM_RACE_MISMATCH	That item is unavailable to your race.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	You can't use that right now.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	Restored {Num} production points. Production points cannot exceed 4,000. 
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	Restored {Num} production points. Production points cannot exceed {maxFatiguePoint}. 
 201	SMT_USE_SKILL_CANCEL	Skill canceled.
 302	SMT_USING_ACCOUNT_BENEFIT	{AccountBenefitName} account.
 203	SMT_VENDER_CANT_OFF_IS_USE	You can't close up shop with items in stock. Please collect the items, then try again.
@@ -2058,7 +2053,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	Duration for {item} is ending soon. It will disappear from inventory when the duration ends.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	That equipment is masterwork or enchanted.&#xA;
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	You have items in a temporary bank. Please check the temporary bank.
-203	SMT_WARN_PLAY_MATINEE	The movie cannot be played because you have not selected a character.
+203	SMT_WARN_PLAY_MATINEE	The movie cannot be played because you have not selected a character, or the selected character hasn't unlocked this movie yet.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	Your guild name must be changed due to the server merge. You can change your guild name in the Guild Details tab of your Guild UI.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	Summoned creature already exists.
 201	SMT_WORLD_CHANNEL_MOVED	Moving to channel {number}.
@@ -2074,10 +2069,10 @@
 203	SMT_YOU_CANT_RESET_DUNGEON_NO_NOTHING	No instance to reset.
 203	SMT_YOU_MUST_DETACH_CRYSTAL	Please remove all crystals first.
 203	SMT_EP_CANT_USE_ITEM_BY_LEVEL_MAX	You must be a higher level to use that.
-203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	You must save changes made in EP Setting.
+203	SMT_EP_CLOSE_UI_WITHOUT_SAVE	You must save changes made in Enhancement Point menu.
 203	SMT_CAN_MATCH_OVER_MIN_MEMBER_COUNT	Minimum group for this queue is {number} players.
 203	SMT_CAN_MATCH_UNDER_MAX_MEMBER_COUNT	Maximum group for this queue is {number} players.
-203	SMT_EP_EXP_TOOLTIP	Accomplished {CurrentEpExpPercent}% of EP XP. (Can obtain {EarnEp} EP Points when reaching 100%)
+203	SMT_EP_EXP_TOOLTIP	Accomplished {CurrentEpExpPercent}% of EP XP. (Can obtain {EarnEp} EP when reaching 100%)
 203	SMT_DUNGEON_WORK_SUCCESS_TITLE	Success
 203	SMT_DUNGEON_WORK_FAIL_TITLE	Failure
 203	SMT_YOU_CANT_RETRY_SOLO_DUNGEON	You have reached your limit for entering this solo dungeon.
@@ -2127,6 +2122,7 @@
 203	SMT_CANNOT_TRADE_PROMOTION_ITEM	Items from PC Café Log-in Event cannot be traded, sold, or put in guild banks.
 203	SMT_CANNOT_USE_SERVICE	Service is currently unavailable.
 203	SMT_STOP_USE_SERVICE	The service is not available now.
+203	SMT_CANNOT_USE_PREMIUM_SERVICE	No elite status available. Check TERA store.
 203	SMT_PROMOTION_OFF_BY_ADMIN	Cannot access PC Café Event now.
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	You cannot enter the Ace Dungeon right now.
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	This feature is not supported in Windows 2003 or Windows XP.
@@ -2137,7 +2133,7 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	You've already purchased this item.
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	The TERA Rewards Emporium is temporarily unavailable.
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	The quest has been reset to a suitable point.
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color = '#cccccc'>You will be resurrected at the selected location below in <br><font size='20' color = '#ff0000'>{ReviveSec} seconds.</font>.
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>You will be resurrected at the selected location below in <br><font color = '#ff0000'>{ReviveSec} seconds.</font>.
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Rally] {questName}</font> is now available for your guild. <font color = '#fcb7ff'>{npcName}</font> will appear in <font color = '#fcb7ff'>{zoneName} (Channel 1)</font> soon.
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'> has  appeared</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'> ran away</font>.
@@ -2280,3 +2276,25 @@
 203	SMT_START_RANK_TIMER	Rank timer has started.
 203	SMT_STOP_RANK_TIMER	Rank timer has stopped.
 203	SMT_SHOW_ELAPSED_TIME	Time: {time}
+203	SMT_CANNOT_TELEPORT_DURING_BATTLE	You may not teleport during combat.
+203	SMT_CANNOT_TELEPORT_DURING_FLIGHT	You may not teleport while flying.
+203	SMT_CANNOT_TAKE_EQUIPMENT_EXP	Your equipped gear cannot gain any more Item XP.
+203	SMT_MAIN_MENU_NO_EVENT	Please check the Calendar for events.
+203	SMT_MAIN_MENU_INCOMPLETE_SOULLESS_QUEST_FOR_ORDERS	You must complete the tutorial quest.
+302	SMT_MENTOR_COMPLIMENT	Complimented another player. Complimented player will gain additional rewards.
+203	SMT_CANT_DECOMPOSE_BIND_ITEM	You cannot dismantle this item as it is not bound to you.
+203	SMT_CANNOT_INHERITANCE_BIND_ITEM	You cannot covert this item as it is not bound to you.
+203	SMT_CANNOT_FISHING_NON_BAIT	You must bait the hook first.
+202	SMT_CANNOT_FISHING_NON_AREA	You are out of the fishing area.
+203	SMT_CANNOT_FISHING_FULL_INVEN	You don't have enough inventory space.
+203	SMT_CANNOT_FISHING_SERVERDOWN	You cannot fish right now.
+202	SMT_FISHING_BITE_WAIT	You are fishing. Wait until there's a bite.
+202	SMT_FISHING_BITE_STATE	You got a bite! Press {ActionKey} key to see what it is.	Fishing will automatically proceed after {autoWaitingTime} seconds.
+201	SMT_FISHING_RESULT_SUCCESS	Fishing successful.
+201	SMT_FISHING_RESULT_FAIL	Fishing failed.
+201	SMT_FISHING_RESULT_CANCLE	Fishing canceled.
+201	SMT_FISHING_MINIGAME_HOWTO	Press {ActionKey} key to pull in the fish.
+201	SMT_FISHING_REWARD	{UserName} has fished {ItemCount} {ItemName}.
+203	SMT_DELIVERY_INFOR_RESET	Delivery list has been refreshed due to detail adjustment. 
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/>{UserName} rang the Golden Bell!<font color = '#f7ff7a'>{AbnormalityName}</font>
+201	SMT_CANT_SAVE_SCREENSHOT	Failed to save a screenshot.

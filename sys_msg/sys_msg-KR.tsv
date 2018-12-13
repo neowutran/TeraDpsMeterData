@@ -639,12 +639,12 @@
 203	SMT_ITEM_CANNOT_USE_NOBASE	설치된 전초기지가 없습니다.
 203	SMT_CITYWAR_BASE_FAIL_AREA	전초기지 설치가 불가능한 지역입니다.
 203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	길드대전 중에는 설치할 수 없습니다.
-203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	설치반경 10m 주위로 고저차가 완만한 지형 위에 설치가 가능합니다.
+203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	설치반경 3m 주위로 고저차가 완만한 지형 위에 설치가 가능합니다.
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	너무 높은 곳에는 설치할 수 없습니다.
 203	SMT_CITYWAR_BASE_FAIL_MINALT	너무 낮은 곳에는 설치할 수 없습니다.
 203	SMT_CITYWAR_BASE_FAIL_MULTI	이미 설치된 전초기지가 존재합니다.
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	가입된 길드가 없습니다.
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	반경 80m 내 다른 길드의 기지가 있어 건설이 불가능합니다.
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	반경 10m 내 다른 길드의 기지가 있어 건설이 불가능합니다.
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	설치공간이 부족하거나, 기울기가 심해 설치할 수 없습니다.
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	설치할 곳의 기울기가 심해 설치할 수 없습니다.
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	시스템 길드의 기지는 설치할 수 없습니다.
@@ -663,11 +663,12 @@
 203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	길드대전 중에는 전초기지를 설치한 길드 회원만 입장이 가능합니다.
 203	SMT_CITYWAR_FAIL_ENTER_MAX	채널 입장 가능 인원이 초과되었습니다.
 203	SMT_CITYWAR_FAIL_ENTER_RETIRE	길드대전 중 전초기지가 파괴된 경우 재입장 하실 수 없습니다.
+203	SMT_CITYWAR_ANNOUNCE_NOENTER	지금은 입장할 수 없습니다. {time}부터 입장 가능합니다.
 201	SMT_CITYWAR_GUILD_KILL	<font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>님이</font> <font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>님을 쓰러트렸습니다.</font>
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>님이</font> <font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>님을 죽였습니다.</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	길드대전 <font color = '#01ff96'>{WARRANK}</font> 위 보상으로 길드 경험치를 <font color = '#01ff96'>+{EXPPOINT}</font> 획득했습니다.
 201	SMT_CITYWAR_REWARD_CONTRIBUTION	길드대전 참여 공헌도를 <font color = '#01ff96'>+{CPOINT}</font> 획득했습니다.
-202	SMT_CITYWAR_OPTIMIZE_OPTION	길드대전 자동 최적화 기능이 적용되었습니다. 해당 지역에서 벗어날 경우 원래 비디오 설정으로 복구됩니다.
+202	SMT_CITYWAR_OPTIMIZE_OPTION	시스템 설정 최적화 기능이 적용되었습니다. 해당 지역에서 벗어날 경우 원래 비디오 설정으로 복구됩니다. 해당 기능은 시스템 설정 창의 게임설정에서 해제 가능합니다.
 202	SMT_CITYWAR_START	<font color = '#ffee92'>길드대전이 시작되었습니다.</font>
 202	SMT_CITYWAR_NONPK_AREA	해당 지역에서는 무법자 선언 스킬을 사용할 수 없습니다.
 203	SMT_CLEAR_CURSE_FAILED	저주가 강력하여 해제 주문이 실패하였습니다.
@@ -678,14 +679,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	대상의 채집 등급이 낮아 채집 숙련도를 얻을 수 없습니다.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	이미 다른 사람이 채집 중입니다.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	곤충 채집 숙련도가 {prof}포인트로 상승했습니다.
-201	SMT_COL_CHATLOG_ENERGY	정기 채집 숙련도가 {prof}포인트로 상승했습니다.
-201	SMT_COL_CHATLOG_HERB	식물 채집 숙련도가 {prof}포인트로 상승했습니다.
-201	SMT_COL_CHATLOG_MINERAL	광석 채집 숙련도가 {prof}포인트로 상승했습니다.
 201	SMT_COL_SYSMSG_PICK_CANCEL	채집을 취소했습니다.
-201	SMT_COL_SYSMSG_PICK_FAIL	채집에 실패했습니다.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	채집을 중단했습니다.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	채집에 성공했습니다.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	식물 채집 레벨이 {grade}{가} 되었습니다.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	광석 채집 레벨이 {grade}{가} 되었습니다.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	정기 채집 레벨이 {grade}{가} 되었습니다.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	{itemName}{이} 부족하여 사용할 수 없습니다.
 302	SMT_COMPENSATION_ACQUIRED	보상 획득!
 203	SMT_COMPENSATION_NOT_ACQUIRED	보상 획득 실패!
@@ -756,7 +754,7 @@
 201	SMT_DISMISS_UNION	연맹에서 추방되었습니다.
 204	SMT_DISMISS_UNIONPARTY_SUCCEED	공격대가 해산됐습니다.
 201	SMT_DISSOLUTION_MATCHING_CANCEL	해당 파티가 해산되어 {party}매칭이 취소되었습니다. 조금 뒤에 다시 시도해주세요.
-103	SMT_DROPDMG_DAMAGE	낙하데미지로 {Damage}를 입었습니다.
+105	SMT_DROPDMG_DAMAGE	낙하데미지로 {Damage}를 입었습니다.
 201	SMT_DUEL_ACCEPT	{target}님이 결투를 수락했습니다.
 203	SMT_DUEL_CANT_DUEL_IS_GROUP	결투그룹에 참가한 상태에서는 개인결투를 할 수 없습니다.
 201	SMT_DUEL_CHANGED	플레이어의 상태 변경으로 인하여 결투가 강제 종료 되었습니다.
@@ -811,9 +809,10 @@
 203	SMT_ENCHANT_DECOMPOSE_COMPLETE	{TargetName}{을} 분해하여 {ResultName} {ResultAmount}개를 획득했습니다.
 203	SMT_ENCHANT_DECOMPOSE_FEE	아이템 분해 비용으로 {Amount@money}를 소모했습니다.
 201	SMT_ENCHANT_FAILED	{ItemName} 강화에 실패했습니다.
+201	SMT_ENCHANT_FAILED_DAMAGE	{ItemName}{이} 손상되었습니다.
 201	SMT_ENCHANT_FAILED_CRI	{ItemName}의 강화 수치가 {Count}만큼 감소했습니다.
 201	SMT_ENCHANT_SUCCEED	{ItemName} 강화에 성공했습니다.
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	+{Added}{ItemName} 강화에 성공했습니다. 해방 아이템을 사용하여 해방시킬 수 있습니다.
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	{ItemName} 강화에 성공했습니다. 해방 아이템을 사용하여 해방시킬 수 있습니다.
 201	SMT_END_COMPETITION_TIME	연맹 경쟁이 종료되었습니다.
 201	SMT_END_SEASON	연맹의 시즌이 종료되었습니다.
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	입장 조건을 만족하지 못해 특수 공간에 입장할 수 없습니다.
@@ -851,8 +850,8 @@
 201	SMT_FAILED_QUEST	[{QuestName}]퀘스트를 실패했습니다.
 203	SMT_FAILED_QUEST_CANCLE	[{QuestName}]퀘스트는 포기할 수 없습니다.
 203	SMT_FAILED_QUEST_COMPENSATION	[{QuestName}]퀘스트를 완료할 수 없습니다.
+203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	스킬을 모두 습득한 상태에서만 퀘스트를 진행할 수 있습니다.
 201	SMT_FAIL_EXTRACT	{ItemName} 추출에 실패했습니다.
-201	SMT_FAIL_PRODUCE	{Item}제작에 실패하였습니다.
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	{ItemName}{을} 사용하여 추가 캐릭터 소켓을 확장할 수 없습니다. 조건에 맞는 다른 아이템을 사용해주세요.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	캐릭터 소켓 확장에 실패하였습니다.
 203	SMT_FAIL_UNION_PRODUCE	자격이 되지 않아 해당 아이템을 제작할 수 없습니다.
@@ -1162,8 +1161,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	벌서기 중에는 게임을 종료할 수 없습니다.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	벌서기 중에는 아이템을 사용할 수 없습니다.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	이벤트가 진행 중이오니 자세한 내용은 홈페이지를 참고해 주시기 바랍니다.
-201	SMT_INCREASE_SKILL_PROF	숙련도가 상승하였습니다.
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName}의 숙련도가 {SkillProf}만큼 올랐습니다.
 201	SMT_INCREASE_SKILL_RANK	{Skill}{이} {Rank}랭크가 되었습니다.
 201	SMT_INCREMENT_CHARACTER_SOCKET	캐릭터 소켓이 확장되었습니다.
 201	SMT_INGAMESTORE_BASKET_ADDED	선택한 아이템을 장바구니에 보관 하였습니다.
@@ -1738,13 +1735,13 @@
 201	SMT_RM_SELECT_REVIVAL_POS_MSG	부활 장소를 선택하여 주십시오. 선택하지 않을 시 {Sec}초 후 요새에서 자동으로 부활합니다.
 201	SMT_SAVE_SCREEN_SHOT	{Folder}경로에 스크린 샷이 저장되었습니다.
 201	SMT_SCREENSHOOT_MESSAGE_SAVE_SUCCESS	{Folder}경로에 텍스트 파일이 저장되었습니다.
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font size='18' >강화 랜덤 옵션에는 같은 옵션이 중복해서 적용되지 않습니다.</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font size='22' >적용 가능한 강화 랜덤 옵션 목록</font><br/><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font size='18' color='#1DDB16'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font size='18' color='#FFBB00'>{OptionTooltip}</font><br/>
-201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font size='22' >적용 가능한 랜덤 패시브 옵션 목록</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_NOTICE	<br/><font >강화 랜덤 옵션에는 같은 옵션이 중복해서 적용되지 않습니다.</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_ENCHANT_TITLE	<font >적용 가능한 강화 랜덤 옵션 목록</font><br/><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG	<font color='#1DDB16'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_MSG_GOOD_OPTION	<font color='#FFBB00'>{OptionTooltip}</font><br/>
+201	SMT_SEAL_BALLOON_GUIDE_PASSIVITY_TITLE	<font >적용 가능한 랜덤 패시브 옵션 목록</font><br/><br/>
 203	SMT_SEAL_ERROR_GRADE	명품이나 각성이 완료된 아이템에는 {ItemName2}를 사용할 수 없습니다.
 203	SMT_SEAL_FAIL	{ItemName}의 재봉인에 실패하였습니다.
 201	SMT_SEAL_MASTERPIECE_POPUP_MESSAGE	축하합니다! {ItemName}이 명품으로 판정되었습니다!
@@ -1852,7 +1849,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	퀘스트 추가 보상을 받을 수 있는 조건이 만족되었습니다.
 201	SMT_SUCCESS_CHANGE_TAX	세율이 정상적으로 적용되었습니다.
 201	SMT_SUCCESS_EXTRACT	{ItemName}의 추출에 성공했습니다.
-201	SMT_SUCCESS_PRODUCE	{ItemName}{을} 제작했습니다.
 201	SMT_SUCCESS_PRODUCE_CRITICAL	대성공의 징조가 느껴집니다.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	{UserName}님을 소환하는데 실패했습니다.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName}님은 사망 상태입니다. 소환에 실패했습니다.
@@ -2020,7 +2016,7 @@
 203	SMT_USE_ITEM_NO_EXIST	수량이 남아 있지 않아 사용할 수 없습니다.
 203	SMT_USE_ITEM_RACE_MISMATCH	종족이 맞지 않아 사용할 수 없습니다.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	상태 조건이 맞지 않아 사용할 수 없습니다.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	생산력이 {Num} 회복되었습니다. 회복된 생산력은 최대 4000을 넘길 수 없습니다.
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	생산력이 {Num} 회복되었습니다. 회복된 생산력은 최대 {maxFatiguePoint}{을} 넘길 수 없습니다.
 201	SMT_USE_SKILL_CANCEL	스킬 사용을 취소했습니다.
 302	SMT_USING_ACCOUNT_BENEFIT	{AccountBenefitName}{을} 이용 중입니다.
 203	SMT_VENDER_CANT_OFF_IS_USE	상점 거래 상태일 때 종료 할 수 없습니다. 거래를 중단하고 시도하세요.
@@ -2059,7 +2055,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	기간제로 사용 가능한 {Item} 아이템의 사용 가능 기간이 얼마 남지 않았습니다. 기간이 만료된 아이템은 자동으로 사라집니다.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	명품이거나 강화 된 장비 입니다.
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	임시 창고에 물품이 존재합니다. 임시 창고를 확인하여 주십시오.
-203	SMT_WARN_PLAY_MATINEE	선택된 캐릭터가 존재하지 않아 해당 영상을 재생할 수 없습니다.
+203	SMT_WARN_PLAY_MATINEE	현재 선택된 캐릭터가 없거나, 선택된 캐릭터에 해당하는 영상이 존재하지 않아 재생할 수 없습니다.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	서버 통합으로 길드 이름이 변경되었습니다. 길드 정보 항목에서 길드 이름 변경이 가능합니다.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	이미 소환된 대상이 존재합니다.
 201	SMT_WORLD_CHANNEL_MOVED	{number}번 채널로 이동했습니다.
@@ -2139,9 +2135,9 @@
 302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	이미 구매하신 상품입니다.
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	현재 상태에서는 상점을 이용할 수 없습니다.
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	진행하기 좋은 단계로 퀘스트가 재설정 되었습니다.
-203	SMT_CITYWAR_DEAD_MESSAGE	<font size='20' color = '#cccccc'>잠시 후 아래 선택한 장소에서 자동으로 부활합니다.<br><font size='18' color = '#ffffff'>부활까지 남은 시간<br> <font size='20' color = '#ff0000'>{ReviveSec}</font>초
+203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>잠시 후 아래 선택한 장소에서 자동으로 부활합니다.<br><font color = '#ffffff'>부활까지 남은 시간<br> <font color = '#ff0000'>{ReviveSec}</font>초
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[긴급] {questName}</font> 길드 임무 수락이 가능합니다. 잠시 후 <font color = '#fcb7ff'>{zoneName}(1채널)</font>에서 <font color = '#fcb7ff'>{npcName}</font> {가} 출현합니다.
-202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font> {가} <font color = '#fcb7ff'>등장</font> 했습니다.
+202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font>{가} <font color = '#fcb7ff'>등장</font> 했습니다.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font> {가} <font color = '#fcb7ff'>도망</font> 쳤습니다.
 205	SMT_GQUEST_NORMAL_ACCEPT	<font color = '#f6f493'>{guildQuestName}</font> 길드임무를 수락 했습니다.
 205	SMT_GQUEST_NORMAL_CANCEL	<font color = '#f6f493'>{userName}</font> 님이 <font color = '#f6f493'>{guildQuestName}</font> 길드임무를 취소 했습니다. 
@@ -2158,7 +2154,7 @@
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_LEVEL	길드 레벨이 부족하여 스킬을 습득할 수 없습니다.
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_PRE_SKILL	선행 스킬을 습득하지 않아 해당 스킬을 습득할 수 없습니다.
 205	SMT_LEARN_GUILD_SKILL_SUCCESS	새로운 길드 스킬을 습득했습니다.
-201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font> {가} 처치되었습니다.
+201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font>{가} 처치되었습니다.
 201	SMT_FIELDNAMED_RANK	<font color='#1DDB16'>{rank}</font>위 <font color='#1DDB16'>{userName}</font>님의 파티
 203	SMT_GUILD_STORE_FAIL_AUTHORITY	길드 자금 사용 권한이 없습니다.
 203	SMT_GUILD_STORE_FAIL_GUILD_MONEY	길드 자금이 부족합니다.
@@ -2252,6 +2248,7 @@
 203	SMT_INVALID_EQUIPMENT_UPGRADE_NOTBELONGTO	자신에게 귀속되지 않은 아이템은 승급할 수 없습니다.
 201	SMT_EQUIPMENT_UPGRADE_SUCCESS	{ItemName} 승급에 성공했습니다.
 201	SMT_EQUIPMENT_UPGRADE_FAILE	{ItemName}의 승급에 실패했습니다.
+201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName}{이} 파괴되었습니다.
 201	SMT_UPGRADE_BALANCE_MEDIUM	보정치가 상승하였습니다. 다음 번 승급 시 승급 성공 확률이 올라갑니다.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	{TargetName} {Amount}개를 분해하여 {ResultName} {ResultAmount}개를 획득했습니다.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	크리스탈 및 아티팩트를 모두 탈착한 장비만 승급할 수 있습니다.
@@ -2274,6 +2271,10 @@
 203	SMT_FIELD_EVENT_BAN_MESSAGE	자리 비움 상태가 해제되지 않아 안전한 장소로 이동합니다.
 203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	수호자 임무의 추가 보상이 우편으로 발송되었습니다.
 202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	전설 수호자 임무가 시작되었습니다.
+302	SMT_BF_SNOWBF_ROUND_DRAW	라운드 무승부.
+302	SMT_BF_SNOWBF_ROUND_LOSE	라운드 패배.
+302	SMT_BF_SNOWBF_ROUND_NUMBER	라운드 시작!
+302	SMT_BF_SNOWBF_ROUND_WIN	라운드 승리!
 203	SMT_NON_PK_SECTION	이 지역에서는 PK를 할 수 없습니다.
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	착용된 아이템이 없어 '{SkillName}'을 사용할 수 없습니다.
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	'{SkillName}'은 {ItemName}으로 사용할 수 없습니다.
@@ -2290,3 +2291,18 @@
 302	SMT_MENTOR_COMPLIMENT	칭찬을 완료하였습니다. 칭찬을 받은 숙련 수호자님에겐 추가 보상이 전달됩니다.
 203	SMT_CANT_DECOMPOSE_BIND_ITEM	귀속된 캐릭터만 분해할 수 있습니다.
 203	SMT_CANNOT_INHERITANCE_BIND_ITEM	귀속된 캐릭터만 변환할 수 있습니다.
+203	SMT_CANNOT_FISHING_NON_BAIT	미끼를 먼저 사용하여야 합니다.
+202	SMT_CANNOT_FISHING_NON_AREA	낚시 지역을 벗어났습니다.
+203	SMT_CANNOT_FISHING_FULL_INVEN	인벤토리 공간이 부족하여 사용할 수 없습니다.
+203	SMT_CANNOT_FISHING_SERVERDOWN	지금은 낚시를 진행할 수 없습니다.
+202	SMT_FISHING_BITE_WAIT	낚시 중입니다. 반응이 올 때까지 기다려주세요.
+202	SMT_FISHING_BITE_STATE	무언가 걸렸습니다. {ActionKey}키를 눌러 낚아 올리세요.	{autoWaitingTime}초 후 물고기를 자동으로 낚습니다.
+201	SMT_FISHING_RESULT_SUCCESS	낚시에 성공하였습니다.
+201	SMT_FISHING_RESULT_FAIL	낚시에 실패하였습니다.
+201	SMT_FISHING_RESULT_CANCLE	낚시를 취소하였습니다.
+201	SMT_FISHING_MINIGAME_HOWTO	{ActionKey}키를 눌러 물고기를 안전 영역 안에 넣어 당기세요
+201	SMT_FISHING_REWARD	{UserName}님이 {ItemName}{을} {ItemCount}개를 획득하였습니다.
+203	SMT_DELIVERY_INFOR_RESET	정보 변경으로 납품 화면이 갱신되었습니다.
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName}님이 골든벨을 울렸습니다! <font color = '#f7ff7a'>{AbnormalityName}</font>
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	특성이 활성화되지 않았습니다.
+201	SMT_CANT_SAVE_SCREENSHOT	스크린 샷 저장에 실패하였습니다.
