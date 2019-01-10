@@ -639,12 +639,12 @@
 203	SMT_ITEM_CANNOT_USE_NOBASE	尚無設置好的前哨基地。
 203	SMT_CITYWAR_BASE_FAIL_AREA	此為無法設置前哨基地的地區。
 203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	於公會戰中無法設置。
-203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	以設置的半徑10m內為主，可於地形高低落差適當的位置上設置。
+203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	以設置的半徑3m內為主，可於地形高低落差適當的位置上設置。
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	無法在太高的地方設置。
 203	SMT_CITYWAR_BASE_FAIL_MINALT	無法在太低的地方設置。
 203	SMT_CITYWAR_BASE_FAIL_MULTI	這裡有已設置的前哨基地。
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	尚未加入公會。
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	半徑80m內有其他公會的基地，故無法設置。
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	半徑10m內有其他公會的基地，故無法設置。
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	設置空間不足，或是太過傾斜無法設置。
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	要設置的地方太過傾斜無法設置。
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	無法設置系統公會的基地。
@@ -663,6 +663,7 @@
 203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	只有於公會戰設置前哨基地的公會成員才能入場。
 203	SMT_CITYWAR_FAIL_ENTER_MAX	已超過可入場該頻道的人數。
 203	SMT_CITYWAR_FAIL_ENTER_RETIRE	公會戰時，若前哨基地受破壞則無法再入場。
+203	SMT_CITYWAR_ANNOUNCE_NOENTER	現在無法進入，{time}開始可以進入。
 201	SMT_CITYWAR_GUILD_KILL	<font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>已將</font> <font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>擊倒了。</font>
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>已將</font> <font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>擊殺了。</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	公會戰 <font color = '#01ff96'>{WARRANK}</font> 上獲得公會經驗值 <font color = '#01ff96'>+{EXPPOINT}</font> 作為獎勵。
@@ -753,7 +754,7 @@
 201	SMT_DISMISS_UNION	已從聯盟中驅逐。
 204	SMT_DISMISS_UNIONPARTY_SUCCEED	攻擊隊已解散。
 201	SMT_DISSOLUTION_MATCHING_CANCEL	該隊伍已解散，已取消{party}配對。
-103	SMT_DROPDMG_DAMAGE	因為墜落受到{Damage}傷害。
+105	SMT_DROPDMG_DAMAGE	因為墜落受到{Damage}傷害。
 201	SMT_DUEL_ACCEPT	{target}已接受戰鬥。
 203	SMT_DUEL_CANT_DUEL_IS_GROUP	參與戰鬥團隊的狀態，無法進行個人戰鬥。
 201	SMT_DUEL_CHANGED	因為玩家的狀態變更，戰鬥已強制被結束。
@@ -808,6 +809,7 @@
 203	SMT_ENCHANT_DECOMPOSE_COMPLETE	分解{TargetName}道具以獲得{ResultName} {ResultAmount}個。
 203	SMT_ENCHANT_DECOMPOSE_FEE	消耗道具分解費用 {Amount@money}。
 201	SMT_ENCHANT_FAILED	{ItemName}強化失敗了。
+201	SMT_ENCHANT_FAILED_DAMAGE	{ItemName}被損傷。
 201	SMT_ENCHANT_FAILED_CRI	{ItemName}的強化數值已減少1。
 201	SMT_ENCHANT_SUCCEED	{ItemName}強化成功了。
 201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	{ItemName}強化成功了。可以使用解放道具而進行解放。
@@ -2246,6 +2248,7 @@
 203	SMT_INVALID_EQUIPMENT_UPGRADE_NOTBELONGTO	不歸屬於自已的道具無法進行升級。
 201	SMT_EQUIPMENT_UPGRADE_SUCCESS	{ItemName}升級成功了。
 201	SMT_EQUIPMENT_UPGRADE_FAILE	{ItemName}的升級失敗了。
+201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName}被破壞。
 201	SMT_UPGRADE_BALANCE_MEDIUM	修正值上升。下次升級時的升級成功機率將提高。
 203	SMT_ITEM_DECOMPOSE_COMPLETE	分解{Amount}個{TargetName}後獲得了{ResultName} {ResultAmount}個。
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	只有將水晶與合成水晶全部卸下的裝備才可以升級。
@@ -2268,6 +2271,10 @@
 203	SMT_FIELD_EVENT_BAN_MESSAGE	沒有解除閒置狀態，移動至安全的場所。
 203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	守護者任務的追加獎勵已透過郵件發送。
 202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	傳說守護者任務已開始。
+302	SMT_BF_SNOWBF_ROUND_DRAW	現在住手~~
+302	SMT_BF_SNOWBF_ROUND_LOSE	現在住手~~
+302	SMT_BF_SNOWBF_ROUND_NUMBER	雪仗開始!
+302	SMT_BF_SNOWBF_ROUND_WIN	現在住手~~
 203	SMT_NON_PK_SECTION	在這個地區無法進行 PK。
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	因沒有套用的道具故無法使用'{SkillName}'。
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	{SkillName}不能作爲{ItemName}使用。
@@ -2297,4 +2304,5 @@
 201	SMT_FISHING_REWARD	{UserName}獲得 {ItemName} {ItemCount}個。
 203	SMT_DELIVERY_INFOR_RESET	以資訊變更更新交付畫面。
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName}你敲響了黃金鐘! <font color = '#f7ff7a'>{AbnormalityName}</font>
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	特性未開啟。
 201	SMT_CANT_SAVE_SCREENSHOT	截圖儲存失敗。
