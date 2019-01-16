@@ -639,12 +639,12 @@
 203	SMT_ITEM_CANNOT_USE_NOBASE	設置された前衛基地がありません。
 203	SMT_CITYWAR_BASE_FAIL_AREA	前衛基地の設置が不可能な地域です。
 203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	ギルド対戦中には設置できません。
-203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	設置半径10mの周囲に高低差が緩やかな地形の上に設置が可能です。
+203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	設置周囲半径3mの高低差が緩やかな地形の上に設置が可能です。
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	高すぎる場所には設置することができません。
 203	SMT_CITYWAR_BASE_FAIL_MINALT	低すぎる場所には設置することができません。
 203	SMT_CITYWAR_BASE_FAIL_MULTI	すでに設置された前衛基地が存在します。
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	登録されたギルドがありません。
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	半径80m以内にギルド基地があるため、建設が不可能です。
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	半径10m以内にギルド基地があるため、建設不可能です。
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	設置スペースが不足していたり、傾斜が急な場所には設置することはできません。
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	設置先の傾斜が急なため設置することができません。
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	システムギルドの基地は設置することができません。
@@ -663,6 +663,7 @@
 203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	ギルド対戦中には前衛基地を設置したギルドメンバーのみ入場が可能です。
 203	SMT_CITYWAR_FAIL_ENTER_MAX	チャンネル入場可能人数が超過しました。
 203	SMT_CITYWAR_FAIL_ENTER_RETIRE	ギルド対戦中に前衛基地が破壊された場合、再入場できません。
+203	SMT_CITYWAR_ANNOUNCE_NOENTER	現在は入場できません。{time}から入場可能です。
 201	SMT_CITYWAR_GUILD_KILL	<font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>様が</font> <font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>様を倒しました。</font>
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>様が</font> <font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>様を殺しました。</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	ギルド対戦<font color = '#01ff96'>{WARRANK}</font>上記の報酬でギルド経験値<font color = '#01ff96'>+{EXPPOINT}</font>を獲得しました。
@@ -753,7 +754,7 @@
 201	SMT_DISMISS_UNION	連盟から追放されました。
 204	SMT_DISMISS_UNIONPARTY_SUCCEED	レイドが解散されました。
 201	SMT_DISSOLUTION_MATCHING_CANCEL	パーティーが解散され、{party}マッチングがキャンセルされました。しばらくしてからもう一度お試しください。
-103	SMT_DROPDMG_DAMAGE	{Damage}の落下ダメージ！
+105	SMT_DROPDMG_DAMAGE	{Damage}の落下ダメージ！
 201	SMT_DUEL_ACCEPT	{target}が決闘を承諾しました。
 203	SMT_DUEL_CANT_DUEL_IS_GROUP	グループ決闘参加中は個人決闘は行えません。
 201	SMT_DUEL_CHANGED	プレイヤーの状態変更により、決闘が強制終了されました。
@@ -808,6 +809,7 @@
 203	SMT_ENCHANT_DECOMPOSE_COMPLETE	{TargetName} を分解して{ResultName}を{ResultAmount}個を獲得しました。
 203	SMT_ENCHANT_DECOMPOSE_FEE	アイテム分解費用{Amount@money}を使用しました。
 201	SMT_ENCHANT_FAILED	{ItemName}の強化に失敗しました。
+201	SMT_ENCHANT_FAILED_DAMAGE	{ItemName}が破損しました。
 201	SMT_ENCHANT_FAILED_CRI	{ItemName}の強化段階が{Count}減少しました。
 201	SMT_ENCHANT_SUCCEED	{ItemName}の強化に成功しました。
 201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	{ItemName}の強化に成功しました。解放アイテムを使用して解放させることができます。
@@ -2135,7 +2137,7 @@
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	進行しやすい段階にクエストが再設定されました。
 203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>選択した場所で自動復活します。<br><font color = '#ffffff'>復活まで残り時間<br><font  color = '#ff0000'>{ReviveSec}</font>秒
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[緊急] {questName}</font>ギルド任務受諾が可能です。しばらくすると<font color = '#fcb7ff'>{zoneName}(1ch)</font>にて<font color = '#fcb7ff'>{npcName}</font> が出現します。
-202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}（1ch）</font> が <font color = '#fcb7ff'>出現</font>しました。
+202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font>が<font color = '#fcb7ff'>出現</font>しました。
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font> が <font color = '#fcb7ff'>逃亡</font>しました。
 205	SMT_GQUEST_NORMAL_ACCEPT	<font color = '#f6f493'>{guildQuestName}</font>ギルド任務を受諾しました。
 205	SMT_GQUEST_NORMAL_CANCEL	<font color = '#f6f493'>{userName}</font>様が<font color = '#f6f493'>{guildQuestName}</font>ギルド任務をキャンセルしました。 
@@ -2152,7 +2154,7 @@
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_LEVEL	ギルドレベルが不足しているためスキルを習得することができません。
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_PRE_SKILL	先行スキルを習得していないため、該当のスキルを習得することができません。
 205	SMT_LEARN_GUILD_SKILL_SUCCESS	新しいギルドスキルを習得しました。
-201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font> が討伐されました。
+201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font>が<font color = '#fcb7ff'>討伐</font>されました。
 201	SMT_FIELDNAMED_RANK	<font color='#1DDB16'>{rank}</font>位<font color='#1DDB16'>{userName}</font>様のパーティー
 203	SMT_GUILD_STORE_FAIL_AUTHORITY	ギルド資金使用権限がありません。
 203	SMT_GUILD_STORE_FAIL_GUILD_MONEY	ギルド資金が不足しています。
@@ -2246,6 +2248,7 @@
 203	SMT_INVALID_EQUIPMENT_UPGRADE_NOTBELONGTO	自分に帰属してないアイテムは、昇級できません。
 201	SMT_EQUIPMENT_UPGRADE_SUCCESS	{ItemName}の昇級に成功しました。
 201	SMT_EQUIPMENT_UPGRADE_FAILE	{ItemName}の昇級に失敗しました。
+201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName}が壊れました。
 201	SMT_UPGRADE_BALANCE_MEDIUM	補正値が上がりました。次回昇級時の成功確率が上昇します。
 203	SMT_ITEM_DECOMPOSE_COMPLETE	{TargetName} {Amount}個を分解して{ResultName} {ResultAmount}個を獲得しました。
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	装備を昇級するためには、クリスタル及びアーティファクトをすべて外してください。
@@ -2268,6 +2271,10 @@
 203	SMT_FIELD_EVENT_BAN_MESSAGE	取り込み中状態が解除されなかったため、安全な場所に移動します。
 203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	守護者の特別任務の追加報酬がメールに送られました。
 202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	守護者の特別任務（大規模）が開始されました
+302	SMT_BF_SNOWBF_ROUND_DRAW	終了！
+302	SMT_BF_SNOWBF_ROUND_LOSE	終了！
+302	SMT_BF_SNOWBF_ROUND_NUMBER	雪合戦　開始！
+302	SMT_BF_SNOWBF_ROUND_WIN	終了！
 203	SMT_NON_PK_SECTION	PK不可地域です。
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	該当するアイテムを着用ししていないため{SkillName}を使用できません。
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	{SkillName}は{ItemName}では使用できません。
@@ -2297,4 +2304,5 @@
 201	SMT_FISHING_REWARD	{UserName}様が{ItemName}を{ItemCount}個獲得しました
 203	SMT_DELIVERY_INFOR_RESET	日付変更に伴い、納品画面が更新されました。
 202	SMT_GOLDENBELL_MESSAGE	{UserName}様がすべての守護者に幸せを呼び寄せました。
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	特性が活性化されません。
 201	SMT_CANT_SAVE_SCREENSHOT	スクリーンショット保存に失敗しました。
