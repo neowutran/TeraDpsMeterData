@@ -639,12 +639,12 @@
 203	SMT_ITEM_CANNOT_USE_NOBASE	Здесь нет лагеря.
 203	SMT_CITYWAR_BASE_FAIL_AREA	В этом месте нельзя разбивать лагерь.
 203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	Нельзя разбивать лагерь после начала битвы.
-203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	Уровень уклона в радиусе 10 метров не позволяет разбить лагерь в этом месте.
+203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	Уровень уклона в радиусе 3 метров не позволяет разбить здесь лагерь.
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	Нельзя разбивать лагерь в слишком высоком месте.
 203	SMT_CITYWAR_BASE_FAIL_MINALT	Нельзя разбивать лагерь в слишком низком месте.
 203	SMT_CITYWAR_BASE_FAIL_MULTI	Здесь уже есть другой лагерь.
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	Вы не состоите в гильдии.
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	В радиусе 80 метров находится лагерь другой гильдии, поэтому вы не можете разбить здесь свой лагерь.
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	В радиусе 10 метров находится лагерь другой гильдии, поэтому вы не можете разбить здесь свой лагерь.
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	Недостаточно места для лагеря, склон слишком крутой.
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	Слишком крутой склон для обустройства лагеря.
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	Нельзя разбить лагерь системной гильдии.
@@ -663,6 +663,7 @@
 203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	В зону могут попасть только игроки гильдий, уже построивших лагерь.
 203	SMT_CITYWAR_FAIL_ENTER_MAX	В канале присутствует максимально допустимое количество участников.
 203	SMT_CITYWAR_FAIL_ENTER_RETIRE	Если во время битвы за город лагерь будет разрушен, второй раз принять участие в битве будет невозможно.
+203	SMT_CITYWAR_ANNOUNCE_NOENTER	Сейчас вход закрыт.Вход откроется: {time}.
 201	SMT_CITYWAR_GUILD_KILL	<font color = '#40fb40'>{Name1}</font> повергает игрока <font color = '#c8c8b6'>{Name2}</font> из <font color = '#ee1c24'>{GuildName2}</font>.
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#40fb40'>{Name1}</font> убивает игрока <font color = '#ee1c24'>{Name2} из {GuildName2}</font>.
 201	SMT_CITYWAR_REWARD_RANKEXP	Война гильдий: В соответствии с рейтингом <font color = '#01ff96'>{WARRANK}</font> вы получаете в качестве награды <font color = '#01ff96'>+{EXPPOINT}</font> очков опыта гильдии.
@@ -753,7 +754,7 @@
 201	SMT_DISMISS_UNION	Вы изгнаны из альянса.
 204	SMT_DISMISS_UNIONPARTY_SUCCEED	Рейд распущен.
 201	SMT_DISSOLUTION_MATCHING_CANCEL	Группа распущена. Подбор отменен.
-103	SMT_DROPDMG_DAMAGE	Вы получили {Damage} урона при падении.
+105	SMT_DROPDMG_DAMAGE	Вы получили {Damage} урона при падении.
 201	SMT_DUEL_ACCEPT	{target} принял(а) вызов на дуэль.
 203	SMT_DUEL_CANT_DUEL_IS_GROUP	Во время группового боя дуэли запрещены.
 201	SMT_DUEL_CHANGED	Дуэль завершилась автоматически.
@@ -808,6 +809,7 @@
 203	SMT_ENCHANT_DECOMPOSE_COMPLETE	Разобран предмет "{TargetName}". Получено: {ResultName} ×{ResultAmount}.
 203	SMT_ENCHANT_DECOMPOSE_FEE	На разборку вы потратили {Amount@money}.
 201	SMT_ENCHANT_FAILED	Не удалось зачаровать предмет "{ItemName}".
+201	SMT_ENCHANT_FAILED_DAMAGE	Предмет "{ItemName}" поврежден.
 201	SMT_ENCHANT_FAILED_CRI	Уровень зачарования предмета "{ItemName}" снизился на {Count}.
 201	SMT_ENCHANT_SUCCEED	Вы успешно зачаровали {ItemName}.
 201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	Вы успешно зачаровали {ItemName}. Отвязать можно с помощью особого предмета.
@@ -1182,9 +1184,9 @@
 201	SMT_INVALID_CLIMBING_END_POS	Отсюда вы не можете туда залезть.
 203	SMT_INVALID_CUSTOMIZING_ITEM	Не является кристаллом.
 203	SMT_INVALID_ENCHANT_ITEM	Невозможно зачаровать.
-203	SMT_INVALID_ENCHANT_MATERIAL	Это не материал для зачарования.
+203	SMT_INVALID_ENCHANT_MATERIAL	Это не материал для отделки.
 203	SMT_INVALID_ENCHANT_SCROLL	Здесь можно использовать только алкагест.
-203	SMT_INVALID_ENCHANT_TARGET	Вы не можете зачаровать этот предмет.
+203	SMT_INVALID_ENCHANT_TARGET	Вы не можете заняться отделкой этого предмета.
 203	SMT_INVALID_EXTRACT_ITEM	Из этого предмета вы не можете ничего извлечь.
 203	SMT_INVALID_GUILDNAME	Неизвестная гильдия.
 203	SMT_INVALID_MONEY	У одного из вас недостаточно средств.
@@ -2152,7 +2154,7 @@
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_LEVEL	Для использования умения не хватает уровня гильдии.
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_PRE_SKILL	Вы не получили предыдущее умение, поэтому это умение недоступно.
 205	SMT_LEARN_GUILD_SKILL_SUCCESS	Получено новое умение гильдии.
-201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{NpcName}</font> уничтожен!
+201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font> уничтожен!
 201	SMT_FIELDNAMED_RANK	Группа <font color='#1DDB16'>{userName}</font> ранга <font color='#1DDB16'>{rank}</font>
 203	SMT_GUILD_STORE_FAIL_AUTHORITY	У вас нет прав на использование капитала гильдии.
 203	SMT_GUILD_STORE_FAIL_GUILD_MONEY	У гильдии недостаточно средств.
@@ -2246,6 +2248,7 @@
 203	SMT_INVALID_EQUIPMENT_UPGRADE_NOTBELONGTO	Предмет, не принадлежащий вам (не персональный), продвинуть нельзя.
 201	SMT_EQUIPMENT_UPGRADE_SUCCESS	Вы успешно осуществили продвижение предмета "{ItemName}".
 201	SMT_EQUIPMENT_UPGRADE_FAILE	Не удалось осуществить продвижение предмета "{ItemName}".
+201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	Предмет "{ItemName}" уничтожен.
 201	SMT_UPGRADE_BALANCE_MEDIUM	Коэффициенты повышены. При следующем продвижении повысится вероятность успеха.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	Разобран предмет "{TargetName} х {Amount}". Получено: {ResultName} × {ResultAmount}.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	Вы не сможете продвинуть снаряжение, пока не снимете все кристаллы и нивеоты.
@@ -2268,6 +2271,10 @@
 203	SMT_FIELD_EVENT_BAN_MESSAGE	Вы слишком долгое время были неактивны, ваш персонаж перемещается в безопасную зону.
 203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	Награда за задание хранителя отправлена по почте.
 202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	Началось легендарное задание хранителя.
+302	SMT_BF_SNOWBF_ROUND_DRAW	Всё, довольно!
+302	SMT_BF_SNOWBF_ROUND_LOSE	Всё, довольно!
+302	SMT_BF_SNOWBF_ROUND_NUMBER	Начинается бой снежками
+302	SMT_BF_SNOWBF_ROUND_WIN	Всё, довольно!
 203	SMT_NON_PK_SECTION	Здесь вы не можете участвовать в PvP.
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	Нельзя использовать умение "{SkillName}". У вас нет нужного предмета.
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	Нельзя использовать "{SkillName}" с предметом "{ItemName}".
@@ -2297,4 +2304,5 @@
 201	SMT_FISHING_REWARD	{UserName} получает {ItemName} {ItemCount} шт.
 203	SMT_DELIVERY_INFOR_RESET	Экран передачи предметов обновлен в связи с изменением информации.
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} бьет в золотой колокол! <font color = '#f7ff7a'>{AbnormalityName}</font>
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	Особенности не активированы.
 201	SMT_CANT_SAVE_SCREENSHOT	Ошибка сохранения снимка экрана.

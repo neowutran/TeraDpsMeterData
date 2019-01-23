@@ -639,12 +639,12 @@
 203	SMT_ITEM_CANNOT_USE_NOBASE	กิลด์ของเจ้าไม่สามารถสร้างหอคอยก่อน Civil Unrest: Velika เริ่มขึ้น
 203	SMT_CITYWAR_BASE_FAIL_AREA	ท่านไม่สามารถสร้างหอคอยกิลด์ที่นี่
 203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	หอคอยกิลด์ จะถูกสร้างก่อน Civil Unrest: Velika จะเริ่ม
-203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	หอคอยกิลด์ ต้องสร้างภายในระยะ 10 เมตร ของพื้นที่ราบ
+203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	หอคอยกิลด์ ต้องสร้างภายในระยะ 3 เมตร ของพื้นที่ราบ
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	หอคอยกิลด์ไม่สามารถสร้างในที่ระดับสูง
 203	SMT_CITYWAR_BASE_FAIL_MINALT	หอคอยกิลด์ไม่สามารถสร้างในที่ระดับต่ำ
 203	SMT_CITYWAR_BASE_FAIL_MULTI	กิลด์ของท่านสร้างหอคอยเสร็จเรียบร้อยแล้ว
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	ท่านไม่ได้อยู่ในกิลด์
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	ท่านไม่สามารถสร้างหอคอยกิลด์ ภายใน 80 เมตร ของหอคอยกิลด์ที่อื่นได้
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	ท่านไม่สามารถสร้างหอคอยกิลด์ ภายในระยะ 10 เมตร ของหอคอยกิลด์อื่นได้
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	ท่านไม่สามารถสร้างหอคอยกิลด์ที่นี่ ลองอีกครั้งในบริเวณอื่น
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	หอคอยกิลด์ต้องสร้างภายในระยะ 10 เมตร ของพื้นที่ราบ
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	ระบบกิลด์ไม่สามารถสร้างหอคอยกิลด์ได้
@@ -663,6 +663,7 @@
 203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	การจะเข้าร่วม Civil Unrest: Velika กิลด์ของท่าน ต้องสร้างหอคอยกิลด์ก่อน 
 203	SMT_CITYWAR_FAIL_ENTER_MAX	แชนแนลเต็ม
 203	SMT_CITYWAR_FAIL_ENTER_RETIRE	ถ้าหอคอยกิลด์ของท่าน ถูกทำลายระหว่าง Civil Unrest: Velik ท่านไม่สามารถกลับเข้ามาใหม่ได้
+203	SMT_CITYWAR_ANNOUNCE_NOENTER	ไม่สามารถเข้าได้ในขณะนี้ จะสามารถเข้าได้ตั้งแต่เวลา {time} เป็นต้นไป
 201	SMT_CITYWAR_GUILD_KILL	<font color='#40fb40'>{Name1}</font> <font color='#c8c8b6'>ได้ทำลาย</font> <font color='#ee1c24'>{GuildName2} {Name2}</font> <font color='#c8c8b6'>แล้ว!!</font>
 201	SMT_CITYWAR_GUILD_DEATH	<font color='#ee1c24'>{GuildName2} {Name2}</font> <font color='#c8c8b6'> ได้ฆ่า</font> <font color='#40fb40'>{Name1}</font> <font color='#c8c8b6'>แล้ว!!</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	เป็นรางวัลสำหรับอันดับ <font color='#01ff96'>{WARRANK}</font> ใน Civil Unrest ซึ่งกิลด์ของท่านจะได้รับ <font color='#01ff96'>+{EXPPOINT}</font> XP กิลด์
@@ -678,14 +679,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	ไม่เพียงพอที่จะเพิ่มสกิลเก็บเกี่ยวของเจ้า
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	สิ่งนั้นได้ถูกเก็บเกี่ยวแล้ว
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	การล่าแมลงของเจ้าได้เพิ่มขี้นเป็น {prof}
-201	SMT_COL_CHATLOG_ENERGY	การรวบรวมสารสกัดของเจ้าได้เพิ่มขึ้นเป็น {prof}
-201	SMT_COL_CHATLOG_HERB	การรวบรวมพืชของเจ้าได้เพิ่มขี้นเป็น {prof}
-201	SMT_COL_CHATLOG_MINERAL	การทำเหมือนแร่ของเจ้าได้เพิ่มขึ้นเป็น {prof}
 201	SMT_COL_SYSMSG_PICK_CANCEL	การเก็บเกี่ยวถูกยกเลิก
-201	SMT_COL_SYSMSG_PICK_FAIL	การเก็บเกี่ยวล้มเหลว
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	การเก็บเกี่ยวถูกรบกวน
-201	SMT_COL_SYSMSG_PICK_SUCCESS	การเก็บเกี่ยวสำเร็จ
+201	SMT_COL_SYSMSG_UPGRADE_HERB	ระดับการสะสมอาหารอยู่ในระดับ {grade}
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	ระดับการสะสมแร่อยู่ในระดับ {grade}
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	ระดับการสะสมพลังอยู่ในระดับ {grade}
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	ท่านใช้ {ItemName} หมดแล้ว
 302	SMT_COMPENSATION_ACQUIRED	ได้รับรางวัล!
 203	SMT_COMPENSATION_NOT_ACQUIRED	ยังไม่ได้รับรางวัล
@@ -756,7 +754,7 @@
 201	SMT_DISMISS_UNION	เจ้าถูกขับไล่ออกจากพันธมิตร
 204	SMT_DISMISS_UNIONPARTY_SUCCEED	กลุ่มโจมตีถูกสลาย
 201	SMT_DISSOLUTION_MATCHING_CANCEL	ปาร์ตี้ถูกปลด การจับคู่จะถูกยกเลิก
-103	SMT_DROPDMG_DAMAGE	เจ้าได้ {Damage} ค่าความเสียหายที่ตกลง
+105	SMT_DROPDMG_DAMAGE	เจ้าได้ {Damage} ค่าความเสียหายที่ตกลง
 201	SMT_DUEL_ACCEPT	{target}  ยอมรับการต่อสู้ตัวต่อตัว
 203	SMT_DUEL_CANT_DUEL_IS_GROUP	การต่อสู้ตัวต่อตัวไม่อนุญาตในระหว่างนัดสุดท้าย
 201	SMT_DUEL_CHANGED	การต่อสู้ตัวต่อตัวจะสิ้นสุดลงอัตโนมัติ
@@ -811,9 +809,10 @@
 203	SMT_ENCHANT_DECOMPOSE_COMPLETE	การแยก {TargetName} และได้รับ {ResultName} ×{ResultAmount}
 203	SMT_ENCHANT_DECOMPOSE_FEE	เจ้าจ่าย {Amount@money}  สำหรับการแยก
 201	SMT_ENCHANT_FAILED	การใช้เวทมนตร์ {ItemName} ล้มเหลว
+201	SMT_ENCHANT_FAILED_DAMAGE	{ItemName} เสียหาย
 201	SMT_ENCHANT_FAILED_CRI	เวทมนตร์สำหรับ {ItemName} ลงลด {Count}
 201	SMT_ENCHANT_SUCCEED	ประสบความสำเร็จในการใช้เวทมนตร์ {ItemName}
-201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	เสริมแกร่ง {ItemName} สำเร็จแล้ว ใช้ไอเทมปลดปล่อย เพื่อปลดปล่อยอุปกรณ์นี้
+201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	เจ้าประสบความสำเร็จในการได้รับ {ItemName} โบนัสเวทมนตร์ เจ้าจะปลดปล่อยอุปกรณ์ชนิดนี้ด้วยม้วนกระดาษแห่งอิสรภาพ
 201	SMT_END_COMPETITION_TIME	การแข่งขันพันธมิตรได้จบลงแล้ว
 201	SMT_END_SEASON	ฤดูกาลพันธมิตรได้จบลงแล้ว
 203	SMT_ENTER_FAILED_DISSATISFACTION_CONDITION	เจ้าไม่ได้พบสิ่งที่ต้องการเพื่อเข้าสู่ตัวอย่างนี้
@@ -853,7 +852,6 @@
 203	SMT_FAILED_QUEST_COMPENSATION	เจ้าไม่สามารถทำ "{QuestName}"  เควส เนื่องจากรายการสินค้า, เงิน, หรือการจำกัดเควสประจำวัน
 203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	สามารถทำเควสได้ก็ต่อเมื่อ ได้รับสกิลทั้งหมดแล้วเท่านั้น
 201	SMT_FAIL_EXTRACT	เจ้าล้มเหลวในการสกัด {ItemName}
-201	SMT_FAIL_PRODUCE	ล้มเหลวในการสร้าง {ItemName}
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	เจ้าไม่สามารถเพิ่มตัวรับตัวละครโดยใช้ {ชื่อไอเทม} เพราะเจ้าไม่มีสิ่งที่ต้องการ
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	ล้มเหลวในการเพิ่มช่องตัวละคร
 203	SMT_FAIL_UNION_PRODUCE	เจ้าไม่มีสิ่งที่ต้องการสำหรับสร้างสิ่งนี้
@@ -1163,8 +1161,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	เจ้าไม่สามารถออกจากเกมในขณะที่ได้รับค่าความเสียหาย
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	เจ้าไม่สามารถใช้ไอเทมในขณะที่ได้รับค่าความเสียหาย
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	มีกิจกรรมที่ดำเนินอยู่ แวะที่ tera.playwith.in.th/ สำหรับข้อมูลเพิ่มเติม
-201	SMT_INCREASE_SKILL_PROF	เลเวลสกิลเพิ่มขึ้น
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName} เพิ่มขึ้นจาก {SkillProf}
 201	SMT_INCREASE_SKILL_RANK	{Skill} อยู่ในเลเวล {Rank} ตอนนี้
 201	SMT_INCREMENT_CHARACTER_SOCKET	เพิ่มช่องสร้างตัวละครมากขึ้น
 201	SMT_INGAMESTORE_BASKET_ADDED	ไอเทมที่เลือกได้ถูกบันทึกไว้ที่รถเข็นแล้ว
@@ -1853,7 +1849,6 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	เจ้าได้รับรางวัลเควสเพิ่มเติม!
 201	SMT_SUCCESS_CHANGE_TAX	อัตราภาษีได้ถูกเปลี่ยน
 201	SMT_SUCCESS_EXTRACT	การสกัดสำเร็จ {ItemName}
-201	SMT_SUCCESS_PRODUCE	การสร้าง {ItemName}
 201	SMT_SUCCESS_PRODUCE_CRITICAL	การสร้างพิเศษของเจ้าได้สร้างทรัพยากรโบนัส
 203	SMT_SUMMON_FAIL_IS_PEGASUS	เจ้าล้มเหลวที่จะเรียก {UserName}
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} ตายและไม่สามารถถูกเรียกได้
@@ -2021,7 +2016,7 @@
 203	SMT_USE_ITEM_NO_EXIST	เจ้าไม่มีไอเทมนั้น
 203	SMT_USE_ITEM_RACE_MISMATCH	ไอเทมนั้นใช้ไม่ได้กับเผ่าพันธุ์นี้
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	เจ้าไม่สามารถใช้สิ่งนั้นในเวลานี้
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	เรียกคืน {Num} คะแนนผลผลิต คะแนนผลผลิตไม่สามารถสูงเกิน 4,000
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	เรียกคืน {Num} คะแนนผลผลิต คะแนนผลผลิตไม่สามารถสูงเกิน {maxFatiguePoint}
 201	SMT_USE_SKILL_CANCEL	ยกเลิกสกิล
 302	SMT_USING_ACCOUNT_BENEFIT	{AccountBenefitName}  บัญชี
 203	SMT_VENDER_CANT_OFF_IS_USE	เจ้าไม่สามารถปิดร้านที่มีไอเทมในสต๊อก กรุณาเก็บไอเทม, แล้วลองอีกครั้ง
@@ -2253,6 +2248,7 @@
 203	SMT_INVALID_EQUIPMENT_UPGRADE_NOTBELONGTO	ไม่สามารถเลื่อนขั้นไอเทมที่อยู่ในครอบครองของตัวเองได้
 201	SMT_EQUIPMENT_UPGRADE_SUCCESS	{ItemName} เลื่อนขั้นสำเร็จแล้ว
 201	SMT_EQUIPMENT_UPGRADE_FAILE	{ItemName} เลื่อนขั้นไม่สำเร็จ
+201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName} ถูกทำลาย
 201	SMT_UPGRADE_BALANCE_MEDIUM	ค่าชดเชยเพิ่มขึ้น เมื่อเลื่อนขั้นครั้งถัดไปอัตราเลื่อนขั้นสำเร็จจะสูงขึ้น
 203	SMT_ITEM_DECOMPOSE_COMPLETE	{TargetName} {Amount} ชิ้นถูกแยกส่วนแล้ว และได้รับ {ResultName} {ResultAmount} ชิ้น
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	สามารถเลื่อนขั้นเฉพาะอุปกรณ์ใส่-ถอดที่ Crytral และ Niveot ได้ทุกชนิดเท่านั้น
@@ -2275,6 +2271,10 @@
 203	SMT_FIELD_EVENT_BAN_MESSAGE	สถานะไม่อยู่หากไม่ถูกยกเลิก จะย้ายไปยังสถานที่ปลอดภัย
 203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	ส่งรางวัลเพิ่มเติมของ Guardian's Mission ไปทางจดหมายแล้ว
 202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	Guardian's Mission ระดับตำนานได้เริ่มขึ้นแล้ว
+302	SMT_BF_SNOWBF_ROUND_DRAW	พอได้แล้ว~~
+302	SMT_BF_SNOWBF_ROUND_LOSE	พอได้แล้ว~~
+302	SMT_BF_SNOWBF_ROUND_NUMBER	Start Snowballing!
+302	SMT_BF_SNOWBF_ROUND_WIN	พอได้แล้ว~~
 203	SMT_NON_PK_SECTION	ไม่สามารถ PK ได้ในพื้นที่นี้
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	ไม่มีไอเทมที่ใช้งาน จึงไม่สามารถใช้งาน '{SkillName}' ได้
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	{SkillName}' ไม่สามารถใช้โดย {ItemName} ได้
@@ -2300,7 +2300,9 @@
 201	SMT_FISHING_RESULT_SUCCESS	ตกปลาสำเร็จแล้ว
 201	SMT_FISHING_RESULT_FAIL	การตกปลาล้มเหลว
 201	SMT_FISHING_RESULT_CANCLE	ยกเลิกการตกปลาแล้ว
-201	SMT_FISHING_MINIGAME_HOWTO	กรุณากด {ActionKey} เพื่อดึงปลาเข้ามาในขอบเขต
+201	SMT_FISHING_MINIGAME_HOWTO	กรุณากด {ActionKey} เพื่อดึงปลาเข้ามาไว้ในอาณาเขตที่ปลอดภัย
 201	SMT_FISHING_REWARD	ท่าน {UserName} ได้รับ {ItemName} จำนวน {ItemCount} ชิ้น
 203	SMT_DELIVERY_INFOR_RESET	รีเฟรชหน้าจอการส่งมอบ เนื่องจากมีการเปลี่ยนข้อมูล
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> ท่าน {UserName} ได้สั่นระฆัง Golden Bell แล้ว! <font color='#f7ff7a'>{AbnormalityName}</font>
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	ไม่สามารถเปิดใช้งาน EP ได้
+201	SMT_CANT_SAVE_SCREENSHOT	การบันทึกภาพหน้าจอล้มเหลว

@@ -639,12 +639,12 @@
 203	SMT_ITEM_CANNOT_USE_NOBASE	Your guild did not build a tower before Civil Unrest: Velika began.
 203	SMT_CITYWAR_BASE_FAIL_AREA	You cannot build a guild tower here.
 203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	Guild towers must be built before Civil Unrest: Velika begins.
-203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	Guild towers must be built within 10m of flat ground.
+203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	Guild towers must be built within 3m of flat ground.
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	Guild towers cannot be built at high elevations.
 203	SMT_CITYWAR_BASE_FAIL_MINALT	Guild towers cannot be built at low elevations.
 203	SMT_CITYWAR_BASE_FAIL_MULTI	Your guild has already built a tower.
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	You are not in a guild.
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	You cannot build a guild tower within 80m of another guild's tower.
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	You cannot build a guild tower within 10m of another guild's tower.
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	You cannot build a guild tower here. Try again in another area.
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	Guild towers must be built within 10m of flat ground.
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	System guilds cannot build a guild tower.
@@ -663,6 +663,7 @@
 203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	Your guild must have built a guild tower before Civil Unrest: Velika started to participate.
 203	SMT_CITYWAR_FAIL_ENTER_MAX	The channel is full.
 203	SMT_CITYWAR_FAIL_ENTER_RETIRE	If your guild tower is destroyed during Civil Unrest: Velika, you cannot re-enter.
+203	SMT_CITYWAR_ANNOUNCE_NOENTER	Available starting from {time}.
 201	SMT_CITYWAR_GUILD_KILL	<font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'> has defeated </font> <font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'>.</font>
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2} {Name2}</font> <font color = '#c8c8b6'> has killed </font> <font color = '#40fb40'>{Name1}</font> <font color = '#c8c8b6'>.</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	As a reward for rank <font color = '#01ff96'>{WARRANK}</font> in Civil Unrest, your guild received <font color = '#01ff96'>+{EXPPOINT}</font> Guild XP.
@@ -678,14 +679,11 @@
 203	SMT_COLLECTION_GET_EXP_FAIL_LOW_GRADE	Inadequate to increase your gathering skill.
 203	SMT_COLLECTION_OTHER_PARTY_OCCUPIED	That is already being gathered.
 203	SMT_COL_CANNOT_PICK_NOW	SMT_COL_CANNOT_PICK_NOW
-201	SMT_COL_CHATLOG_BUG	Your bug hunting has increased to {prof}.
-201	SMT_COL_CHATLOG_ENERGY	Your essence gathering has increased to {prof}.
-201	SMT_COL_CHATLOG_HERB	Your plant collecting has increased to {prof}.
-201	SMT_COL_CHATLOG_MINERAL	Your mining has increased to {prof}.
 201	SMT_COL_SYSMSG_PICK_CANCEL	Gathering canceled.
-201	SMT_COL_SYSMSG_PICK_FAIL	Gathering failed.
 201	SMT_COL_SYSMSG_PICK_INTERRUPT	Gathering interrupted.
-201	SMT_COL_SYSMSG_PICK_SUCCESS	Gathering successful.
+201	SMT_COL_SYSMSG_UPGRADE_HERB	Congratulations! You are now level {grade}.
+201	SMT_COL_SYSMSG_UPGRADE_MINERAL	Congratulations! You are now level {grade}.
+201	SMT_COL_SYSMSG_UPGRADE_ENERGY	Congratulations! You are now level {grade}.
 203	SMT_COMMON_NO_MORE_ITEM_TO_USE	You're out of {ItemName}.
 302	SMT_COMPENSATION_ACQUIRED	Reward earned!
 203	SMT_COMPENSATION_NOT_ACQUIRED	Reward not earned.
@@ -756,7 +754,7 @@
 201	SMT_DISMISS_UNION	You have been expelled from the alliance.
 204	SMT_DISMISS_UNIONPARTY_SUCCEED	Raid disbanded.
 201	SMT_DISSOLUTION_MATCHING_CANCEL	The party has disbanded. Matching has been canceled.
-103	SMT_DROPDMG_DAMAGE	You took {Damage} falling damage.
+105	SMT_DROPDMG_DAMAGE	You took {Damage} falling damage.
 201	SMT_DUEL_ACCEPT	{target} accepted the duel.
 203	SMT_DUEL_CANT_DUEL_IS_GROUP	Dueling is not allowed while in a deathmatch.
 201	SMT_DUEL_CHANGED	Duel automatically ended.
@@ -811,6 +809,7 @@
 203	SMT_ENCHANT_DECOMPOSE_COMPLETE	Dismantled {TargetName} and obtained {ResultName} ×{ResultAmount}.
 203	SMT_ENCHANT_DECOMPOSE_FEE	You spent {Amount@money} on dismantling.
 201	SMT_ENCHANT_FAILED	Failed to enchant {ItemName}.
+201	SMT_ENCHANT_FAILED_DAMAGE	{ItemName} damaged.
 201	SMT_ENCHANT_FAILED_CRI	Enchantment for {ItemName} decreased by {Count}.
 201	SMT_ENCHANT_SUCCEED	You've successfully enchanted {ItemName}.
 201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	You've successfully enchanted {ItemName}. You may liberate this equipment with a Liberation Scroll.
@@ -853,7 +852,6 @@
 203	SMT_FAILED_QUEST_COMPENSATION	You cannot progress "{QuestName}" quest due to inventory, currency, or daily quest limits. 
 203	SMT_FAILED_QUEST_ALL_SKILL_CHECK	Learn all skills to progress the quest.
 201	SMT_FAIL_EXTRACT	You failed to extract {ItemName}.
-201	SMT_FAIL_PRODUCE	Failed to craft {ItemName}.
 203	SMT_FAIL_T0_INCREMENT_CHARACTER_SOCKET2	You cannot add character sockets by using {ItemName} because you don't meet the requirements.
 203	SMT_FAIL_TO_INCREMENT_CHARACTER_SOCKET	Failed to add the additional character slot.
 203	SMT_FAIL_UNION_PRODUCE	You do not meet the requirements for this crafting.
@@ -1163,8 +1161,6 @@
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	You cannot exit the game while taking damage.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	You cannot use an item while taking damage.
 201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	There are active Events. Visit tera.playwithsea.com for more details. 
-201	SMT_INCREASE_SKILL_PROF	Skill level increased.
-201	SMT_INCREASE_SKILL_PROF_MORE	{SkillName} increased by {SkillProf}.
 201	SMT_INCREASE_SKILL_RANK	{Skill} is now level {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Additional character slot added.
 201	SMT_INGAMESTORE_BASKET_ADDED	The selected item has been saved in your cart.
@@ -1853,11 +1849,10 @@
 201	SMT_SUCCESSOR_CARE_QUEST_ADDITIONAL_COMPENSATION_ACCOMPLISHED	You've earned additional quest rewards!
 201	SMT_SUCCESS_CHANGE_TAX	The tax rate has been changed.
 201	SMT_SUCCESS_EXTRACT	Successfully extracted {ItemName}.
-201	SMT_SUCCESS_PRODUCE	Crafted {ItemName}.
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Your exceptional crafting work produced bonus materials.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	You failed to summon {UserName}.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} is dead and can't be summoned.
-203	SMT_SUMMON_FRIEND_CANNOT_FALLING	The Friend Summon function is not useable while you or your friend is falling.
+203	SMT_SUMMON_FRIEND_CANNOT_FALLING	The Friend Summon function is not usable while you or your friend is falling.
 302	SMT_SUMMON_UNION_NPC_COUNT_EXCEED	You've exceeded the summoning maximum: {Num}.
 302	SMT_SUMMON_UNION_NPC_WRONG_AREA	You can't summon here. You can only summon within your alliance territory.
 201	SMT_SUPPLEMENT_CANCEL_STATE	Additional recruitment canceled.
@@ -2021,7 +2016,7 @@
 203	SMT_USE_ITEM_NO_EXIST	You are out of that item.
 203	SMT_USE_ITEM_RACE_MISMATCH	That item is unavailable to your race.
 203	SMT_USE_ITEM_USER_STATUS_MISMATCH	You can't use that right now.
-201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	Restored {Num} production points. Production points cannot exceed 4,000. 
+201	SMT_USE_PRODUCEFATIGUEPOINT_ITEM	Restored {Num} production points. Production points cannot exceed {maxFatiguePoint}. 
 201	SMT_USE_SKILL_CANCEL	Skill canceled.
 302	SMT_USING_ACCOUNT_BENEFIT	{AccountBenefitName} account.
 203	SMT_VENDER_CANT_OFF_IS_USE	You can't close up shop with items in stock. Please collect the items, then try again.
@@ -2253,6 +2248,7 @@
 203	SMT_INVALID_EQUIPMENT_UPGRADE_NOTBELONGTO	Only items bound to you can be upgraded.
 201	SMT_EQUIPMENT_UPGRADE_SUCCESS	You've successfully upgraded {ItemName}.
 201	SMT_EQUIPMENT_UPGRADE_FAILE	Failed to upgrade {ItemName}.
+201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName} destroyed.
 201	SMT_UPGRADE_BALANCE_MEDIUM	Your advantage increased. Your chance of succeeding on your next upgrade attempt will be higher.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	Dismantled {TargetName} ×{Amount} and obtained {ResultName} ×{ResultAmount}.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	Please remove all crystals and niveots first.
@@ -2275,6 +2271,10 @@
 203	SMT_FIELD_EVENT_BAN_MESSAGE	You have been AFK for too long. Moving you to a safe zone.
 203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	Additional Guardian Mission rewards are delivered via parcel post.
 202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	The Superior Guardian Mission has begun.
+302	SMT_BF_SNOWBF_ROUND_DRAW	Time's Up!
+302	SMT_BF_SNOWBF_ROUND_LOSE	Time's Up!
+302	SMT_BF_SNOWBF_ROUND_NUMBER	Go Get 'Em!
+302	SMT_BF_SNOWBF_ROUND_WIN	Time's Up!
 203	SMT_NON_PK_SECTION	You can't PvP here.
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	Cannot use '{SkillName}' without a specific item equipped.
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	Cannot use '{SkillName}' with {ItemName}.
@@ -2303,4 +2303,6 @@
 201	SMT_FISHING_MINIGAME_HOWTO	Press {ActionKey} key to pull in the fish.
 201	SMT_FISHING_REWARD	{UserName} has fished {ItemCount} {ItemName}.
 203	SMT_DELIVERY_INFOR_RESET	Delivery list has been refreshed due to detail adjustment. 
-202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/>{UserName} rang the Golden Bell!<font color = '#f7ff7a'>{AbnormalityName}</font>
+202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/>{UserName} gave you a Server Buff! <font color = '#f7ff7a'>{AbnormalityName}</font>
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	EP is not activated.
+201	SMT_CANT_SAVE_SCREENSHOT	Failed to save a screenshot.

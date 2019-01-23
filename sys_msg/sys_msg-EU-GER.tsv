@@ -639,12 +639,12 @@
 203	SMT_ITEM_CANNOT_USE_NOBASE	Es wurde kein Außenposten errichtet.
 203	SMT_CITYWAR_BASE_FAIL_AREA	Es ist nicht möglich, hier einen Außenposten zu errichten.
 203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	Kann während eines Gildenkrieges nicht errichtet werden.
-203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	Ihr könnt den Außenposten an einem ebenen Ort errichten, der in 10m Umkreis keine großen Höhenunterschiede aufweist.
+203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	Ihr könnt den Außenposten an einem ebenen Ort errichten, der in 3m Umkreis keine großen Höhenunterschiede aufweist.
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	An einem zu hohen Ort ist das Errichten nicht möglich.
 203	SMT_CITYWAR_BASE_FAIL_MINALT	An einem zu niedrigen Ort ist das Errichten nicht möglich.
 203	SMT_CITYWAR_BASE_FAIL_MULTI	Hier existiert bereits ein Außenposten.
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	Ihr gehört keiner Gilde an.
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	Errichten nicht möglich. Im Umkreis von 80m befindet sich der Außenposten einer anderen Gilde.
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	Errichten nicht möglich. Im Umkreis von 10m befindet sich der Außenposten einer anderen Gilde.
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	Nicht genügend Platz oder die Ebene ist zu schief für einen Außenposten.
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	Der Ort, an dem der Posten errichtet werden soll, ist zu schief.
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	Eine Systemgilde kann keinen Außenposten errichten.
@@ -663,6 +663,7 @@
 203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	Während eines Gildenkriegs ist das Betreten nur solchen Gildenmitgliedern möglich, die einen Außenposten errichtet haben.
 203	SMT_CITYWAR_FAIL_ENTER_MAX	Die zulässige Beitrittszahl für den Kanal wurde überschritten.
 203	SMT_CITYWAR_FAIL_ENTER_RETIRE	Wenn der Außenposten während des Gildenkriegs zerstört wurde, ist ein Wiedereintritt nicht möglich.
+203	SMT_CITYWAR_ANNOUNCE_NOENTER	Das Betreten ist erst ab {time} Uhr möglich.
 201	SMT_CITYWAR_GUILD_KILL	<font color = '#40fb40'>{Name1}</font><font color = '#c8c8b6'> hat </font><font color = '#ee1c24'>{GuildName2}{Name2}</font><font color = '#c8c8b6'> besiegt.</font>
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2}{Name2}</font><font color = '#c8c8b6'> hat </font><font color = '#40fb40'>{Name1}</font><font color = '#c8c8b6'> besiegt.</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	Als Belohnung für den <font color = '#01ff96'>{WARRANK}</font> Platz im Gildenkrieg, erhaltet Ihr <font color = '#01ff96'>+{EXPPOINT}</font> Gilden-EP.
@@ -753,7 +754,7 @@
 201	SMT_DISMISS_UNION	Ihr wurdet aus der Allianz ausgewiesen.
 204	SMT_DISMISS_UNIONPARTY_SUCCEED	Schlachtgruppe wurde aufgelöst.
 201	SMT_DISSOLUTION_MATCHING_CANCEL	Die Gruppe wurde aufgelöst. Die Gruppensuche wurde abgebrochen.
-103	SMT_DROPDMG_DAMAGE	Ihr erleidet {Damage} Punkte Fallschaden.
+105	SMT_DROPDMG_DAMAGE	Ihr erleidet {Damage} Punkte Fallschaden.
 201	SMT_DUEL_ACCEPT	{target} hat die Herausforderung zum Duell angenommen.
 203	SMT_DUEL_CANT_DUEL_IS_GROUP	Während eines Deathmatches sind Duelle nicht erlaubt.
 201	SMT_DUEL_CHANGED	Duell wurde automatisch beendet.
@@ -808,6 +809,7 @@
 203	SMT_ENCHANT_DECOMPOSE_COMPLETE	Hat {TargetName} zerlegt und {ResultName} ×{ResultAmount} erhalten.
 203	SMT_ENCHANT_DECOMPOSE_FEE	Ihr habt {Amount@money} für das Zerlegen ausgegeben.
 201	SMT_ENCHANT_FAILED	Verzaubern gescheitert: {ItemName}.
+201	SMT_ENCHANT_FAILED_DAMAGE	{ItemName} wurde beschädigt.
 201	SMT_ENCHANT_FAILED_CRI	Verzauberung von "{ItemName}" wurde um {Count} reduziert.
 201	SMT_ENCHANT_SUCCEED	Erfolgreich verzaubert: {ItemName}.
 201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	Erfolgreich verzaubert: {ItemName}. Ihr könnt diese Ausrüstung mit einer Befreiungsschriftrolle befreien.
@@ -2246,6 +2248,7 @@
 203	SMT_INVALID_EQUIPMENT_UPGRADE_NOTBELONGTO	Dieser Gegenstand kann nicht aufgestuft werden, da er nicht seelengebunden ist.
 201	SMT_EQUIPMENT_UPGRADE_SUCCESS	Erfolgreich aufgestuft: {ItemName}.
 201	SMT_EQUIPMENT_UPGRADE_FAILE	Aufstufen gescheitert: {ItemName}.
+201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName} wurde zerstört.
 201	SMT_UPGRADE_BALANCE_MEDIUM	Der Anpassungswert wurde erhöht. Die Wahrscheinlichkeit, dass Eure nächste Aufstufung erfolgreich sein wird, erhöht sich.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	Ihr habt {Amount} Stück {TargetName} extrahiert und {ResultAmount}x {ResultName} erhalten.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	Nur Ausrüstungsgegenstände, deren Kristalle und Prachtkristalle abgelegt wurden, können aufgestuft werden.
@@ -2268,6 +2271,10 @@
 203	SMT_FIELD_EVENT_BAN_MESSAGE	Ihr werdet vom Schlachtfeld entfernt.
 203	SMT_FIELD_EVENT_CLEAR_REWARD_SENT	Die Zusatzbelohnung für die Wächter-Mission wurde per Post verschickt.
 202	SMT_FIELD_EVENT_WORLD_ANNOUNCE	Die legendäre Wächter-Mission beginnt.
+302	SMT_BF_SNOWBF_ROUND_DRAW	Genug!
+302	SMT_BF_SNOWBF_ROUND_LOSE	Genug!
+302	SMT_BF_SNOWBF_ROUND_NUMBER	Schneeballschlacht beginnen
+302	SMT_BF_SNOWBF_ROUND_WIN	Genug!
 203	SMT_NON_PK_SECTION	Ihr könnt hier keine PvP-Kämpfe abhalten.
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	Ihr könnt "{SkillName}" nicht verwenden, da Ihr nicht das passende Kostüm tragt.
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	Ihr könnt "{SkillName}" nicht mit "{ItemName}" verwenden.
@@ -2297,4 +2304,5 @@
 201	SMT_FISHING_REWARD	{UserName} hat {ItemName} verwendet und {ItemCount} erhalten.
 203	SMT_DELIVERY_INFOR_RESET	Das Liefer-Fenster wurde neu geladen.
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} hat die Goldglocke geläutet. <font color = '#f7ff7a'>{AbnormalityName}</font>
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	EL wurde nicht aktiviert.
 201	SMT_CANT_SAVE_SCREENSHOT	Der Screenshot wurde nicht gespeichert.
