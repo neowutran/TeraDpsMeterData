@@ -1645,6 +1645,12 @@
 70461	HPDrain	Debuff	False	perc	7000	0	0.9	感電			感電し、移動速度が$H_W_BAD20%$COLOR_END減少します。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
 70462	Absorb	Debuff	True	abs	20000	0	500000	防御バリア			強力なエネルギーで充電されました。ダメージを吸収します。	icon_status.balanceup_tex	icon_status.balanceup_tex	True
 70463	HPChange	DOT	False	perc	1000	1	-0.03	猛毒			致命的な毒に侵され全体HP対比$H_W_BAD3%$COLOR_ENDに達するHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+70465	Crit	Buff	True	abs	10000	0	30	【PUBG】アドレナリン注射器	206770	【PUBG】アドレナリン注射器	10s間、攻撃速度が$H_W_GOOD20$COLOR_END増加、クリティカル発生が$H_W_GOOD30$COLOR_END増加しますが、強いめまいに襲われることがあります。	icon_items.boost_adrenalinesyringe_tex	icon_items.boost_adrenalinesyringe_tex	True
+70465	ASpd	Buff	True	abs	10000	0	20	【PUBG】アドレナリン注射器	206770	【PUBG】アドレナリン注射器	10s間、攻撃速度が$H_W_GOOD20$COLOR_END増加、クリティカル発生が$H_W_GOOD30$COLOR_END増加しますが、強いめまいに襲われることがあります。	icon_items.boost_adrenalinesyringe_tex	icon_items.boost_adrenalinesyringe_tex	True
+70465	Drunk	Buff	True	60032	10000	1	0	【PUBG】アドレナリン注射器	206770	【PUBG】アドレナリン注射器	10s間、攻撃速度が$H_W_GOOD20$COLOR_END増加、クリティカル発生が$H_W_GOOD30$COLOR_END増加しますが、強いめまいに襲われることがあります。	icon_items.boost_adrenalinesyringe_tex	icon_items.boost_adrenalinesyringe_tex	True
+70466	HPChange	Buff	True	perc	15000	1	0.05	【PUBG】鎮痛剤	206771	【PUBG】鎮痛剤	$H_W_GOOD1s$COLOR_END毎に全HP/MPの$H_W_GOOD5%$COLOR_ENDが持続的に回復します。	icon_items.boost_painkiller_tex	icon_items.boost_painkiller_tex	True
+70466	MPChange	Buff	True	perc	15000	1	0.05	【PUBG】鎮痛剤	206771	【PUBG】鎮痛剤	$H_W_GOOD1s$COLOR_END毎に全HP/MPの$H_W_GOOD5%$COLOR_ENDが持続的に回復します。	icon_items.boost_painkiller_tex	icon_items.boost_painkiller_tex	True
+70467	HPChange	Buff	True	perc	1000	1	1	【PUBG】応急処置キット	206772	【PUBG】応急処置キット	HPが$H_W_GOOD100%$COLOR_END即時回復します。	icon_items.heal_firstaid_tex	icon_items.heal_firstaid_tex	False
 76756	HPChange	DOT	True	abs	30000	2	-7000	排水			汚水により、2秒毎にHPが7,000減少します。	icon_status.purifydagon_tex	icon_status.purifydagon_tex	True
 76901	DelayedEffect	Buff	True	swch	60000	0	76902	凶暴化警告			持続時間が終了すると、凶暴化します。	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 76902	Power	Buff	True	perc	0	0	5	凶暴化			凶暴化し何人たりとも、止めることはできません。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
@@ -2008,7 +2014,7 @@
 301100	StackCounter	Buff	True	seta	10000	0	301150	連撃			連撃が4回成功時、ホイールウィンドの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
 301150	SkillCastSpeed	Buff	True	perc	10000	0	1.2	連撃			次の攻撃時、ホイールウィンドの発動速度が上昇します。	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
 301200	239	Buff	True	perc	4000	0	1	回避 II			4s以内に回避を再度使用できますが、クールタイムが適用されます。	icon_skills.tumbling_tex	icon_skills.tumbling_tex	True
-301300	DelayedEffect	Buff	True	perc	2000	0	301310	極・ブレードビセクション			［ブレードビセクション］、［真・ブレードビセクション］ の威力20％ 増加(見えない異常状態)	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	False
+301300	DelayedEffect	Buff	True	perc	2000	0	301310	極・ブレードビセクション			［ブレードビセクション］の威力20％ 増加(見えない異常状態)	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	False
 301310	AtkPotion	Buff	True	perc	7000	0	1.01	極・ブレードビセクション			重複毎にスキル威力1%増加	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	True
 301500	335	Buff	True	swch	0	0	0	完璧な連係			コンボ成功時、次のスキルの威力が30％増加します。	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	False
 301510	Ballance	Buff	True	seta	0	0	10000	ディバイド			ディバイド発動中、受ける被ダメージが50％減少し、ダウン/硬直状態になりませんが、移動速度が減少します。	icon_skills.cuttingslash_tex	icon_skills.cuttingslash_tex	False
@@ -5131,7 +5137,7 @@
 10154083	Aggro	Buff	True	perc	2000	0	0.38	爆炎風車連携			より強力な「爆炎風車」を使用できます。使用時、クールタイムが適用されます。	icon_skills.c12_flamestrike	icon_skills.c12_flamestrike	True
 10154083	ReloadingSkill	Buff	True	swch	5000	0	93008	爆炎風車連携			より強力な「爆炎風車」を使用できます。使用時、クールタイムが適用されます。	icon_skills.c12_flamestrike	icon_skills.c12_flamestrike	True
 10154085	Aggro	Buff	True	perc	2000	0	0.38	爆炎風車2打連係			より強力な「爆炎風車」を使用できます。	icon_skills.c12_flamestrike	icon_skills.c12_flamestrike	False
-10154090	Endurance	Buff	True	perc	60000	0	1	変化の術 I	209045	Champion's Staff	相手の姿に変身した状態です。	icon_skills.c12_transform	icon_skills.c12_transform	True
+10154090	Endurance	Buff	True	perc	60000	0	1	変化の術 I	209045	秘術の封杖（変化の術）	相手の姿に変身した状態です。	icon_skills.c12_transform	icon_skills.c12_transform	True
 10154200	ReloadingSkill	Buff	True	abs	100	0	3027	初期化：流星乱舞			流星乱舞のクールタイムが初期化されます。	icon_skills.slidingslash_tex	icon_skills.slidingslash_tex	False
 10154301	CastSpeed	Buff	True	perc	10000	0	1.5	流星乱舞 2発目			このツールチップは表示されません。	icon_skills.througharrow_tex	icon_skills.througharrow_tex	False
 10154350	ReloadingSkill	Buff	True	seta	5000	0	93021	流星乱舞 累積			2重複時、3発目を発動できる	icon_skills.comboattack_tex	icon_skills.comboattack_tex	False
