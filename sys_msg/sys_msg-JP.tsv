@@ -531,6 +531,7 @@
 203	SMT_CANT_USE_PLAYGUIDE	該当メニューは現在使用できません。
 203	SMT_CANT_USE_SKILL_IN_TROUBLED_REGION	連盟紛争エリアでは使用できないスキルです。
 203	SMT_CANT_USE_SKILL_LIMIT_LEVEL	レベルが低いため、このスキルを使用できません。
+203	SMT_CANT_USE_SKILL_LIMITED	スキル使用が制限されています。
 203	SMT_CANT_USE_STYLESHOP	該当メニューは現在使用できません。
 203	SMT_CANT_VM_TRADE_ENCHANT_EQUIPMENT	魔法が刻印された装備はホムンクルスに登録できません。
 203	SMT_CANT_VOTE_FREE_SERVICE	このアカウントランクでは、投票できません。
@@ -800,6 +801,8 @@
 203	SMT_DUNGEON_CANT_RESET	ダンジョンにメンバーが残っているため初期化できません。
 201	SMT_DUNGEON_RESET	全てのダンジョンが初期化されました。
 201	SMT_DUNGEON_RESET_ALL_HISTORY	ダンジョンのクールタイムまたは入場回数が初期化されました。
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT	全てのインスタンスダンジョンの入場回数が回復しました。
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT_ALL_HISTORY	対象のインスタンスダンジョン入場回数が回復しました。
 201	SMT_ELECTION_VOTE_COMPLETED	投票を完了しました。
 201	SMT_ELECT_CONSUL	連盟執政官に選出されました。
 201	SMT_ENABLE_LIMITED_LOOT_ON_BATTLE_STATE	［戦闘中はアイテム獲得不可］に変更されました。
@@ -995,7 +998,7 @@
 201	SMT_GM_YOUR_KICK_OUT_FROM_GAME	GMによりワールドから強制追放されました。
 201	SMT_GM_YOUR_TELEPORT_TO_GM	【GM】{UserName}に召喚されました。{sec}秒後に召喚されます。
 201	SMT_GOLD_BOOST_ABNORMALITY	（{AbnormalName}適用）
-201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	{DungeonName}のクールタイム、または入場回数制限が適用されました
+201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	{DungeonName}が開始されました
 201	SMT_GROUP_DUEL_ACE_ITEM_BATTING	{UserName}が{ItemName}を{ItemAmount}個賭けました。
 201	SMT_GROUP_DUEL_CANCEL_ACE	代表指定が解除されました。
 203	SMT_GROUP_DUEL_CANNOT_EXIT_IS_READY	決闘準備中はグループ決闘から退場できません。
@@ -2304,5 +2307,13 @@
 201	SMT_FISHING_REWARD	{UserName}様が{ItemName}を{ItemCount}個獲得しました
 203	SMT_DELIVERY_INFOR_RESET	日付変更に伴い、納品画面が更新されました。
 202	SMT_GOLDENBELL_MESSAGE	{UserName}様がすべての守護者に幸せを呼び寄せました。
-203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	特性が活性化されません。
+202	SMT_FIELDBOSS_APPEAR	{RegionName}に<font color = '#ff3300'>{npcname}</font>が出現しました。
+201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{guildName}</font>ギルドの<font color = '#f6f493'>{userName}</font>様が<font color = '#ff3300'>{npcname}</font>を討伐しました。
+201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font>様が<font color = '#ff3300'>{npcname}</font>を討伐しました。
+203	SMT_SKILL_FAIL_ON_CHANGE	地域移動中はスキルを使用できません。
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	戦闘中にはスキルオプションを変更できません。
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	効果中、スキルオプションを変更できません。
+201	SMT_GAIN_SKILL_POLISHING_EXP	練武経験値を {gainExp}獲得しました。
+201	SMT_GAIN_SKILL_POLISHING_POINT	練武ポイントが上昇しました。
 201	SMT_CANT_SAVE_SCREENSHOT	スクリーンショット保存に失敗しました。
+203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	マッチングしたダンジョンがクリアされたので、現在は追加マッチング機能を使用できません。
