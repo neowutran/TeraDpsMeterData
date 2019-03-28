@@ -531,6 +531,7 @@
 203	SMT_CANT_USE_PLAYGUIDE	Menu cannot be used at the moment.
 203	SMT_CANT_USE_SKILL_IN_TROUBLED_REGION	You can't use this skill in an alliance territory.
 203	SMT_CANT_USE_SKILL_LIMIT_LEVEL	Your level is too low to use that skill.
+203	SMT_CANT_USE_SKILL_LIMITED	Skill usage has been restricted.
 203	SMT_CANT_USE_STYLESHOP	You can't do that right now.
 203	SMT_CANT_VM_TRADE_ENCHANT_EQUIPMENT	Etched items cannot be stored with your pet.
 203	SMT_CANT_VOTE_FREE_SERVICE	You can't vote with this account type.
@@ -800,6 +801,8 @@
 203	SMT_DUNGEON_CANT_RESET	You can't reset an instance while a {party} member is inside.
 201	SMT_DUNGEON_RESET	All instances have been reset.
 201	SMT_DUNGEON_RESET_ALL_HISTORY	Daily entry counts have been reset for listed instance dungeons.
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT	Instance entries for all dungeons have been recovered.
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT_ALL_HISTORY	Instance entry has been recovered.
 201	SMT_ELECTION_VOTE_COMPLETED	Voting successful.
 201	SMT_ELECT_CONSUL	You have been elected as exarch.
 201	SMT_ENABLE_LIMITED_LOOT_ON_BATTLE_STATE	Looting during combat disabled.
@@ -995,7 +998,7 @@
 201	SMT_GM_YOUR_KICK_OUT_FROM_GAME	Suspended by the GM.
 201	SMT_GM_YOUR_TELEPORT_TO_GM	{UserName} is summoning you. Teleporting in {sec} second{@select:{sec}/s//s}.
 201	SMT_GOLD_BOOST_ABNORMALITY	( {AbnormalName} applied.)
-201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	{DungeonName} engaged. Cooldown times or entry limits apply.
+201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	{DungeonName} engaged. Adventure Coin, cooldown times, or entry limits apply.
 201	SMT_GROUP_DUEL_ACE_ITEM_BATTING	{UserName} wagered {ItemName} x {ItemAmount}.
 201	SMT_GROUP_DUEL_CANCEL_ACE	You are no longer leader.
 203	SMT_GROUP_DUEL_CANNOT_EXIT_IS_READY	You can't leave the deathmatch at this time.
@@ -2214,14 +2217,14 @@
 201	SMT_DUALOPTION_CHANGE_SUCCESS	Successfully switched effect sets for {ItemName}.
 201	SMT_DUALOPTION_OPEN_CANT	A second effect set is not available for {ItemName}.
 201	SMT_DUALOPTION_OPEN_CANT_ENCHANT	A second set of enchantment effects is available to items with +{ItemEnchant} enchantment or higher.
-203	SMT_DUALOPTION_OPEN_FAIL	Cannot activate a second enchantment effects set due to lack of materials.
-203	SMT_DUALOPTION_OPEN_FAIL_FIGHT	Cannot activate a second enchantment effects set during combat.
+203	SMT_DUALOPTION_OPEN_FAIL	Cannot activate a second enchantment effect set due to lack of materials.
+203	SMT_DUALOPTION_OPEN_FAIL_FIGHT	Cannot activate a second enchantment effect set during combat.
 203	SMT_DUALOPTION_OPEN_FAIL_ANY	Failed to activate a second effect set.
 203	SMT_DUALOPTION_OPEN_FAIL_PROGRESS	Activation failed.
-203	SMT_DUALOPTION_CHANGE_FAIL_PROGRESS	Failed to switch effects sets.
-203	SMT_DUALOPTION_CHANGE_FAIL	Failed to change effects sets.
-203	SMT_DUALOPTION_CHANGE_FAIL_FIGHT	Cannot switch effects sets during combat.
-203	SMT_DUALOPTION_STRING_BEFORE	Effect Set Activation: Shift + R-Click on an item
+203	SMT_DUALOPTION_CHANGE_FAIL_PROGRESS	Failed to switch effect sets.
+203	SMT_DUALOPTION_CHANGE_FAIL	Failed to change effect sets.
+203	SMT_DUALOPTION_CHANGE_FAIL_FIGHT	Cannot switch effect sets during combat.
+203	SMT_DUALOPTION_STRING_BEFORE	Active a second effect set: [Shift + R-Click]
 203	SMT_DUALOPTION_STRING_AFTER	Switch Effect Set: [Shift + R-Click]&#xA;View other set: [Ctrl]
 203	SMT_HUDDLEADDING_USER	{Username} can’t trade items or gold.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	Target is too close. Cannot use skill.
@@ -2304,5 +2307,13 @@
 201	SMT_FISHING_REWARD	{UserName} has fished {ItemCount} {ItemName}.
 203	SMT_DELIVERY_INFOR_RESET	Delivery list has been refreshed due to detail adjustment. 
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/>{UserName} gave you a Server Buff! <font color = '#f7ff7a'>{AbnormalityName}</font>
-203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	EP is not activated.
+202	SMT_FIELDBOSS_APPEAR	<font color = '#ff3300'>{npcname}</font>, {RegionName} has spawned.
+201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{userName}</font> from <font color = '#f6f493'>{guildName}</font> killed <font color = '#ff3300'>{npcname}</font>.
+201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font> killed <font color = '#ff3300'>{npcname}</font>.
+203	SMT_SKILL_FAIL_ON_CHANGE	Cannot use skills when changing regions.
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	Cannot change options during combat.
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Cannot change options while effect is active.
+201	SMT_GAIN_SKILL_POLISHING_EXP	You've gained {gainExp} Skill Advancement XP.
+201	SMT_GAIN_SKILL_POLISHING_POINT	You've obtained Skill Advancement Points.
 201	SMT_CANT_SAVE_SCREENSHOT	Failed to save a screenshot.
+203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	You have cleared the matched dungeon. You can't use the matching function due to your status.
