@@ -531,6 +531,7 @@
 203	SMT_CANT_USE_PLAYGUIDE	Das Menü kann momentan nicht benutzt werden.
 203	SMT_CANT_USE_SKILL_IN_TROUBLED_REGION	Ihr könnt diese Fertigkeit auf Allianzterritorium nicht anwenden.
 203	SMT_CANT_USE_SKILL_LIMIT_LEVEL	Die Charakterstufe für die Benutzung der Fertigkeit ist noch nicht erreicht.
+203	SMT_CANT_USE_SKILL_LIMITED	Hier ist die Nutzung von Fertigkeiten nur begrenzt möglich.
 203	SMT_CANT_USE_STYLESHOP	Ihr könnt dies momentan nicht tun.
 203	SMT_CANT_VM_TRADE_ENCHANT_EQUIPMENT	Gravierte Gegenstände können nicht bei Eurem Begleiter gelagert werden.
 203	SMT_CANT_VOTE_FREE_SERVICE	Mit diesem Kontotyp könnt Ihr nicht abstimmen.
@@ -800,6 +801,8 @@
 203	SMT_DUNGEON_CANT_RESET	Während sich ein {Party}nmitglied in einer Instanz befindet, könnt Ihr sie nicht zurücksetzen.
 201	SMT_DUNGEON_RESET	Alle Instanzen wurden zurückgesetzt.
 201	SMT_DUNGEON_RESET_ALL_HISTORY	Die Abklingzeit für alle Dungeoninstanzen wurde zurückgesetzt.
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT	Die Eintrittsanzahl für alle Instanzen wurde zurückgesetzt.
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT_ALL_HISTORY	Die Eintrittsanzahl für diese Instanz wurde zurückgesetzt.
 201	SMT_ELECTION_VOTE_COMPLETED	Erfolgreich abgestimmt.
 201	SMT_ELECT_CONSUL	Ihr wurdet gewählt und seid nun Exarch.
 201	SMT_ENABLE_LIMITED_LOOT_ON_BATTLE_STATE	Beuteverteilung im Kampf deaktiviert
@@ -995,7 +998,7 @@
 201	SMT_GM_YOUR_KICK_OUT_FROM_GAME	Durch einen GM gesperrt.
 201	SMT_GM_YOUR_TELEPORT_TO_GM	{UserName} beschwört Euch. Ihr werdet in {sec} Sek. teleportiert.
 201	SMT_GOLD_BOOST_ABNORMALITY	("{AbnormalName}" wirkt.)
-201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	Dungeon {DungeonName} ist bereits aktiv. Abklingzeiten und Zutrittsbeschränkungen müssen beachtet werden.
+201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	Für den Dungeon {DungeonName} wurden alle Eintrittsbeschränkungen angewandt.
 201	SMT_GROUP_DUEL_ACE_ITEM_BATTING	{UserName} hat {ItemAmount} x "{ItemName}" als Wetteinsatz geboten.
 201	SMT_GROUP_DUEL_CANCEL_ACE	Ihr seid kein Anführer mehr.
 203	SMT_GROUP_DUEL_CANNOT_EXIT_IS_READY	Ihr könnt jetzt das Deathmatch nicht verlassen.
@@ -2301,8 +2304,16 @@
 201	SMT_FISHING_RESULT_FAIL	Angeln ist fehlgeschlagen.
 201	SMT_FISHING_RESULT_CANCLE	Ihr habt das Angeln abgebrochen.
 201	SMT_FISHING_MINIGAME_HOWTO	Zieht den Fisch mit der Taste {ActionKey} in das sichere Angelgebiet.
-201	SMT_FISHING_REWARD	{UserName} hat {ItemName} verwendet und {ItemCount} erhalten.
+201	SMT_FISHING_REWARD	{UserName} hat {ItemCount}x {ItemName} erhalten.
 203	SMT_DELIVERY_INFOR_RESET	Das Liefer-Fenster wurde neu geladen.
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} hat die Goldglocke geläutet. <font color = '#f7ff7a'>{AbnormalityName}</font>
-203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	EL wurde nicht aktiviert.
+202	SMT_FIELDBOSS_APPEAR	<font color = '#ff3300'>{npcname}</font> ist in {RegionName} erschienen.
+201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{userName}</font> der Gilde <font color = '#f6f493'>{guildName}</font> hat <font color = '#ff3300'>{npcname}</font> erledigt.
+201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font> hat <font color = '#ff3300'>{npcname}</font> erledigt.
+203	SMT_SKILL_FAIL_ON_CHANGE	Ihr könnt während des Teleportierens keine Fertigkeiten verwenden.
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	Während des Kampfes könnt Ihr keine Fertigkeitsoptionen ändern.
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Solange die Fertigkeit aktiv ist, können keine Fertigkeitsoptionen geändert werden.
+201	SMT_GAIN_SKILL_POLISHING_EXP	Ihr habt {gainExp} Fertigkeitsfinesse-EP erhalten.
+201	SMT_GAIN_SKILL_POLISHING_POINT	Eure Fertigkeitsfinesse-EP sind angestiegen.
 201	SMT_CANT_SAVE_SCREENSHOT	Der Screenshot wurde nicht gespeichert.
+203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	Ihr könnt im Moment keine Gruppensuche für diesen Dungeon starten.

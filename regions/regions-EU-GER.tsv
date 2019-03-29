@@ -49,6 +49,10 @@
 506	Velika-Banketthalle
 507	Mystels Pfad
 508	Innenwelt
+510	Subquest: Der Albtraum beginnt
+612	Exodor-Forschungsgruppe
+613	Kristall-Exceptioquartier
+614	Valkyon-Zivilberater
 833	Würmlingsklamm
 1001	Ruinenmark
 1023	Jagdgebiet für Fertigkeiten/Events
@@ -79,6 +83,9 @@
 3009	Höhle des düsteren Widerhalls
 3010	Tal der Bestien
 3011	Vorhutposten
+3017	Antaros-Abgrund (schwierig, 7 Personen)
+3018	Tenebrisfestung (schwierig, 7 Personen)
+3019	Lians Untergrundhalle (schwierig, 7 Personen)
 4001	Fyrkuppe
 4002	Schwefelhochland
 4003	Flammental
@@ -178,6 +185,7 @@
 9508	Innenwelt
 9509	Friedliche Velika-Banketthalle
 9618	Event-Arena (Velika)
+9681	Veliks Traum
 9710	Lakans Gefängnis (schwierig)
 9720	Antaros-Abgrund
 9735	RK-9 Hangar
@@ -469,6 +477,10 @@
 27006	Castra Mysterium
 27007	Befreiungslager
 27008	Farm der Zuflucht
+27009	Verteidigungsposten 1
+27010	Verteidigungsposten 2
+27011	Verteidigungsposten 3
+27012	Verteidigungsposten 4
 28001	Schandholz
 28002	Shakans Rache
 28003	Herathpfad
@@ -502,6 +514,7 @@
 30019	Eingang zu Balders Tempel
 30020	Eingang zum Leuchtturm der Sonne
 30021	Baum der Weisheit
+30022	Magiestein-Installationsort
 31000	Lakans Gefängnis
 31001	Sturmebene
 31002	Eisige Ödnis
@@ -586,6 +599,7 @@
 38009	Wyvernwachposten
 38010	Zugang zur Krypta des Untergangs
 38011	Stachelschwanzstrom
+38012	Quarantänestation
 39001	Arachnaea
 39002	Arachnaea - Haupthöhle
 39003	Das Nest
@@ -908,7 +922,7 @@
 84013	Flugplattform von Kaiator
 84014	Schmiedeherz
 84015	Festungseingang
-84016	Halle der Macht
+84016	Magieakademie
 84017	Kaiator-Hauptquartier
 84018	Kriegernoviziat
 84019	Handelszentrum
@@ -945,56 +959,57 @@
 90013	59–60
 90014	59–60
 90015	60-65
+90016	65
 97201	Eingang zum Antaros-Abgrund
-99000	1–11
-99001	10–15
-99002	11–20
-99003	16–20
-99004	19–23
-99005	21–25
-99006	23–25
-99007	24–29
-99008	24–29
-99009	27–30
-99010	28–31
-99011	30–33
-99012	31–32
-99013	32–33
-99014	33–36
-99015	35–38
-99016	35–38
-99017	38–41
-99018	38–41
-99019	38–42
-99020	38–43
-99021	40–45
-99022	41–43
-99023	41–45
-99024	44–46
-99025	45–46
-99026	47–51
-99027	47–51
-99028	47–51
-99029	50–53
-99030	50–53
-99031	50–54
-99032	53–56
-99033	53–57
-99034	53–58
-99035	56–59
-99036	56–59
-99037	56–60
-99038	58–59
-99039	58–59
-99040	59–60
-99041	59–60
-99042	59–60
-99043	59–60
-99044	60-61
-99045	61-62
-99046	62-63
-99047	63-65
-99048	65
+99000	Tiarania<br>1-11
+99001	Westliches Holzfällerlager<br>10-15
+99002	Wälder der Vergessenheit<br>11-20
+99003	Tal der Titanen<br>16-20
+99004	Tuwangimorast<br>19-23
+99005	Himmelshügel<br>21-25 (68)
+99006	Klippen des Wahnsinns<br>23-25
+99007	Reißertal<br>24-29
+99008	Paraanonschlucht<br>24-29
+99009	Basiliskenhang<br>27-30
+99010	Freilande<br>28-31
+99011	Nebelmoorinsel<br>30-33
+99012	<br>31–32
+99013	Zerklüftete Küste<br>32-33
+99014	See der Tränen<br>33-36
+99015	Kolossale Ruinen<br>35-38
+99016	Aurumpfad<br>35-38
+99017	Schandholz<br>38-41
+99018	Heiliges Becken<br>38-41 (65)
+99019	Zeitlose Wälder<br>38-42 (65)
+99020	Essenischer Kamm<br>38-43 (66)
+99021	Berg Tyrannas<br>40-45
+99022	Sturmebene<br>41-43
+99023	Frostweiten<br>41-45
+99024	Quarantänezone<br>44-46
+99025	Wildes Tal<br>45-46
+99026	47-51<br><br>Geschwungenes Tal<br><br>31-32
+99027	Schlangeninsel<br>47-51
+99028	Fyrkuppe<br>47-51
+99029	Finsterwald<br>50-53
+99030	Susurrus Hain<br>50-53
+99031	Amena Quatla<br>50-54
+99032	Siennaschlucht<br>53-56 (67, 69)
+99033	Tor Exsul<br>53-57
+99034	Würmlingsklamm<br>53-58
+99035	Feendickicht<br>56-59
+99036	Tal der Spitzen<br>56-59
+99037	Ebene der Verdammten<br>56-60
+99038	Knechtfeste<br>58-59
+99039	Unterholz von Tirkai<br>58-59
+99040	Granarkus<br>59-60
+99041	Argonea<br>59-60
+99042	Khanovarfront<br>59-60
+99043	Balders Zuflucht<br>59-60 (67)
+99044	Wildlande<br>60-61
+99045	Tal des Frühlings<br>61-62
+99046	Ex Prima<br>62-63 (68)
+99047	Arx Umbra<br>63-65
+99048	Insel der Dämmerung<br>65
 99999	Unerforscht
 102001	Winteraschneefeld
 103001	Winteraschneefeld
@@ -1106,6 +1121,7 @@
 182016	Eingang zur Sabexwaffenkammer
 182017	Smaragdhügel
 182018	Eingang zur Sabexwaffenkammer
+182019	Valkyon-Feldlager
 182030	Teleportplattform des Amadjuakhandelspostens
 182100	Teleportplattform der westlichen Quellen
 182101	Teleportplattform der östlichen Quellen
@@ -1263,6 +1279,24 @@
 998030	Verzerrter Ort
 998031	Eingestürztes Velika-Untergrundtor
 1810041	Eingang zu den Untiefen von Bathysmal
+3001001	Geheime Basis (Einzelspieler)
+3002001	Anwesen der Arglist (Einzelspieler)
+3003001	Zuflucht der Kultisten (Einzelspieler)
+3017000	Antaros-Abgrund (schwierig, 7 Personen) - Ausgangspunkt
+3017001	Antaros-Abgrund (schwierig, 7 Personen) - Sperrgebiet
+3017002	Antaros-Abgrund (schwierig, 7 Personen) - Exekutionsplatz
+3017003	Antaros-Abgrund (schwierig, 7 Personen) - Raum der Prüfung
+3017004	Umland von Velika
+3017005	Umland von Velika
+3018000	Eingang zur Tenebrisfestung (schwierig)
+3018001	Hauptplatz
+3018002	Hauptbibliothek
+3018003	Festungsdach
+3019000	Eingang zu Lians Untergrundhalle
+3019001	Nedras Zuflucht
+3019002	Hinrichtungsplatz
+3019003	Verzerrter Raum
+3019004	Eingang zum Verzerrten Raum
 5051101	Elenea
 5051201	Unbekannter Raum
 5051202	Unbekannter Raum
@@ -1636,6 +1670,13 @@
 9643101	Wunderholm
 9643111	Wunderholm
 9643121	Wunderholm
+9681001	Veliks Traum
+9681002	Veliks Traum
+9681003	Göttin Veliks Traum (schwierig)
+9681004	Veliks Traum
+9681005	Veliks Traum
+9681006	Velika-Untergrundtor
+9681007	Veliks Traum
 9710001	Lakans Gefängnis (schwierig)
 9710002	Finsterer Sammelplatz
 9710003	Zerrfeld

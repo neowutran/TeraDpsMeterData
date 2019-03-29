@@ -49,6 +49,10 @@
 506	Salle de banquet de Velika
 507	Sentier de Mystel
 508	Monde intérieur
+510	Quête annexe : Le cauchemar commence
+612	Groupe de recherche d'Exodor
+613	Cantonnement d'Exceptio de cristal
+614	Conseiller civil de Valkyon
 833	Gorge du Wyrm
 1001	Région des Ruines
 1023	Terrain de chasse pour compétences/évènements
@@ -79,6 +83,9 @@
 3009	Caverne des Echos lugubres
 3010	Vallée de la Bête
 3011	Poste de l'Avant-garde
+3017	Abîme d'Antaros (difficile, 7 personnes)
+3018	Forteresse de Ténébris (difficile, 7 personnes)
+3019	Hall souterrain de Lian (difficile, 7 personnes)
 4001	Montagne Fyr
 4002	Hautes terres sulfureuses
 4003	Val embrasé
@@ -178,6 +185,7 @@
 9508	Monde intérieur
 9509	Salle de banquet paisible de Velika
 9618	Arène d'évènement (Velika)
+9681	Rêve de Velik
 9710	Prison de Lakan (difficile)
 9720	Abîme d'Antaros
 9735	Hangar du RK-9
@@ -469,6 +477,10 @@
 27006	Castra Mysterium
 27007	Station de la Libération
 27008	Ferme du Refuge
+27009	Poste de défense 1
+27010	Poste de défense 2
+27011	Poste de défense 3
+27012	Poste de défense 4
 28001	Bois malade
 28002	Talion de Shakan
 28003	Sentier Herath
@@ -502,6 +514,7 @@
 30019	Entrée du Temple de Balder
 30020	Entrée du Phare du Soleil
 30021	Arbre de la Sagesse
+30022	Emplacement pour la pierre magique
 31000	Prison de Lakan
 31001	Plaine des Tempêtes
 31002	Étendues de glace
@@ -586,6 +599,7 @@
 38009	Guet de la Vouivre
 38010	Accès à la Crypte maudite
 38011	Coulée de Pointequeue
+38012	Station de quarantaine
 39001	Arachnaea
 39002	Réseau arachnéen
 39003	La tanière
@@ -908,7 +922,7 @@
 84013	Plateforme de vol de Kaiator
 84014	Cœur de la Forge
 84015	Entrée du Fortin
-84016	Hall du Pouvoir
+84016	Académie de magie
 84017	Quartier général de Kaiator
 84018	Noviciat guerrier
 84019	Emporium
@@ -945,56 +959,57 @@
 90013	59–60
 90014	59–60
 90015	60-65
+90016	65
 97201	Entrée de l'Abîme d'Antaros
-99000	1–11
-99001	10–15
-99002	11–20
-99003	16–20
-99004	19–23
-99005	21–25
-99006	23–25
-99007	24–29
-99008	24–29
-99009	27–30
-99010	28–31
-99011	30–33
-99012	31–32
-99013	32–33
-99014	33–36
-99015	35–38
-99016	35–38
-99017	38–41
-99018	38–41
-99019	38–42
-99020	38–43
-99021	40–45
-99022	41–43
-99023	41–45
-99024	44–46
-99025	45–46
-99026	47–51
-99027	47–51
-99028	47–51
-99029	50–53
-99030	50–53
-99031	50–54
-99032	53–56
-99033	53–57
-99034	53–58
-99035	56–59
-99036	56–59
-99037	56–60
-99038	58–59
-99039	58–59
-99040	59–60
-99041	59–60
-99042	59–60
-99043	59–60
-99044	60-61
-99045	61-62
-99046	62-63
-99047	63-65
-99048	65
+99000	Tiarania<br>De 1 à 11
+99001	Palissade du bûcheron ouest<br>De 10 à 15
+99002	Bois de l'oubli<br>De 11 à 20
+99003	Vallée des titans<br>De 16 à 20
+99004	Marais tuwangi<br>De 19 à 23
+99005	Collines célestes<br>De 21 à 25 (68)
+99006	Falaises de la folie<br>De 23 à 25
+99007	Val du croc<br>De 24 à 29
+99008	Ravin de Paraanon<br>De 24 à 29
+99009	Roc du basilic<br>De 27 à 30
+99010	Terres libres<br>De 28 à 31
+99011	Île des brumes<br>De 30 à 33
+99012	<br>De 31 à 32
+99013	Côte déchiquetée<br>De 32 à 33
+99014	Lac des larmes<br>De 33 à 36
+99015	Ruines colossales<br>De 35 à 38
+99016	Route d'Aurum<br>De 35 à 38
+99017	Bois malade<br>De 38 à 41
+99018	Bassin béni<br>De 38 à 41 (65)
+99019	Bois intemporels<br>De 38 à 42 (65)
+99020	Crête essénianne<br>De 38 à 43 (66)
+99021	Mont Tyrannas<br>De 40 à 45
+99022	Plaine des Tempêtes<br>De 41 à 43
+99023	Plaine gelée<br>De 41 à 45
+99024	Zone de quarantaine<br>De 44 à 46
+99025	Vallée sauvage<br>De 45 à 46
+99026	De 47 à 51<br><br>Vallée de l'ascension<br><br>De 31 à 32
+99027	Île Serpentis<br>De 47 à 51
+99028	Montagne Fyr<br>De 47 à 51
+99029	Bois obscur<br>De 50 à 53
+99030	Bois Sussurus<br>De 50 à 53
+99031	Amena Quatla<br>De 50 à 54
+99032	Gorges de Sienna<br>De 53 à 56 (67, 69)
+99033	Tor Exsul<br>De 53 à 57
+99034	Gorge du Wyrm<br>De 53 à 58
+99035	Taillis de Morteseaux<br>De 56 à 59
+99036	Vallée des aiguilles<br>De 56 à 59
+99037	Plaine des damnés<br>De 56 à 60
+99038	Forteresse de la servitude<br>De 58 à 59
+99039	Forêt de Tirkai<br>De 58 à 59
+99040	Granarkus<br>De 59 à 60
+99041	Argonea<br>De 59 à 60
+99042	Front de Khanovar<br>De 59 à 60
+99043	Refuge de Balder<br>De 59 à 60 (67)
+99044	Plaine barbare<br>De 60 à 61
+99045	Vallée printanière<br>De 61 à 62
+99046	Ex Prima<br>De 62 à 63 (68)
+99047	Arx Umbra<br>De 63 à 65
+99048	Île de l'aube<br>65
 99999	Inexploré
 102001	Champ de Neige d'Hivera
 103001	Champ de neige d'Hivera
@@ -1106,6 +1121,7 @@
 182016	Entrée de l'Armurerie Sabex
 182017	Collines d'émeraude
 182018	Entrée de l'Armurerie Sabex
+182019	Base avancée de Valkyon
 182030	Plate-forme de téléportation du poste de commerce d'Amadjuak
 182100	Plate-forme de téléportation des sources de l'ouest
 182101	Plate-forme de téléportation des sources de l'est
@@ -1263,6 +1279,24 @@
 998030	Lieu dénaturé
 998031	Porte souterraine effondrée de Velika
 1810041	Entrée de l'Ascension batyhssale
+3001001	Base secrète (solo)
+3002001	Manoir sinistre (solo)
+3003001	Refuge des cultistes (solo)
+3017000	Abîme d'Antaros (difficile, 7 personnes) : point de départ
+3017001	Abîme d'Antaros (difficile, 7 personnes) : zone interdite
+3017002	Abîme d'Antaros (difficile, 7 personnes) : place des châtiments
+3017003	Abîme d'Antaros (difficile, 7 personnes) : salle de l'épreuve
+3017004	Environs de Velika
+3017005	Environs de Velika
+3018000	Entrée de la Forteresse de Ténébris (difficile)
+3018001	Place centrale
+3018002	Bibliothèque centrale
+3018003	Toit de la forteresse
+3019000	Entrée du Hall souterrain de Lian
+3019001	Sanctuaire de Nedra
+3019002	Place des exécutions
+3019003	Salle dénaturée
+3019004	Entrée de la salle dénaturée
 5051101	Élénea
 5051201	Salle inconnue
 5051202	Salle inconnue
@@ -1636,6 +1670,13 @@
 9643101	Wonderholme
 9643111	Wonderholme
 9643121	Wonderholme
+9681001	Rêve de Velik
+9681002	Rêve de Velik
+9681003	Rêve de la déesse Velik (difficile)
+9681004	Rêve de Velik
+9681005	Rêve de Velik
+9681006	Porte souterraine de Velika
+9681007	Rêve de Velik
 9710001	Prison de Lakan (difficile)
 9710002	Point de ralliement macabre
 9710003	Champ distordant

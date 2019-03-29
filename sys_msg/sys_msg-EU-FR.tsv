@@ -531,6 +531,7 @@
 203	SMT_CANT_USE_PLAYGUIDE	Impossible d'utiliser le menu pour le moment.
 203	SMT_CANT_USE_SKILL_IN_TROUBLED_REGION	Vous ne pouvez pas utiliser cette compétence dans le territoire d'une alliance.
 203	SMT_CANT_USE_SKILL_LIMIT_LEVEL	Votre niveau est trop bas pour pouvoir utiliser cette compétence.
+203	SMT_CANT_USE_SKILL_LIMITED	L'utilisation des compétences est restreinte à cet endroit.
 203	SMT_CANT_USE_STYLESHOP	Cette action est impossible pour l'instant.
 203	SMT_CANT_VM_TRADE_ENCHANT_EQUIPMENT	Vous ne pouvez pas déposer d'objet avec eau-forte dans l'inventaire de votre familier.
 203	SMT_CANT_VOTE_FREE_SERVICE	Vous ne pouvez pas voter avec ce type de compte.
@@ -800,6 +801,8 @@
 203	SMT_DUNGEON_CANT_RESET	Vous ne pouvez pas réinitialiser une instance tant qu'un des membres du {party} est à l'intérieur.
 201	SMT_DUNGEON_RESET	Toutes les instances ont été réinitialisées.
 201	SMT_DUNGEON_RESET_ALL_HISTORY	Réinitialisation du temps d'attente de tous les donjons instanciés.
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT	Le nombre d'accès à toutes les instances est réinitialisé.
+201	SMT_DUNGEON_RECOVERENTERLIMITCOUNT_ALL_HISTORY	Le nombre d'accès à cette instance est réinitialisé.
 201	SMT_ELECTION_VOTE_COMPLETED	Vote réussi.
 201	SMT_ELECT_CONSUL	Vous avez été élu Exarque.
 201	SMT_ENABLE_LIMITED_LOOT_ON_BATTLE_STATE	L'obtention de butin en combat est désactivée.
@@ -995,7 +998,7 @@
 201	SMT_GM_YOUR_KICK_OUT_FROM_GAME	Suspendu par le MJ.
 201	SMT_GM_YOUR_TELEPORT_TO_GM	{UserName} vous invoque. Téléportation dans {sec} seconde{@select:{sec}///s}.
 201	SMT_GOLD_BOOST_ABNORMALITY	( {AbnormalName} appliqué)
-201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	{DungeonName} en cours. Les temps de rechargement ou les limites d'entrée sont en place.
+201	SMT_GRANT_DUNGEON_COOLTIME_AND_COUNT	Toutes les restrictions d'accès s'appliquent au donjon {DungeonName}.
 201	SMT_GROUP_DUEL_ACE_ITEM_BATTING	{UserName} a misé {ItemName} x {ItemAmount}.
 201	SMT_GROUP_DUEL_CANCEL_ACE	Vous n'êtes plus le chef.
 203	SMT_GROUP_DUEL_CANNOT_EXIT_IS_READY	Vous ne pouvez pas quitter le match à mort maintenant.
@@ -2301,8 +2304,16 @@
 201	SMT_FISHING_RESULT_FAIL	La pêche a échoué.
 201	SMT_FISHING_RESULT_CANCLE	Vous avez interrompu votre partie de pêche.
 201	SMT_FISHING_MINIGAME_HOWTO	Tirez le poisson dans la zone de pêche sûre en appuyant sur la touche {ActionKey}.
-201	SMT_FISHING_REWARD	{UserName} a utilisé {ItemName} et obtenu {ItemCount}.
+201	SMT_FISHING_REWARD	{UserName} a obtenu {ItemCount}x {ItemName}.
 203	SMT_DELIVERY_INFOR_RESET	La fenêtre de livraison a été actualisée.
 202	SMT_GOLDENBELL_MESSAGE	<img src='img://__Icon_Equipments.Acc_325_Tex' width='40' height='40' vspace='-15'/> {UserName} a fait tinter la cloche dorée. <font color = '#f7ff7a'>{AbnormalityName}</font>
-203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	La PE n'est pas activée.
+202	SMT_FIELDBOSS_APPEAR	<font color = '#ff3300'>{npcname}</font> a fait son apparition dans la zone {RegionName}.
+201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{userName} </font> de la guilde <font color = '#f6f493'>{guildName}</font> a éliminé <font color = '#ff3300'>{npcname}</font>.
+201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font> a éliminé <font color = '#ff3300'>{npcname}</font>.
+203	SMT_SKILL_FAIL_ON_CHANGE	Vous ne pouvez pas utiliser de compétences pendant la téléportation.
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	Vous ne pouvez pas modifier les options de compétence en plein combat.
+203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Vous ne pouvez pas modifier les options de compétence pendant que la compétence est activée.
+201	SMT_GAIN_SKILL_POLISHING_EXP	Vous avez obtenu {gainExp} PEX de finesse de compétence.
+201	SMT_GAIN_SKILL_POLISHING_POINT	Vos PEX de finesse de compétence ont augmenté.
 201	SMT_CANT_SAVE_SCREENSHOT	La capture d'écran n'a pas été enregistrée.
+203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	Pour le moment, vous ne pouvez pas lancer de recherche de groupe pour ce donjon.
