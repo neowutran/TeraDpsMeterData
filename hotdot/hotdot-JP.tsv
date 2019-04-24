@@ -864,8 +864,8 @@
 6022	DelayedEffect	Buff	True	seta	1700	0	6024	邪竜の怨念			邪竜が放った怨念が敵を蝕み、クリティカル発生時、400,000の固定ダメージを敵に与えます。一度ダメージを与えると、次の追加ダメージを与えるまで1分間のクールタイムが発生します。	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	False
 6023	Endurance	Buff	True	perc	1800000	0	1	邪竜の憎悪			邪竜が放った憎悪が敵を苛み、クリティカル発生時、320,000の固定ダメージを敵に与えます。一度ダメージを与えると、次の追加ダメージを与えるまで1分間のクールタイムが発生します。	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	True
 6024	Endurance	Buff	True	perc	1800000	0	1	邪竜の怨念			邪竜が放った怨念が敵を蝕み、クリティカル発生時、400,000の固定ダメージを敵に与えます。一度ダメージを与えると、次の追加ダメージを与えるまで1分間のクールタイムが発生します。	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	True
-6025	CritPower1	Buff	True	abs	6000	0	1	火焔の力			モンスターにクリティカル攻撃時、クリティカル威力が$H_W_GOOD+1.5$COLOR_END倍上昇する。	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
-6026	CritPower1	Buff	True	abs	6000	0	2	爆焔の力			モンスターにクリティカル攻撃時、クリティカル威力が$H_W_GOOD+2$COLOR_END倍上昇する。	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
+6025	CritPower1	Buff	True	abs	6000	0	1	火焔の力			モンスターにクリティカル攻撃時、クリティカル威力が$H_W_GOOD1.5$COLOR_END倍増加する。	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
+6026	CritPower1	Buff	True	abs	6000	0	2	爆焔の力			モンスターにクリティカル攻撃時、クリティカル威力が$H_W_GOOD2$COLOR_END倍増加する。	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
 6029	47	Buff	True	perc	1800000	0	1.03	焔獣の加護 I（3%）			焔獣の加護を受け、効果時間中<font color = '#66bbff'>練武経験値</font>獲得量が3%上昇する。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
 6030	47	Buff	True	perc	1800000	0	1.05	焔獣の加護 I（5%）			焔獣の加護を受け、効果時間中<font color = '#66bbff'>練武経験値</font>獲得量が5%上昇する。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
 6031	47	Buff	True	perc	1800000	0	1.07	焔獣の加護 I（7%）			焔獣の加護を受け、効果時間中<font color = '#66bbff'>練武経験値</font>獲得量が7%上昇する。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
@@ -1058,6 +1058,77 @@
 12230	Absorb	Buff	True	swch	10000	0	6903	冷徹な対応 VII[アーティファクト]			バリアが最大$H_W_GOOD6903$COLOR_ENDのダメージを無効化します。最大値を超えると持続時間に関わらず即解除されます。	icon_items.customize8gb_tex	icon_items.customize8gb_tex	True
 12240	Absorb	Buff	True	swch	7000	0	5664	救援の祝福 VII[アーティファクト]			バリアが最大$H_W_GOOD5664$COLOR_ENDのダメージを無効化します。最大値を超えると持続時間に関わらず即解除されます。	icon_items.customize7gb_tex	icon_items.customize7gb_tex	True
 12250	HPChange	Buff	True	abs	10000	2	755	救いの手 VII[アーティファクト]			$H_W_GOOD2s$COLOR_END毎にHPが$H_W_GOOD755$COLOR_END回復します。	icon_items.customize15gb_tex	icon_items.customize15gb_tex	True
+13000	Power	Buff	True	abs	30000	0	3	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD3$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13001	Power	Buff	True	abs	40000	0	4	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD4$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13002	Power	Buff	True	abs	50000	0	5	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD5$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13003	Power	Buff	True	abs	60000	0	6	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD6$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13004	Power	Buff	True	abs	70000	0	7	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD7$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13005	Power	Buff	True	abs	80000	0	8	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD8$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13006	Power	Buff	True	abs	90000	0	9	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD9$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13007	Power	Buff	True	abs	100000	0	10	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD10$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13008	Power	Buff	True	abs	110000	0	11	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD11$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13009	Power	Buff	True	abs	120000	0	12	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD12$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13010	Power	Buff	True	abs	130000	0	13	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD13$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13011	Power	Buff	True	abs	140000	0	14	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD14$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13012	Power	Buff	True	abs	150000	0	15	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD15$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13013	Power	Buff	True	abs	160000	0	16	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD16$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13014	Power	Buff	True	abs	170000	0	17	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD17$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13015	Power	Buff	True	abs	180000	0	18	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD18$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13016	Power	Buff	True	abs	190000	0	19	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD19$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13017	Power	Buff	True	abs	200000	0	20	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD20$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13018	Power	Buff	True	abs	210000	0	21	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD21$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13019	Power	Buff	True	abs	220000	0	22	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD22$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13020	Power	Buff	True	abs	230000	0	23	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD23$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13021	Power	Buff	True	abs	240000	0	24	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD24$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13022	Power	Buff	True	abs	250000	0	25	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD25$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13023	Power	Buff	True	abs	260000	0	26	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD26$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13024	Power	Buff	True	abs	270000	0	27	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD27$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13025	Power	Buff	True	abs	280000	0	28	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD28$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13026	Power	Buff	True	abs	290000	0	29	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD29$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13027	Power	Buff	True	abs	300000	0	30	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD30$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13028	Power	Buff	True	abs	300000	0	31	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD31$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13029	Power	Buff	True	abs	300000	0	32	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD32$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13030	Power	Buff	True	abs	300000	0	33	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD33$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13031	Power	Buff	True	abs	300000	0	34	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD34$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13032	Power	Buff	True	abs	300000	0	35	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD35$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13033	Power	Buff	True	abs	300000	0	36	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD36$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13034	Power	Buff	True	abs	300000	0	37	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD37$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13035	Power	Buff	True	abs	300000	0	38	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD38$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13036	Power	Buff	True	abs	300000	0	39	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD39$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13037	Power	Buff	True	abs	300000	0	40	パートナーの応援			パートナーから応援されて、力が$H_W_GOOD40$COLOR_END上昇します。	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+14000	HPChange	Buff	True	abs	3000	1	20000	緊急回復I			3s 間、毎秒HPを20000回復します。	icon_skills.guildskill2_hpup_1_tex	icon_skills.guildskill2_hpup_1_tex	True
+14001	HPChange	Buff	True	abs	4000	1	25000	緊急回復II			4s 間、毎秒HPを25000回復します。	icon_skills.guildskill2_hpup_1_tex	icon_skills.guildskill2_hpup_1_tex	True
+14002	HPChange	Buff	True	abs	5000	1	30000	緊急回復III			5s 間、毎秒HPを30000回復します。	icon_skills.guildskill2_hpup_1_tex	icon_skills.guildskill2_hpup_1_tex	True
+14003	MPChange	Buff	True	abs	3000	1	500	緊急支援I			3s 間、毎秒MPを500回復します。	icon_skills.guildskill2_mpup_1_tex	icon_skills.guildskill2_mpup_1_tex	True
+14004	MPChange	Buff	True	abs	4000	1	750	緊急支援II			4s 間、毎秒MPを750回復します。	icon_skills.guildskill2_mpup_1_tex	icon_skills.guildskill2_mpup_1_tex	True
+14005	MPChange	Buff	True	abs	5000	1	1000	緊急支援III			5s 間、毎秒MPを1000回復します。	icon_skills.guildskill2_mpup_1_tex	icon_skills.guildskill2_mpup_1_tex	True
+14006	Absorb	Buff	True	swch	9000	0	50000	バリア I			9s 間、ダメージを50000ほど吸収します。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+14007	Absorb	Buff	True	swch	12000	0	80000	バリア II			12s 間、ダメージを80000ほど吸収します。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+14008	Absorb	Buff	True	swch	15000	0	125000	バリア III			15s 間、ダメージを125000ほど吸収します。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+14009	238	Buff	True	abs	600000	0	1.2	友情強化 I			600s 間、パートナーがかけてくれるバフの持続時間が20%増加します。	icon_skills.heart_buff_tex	icon_skills.heart_buff_tex	True
+14010	238	Buff	True	abs	600000	0	1.4	友情強化 II			600s 間、パートナーがかけてくれるバフの持続時間が40%増加します。	icon_skills.heart_buff_tex	icon_skills.heart_buff_tex	True
+14011	238	Buff	True	abs	600000	0	1.6	友情強化 III			600s 間、パートナーがかけてくれるバフの持続時間が60%増加します。	icon_skills.heart_buff_tex	icon_skills.heart_buff_tex	True
+14012	XPBoost	Buff	True	perc	1800000	0	1.05	成長加速 I			1800sの間、狩りによる経験値獲得量が5%上昇します。	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	True
+14013	XPBoost	Buff	True	perc	1800000	0	1.1	成長加速 II			1800sの間、狩りによる経験値獲得量が10%上昇します。	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	True
+14014	XPBoost	Buff	True	perc	1800000	0	1.15	成長加速 III			1800sの間、狩りによる経験値獲得量が15%上昇します。	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	True
+14015	47	Buff	True	perc	1800000	0	1.05	練武加速 I			1800sの間、狩りによる練武経験値獲得量が5%上昇します。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
+14016	47	Buff	True	perc	1800000	0	1.1	練武加速 II			1800sの間、狩りによる練武経験値獲得量が10%上昇します。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
+14017	47	Buff	True	perc	1800000	0	1.15	練武加速 III			1800sの間、狩りによる練武経験値獲得量が15%上昇します。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
+14018	XPBoost	Buff	True	perc	1800000	0	1.025	複合加速 I			1800sの間、狩りによる経験値獲得量と練武経験値獲得量が2.5%上昇します。	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14018	47	Buff	True	perc	1800000	0	1.025	複合加速 I			1800sの間、狩りによる経験値獲得量と練武経験値獲得量が2.5%上昇します。	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14019	XPBoost	Buff	True	perc	1800000	0	1.05	複合加速 II			1800sの間、狩りによる経験値獲得量と練武経験値獲得量が5%上昇します。	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14019	47	Buff	True	perc	1800000	0	1.05	複合加速 II			1800sの間、狩りによる経験値獲得量と練武経験値獲得量が5%上昇します。	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14020	XPBoost	Buff	True	perc	1800000	0	1.075	複合加速 III			1800sの間、狩りによる経験値獲得量と練武経験値獲得量が7.5%上昇します。	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14020	47	Buff	True	perc	1800000	0	1.075	複合加速 III			1800sの間、狩りによる経験値獲得量と練武経験値獲得量が7.5%上昇します。	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14021	296	Buff	True	perc	300000	0	1.1	製作支援I			大成功確率が×$H_W_GOOD10%$COLOR_END上昇します。	icon_skills.produce_icon_01_tex	icon_skills.produce_icon_01_tex	True
+14022	296	Buff	True	perc	300000	0	1.15	製作支援II			大成功確率が×$H_W_GOOD15%$COLOR_END上昇します。	icon_skills.produce_icon_01_tex	icon_skills.produce_icon_01_tex	True
+14023	296	Buff	True	perc	300000	0	1.2	製作支援III			大成功確率が×$H_W_GOOD20%$COLOR_END上昇します。	icon_skills.produce_icon_01_tex	icon_skills.produce_icon_01_tex	True
+14024	358	Buff	True	perc	300000	0	1.3	釣り支援I			大物を釣る確率が×$H_W_GOOD30%$COLOR_END上昇します。	icon_skills.partnerskill_fishing_tex	icon_skills.partnerskill_fishing_tex	True
+14025	358	Buff	True	perc	300000	0	1.4	釣り支援II			大物を釣る確率が×$H_W_GOOD40%$COLOR_END上昇します。	icon_skills.partnerskill_fishing_tex	icon_skills.partnerskill_fishing_tex	True
+14026	358	Buff	True	perc	300000	0	1.5	釣り支援III			大物を釣る確率が×$H_W_GOOD50%$COLOR_END上昇します。	icon_skills.partnerskill_fishing_tex	icon_skills.partnerskill_fishing_tex	True
+14027	GatheringTime	Buff	True	perc	300000	0	0.9	採集支援I			採集所要時間が$H_W_GOOD10%$COLOR_END減少します。	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
+14028	GatheringTime	Buff	True	perc	300000	0	0.85	採集支援II			採集所要時間が$H_W_GOOD15%$COLOR_END減少します。	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
+14029	GatheringTime	Buff	True	perc	300000	0	0.8	採集支援III			採集所要時間が$H_W_GOOD20%$COLOR_END減少します。	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
 15000	Block	Debuff	False	swch	30000	0	0	アカシャの沈黙			効果持続中、全スキルが使用不可になります。	icon_status.sealskill_tex	icon_status.sealskill_tex	True
 15010	AllResist	Debuff	False	perc	10000	0	0.85	悪神の呪い：弱化			全てのデバフ抵抗が$H_W_BAD15%$COLOR_END減少します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 15020	Endurance	Buff	True	abs	30000	0	10	アンデッドの力			耐久力が$H_W_GOOD10$COLOR_END上昇します。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
@@ -1264,9 +1335,9 @@
 27120	Endurance	Buff	True	perc	600000	0	1.1	プロテクションエレメント(協同の紋章)			耐久力が$H_W_GOOD10%$COLOR_END上昇します。	icon_skills.summonspiritofaggro_tex	icon_crest.crestactivedefenceup_tex	True
 27130	Ballance	Buff	True	perc	2000	0	5	反撃(均衡の紋章)			均衡が$H_W_GOOD5倍$COLOR_END上昇します。	icon_skills.risingattack_tex	icon_crest.crestactivereactionresist_tex	True
 27140	HPChange	Buff	True	perc	1000	1	0.2	ヒールエネルギー(忍耐の紋章)			全HPの$H_W_GOOD20％$COLOR_ENDが回復します。	icon_skills.hprefresher_tex	icon_crest.crestpassivehpheal_tex	True
-27150	IncreasedHeal	Buff	True	perc	10000	0	1.2	ガードスピリット(救済の紋章)			HP回復量が$H_W_GOOD20%$COLOR_END増加します。	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
+27150	IncreasedHeal	Buff	True	perc	11000	0	1.2	ガードスピリット(救済の紋章)			HP回復量が$H_W_GOOD20%$COLOR_END増加します。	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
 27160	Endurance	Debuff	False	perc	21000	0	0.9	ペインカーズ(弱化の紋章)			耐久力が$H_W_BAD10%$COLOR_END減少します。	icon_skills.painfulshackle_tex	icon_crest.crestactivedefencedown_tex	True
-27161	IncreasedHeal	Buff	True	perc	10000	0	1.25	ガードスピリット(救済の紋章)			HP回復量が$H_W_GOOD25%$COLOR_END増加します。	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
+27161	IncreasedHeal	Buff	True	perc	11000	0	1.25	ガードスピリット(救済の紋章)			HP回復量が$H_W_GOOD25%$COLOR_END増加します。	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
 28010	AtkPotion	Buff	True	perc	6000	0	1.25	スカージングハンド(連闘の紋章)			連係して「パニシュメントハンド」使用時、スキル威力が$H_W_GOOD25%$COLOR_END増加します。	icon_skills.damagedeal_tex	icon_crest.crestnextskillattackup_tex	True
 28020	AtkPotion	Buff	True	perc	5000	0	1.25	ダムネーションチェイン(連闘の紋章)			連係して「懲罰の幕」使用時、スキル威力が$H_W_GOOD25%$COLOR_END増加します。	icon_skills.divineretribution_tex	icon_crest.crestnextskillattackup_tex	True
 28030	Endurance	Buff	True	perc	12000	0	1.3	プロテクションアーマー(保護の紋章)			耐久力が$H_W_GOOD30%$COLOR_END上昇します。	icon_skills.armorofprotection_tex	icon_crest.crestactivedefenceup_tex	True
@@ -1666,8 +1737,6 @@
 70368	360	Buff	True	perc	1200000	0	0.8	幸せを呼ぶクローバー（20分）			幸せを呼ぶクローバーが適用されました。$BR$BRヒット待機時間$H_W_GOOD20%$COLOR_END短縮$BR大物を釣る確率$H_W_GOOD4%$COLOR_END増加	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
 70369	358	Buff	True	abs	600000	0	0.04	幸せを呼ぶクローバー（10分）			幸せを呼ぶクローバーが適用されました。$BR$BRヒット待機時間$H_W_GOOD20%$COLOR_END短縮$BR大物を釣る確率$H_W_GOOD4%$COLOR_END増加	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
 70369	360	Buff	True	perc	600000	0	0.8	幸せを呼ぶクローバー（10分）			幸せを呼ぶクローバーが適用されました。$BR$BRヒット待機時間$H_W_GOOD20%$COLOR_END短縮$BR大物を釣る確率$H_W_GOOD4%$COLOR_END増加	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
-70370	358	Buff	True	abs	0	0	1	［イベント］宝石ルアー			きらきら輝くルアー。すべての釣り場で珍しい物を釣れます。	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
-70370	362	Buff	True	swch	0	0	143188	［イベント］宝石ルアー			きらきら輝くルアー。すべての釣り場で珍しい物を釣れます。	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
 70403	MovSpd	Debuff	False	perc	5000	0	0.5	時空の亀裂_減速			移動速度が$H_W_BAD50%$COLOR_END 減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	OutOfCombatMovSpd	Debuff	False	perc	5000	0	0.5	時空の亀裂_減速			移動速度が$H_W_BAD50%$COLOR_END 減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	HPDrain	Debuff	False	perc	5000	0	0.5	時空の亀裂_減速			移動速度が$H_W_BAD50%$COLOR_END 減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
@@ -1727,6 +1796,8 @@
 76905	DelayedEffect	Stun	False	abs	5000	0	76907	発火			解除せずに持続時間が経過すると、間もなく爆発し、自分と周りにダメージを与えます。	icon_status.minushp_tex	icon_status.minushp_tex	True
 76907	HPLoss	Buff	True	abs	1	0	-50000	発火			解除せずに持続時間が経過すると、間もなく爆発し、自分と周りにダメージを与えます。	icon_status.minushp_tex	icon_status.minushp_tex	False
 76909	HPLoss	Buff	True	abs	1	0	-50000	発火			解除せずに持続時間が経過すると、間もなく爆発し、自分と周りにダメージを与えます。	icon_status.minushp_tex	icon_status.minushp_tex	False
+77000	358	Buff	True	abs	0	0	0.5	黄金の釣り竿			5～7ランクの魚を釣れる<br>大物を釣る確率 + $H_W_GOOD50%$COLOR_END	icon_skills.fishing_rod04_tex	icon_skills.fishing_rod04_tex	True
+77001	359	Buff	True	perc	7200000	0	0.85	釣り師の早業	207208	釣り師の早業（2時間）	自動釣り上げ待機時間15％減少	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
 81163	Power	Debuff	True	abs	600000	0	0	熱き友情			フレンド召喚により、友情が加熱しました。この効果が発生している間は、フレンド召喚ができません。	icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex	True
 82102	Endurance	Buff	True	perc	45000	0	1.3	砲弾抵抗ポーション			45sの間、砲弾によるダメージを減少させます。	icon_items.potion16_tex	icon_items.potion16_tex	True
 82102	Ballance	Buff	True	perc	45000	0	1.1	砲弾抵抗ポーション			45sの間、砲弾によるダメージを減少させます。	icon_items.potion16_tex	icon_items.potion16_tex	True
@@ -1979,10 +2050,13 @@
 200352	IncreasedHeal	Debuff	False	perc	15000	0	0.7	アーマーブレイク				icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	False
 200400	Stun	Stun	False	swch	4000	0	5	シールドバッシュ			盾で殴られ気絶しました。	icon_skills.shieldstrike_tex	icon_skills.shieldstrike_tex	True
 200700	ASpd	Buff	True	perc	20000	0	1.15	バトルウィル I			攻撃速度が$H_W_GOOD15%$COLOR_END上昇し、モンスター攻撃時、スキル威力が5％増加します。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200700	AtkPotion	Buff	True	perc	20000	0	1.05	バトルウィル I			攻撃速度が$H_W_GOOD15%$COLOR_END上昇し、モンスター攻撃時、スキル威力が5％増加します。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200701	ASpd	Buff	True	perc	20000	0	1.2	バトルウィル			攻撃速度が$H_W_GOOD20%$COLOR_END上昇し、モンスター攻撃時、スキル威力が5％増加します。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200701	AtkPotion	Buff	True	perc	20000	0	1.05	バトルウィル			攻撃速度が$H_W_GOOD20%$COLOR_END上昇し、モンスター攻撃時、スキル威力が5％増加します。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200731	Aggro	Buff	True	perc	20000	0	1.08	バトルウィル II			全ての<font color = '#f9b600'>攻撃スキル</font>による<font color = '#66bbff'>敵対値</font>が8％ 上昇します。$BR<font color = '#f9b600'>［シールドバッシュ］</font>、<font color = '#f9b600'>［チャージングランジ］</font>、<font color = '#f9b600'>［インパクトスラッグ］</font>を除いた<font color = '#f9b600'>近接攻撃スキル</font>の<font color = '#66bbff'>クールタイム</font>が50％ 減少されます。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200731	CDR	Buff	True	swch	20000	0	0.5	バトルウィル II			全ての<font color = '#f9b600'>攻撃スキル</font>による<font color = '#66bbff'>敵対値</font>が8％ 上昇します。$BR<font color = '#f9b600'>［シールドバッシュ］</font>、<font color = '#f9b600'>［チャージングランジ］</font>、<font color = '#f9b600'>［インパクトスラッグ］</font>を除いた<font color = '#f9b600'>近接攻撃スキル</font>の<font color = '#66bbff'>クールタイム</font>が50％ 減少されます。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200732	Aggro	Buff	True	perc	20000	0	1.08	バトルウィル I			全ての<font color = '#f9b600'>攻撃スキル</font>による<font color = '#66bbff'>敵対値</font>が8％ 上昇します。$BR<font color = '#f9b600'>［シールドバッシュ］</font>、<font color = '#f9b600'>［チャージングランジ］</font>、<font color = '#f9b600'>［インパクトスラッグ］</font>を除いた<font color = '#f9b600'>近接攻撃スキル</font>の<font color = '#66bbff'>クールタイム</font>が50％ 減少されます。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200732	CDR	Buff	True	swch	20000	0	0.5	バトルウィル I			全ての<font color = '#f9b600'>攻撃スキル</font>による<font color = '#66bbff'>敵対値</font>が8％ 上昇します。$BR<font color = '#f9b600'>［シールドバッシュ］</font>、<font color = '#f9b600'>［チャージングランジ］</font>、<font color = '#f9b600'>［インパクトスラッグ］</font>を除いた<font color = '#f9b600'>近接攻撃スキル</font>の<font color = '#66bbff'>クールタイム</font>が50％ 減少されます。	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200800	Stun	Stun	False	swch	3000	0	5	シールドバレッジ			盾で殴られ気絶しました。	icon_skills.shieldattack_tex	icon_skills.shieldattack_tex	True
 200900	BuffNearbyParty	Buff	True	swch	12000	3	200930	ガードプロミス I			自身を除くパーティーメンバーに$H_W_GOOD「ガードプロミス」$COLOR_ENDの効果を与えます。有効範囲は周囲約20mです。	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
 200901	BuffNearbyParty	Buff	True	swch	12000	3	200931	ガードプロミス II- 放出			自身を除くパーティーメンバーに$H_W_GOOD「ガードプロミス」$COLOR_ENDの効果を与えます。有効範囲は周囲約20mです。	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
@@ -3187,7 +3261,7 @@
 701569	HPChange	Buff	True	abs	3000	1	13842	ヒールエネルギー X			$H_W_GOOD1秒$COLOR_END毎に$H_W_GOOD6921$COLOR_ENDずつHPが回復します。	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
 701570	HPChange	Buff	True	abs	3000	1	20508	ヒールエネルギー XI			$H_W_GOOD1秒$COLOR_END毎に$H_W_GOOD10254$COLOR_ENDずつHPが回復します。	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
 701571	HPChange	Buff	True	abs	3000	1	20508	ヒールエネルギー XII			$H_W_GOOD1秒$COLOR_END毎に$H_W_GOOD10342$COLOR_ENDずつHPが回復します。	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
-701590	MPChange	Buff	True	perc	1000	1	0.2	エネルギーマイン	8023	魔力の玉		icon_skills.marbleexplosion_tex	icon_skills.marbleexplosion_tex	False
+701590	MPChange	Buff	True	abs	1000	1	1546	エネルギーマイン	8023	魔力の玉		icon_skills.marbleexplosion_tex	icon_skills.marbleexplosion_tex	False
 701600	Ballance	Buff	True	perc	3000	0	2	霊気召喚 - 均衡 I			均衡が$H_W_GOOD100%$COLOR_END上昇します。	icon_skills.energiesofshock_tex	icon_skills.energiesofshock_tex	True
 701601	ASpd	Debuff	False	perc	3000	0	0.9	霊気召喚 - 束縛 I			攻撃速度が$H_W_BAD10%$COLOR_END減少します。	icon_skills.energiesofrestriction_tex	icon_skills.energiesofrestriction_tex	True
 701602	ASpd	Buff	True	perc	3000	0	1.05	霊気召喚 - 迅速 I			攻撃速度が$H_W_GOOD5%$COLOR_END上昇します。	icon_skills.energiesofquickness_tex	icon_skills.energiesofquickness_tex	True
@@ -3267,7 +3341,7 @@
 702001	Absorb	Buff	True	swch	12000	0	30000	プロテクションエレメント II			プロテクションエレメントの加護により、最大30000のダメージを<font color = '#66bbff'>無効化</font>します。効果時間中、ダウン/硬直状態になりません。無効化できるダメージ量を超えると、持続時間に関わらず加護が解除されます。	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702001	StatusImmune	Buff	True	swch	12000	0	0	プロテクションエレメント II			プロテクションエレメントの加護により、最大30000のダメージを<font color = '#66bbff'>無効化</font>します。効果時間中、ダウン/硬直状態になりません。無効化できるダメージ量を超えると、持続時間に関わらず加護が解除されます。	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702002	MovSpdInCombat	Buff	True	abs	5000	0	10	ライフエレメント XIII			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
-702002	MPChange	Buff	True	perc	5000	1	0.1	ライフエレメント XIII			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	MPChange	Buff	True	abs	5000	1	773	ライフエレメント XIII			ライフエレメントの加護により、毎秒HPの1.5％、MPの10％を<font color = '#66bbff'>回復</font>します。効果時間中、戦闘中の移動速度が10増加しますが、ダウン時には解除されます。	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
 702003	Power	Buff	True	abs	12000	0	15	サンダーエレメント II			サンダーエレメントの加護により、力が15増加します。ダウン時、解除されます。	icon_skills.summonspiritofrange_tex	icon_skills.summonspiritofrange2_tex	True
 702004	CritPower1	Buff	True	abs	20000	0	0.6	デストラクションエレメント II			デストラクションエレメントの加護により、クリティカル威力が0.6増加します。ダウン時、解除されます。	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack2_tex	True
 702005	330	Buff	True	swch	1000	0	0	フォースエレメント			精霊と心を通わせている状態。戦闘状態の移動速度が10増加し、2秒毎にMPを200ずつ消費します。精霊召喚スキル使用時、精霊毎に異なるバフを味方に付与し、強化された精霊を召喚します。	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	False
@@ -3730,10 +3804,10 @@
 801601	HPChange	Buff	True	abs	3000	1	564	ヒーリングフェザー I			$H_W_GOOD1s$COLOR_END毎にHPが$H_W_GOOD625$COLOR_END回復します。	icon_skills.curewing_tex	icon_skills.curewing_tex	True
 801650	Power	Buff	True	perc	3000	0	1	ヒーリングフェザー				icon_skills.curewing_tex	icon_skills.curewing_tex	False
 801700	Resurrect	Buff	True	seta	1200000	0	1	リザレクションサイン I			効果持続中、死亡時に即復活します。	icon_skills.selfpreresurrection_tex	icon_skills.selfpreresurrection_tex	True
-801800	MPChange	Buff	True	perc	5000	1	0.03	マナレジェン				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
-801801	MPChange	Buff	True	perc	5000	1	0.06	マナレジェン				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
-801802	MPChange	Buff	True	perc	5000	1	0.08	マナレジェン				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
-801803	MPChange	Buff	True	perc	5000	1	0.1	セイクリッドシャイン				icon_skills.spirit2_tex	icon_skills.spirit2_tex	False
+801800	MPChange	Buff	True	abs	5000	1	232	マナレジェン				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
+801801	MPChange	Buff	True	abs	5000	1	464	マナレジェン				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
+801802	MPChange	Buff	True	abs	5000	1	619	マナレジェン				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
+801803	MPChange	Buff	True	abs	5000	1	774	セイクリッドシャイン				icon_skills.spirit2_tex	icon_skills.spirit2_tex	False
 801900	Stun	Stun	False	swch	1500	0	5	ゴッドブレス			敵を空中に浮かばせます(見えない異常状態)	icon_skills.godbreath_tex	icon_skills.godbreath_tex	False
 801900	274	Stun	False	swch	1500	0	80	ゴッドブレス			敵を空中に浮かばせます(見えない異常状態)	icon_skills.godbreath_tex	icon_skills.godbreath_tex	False
 801901	Immune	Buff	True	16	1200	0	0	ゴッドブレス I			敵を空中に浮かせます。(見えない異常状態)			False
@@ -4553,6 +4627,12 @@
 3000030	MaxHP	Buff	True	perc	0	0	1	飛行搭乗			飛行可能地域で飛行できます。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000030	HPChange	Buff	True	perc	0	1	0.01	飛行搭乗			飛行可能地域で飛行できます。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000030	MPChange	Buff	True	perc	0	1	0.01	飛行搭乗			飛行可能地域で飛行できます。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000031	MaxHP	Buff	True	perc	0	0	1	焔獣乗り物搭乗 (HP, MP回復)			飛行可能地域で飛行可能。<BR>搭乗中、毎秒毎にHPとMPが1%ずつ回復で切る。幻獣効果が適用される。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000031	HPChange	Buff	True	perc	0	1	0.01	焔獣乗り物搭乗 (HP, MP回復)			飛行可能地域で飛行可能。<BR>搭乗中、毎秒毎にHPとMPが1%ずつ回復で切る。幻獣効果が適用される。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000031	MPChange	Buff	True	perc	0	1	0.01	焔獣乗り物搭乗 (HP, MP回復)			飛行可能地域で飛行可能。<BR>搭乗中、毎秒毎にHPとMPが1%ずつ回復で切る。幻獣効果が適用される。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000032	MaxHP	Buff	True	perc	0	0	1	焔獣乗り物搭乗 (HP, MP回復)			飛行可能地域で飛行可能。<BR>搭乗中、毎秒毎にHPとMPが2%ずつ回復で切る。幻獣効果が適用される。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000032	HPChange	Buff	True	perc	0	1	0.02	焔獣乗り物搭乗 (HP, MP回復)			飛行可能地域で飛行可能。<BR>搭乗中、毎秒毎にHPとMPが2%ずつ回復で切る。幻獣効果が適用される。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000032	MPChange	Buff	True	perc	0	1	0.02	焔獣乗り物搭乗 (HP, MP回復)			飛行可能地域で飛行可能。<BR>搭乗中、毎秒毎にHPとMPが2%ずつ回復で切る。幻獣効果が適用される。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3012000	Power	Buff	True	abs	1800000	0	40	訓練所バフ（プリースト）			ブレシングアルン III、シークレッドサンダー IV効果が持続され、強化レザルスペル IVが25秒ごとに適用されます。	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	Endurance	Buff	True	abs	1800000	0	11	訓練所バフ（プリースト）			ブレシングアルン III、シークレッドサンダー IV効果が持続され、強化レザルスペル IVが25秒ごとに適用されます。	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	AllResist	Buff	True	abs	1800000	0	5	訓練所バフ（プリースト）			ブレシングアルン III、シークレッドサンダー IV効果が持続され、強化レザルスペル IVが25秒ごとに適用されます。	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
@@ -4663,6 +4743,7 @@
 5010038	358	Buff	True	abs	0	0	1	アクマ・ドンカンのハートチョコレート	117641	アクマ・ドンカンのハートチョコレート	アクマ・ドンカンのハートチョコレートを釣り針にかけた。$BRドンカンの愛は釣れるだろうか。	icon_items.fireworks_ding_heart_tex	icon_items.fireworks_ding_heart_tex	True
 5010038	362	Buff	True	swch	0	0	117641	アクマ・ドンカンのハートチョコレート	117641	アクマ・ドンカンのハートチョコレート	アクマ・ドンカンのハートチョコレートを釣り針にかけた。$BRドンカンの愛は釣れるだろうか。	icon_items.fireworks_ding_heart_tex	icon_items.fireworks_ding_heart_tex	True
 5010039	289	Buff	True	perc	0	0	1.2	特性経験値20%増加			特性経験値獲得時、20％増加して獲得します。			False
+5010040	339	Buff	True	perc	0	0	1.3	装備熟練度30%増加			装備熟練度獲得時、30%増加して獲得します。	icon_items.vip_growth_tex	icon_items.vip_growth_tex	True
 5020007	190	Buff	True	swch	300000	0	0	Potion: Murderous Intend			Rewarded to the best PvP players. A cloak of dark energy transforms you into the reaper of death!	icon_skills.battlefield_high_ranking_tex	icon_skills.battlefield_high_ranking_tex	True
 5020008	190	Buff	True	swch	300000	0	2	Potion: Eclipse the Sun			Rewarded to the best PvP player during 3 seasons. The power of the sun fills your veigns, and lets you glow in an eerie orange glow and makes you grow considerably in size!	icon_skills.redmoon_tex	icon_skills.redmoon_tex	True
 5020009	ChangeBody	Buff	True	setp	300000	0	8	Potion: Size of the Mighty			Infuse your body with the energy of the giant, and grow in size. Can be used up to 15x to increase size even more.	icon_status.vitality_tex	icon_status.vitality_tex	True
@@ -5023,6 +5104,11 @@
 8000122	XPBoost	Buff	True	perc	3600000	0	2	高速成長ポーション	5293	高速成長ポーション（100%）	1時間、狩りの獲得経験値が100％増加します。$BR接続を終了しても残り時間が減少します。	icon_items.potion12_tex	icon_items.potion12_tex	True
 8000123	XPBoost	Buff	True	perc	3600000	0	1.5	高速成長ポーション（50%）	5294	高速成長ポーション（50%）	3600s間、狩りによる獲得経験値が50%増加。$BR接続を終了しても残り時間が減少する。	icon_items.potion12_tex	icon_items.potion12_tex	True
 8000124	XPBoost	Buff	True	perc	3600000	0	1.3	高速成長ポーション（30%）	5295	高速成長ポーション（30%）	3600s間、狩りによる獲得経験値が30%増加。$BR接続を終了しても残り時間が減少する。	icon_items.potion12_tex	icon_items.potion12_tex	True
+8000125	46	Buff	True	perc	0	1	2	戦場闘士団の証100(テスト用)			プレミアムパッケージが適用される間、戦場信用数値と戦場信用ポイントが100%上昇します。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000126	47	Buff	True	perc	0	1	2	SP引導者の証100モンスター討伐(テスト用)			100%上昇します。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000127	47	Buff	True	perc	0	1	2	SP引導者の証100クエスト完了(テスト用)			100%上昇します。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000128	47	Buff	True	perc	0	1	2	SP引導者の証100ヴァルキオン指令書完了(テスト用)			100%上昇します。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000129	47	Buff	True	perc	0	1	2	SP引導者の証100アイテム使用(テスト用)			100%上昇します。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
 8000683	HPChange	Buff	True	perc	3000	1	0.5	入場した時回復せる異常状態見えたらいけない！バグ！			入場した時回復せる異常状態見えたらいけない！バグ！			False
 8000684	StackCounter	Debuff	False	seta	15000	0	8000685	雪だるまの呪い			スタート地点から動かない人に雪だるまが呪いを掛けます。スタート地点から降りると、15秒後に呪いが解除されます。13回重複すると、雪だるまに変わって、死亡します。	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	雪だるまの呪い			雪だるまに変わりました！間もなく死亡します！ 戦場で放置は厳禁です。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -5260,7 +5346,7 @@
 10151081	HPChange	Stun	False	abs	9000	1	-863	スマッシュ I			受けたダメージが10％増加して、1秒ごとに863の出血ダメージを受けます。	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
 10151081	DefPotion	Stun	False	perc	9000	0	1.1	スマッシュ I			受けたダメージが10％増加して、1秒ごとに863の出血ダメージを受けます。	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
 10151082	Endurance	Debuff	False	perc	12000	0	0.91	スマッシュ I			耐久力が$H_W_BAD9%$COLOR_END減少します。	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
-10151083	ForceCrit	Buff	True	seta	4000	0	80000	スマッシュ I			持続時間の間、モンスター攻撃時、後方で攻撃する効果を持ちます。	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
+10151083	ForceCrit	Buff	True	seta	4000	0	80000	弱化			持続時間の間、モンスター攻撃時、後方で攻撃する効果を持ちます。	icon_status.strikeskull_tex	icon_status.strikeskull_tex	True
 10151090	Power	Debuff	True	abs	3600000	0	0	冥府の幕			致死性のダメージを受けましたが、暗黒の力に保護されました。この効果が継続する間は全てのダメージを50%減少させ、持続時間が終了するとき最大HPの15%を回復します。	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
 10151090	DefPotion	Buff	True	perc	7000	0	0.5	冥府の幕			致死性のダメージを受けましたが、暗黒の力に保護されました。この効果が継続する間は全てのダメージを50%減少させ、持続時間が終了するとき最大HPの15%を回復します。	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
 10151090	HPLoss	Buff	True	perc	7000	0	1.15	冥府の幕			致死性のダメージを受けましたが、暗黒の力に保護されました。この効果が継続する間は全てのダメージを50%減少させ、持続時間が終了するとき最大HPの15%を回復します。	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
@@ -5841,6 +5927,58 @@
 30190396	Drunk1	Debuff	True	seta	0	0	0	チャージ			カイルルースが強力な攻撃を放つ準備をしています。	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190397	Drunk1	Debuff	True	seta	0	0	0	チャージ			カイルルースが強力な攻撃を放つ準備をしています。	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190398	Drunk1	Debuff	True	seta	0	0	0	チャージ			カイルルースが強力な攻撃を放つ準備をしています。	icon_status.godspell_tex	icon_status.godspell_tex	True
+31010202	HPChange	DOT	True	perc	10000	2	-0.1	舞い上がる結晶			風で結晶の粉が舞い上がる。結晶の粉による傷で2秒当たり$H_W_BAD10%$COLOR_ENDのHPが減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+31010205	Block	Buff	True	swch	2000	0	0	沈黙			全身が結晶がついて思う通り動けない。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+31010220	Aggro	Debuff	True	perc	80000	0	0.3	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+31010220	StackCounter	Debuff	True	seta	80000	0	31010223	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+31010223	Block	Debuff	True	swch	2000	0	0	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	HPLoss	Debuff	True	abs	2000	0	-10000000	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	Drunk	Debuff	True	320123	2000	0	0	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	311	Debuff	True	3201	2000	0	200	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	340	Debuff	True	swch	2000	0	0	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010003	252	Debuff	True	perc	0	0	32010004	赤いオーラ			赤いオーラが全身を包み、赤色レーザーに感知されません。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+32010003	319	Debuff	True	perc	0	0	32010002	赤いオーラ			赤いオーラが全身を包み、赤色レーザーに感知されません。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+32010004	252	Debuff	True	perc	0	0	32010003	青いオーラ			青いオーラが全身を包み、赤いレーザーに感知されません。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+32010004	319	Debuff	True	perc	0	0	32010001	青いオーラ			青いオーラが全身を包み、赤いレーザーに感知されません。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+32010005	MovSpd	Debuff	True	perc	0	0	0.8	潜入			感知装置に発覚されないために移動速度が遅くなり、スキル使用が制限されます。	icon_status.sealskill_tex	icon_status.sealskill_tex	True
+32010005	MovSpdInCombat	Debuff	True	seta	0	0	60	潜入			感知装置に発覚されないために移動速度が遅くなり、スキル使用が制限されます。	icon_status.sealskill_tex	icon_status.sealskill_tex	True
+32010105	Stun	Debuff	False	swch	5000	0	5	気絶			強い攻撃を受け気絶します。	icon_skills.improvehardblow_tex	icon_skills.improvehardblow_tex	True
+32010106	ASpd	DOT	True	perc	8000	0	0.8	中毒			蝶の毒で中毒状態になりました。攻撃速度が20%遅くなり、$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD8%$COLOR_ENDずつ持続的に減少します。	icon_status.poisondown_tex	icon_status.poisondown_tex	True
+32010106	HPChange	DOT	True	perc	8000	2	-0.08	中毒			蝶の毒で中毒状態になりました。攻撃速度が20%遅くなり、$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD8%$COLOR_ENDずつ持続的に減少します。	icon_status.poisondown_tex	icon_status.poisondown_tex	True
+32010107	ASpd	DOT	True	perc	8000	0	0.7	猛烈な中毒			蝶の強い毒で中毒状態になりました。攻撃速度が30%遅くなり、$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD10%$COLOR_ENDずつ持続的に減少します。	icon_status.poisonup_tex	icon_status.poisonup_tex	True
+32010107	HPChange	DOT	True	perc	8000	2	-0.1	猛烈な中毒			蝶の強い毒で中毒状態になりました。攻撃速度が30%遅くなり、$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD10%$COLOR_ENDずつ持続的に減少します。	icon_status.poisonup_tex	icon_status.poisonup_tex	True
+32010109	Drunk1	Buff	True	swch	4000	0	0	衝撃波			衝撃波に当たりました！空中に吹き飛ばされます。	icon_status.whirl_tex	icon_status.whirl_tex	False
+32010110	Block	Stun	True	swch	2100	0	0	衝撃波			衝撃波に当たりました！空中に吹き飛ばされます。	icon_status.whirl_tex	icon_status.whirl_tex	True
+32010110	DelayedEffect	Stun	True	seta	2100	0	32010109	衝撃波			衝撃波に当たりました！空中に吹き飛ばされます。	icon_status.whirl_tex	icon_status.whirl_tex	True
+32010110	274	Stun	True	swch	2100	0	150	衝撃波			衝撃波に当たりました！空中に吹き飛ばされます。	icon_status.whirl_tex	icon_status.whirl_tex	True
+32010111	StackCounter	DOT	True	swch	999999999	0	32010125	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+32010125	HPChange	DOT	True	perc	600000	2	-0.01	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010126	HPChange	DOT	True	perc	600000	2	-0.02	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010127	HPChange	DOT	True	perc	600000	2	-0.04	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010128	HPChange	DOT	True	perc	600000	2	-0.06	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010129	HPChange	DOT	True	perc	600000	2	-0.09	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010130	HPChange	DOT	True	perc	600000	2	-0.2	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010131	HPChange	DOT	True	perc	600000	2	-0.4	汚染された空気			大量の毒が空気中に残留しています。$H_W_BAD2秒$COLOR_END毎にHPが持続的に減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010202	HPChange	DOT	True	perc	10000	2	-0.12	舞い上がる結晶			風で鋭い結晶粉が舞い上がる。結晶粉による傷で2秒当たり$H_W_BAD10%$COLOR_ENDのHPが減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+32010205	Block	Buff	True	swch	2000	0	0	沈黙			全身が結晶がついて思う通り動けない。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+32010216	Power	Debuff	True	perc	40000	0	1	Set1			1番セット召喚			False
+32010217	Power	Debuff	True	perc	40000	0	1	Set2			2番セット召喚			False
+32010218	Power	Debuff	True	perc	40000	0	1	Set3			3番セット召喚			False
+32010220	Aggro	Debuff	True	perc	80000	0	0.3	極彩の女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+32010220	StackCounter	Debuff	True	seta	80000	0	32010223	極彩の女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+32010222	330	Debuff	True	swch	5000	0	0	結晶中毒			結晶粉で中毒になりました。5秒後、自分の位置に結晶が生成されます。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32010222	331	Debuff	True	swch	5000	0	0	結晶中毒			結晶粉で中毒になりました。5秒後、自分の位置に結晶が生成されます。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32010223	Block	Debuff	True	swch	2000	0	0	極彩の女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	HPLoss	Debuff	True	abs	2000	0	-10000000	極彩の女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	Drunk	Debuff	True	320123	2000	0	0	極彩の女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	311	Debuff	True	3201	2000	0	200	極彩の女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	340	Debuff	True	swch	2000	0	0	極彩の女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010224	StackCounter	Debuff	True	seta	80000	0	32010225	幻影の寵愛			幻影の視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.redaura_tex	icon_status.redaura_tex	True
+32010225	Block	Debuff	True	swch	2000	0	0	幻影の寵愛			幻影の視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	HPLoss	Debuff	True	abs	2000	0	-10000000	幻影の寵愛			幻影の視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	Drunk	Debuff	True	320123	2000	0	0	幻影の寵愛			幻影の視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	311	Debuff	True	3201	2000	0	200	幻影の寵愛			幻影の視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	340	Debuff	True	swch	2000	0	0	幻影の寵愛			幻影の視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.redaura_tex	icon_status.redaura_tex	False
 43100007	HPChange	DOT	False	perc	15000	3	-0.05	出血			強力な一撃によって出血しました。$H_W_BAD3$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 43100011	MovSpd	Debuff	False	setp	10000	0	0.8	破壊の予言			破壊の予言が下されました！　移動速度が$H_W_BAD20%$COLOR_END減少します。時間内に解除しなければ、強力なダメージを受けることになります。	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
 43100011	HPDrain	Debuff	False	perc	10000	0	0.9	破壊の予言			破壊の予言が下されました！　移動速度が$H_W_BAD20%$COLOR_END減少します。時間内に解除しなければ、強力なダメージを受けることになります。	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True

@@ -341,7 +341,9 @@
 203	SMT_CANNOT_STORE_GUILDWAREHOUSE	このアイテムをギルド倉庫に入れることはできません。
 203	SMT_CANNOT_STORE_ITEM_INTO_WARE	倉庫にアイテムを保管できませんでした。
 203	SMT_CANNOT_STORE_MONEY_INTO_WARE	倉庫にゴールドを保管できませんでした。
-203	SMT_CANNOT_STORE_WAREHOUSE	このアイテムを倉庫に入れることはできません。
+203	SMT_CANNOT_STORE_WAREHOUSE	このアイテムは倉庫に入れることはできません
+203	SMT_CANNOT_STORE_STYLEWAREHOUSE	このアイテムはファッション倉庫に入れません。
+203	SMT_CANNOT_STORE_USERWAREHOUSE	このアイテムは保管箱に入れません。
 201	SMT_CANNOT_SUMMON_NONUNION_PARTYMEMBER	連盟領地では、他の連盟のパーティーメンバーに同胞の助力を使用できません。
 203	SMT_CANNOT_SUMMON_PARTY	Lv58未満のソウルリーパーはパーティー召喚ができません。
 203	SMT_CANNOT_TELEPORT_AT_THIS_AREA	現在の位置では瞬間移動を使用できません。
@@ -1196,7 +1198,7 @@
 201	SMT_INVALID_PAGE	ページ要請に誤りがあります。
 203	SMT_INVALID_RECIPE	レシピに誤りがあります。
 201	SMT_INVALID_REQUEST	要請に誤りがあります。
-203	SMT_INVEN_EXTENSION_FAILED_LIMIT	これ以上インベントリ管理人によるインベントリ拡張は行えません。
+203	SMT_INVEN_EXTENSION_FAILED_LIMIT	インベントリ管理人ではこれ以上インベントリ拡張を行えません。
 203	SMT_INVEN_EXTENSION_FAILED_LIMIT120	インベントリが上限に達したため、これ以上拡張は行えません。
 203	SMT_INVEN_EXTENSION_FAILED_MONEY	インベントリ拡張に失敗しました。
 201	SMT_INVEN_EXTENSION_SUCCESS	かばんのスロットが{SlotCount}個に拡張されました。
@@ -2046,8 +2048,10 @@
 203	SMT_VOTE_GUILD_COOLTIME_SEC	{GuildName}ギルドを推薦できません。{Sec}秒後に推薦できます。
 203	SMT_VOTE_GUILD_COOLTIME_TIME	{GuildName}ギルドを推薦できません。{Time}時間後に推薦できます。
 203	SMT_VOTE_GUILD_EXCEED_COUNT	1日に{ARG}回以上推薦できません。
-203	SMT_WAREHOUSE_CANT_UPGRADE	これ以上拡張できません。
-203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	これ以上拡張できません。
+203	SMT_WAREHOUSE_CANT_UPGRADE	アカウント倉庫をこれ以上拡張できません。
+203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	ファッション倉庫をこれ以上拡張できません。
+203	SMT_USERWAREHOUSE_CANT_UPGRADE	保管箱はこれ以上拡張できません。
+203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	保管箱能力を保有したペットを登録してから保管箱を利用できます。
 203	SMT_WAREHOUSE_FULL	これ以上登録できません。
 201	SMT_WAREHOUSE_GOLD_DRAW	{Amount@money}を出金しました。
 201	SMT_WAREHOUSE_GOLD_INSERT	{Amount@money}を入金しました。
@@ -2311,9 +2315,51 @@
 201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{guildName}</font>ギルドの<font color = '#f6f493'>{userName}</font>様が<font color = '#ff3300'>{npcname}</font>を討伐しました。
 201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font>様が<font color = '#ff3300'>{npcname}</font>を討伐しました。
 203	SMT_SKILL_FAIL_ON_CHANGE	地域移動中はスキルを使用できません。
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	特性は利用できません。
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	戦闘中にはスキルオプションを変更できません。
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	効果中、スキルオプションを変更できません。
 201	SMT_GAIN_SKILL_POLISHING_EXP	練武経験値を {gainExp}獲得しました。
 201	SMT_GAIN_SKILL_POLISHING_POINT	練武ポイントが上昇しました。
 201	SMT_CANT_SAVE_SCREENSHOT	スクリーンショット保存に失敗しました。
+203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	ペットリストがいっぱいのため、これ以上登録できません。
+201	SMT_GET_SERVANT	{ServantName}を登録しました。ペットリストの名前変更ボタンを通じて名前を変更できます。
+201	SMT_INCREASE_SERVANT_STORAGE_SIZE	ペットリストが拡張されました。
+203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	ペットリストをこれ以上拡張できません。
+203	SMT_CANNOT_SPAWN_PARTNER_LACK_ENERGY	気力が0です。プレゼントアイテムで気力を回復してください。
+203	SMT_CANNOT_SPAWN_PET_LACK_ENERGY	気力が0です。餌を使用して気力を回復してください。
+203	SMT_CANNOT_USE_PARTNER_PRESENT_FULL	気力が最大の状態です。これ以上回復できません。
+203	SMT_CANNOT_USE_PARTNER_PRESENT_DESPAWN	パートナーが召喚されていないので、プレゼントアイテムを使用できません。
+203	SMT_CANNOT_USE_PET_FEED_FULL	気力がフルな状態です。これ以上回復できません。
+203	SMT_CANNOT_USE_PET_FEED_DESPAWN	ペットが召喚されていないので、餌を使用できません。
+201	SMT_DESPAWN_PARTNER_LACK_ENERGY	{ServantName}の気力が0になったため、召喚が解除されます。
+201	SMT_DESPAWN_PET_LACK_ENERGY	{ServantName}の気力が0になったため、召喚が解除されます。
+201	SMT_USE_PARTNER_PRESENT	{itemName}を使用して、{ServantName}の気力が{Num}回復されました。
+201	SMT_USE_PET_FEED	{itemName}を使用して、{ServantName}の気力が{Num}回復されました。
+203	SMT_CANNOT_USE_ITEM_NOT_PRESENT	プレゼントアイテムではないため、使用できません。プレゼントアイテムを使用してください。
+203	SMT_CANNOT_USE_ITEM_NOT_FEED	餌ではないため、使用できません。餌を使用してください。
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_NO_ITEM	支援スキル変更券を所持していません。
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	今は支援スキル変更を行えません。
+203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	召喚中のペットの能力は削除できません。
+203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	無料変更回数が終了し、以降の名前変更にはペット名変更券が必要です。
+203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	強化を進行できません。
+203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	能力スロットが最大なのでこれ以上能力を伝授できません。
+201	SMT_TRANSFER_ABILITY_COMPLETE	{SubServantName}の能力が{MainServantName}に伝授されました。
+203	SMT_CANNOT_TRANSFER_ABILITY_SERVERDOWN	今は伝授を進行できません。
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM	このアイテムは成長材料として登録できません。
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM_FULL	アイテム登録スロットに空きがありません。
+201	SMT_PET_LEVELUP_COMPLETE	{ServantName}の経験値が{exp}増加しました
+201	SMT_PET_LEVELUP	{ServantName}が{level}レベルになりました。
+203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	成長を行えません。
+201	SMT_PET_EVOLUTION_FAIL	{ServantName}の進化に失敗しました。{level}レベルに下落しました。
+203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	進化を進行できません。
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	合成で{ServantDefaultName}を獲得しました。
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	<font color='#ffffff'>ペットリストの</font><font color='#66bbff'>名前変更</font><font color='#ffffff'> ボタンを通じてペット名を変更できます。</font>
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	合成で{ServantDefaultName}を獲得しました。
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	<font color='#ffffff'>ペットリストの</font><font color='#66bbff'>名前変更</font><font color='#ffffff'> ボタンからペット名を変更できます。</font>
+203	SMT_CANNOT_PET_MIX_SERVERDOWN	合成を行えません。
+203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	登録できません。
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	これ以上購入できません。
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	これ以上購入できません。
+201	SMT_BUYLIMIT_ALERT_RESET	{StoreName}の購入制限が初期化されました。
+203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	召喚されたペットは削除できない。
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	マッチングしたダンジョンがクリアされたので、現在は追加マッチング機能を使用できません。
