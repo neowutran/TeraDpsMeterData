@@ -342,6 +342,8 @@
 203	SMT_CANNOT_STORE_ITEM_INTO_WARE	Этот предмет нельзя поместить в ваш банк.
 203	SMT_CANNOT_STORE_MONEY_INTO_WARE	Монеты нельзя положить в банк.
 203	SMT_CANNOT_STORE_WAREHOUSE	Этот предмет нельзя хранить в банке.
+203	SMT_CANNOT_STORE_STYLEWAREHOUSE	Этот предмет нельзя хранить на складе костюмов.
+203	SMT_CANNOT_STORE_USERWAREHOUSE	Этот предмет нельзя хранить в персональном хранилище.
 201	SMT_CANNOT_SUMMON_NONUNION_PARTYMEMBER	Вы не можете призвать членов группы, которые находятся в другом альянсе, на территорию своего альянса.
 203	SMT_CANNOT_SUMMON_PARTY	Жнецы могут призывать группы, начиная с 58-го уровня.
 203	SMT_CANNOT_TELEPORT_AT_THIS_AREA	Вы не можете телепортироваться отсюда.
@@ -1196,7 +1198,7 @@
 201	SMT_INVALID_PAGE	Неверный запрос страницы.
 203	SMT_INVALID_RECIPE	Неверный рецепт.
 201	SMT_INVALID_REQUEST	Неверный запрос.
-203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Сейчас размер вашей сумки не может быть увеличен.
+203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Мастер по сумкам больше не сможет помочь с увеличением сумки.
 203	SMT_INVEN_EXTENSION_FAILED_LIMIT120	Сумка достигла максимальных размеров, дальше ее нельзя увеличить.
 203	SMT_INVEN_EXTENSION_FAILED_MONEY	Не удалось увеличить размер сумки.
 201	SMT_INVEN_EXTENSION_SUCCESS	У вас стало {SlotCount} ячеек в сумке.
@@ -1510,7 +1512,7 @@
 201	SMT_PERIOD_ITEM_CANT_MERGE_SUCCESS	Оставшееся время предмета "{ItemName}" теперь составляет {Day} д.{@select:{Day}///} {Hour} ч.{@select:{Hour}///} {Min} м{@select:{Min}///}.
 209	SMT_PERIOD_ITEM_EXPIRE	Предмет "{ItemName}" с ограниченным сроком действия удален.
 201	SMT_PERSONAL_WAREHOUSE_BUY	Приобретите [Расширение персонального хранилища], чтобы расширить сумку.
-201	SMT_PERSONAL_WAREHOUSE_UPGRADE	Ваша персональная сумка была увеличена.
+201	SMT_PERSONAL_WAREHOUSE_UPGRADE	Персональное хранилище расширено.
 203	SMT_PETITION_CANNOT_SURVEY_TIMEOUT	Вы не можете участвовать в опросе, поскольку прошло 24 часа с ответа на вашу петицию.
 203	SMT_PETITION_CANT_CLOSE	Пожалуйста, оставайтесь в режиме интерфейса во время общения с ГМ-ом.
 203	SMT_PETITION_NOT_SERVICE_TIME	Ваш вопрос сейчас не может быть отправлен.
@@ -2046,8 +2048,10 @@
 203	SMT_VOTE_GUILD_COOLTIME_SEC	Вы не можете сейчас восхвалить гильдию [{GuildName}]. Подождите {Sec} сек.{@select:{Sec}/s//s}, после вы снова сможете ее восхвалить.
 203	SMT_VOTE_GUILD_COOLTIME_TIME	Вы не можете сейчас восхвалить гильдию [{GuildName}]. Подождите {Time} ч.{@select:{Time}///}, после вы снова сможете ее восхвалить.
 203	SMT_VOTE_GUILD_EXCEED_COUNT	Вы можете восхвалить не более {ARG} раз(а).
-203	SMT_WAREHOUSE_CANT_UPGRADE	Вы не можете дальше расширять свой банк.
-203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	Вы не можете дальше расширять свой банк.
+203	SMT_WAREHOUSE_CANT_UPGRADE	Расширить банк учетной записи больше нельзя.
+203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	Расширить склад костюмов больше нельзя.
+203	SMT_USERWAREHOUSE_CANT_UPGRADE	Расширить персональное хранилище больше нельзя.
+203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	Персональное хранилище доступно только помощникам с данной способностью.
 203	SMT_WAREHOUSE_FULL	Вы не можете больше делать вклады.
 201	SMT_WAREHOUSE_GOLD_DRAW	Вы сняли {Amount@money}.
 201	SMT_WAREHOUSE_GOLD_INSERT	Вы положили {Amount@money}.
@@ -2311,9 +2315,51 @@
 201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{userName}</font> из гильдии <font color = '#f6f493'>{guildName}</font> убивает: <font color = '#ff3300'>{npcname}</font>.
 201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font> убивает: <font color = '#ff3300'>{npcname}</font>.
 203	SMT_SKILL_FAIL_ON_CHANGE	Вы не можете использовать умения при перемещении между локациями.
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	Таланты не активированы.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	Во время боя изменить эффекты умения невозможно.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Во время активации эффекта изменить свойства умений нельзя.
 201	SMT_GAIN_SKILL_POLISHING_EXP	Получен опыт умения: +{gainExp}.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Повышены очки умений.
 201	SMT_CANT_SAVE_SCREENSHOT	Ошибка сохранения снимка экрана.
+203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Список помощников переполнен. Необходимо увеличить его или освободить место.
+201	SMT_GET_SERVANT	Питомец {ServantName} добавлен. Имя можно сменить с помощью кнопки "Переименовать" в окне помощников.
+201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Список помощников расширен.
+203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	Вы не можете дальше расширять список помощников.
+203	SMT_CANNOT_SPAWN_PARTNER_LACK_ENERGY	Выносливость на нуле. Ее можно восстановить с помощью подарков.
+203	SMT_CANNOT_SPAWN_PET_LACK_ENERGY	Сытость на нуле. Ее можно восстановить с помощью угощений.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_FULL	Выносливость полностью восстановлена.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_DESPAWN	Сделать подарок непризванному напарнику нельзя.
+203	SMT_CANNOT_USE_PET_FEED_FULL	Сытость полностью восстановлена.
+203	SMT_CANNOT_USE_PET_FEED_DESPAWN	Дать угощение непризванному питомцу нельзя.
+201	SMT_DESPAWN_PARTNER_LACK_ENERGY	Выносливость питомца {ServantName} упала до нуля и он будет отозван.
+201	SMT_DESPAWN_PET_LACK_ENERGY	Сытость питомца {ServantName} упала до нуля и он будет отозван.
+201	SMT_USE_PARTNER_PRESENT	{itemName} восстанавливает {Num} ед. выносливости у {ServantName}.
+201	SMT_USE_PET_FEED	{itemName} восстанавливает {Num} ед. сытости у {ServantName}.
+203	SMT_CANNOT_USE_ITEM_NOT_PRESENT	Доступны только подарки.
+203	SMT_CANNOT_USE_ITEM_NOT_FEED	Доступны только угощения.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_NO_ITEM	У вас нет ваучера на смену таланта.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	Сменить талант сейчас нельзя.
+203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	Удалить способность призванного помощника нельзя.
+203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Бесплатные попытки изменения израсходованы, требуется ваучер на смену имени помощника.
+203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	Продвижение сейчас недоступно.
+203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	Ячейки способностей переполнены, перенести еще одну способность нельзя.
+201	SMT_TRANSFER_ABILITY_COMPLETE	Способность {SubServantName} переносится к {MainServantName}.
+203	SMT_CANNOT_TRANSFER_ABILITY_SERVERDOWN	Перенос сейчас недоступен.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM	Вы не можете поместить сюда этот предмет для развития.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM_FULL	Ячейки с предметами переполнены.
+201	SMT_PET_LEVELUP_COMPLETE	{ServantName} повышает опыт на {exp}.
+201	SMT_PET_LEVELUP	{ServantName} достигает {level} уровня.
+203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	Развитие сейчас недоступно.
+201	SMT_PET_EVOLUTION_FAIL	Неудачная эволюция: {ServantName}. Уровень питомца снижается до {level}.
+203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	Эволюция сейчас недоступна.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	Синтез позволил получить: {ServantDefaultName}.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	Имя помощника можно изменить с помощью кнопки <font color='#ffffff'>Переименовать</font> в <font color='#66bbff'>окне помощников</font><font color='#ffffff'>.</font>
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	Синтез позволил получить: {ServantDefaultName}.
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	Имя помощника можно изменить с помощью кнопки <font color='#ffffff'>Переименовать</font> в <font color='#66bbff'>окне помощников</font><font color='#ffffff'>.</font>
+203	SMT_CANNOT_PET_MIX_SERVERDOWN	Синтез сейчас недоступен.
+203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	Нельзя добавить в данную ячейку.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	Нельзя купить для данной учетной записи.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	Товар полностью распродан.
+201	SMT_BUYLIMIT_ALERT_RESET	Сбрасывает ограничение на количество покупок в {StoreName}.
+203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	Призванного помощника можно удалить.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	После прохождения подобранного подземелья функцию подбора нельзя использовать снова.

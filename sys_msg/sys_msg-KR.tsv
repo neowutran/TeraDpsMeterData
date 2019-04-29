@@ -1875,6 +1875,9 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	전투중에는 텔레포트 위치를 등록할 수 없습니다.
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	전투중에는 텔레포트를 실행할 수 없습니다.
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	{ItemName}{이} 없어 이동할 수 없습니다.
+203	SMT_TELEPORT_CANNOT_TELEPORT_NO_PERMIT	포탈을 생성한 캐릭터만 이동할 수 있습니다.
+203	SMT_TELEPORT_CANNOT_TELEPORT_REPEAT	재입장을 할 수 없습니다.
+203	SMT_TELEPORT_NOTIFY	<font color = '#ffe400'>{npcname}</font>{가} 등장하였습니다
 203	SMT_TELEPORT_NOT_ENOUGH_EP	EP가 부족해서 실행이 불가능 합니다.
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	더 이상 텔레포트 위치를 등록할 수 없습니다.
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName}님이 소환을 수락했습니다.
@@ -2323,6 +2326,7 @@
 201	SMT_GAIN_SKILL_POLISHING_EXP	스킬 연마 경험치를 {gainExp}만큼 습득하였습니다.
 201	SMT_GAIN_SKILL_POLISHING_POINT	스킬 연마 포인트가 상승하였습니다.
 201	SMT_CANT_SAVE_SCREENSHOT	스크린 샷 저장에 실패하였습니다.
+201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	해당 스킬의 재사용 대기시간이 적용 중일 경우, 옵션을 변경할 수 없습니다.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	서번트 목록이 가득차 더 이상 등록할 수 없습니다. 목록을 확장하시거나 비워야 합니다.
 201	SMT_GET_SERVANT	{ServantName}{을} 등록했습니다. 서번트 목록의 이름 변경 버튼을 통해 이름을 변경할 수 있습니다.
 201	SMT_INCREASE_SERVANT_STORAGE_SIZE	서번트 목록이 확장되었습니다.
@@ -2343,6 +2347,7 @@
 203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	지금은 재능 스킬 변경을 진행할 수 없습니다.
 203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	소환 중인 서번트의 능력은 제거할 수 없습니다.
 203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	무료 변경 횟수가 모두 소진되어 서번트 이름 변경권이 필요합니다.
+203	SMT_CANNOT_PARTNER_LEVELUP_EQUIPSTYLE	스타일 아이템을 장착 중인 파트너는 승급의 재료로 사용할 수 없습니다.
 203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	지금은 승급을 진행할 수 없습니다.
 203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	능력 슬롯이 가득 차서 더 이상 능력을 이동시킬 수 없습니다.
 201	SMT_TRANSFER_ABILITY_COMPLETE	{SubServantName}의 능력이 {MainServantName}에게 전수되었습니다.
@@ -2364,4 +2369,8 @@
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	남은 재고가 없어 더 이상 구매할 수 없습니다.
 201	SMT_BUYLIMIT_ALERT_RESET	{StoreName}의 구매 제한이 초기화되었습니다.
 203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	소환된 서번트는 제거할 수 없습니다.
+203	SMT_CANNOT_SERVANT_DELETE_EQUIPSTYLE	스타일 아이템을 장착 중인 파트너는 제거할 수 없습니다.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_DESPAWN	파트너가 소환되지 않아 파트너 스타일 아이템을 장착할 수 없습니다.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_MISMATCH	소환된 서번트는 해당 파트너 스타일 아이템을 장착할 수 없습니다.
+203	SMT_CANNOT_CHANGE_LOOKS_SERVANT_SAME_LOOK	동일한 외형으로는 외형 변경할 수 없습니다.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	매칭된 던전이 클리어 되어 현재는 추가 매칭 기능을 사용할 수 없습니다.
