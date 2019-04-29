@@ -341,7 +341,9 @@
 203	SMT_CANNOT_STORE_GUILDWAREHOUSE	Cannot put into guild bank.
 203	SMT_CANNOT_STORE_ITEM_INTO_WARE	You can't put that item in your bank.
 203	SMT_CANNOT_STORE_MONEY_INTO_WARE	Can't put money in the bank.
-203	SMT_CANNOT_STORE_WAREHOUSE	That item can't be stored in the bank.
+203	SMT_CANNOT_STORE_WAREHOUSE	That item can't be stored in the your account bank.
+203	SMT_CANNOT_STORE_STYLEWAREHOUSE	That item can't be stored in the Wardrobe.
+203	SMT_CANNOT_STORE_USERWAREHOUSE	That item can't be stored in Special Storage.
 201	SMT_CANNOT_SUMMON_NONUNION_PARTYMEMBER	You cannot summon party members who belong to a different alliance into your alliance territory.
 203	SMT_CANNOT_SUMMON_PARTY	Reapers must be at least level 58 to summon parties.
 203	SMT_CANNOT_TELEPORT_AT_THIS_AREA	You may not teleport from here.
@@ -1196,7 +1198,7 @@
 201	SMT_INVALID_PAGE	Invalid page request.
 203	SMT_INVALID_RECIPE	Invalid recipe.
 201	SMT_INVALID_REQUEST	Invalid request.
-203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Your inventory can't be expanded right now.
+203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Inventory Manager cannot expand your inventory any more.
 203	SMT_INVEN_EXTENSION_FAILED_LIMIT120	Cannot expand inventory slots any more.
 203	SMT_INVEN_EXTENSION_FAILED_MONEY	Failed to expand inventory.
 201	SMT_INVEN_EXTENSION_SUCCESS	You now have {SlotCount} inventory slots.
@@ -1510,7 +1512,7 @@
 201	SMT_PERIOD_ITEM_CANT_MERGE_SUCCESS	The remaining time of your {ItemName} is now {Day} day{@select:{Day}/s//s} {Hour} hour{@select:{Hour}/s//s} {Min} minute{@select:{Min}/s//s}.
 209	SMT_PERIOD_ITEM_EXPIRE	Deleted limited-duration {ItemName} because the duration expired.
 201	SMT_PERSONAL_WAREHOUSE_BUY	Buy the [Personal Storage Expansion] item to add more space to your inventory.
-201	SMT_PERSONAL_WAREHOUSE_UPGRADE	Your personal inventory has been expanded.
+201	SMT_PERSONAL_WAREHOUSE_UPGRADE	Your inventory has been expanded.
 203	SMT_PETITION_CANNOT_SURVEY_TIMEOUT	You cannot participate in the survey because 24 hours have passed since your petition has been answered.
 203	SMT_PETITION_CANT_CLOSE	Please keep UI toggled on while chatting with the GM.
 203	SMT_PETITION_NOT_SERVICE_TIME	Your question can't be sent right now.
@@ -2048,6 +2050,8 @@
 203	SMT_VOTE_GUILD_EXCEED_COUNT	You cannot praise more than {ARG} time{@select:{ARG}/s//s}.
 203	SMT_WAREHOUSE_CANT_UPGRADE	You cannot expand your bank any more.
 203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	You cannot expand your Wardrobe any more.
+203	SMT_USERWAREHOUSE_CANT_UPGRADE	You cannot expand your Account Bank any more.
+203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	You must possess a servant with the corresponding ability.
 203	SMT_WAREHOUSE_FULL	You can't deposit any more.
 201	SMT_WAREHOUSE_GOLD_DRAW	You withdrew {Amount@money}.
 201	SMT_WAREHOUSE_GOLD_INSERT	You deposited {Amount@money}.
@@ -2311,9 +2315,51 @@
 201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{userName}</font> from <font color = '#f6f493'>{guildName}</font> killed <font color = '#ff3300'>{npcname}</font>.
 201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font> killed <font color = '#ff3300'>{npcname}</font>.
 203	SMT_SKILL_FAIL_ON_CHANGE	Cannot use skills when changing regions.
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	EP is not activated.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	Cannot change options during combat.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Cannot change options while effect is active.
 201	SMT_GAIN_SKILL_POLISHING_EXP	You've gained {gainExp} Skill Advancement XP.
 201	SMT_GAIN_SKILL_POLISHING_POINT	You've obtained Skill Advancement Points.
 201	SMT_CANT_SAVE_SCREENSHOT	Failed to save a screenshot.
+203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Your companion list is full. You must expand or remove your list.
+201	SMT_GET_SERVANT	{ServantName} has been registered. You can change {ServantName}'s name with the Change Name button in the Companion List.
+201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Your Companion List has been expanded.
+203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	You cannot expand your Companion List anymore.
+203	SMT_CANNOT_SPAWN_PARTNER_LACK_ENERGY	You must use a gift to recover stamina.
+203	SMT_CANNOT_SPAWN_PET_LACK_ENERGY	You must use a food item to recover energy.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_FULL	Stamina is already full.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_DESPAWN	A partner must be summoned first.
+203	SMT_CANNOT_USE_PET_FEED_FULL	Energy is already full.
+203	SMT_CANNOT_USE_PET_FEED_DESPAWN	A pet must be summoned first.
+201	SMT_DESPAWN_PARTNER_LACK_ENERGY	{ServantName} ran out of stamina, and its functions were shut down.
+201	SMT_DESPAWN_PET_LACK_ENERGY	{ServantName} ran out of energy, and its functions were shut down.
+201	SMT_USE_PARTNER_PRESENT	You used {itemName}. {ServantName}'s stamina recovered by {Num}.
+201	SMT_USE_PET_FEED	You used {itemName}. {ServantName}'s energy recovered by {Num}.
+203	SMT_CANNOT_USE_ITEM_NOT_PRESENT	That item is not a gift item.
+203	SMT_CANNOT_USE_ITEM_NOT_FEED	That item is not a food item.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_NO_ITEM	You don't have any Gifted Skill Change Vouchers.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	You can't change the gifted skill right now.
+203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	You can't remove a companion's ability while it is summoned.
+203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Companion Name Change Voucher is required.
+203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	You cannot promote right now.
+203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	The ability slot is full. You can't move abilities.
+201	SMT_TRANSFER_ABILITY_COMPLETE	{SubServantName}'s ability has been transferred to {MainServantName}.
+203	SMT_CANNOT_TRANSFER_ABILITY_SERVERDOWN	You cannot train your companion right now.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM	You can't place that item there.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM_FULL	Your item register slot is full.
+201	SMT_PET_LEVELUP_COMPLETE	{ServantName}'s XP increased by {exp}.
+201	SMT_PET_LEVELUP	{ServantName} is now level {level}.
+203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	You cannot grow right now.
+201	SMT_PET_EVOLUTION_FAIL	{ServantName} failed to evolve. {ServantName}'s level has decreased to {level}.
+203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	You cannot evolve right now.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	You obtained {ServantDefaultName} from combining.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion List.</font>
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	You obtained {ServantDefaultName} from combining.
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion List.</font>
+203	SMT_CANNOT_PET_MIX_SERVERDOWN	You cannot combine right now.
+203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	You cannot register in this slot.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	You can't purchase through this account anymore.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	You can't buy any more. The item is out of stock.
+201	SMT_BUYLIMIT_ALERT_RESET	{StoreName}'s purchase limit has been reset.
+203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	You can't remove a partner while it is summoned.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	You have cleared the matched dungeon. You can't use the matching function due to your status.

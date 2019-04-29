@@ -341,7 +341,9 @@
 203	SMT_CANNOT_STORE_GUILDWAREHOUSE	Placement à la banque de guilde impossible.
 203	SMT_CANNOT_STORE_ITEM_INTO_WARE	Vous ne pouvez pas déposer cet objet en banque.
 203	SMT_CANNOT_STORE_MONEY_INTO_WARE	Impossible de déposer de l'argent à la banque.
-203	SMT_CANNOT_STORE_WAREHOUSE	Cet objet ne peut pas être déposé en banque.
+203	SMT_CANNOT_STORE_WAREHOUSE	Vous ne pouvez pas entreposer cet objet dans la banque de compte.
+203	SMT_CANNOT_STORE_STYLEWAREHOUSE	Vous ne pouvez pas entreposer cet objet dans la réserve de costume.
+203	SMT_CANNOT_STORE_USERWAREHOUSE	Vous ne pouvez pas entreposer cet objet dans l'inventaire personnel.
 201	SMT_CANNOT_SUMMON_NONUNION_PARTYMEMBER	Vous ne pouvez pas invoquer de membres de groupe appartenant à une autre alliance sur le territoire de votre alliance.
 203	SMT_CANNOT_SUMMON_PARTY	Les Mortiféras doivent être de niveau 58 minimum pour pouvoir invoquer un groupe.
 203	SMT_CANNOT_TELEPORT_AT_THIS_AREA	Vous ne pouvez pas vous téléporter depuis cet endroit.
@@ -1196,7 +1198,7 @@
 201	SMT_INVALID_PAGE	Requête de page invalide.
 203	SMT_INVALID_RECIPE	Recette non valide.
 201	SMT_INVALID_REQUEST	Requête invalide.
-203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Votre inventaire ne peut pas être agrandi pour l'instant.
+203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Le gestionnaire d'inventaire ne peut pas élargir davantage votre inventaire.
 203	SMT_INVEN_EXTENSION_FAILED_LIMIT120	Vous ne pouvez plus élargir votre éventail.
 203	SMT_INVEN_EXTENSION_FAILED_MONEY	Échec de l'agrandissement de l'inventaire.
 201	SMT_INVEN_EXTENSION_SUCCESS	Vous avez désormais {SlotCount} emplacements d'inventaire.
@@ -1510,7 +1512,7 @@
 201	SMT_PERIOD_ITEM_CANT_MERGE_SUCCESS	La durée limite de l'objet "{ItemName}" est de {Day} day{@select:{Day}///s} {Hour} hour{@select:{Hour}///s} {Min} minute{@select:{Min}///s}.
 209	SMT_PERIOD_ITEM_EXPIRE	L'objet "{ItemName}", à durée limitée, a été supprimé car il est arrivé à expiration.
 201	SMT_PERSONAL_WAREHOUSE_BUY	Achetez l'objet d'extension de stockage personnel pour agrandir votre inventaire.
-201	SMT_PERSONAL_WAREHOUSE_UPGRADE	Votre inventaire personnel est désormais plus grand.
+201	SMT_PERSONAL_WAREHOUSE_UPGRADE	Votre inventaire personnel est désormais élargi.
 203	SMT_PETITION_CANNOT_SURVEY_TIMEOUT	Vous ne pouvez pas participer à l'enquête car vous avez eu une réponse depuis plus de 24 heures.
 203	SMT_PETITION_CANT_CLOSE	Veuillez laisser l'interface affichée pendant votre discussion avec le MJ.
 203	SMT_PETITION_NOT_SERVICE_TIME	Votre question ne peut pas être envoyée pour l'instant.
@@ -2046,8 +2048,10 @@
 203	SMT_VOTE_GUILD_COOLTIME_SEC	Vous ne pouvez pas recommander la guilde [{GuildName}]. Il vous reste {Sec} seconde{@select:{Sec}///s} avant de pouvoir la recommander à nouveau.
 203	SMT_VOTE_GUILD_COOLTIME_TIME	Vous ne pouvez pas recommander la guilde [{GuildName}]. Attendez {Time} heure{@select:{Time}///s} avant de pouvoir la recommander à nouveau.
 203	SMT_VOTE_GUILD_EXCEED_COUNT	Vous ne pouvez pas recommander plus de {ARG} fois.
-203	SMT_WAREHOUSE_CANT_UPGRADE	Vous ne pouvez plus agrandir votre banque.
-203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	Vous ne pouvez plus agrandir votre entrepôt.
+203	SMT_WAREHOUSE_CANT_UPGRADE	Vous ne pouvez pas élargir votre banque de compte.
+203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	Vous ne pouvez pas élargir votre réserve de costume.
+203	SMT_USERWAREHOUSE_CANT_UPGRADE	Vous ne pouvez pas élargir l'inventaire personnel.
+203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	Un assistant doit posséder l'inventaire personnel pour que vous puissiez utiliser cette compétence.
 203	SMT_WAREHOUSE_FULL	Vous ne pouvez plus faire de dépôts.
 201	SMT_WAREHOUSE_GOLD_DRAW	Vous avez retiré {Amount@money}.
 201	SMT_WAREHOUSE_GOLD_INSERT	Vous avez déposé {Amount@money}.
@@ -2311,9 +2315,51 @@
 201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{userName} </font> de la guilde <font color = '#f6f493'>{guildName}</font> a éliminé <font color = '#ff3300'>{npcname}</font>.
 201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font> a éliminé <font color = '#ff3300'>{npcname}</font>.
 203	SMT_SKILL_FAIL_ON_CHANGE	Vous ne pouvez pas utiliser de compétences pendant la téléportation.
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	La PE n'est pas activée.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	Vous ne pouvez pas modifier les options de compétence en plein combat.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Vous ne pouvez pas modifier les options de compétence pendant que la compétence est activée.
 201	SMT_GAIN_SKILL_POLISHING_EXP	Vous avez obtenu {gainExp} PEX de finesse de compétence.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Vos PEX de finesse de compétence ont augmenté.
 201	SMT_CANT_SAVE_SCREENSHOT	La capture d'écran n'a pas été enregistrée.
+203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Vous ne pouvez pas inscrire d'autres assistants. Élargissez la liste ou supprimez un assistant de la liste.
+201	SMT_GET_SERVANT	{ServantName} est désormais inscrit. Vous pouvez changer le nom de l'assistant avec l'option "Rebaptiser".
+201	SMT_INCREASE_SERVANT_STORAGE_SIZE	La liste d'assistants est élargie.
+203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	Votre liste d'assistants ne peut pas faire l'objet d'une extension supplémentaire.
+203	SMT_CANNOT_SPAWN_PARTNER_LACK_ENERGY	La vitalité s'élève à 0. Utilisez un objet cadeau pour régénérer la vitalité.
+203	SMT_CANNOT_SPAWN_PET_LACK_ENERGY	L'énergie s'élève à 0. Utilisez un objet d'alimentation pour régénérer l'énergie.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_FULL	La vitalité est pleine. Vous ne pouvez pas la régénérer.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_DESPAWN	Vous ne pouvez pas utiliser d'objet cadeau car vous n'avez pas invoqué de partenaire.
+203	SMT_CANNOT_USE_PET_FEED_FULL	L'énergie est pleine. Vous ne pouvez pas la régénérer.
+203	SMT_CANNOT_USE_PET_FEED_DESPAWN	Vous ne pouvez pas utiliser d'objet d'alimentation car vous n'avez pas invoqué de familier.
+201	SMT_DESPAWN_PARTNER_LACK_ENERGY	L'invocation est interrompue car la vitalité de {ServantName} s'élève à 0.
+201	SMT_DESPAWN_PET_LACK_ENERGY	L'invocation est interrompue car l'énergie de {ServantName} s'élève à 0.
+201	SMT_USE_PARTNER_PRESENT	{ServantName} régénère {Num} points de vitalité grâce à {itemName}.
+201	SMT_USE_PET_FEED	{ServantName} régénère {Num} points d'énergie grâce à {itemName}.
+203	SMT_CANNOT_USE_ITEM_NOT_PRESENT	Utilisez un objet cadeau.
+203	SMT_CANNOT_USE_ITEM_NOT_FEED	Utilisez un objet d'alimentation.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_NO_ITEM	Vous n'avez pas de bon de modification de compétence de talent.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	Vous ne pouvez pas effectuer la modification de compétence de talent.
+203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	Vous ne pouvez pas supprimer la compétence de l'assistant pendant son invocation.
+203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Vous avez besoin d'un bon de modification de nom d'assistant.
+203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	Vous ne pouvez pas effectuer l'évolution.
+203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	Les emplacements de compétence sont tous occupés.
+201	SMT_TRANSFER_ABILITY_COMPLETE	La compétence de {SubServantName} est transposée sur {MainServantName}.
+203	SMT_CANNOT_TRANSFER_ABILITY_SERVERDOWN	Vous ne pouvez pas effectuer la transposition.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM	Cet objet ne peut pas être enregistré comme matériau de croissance.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM_FULL	Tous les emplacements d'objets sont occupés.
+201	SMT_PET_LEVELUP_COMPLETE	Les PEX de {ServantName} ont augmenté de {exp}.
+201	SMT_PET_LEVELUP	{ServantName} a atteint le niveau {level}.
+203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	Vous ne pouvez pas effectuer la croissance.
+201	SMT_PET_EVOLUTION_FAIL	La métamorphose de {ServantName} a échoué. Le niveau a chuté à {level}.
+203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	Vous ne pouvez pas effectuer la métamorphose.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	Vous avez obtenu {ServantDefaultName} grâce à la fusion.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	Vous pouvez rebaptiser l'assistant via l'option <font color='#66bbff'>rebaptiser</font> de la <font color='#ffffff'>liste d'assistants</font><font color='#ffffff'>.</font>
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	Vous avez obtenu {ServantDefaultName} grâce à la fusion.
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	Vous pouvez rebaptiser l'assistant via l'option <font color='#66bbff'>rebaptiser</font> de la <font color='#ffffff'>liste d'assistants</font><font color='#ffffff'>.</font>
+203	SMT_CANNOT_PET_MIX_SERVERDOWN	Vous ne pouvez pas effectuer la fusion.
+203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	Vous ne pouvez pas enregistrer ceci dans l'emplacement sélectionné.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	L'achat est impossible depuis ce compte.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	L'achat est impossible car l'objet n'est plus en stock.
+201	SMT_BUYLIMIT_ALERT_RESET	Vous ne pouvez pas acheter d'autres {StoreName}.
+203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	Vous ne pouvez pas supprimer un assistant invoqué.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	Pour le moment, vous ne pouvez pas lancer de recherche de groupe pour ce donjon.

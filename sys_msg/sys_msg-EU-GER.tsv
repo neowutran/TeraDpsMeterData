@@ -341,7 +341,9 @@
 203	SMT_CANNOT_STORE_GUILDWAREHOUSE	Kann nicht bei der Gildenbank hinterlegt werden.
 203	SMT_CANNOT_STORE_ITEM_INTO_WARE	Ihr könnt diesen Gegenstand nicht in Eurer Bank einlagern.
 203	SMT_CANNOT_STORE_MONEY_INTO_WARE	Ihr könnt kein Geld in der Bank deponieren.
-203	SMT_CANNOT_STORE_WAREHOUSE	Dieser Gegenstand kann nicht in der Bank gelagert werden.
+203	SMT_CANNOT_STORE_WAREHOUSE	Dieser Gegenstand kann nicht in der Accountbank gelagert werden.
+203	SMT_CANNOT_STORE_STYLEWAREHOUSE	Dieser Gegenstand kann nicht im Kostümlager aufbewahrt werden.
+203	SMT_CANNOT_STORE_USERWAREHOUSE	Dieser Gegenstand kann nicht im persönlichem Inventar aufbewahrt werden.
 201	SMT_CANNOT_SUMMON_NONUNION_PARTYMEMBER	Ihr könnt keine Gruppenmitglieder anderer Allianzen in Euer Allianzterritorium rufen.
 203	SMT_CANNOT_SUMMON_PARTY	Klingentänzerinnen müssen mindestens Stufe 58 haben, um Gruppen zu beschwören.
 203	SMT_CANNOT_TELEPORT_AT_THIS_AREA	Ihr könnt von hier nicht teleportieren.
@@ -1196,7 +1198,7 @@
 201	SMT_INVALID_PAGE	Ungültige Seitenanfrage.
 203	SMT_INVALID_RECIPE	Ungültiger Entwurf.
 201	SMT_INVALID_REQUEST	Ungültige Anfrage.
-203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Ihr könnt Euer Inventar jetzt nicht erweitern.
+203	SMT_INVEN_EXTENSION_FAILED_LIMIT	Euer Inventar kann vom Inventarverwalter nicht weiter erweitert werden.
 203	SMT_INVEN_EXTENSION_FAILED_LIMIT120	Ihr könnt Euer Inventar nicht weiter vergrößern.
 203	SMT_INVEN_EXTENSION_FAILED_MONEY	Inventarerweiterung gescheitert.
 201	SMT_INVEN_EXTENSION_SUCCESS	Ihr habt nun {SlotCount} Inventarplätze.
@@ -2046,8 +2048,10 @@
 203	SMT_VOTE_GUILD_COOLTIME_SEC	Ihr könnt die Gilde "{GuildName}" jetzt nicht empfehlen. In {Sec} Sek. könnt Ihr erneut eine Empfehlung abgeben.
 203	SMT_VOTE_GUILD_COOLTIME_TIME	Ihr könnt die Gilde "{GuildName}" jetzt nicht empfehlen. In {Time} Std. könnt Ihr erneut eine Empfehlung abgeben.
 203	SMT_VOTE_GUILD_EXCEED_COUNT	Ihr könnt nicht mehr als {ARG}-mal am Tag eine Empfehlung aussprechen.
-203	SMT_WAREHOUSE_CANT_UPGRADE	Ihr könnt Euren Speicherplatz in der Bank nicht mehr erweitern.
-203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	Ihr könnt Euren Speicherplatz im Lager nicht mehr erweitern.
+203	SMT_WAREHOUSE_CANT_UPGRADE	Eure Accountbank kann nicht erweitert werden.
+203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	Euer Kostümlager kann nicht erweitert werden.
+203	SMT_USERWAREHOUSE_CANT_UPGRADE	Ihr könnt das persönliche Inventar nicht erweitern.
+203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	Das persönliche Inventar kann nur verwendet werden, wenn ein Helfer diese Fähigkeit besitzt.
 203	SMT_WAREHOUSE_FULL	Ihr könnt nichts mehr einlagern.
 201	SMT_WAREHOUSE_GOLD_DRAW	Ihr habt {Amount@money} abgehoben.
 201	SMT_WAREHOUSE_GOLD_INSERT	Ihr habt {Amount@money} eingezahlt.
@@ -2311,9 +2315,51 @@
 201	SMT_FIELDBOSS_DIE_GUILD	<font color = '#f6f493'>{userName}</font> der Gilde <font color = '#f6f493'>{guildName}</font> hat <font color = '#ff3300'>{npcname}</font> erledigt.
 201	SMT_FIELDBOSS_DIE_NOGUILD	<font color = '#f6f493'>{userName}</font> hat <font color = '#ff3300'>{npcname}</font> erledigt.
 203	SMT_SKILL_FAIL_ON_CHANGE	Ihr könnt während des Teleportierens keine Fertigkeiten verwenden.
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	EL wurde nicht aktiviert.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	Während des Kampfes könnt Ihr keine Fertigkeitsoptionen ändern.
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Solange die Fertigkeit aktiv ist, können keine Fertigkeitsoptionen geändert werden.
 201	SMT_GAIN_SKILL_POLISHING_EXP	Ihr habt {gainExp} Fertigkeitsfinesse-EP erhalten.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Eure Fertigkeitsfinesse-EP sind angestiegen.
 201	SMT_CANT_SAVE_SCREENSHOT	Der Screenshot wurde nicht gespeichert.
+203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Ihr könnt keine weiteren Helfer registrieren. Erweitert die Liste oder löscht einen Helfer aus der Liste.
+201	SMT_GET_SERVANT	{ServantName} wurde registriert. Der Name des Helfers kann unter "Name ändern" geändert werden.
+201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Die Helferliste wurde erweitert.
+203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	Die Helferliste kann nicht weiter erweitert werden.
+203	SMT_CANNOT_SPAWN_PARTNER_LACK_ENERGY	Die Vitalität beträgt 0. Verwendet einen Geschenkgegenstand, um die Vitalität zu regenerieren.
+203	SMT_CANNOT_SPAWN_PET_LACK_ENERGY	Die Energie beträgt 0. Verwendet einen Futtergegenstand, um die Energie zu regenerieren.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_FULL	Die Vitalität ist voll. Eine Regeneration ist nicht möglich.
+203	SMT_CANNOT_USE_PARTNER_PRESENT_DESPAWN	Der Geschenkgegenstand kann nicht verwendet werden, da kein Partner beschworen wurde.
+203	SMT_CANNOT_USE_PET_FEED_FULL	Die Energie ist voll. Eine Regeneration ist nicht möglich.
+203	SMT_CANNOT_USE_PET_FEED_DESPAWN	Der Futtergegenstand kann nicht verwendet werden, da kein Begleiter beschworen wurde.
+201	SMT_DESPAWN_PARTNER_LACK_ENERGY	Die Vitalität von {ServantName} beträgt 0, deshalb wurde die Beschwörung abgebrochen.
+201	SMT_DESPAWN_PET_LACK_ENERGY	Die Energie von {ServantName} beträgt 0, deshalb wurde die Beschwörung abgebrochen.
+201	SMT_USE_PARTNER_PRESENT	Die Vitalität von {ServantName} wurde durch {itemName} um {Num} regeneriert.
+201	SMT_USE_PET_FEED	Die Energie von {ServantName} wurde durch {itemName} um {Num} regeneriert.
+203	SMT_CANNOT_USE_ITEM_NOT_PRESENT	Verwendet einen Geschenkgegenstand.
+203	SMT_CANNOT_USE_ITEM_NOT_FEED	Verwendet einen Futtergegenstand.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_NO_ITEM	Ihr besitzt keine Talentfertigkeit-Änderungscoupons.
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	Die Talentfertigkeits-Änderung kann nicht durchgeführt werden.
+203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	Die Fähigkeit des Helfers kann während seiner Beschwörung nicht entfernt werden.
+203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Ihr benötigt einen Helfername-Änderungscoupon.
+203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	Die Aufstufung kann nicht durchgeführt werden.
+203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	Die Fähigkeiten-Slots sind alle belegt.
+201	SMT_TRANSFER_ABILITY_COMPLETE	Die Fähigkeit von {SubServantName} wurde auf {MainServantName} übertragen.
+203	SMT_CANNOT_TRANSFER_ABILITY_SERVERDOWN	Die Übertragung kann nicht durchgeführt werden.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM	Der Gegenstand kann nicht als Wachstums-Material registriert werden.
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM_FULL	Alle Gegenstand-Slots sind besetzt.
+201	SMT_PET_LEVELUP_COMPLETE	Die EP von {ServantName} wurden um {exp} erhöht.
+201	SMT_PET_LEVELUP	{ServantName} hat Stufe {level} erreicht.
+203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	Das Wachstum kann nicht durchgeführt werden.
+201	SMT_PET_EVOLUTION_FAIL	Die Weiterentwicklung von {ServantName} ist fehlgeschlagen. Die Stufe ist auf {level} gesunken.
+203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	Die Weiterentwicklung kann nicht durchgeführt werden.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	Ihr habt durch Fusion {ServantDefaultName} erhalten.
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	Der Helfername kann in der <font color='#ffffff'>Helferliste</font> unter <font color='#66bbff'>Name ändern</font><font color='#ffffff'> geändert werden.</font>
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	Ihr habt durch Fusion {ServantDefaultName} erhalten.
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	Der Helfername kann in der <font color='#ffffff'>Helferliste</font> unter <font color='#66bbff'>Name ändern</font><font color='#ffffff'> geändert werden.</font>
+203	SMT_CANNOT_PET_MIX_SERVERDOWN	Die Fusion kann nicht durchgeführt werden.
+203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	Kann nicht in den ausgewählten Slot registriert werden.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	Mit diesem Account ist der Kauf nicht möglich.
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	Der Kauf ist nicht möglich, da der Gegenstand nicht mehr auf Lager ist.
+201	SMT_BUYLIMIT_ALERT_RESET	Ihr könnt keine weiteren {StoreName} kaufen.
+203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	Ein beschworener Helfer kann nicht entfernt werden.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	Ihr könnt im Moment keine Gruppensuche für diesen Dungeon starten.
