@@ -329,6 +329,7 @@
 203	SMT_CANNOT_MAKE_CONTRACT	지금은 할 수 없습니다.
 203	SMT_CANNOT_MOVE_CHANNEL_GENERAL	지금은 채널을 이동할 수 없습니다.
 203	SMT_CANNOT_PARCEL_THISITEM	{ItemName}{은} 우편에 첨부할 수 없습니다.
+203	SMT_CANNOT_RECEIVE_ESCROW_PARCEL	수수료를 지불하고 물품을 받는 우편은 일괄 수령할 수 없습니다.
 203	SMT_CANNOT_RECEIVE_ITEM	물품을 받을 수 없습니다.
 203	SMT_CANNOT_REGISTER_ITEM	해당 아이템은 등록할 수 없습니다.
 203	SMT_CANNOT_RESURRECT	지금은 부활할 수 없습니다.
@@ -1466,6 +1467,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	메모리 부족으로 인해 텍스처 해상도가 일시적으로 하향 조절됩니다.
 204	SMT_OUT_PARTY	{party}에서 추방됐습니다.
 204	SMT_OUT_UNIONPARTY	공격대에서 추방됐습니다.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	캐릭터를 찾을 수 없습니다.
 203	SMT_PARCEL_CANT_SENDING_BACK	우편을 반송할 수 없습니다.
 201	SMT_PARCEL_DELETE_PARCEL	선택한 우편을 삭제했습니다.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	받은 우편함에 읽지 않은 우편이 있습니다.
@@ -2238,6 +2240,7 @@
 203	SMT_HUDDLEADDING_USER	{Username}님은 아이템 및 골드 양도가 제한된 상태입니다.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	대상과의 거리가 너무 가까워 스킬을 시전할 수 없습니다.
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	던전 내에서만 사용 가능합니다.
+203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	해당 기능은 파티장만 사용 가능합니다.
 201	SMT_CHANGELOOK_CANT_USE	아이템 사용 조건이 맞지않아 사용할 수 없습니다.
 201	SMT_CHANGELOOK_NO_SELECT	위의 모습 중 한가지로 외모가 변경됩니다.
 201	SMT_CHANGELOOK_SHOP_SELECT	아이템 사용시 <font color = '#FF0000'>캐릭터의 외형이 랜덤하게 변경되며, 결과를 되돌릴 수 없습니다.</font> 내용을 충분히 확인하신 후 구매하시기 바랍니다.
@@ -2367,10 +2370,21 @@
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	해당 슬롯에 등록할 수 없습니다.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	해당 계정으로는 더 이상 구매할 수 없습니다.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	남은 재고가 없어 더 이상 구매할 수 없습니다.
-201	SMT_BUYLIMIT_ALERT_RESET	{StoreName}의 구매 제한이 초기화되었습니다.
+201	SMT_BUYLIMIT_ALERT_RESET	{buyMenu}의 구매 제한이 초기화되었습니다.
 203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	소환된 서번트는 제거할 수 없습니다.
 203	SMT_CANNOT_SERVANT_DELETE_EQUIPSTYLE	스타일 아이템을 장착 중인 파트너는 제거할 수 없습니다.
 203	SMT_CANNOT_EQUIP_PARTNER_STYLE_DESPAWN	파트너가 소환되지 않아 파트너 스타일 아이템을 장착할 수 없습니다.
 203	SMT_CANNOT_EQUIP_PARTNER_STYLE_MISMATCH	소환된 서번트는 해당 파트너 스타일 아이템을 장착할 수 없습니다.
 203	SMT_CANNOT_CHANGE_LOOKS_SERVANT_SAME_LOOK	동일한 외형으로는 외형 변경할 수 없습니다.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	매칭된 던전이 클리어 되어 현재는 추가 매칭 기능을 사용할 수 없습니다.
+203	SMT_INVEN_POCKET_CANT_UNLOCK_FOR_ACHIEVEMENT_REWARD	퀘스트를 통해 [암상인 발견] 업적 달성 시 주머니를 획득할 수 있습니다.
+203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	빈 공간이 존재하지 않아 이동이 불가능합니다.
+203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	먼저 검색 및 분류 필터가 해제 되어야 합니다.
+202	SMT_WORLDSPAWN_NOTIFY_SPAWN	{RegionName}에 <font color = '#ff3300'>{npcname}</font>{가} 등장하였습니다.
+201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	{RegionName}에서 <font color = '#ff3300'>{npcname}</font>{가} 떠났습니다.
+201	SMT_POPUP_NUMSEL_INPUT_TITLE	입력
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	해당 NPC는 소환한 유저만 이용할 수 있습니다.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	해당 NPC는 소환한 유저와 같은 파티의 유저만 이용할 수 있습니다.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	해당 NPC는 소환한 유저와 소환한 시점에 주변에 있던 파티원만 이용할 수 있습니다.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	해당 NPC는 소환한 유저와 같은 파티 또는 공격대의 유저만 이용할 수 있습니다.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	해당 NPC는 소환한 유저와 소환한 시점에 주변에 있던 파티원 또는 공격대원만 이용할 수 있습니다.

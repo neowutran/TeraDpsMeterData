@@ -341,7 +341,9 @@
 203	SMT_CANNOT_STORE_GUILDWAREHOUSE	ไม่สามารถใส่เข้าธนาคารกิลด์
 203	SMT_CANNOT_STORE_ITEM_INTO_WARE	เจ้าไม่สามารถใส่ไอเทมนั้นในธนาคารของเจ้า
 203	SMT_CANNOT_STORE_MONEY_INTO_WARE	ไม่สามารถใส่เงินในธนาคาร
-203	SMT_CANNOT_STORE_WAREHOUSE	ไอเทมนั้นไม่สามารถเก็บในธนาคารได้
+203	SMT_CANNOT_STORE_WAREHOUSE	ไอเทมนี้ไม่สามารถใส่ในช่องธนาคารได้
+203	SMT_CANNOT_STORE_STYLEWAREHOUSE	ไอเทมนี้ไม่สามารถใส่ในช่องตู้เก็บเสื้อผ้าได้
+203	SMT_CANNOT_STORE_USERWAREHOUSE	ไอเทมนี้ไม่สามารถใส่ในช่องรับฝากไอเทมได้
 201	SMT_CANNOT_SUMMON_NONUNION_PARTYMEMBER	เจ้าไม่สามารถเรียกสมาชิกปาร์ตี้ซึ่งเป็นพันธมิตรที่แตกต่างในเขตพันธมิตรของเจ้า
 203	SMT_CANNOT_SUMMON_PARTY	Reapers ต้องอยู่ในเลเวล 58 เป็นอย่างน้อยเพื่อเรียกปาร์ตี้
 203	SMT_CANNOT_TELEPORT_AT_THIS_AREA	เจ้าไม่อาจเคลื่อนที่จากที่นี่
@@ -1196,7 +1198,7 @@
 201	SMT_INVALID_PAGE	การร้องขอเพจไม่ถูกต้อง
 203	SMT_INVALID_RECIPE	ส่วนผสมไม่ถูกต้อง
 201	SMT_INVALID_REQUEST	การร้องขอไม่ถูกต้อง
-203	SMT_INVEN_EXTENSION_FAILED_LIMIT	รายการสิ่งของ ๆ เจ้าไม่สามารถถูกขยายในเวลานี้
+203	SMT_INVEN_EXTENSION_FAILED_LIMIT	รายการสิ่งของต่างๆ ของท่าน ไม่สามารถถูกขยายได้ในตอนนี้
 203	SMT_INVEN_EXTENSION_FAILED_LIMIT120	ไม่สามารถขยายช่องรายการสิ่งของได้มากกว่านี้
 203	SMT_INVEN_EXTENSION_FAILED_MONEY	ล้มเหลวในการขยายรายการสิ่งของ
 201	SMT_INVEN_EXTENSION_SUCCESS	เจ้ามีช่องรายการสิ่งของ {SlotCount} ช่องตอนนี้
@@ -1510,7 +1512,7 @@
 201	SMT_PERIOD_ITEM_CANT_MERGE_SUCCESS	เวลาที่เหลืออยู่ {ItemName} ของท่านเป็น {Day} วัน {Hour} ชั่วโมง {Min} นาที
 209	SMT_PERIOD_ITEM_EXPIRE	การลบช่วงเวลาที่จำกัด {ItemName} เพราะช่วงเวลานั้นหมดอายุไปแล้ว
 201	SMT_PERSONAL_WAREHOUSE_BUY	ซื้อ [ขยายช่องเก็บของส่วนตัว] ไอเทมเพื่อเพิ่มที่ว่างให้กับรายการสิ่งของ ๆ เจ้า
-201	SMT_PERSONAL_WAREHOUSE_UPGRADE	รายการสิ่งของส่วนตัวของเจ้าได้ถูกขยายแล้ว
+201	SMT_PERSONAL_WAREHOUSE_UPGRADE	รายการช่องรับฝากไอเทมของท่านได้ถูกขยายแล้ว
 203	SMT_PETITION_CANNOT_SURVEY_TIMEOUT	เจ้าไม่สามารถเข้าร่วมการสำรวจเพราะผ่านไป 24 ชั่วโมงนับตั้งแต่คำร้องของเจ้าถูกตอบ
 203	SMT_PETITION_CANT_CLOSE	กรุณาเปิด UI ในขณะที่แชทกับ GM
 203	SMT_PETITION_NOT_SERVICE_TIME	คำถามของเจ้าไม่สามารถส่งได้ในเวลานี้
@@ -2046,8 +2048,10 @@
 203	SMT_VOTE_GUILD_COOLTIME_SEC	เจ้าไม่สามารถยกย่อง [{GuildName}] กิลด์ในเวลานี้ รอ{Sec} วินาที{@select:{Sec}///s} จนกว่าเจ้าจะยกย่องได้อีกครั้ง
 203	SMT_VOTE_GUILD_COOLTIME_TIME	เจ้าไม่สามารถยกย่อง [{GuildName}] กิลด์ในเวลานี้ รอ{Time} ชั่วโมง{@select:{Time}/s//s} จนกว่าเจ้าจะยกย่องได้อีกครั้ง
 203	SMT_VOTE_GUILD_EXCEED_COUNT	เจ้าไม่สามารถยกย่องได้มากกว่า {ARG} ครั้ง {@select:{ARG}/s//s}.
-203	SMT_WAREHOUSE_CANT_UPGRADE	เจ้าไม่สามารถขยายธนาคารของเจ้าได้มากกว่านี้
-203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	ท่านไม่สามารถขยายช่องตู้เสื้อผ้าได้มากกว่านี้
+203	SMT_WAREHOUSE_CANT_UPGRADE	ท่านไม่สามารถขยายช่องเก็บไอเทม ในธนาคารของท่านได้มากกว่านี้แล้ว
+203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	ท่านไม่สามารถขยายช่องตู้เสื้อผ้าได้มากกว่านี้แล้ว
+203	SMT_USERWAREHOUSE_CANT_UPGRADE	ท่านไม่สามารถขยายช่องรับฝากไอเทมของท่าน ได้มากกว่านี้แล้ว
+203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	ท่านต้องลงทะเบียนสัตว์เลี้ยง ที่มีความสามารถเฉพาะตัวช่วยรับฝากไอเทม จึงจะสามารถใช้ช่องเก็บของส่วนตัวได้
 203	SMT_WAREHOUSE_FULL	เจ้าไม่สามารถฝากได้มากกว่านี้
 201	SMT_WAREHOUSE_GOLD_DRAW	เจ้าถอน {Amount@money}.
 201	SMT_WAREHOUSE_GOLD_INSERT	เจ้าฝาก  {Amount@money}.
@@ -2311,9 +2315,51 @@
 201	SMT_FIELDBOSS_DIE_GUILD	ผู้เล่น <font color = '#f6f493'>{userName}</font> จากกิลด์ <font color = '#f6f493'>{guildName}</font> ได้กำจัด <font color = '#ff3300'>{npcname}</font> แล้ว
 201	SMT_FIELDBOSS_DIE_NOGUILD	ท่าน<font color = '#f6f493'>{userName}</font>ได้กำจัด<font color = '#ff3300'>{npcname}</font>ไปแล้ว
 203	SMT_SKILL_FAIL_ON_CHANGE	ขณะที่ทำการย้ายแผนที่จะไม่สามารถใช้สกิลได้
+203	SMT_NOT_OPENED_EXTRAPOINT_SYSTEM	ไม่สามารถเปิด EP ได้
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_ON_BATTLE	ขณะที่กำลังต่อสู้จะไม่สามารถเปลี่ยน Skill Option ได้
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	ในขณะที่เอฟเฟ็คยังแสดงผลอยู่จะไม่สามาถเปลี่ยน Option สกิลได้
 201	SMT_GAIN_SKILL_POLISHING_EXP	ได้รับ Training Skill EXP เท่ากับ {gainExp} 
 201	SMT_GAIN_SKILL_POLISHING_POINT	ได้รับ Training Skill Point เพิ่มขึ้น
 201	SMT_CANT_SAVE_SCREENSHOT	การบันทึกภาพหน้าจอล้มเหลว
+203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	รายการสัตว์เลี้ยงเต็ม และไม่สามารถลงทะเบียนได้มากกว่านี้ ต้องขยายรายการหรือล้างรายการทิ้ง
+201	SMT_GET_SERVANT	ลงทะเบียน {ServantName} เรียบร้อยแล้ว สามารถเปลี่ยนชื่อได้ โดยการคลิกปุ่มเปลี่ยนชื่อในรายการสัตว์เลี้ยง
+201	SMT_INCREASE_SERVANT_STORAGE_SIZE	รายการสัตว์เลี้ยงถูกขยายแล้ว
+203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	ไม่สามารถขยายรายการสัตว์เลี้ยงมากกว่านี้ได้
+203	SMT_CANNOT_SPAWN_PARTNER_LACK_ENERGY	ค่าความเหนื่อยเป็น 0 ใช้ไอเทมของขวัญ เพื่อฟื้นฟูความเหนื่อยล้า
+203	SMT_CANNOT_SPAWN_PET_LACK_ENERGY	พลังงานเป็น 0 ใช้ไอเทมอาหารสัตว์ เพื่อฟื้นฟูพลังงาน
+203	SMT_CANNOT_USE_PARTNER_PRESENT_FULL	สถานะความเหนื่อยล้าเต็มแล้ว ไม่สามารถฟื้นฟูเพิ่มได้อีก
+203	SMT_CANNOT_USE_PARTNER_PRESENT_DESPAWN	ไม่สามารถใช้ไอเทมของขวัญได้ เนื่องจากสัตว์คู่หูยังไม่ได้ถูกเรียก
+203	SMT_CANNOT_USE_PET_FEED_FULL	สถานะพลังงานเต็มแล้ว ไม่สามารถฟื้นฟูเพิ่มได้อีก
+203	SMT_CANNOT_USE_PET_FEED_DESPAWN	ไม่สามารถใช้ไอเทมอาหารสัตว์เลี้ยงได้ เนื่องจากสัตว์เลี้ยงยังไม่ได้ถูกเรียก
+201	SMT_DESPAWN_PARTNER_LACK_ENERGY	เนื่องจากค่าความเหนื่อยของ {ServantName} เป็น 0 จึงไม่สามารถเรียกออกมาได้
+201	SMT_DESPAWN_PET_LACK_ENERGY	เนื่องจากพลังงานของ {ServantName} เป็น 0 จึงไม่สามารถเรียกออกมาได้
+201	SMT_USE_PARTNER_PRESENT	ใช้งาน {itemName} เพื่อช่วยฟื้นฟูค่าความเหนื่อยของ {ServantName} เป็นจำนวน {Num}
+201	SMT_USE_PET_FEED	ใช้งาน {itemName} แล้วจะช่วยฟื้นฟูพลังงานของ {ServantName} เป็นจำนวน {Num}
+203	SMT_CANNOT_USE_ITEM_NOT_PRESENT	ไม่สามารถใช้ได้เนื่องจาก ไม่ใช่ไอเทมของขวัญ กรุณาใช้ไอเทมของขวัญ
+203	SMT_CANNOT_USE_ITEM_NOT_FEED	ไม่สามารถใช้ได้เนื่องจาก ไม่ใช่ไอเทมอาหารสัตว์เลี้ยง กรุณาใช้ไอเทมอาหารสัตว์เลี้ยง
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_NO_ITEM	ไม่มีตั๋วเปลี่ยนสกิลความสามารถพิเศษ
+203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	ตอนนี้ไม่สามารถทำการ เปลี่ยนสกิลความสามารถพิเศษได้
+203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	ความสามารถของสัตว์เลี้ยงที่ถูกเรียก ไม่สามารถลบออกได้
+203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	จำนวนการเปลี่ยนฟรีหมดแล้ว หากท่านต้องการเปลี่ยนชื่อสัตว์เลี้ยง
+203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	ไม่สามารถดำเนินการเลื่อนขั้นได้ในตอนนี้
+203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	ไม่สามารถย้ายความสามารถพิเศษได้ เนื่องจากช่องความสามารถพิเศษเต็มแล้ว
+201	SMT_TRANSFER_ABILITY_COMPLETE	สกิลความสามารถพิเศษของ {SubServantName} ได้ถ่ายทอดให้แก่ {MainServantName} เรียบร้อยแล้ว
+203	SMT_CANNOT_TRANSFER_ABILITY_SERVERDOWN	ไม่สามารถดำเนินการถ่ายทอดสกิลได้ในตอนนี้
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM	ไม่สามารถลงทะเบียน วัตถุดิบพัฒนาไอเทมที่เกี่ยวข้องได้
+203	SMT_CANNOT_PET_LEVELUP_SELECT_ITEM_FULL	ช่องลงทะเบียนไอเทมเต็ม
+201	SMT_PET_LEVELUP_COMPLETE	XP ของ {ServantName} เพิ่มขึ้น {exp} 
+201	SMT_PET_LEVELUP	เลเวลของ {ServantName} เป็น {level} แล้ว
+203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	ไม่สามารถดำเนินการเติบโตได้ในตอนนี้
+201	SMT_PET_EVOLUTION_FAIL	การวิวัฒนาการของ {ServantName} ล้มเหลว ทำให้เลเวลลดลงเหลือ {level}
+203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	ไม่สามารถดำเนินการพัฒนาได้ในตอนนี้
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	ได้รับ {ServantDefaultName} สำหรับรวมร่างแล้ว
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	สามารถเปลี่ยนชื่อสัตว์เลี้ยง โดยการคลิกที่ปุ่ม <font color='#66bbff'>เปลี่ยนชื่อ</font> ใน <font color='#ffffff'>รายการสัตว์เลี้ยง</font>
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	ได้รับ {ServantDefaultName} สำหรับรวมร่างแล้ว
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	สามารถเปลี่ยนชื่อสัตว์เลี้ยง โดยการคลิกที่ปุ่ม <font color='#66bbff'>เปลี่ยนชื่อ</font> ใน <font color='#ffffff'>รายการสัตว์เลี้ยง</font>
+203	SMT_CANNOT_PET_MIX_SERVERDOWN	ไม่สามารถดำเนินการรวมร่างได้ในตอนนี้
+203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	ไม่สามารถบันทึกลงในช่องดังกล่าวได้
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	บัญชีดังกล่าวไม่สามารถซื้อได้อีก
+203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	ไม่สามารถซื้อได้ เนื่องจากช่องเก็บของเต็ม
+201	SMT_BUYLIMIT_ALERT_RESET	รีเซ็ตการจำกัดการซื้อของ {StoreName} เรียบร้อยแล้ว
+203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	ไม่สามารถลบสัตว์เลี้ยงที่เรียกออกมาได้
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	เมื่อเคลียร์ดันเจี้ยนปาร์ตี้สำเร็จ จะสามารถใช้ตัวเลือก จับคู่ปาร์ตี้เพิ่มเติมในปัจจุบันได้

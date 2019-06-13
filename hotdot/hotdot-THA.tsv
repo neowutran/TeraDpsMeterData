@@ -174,7 +174,8 @@
 1510	HPChange	Buff	True	perc	1000	1	0.5	Healing Potion	114	Federation Supply: Valkyon Health Potion	ฟื้น HP ทันที $H_W_GOOD50%$COLOR_END ของ HP สูงสุด	icon_items.potion5_tex	icon_items.potion5_tex	False
 1511	HPChange	Buff	True	perc	1000	1	0.6	Elixir	7219	Elixir	HP, MP $H_W_GOOD60%$COLOR_END ของ HP, MP ทั้งหมดฟื้นฟูทันที	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
 1511	MPChange	Buff	True	perc	1000	1	0.6	Elixir	7219	Elixir	HP, MP $H_W_GOOD60%$COLOR_END ของ HP, MP ทั้งหมดฟื้นฟูทันที	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
-1530	MPChange	Buff	True	perc	15000	1	0.05	Divine Infusion	130	Divine Infusion	เติม MP $H_W_GOOD5%$COLOR_END ของ MP สูงสุดทุกๆ $H_W_GOOD1s$COLOR_END	icon_items.potion19_tex	icon_items.potion19_tex	True
+1530	MPChange	Buff	True	abs	15000	1	216	Divine Infusion	130	Divine Infusion	ฟื้นฟู MP $H_W_GOOD216$COLOR_END MP ทุกๆ $H_W_GOOD1s$COLOR_END	icon_items.potion19_tex	icon_items.potion19_tex	True
+1531	MPChange	Buff	True	abs	15000	1	386	MP Recovery Potion	130	Divine Infusion	ฟื้นฟู MP $H_W_GOOD386$COLOR_END MP ทุกๆ $H_W_GOOD1s$COLOR_END	icon_items.potion19_tex	icon_items.potion19_tex	True
 1610	HPChange	Buff	True	perc	10000	1	0.02	Rejuvenation Mote	8000	Rejuvenation Mote	ฟื้น HP $H_W_GOOD2%$COLOR_END ของ HP สูงสุดทุกๆ $H_W_GOOD1s$COLOR_END	icon_items.potion1_tex	icon_items.potion1_tex	True
 1630	HPChange	Buff	True	perc	1000	1	0.25	Healing Mote	8005	Healing Mote	ฟื้น HP $H_W_GOOD25%$COLOR_END ของ HP สูงสุด	icon_items.potion5_tex	icon_items.potion5_tex	False
 1640	CraftTime	Buff	True	perc	3600000	0	0.8	Midnight Oil	1	Velika Midnight Oil	เพิ่มความเร็วในการสร้างขึ้น $H_W_GOOD20%$COLOR_END	icon_items.artisan_potion_tex	icon_items.artisan_potion_tex	True
@@ -1083,6 +1084,77 @@
 12240	Absorb	Buff	True	swch	7000	0	5664	Warding VII			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD5664$COLOR_END	icon_items.customize7gb_tex	icon_items.customize7gb_tex	True
 12250	HPChange	Buff	True	abs	10000	2	755	Restoration VII			ฟื้น HP $H_W_GOOD755$COLOR_END ทุกๆ $H_W_GOOD2s$COLOR_END	icon_items.customize15gb_tex	icon_items.customize15gb_tex	True
 12290	MPChange	Buff	True	abs	1000	1	117	Grieving VII			ทดสอบ	icon_items.customize10gb_tex	icon_items.customize10gb_tex	False
+13000	Power	Buff	True	abs	30000	0	3	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD3$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13001	Power	Buff	True	abs	40000	0	4	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD4$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13002	Power	Buff	True	abs	50000	0	5	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD5$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13003	Power	Buff	True	abs	60000	0	6	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD6$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13004	Power	Buff	True	abs	70000	0	7	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD7$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13005	Power	Buff	True	abs	80000	0	8	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD8$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13006	Power	Buff	True	abs	90000	0	9	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD9$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13007	Power	Buff	True	abs	100000	0	10	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD10$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13008	Power	Buff	True	abs	110000	0	11	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD11$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13009	Power	Buff	True	abs	120000	0	12	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD12$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13010	Power	Buff	True	abs	130000	0	13	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD13$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13011	Power	Buff	True	abs	140000	0	14	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD14$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13012	Power	Buff	True	abs	150000	0	15	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD15$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13013	Power	Buff	True	abs	160000	0	16	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD16$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13014	Power	Buff	True	abs	170000	0	17	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD17$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13015	Power	Buff	True	abs	180000	0	18	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD18$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13016	Power	Buff	True	abs	190000	0	19	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD19$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13017	Power	Buff	True	abs	200000	0	20	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD20$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13018	Power	Buff	True	abs	210000	0	21	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD21$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13019	Power	Buff	True	abs	220000	0	22	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD22$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13020	Power	Buff	True	abs	230000	0	23	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD23$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13021	Power	Buff	True	abs	240000	0	24	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD24$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13022	Power	Buff	True	abs	250000	0	25	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD25$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13023	Power	Buff	True	abs	260000	0	26	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD26$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13024	Power	Buff	True	abs	270000	0	27	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD27$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13025	Power	Buff	True	abs	280000	0	28	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD28$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13026	Power	Buff	True	abs	290000	0	29	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD29$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13027	Power	Buff	True	abs	300000	0	30	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD30$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13028	Power	Buff	True	abs	300000	0	31	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD31$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13029	Power	Buff	True	abs	300000	0	32	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD32$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13030	Power	Buff	True	abs	300000	0	33	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD33$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13031	Power	Buff	True	abs	300000	0	34	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD34$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13032	Power	Buff	True	abs	300000	0	35	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD35$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13033	Power	Buff	True	abs	300000	0	36	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD36$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13034	Power	Buff	True	abs	300000	0	37	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD37$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13035	Power	Buff	True	abs	300000	0	38	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD38$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13036	Power	Buff	True	abs	300000	0	39	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD39$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+13037	Power	Buff	True	abs	300000	0	40	Strong Power			รู้สึกได้ถึงพลังอันแข็งแกร่งจากสัตว์คู่หู ทำให้พละกำลังเพิ่มขึ้น $H_W_GOOD40$COLOR_END	icon_skills.partnerskill_buff_tex	icon_skills.partnerskill_buff_tex	True
+14000	HPChange	Buff	True	abs	3000	1	20000	Urgent Healing I			ทำให้ HP เพิ่มขึ้น 20000 ทุกๆ 1 วินาที เป็นเวลา 3s	icon_skills.guildskill2_hpup_1_tex	icon_skills.guildskill2_hpup_1_tex	True
+14001	HPChange	Buff	True	abs	4000	1	25000	Urgent Healing II			ทำให้ HP เพิ่มขึ้น 25000 ทุกๆ 1 วินาที เป็นเวลา 4s	icon_skills.guildskill2_hpup_1_tex	icon_skills.guildskill2_hpup_1_tex	True
+14002	HPChange	Buff	True	abs	5000	1	30000	Urgent Healing III			ทำให้ HP เพิ่มขึ้น 30000 ทุกๆ 1 วินาที เป็นเวลา 5s	icon_skills.guildskill2_hpup_1_tex	icon_skills.guildskill2_hpup_1_tex	True
+14003	MPChange	Buff	True	abs	3000	1	500	Urgent Support I			ทำให้ MP เพิ่มขึ้น 500 ทุกๆ 1 วินาที เป็นเวลา 3s	icon_skills.guildskill2_mpup_1_tex	icon_skills.guildskill2_mpup_1_tex	True
+14004	MPChange	Buff	True	abs	4000	1	750	Urgent Support II			ทำให้ MP เพิ่มขึ้น 750 ทุกๆ 1 วินาที เป็นเวลา 4s	icon_skills.guildskill2_mpup_1_tex	icon_skills.guildskill2_mpup_1_tex	True
+14005	MPChange	Buff	True	abs	5000	1	1000	Urgent Support III			ทำให้ MP เพิ่มขึ้น 1000 ทุกๆ 1 วินาที เป็นเวลา 5s	icon_skills.guildskill2_mpup_1_tex	icon_skills.guildskill2_mpup_1_tex	True
+14006	Absorb	Buff	True	swch	9000	0	50000	Barrier I			ช่วยดูดซับความเสียหาย 50000 เป็นเวลา 9s	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+14007	Absorb	Buff	True	swch	12000	0	80000	Barrier II			ช่วยดูดซับความเสียหาย 80000 เป็นเวลา 12s	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+14008	Absorb	Buff	True	swch	15000	0	125000	Barrier III			ช่วยดูดซับความเสียหาย 125000 เป็นเวลา 15s	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+14009	238	Buff	True	abs	600000	0	1.2	Communion Enchantment I			ระยะเวลาเอฟเฟกต์ของบัฟ ที่ส่งผลมาจากสัตว์คู่หู เพิ่มขึ้น 20% เป็นเวลา 600s	icon_skills.heart_buff_tex	icon_skills.heart_buff_tex	True
+14010	238	Buff	True	abs	600000	0	1.4	Communion Enchantment II			ระยะเวลาเอฟเฟกต์ของบัฟ ที่ส่งผลมาจากสัตว์คู่หู เพิ่มขึ้น 40% เป็นเวลา 600s	icon_skills.heart_buff_tex	icon_skills.heart_buff_tex	True
+14011	238	Buff	True	abs	600000	0	1.6	Communion Enchantment III			ระยะเวลาเอฟเฟกต์ของบัฟ ที่ส่งผลมาจากสัตว์คู่หู เพิ่มขึ้น 60% เป็นเวลา 600s	icon_skills.heart_buff_tex	icon_skills.heart_buff_tex	True
+14012	XPBoost	Buff	True	perc	1800000	0	1.05	Acceleration of Growth I			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP ที่ได้รับ 5% เป็นเวลา 1800s	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	True
+14013	XPBoost	Buff	True	perc	1800000	0	1.1	Acceleration of Growth II			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP ที่ได้รับ 10% เป็นเวลา 1800s	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	True
+14014	XPBoost	Buff	True	perc	1800000	0	1.15	Acceleration of Growth III			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP ที่ได้รับ 15% เป็นเวลา 1800s	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	True
+14015	47	Buff	True	perc	1800000	0	1.05	Acceleration of Training I			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ Skill Training XP ที่ได้รับ 5% เป็นเวลา 1800s	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
+14016	47	Buff	True	perc	1800000	0	1.1	Acceleration of Training II			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ Skill Training XP ที่ได้รับ 10% เป็นเวลา 1800s	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
+14017	47	Buff	True	perc	1800000	0	1.15	Acceleration of Training III			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ Skill Training XP ที่ได้รับ 15% เป็นเวลา 1800s	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
+14018	XPBoost	Buff	True	perc	1800000	0	1.025	Acceleration of Compound I			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP และ Skill Training XP ที่ได้รับ 2.5% เป็นเวลา 1800s	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14018	47	Buff	True	perc	1800000	0	1.025	Acceleration of Compound I			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP และ Skill Training XP ที่ได้รับ 2.5% เป็นเวลา 1800s	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14019	XPBoost	Buff	True	perc	1800000	0	1.05	Acceleration of Compound II			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP และ Skill Training XP ที่ได้รับ 5% เป็นเวลา 1800s	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14019	47	Buff	True	perc	1800000	0	1.05	Acceleration of Compound II			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP และ Skill Training XP ที่ได้รับ 5% เป็นเวลา 1800s	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14020	XPBoost	Buff	True	perc	1800000	0	1.075	Acceleration of Compound III			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP และ Skill Training XP ที่ได้รับ 7.5% เป็นเวลา 1800s	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14020	47	Buff	True	perc	1800000	0	1.075	Acceleration of Compound III			เมื่อทำการล่ามอนสเตอร์ จะเพิ่มปริมาณ XP และ Skill Training XP ที่ได้รับ 7.5% เป็นเวลา 1800s	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
+14021	296	Buff	True	perc	300000	0	1.1	Production Support I			อัตราสำเร็จครั้งยิ่งใหญ่ เพิ่มขึ้น $H_W_GOOD10%$COLOR_END จากค่าอัตราสำเร็จเดิม	icon_skills.produce_icon_01_tex	icon_skills.produce_icon_01_tex	True
+14022	296	Buff	True	perc	300000	0	1.15	Production Support II			อัตราสำเร็จครั้งยิ่งใหญ่ เพิ่มขึ้น $H_W_GOOD15%$COLOR_END จากค่าอัตราสำเร็จเดิม	icon_skills.produce_icon_01_tex	icon_skills.produce_icon_01_tex	True
+14023	296	Buff	True	perc	300000	0	1.2	Production Support III			อัตราสำเร็จครั้งยิ่งใหญ่ เพิ่มขึ้น $H_W_GOOD20%$COLOR_END จากค่าอัตราสำเร็จเดิม	icon_skills.produce_icon_01_tex	icon_skills.produce_icon_01_tex	True
+14024	358	Buff	True	perc	300000	0	1.3	Fishing Support I			โอกาสตกได้ปลาตัวใหญ่ เพิ่มขึ้น $H_W_GOOD30%$COLOR_END จากค่าโอกาสสำเร็จเดิม	icon_skills.partnerskill_fishing_tex	icon_skills.partnerskill_fishing_tex	True
+14025	358	Buff	True	perc	300000	0	1.4	Fishing Support II			โอกาสตกได้ปลาตัวใหญ่ เพิ่มขึ้น $H_W_GOOD40%$COLOR_END จากค่าโอกาสสำเร็จเดิม	icon_skills.partnerskill_fishing_tex	icon_skills.partnerskill_fishing_tex	True
+14026	358	Buff	True	perc	300000	0	1.5	Fishing Support III			โอกาสตกได้ปลาตัวใหญ่ เพิ่มขึ้น $H_W_GOOD50%$COLOR_END จากค่าโอกาสสำเร็จเดิม	icon_skills.partnerskill_fishing_tex	icon_skills.partnerskill_fishing_tex	True
+14027	GatheringTime	Buff	True	perc	300000	0	0.9	Collection Support I			ระยะเวลาเก็บเกี่ยว ลดลง $H_W_GOOD10%$COLOR_END	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
+14028	GatheringTime	Buff	True	perc	300000	0	0.85	Collection Support II			ระยะเวลาเก็บเกี่ยว ลดลง $H_W_GOOD15%$COLOR_END	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
+14029	GatheringTime	Buff	True	perc	300000	0	0.8	Collection Support III			ระยะเวลาเก็บเกี่ยว ลดลง $H_W_GOOD20%$COLOR_END	icon_status.aura_of_collect_tex	icon_status.aura_of_collect_tex	True
 15000	Block	Debuff	False	swch	30000	0	0	Akasha's Silence			ไม่สามารถใช้สกิลได้	icon_status.sealskill_tex	icon_status.sealskill_tex	True
 15010	AllResist	Debuff	False	perc	10000	0	0.85	Godsword: Vulnerability			ความต้านทานทั้งหมดลดลง $H_W_BAD15%$COLOR_END	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 15020	Endurance	Buff	True	abs	30000	0	10	Dancing Bones			เพิ่มความทนทานขึ้น $H_W_GOOD10$COLOR_END	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
@@ -1296,10 +1368,10 @@
 27110	MovSpdInCombat	Buff	True	abs	3000	0	50	Fleetfooted Shara's Lash			เพิ่มความเร็วในการเคลื่อนที่ $H_W_GOOD50$COLOR_END เมื่อต่อสู้	icon_skills.flashball_tex	icon_crest.crestpassiveskilleffectup_tex	True
 27120	Endurance	Buff	True	perc	600000	0	1.1	United Thrall of Protection			เพิ่มความทนทานขึ้น $H_W_GOOD10%$COLOR_END	icon_skills.summonspiritofaggro_tex	icon_crest.crestactivedefenceup_tex	True
 27130	Ballance	Buff	True	perc	2000	0	5	Balancing Retaliate			เพิ่มค่าความสมดุลขึ้น $H_W_GOOD400%$COLOR_END	icon_skills.risingattack_tex	icon_crest.crestactivereactionresist_tex	True
-27140	HPChange	Buff	True	perc	1000	1	0.2	Restorative Arun's Vitae			ฟื้น HP $H_W_GOOD20%$COLOR_END ของ HP สูงสุด	icon_skills.hprefresher_tex	icon_crest.crestpassivehpheal_tex	True
-27150	IncreasedHeal	Buff	True	perc	10000	0	1.2	Restorative Warding Totem			Warding Totem ฟื้น HP เพิ่มขึ้น $H_W_GOOD20%$COLOR_END	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
+27140	HPChange	Buff	True	abs	1000	1	35000	Restorative Arun's Vitae			ฟื้นฟู HP $H_W_GOOD35,000$COLOR_END	icon_skills.hprefresher_tex	icon_crest.crestpassivehpheal_tex	True
+27150	IncreasedHeal	Buff	True	perc	11000	0	1.2	Restorative Warding Totem			Warding Totem ฟื้น HP เพิ่มขึ้น $H_W_GOOD20%$COLOR_END	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
 27160	Endurance	Debuff	False	perc	21000	0	0.9	Enfeebling Volley of Curses			ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.painfulshackle_tex	icon_crest.crestactivedefencedown_tex	True
-27161	IncreasedHeal	Buff	True	perc	10000	0	1.25	Restorative Warding Totem			เพิ่มจำนวนฟื้น HP ขึ้น $H_W_GOOD25%$COLOR_END	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
+27161	IncreasedHeal	Buff	True	perc	11000	0	1.25	Restorative Warding Totem			เพิ่มจำนวนฟื้น HP ขึ้น $H_W_GOOD25%$COLOR_END	icon_skills.energiesofprotection_tex	icon_crest.crestactivehprecoveryup_tex	True
 28010	AtkPotion	Buff	True	perc	6000	0	1.25	Powerlinked Shocking Implosion			เพิ่มความเสียหายของสกิลขึ้น $H_W_GOOD25%$COLOR_END สำหรับ Final Reprisal	icon_skills.damagedeal_tex	icon_crest.crestnextskillattackup_tex	True
 28020	AtkPotion	Buff	True	perc	5000	0	1.25	Powerlinked Triple Nemesis			เพิ่มความเสียหายของ Metamorphic Blast ขึ้น $H_W_GOOD25%$COLOR_END	icon_skills.divineretribution_tex	icon_crest.crestnextskillattackup_tex	True
 28030	Endurance	Buff	True	perc	12000	0	1.3	Grounded Kaia's Shield			เพิ่มความทนทานขึ้น $H_W_GOOD30%$COLOR_END	icon_skills.armorofprotection_tex	icon_crest.crestactivedefenceup_tex	True
@@ -1698,8 +1770,6 @@
 70368	360	Buff	True	perc	1200000	0	0.8	Lucky Clover (20 นาที)			ได้รับความโชคดีจากใบ Clover แล้ว$BR$BRเวลารอปลาตอดเบ็ดลดลง $H_W_GOOD20%$COLOR_END$BRอัตราการตกได้ปลาตัวใหญ่เพิ่มขึ้น $H_W_GOOD4%$COLOR_END  	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
 70369	358	Buff	True	abs	600000	0	0.04	Lucky Clover (10 นาที)			ได้รับความโชคดีจากใบ Clover แล้ว$BR$BRเวลารอปลาตอดเบ็ดลดลง $H_W_GOOD20%$COLOR_END$BRอัตราการตกได้ปลาตัวใหญ่เพิ่มขึ้น $H_W_GOOD4%$COLOR_END  	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
 70369	360	Buff	True	perc	600000	0	0.8	Lucky Clover (10 นาที)			ได้รับความโชคดีจากใบ Clover แล้ว$BR$BRเวลารอปลาตอดเบ็ดลดลง $H_W_GOOD20%$COLOR_END$BRอัตราการตกได้ปลาตัวใหญ่เพิ่มขึ้น $H_W_GOOD4%$COLOR_END  	icon_items.lucky_clover_tex	icon_items.lucky_clover_tex	True
-70370	358	Buff	True	abs	0	0	1	Gem Lure Fishing			Lure เปล่งประกายวิบวับ สามารถตกสิ่งของล้ำค่าได้จากบ่อตกปลาทั้งหมด	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
-70370	362	Buff	True	swch	0	0	143188	Gem Lure Fishing			Lure เปล่งประกายวิบวับ สามารถตกสิ่งของล้ำค่าได้จากบ่อตกปลาทั้งหมด	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
 70403	MovSpd	Debuff	False	perc	5000	0	0.5	Umbral Torpor			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	OutOfCombatMovSpd	Debuff	False	perc	5000	0	0.5	Umbral Torpor			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	HPDrain	Debuff	False	perc	5000	0	0.5	Umbral Torpor			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END	icon_status.minusmove_tex	icon_status.minusmove_tex	True
@@ -1759,6 +1829,8 @@
 76905	DelayedEffect	Stun	False	abs	5000	0	76907	Uncontrolled Burn			ยกเลิกเอฟเฟกต์โดยเร็วที่สุด หรือไม่ท่านจะระเบิด	icon_status.minushp_tex	icon_status.minushp_tex	True
 76907	HPLoss	Buff	True	abs	1	0	-50000	Uncontrolled Burn			ยกเลิกเอฟเฟกต์โดยเร็วที่สุด หรือไม่ท่านจะระเบิด	icon_status.minushp_tex	icon_status.minushp_tex	False
 76909	HPLoss	Buff	True	abs	1	0	-50000	Uncontrolled Burn			ยกเลิกเอฟเฟกต์โดยเร็วที่สุด หรือไม่ท่านจะระเบิด	icon_status.minushp_tex	icon_status.minushp_tex	False
+77000	358	Buff	True	abs	0	0	0.5	Golden Fishing Rod			สามารถตกได้ปลาระดับ 5~7 <br> อัตราการตกได้ปลาตัวใหญ่เพิ่มขึ้น + $H_W_GOOD50%$COLOR_END	icon_skills.fishing_rod04_tex	icon_skills.fishing_rod04_tex	True
+77001	359	Buff	True	perc	7200000	0	0.85	Fishermen's First Work	207208	Fishermen's First Work (2 ชั่วโมง)	ลดช่วงเวลาในการตกปลาอัตโนมัติ 15%	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
 81163	Power	Debuff	True	abs	600000	0	0	Overly-Attached Friend			ท่านใช้ Friend Summon เกินจำนวนแล้ว ท่านต้องเว้นว่างให้เพื่อนของท่านก่อนจึงจะใช้ Friend Summon อีกครั้งได้	icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex	True
 82102	Endurance	Buff	True	perc	45000	0	1.3	Potion of Shielding			ลดความเสียหายจากการพุ่งเป็นเวลา 45s	icon_items.potion16_tex	icon_items.potion16_tex	True
 82102	Ballance	Buff	True	perc	45000	0	1.1	Potion of Shielding			ลดความเสียหายจากการพุ่งเป็นเวลา 45s	icon_items.potion16_tex	icon_items.potion16_tex	True
@@ -1818,10 +1890,10 @@
 96905	DelayedEffect	Stun	False	abs	5000	0	96907	Uncontrolled Burn			ยกเลิกเอฟเฟกต์โดยเร็วที่สุด หรือไม่ท่านจะระเบิด	icon_status.minushp_tex	icon_status.minushp_tex	True
 96907	HPLoss	Buff	True	abs	1	0	-50000	Uncontrolled Burn			ยกเลิกเอฟเฟกต์โดยเร็วที่สุด หรือไม่ท่านจะระเบิด	icon_status.minushp_tex	icon_status.minushp_tex	False
 96909	HPLoss	Buff	True	abs	1	0	-100000	Uncontrolled Burn			ยกเลิกเอฟเฟกต์โดยเร็วที่สุด หรือไม่ท่านจะระเบิด	icon_status.minushp_tex	icon_status.minushp_tex	False
-100100	Power	Buff	True	abs	0	0	5	Assault Stance			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100100	Endurance	Buff	True	perc	0	0	0.9	Assault Stance			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100100	Crit	Buff	True	abs	0	0	30	Assault Stance			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100100	AtkPotion	Buff	True	perc	0	0	1.1	Assault Stance			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100100	Power	Buff	True	abs	0	0	5	Sniper's Eye			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
+100100	Endurance	Buff	True	perc	0	0	0.9	Sniper's Eye			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
+100100	Crit	Buff	True	abs	0	0	30	Sniper's Eye			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
+100100	AtkPotion	Buff	True	perc	0	0	1.1	Sniper's Eye			เพิ่มพละกำลังขึ้น $H_W_GOOD5$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD30$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
 100101	Power	Buff	True	abs	0	0	10	Assault Stance II			เพิ่มพละกำลังขึ้น $H_W_GOOD10$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD40$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
 100101	Endurance	Buff	True	perc	0	0	0.9	Assault Stance II			เพิ่มพละกำลังขึ้น $H_W_GOOD10$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD40$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
 100101	Crit	Buff	True	abs	0	0	40	Assault Stance II			เพิ่มพละกำลังขึ้น $H_W_GOOD10$COLOR_END, เพิ่มโอกาสในการโจมตีคริติคอลมากขึ้น $H_W_GOOD40$COLOR_END และความเสียหายของสกิลขึ้น $H_W_GOOD10%$COLOR_END เมื่อโจมตีมอนสเตอร์ แต่ลดความทนทานลง $H_W_BAD10%$COLOR_END	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
@@ -1997,7 +2069,7 @@
 105307	Endurance	Buff	True	perc	0	0	1	Deadly Gamble II			โอกาสเกิดคริติคอล เพิ่มขึ้น $H_W_GOOD50%$COLOR_END เป็นเวลา 20s ตลอดช่วงเวลาของเอฟเฟกต์ คูลดาวน์ของสกิลโจมตีระยะใกล้ ยกเว้น Balde Storm จะลดลงครึ่งหนึ่ง และสกิลดังต่อไปนี้ จะถูกอัปเกรดขึ้นในช่วงเวลานั้น [Rain of Blows IX]: มีความเสียหาย เพิ่มเติม 10% และโดนสกิลซ้ำสองจะได้เป็น 2 เท่า$BR- [Blade Draw IX]: มีความเสียหาย เพิ่มเติม 10% และโดนสกิลซ้ำสองจะได้เป็น 2 เท่า$BR$BR- [Scythe IX]:  อานุภาพสกิล เพิ่มขึ้น 10% และระยะใช้สกิล เพิ่มขึ้น 20%	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	False
 105308	StackCounter	Debuff	False	abs	1000	0	105309	Impaled			เมื่อซ้อนทับกันครบ 7 ครั้ง จะทำให้ชุดเกราะถูกทำลายและความทนทานลดลง	icon_skills.improveleapattack_tex	icon_skills.improveleapattack_tex	False
 105309	Endurance	Debuff	False	perc	30000	0	0.985	Armor Destruction			ความทนทานลดลง $H_W_BAD1.5%$COLOR_END	icon_skills.improveleapattack_tex	icon_skills.improveleapattack_tex	True
-200100	Stun	Stun	False	swch	3000	0	5	Leash			ถูกสตั้น ไม่สามารถเคลื่อนย้ายได้	icon_skills.hookthrow_tex	icon_skills.hookthrow_tex	True
+200100	Stun	Stun	False	swch	3000	0	5	Thunderbolt			ถูกสตั้น ไม่สามารถเคลื่อนย้ายได้	icon_skills.thunderdrake_tex	icon_skills.hookthrow_tex	True
 200200	BuffNearbyParty	Buff	True	seta	30000	3	200230	Guardian Shout I			ท่านและสมาชิกในปาร์ตี้ได้รับ $H_W_GOODGuardian Power$COLOR_END เมื่ออยู่ใกล้ท่านในระยะ 40 เมตร น็อกดาวน์เพื่อยกเลิกเอฟเฟกต์	icon_skills.inspiringroar_tex	icon_skills.inspiringroar_tex	True
 200201	BuffNearbyParty	Buff	True	seta	40000	3	200231	Guardian Shout II			ท่านและสมาชิกในปาร์ตี้ได้รับ $H_W_GOODGuardian Power$COLOR_END เมื่ออยู่ใกล้ท่านในระยะ 40 เมตร น็อกดาวน์เพื่อยกเลิกเอฟเฟกต์	icon_skills.inspiringroar_tex	icon_skills.inspiringroar_tex	True
 200202	BuffNearbyParty	Buff	True	seta	45000	3	200232	Guardian Shout III			ท่านและสมาชิกในปาร์ตี้ที่อยู่ในระยะ 10 เมตร จะได้รับ $H_W_GOODGuardian Power$COLOR_END สิ้นสุดเมื่อท่านถูกน็อกดาวน์	icon_skills.inspiringroar_tex	icon_skills.inspiringroar_tex	True
@@ -2016,10 +2088,13 @@
 200400	Stun	Stun	False	swch	4000	0	5	Shield Bash			ถูกสตั้น ไม่สามารถเคลื่อนย้ายได้	icon_skills.shieldstrike_tex	icon_skills.shieldstrike_tex	True
 200500	Power	Buff	True	abs	2000	0	0	Mana Extraction			###ไม่แสดง###Mana สกัดจาก Magic Stone สามารถใช้ฟื้น MP ของท่านได้อย่างรวดเร็ว	icon_skills.useholywater_tex	icon_skills.useholywater_tex	False
 200700	ASpd	Buff	True	perc	20000	0	1.15	Adrenaline Rush I			ความเร็วโจมตีเพิ่มขึ้น $H_W_GOOD15%$COLOR_END เมื่อโจมตีมอนสเตอร์ พลังสกิลเพิ่มขึ้น 5%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200700	AtkPotion	Buff	True	perc	20000	0	1.05	Adrenaline Rush I			ความเร็วโจมตีเพิ่มขึ้น $H_W_GOOD15%$COLOR_END เมื่อโจมตีมอนสเตอร์ พลังสกิลเพิ่มขึ้น 5%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200701	ASpd	Buff	True	perc	20000	0	1.2	Adrenaline Rush			ความเร็วโจมตีเพิ่มขึ้น $H_W_GOOD20%$COLOR_END เมื่อโจมตีมอนสเตอร์ พลังสกิลเพิ่มขึ้น 5%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200701	AtkPotion	Buff	True	perc	20000	0	1.05	Adrenaline Rush			ความเร็วโจมตีเพิ่มขึ้น $H_W_GOOD20%$COLOR_END เมื่อโจมตีมอนสเตอร์ พลังสกิลเพิ่มขึ้น 5%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
-200731	Aggro	Buff	True	perc	20000	0	1.08	Adrenaline Rush II			<font color = '#66bbff'>ค่าเป็นความโกรธ</font> จาก <font color = '#f9b600'>สกิลโจมตี</font>ทั้งหมดเพิ่มขึ้น 8%$BR<font color = '#66bbff'>คูลดาวน์</font>ของ <font color = '#f9b600'>สกิลโจมตี</font>ระยะประชิด ยกเว้นสกิล <font color = '#f9b600'>[ Shield Bash]</font>, <font color = '#f9b600'>[ Charging Lunge]</font>, <font color = '#f9b600'>[ Lockdown Blow]</font> ลดลง 50%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
-200731	CDR	Buff	True	swch	20000	0	0.5	Adrenaline Rush II			<font color = '#66bbff'>ค่าเป็นความโกรธ</font> จาก <font color = '#f9b600'>สกิลโจมตี</font>ทั้งหมดเพิ่มขึ้น 8%$BR<font color = '#66bbff'>คูลดาวน์</font>ของ <font color = '#f9b600'>สกิลโจมตี</font>ระยะประชิด ยกเว้นสกิล <font color = '#f9b600'>[ Shield Bash]</font>, <font color = '#f9b600'>[ Charging Lunge]</font>, <font color = '#f9b600'>[ Lockdown Blow]</font> ลดลง 50%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200731	Aggro	Buff	True	perc	20000	0	1.08	Adrenaline Rush II			<font color = '#66bbff'>ค่าเป็นความโกรธ</font> จาก <font color = '#f9b600'>สกิลโจมตี</font>ทั้งหมดเพิ่มขึ้น 8%$BR<font color = '#66bbff'>คูลดาวน์</font>ของ <font color = '#f9b600'>สกิลโจมตี</font>ระยะประชิด ยกเว้นสกิล <font color = '#f9b600'>[ Shield Bash]</font>, <font color = '#f9b600'>[Debilitate]</font>, <font color = '#f9b600'>[ Charging Lunge]</font>, <font color = '#f9b600'>[ Lockdown Blow]</font> ลดลง 50%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200731	CDR	Buff	True	swch	20000	0	0.5	Adrenaline Rush II			<font color = '#66bbff'>ค่าเป็นความโกรธ</font> จาก <font color = '#f9b600'>สกิลโจมตี</font>ทั้งหมดเพิ่มขึ้น 8%$BR<font color = '#66bbff'>คูลดาวน์</font>ของ <font color = '#f9b600'>สกิลโจมตี</font>ระยะประชิด ยกเว้นสกิล <font color = '#f9b600'>[ Shield Bash]</font>, <font color = '#f9b600'>[Debilitate]</font>, <font color = '#f9b600'>[ Charging Lunge]</font>, <font color = '#f9b600'>[ Lockdown Blow]</font> ลดลง 50%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200732	Aggro	Buff	True	perc	20000	0	1.08	Adrenaline Rush I			<font color = '#66bbff'>ค่าเป็นความโกรธ</font> จาก <font color = '#f9b600'>สกิลโจมตี</font>ทั้งหมดเพิ่มขึ้น 8%$BR<font color = '#66bbff'>คูลดาวน์</font>ของ <font color = '#f9b600'>สกิลโจมตี</font>ระยะประชิด ยกเว้นสกิล <font color = '#f9b600'>[ Shield Bash]</font>, <font color = '#f9b600'>[ Charging Lunge]</font>, <font color = '#f9b600'>[ Lockdown Blow]</font> ลดลง 50%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
+200732	CDR	Buff	True	swch	20000	0	0.5	Adrenaline Rush I			<font color = '#66bbff'>ค่าเป็นความโกรธ</font> จาก <font color = '#f9b600'>สกิลโจมตี</font>ทั้งหมดเพิ่มขึ้น 8%$BR<font color = '#66bbff'>คูลดาวน์</font>ของ <font color = '#f9b600'>สกิลโจมตี</font>ระยะประชิด ยกเว้นสกิล <font color = '#f9b600'>[ Shield Bash]</font>, <font color = '#f9b600'>[ Charging Lunge]</font>, <font color = '#f9b600'>[ Lockdown Blow]</font> ลดลง 50%	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200800	Stun	Stun	False	swch	3000	0	5	Shield Barrage			ถูกสตั้น ไม่สามารถเคลื่อนย้ายได้	icon_skills.shieldattack_tex	icon_skills.shieldattack_tex	True
 200900	BuffNearbyParty	Buff	True	swch	12000	3	200930	Pledge of Protection			ปกป้องสมาชิกในปาร์ตี้ที่อยู่ในระยะ 20 เมตร	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
 200901	BuffNearbyParty	Buff	True	swch	12000	3	200931	Pledge of Protection II			ปกป้องสมาชิกในปาร์ตี้ที่อยู่ในระยะ 20 เมตร	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
@@ -2739,8 +2814,8 @@
 500150	AtkPotion	Buff	True	perc	20000	0	1.2	Mana Boost			เพิ่มความเร็วในการโจมตี $H_W_GOOD30%$COLOR_END และทำให้เกิดความเสียหายเพิ่มอีก $H_W_GOOD20%$COLOR_END กับมอนสเตอร์	icon_skills.c5_strengthenmana	icon_skills.c5_strengthenmana	True
 500150	DelayedEffect	Buff	True	swch	20000	0	501606	Mana Boost			เพิ่มความเร็วในการโจมตี $H_W_GOOD30%$COLOR_END และทำให้เกิดความเสียหายเพิ่มอีก $H_W_GOOD20%$COLOR_END กับมอนสเตอร์	icon_skills.c5_strengthenmana	icon_skills.c5_strengthenmana	True
 500150	351	Buff	True	swch	20000	0	0	Mana Boost			เพิ่มความเร็วในการโจมตี $H_W_GOOD30%$COLOR_END และทำให้เกิดความเสียหายเพิ่มอีก $H_W_GOOD20%$COLOR_END กับมอนสเตอร์	icon_skills.c5_strengthenmana	icon_skills.c5_strengthenmana	True
-500200	MovSpd	Debuff	False	setp	5000	0	0.3	Glacial Retreat			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD70%$COLOR_END	icon_skills.freezingtheearth_tex	icon_skills.freezingtheearth_tex	True
-500200	HPDrain	Debuff	False	perc	5000	0	0.9	Glacial Retreat			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD70%$COLOR_END	icon_skills.freezingtheearth_tex	icon_skills.freezingtheearth_tex	True
+500200	MovSpd	Debuff	False	setp	5000	0	0.3	Curse of Confusion			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD70%$COLOR_END	icon_skills.spiritofconfusion_tex	icon_skills.freezingtheearth_tex	True
+500200	HPDrain	Debuff	False	perc	5000	0	0.9	Curse of Confusion			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD70%$COLOR_END	icon_skills.spiritofconfusion_tex	icon_skills.freezingtheearth_tex	True
 500300	MPChange	Buff	True	abs	25000	2	120	Mana Infusion I			เติม MP $H_W_GOOD120$COLOR_END ทุกๆ $H_W_GOOD2s$COLOR_END	icon_skills.mpcondensing_tex	icon_skills.mpcondensing_tex	True
 500301	MPChange	Buff	True	abs	25000	1	120	Mana Infusion			เติม MP $H_W_GOOD120$COLOR_END ทุกๆ $H_W_GOOD1s$COLOR_END	icon_skills.mpcondensing_tex	icon_skills.mpcondensing_tex	True
 500500	MovSpd	Debuff	False	setp	5000	0	0.8	Frost Sphere			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD20%$COLOR_END หรือมากกว่า	icon_skills.c5_iceorb	icon_skills.icicle_tex	True
@@ -2902,12 +2977,12 @@
 600603	HPChange	DOT	False	abs	10000	2	-518	Poison Trap IV			ลด HP ลง $H_W_BAD-518$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
 600604	HPChange	DOT	False	abs	10000	2	-1048	Poison Trap V			ลด HP ลง $H_W_BAD-1048$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
 600605	HPChange	DOT	False	abs	10000	2	-1575	Poison Trap VI			ลด HP ลง $H_W_BAD-1575$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
-600620	HPChange	DOT	False	abs	10000	2	-57	Poison Trap I			ลด HP ลง $H_W_BAD-57$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
-600621	HPChange	DOT	False	abs	10000	2	-109	Poison Trap II			ลด HP ลง $H_W_BAD-109$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
-600622	HPChange	DOT	False	abs	10000	2	-209	Poison Trap III			ลด HP ลง $H_W_BAD-209$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
-600623	HPChange	DOT	False	abs	10000	2	-398	Poison Trap IV			ลด HP ลง $H_W_BAD-398$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
-600624	HPChange	DOT	False	abs	10000	2	-778	Poison Trap V			ลด HP ลง $H_W_BAD-778$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
-600625	HPChange	DOT	False	abs	10000	2	-1091	Poison Trap VI			ลด HP ลง $H_W_BAD-1091$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
+600620	HPChange	DOT	False	abs	10000	2	-57	Poison Trap			ลด HP ลง $H_W_BAD-57$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
+600621	HPChange	DOT	False	abs	10000	2	-109	Poison Trap			ลด HP ลง $H_W_BAD-109$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
+600622	HPChange	DOT	False	abs	10000	2	-209	Poison Trap			ลด HP ลง $H_W_BAD-209$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
+600623	HPChange	DOT	False	abs	10000	2	-398	Poison Trap			ลด HP ลง $H_W_BAD-398$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
+600624	HPChange	DOT	False	abs	10000	2	-778	Poison Trap			ลด HP ลง $H_W_BAD-778$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
+600625	HPChange	DOT	False	abs	10000	2	-1091	Poison Trap			ลด HP ลง $H_W_BAD-1091$COLOR_END ทุกๆ $H_W_BAD2s$COLOR_END	icon_skills.venomtrap_tex	icon_skills.venomtrap_tex	True
 600700	MovSpd	Debuff	False	setp	7000	0	0.8	Web Arrow			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD20%$COLOR_END	icon_skills.spiderarrow_tex	icon_skills.spiderarrow_tex	True
 600700	HPDrain	Debuff	False	perc	7000	0	0.9	Web Arrow			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD20%$COLOR_END	icon_skills.spiderarrow_tex	icon_skills.spiderarrow_tex	True
 600701	MovSpd	Debuff	False	setp	7000	0	0.7	Web Arrow			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD30%$COLOR_END	icon_skills.spiderarrow_tex	icon_skills.spiderarrow_tex	True
@@ -3107,10 +3182,10 @@
 700407	HPChange	Buff	True	abs	10000	1	0	Titanic Favor VIII			ฟื้น HP ทุกๆ $H_W_GOOD1s$COLOR_END	icon_skills.healshot_tex	icon_skills.healshot_tex	False
 700408	HPChange	Buff	True	abs	10000	1	0	Titanic Favor IX			ฟื้น HP ทุกๆ $H_W_GOOD1s$COLOR_END	icon_skills.healshot_tex	icon_skills.healshot_tex	False
 700409	HPLoss	Buff	True	abs	500	1	15000	Titanic Favor			ฟื้น HP ทุกๆ  $H_W_GOOD1s$COLOR_END อย่างต่อเนื่อง.	icon_skills.healshot_tex	icon_skills.healshot_tex	False
-700500	MovSpd	Debuff	False	setp	6000	0	0.5	Ancient Binding I			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END	icon_skills.slowball_tex	icon_skills.slowball_tex	True
-700500	HPDrain	Debuff	False	perc	6000	0	0.9	Ancient Binding I			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END	icon_skills.slowball_tex	icon_skills.slowball_tex	True
-700501	MovSpd	Debuff	False	setp	6000	0	0.4	Ancient Binding II			ความเร็วเคลื่อนที่ ลดลง $H_W_BAD60%$COLOR_END เนื่องจาก Shara's Lash	icon_skills.slowball_tex	icon_skills.slowball_tex	True
-700501	HPDrain	Debuff	False	perc	6000	0	0.9	Ancient Binding II			ความเร็วเคลื่อนที่ ลดลง $H_W_BAD60%$COLOR_END เนื่องจาก Shara's Lash	icon_skills.slowball_tex	icon_skills.slowball_tex	True
+700500	MovSpd	Debuff	False	setp	6000	0	0.5	Ancient Binding			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END	icon_skills.slowball_tex	icon_skills.slowball_tex	True
+700500	HPDrain	Debuff	False	perc	6000	0	0.9	Ancient Binding			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END	icon_skills.slowball_tex	icon_skills.slowball_tex	True
+700501	MovSpd	Debuff	False	setp	6000	0	0.4	Aftereffect			ความเร็วเคลื่อนที่ ลดลง $H_W_BAD60%$COLOR_END เนื่องจาก Shara's Lash	icon_skills.slowball_tex	icon_skills.slowball_tex	True
+700501	HPDrain	Debuff	False	perc	6000	0	0.9	Aftereffect			ความเร็วเคลื่อนที่ ลดลง $H_W_BAD60%$COLOR_END เนื่องจาก Shara's Lash	icon_skills.slowball_tex	icon_skills.slowball_tex	True
 700600	MPChange	Buff	True	abs	0	2	-30	Aura of the Merciless			ใช้ Titanic Wrath I กับท่านและพันธมิตรที่อยู่ในระยะ 30 เมตร ใช้ $H_W_BAD30$COLOR_END MP ทุก $H_W_BAD2$COLOR_END วินาทีเพื่อคงสภาพ	icon_skills.criticalupaura_tex	icon_skills.criticalupaura_tex	True
 700600	BuffNearbyParty	Buff	True	seta	0	3	601	Aura of the Merciless			ใช้ Titanic Wrath I กับท่านและพันธมิตรที่อยู่ในระยะ 30 เมตร ใช้ $H_W_BAD30$COLOR_END MP ทุก $H_W_BAD2$COLOR_END วินาทีเพื่อคงสภาพ	icon_skills.criticalupaura_tex	icon_skills.criticalupaura_tex	True
 700601	MPChange	Buff	True	abs	0	2	-30	Aura of the Merciless II			ใช้ Titanic Wrath I และ Titanic Fury กับท่านและพันธมิตรที่อยู่ในระยะ 30 เมตร ใช้ $H_W_BAD30$COLOR_END MP ทุก $H_W_BAD2$COLOR_END วินาทีเพื่อคงสภาพ	icon_skills.criticalupaura_tex	icon_skills.criticalupaura_tex	True
@@ -3205,7 +3280,7 @@
 701569	HPChange	Buff	True	abs	3000	1	13842	Arun's Vitae X			ฟื้นฟู HP อย่างต่อเนื่อง $H_W_GOOD6,912$COLOR_END $H_W_GOODทุกๆ 1 วินาที$COLOR_END	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
 701570	HPChange	Buff	True	abs	3000	1	20508	Arun's Vitae XI			ฟื้นฟู HP อย่างต่อเนื่อง $H_W_GOOD10,254$COLOR_END $H_W_GOODทุกๆ 1 วินาที$COLOR_END	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
 701571	HPChange	Buff	True	abs	3000	1	20508	Arun's Vitae XII			ฟื้นฟู HP อย่างต่อเนื่อง $H_W_GOOD10,342$COLOR_END $H_W_GOODทุกๆ 1 วินาที$COLOR_END	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
-701590	MPChange	Buff	True	perc	1000	1	0.2	Vital Explosion	8023	Arun's Tear Mote		icon_skills.marbleexplosion_tex	icon_skills.marbleexplosion_tex	False
+701590	MPChange	Buff	True	abs	1000	1	1546	Vital Explosion	8023	Arun's Tear Mote		icon_skills.marbleexplosion_tex	icon_skills.marbleexplosion_tex	False
 701600	Ballance	Buff	True	perc	3000	0	2	Energy Summoning - Balance I			เพิ่มค่าความสมดุลขึ้น $H_W_GOOD100%$COLOR_END	icon_skills.energiesofshock_tex	icon_skills.energiesofshock_tex	True
 701601	ASpd	Debuff	False	perc	3000	0	0.9	Numbing Totem			ลดความเร็วในการโจมตีลง $H_W_BAD10%$COLOR_END	icon_skills.energiesofrestriction_tex	icon_skills.energiesofrestriction_tex	True
 701602	ASpd	Buff	True	perc	3000	0	1.05	Speed Totem			เพิ่มความเร็วในการโจมตีขึ้น $H_W_GOOD5%$COLOR_END	icon_skills.energiesofquickness_tex	icon_skills.energiesofquickness_tex	True
@@ -3285,7 +3360,7 @@
 702001	Absorb	Buff	True	swch	12000	0	30000	Thrall of Protection II			วิญญาณแห่งการพิทักษ์ช่วยคุ้มครองเจ้า และ<font color = '#66bbff'>ดูดซับความเสียหาย</font>สูงสุด 30000 ขณะที่เอฟเฟกต์มีผลจะไม่เกิดการถูกน็อคและเซ หากเกินปริมาณความเสียหายสูงสุดที่ดูดซับแล้ว เอฟเฟกต์จะถูกยกเลิกทันทีโดยไม่สนเวลา	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702001	StatusImmune	Buff	True	swch	12000	0	0	Thrall of Protection II			วิญญาณแห่งการพิทักษ์ช่วยคุ้มครองเจ้า และ<font color = '#66bbff'>ดูดซับความเสียหาย</font>สูงสุด 30000 ขณะที่เอฟเฟกต์มีผลจะไม่เกิดการถูกน็อคและเซ หากเกินปริมาณความเสียหายสูงสุดที่ดูดซับแล้ว เอฟเฟกต์จะถูกยกเลิกทันทีโดยไม่สนเวลา	icon_skills.summonspiritofaggro_tex	icon_skills.summonspiritofaggro2_tex	True
 702002	MovSpdInCombat	Buff	True	abs	5000	0	10	Thrall of Life Xlll			วิญญณแห่งชีวิตเข้าสิงตัวเจ้า ทำให้<font color = '#66bbff'>ฟื้นฟู</font> HP 1.5% และ MP 10% ทุกๆหนึ่งวินาที ขณะที่เอฟเฟกต์มีผลอยู่ ความเร็วเคลื่อนที่การต่อสู้เพิ่มขึ้น 10 และเมื่อน็อคดาวน์ เอฟเฟกต์จะถูกยกเลิก	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
-702002	MPChange	Buff	True	perc	5000	1	0.1	Thrall of Life Xlll			วิญญณแห่งชีวิตเข้าสิงตัวเจ้า ทำให้<font color = '#66bbff'>ฟื้นฟู</font> HP 1.5% และ MP 10% ทุกๆหนึ่งวินาที ขณะที่เอฟเฟกต์มีผลอยู่ ความเร็วเคลื่อนที่การต่อสู้เพิ่มขึ้น 10 และเมื่อน็อคดาวน์ เอฟเฟกต์จะถูกยกเลิก	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
+702002	MPChange	Buff	True	abs	5000	1	773	Thrall of Life Xlll			วิญญณแห่งชีวิตเข้าสิงตัวเจ้า ทำให้<font color = '#66bbff'>ฟื้นฟู</font> HP 1.5% และ MP 10% ทุกๆหนึ่งวินาที ขณะที่เอฟเฟกต์มีผลอยู่ ความเร็วเคลื่อนที่การต่อสู้เพิ่มขึ้น 10 และเมื่อน็อคดาวน์ เอฟเฟกต์จะถูกยกเลิก	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal2_tex	True
 702003	Power	Buff	True	abs	12000	0	15	Thrall of Vengeance II			วิญญาณแห่งสายฟ้าเข้าสิงตัวเจ้า ทำให้พละกำลังเพิ่มขึ้น 15 เมื่อน็อคดาวน์ เอฟเฟกต์จะถูกยกเลิก	icon_skills.summonspiritofrange_tex	icon_skills.summonspiritofrange2_tex	True
 702004	CritPower1	Buff	True	abs	20000	0	0.6	Thrall of Wrath II			วิญญานแห่งการทำลายล้าง เข้าสิงในตัวของเจ้า ทำให้ความเสียหายคริติคอล เพิ่มขึ้น 0.6 เท่า เมื่อถูกทำให้มึนงง เอฟเฟกต์จะถูกยกเลิก	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack2_tex	True
 702005	330	Buff	True	swch	1000	0	0	Thrall Transform			จิตวิญญาณเข้าสิงร่างกาย ทำให้ความเร็วเคลื่อนที่เพิ่มขึ้น 10 และฟื้นฟู MP ครั้งละ 200 ทุกๆ 2 วินาที เมื่อใช้สกิล Summon Thrall King จะเกิดเอฟเฟกต์อื่นของแต่ละคน	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	False
@@ -3655,21 +3730,21 @@
 800107	HPChange	Buff	True	abs	10000	2	300	Regeneration Circle VIII			ฟื้น HP ทุกๆ $H_W_GOOD2s$COLOR_END	icon_skills.healingwind_tex	icon_skills.healingwind_tex	True
 800108	HPChange	Buff	True	abs	10000	2	308	Regeneration Circle IX			ฟื้น HP ทุกๆ $H_W_GOOD2s$COLOR_END	icon_skills.healingwind_tex	icon_skills.healingwind_tex	True
 800200	MPChange	Buff	True	abs	10000	1	500	Mana Infusion			เติม MP $H_W_GOOD500$COLOR_END ทุกๆ $H_W_GOOD1s$COLOR_END	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex	True
-800300	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield I			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD5111$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800300	Absorb	Buff	True	swch	12000	0	5111	Kaia's Shield I			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD5111$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800300	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield I			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD5111$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800301	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield II			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD7095$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800301	Absorb	Buff	True	swch	12000	0	7095	Kaia's Shield II			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD7095$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800301	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield II			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD7095$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800302	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield III			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD9803$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800302	Absorb	Buff	True	swch	12000	0	9803	Kaia's Shield III			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD9803$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800302	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield III			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD9803$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800303	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield IV			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD14282$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800303	Absorb	Buff	True	swch	12000	0	14282	Kaia's Shield IV			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD14282$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800303	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield IV			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD14282$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800304	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield V			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD39749$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800304	Absorb	Buff	True	swch	12000	0	39749	Kaia's Shield V			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD39749$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
-800304	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield V			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD39749$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800300	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD5111$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800300	Absorb	Buff	True	swch	12000	0	5111	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD5111$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800300	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD5111$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800301	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD7095$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800301	Absorb	Buff	True	swch	12000	0	7095	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD7095$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800301	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD7095$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800302	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD9803$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800302	Absorb	Buff	True	swch	12000	0	9803	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD9803$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800302	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD9803$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800303	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD14282$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800303	Absorb	Buff	True	swch	12000	0	14282	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD14282$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800303	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD14282$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800304	KnockDownChance	Buff	True	perc	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD39749$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800304	Absorb	Buff	True	swch	12000	0	39749	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD39749$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+800304	StatusImmune	Buff	True	swch	12000	0	0	Kaia's Shield			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD39749$COLOR_END ต้านทานการน็อกดาวน์และเซ สิ้นสุดเมื่อถึงความเสียหายสูงสุด	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
 800400	AllResist	Buff	True	abs	1500000	0	5	Blessing of Arachne			เพิ่มการต้านทานขึ้น $H_W_GOOD5$COLOR_END	icon_skills.resistancebless_tex	icon_skills.resistancebless_tex	True
 800500	Endurance	Buff	True	abs	900000	0	6	Blessing of Seren I			เพิ่มความทนทานขึ้น $H_W_GOOD6$COLOR_END	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex	True
 800501	Endurance	Buff	True	abs	900000	0	11	Blessing of Seren II			เพิ่มความทนทานขึ้น $H_W_GOOD11$COLOR_END	icon_skills.agilitybless_tex	icon_skills.agilitybless_tex	True
@@ -3740,10 +3815,10 @@
 801601	HPChange	Buff	True	abs	3000	1	564	Healing Immersion II			ฟื้น HP $H_W_GOOD625$COLOR_END ทุกๆ $H_W_GOOD1s$COLOR_END	icon_skills.curewing_tex	icon_skills.curewing_tex	True
 801650	Power	Buff	True	perc	3000	0	1	Healing Immersion				icon_skills.curewing_tex	icon_skills.curewing_tex	False
 801700	Resurrect	Buff	True	seta	1200000	0	1	Grace of Resurrection			ถ้าท่านตายขณะที่อยู่ภายใต้เอฟเฟกต์นี้ ท่านจะสามารถคืนชีพที่จุดนั้นได้	icon_skills.selfpreresurrection_tex	icon_skills.selfpreresurrection_tex	True
-801800	MPChange	Buff	True	perc	5000	1	0.03	Mana Charge				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
-801801	MPChange	Buff	True	perc	5000	1	0.06	Mana Charge				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
-801802	MPChange	Buff	True	perc	5000	1	0.08	Mana Charge				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
-801803	MPChange	Buff	True	perc	5000	1	0.1	Words of Lethal				icon_skills.spirit2_tex	icon_skills.spirit2_tex	False
+801800	MPChange	Buff	True	abs	5000	1	232	Mana Charge				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
+801801	MPChange	Buff	True	abs	5000	1	464	Mana Charge				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
+801802	MPChange	Buff	True	abs	5000	1	619	Mana Charge				icon_skills.manarejuvenation_tex	icon_skills.manarejuvenation_tex	False
+801803	MPChange	Buff	True	abs	5000	1	774	Words of Lethal				icon_skills.spirit2_tex	icon_skills.spirit2_tex	False
 801900	Stun	Stun	False	swch	1500	0	5	Zenobia's Vortex			ยกเป้าหมายขึ้นไปในอากาศ	icon_skills.godbreath_tex	icon_skills.godbreath_tex	False
 801900	274	Stun	False	swch	1500	0	80	Zenobia's Vortex			ยกเป้าหมายขึ้นไปในอากาศ	icon_skills.godbreath_tex	icon_skills.godbreath_tex	False
 801901	Immune	Buff	True	16	1200	0	0	Zenobia's Vortex			ยกเป้าหมายขึ้นไปในอากาศ (สิ่งผิดปกติที่ไม่แสดง)			False
@@ -3808,7 +3883,7 @@
 806022	DefPotion	Buff	True	perc	3000	0	0.7	Brilliant Flash			ได้รับพลัง High Blessing Energy ทำให้ความเสียหายที่ได้รับลดลง 30% และต้านทานการล้ม, เซ อีกทั้งฟื้นฟู HP ครั้งละ 500 ทุกๆ 1 วินาที	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
 806023	HPChange	Buff	True	abs	10000	1	100	Regeneration Circle			ได้รับ Blessing Energy ทำให้ความเสียหายที่ได้รับ ลดลง $H_W_GOOD5%$COLOR_END และทุกๆ 1 วินาที HP ฟื้นฟูขึ้นทีละ 100	icon_skills.healingwind_tex	icon_skills.blessingaura_tex	True
 806023	DefPotion	Buff	True	perc	10000	0	0.95	Regeneration Circle			ได้รับ Blessing Energy ทำให้ความเสียหายที่ได้รับ ลดลง $H_W_GOOD5%$COLOR_END และทุกๆ 1 วินาที HP ฟื้นฟูขึ้นทีละ 100	icon_skills.healingwind_tex	icon_skills.blessingaura_tex	True
-806100	HPChange	Buff	True	perc	5000	1	0.025	Focus			HP เพิ่มขึ้นอย่างต่อเนื่องชั่วขณะหนึ่ง	icon_skills.healinglightlockon_tex	icon_skills.healinglightlockon_tex	True
+806100	HPChange	Buff	True	abs	5000	1	120	Focus Heal IX			HP เพิ่มขึ้นอย่างต่อเนื่องชั่วขณะหนึ่ง	icon_skills.healinglightlockon_tex	icon_skills.healinglightlockon_tex	True
 806101	IncreasedHeal	Debuff	False	abs	3000	1	0.85	Focus Heal IX			ปริมาณการฟื้นฟู HP ลดลง 15% ชั่วขณะหนึ่ง	icon_skills.healinglightlockon_tex	icon_skills.healinglightlockon_tex	True
 806102	IncreasedHeal	Debuff	False	abs	5000	1	0.7	Brilliant Flash			ขยายพลังของ Light of Weakening ซึ่งทำให้ปริมาณการฟื้นฟู HP ลดลง 30% ชั่วขณะหนึ่ง	icon_skills.lightspark_tex	icon_skills.healinglightlockon_tex	True
 806103	HPChange	Buff	True	abs	3000	1	500	Brilliant Flash			ลดความเสียหายที่ได้รับ 30% และป้องกันสถานะการล้ม, เซ อีกทั้งฟื้นฟู HP ครั้งละ 500 ทุกๆ 1 วินาที	icon_skills.lightspark_tex	icon_skills.blessingaura2_tex	True
@@ -4562,6 +4637,12 @@
 3000030	MaxHP	Buff	True	perc	0	0	1	Take Wing and Soar			สามารถบินในพื้นที่ 'free to fly'	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000030	HPChange	Buff	True	perc	0	1	0.01	Take Wing and Soar			สามารถบินในพื้นที่ 'free to fly'	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000030	MPChange	Buff	True	perc	0	1	0.01	Take Wing and Soar			สามารถบินในพื้นที่ 'free to fly'	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000031	MaxHP	Buff	True	perc	0	0	1	Celestial Beast Flight (HP, MP)			สามารถบินในพื้นที่ที่สามารถบินได้<BR>ขณะที่ขึ้นขี่สัตว์จะฟื้นฟู HP และ MP วินาทีละ 1% ของค่าสูงสุด และเอฟเฟกต์ [Mythical Creature] จะแสดงผล	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000031	HPChange	Buff	True	perc	0	1	0.01	Celestial Beast Flight (HP, MP)			สามารถบินในพื้นที่ที่สามารถบินได้<BR>ขณะที่ขึ้นขี่สัตว์จะฟื้นฟู HP และ MP วินาทีละ 1% ของค่าสูงสุด และเอฟเฟกต์ [Mythical Creature] จะแสดงผล	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000031	MPChange	Buff	True	perc	0	1	0.01	Celestial Beast Flight (HP, MP)			สามารถบินในพื้นที่ที่สามารถบินได้<BR>ขณะที่ขึ้นขี่สัตว์จะฟื้นฟู HP และ MP วินาทีละ 1% ของค่าสูงสุด และเอฟเฟกต์ [Mythical Creature] จะแสดงผล	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000032	MaxHP	Buff	True	perc	0	0	1	Celestial Beast Flight (HP, MP)			สามารถบินในพื้นที่ที่สามารถบินได้<BR>ขณะที่ขึ้นขี่สัตว์จะฟื้นฟู HP และ MP วินาทีละ 2% ของค่าสูงสุด และเอฟเฟกต์ [Mythical Creature] จะแสดงผล	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000032	HPChange	Buff	True	perc	0	1	0.02	Celestial Beast Flight (HP, MP)			สามารถบินในพื้นที่ที่สามารถบินได้<BR>ขณะที่ขึ้นขี่สัตว์จะฟื้นฟู HP และ MP วินาทีละ 2% ของค่าสูงสุด และเอฟเฟกต์ [Mythical Creature] จะแสดงผล	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000032	MPChange	Buff	True	perc	0	1	0.02	Celestial Beast Flight (HP, MP)			สามารถบินในพื้นที่ที่สามารถบินได้<BR>ขณะที่ขึ้นขี่สัตว์จะฟื้นฟู HP และ MP วินาทีละ 2% ของค่าสูงสุด และเอฟเฟกต์ [Mythical Creature] จะแสดงผล	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3012000	Power	Buff	True	abs	1800000	0	40	Training Center_Potion of Blessing			ผลของ Blessing of Shakan III, Energy Stars IV แสดงผลต่อเนื่อง และผลของ High Words of Lethal IV จะแสดงผลทุกๆ 25 วินาที	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	Endurance	Buff	True	abs	1800000	0	11	Training Center_Potion of Blessing			ผลของ Blessing of Shakan III, Energy Stars IV แสดงผลต่อเนื่อง และผลของ High Words of Lethal IV จะแสดงผลทุกๆ 25 วินาที	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	AllResist	Buff	True	abs	1800000	0	5	Training Center_Potion of Blessing			ผลของ Blessing of Shakan III, Energy Stars IV แสดงผลต่อเนื่อง และผลของ High Words of Lethal IV จะแสดงผลทุกๆ 25 วินาที	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
@@ -4686,6 +4767,8 @@
 5060036	CDR	Buff	True	swch	0	0	0.2	Super TERA Time [Skill Cooltime/Attack Speed/Skill Power/MP Recovery] 			คูลดาวน์สกิลทั้งหมด ลดลง 80%, ความเร็วโจมตีเพิ่มขึ้น 20%, พลังสกิลเพิ่มขึ้น 50%, ปริมาณการฟื้นฟู MP เพิ่มขึ้น	icon_status.pluswill_tex	icon_status.pluswill_tex	True
 5060037	358	Buff	True	abs	0	0	1	[Event] Gem Lure Fishing	856387	[Event] Gem Lure Fishing	Lure เปล่งประกายวิบวับ สามารถตกสิ่งของล้ำค่าได้จากบ่อตกปลาทั้งหมด	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
 5060037	362	Buff	True	swch	0	0	856387	[Event] Gem Lure Fishing	856387	[Event] Gem Lure Fishing	Lure เปล่งประกายวิบวับ สามารถตกสิ่งของล้ำค่าได้จากบ่อตกปลาทั้งหมด	icon_items.enchant_material_yellow_tex	icon_items.enchant_material_yellow_tex	True
+5060038	358	Buff	True	abs	0	0	1	[Event] Icefish Bait	856470	[Event] Icefish Bait	เหยื่อที่ Icefish โปรดปราน ซึ่งใช้ในช่วงเทศกาลตกปลาน้ำแข็ง$BRBleakrock Ice Fishing Festival$BRสามารถใช้งานได้ที่ Celsian Lake Fishing Hole	icon_items.worm01_tex	icon_items.worm01_tex	True
+5060038	362	Buff	True	swch	0	0	856470	[Event] Icefish Bait	856470	[Event] Icefish Bait	เหยื่อที่ Icefish โปรดปราน ซึ่งใช้ในช่วงเทศกาลตกปลาน้ำแข็ง$BRBleakrock Ice Fishing Festival$BRสามารถใช้งานได้ที่ Celsian Lake Fishing Hole	icon_items.worm01_tex	icon_items.worm01_tex	True
 5690001	StaminaDecay	Buff	True	seta	0	0	0	Arcana Protection			ใช้ช่วยในการรวบรวมความทรงจำ คริสตัลไม่ถูกทำลายเมื่อตาย 	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690001	CrystalBind	Buff	True	abs	0	0	1	Arcana Protection			ใช้ช่วยในการรวบรวมความทรงจำ คริสตัลไม่ถูกทำลายเมื่อตาย 	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690002	Resurrect	Buff	True	seta	60000	0	1	Memory Mend			ฟื้นคืนชีพได้โดยใช้ Memory Mend และลบความทรงจำของคนตาย	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex	True
@@ -5016,6 +5099,11 @@
 8000122	XPBoost	Buff	True	perc	3600000	0	2	XP Boost Potion (100%)	5293	XP Boost Potion (100%)	ในระยะเวลา 3600s EXP ที่จะได้รับเพิ่มขึ้น 100%  เมื่อล่ามอนสเตอร์ เวลาจะยังคงถูกนับแม้ออกจากเกมแล้ว	icon_items.potion12_tex	icon_items.potion12_tex	True
 8000123	XPBoost	Buff	True	perc	3600000	0	1.5	XP Boost Potion (50%)	5294	XP Boost Potion (50%)	ในระยะเวลา 3600s EXP ที่จะได้รับเพิ่มขึ้น 50%  เมื่อล่ามอนสเตอร์ เวลาจะยังคงถูกนับแม้ออกจากเกมแล้ว	icon_items.potion12_tex	icon_items.potion12_tex	True
 8000124	XPBoost	Buff	True	perc	3600000	0	1.3	XP Boost Potion (30%)	5295	XP Boost Potion (30%)	ในระยะเวลา 3600s EXP ที่จะได้รับเพิ่มขึ้น 30%  เมื่อล่ามอนสเตอร์ เวลาจะยังคงถูกนับแม้ออกจากเกมแล้ว	icon_items.potion12_tex	icon_items.potion12_tex	True
+8000125	46	Buff	True	perc	0	1	2	Bellicose's Token 100 (For Test)			เมื่ออยู่ในขณะที่ TERA Member แสดงผล ทำให้ค่าชื่อเสียงสนามรบ และคะแนนชื่อเสียงสนามรบ เพิ่มขึ้น 100%	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000126	47	Buff	True	perc	0	1	2	Bellicose's Token 100 When Killing Monster (For Test)			เพิ่มขึ้น 100%	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000127	47	Buff	True	perc	0	1	2	Bellicose's Token 100 When Quest Completed (For Test)			เพิ่มขึ้น 100%	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000128	47	Buff	True	perc	0	1	2	Bellicose's Token 100 When Valkyon Request Completed (For Test)			เพิ่มขึ้น 100%	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000129	47	Buff	True	perc	0	1	2	Bellicose's Token 100 (For Test) When Item Used			เพิ่มขึ้น 100%	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
 8000684	StackCounter	Debuff	False	seta	15000	0	8000685	Snowman's Curse			ออกจากจุดเกิดใน 15 วินาทีเพื่อยกเลิกคำสาป เอฟเฟกต์สามารถสะสมได้สูงสุด 13 ครั้ง - แล้วท่านจะตายอย่างเป็นสโนว์แมน	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	The Curse of Snowman			ท่านไม่ได้เล่นมาสักพักแล้ว ท่านจะตายหากไม่ทำอะไรในเร็วๆ นี้!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 8000685	191	Debuff	False	perc	60000	0	0	The Curse of Snowman			ท่านไม่ได้เล่นมาสักพักแล้ว ท่านจะตายหากไม่ทำอะไรในเร็วๆ นี้!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -5225,8 +5313,8 @@
 10151030	Block	Buff	True	swch	1500	0	0	Soul Reversal			คูลดาวน์ของ Soul Reversal ได้รีเซ็ต	icon_skills.darkgrasp_tex	icon_skills.darkgrasp_tex	False
 10151030	ReloadingSkill	Buff	True	perc	1500	0	90013	Soul Reversal			คูลดาวน์ของ Soul Reversal ได้รีเซ็ต	icon_skills.darkgrasp_tex	icon_skills.darkgrasp_tex	False
 10151031	ReloadingSkill	Buff	True	perc	9500	0	90013	Soul Reversal Ready			สกิล Soul Reversal พร้อม	icon_status.darkwater_tex	icon_status.darkwater_tex	True
-10151032	HPChange	Debuff	False	abs	10000	2	-3454	Soul Reversal			พันด้วยสายเงาทำให้เกิดความเสียหาย 3,454 ทุก 2 วินาที เป้าหมายที่ถูกพันจะถูกบังคับให้สลับตำแหน่งกับผู้ร่ายสกิลเมื่อไหร่ก็ได้	icon_skills.darkgrasp_tex	icon_status.positionswap_tex	True
-10151032	263	Debuff	False	perc	10000	0	10151031	Soul Reversal			พันด้วยสายเงาทำให้เกิดความเสียหาย 3,454 ทุก 2 วินาที เป้าหมายที่ถูกพันจะถูกบังคับให้สลับตำแหน่งกับผู้ร่ายสกิลเมื่อไหร่ก็ได้	icon_skills.darkgrasp_tex	icon_status.positionswap_tex	True
+10151032	HPChange	Debuff	False	abs	10000	2	-3454	Shadowy Cables			พันด้วยสายเงาทำให้เกิดความเสียหาย 3,454 ทุก 2 วินาที เป้าหมายที่ถูกพันจะถูกบังคับให้สลับตำแหน่งกับผู้ร่ายสกิลเมื่อไหร่ก็ได้	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+10151032	263	Debuff	False	perc	10000	0	10151031	Shadowy Cables			พันด้วยสายเงาทำให้เกิดความเสียหาย 3,454 ทุก 2 วินาที เป้าหมายที่ถูกพันจะถูกบังคับให้สลับตำแหน่งกับผู้ร่ายสกิลเมื่อไหร่ก็ได้	icon_status.positionswap_tex	icon_status.positionswap_tex	True
 10151033	Stun	Stun	False	swch	2500	0	5	Soul Reversal			ติดสตั้นชั่วคราว	icon_skills.darkgrasp_tex	icon_skills.darkgrasp_tex	True
 10151033	Drunk1	Stun	False	seta	2500	0	0	Soul Reversal			ติดสตั้นชั่วคราว	icon_skills.darkgrasp_tex	icon_skills.darkgrasp_tex	True
 10151040	ReloadingSkill	Buff	True	perc	2000	0	90011	Final Judgment			ถ้าท่านเห็นบัฟนี้ให้รายงานมันเป็นบั๊ค!	icon_skills.shieldattack_tex	icon_skills.chainflurry_tex	False
@@ -5252,7 +5340,7 @@
 10151081	HPChange	Stun	False	abs	9000	1	-863	Smite			ความเสียหายที่ได้รับเพิ่มขึ้น 10% และ จะได้รับสถานะเลือดออก สร้างความเสียหาย 863 แต้มทุกๆ 1 วินาที	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
 10151081	DefPotion	Stun	False	perc	9000	0	1.1	Smite			ความเสียหายที่ได้รับเพิ่มขึ้น 10% และ จะได้รับสถานะเลือดออก สร้างความเสียหาย 863 แต้มทุกๆ 1 วินาที	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
 10151082	Endurance	Debuff	False	perc	12000	0	0.91	Smite			ความทนทานลดลง $H_W_BAD9%$COLOR_END	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
-10151083	ForceCrit	Buff	True	seta	4000	0	80000	Smite			เมื่อมอนสเตอร์โจมตีในช่วงเวลาต่อเนื่องจะทำให้ได้รับความสามารถโจมตีจากด้านหลัง	icon_skills.chainstrike_tex	icon_status.strikeskull_tex	True
+10151083	ForceCrit	Buff	True	seta	4000	0	80000	Smote [Wounding]			เมื่อมอนสเตอร์โจมตีในช่วงเวลาต่อเนื่องจะทำให้ได้รับความสามารถโจมตีจากด้านหลัง	icon_status.strikeskull_tex	icon_status.strikeskull_tex	True
 10151090	Power	Debuff	True	abs	3600000	0	0	Veil of Shadows			รับความเสียหายถึงขั้นเสียชีวิตและเข้าไปใน Veil of Shadows ลดความเสียหายลง 50% ฟื้น HP ขึ้น 15% ของ HP สูงสุดเมื่อเอฟเฟกต์สิ้นสุด	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
 10151090	DefPotion	Buff	True	perc	7000	0	0.5	Veil of Shadows			รับความเสียหายถึงขั้นเสียชีวิตและเข้าไปใน Veil of Shadows ลดความเสียหายลง 50% ฟื้น HP ขึ้น 15% ของ HP สูงสุดเมื่อเอฟเฟกต์สิ้นสุด	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
 10151090	HPLoss	Buff	True	perc	7000	0	1.15	Veil of Shadows			รับความเสียหายถึงขั้นเสียชีวิตและเข้าไปใน Veil of Shadows ลดความเสียหายลง 50% ฟื้น HP ขึ้น 15% ของ HP สูงสุดเมื่อเอฟเฟกต์สิ้นสุด	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
@@ -5261,7 +5349,7 @@
 10151091	NoHeal	Buff	False	seta	6000	0	0	Reduced healing in Veil of Shadows				icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	False
 10151092	Power	Debuff	True	abs	3600000	0	0	Gathering Shadows			คูลดาวน์ของ Veil of Shadows ทำงาน	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
 10151093	350	Stun	False	swch	11300	0	0	Binding Sickle			โซ่จะบีบเข้ามาเรื่อยๆจนทำให้ขยับตัวลำบาก	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	True
-10151130	MovSpd	Buff	False	perc	5000	0	0.3	Death Spiral			ความเร็วในการเคลื่อนที่ลดลงจาก Death Spiral	icon_skills.chainbrandish_tex	icon_status.chainsnare_tex	True
+10151130	MovSpd	Buff	False	perc	5000	0	0.3	Flash Slash			ความเร็วในการเคลื่อนที่ลดลงจาก Death Spiral	icon_skills.slidingslash_tex	icon_status.chainsnare_tex	True
 10151131	ReloadingSkill	Buff	True	perc	6000	0	90006	Additional Death Spiral			สามารถใช้ Death Spiral ได้อีกครั้งหนึ่ง เวลาคูลดาวน์ทำงานหลังจากใช้ Death Spiral อีกครั้งหรือเมื่อเอฟเฟกต์สิ้นสุด	icon_skills.chainbrandish_tex	icon_skills.chainbrandish_tex	True
 10151131	334	Buff	True	swch	6000	0	60200	Additional Death Spiral			สามารถใช้ Death Spiral ได้อีกครั้งหนึ่ง เวลาคูลดาวน์ทำงานหลังจากใช้ Death Spiral อีกครั้งหรือเมื่อเอฟเฟกต์สิ้นสุด	icon_skills.chainbrandish_tex	icon_skills.chainbrandish_tex	True
 10151150	ReloadingSkill	Buff	True	perc	3000	0	90012	Shadow Burst			สามารถใช้ Shadow Burst ได้อีกครั้งขณะที่เคียวติดอยู่ที่พื้น	icon_skills.darkexplosion_tex	icon_skills.darkexplosion_tex	False
@@ -5330,7 +5418,7 @@
 10152052	MovSpdInCombat	Debuff	False	setp	1100	0	0.5	Burst Fire			ลดความเร็วในการเคลื่อนที่ลง	icon_skills.gatlingshot_tex	icon_skills.anklelnjury_tex	True
 10152052	HPDrain	Debuff	False	perc	1100	0	0.51	Burst Fire			ลดความเร็วในการเคลื่อนที่ลง	icon_skills.gatlingshot_tex	icon_skills.anklelnjury_tex	True
 10152053	Endurance	Buff	True	perc	2100	0	1	Burst Fire			สถานะผิดปกตินี้ไม่ควรแสดง			False
-10152060	KnockDownChance	Buff	False	perc	2100	0	0	Mana Missiles			สร้างการชาร์จไฟฟ้าขึ้นเพื่อให้เกิดความเสียหายต่อเนื่อง	icon_skills.aimedshot_tex	icon_skills.excesselectron_tex	False
+10152060	KnockDownChance	Buff	False	perc	2100	0	0	Overcharge			สร้างการชาร์จไฟฟ้าขึ้นเพื่อให้เกิดความเสียหายต่อเนื่อง	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	False
 10152061	HPChange	DOT	False	abs	10100	2	-645	Overcharge			สร้างการชาร์จไฟฟ้าขึ้นเพื่อให้เกิดความเสียหายต่อเนื่อง	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 10152070	Rage	Buff	True	abs	8100	0	200	Hollowpoint Bullets			เพิ่มพละกำลังในการโจมตีครั้งไปขึ้น 20%	icon_skills.magiccannonshot_tex	icon_skills.magiccannonshot_tex	True
 10152072	Rage	Buff	True	abs	4100	0	200	Hollowpoint Bullets			เพิ่มพละกำลังในการโจมตีครั้งไปขึ้น 20%	icon_skills.magiccannonshot_tex	icon_skills.magiccannonshot_tex	False
@@ -5400,7 +5488,7 @@
 10153000	209	Buff	True	perc	6000	0	0	Ready to Counterpunch			สามารถใช้ Counterpunch ได้	icon_skills.counterattack2_tex	icon_skills.counterattack2_tex	True
 10153010	HPChange2	Buff	True	perc	500	0	1.4	Invigorating Rage				icon_skills.relax_tex	icon_skills.relax_tex	False
 10153010	281	Buff	True	perc	500	0	1.4	Invigorating Rage				icon_skills.relax_tex	icon_skills.relax_tex	False
-10153020	Block	Stun	False	swch	3000	0	0	Break Down			งุนงงอยู่ในอากาศ	icon_skills.collapse_tex	icon_skills.lossofbalance_tex	True
+10153020	Block	Stun	False	swch	3000	0	0	Counter			งุนงงอยู่ในอากาศ	icon_skills.smashattack02_tex	icon_skills.lossofbalance_tex	True
 10153030	Stun	Stun	False	swch	3000	0	5	Flip Kick			ติดสตั้นจากกระแทก	icon_skills.airkick_tex	icon_skills.concussion_tex	True
 10153040	Power	Buff	True	abs	0	0	45	Growing Fury			ขณะที่เอฟเฟกต์มีผลต่อเนื่อง เมื่อใช้สกิลโจมตี จะ<font color = '#66bbff'>ป้องกันด้านหน้า</font>, เพิ่มขนาดตัวและค่าปฏิปักษ์ 10%, พละกำลัง 45, โอกาสเกิดคริติตอล 50  และลดความเร็วโจมตี 10, คูลไทม์สกิลทั้งหมด 30%	icon_skills.rampage_tex	icon_skills.rampage_tex	True
 10153040	Crit	Buff	True	abs	0	0	50	Growing Fury			ขณะที่เอฟเฟกต์มีผลต่อเนื่อง เมื่อใช้สกิลโจมตี จะ<font color = '#66bbff'>ป้องกันด้านหน้า</font>, เพิ่มขนาดตัวและค่าปฏิปักษ์ 10%, พละกำลัง 45, โอกาสเกิดคริติตอล 50  และลดความเร็วโจมตี 10, คูลไทม์สกิลทั้งหมด 30%	icon_skills.rampage_tex	icon_skills.rampage_tex	True
@@ -5540,7 +5628,7 @@
 10155130	Range	Buff	True	swch	25000	0	0.2	Ragnarok			พละกำลัง เพิ่มขึ้น 50, ความเร็วโจมตี เพิ่มขึ้น 20, ระยะโจมตี เพิ่มขึ้น 20% และเวลาคูลดาวน์สกิล ลดลง 60% เมื่อร่ายสกิลที่มีคูลดาวน์ 60 วินาที หรือน้อยกว่า (ไม่รวม Evasion, Retaliate, Bloodflower และ Overhead Slash)	icon_skills.redmoon_tex	icon_skills.redmoon_tex	True
 10155130	ReloadingSkill	Buff	True	swch	25000	0	763	Ragnarok			พละกำลัง เพิ่มขึ้น 50, ความเร็วโจมตี เพิ่มขึ้น 20, ระยะโจมตี เพิ่มขึ้น 20% และเวลาคูลดาวน์สกิล ลดลง 60% เมื่อร่ายสกิลที่มีคูลดาวน์ 60 วินาที หรือน้อยกว่า (ไม่รวม Evasion, Retaliate, Bloodflower และ Overhead Slash)	icon_skills.redmoon_tex	icon_skills.redmoon_tex	True
 10155131	Endurance	Buff	True	swch	1500	0	0	Ragnarok			พละกำลัง เพิ่มขึ้น 50, ความเร็วโจมตี เพิ่มขึ้น 20, ระยะโจมตี เพิ่มขึ้น 20% และเวลาคูลดาวน์สกิล ลดลง 60% เมื่อร่ายสกิลที่มีคูลดาวน์ 60 วินาที หรือน้อยกว่า (ไม่รวม Evasion, Retaliate, Bloodflower และ Overhead Slash)	icon_skills.redmoon_tex	icon_skills.redmoon_tex	False
-10155140	263	Buff	True	perc	5000	0	10155190	Dream Slash			เพิ่มการต้านทานถูกสตั้นอย่างมาก	icon_skills.split_tex	icon_skills.moonlight_tex	False
+10155140	263	Buff	True	perc	5000	0	10155190	Reclamation			เพิ่มการต้านทานถูกสตั้นอย่างมาก	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
 10155150	CritChance	Buff	True	perc	10000	0	100	Perfect Evasion			การโจมตีครั้งถัดไปด้วยสกิลใดก็ตามแต่การันตี Slash มีโอกาสติดคริติคอล	icon_status.darkriftareadance_tex	icon_status.darkriftareadance_tex	True
 10155170	Stun	Stun	False	swch	3000	0	5	Dark Herald			ถูกสตั้น	icon_skills.moongravity_tex	icon_skills.moongravity_tex	True
 10155240	33	Buff	True	seta	40000	0	0	Max Ragnarok Points			มีเตอร์สงครามเต็ม ท่านร่าย Ragnarok ได้	icon_items.fullmoon_gemstone_tex	icon_items.fullmoon_gemstone_tex	True
@@ -5555,7 +5643,6 @@
 10155256	33	Buff	True	seta	0	0	0	Ragnarok Recovery			ฟื้นฟู Ragnarok อย่างต่อเนื่อง	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
 10155256	RageChange	Buff	True	abs	0	1	67	Ragnarok Recovery			ฟื้นฟู Ragnarok อย่างต่อเนื่อง	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
 10155270	Endurance	Buff	True	perc	20000	0	1	Dark Herald			ต้านทานเอฟเฟกต์ Dark HeraldDark Herald	icon_skills.moongravity_tex	icon_skills.moongravity_tex	True
-10155290	Endurance	Debuff	True	perc	1	0	1	Dream Slash				icon_skills.split_tex	icon_skills.split_tex	False
 10155320	Immune	Buff	True	40	0	0	0	Quick Evasion			สามารถใช้ Evasion ได้อีกครั้ง	icon_skills.moonshadow_tex	icon_skills.moonshadow_tex	False
 10155400	MovSpd	Stun	False	setp	5000	0	0	Backstab			ไม่สามารถเคลื่อนย้ายได้ น็อกดาวน์เพื่อยกเลิกเอฟเฟกต์	icon_skills.mooncatch_tex	icon_skills.mooncatch_tex	True
 10155400	MovSpdInCombat	Stun	False	setp	5000	0	0	Backstab			ไม่สามารถเคลื่อนย้ายได้ น็อกดาวน์เพื่อยกเลิกเอฟเฟกต์	icon_skills.mooncatch_tex	icon_skills.mooncatch_tex	True
@@ -5827,6 +5914,58 @@
 30190396	Drunk1	Debuff	True	seta	0	0	0	Charge			ทุกครั้งที่ Kaelus ใช้สกิลพิเศษ จะรวบรวม Lightning Aura เอาไว้ ถ้ารวมไว้ได้เกินกว่ามาตรฐานจะใช้ Shriek's Strike	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190397	Drunk1	Debuff	True	seta	0	0	0	Charge			ทุกครั้งที่ Kaelus ใช้สกิลพิเศษ จะรวบรวม Lightning Aura เอาไว้ ถ้ารวมไว้ได้เกินกว่ามาตรฐานจะใช้ Shriek's Strike	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190398	Drunk1	Debuff	True	seta	0	0	0	Charge			ทุกครั้งที่ Kaelus ใช้สกิลพิเศษ จะรวบรวม Lightning Aura เอาไว้ ถ้ารวมไว้ได้เกินกว่ามาตรฐานจะใช้ Shriek's Strike	icon_status.godspell_tex	icon_status.godspell_tex	True
+31010202	HPChange	DOT	True	perc	10000	2	-0.1	Scattered Gems			เนื่องจากได้รับบาดแผล จากละอองอัญมณีที่ล่องลอยในอากาศ ทำให้ HP ลดลง $H_W_BAD10%$COLOR_END ของค่าสูงสุด เป็นเวลา 2 วินาที	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+31010205	Block	Buff	True	swch	2000	0	0	Silence			ร่างกายเต็มไปด้วยผลึกอัญมณี ทำให้ร่างกายไม่สามารถขยับได้	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+31010220	Aggro	Debuff	True	perc	80000	0	0.3	Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+31010220	StackCounter	Debuff	True	seta	80000	0	31010223	Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+31010223	Block	Debuff	True	swch	2000	0	0	Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	HPLoss	Debuff	True	abs	2000	0	-10000000	Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	Drunk	Debuff	True	320123	2000	0	0	Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	311	Debuff	True	3201	2000	0	200	Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+31010223	340	Debuff	True	swch	2000	0	0	Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010003	252	Debuff	True	perc	0	0	32010004	Protective Coloring-Red			ร่างกายปกคลุมด้วยสีอำพรางตัวสีแดง ทำให้ไม่ถูกตรวจจับด้วยเลเซอร์สีแดงได้	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+32010003	319	Debuff	True	perc	0	0	32010002	Protective Coloring-Red			ร่างกายปกคลุมด้วยสีอำพรางตัวสีแดง ทำให้ไม่ถูกตรวจจับด้วยเลเซอร์สีแดงได้	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+32010004	252	Debuff	True	perc	0	0	32010003	Protective Coloring-Blue			ร่างกายปกคลุมด้วยสีอำพรางตัวสีน้ำเงิน ทำให้ไม่ถูกตรวจจับด้วยเลเซอร์สีน้ำเงินได้	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+32010004	319	Debuff	True	perc	0	0	32010001	Protective Coloring-Blue			ร่างกายปกคลุมด้วยสีอำพรางตัวสีน้ำเงิน ทำให้ไม่ถูกตรวจจับด้วยเลเซอร์สีน้ำเงินได้	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+32010005	MovSpd	Debuff	True	perc	0	0	0.8	Caution!			เพื่อไม่ให้เครื่องตรวจจับนั้นจับสัญญาณได้ จึงทำให้ความเร็วเคลื่อนที่ลดลงเล็กน้อย และให้การใช้สกิลไร้ผล	icon_status.sealskill_tex	icon_status.sealskill_tex	True
+32010005	MovSpdInCombat	Debuff	True	seta	0	0	60	Caution!			เพื่อไม่ให้เครื่องตรวจจับนั้นจับสัญญาณได้ จึงทำให้ความเร็วเคลื่อนที่ลดลงเล็กน้อย และให้การใช้สกิลไร้ผล	icon_status.sealskill_tex	icon_status.sealskill_tex	True
+32010105	Stun	Debuff	False	swch	5000	0	5	มึนงง			มึนงงจากการโจมตีที่รุนแรง	icon_skills.improvehardblow_tex	icon_skills.improvehardblow_tex	True
+32010106	ASpd	DOT	True	perc	8000	0	0.8	Little Addict			ติดพิษจากละอองผีเสื้อ ทำให้ความเร็วโจมตี ลดลง 20% และ HP ลดลงอย่างต่อเนื่อง $H_W_BAD8%$COLOR_END ของค่าสูงสุด เป็นเวลา $H_W_BAD2s$COLOR_END	icon_status.poisondown_tex	icon_status.poisondown_tex	True
+32010106	HPChange	DOT	True	perc	8000	2	-0.08	Little Addict			ติดพิษจากละอองผีเสื้อ ทำให้ความเร็วโจมตี ลดลง 20% และ HP ลดลงอย่างต่อเนื่อง $H_W_BAD8%$COLOR_END ของค่าสูงสุด เป็นเวลา $H_W_BAD2s$COLOR_END	icon_status.poisondown_tex	icon_status.poisondown_tex	True
+32010107	ASpd	DOT	True	perc	8000	0	0.7	Addict			ติดพิษจากละอองผีเสื้อ ทำให้ความเร็วโจมตี ลดลง 30% และ HP ลดลงอย่างต่อเนื่อง $H_W_BAD10%$COLOR_END ของค่าสูงสุด เป็นเวลา $H_W_BAD2s$COLOR_END	icon_status.poisonup_tex	icon_status.poisonup_tex	True
+32010107	HPChange	DOT	True	perc	8000	2	-0.1	Addict			ติดพิษจากละอองผีเสื้อ ทำให้ความเร็วโจมตี ลดลง 30% และ HP ลดลงอย่างต่อเนื่อง $H_W_BAD10%$COLOR_END ของค่าสูงสุด เป็นเวลา $H_W_BAD2s$COLOR_END	icon_status.poisonup_tex	icon_status.poisonup_tex	True
+32010109	Drunk1	Buff	True	swch	4000	0	0	Seismic Wave			ถูกยิงด้วยคลื่น Seismic Wave ทำให้ตัวลอยขึ้นกลางอากาศ	icon_status.whirl_tex	icon_status.whirl_tex	False
+32010110	Block	Stun	True	swch	2100	0	0	Seismic Wave			ถูกยิงด้วยคลื่น Seismic Wave ทำให้ตัวลอยขึ้นกลางอากาศ	icon_status.whirl_tex	icon_status.whirl_tex	True
+32010110	DelayedEffect	Stun	True	seta	2100	0	32010109	Seismic Wave			ถูกยิงด้วยคลื่น Seismic Wave ทำให้ตัวลอยขึ้นกลางอากาศ	icon_status.whirl_tex	icon_status.whirl_tex	True
+32010110	274	Stun	True	swch	2100	0	150	Seismic Wave			ถูกยิงด้วยคลื่น Seismic Wave ทำให้ตัวลอยขึ้นกลางอากาศ	icon_status.whirl_tex	icon_status.whirl_tex	True
+32010111	StackCounter	DOT	True	swch	999999999	0	32010125	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+32010125	HPChange	DOT	True	perc	600000	2	-0.01	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010126	HPChange	DOT	True	perc	600000	2	-0.02	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010127	HPChange	DOT	True	perc	600000	2	-0.04	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010128	HPChange	DOT	True	perc	600000	2	-0.06	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010129	HPChange	DOT	True	perc	600000	2	-0.09	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010130	HPChange	DOT	True	perc	600000	2	-0.2	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010131	HPChange	DOT	True	perc	600000	2	-0.4	Polluted Air			พิษจำนวนมากปะปนอยู่ในอากาศ ทำให้ HP ลดลงอย่างต่อเนื่อง เป็นเวลา $H_W_BAD2 วินาที$COLOR_END	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
+32010202	HPChange	DOT	True	perc	10000	2	-0.12	Scattered Gems			เนื่องจากได้รับบาดแผล จากละอองอัญมณีที่ล่องลอยในอากาศ ทำให้ HP ลดลง $H_W_BAD12%$COLOR_END ของค่าสูงสุด เป็นเวลา 2 วินาที	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+32010205	Block	Buff	True	swch	2000	0	0	Silence			ร่างกายเต็มไปด้วยผลึกอัญมณี ทำให้ร่างกายไม่สามารถขยับได้	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+32010216	Power	Debuff	True	perc	40000	0	1	Set1			1st Sumon Set			False
+32010217	Power	Debuff	True	perc	40000	0	1	Set2			2nd Sumon Set			False
+32010218	Power	Debuff	True	perc	40000	0	1	Set3			3rd Sumon Set			False
+32010220	Aggro	Debuff	True	perc	80000	0	0.3	Brilliant Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+32010220	StackCounter	Debuff	True	seta	80000	0	32010223	Brilliant Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+32010222	330	Debuff	True	swch	5000	0	0	Gem Addict			อยู่ในสถานะเสพติดละอองอัญมณี หลังจากนั้น 5 วินาที จะเกิดอัญมณีขึ้นที่ตำแหน่งของตนเอง	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32010222	331	Debuff	True	swch	5000	0	0	Gem Addict			อยู่ในสถานะเสพติดละอองอัญมณี หลังจากนั้น 5 วินาที จะเกิดอัญมณีขึ้นที่ตำแหน่งของตนเอง	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32010223	Block	Debuff	True	swch	2000	0	0	Brilliant Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	HPLoss	Debuff	True	abs	2000	0	-10000000	Brilliant Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	Drunk	Debuff	True	320123	2000	0	0	Brilliant Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	311	Debuff	True	3201	2000	0	200	Brilliant Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010223	340	Debuff	True	swch	2000	0	0	Brilliant Queen's Favor			สายตาของ Parquina กำลังจับจ้องมาที่เป้าหมาย หากซ้อนทับกันครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+32010224	StackCounter	Debuff	True	seta	80000	0	32010225	Phantom's Favor			อยู่ในภวังค์ภาพลวงตา เมื่อซ้อนทับครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.redaura_tex	icon_status.redaura_tex	True
+32010225	Block	Debuff	True	swch	2000	0	0	Phantom's Favor			อยู่ในภวังค์ภาพลวงตา เมื่อซ้อนทับครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	HPLoss	Debuff	True	abs	2000	0	-10000000	Phantom's Favor			อยู่ในภวังค์ภาพลวงตา เมื่อซ้อนทับครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	Drunk	Debuff	True	320123	2000	0	0	Phantom's Favor			อยู่ในภวังค์ภาพลวงตา เมื่อซ้อนทับครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	311	Debuff	True	3201	2000	0	200	Phantom's Favor			อยู่ในภวังค์ภาพลวงตา เมื่อซ้อนทับครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.redaura_tex	icon_status.redaura_tex	False
+32010225	340	Debuff	True	swch	2000	0	0	Phantom's Favor			อยู่ในภวังค์ภาพลวงตา เมื่อซ้อนทับครบ 2 ครั้ง ร่างกายจะแข็งทื่อ และตายทันที	icon_status.redaura_tex	icon_status.redaura_tex	False
 43100007	HPChange	DOT	False	perc	15000	3	-0.05	Bleeding			ลด HP ลง $H_W_BAD5%$COLOR_END ของ HP สูงสุดทุกๆ $H_W_BAD3$COLOR_END	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 43100011	MovSpd	Debuff	False	setp	10000	0	0.8	Unmaking			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD20%$COLOR_END $BRลด HP ลงอย่างมากเมื่อหมดเวลานับถอยหลัง	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
 43100011	HPDrain	Debuff	False	perc	10000	0	0.9	Unmaking			ลดความเร็วในการเคลื่อนที่ลง $H_W_BAD20%$COLOR_END $BRลด HP ลงอย่างมากเมื่อหมดเวลานับถอยหลัง	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
@@ -6676,16 +6815,17 @@
 78300506	Drunk1	Debuff	True	seta	10000	0	0	Grass Element			อยู่ในสภาพ Grass Element เมื่อเผชิญหน้ากับ Water Element Golem จะเพิ่มพลังโจมตี 20%, ความเร็มโจมตี 10% แต่หากเผชิญหน้ากับ Grass Element Golem, Fire Element Golem จะเป็นการลดพลังโจมตีลง 20% และเพิ่มความเสียหายที่ได้รับ 10%	icon_status.battlecommand04_tex	icon_status.battlecommand04_tex	True
 80401500	DelayedEffect	Buff	True	abs	35000	0	475150	Kelsaik's Armor of Doom			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD4000000$COLOR_END	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 80401500	Absorb	Buff	True	abs	35000	0	4000000	Kelsaik's Armor of Doom			ดูดซับความเสียหายสูงสุดถึง $H_W_GOOD4000000$COLOR_END	icon_skills.manashield_tex	icon_skills.manashield_tex	True
-80900001	Endurance	Debuff	False	setp	15000	0	0.3	Gutripped			ลดความทนทานและความเร็วในการเคลื่อนที่ลง $H_W_BAD70%$COLOR_END เอฟเฟกต์ไม่สามารถเอาออกได้	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
-80900001	MovSpd	Debuff	False	setp	15000	0	0.3	Gutripped			ลดความทนทานและความเร็วในการเคลื่อนที่ลง $H_W_BAD70%$COLOR_END เอฟเฟกต์ไม่สามารถเอาออกได้	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
-80900001	HPDrain	Debuff	False	perc	15000	0	0.9	Gutripped			ลดความทนทานและความเร็วในการเคลื่อนที่ลง $H_W_BAD70%$COLOR_END เอฟเฟกต์ไม่สามารถเอาออกได้	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
-80900002	Stun	Stun	False	swch	3000	0	5	Cacophonous Slash			ติดสตั้นเมื่อถูกตี Cacophonous Slash สามารถยกเลิกได้	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+80900001	Endurance	Debuff	False	setp	15000	0	0.5	Gutripped			ลดความทนทานและความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END เอฟเฟกต์ไม่สามารถเอาออกได้	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+80900001	MovSpd	Debuff	False	setp	15000	0	0.3	Gutripped			ลดความทนทานและความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END เอฟเฟกต์ไม่สามารถเอาออกได้	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+80900001	HPDrain	Debuff	False	perc	15000	0	0.9	Gutripped			ลดความทนทานและความเร็วในการเคลื่อนที่ลง $H_W_BAD50%$COLOR_END เอฟเฟกต์ไม่สามารถเอาออกได้	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+80900002	Stun	Stun	False	swch	0	0	5	Cacophonous Slash			ติดสตั้นเมื่อถูกตี Cacophonous Slash สามารถยกเลิกได้	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 80900003	OutOfCombatMovSpd	Debuff	True	abs	0	0	1	A				icon_status.battlecommand03_tex	icon_status.battlecommand03_tex	False
 80900004	OutOfCombatMovSpd	Debuff	True	abs	0	0	1	B				icon_status.battlecommand02_tex	icon_status.battlecommand02_tex	False
 80900005	OutOfCombatMovSpd	Debuff	True	abs	0	0	1	C				icon_status.battlecommand04_tex	icon_status.battlecommand04_tex	False
 80900006	OutOfCombatMovSpd	Debuff	True	abs	0	0	1	D				icon_status.battlecommand01_tex	icon_status.battlecommand01_tex	False
-80900008	Endurance	Buff	True	perc	20000	0	3	Juggernaut			เพิ่มความต้านทานการดีบัฟขึ้น $H_W_GOOD 100%$COLOR_END เพิ่มความทนทานขึ้น $H_W_GOOD200%$COLOR_END	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-80900008	ResistNegative	Buff	True	swch	20000	0	0	Juggernaut			เพิ่มความต้านทานการดีบัฟขึ้น $H_W_GOOD 100%$COLOR_END เพิ่มความทนทานขึ้น $H_W_GOOD200%$COLOR_END	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+80900008	Endurance	Buff	True	perc	20000	0	0.5	Juggernaut			ลดความต้านทานการดีบัฟลง $H_W_GOOD 100%$COLOR_END เพิ่มความทนทานขึ้น $H_W_GOOD50%$COLOR_END	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+80900008	ResistNegative	Buff	True	swch	20000	0	0	Juggernaut			ลดความต้านทานการดีบัฟลง $H_W_GOOD 100%$COLOR_END เพิ่มความทนทานขึ้น $H_W_GOOD50%$COLOR_END	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+80900009	Endurance	Buff	True	perc	100000000	0	1.16	Demokron's Volition			ผู้บัญชาการห้องปฏิบัติการภูมิใจใน Demokron's Volition ซึ่งพลังป้องกันมหาศาล สามารถยกเลิกเอฟเฟ็คได้ด้วย Regression หรือ Plague of Exhaustion	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 81000001	289	Buff	True	perc	20000	0	2	EP XP Correction Test			Testing			True
 81000002	289	Buff	True	perc	3600000	0	1.3	Increase EP XP 30 (1 Hr)	201151	30% EP XP Boost (1 hour)	ปริมาณได้รับ EP XP เพิ่มขึ้น $H_W_GOOD30%$COLOR_END	icon_items.ep_grow30_tex	icon_items.ep_grow30_tex	True
 81000003	289	Buff	True	perc	3600000	0	1.5	Increase EP XP 50 (1 Hr)	201152	50% EP XP Boost (1 hour)	ปริมาณได้รับ EP XP เพิ่มขึ้น $H_W_GOOD50%$COLOR_END	icon_items.ep_grow50_tex	icon_items.ep_grow50_tex	True
@@ -8951,6 +9091,8 @@
 999001045	Crit	Buff	True	abs	20000	0	30	Evil Energy of Dragon	51030	Brooch of Dragon	รู้สึกได้ถึงพลังของ Evil Energy of Dragon ทำให้พละกำลัง เพิ่มขึ้น $H_W_GOOD30$COLOR_END, อัตราโจมตีคริติคอล เพิ่มขึ้น $H_W_GOOD30$COLOR_END และความเร็วโจมตี เพิ่มขึ้น $H_W_GOOD12%$COLOR_END	icon_items.brooch_vergos_tex	icon_items.brooch_vergos_tex	True
 999001045	ASpd	Buff	True	perc	20000	0	1.12	Evil Energy of Dragon	51030	Brooch of Dragon	รู้สึกได้ถึงพลังของ Evil Energy of Dragon ทำให้พละกำลัง เพิ่มขึ้น $H_W_GOOD30$COLOR_END, อัตราโจมตีคริติคอล เพิ่มขึ้น $H_W_GOOD30$COLOR_END และความเร็วโจมตี เพิ่มขึ้น $H_W_GOOD12%$COLOR_END	icon_items.brooch_vergos_tex	icon_items.brooch_vergos_tex	True
 999001045	Block	Buff	True	swch	20000	0	0	Evil Energy of Dragon	51030	Brooch of Dragon	รู้สึกได้ถึงพลังของ Evil Energy of Dragon ทำให้พละกำลัง เพิ่มขึ้น $H_W_GOOD30$COLOR_END, อัตราโจมตีคริติคอล เพิ่มขึ้น $H_W_GOOD30$COLOR_END และความเร็วโจมตี เพิ่มขึ้น $H_W_GOOD12%$COLOR_END	icon_items.brooch_vergos_tex	icon_items.brooch_vergos_tex	True
+999001046	XPBoost	Buff	True	setp	7200000	0	1.5	Joy of Growth			เพิ่มรางวัล XP ดันเจี้ยนขึ้น<br><br>2คน : 1.5เท่า<br>3คน : 1.8เท่า	icon_skills.guildskill1_level2_tex	icon_skills.guildskill1_level2_tex	True
+999001047	XPBoost	Buff	True	setp	7200000	0	1.8	Joy of Growth			เพิ่มรางวัล XP ดันเจี้ยนขึ้น<br><br>2คน : 1.5เท่า<br>3คน : 1.8เท่า	icon_skills.guildskill1_level3_tex	icon_skills.guildskill1_level3_tex	True
 999008300	Power	Buff	True	perc	3930000	0	1.15	Increased Power			เพิ่มพละกำลังขึ้น $H_W_GOOD15%$COLOR_END	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 999008400	Endurance	Debuff	False	perc	3930000	0	0.85	Decreased Defense			ลดพลังป้องกันลง $H_W_BAD15%$COLOR_END	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
 999008500	MaxMP	Buff	True	perc	3930000	0	1.05	Increased HP			ลดความทนทานลง $H_W_GOOD5%$COLOR_END	icon_status.plusattack_tex	icon_status.plusattack_tex	True
