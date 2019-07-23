@@ -1165,6 +1165,7 @@
 15160	Stun	Stun	False	swch	3000	0	5	철기장의 마지막 손길			기절한 상태로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 15161	CritResist	Debuff	False	abs	10000	0	-10	철기장 최후의 자비			치명타 저항이 $H_W_BAD-10$COLOR_END 감소합니다.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
 15162	CritResist	Debuff	False	abs	10000	0	-20	징벌자의 표식			치명타 저항이 $H_W_BAD-20$COLOR_END 감소합니다.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
+15163	CritResist	Debuff	False	abs	20000	0	-25	아르가프의 표식			[아르가프의 표식] 발동 효과: 치명타 저항이 $H_W_BAD-25$COLOR_END 감소합니다.	icon_status.minusconfuseresist_tex	icon_status.minusconfuseresist_tex	True
 15170	HPChange	DOT	False	abs	6000	2	-3710	여왕의 휘감는 벼락			여왕의 벼락이 온 몸을 휘감아 $H_W_BAD2s$COLOR_END마다 $H_W_BAD-3710$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
 18500	HPChange	Buff	True	perc	10000	1	0.02	HP 지속 회복 [장비 효과]			$H_W_GOOD1s$COLOR_END마다 전체 HP 대비 $H_W_GOOD2%$COLOR_END씩 총 20%의 HP가 점차 회복됩니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 18501	HPChange	Buff	True	perc	10000	1	0.025	HP 지속 회복 [장비 효과]			$H_W_GOOD1s$COLOR_END마다 전체 HP 대비 $H_W_GOOD2.5%$COLOR_END씩 총 25%의 HP가 점차 회복됩니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
@@ -1550,6 +1551,12 @@
 70201	MaxHP	Buff	True	perc	900000	0	1.05	팝콘	71415	팝콘	최대 HP $H_W_GOOD5%$COLOR_END 증가	icon_items.fallfestival_popcorn_tex	icon_items.fallfestival_popcorn_tex	True
 70202	HPChange	Buff	True	perc	900000	5	0.01	감자 샐러드	71416	감자 샐러드	$H_W_GOOD5s$COLOR_END마다 전체 HP 대비 $H_W_GOOD1%$COLOR_END에 달하는 HP 지속적으로 회복	icon_items.fallfestival_potatosalad_tex	icon_items.fallfestival_potatosalad_tex	True
 70203	MPChange	Buff	True	perc	900000	5	0.01	피글링 구이	71417	피글링 구이	$H_W_GOOD5s$COLOR_END마다 전체 MP 대비 $H_W_GOOD1%$COLOR_END에 달하는 MP 지속적으로 회복	icon_items.q_roastmeat_tex	icon_items.q_roastmeat_tex	True
+70205	MaxHP	Buff	True	perc	900000	0	1.05	기운 나는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR물리 증폭 $H_W_GOOD3600$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish02_tex	icon_items.steamedfish02_tex	True
+70205	ASpd	Buff	True	abs	900000	0	3	기운 나는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR물리 증폭 $H_W_GOOD3600$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish02_tex	icon_items.steamedfish02_tex	True
+70205	1001	Buff	True	abs	900000	0	3600	기운 나는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR물리 증폭 $H_W_GOOD3600$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish02_tex	icon_items.steamedfish02_tex	True
+70206	MaxHP	Buff	True	perc	900000	0	1.05	정신 드는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR마법 증폭 $H_W_GOOD3600$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish03_tex	icon_items.steamedfish03_tex	True
+70206	ASpd	Buff	True	abs	900000	0	3	정신 드는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR마법 증폭 $H_W_GOOD3600$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish03_tex	icon_items.steamedfish03_tex	True
+70206	1002	Buff	True	abs	900000	0	3600	정신 드는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR마법 증폭 $H_W_GOOD3600$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish03_tex	icon_items.steamedfish03_tex	True
 70211	MaxHP	Buff	True	perc	900000	0	1.05	브로콜리 수프	71413	브로콜리 수프	최대 HP $H_W_GOOD5%$COLOR_END 증가$BR치명타 유발 $H_W_GOOD10$COLOR_END 증가	icon_items.fallfestival_broccolisoup_tex	icon_items.fallfestival_broccolisoup_tex	True
 70211	Crit	Buff	True	abs	900000	0	10	브로콜리 수프	71413	브로콜리 수프	최대 HP $H_W_GOOD5%$COLOR_END 증가$BR치명타 유발 $H_W_GOOD10$COLOR_END 증가	icon_items.fallfestival_broccolisoup_tex	icon_items.fallfestival_broccolisoup_tex	True
 70212	Endurance	Buff	True	abs	900000	0	1	호박 머핀	71414	호박 머핀	$H_W_GOOD5s$COLOR_END마다 전체 HP 대비 $H_W_GOOD1%$COLOR_END에 달하는 HP 지속적으로 회복$BR맷집 $H_W_GOOD1$COLOR_END 증가	icon_items.fallfestival_pumpkinmuffin_tex	icon_items.fallfestival_pumpkinmuffin_tex	True
@@ -1557,6 +1564,12 @@
 70213	Power	Buff	True	abs	900000	0	1	라즈베리 쿠키	71420	라즈베리 쿠키	$H_W_GOOD5s$COLOR_END마다 전체 MP 대비 $H_W_GOOD1%$COLOR_END에 달하는 MP 지속적으로 회복$BR힘 $H_W_GOOD1$COLOR_END 증가	icon_items.fallfestival_cookies_tex	icon_items.fallfestival_cookies_tex	True
 70213	MPChange	Buff	True	perc	900000	5	0.01	라즈베리 쿠키	71420	라즈베리 쿠키	$H_W_GOOD5s$COLOR_END마다 전체 MP 대비 $H_W_GOOD1%$COLOR_END에 달하는 MP 지속적으로 회복$BR힘 $H_W_GOOD1$COLOR_END 증가	icon_items.fallfestival_cookies_tex	icon_items.fallfestival_cookies_tex	True
 70214	MaxHP	Buff	True	perc	900000	0	1.05	삶은 달걀			최대 HP $H_W_GOOD5%$COLOR_END 증가	icon_items.boildegg_tex	icon_items.boildegg_tex	True
+70215	MaxHP	Buff	True	perc	900000	0	1.05	[특제] 기운 나는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR물리 증폭 $H_W_GOOD4000$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish04_tex	icon_items.steamedfish04_tex	True
+70215	ASpd	Buff	True	abs	900000	0	3	[특제] 기운 나는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR물리 증폭 $H_W_GOOD4000$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish04_tex	icon_items.steamedfish04_tex	True
+70215	1001	Buff	True	abs	900000	0	4000	[특제] 기운 나는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR물리 증폭 $H_W_GOOD4000$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish04_tex	icon_items.steamedfish04_tex	True
+70216	MaxHP	Buff	True	perc	900000	0	1.05	[특제] 정신 드는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR마법 증폭 $H_W_GOOD4000$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish05_tex	icon_items.steamedfish05_tex	True
+70216	ASpd	Buff	True	abs	900000	0	3	[특제] 정신 드는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR마법 증폭 $H_W_GOOD4000$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish05_tex	icon_items.steamedfish05_tex	True
+70216	1002	Buff	True	abs	900000	0	4000	[특제] 정신 드는 키라쉬 찜			최대 HP $H_W_GOOD5%$COLOR_END% 증가$BR마법 증폭 $H_W_GOOD4000$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.steamedfish05_tex	icon_items.steamedfish05_tex	True
 70221	Endurance	Buff	True	abs	900000	0	2	타조 가슴살 샐러드	71419	타조 가슴살 샐러드	$H_W_GOOD5s$COLOR_END마다 전체 HP 대비 $H_W_GOOD1%$COLOR_END에 달하는 HP 지속적으로 회복$BR맷집 $H_W_GOOD2$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
 70221	ASpd	Buff	True	abs	900000	0	3	타조 가슴살 샐러드	71419	타조 가슴살 샐러드	$H_W_GOOD5s$COLOR_END마다 전체 HP 대비 $H_W_GOOD1%$COLOR_END에 달하는 HP 지속적으로 회복$BR맷집 $H_W_GOOD2$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
 70221	HPChange	Buff	True	perc	900000	5	0.01	타조 가슴살 샐러드	71419	타조 가슴살 샐러드	$H_W_GOOD5s$COLOR_END마다 전체 HP 대비 $H_W_GOOD1%$COLOR_END에 달하는 HP 지속적으로 회복$BR맷집 $H_W_GOOD2$COLOR_END 증가$BR공격 속도 $H_W_GOOD3$COLOR_END 증가	icon_items.fallfestival_salad_tex	icon_items.fallfestival_salad_tex	True
@@ -1658,6 +1671,8 @@
 70274	362	Buff	True	swch	0	0	206003	상급 떡밥			떡밥을 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD60%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.pastebait04_tex	icon_items.pastebait04_tex	True
 70275	358	Buff	True	abs	0	0	0.8	최상급 떡밥			떡밥을 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.pastebait05_tex	icon_items.pastebait05_tex	True
 70275	362	Buff	True	swch	0	0	206004	최상급 떡밥			떡밥을 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.pastebait05_tex	icon_items.pastebait05_tex	True
+70276	358	Buff	True	perc	0	0	1	크램 떡밥			크램 떡밥을 낚싯바늘에 걸었다.$BR$BR엑소도르에서 물고기를 낚을 수 있습니다.	icon_items.krill_tex	icon_items.krill_tex	True
+70276	362	Buff	True	swch	0	0	206053	크램 떡밥			크램 떡밥을 낚싯바늘에 걸었다.$BR$BR엑소도르에서 물고기를 낚을 수 있습니다.	icon_items.krill_tex	icon_items.krill_tex	True
 70281	358	Buff	True	perc	0	0	1	최하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm01_tex	icon_items.worm01_tex	True
 70281	362	Buff	True	swch	0	0	206005	최하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm01_tex	icon_items.worm01_tex	True
 70282	358	Buff	True	abs	0	0	0.2	하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD20%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm02_tex	icon_items.worm02_tex	True
@@ -3201,19 +3216,19 @@
 700800	HPChange	DOT	False	abs	10000	2	-1238	고통의 주박			$H_W_BAD2s$COLOR_END마다 HP가 $H_W_BAD-1238$COLOR_END씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex	True
 700820	HPChange	DOT	False	abs	10000	2	-1212	고통의 주박 I			$H_W_BAD2s$COLOR_END마다 HP가 $H_W_BAD-1212$COLOR_END씩 지속적으로 감소됩니다.	icon_skills.painfulshackle_tex	icon_skills.painfulshackle_tex	True
 700900	MPChange	Buff	True	abs	20000	1	100	마력 회복 I			$H_W_GOOD1s$COLOR_END마다 MP가 $H_W_GOOD100$COLOR_END씩 점차 회복됩니다. 효과 시간 중 공격을 받거나 전투용 스킬 및 전투용 아이템을 사용하면 효과는 즉시 해제됩니다.	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex	True
-701000	HPChange	Buff	True	abs	10000	2	70	정령의 가호 I			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD70$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701001	HPChange	Buff	True	abs	10000	2	88	정령의 가호 II			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD88$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701002	HPChange	Buff	True	abs	10000	2	109	정령의 가호 III			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD109$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701003	HPChange	Buff	True	abs	10000	2	135	정령의 가호 IV			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD135$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701004	HPChange	Buff	True	abs	10000	2	168	정령의 가호 V			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD168$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701005	HPChange	Buff	True	abs	10000	2	208	정령의 가호 VI			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD208$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701006	HPChange	Buff	True	abs	10000	2	258	정령의 가호 VII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD258$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701007	HPChange	Buff	True	abs	10000	2	320	정령의 가호 VIII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD320$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701008	HPChange	Buff	True	abs	10000	2	397	정령의 가호 IX			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD397$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701009	HPChange	Buff	True	abs	10000	2	493	정령의 가호 X			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD493$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701010	HPChange	Buff	True	abs	10000	2	614	정령의 가호 XI			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD614$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701011	HPChange	Buff	True	abs	10000	2	769	정령의 가호 XII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD769$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
-701012	HPChange	Buff	True	abs	10000	2	914	정령의 가호 XIII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD914$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701000	HPChange	Buff	True	abs	10000	2	100	정령의 가호 I			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD100$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701001	HPChange	Buff	True	abs	10000	2	105	정령의 가호 II			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD105$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701002	HPChange	Buff	True	abs	10000	2	110	정령의 가호 III			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD110$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701003	HPChange	Buff	True	abs	10000	2	115	정령의 가호 IV			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD115$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701004	HPChange	Buff	True	abs	10000	2	120	정령의 가호 V			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD120$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701005	HPChange	Buff	True	abs	10000	2	125	정령의 가호 VI			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD125$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701006	HPChange	Buff	True	abs	10000	2	130	정령의 가호 VII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD130$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701007	HPChange	Buff	True	abs	10000	2	135	정령의 가호 VIII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD135$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701008	HPChange	Buff	True	abs	10000	2	140	정령의 가호 IX			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD140$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701009	HPChange	Buff	True	abs	10000	2	145	정령의 가호 X			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD145$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701010	HPChange	Buff	True	abs	10000	2	150	정령의 가호 XI			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD150$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701011	HPChange	Buff	True	abs	10000	2	155	정령의 가호 XII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD155$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
+701012	HPChange	Buff	True	abs	10000	2	160	정령의 가호 XIII			$H_W_GOOD2s$COLOR_END마다 HP가 $H_W_GOOD160$COLOR_END씩 점차 회복됩니다.	icon_skills.summonspiritofheal_tex	icon_skills.summonspiritofheal_tex	True
 701100	Endurance	Buff	False	perc	20000	0	1	유사의 속박 I			편안함 속에서 깊게 잠들었습니다. 피해를 입으면 즉시 깨어나게 됩니다.	icon_skills.shackleofquicksand_tex	icon_skills.shackleofquicksand_tex	True
 701100	Stun	Stun	False	swch	20000	0	5	유사의 속박 I			편안함 속에서 깊게 잠들었습니다. 피해를 입으면 즉시 깨어나게 됩니다.	icon_skills.shackleofquicksand_tex	icon_skills.shackleofquicksand_tex	True
 701101	Endurance	Buff	False	perc	20000	0	1	유사의 속박			편안함 속에서 깊게 잠들었습니다. 피해를 입으면 즉시 깨어나게 됩니다.	icon_skills.shackleofquicksand_tex	icon_skills.shackleofquicksand_tex	True
@@ -3864,16 +3879,16 @@
 805712	CritPower	Buff	True	abs	10000	0	0.18	혼신의 주문			강화된 혼신의 주문을 받아 힘이 $H_W_GOOD14$COLOR_END, 치명타 위력이 $H_W_GOOD0.18$COLOR_END 증가합니다.	icon_skills.spirit2_tex	icon_skills.spirit4_tex	True
 805713	Power	Buff	True	abs	10000	0	15	혼신의 주문			강화된 혼신의 주문을 받아 힘이 $H_W_GOOD15$COLOR_END, 치명타 위력이 $H_W_GOOD0.2$COLOR_END 증가합니다.	icon_skills.spirit2_tex	icon_skills.spirit3_tex	True
 805713	CritPower	Buff	True	abs	10000	0	0.2	혼신의 주문			강화된 혼신의 주문을 받아 힘이 $H_W_GOOD15$COLOR_END, 치명타 위력이 $H_W_GOOD0.2$COLOR_END 증가합니다.	icon_skills.spirit2_tex	icon_skills.spirit3_tex	True
-805800	Power	Buff	True	abs	20000	0	20	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
-805800	Crit	Buff	True	abs	20000	0	30	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
-805800	CDR	Buff	True	perc	20000	0	0.5	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
-805800	Block	Buff	True	swch	0	0	0	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
-805800	ForceCrit	Buff	True	seta	0	0	0	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805800	Power	Buff	True	abs	20000	0	50	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805800	Crit	Buff	True	abs	20000	0	30	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805800	CDR	Buff	True	perc	20000	0	0.5	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805800	Block	Buff	True	swch	0	0	0	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805800	ForceCrit	Buff	True	seta	0	0	0	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 또한, 찬란한 섬광, 징벌의 장막, 징벌의 손길, 심판의 손길, 신의 숨결의 능력이 크게 강화되고 재사용 대기시간이 50% 감소합니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
 805801	Block	Buff	True	swch	0	0	0	심판의 주문			보이지 않는 이상상태	icon_skills.btpet_attack_tex	icon_skills.btpet_attack_tex	False
 805802	ForceCrit	Buff	True	seta	0	0	0	심판의 주문			보이지 않는 이상상태	icon_skills.btpet_attack_tex	icon_skills.btpet_attack_tex	False
-805803	Power	Buff	True	abs	20000	0	20	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 다운 시 해제됩니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
-805803	Endurance	Buff	True	perc	20000	0	1	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 다운 시 해제됩니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
-805803	Crit	Buff	True	abs	20000	0	30	심판의 주문			심판의 주문을 받아 힘이 20 상승하며, 치명타 유발이 30 증가합니다. 다운 시 해제됩니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805803	Power	Buff	True	abs	20000	0	50	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 다운 시 해제됩니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805803	Endurance	Buff	True	perc	20000	0	1	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 다운 시 해제됩니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
+805803	Crit	Buff	True	abs	20000	0	30	심판의 주문			심판의 주문을 받아 힘이 50 상승하며, 치명타 유발이 30 증가합니다. 다운 시 해제됩니다.	icon_skills.judgment_tex	icon_skills.judgment_tex	True
 805900	CritChance	Buff	True	perc	2000	0	1.5	징벌의 기운 I			징벌의 기운을 받아 잠시 동안 공격스킬 적중 시 치명타 확률이 1.5배 증가합니다.	icon_skills.punishingshield_tex	icon_skills.punishingshield_tex	True
 806001	DelayedEffect	Buff	True	seta	0	0	806002	좀비 피튀기는 효과			보이지 않는 이상상태			False
 806001	Drunk	Buff	True	906000	0	0	0	좀비 피튀기는 효과			보이지 않는 이상상태			False
@@ -4014,10 +4029,11 @@
 830020	Endurance	Stun	True	perc	15000	0	1	혼돈저항			잠시 혼돈에 걸리지 않습니다	icon_skills.spiritofconfusion_tex	icon_skills.spiritofconfusion_tex	True
 830021	HPChange	Debuff	False	perc	2000	1	-100000	퀘스트용			퀘스트용	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	False
 830038	MovSpd	Buff	True	abs	0	0	20	수박 파괴자			수박을 빠르게 파괴하고 싶은 마음이 생겨 이동 속도가 $H_W_GOOD20$COLOR_END만큼 증가됩니다.	icon_status.darkriftdestroy_tex	icon_status.darkriftdestroy_tex	True
-830039	Power	Buff	True	perc	0	0	4	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD300%$COLOR_END 증가되며 맷집이 $H_W_GOOD300%$COLOR_END 증가됩니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
-830039	Endurance	Buff	True	perc	0	0	4	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD300%$COLOR_END 증가되며 맷집이 $H_W_GOOD300%$COLOR_END 증가됩니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
-830039	MovSpd	Buff	True	abs	0	0	10	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD300%$COLOR_END 증가되며 맷집이 $H_W_GOOD300%$COLOR_END 증가됩니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
-830039	ASpd	Buff	True	perc	0	0	1.2	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD300%$COLOR_END 증가되며 맷집이 $H_W_GOOD300%$COLOR_END 증가됩니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
+830039	Power	Buff	True	perc	0	0	10	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD900%$COLOR_END, 맷집이 $H_W_GOOD900%$COLOR_END 증가되며, 치명타 유발이 $H_W_GOOD1900%$COLOR_END 증가합니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
+830039	Endurance	Buff	True	perc	0	0	10	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD900%$COLOR_END, 맷집이 $H_W_GOOD900%$COLOR_END 증가되며, 치명타 유발이 $H_W_GOOD1900%$COLOR_END 증가합니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
+830039	MovSpd	Buff	True	abs	0	0	10	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD900%$COLOR_END, 맷집이 $H_W_GOOD900%$COLOR_END 증가되며, 치명타 유발이 $H_W_GOOD1900%$COLOR_END 증가합니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
+830039	Crit	Buff	True	perc	0	0	20	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD900%$COLOR_END, 맷집이 $H_W_GOOD900%$COLOR_END 증가되며, 치명타 유발이 $H_W_GOOD1900%$COLOR_END 증가합니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
+830039	ASpd	Buff	True	perc	0	0	1.2	관중의 응원			힘들어 하는 당신의 이름을 부르며 관중들이 환호 하고 있습니다. 힘이 $H_W_GOOD900%$COLOR_END, 맷집이 $H_W_GOOD900%$COLOR_END 증가되며, 치명타 유발이 $H_W_GOOD1900%$COLOR_END 증가합니다. 또한 공격 속도가 $H_W_GOOD20%$COLOR_END만큼 증가됩니다. 추가로 이동 속도도 $H_W_GOOD10$COLOR_END만큼 증가됩니다.	icon_skills.godbreath_tex	icon_skills.godbreath_tex	True
 830041	HPChange	DOT	False	perc	5000	1	-0.01	맹독			치명적인 독에 중독되어 $H_W_BAD1s$COLOR_END마다 전체 HP 대비 $H_W_BAD1%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 830043	HPChange	DOT	False	perc	45000	3	-0.05	맹독			치명적인 독에 중독되어 $H_W_BAD3s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 860001	MovSpd	Debuff	True	perc	10000	0	1	자폭병의 표적			자폭병들이 이 오브젝트를 표적으로 삼았습니다	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex	True
@@ -4722,6 +4738,11 @@
 5000019	Crit	Buff	True	abs	10000	0	30	GM 라무스의 위험한 악마 주스	143465	GM 라무스의 위험한 악마 주스	치명타 유발 30 증가$BR1초마다 HP 3% 감소	icon_items.deviljuice_tex	icon_items.deviljuice_tex	True
 5000019	HPChange	Buff	True	perc	10000	1	-0.03	GM 라무스의 위험한 악마 주스	143465	GM 라무스의 위험한 악마 주스	치명타 유발 30 증가$BR1초마다 HP 3% 감소	icon_items.deviljuice_tex	icon_items.deviljuice_tex	True
 5000020	XPBoost	Buff	True	perc	3600000	0	2	GM병아리의 치킨맛 사탕	139872	GM병아리의 치킨맛 사탕	1시간 동안 사냥 시 획득 경험치가 100% 증가합니다.$BR한번에 하나의 치킨맛 사탕 효과만 적용받을 수 있으며, 고속 성장 물약 (100%)과 효과가 중첩되지 않습니다.	icon_items.chickencandy_tex	icon_items.chickencandy_tex	True
+5000021	XPBoost	Buff	True	perc	86400000	0	3	쾌속 성장 물약(200%-400%)(1일)	138460	쾌속 성장 물약(200%-400%)(1일)				False
+5000022	XPBoost	Buff	True	perc	3600000	0	6	쾌속 성장 물약(500%-1000%)(1시간)	138461	쾌속 성장 물약(500%-1000%)(1시간)				False
+5000023	47	Buff	True	perc	86400000	0	1.15	스킬 연마 15 (1일)	138462	스킬 연마 15 (1일)	스킬연마 경험치 획득량이 15% 증가합니다. 접속이 종료되어도 기간이 차감됩니다.	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
+5000024	XPBoost	Buff	True	perc	86400000	0	3	쾌속 성장 물약(200%)(1일)	138460	쾌속 성장 물약(200%-400%)(1일)	86400s 동안 사냥 시 획득 경험치가 200% 증가합니다.$BR접속이 종료되어도 기간이 차감됩니다.$BR$BR월간패스 적용 시 효과가 2배로 적용되어, 획득 경험치가 400% 증가합니다.$BR$BR<font color = '#FF0000'>[주의]</font> 월간패스가 없는 상태에서 사용한 물약은 이후 월간패스를 사용하여도 2배 효과가 적용되지 않습니다.	icon_items.potion20_tex	icon_items.potion20_tex	True
+5000025	XPBoost	Buff	True	perc	3600000	0	6	쾌속 성장 물약(500%)(1시간)	138461	쾌속 성장 물약(500%-1000%)(1시간)	3600s 동안 사냥 시 획득 경험치가 500% 증가합니다.$BR접속이 종료되어도 기간이 차감됩니다.$BR$BR월간패스 적용 시 효과가 2배로 적용되어, 획득 경험치가 1000% 증가합니다.$BR$BR<font color = '#FF0000'>[주의]</font> 월간패스가 없는 상태에서 사용한 물약은 이후 월간패스를 사용하여도 2배 효과가 적용되지 않습니다.	icon_items.potion20_tex	icon_items.potion20_tex	True
 5010000	HPChange	Buff	True	perc	30000	1	0.03	환영의 회복 포션	101305	환영의 회복 포션	30초 동안 1초 마다 전체 HP 대비 3%씩 총 90%의 HP가 지속적으로 회복됩니다.	icon_items.potion17_tex	icon_items.potion17_tex	True
 5010001	Resurrect	Buff	True	seta	0	0	1	벨릭의 은총			벨릭의 은총으로 지속 시간 내에 사망 시 그 자리에서 즉시 부활할 수 있습니다.	icon_skills.selfpreresurrection_tex	icon_skills.selfpreresurrection_tex	True
 5010002	EnchantChance	Buff	True	perc	0	1	1.2	빛나는 강화 장인의 가호			강화 시도 시, 최종 성공 확률이 크게 증가합니다. (각성 강화에는 적용되지 않습니다)	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -4806,6 +4827,13 @@
 5010044	164	Buff	True	perc	900000	0	1.09	황금장어구이			생선 구이, 생선 찜, 생선 수프, 생선 스테이크 효과를 가집니다.$BR$BR치명타 유발 $H_W_GOOD20$COLOR_END 증가$BR치명타 저항 $H_W_GOOD20$COLOR_END 증가$BR최대 HP $H_W_GOOD10%$COLOR_END 증가$BR최대 MP $H_W_GOOD10%$COLOR_END 증가$BR$H_W_GOOD5s$COLOR_END마다 전체 HP 대비 $H_W_GOOD1%$COLOR_END에 달하는 HP 지속적으로 회복$BR$H_W_GOOD5s$COLOR_END마다 전체 MP 대비 $H_W_GOOD1%$COLOR_END에 달하는 MP 지속적으로 회복$BR회복스킬 사용 시 HP 회복 성능 $H_W_GOOD9%$COLOR_END 증가$BR공격속도 $H_W_GOOD3$COLOR_END 증가	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
 5010045	358	Buff	True	abs	0	0	1	장어 먹이	117724	장어 먹이	장어가 좋아하는 지렁이 장어만 잡힘	icon_items.premium_worm_01_tex	icon_items.premium_worm_01_tex	True
 5010045	362	Buff	True	swch	0	0	117724	장어 먹이	117724	장어 먹이	장어가 좋아하는 지렁이 장어만 잡힘	icon_items.premium_worm_01_tex	icon_items.premium_worm_01_tex	True
+5010046	XPBoost	Buff	True	perc	7200000	0	6	【이벤트】고속성장500	117845	【이벤트】고속성장500（Lv65）	사냥 경험치가 500％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010047	XPBoost	Buff	True	perc	7200000	0	5	【이벤트】고속성장400	117846	【이벤트】고속성장400（Lv65）	사냥 경험치가 400％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010048	XPBoost	Buff	True	perc	7200000	0	4	【이벤트】고속성장300	117847	【이벤트】고속성장300（Lv65）	사냥 경험치가 300％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010049	XPBoost	Buff	True	perc	7200000	0	3	【이벤트】고속성장200	117848	【이벤트】고속성장200（Lv65）	사냥 경험치가 200％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010050	XPBoost	Buff	True	perc	7200000	0	2	【이벤트】고속성장100	117849	【이벤트】고속성장100（Lv65）	사냥 경험치가 100％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010051	XPBoost	Buff	True	perc	10800000	0	9	【이벤트】고속성장800	117864	【이벤트】고속성장800（Lv64이하）	사냥 경험치가 800％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010052	XPBoost	Buff	True	abs	3600000	0	1.5	경험치 증가의 시약	117881	경험치의 시약	사용하면 사냥 경험치가 50％증가（1시간 지속)	icon_items.icon_exp_tex	icon_items.icon_exp_tex	True
 5020000	EnchantChance	Buff	True	perc	300000	1	1.01	유럽 강화 주문서 1(5분)	153495	[PC방] 강화 장인의 가호 주문서 (5분)	0.01	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020001	EnchantChance	Buff	True	perc	300000	1	1.05	유럽 강화 주문서 2(5분)	153496	[PC방] 축복받은 강화 장인의 가호 주문서 (5분)	0.05	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020002	EnchantChance	Buff	True	perc	300000	1	1.15	유럽 강화 주문서 3(5분)	153497	[PC방] 빛나는 강화 장인의 가호 주문서 (5분)	0.15	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -5945,16 +5973,64 @@
 16300013	AtkPotion	Buff	True	perc	180000	0	1.15	강화 용맹의 물약	214191	강화 용맹의 물약	스킬 데미지가 $H_W_GOOD15%$COLOR_END 향상되고, 받는 피해가 $H_W_GOOD15%$COLOR_END 감소됩니다. 추가로 공격 속도도 $H_W_GOOD8%$COLOR_END 향상됩니다.	icon_items.potion10_tex	icon_items.potion10_tex	True
 16300015	AtkPotion	Buff	True	perc	60000	0	1.25	파괴의 물약	214418	파괴의 물약	스킬 데미지가 $H_W_GOOD25%2$COLOR_END 향상됩니다.	icon_items.potion10_tex	icon_items.potion10_tex	True
 16300017	DropUp	Buff	True	perc	0	0	2	Lucky Day(VIP)			VIP 유저들을 위한 특별한 혜택. 자신의 드랍율이 $H_W_GOOD100%$COLOR_END만큼 증가합니다. 다만 파티 플레이 시에는 파티원들에 따라 해당 수치가 감소 할 수 있습니다.	icon_items.f2p_vipcustomer_tex	icon_items.f2p_vipcustomer_tex	False
-30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	60	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>평화 상태에서의 이동 속도가 향상됩니다.<BR>매 초마다 HP와 MP가 3%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
-30160000	HPChange	Buff	True	perc	0	1	0.03	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>평화 상태에서의 이동 속도가 향상됩니다.<BR>매 초마다 HP와 MP가 3%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
-30160000	MPChange	Buff	True	perc	0	1	0.03	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>평화 상태에서의 이동 속도가 향상됩니다.<BR>매 초마다 HP와 MP가 3%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
+20500012	MovSpd	Stun	True	setp	5000	0	0.6	동상			극심한 한기로 인해 동상에 걸렸습니다. 이동속도가 느려집니다. 정화 불가	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+20500013	HPChange	Stun	False	perc	15000	2	-0.05	화상			강력한 화염 공격에 화상을 입었습니다. 지속적으로 HP가 감소합니다. 정화 가능	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+20500017	StackCounter	Debuff	True	seta	300000	0	20500018	어둠의 기운			마흐나크 주변에 어둠의 기운이 감돌기 시작합니다.	icon_skills.descentofdarkness_tex	icon_skills.descentofdarkness_tex	True
+20500018	MovSpd	DOT	True	abs	0	0	100	암룡			마흐나크가 어둠의 기운으로 인해 강력해집니다.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
+20500018	ASpd	DOT	True	perc	0	0	1.2	암룡			마흐나크가 어둠의 기운으로 인해 강력해집니다.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
+20500018	AtkPotion	DOT	True	perc	0	0	11	암룡			마흐나크가 어둠의 기운으로 인해 강력해집니다.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
+21030001	DotResist	Buff	True	seta	99999999	0	1	아르가프의 힘 I			엑소도르 기관실 내 1~2층간 이동장치 이용이 가능해집니다.	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
+21030002	DotResist	Buff	True	seta	99999999	0	1	아르가프의 힘 II			엑소도르 기관실 내 2~3층간 이동장치 이용이 가능해집니다.	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
+25020001	44	DOT	True	abs	2000	1	-0.55	파르프의 붉은 정기			파르프가 로열의 비행을 호위하기 위해 내뿜는 정기로 비행성능이 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020001	Block	DOT	True	swch	2000	0	0	파르프의 붉은 정기			파르프가 로열의 비행을 호위하기 위해 내뿜는 정기로 비행성능이 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020001	Drunk	DOT	True	9629002	300	0	0	파르프의 붉은 정기			파르프가 로열의 비행을 호위하기 위해 내뿜는 정기로 비행성능이 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020001	StackCounter	DOT	True	swch	2000	1	25020002	파르프의 붉은 정기			파르프가 로열의 비행을 호위하기 위해 내뿜는 정기로 비행성능이 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020001	340	DOT	True	swch	2000	0	0	파르프의 붉은 정기			파르프가 로열의 비행을 호위하기 위해 내뿜는 정기로 비행성능이 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020002	44	DOT	True	abs	3000	1	-0.9	누적된 붉은 정기			파르프의 붉은 정기가 누적되어 비행성능이 크게 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020002	Block	DOT	True	swch	3000	0	0	누적된 붉은 정기			파르프의 붉은 정기가 누적되어 비행성능이 크게 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020002	Drunk	DOT	True	9629002	300	0	0	누적된 붉은 정기			파르프의 붉은 정기가 누적되어 비행성능이 크게 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020002	340	DOT	True	swch	3000	0	0	누적된 붉은 정기			파르프의 붉은 정기가 누적되어 비행성능이 크게 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
+25020003	Drunk1	Buff	True	seta	600000	0	0	르네의 마법공학 미사일			르네 라펠레이트가 제작한 미사일. 파르프에게 접근하면 사용할 수 있습니다.	icon_status.shotcannon_tex	icon_status.shotcannon_tex	True
+25020004	DelayedEffect	Buff	True	swch	20000	0	25020005	강화 마법공학 미사일			파르프의 정기를 흡수하여 강화시킨 미사일. 로열 파르프에게 접근하면 사용할 수 있습니다.	icon_status.shotphotoncannon_tex	icon_status.shotphotoncannon_tex	True
+25020004	Drunk	Buff	True	630002	20000	0	0	강화 마법공학 미사일			파르프의 정기를 흡수하여 강화시킨 미사일. 로열 파르프에게 접근하면 사용할 수 있습니다.	icon_status.shotphotoncannon_tex	icon_status.shotphotoncannon_tex	True
+25020006	Power	DOT	True	perc	300	1	1	파르프의 붉은 정기			파르프가 로열의 비행을 호위하기 위해 내뿜는 정기로 비행성능이 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	False
+25020006	Drunk	DOT	True	9629002	300	0	0	파르프의 붉은 정기			파르프가 로열의 비행을 호위하기 위해 내뿜는 정기로 비행성능이 감소됩니다.	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	False
+25020008	Absorb	Buff	True	swch	0	0	35000000	로열 파르프의 보호막			외부 종족으로부터 로열 파르프를 보호합니다.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+25020009	Aggro	Debuff	True	perc	80000	0	0.3	찬란한 여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 피해를 입습니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+25020009	StackCounter	Debuff	True	seta	80000	0	25020010	찬란한 여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 피해를 입습니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
+25020010	Block	Debuff	True	swch	2000	0	0	찬란한 여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 피해를 입습니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+25020010	HPLoss	Debuff	True	abs	2000	0	-50000	찬란한 여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 피해를 입습니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+25020010	Drunk	Debuff	True	320123	2000	0	0	찬란한 여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 피해를 입습니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+25020010	311	Debuff	True	3201	2000	0	200	찬란한 여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 피해를 입습니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+25020010	340	Debuff	True	swch	2000	0	0	찬란한 여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 피해를 입습니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	False
+25020011	Block	Buff	True	swch	2000	0	0	침묵			온 몸에 보석이 붙어 마음대로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+25020014	HPChange	DOT	True	perc	10000	2	-0.06	흩날리는 보석			바람에 날카로운 보석가루가 날립니다. 보석가루에 베인 상처로 인해 2초당 $H_W_BAD6%$COLOR_END의 HP가 감소 합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+30000004	HPChange	Buff	True	perc	1	1	0.15	HP 회복			즉시 HP가 15% 회복됩니다. (쿨타임 15초)			False
+30000005	MPChange	Buff	True	perc	1	1	0.2	MP 회복			즉시 MP가 20% 회복됩니다. (쿨타임 15초)			False
+30000006	HPChange	Buff	True	perc	1	1	0.1	HP, MP 회복			즉시 HP와 MP가 10%씩 회복됩니다. (쿨타임 15초)			False
+30000006	MPChange	Buff	True	perc	1	1	0.1	HP, MP 회복			즉시 HP와 MP가 10%씩 회복됩니다. (쿨타임 15초)			False
+30000007	1001	Buff	True	abs	7000	0	2000	물리 증폭 증가			7초 동안 물리 증폭이 2000 증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000008	1002	Buff	True	abs	7000	0	2000	마법 증폭 증가			7초 동안 마법 증폭이 2000 증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000009	1001	Buff	True	abs	7000	0	1000	물리, 마법 증폭 증가			7초 동안 물리 증폭과 마법 증폭이 1000씩 증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000009	1002	Buff	True	abs	7000	0	1000	물리, 마법 증폭 증가			7초 동안 물리 증폭과 마법 증폭이 1000씩 증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000010	Crit	Buff	True	abs	15000	0	8	치명타 유발 증가			15초 동안 치명타 유발이 8 증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000011	MovSpdInCombat	Buff	True	abs	10000	0	20	전투 이동 속도 증가			10초 동안 전투 중 이동 속도가 20 증가합니다.	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
+30000012	Immune	Buff	True	57	3000	0	0	무적			3초 동안 무적 상태가 됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+30000013	1003	Buff	True	abs	5000	0	1400	물리 저항 증가			5초 동안 물리 저항이 1400 증가합니다. (쿨타임 60초)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
+30000014	1004	Buff	True	abs	5000	0	1400	마법 저항 증가			5초 동안 마법 저항이 1400 증가합니다. (쿨타임 60초)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
+30000015	1001	Buff	True	abs	5000	0	700	물리 증폭 증가			5초 동안 물리 증폭이 700 증가합니다. (쿨타임 60초)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000016	1002	Buff	True	abs	5000	0	700	마법 증폭 증가			5초 동안 마법 증폭이 700 증가합니다. (쿨타임 60초)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
+30160000	RidingSpeed	Buff	True	seta	0	0	400	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
+30160000	HPChange	Buff	True	perc	0	1	0.02	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
+30160000	MPChange	Buff	True	perc	0	1	0.02	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160001	CDR	Buff	True	swch	0	0	0.8	시험의 축복II			특별한 축복을 받아 스킬 쿨타임이 $H_W_GOOD20%$COLOR_END 감소됩니다. 사제와 정령사에게만 적용 됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30161000	HPChange	Debuff	True	abs	1000	2	-10000	정기 흡수			릴리스의 매혹에 빠졌습니다. 아무런 행동을 할 수 없으며,  $H_W_BAD2초$COLOR_END당  $H_W_BAD10000$COLOR_END의 고정 피해를 입습니다.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 30161000	Stun	Debuff	True	swch	1000	0	5	정기 흡수			릴리스의 매혹에 빠졌습니다. 아무런 행동을 할 수 없으며,  $H_W_BAD2초$COLOR_END당  $H_W_BAD10000$COLOR_END의 고정 피해를 입습니다.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 30161001	DelayedEffect	Buff	True	swch	8000	0	30161002	보호막			릴리스가 정기를 흡수하는 동안 일정 피해량을 흡수합니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 30161001	Absorb	Buff	True	abs	8000	0	2200000	보호막			릴리스가 정기를 흡수하는 동안 일정 피해량을 흡수합니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 30161002	MovSpd	Buff	True	perc	4000	0	1	보호막			릴리스가 정기를 흡수하는 동안 일정 피해량을 흡수합니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
-30161006	Stun	Stun	True	swch	15000	0	5	무기력			몸에 힘이 들어가지 않습니다. 아무런 행동도 할 수 없습니다.	icon_skills.stoneshape_tex	icon_skills.stoneshape_tex	True
+30161006	Stun	Stun	True	swch	5000	0	5	무기력			몸에 힘이 들어가지 않습니다. 아무런 행동도 할 수 없습니다.	icon_skills.stoneshape_tex	icon_skills.stoneshape_tex	True
 30161007	Power	Buff	True	perc	600000	0	1.1	광폭화			릴리스가 정기를 흡수하여 공격력이  $H_W_GOOD10%$COLOR_END 증가합니다.	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 30161011	MovSpd	Debuff	True	setp	5000	0	0.5	슬로우			이동속도가  $H_W_BAD50%$COLOR_END 감소됩니다. 이 이상상태는 해제가 불가능합니다.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 30161012	DelayedEffect	DOT	False	swch	5000	0	30161013	릴리스의 저주			릴리스의 저주가 발생하였습니다. 시간 내에 해제하지 못할 시, 즉사합니다.	icon_status.minuswill_tex	icon_status.minuswill_tex	True
@@ -6139,6 +6215,20 @@
 30190396	Drunk1	Debuff	True	seta	0	0	0	충전			진노한 카일루스는 특정 스킬을 사용할 때마다 번개의 기운을 모읍니다. 일정 수준 이상으로 모으면 강력한 포효 공격을 사용합니다.	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190397	Drunk1	Debuff	True	seta	0	0	0	충전			진노한 카일루스는 특정 스킬을 사용할 때마다 번개의 기운을 모읍니다. 일정 수준 이상으로 모으면 강력한 포효 공격을 사용합니다.	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190398	Drunk1	Debuff	True	seta	0	0	0	충전			진노한 카일루스는 특정 스킬을 사용할 때마다 번개의 기운을 모읍니다. 일정 수준 이상으로 모으면 강력한 포효 공격을 사용합니다.	icon_status.godspell_tex	icon_status.godspell_tex	True
+30231000	DelayedEffect	Debuff	True	seta	60000	0	30231002	붉은 저주의 기운			붉은 저주의 기운이 느껴집니다. 2중첩 혹은 지속 시간이 모두 지나면 사망하게 됩니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231000	StackCounter	Debuff	True	seta	60000	0	30231002	붉은 저주의 기운			붉은 저주의 기운이 느껴집니다. 2중첩 혹은 지속 시간이 모두 지나면 사망하게 됩니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231001	DelayedEffect	Debuff	True	seta	60000	0	30231002	푸른 저주의 기운			푸른 저주의 기운이 느껴집니다. 2중첩 혹은 지속 시간이 모두 지나면 사망하게 됩니다.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231001	StackCounter	Debuff	True	seta	60000	0	30231002	푸른 저주의 기운			푸른 저주의 기운이 느껴집니다. 2중첩 혹은 지속 시간이 모두 지나면 사망하게 됩니다.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231002	HPChange2	Debuff	True	perc	1000	0	-2	붉은 저주의 기운			붉은 저주의 기운이 느껴집니다. 2중첩 혹은 지속 시간이 모두 지나면 사망하게 됩니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	False
+30231003	Stun	Stun	False	swch	5000	0	5	기절			기절하여 움직일 수 없는 상태입니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+30231004	HPChange	DOT	False	perc	10000	1	-0.1	출혈			날카로운 검기에 베여 출혈이 발생하고 있습니다. 1초당 $H_W_BAD10%$COLOR_END의 HP가 감소 합니다.	icon_status.curse_tex	icon_status.curse_tex	True
+30232012	HPChange	DOT	True	perc	10000	2	-0.12	야수의 발톱			강력한 공격에 피격되어 출혈이 일어납니다. $H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+30232014	Stun	Stun	False	swch	4000	0	5	야수의 포효			강력한 포효에 몸이 저려옵니다. 4초간 움직일 수 없습니다.	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
+30232015	HPChange	DOT	False	perc	30000	5	-0.01	야수의 전율			심상치 않은 전율이 느껴집니다. $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD1%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 5중첩까지 누적되며, 5중첩 시 야수의 패기가 부여됩니다.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232015	StackCounter	DOT	False	swch	30000	0	30232016	야수의 전율			심상치 않은 전율이 느껴집니다. $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD1%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 5중첩까지 누적되며, 5중첩 시 야수의 패기가 부여됩니다.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232016	Power	DOT	True	abs	600000	0	10	야수의 패기			야수의 패기가 느껴집니다. 힘이 10 증가하며, $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 3중첩까지 누적됩니다.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
+30232016	HPChange	DOT	True	perc	600000	5	-0.1	야수의 패기			야수의 패기가 느껴집니다. 힘이 10 증가하며, $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 3중첩까지 누적됩니다.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
+30232017	Power	Debuff	True	perc	0	0	1	야수의 패기			엄청난 야수의 패기가 느껴집니다. 강한 정신력이 없다면, 그 패기에 압도당할 것입니다.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 30240001	Crit	Buff	True	perc	15000	0	5	로열젤리			유충이 섭취한 로열젤리의 효과가 이전되었다. 치명타 위력과 확률이 증가한다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
 30240001	CritPower	Buff	True	abs	15000	0	2	로열젤리			유충이 섭취한 로열젤리의 효과가 이전되었다. 치명타 위력과 확률이 증가한다.	icon_status.plusecritical_tex	icon_status.plusecritical_tex	True
 30240002	HPChange	Buff	True	perc	15000	2	0.05	유충의 끈질긴 생명력			유충의 생명력을 빼앗았다. 15초간 HP와 MP가 회복된다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
@@ -9370,14 +9460,16 @@
 99070035	278	Buff	True	seta	1800000	0	0	천상의 깃털-(해당 아이콘이 보이면 버그)			몸이 깃털처럼 가벼워집니다. 낙하로 인한 피해를 받지 않습니다.	icon_items.q_feather_tex	icon_items.q_feather_tex	False
 99070036	278	Buff	True	seta	1800000	0	0	천상의 깃털-(전장_해당 아이콘이 보이면 버그)			몸이 깃털처럼 가벼워집니다. 낙하로 인한 피해를 받지 않습니다.	icon_items.q_feather_tex	icon_items.q_feather_tex	False
 950700002	Stun	Stun	True	swch	10000	0	5	빈사			케마르데아의 공격으로 빈사 상태가 되었습니다.	icon_status.exhaustion_tex	icon_status.exhaustion_tex	True
-950800003	AtkPotion	Buff	True	swch	0	0	1.01	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
-950800003	CDR	Buff	True	perc	0	0	0.1	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
-950800003	ReducedMPCost	Buff	True	perc	0	0	0.8	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
-950800014	CDR	Buff	True	perc	0	0	0.1	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
-950800015	CDR	Buff	True	perc	0	0	1.7	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
-950800016	CDR	Buff	True	perc	0	0	0.1	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
-950800034	AtkPotion	Buff	True	swch	0	0	1.01	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
-950800038	ReducedMPCost	Buff	True	perc	0	0	0.8	미스텔의 가호			미스텔의 가호로 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
+950800003	HPChange	Buff	True	perc	0	3	0.03	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
+950800003	MPChange	Buff	True	perc	0	3	0.03	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
+950800003	AtkPotion	Buff	True	swch	0	0	1.01	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
+950800003	CDR	Buff	True	perc	0	0	0.1	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
+950800003	ReducedMPCost	Buff	True	perc	0	0	0.8	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
+950800014	CDR	Buff	True	perc	0	0	0.1	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
+950800015	CDR	Buff	True	perc	0	0	1.7	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
+950800016	CDR	Buff	True	perc	0	0	0.1	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
+950800034	AtkPotion	Buff	True	swch	0	0	1.01	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
+950800038	ReducedMPCost	Buff	True	perc	0	0	0.8	미스텔의 가호			미스텔의 가호로 HP, MP가 지속 회복되며 각성 스킬의 쿨타임이 감소하였습니다.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	False
 983300001	Fear	Stun	False	abs	3000	0	150	위협			알 수 없는 식물에게서 분출되는 가스가 몸을 제대로 가눌 수 없게 합니다	icon_items.q_greenmucus_tex	icon_items.q_greenmucus_tex	True
 990070311	HPChange	Buff	True	perc	180000	3	0.15	따스한 성소의 기운			3분 동안 HP가 지속적으로 회복됩니다. 성소의 기운 효과는 중복 적용되지 않습니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 990070312	MPChange	Buff	True	perc	180000	3	0.15	충만한 성소의 기운			3분 동안 MP가 지속적으로 회복됩니다. 성소의 기운 효과는 중복 적용되지 않습니다.	icon_items.potion19_tex	icon_items.potion19_tex	True
@@ -9452,8 +9544,8 @@
 999001045	Block	Buff	True	swch	20000	0	0	악룡의 사악한 기운	51030	악룡의 브로치	악룡의 사악한 기운이 느껴집니다. 힘 $H_W_GOOD30$COLOR_END, 치명타 유발 $H_W_GOOD30$COLOR_END, 공격 속도가 $H_W_GOOD12%$COLOR_END 향상 됩니다.	icon_items.brooch_vergos_tex	icon_items.brooch_vergos_tex	True
 999001046	XPBoost	Buff	True	setp	7200000	0	1.5	성장의 즐거움(경험치 1.5배)			파티원 수가 많을수록 던전에서 획득하는 경험치량이 증가합니다.<br><br>2인 : 1.5배<br>3인 : 1.8배	icon_skills.guildskill1_level2_tex	icon_skills.guildskill1_level2_tex	True
 999001047	XPBoost	Buff	True	setp	7200000	0	1.8	성장의 즐거움(경험치 1.8배)			파티원 수가 많을수록 던전에서 획득하는 경험치량이 증가합니다.<br><br>2인 : 1.5배<br>3인 : 1.8배	icon_skills.guildskill1_level3_tex	icon_skills.guildskill1_level3_tex	True
-999001048	XPBoost	Buff	True	setp	7200000	0	1.67	화합의 즐거움			파티원 수에 관계없이 개인이 획득하는 경험치량이 변하지 않습니다.	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
-999001049	XPBoost	Buff	True	setp	7200000	0	2.14	화합의 즐거움			파티원 수에 관계없이 개인이 획득하는 경험치량이 변하지 않습니다.	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
+999001048	XPBoost	Buff	True	setp	7200000	0	1.666667	화합의 즐거움			파티원 수에 관계없이 개인이 획득하는 경험치량이 변하지 않습니다.	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
+999001049	XPBoost	Buff	True	setp	7200000	0	2.142857	화합의 즐거움			파티원 수에 관계없이 개인이 획득하는 경험치량이 변하지 않습니다.	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
 999001050	XPBoost	Buff	True	setp	7200000	0	2.5	화합의 즐거움			파티원 수에 관계없이 개인이 획득하는 경험치량이 변하지 않습니다.	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
 999001051	XPBoost	Buff	True	setp	7200000	0	2.5	화합의 즐거움			파티원 수에 관계없이 개인이 획득하는 경험치량이 변하지 않습니다.	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
 999008300	Power	Buff	True	perc	3930000	0	1.15	공격력 증가			공격력이 $H_W_GOOD15%$COLOR_END 증가합니다.	icon_status.plusattack_tex	icon_status.plusattack_tex	True

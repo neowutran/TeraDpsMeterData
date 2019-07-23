@@ -96,10 +96,14 @@
 201	SMT_BATTLE_CHARM_FAIL	휴식 상태에서만 부적을 사용할 수 있습니다.
 203	SMT_BATTLE_CONNOT_CAMPFIRE	전투 상태에서는 모닥불을 피울 수 없습니다.
 102	SMT_BATTLE_CRITICAL_SUCKS	{Damage}의 크리티컬 피해를 주었습니다.
+102	SMT_BATTLE_PHYSICAL_CRITICAL_SUCKS	{Damage}의 물리 크리티컬 피해를 주었습니다.
+102	SMT_BATTLE_MAGICAL_CRITICAL_SUCKS	{Damage}의 마법 크리티컬 피해를 주었습니다.
 101	SMT_BATTLE_DEBUFF_IMMUNE	{Target}{은} {AbnormalityName}에 면역입니다.
 101	SMT_BATTLE_DEBUFF_RESIST	{Target}{이} {AbnormalName}에 저항했습니다.
 201	SMT_BATTLE_END	전투가 종료되었습니다.
 101	SMT_BATTLE_ENEMY_DAMAGE	{Damage}의 피해를 주었습니다.
+101	SMT_BATTLE_ENEMY_PHYSICAL_DAMAGE	{Damage}의 물리 피해를 주었습니다.
+101	SMT_BATTLE_ENEMY_MAGICAL_DAMAGE	{Damage}의 마법 피해를 주었습니다.
 210	SMT_BATTLE_EXP_CHATMSG_UPDATE	경험치를 {exp@exp} {bonusExp@bonusExp} {vipSystemBonusExp@vipSystemBonusExp}만큼 획득하였습니다.
 203	SMT_BATTLE_FIELD_ALREADY_FINISHED	전투가 종료된 전장입니다.
 203	SMT_BATTLE_FIELD_ALREADY_IN_TEAM	이미 전장팀에 소속되어 있습니다.
@@ -126,11 +130,25 @@
 109	SMT_BATTLE_MY_CRITICAL_DAMAGE_LARGE	{Monstername}에게 {Damage}의 크리티컬 피해를 입었습니다.
 107	SMT_BATTLE_MY_CRITICAL_DAMAGE_MEDIUM	{Monstername}에게 {Damage}의 크리티컬 피해를 입었습니다.
 104	SMT_BATTLE_MY_CRITICAL_DAMAGE_SMALL	{Monstername}에게 {Damage}의 크리티컬 피해를 입었습니다.
+109	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_LARGE	{Monstername}에게 {Damage}의 물리 크리티컬 피해를 입었습니다.
+107	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername}에게 {Damage}의 물리 크리티컬 피해를 입었습니다.
+104	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_SMALL	{Monstername}에게 {Damage}의 물리 크리티컬 피해를 입었습니다.
+109	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_LARGE	{Monstername}에게 {Damage}의 마법 크리티컬 피해를 입었습니다.
+107	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername}에게 {Damage}의 마법 크리티컬 피해를 입었습니다.
+104	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_SMALL	{Monstername}에게 {Damage}의 마법 크리티컬 피해를 입었습니다.
 103	SMT_BATTLE_MY_DAMAGE	{Damage}의 피해를 입었습니다.
 108	SMT_BATTLE_MY_DAMAGE_LARGE	{Monstername}에게 {Damage}의 피해를 입었습니다.
 106	SMT_BATTLE_MY_DAMAGE_MEDIUM	{Monstername}에게 {Damage}의 피해를 입었습니다.
-302	SMT_BATTLE_MY_DAMAGE_NO_NAME	{Damage}의 피해를 입었습니다.
 103	SMT_BATTLE_MY_DAMAGE_SMALL	{Monstername}에게 {Damage}의 피해를 입었습니다.
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE	{Damage}의 물리 피해를 입었습니다.
+108	SMT_BATTLE_MY_PHYSICAL_DAMAGE_LARGE	{Monstername}에게 {Damage}의 물리 피해를 입었습니다.
+106	SMT_BATTLE_MY_PHYSICAL_DAMAGE_MEDIUM	{Monstername}에게 {Damage}의 물리 피해를 입었습니다.
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE_SMALL	{Monstername}에게 {Damage}의 물리 피해를 입었습니다.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE	{Damage}의 마법 피해를 입었습니다.
+108	SMT_BATTLE_MY_MAGICAL_DAMAGE_LARGE	{Monstername}에게 {Damage}의 마법 피해를 입었습니다.
+106	SMT_BATTLE_MY_MAGICAL_DAMAGE_MEDIUM	{Monstername}에게 {Damage}의 마법 피해를 입었습니다.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE_SMALL	{Monstername}에게 {Damage}의 마법 피해를 입었습니다.
+302	SMT_BATTLE_MY_DAMAGE_NO_NAME	{Damage}의 피해를 입었습니다.
 203	SMT_BATTLE_NO_SHEATH_SOCIAL_IN_COMBAT_STATUS	전투 상태에서는 착발검 소셜을  사용할 수 없습니다.
 208	SMT_BATTLE_PARTY_DIE	{PartyPlayerName}님이 사망하였습니다.
 201	SMT_BATTLE_PARTY_RESURRECT	{PartyPlayerName}님이 부활하였습니다.
@@ -357,6 +375,7 @@
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_BY_COOLTIME	세금 회수 쿨타임으로 인하여 세금 회수를 할 수 없습니다.
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_IN_BATTLE_TIME	전투시간 중에는 세금 회수를 할 수 없습니다.
 203	SMT_CANNOT_USE_CHANGE_GENDER_ITEM	이 종족은 {ItemName}{을} 사용할 수 없습니다.
+203	SMT_CANNOT_USE_CHANGE_GENDER2_ITEM	이 성별은 {ItemName}{을} 사용할 수 없습니다.
 203	SMT_CANNOT_USE_CHANGE_RACE_ITEM	이 클래스는 {ItemName}{을} 사용할 수 없습니다.
 203	SMT_CANNOT_USE_ENCHANTSCROLL	해당 장비에 사용할 수 없는 마법각인서입니다.
 203	SMT_CANNOT_USE_ENCHANTSCROLL_EQUIP_LEVEL	장비의 착용 레벨이 낮아 사용할 수 없습니다.
@@ -1467,7 +1486,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	메모리 부족으로 인해 텍스처 해상도가 일시적으로 하향 조절됩니다.
 204	SMT_OUT_PARTY	{party}에서 추방됐습니다.
 204	SMT_OUT_UNIONPARTY	공격대에서 추방됐습니다.
-203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	캐릭터를 찾을 수 없습니다.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	살펴보기 기능을 사용할 수 없는 대상합니다.
 203	SMT_PARCEL_CANT_SENDING_BACK	우편을 반송할 수 없습니다.
 201	SMT_PARCEL_DELETE_PARCEL	선택한 우편을 삭제했습니다.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	받은 우편함에 읽지 않은 우편이 있습니다.
@@ -2266,6 +2285,9 @@
 201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName}{이} 파괴되었습니다.
 201	SMT_UPGRADE_BALANCE_MEDIUM	보정치가 상승하였습니다. 다음 번 승급 시 승급 성공 확률이 올라갑니다.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	{TargetName} {Amount}개를 분해하여 {ResultName} {ResultAmount}개를 획득했습니다.
+201	SMT_REPAIR_SUCCESS	{ItemName} 수리에 성공했습니다.
+201	SMT_REPAIR_FAIL	{ItemName}의 수리에 실패했습니다.
+201	SMT_REPAIR_BALANCE_MEDIUM	보정치가 상승하였습니다. 다음 번 수리 시 수리 성공 확률이 올라갑니다.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	크리스탈 및 아티팩트를 모두 탈착한 장비만 승급할 수 있습니다.
 203	SMT_CANT_REGIST_ITEM	등록할 수 없는 아이템입니다.
 203	SMT_CANT_REGIST_IN_CURRENT	현재 상태에서는 등록할 수 없습니다.
@@ -2328,6 +2350,8 @@
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	효과 활성화 중 스킬 옵션을 변경할 수 없습니다.
 201	SMT_GAIN_SKILL_POLISHING_EXP	스킬 연마 경험치를 {gainExp}만큼 습득하였습니다.
 201	SMT_GAIN_SKILL_POLISHING_POINT	스킬 연마 포인트가 상승하였습니다.
+203	SMT_JUMPGEAR_REQUIRED_ABNORMALITY	{JumpGearName}{을} 사용하기 위해 {AbnormalName} 이상상태가 필요합니다.
+203	SMT_JUMPGEAR_NOTENOUGH_COSTS	{JumpGearName}{을} 사용하기 위한 아이템 또는 골드가 부족합니다.
 201	SMT_CANT_SAVE_SCREENSHOT	스크린 샷 저장에 실패하였습니다.
 201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	해당 스킬의 재사용 대기시간이 적용 중일 경우, 옵션을 변경할 수 없습니다.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	서번트 목록이 가득차 더 이상 등록할 수 없습니다. 목록을 확장하시거나 비워야 합니다.
@@ -2388,3 +2412,4 @@
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	해당 NPC는 소환한 유저와 소환한 시점에 주변에 있던 파티원만 이용할 수 있습니다.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	해당 NPC는 소환한 유저와 같은 파티 또는 공격대의 유저만 이용할 수 있습니다.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	해당 NPC는 소환한 유저와 소환한 시점에 주변에 있던 파티원 또는 공격대원만 이용할 수 있습니다.
+203	SMT_CANT_REGISTER_CARD_MESSAGE	이미 도감에 해당 카드가 활성화되어 있습니다.
