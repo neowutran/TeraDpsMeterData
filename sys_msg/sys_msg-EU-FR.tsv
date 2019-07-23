@@ -66,6 +66,8 @@
 203	SMT_BATTLEFIELDMATCHING_SERVERDOWN	Vous ne pouvez pas utiliser la fonction de recherche de {party} de champ de bataille pour le moment. Veuillez réessayer plus tard.
 203	SMT_BATTLEFIELDMATCHING_SERVERDOWN2	La fonction de recherche de groupe est actuellement indisponible en raison d'une erreur de serveur.
 203	SMT_BATTLEFIELD_CANT_ENTER_MINIMUM_MEMBER	Vous n'avez pas assez de membres.
+203	SMT_BATTLEFIELD_CANT_ENTER_MIN_HEALER	La requête de champ de bataille est impossible car votre groupe ne contient pas assez de soigneurs.
+203	SMT_BATTLEFIELD_CANT_ENTER_MAX_HEALER	La requête de champ de bataille est impossible car votre groupe a dépassé le nombre maximum de soigneurs.
 203	SMT_BATTLEFIELD_CANT_MATCHING_REMAIN_BATTLEFIELD	Une partie de votre groupe se trouve toujours dans le champ de bataille.
 201	SMT_BATTLEFIELD_FINISH_REWARD_ELECTIONPOINT	Vous ne pouvez plus gagner de points de compétition dans le champ de bataille suivant : {BattleFieldName}.
 201	SMT_BATTLEFIELD_JOIN_END	{BattleFieldName} n'est plus accessible.
@@ -151,7 +153,7 @@
 203	SMT_BATTLE_USE_ITEM_DISABLE_LEVEL	Vous devez être d'un niveau supérieur afin de pouvoir utiliser ceci.
 203	SMT_BATTLE_USE_ITEM_DISABLE_RACE	Cet objet n'est pas accessible à votre race.
 203	SMT_BATTLE_WEAR_ITEM_DISABLE_LEVEL	Votre niveau n'est pas assez élevé pour vous équiper de ceci.
-203	SMT_BATTLE_WEAR_ITEM_DISABLE_UNIDENTIFY	Vous ne pouvez pas vous équiper d'un objet énigmatique.
+203	SMT_BATTLE_WEAR_ITEM_DISABLE_UNIDENTIFY	Vous ne pouvez pas vous équiper d'un objet scellé. Vous devez fermer la fenêtre d'information du personnage et faire un clic droit sur l'objet pour le desceller.
 103	SMT_BATTLE_YOU_ABSORB_DAMAGE	Vous absorbez {Damage} point(s) de dégât.
 208	SMT_BATTLE_YOU_DIE	{UserName} est mort.
 201	SMT_BEGINNING_TRADE	Début de l'échange.
@@ -461,7 +463,7 @@
 203	SMT_CANT_LEARN_SKILL_IN_BATTLEFIELD	Impossible d'apprendre des compétences sur les champs de bataille.
 203	SMT_CANT_LEARN_SKILL_IN_COMBAT	Impossible d'apprendre des compétences en plein combat.
 203	SMT_CANT_LEARN_SKILL_IN_PEGASUS	Impossible d'apprendre des compétences en chevauchant un Pégase.
-203	SMT_CANT_LEARN_SKILL_NOT_ENOUGH_MONEY	Pas assez d'or pour apprendre la compétence.
+203	SMT_CANT_LEARN_SKILL_NOT_ENOUGH_MONEY	Vous avez besoin de {money} pièces d'or pour apprendre la compétence.
 203	SMT_CANT_LEARN_SKILL_SHORTCUTCHANGE	Impossible d'apprendre des compétences pour le moment.
 203	SMT_CANT_LEARN_SKILL_WHILE_PICKING	Impossible d'apprendre des compétences en pleine collecte.
 203	SMT_CANT_LOOTED_QUEST_ITEM_FULL_INVEN	Vous ne pouvez pas recevoir l'objet {ItemName}. Votre inventaire est plein.
@@ -529,7 +531,7 @@
 203	SMT_CANT_USE_ITEM_MISS_AREA	Vous ne pouvez utiliser cet objet dans cette zone.
 203	SMT_CANT_USE_ITEM_NOW	Vous ne pouvez actuellement pas utiliser cet objet.
 302	SMT_CANT_USE_ITEM_UNION_LAWLESS_AREA	Vous ne pouvez pas utiliser {ItemName} dans le territoire d'une alliance.
-203	SMT_CANT_USE_MENUITEM	{MenuName} n'est utilisable qu'à partir du niveau {Level}.
+203	SMT_CANT_USE_MENUITEM	Vous devez avoir au moins atteint le niveau {Level} pour utiliser {MenuName}.
 203	SMT_CANT_USE_PLAYGUIDE	Impossible d'utiliser le menu pour le moment.
 203	SMT_CANT_USE_SKILL_IN_TROUBLED_REGION	Vous ne pouvez pas utiliser cette compétence dans le territoire d'une alliance.
 203	SMT_CANT_USE_SKILL_LIMIT_LEVEL	Votre niveau est trop bas pour pouvoir utiliser cette compétence.
@@ -1177,14 +1179,14 @@
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_MESSAGE	Votre achat a été validé avec succès.&#xA;Les objets que vous avez achetés seront disponibles dans quelques minutes dans la fenêtre de <font color = '#0080FF'>réclamation d'objets</font>.
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_NETWORK_ERROR_MESSAGE	Erreur réseau. Veuillez réessayer plus tard.
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_UNKNOWN_ERROR_MESSAGE	Erreur. Veuillez réessayer plus tard. [Code erreur : {ErrorText}]
-201	SMT_INGAMESTORE_BUY_TCAT_PRODUCT	Vous avez acheté {Count} {ItemDesc} à un prix de {EachPrice@tcat} billets de la Fédération par unité.
+201	SMT_INGAMESTORE_BUY_TCAT_PRODUCT	Vous avez inscrit {Count} {ItemDesc} pour {EachPrice@tcat} tikats l'unité.
 203	SMT_INGAMESTORE_CHECKING_BALANCE_FAILED_MESSAGE	Vérification du solde impossible. Veuillez réessayer plus tard.[Code erreur : {ErrorText}]
 203	SMT_INGAMESTORE_CLOSED	Nous ne pouvons actuellement pas vous laisser accéder à la boutique.
 203	SMT_INGAMESTORE_ERROR	Impossible d'acheter des produits.
 203	SMT_INGAMESTORE_LOWMONEY	Vous n'avez pas assez d'écus TERA pour cet achat. Veuillez en acheter sur le site officiel.
 201	SMT_INGAMESTORE_OPEN_CHARGE_PAGE	Acheter des Ecus TERA
 201	SMT_INGAMESTORE_OPEN_ITEM_CLAIM	Ouvrir la réclamation d'objets
-203	SMT_INGAMESTORE_TCAT_BUYALERT	Collectez des objets achetés via votre <font color = '#FFFFFF'>inventaire</font>. <br><font color = '#FF0000'>Les objets achetés avec des billets de la Fédération ne sont pas remboursables.</font>
+203	SMT_INGAMESTORE_TCAT_BUYALERT	Les objets achetés sont entreposés dans l'<font color = '#FFFFFF'>inventaire</font> de votre personnage. <br><font color = '#FF0000'>Les objets achetés avec des tikats ne peuvent pas être troqués contre des tikats.</font>
 201	SMT_INGAMESTORE_TERA_SHOP	Boutique TERA
 201	SMT_INVALID_CLIMBING_END_POS	Vous n'êtes pas en position pour grimper ceci.
 203	SMT_INVALID_CUSTOMIZING_ITEM	Ceci n'est pas un cristal d'amélioration.
@@ -1353,7 +1355,7 @@
 201	SMT_LORD_START_REG_CANDIDATE_MSG1	Les inscriptions pour l'élection du {lordNumber}{@ordinal:{lordNumber}} Cercle des Vanarchs sont désormais ouvertes. Les joueurs peuvent présenter leur candidature.
 201	SMT_LORD_START_REG_CANDIDATE_MSG2	Vous pouvez vous inscrire comme candidat aux élections de Vanarch via le greffier des élections dans les grandes villes.
 201	SMT_LOST_DUNGEON_OWNERSHIP	Vous serez téléporté sous peu.
-203	SMT_LOW_TCAT_MESSAGE	Pas assez de billets de la Fédération.
+203	SMT_LOW_TCAT_MESSAGE	Vous n'avez pas assez de tikats.
 201	SMT_MANDATE_CONSUL	{username} a été nommé(e) Exarque.
 203	SMT_MATCHING_CANT_REQUEST4	Vous ne pouvez pas utiliser la fonction de recherche d'instance car votre {party} n'est pas correctement composé.
 201	SMT_MAX_ENCHANT_SUCCEED	{UserName} a réussi à enchanter l'objet {ItemName}.
@@ -1362,7 +1364,7 @@
 201	SMT_MEDIATE_CALCULATE	Transaction terminée.
 209	SMT_MEDIATE_CALCULATE_GET_ITEM	Acquis {ItemAmount} x {ItemName}
 201	SMT_MEDIATE_CALCULATE_GET_MONEY	Reçu {Amount@money}.
-201	SMT_MEDIATE_CALCULATE_GET_TCAT	{Amount@tcat} billets de la Fédération obtenus.
+201	SMT_MEDIATE_CALCULATE_GET_TCAT	Vous avez obtenu {Amount@tcat} tikats.
 203	SMT_MEDIATE_CANT_BARGAIN	{UserName} n'est pas disponible pour le moment.
 203	SMT_MEDIATE_CANT_BARGAIN_REQUEST	Pour négocier les prix, il vous faut au moins un emplacement libre dans votre inventaire.
 203	SMT_MEDIATE_CANT_BUY_ITEM	Vous ne pouvez pas acheter d'objet dont le prix est en train d'être négocié.
@@ -1385,8 +1387,8 @@
 203	SMT_MEDIATE_REG_FAIL_IS_NO_AGENT_TYPE	Vous ne pouvez pas vendre via l'hôtel des ventes.
 203	SMT_MEDIATE_REG_PRICE_UI_NO_REGISTERED_ITEM	Aucune négociation en cours.
 201	SMT_MEDIATE_REG_SUCCESS_ITEM	{Count}x {ItemName} ont été mis en vente à un prix de {amount@money} par unité.
-201	SMT_MEDIATE_REG_SUCCESS_ITEM_MONEYTCAT	{Count}x {ItemName} ont été mis en vente à un prix de {amount@money} ou {tcatPrice@tcat} billets de la Fédération par unité.
-201	SMT_MEDIATE_REG_SUCCESS_TCATITEM	{Count}x {ItemName} ont été mis en vente à un prix de {amount@tcat} billets de la Fédération par unité.
+201	SMT_MEDIATE_REG_SUCCESS_ITEM_MONEYTCAT	Vous avez inscrit {Count} {ItemName} auprès du courtier pour {amount@money} ou {tcatPrice@tcat} tikats.
+201	SMT_MEDIATE_REG_SUCCESS_TCATITEM	Vous avez inscrit {Count} {ItemName} auprès du courtier pour {amount@tcat} tikats.
 201	SMT_MEDIATE_SUCCESS_BUY	Vous avez acheté l'objet {ItemName} à l'hôtel des ventes. Allez voir un courtier pour le récupérer.
 201	SMT_MEDIATE_SUCCESS_SELL	L'objet {ItemName} a été vendu à l'hôtel des ventes. Allez voir un courtier pour récupérer votre paiement.
 201	SMT_MEDIATE_TRADE_CANCEL_ME	Vous avez annulé la transaction.
@@ -1397,7 +1399,7 @@
 201	SMT_MEDIATE_TRADE_FINISH_BUY_ITEM	Acheté {ItemAmount} x {ItemName}
 201	SMT_MEDIATE_TRADE_FINISH_SELL_ITEM	Vendu {ItemAmount} x {ItemName}
 201	SMT_MEDIATE_TRADE_FINISH_USE_MONEY	Payé {Amount@money}.
-201	SMT_MEDIATE_TRADE_FINISH_USE_TCAT	Vous avez payé {Amount@tcat} billets de la Fédération pour cet objet.
+201	SMT_MEDIATE_TRADE_FINISH_USE_TCAT	Vous avez payé {Amount@tcat} tikats pour cet objet.
 201	SMT_MEDIATE_TRADE_INPUT_MONEY	{UserName} a proposé {Amount@money} pour la transaction.
 203	SMT_MEGAPHONE_POPUP_MESSAGE	Saisissez un message composé de {length} lettres au maximum.
 203	SMT_MEGAPHONE_POPUP_TITLE	Mégaphone
@@ -1888,7 +1890,7 @@
 201	SMT_TOGGLE_UI	Appuyez sur [Ctrl + Z] pour afficher de nouveau l'interface utilisateur.
 201	SMT_TOGGLE_UI_FPMODE	Ctrl + Z pour afficher l'interface.
 201	SMT_TOGGLE_UI_TPMODE	Ctrl + Z pour masquer l'interface.
-203	SMT_TOOMANY_TCAT_MESSAGE	Vous ne pouvez pas posséder plus de billets de la Fédération.
+203	SMT_TOOMANY_TCAT_MESSAGE	Vous ne pouvez pas obtenir plus de tikats.
 203	SMT_TOWN_TELEPORT_CANT_USE	Vous êtes trop près de votre destination pour utiliser un parchemin.
 203	SMT_TRADE_BROKER_CANT_SEARCH_ALL	Les paramètres de recherche sont trop vagues.
 201	SMT_TRADE_CANCEL	Échange annulé.
@@ -1998,7 +2000,6 @@
 203	SMT_CITYWAR_POST_BATTLE_MAKER_DEFENCE	Protéger cet endroit !
 203	SMT_CITYWAR_POST_BATTLE_MAKER_WITHDRAW	Rassemblement ici !
 203	SMT_UNION_PRE_MEMBER_CANT_ENTER_DUNGEON	Les recrues ne peuvent pas entrer dans le Caveau des alliés.
-201	SMT_UNION_QUEST_STRING	
 201	SMT_UNION_SHARED_ACTIVITY_COST	Vous avez reçu des fonds d'activité de la part de l'Exarque.
 201	SMT_UNION_SHARE_ACTIVITY_COST_TO_ALL	Des fonds d'activité sont fournis à tous les membres.
 201	SMT_UNION_SHARE_ACTIVITY_COST_TO_COMMANDER	Des fonds d'activité ont été fournis aux chefs.
@@ -2135,15 +2136,9 @@
 203	SMT_PROMOTION_OFF_BY_ADMIN	Vous ne pouvez pas profiter de l'évènement de cybercafés pour le moment.
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	Le Donjon des épreuves est momentanément indisponible.
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	Cette fonctionnalité ne peut pas être utilisée avec le système d'exploitation actuel.
-203	SMT_VIPSHOP_CANT_RESET_ITEMLIST	
-203	SMT_VIPSHOP_NOT_ENOUGH_TOKEN	
-201	SMT_VIPSYSTEM_GET_TOKEN	
-302	SMT_VIPSYSTEM_CANT_ENTER_DUNGEON	
-302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	
-302	SMT_VIPSYSTEM_CANT_OPEN_STORE	
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	Les paramètres de quête ont été ajustés à un meilleur niveau.
 203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>Vous serez bientôt ressuscité à l'emplacement sélectionné ci-dessous.<br><font color = '#ffffff'>Temps restant avant la résurrection :<br><font color = '#ff0000'>{ReviveSec}</font> secondes.
-202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Urgence]{QUESTNAME}</font> Une mission de guilde est disponible. <font color = '#fcb7ff'>{NPCNAME}</font> va bientôt apparaître sur le <font color = '#fcb7ff'>{ZONENAME} (canal 1)</font>.
+202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Urgence]{questName}</font> Une mission de guilde est disponible. <font color = '#fcb7ff'>{npcName}</font> va bientôt apparaître sur le <font color = '#fcb7ff'>{zoneName} (canal 1)</font>.
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'> a fait son apparition</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'> s'est enfui</font>.
 205	SMT_GQUEST_NORMAL_ACCEPT	<font color = '#f6f493'>{guildQuestName}</font> Vous avez accepté la mission de guilde.
@@ -2161,7 +2156,7 @@
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_LEVEL	Le niveau de guilde est trop faible pour permettre d'apprendre cette compétence.
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_PRE_SKILL	Vous ne pouvez pas apprendre cette compétence car vous ne maîtrisez pas la compétence qui la précède.
 205	SMT_LEARN_GUILD_SKILL_SUCCESS	Vous avez appris une nouvelle compétence de guilde.
-201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcname}</font> a été vaincu !
+201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font> a été vaincu !
 201	SMT_FIELDNAMED_RANK	Rang <font color='#1DDB16'>{rank}</font> du groupe de <font color='#1DDB16'>{userName}</font>
 203	SMT_GUILD_STORE_FAIL_AUTHORITY	Vous n'avez pas le droit d'utiliser l'or de guilde.
 203	SMT_GUILD_STORE_FAIL_GUILD_MONEY	Or de guilde insuffisant

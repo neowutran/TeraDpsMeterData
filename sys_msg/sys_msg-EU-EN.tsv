@@ -66,6 +66,8 @@
 203	SMT_BATTLEFIELDMATCHING_SERVERDOWN	You cannot currently use the Battleground {party} Matching function. Please try again later.
 203	SMT_BATTLEFIELDMATCHING_SERVERDOWN2	The {party} matching function is unavailable due to a server error.
 203	SMT_BATTLEFIELD_CANT_ENTER_MINIMUM_MEMBER	You don't have enough players to enter.
+203	SMT_BATTLEFIELD_CANT_ENTER_MIN_HEALER	Party must possess the minimum number of healers.
+203	SMT_BATTLEFIELD_CANT_ENTER_MAX_HEALER	Party cannot exceed the maximum number of healers.
 203	SMT_BATTLEFIELD_CANT_MATCHING_REMAIN_BATTLEFIELD	Part of your group is still in the battleground.
 201	SMT_BATTLEFIELD_FINISH_REWARD_ELECTIONPOINT	You can no longer earn competition points in {BattleFieldName}.
 201	SMT_BATTLEFIELD_JOIN_END	{BattleFieldName} is no longer available.
@@ -151,7 +153,7 @@
 203	SMT_BATTLE_USE_ITEM_DISABLE_LEVEL	You must be a higher level to use that.
 203	SMT_BATTLE_USE_ITEM_DISABLE_RACE	That item is unavailable to your race.
 203	SMT_BATTLE_WEAR_ITEM_DISABLE_LEVEL	You're not high enough level to equip that.
-203	SMT_BATTLE_WEAR_ITEM_DISABLE_UNIDENTIFY	You can't equip an enigmatic item.
+203	SMT_BATTLE_WEAR_ITEM_DISABLE_UNIDENTIFY	You can't equip an enigmatic item. You must identify it first.
 103	SMT_BATTLE_YOU_ABSORB_DAMAGE	You absorbed {Damage} damage.
 208	SMT_BATTLE_YOU_DIE	{UserName} is dead.
 201	SMT_BEGINNING_TRADE	Trade has begun.
@@ -1177,14 +1179,14 @@
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_MESSAGE	Your purchase was completed successfully.&#xA;Your purchased items will be available within a few minutes via <font color = '#0080FF'>Item Claim</font>.
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_NETWORK_ERROR_MESSAGE	Network Error. Try again later.
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_UNKNOWN_ERROR_MESSAGE	Error. Try again later. [Error code:{ErrorText}]
-201	SMT_INGAMESTORE_BUY_TCAT_PRODUCT	You have purchased {Count} {ItemDesc} at a price of {EachPrice@tcat} Federation Bills per unit.
+201	SMT_INGAMESTORE_BUY_TCAT_PRODUCT	You have registered {Count} {ItemDesc} for {EachPrice@tcat} Tikat each.
 203	SMT_INGAMESTORE_CHECKING_BALANCE_FAILED_MESSAGE	Unable to check balance. Please try again later. [Error code:{ErrorText}]
 203	SMT_INGAMESTORE_CLOSED	We are unable to provide access to TERA Shop at the moment.
 203	SMT_INGAMESTORE_ERROR	Cannot purchase products.
 203	SMT_INGAMESTORE_LOWMONEY	Not enough TERA Thalers for that purchase. Please buy additional TERA Thalers at the website.
 201	SMT_INGAMESTORE_OPEN_CHARGE_PAGE	Buy TERA Thalers
 201	SMT_INGAMESTORE_OPEN_ITEM_CLAIM	Open Item Claim
-203	SMT_INGAMESTORE_TCAT_BUYALERT	Collect purchased items via your <font color = '#FFFFFF'>inventory</font>. <br><font color = '#FF0000'>Items purchased with Federation Bills cannot be refunded.</font>
+203	SMT_INGAMESTORE_TCAT_BUYALERT	Purchased items are placed in the character's <font color = '#FFFFFF'>inventory</font>. <br><font color = '#FF0000'>Items bought using Tikat can't be exchanged for Tikat.</font>
 201	SMT_INGAMESTORE_TERA_SHOP	TERA Shop
 201	SMT_INVALID_CLIMBING_END_POS	You're not in position to climb that.
 203	SMT_INVALID_CUSTOMIZING_ITEM	Not an enhancement crystal.
@@ -1353,7 +1355,7 @@
 201	SMT_LORD_START_REG_CANDIDATE_MSG1	Registration is now open for {lordNumber}{@ordinal:{lordNumber}} Circle of Vanarchs. Candidates may register for election at this time.
 201	SMT_LORD_START_REG_CANDIDATE_MSG2	You can register as a vanarch candidate through the Election Registrar in major cities.
 201	SMT_LOST_DUNGEON_OWNERSHIP	You will be teleported out momentarily.
-203	SMT_LOW_TCAT_MESSAGE	Not enough Federation Bills.
+203	SMT_LOW_TCAT_MESSAGE	You don't have enough Tikat.
 201	SMT_MANDATE_CONSUL	{username} has been appointed as exarch.
 203	SMT_MATCHING_CANT_REQUEST4	You can't use the instance matching function due to an incorrectly formed {party}.
 201	SMT_MAX_ENCHANT_SUCCEED	{UserName} has successfully enchanted {ItemName}.
@@ -1362,7 +1364,7 @@
 201	SMT_MEDIATE_CALCULATE	Transaction finished.
 209	SMT_MEDIATE_CALCULATE_GET_ITEM	Acquired {ItemName} x {ItemAmount}
 201	SMT_MEDIATE_CALCULATE_GET_MONEY	Earned {Amount@money}.
-201	SMT_MEDIATE_CALCULATE_GET_TCAT	{Amount@tcat} Federation Bills obtained.
+201	SMT_MEDIATE_CALCULATE_GET_TCAT	You have received {Amount@tcat} Tikat.
 203	SMT_MEDIATE_CANT_BARGAIN	{UserName} is not available now.
 203	SMT_MEDIATE_CANT_BARGAIN_REQUEST	You need at least one open space in your inventory when negotiating prices.
 203	SMT_MEDIATE_CANT_BUY_ITEM	You can't purchase items while their prices are being negotiated.
@@ -1385,8 +1387,8 @@
 203	SMT_MEDIATE_REG_FAIL_IS_NO_AGENT_TYPE	You can't put that in the brokerage.
 203	SMT_MEDIATE_REG_PRICE_UI_NO_REGISTERED_ITEM	No item being traded.
 201	SMT_MEDIATE_REG_SUCCESS_ITEM	{Count} {ItemName} was listed in the Trade Broker for {amount@money} each.
-201	SMT_MEDIATE_REG_SUCCESS_ITEM_MONEYTCAT	{Count} {ItemName} was listed in the Trade Broker for {amount@money} or {tcatPrice@tcat} Federation Bills each.
-201	SMT_MEDIATE_REG_SUCCESS_TCATITEM	{Count} {ItemName} was listed in the Trade Broker for {amount@tcat} Federation Bills each.
+201	SMT_MEDIATE_REG_SUCCESS_ITEM_MONEYTCAT	You have registered {Count} {ItemName} in the brokerage for {amount@money} or {tcatPrice@tcat} Tikat.
+201	SMT_MEDIATE_REG_SUCCESS_TCATITEM	You have registered {Count} {ItemName} in the brokerage for {amount@tcat}.
 201	SMT_MEDIATE_SUCCESS_BUY	You bought {ItemName} via the brokerage. See a broker to collect.
 201	SMT_MEDIATE_SUCCESS_SELL	{ItemName} was sold by the brokerage. See a broker to collect your payment.
 201	SMT_MEDIATE_TRADE_CANCEL_ME	You canceled the deal.
@@ -1397,7 +1399,7 @@
 201	SMT_MEDIATE_TRADE_FINISH_BUY_ITEM	Purchased {ItemName} x {ItemAmount}.
 201	SMT_MEDIATE_TRADE_FINISH_SELL_ITEM	Sold {ItemName} x {ItemAmount}.
 201	SMT_MEDIATE_TRADE_FINISH_USE_MONEY	Paid {Amount@money}.
-201	SMT_MEDIATE_TRADE_FINISH_USE_TCAT	You have paid {Amount@tcat} Federation Bills for the item.
+201	SMT_MEDIATE_TRADE_FINISH_USE_TCAT	You have paid {Amount@tcat} Tikat for the item.
 201	SMT_MEDIATE_TRADE_INPUT_MONEY	{UserName} proposed {Amount@money} for the deal.
 203	SMT_MEGAPHONE_POPUP_MESSAGE	Enter a message up to {length} letters.
 203	SMT_MEGAPHONE_POPUP_TITLE	Megaphone
@@ -1888,7 +1890,7 @@
 201	SMT_TOGGLE_UI	Bring back the UI with [Ctrl + Z].
 201	SMT_TOGGLE_UI_FPMODE	Ctrl + Z to restore the UI.
 201	SMT_TOGGLE_UI_TPMODE	Ctrl + Z to hide the UI.
-203	SMT_TOOMANY_TCAT_MESSAGE	You cannot own any more Federation Bills.
+203	SMT_TOOMANY_TCAT_MESSAGE	You can't receive any more Tikat.
 203	SMT_TOWN_TELEPORT_CANT_USE	You cannot use a scroll this close to the target location.
 203	SMT_TRADE_BROKER_CANT_SEARCH_ALL	The search parameters are too broad.
 201	SMT_TRADE_CANCEL	Trade canceled.
@@ -2051,7 +2053,7 @@
 203	SMT_WAREHOUSE_CANT_UPGRADE	You cannot expand your bank any more.
 203	SMT_STYLEWAREHOUSE_CANT_UPGRADE	You cannot expand your Wardrobe any more.
 203	SMT_USERWAREHOUSE_CANT_UPGRADE	You cannot expand your Account Bank any more.
-203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	You must possess a servant with the corresponding ability.
+203	SMT_CANNOT_USERWAREHOUSE_NO_UPGRADE	You must have a companion with the corresponding ability.
 203	SMT_WAREHOUSE_FULL	You can't deposit any more.
 201	SMT_WAREHOUSE_GOLD_DRAW	You withdrew {Amount@money}.
 201	SMT_WAREHOUSE_GOLD_INSERT	You deposited {Amount@money}.
@@ -2143,8 +2145,8 @@
 302	SMT_VIPSYSTEM_CANT_OPEN_STORE	The TERA Rewards Emporium is temporarily unavailable.
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	The quest has been reset to a suitable point.
 203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>You will be resurrected at the selected location below in <br><font color = '#ff0000'>{ReviveSec} seconds.</font>.
-202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Rally] {QUESTNAME}</font> is now available for your guild. <font color = '#fcb7ff'>{NPCNAME}</font> will appear in <font color = '#fcb7ff'>{ZONENAME} (Channel 1)</font> soon.
-202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'> has appeared</font>.
+202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Rally] {questName}</font> is now available for your guild. <font color = '#fcb7ff'>{npcName}</font> will appear in <font color = '#fcb7ff'>{zoneName} (Channel 1)</font> soon.
+202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'> has  appeared</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'> ran away</font>.
 205	SMT_GQUEST_NORMAL_ACCEPT	Received <font color = '#f6f493'>{guildQuestName}</font>.
 205	SMT_GQUEST_NORMAL_CANCEL	<font color = '#f6f493'>{userName}</font> canceled <font color = '#f6f493'>{guildQuestName}</font>. 
@@ -2161,7 +2163,7 @@
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_LEVEL	Your guild level isn't high enough to learn this skill.
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_PRE_SKILL	Your guild must learn the preceding skill first.
 205	SMT_LEARN_GUILD_SKILL_SUCCESS	Your guild has learned a new skill.
-201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcname}</font> is defeated.
+201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font> is defeated.
 201	SMT_FIELDNAMED_RANK	<font color='#1DDB16'>{userName}</font>'s raid party earned rank <font color='#1DDB16'>{rank}</font> rewards.
 203	SMT_GUILD_STORE_FAIL_AUTHORITY	You must have authority to use guild funds to take this action.
 203	SMT_GUILD_STORE_FAIL_GUILD_MONEY	Your guild does not have enough guild funds for this.
@@ -2184,7 +2186,7 @@
 201	SMT_GUILD_WAR_WITHDRAW	<font color = '#5efdff'>{GuildName1}</font> withdrew GvG battle declaration against <font color = '#5efdff'>{GuildName2}</font>.
 201	SMT_GUILD_WAR_WITHDRAW_DISMISS_1	The GvG battle declared against <font color = '#5efdff'>{GuildName2}</font> by <font color = '#5efdff'>{GuildName1}</font> has been canceled due to guild disband.
 201	SMT_GUILD_WAR_WITHDRAW_DISMISS_2	The GvG battle declared by <font color = '#5efdff'>{GuildName1}</font> has been canceled due to guild disband by <font color = '#5efdff'>{GuildName2}</font>.
-201	SMT_GUILD_WAR_WITHDRAW_GUILDMONEY	<font color = '#5efdff'>{GuildName1}</font></font> withdrew GvG battle declaration against <font color = '#5efdff'>{GuildName2}</font> due to lack of guild funds.
+201	SMT_GUILD_WAR_WITHDRAW_GUILDMONEY	<font color = '#5efdff'>{GuildName1}</font> withdrew GvG battle declaration against <font color = '#5efdff'>{GuildName2}</font> due to lack of guild funds.
 302	SMT_SKILL_LOCKON_NOT_ABLE_TARGET	Invalid target.
 302	SMT_CANNOT_FIX_VEHICLE	It is full.
 302	SMT_CANNOT_ENTER_DUNGEON_PHASE	You cannot enter the dungeon because your current phase is too high.

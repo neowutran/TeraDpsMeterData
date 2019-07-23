@@ -66,6 +66,8 @@
 203	SMT_BATTLEFIELDMATCHING_SERVERDOWN	Ihr könnt die Schlachtgruppensuche ({Party}) derzeit nicht nutzen. Bitte versucht es später noch einmal.
 203	SMT_BATTLEFIELDMATCHING_SERVERDOWN2	Die Suchfunktion für {Party}n ist derzeit aufgrund eines Serverfehlers nicht verfügbar.
 203	SMT_BATTLEFIELD_CANT_ENTER_MINIMUM_MEMBER	Ihr habt nicht genügend Mitglieder, um einzutreten.
+203	SMT_BATTLEFIELD_CANT_ENTER_MIN_HEALER	In Eurer Gruppe befinden sich nicht genügend Heiler, weshalb eine Schlachtfeld-Anfrage nicht möglich ist.
+203	SMT_BATTLEFIELD_CANT_ENTER_MAX_HEALER	In Eurer Gruppe wurde die maximale Anzahl an Heilern überschritten, weshalb eine Schlachtfeld-Anfrage nicht möglich ist.
 203	SMT_BATTLEFIELD_CANT_MATCHING_REMAIN_BATTLEFIELD	Ein Teil Eurer Gruppe befindet sich noch auf dem Schlachtfeld.
 201	SMT_BATTLEFIELD_FINISH_REWARD_ELECTIONPOINT	Ihr könnt auf dem Schlachtfeld {BattleFieldName} keine weiteren Wettkampfpunkte verdienen.
 201	SMT_BATTLEFIELD_JOIN_END	Schlachtfeld "{BattleFieldName}" ist nicht mehr verfügbar.
@@ -151,7 +153,7 @@
 203	SMT_BATTLE_USE_ITEM_DISABLE_LEVEL	Ihr müsst auf einer höheren Stufe sein, um dies zu benutzen.
 203	SMT_BATTLE_USE_ITEM_DISABLE_RACE	Dieser Gegenstand steht Eurem Volk nicht zur Verfügung.
 203	SMT_BATTLE_WEAR_ITEM_DISABLE_LEVEL	Ihr habt die Stufe für die Benutzung noch nicht erreicht.
-203	SMT_BATTLE_WEAR_ITEM_DISABLE_UNIDENTIFY	Ihr könnt keinen mysteriösen Gegenstand ausrüsten.
+203	SMT_BATTLE_WEAR_ITEM_DISABLE_UNIDENTIFY	Ein versiegelter Gegenstand kann nicht angelegt werden. Ihr müsst das Charakterinfo-Fenster schließen und mit einem Rechtsklick auf den Gegenstand die Versiegelung aufheben.
 103	SMT_BATTLE_YOU_ABSORB_DAMAGE	Ihr habt {Damage} Schaden absorbiert.
 208	SMT_BATTLE_YOU_DIE	{UserName} ist tot.
 201	SMT_BEGINNING_TRADE	Handel hat begonnen.
@@ -461,7 +463,7 @@
 203	SMT_CANT_LEARN_SKILL_IN_BATTLEFIELD	Auf Schlachtfeldern können keine Fertigkeiten erlernt werden.
 203	SMT_CANT_LEARN_SKILL_IN_COMBAT	Im Kampf können keine Fertigkeiten erlernt werden.
 203	SMT_CANT_LEARN_SKILL_IN_PEGASUS	Auf dem Pegasusflug können keine Fertigkeiten erlernt werden.
-203	SMT_CANT_LEARN_SKILL_NOT_ENOUGH_MONEY	Nicht genug Gold, um die Fertigkeit zu erlernen.
+203	SMT_CANT_LEARN_SKILL_NOT_ENOUGH_MONEY	Ihr braucht {money} Gold, um die Fertigkeit zu erlernen.
 203	SMT_CANT_LEARN_SKILL_SHORTCUTCHANGE	Ihr könnt jetzt keine Fertigkeiten erlernen.
 203	SMT_CANT_LEARN_SKILL_WHILE_PICKING	Während des Sammelns können keine Fertigkeiten erlernt werden.
 203	SMT_CANT_LOOTED_QUEST_ITEM_FULL_INVEN	Ihr könnt "{ItemName}" nicht annehmen. Euer Inventar ist voll.
@@ -529,7 +531,7 @@
 203	SMT_CANT_USE_ITEM_MISS_AREA	Ihr könnt diesen Gegenstand in diesem Gebiet nicht verwenden.
 203	SMT_CANT_USE_ITEM_NOW	Ihr könnt diesen Gegenstand momentan nicht verwenden.
 302	SMT_CANT_USE_ITEM_UNION_LAWLESS_AREA	Ihr könnt den Gegenstand "{ItemName}" auf Allianzterritorium nicht verwenden.
-203	SMT_CANT_USE_MENUITEM	{MenuName} kann erst ab Stufe {Level} benutzt werden.
+203	SMT_CANT_USE_MENUITEM	Für {MenuName} müsst Ihr mindestens Stufe {Level} erreicht haben.
 203	SMT_CANT_USE_PLAYGUIDE	Das Menü kann momentan nicht benutzt werden.
 203	SMT_CANT_USE_SKILL_IN_TROUBLED_REGION	Ihr könnt diese Fertigkeit auf Allianzterritorium nicht anwenden.
 203	SMT_CANT_USE_SKILL_LIMIT_LEVEL	Die Charakterstufe für die Benutzung der Fertigkeit ist noch nicht erreicht.
@@ -1177,14 +1179,14 @@
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_MESSAGE	Euer Kauf wurde erfolgreich abgeschlossen.&#xA;Die gekauften Gegenstände werden in ein paar Minuten in der <font color = '#0080FF'>Gegenstandsausgabe</font> verfügbar sein.
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_NETWORK_ERROR_MESSAGE	Netzwerkfehler. Bitte versucht es später erneut.
 201	SMT_INGAMESTORE_BUY_MONEY_PRODUCT_POPUP_UNKNOWN_ERROR_MESSAGE	Fehler. Bitte versucht es später erneut. [Error code:{ErrorText}]
-201	SMT_INGAMESTORE_BUY_TCAT_PRODUCT	Ihr habt {Count} x {ItemDesc} zum Preis von jeweils {EachPrice@tcat} Föderationsschein(en) erworben.
+201	SMT_INGAMESTORE_BUY_TCAT_PRODUCT	Ihr habt {Count} {ItemDesc} für je {EachPrice@tcat} Tikat registriert.
 203	SMT_INGAMESTORE_CHECKING_BALANCE_FAILED_MESSAGE	Saldo kann nicht geprüft werden. Bitte versucht es später erneut. [Fehlercode:{ErrorText}]
 203	SMT_INGAMESTORE_CLOSED	Der TERA-Shop steht momentan nicht zur Verfügung.
 203	SMT_INGAMESTORE_ERROR	Produkte können nicht erworben werden.
 203	SMT_INGAMESTORE_LOWMONEY	Ihr habt nicht genug TERA-Taler für diesen Einkauf. Bitte ladet weitere TERA-Taler auf der Website auf.
 201	SMT_INGAMESTORE_OPEN_CHARGE_PAGE	TERA-Taler kaufen
 201	SMT_INGAMESTORE_OPEN_ITEM_CLAIM	Gegenstandsausgabe öffnen
-203	SMT_INGAMESTORE_TCAT_BUYALERT	Ihr könnt gekaufte Gegenstände über Euer <font color = '#FFFFFF'>Inventar</font> aufnehmen. <br><font color = '#FF0000'>Mit Föderationsscheinen gekaufte Gegenstände werden nicht zurückerstattet.</font>
+203	SMT_INGAMESTORE_TCAT_BUYALERT	Gekaufte Gegenstände werden im <font color = '#FFFFFF'>Inventar</font> des Charakters abgelegt. <br><font color = '#FF0000'>Gegenstände, die mit Tikat gekauft wurden, können nicht gegen Tikat eingetauscht werden.</font>
 201	SMT_INGAMESTORE_TERA_SHOP	TERA-Shop
 201	SMT_INVALID_CLIMBING_END_POS	Ihr könnt hier nicht hochklettern.
 203	SMT_INVALID_CUSTOMIZING_ITEM	Kein Aufwertungskristall.
@@ -1353,7 +1355,7 @@
 201	SMT_LORD_START_REG_CANDIDATE_MSG1	Derzeit werden Kandidaturen für das Amt als {lordNumber}. Vanarch entgegengenommen. Kandidaten können sich jetzt anmelden.
 201	SMT_LORD_START_REG_CANDIDATE_MSG2	In Städten könnt Ihr Euch bei einem Registrar als Vanarchenkandidat anmelden.
 201	SMT_LOST_DUNGEON_OWNERSHIP	Ihr werdet umgehend wegteleportiert.
-203	SMT_LOW_TCAT_MESSAGE	Nicht genügend Föderationsscheine.
+203	SMT_LOW_TCAT_MESSAGE	Ihr habt nicht genug Tikat.
 201	SMT_MANDATE_CONSUL	{username} ist nun Exarch.
 203	SMT_MATCHING_CANT_REQUEST4	Ihr könnt die Instanzgruppensuche nicht verwenden, da die {Party} nicht korrekt zusammengesetzt ist.
 201	SMT_MAX_ENCHANT_SUCCEED	{UserName} hat "{ItemName}" erfolgreich verzaubert.
@@ -1362,7 +1364,7 @@
 201	SMT_MEDIATE_CALCULATE	Transaktion beendet.
 209	SMT_MEDIATE_CALCULATE_GET_ITEM	{ItemAmount} x "{ItemName}" erworben.
 201	SMT_MEDIATE_CALCULATE_GET_MONEY	{Amount@money} erhalten.
-201	SMT_MEDIATE_CALCULATE_GET_TCAT	{Amount@tcat} Föderationsschein(e) erhalten.
+201	SMT_MEDIATE_CALCULATE_GET_TCAT	Ihr habt {Amount@tcat} Tikat erhalten.
 203	SMT_MEDIATE_CANT_BARGAIN	{UserName} ist derzeit nicht verfügbar.
 203	SMT_MEDIATE_CANT_BARGAIN_REQUEST	Ihr benötigt mindestens einen freien Inventarplatz, um Preisverhandlungen zu führen.
 203	SMT_MEDIATE_CANT_BUY_ITEM	Ihr könnt keine Gegenstände kaufen, solange deren Preise verhandelt werden.
@@ -1385,8 +1387,8 @@
 203	SMT_MEDIATE_REG_FAIL_IS_NO_AGENT_TYPE	Ihr könnt diesen Gegenstand nicht bei der Handelsagentur abgeben.
 203	SMT_MEDIATE_REG_PRICE_UI_NO_REGISTERED_ITEM	Kein Gegenstand wird gehandelt.
 201	SMT_MEDIATE_REG_SUCCESS_ITEM	{Count} x {ItemName} in der Handelsagentur zum Preis von jeweils {amount@money} aufgelistet.
-201	SMT_MEDIATE_REG_SUCCESS_ITEM_MONEYTCAT	{Count} x {ItemName} in der Handelsagentur zum Preis von jeweils {amount@money} oder {tcatPrice@tcat} Föderationsschein(en) aufgelistet.
-201	SMT_MEDIATE_REG_SUCCESS_TCATITEM	{Count} x {ItemName} in der Handelsagentur zum Preis von jeweils {amount@tcat} Föderationsschein(en) aufgelistet.
+201	SMT_MEDIATE_REG_SUCCESS_ITEM_MONEYTCAT	Ihr habt für {amount@money} oder {tcatPrice@tcat} Tikat {Count} {ItemName} in der Handelsagentur registriert.
+201	SMT_MEDIATE_REG_SUCCESS_TCATITEM	Ihr habt für {amount@tcat} Tikat {Count} {ItemName} in der Handelsagentur registriert.
 201	SMT_MEDIATE_SUCCESS_BUY	Einkauf über die Handelsagentur: "{ItemName}". &#xA;Sucht einen Handelsagenten auf, um den Gegenstand abzuholen.
 201	SMT_MEDIATE_SUCCESS_SELL	Verkauf über die Handelsagentur: {ItemName} &#xA;Sucht einen Handelsagenten auf, um Euer Gold abzuholen.
 201	SMT_MEDIATE_TRADE_CANCEL_ME	Ihr habt den Handel abgebrochen.
@@ -1397,7 +1399,7 @@
 201	SMT_MEDIATE_TRADE_FINISH_BUY_ITEM	Gekauft: {ItemAmount} x {ItemName}
 201	SMT_MEDIATE_TRADE_FINISH_SELL_ITEM	Verkauft: {ItemAmount} x {ItemName}
 201	SMT_MEDIATE_TRADE_FINISH_USE_MONEY	Bezahlt: {Amount@money}.
-201	SMT_MEDIATE_TRADE_FINISH_USE_TCAT	Ihr habt {Amount@tcat} Föderationsscheine für den Gegenstand bezahlt.
+201	SMT_MEDIATE_TRADE_FINISH_USE_TCAT	Ihr habt {Amount@tcat} Tikat für den Gegenstand bezahlt.
 201	SMT_MEDIATE_TRADE_INPUT_MONEY	{UserName} hat für den Handel {Amount@money} geboten.
 203	SMT_MEGAPHONE_POPUP_MESSAGE	Gebt eine Nachricht mit bis zu {length} Zeichen ein.
 203	SMT_MEGAPHONE_POPUP_TITLE	Megafon
@@ -1888,7 +1890,7 @@
 201	SMT_TOGGLE_UI	Drückt [Strg + Z], um das Interface wieder anzuzeigen.
 201	SMT_TOGGLE_UI_FPMODE	[Strg + Z], um das Interface wieder anzuzeigen
 201	SMT_TOGGLE_UI_TPMODE	[Strg + Z], um das Interface zu verbergen
-203	SMT_TOOMANY_TCAT_MESSAGE	Ihr könnt keine weiteren Föderationsscheine erhalten.
+203	SMT_TOOMANY_TCAT_MESSAGE	Ihr könnt keine weiteren Tikat erhalten.
 203	SMT_TOWN_TELEPORT_CANT_USE	Ihr könnt so nahe am Zielort keine Schriftrolle verwenden.
 203	SMT_TRADE_BROKER_CANT_SEARCH_ALL	Die Suchparameter sind zu ungenau.
 201	SMT_TRADE_CANCEL	Handel abgebrochen.
@@ -2135,15 +2137,9 @@
 203	SMT_PROMOTION_OFF_BY_ADMIN	Ihr könnt das Internetcafe-Event zur Zeit nicht nutzen.
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	Momentan kann der Dungeon der Prüfungen nicht betreten werden.
 203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	Diese Funktion kann auf dem aktuellen Betriebssystem nicht verwendet werden.
-203	SMT_VIPSHOP_CANT_RESET_ITEMLIST	
-203	SMT_VIPSHOP_NOT_ENOUGH_TOKEN	
-201	SMT_VIPSYSTEM_GET_TOKEN	
-302	SMT_VIPSYSTEM_CANT_ENTER_DUNGEON	
-302	SMT_VIPSHOP_CANT_BUYITEM_SOLDOUT	
-302	SMT_VIPSYSTEM_CANT_OPEN_STORE	
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	Die Quest-Einstellungen wurden auf eine bessere Stufe eingestellt.
 203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>In Kürze werdet Ihr am unten ausgewählten Ort wiederbelebt.<br><font color = '#ffffff'>Bis zur Wiederbelebung verbleibende Zeit:<br> <font color = '#ff0000'>{ReviveSec}</font> Sek.
-202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Notfall]{QUESTNAME}</font> Eine Gildenmission kann angenommen werden. In Kürze erscheint <font color = '#fcb7ff'>{NPCNAME}</font> im <font color = '#fcb7ff'>{ZONENAME} (Kanal 1)</font>.
+202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Notfall]{questName}</font> Eine Gildenmission kann angenommen werden. In Kürze erscheint <font color = '#fcb7ff'>{npcName}</font> im <font color = '#fcb7ff'>{zoneName} (Kanal 1)</font>.
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>{npcname}</font> <font color = '#fcb7ff'>ist erschienen</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font> <font color = '#fcb7ff'>ist geflohen</font>.
 205	SMT_GQUEST_NORMAL_ACCEPT	<font color = '#f6f493'>{guildQuestName}</font> Ihr habt die Gildenmission angenommen.
@@ -2161,7 +2157,7 @@
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_LEVEL	Da die Gildenstufe zu niedrig ist, könnt Ihr diese Fertigkeit nicht erlernen.
 203	SMT_LEARN_GUILD_SKILL_FAIL_GUILD_PRE_SKILL	Da Ihr die vorhergehende Fertigkeit nicht beherrscht, könnt Ihr diese Fertigkeit nicht erlernen.
 205	SMT_LEARN_GUILD_SKILL_SUCCESS	Ihr habt eine neue Gildenfertigkeit erlernt.
-201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcname}</font> wurde beseitigt.
+201	SMT_FIELDNAMED_DIE	<font color = '#b967ff'>{npcName}</font> wurde beseitigt.
 201	SMT_FIELDNAMED_RANK	Rang <font color='#1DDB16'>{rank}</font> der Gruppe von <font color='#1DDB16'>{userName}</font>
 203	SMT_GUILD_STORE_FAIL_AUTHORITY	Ihr habt nicht das Recht zur Verwendung von Gildengold.
 203	SMT_GUILD_STORE_FAIL_GUILD_MONEY	Nicht genug Gildengold.
