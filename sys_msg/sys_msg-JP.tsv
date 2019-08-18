@@ -329,6 +329,7 @@
 203	SMT_CANNOT_MAKE_CONTRACT	現在は実行できません。
 203	SMT_CANNOT_MOVE_CHANNEL_GENERAL	今はチャンネルを移動できません。
 203	SMT_CANNOT_PARCEL_THISITEM	{ItemName}はメールに添付できません。
+203	SMT_CANNOT_RECEIVE_ESCROW_PARCEL	手数料を支払って物品を受けるメールは一括受領できません。
 203	SMT_CANNOT_RECEIVE_ITEM	アイテムを受け取ることができません。
 203	SMT_CANNOT_REGISTER_ITEM	このアイテムは登録できません。
 203	SMT_CANNOT_RESURRECT	今は復活できません。
@@ -1466,6 +1467,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	メモリー問題のため、テクスチャー解像度を落とします。
 204	SMT_OUT_PARTY	{party}から追放されました。
 204	SMT_OUT_UNIONPARTY	レイドから追放されました。
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	キャラクターが見つかりません。
 203	SMT_PARCEL_CANT_SENDING_BACK	メールを返信できません。
 201	SMT_PARCEL_DELETE_PARCEL	選択したメールを削除しました。
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	受信トレイに未確認のメールがあります。
@@ -1875,6 +1877,9 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	戦闘中はテレポート位置を登録できません。
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	戦闘中はテレポートできません。
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	{ItemName}がないため移動できません。
+203	SMT_TELEPORT_CANNOT_TELEPORT_NO_PERMIT	ポータルを生成したキャラクターだけ移動できる。
+203	SMT_TELEPORT_CANNOT_TELEPORT_REPEAT	再入場できません。
+203	SMT_TELEPORT_NOTIFY	<font color = '#ffe400'>{npcname}</font>が登場した。
 203	SMT_TELEPORT_NOT_ENOUGH_EP	特性ポイントが不足しています。
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	これ以上テレポート位置を登録できません。
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName}が召喚を承諾しました。
@@ -2235,6 +2240,7 @@
 203	SMT_HUDDLEADDING_USER	{Username}様はアイテム及びゴールドの譲渡が制限された状態です。
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	相手との距離が近すぎるため、スキルを使用できません。
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	ダンジョン内でのみ使用可能です。
+203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	該当機能はパーティーリーダーのみ使用可能です。
 201	SMT_CHANGELOOK_CANT_USE	アイテム仕様条件が満たされていないため、使用できません。
 201	SMT_CHANGELOOK_NO_SELECT	上記の姿のうちランダムで外見が変更されます。
 201	SMT_CHANGELOOK_SHOP_SELECT	アイテム使用時、<font color = '#FF0000'>キャラクターの外見がランダム変更され、適用後は元に戻せません。</font>内容を十分に熟知した上で購入してください。
@@ -2323,6 +2329,7 @@
 201	SMT_GAIN_SKILL_POLISHING_EXP	練武経験値を {gainExp}獲得しました。
 201	SMT_GAIN_SKILL_POLISHING_POINT	練武ポイントが上昇しました。
 201	SMT_CANT_SAVE_SCREENSHOT	スクリーンショット保存に失敗しました。
+201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	該当スキルのクールタイムが適用中の場合、オプションを変更できない。
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	ペットリストがいっぱいのため、これ以上登録できません。
 201	SMT_GET_SERVANT	{ServantName}を登録しました。ペットリストの名前変更ボタンを通じて名前を変更できます。
 201	SMT_INCREASE_SERVANT_STORAGE_SIZE	ペットリストが拡張されました。
@@ -2343,6 +2350,7 @@
 203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	今は支援スキル変更を行えません。
 203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	召喚中のペットの能力は削除できません。
 203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	無料変更回数が終了し、以降の名前変更にはペット名変更券が必要です。
+203	SMT_CANNOT_PARTNER_LEVELUP_EQUIPSTYLE	スタイルアイテムを装着中のパートナーは昇級材料として使用できません。
 203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	強化を進行できません。
 203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	能力スロットが最大なのでこれ以上能力を伝授できません。
 201	SMT_TRANSFER_ABILITY_COMPLETE	{SubServantName}の能力が{MainServantName}に伝授されました。
@@ -2354,14 +2362,31 @@
 203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	成長を行えません。
 201	SMT_PET_EVOLUTION_FAIL	{ServantName}の進化に失敗しました。{level}レベルに下落しました。
 203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	進化を進行できません。
+203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	スタイルアイテムを装着中のペットは進化できない。
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	合成で{ServantDefaultName}を獲得しました。
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	<font color='#ffffff'>ペットリストの</font><font color='#66bbff'>名前変更</font><font color='#ffffff'> ボタンを通じてペット名を変更できます。</font>
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	合成で{ServantDefaultName}を獲得しました。
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	<font color='#ffffff'>ペットリストの</font><font color='#66bbff'>名前変更</font><font color='#ffffff'> ボタンからペット名を変更できます。</font>
 203	SMT_CANNOT_PET_MIX_SERVERDOWN	合成を行えません。
+203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	スタイルアイテムを装着中のペットは合成できない。
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	登録できません。
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	これ以上購入できません。
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	これ以上購入できません。
-201	SMT_BUYLIMIT_ALERT_RESET	{StoreName}の購入制限が初期化されました。
+201	SMT_BUYLIMIT_ALERT_RESET	{buyMenu}の購入制限が初期化されました。
 203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	召喚されたペットは削除できない。
+203	SMT_CANNOT_SERVANT_DELETE_EQUIPSTYLE	スタイルアイテムを装着中のパートナーにその操作はできません。
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_DESPAWN	パートナーが召喚されてないため、パートナースタイルアイテムを装着できません。
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_MISMATCH	召喚されたサーバントは該当パートナースタイルアイテムを装着できません。
+203	SMT_CANNOT_CHANGE_LOOKS_SERVANT_SAME_LOOK	同一な外見では外見変更できません。
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	マッチングしたダンジョンがクリアされたので、現在は追加マッチング機能を使用できません。
+203	SMT_INVEN_POCKET_CANT_UNLOCK_FOR_ACHIEVEMENT_REWARD	クエストを通じて[ゲティの神秘な袋]レコード達成時、袋を獲得できる。
+203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	空き空間が存在しないため、移動が不可能です。
+203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	優先検索及び分類フィルターが解除されなければいけません。
+202	SMT_WORLDSPAWN_NOTIFY_SPAWN	{RegionName}に <font color = '#ff3300'>{npcname}</font>が出現しました。
+201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	{RegionName}に <font color = '#ff3300'>{npcname}</font>が移動しました。
+201	SMT_POPUP_NUMSEL_INPUT_TITLE	入力
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	該当NPCは召喚したユーザーだけ利用できます。
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	該当NPCは召喚したユーザーと同じパーティーのユーザーだけ利用できます。
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	該当NPCは召喚したユーザーと召喚した時点に周辺にいたパーティーメンバーだけ利用できます。
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	該当NPCは召喚したユーザーと同じパーティーまたはレイドメンバーだけ利用できます。
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	該当NPCは召喚したユーザーと召喚した時点に周辺にいたパーティーメンバーまたはレイドメンバーだけ利用できます。
