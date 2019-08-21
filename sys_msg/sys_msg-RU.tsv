@@ -329,6 +329,7 @@
 203	SMT_CANNOT_MAKE_CONTRACT	Более недоступно.
 203	SMT_CANNOT_MOVE_CHANNEL_GENERAL	Сейчас вы не можете менять каналы.
 203	SMT_CANNOT_PARCEL_THISITEM	Вы не можете поместить предмет "{ItemName}" в посылку.
+203	SMT_CANNOT_RECEIVE_ESCROW_PARCEL	Вы не можете собирать почту для предметов, которые оплачиваются за комиссию.
 203	SMT_CANNOT_RECEIVE_ITEM	Сейчас вы не можете получить предмет.
 203	SMT_CANNOT_REGISTER_ITEM	Вы не можете поместить сюда этот предмет.
 203	SMT_CANNOT_RESURRECT	Воскрешение сейчас невозможно.
@@ -1466,6 +1467,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	Разрешение текстур временно понижено из-за нехватки ресурсов компьютера.
 204	SMT_OUT_PARTY	[{party}]: Вы изгнаны.
 204	SMT_OUT_UNIONPARTY	Вы изгнаны из рейда.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Персонаж не найден.
 203	SMT_PARCEL_CANT_SENDING_BACK	Вы не можете вернуть письмо.
 201	SMT_PARCEL_DELETE_PARCEL	Выбранное письмо удалено.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	У вас есть непрочитанная почта.
@@ -1875,6 +1877,9 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	Сейчас вы не можете добавить место в закладки.
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	Сейчас вы не можете телепортироваться.
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	Отсутствует {ItemName}. Вы не можете телепортироваться без этого предмета.
+203	SMT_TELEPORT_CANNOT_TELEPORT_NO_PERMIT	Телепортом может воспользоваться только персонаж, который его призвал.
+203	SMT_TELEPORT_CANNOT_TELEPORT_REPEAT	Повторный вход невозможен.
+203	SMT_TELEPORT_NOTIFY	Появился <font color = '#ffe400'>{npcname}</font>.
 203	SMT_TELEPORT_NOT_ENOUGH_EP	У вас недостаточно ОУ.
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	Вы больше не можете добавлять закладки.
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName} принял(а) вызов.
@@ -2229,6 +2234,7 @@
 203	SMT_HUDDLEADDING_USER	{Username}, ваши функции передачи предметов и монет заблокированы.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	Умение недоступно. Вы находитесь слишком близко к цели.
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	Доступно только в подземельях.
+203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	Эта функция доступна только для гостей вечеринки.
 201	SMT_CHANGELOOK_CANT_USE	Сейчас вы не можете это использовать.
 201	SMT_CHANGELOOK_NO_SELECT	Будет применен один из указанных выше обликов.
 201	SMT_CHANGELOOK_SHOP_SELECT	При использовании предмета <font color = '#FF0000'>облик персонажа изменяется случайным образом. Отменить изменения невозможно.</font> Хорошо подумайте перед покупкой.
@@ -2317,6 +2323,7 @@
 201	SMT_GAIN_SKILL_POLISHING_EXP	Получен опыт умения: +{gainExp}.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Повышены очки умений.
 201	SMT_CANT_SAVE_SCREENSHOT	Ошибка сохранения снимка экрана.
+201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	Нельзя изменить параметры данного умения, пока оно находится в состоянии перезарядки.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Список помощников переполнен. Необходимо увеличить его или освободить место.
 201	SMT_GET_SERVANT	Питомец {ServantName} добавлен. Имя можно сменить с помощью кнопки "Переименовать" в окне помощников.
 201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Список помощников расширен.
@@ -2337,6 +2344,7 @@
 203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	Сменить талант сейчас нельзя.
 203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	Удалить способность призванного помощника нельзя.
 203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Бесплатные попытки изменения израсходованы, требуется ваучер на смену имени помощника.
+203	SMT_CANNOT_PARTNER_LEVELUP_EQUIPSTYLE	Данный предмет не может использоваться для продвижения этого напарника.
 203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	Продвижение сейчас недоступно.
 203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	Ячейки способностей переполнены, перенести еще одну способность нельзя.
 201	SMT_TRANSFER_ABILITY_COMPLETE	Способность {SubServantName} переносится к {MainServantName}.
@@ -2348,14 +2356,31 @@
 203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	Развитие сейчас недоступно.
 201	SMT_PET_EVOLUTION_FAIL	Неудачная эволюция: {ServantName}. Уровень питомца снижается до {level}.
 203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	Эволюция сейчас недоступна.
+203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	Питомцы, владеющие предметами стиля, не могут эволюционировать.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	Синтез позволил получить: {ServantDefaultName}.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	Имя помощника можно изменить с помощью кнопки <font color='#ffffff'>Переименовать</font> в <font color='#66bbff'>окне помощников</font><font color='#ffffff'>.</font>
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	Синтез позволил получить: {ServantDefaultName}.
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	Имя помощника можно изменить с помощью кнопки <font color='#ffffff'>Переименовать</font> в <font color='#66bbff'>окне помощников</font><font color='#ffffff'>.</font>
 203	SMT_CANNOT_PET_MIX_SERVERDOWN	Синтез сейчас недоступен.
+203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	Питомцы, владеющие предметами стиля, не могут быть объединены.
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	Нельзя добавить в данную ячейку.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	Нельзя купить для данной учетной записи.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	Товар полностью распродан.
-201	SMT_BUYLIMIT_ALERT_RESET	Сбрасывает ограничение на количество покупок в {StoreName}.
+201	SMT_BUYLIMIT_ALERT_RESET	Ваше ограничение на покупку {buyMenu} было сброшено.
 203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	Призванного помощника можно удалить.
+203	SMT_CANNOT_SERVANT_DELETE_EQUIPSTYLE	Нельзя удалить напарника который владеет предметом украшений.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_DESPAWN	Напарник не призван, предмет нельзя использовать.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_MISMATCH	Данный предмет нельзя использовать для призванного напарника.
+203	SMT_CANNOT_CHANGE_LOOKS_SERVANT_SAME_LOOK	Нельзя изменить внешний вид на такой же.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	После прохождения подобранного подземелья функцию подбора нельзя использовать снова.
+203	SMT_INVEN_POCKET_CANT_UNLOCK_FOR_ACHIEVEMENT_REWARD	За выполнение задания [Изобретение Гетти] вы сможете разблокировать карман.
+203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	Невозможно двигаться, потому что нет пустого пространства.
+203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	Сначала отключите фильтры поиска и сортировки.
+202	SMT_WORLDSPAWN_NOTIFY_SPAWN	<font color = '#ff3300'>{npcname}</font> появился в {RegionName}.
+201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	<font color = '#ff3300'>{npcname}</font> отправился из {RegionName}.
+201	SMT_POPUP_NUMSEL_INPUT_TITLE	Ввод
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	NPC доступен только вызванным пользователям.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	NPC доступен только пользователям группы, таким как вызванный пользователь.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	NPC доступен только членам группы, которые находились поблизости, когда были вызваны вызванным пользователем.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	NPC доступен только пользователям той же фракции, что и вызванный пользователь.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	Этот NPC может использоваться только вызванными пользователями и вызванными членами группы.
