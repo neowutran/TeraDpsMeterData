@@ -329,6 +329,7 @@
 203	SMT_CANNOT_MAKE_CONTRACT	No longer available.
 203	SMT_CANNOT_MOVE_CHANNEL_GENERAL	You cannot change channels now.
 203	SMT_CANNOT_PARCEL_THISITEM	You cannot attach {ItemName} as a parcel.
+203	SMT_CANNOT_RECEIVE_ESCROW_PARCEL	Items that require a fee to receive in Parcel Post cannot be received together.
 203	SMT_CANNOT_RECEIVE_ITEM	You can't receive an item right now.
 203	SMT_CANNOT_REGISTER_ITEM	You can't place that item there.
 203	SMT_CANNOT_RESURRECT	You can't resurrect now.
@@ -1466,6 +1467,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	Texture resolution has been reduced temporarily due to insufficient memory.
 204	SMT_OUT_PARTY	You've been kicked from the {party}.
 204	SMT_OUT_UNIONPARTY	You were kicked from the raid.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Cannot find character.
 203	SMT_PARCEL_CANT_SENDING_BACK	You can't return the post.
 201	SMT_PARCEL_DELETE_PARCEL	Deleted selected post.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	You have unread post.
@@ -1875,6 +1877,9 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	You can't bookmark a location right now.
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	You can't teleport right now.
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	You can't teleport without {ItemName}.
+203	SMT_TELEPORT_CANNOT_TELEPORT_NO_PERMIT	The teleportal can be used by only the character that created it.
+203	SMT_TELEPORT_CANNOT_TELEPORT_REPEAT	You cannot re-enter.
+203	SMT_TELEPORT_NOTIFY	<font color = '#ffe400'>{npcname}</font>, has spawned.
 203	SMT_TELEPORT_NOT_ENOUGH_EP	You don't have enough EP.
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	You can't bookmark any more locations.
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName} accepted the summon.
@@ -2235,6 +2240,7 @@
 203	SMT_HUDDLEADDING_USER	{Username} can’t trade items or gold.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	Target is too close. Cannot use skill.
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	Can only be used in dungeons.
+203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	That function can only be used by a group leader.
 201	SMT_CHANGELOOK_CANT_USE	You're not eligible to use this item.
 201	SMT_CHANGELOOK_NO_SELECT	Your appearance will change to one of the above.
 201	SMT_CHANGELOOK_SHOP_SELECT	Using this item will <font color = '#FF0000'>randomly change your character's appearance. This change cannot be reverted.</font> Please check before confirming purchase.
@@ -2323,6 +2329,7 @@
 201	SMT_GAIN_SKILL_POLISHING_EXP	You've gained {gainExp} Skill Advancement XP.
 201	SMT_GAIN_SKILL_POLISHING_POINT	You've obtained Skill Advancement Points.
 201	SMT_CANT_SAVE_SCREENSHOT	Failed to save a screenshot.
+201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	You cannot change a skill's options if it is on cooldown.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Your companion list is full. You must expand or remove your list.
 201	SMT_GET_SERVANT	{ServantName} has been registered. You can change {ServantName}'s name with the Change Name button in the Companion List.
 201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Your Companion List has been expanded.
@@ -2343,6 +2350,7 @@
 203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	You can't change the gifted skill right now.
 203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	You can't remove a companion's ability while it is summoned.
 203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Companion Name Change Voucher is required.
+203	SMT_CANNOT_PARTNER_LEVELUP_EQUIPSTYLE	You must unequip all fashion items to use a partner as a promotion material.
 203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	You cannot promote right now.
 203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	The ability slot is full. You can't move abilities.
 201	SMT_TRANSFER_ABILITY_COMPLETE	{SubServantName}'s ability has been transferred to {MainServantName}.
@@ -2354,14 +2362,33 @@
 203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	You cannot grow right now.
 201	SMT_PET_EVOLUTION_FAIL	{ServantName} failed to evolve. {ServantName}'s level has decreased to {level}.
 203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	You cannot evolve right now.
+203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	You cannot evolve a pet in a cosmetic item.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	You obtained {ServantDefaultName} from combining.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion List.</font>
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	You obtained {ServantDefaultName} from combining.
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion List.</font>
 203	SMT_CANNOT_PET_MIX_SERVERDOWN	You cannot combine right now.
+203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	You cannot combine pets wearing companion costumes.
+203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	You cannot combine companions wearing companion costumes.
+203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	You cannot evolve a companion wearing a companion costume.
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	You cannot register in this slot.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	You can't purchase through this account anymore.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	You can't buy any more. The item is out of stock.
-201	SMT_BUYLIMIT_ALERT_RESET	{StoreName}'s purchase limit has been reset.
+201	SMT_BUYLIMIT_ALERT_RESET	{buyMenu}'s purchase limit has been reset.
+203	SMT_CANNOT_SERVANT_DELETE_EQUIPSTYLE	You must unequip all companion costumes to remove a partner.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_DESPAWN	You must summon a partner first to equip a companion costume.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_MISMATCH	The summoned companion cannot equip the selected companion costume.
+203	SMT_CANNOT_CHANGE_LOOKS_SERVANT_SAME_LOOK	You can't change to the same appearance.
 203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	You can't remove a partner while it is summoned.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	You have cleared the matched dungeon. You can't use the matching function due to your status.
+203	SMT_INVEN_POCKET_CANT_UNLOCK_FOR_ACHIEVEMENT_REWARD	Complete Getty's Invention to unlock an additional Pocket Tab of inventory.
+203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	Insufficient inventory space.
+203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	Disable the search and classification filter.
+202	SMT_WORLDSPAWN_NOTIFY_SPAWN	<font color = '#ff3300'>{npcname}</font> has appeared in {RegionName}.
+201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	<font color = '#ff3300'>{npcname}</font> has left {RegionName}.
+201	SMT_POPUP_NUMSEL_INPUT_TITLE	Enter
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	The NPC can only be used by the player who summoned it.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	The NPC can only be used by the player who summoned it and other group members.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	The NPC can only be used by the player who summoned it and group members who were nearby when the NPC was summoned.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	The NPC can only be used by the player who summoned it and other group or raid members.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	The NPC can only be used by the player who summoned it and group or raid members who were nearby when the NPC was summoned.

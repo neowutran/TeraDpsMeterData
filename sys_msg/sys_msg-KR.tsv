@@ -1880,6 +1880,7 @@
 201	SMT_SUCCESS_PRODUCE_CRITICAL	대성공의 징조가 느껴집니다.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	{UserName}님을 소환하는데 실패했습니다.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName}님은 사망 상태입니다. 소환에 실패했습니다.
+203	SMT_SUMMON_FAIL_REQUIRE_QUEST	{UserName}님은 선행 퀘스트를 완료하지 않았습니다. 소환에 실패했습니다.
 203	SMT_SUMMON_FRIEND_CANNOT_FALLING	자신 혹은 상대방이 낙하 중일 때는 친구 소환 기능을 사용할 수 없습니다.
 302	SMT_SUMMON_UNION_NPC_COUNT_EXCEED	최대 소환 갯수 {Num}개를 초과했습니다.
 302	SMT_SUMMON_UNION_NPC_WRONG_AREA	해당 지역에서는 소환할 수 없습니다. 자신의 연맹 영지에서만 소환이 가능합니다.
@@ -2198,6 +2199,7 @@
 203	SMT_GUILD_INCENTIVE_FAIL_RATE	포상금 지급 비율이 올바르지 않습니다.
 203	SMT_GUILD_SKILL_FAIL_NOCOIN	길드 자금이 부족합니다.
 203	SMT_GUILD_SKILL_FAIL_AUTHORITY	길드장만 사용 가능한 스킬입니다
+203	SMT_GUILD_SKILL_FAIL_REQUIRE_QUEST	선행 퀘스트를 완료한 길드원이 존재하지 않습니다
 203	SMT_CANT_CHANGE_EQUIP	아이템 장착/탈착이 불가능합니다.
 203	SMT_GUILD_WAR_CANT_CONTROL	던전, 전장, 길드대전 지역 등과 같은 특수 공간 내부에서는 길드전 선포, 철회, 항복이 불가능합니다.
 203	SMT_GUILD_WAR_CANT_WITHDRAW_DURING_WAR	길드전 진행 중에는 길드 탈퇴로 인해 길드가 해산될 경우에 한해 길드 탈퇴를 할 수 없습니다.
@@ -2386,11 +2388,13 @@
 203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	지금은 성장을 진행할 수 없습니다.
 201	SMT_PET_EVOLUTION_FAIL	{ServantName}의 진화에 실패했습니다. {level}레벨로 하락했습니다.
 203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	지금은 진화를 진행할 수 없습니다.
+203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	스타일 아이템을 장착 중인 펫은 진화를 진행할 수 없습니다.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	합성으로 {ServantDefaultName}{을} 획득하셨습니다.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	<font color='#ffffff'>서번트 목록의</font> <font color='#66bbff'>이름 변경</font><font color='#ffffff'> 버튼을 통해 서번트 이름을 변경할 수 있습니다.</font>
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	합성으로 {ServantDefaultName}{을} 획득하셨습니다.
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	<font color='#ffffff'>서번트 목록의</font> <font color='#66bbff'>이름 변경</font><font color='#ffffff'> 버튼을 통해 서번트 이름을 변경할 수 있습니다.</font>
 203	SMT_CANNOT_PET_MIX_SERVERDOWN	지금은 합성을 진행할 수 없습니다.
+203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	스타일 아이템을 장착 중인 펫은 합성을 진행할 수 없습니다.
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	해당 슬롯에 등록할 수 없습니다.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	해당 계정으로는 더 이상 구매할 수 없습니다.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	남은 재고가 없어 더 이상 구매할 수 없습니다.
