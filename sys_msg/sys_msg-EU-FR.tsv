@@ -329,6 +329,7 @@
 203	SMT_CANNOT_MAKE_CONTRACT	Plus disponible.
 203	SMT_CANNOT_MOVE_CHANNEL_GENERAL	Vous ne pouvez pas changer de canal actuellement.
 203	SMT_CANNOT_PARCEL_THISITEM	Vous ne pouvez pas joindre l'objet {ItemName} en tant que colis.
+203	SMT_CANNOT_RECEIVE_ESCROW_PARCEL	Vous ne pouvez pas obtenir de courriers en lot après avoir payé des frais et obtenu des marchandises.
 203	SMT_CANNOT_RECEIVE_ITEM	Vous ne pouvez pas recevoir d'objet pour l'instant.
 203	SMT_CANNOT_REGISTER_ITEM	Vous ne pouvez pas mettre cet objet ici.
 203	SMT_CANNOT_RESURRECT	Vous ne pouvez pas ressusciter maintenant.
@@ -1466,6 +1467,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	L'espace de stockage insuffisant entraîne une baisse temporaire de la qualité de l'image.
 204	SMT_OUT_PARTY	Vous avez été exclu du {party}.
 204	SMT_OUT_UNIONPARTY	Vous avez été {@gender:expulsé/expulsée} du raid.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Le personnage est introuvable.
 203	SMT_PARCEL_CANT_SENDING_BACK	Vous ne pouvez pas renvoyer le message.
 201	SMT_PARCEL_DELETE_PARCEL	Message sélectionné supprimé.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	Vous avez un message non lu.
@@ -1875,6 +1877,9 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	Vous ne pouvez pas mettre un emplacement en favori pour l'instant.
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	Vous ne pouvez pas vous téléporter maintenant.
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	Vous ne pouvez pas vous téléporter sans {ItemName}
+203	SMT_TELEPORT_CANNOT_TELEPORT_NO_PERMIT	Seul le personnage qui a fabriqué le portail peut s'en servir.
+203	SMT_TELEPORT_CANNOT_TELEPORT_REPEAT	Vous ne pouvez pas l'emprunter à nouveau.
+203	SMT_TELEPORT_NOTIFY	<font color = '#ffe400'>{npcname}</font> a fait son apparition.
 203	SMT_TELEPORT_NOT_ENOUGH_EP	Vous n'avez pas assez de PE.
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	Vous ne pouvez plus ajouter d'emplacements en favori.
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName} a accepté l'invitation.
@@ -2228,6 +2233,7 @@
 203	SMT_HUDDLEADDING_USER	{Username} fait l'objet d'une restriction du commerce et ne peut donc pas échanger d'or ou d'objets.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	Vous êtes trop proche de la cible pour utiliser cette compétence.
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	Ceci est uniquement utilisable dans les donjons.
+203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	Cette fonction est réservée aux chefs de groupe.
 201	SMT_CHANGELOOK_CANT_USE	Vous ne pouvez pas utiliser l'objet.
 201	SMT_CHANGELOOK_NO_SELECT	Vous prenez l'une des apparences affichées.
 201	SMT_CHANGELOOK_SHOP_SELECT	L'utilisation de l'objet <font color = '#FF0000'>modifie aléatoirement l'apparence de votre personnage. Cette modification ne peut pas être annulée.</font> Confirmez l'achat après vérification.
@@ -2316,6 +2322,7 @@
 201	SMT_GAIN_SKILL_POLISHING_EXP	Vous avez obtenu {gainExp} PEX de finesse de compétence.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Vos PEX de finesse de compétence ont augmenté.
 201	SMT_CANT_SAVE_SCREENSHOT	La capture d'écran n'a pas été enregistrée.
+201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	Vous ne pouvez pas modifier vos options vidéos tant que le temps de rechargement de la compétence n'est pas achevé.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Vous ne pouvez pas inscrire d'autres assistants. Élargissez la liste ou supprimez un assistant de la liste.
 201	SMT_GET_SERVANT	{ServantName} est désormais inscrit. Vous pouvez changer le nom de l'assistant avec l'option "Rebaptiser".
 201	SMT_INCREASE_SERVANT_STORAGE_SIZE	La liste d'assistants est élargie.
@@ -2336,6 +2343,7 @@
 203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	Vous ne pouvez pas effectuer la modification de compétence de talent.
 203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	Vous ne pouvez pas supprimer la compétence de l'assistant pendant son invocation.
 203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Vous avez besoin d'un bon de modification de nom d'assistant.
+203	SMT_CANNOT_PARTNER_LEVELUP_EQUIPSTYLE	Les partenaires équipés d'un objet de mode ne peuvent pas servir de matériau d'évolution.
 203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	Vous ne pouvez pas effectuer l'évolution.
 203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	Les emplacements de compétence sont tous occupés.
 201	SMT_TRANSFER_ABILITY_COMPLETE	La compétence de {SubServantName} est transposée sur {MainServantName}.
@@ -2347,14 +2355,31 @@
 203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	Vous ne pouvez pas effectuer la croissance.
 201	SMT_PET_EVOLUTION_FAIL	La métamorphose de {ServantName} a échoué. Le niveau a chuté à {level}.
 203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	Vous ne pouvez pas effectuer la métamorphose.
+203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	Vous ne pouvez pas métamorphoser un familier équipé d'un objet de mode.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	Vous avez obtenu {ServantDefaultName} grâce à la fusion.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	Vous pouvez rebaptiser l'assistant via l'option <font color='#66bbff'>rebaptiser</font> de la <font color='#ffffff'>liste d'assistants</font><font color='#ffffff'>.</font>
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	Vous avez obtenu {ServantDefaultName} grâce à la fusion.
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	Vous pouvez rebaptiser l'assistant via l'option <font color='#66bbff'>rebaptiser</font> de la <font color='#ffffff'>liste d'assistants</font><font color='#ffffff'>.</font>
 203	SMT_CANNOT_PET_MIX_SERVERDOWN	Vous ne pouvez pas effectuer la fusion.
+203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	Vous ne pouvez pas fusionner un familier équipé d'un objet de mode.
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	Vous ne pouvez pas enregistrer ceci dans l'emplacement sélectionné.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	L'achat est impossible depuis ce compte.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	L'achat est impossible car l'objet n'est plus en stock.
-201	SMT_BUYLIMIT_ALERT_RESET	Vous ne pouvez pas acheter d'autres {StoreName}.
+201	SMT_BUYLIMIT_ALERT_RESET	La restriction d'achat pour {buyMenu} est réinitialisée.
 203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	Vous ne pouvez pas supprimer un assistant invoqué.
+203	SMT_CANNOT_SERVANT_DELETE_EQUIPSTYLE	Vous ne pouvez pas supprimer un partenaire équipé d'un objet de mode.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_DESPAWN	Invoquez le partenaire à qui vous souhaitez attribuer l'objet de mode.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_MISMATCH	Vous ne pouvez pas attribuer d'objet de mode de partenaire à l'assistant invoqué.
+203	SMT_CANNOT_CHANGE_LOOKS_SERVANT_SAME_LOOK	Choisissez une apparence n'ayant pas encore été attribuée.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	Pour le moment, vous ne pouvez pas lancer de recherche de groupe pour ce donjon.
+203	SMT_INVEN_POCKET_CANT_UNLOCK_FOR_ACHIEVEMENT_REWARD	Décrochez l'exploit de la quête Sacoche mystérieuse de Getty pour obtenir une sacoche.
+203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	Vous ne pouvez pas vous déplacer là-bas en raison du manque de place.
+203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	Vous devez d'abord annuler les filtres de recherche et de tri.
+202	SMT_WORLDSPAWN_NOTIFY_SPAWN	<font color = '#ff3300'>{npcname}</font> a fait son apparition dans la zone {RegionName}.
+201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	<font color = '#ff3300'>{npcname}</font> a quitté la zone {RegionName}.
+201	SMT_POPUP_NUMSEL_INPUT_TITLE	Saisir
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	Ce PNJ ne sert que l'invocateur.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	Ce PNJ ne sert que l'invocateur de son groupe.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	Ce PNJ ne sert que les membres du groupe situés à proximité de l'invocateur.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	Ce PNJ ne sert que les membres du groupe et du groupe de raid de l'invocateur.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	Ce PNJ ne sert que les membres du groupe et du groupe de raid situés à proximité de l'invocateur.

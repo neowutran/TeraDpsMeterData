@@ -329,6 +329,7 @@
 203	SMT_CANNOT_MAKE_CONTRACT	Nicht mehr verfügbar.
 203	SMT_CANNOT_MOVE_CHANNEL_GENERAL	Ihr könnt den Kanal jetzt nicht wechseln.
 203	SMT_CANNOT_PARCEL_THISITEM	Ihr könnt "{ItemName}" nicht als Päckchen anfügen.
+203	SMT_CANNOT_RECEIVE_ESCROW_PARCEL	Es ist nicht möglich, Post im Bündel zu erhalten, wenn Gebühren bezahlt und Ware erhalten wurde.
 203	SMT_CANNOT_RECEIVE_ITEM	Ihr könnt jetzt keinen Gegenstand annehmen.
 203	SMT_CANNOT_REGISTER_ITEM	Ihr könnt diesen Gegenstand nicht dort platzieren.
 203	SMT_CANNOT_RESURRECT	Ihr könnt jetzt nicht wiederbelebt werden.
@@ -1466,6 +1467,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	Aufgrund von mangelndem Speicherplatz wird die Bildqualität vorübergehend herabgesetzt.
 204	SMT_OUT_PARTY	Ihr wurdet aus der {Party} geworfen.
 204	SMT_OUT_UNIONPARTY	Ihr wurdet aus der Schlachtgruppe geworfen.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Der Charakter wurde nicht gefunden.
 203	SMT_PARCEL_CANT_SENDING_BACK	Ihr könnt die Post nicht zurücksenden.
 201	SMT_PARCEL_DELETE_PARCEL	Gewählte Nachricht wurde gelöscht.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	Ihr habt ungelesene Post.
@@ -1875,6 +1877,9 @@
 203	SMT_TELEPORT_CANNOT_ADD_IN_COMBAT_OR_PEGASUS	Ihr könnt jetzt keinen Ort als Lesezeichen speichern.
 203	SMT_TELEPORT_CANNOT_TELEPORT_IN_COMBAT_OR_PEGASUS	Ihr könnt jetzt nicht teleportieren.
 203	SMT_TELEPORT_CANNOT_TELEPORT_NO_HAVE_ITEM	Ohne "{ItemName}" könnt Ihr nicht teleportieren.
+203	SMT_TELEPORT_CANNOT_TELEPORT_NO_PERMIT	Das Portal kann nur von dem Charakter verwendet werden, der es erstellt hat.
+203	SMT_TELEPORT_CANNOT_TELEPORT_REPEAT	Kann nicht erneut betreten werden.
+203	SMT_TELEPORT_NOTIFY	<font color = '#ffe400'>{npcname}</font> ist erschienen.
 203	SMT_TELEPORT_NOT_ENOUGH_EP	Ihr habt nicht genug EP.
 203	SMT_TELEPORT_NO_MORE_TELEPORT_POSITION	Ihr könnt keine weiteren Orte als Lesezeichen speichern.
 201	SMT_TELEPORT_TARGET_ACCEPT	{UserName} hat die Beschwörung akzeptiert.
@@ -2229,6 +2234,7 @@
 203	SMT_HUDDLEADDING_USER	{Username} hat eine Handelsbeschränkung und kann nicht mit Gold oder Gegenständen handeln.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	Ihr seid zu nah am Ziel, um die Fertigkeit auszuführen.
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	Kann nur im Dungeon verwendet werden.
+203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	Diese Funktion kann nur vom Gruppenanführer genutzt werden.
 201	SMT_CHANGELOOK_CANT_USE	Ihr könnt den Gegenstand nicht verwenden.
 201	SMT_CHANGELOOK_NO_SELECT	Eurer Aussehen ändert sich in eine der angezeigten Varianten.
 201	SMT_CHANGELOOK_SHOP_SELECT	Bei Verwendung des Gegenstands wird <font color = '#FF0000'>das Aussehen Eures Charakters zufällig geändert. Dieser Vorgang kann nicht rückgängig gemacht werden.</font> Bestätigt den Kauf, nachdem Ihr alles überprüft habt.
@@ -2317,6 +2323,7 @@
 201	SMT_GAIN_SKILL_POLISHING_EXP	Ihr habt {gainExp} Fertigkeitsfinesse-EP erhalten.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Eure Fertigkeitsfinesse-EP sind angestiegen.
 201	SMT_CANT_SAVE_SCREENSHOT	Der Screenshot wurde nicht gespeichert.
+201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	Ihr könnt Eure Video-Optionen nicht ändern, wenn die Abklingzeit der Fertigkeit noch nicht abgelaufen ist.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Ihr könnt keine weiteren Helfer registrieren. Erweitert die Liste oder löscht einen Helfer aus der Liste.
 201	SMT_GET_SERVANT	{ServantName} wurde registriert. Der Name des Helfers kann unter "Name ändern" geändert werden.
 201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Die Helferliste wurde erweitert.
@@ -2337,6 +2344,7 @@
 203	SMT_CANNOT_CONDITIONALSKILL_CHANGE_SERVERDOWN	Die Talentfertigkeits-Änderung kann nicht durchgeführt werden.
 203	SMT_CANNOT_DELETE_ABILITY_SPAWNED	Die Fähigkeit des Helfers kann während seiner Beschwörung nicht entfernt werden.
 203	SMT_CANNOT_SERVANTNAME_CHANGE_NO_ITEM	Ihr benötigt einen Helfername-Änderungscoupon.
+203	SMT_CANNOT_PARTNER_LEVELUP_EQUIPSTYLE	Ihr könnt einen Partner, der mit einem Modegegenstand ausgerüstet ist, nicht als Aufstufungsmaterial verwenden.
 203	SMT_CANNOT_PARTNER_LEVELUP_SERVERDOWN	Die Aufstufung kann nicht durchgeführt werden.
 203	SMT_CANNOT_TRANSFER_ABILITY_NOMORE	Die Fähigkeiten-Slots sind alle belegt.
 201	SMT_TRANSFER_ABILITY_COMPLETE	Die Fähigkeit von {SubServantName} wurde auf {MainServantName} übertragen.
@@ -2348,14 +2356,31 @@
 203	SMT_CANNOT_PET_LEVELUP_SERVERDOWN	Das Wachstum kann nicht durchgeführt werden.
 201	SMT_PET_EVOLUTION_FAIL	Die Weiterentwicklung von {ServantName} ist fehlgeschlagen. Die Stufe ist auf {level} gesunken.
 203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	Die Weiterentwicklung kann nicht durchgeführt werden.
+203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	Ein Begleiter, der mit einem Modegegenstand ausgerüstet ist, kann nicht weiterentwickelt werden.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	Ihr habt durch Fusion {ServantDefaultName} erhalten.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	Der Helfername kann in der <font color='#ffffff'>Helferliste</font> unter <font color='#66bbff'>Name ändern</font><font color='#ffffff'> geändert werden.</font>
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	Ihr habt durch Fusion {ServantDefaultName} erhalten.
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	Der Helfername kann in der <font color='#ffffff'>Helferliste</font> unter <font color='#66bbff'>Name ändern</font><font color='#ffffff'> geändert werden.</font>
 203	SMT_CANNOT_PET_MIX_SERVERDOWN	Die Fusion kann nicht durchgeführt werden.
+203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	Ein Begleiter, der mit einem Modegegenstand ausgerüstet ist, kann nicht fusioniert werden.
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	Kann nicht in den ausgewählten Slot registriert werden.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_ACCOUNT	Mit diesem Account ist der Kauf nicht möglich.
 203	SMT_CANNOT_BUY_NO_LIMITCOUNT_SERVER	Der Kauf ist nicht möglich, da der Gegenstand nicht mehr auf Lager ist.
-201	SMT_BUYLIMIT_ALERT_RESET	Ihr könnt keine weiteren {StoreName} kaufen.
+201	SMT_BUYLIMIT_ALERT_RESET	Die Kaufbeschränkung für {buyMenu} wurde zurückgesetzt.
 203	SMT_CANNOT_SERVANT_DELETE_SPAWNED	Ein beschworener Helfer kann nicht entfernt werden.
+203	SMT_CANNOT_SERVANT_DELETE_EQUIPSTYLE	Ein Partner, der mit einem Modegegenstand ausgerüstet ist, kann nicht gelöscht werden.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_DESPAWN	Beschwört einen Partner, der mit dem Modegegenstand ausgerüstet werden soll.
+203	SMT_CANNOT_EQUIP_PARTNER_STYLE_MISMATCH	Ihr könnt den beschworenen Helfer nicht mit einem Partner-Modegegenstand ausrüsten.
+203	SMT_CANNOT_CHANGE_LOOKS_SERVANT_SAME_LOOK	Wählt ein Aussehen aus, das noch nicht angewandt wird.
 203	SMT_CANT_DUNGEONMATCHING_SYSPARTY_CLEAR	Ihr könnt im Moment keine Gruppensuche für diesen Dungeon starten.
+203	SMT_INVEN_POCKET_CANT_UNLOCK_FOR_ACHIEVEMENT_REWARD	Wenn Ihr den Fortschritt bei der Quest [Gettys mysteriöser Beutel] erreicht, erhaltet Ihr einen Beutel.
+203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	Ihr könnt Euch nicht dahinbewegen, weil dort kein Platz ist.
+203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	Zuerst müssen die Such- und Sortierungsfilter aufgehoben werden.
+202	SMT_WORLDSPAWN_NOTIFY_SPAWN	<font color = '#ff3300'>{npcname}</font> ist in {RegionName} erschienen.
+201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	<font color = '#ff3300'>{npcname}</font> hat {RegionName} verlassen.
+201	SMT_POPUP_NUMSEL_INPUT_TITLE	Eingabe
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	Dieser NPC steht nur dem Beschwörer zu Diensten.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	Dieser NPC steht nur vom Beschwörer und seiner Gruppe zu Diensten.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	Dieser NPC steht nur Gruppenmitgliedern zu Diensten, die sich in der Nähe des Beschwörers befinden.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	Dieser NPC steht nur Gruppen- und Schlachtgruppenmitgliedern des Beschwörers zu Diensten.
+203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	Dieser NPC steht nur Gruppen- und Schlachtgruppenmitgliedern zu Diensten, die sich in der Nähe des Beschwörers befinden.
