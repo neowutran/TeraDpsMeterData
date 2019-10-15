@@ -96,10 +96,14 @@
 201	SMT_BATTLE_CHARM_FAIL	You can't use charms unless you're resting by a campfire.
 203	SMT_BATTLE_CONNOT_CAMPFIRE	You can't make a campfire right now.
 102	SMT_BATTLE_CRITICAL_SUCKS	Critical! You deal {Damage} points of damage.
+102	SMT_BATTLE_PHYSICAL_CRITICAL_SUCKS	Critical! You deal {Damage} points of physical damage.
+102	SMT_BATTLE_MAGICAL_CRITICAL_SUCKS	Critical! You deal {Damage} points of magic damage.
 101	SMT_BATTLE_DEBUFF_IMMUNE	{Target} is immune to {AbnormalityName}.
 101	SMT_BATTLE_DEBUFF_RESIST	{Target} resisted {AbnormalName}.
 201	SMT_BATTLE_END	You are no longer in combat.
 101	SMT_BATTLE_ENEMY_DAMAGE	Hit! You deal {Damage} points of damage.
+101	SMT_BATTLE_ENEMY_PHYSICAL_DAMAGE	You deal {Damage} points of physical damage.
+101	SMT_BATTLE_ENEMY_MAGICAL_DAMAGE	You deal {Damage} points of magic damage.
 210	SMT_BATTLE_EXP_CHATMSG_UPDATE	You gained {exp@exp}<font color = '#0080FF'>{bonusExp@bonusExp}</font> <font color = '#ffff00'>{vipSystemBonusExp@vipSystemBonusExp}</font> experience.
 203	SMT_BATTLE_FIELD_ALREADY_FINISHED	Battleground is closing.
 203	SMT_BATTLE_FIELD_ALREADY_IN_TEAM	You're already in a battle group.
@@ -126,11 +130,25 @@
 109	SMT_BATTLE_MY_CRITICAL_DAMAGE_LARGE	Took {Damage} crit damage from {Monstername}.
 107	SMT_BATTLE_MY_CRITICAL_DAMAGE_MEDIUM	Took {Damage} crit damage from {Monstername}.
 104	SMT_BATTLE_MY_CRITICAL_DAMAGE_SMALL	Took {Damage} crit damage from {Monstername}.
+109	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_LARGE	Took {Damage} physical crit damage from {Monstername}.
+107	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_MEDIUM	Took {Damage} physical crit damage from {Monstername}.
+104	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_SMALL	Took {Damage} physical crit damage from {Monstername}.
+109	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_LARGE	Took {Damage} magic crit damage from {Monstername}.
+107	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_MEDIUM	Took {Damage} magic crit damage from {Monstername}.
+104	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_SMALL	Took {Damage} magic crit damage from {Monstername}.
 103	SMT_BATTLE_MY_DAMAGE	You take {Damage} points of damage.
 108	SMT_BATTLE_MY_DAMAGE_LARGE	Took {Damage} damage from {Monstername}.
 106	SMT_BATTLE_MY_DAMAGE_MEDIUM	Took {Damage} damage from {Monstername}.
-302	SMT_BATTLE_MY_DAMAGE_NO_NAME	Received {Damage} damage.
 103	SMT_BATTLE_MY_DAMAGE_SMALL	Took {Damage} damage from {Monstername}.
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE	Took {Damage} physical damage.
+108	SMT_BATTLE_MY_PHYSICAL_DAMAGE_LARGE	Took {Damage} physical damage from {Monstername}.
+106	SMT_BATTLE_MY_PHYSICAL_DAMAGE_MEDIUM	Took {Damage} physical damage from {Monstername}.
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE_SMALL	Took {Damage} physical damage from {Monstername}.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE	Took {Damage} magic damage.
+108	SMT_BATTLE_MY_MAGICAL_DAMAGE_LARGE	Took {Damage} magic damage from {Monstername}.
+106	SMT_BATTLE_MY_MAGICAL_DAMAGE_MEDIUM	Took {Damage} magic damage from {Monstername}.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE_SMALL	Took {Damage} magic damage from {Monstername}.
+302	SMT_BATTLE_MY_DAMAGE_NO_NAME	Received {Damage} damage.
 203	SMT_BATTLE_NO_SHEATH_SOCIAL_IN_COMBAT_STATUS	You can't do that right now.
 208	SMT_BATTLE_PARTY_DIE	{PartyPlayerName} is dead.
 201	SMT_BATTLE_PARTY_RESURRECT	{PartyPlayerName} has been resurrected.
@@ -357,6 +375,7 @@
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_BY_COOLTIME	You must wait before you can collect taxes again.
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_IN_BATTLE_TIME	You cannot collect tax during the battle.
 203	SMT_CANNOT_USE_CHANGE_GENDER_ITEM	You are not eligible to use {ItemName}.
+203	SMT_CANNOT_USE_CHANGE_GENDER2_ITEM	Your gender cannot use {ItemName}.
 203	SMT_CANNOT_USE_CHANGE_RACE_ITEM	{ItemName} does not affect this class.
 203	SMT_CANNOT_USE_ENCHANTSCROLL	This enhancement cannot be used on the selected equipment.
 203	SMT_CANNOT_USE_ENCHANTSCROLL_EQUIP_LEVEL	This enhancement is too high for that equipment.
@@ -628,8 +647,8 @@
 203	SMT_CHAT_NOT_IN_UNIONPARTY	You are not in raid.
 203	SMT_CHAT_PASSWORD_IS_FAIL	The password must consist of 4 numerals (0000-9999).
 203	SMT_CHAT_PENALTY_START	Your chat is restricted for sending too many messages.
-203	SMT_CHAT_QNA_NOTICE	TIP: Get more info from TERA fan site. <font color = '#FFFF00'>{link}</font>
-203	SMT_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>Click "Go"</font>
+203	SMT_CHAT_QNA_NOTICE	Have fun in Arborea!
+203	SMT_CHAT_QNA_NOTICE_LINK	The TERA Team <3s you!
 201	SMT_CHAT_VIOLATION	SMT_CHAT_VIOLATION
 203	SMT_CHAT_WHISPER_SELF	Invalid target.
 201	SMT_CHECK_FREE_SERVICE_TIME_LEFT	Your play time ends in {time} min.
@@ -1168,7 +1187,7 @@
 201	SMT_HIT_SMILE_FIREWORK	{UserName} is happy to see you.
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	You cannot exit the game while taking damage.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	You cannot use an item while taking damage.
-201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	There are active Events. Visit tera.gameforge.com for more details. 
+201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	There are active events. For more information visit https://gameforge.com/en-GB/play/tera.
 201	SMT_INCREASE_SKILL_RANK	{Skill} is now level {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Additional character slot added.
 201	SMT_INGAMESTORE_BASKET_ADDED	The selected item has been saved in your cart.
@@ -1467,7 +1486,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	Texture resolution has been reduced temporarily due to insufficient memory.
 204	SMT_OUT_PARTY	You've been kicked from the {party}.
 204	SMT_OUT_UNIONPARTY	You were kicked from the raid.
-203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Cannot find character.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Invalid target.
 203	SMT_PARCEL_CANT_SENDING_BACK	You can't return the post.
 201	SMT_PARCEL_DELETE_PARCEL	Deleted selected post.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	You have unread post.
@@ -1594,7 +1613,7 @@
 208	SMT_PK_SYSMSG_KILL_OBJECT	You killed {player}.
 208	SMT_PK_SYSMSG_KILL_SUBJECT	{player} killed you.
 208	SMT_PK_SYSMSG_START	PvP has begun.
-201	SMT_PLAYTIME_START	Welcome to TERA. Go to Tera-europe.com for news and information.
+201	SMT_PLAYTIME_START	Welcome to TERA. Visit https://gameforge.com/en-GB/play/tera for all the latest game news!
 201	SMT_PLAYTIME_TIMER	You've been playing for {@select:{PlayTime}/no/an/{PlayTime}} hour{@select:{PlayTime}/s//s}.
 201	SMT_PLAY_GUIDE_COMPLETE_EVENT	You completed a mission from {EventName}.
 201	SMT_PLAY_GUIDE_NEW_EVENT	You have a new mission in {EventName}.
@@ -1861,6 +1880,7 @@
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Your exceptional crafting work produced bonus materials.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	You failed to summon {UserName}.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} is dead and can't be summoned.
+203	SMT_SUMMON_FAIL_REQUIRE_QUEST	{UserName} has not completed the preceding quest. Failed to summon.
 203	SMT_SUMMON_FRIEND_CANNOT_FALLING	The Friend Summon function is not usable while you or your friend is falling.
 302	SMT_SUMMON_UNION_NPC_COUNT_EXCEED	You've exceeded the summoning maximum: {Num}.
 302	SMT_SUMMON_UNION_NPC_WRONG_AREA	You can't summon here. You can only summon within your alliance territory.
@@ -2179,6 +2199,7 @@
 203	SMT_GUILD_INCENTIVE_FAIL_RATE	Guild funds distribution amount isn't correct.
 203	SMT_GUILD_SKILL_FAIL_NOCOIN	Your guild has insufficeint funds for this.
 203	SMT_GUILD_SKILL_FAIL_AUTHORITY	This skill can be used only by a guild master.
+203	SMT_GUILD_SKILL_FAIL_REQUIRE_QUEST	There is no guild member who completed the preceding quest.
 203	SMT_CANT_CHANGE_EQUIP	You can’t change your gear right now.
 203	SMT_GUILD_WAR_CANT_CONTROL	GvG battles cannot be declared, withdrawn, or surrendered while inside special zones (such as dungeons, battlegrounds, and Civil Unrest area).
 203	SMT_GUILD_WAR_CANT_WITHDRAW_DURING_WAR	To prevent guilds from disbanding during GvG battles, you cannot leave the guild while GvG battle is in progress.
@@ -2266,6 +2287,9 @@
 201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName} destroyed.
 201	SMT_UPGRADE_BALANCE_MEDIUM	Your advantage increased. Your chance of succeeding on your next upgrade attempt will be higher.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	Dismantled {TargetName} ×{Amount} and obtained {ResultName} ×{ResultAmount}.
+201	SMT_REPAIR_SUCCESS	You've successfully repaired {ItemName}.
+201	SMT_REPAIR_FAIL	You failed to repair {ItemName}.
+201	SMT_REPAIR_BALANCE_MEDIUM	Your advantage increased. Your chance of succeeding on your next repair attempt will be higher.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	Please remove all crystals and niveots first.
 203	SMT_CANT_REGIST_ITEM	You cannot select this item.
 203	SMT_CANT_REGIST_IN_CURRENT	You already learned.
@@ -2328,12 +2352,15 @@
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Cannot change options while effect is active.
 201	SMT_GAIN_SKILL_POLISHING_EXP	You've gained {gainExp} Skill Advancement XP.
 201	SMT_GAIN_SKILL_POLISHING_POINT	You've obtained Skill Advancement Points.
+203	SMT_JUMPGEAR_REQUIRED_ABNORMALITY	You cannot use {JumpGearName} if you do not have the {AbnormalName} effect.
+203	SMT_JUMPGEAR_NOTENOUGH_COSTS	You don't have enough items or gold to use {JumpGearName}.
+203	SMT_JUMPGEAR_CANNOT_USE_SKILL_AND_ITEM	You cannot use a skill or item while using {JumpGearName}.
 201	SMT_CANT_SAVE_SCREENSHOT	Failed to save a screenshot.
 201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	You cannot change a skill's options if it is on cooldown.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Your companion list is full. You must expand or remove your list.
-201	SMT_GET_SERVANT	{ServantName} has been registered. You can change {ServantName}'s name with the Change Name button in the Companion List.
-201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Your Companion List has been expanded.
-203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	You cannot expand your Companion List anymore.
+201	SMT_GET_SERVANT	{ServantName} has been registered. You can change {ServantName}'s name with the Change Name button in the Companions window.
+201	SMT_INCREASE_SERVANT_STORAGE_SIZE	Your companion list has been expanded.
+203	SMT_CANNOT_INCREASE_SERVANT_STORAGE_SIZE	You can no longer expand your companion list.
 203	SMT_CANNOT_SPAWN_PARTNER_LACK_ENERGY	You must use a gift to recover stamina.
 203	SMT_CANNOT_SPAWN_PET_LACK_ENERGY	You must use a food item to recover energy.
 203	SMT_CANNOT_USE_PARTNER_PRESENT_FULL	Stamina is already full.
@@ -2364,9 +2391,9 @@
 203	SMT_CANNOT_PET_EVOLUTION_SERVERDOWN	You cannot evolve right now.
 203	SMT_CANNOT_PET_EVOLUTION_EQUIPSTYLE	You cannot evolve a pet in a cosmetic item.
 201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT	You obtained {ServantDefaultName} from combining.
-201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion List.</font>
+201	SMT_PET_MIX_SUCCESS_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion window.</font>
 201	SMT_PET_MIX_FAIL_POPUP_CONTEXT	You obtained {ServantDefaultName} from combining.
-201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion List.</font>
+201	SMT_PET_MIX_FAIL_POPUP_CONTEXT2	<font color='#ffffff'>You can change your companion's name</font> with the <font color='#66bbff'>Change Name</font> button in the <font color='#ffffff'>Companion window.</font>
 203	SMT_CANNOT_PET_MIX_SERVERDOWN	You cannot combine right now.
 203	SMT_CANNOT_PET_MIX_EQUIPSTYLE	You cannot combine pets wearing companion costumes.
 203	SMT_CANNOT_AUTOPOTION_REGISTER_ITEM	You cannot register in this slot.
@@ -2390,3 +2417,4 @@
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	The NPC can only be used by the player who summoned it and group members who were nearby when the NPC was summoned.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	The NPC can only be used by the player who summoned it and other group or raid members.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	The NPC can only be used by the player who summoned it and group or raid members who were nearby when the NPC was summoned.
+203	SMT_CANT_REGISTER_CARD_MESSAGE	You've already completed this card.

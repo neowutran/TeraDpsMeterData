@@ -96,10 +96,14 @@
 201	SMT_BATTLE_CHARM_FAIL	Ihr könnt Talismane nur benutzen, während Ihr Euch am Lagerfeuer erholt.
 203	SMT_BATTLE_CONNOT_CAMPFIRE	Ihr könnt jetzt kein Lagerfeuer entfachen.
 102	SMT_BATTLE_CRITICAL_SUCKS	Kritisch! Ihr bewirkt {Damage} Punkte Schaden.
+102	SMT_BATTLE_PHYSICAL_CRITICAL_SUCKS	Ihr habt {Damage} physischen kritischen Schaden ausgeteilt.
+102	SMT_BATTLE_MAGICAL_CRITICAL_SUCKS	Ihr habt {Damage} magischen kritischen Schaden ausgeteilt.
 101	SMT_BATTLE_DEBUFF_IMMUNE	{Target} ist gegen {AbnormalityName} immun.
 101	SMT_BATTLE_DEBUFF_RESIST	{Target} hat "{AbnormalName}" widerstanden.
 201	SMT_BATTLE_END	Ihr befindet Euch nicht mehr im Kampf.
 101	SMT_BATTLE_ENEMY_DAMAGE	Treffer! Ihr bewirkt {Damage} Punkte Schaden.
+101	SMT_BATTLE_ENEMY_PHYSICAL_DAMAGE	Ihr habt {Damage} physischen Schaden ausgeteilt
+101	SMT_BATTLE_ENEMY_MAGICAL_DAMAGE	Ihr habt {Damage} magischen Schaden ausgeteilt.
 210	SMT_BATTLE_EXP_CHATMSG_UPDATE	Ihr habt {exp@exp} <font color = '#0010FF'>{bonusExp@bonusExp}</font> Erfahrungspunkte erhalten.
 203	SMT_BATTLE_FIELD_ALREADY_FINISHED	Das Schlachtfeld wird geschlossen.
 203	SMT_BATTLE_FIELD_ALREADY_IN_TEAM	Ihr seid bereits Mitglied einer Kampfgruppe.
@@ -126,11 +130,25 @@
 109	SMT_BATTLE_MY_CRITICAL_DAMAGE_LARGE	{Damage} kritischen Schaden durch {Monstername} erlitten.
 107	SMT_BATTLE_MY_CRITICAL_DAMAGE_MEDIUM	{Damage} kritischen Schaden durch {Monstername} erlitten.
 104	SMT_BATTLE_MY_CRITICAL_DAMAGE_SMALL	{Damage} kritischen Schaden durch {Monstername} erlitten.
+109	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_LARGE	{Monstername} hat Euch {Damage} physischen kritischen Schaden zugefügt.
+107	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername} hat Euch {Damage} physischen kritischen Schaden zugefügt.
+104	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_SMALL	{Monstername} hat Euch {Damage} physischen kritischen Schaden zugefügt.
+109	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_LARGE	{Monstername} hat Euch {Damage} magischen kritischen Schaden zugefügt.
+107	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername} hat Euch {Damage} magischen kritischen Schaden zugefügt.
+104	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_SMALL	{Monstername} hat Euch {Damage} magischen kritischen Schaden zugefügt.
 103	SMT_BATTLE_MY_DAMAGE	Ihr erleidet {Damage} Punkte Schaden.
 108	SMT_BATTLE_MY_DAMAGE_LARGE	{Damage} Schaden durch {Monstername} erlitten.
 106	SMT_BATTLE_MY_DAMAGE_MEDIUM	{Damage} Schaden durch {Monstername} erlitten.
-302	SMT_BATTLE_MY_DAMAGE_NO_NAME	{Damage} Schaden erlitten.
 103	SMT_BATTLE_MY_DAMAGE_SMALL	{Damage} Schaden durch {Monstername} erlitten.
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE	Ihr habt {Damage} physischen Schaden erlitten.
+108	SMT_BATTLE_MY_PHYSICAL_DAMAGE_LARGE	{Monstername} hat Euch {Damage} physischen Schaden zugefügt.
+106	SMT_BATTLE_MY_PHYSICAL_DAMAGE_MEDIUM	{Monstername} hat Euch {Damage} physischen Schaden zugefügt.
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE_SMALL	{Monstername} hat Euch {Damage} physischen Schaden zugefügt.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE	Ihr habt {Damage} magischen Schaden erlitten.
+108	SMT_BATTLE_MY_MAGICAL_DAMAGE_LARGE	{Monstername} hat Euch {Damage} magischen Schaden zugefügt.
+106	SMT_BATTLE_MY_MAGICAL_DAMAGE_MEDIUM	{Monstername} hat Euch {Damage} magischen Schaden zugefügt.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE_SMALL	{Monstername} hat Euch {Damage} magischen Schaden zugefügt.
+302	SMT_BATTLE_MY_DAMAGE_NO_NAME	{Damage} Schaden erlitten.
 203	SMT_BATTLE_NO_SHEATH_SOCIAL_IN_COMBAT_STATUS	Ihr könnt dies momentan nicht tun.
 208	SMT_BATTLE_PARTY_DIE	{PartyPlayerName} ist tot.
 201	SMT_BATTLE_PARTY_RESURRECT	{PartyPlayerName} wurde wiederbelebt.
@@ -357,6 +375,7 @@
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_BY_COOLTIME	Ihr müsst warten bis Ihr wieder Steuern einziehen könnt.
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_IN_BATTLE_TIME	Ihr könnt während des Kampfes keine Steuern eintreiben.
 203	SMT_CANNOT_USE_CHANGE_GENDER_ITEM	{ItemName} betrifft dieses Volk nicht.
+203	SMT_CANNOT_USE_CHANGE_GENDER2_ITEM	Dieses Geschlecht kann den Gegenstand {ItemName} nicht verwenden.
 203	SMT_CANNOT_USE_CHANGE_RACE_ITEM	{ItemName} betrifft diese Klasse nicht.
 203	SMT_CANNOT_USE_ENCHANTSCROLL	Diese Aufwertung kann nicht auf die ausgewählte Ausrüstung angewandt werden.
 203	SMT_CANNOT_USE_ENCHANTSCROLL_EQUIP_LEVEL	Diese Aufwertung ist zu hoch für diese Ausrüstung.
@@ -628,8 +647,8 @@
 203	SMT_CHAT_NOT_IN_UNIONPARTY	Ihr seid kein Mitglied einer Schlachtgruppe.
 203	SMT_CHAT_PASSWORD_IS_FAIL	Das Passwort muss aus mindestens 4 Ziffern bestehen (1000-9999).
 203	SMT_CHAT_PENALTY_START	Euer Chat wurde eingeschränkt, weil Ihr zu viele Nachrichten gesendet habt.
-203	SMT_CHAT_QNA_NOTICE	TIPP: Genauere Informationen erhaltet Ihr auf der TERA-Seite. <font color = '#FFFF00'>{link}</font>
-203	SMT_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>Klickt auf "Los"</font>
+203	SMT_CHAT_QNA_NOTICE	Viel Spaß in Arborea!
+203	SMT_CHAT_QNA_NOTICE_LINK	Das TERA-Team <3 Euch!
 201	SMT_CHAT_VIOLATION	SMT_CHAT_VIOLATION
 203	SMT_CHAT_WHISPER_SELF	Ungültiges Ziel.
 201	SMT_CHECK_FREE_SERVICE_TIME_LEFT	Eure Spielzeit endet in {time} Min.
@@ -1168,7 +1187,7 @@
 201	SMT_HIT_SMILE_FIREWORK	{UserName} freut sich, Euch zu sehen.
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	Ihr könnt das Spiel nicht beenden, während Ihr Schaden erleidet.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	Ihr könnt den Gegenstand nicht benutzen, während Ihr Schaden erleidet.
-201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Momentan laufen Events. Bitte besucht http://de.tera.gameforge.com für mehr Details.
+201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Momentan laufen Events. Besucht https://gameforge.com/de-DE/play/tera für weitere Infos.
 201	SMT_INCREASE_SKILL_RANK	{Skill} hat nun die Stufe {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Ein zusätzlicher Charakterplatz wurde hinzugefügt.
 201	SMT_INGAMESTORE_BASKET_ADDED	Der ausgewählte Gegenstand wurde in Eurem Warenkorb abgelegt.
@@ -1467,7 +1486,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	Aufgrund von mangelndem Speicherplatz wird die Bildqualität vorübergehend herabgesetzt.
 204	SMT_OUT_PARTY	Ihr wurdet aus der {Party} geworfen.
 204	SMT_OUT_UNIONPARTY	Ihr wurdet aus der Schlachtgruppe geworfen.
-203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Der Charakter wurde nicht gefunden.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Ihr könnt dieses Ziel nicht untersuchen.
 203	SMT_PARCEL_CANT_SENDING_BACK	Ihr könnt die Post nicht zurücksenden.
 201	SMT_PARCEL_DELETE_PARCEL	Gewählte Nachricht wurde gelöscht.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	Ihr habt ungelesene Post.
@@ -1594,7 +1613,7 @@
 208	SMT_PK_SYSMSG_KILL_OBJECT	Ihr habt {player} getötet.
 208	SMT_PK_SYSMSG_KILL_SUBJECT	{player} hat Euch getötet.
 208	SMT_PK_SYSMSG_START	PvP-Kampf hat begonnen.
-201	SMT_PLAYTIME_START	Willkommen bei TERA. Besucht http://de.tera.gameforge.com, um aktuelle News und Informationen zu lesen.
+201	SMT_PLAYTIME_START	Willkommen bei TERA. Besucht https://gameforge.com/de-DE/play/tera für alle Neuigkeiten rund ums Spiel!
 201	SMT_PLAYTIME_TIMER	Ihr spielt {@select:{PlayTime}/noch keine/bereits eine/bereits {PlayTime}} Std.
 201	SMT_PLAY_GUIDE_COMPLETE_EVENT	Mission abgeschlossen für: {EventName}
 201	SMT_PLAY_GUIDE_NEW_EVENT	Ihr habt eine neue Mission in {EventName}.
@@ -1861,6 +1880,7 @@
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Mit Euren außergewöhnlichen handwerklichen Fähigkeiten habt Ihr Euch Bonusmaterialien verdient.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	Eure Beschwörung von {UserName} ist gescheitert.
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} ist tot und kann nicht beschworen werden.
+203	SMT_SUMMON_FAIL_REQUIRE_QUEST	{UserName}, Ihr habt die Vorquest noch nicht abgeschlossen. Die Beschwörung ist fehlgeschlagen.
 203	SMT_SUMMON_FRIEND_CANNOT_FALLING	Freund rufen ist nicht verwendbar, während sich einer von Euch im Fallen befindet.
 302	SMT_SUMMON_UNION_NPC_COUNT_EXCEED	Ihr habt die maximale Anzahl an Beschwörungen überschritten: {Num}.
 302	SMT_SUMMON_UNION_NPC_WRONG_AREA	Ihr könnt hier keine Beschwörungen durchführen. Dies könnt Ihr nur in Eurem Allianzterritorium tun.
@@ -2173,6 +2193,7 @@
 203	SMT_GUILD_INCENTIVE_FAIL_RATE	Die Quote für die Erteilung des Belohnungsgoldes ist fehlerhaft.
 203	SMT_GUILD_SKILL_FAIL_NOCOIN	Nicht genug Gildengold.
 203	SMT_GUILD_SKILL_FAIL_AUTHORITY	Nur Gildenmeister können diese Fertigkeit verwenden.
+203	SMT_GUILD_SKILL_FAIL_REQUIRE_QUEST	Kein Gildenmitglied mit Vorquest vorhanden
 203	SMT_CANT_CHANGE_EQUIP	Gegenstand kann nicht ausgerüstet/abgelegt werden.
 203	SMT_GUILD_WAR_CANT_CONTROL	In speziellen Regionen wie Dungeons, Schlachtfeldern und Gildenkriegen könnt Ihr keinen GvG-Kampf ausrufen, zurücknehmen oder kapitulieren.
 203	SMT_GUILD_WAR_CANT_WITHDRAW_DURING_WAR	Während eines GvG-Kampfes könnt Ihr nicht aus einer Gilde austreten, es sei denn, die Gilde wurde aufgelöst.
@@ -2260,6 +2281,9 @@
 201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName} wurde zerstört.
 201	SMT_UPGRADE_BALANCE_MEDIUM	Der Anpassungswert wurde erhöht. Die Wahrscheinlichkeit, dass Eure nächste Aufstufung erfolgreich sein wird, erhöht sich.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	Ihr habt {Amount} Stück {TargetName} extrahiert und {ResultAmount}x {ResultName} erhalten.
+201	SMT_REPAIR_SUCCESS	{ItemName} wurde erfolgreich repariert.
+201	SMT_REPAIR_FAIL	{ItemName} konnte nicht repariert werden.
+201	SMT_REPAIR_BALANCE_MEDIUM	Der Anpassungswert wurde erhöht. Erhöht die Erfolgsrate der nächsten Reparatur.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	Nur Ausrüstungsgegenstände, deren Kristalle und Prachtkristalle abgelegt wurden, können aufgestuft werden.
 203	SMT_CANT_REGIST_ITEM	Dieser Gegenstand kann nicht eingetragen werden.
 203	SMT_CANT_REGIST_IN_CURRENT	Im gegenwärtigen Zustand ist kein Eintragen möglich.
@@ -2322,6 +2346,9 @@
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Solange die Fertigkeit aktiv ist, können keine Fertigkeitsoptionen geändert werden.
 201	SMT_GAIN_SKILL_POLISHING_EXP	Ihr habt {gainExp} Fertigkeitsfinesse-EP erhalten.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Eure Fertigkeitsfinesse-EP sind angestiegen.
+203	SMT_JUMPGEAR_REQUIRED_ABNORMALITY	Ihr benötigt den Effekt {AbnormalName}, um {JumpGearName} zu verwenden.
+203	SMT_JUMPGEAR_NOTENOUGH_COSTS	Ihr besitzt nicht genug Gold oder Gegenstände, um {JumpGearName} zu verwenden.
+203	SMT_JUMPGEAR_CANNOT_USE_SKILL_AND_ITEM	Während Ihr {JumpGearName} verwendet, könnt Ihr keine Fertigkeiten oder Gegenstände verwenden.
 201	SMT_CANT_SAVE_SCREENSHOT	Der Screenshot wurde nicht gespeichert.
 201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	Ihr könnt Eure Video-Optionen nicht ändern, wenn die Abklingzeit der Fertigkeit noch nicht abgelaufen ist.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Ihr könnt keine weiteren Helfer registrieren. Erweitert die Liste oder löscht einen Helfer aus der Liste.
@@ -2384,3 +2411,4 @@
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	Dieser NPC steht nur Gruppenmitgliedern zu Diensten, die sich in der Nähe des Beschwörers befinden.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	Dieser NPC steht nur Gruppen- und Schlachtgruppenmitgliedern des Beschwörers zu Diensten.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	Dieser NPC steht nur Gruppen- und Schlachtgruppenmitgliedern zu Diensten, die sich in der Nähe des Beschwörers befinden.
+203	SMT_CANT_REGISTER_CARD_MESSAGE	Diese Karte wurde bereits im Kartenalbum aktiviert.
