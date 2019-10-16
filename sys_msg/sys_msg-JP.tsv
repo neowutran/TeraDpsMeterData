@@ -96,10 +96,14 @@
 201	SMT_BATTLE_CHARM_FAIL	護符は休息状態でのみ使用できます。
 203	SMT_BATTLE_CONNOT_CAMPFIRE	戦闘中はたき火を使用できません。
 102	SMT_BATTLE_CRITICAL_SUCKS	クリティカルヒット！　{Damage}のダメージ！
+102	SMT_BATTLE_PHYSICAL_CRITICAL_SUCKS	物理クリティカルダメージ！　{Damage}のダメージ！
+102	SMT_BATTLE_MAGICAL_CRITICAL_SUCKS	魔法クリティカルヒット！　{Damage}のダメージ！
 101	SMT_BATTLE_DEBUFF_IMMUNE	{Target}は{AbnormalityName}に抗体があります。
 101	SMT_BATTLE_DEBUFF_RESIST	{Target}が{AbnormalName}を防いだ。
 201	SMT_BATTLE_END	戦闘終了
 101	SMT_BATTLE_ENEMY_DAMAGE	{Damage}のダメージを与えた！
+101	SMT_BATTLE_ENEMY_PHYSICAL_DAMAGE	物理ヒット！　{Damage}のダメージ！
+101	SMT_BATTLE_ENEMY_MAGICAL_DAMAGE	魔法ヒット！　{Damage}のダメージ！
 210	SMT_BATTLE_EXP_CHATMSG_UPDATE	{exp@exp}<font color = '#0010FF'>{bonusExp@bonusExp}</font>の経験値を獲得
 203	SMT_BATTLE_FIELD_ALREADY_FINISHED	戦闘が終了した戦場です。
 203	SMT_BATTLE_FIELD_ALREADY_IN_TEAM	既に戦場チームに所属しています。
@@ -126,11 +130,25 @@
 109	SMT_BATTLE_MY_CRITICAL_DAMAGE_LARGE	{Monstername}から{Damage}のクリティカルダメージ！
 107	SMT_BATTLE_MY_CRITICAL_DAMAGE_MEDIUM	{Monstername}から{Damage}のクリティカルダメージ！
 104	SMT_BATTLE_MY_CRITICAL_DAMAGE_SMALL	{Monstername}から{Damage}のクリティカルダメージ！
+109	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_LARGE	{Monstername}から{Damage}の物理クリティカルダメージ！
+107	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername}から{Damage}の物理クリティカルダメージ！
+104	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_SMALL	{Monstername}から{Damage}の物理クリティカルダメージ！
+109	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_LARGE	{Monstername}から{Damage}の魔法クリティカルダメージ！
+107	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername}から{Damage}の魔法クリティカルダメージ！
+104	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_SMALL	{Monstername}から{Damage}の魔法クリティカルダメージ！
 103	SMT_BATTLE_MY_DAMAGE	{Damage}のダメージを受けました。
 108	SMT_BATTLE_MY_DAMAGE_LARGE	{Monstername}から{Damage}のダメージ！
 106	SMT_BATTLE_MY_DAMAGE_MEDIUM	{Monstername}から{Damage}のダメージ！
-302	SMT_BATTLE_MY_DAMAGE_NO_NAME	{Damage}のダメージを受けました。
 103	SMT_BATTLE_MY_DAMAGE_SMALL	{Monstername}から{Damage}のダメージ！
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE	物理ダメージ！　{Damage}のダメージ！
+108	SMT_BATTLE_MY_PHYSICAL_DAMAGE_LARGE	{Monstername}から{Damage}の物理ダメージ！
+106	SMT_BATTLE_MY_PHYSICAL_DAMAGE_MEDIUM	{Monstername}から{Damage}の物理ダメージ！
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE_SMALL	{Monstername}から{Damage}の物理ダメージ！
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE	魔法ダメージ！　{Damage}のダメージ！
+108	SMT_BATTLE_MY_MAGICAL_DAMAGE_LARGE	{Monstername}から{Damage}の魔法ダメージ！
+106	SMT_BATTLE_MY_MAGICAL_DAMAGE_MEDIUM	{Monstername}から{Damage}の魔法ダメージ！
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE_SMALL	{Monstername}から{Damage}の魔法ダメージ！
+302	SMT_BATTLE_MY_DAMAGE_NO_NAME	{Damage}のダメージを受けました。
 203	SMT_BATTLE_NO_SHEATH_SOCIAL_IN_COMBAT_STATUS	戦闘中は武器着脱ジェスチャーを使用できません。
 208	SMT_BATTLE_PARTY_DIE	{PartyPlayerName}が死亡しました。
 201	SMT_BATTLE_PARTY_RESURRECT	{PartyPlayerName}が復活しました。
@@ -357,6 +375,7 @@
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_BY_COOLTIME	税金回収クールタイムのため、税金を回収できません。
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_IN_BATTLE_TIME	戦争状態中は税金を回収できません。
 203	SMT_CANNOT_USE_CHANGE_GENDER_ITEM	{ItemName}を使用できない種族です。
+203	SMT_CANNOT_USE_CHANGE_GENDER2_ITEM	{ItemName}を使用できない性別です。
 203	SMT_CANNOT_USE_CHANGE_RACE_ITEM	このクラスは{ItemName}を使用できません。
 203	SMT_CANNOT_USE_ENCHANTSCROLL	この装備には使用できません。
 203	SMT_CANNOT_USE_ENCHANTSCROLL_EQUIP_LEVEL	このアイテムには使用できません。
@@ -1467,7 +1486,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	メモリー問題のため、テクスチャー解像度を落とします。
 204	SMT_OUT_PARTY	{party}から追放されました。
 204	SMT_OUT_UNIONPARTY	レイドから追放されました。
-203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	キャラクターが見つかりません。
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	詳細確認機能が使用できない対象です。
 203	SMT_PARCEL_CANT_SENDING_BACK	メールを返信できません。
 201	SMT_PARCEL_DELETE_PARCEL	選択したメールを削除しました。
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	受信トレイに未確認のメールがあります。
@@ -1861,6 +1880,7 @@
 201	SMT_SUCCESS_PRODUCE_CRITICAL	いいものができそうだ。
 203	SMT_SUMMON_FAIL_IS_PEGASUS	{UserName}の召喚に失敗しました。
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName}は死亡状態です。召喚に失敗しました。
+203	SMT_SUMMON_FAIL_REQUIRE_QUEST	{UserName}様は先行クエストを完了していません。召喚に失敗しました。
 203	SMT_SUMMON_FRIEND_CANNOT_FALLING	使用者または対象者が落下中は、フレンド召喚を使用できません。
 302	SMT_SUMMON_UNION_NPC_COUNT_EXCEED	最大召喚数{Num}を超過しました。
 302	SMT_SUMMON_UNION_NPC_WRONG_AREA	ここでは召喚できません。自身の連盟領地でのみ召喚が可能です。
@@ -2179,6 +2199,7 @@
 203	SMT_GUILD_INCENTIVE_FAIL_RATE	報酬金送付の割合が正常ではありません。
 203	SMT_GUILD_SKILL_FAIL_NOCOIN	ギルド資金が不足しています。
 203	SMT_GUILD_SKILL_FAIL_AUTHORITY	ギルドマスターのみ使用可能なスキルです。
+203	SMT_GUILD_SKILL_FAIL_REQUIRE_QUEST	先行クエストを完了したギルドメンバーが存在しません。
 203	SMT_CANT_CHANGE_EQUIP	アイテム装着/脱着が不可能です。
 203	SMT_GUILD_WAR_CANT_CONTROL	ダンジョン、戦場、ギルド対戦地域などのような特殊空間の内部ではギルド戦布告、撤回、降伏が不可能です。
 203	SMT_GUILD_WAR_CANT_WITHDRAW_DURING_WAR	ギル戦争進行中にはギルド脱退によってギルドが解散される場合に限りギルド脱退ができません。
@@ -2266,6 +2287,9 @@
 201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	{ItemName}が壊れました。
 201	SMT_UPGRADE_BALANCE_MEDIUM	補正値が上がりました。次回昇級時の成功確率が上昇します。
 203	SMT_ITEM_DECOMPOSE_COMPLETE	{TargetName} {Amount}個を分解して{ResultName} {ResultAmount}個を獲得しました。
+201	SMT_REPAIR_SUCCESS	{ItemName}の修理に成功しました。
+201	SMT_REPAIR_FAIL	{ItemName}の修理に失敗しました。
+201	SMT_REPAIR_BALANCE_MEDIUM	補正値が上昇しました。次回修理時、修理成功確率が上がります。
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	装備を昇級するためには、クリスタル及びアーティファクトをすべて外してください。
 203	SMT_CANT_REGIST_ITEM	登録できないアイテムです。
 203	SMT_CANT_REGIST_IN_CURRENT	今は登録できません。
@@ -2328,6 +2352,9 @@
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	効果中、スキルオプションを変更できません。
 201	SMT_GAIN_SKILL_POLISHING_EXP	練武経験値を {gainExp}獲得しました。
 201	SMT_GAIN_SKILL_POLISHING_POINT	練武ポイントが上昇しました。
+203	SMT_JUMPGEAR_REQUIRED_ABNORMALITY	{JumpGearName}を使用するためにアルガフの霊薬による異常状態、{AbnormalName} が必要です。
+203	SMT_JUMPGEAR_NOTENOUGH_COSTS	{JumpGearName}を使用するためのアイテムまたはゴールドが足りません。
+203	SMT_JUMPGEAR_CANNOT_USE_SKILL_AND_ITEM	{JumpGearName}利用中はスキルおよびアイテム使用が不可能です。
 201	SMT_CANT_SAVE_SCREENSHOT	スクリーンショット保存に失敗しました。
 201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	該当スキルのクールタイムが適用中の場合、オプションを変更できない。
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	ペットリストがいっぱいのため、これ以上登録できません。
@@ -2390,3 +2417,4 @@
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	該当NPCは召喚したユーザーと召喚した時点に周辺にいたパーティーメンバーだけ利用できます。
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	該当NPCは召喚したユーザーと同じパーティーまたはレイドメンバーだけ利用できます。
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	該当NPCは召喚したユーザーと召喚した時点に周辺にいたパーティーメンバーまたはレイドメンバーだけ利用できます。
+203	SMT_CANT_REGISTER_CARD_MESSAGE	この図鑑に該当カードが活性化されています。
