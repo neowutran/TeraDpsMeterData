@@ -5183,9 +5183,11 @@
 8000154	XPBoost	Buff	True	perc	3600000	0	3	高階成長藥水(200%-400%)	202675	高階成長藥水(200%-400%)				False
 8000155	XPBoost	Buff	True	perc	3600000	0	4	高階成長藥水(300%-600%)	202676	高階成長藥水(300%-600%)				False
 8000157	47	Buff	True	perc	3600000	0	1.15	技能鍛煉增加 15% (1小時)	202677	技能鍛煉增加 15% (1小時)	技能鍛煉經驗值獲得量增加15%。下線後時間仍持續計算。	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
-8000160	XPBoost	Buff	True	perc	86400000	0	3	高階成長藥水(200%-400%)(1日)	201090	高階成長藥水(200%-400%)(1日)		icon_items.potion20_tex	icon_items.potion20_tex	True
-8000161	XPBoost	Buff	True	perc	3600000	0	6	高階成長藥水(500%-1000%)(1小時)	201091	高階成長藥水(500%-1000%)(1小時)		icon_items.potion20_tex	icon_items.potion20_tex	True
-8000162	47	Buff	True	perc	86400000	0	1.15	技能鍛鍊 15 (1日)	201092	技能鍛鍊 15 (1日)		icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
+8000158	42	Buff	True	perc	1296000000	1	2	信賴的證明 100 (15天)	207218	信賴的證明 100 (15天)	15天內，聲望數值和聲望點數增加 100%。$BR但獲得戰場聲望數值、戰場聲望點數和阿勒堡雷亞守護者聲望點數時則不套用。$BR下線後時間仍持續計算。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	True
+8000159	42	Buff	True	perc	0	1	1.5	信賴的證明 50 (VIP)			套用VIP期間，聲望數值與聲望點數增加50%。但不套用在獲得戰場聲望數值與戰場聲望點數。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
+8000160	XPBoost	Buff	True	perc	86400000	0	3	高階成長藥水(200%)(1天)	201090	高階成長藥水(200%-400%)(1日)	86400s 內狩獵時獲得經驗值增加 200%。$BR下線後時間仍持續計算。$BR$BR在套用VIP狀態下使用時效果為2倍，獲得經驗值增加400%。$BR$BR<font color = '#FF0000'>[注意]</font> 在沒有VIP的狀態下使用藥水後，即使追加使用VIP也不會套用2倍效果。	icon_items.potion20_tex	icon_items.potion20_tex	True
+8000161	XPBoost	Buff	True	perc	3600000	0	6	高階成長藥水(500%)(1小時)	201091	高階成長藥水(500%-1000%)(1小時)	3600s 內狩獵時獲得經驗值增加 500%。$BR下線後時間仍持續計算。$BR$BR在套用VIP狀態下使用時效果為2倍，獲得經驗值增加1000%。$BR$BR<font color = '#FF0000'>[注意]</font> 在沒有VIP的狀態下使用藥水後，即使追加使用VIP也不會套用2倍效果。	icon_items.potion20_tex	icon_items.potion20_tex	True
+8000162	47	Buff	True	perc	86400000	0	1.15	技能鍛鍊 15 (1天)	201092	技能鍛鍊 15 (1日)	技能鍛鍊經驗值獲得量增加15%。下線後時間仍持續計算。	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
 8000163	XPBoost	Buff	True	perc	86400000	0	3	高階成長藥水(200%-400%)(1日)	201090	高階成長藥水(200%-400%)(1日)				False
 8000164	XPBoost	Buff	True	perc	3600000	0	6	高階成長藥水(500%-1000%)(1小時)	201091	高階成長藥水(500%-1000%)(1小時)				False
 8000683	HPChange	Buff	True	perc	3000	1	0.5	入場時恢復的異常狀態。不要顯示出來的內容! Bug!			入場時恢復的異常狀態。不要顯示出來的內容! Bug!			False
@@ -6071,10 +6073,10 @@
 30190396	Drunk1	Debuff	True	seta	0	0	0	蓄電			震怒的卡伊戮斯每次使用特定技能時，會聚集閃電之氣。聚集到一定程度以上會使用強力的咆哮攻擊。	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190397	Drunk1	Debuff	True	seta	0	0	0	蓄電			震怒的卡伊戮斯每次使用特定技能時，會聚集閃電之氣。聚集到一定程度以上會使用強力的咆哮攻擊。	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190398	Drunk1	Debuff	True	seta	0	0	0	蓄電			震怒的卡伊戮斯每次使用特定技能時，會聚集閃電之氣。聚集到一定程度以上會使用強力的咆哮攻擊。	icon_status.godspell_tex	icon_status.godspell_tex	True
-30231000	DelayedEffect	Debuff	True	seta	60000	0	30231002	紅色詛咒氣息			感覺到紅色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
-30231000	StackCounter	Debuff	True	seta	60000	0	30231002	紅色詛咒氣息			感覺到紅色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
-30231001	DelayedEffect	Debuff	True	seta	60000	0	30231002	藍色詛咒氣息			感覺到藍色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-30231001	StackCounter	Debuff	True	seta	60000	0	30231002	藍色詛咒氣息			感覺到藍色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231000	DelayedEffect	Debuff	True	seta	70000	0	30231002	紅色詛咒氣息			感覺到紅色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231000	StackCounter	Debuff	True	seta	70000	0	30231002	紅色詛咒氣息			感覺到紅色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231001	DelayedEffect	Debuff	True	seta	70000	0	30231002	藍色詛咒氣息			感覺到藍色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231001	StackCounter	Debuff	True	seta	70000	0	30231002	藍色詛咒氣息			感覺到藍色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 30231002	HPChange2	Debuff	True	perc	1000	0	-2	紅色詛咒氣息			感覺到紅色詛咒氣息。2重疊或是持續時間過後就會死亡。	icon_status.delayheal_tex	icon_status.delayheal_tex	False
 30231003	Stun	Stun	False	swch	5000	0	5	暈厥			昏厥為無法動彈的狀態。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 30231004	HPChange	DOT	False	perc	10000	1	-0.1	出血			被鋒利的刀刃砍擊而產生的出血。 每2秒減少 $H_W_BAD10%$COLOR_END的 HP。	icon_status.curse_tex	icon_status.curse_tex	True
