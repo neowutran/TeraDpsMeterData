@@ -4072,11 +4072,11 @@
 830001	KnockDownChance	Buff	True	perc	15000	0	0	リアクション抵抗			リアクション抵抗確率上昇	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 830002	Endurance	Debuff	False	perc	5000	0	0.05	防御力減少			防御力減少	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
 830003	Endurance	Buff	True	perc	5000	0	3	防御力上昇			防御力上昇	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
-830004	HPChange	Buff	True	perc	0	1	0.05	戦士の祝福			1秒毎に全体対比 5%に達するHP、MPが持続的に回復される。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
-830004	MPChange	Buff	True	perc	0	1	0.05	戦士の祝福			1秒毎に全体対比 5%に達するHP、MPが持続的に回復される。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
-830004	StaminaDecay	Buff	True	seta	0	0	0	戦士の祝福			1秒毎に全体対比 5%に達するHP、MPが持続的に回復される。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
-830004	CrystalBind	Buff	True	abs	0	0	1	戦士の祝福			1秒毎に全体対比 5%に達するHP、MPが持続的に回復される。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
-830004	StaminaRegen	Buff	True	perc	0	1	0.33	戦士の祝福			1秒毎に全体対比 5%に達するHP、MPが持続的に回復される。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
+830004	HPChange	Buff	True	perc	0	1	0.05	戦士の祝福			毎秒全HP、MPの5%を持続的に回復します。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
+830004	MPChange	Buff	True	perc	0	1	0.05	戦士の祝福			毎秒全HP、MPの5%を持続的に回復します。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
+830004	StaminaDecay	Buff	True	seta	0	0	0	戦士の祝福			毎秒全HP、MPの5%を持続的に回復します。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
+830004	CrystalBind	Buff	True	abs	0	0	1	戦士の祝福			毎秒全HP、MPの5%を持続的に回復します。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
+830004	StaminaRegen	Buff	True	perc	0	1	0.33	戦士の祝福			毎秒全HP、MPの5%を持続的に回復します。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
 830005	Immune	Buff	True	10	600000	0	0	透明化用			しばらく姿が見えなくなります。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 830005	Visibility	Buff	True	swch	600000	0	0	透明化用			しばらく姿が見えなくなります。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 830006	DelayedEffect	Buff	True	abs	1500	0	830005	透明化解除			透明化解除	icon_status.staminadown_tex	icon_status.staminadown_tex	False
@@ -5277,8 +5277,10 @@
 8000154	XPBoost	Buff	True	perc	3600000	0	3	快速成長200（1時間）	202675	快速成長200（1時間）				False
 8000155	XPBoost	Buff	True	perc	3600000	0	4	快速成長300（1時間）	202676	快速成長300（1時間）				False
 8000157	47	Buff	True	perc	3600000	0	1.15	練武高速成長15（1時間）	202677	練武高速成長15（1時間）	獲得するスキル練武経験値が15%増加します。接続を終了しても残り時間が減少します。	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
+8000158	42	Buff	True	perc	1296000000	1	2	信頼の証票100 (15日)	207218	信頼の証票100 (15日)	15日間、獲得する信用数値と信用ポイントが100％増加します。ただし、戦場信用数値と戦場信用ポイント、アルボレアの特務功績には適用されません。接続を終了しても残り時間は減少します。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	True
+8000159	42	Buff	True	perc	0	1	1.5	信頼の証票 50 (月間パス)			月間パスが適用される間、信用数値と信用ポイントが50％増加します。ただし、戦場信用数値と戦場信用ポイント、アルボレアの特務功績には適用されません。	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
 8000160	XPBoost	Buff	True	perc	86400000	0	3	快速成長200（1日）	201090	快速成長200（1日）	86400s間、狩りの獲得経験値が 200% 増加します。$BR$BR$BRプレミアムサービス適用中にアイテムを使用すると効果が2倍になり、狩りの獲得経験値が400%増加します。$BR接続を終了しても残り時間は減少します。$BR快速成長の効果は重複しません。高速成長の効果と重複します。$BR$BR<font color="#FF0000">[注意]</font>快速成長使用後にプレミアムサービスが適用されても、効果は2倍になりません。	icon_items.potion20_tex	icon_items.potion20_tex	True
-8000161	XPBoost	Buff	True	perc	3600000	0	6	快速成長500（1時間）	201091	快速成長500（1時間）	3600s間、狩りの獲得経験値が 500% 増加します。$BR$BR$BRプレミアムサービス適用中にアイテムを使用すると効果が2倍になり、狩りの獲得経験値が1000%増加します。$BR接続を終了しても残り時間は減少します。$BR快速成長の効果は重複しません。高速成長の効果と重複します。$BR$BR<font color="#FF0000">[注意]</font快速成長使用後にプレミアムサービスが適用されても、効果は2倍になりません。	icon_items.potion20_tex	icon_items.potion20_tex	True
+8000161	XPBoost	Buff	True	perc	3600000	0	6	快速成長500（1時間）	201091	快速成長500（1時間）	3600s間、狩りの獲得経験値が 500% 増加します。$BR$BR$BRプレミアムサービス適用中にアイテムを使用すると効果が2倍になり、狩りの獲得経験値が1000%増加します。$BR接続を終了しても残り時間は減少します。$BR快速成長の効果は重複しません。高速成長の効果と重複します。$BR$BR<font color="#FF0000">[注意]</font>快速成長使用後にプレミアムサービスが適用されても、効果は2倍になりません。	icon_items.potion20_tex	icon_items.potion20_tex	True
 8000162	47	Buff	True	perc	86400000	0	1.15	練武高速成長15	201092	練武高速成長15(1日)	練武経験値獲得量が15%増加します。接続が終了しても残り時間は減少します。	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
 8000163	XPBoost	Buff	True	perc	86400000	0	3	快速成長200（1日）	201090	快速成長200（1日）				False
 8000164	XPBoost	Buff	True	perc	3600000	0	6	快速成長500（1時間）	201091	快速成長500（1時間）				False
@@ -5823,8 +5825,8 @@
 10155251	StatusImmune	Buff	True	swch	15000	0	0	守護光玉			守護光玉を纏い、攻撃にるダウン及び硬直が発生せず、押し出されなくなります。受けるダメージが70％減少します。	icon_skills.moongracebuff_tex	icon_skills.moongracebuff_tex	False
 10155254	DefPotion	Buff	True	perc	15000	0	0.3	守護光玉			守護光玉を纏い、攻撃にるダウン及び硬直が発生せず、押し出されなくなります。受けるダメージが70％減少します。	icon_skills.moongracebuff_tex	icon_skills.moongracebuff_tex	False
 10155255	Endurance	Buff	True	perc	1	0	1	守護光玉			守護光玉を纏い、攻撃にるダウン及び硬直が発生せず、押し出されなくなります。受けるダメージが70％減少します。	icon_skills.moongracebuff_tex	icon_skills.moongracebuff_tex	False
-10155256	33	Buff	True	seta	0	0	0	アドレナリン増強			アドレナリンが持続的に増加します。	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-10155256	RageChange	Buff	True	abs	0	1	67	アドレナリン増強			アドレナリンが持続的に増加します。	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+10155256	33	Buff	True	seta	0	0	0	ルナティックゲージ増加			ルナティックゲージが持続的に増加します。	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+10155256	RageChange	Buff	True	abs	0	1	67	ルナティックゲージ増加			ルナティックゲージが持続的に増加します。	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
 10155270	Endurance	Buff	True	perc	20000	0	1	月光陣			効果持続中は月光陣により引き付けられません。	icon_skills.moongravity_tex	icon_skills.moongravity_tex	True
 10155320	Immune	Buff	True	40	0	0	0	エヴァシブロール連係			もう一度「エヴァシブロール」を使用できます。使用時にクールタイムが適用されます。	icon_skills.moonshadow_tex	icon_skills.moonshadow_tex	False
 10155400	MovSpd	Stun	False	setp	5000	0	0	回り込み			効果持続中は、その場から動けません。ダウンすると効果は即解除されます。	icon_skills.mooncatch_tex	icon_skills.mooncatch_tex	True
@@ -5973,10 +5975,10 @@
 30000014	1004	Buff	True	abs	5000	0	1400	魔法抵抗増加			5秒間、魔法抵抗が1400増加します。(クールタイム60秒)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 30000015	1001	Buff	True	abs	5000	0	700	物理攻撃力増加			5秒間、物理攻撃力が700増加します。(クールタイム60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000016	1002	Buff	True	abs	5000	0	700	魔法攻撃力増加			5秒間、魔法攻撃力が700増加します。(クールタイム60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
-30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	試験の祝福			試験を受ける者に付与される祝福です。&lt;BR&gt;$H_W_GOOD非戦闘状態での移動速度$COLOR_ENDと$H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。&lt;BR&gt;毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
-30160000	RidingSpeed	Buff	True	seta	0	0	400	試験の祝福			試験を受ける者に付与される祝福です。&lt;BR&gt;$H_W_GOOD非戦闘状態での移動速度$COLOR_ENDと$H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。&lt;BR&gt;毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
-30160000	HPChange	Buff	True	perc	0	1	0.02	試験の祝福			試験を受ける者に付与される祝福です。&lt;BR&gt;$H_W_GOOD非戦闘状態での移動速度$COLOR_ENDと$H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。&lt;BR&gt;毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
-30160000	MPChange	Buff	True	perc	0	1	0.02	試験の祝福			試験を受ける者に付与される祝福です。&lt;BR&gt;$H_W_GOOD非戦闘状態での移動速度$COLOR_ENDと$H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。&lt;BR&gt;毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
+30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	試験の祝福			試験を受ける者に付与される祝福です。<BR>$H_W_GOOD非戦闘状態での移動速度$COLOR_END と $H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。<BR>毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
+30160000	RidingSpeed	Buff	True	seta	0	0	400	試験の祝福			試験を受ける者に付与される祝福です。<BR>$H_W_GOOD非戦闘状態での移動速度$COLOR_END と $H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。<BR>毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
+30160000	HPChange	Buff	True	perc	0	1	0.02	試験の祝福			試験を受ける者に付与される祝福です。<BR>$H_W_GOOD非戦闘状態での移動速度$COLOR_END と $H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。<BR>毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
+30160000	MPChange	Buff	True	perc	0	1	0.02	試験の祝福			試験を受ける者に付与される祝福です。<BR>$H_W_GOOD非戦闘状態での移動速度$COLOR_END と $H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。<BR>毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160001	CDR	Buff	True	swch	0	0	0.8	試験の祝福II			特別な祝福を受けスキルクールタイムが$H_W_GOOD20%$COLOR_END減少されます。プリースト、エレメンタリストにのみ適用。	icon_status.holybless_tex	icon_status.holybless_tex	True
 30161000	HPChange	Debuff	True	abs	1000	2	-10000	ヴィガー			リリスの魅惑に惑わされました。行動することができません。$H_W_BAD2秒$COLOR_ENDあたり $H_W_BAD10000$COLOR_ENDの固定ダメージを受けます。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 30161000	Stun	Debuff	True	swch	1000	0	5	ヴィガー			リリスの魅惑に惑わされました。行動することができません。$H_W_BAD2秒$COLOR_ENDあたり $H_W_BAD10000$COLOR_ENDの固定ダメージを受けます。	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
@@ -6168,14 +6170,14 @@
 30190396	Drunk1	Debuff	True	seta	0	0	0	チャージ			カイルルースが強力な攻撃を放つ準備をしています。	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190397	Drunk1	Debuff	True	seta	0	0	0	チャージ			カイルルースが強力な攻撃を放つ準備をしています。	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190398	Drunk1	Debuff	True	seta	0	0	0	チャージ			カイルルースが強力な攻撃を放つ準備をしています。	icon_status.godspell_tex	icon_status.godspell_tex	True
-30231000	DelayedEffect	Debuff	True	seta	60000	0	30231002	クリューエルハウンドの怒り			クリューエルハウンドの怒りを感じます。2重複または効果時間が終了すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
-30231000	StackCounter	Debuff	True	seta	60000	0	30231002	クリューエルハウンドの怒り			クリューエルハウンドの怒りを感じます。2重複または効果時間が終了すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
-30231001	DelayedEffect	Debuff	True	seta	60000	0	30231002	クリューエルハウンドの怒り			クリューエルハウンドの怒りを感じます。2重複または効果時間が終了すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-30231001	StackCounter	Debuff	True	seta	60000	0	30231002	クリューエルハウンドの怒り			クリューエルハウンドの怒りを感じます。2重複または効果時間が終了すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-30231002	HPChange2	Debuff	True	perc	1000	0	-2	クリューエルハウンドの怒り			クリューエルハウンドの怒りを感じます。2重複または効果時間が終了すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	False
+30231000	DelayedEffect	Debuff	True	seta	70000	0	30231002	トラヴァンの呪い			トラヴァンに呪われました。2重複または効果時間が終了すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231000	StackCounter	Debuff	True	seta	70000	0	30231002	トラヴァンの呪い			トラヴァンに呪われました。2重複または効果時間が終了すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231001	DelayedEffect	Debuff	True	seta	70000	0	30231002	トラヴァンの呪い			トラヴァンに呪われました。2重複または効果時間が終了すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231001	StackCounter	Debuff	True	seta	70000	0	30231002	トラヴァンの呪い			トラヴァンに呪われました。2重複または効果時間が終了すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231002	HPChange2	Debuff	True	perc	1000	0	-2	トラヴァンの呪い			トラヴァンに呪われました。2重複または効果時間が終了すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	False
 30231003	Stun	Stun	False	swch	5000	0	5	気絶			気絶して動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 30231004	HPChange	DOT	False	perc	10000	1	-0.1	出血			鋭い剣に切られ、出血しました。1秒毎に$H_W_BAD10%$COLOR_ENDのHPが減少します。	icon_status.curse_tex	icon_status.curse_tex	True
-30232012	HPChange	DOT	True	perc	10000	2	-0.12	野獣の爪			強力な攻撃を受けて出血が起きます。$H_W_BAD2s$COLOR_END毎に全体HP対比$H_W_BAD10COLOR_ENDに達するHPが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+30232012	HPChange	DOT	True	perc	10000	2	-0.12	野獣の爪			強力な攻撃を受けて出血が起きます。$H_W_BAD2s$COLOR_END毎に全体HP対比$H_W_BAD$10$COLOR_ENDに達するHPが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 30232014	Stun	Stun	False	swch	4000	0	5	野獣の咆哮			強力な咆哮のせいで体がしびれています。4秒間、動けません。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
 30232015	HPChange	DOT	False	perc	30000	5	-0.01	野獣の戦慄			尋常ではない戦慄を覚えます。$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD1％$COLOR_ENDが持続的にを減少します。最大5重複まで累積され、5重複時、野獣の覇気が付与されます。	icon_status.darkwater_tex	icon_status.darkwater_tex	True
 30232015	StackCounter	DOT	False	swch	30000	0	30232016	野獣の戦慄			尋常ではない戦慄を覚えます。$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD1％$COLOR_ENDが持続的にを減少します。最大5重複まで累積され、5重複時、野獣の覇気が付与されます。	icon_status.darkwater_tex	icon_status.darkwater_tex	True

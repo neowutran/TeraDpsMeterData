@@ -5230,6 +5230,8 @@
 8000154	XPBoost	Buff	True	perc	3600000	0	3	Super Speed Potion (200%-400%)	202675	Super Speed Potion (200%-400%)				False
 8000155	XPBoost	Buff	True	perc	3600000	0	4	Super Speed Potion (300%-600%)	202676	Super Speed Potion (300%-600%)				False
 8000157	47	Buff	True	perc	3600000	0	1.15	Skill Advancement 15 (1 Hour)	202677	Skill Advancement 15 (1 Hour)	Increases the Skill Advancement XP earned by 15%. This time decreases even when you're offline.	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
+8000158	42	Buff	True	perc	1296000000	1	2	100% Reputation Boost (15 Days)	207218	100% Reputation Boost (15 Days)	Increases reputation and credits gained by 100% for 15 real-time days. This duration applies even when you're offline. Does not apply to battleground reputation or credits.	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	True
+8000159	42	Buff	True	perc	0	1	1.5	50% Reputation Boost (Elite)			Elite Perk: While your elite status is active, increases reputation and credit gains by 50%. Does not apply to battleground reputation or credits. (This supersedes other reputation and credit boosts with this icon.)	icon_items.f2p_reputationbooster_tex	icon_items.f2p_reputationbooster_tex	False
 8000160	XPBoost	Buff	True	perc	86400000	0	3	Swift XP Potion (200%) (1 Day)	201090	Swift XP Potion (200%-400%)(1 Day)	Increases XP rewards from killing mobs by 200% for 86400s.$BRThis duration applies even when you're offline.	icon_items.potion20_tex	icon_items.potion20_tex	True
 8000161	XPBoost	Buff	True	perc	3600000	0	6	Swift XP Potion (500%) (1 Hour)	201091	Swift XP Potion (500%-1000%)(1 Hour)	Increases XP rewards from killing mobs by 500% for 3600s.$BRThis duration applies even when you're offline.	icon_items.potion20_tex	icon_items.potion20_tex	True
 8000162	47	Buff	True	perc	86400000	0	1.15	Skill Advancement 15% (1 Day)	201092	Skill Advancement 15% (1 Day)	Increases character's Skill Advancement XP by 15%. This duration applies even when you're offline.	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
@@ -5920,17 +5922,17 @@
 30000005	MPChange	Buff	True	perc	1	1	0.2	MP Replenishment			Instantly replenishes MP by 20%. (Cooldown: 15 seconds)			False
 30000006	HPChange	Buff	True	perc	1	1	0.1	HP, MP Restoration			Instantly replenishes MP by 10%. (Cooldown: 15 seconds)			False
 30000006	MPChange	Buff	True	perc	1	1	0.1	HP, MP Restoration			Instantly replenishes MP by 10%. (Cooldown: 15 seconds)			False
-30000007	1001	Buff	True	abs	7000	0	2000	Physical Amplification Burst			Physical amplification increased by 2000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
-30000008	1002	Buff	True	abs	7000	0	2000	Magic Amplification Burst			Magic amplification increased by 2000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
-30000009	1001	Buff	True	abs	7000	0	1000	Dual Amplification Burst			Physical and magic amplification increased by 1000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
-30000009	1002	Buff	True	abs	7000	0	1000	Dual Amplification Burst			Physical and magic amplification increased by 1000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000007	1001	Buff	True	abs	7000	0	2000	Physical Burst			Increases Physical Amplification by 2000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000008	1002	Buff	True	abs	7000	0	2000	Magic Burst			Increases Magic Amplification by 2000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000009	1001	Buff	True	abs	7000	0	1000	Dual Burst			Increases Physical and Magic Amplification by 1000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000009	1002	Buff	True	abs	7000	0	1000	Dual Burst			Increases Physical and Magic Amplification by 1000 for 7 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000010	Crit	Buff	True	abs	15000	0	8	Crit Factor Increase			Increases Crit Factor by 8 for 15 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000011	MovSpdInCombat	Buff	True	abs	10000	0	20	Combat Movement Speed Increase			Increases Combat Movement Speed by 20 for 10 seconds.	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 30000012	Immune	Buff	True	57	3000	0	0	Invincible			Invincible for 3 seconds.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 30000013	1003	Buff	True	abs	5000	0	1400	Physical Resistance Increase			Increases Physical resistance by 1400 for 5 seconds. (cooldown 60 seconds)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 30000014	1004	Buff	True	abs	5000	0	1400	Magic Resistance Increase			Increases Magic resistance by 1400 for 5 seconds. (cooldown 60 seconds)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
-30000015	1001	Buff	True	abs	5000	0	700	Minor Physical Amplification Burst			Increases Physical amplification by 700 for 5 seconds. (cooldown 60 seconds)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
-30000016	1002	Buff	True	abs	5000	0	700	Minor Magic Amplification Burst			Increases Magic amplification by 700 for 5 seconds. (cooldown 60 seconds)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000015	1001	Buff	True	abs	5000	0	700	Minor Physical Burst			Increases Physical Amplification by 700 for 5 seconds. (cooldown 60 seconds)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000016	1002	Buff	True	abs	5000	0	700	Minor Magic Burst			Increases Magic Amplification by 700 for 5 seconds. (cooldown 60 seconds)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	Preliminary Blessing			Increases $H_W_GOODmount Movement Speed$COLOR_END and $H_W_GOODNoncombat Movement Speed$COLOR_END by  while out of combat.<BR>Restores 2% of your HP and MP every second.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	RidingSpeed	Buff	True	seta	0	0	400	Preliminary Blessing			Increases $H_W_GOODmount Movement Speed$COLOR_END and $H_W_GOODNoncombat Movement Speed$COLOR_END by  while out of combat.<BR>Restores 2% of your HP and MP every second.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	HPChange	Buff	True	perc	0	1	0.02	Preliminary Blessing			Increases $H_W_GOODmount Movement Speed$COLOR_END and $H_W_GOODNoncombat Movement Speed$COLOR_END by  while out of combat.<BR>Restores 2% of your HP and MP every second.	icon_status.holybless_tex	icon_status.holybless_tex	True
@@ -6126,10 +6128,10 @@
 30190396	Drunk1	Debuff	True	seta	0	0	0	Lightning Surge			Nightmare Kylos charges Lightning Aura every time he uses a certain skill. He unleashes Stunning Roar upon reaching a certain amount of charge.	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190397	Drunk1	Debuff	True	seta	0	0	0	Lightning Surge			Nightmare Kylos charges Lightning Aura every time he uses a certain skill. He unleashes Stunning Roar upon reaching a certain amount of charge.	icon_status.godspell_tex	icon_status.godspell_tex	True
 30190398	Drunk1	Debuff	True	seta	0	0	0	Lightning Surge			Nightmare Kylos charges Lightning Aura every time he uses a certain skill. He unleashes Stunning Roar upon reaching a certain amount of charge.	icon_status.godspell_tex	icon_status.godspell_tex	True
-30231000	DelayedEffect	Debuff	True	seta	60000	0	30231002	Crimson Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
-30231000	StackCounter	Debuff	True	seta	60000	0	30231002	Crimson Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
-30231001	DelayedEffect	Debuff	True	seta	60000	0	30231002	Blue Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-30231001	StackCounter	Debuff	True	seta	60000	0	30231002	Blue Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231000	DelayedEffect	Debuff	True	seta	70000	0	30231002	Crimson Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231000	StackCounter	Debuff	True	seta	70000	0	30231002	Crimson Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+30231001	DelayedEffect	Debuff	True	seta	70000	0	30231002	Blue Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+30231001	StackCounter	Debuff	True	seta	70000	0	30231002	Blue Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 30231002	HPChange2	Debuff	True	perc	1000	0	-2	Crimson Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delayheal_tex	icon_status.delayheal_tex	False
 30231003	Stun	Stun	False	swch	5000	0	5	Knocked-Out			Stunned. Cannot move.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 30231004	HPChange	DOT	False	perc	10000	1	-0.1	Bleeding			Reduces HP by $H_W_BAD10%$COLOR_END every second.	icon_status.curse_tex	icon_status.curse_tex	True
