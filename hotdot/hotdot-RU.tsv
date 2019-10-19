@@ -3333,6 +3333,7 @@
 701569	HPChange	Buff	True	abs	3000	1	13842	Сфера жизни Аруна X			Восстанавливает по $H_W_GOOD6921$COLOR_END HP $H_W_GOODкаждую секунду$COLOR_END.	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
 701570	HPChange	Buff	True	abs	3000	1	20508	Сфера жизни Аруна XI			Восстанавливает по $H_W_GOOD10254$COLOR_END HP $H_W_GOODкаждую секунду$COLOR_END.	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
 701571	HPChange	Buff	True	abs	3000	1	20508	Сфера жизни Аруна XII			Восстанавливает по $H_W_GOOD10342$COLOR_END HP $H_W_GOODкаждую секунду$COLOR_END.	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
+701572	0	Buff	True	swch	2000	0	0	Ожидаемое проклятие			Эффект через 1 минуту превращается в проклятие. При использовании исцеляющих умений, вы не излечиваетесь, а теряете НР.	icon_items.q_watch_tex	icon_items.q_watch_tex	False
 701590	MPChange	Buff	True	abs	1000	1	1546	Взрыв энергии	8023	Сфера слезы Аруна		icon_skills.marbleexplosion_tex	icon_skills.marbleexplosion_tex	False
 701600	Ballance	Buff	True	perc	3000	0	2	Сбор энергии - равновесие I			+$H_W_GOOD100%$COLOR_END к равновесию.	icon_skills.energiesofshock_tex	icon_skills.energiesofshock_tex	True
 701601	ASpd	Debuff	False	perc	3000	0	0.9	Тотем оцепенения			-$H_W_GOOD10%$COLOR_END к скорости атаки.	icon_skills.energiesofrestriction_tex	icon_skills.energiesofrestriction_tex	True
@@ -3646,6 +3647,9 @@
 768048	Stun	Debuff	True	swch	3000	0	5	Передача темной магии			Удар копья Совершенного создания Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 768048	275	Debuff	True	swch	3000	0	0	Передача темной магии			Удар копья Совершенного создания Дуриона обездвиживает. Очень больно. Темная магия распространяется по телу и активирует разные эффекты.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 768050	Immune	Debuff	True	setp	0	0	0	Неуязвимость к эффектам			Неуязвимость к негативным эффектам	icon_skills.rampage_tex	icon_skills.rampage_tex	False
+776013	0	Buff	True	swch	5000	0	0	Корабельная бомба			Теперь вы - бомба!	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
+776014	0	Buff	True	swch	1000	0	0	Взрыв бомбы			Взрыв!	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
+776015	0	Buff	True	swch	3000	0	0	Взрыв бомбы			Взрыв!	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
 776017	Power	Buff	False	perc	30000	0	2	Сила Тьмы			Получив силу Тьмы, Барбоса стал невероятно опасен.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 776017	ASpd	Buff	False	perc	30000	0	1.25	Сила Тьмы			Получив силу Тьмы, Барбоса стал невероятно опасен.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 776017	Drunk	Buff	False	766002	30000	0	0	Сила Тьмы			Получив силу Тьмы, Барбоса стал невероятно опасен.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
@@ -4709,12 +4713,14 @@
 3000023	MaxHP	Buff	True	perc	0	0	1	Седло феникса (восстановление HP и MP)			Позволяет летать в зоне полетов. <br>Каждую секунду полета восстанавливает 2% от максимального уровня HP и МP. Вы чувствуете Жар феникса.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000023	HPChange	Buff	True	perc	0	1	0.02	Седло феникса (восстановление HP и MP)			Позволяет летать в зоне полетов. <br>Каждую секунду полета восстанавливает 2% от максимального уровня HP и МP. Вы чувствуете Жар феникса.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000023	MPChange	Buff	True	perc	0	1	0.02	Седло феникса (восстановление HP и MP)			Позволяет летать в зоне полетов. <br>Каждую секунду полета восстанавливает 2% от максимального уровня HP и МP. Вы чувствуете Жар феникса.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000024	0	Buff	True	swch	0	0	0	[Мифическое]			Мифические эффекты не складываются друг с другом.	icon_status.heat_tex	icon_status.heat_tex	True
 3000025	MaxHP	Buff	True	perc	0	0	1	Полет на Птице Счастья (восстановление HP, MP)			Позволяет летать в открытых для полета областях.<BR>Восстанавливает 1% от максимального количества HP и MP каждую секунду. Вы получили [Мифический] эффект.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000025	HPChange	Buff	True	perc	0	1	0.01	Полет на Птице Счастья (восстановление HP, MP)			Позволяет летать в открытых для полета областях.<BR>Восстанавливает 1% от максимального количества HP и MP каждую секунду. Вы получили [Мифический] эффект.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000025	MPChange	Buff	True	perc	0	1	0.01	Полет на Птице Счастья (восстановление HP, MP)			Позволяет летать в открытых для полета областях.<BR>Восстанавливает 1% от максимального количества HP и MP каждую секунду. Вы получили [Мифический] эффект.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000026	MaxHP	Buff	True	perc	0	0	1	Полет на Птице Счастья (восстановление HP, MP)			Позволяет летать в открытых для полета областях.<BR>Восстанавливает 2% от максимального количества HP и MP каждую секунду. Вы получили [Мифический] эффект.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000026	HPChange	Buff	True	perc	0	1	0.02	Полет на Птице Счастья (восстановление HP, MP)			Позволяет летать в открытых для полета областях.<BR>Восстанавливает 2% от максимального количества HP и MP каждую секунду. Вы получили [Мифический] эффект.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000026	MPChange	Buff	True	perc	0	1	0.02	Полет на Птице Счастья (восстановление HP, MP)			Позволяет летать в открытых для полета областях.<BR>Восстанавливает 2% от максимального количества HP и MP каждую секунду. Вы получили [Мифический] эффект.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000027	0	Buff	True	swch	0	0	0	[Мифическое]			Мифические эффекты не складываются друг с другом.	icon_status.heat_tex	icon_status.heat_tex	True
 3000030	MaxHP	Buff	True	perc	0	0	1	Начало полета			Позволяет летать в зоне полетов.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000030	HPChange	Buff	True	perc	0	1	0.01	Начало полета			Позволяет летать в зоне полетов.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000030	MPChange	Buff	True	perc	0	1	0.01	Начало полета			Позволяет летать в зоне полетов.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
@@ -4879,6 +4885,7 @@
 7102006	Drunk1	Debuff	True	seta	8000	0	0	Энергия огня			Вас охватывает пламя.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 7102007	Drunk1	Debuff	True	seta	8000	0	0	Энергия молнии			В вас ударяет молния.	icon_skills.electricshock_tex	icon_skills.electricshock_tex	True
 7102008	Stun	Stun	False	swch	6000	0	5	Оглушение			Вы оглушены и обездвижены.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+7102009	0	Debuff	True	swch	8000	0	0	Энергия света			Вы ослеплены светом.	icon_status.lighteffect_tex	icon_status.lighteffect_tex	True
 7102010	Drunk1	Debuff	True	seta	8000	0	0	Огонь			Огонь			False
 7102011	Drunk1	Debuff	True	seta	8000	0	0	Молния			Молния			False
 7102012	Drunk1	Debuff	True	seta	8000	0	0	Свет			Свет			True
@@ -6707,6 +6714,10 @@
 76600022	Endurance	Buff	True	perc	60000	0	1.1	Бодрость пирата			+$H_W_GOOD10%$COLOR_END к выносливости.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 76600023	ASpd	Buff	True	perc	0	0	1.1	Скорость пирата			+$H_W_GOOD10%$COLOR_END к скорости атаки за один экземпляр эффекта.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
 76600024	HPChange	Buff	True	perc	15000	3	0.01	Исцеление пирата			Восстанавливает $H_W_GOOD1%%$COLOR_END от максимального уровня HP раз в $H_W_GOOD3s$COLOR_END	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex	True
+77600001	0	Buff	True	swch	5000	0	0	Сила пиратов			Повышает силу.	icon_status.poisondown_tex	icon_status.poisondown_tex	True
+77600002	0	Buff	True	swch	600000	0	0	Проворство пиратов			Повышает скорость атаки.	icon_status.poisondown_tex	icon_status.poisondown_tex	True
+77600003	0	Buff	True	swch	600000	0	0	Безумие пиратов			Увеличивает вероятность критического удара.	icon_status.poisondown_tex	icon_status.poisondown_tex	True
+77600004	0	Buff	True	swch	600000	0	0	Злоба пиратов			Увеличивает силу критического удара.	icon_status.poisondown_tex	icon_status.poisondown_tex	True
 77600005	Power	Buff	False	perc	3600000	0	1.3	Ярость Малмока			Наполняет яростью.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 77600006	HPChange	DOT	False	perc	10000	0	-0.25	Отсчет			Бомба уничтожает как друзей, так и противников.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	False
 77600007	Stun	Stun	False	swch	5000	0	5	Полный паралич			Движение невозможно из-за оглушения.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
@@ -6716,6 +6727,7 @@
 77600010	HPLoss	DOT	True	abs	1000	0	0	Белая метка			Эффект Черной метки нельзя снять.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
 77600011	StunKnockDown	Debuff	True	seta	500	0	5	Отсутствие качки			Сильный удар Барбосы сбивает вас с ног.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
 77600011	247	Debuff	True	perc	500	0	300	Отсутствие качки			Сильный удар Барбосы сбивает вас с ног.	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
+77600012	0	Debuff	False	swch	9000	0	0	Бомба			Наносит колоссальный урон и воспламеняет область в 20 метрах.	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 77600013	Endurance	Buff	True	perc	5000	0	1	Прикрепленная бомба			Теперь вы - бомба!	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
 77600014	HPLoss	Buff	True	abs	1000	0	-10000000	Взрывающаяся бомба			Взрыв!	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
 77600015	BuffNearbyParty	Buff	True	swch	3000	1	77600014	Взрывающаяся бомба			Взрыв!	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
@@ -9225,6 +9237,7 @@
 99006400	Immune	Buff	True	25	30000	0	0	Милосердие альянса			Враги не смогут причинить вам вред, пока вы на них не нападете.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 99006400	StatusImmune	Buff	True	swch	30000	0	0	Милосердие альянса			Враги не смогут причинить вам вред, пока вы на них не нападете.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 99006500	AllowAggro	Buff	True	swch	8000	0	0	Невидимость	1191	Зелье частичной невидимости	Тест	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
+99006600	0	Debuff	True	swch	7200000	0	0	Поражение			Не удалось защитить Укрывающий камень.	icon_status.delaymploss_tex	icon_status.delaymploss_tex	True
 99006700	256	Debuff	True	swch	2147483647	0	0	Дозорный			Обнаруживает невидимок.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 99006800	Immune	Buff	True	21	0	0	0	Перемирие			Невозможно атаковать NPC во время перемирия.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 99006800	StatusImmune	Buff	True	swch	0	0	0	Перемирие			Невозможно атаковать NPC во время перемирия.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
