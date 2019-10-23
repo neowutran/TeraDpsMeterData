@@ -96,10 +96,14 @@
 201	SMT_BATTLE_CHARM_FAIL	Чармы можно использовать только рядом с костром.
 203	SMT_BATTLE_CONNOT_CAMPFIRE	Сейчас вы не можете развести костер.
 102	SMT_BATTLE_CRITICAL_SUCKS	Критический удар! Вы нанесли {Damage} урона.
+102	SMT_BATTLE_PHYSICAL_CRITICAL_SUCKS	Вы нанесли {Damage} физ. критического урона.
+102	SMT_BATTLE_MAGICAL_CRITICAL_SUCKS	Вы нанесли {Damage} маг. критического урона.
 101	SMT_BATTLE_DEBUFF_IMMUNE	{Target} обладает иммунитетом к эффекту "{AbnormalityName}".
 101	SMT_BATTLE_DEBUFF_RESIST	{Target} устоял(а) против эффекта "{AbnormalName}".
 201	SMT_BATTLE_END	Вы вышли из боя.
 101	SMT_BATTLE_ENEMY_DAMAGE	Попадание! Нанесено {Damage} урона.
+101	SMT_BATTLE_ENEMY_PHYSICAL_DAMAGE	Вы нанесли {Damage} маг. урона.
+101	SMT_BATTLE_ENEMY_MAGICAL_DAMAGE	Вы нанесли {Damage} маг. урона.
 210	SMT_BATTLE_EXP_CHATMSG_UPDATE	Получено опыта: {exp@exp} <font color = '#0010FF'>{bonusExp@bonusExp}</font><font color = '#ffff00'>{vipSystemBonusExp@vipSystemBonusExp}</font>.
 203	SMT_BATTLE_FIELD_ALREADY_FINISHED	Арена закрывается.
 203	SMT_BATTLE_FIELD_ALREADY_IN_TEAM	Вы уже находитесь в боевой группе.
@@ -126,11 +130,25 @@
 109	SMT_BATTLE_MY_CRITICAL_DAMAGE_LARGE	{Damage} критического урона получено от "{Monstername}".
 107	SMT_BATTLE_MY_CRITICAL_DAMAGE_MEDIUM	{Damage} критического урона получено от "{Monstername}".
 104	SMT_BATTLE_MY_CRITICAL_DAMAGE_SMALL	{Damage} критического урона получено от "{Monstername}".
+109	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_LARGE	{Monstername} наносит вам {Damage} критического физ. урона.
+107	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername} наносит вам {Damage} критического физ. урона.
+104	SMT_BATTLE_MY_PHYSICAL_CRITICAL_DAMAGE_SMALL	{Monstername} наносит вам {Damage} критического физ. урона.
+109	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_LARGE	{Monstername} наносит вам {Damage} критического маг. урона.
+107	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_MEDIUM	{Monstername} наносит вам {Damage} критического маг. урона.
+104	SMT_BATTLE_MY_MAGICAL_CRITICAL_DAMAGE_SMALL	{Monstername} наносит вам {Damage} критического маг. урона.
 103	SMT_BATTLE_MY_DAMAGE	Вы получаете {Damage} урона.
 108	SMT_BATTLE_MY_DAMAGE_LARGE	{Damage} урона получено от "{Monstername}".
 106	SMT_BATTLE_MY_DAMAGE_MEDIUM	{Damage} урона получено от "{Monstername}".
-302	SMT_BATTLE_MY_DAMAGE_NO_NAME	Получено {Damage} урона.
 103	SMT_BATTLE_MY_DAMAGE_SMALL	{Damage} урона получено от "{Monstername}".
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE	Вы получили {Damage} физ. урона.
+108	SMT_BATTLE_MY_PHYSICAL_DAMAGE_LARGE	{Monstername} наносит вам {Damage} физ. урона.
+106	SMT_BATTLE_MY_PHYSICAL_DAMAGE_MEDIUM	{Monstername} наносит вам {Damage} физ. урона.
+103	SMT_BATTLE_MY_PHYSICAL_DAMAGE_SMALL	{Monstername} наносит вам {Damage} физ. урона.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE	Вы получили {Damage} маг. урона.
+108	SMT_BATTLE_MY_MAGICAL_DAMAGE_LARGE	{Monstername} наносит вам {Damage} маг. урона.
+106	SMT_BATTLE_MY_MAGICAL_DAMAGE_MEDIUM	{Monstername} наносит вам {Damage} маг. урона.
+103	SMT_BATTLE_MY_MAGICAL_DAMAGE_SMALL	{Monstername} наносит вам {Damage} маг. урона.
+302	SMT_BATTLE_MY_DAMAGE_NO_NAME	Получено {Damage} урона.
 203	SMT_BATTLE_NO_SHEATH_SOCIAL_IN_COMBAT_STATUS	Сейчас вы не можете это сделать.
 208	SMT_BATTLE_PARTY_DIE	{PartyPlayerName} мертв(а).
 201	SMT_BATTLE_PARTY_RESURRECT	{PartyPlayerName} воскрешен(а).
@@ -357,6 +375,7 @@
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_BY_COOLTIME	Вам надо подождать, прежде чем вы сможете снова собрать налоги.
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_IN_BATTLE_TIME	Налоги нельзя собирать во время битвы.
 203	SMT_CANNOT_USE_CHANGE_GENDER_ITEM	{ItemName}: не подходит для данного персонажа.
+203	SMT_CANNOT_USE_CHANGE_GENDER2_ITEM	Представители данного пола не могут использовать {ItemName}.
 203	SMT_CANNOT_USE_CHANGE_RACE_ITEM	{ItemName}: не предназначен для этого класса.
 203	SMT_CANNOT_USE_ENCHANTSCROLL	Выбранное снаряжение нельзя зачаровать.
 203	SMT_CANNOT_USE_ENCHANTSCROLL_EQUIP_LEVEL	Слишком высокий уровень зачарования для этого снаряжения.
@@ -1467,7 +1486,7 @@
 201	SMT_OPTIMIZE_TEXTURE_LODDOWN	Разрешение текстур временно понижено из-за нехватки ресурсов компьютера.
 204	SMT_OUT_PARTY	[{party}]: Вы изгнаны.
 204	SMT_OUT_UNIONPARTY	Вы изгнаны из рейда.
-203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	Персонаж не найден.
+203	SMT_PAPERDOLL_CANNOT_FIND_TARGET	К данной цели нельзя применить функцию осмотра.
 203	SMT_PARCEL_CANT_SENDING_BACK	Вы не можете вернуть письмо.
 201	SMT_PARCEL_DELETE_PARCEL	Выбранное письмо удалено.
 201	SMT_PARCEL_INFORMATION_UNCONFIRMED	У вас есть непрочитанная почта.
@@ -1861,6 +1880,7 @@
 201	SMT_SUCCESS_PRODUCE_CRITICAL	Ваша замечательная работа принесла дополнительные материалы.
 203	SMT_SUMMON_FAIL_IS_PEGASUS	Не удалось призвать игрока "{UserName}".
 203	SMT_SUMMON_FAIL_ON_DEATH	{UserName} мертв(а) и не может быть призван(а).
+203	SMT_SUMMON_FAIL_REQUIRE_QUEST	{UserName}, вы не выполнили предыдущее задание. Призыв невозможен.
 203	SMT_SUMMON_FRIEND_CANNOT_FALLING	Вы не можете призвать персонажа, когда вы или призываемый персонаж опрокинуты.
 302	SMT_SUMMON_UNION_NPC_COUNT_EXCEED	Вы превысили максимум призывов: {Num}.
 302	SMT_SUMMON_UNION_NPC_WRONG_AREA	Здесь нельзя призывать. Вы можете призывать только на территории вашего альянса.
@@ -2173,6 +2193,7 @@
 203	SMT_GUILD_INCENTIVE_FAIL_RATE	Ошибка распределения вознаграждения.
 203	SMT_GUILD_SKILL_FAIL_NOCOIN	У гильдии недостаточно средств.
 203	SMT_GUILD_SKILL_FAIL_AUTHORITY	Это умение может использовать только глава гильдии.
+203	SMT_GUILD_SKILL_FAIL_REQUIRE_QUEST	Нет членов гильдии, которые бы завершили предыдущее задание.
 203	SMT_CANT_CHANGE_EQUIP	Данный предмет нельзя надеть/снять.
 203	SMT_GUILD_WAR_CANT_CONTROL	Объявлять или прекращать войну, а также капитулировать в специальных зонах, таких как подземелья, арены и область войн гильдий невозможно.
 203	SMT_GUILD_WAR_CANT_WITHDRAW_DURING_WAR	Во время войны гильдий покинуть гильдию невозможно.
@@ -2260,6 +2281,9 @@
 201	SMT_EQUIPMENT_UPGRADE_DESTRUCTION	Предмет "{ItemName}" уничтожен.
 201	SMT_UPGRADE_BALANCE_MEDIUM	Коэффициенты повышены. При следующем продвижении повысится вероятность успеха.
 203	SMT_ITEM_DECOMPOSE_COMPLETE	Разобран предмет "{TargetName} х {Amount}". Получено: {ResultName} × {ResultAmount}.
+201	SMT_REPAIR_SUCCESS	Вам удалось починить "{ItemName}".
+201	SMT_REPAIR_FAIL	Починить "{ItemName}" не удалось.
+201	SMT_REPAIR_BALANCE_MEDIUM	Коэффициенты повышены. При следующем ремонте повысится вероятность успеха.
 203	SMT_YOU_MUST_DETACH_CRYSTAL_AND_ARTIFACT	Вы не сможете продвинуть снаряжение, пока не снимете все кристаллы и нивеоты.
 203	SMT_CANT_REGIST_ITEM	Данный предмет нельзя добавить.
 203	SMT_CANT_REGIST_IN_CURRENT	Сейчас добавить нельзя.
@@ -2322,6 +2346,9 @@
 203	SMT_SKILL_POLISHING_OPTION_CHANGE_FAIL_CHECK_ABNORMALITY	Во время активации эффекта изменить свойства умений нельзя.
 201	SMT_GAIN_SKILL_POLISHING_EXP	Получен опыт умения: +{gainExp}.
 201	SMT_GAIN_SKILL_POLISHING_POINT	Повышены очки умений.
+203	SMT_JUMPGEAR_REQUIRED_ABNORMALITY	Чтобы применить {JumpGearName}, требуется {AbnormalName}.
+203	SMT_JUMPGEAR_NOTENOUGH_COSTS	Недостаточно предметов или золота, чтобы применить {JumpGearName}.
+203	SMT_JUMPGEAR_CANNOT_USE_SKILL_AND_ITEM	Во время применения {JumpGearName} нельзя использовать умения и другие предметы.
 201	SMT_CANT_SAVE_SCREENSHOT	Ошибка сохранения снимка экрана.
 201	SMT_CANT_DOING_SKILLCOOLTIME_NOTCHANGE_OPTION	Нельзя изменить параметры данного умения, пока оно находится в состоянии перезарядки.
 203	SMT_CANNOT_GET_SERVANT_FULL_STORAGE	Список помощников переполнен. Необходимо увеличить его или освободить место.
@@ -2384,3 +2411,4 @@
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY_NEAR_SUMMONTIME	NPC доступен только членам группы, которые находились поблизости, когда были вызваны вызванным пользователем.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	NPC доступен только пользователям той же фракции, что и вызванный пользователь.
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	Этот NPC может использоваться только вызванными пользователями и вызванными членами группы.
+203	SMT_CANT_REGISTER_CARD_MESSAGE	Данная карта уже активирована в Энциклопедии.
