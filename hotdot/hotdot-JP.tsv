@@ -1505,6 +1505,7 @@
 33170	HPChange	Buff	True	perc	6000	1	0.03	守護光玉(忍耐の紋章)			$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD3％$COLOR_ENDが回復します。	icon_skills.moongracebuff_tex	icon_crest.crestpassivehpheal_tex	True
 33200	AtkPotion	Buff	True	perc	5000	0	1.3	スキル威力増加［連闘の紋章］			モンスターを対象に、次に使用するスキルの威力が30%増加します。	icon_crest.crestpassiveattackup_tex	icon_crest.crestpassiveattackup_tex	True
 33210	AtkPotion	Buff	True	perc	5000	0	1.25	月光陣(連闘の紋章)			連係して「月鳴り」使用時、スキル威力が$H_W_GOOD25%$COLOR_END上昇します。	icon_skills.moongravity_tex	icon_crest.crestnextskillattackup_tex	True
+33220	DelayedEffect	Buff	True	swch	300	0	33221	エヴァシブロール(機会の紋章)				icon_skills.moonshadow_tex	icon_skills.moonshadow_tex	False
 45301	StackCounter	Debuff	False	swch	30000	0	45302	強い衝撃			砲弾による強い衝撃を受けました。	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
 45302	StunKnockDown	Debuff	False	swch	20000	0	2	均衡喪失			強い衝撃でバランスを崩し、倒れます。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 46700	Endurance	Debuff	False	perc	0	0	1	ターゲット確認用0				icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex	False
@@ -2063,7 +2064,9 @@
 100801	Endurance	Buff	True	perc	0	0	1	デッドリーウィル II			20s間、クリティカル発生率が$H_W_GOOD50%$COLOR_END上昇します。効果時間中に使用したストームレイザー以外の近接攻撃スキルのクールタイムが半分に減少し、持続時間中、以下のスキルが強化されます。$BR - ［ランブロー IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ワイルドレイジ - ディセクト IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ゲイルレイザー IX］：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	True
 100801	CritChance	Buff	True	perc	20000	0	1.5	デッドリーウィル II			20s間、クリティカル発生率が$H_W_GOOD50%$COLOR_END上昇します。効果時間中に使用したストームレイザー以外の近接攻撃スキルのクールタイムが半分に減少し、持続時間中、以下のスキルが強化されます。$BR - ［ランブロー IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ワイルドレイジ - ディセクト IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ゲイルレイザー IX］：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	True
 100801	CDR	Buff	True	swch	20000	0	0.5	デッドリーウィル II			20s間、クリティカル発生率が$H_W_GOOD50%$COLOR_END上昇します。効果時間中に使用したストームレイザー以外の近接攻撃スキルのクールタイムが半分に減少し、持続時間中、以下のスキルが強化されます。$BR - ［ランブロー IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ワイルドレイジ - ディセクト IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ゲイルレイザー IX］：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	True
+100801	ReloadingSkill	Buff	True	swch	1000	0	552	デッドリーウィル II			20s間、クリティカル発生率が$H_W_GOOD50%$COLOR_END上昇します。効果時間中に使用したストームレイザー以外の近接攻撃スキルのクールタイムが半分に減少し、持続時間中、以下のスキルが強化されます。$BR - ［ランブロー IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ワイルドレイジ - ディセクト IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ゲイルレイザー IX］：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	True
 100811	CDR	Buff	True	swch	0	0	1.5	デッドリーウィル II			20s間、クリティカル発生率が$H_W_GOOD50%$COLOR_END上昇します。効果時間中に使用したストームレイザー以外の近接攻撃スキルのクールタイムが半分に減少し、持続時間中、以下のスキルが強化されます。$BR - ［ランブロー IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ワイルドレイジ - ディセクト IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ゲイルレイザー IX］：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	False
+100812	ReloadingSkill	Buff	True	swch	1000	0	552	デッドリーウィル II			20s間、クリティカル発生率が$H_W_GOOD50%$COLOR_END上昇します。効果時間中に使用したストームレイザー以外の近接攻撃スキルのクールタイムが半分に減少し、持続時間中、以下のスキルが強化されます。$BR - ［ランブロー IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ワイルドレイジ - ディセクト IX］：ストックポイントが通常の2倍蓄積され、10％の追加ダメージ。$BR - ［ゲイルレイザー IX］：スキルの威力が10％、範囲が20％増加します。	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	False
 100900	Stun	Stun	False	swch	4000	0	5	ストロングスラッシュ I			気絶しているため動けません。	icon_skills.hardslash_tex	icon_skills.hardslash_tex	True
 100901	Stun	Stun	False	swch	4000	0	5	ストロングスラッシュ II			気絶しているため動けません。	icon_skills.hardslash_tex	icon_skills.hardslash_tex	True
 100902	Stun	Stun	False	swch	4000	0	5	ストロングスラッシュ III			気絶した状態で動けません。	icon_skills.hardslash_tex	icon_skills.hardslash_tex	True
@@ -2200,9 +2203,9 @@
 201600	KnockDownChance	Buff	True	perc	6000	0	0	戦線維持 I			効果持続中、ダウン/硬直抵抗が増加します。	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 201600	StatusImmune	Buff	True	swch	6000	0	0	戦線維持 I			効果持続中、ダウン/硬直抵抗が増加します。	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 201700	181	Buff	True	abs	1000	0	50	スタンドファスト I			見えない異常状態	icon_skills.defence_tex	icon_skills.defence_tex	False
-201701	Power	Buff	True	abs	50000	0	4	スタンドファスト I			敵対値が$H_W_GOOD4％$COLOR_END、力$BR$H_W_GOOD4$COLOR_END、クリティカル発生が$H_W_GOOD6$COLOR_END上昇します。最大10回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex	icon_skills.defence_tex	True
-201701	Crit	Buff	True	abs	50000	0	6	スタンドファスト I			敵対値が$H_W_GOOD4％$COLOR_END、力$BR$H_W_GOOD4$COLOR_END、クリティカル発生が$H_W_GOOD6$COLOR_END上昇します。最大10回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex	icon_skills.defence_tex	True
-201701	Aggro	Buff	True	perc	50000	0	1.04	スタンドファスト I			敵対値が$H_W_GOOD4％$COLOR_END、力$BR$H_W_GOOD4$COLOR_END、クリティカル発生が$H_W_GOOD6$COLOR_END上昇します。最大10回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex	icon_skills.defence_tex	True
+201701	Power	Buff	True	abs	50000	0	8	スタンドファスト I			敵対値が$H_W_GOOD8％$COLOR_END、力$H_W_GOOD8$COLOR_END、クリティカル発生が$H_W_GOOD12$COLOR_END上昇します。最大5回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex	icon_skills.defence_tex	True
+201701	Crit	Buff	True	abs	50000	0	12	スタンドファスト I			敵対値が$H_W_GOOD8％$COLOR_END、力$H_W_GOOD8$COLOR_END、クリティカル発生が$H_W_GOOD12$COLOR_END上昇します。最大5回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex	icon_skills.defence_tex	True
+201701	Aggro	Buff	True	perc	50000	0	1.08	スタンドファスト I			敵対値が$H_W_GOOD8％$COLOR_END、力$H_W_GOOD8$COLOR_END、クリティカル発生が$H_W_GOOD12$COLOR_END上昇します。最大5回まで重複し、ダウンすると解除されます。	icon_skills.defence_tex	icon_skills.defence_tex	True
 201702	StaggerImmune	Buff	True	seta	20000	0	0	チャレンジシャウト			戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.roar_tex	icon_skills.roar_tex	True
 201799	MaxHP	Buff	True	perc	0	0	1	チェインアンカー抵抗			効果時間中、チェインアンカーの効果を受けません。この効果は解除できません。	icon_skills.harpoonshot_tex	icon_skills.harpoonshot_tex	False
 201800	MaxHP	Stun	False	perc	3000	0	1	チャレンジシャウト			チェインアンカーのターゲットになりました。この効果は解除できず、作動時解除されます。	icon_skills.roar_tex	icon_skills.roar_tex	True
@@ -4880,7 +4883,7 @@
 5010044	164	Buff	True	perc	900000	0	1.09	黄金の蒲焼			焼魚、蒸魚、魚のほぐし身スープ、魚のソテー効果を持つ。$BR$BR$BRクリティカル発生$H_W_GOOD20$COLOR_END増加$BRクリティカル抵抗$H_W_GOOD20$COLOR_END増加$BR最大HP$H_W_GOOD10%$COLOR_END増加$BR最大MP$H_W_GOOD10%$COLOR_END増加$BR$H_W_GOOD5s$COLOR_END毎に全HPの$H_W_GOOD1%$COLOR_END回復$BR$H_W_GOOD5s$COLOR_END毎に全MPの$H_W_GOOD1%$COLOR_END回復$BR回復スキル使用時、HP回復性能$H_W_GOOD9%$COLOR_END増加$BR攻撃速度$H_W_GOOD3$COLOR_END増加	icon_items.fallfestival_rikanosalad_tex	icon_items.fallfestival_rikanosalad_tex	True
 5010045	358	Buff	True	abs	0	0	1	うなぎの蒲焼	117724	うなぎの餌	うなぎが好んで食べる餌。<br>うなぎだけが釣れる。	icon_items.premium_worm_01_tex	icon_items.premium_worm_01_tex	True
 5010045	362	Buff	True	swch	0	0	117724	うなぎの蒲焼	117724	うなぎの餌	うなぎが好んで食べる餌。<br>うなぎだけが釣れる。	icon_items.premium_worm_01_tex	icon_items.premium_worm_01_tex	True
-5010046	XPBoost	Buff	True	perc	7200000	0	6	【8周年】高速成長500	117845	【8周年】高速成長500（Lv65）	狩りによる獲得経験値が500％増加	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010046	XPBoost	Buff	True	perc	7200000	0	6	【8周年】高速成長500	110681	【イベント】高速成長500	狩りによる獲得経験値が500％増加	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
 5010047	XPBoost	Buff	True	perc	7200000	0	5	【8周年】高速成長400	117846	【8周年】高速成長400（Lv65）	狩りによる獲得経験値が400％増加	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
 5010048	XPBoost	Buff	True	perc	7200000	0	4	【8周年】高速成長300	117847	【8周年】高速成長300（Lv65）	狩りによる獲得経験値が300％増加	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
 5010049	XPBoost	Buff	True	perc	7200000	0	3	【8周年】高速成長200	117848	【8周年】高速成長200（Lv65）	狩りによる獲得経験値が200％増加	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
@@ -5940,6 +5943,20 @@
 20520008	313	DOT	True	swch	5000	0	0.4	強化エネルギーIII			アヴィオンのエネルギーが暴走し、軍団兵が暴れます。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
 20520009	HPLoss	DOT	True	abs	500	0	-10000000000	強化エネルギーI			アヴィオンのエネルギーを受けて軍団兵が強くなります。	icon_skills.berserk_tex	icon_skills.berserk_tex	False
 20520009	313	DOT	True	swch	500	0	0.4	強化エネルギーI			アヴィオンのエネルギーを受けて軍団兵が強くなります。	icon_skills.berserk_tex	icon_skills.berserk_tex	False
+20540002	Reflect	Buff	True	abs	12000	1	-50000	魔法障壁			アゼンバントが魔力を集中させ、被害を防ぐバリアを形成しました。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+20540002	DelayedEffect	Buff	True	swch	12000	0	20540008	魔法障壁			アゼンバントが魔力を集中させ、被害を防ぐバリアを形成しました。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+20540002	Absorb	Buff	True	abs	12000	0	2000000000	魔法障壁			アゼンバントが魔力を集中させ、被害を防ぐバリアを形成しました。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+20540007	StunKnockDown	Buff	True	swch	5000	0	2	バーンアウト			行き場を失った魔力がアゼンバントに流れ込みました。アゼンバントはしばらく動けません。 	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+20540008	0	Debuff	True	swch	1000	0	0	魔法障壁			アゼンバントが魔力を集中させ、被害を防ぐバリアを形成しました。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+20540016	Stun	Stun	False	swch	4000	0	5	気絶			4秒間、気絶します。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+20540025	Attack	Debuff	True	perc	30000	0	6	不安定な魔力			ポータルの強力な魔力が広がります。$BR持続時間の間、スキルダメージが$H_W_GOOD500%$COLOR_END 増加します。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+20540028	NoHeal	Stun	True	seta	20000	0	0	汚染された魔力			アゼンバントの魔力に汚染されました。持続時間の間、HPを回復できません。	icon_status.minddomination_tex	icon_status.minddomination_tex	True
+20540030	MPChange	DOT	False	perc	3000	1	-0.08	魔力の渇望			アゼンバントが魔力を持続的に吸収します。$BR毎秒、MPが8%ずつ減少します。	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	True
+20540032	NoHeal	DOT	True	abs	7000	1	0	魔力拘束			強力な魔力によって空中に浮かされ、身動きが取れない。$BR持続時間の間、MPを回復できません。	icon_status.omniousspell_tex	icon_status.omniousspell_tex	True
+20540032	Block	DOT	True	swch	7000	0	0	魔力拘束			強力な魔力によって空中に浮かされ、身動きが取れない。$BR持続時間の間、MPを回復できません。	icon_status.omniousspell_tex	icon_status.omniousspell_tex	True
+20540032	274	DOT	True	swch	7000	0	1000	魔力拘束			強力な魔力によって空中に浮かされ、身動きが取れない。$BR持続時間の間、MPを回復できません。	icon_status.omniousspell_tex	icon_status.omniousspell_tex	True
+20540033	MovSpd	Debuff	False	setp	8000	0	0.3	鈍化			アゼンバントの魔力が持続時間の間、体を鈍化させ、スキルを使用できない。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
+20540033	Block	Debuff	False	swch	8000	0	0	鈍化			アゼンバントの魔力が持続時間の間、体を鈍化させ、スキルを使用できない。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 21030001	DotResist	Buff	True	seta	99999999	0	1	アルガフの力 I			エクソドールの機関室内の1～2階間移動装置の利用が可能になります。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
 21030002	DotResist	Buff	True	seta	99999999	0	1	アルガフの力 II			エクソドールの機関室内の2～3階間移動装置の利用が可能になります。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
 25020001	44	DOT	True	abs	2000	1	-0.55	パルプの赤い精気			パルプがパルプリンセスの飛行を護衛するために吹き出す精気で飛行性能が減少されます。	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
@@ -5981,7 +5998,9 @@
 30000014	1004	Buff	True	abs	5000	0	1400	魔法抵抗増加			5秒間、魔法抵抗が1400増加します。(クールタイム60秒)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 30000015	1001	Buff	True	abs	5000	0	700	物理攻撃力増加			5秒間、物理攻撃力が700増加します。(クールタイム60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000016	1002	Buff	True	abs	5000	0	700	魔法攻撃力増加			5秒間、魔法攻撃力が700増加します。(クールタイム60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000017	Crit	Buff	True	abs	10000	0	12	クリティカル発生上昇			10秒、クリティカル発生が12増加します。(クールタイム60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30010000	0	Buff	True	swch	600000	0	0	アルガフの力I	206062	アルガフの霊薬	アルガフの力で飛行及びアルガフ跳躍台の使用が可能です。	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
+30010001	0	Buff	True	swch	90000	0	0	アルガフの力I	88875	猛烈なアゼンバントの胸飾り	アルガフの力で飛行及びアルガフ跳躍台使用が可能です。	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
 30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	試験の祝福			試験を受ける者に付与される祝福です。<BR>$H_W_GOOD非戦闘状態での移動速度$COLOR_END と $H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。<BR>毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	RidingSpeed	Buff	True	seta	0	0	400	試験の祝福			試験を受ける者に付与される祝福です。<BR>$H_W_GOOD非戦闘状態での移動速度$COLOR_END と $H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。<BR>毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	HPChange	Buff	True	perc	0	1	0.02	試験の祝福			試験を受ける者に付与される祝福です。<BR>$H_W_GOOD非戦闘状態での移動速度$COLOR_END と $H_W_GOOD乗り物移動速度$COLOR_ENDが早くなります。<BR>毎秒毎に、HPとMPが2%ずつ回復されます。	icon_status.holybless_tex	icon_status.holybless_tex	True
@@ -6208,6 +6227,80 @@
 30250003	MovSpdInCombat	Buff	True	perc	30000	0	1.3	幼虫磁石			戦闘区間での復帰が早くなる。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 30250003	OutOfCombatMovSpd	Buff	True	perc	30000	0	1.3	幼虫磁石			戦闘区間での復帰が早くなる。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 30250004	Plague	Debuff	True	setp	30000	1	30240005	忌避剤			接近する幼虫を怖がらせるための装置のようだ。30秒間接近する幼虫にダメージを与える。	icon_status.damagedown_tex	icon_status.damagedown_tex	True
+30260001	Endurance	DOT	True	perc	90000	0	1	破滅の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+30260001	HPChange	DOT	True	perc	90000	2	-0.05	破滅の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+30260001	AtkPotion	Debuff	False	seta	0	0	0.75	破滅の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+30260001	HPLoss	DOT	True	abs	90000	0	-10000000	破滅の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+30260001	HPChange2	Debuff	True	perc	1000	0	-2	破滅の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+30260002	Endurance	DOT	True	perc	90000	0	1	破滅の冷氷			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」でのみ解除することができます。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30260002	HPChange	DOT	True	perc	90000	2	-0.05	破滅の冷氷			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」でのみ解除することができます。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30260002	AtkPotion	Debuff	False	seta	0	0	0.75	破滅の冷氷			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」でのみ解除することができます。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30260002	HPLoss	DOT	True	abs	90000	0	-10000000	破滅の冷氷			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」でのみ解除することができます。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30260002	HPChange2	Debuff	True	perc	1000	0	-2	破滅の冷氷			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」でのみ解除することができます。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30260003	Endurance	DOT	True	perc	30000	0	1	地獄の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」または「破滅の冷気」でのみ解除することができます。与ダメージがが50%減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+30260003	HPChange	DOT	True	perc	30000	2	-0.05	地獄の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」または「破滅の冷気」でのみ解除することができます。与ダメージがが50%減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+30260003	AtkPotion	DOT	True	perc	30000	2	0.5	地獄の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」または「破滅の冷気」でのみ解除することができます。与ダメージがが50%減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+30260003	HPLoss	DOT	True	abs	30000	0	-10000000	地獄の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」または「破滅の冷気」でのみ解除することができます。与ダメージがが50%減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+30260004	Endurance	Debuff	True	perc	90000	0	1	火条件チェック			火	icon_status.firedamage_tex	icon_status.firedamage_tex	False
+30260005	Endurance	Debuff	True	perc	2147483647	0	1	氷条件チェック			氷	icon_status.icedamage_tex	icon_status.icedamage_tex	False
+30260006	Endurance	Debuff	True	perc	100	0	1	火上書き			火条件チェック削除	icon_status.icedamage_tex	icon_status.icedamage_tex	False
+30260007	Endurance	Debuff	True	perc	100	0	1	氷上書き			氷条件チェック削除	icon_status.firedamage_tex	icon_status.firedamage_tex	False
+30260008	Endurance	Debuff	True	perc	500	0	1	条件検査一時中止			条件検査一時中止	icon_status.firedamage_tex	icon_status.firedamage_tex	False
+30260009	BuffNearbyParty	Debuff	False	seta	180000	5	30260010	無能の結界 - 放出			自身とパーティーメンバーのスキル威力が $H_W_BAD50%$COLOR_END減少します。効果は死亡後も解除されません。	icon_status.minuswill_tex	icon_status.minuswill_tex	True
+30260010	AtkPotion	Debuff	False	perc	0	0	0.5	無能の結界			スキル威力が$H_W_BAD50%$COLOR_END減少します。自身とパーティーメンバーから「無能の結界－放出」の効果が完全に解除されるまで持続します。	icon_status.minusattack_tex	icon_status.minusattack_tex	True
+30260011	319	Debuff	False	swch	0	0	30260002	火炎抵抗状態			冷気の力でのみ除外できます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+30260012	319	Debuff	False	swch	0	0	30260001	冷気抵抗状態			火炎の力でのみ除外できます。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30260014	Stun	Stun	False	swch	2000	0	5	ケルサイクの咆哮			強力な衝撃で動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+30260015	HPChange	DOT	False	perc	15000	3	-0.06	大量出血			過剰な出血により$H_W_BAD3s$COLOR_END毎全HPの$H_W_BAD6%$COLOR_ENDが持続的に減少します。	icon_status.damagedown_tex	icon_status.damagedown_tex	True
+30260016	MovSpd	Stun	False	setp	3000	0	0.1	ブリザード			ブリザードにより、どんどん遅くなります。10スタック時、体が凍りつきます。	icon_skills.icestorm_tex	icon_skills.icestorm_tex	True
+30260016	StackCounter	Stun	False	seta	3000	0	30260017	ブリザード			ブリザードにより、どんどん遅くなります。10スタック時、体が凍りつきます。	icon_skills.icestorm_tex	icon_skills.icestorm_tex	True
+30260017	MovSpd	Stun	True	setp	2500	0	0	氷結			激しい寒さに全身が凍りつきました。	icon_skills.icestorm_tex	icon_skills.icestorm_tex	True
+30260017	Block	Stun	True	swch	2500	0	0	氷結			激しい寒さに全身が凍りつきました。	icon_skills.icestorm_tex	icon_skills.icestorm_tex	True
+30260017	340	Stun	True	swch	2500	0	0	氷結			激しい寒さに全身が凍りつきました。	icon_skills.icestorm_tex	icon_skills.icestorm_tex	True
+30260018	311	Debuff	False	3026	0	0	5	ケルサイクの呪魂			死亡後復活時、アルゴン兵士が目を覚まします。アルゴン兵士は高い確率でヒーラーを敵対視します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
+30260023	StackCounter	Debuff	True	seta	90000	0	30260025	炎属性			体がすごく熱いです。戦闘区域の温度を１ずつ上昇させます。	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
+30260024	StackCounter	Debuff	True	seta	90000	0	30260025	水属性			体がすごく寒いです。戦闘区域の温度を１ずつ減少させます。	icon_status.delaymploss_tex	icon_status.delaymploss_tex	True
+30260025	HPChange2	Debuff	True	perc	1000	0	-2	破滅の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex	False
+30260026	IncreasedHeal	Buff	False	swch	0	0	0.5	魔力混乱			アカカラシュ・ケルサイクの魔力により、すべての回復手段の回復力が50%減少します。 	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex	True
+30260026	CDR	Buff	False	swch	0	0	0.7	魔力混乱			アカカラシュ・ケルサイクの魔力により、すべての回復手段の回復力が50%減少します。 	icon_skills.feigndeath_tex	icon_skills.feigndeath_tex	True
+30260027	HPChange	DOT	True	perc	0	2	-0.00067	魔力崩壊			アカカラシュ・ケルサイクを支えた魔力が崩壊し始めた。持続的にHPが減少します。	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+30260028	Attack	DOT	True	perc	70000	0	1.5	ケルサイクの結晶	602173	分身ケルサイクの結晶	シカンダーの力が込められている結晶です。スキル威力が30%上昇する。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
+30260251	MovSpd	Buff	True	perc	10000	0	1.1	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2%$COLOR_ENDが持続的に減少します。この効果は最大5回まで重複され、5重複時、全体HP対比$H_W_BAD50%$COLOR_ENDほどのHPが減少する。$BRジャンプ時、寄生虫を振り落とします。$BRアルゴン寄生虫は解除できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True
+30260251	HPChange	DOT	False	perc	30000	1	-0.02	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2%$COLOR_ENDが持続的に減少します。この効果は最大5回まで重複され、5重複時、全体HP対比$H_W_BAD50%$COLOR_ENDほどのHPが減少する。$BRジャンプ時、寄生虫を振り落とします。$BRアルゴン寄生虫は解除できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True
+30260251	Drunk	DOT	False	426717	30000	0	0	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2%$COLOR_ENDが持続的に減少します。この効果は最大5回まで重複され、5重複時、全体HP対比$H_W_BAD50%$COLOR_ENDほどのHPが減少する。$BRジャンプ時、寄生虫を振り落とします。$BRアルゴン寄生虫は解除できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True
+30260251	StackCounter	DOT	False	swch	30000	0	30260253	アルゴンパラサイト			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD2%$COLOR_ENDが持続的に減少します。この効果は最大5回まで重複され、5重複時、全体HP対比$H_W_BAD50%$COLOR_ENDほどのHPが減少する。$BRジャンプ時、寄生虫を振り落とします。$BRアルゴン寄生虫は解除できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True
+30260252	MovSpd	Buff	True	perc	10000	0	1.1	振り落とし			ジャンプして寄生虫を振り落としました。しかし、まだ安心できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	False
+30260252	Drunk	Buff	True	426719	10000	0	0	振り落とし			ジャンプして寄生虫を振り落としました。しかし、まだ安心できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	False
+30260253	HPChange	DOT	False	perc	2000	2	-0.3	振り落とし			ジャンプして寄生虫を振り落としました。しかし、まだ安心できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	False
+30260253	Drunk	DOT	False	426718	2000	0	0	振り落とし			ジャンプして寄生虫を振り落としました。しかし、まだ安心できません。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	False
+30261200	Stun	Stun	False	swch	3000	0	5	脳震とう			気絶して動けません。解除できません。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+30261300	Power	DOT	False	perc	10000	0	3	ケルサイクの呪魂			重複する度に、力が$H_W_GOOD200%$COLOR_END上昇しますが、$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD0.5％$COLOR_ENDが減少します。効果は最大99回まで重複します。	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+30261300	HPChange	DOT	False	perc	10000	1	-0.005	ケルサイクの呪魂			重複する度に、力が$H_W_GOOD200%$COLOR_END上昇しますが、$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD0.5％$COLOR_ENDが減少します。効果は最大99回まで重複します。	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+30261500	DelayedEffect	Buff	True	abs	35000	0	975150	破滅の鎧			破滅の鎧が最大$H_W_GOOD3000000$COLOR_ENDのダメージを無効化します。最大値を超えると、結界は破壊されます。持続時間内に破壊できない場合、その効果により全ての対象プレイヤーは死亡し、ケルサイクは破滅の憤怒に飲み込まれます！	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+30261500	Absorb	Buff	True	abs	35000	0	3000000	破滅の鎧			破滅の鎧が最大$H_W_GOOD3000000$COLOR_ENDのダメージを無効化します。最大値を超えると、結界は破壊されます。持続時間内に破壊できない場合、その効果により全ての対象プレイヤーは死亡し、ケルサイクは破滅の憤怒に飲み込まれます！	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+30261501	Power	Buff	True	perc	0	0	1.1	ケルサイクの覚醒			ケルサイクが覚醒して攻撃力と攻撃速度が10%ずつ上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+30261501	ASpd	Buff	True	perc	0	0	1.1	ケルサイクの覚醒			ケルサイクが覚醒して攻撃力と攻撃速度が10%ずつ上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+30261502	Power	Buff	True	perc	0	0	1.2	ケルサイクの覚醒			ケルサイクが完全に覚醒して攻撃力と攻撃速度が20%ずつ上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+30261502	ASpd	Buff	True	perc	0	0	1.2	ケルサイクの覚醒			ケルサイクが完全に覚醒して攻撃力と攻撃速度が20%ずつ上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+30261503	HPChange	DOT	True	perc	3000	1	-0.15	ケルサイクの恐怖			ケルサイクの恐ろしさに気を失いそうです。持続的にHPが減少し、スキルを使用できません。	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex	True
+30261503	Block	DOT	True	swch	3000	0	0	ケルサイクの恐怖			ケルサイクの恐ろしさに気を失いそうです。持続的にHPが減少し、スキルを使用できません。	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex	True
+30261601	AtkPotion	Debuff	False	seta	0	0	0.75	破滅の業火			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷気」でのみ解除することができます。	icon_status.firedamage_tex	icon_status.firedamage_tex	False
+30261602	AtkPotion	Debuff	False	seta	0	0	0.75	破滅の冷氷			$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の業火」でのみ解除することができます。	icon_status.icedamage_tex	icon_status.icedamage_tex	False
+30261603	Drunk1	Debuff	True	seta	0	0	0	業火の鎧			ケルサイクが業火の鎧で保護されています。破滅の業火を持つ対象のダメージを25%減少させます。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+30261604	Drunk1	Debuff	True	seta	0	0	0	冷氷の鎧			ケルサイクが業火の鎧で保護されています。破滅の冷氷を持つ対象のダメージを25%減少させます。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+30261607	Endurance	Buff	True	perc	0	0	10	ケルサイクの結界			ケルサイクが受けるダメージが65%減少します。	icon_status.dragonberserk_tex	icon_status.dragonberserk_tex	True
+30261609	Drunk1	Debuff	True	seta	0	0	0	業火の鎧			ケルサイクが業火の鎧で保護されています。分身ケルサイクの除去に失敗して永遠に解除できません。破滅の業火を持つ対象のダメージを25%減少させます。	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+30261610	Drunk1	Debuff	True	seta	0	0	0	冷氷の鎧			ケルサイクが業火の鎧で保護されています。分身ケルサイクの除去に失敗して永遠に解除できません。破滅の冷氷を持つ対象のダメージを25%減少させます。	icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+30261701	HPChange	Buff	True	perc	90000	1	0.07	アルゴン司祭の結晶	602172	アルゴン司祭の結晶	HPが持続的に回復されます。	icon_status.aura_of_regeneration_hp_tex	icon_status.aura_of_regeneration_hp_tex	True
+30261702	DelayedEffect	Debuff	True	seta	60000	0	30261703	ケルサイクの狂気			アルゴン司祭により、ケルサイクの狂気が目覚めています。	icon_status.earthpower_tex	icon_status.earthpower_tex	True
+30261702	Drunk1	Debuff	True	seta	60000	0	0	ケルサイクの狂気			アルゴン司祭により、ケルサイクの狂気が目覚めています。	icon_status.earthpower_tex	icon_status.earthpower_tex	True
+30261703	Power	Buff	True	perc	0	0	1000	凶暴化			ケルサイクが凶暴化して誰も防げることができなくなりました。	icon_status.earthblessing_tex	icon_status.earthblessing_tex	True
+30261703	ASpd	Buff	True	perc	0	0	10	凶暴化			ケルサイクが凶暴化して誰も防げることができなくなりました。	icon_status.earthblessing_tex	icon_status.earthblessing_tex	True
+30264200	Power	Debuff	True	perc	600000	0	1.5	ケルサイクの憤怒			攻撃力が$H_W_GOOD50％$COLOR_END、攻撃速度が$H_W_GOOD30％$COLOR_END上昇します。解除できません	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+30264200	ASpd	Debuff	True	perc	600000	0	1.3	ケルサイクの憤怒			攻撃力が$H_W_GOOD50％$COLOR_END、攻撃速度が$H_W_GOOD30％$COLOR_END上昇します。解除できません	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+30264300	Power	Debuff	False	perc	60000	0	1.5	ケルサイクの挑発			力と攻撃速度が $H_W_GOOD50%$COLOR_ENDほど上昇します。ただし、異常状態が終了されるとき、死亡します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+30264300	ASpd	Debuff	False	perc	60000	0	1.5	ケルサイクの挑発			力と攻撃速度が $H_W_GOOD50%$COLOR_ENDほど上昇します。ただし、異常状態が終了されるとき、死亡します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+30264300	HPLoss	Debuff	False	abs	60000	0	-10000000	ケルサイクの挑発			力と攻撃速度が $H_W_GOOD50%$COLOR_ENDほど上昇します。ただし、異常状態が終了されるとき、死亡します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 31010202	HPChange	DOT	True	perc	10000	2	-0.1	舞い上がる結晶			風で結晶の粉が舞い上がる。結晶の粉による傷で2秒当たり$H_W_BAD10%$COLOR_ENDのHPが減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31010205	Block	Buff	True	swch	2000	0	0	沈黙			全身が結晶がついて思う通り動けない。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 31010220	Aggro	Debuff	True	perc	80000	0	0.3	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
@@ -9350,6 +9443,9 @@
 999001049	XPBoost	Buff	True	setp	7200000	0	2.142857	エンジョイパーティー！			獲得する経験値が、パーティーメンバーの数によって変動しません。	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
 999001050	XPBoost	Buff	True	setp	7200000	0	2.5	エンジョイパーティー！			獲得する経験値が、パーティーメンバーの数によって変動しません。	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
 999001051	XPBoost	Buff	True	setp	7200000	0	2.5	エンジョイパーティー！			獲得する経験値が、パーティーメンバーの数によって変動しません。	icon_skills.guildskill1_level1_tex	icon_skills.guildskill1_level1_tex	True
+999001052	Power	Buff	True	abs	20000	0	30	アゼンバントの力	88875	猛烈なアゼンバントの胸飾り	アゼンバントの力が感じられます。力$H_W_GOOD30$COLOR_END、クリティカル発生$H_W_GOOD30$COLOR_END、攻撃速度が$H_W_GOOD12%$COLOR_END 上昇します。	icon_items.brooch_azenbant_tex	icon_items.brooch_azenbant_tex	True
+999001052	Crit	Buff	True	abs	20000	0	30	アゼンバントの力	88875	猛烈なアゼンバントの胸飾り	アゼンバントの力が感じられます。力$H_W_GOOD30$COLOR_END、クリティカル発生$H_W_GOOD30$COLOR_END、攻撃速度が$H_W_GOOD12%$COLOR_END 上昇します。	icon_items.brooch_azenbant_tex	icon_items.brooch_azenbant_tex	True
+999001052	ASpd	Buff	True	perc	20000	0	1.12	アゼンバントの力	88875	猛烈なアゼンバントの胸飾り	アゼンバントの力が感じられます。力$H_W_GOOD30$COLOR_END、クリティカル発生$H_W_GOOD30$COLOR_END、攻撃速度が$H_W_GOOD12%$COLOR_END 上昇します。	icon_items.brooch_azenbant_tex	icon_items.brooch_azenbant_tex	True
 999008300	Power	Buff	True	perc	3930000	0	1.15	攻撃力増加			攻撃力が $H_W_GOOD15%$COLOR_END 上昇します。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 999008400	Endurance	Debuff	False	perc	3930000	0	0.85	防御力減少			防御力が $H_W_GOOD15%$COLOR_END 減少します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
 999008500	MaxMP	Buff	True	perc	3930000	0	1.05	Hp増加			HPが $H_W_GOOD5%$COLOR_END ずつ増加します。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
@@ -9402,3 +9498,6 @@
 999010000	PVPAtk	Buff	True	abs	0	0	0	戦場のノクタニウム強化弾			戦場闘士たちに適用されるノクタニウム強化弾效果です。ノクタニウム強化弾を使用してスキルの效果を増大化させます。	icon_items.union_supplies5_tex	icon_items.union_supplies5_tex	True
 999010000	Noctenium	Buff	True	swch	0	0	1	戦場のノクタニウム強化弾			戦場闘士たちに適用されるノクタニウム強化弾效果です。ノクタニウム強化弾を使用してスキルの效果を増大化させます。	icon_items.union_supplies5_tex	icon_items.union_supplies5_tex	True
 999010000	282	Buff	True	swch	0	0	1	戦場のノクタニウム強化弾			戦場闘士たちに適用されるノクタニウム強化弾效果です。ノクタニウム強化弾を使用してスキルの效果を増大化させます。	icon_items.union_supplies5_tex	icon_items.union_supplies5_tex	True
+999010003	XPBoost	Buff	True	perc	86400000	0	3	快速成長200（1日）			86400sの間、狩り時、獲得経験値が200%増加します。$BRプレミアムサービス適用状態で使用時、効果が2倍に適用され、獲得経験値が400％増加します。$BR接続を終了しても残り時間は減少します。$BR$BR快速成長の効果は重複しません。高速成長の効果と重複します。$BR$BR<font color = '#FF0000'>[注意]</font>プレミアムサービスがない状態で使用したポーションは、使用後にプレミアムサービスを使用しても2倍効果が適用されません。	icon_items.potion20_tex	icon_items.potion20_tex	True
+999010005	47	Buff	True	perc	86400000	0	1.15	練武高速成長15(1日)			該当キャラクターのスキル練武経験値の獲得量が15%増加します。接続を終了しても残り時間は減少します。	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
+999010006	XPBoost	Buff	True	perc	3600000	0	6	快速成長500（1時間）			3600s、狩り時、獲得経験値が 500% 増加します。$BRプレミアムサービス適用状態で使用時、效果が2倍に適用され、獲得経験値が1000%増加します。$BR接続を終了しても残り時間は減少します。$BR$BR快速成長の効果は重複しません。高速成長の効果と重複します。$BR$BR<font color="#FF0000">[注意]</font>プレミアムサービスがない状態で使用したポーションは、使用後にプレミアムサービスを使用しても2倍効果が適用されません。	icon_items.potion20_tex	icon_items.potion20_tex	True

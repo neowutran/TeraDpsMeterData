@@ -1,3 +1,4 @@
+203	SMT_IMPOSSIBLE_IN_COMBAT	戦闘中には実行できません。
 201	SMT_ABANDON_DIVIDE_DICE	ダイスを辞退しました。
 204	SMT_ABANDON_DIVIDE_DICE_PARTYPLAYER	{UserName}がダイスを辞退しました。
 201	SMT_ABANDON_DIVIDE_GOLD	ゴールド競売を辞退しました。
@@ -1636,7 +1637,7 @@
 201	SMT_PRODUCE_SKILL_PROF_LIMIT	難易度が低いため、熟練度が上昇しません。
 203	SMT_PROHIBITED_ACTION_CAPTURE_ON_RIDE	搭乗中は拠点を占領できません。
 203	SMT_PROHIBITED_ACTION_ON_RIDE	搭乗中にはできない行動です。
-203	SMT_PROHIBITED_ACTION_ON_TRANSFORMATION	変身中はできません
+203	SMT_PROHIBITED_ACTION_ON_TRANSFORMATION	効果持続時間の間は装備脱着ができません。
 201	SMT_PROTECT_QUEST_START	防衛が始まりました。モンスターが押し寄せて来ます。
 302	SMT_PVE_BATTLEFIELD_ROUND_END	{sec}秒後に{ROUNDNUMBER}ラウンドが終了します。
 201	SMT_PVE_INFO_DEATH	{UserName}様が {NpcName}の攻撃で死亡しました。
@@ -1923,6 +1924,8 @@
 203	SMT_TRADE_CANNOT_CHANGE_ITEM_SLOT	ウィンドウに登録できるアイテムではありません。
 203	SMT_TRADE_CANNOT_FULL_MY_INVEN	かばんの空きが足りないため取引できません。
 203	SMT_TRADE_CANNOT_FULL_OPPONENT_INVEN	{UserName}のかばんに空きが足りないため取引できません。
+203	SMT_TRADE_CANNOT_TRADE_PERIOD_ITEM	残り時間が{hour}時間より少ないため登録できません。
+203	SMT_TRADE_CANNOT_TRADE_COMPLETE_PERIOD_ITEM	取引リストに残っている時間が{hour}時間より少ないアイテムがあり、取引要請できません。
 203	SMT_TRADE_CANNOT_INSERT_BASKET_FULL	これ以上アイテムを登録できません。
 203	SMT_TRADE_CANNOT_NOT_MY_SLOT	自分のアイテム登録ウィンドウにのみアイテムを登録できます。
 203	SMT_TRADE_CANNOT_USE_ITEM_THIS_STATE	取引待ち状態中はアイテムの取得や削除はできません。
@@ -2410,7 +2413,7 @@
 203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	空き空間が存在しないため、移動が不可能です。
 203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	優先検索及び分類フィルターが解除されなければいけません。
 202	SMT_WORLDSPAWN_NOTIFY_SPAWN	{RegionName}に <font color = '#ff3300'>{npcname}</font>が出現しました。
-201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	{RegionName}に <font color = '#ff3300'>{npcname}</font>が移動しました。
+201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	{RegionName}から<font color = '#ff3300'>{npcname}</font>が立ち去りました。
 201	SMT_POPUP_NUMSEL_INPUT_TITLE	入力
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	該当NPCは召喚したユーザーだけ利用できます。
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	該当NPCは召喚したユーザーと同じパーティーのユーザーだけ利用できます。
@@ -2418,3 +2421,4 @@
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID	該当NPCは召喚したユーザーと同じパーティーまたはレイドメンバーだけ利用できます。
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_RAID_NEAR_SUMMONTIME	該当NPCは召喚したユーザーと召喚した時点に周辺にいたパーティーメンバーまたはレイドメンバーだけ利用できます。
 203	SMT_CANT_REGISTER_CARD_MESSAGE	この図鑑に該当カードが活性化されています。
+203	SMT_CHANNEL_FULL_MESSAGE	該当チャンネル接続制限人数を超過しました。
