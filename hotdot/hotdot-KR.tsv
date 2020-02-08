@@ -1923,14 +1923,14 @@
 76909	HPLoss	Buff	True	abs	1	0	-50000	발화			해제하지 않고 지속시간이 경과하면 잠시 후 폭발하여 자기 자신과 주변에 피해를 줍니다.	icon_status.minushp_tex	icon_status.minushp_tex	False
 77000	358	Buff	True	abs	0	0	0.5	황금의 낚시대			5~7등급의 물고기를 잡을수 있습니다.<br>대물을 낚을 확률 + $H_W_GOOD50%$COLOR_END	icon_skills.fishing_rod04_tex	icon_skills.fishing_rod04_tex	True
 77001	359	Buff	True	perc	7200000	0	0.85	낚시꾼의 첫작업	207208	낚시꾼의 첫작업 (2시간)	자동 낚시 대기 시간 15% 감소	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77002	Crit	Buff	True	perc	1800000	0	30	팥 떡국	204479	팥 떡국	치명타 발생 2900% 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77003	Power	Buff	True	perc	1800000	0	3	만두 떡국	204480	만두 떡국	힘 200%, 공격 속도 20% 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77003	ASpd	Buff	True	perc	1800000	0	1.2	만두 떡국	204480	만두 떡국	힘 200%, 공격 속도 20% 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77004	Power	Buff	True	perc	1800000	0	1.5	계란 떡국	204481	계란 떡국	힘 50%, 공격 속도 10%, 스킬 위력 50% 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77004	Attack	Buff	True	perc	1800000	0	1.5	계란 떡국	204481	계란 떡국	힘 50%, 공격 속도 10%, 스킬 위력 50% 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77004	ASpd	Buff	True	perc	1800000	0	1.1	계란 떡국	204481	계란 떡국	힘 50%, 공격 속도 10%, 스킬 위력 50% 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77005	MPChange	Buff	True	perc	1800000	1	0.5	신년 떡국	204482	신년 떡국	모든 스킬 쿨타임 80% 감소, 초당 MP 회복량 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
-77005	CDR	Buff	True	swch	1800000	0	0.2	신년 떡국	204482	신년 떡국	모든 스킬 쿨타임 80% 감소, 초당 MP 회복량 증가	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77002	Crit	Buff	True	perc	1800000	0	30	신년 버프	204479	팥 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77003	Power	Buff	True	perc	1800000	0	3	신년 버프	204480	만두 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77003	ASpd	Buff	True	perc	1800000	0	1.2	신년 버프	204480	만두 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77004	Power	Buff	True	perc	1800000	0	1.5	신년 버프	204481	계란 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77004	Attack	Buff	True	perc	1800000	0	1.5	신년 버프	204481	계란 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77004	ASpd	Buff	True	perc	1800000	0	1.1	신년 버프	204481	계란 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77005	MPChange	Buff	True	perc	1800000	1	0.5	신년 버프	204482	신년 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
+77005	CDR	Buff	True	swch	1800000	0	0.2	신년 버프	204482	신년 떡국	임시	icon_skills.moongrace_tex	icon_skills.moongrace_tex	True
 81163	Power	Debuff	True	abs	600000	0	0	과열된 우정			친구 소환으로 인해 우정이 과열됐습니다. 우정이 과열된 상태에서는 친구 소환 기능을 사용할 수 없습니다.	icon_status.darkriftareatimeshift_tex	icon_status.darkriftareatimeshift_tex	True
 82102	Endurance	Buff	True	perc	45000	0	1.3	포탄 저항 물약			45s 동안 포탄으로 입는 피해를 감소시켜 줍니다.	icon_items.potion16_tex	icon_items.potion16_tex	True
 82102	Ballance	Buff	True	perc	45000	0	1.1	포탄 저항 물약			45s 동안 포탄으로 입는 피해를 감소시켜 줍니다.	icon_items.potion16_tex	icon_items.potion16_tex	True
@@ -5554,6 +5554,7 @@
 8000745	XPBoost	Buff	True	perc	2147483647	1	2	해결사 100(30일)	209172	해결사 100 (30일)	퀘스트 완료 경험치 획득량이 100% 증가합니다. 접속이 종료되어도 기간이 차감됩니다.<BR><BR>[프리미엄] 월간패스와 함께 사용 시 [프리미엄] 월간패스 해결사 버프가 추가되어, 총 150% 증가 효과를 받을 수 있습니다. 	icon_items.ach_title_tex	icon_items.ach_title_tex	True
 8000746	47	Buff	True	perc	3600000	0	1.3	스킬 연마 30 (1시간)	209173	스킬 연마 30 (1시간)	스킬연마 경험치 획득량이 30% 증가합니다. 접속이 종료되어도 기간이 차감됩니다.<BR><BR>스킬 연마 5, 스킬 연마 15와 함께 사용 시 중복 효과를 받을 수 있습니다.	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
 8000747	XPBoost	Buff	True	perc	604800000	0	2	쾌속 성장 물약(100%~200%)(7일))	209174	쾌속 성장 물약(100%-200%)(7일)	604800s 동안 사냥 시 획득 경험치가 100% 증가합니다.$BR접속이 종료되어도 기간이 차감됩니다.$BR$BR월간패스 적용 시 효과가 2배로 적용되어, 획득 경험치가 200% 증가합니다.$BR$BR<font color = '#FF0000'>[주의]</font> 월간패스가 없는 상태에서 사용한 물약은 이후 월간패스를 사용하여도 2배 효과가 적용되지 않습니다.	icon_items.potion20_tex	icon_items.potion20_tex	True
+8000748	CCrystalBind	Buff	True	abs	0	0	1	완전한 크리스탈 보호 주문서			사망 시 크리스탈이 깨지는 것을 방지합니다.	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
 8000750	360	Buff	True	perc	7200000	0	0.8	물고기 유인제			물고기를 유혹하는 특제 유인제 효과가 적용 중입니다.	icon_items.mp_recovery_potion_tex	icon_items.mp_recovery_potion_tex	True
 8000751	XPBoost	Buff	True	perc	604800000	0	2	쾌속 성장 물약(100%-200%)(7일)	209174	쾌속 성장 물약(100%-200%)(7일)		icon_items.potion20_tex	icon_items.potion20_tex	False
 8900001	XPBoost	Buff	True	perc	0	1	2	사냥 경험치 100% (PC방)			사냥 시 획득 경험치가 100% 증가합니다. 가맹 PC방에서 접속 시에만 적용됩니다.$BR다른 경험치 증가 버프와 중복 적용 가능합니다.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
@@ -6010,6 +6011,7 @@
 10154480	RageChange	Buff	True	abs	25000	0	1000	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	AtkPotion	Buff	True	perc	30000	0	1.1	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	CritChance	Buff	True	perc	30000	0	1.3	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
+10154480	209	Buff	True	perc	25000	0	0	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	262	Buff	True	swch	25000	0	-3000	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	330	Buff	True	swch	25000	0	0	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
 10154480	331	Buff	True	swch	25000	0	0	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	True
@@ -6017,6 +6019,7 @@
 10154482	AtkPotion	Buff	True	perc	30000	0	1.1	선인화: 침투안			근접 공격의 스킬 위력이 10% 증가합니다.	icon_skills.penetrationeye_tex	icon_skills.penetrationeye_tex	True
 10154483	CritChance	Buff	True	perc	30000	0	1.3	선인화: 차크라 순환			원거리 공격의 치명타 확률이 30% 증가하며, 후방에서 공격하는효과를 가집니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
 10154483	ForceCrit	Buff	True	seta	30000	0	80000	선인화: 차크라 순환			원거리 공격의 치명타 확률이 30% 증가하며, 후방에서 공격하는효과를 가집니다.	icon_skills.bluechakracirculation_tex	icon_skills.bluechakracirculation_tex	True
+10154484	209	Buff	True	perc	25000	0	0	선인화			효과가 지속되는 동안 [화염술], [폭염술]이 차크라 소모가 되지 않으며 [기동 공격술], [부메랑 수리검], [화염술], [폭염술]이 강화됩니다.	icon_skills.taoist_tex	icon_skills.taoist_tex	False
 10154490	DelayedEffect	Stun	False	swch	2000	0	10154491	화염탄 투척 IX			잠시 후 수면에 빠지게 됩니다. 피해를 입으면 수면에 빠지지 않습니다.	icon_skills.c12_flamebomb	icon_skills.sleep_tex	True
 10154491	DefPotion	Stun	False	perc	4000	0	1.3	수면			편안함 속에서 깊게 잠들었습니다. 효과 적용 중 최초 1회 받는 피해량이 30% 증가하며 잠에서 깨어나게 됩니다.	icon_skills.sleep_tex	icon_skills.sleep_tex	True
 10154491	Stun	Stun	False	swch	4000	0	5	수면			편안함 속에서 깊게 잠들었습니다. 효과 적용 중 최초 1회 받는 피해량이 30% 증가하며 잠에서 깨어나게 됩니다.	icon_skills.sleep_tex	icon_skills.sleep_tex	True
@@ -10081,3 +10084,13 @@
 999010005	47	Buff	True	perc	86400000	0	1.15	스킬 연마 15 (1일)	155833	스킬 연마 15 (1일)	스킬연마 경험치 획득량이 15% 증가합니다. 접속이 종료되어도 기간이 차감됩니다.	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
 999010006	XPBoost	Buff	True	perc	3600000	0	6	쾌속 성장 물약(500%)(1시간)	155834	쾌속 성장 물약(500%-1000%)(1시간)	3600s 동안 사냥 시 획득 경험치가 500% 증가합니다.$BR접속이 종료되어도 기간이 차감됩니다.$BR$BR월간패스 적용 시 효과가 2배로 적용되어, 획득 경험치가 1000% 증가합니다.$BR$BR<font color = '#FF0000'>[주의]</font> 월간패스가 없는 상태에서 사용한 물약은 이후 월간패스를 사용하여도 2배 효과가 적용되지 않습니다.	icon_items.potion20_tex	icon_items.potion20_tex	True
 999010007	XPBoost	Buff	True	perc	3600000	0	6	쾌속 성장 물약(500%-1000%)(1시간)	155834	쾌속 성장 물약(500%-1000%)(1시간)				False
+999010008	ASpd	Buff	True	perc	0	0	1.25	광란의 격전모드			온몸을 지배하는 강력한 광기가 느껴집니다. $BR전투 스킬 재사용 대기시간 70%감소$BRMP 1초당 25% 회복,ST 1초당 5% 회복$BR공격속도 25%증가$BR방어 스킬 방어 가능 수치 50%감소$BR힐량 50%감소$BR리액션 발생시 3초간 면역$BR회피종류 스킬의 쿨타임은 감소하지 않습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	MPChange	Buff	True	perc	0	1	0.25	광란의 격전모드			온몸을 지배하는 강력한 광기가 느껴집니다. $BR전투 스킬 재사용 대기시간 70%감소$BRMP 1초당 25% 회복,ST 1초당 5% 회복$BR공격속도 25%증가$BR방어 스킬 방어 가능 수치 50%감소$BR힐량 50%감소$BR리액션 발생시 3초간 면역$BR회피종류 스킬의 쿨타임은 감소하지 않습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	RageChange	Buff	True	perc	0	1	0.05	광란의 격전모드			온몸을 지배하는 강력한 광기가 느껴집니다. $BR전투 스킬 재사용 대기시간 70%감소$BRMP 1초당 25% 회복,ST 1초당 5% 회복$BR공격속도 25%증가$BR방어 스킬 방어 가능 수치 50%감소$BR힐량 50%감소$BR리액션 발생시 3초간 면역$BR회피종류 스킬의 쿨타임은 감소하지 않습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	IncreasedHeal	Buff	True	abs	0	0	0.5	광란의 격전모드			온몸을 지배하는 강력한 광기가 느껴집니다. $BR전투 스킬 재사용 대기시간 70%감소$BRMP 1초당 25% 회복,ST 1초당 5% 회복$BR공격속도 25%증가$BR방어 스킬 방어 가능 수치 50%감소$BR힐량 50%감소$BR리액션 발생시 3초간 면역$BR회피종류 스킬의 쿨타임은 감소하지 않습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	113	Buff	True	perc	0	0	0.5	광란의 격전모드			온몸을 지배하는 강력한 광기가 느껴집니다. $BR전투 스킬 재사용 대기시간 70%감소$BRMP 1초당 25% 회복,ST 1초당 5% 회복$BR공격속도 25%증가$BR방어 스킬 방어 가능 수치 50%감소$BR힐량 50%감소$BR리액션 발생시 3초간 면역$BR회피종류 스킬의 쿨타임은 감소하지 않습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	CDR	Buff	True	swch	0	0	0.3	광란의 격전모드			온몸을 지배하는 강력한 광기가 느껴집니다. $BR전투 스킬 재사용 대기시간 70%감소$BRMP 1초당 25% 회복,ST 1초당 5% 회복$BR공격속도 25%증가$BR방어 스킬 방어 가능 수치 50%감소$BR힐량 50%감소$BR리액션 발생시 3초간 면역$BR회피종류 스킬의 쿨타임은 감소하지 않습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	Immune	Stun	False	24	3000	0	0	광란의 격전모드			온몸을 지배하는 강력한 광기가 느껴집니다. $BR전투 스킬 재사용 대기시간 70%감소$BRMP 1초당 25% 회복,ST 1초당 5% 회복$BR공격속도 25%증가$BR방어 스킬 방어 가능 수치 50%감소$BR힐량 50%감소$BR리액션 발생시 3초간 면역$BR회피종류 스킬의 쿨타임은 감소하지 않습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010009	DelayedEffect	Stun	False	seta	0	0	999010010	리액션 면역체크			아직 리액션 면역아님			False
+999010010	DelayedEffect	Stun	False	seta	3000	0	999010009	리액션 면역			리액션, 경직, 스턴 면역 상태가 되었습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	False
+999010010	Immune	Stun	False	24	3000	0	0	리액션 면역			리액션, 경직, 스턴 면역 상태가 되었습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	False
