@@ -5268,6 +5268,7 @@
 8000745	XPBoost	Buff	True	perc	2147483647	1	2	解決者 100(30日)	209172	解決者 100 (30日)	任務完成經驗值獲得量增加100%。下線後時間仍持續計算。<BR><BR>與[鈦金VIP]一起使用時，將追加套用[鈦金VIP]解決者的效果，共可獲得增口 150%的效果。	icon_items.ach_title_tex	icon_items.ach_title_tex	True
 8000746	47	Buff	True	perc	3600000	0	1.3	技能鍛鍊 30 (1小時)	209173	技能鍛鍊 30 (1小時)	技能鍛鍊經驗值獲得量增加30%。下線後時間仍持續計算。<BR><BR>技能鍛鍊 5和技能鍛鍊 15同時使用時可獲得重覆效果。	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
 8000747	XPBoost	Buff	True	perc	604800000	0	2	高階成長藥水(100%~200%)(7日)	209174	高階成長藥水(100%-200%)(7日)	604800s 內狩獵時獲得經驗值增加 100%。$BR下線後時間仍持續計算。$BR$BR在套用VIP狀態下使用時效果為2倍，獲得經驗值增加200%。$BR$BR<font color = '#FF0000'>[注意]</font> 在沒有VIP的狀態下使用藥水後，即使追加使用VIP也不會套用2倍效果。	icon_items.potion20_tex	icon_items.potion20_tex	True
+8000748	CCrystalBind	Buff	True	abs	0	0	1	完整的水晶防護卷軸			死亡時可防止水晶碎裂。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
 8000750	360	Buff	True	perc	7200000	0	0.8	魚類引誘劑			套用誘惑魚類的特製引誘劑效果。	icon_items.mp_recovery_potion_tex	icon_items.mp_recovery_potion_tex	True
 8000751	XPBoost	Buff	True	perc	604800000	0	2	高階成長藥水(100%-200%)(7日)	209174	高階成長藥水(100%-200%)(7日)		icon_items.potion20_tex	icon_items.potion20_tex	False
 8900001	XPBoost	Buff	True	perc	0	1	2	狩獵經驗值 100%			狩獵時獲得的經驗值增加 100%。$BR可與其他經驗值增加buff一起重複套用。	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	False
@@ -5298,7 +5299,7 @@
 9203001	Endurance	Buff	True	perc	5000	0	1	火焰免疫			火焰免疫			True
 9203002	Endurance	Buff	True	perc	5000	0	1	粉塵免疫			粉塵免疫			True
 9203003	StackCounter	Buff	True	seta	2000	0	9203004	不使用			不使用	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-9203004	Endurance	Debuff	True	perc	2000	0	1	魔力淨化			對特殊的魔法攻擊免疫狀態。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+9203004	Endurance	Debuff	True	perc	3000	0	1	魔力淨化			對特殊的魔法攻擊免疫狀態。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 9203006	Endurance	Debuff	True	perc	90000	0	1	魔力爆發			魔力爆發堆疊用異常狀態。不可視。			False
 9203006	StackCounter	Debuff	True	swch	90000	0	9203007	魔力爆發			魔力爆發堆疊用異常狀態。不可視。			False
 9203007	Endurance	Debuff	True	swch	90000	0	1	魔力爆發 1階段			體內感受到奇怪的魔力氣息。受到魔力爆發技能時解除，$H_W_BAD受到的傷害量$COLOR_END的 $H_W_BAD4%$COLOR_END 增加。此異常狀態即使死亡也將維持。	icon_items.fireworks_num_1_tex	icon_items.fireworks_num_1_tex	True
@@ -5314,13 +5315,13 @@
 9203012	HPChange	Debuff	False	perc	10000	2	-0.2	裂開的傷口			被鋒利的刀刃砍擊而產生的出血。 每2秒減少 $H_W_BAD20%$COLOR_END的HP。	icon_status.curse_tex	icon_status.curse_tex	True
 9203016	Endurance	Debuff	True	swch	20000	0	1	暗黑氣息			感受到暗黑的氣息。好像可以使相反屬性的氣息抵消。	icon_items.corecolor_inactive_4_tex	icon_items.corecolor_inactive_4_tex	True
 9203017	Endurance	Debuff	True	swch	20000	0	1	光之氣息			感受到光之氣息。好像可以使相反屬性的氣息抵消。	icon_items.corecolor7_4_tex	icon_items.corecolor7_4_tex	True
-9203018	AtkPotion	Buff	True	perc	420000	0	1.1	不安定的魔力			感受到不安定魔力的氣息。攻擊力上升$H_W_GOOD10%$COLOR_END 。魔力完成安定化即可獲得相當強大的力量。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
-9203018	DelayedEffect	Buff	True	swch	420000	0	9203051	不安定的魔力			感受到不安定魔力的氣息。攻擊力上升$H_W_GOOD10%$COLOR_END 。魔力完成安定化即可獲得相當強大的力量。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+9203018	AtkPotion	Buff	True	perc	1200000	0	1.1	不安定的魔力			感受到不安定魔力的氣息。攻擊力上升$H_W_GOOD10%$COLOR_END 。魔力完成安定化即可獲得相當強大的力量。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+9203018	DelayedEffect	Buff	True	swch	1200000	0	9203051	不安定的魔力			感受到不安定魔力的氣息。攻擊力上升$H_W_GOOD10%$COLOR_END 。魔力完成安定化即可獲得相當強大的力量。	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 9203019	Stun	Debuff	False	swch	5000	0	5	昏厥			因強大的衝擊引起的昏厥狀態。可解除。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 9203021	ASpd	Buff	True	perc	2500	0	1.2	施展神速的卷軸			可使攻擊速度加快的卷軸。可解除。	icon_status.damageup_tex	icon_status.damageup_tex	True
 9203021	DelayedEffect	Buff	True	swch	2500	0	9203044	施展神速的卷軸			可使攻擊速度加快的卷軸。可解除。	icon_status.damageup_tex	icon_status.damageup_tex	True
 9203030	MPChange	Debuff	False	perc	10000	1	-0.1	魔力滲透			每秒減少 $H_W_BAD10%$COLOR_END的MP。	icon_skills.magicshot_tex	icon_skills.magicshot_tex	True
-9203032	Absorb	Buff	True	abs	13000	0	76000000	魔力保護膜			因強大的魔力而生成的特殊保護膜，施展破滅的卷軸。應破壞保護膜阻止卷軸施展。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+9203032	Absorb	Buff	True	abs	13000	0	220000000	魔力保護膜			因強大的魔力而生成的特殊保護膜，施展破滅的卷軸。應破壞保護膜阻止卷軸施展。	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 9203033	Endurance	Buff	True	perc	5000	0	1	測試_殲滅確認						False
 9203034	DelayedEffect	Buff	True	swch	8000	0	9203035	測試_踉蹌確認						False
 9203037	Endurance	Debuff	True	perc	5000	0	1	絕望氣息			感受到絕望氣息。4疊加時可解除，異常狀態結束時死亡。	icon_status.battlecommand03_tex	icon_status.battlecommand03_tex	True
@@ -5341,6 +5342,7 @@
 9203051	ASpd	DOT	True	perc	0	0	1.5	魔力覺醒			不安定的魔力完全覺醒。好像無法再抵擋下去了。移動速度增加，攻擊力上升 $H_W_GOOD1000%$COLOR_END，攻擊速度增加 $H_W_GOOD50%$COLOR_END。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
 9203051	AtkPotion	DOT	True	perc	0	0	11	魔力覺醒			不安定的魔力完全覺醒。好像無法再抵擋下去了。移動速度增加，攻擊力上升 $H_W_GOOD1000%$COLOR_END，攻擊速度增加 $H_W_GOOD50%$COLOR_END。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
 9203052	220	DOT	True	seta	0	0	0	不安定的魔力			感受到不安定魔力的氣息。攻擊力上升$H_W_GOOD10%$COLOR_END 。魔力完成安定化即可獲得相當強大的力量。	icon_status.plusattack_tex	icon_status.plusattack_tex	False
+9203054	Stun	Debuff	True	swch	6000	0	5	昏厥			因強大的衝擊引起的昏厥狀態。不可解除。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 9691000	HPChange	Debuff	True	abs	12000	2	-10000	精氣吸收			陷入莉里斯的魅惑無法做任何動作，並且每 $H_W_BAD2秒$COLOR_END受到 $H_W_BAD10000$COLOR_END的固定傷害	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 9691000	Stun	Debuff	True	swch	12000	0	5	精氣吸收			陷入莉里斯的魅惑無法做任何動作，並且每 $H_W_BAD2秒$COLOR_END受到 $H_W_BAD10000$COLOR_END的固定傷害	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 9691001	DelayedEffect	Buff	True	swch	10000	0	7691002	保護膜			莉里斯吸收精氣時，會吸收到一定的傷害量。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
@@ -5941,6 +5943,10 @@
 30000015	1001	Buff	True	abs	5000	0	700	物理增幅增加			5秒間物理增幅增加 700。(冷卻時間 60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000016	1002	Buff	True	abs	5000	0	700	魔法增幅增加			5秒間魔法增幅增加 700。(冷卻時間 60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000017	Crit	Buff	True	abs	10000	0	12	爆擊觸發增加			10秒內爆擊觸發增加12。 (冷卻時間60秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000019	1001	Buff	True	abs	30000	0	3000	物理、魔法增幅增加			30秒內物理、魔法增幅增加3000。(冷卻時間180秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000019	1002	Buff	True	abs	30000	0	3000	物理、魔法增幅增加			30秒內物理、魔法增幅增加3000。(冷卻時間180秒)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000020	1003	Buff	True	abs	30000	0	1500	物理、魔法抵抗增加			30秒內物理、魔法抵抗增加1500。(冷卻時間180秒)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
+30000020	1004	Buff	True	abs	30000	0	1500	物理、魔法抵抗增加			30秒內物理、魔法抵抗增加1500。(冷卻時間180秒)	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 30010000	0	Buff	True	swch	600000	0	0	阿勒卡夫的力量	206062	阿勒卡夫靈藥	用阿勒卡夫的力量即可飛行及使用阿勒卡夫跳躍台。	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
 30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	試驗的祝福			給參加試煉之人賦予的祝福。<BR>$H_W_GOOD平穩狀態移動速度$COLOR_END和 $H_W_GOOD坐騎移動速度變快。<BR>每秒HP和MP各恢復2%。	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	RidingSpeed	Buff	True	seta	0	0	400	試驗的祝福			給參加試煉之人賦予的祝福。<BR>$H_W_GOOD平穩狀態移動速度$COLOR_END和 $H_W_GOOD坐騎移動速度變快。<BR>每秒HP和MP各恢復2%。	icon_status.holybless_tex	icon_status.holybless_tex	True
@@ -7015,7 +7021,7 @@
 73503001	Stun	Stun	False	swch	5000	0	5	擊暈			RK-9的攻擊陷入昏厥狀態無法移動。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 73503009	HPChange	DOT	False	perc	30000	2	-0.06	雷射衝擊			由於高輸出雷射持續受到衝擊傷害。每 $H_W_BAD2s$COLOR_END減少 $H_W_BAD6%$COLOR_END的HP。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
 73503301	DelayedEffect	Buff	True	swch	0	0	73503302	執行協議:保護			探測RK-9的系統危險並執行保護協議。執行保護協議可消滅所有侵入者。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
-73503301	Absorb	Buff	True	swch	0	0	35000000	執行協議:保護			探測RK-9的系統危險並執行保護協議。執行保護協議可消滅所有侵入者。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+73503301	Absorb	Buff	True	swch	0	0	130000000	執行協議:保護			探測RK-9的系統危險並執行保護協議。執行保護協議可消滅所有侵入者。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 73503302	Endurance	Buff	True	perc	5000	0	1	執行協議:保護			探測RK-9的系統危險並執行保護協議。執行保護協議可消滅所有侵入者。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
 73503302	StunKnockDown	Buff	True	swch	5000	0	2	執行協議:保護			探測RK-9的系統危險並執行保護協議。執行保護協議可消滅所有侵入者。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
 73503401	DelayedEffect	Buff	True	swch	0	0	73503402	執行協議:保護			探測RK-9的系統危險並執行保護協議。執行保護協議可消滅所有侵入者。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
@@ -9077,6 +9083,7 @@
 98200379	StackCounter	Stun	True	swch	20000	0	98200383	魔力汙染			被碑石流出的魔力汙染。變成體力無法恢復的狀態。	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 98200380	Stun	Stun	False	swch	5000	0	5	頭蓋骨受損			被掉落的碑石砸中頭而昏厥。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 98200383	HPLoss	DOT	True	perc	1	0	0	魔力汙染			被碑石流出的魔力汙染。變成體力無法恢復的狀態。	icon_status.diseaseup_tex	icon_status.diseaseup_tex	False
+98200384	StackCounter	Buff	False	swch	0	0	98200385	電氣填充			卡伊戮斯正在凝聚電氣。HP為30%以上時堆疊1，未滿30%時堆疊3。達4堆疊時將立即使用非常強烈的廣域爆炸攻擊。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 98200387	Power	Debuff	True	perc	0	0	1.3	龍的震怒			卡伊戮斯震怒了。部分技能強化，更快地聚集閃電之氣。且攻擊力、攻擊速度及移動速度增加。	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
 98200387	MovSpd	Debuff	True	perc	0	0	1.1	龍的震怒			卡伊戮斯震怒了。部分技能強化，更快地聚集閃電之氣。且攻擊力、攻擊速度及移動速度增加。	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
 98200387	ASpd	Debuff	True	perc	0	0	1.1	龍的震怒			卡伊戮斯震怒了。部分技能強化，更快地聚集閃電之氣。且攻擊力、攻擊速度及移動速度增加。	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
@@ -9085,6 +9092,7 @@
 98200396	Drunk1	Debuff	True	seta	0	0	0	蓄電			震怒的卡伊戮斯每次使用特定技能時，會聚集閃電之氣。聚集到一定程度以上會使用強力的咆哮攻擊。	icon_status.godspell_tex	icon_status.godspell_tex	True
 98200397	Drunk1	Debuff	True	seta	0	0	0	蓄電			震怒的卡伊戮斯每次使用特定技能時，會聚集閃電之氣。聚集到一定程度以上會使用強力的咆哮攻擊。	icon_status.godspell_tex	icon_status.godspell_tex	True
 98200398	Drunk1	Debuff	True	seta	0	0	0	蓄電			震怒的卡伊戮斯每次使用特定技能時，會聚集閃電之氣。聚集到一定程度以上會使用強力的咆哮攻擊。	icon_status.godspell_tex	icon_status.godspell_tex	True
+98200399	Drunk1	Debuff	True	seta	2000	0	0	電氣填充			卡伊戮斯正在凝聚電氣。HP為30%以上時堆疊1，未滿30%時堆疊3。達4堆疊時將立即使用非常強烈的廣域爆炸攻擊。	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	False
 98300102	Stun	Stun	False	swch	3000	0	5	昏厥			3秒內成為昏厥狀態。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
 98300104	Drunk1	Debuff	True	seta	10000	0	0	傳導體			身體吸收一定數量的電流。持續10秒	icon_status.electriccharge3_tex	icon_status.electriccharge3_tex	True
 98300105	Drunk1	Debuff	True	seta	10000	0	0	傳導體2階段			身體吸收一定數量的電流。持續10秒			True
@@ -9774,3 +9782,13 @@
 999010003	XPBoost	Buff	True	perc	86400000	0	3	高階成長藥水(200%)(1日)			86400s 內狩獵時獲得經驗值增加200%。$BR下線後時間仍持續計算。$BR$BR在套用VIP狀態下使用時效果為2倍，獲得經驗值增加400%。$BR$BR<font color = '#FF0000'>[注意]</font> 在沒有VIP的狀態下使用藥水後，即使追加使用VIP也不會套用2倍效果。	icon_items.potion20_tex	icon_items.potion20_tex	True
 999010005	47	Buff	True	perc	86400000	0	1.15	技能鍛鍊 15 (1日)			技能鍛鍊經驗值獲得量增加15%。下線後時間仍持續計算。	icon_items.politics_reward_tex	icon_items.politics_reward_tex	True
 999010006	XPBoost	Buff	True	perc	3600000	0	6	高階成長藥水(500%)(1小時)			3600s 內狩獵時獲得經驗值增加500%。$BR下線後時間仍持續計算。$BR$BR在套用VIP狀態下使用時效果為2倍，獲得經驗值增加1000%。$BR$BR<font color = '#FF0000'>[注意]</font> 在沒有VIP的狀態下使用藥水後，即使追加使用VIP也不會套用2倍效果。	icon_items.potion20_tex	icon_items.potion20_tex	True
+999010008	ASpd	Buff	True	perc	0	0	1.25	狂亂的激戰模式			感受到支配全身的強大狂氣。$BR戰鬥技能冷卻時間減少 70%$BR每秒MP恢復 25%，每秒ST恢復 5% $BR攻擊速度增加 25%$BR防禦技能可防禦數值減少 50%$BR治癒量減少 50%$BR發生反作用時3秒內免疫$BR迴避種類技能的冷卻時間則不會減少。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	MPChange	Buff	True	perc	0	1	0.25	狂亂的激戰模式			感受到支配全身的強大狂氣。$BR戰鬥技能冷卻時間減少 70%$BR每秒MP恢復 25%，每秒ST恢復 5% $BR攻擊速度增加 25%$BR防禦技能可防禦數值減少 50%$BR治癒量減少 50%$BR發生反作用時3秒內免疫$BR迴避種類技能的冷卻時間則不會減少。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	RageChange	Buff	True	perc	0	1	0.05	狂亂的激戰模式			感受到支配全身的強大狂氣。$BR戰鬥技能冷卻時間減少 70%$BR每秒MP恢復 25%，每秒ST恢復 5% $BR攻擊速度增加 25%$BR防禦技能可防禦數值減少 50%$BR治癒量減少 50%$BR發生反作用時3秒內免疫$BR迴避種類技能的冷卻時間則不會減少。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	IncreasedHeal	Buff	True	abs	0	0	0.5	狂亂的激戰模式			感受到支配全身的強大狂氣。$BR戰鬥技能冷卻時間減少 70%$BR每秒MP恢復 25%，每秒ST恢復 5% $BR攻擊速度增加 25%$BR防禦技能可防禦數值減少 50%$BR治癒量減少 50%$BR發生反作用時3秒內免疫$BR迴避種類技能的冷卻時間則不會減少。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	113	Buff	True	perc	0	0	0.5	狂亂的激戰模式			感受到支配全身的強大狂氣。$BR戰鬥技能冷卻時間減少 70%$BR每秒MP恢復 25%，每秒ST恢復 5% $BR攻擊速度增加 25%$BR防禦技能可防禦數值減少 50%$BR治癒量減少 50%$BR發生反作用時3秒內免疫$BR迴避種類技能的冷卻時間則不會減少。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	CDR	Buff	True	swch	0	0	0.3	狂亂的激戰模式			感受到支配全身的強大狂氣。$BR戰鬥技能冷卻時間減少 70%$BR每秒MP恢復 25%，每秒ST恢復 5% $BR攻擊速度增加 25%$BR防禦技能可防禦數值減少 50%$BR治癒量減少 50%$BR發生反作用時3秒內免疫$BR迴避種類技能的冷卻時間則不會減少。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010008	Immune	Stun	False	24	3000	0	0	狂亂的激戰模式			感受到支配全身的強大狂氣。$BR戰鬥技能冷卻時間減少 70%$BR每秒MP恢復 25%，每秒ST恢復 5% $BR攻擊速度增加 25%$BR防禦技能可防禦數值減少 50%$BR治癒量減少 50%$BR發生反作用時3秒內免疫$BR迴避種類技能的冷卻時間則不會減少。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+999010009	DelayedEffect	Stun	False	seta	0	0	999010010	反作用免疫確認			仍不是反作用免疫			False
+999010010	DelayedEffect	Stun	False	seta	3000	0	999010009	反作用免疫			已進入反作用、僵直、擊昏免疫狀態。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	False
+999010010	Immune	Stun	False	24	3000	0	0	反作用免疫			已進入反作用、僵直、擊昏免疫狀態。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	False
