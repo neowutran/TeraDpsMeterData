@@ -375,9 +375,9 @@
 203	SMT_CANNOT_TRADE_THISITEM	{ItemName}はトレードできません。
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_BY_COOLTIME	税金回収クールタイムのため、税金を回収できません。
 203	SMT_CANNOT_UNION_TAX_WITHDRAW_IN_BATTLE_TIME	戦争状態中は税金を回収できません。
-203	SMT_CANNOT_USE_CHANGE_GENDER_ITEM	{ItemName}を使用できない種族です。
-203	SMT_CANNOT_USE_CHANGE_GENDER2_ITEM	{ItemName}を使用できない性別です。
-203	SMT_CANNOT_USE_CHANGE_RACE_ITEM	このクラスは{ItemName}を使用できません。
+203	SMT_CANNOT_USE_CHANGE_RACE_ITEM	{ItemName}を使用できない種族です。
+203	SMT_CANNOT_USE_CHANGE_GENDER_ITEM	{ItemName}を使用できない性別です。
+203	SMT_CANNOT_USE_CHANGE_CLASS_ITEM	このクラスは{ItemName}を使用できません。
 203	SMT_CANNOT_USE_ENCHANTSCROLL	この装備には使用できません。
 203	SMT_CANNOT_USE_ENCHANTSCROLL_EQUIP_LEVEL	このアイテムには使用できません。
 203	SMT_CANNOT_USE_ENCHANTSCROLL_EQUIP_UNIDENTIFY	封印された装備には使用できません。
@@ -659,6 +659,8 @@
 203	SMT_CHRONOSCROLL_TRADE_LIMIT_NOTI	トレードの制限回数に達しました。毎日0時に初期化されます。
 302	SMT_CHRONOSCROLL_USE_FAILURE_RETRY_AGAIN	アイテムの使用に失敗しました。もう一度お試しください。
 201	SMT_CITYWAR_ANNOUNCE_DESTROY_BASE	<font color = '#ff5252'>{guild1}</font> {name}様が<font color = '#ff5252'>{guild2}</font>前衛基地を<font color = '#ff5252'>破壊</font>しました。
+201	SMT_CITYWAR_OUTPOST_DESTROYED_DUE_TO_LACK_OF_MINIMUM_PERSONNEL	<font color = '#ff5252'>{guild}</font>ギルドの前衛基地は、最少遂行人数に満たない為、自動で破壊されました。
+203	SMT_NOT_ENOUGH_GUILD_QUEST_POINT_TO_ENTRY_CITYWAR	ギルド任務で獲得したヴァルデリオン証票が不足している為、入場できません。
 201	SMT_CITYWAR_ANNOUNCE_END	10分後、ギルド対戦が終了します。
 205	SMT_CITYWAR_ANNOUNCE_FIND	{name}様が[{guild}]ギルドの前衛基地を発見しました。
 201	SMT_CITYWAR_ANNOUNCE_START	10分後、ギルド対戦が始まります。開始時、自動で開始位置に移動します。
@@ -1637,7 +1639,7 @@
 201	SMT_PRODUCE_SKILL_PROF_LIMIT	難易度が低いため、熟練度が上昇しません。
 203	SMT_PROHIBITED_ACTION_CAPTURE_ON_RIDE	搭乗中は拠点を占領できません。
 203	SMT_PROHIBITED_ACTION_ON_RIDE	搭乗中にはできない行動です。
-203	SMT_PROHIBITED_ACTION_ON_TRANSFORMATION	効果持続時間の間は装備脱着ができません。
+203	SMT_PROHIBITED_ACTION_ON_TRANSFORMATION	変化中はできません。
 201	SMT_PROTECT_QUEST_START	防衛が始まりました。モンスターが押し寄せて来ます。
 302	SMT_PVE_BATTLEFIELD_ROUND_END	{sec}秒後に{ROUNDNUMBER}ラウンドが終了します。
 201	SMT_PVE_INFO_DEATH	{UserName}様が {NpcName}の攻撃で死亡しました。
@@ -2413,7 +2415,7 @@
 203	SMT_INVEN_POCKET_FULL_CANT_MOVE_ITEM	空き空間が存在しないため、移動が不可能です。
 203	SMT_INVEN_FILTERED_CANT_MOVE_ITEM	優先検索及び分類フィルターが解除されなければいけません。
 202	SMT_WORLDSPAWN_NOTIFY_SPAWN	{RegionName}に <font color = '#ff3300'>{npcname}</font>が出現しました。
-201	SMT_WORLDSPAWN_NOTIFY_DESPAWN	{RegionName}から<font color = '#ff3300'>{npcname}</font>が立ち去りました。
+202	SMT_WORLDSPAWN_NOTIFY_DESPAWN	{RegionName}から<font color = '#ff3300'>{npcname}</font>が立ち去りました。
 201	SMT_POPUP_NUMSEL_INPUT_TITLE	入力
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_ME	該当NPCは召喚したユーザーだけ利用できます。
 203	SMT_CANNOT_INTERACTION_NO_PERMIT_PARTY	該当NPCは召喚したユーザーと同じパーティーのユーザーだけ利用できます。
@@ -2424,3 +2426,4 @@
 203	SMT_CHANNEL_FULL_MESSAGE	該当チャンネル接続制限人数を超過しました。
 201	SMT_MYTHICCRAFT_FAIL	神話装備の製作に失敗しました。
 203	SMT_CANNOT_INHERITANCE_EQUIP_ITEM	帰属状態ではない為、強化呪文書を使用することができません。
+201	SMT_ACTPOINT_LOOTING	冒険のコインを{point}獲得しました。
