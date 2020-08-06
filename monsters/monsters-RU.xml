@@ -3178,7 +3178,7 @@
 		<Monster name="Шана" id="1957" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Непир" id="1958" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Фота" id="1959" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Монти" id="1960" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Странствующий торговец" id="1960" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Даймон" id="1961" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Фарго" id="1962" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Шваб" id="1963" isBoss="False" hp="10000" speciesId="0" />
@@ -3332,6 +3332,7 @@
 		<Monster name="Бибирун" id="200020" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Лана" id="200021" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Исследователь Гельд" id="200024" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Шилин" id="200025" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Торрун" id="210000" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Робенит" id="220044" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Джирамор" id="220045" isBoss="False" hp="10000" speciesId="0" />
@@ -4090,6 +4091,8 @@
 		<Monster name="Эллония" id="8000" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Тикат" id="9000" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Телепорт" id="9066" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Хуритау" id="10130" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Вакануй" id="14120" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Коллекционер минералов Минерун" id="20000" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Трой" id="20301" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Трой" id="20302" isBoss="False" hp="0" speciesId="0" />
@@ -5465,6 +5468,7 @@
 		<Monster name="Вход в Секретное подземелье крепости Берарк" id="3023" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Вход в Логово Келсаика" id="3026" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Вход на Арену безумия" id="3027" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Вход в старую резиденцию" id="3030" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Вход в Гнездо Паркин" id="3101" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Вход в Командный центр" id="3102" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Вход в Командный центр" id="3202" isBoss="False" hp="0" speciesId="0" />
@@ -5592,13 +5596,13 @@
 		<Monster name="Защитный кристалл" id="5001" isBoss="False" hp="13755" speciesId="0" />
 		<Monster name="Ветеран Красс" id="7001" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
-	<Zone id="111" name="Стальная арена" >
-		<Monster name="Инженерный танк" id="1000" isBoss="False" hp="180000" speciesId="0" />
-		<Monster name="Боевой танк" id="2000" isBoss="False" hp="180000" speciesId="0" />
-		<Monster name="Танк-разведчик" id="3000" isBoss="False" hp="180000" speciesId="0" />
-		<Monster name="Снаряжение танка" id="4003" isBoss="False" hp="1" speciesId="0" />
-		<Monster name="Великая пушка" id="6000" isBoss="False" hp="360000" speciesId="0" />
-		<Monster name="Великий танк" id="7000" isBoss="False" hp="360000" speciesId="0" />
+	<Zone id="111" name="unknown" >
+		<Monster name="Инженерный танк" id="1000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Боевой танк" id="2000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Танк-разведчик" id="3000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Снаряжение танка" id="4003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Великая пушка" id="6000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Великий танк" id="7000" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="112" name="Каньон Фрейвинд" >
 		<Monster name="Наг-грабитель" id="1000" isBoss="False" hp="19658870" speciesId="0" />
@@ -5636,29 +5640,29 @@
 		<Monster name="Главный кумас" id="5000" isBoss="False" hp="500000" speciesId="0" />
 		<Monster name="Главный кумас" id="8000" isBoss="False" hp="500000" speciesId="0" />
 	</Zone>
-	<Zone id="119" name="Колизей" >
-		<Monster name="Баньяновый древень" id="101" isBoss="False" hp="4392000" speciesId="0" />
-		<Monster name="Злобная громадная обезьяна" id="102" isBoss="False" hp="6288000" speciesId="0" />
-		<Monster name="Василиск джунглей" id="103" isBoss="False" hp="3648000" speciesId="0" />
-		<Monster name="Мугато джунглей" id="201" isBoss="False" hp="495000" speciesId="0" />
-		<Monster name="Ночной саблезуб" id="202" isBoss="False" hp="786000" speciesId="0" />
-		<Monster name="Лютый медведь" id="203" isBoss="False" hp="357000" speciesId="0" />
-		<Monster name="Кулкари джунглей" id="204" isBoss="False" hp="411000" speciesId="0" />
-		<Monster name="Сиранар джунглей" id="205" isBoss="False" hp="594000" speciesId="0" />
-		<Monster name="Горящий древень" id="206" isBoss="False" hp="594000" speciesId="0" />
-		<Monster name="Не используется." id="207" isBoss="False" hp="5700000" speciesId="0" />
-		<Monster name="Ленивец-потрошитель" id="208" isBoss="False" hp="246000" speciesId="0" />
-		<Monster name="Хищник джунглей" id="209" isBoss="False" hp="1182000" speciesId="0" />
-		<Monster name="Железистый древень" id="210" isBoss="False" hp="594000" speciesId="0" />
-		<Monster name="Гоблин-шаман" id="211" isBoss="False" hp="1056000" speciesId="0" />
-		<Monster name="Гоблин-гробокопатель" id="212" isBoss="False" hp="1056000" speciesId="0" />
-		<Monster name="Гоблин-вор" id="213" isBoss="False" hp="1056000" speciesId="0" />
-		<Monster name="Призрак руин" id="214" isBoss="False" hp="5400000" speciesId="0" />
-		<Monster name="Кобольд-варвар" id="301" isBoss="False" hp="102000" speciesId="0" />
-		<Monster name="Руинный камнеполз" id="302" isBoss="False" hp="102000" speciesId="0" />
-		<Monster name="Капринский воин" id="303" isBoss="False" hp="150000" speciesId="0" />
-		<Monster name="Капринский мистик" id="304" isBoss="False" hp="150000" speciesId="0" />
-		<Monster name="Наг-воин" id="305" isBoss="False" hp="150000" speciesId="0" />
+	<Zone id="119" name="unknown" >
+		<Monster name="Баньяновый древень" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Злобная громадная обезьяна" id="102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Василиск джунглей" id="103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мугато джунглей" id="201" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ночной саблезуб" id="202" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лютый медведь" id="203" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кулкари джунглей" id="204" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранар джунглей" id="205" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Горящий древень" id="206" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Не используется." id="207" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ленивец-потрошитель" id="208" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Хищник джунглей" id="209" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Железистый древень" id="210" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гоблин-шаман" id="211" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гоблин-гробокопатель" id="212" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гоблин-вор" id="213" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Призрак руин" id="214" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кобольд-варвар" id="301" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Руинный камнеполз" id="302" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Капринский воин" id="303" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Капринский мистик" id="304" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-воин" id="305" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="126" name="Академия Петрэ" >
 		<Monster name="Покорный василиск" id="101" isBoss="True" hp="2279590" speciesId="0" />
@@ -6351,10 +6355,18 @@
 		<Monster name="Лана" id="200021" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Исследователь Гельд" id="200024" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Инструктор по миссиям" id="200025" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Лусера" id="200026" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Ласеру" id="200027" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Шилен" id="200028" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Торрун" id="210000" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Счастливчик" id="220000" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Секрето" id="220026" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Шутци" id="220027" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Монта" id="220028" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Клык" id="230000" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Обменник боевых пропусков" id="240000" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Обменный пункт Колеогга" id="250000" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Додо" id="260000" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Пасха" id="40009600" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Спрятанное яйцо" id="40009601" isBoss="False" hp="23608" speciesId="0" />
 		<Monster name="Спрятанное яйцо" id="40009617" isBoss="False" hp="23608" speciesId="0" />
@@ -6481,7 +6493,7 @@
 		<Monster name="Минкал" id="9161" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Каррунг" id="9757" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
-	<Zone id="201" name="Попория" >
+	<Zone id="201" name="unknown" >
 		<Monster name="Леорикс" id="1001" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Лемирия" id="1002" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Тесерит" id="1003" isBoss="False" hp="0" speciesId="0" />
@@ -6933,6 +6945,7 @@
 		<Monster name="Потис" id="1008" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Беталле" id="1009" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Фоппул" id="1010" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Скилла" id="1013" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Надгробие воскрешения" id="1100" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Надгробие воскрешения" id="1101" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Надгробие воскрешения" id="1102" isBoss="False" hp="10000" speciesId="0" />
@@ -6961,6 +6974,7 @@
 		<Monster name="Друхаш" id="1302" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Доска заданий" id="1400" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Доска заданий" id="1401" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Кет" id="1412" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Стража" id="1700" isBoss="False" hp="807599" speciesId="0" />
 		<Monster name="Челтон" id="2001" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Зайт" id="2002" isBoss="False" hp="10000" speciesId="0" />
@@ -9309,7 +9323,7 @@
 		<Monster name="Джилва" id="1007" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Мисрил" id="1008" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
-	<Zone id="358" name="Попория" >
+	<Zone id="358" name="unknown" >
 		<Monster name="Аура" id="1001" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Аура" id="1002" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Ханчу" id="1101" isBoss="False" hp="10000" speciesId="0" />
@@ -9791,100 +9805,100 @@
 		<Monster name="Аргонское щупальце" id="9002" isBoss="True" hp="10486116" speciesId="0" />
 		<Monster name="Кольцо Залгега" id="9003" isBoss="True" hp="10486116" speciesId="0" />
 	</Zone>
-	<Zone id="415" name="Берег Острова Зари" >
-		<Monster name="Центурион экспедиции" id="1001" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Акрак" id="1002" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Адъютант" id="1003" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Член экспедиции" id="1004" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Адун" id="1005" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Попомин" id="1007" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Раненый солдат" id="1012" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Уставший солдат" id="1013" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1014" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Испуганный солдат" id="1018" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Испуганный солдат" id="1019" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1020" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Медик" id="1021" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Медик" id="1022" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1023" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1024" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1025" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Отдыхающий солдат" id="1026" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1027" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1028" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1029" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Главный медик" id="1030" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Главный медик" id="1031" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1034" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1035" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1036" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Штабной офицер" id="1037" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Испуганный солдат" id="1038" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Испуганный солдат" id="1039" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Испуганный солдат" id="1040" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Испуганный солдат" id="1041" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1042" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1043" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1044" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1045" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1046" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1047" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1048" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1049" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Медик" id="1050" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Медик" id="1051" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Медик" id="1052" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Центурион" id="1053" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Центурион" id="1054" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Штабной адъютант" id="1055" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Штабной адъютант" id="1056" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="1057" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Медик" id="1060" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Медик" id="1061" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="2001" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="2002" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="2003" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Солдат" id="2004" isBoss="False" hp="10000" speciesId="0" />
+	<Zone id="415" name="unknown" >
+		<Monster name="Центурион экспедиции" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Акрак" id="1002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Адъютант" id="1003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Член экспедиции" id="1004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Адун" id="1005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Попомин" id="1007" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Раненый солдат" id="1012" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Уставший солдат" id="1013" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1014" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуганный солдат" id="1018" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуганный солдат" id="1019" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1020" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медик" id="1021" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медик" id="1022" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1023" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1024" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1025" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отдыхающий солдат" id="1026" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1027" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1028" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1029" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Главный медик" id="1030" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Главный медик" id="1031" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1034" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1035" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1036" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Штабной офицер" id="1037" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуганный солдат" id="1038" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуганный солдат" id="1039" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуганный солдат" id="1040" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуганный солдат" id="1041" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1042" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1043" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1044" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1045" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1046" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1047" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1048" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1049" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медик" id="1050" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медик" id="1051" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медик" id="1052" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Центурион" id="1053" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Центурион" id="1054" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Штабной адъютант" id="1055" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Штабной адъютант" id="1056" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="1057" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медик" id="1060" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медик" id="1061" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="2001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="2002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="2003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Солдат" id="2004" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="416" name="Остров Зари (Пролог)" >
-		<Monster name="Демонический зомби" id="1000" isBoss="False" hp="939" speciesId="0" />
-		<Monster name="Взбешенный кромос" id="1001" isBoss="False" hp="3206" speciesId="0" />
-		<Monster name="Дисковый жнец" id="1002" isBoss="False" hp="2244" speciesId="0" />
-		<Monster name="Оркан-лиходей" id="1003" isBoss="False" hp="3206" speciesId="0" />
-		<Monster name="Взбешенный кромос" id="1011" isBoss="False" hp="3206" speciesId="0" />
-		<Monster name="Дисковый жнец" id="1012" isBoss="False" hp="2244" speciesId="0" />
-		<Monster name="Оркан-лиходей" id="1013" isBoss="False" hp="3206" speciesId="0" />
-		<Monster name="Взбешенный кромос" id="1021" isBoss="False" hp="2244" speciesId="0" />
-		<Monster name="Дисковый жнец" id="1022" isBoss="False" hp="2244" speciesId="0" />
-		<Monster name="Оркан-лиходей" id="1023" isBoss="False" hp="2244" speciesId="0" />
-		<Monster name="Жрец" id="2000" isBoss="False" hp="7346" speciesId="0" />
-		<Monster name="Убийца" id="2001" isBoss="False" hp="11660" speciesId="0" />
-		<Monster name="Маг" id="2002" isBoss="False" hp="7346" speciesId="0" />
-		<Monster name="Лучник" id="2003" isBoss="False" hp="11660" speciesId="0" />
-		<Monster name="Берсерк" id="2004" isBoss="False" hp="8978" speciesId="0" />
-		<Monster name="Жрец" id="2010" isBoss="False" hp="5877" speciesId="0" />
-		<Monster name="Убийца" id="2011" isBoss="False" hp="6530" speciesId="0" />
-		<Monster name="Маг" id="2012" isBoss="False" hp="5877" speciesId="0" />
-		<Monster name="Лучник" id="2013" isBoss="False" hp="6530" speciesId="0" />
-		<Monster name="Берсерк" id="2014" isBoss="False" hp="7183" speciesId="0" />
-		<Monster name="Кумас-демон" id="3000" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Караша Темное крыло" id="3001" isBoss="True" hp="537542" speciesId="0" />
-		<Monster name="Кумас-демон" id="3002" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Кумас-демон" id="3003" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Кумас-демон" id="3004" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Кумас-демон" id="3005" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Кумас-демон" id="3006" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Кумас-демон" id="3007" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Кумас-демон" id="3008" isBoss="True" hp="139761" speciesId="0" />
-		<Monster name="Эллеон" id="5000" isBoss="False" hp="23321" speciesId="0" />
-		<Monster name="Йисрон" id="5001" isBoss="False" hp="13993" speciesId="0" />
-		<Monster name="Стеграм" id="5002" isBoss="False" hp="12827" speciesId="0" />
-		<Monster name="Бакун" id="5003" isBoss="False" hp="11660" speciesId="0" />
-		<Monster name="Раджиэль" id="5004" isBoss="False" hp="10494" speciesId="0" />
-		<Monster name="Хинсан" id="5005" isBoss="False" hp="11660" speciesId="0" />
-		<Monster name="Тантус" id="5006" isBoss="False" hp="10494" speciesId="0" />
-		<Monster name="Халек" id="5007" isBoss="False" hp="10494" speciesId="0" />
-		<Monster name="Эллеон" id="5010" isBoss="False" hp="34982" speciesId="0" />
+		<Monster name="Демонический зомби" id="1000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Взбешенный кромос" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дисковый жнец" id="1002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оркан-лиходей" id="1003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Взбешенный кромос" id="1011" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дисковый жнец" id="1012" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оркан-лиходей" id="1013" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Взбешенный кромос" id="1021" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дисковый жнец" id="1022" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оркан-лиходей" id="1023" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жрец" id="2000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Убийца" id="2001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Маг" id="2002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лучник" id="2003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Берсерк" id="2004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жрец" id="2010" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Убийца" id="2011" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Маг" id="2012" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лучник" id="2013" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Берсерк" id="2014" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Караша Темное крыло" id="3001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3007" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-демон" id="3008" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Эллеон" id="5000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Йисрон" id="5001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стеграм" id="5002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Бакун" id="5003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Раджиэль" id="5004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Хинсан" id="5005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тантус" id="5006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Халек" id="5007" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Эллеон" id="5010" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="417" name="Солнечный Маяк" >
 		<Monster name="Управляющий Старого маяка" id="1001" isBoss="False" hp="84676" speciesId="0" />
@@ -10416,82 +10430,82 @@
 		<Monster name="Элитная Личинка" id="81125" isBoss="False" hp="1048611" speciesId="0" />
 	</Zone>
 	<Zone id="434" name="Жуткий шпиль страха" >
-		<Monster name="Стела на 1 этаже" id="101" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 2 этаже" id="102" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 3 этаже" id="103" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 4 этаже" id="104" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 5 этаже" id="105" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 6 этаже" id="106" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 7 этаже" id="107" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 8 этаже" id="108" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 9 этаже" id="109" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Стела на 10 этаже" id="110" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Фантом" id="201" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="202" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="203" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="204" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="205" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="206" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="207" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="208" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="209" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Фантом" id="210" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Тень Акаши" id="1000" isBoss="True" hp="3368326731" speciesId="4" />
-		<Monster name="Тень бегущего рака-отшельника" id="1001" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Тень зараженного рака-отшельника" id="1002" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Тень сонного рака-отшельника" id="1003" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Тень каймана" id="1004" isBoss="False" hp="11608546" speciesId="0" />
-		<Monster name="Обычная Акаша" id="1100" isBoss="True" hp="3368326731" speciesId="0" />
-		<Monster name="Физическая Акаша" id="1101" isBoss="True" hp="3368326731" speciesId="0" />
-		<Monster name="Магическая Акаша" id="1102" isBoss="True" hp="3368326731" speciesId="0" />
-		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1502" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1503" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1504" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1505" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1506" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1507" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1508" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1509" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1510" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1511" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Тень Капримы" id="2000" isBoss="True" hp="4926643709" speciesId="10" />
-		<Monster name="Тень змеиной головы" id="2001" isBoss="False" hp="8416195" speciesId="0" />
-		<Monster name="Тень Дуриона" id="3000" isBoss="True" hp="4001030783" speciesId="0" />
-		<Monster name="Тень демона-грабителя" id="3001" isBoss="False" hp="4058824" speciesId="0" />
-		<Monster name="Тень рыцаря" id="3003" isBoss="False" hp="4391059" speciesId="0" />
-		<Monster name="Тень ассасина" id="3004" isBoss="False" hp="5644673" speciesId="0" />
-		<Monster name="Тень воина" id="3005" isBoss="False" hp="5644673" speciesId="0" />
-		<Monster name="Тень Мелдиты" id="4000" isBoss="True" hp="5016748351" speciesId="2" />
-		<Monster name="Тень щупальца" id="4001" isBoss="False" hp="9249707" speciesId="0" />
-		<Monster name="Тень Келсаика" id="5000" isBoss="True" hp="5300990743" speciesId="4" />
-		<Monster name="Тень огненного духа" id="5002" isBoss="False" hp="28998074" speciesId="5" />
-		<Monster name="Тень ледяного духа" id="5003" isBoss="False" hp="28998074" speciesId="5" />
-		<Monster name="Тень Кракатокса" id="6000" isBoss="True" hp="10215463911" speciesId="0" />
-		<Monster name="Тень щупальца" id="6001" isBoss="False" hp="31674742" speciesId="0" />
-		<Monster name="Тень монолита Демокрона" id="6002" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Тень Лакана" id="7000" isBoss="True" hp="6473497042" speciesId="4" />
-		<Monster name="Тень Бьюрндена" id="8000" isBoss="True" hp="7287838661" speciesId="10" />
-		<Monster name="Тень Лактоса" id="8100" isBoss="False" hp="1189717704" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8101" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8102" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8103" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8104" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8105" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8106" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8107" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8108" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8109" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8110" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8111" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8112" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8113" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8114" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8115" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень шкатулки духов" id="8116" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Тень Биора" id="8200" isBoss="False" hp="1189717704" speciesId="0" />
-		<Monster name="Тень Даркана" id="9000" isBoss="True" hp="7061616274" speciesId="10" />
-		<Monster name="Тень Манайи" id="10000" isBoss="True" hp="7859772945" speciesId="2" />
+		<Monster name="Стела на 1 этаже" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 2 этаже" id="102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 3 этаже" id="103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 4 этаже" id="104" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 5 этаже" id="105" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 6 этаже" id="106" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 7 этаже" id="107" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 8 этаже" id="108" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 9 этаже" id="109" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стела на 10 этаже" id="110" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="201" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="202" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="203" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="204" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="205" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="206" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="207" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="208" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="209" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фантом" id="210" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Акаши" id="1000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень бегущего рака-отшельника" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень зараженного рака-отшельника" id="1002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень сонного рака-отшельника" id="1003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень каймана" id="1004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Обычная Акаша" id="1100" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Физическая Акаша" id="1101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Магическая Акаша" id="1102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1502" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1503" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1504" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1505" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1506" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1507" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1508" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1509" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1510" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1511" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Капримы" id="2000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень змеиной головы" id="2001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Дуриона" id="3000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень демона-грабителя" id="3001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень рыцаря" id="3003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень ассасина" id="3004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень воина" id="3005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Мелдиты" id="4000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень щупальца" id="4001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Келсаика" id="5000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень огненного духа" id="5002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень ледяного духа" id="5003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Кракатокса" id="6000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень щупальца" id="6001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень монолита Демокрона" id="6002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Лакана" id="7000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Бьюрндена" id="8000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Лактоса" id="8100" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8104" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8105" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8106" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8107" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8108" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8109" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8110" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8111" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8112" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8113" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8114" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8115" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень шкатулки духов" id="8116" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Биора" id="8200" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Даркана" id="9000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тень Манайи" id="10000" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="436" name="Логово Караши" >
 		<Monster name="Культист-разоритель" id="1001" isBoss="False" hp="1160" speciesId="0" />
@@ -10858,7 +10872,7 @@
 		<Monster name="Харун" id="7002" isBoss="False" hp="945" speciesId="0" />
 	</Zone>
 	<Zone id="453" name="Ущелье Кеззела" >
-		<Monster name="Кеззел" id="999" isBoss="True" hp="148082207" speciesId="1" />
+		<Monster name="Кеззел" id="999" isBoss="True" hp="3600000000" speciesId="1" />
 		<Monster name="Телепорт" id="1004" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="7874" speciesId="0" />
 		<Monster name="Пенрик" id="4501" isBoss="False" hp="945" speciesId="0" />
@@ -11620,61 +11634,61 @@
 		<Monster name="Черфа" id="11111" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
 	<Zone id="477" name="Пустыня Бату" >
-		<Monster name="Марзоб" id="1001" isBoss="False" hp="286334" speciesId="0" />
-		<Monster name="Доска охотничьих заданий" id="1400" isBoss="False" hp="286334" speciesId="0" />
+		<Monster name="Марзоб" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Доска охотничьих заданий" id="1400" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Телепорт" id="1501" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Бафомет" id="5001" isBoss="True" hp="3039454" speciesId="10" />
-		<Monster name="Гривал" id="5002" isBoss="True" hp="3039454" speciesId="8" />
-		<Monster name="Туркинус" id="5003" isBoss="True" hp="3039454" speciesId="2" />
+		<Monster name="Бафомет" id="5001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гривал" id="5002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Туркинус" id="5003" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="478" name="Пик Сурьяти" >
-		<Monster name="Сиранский верноподданный" id="1001" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Сиранский страж ужаса" id="1002" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт на Пик Сурьяти" id="1502" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Махаж" id="1901" isBoss="True" hp="2230844" speciesId="0" />
-		<Monster name="Юрказ" id="2901" isBoss="True" hp="1260912" speciesId="0" />
-		<Monster name="Лодосс" id="2902" isBoss="True" hp="1066925" speciesId="0" />
-		<Monster name="Накара" id="2903" isBoss="True" hp="1260912" speciesId="0" />
-		<Monster name="Сиранский приверженец" id="3001" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Сиранский морозный злобень" id="3002" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Темный чародей" id="3003" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Арахнен морозного когтя" id="3004" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Немона" id="3901" isBoss="True" hp="1260912" speciesId="0" />
-		<Monster name="Тижира" id="3902" isBoss="True" hp="1260912" speciesId="0" />
-		<Monster name="Гаран" id="3903" isBoss="True" hp="1745878" speciesId="0" />
-		<Monster name="Аргоновый ноголом" id="4001" isBoss="False" hp="19452" speciesId="2" />
-		<Monster name="Аргоновый оркан" id="4002" isBoss="False" hp="19452" speciesId="2" />
-		<Monster name="Маята" id="4901" isBoss="True" hp="1163918" speciesId="2" />
-		<Monster name="Калас-череполом" id="4902" isBoss="True" hp="387972" speciesId="2" />
-		<Monster name="Драстгаар" id="5901" isBoss="True" hp="57232084" speciesId="2" />
-		<Monster name="Чаогг-штурмовик" id="6001" isBoss="False" hp="66022" speciesId="2" />
-		<Monster name="Чаогг-потрошитель" id="6002" isBoss="False" hp="66022" speciesId="2" />
-		<Monster name="Чаогг-посыльный" id="6003" isBoss="False" hp="66022" speciesId="2" />
-		<Monster name="Калатра" id="6901" isBoss="True" hp="3029933" speciesId="2" />
-		<Monster name="Икталнимас" id="7901" isBoss="True" hp="7918227" speciesId="2" />
-		<Monster name="Сурьяти" id="7902" isBoss="False" hp="6127199" speciesId="2" />
-		<Monster name="Формователь Сурьяти" id="7903" isBoss="False" hp="6127199" speciesId="0" />
-		<Monster name="Формователь Сурьяти" id="7904" isBoss="False" hp="6127199" speciesId="0" />
-		<Monster name="Сиранский солдат" id="8001" isBoss="True" hp="1260912" speciesId="0" />
-		<Monster name="Сиранская жрица" id="8002" isBoss="True" hp="1260912" speciesId="0" />
-		<Monster name="Гуфран" id="8003" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Гаран" id="8004" isBoss="True" hp="2909797" speciesId="0" />
-		<Monster name="Дементалит" id="9901" isBoss="False" hp="520376" speciesId="0" />
-		<Monster name="Дементалит" id="9908" isBoss="False" hp="13038" speciesId="0" />
-		<Monster name="Дементалит" id="9910" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Щит Сурьяти" id="9911" isBoss="False" hp="40028" speciesId="0" />
-		<Monster name="Заряженный дементалит" id="9912" isBoss="False" hp="238172" speciesId="0" />
-		<Monster name="Сильнозаряженный дементалит" id="9913" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Шаулик" id="11001" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Ралзира" id="11002" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Накара" id="11003" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Гуфран" id="11004" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Заряжающийся дементалит" id="11005" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Гаран" id="11006" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Сурьяти" id="11007" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Гуфран" id="11008" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Гаран" id="11009" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Сиранский верноподданный" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранский страж ужаса" id="1002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт на Пик Сурьяти" id="1502" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Махаж" id="1901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Юрказ" id="2901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лодосс" id="2902" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Накара" id="2903" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранский приверженец" id="3001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранский морозный злобень" id="3002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Темный чародей" id="3003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Арахнен морозного когтя" id="3004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Немона" id="3901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тижира" id="3902" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гаран" id="3903" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргоновый ноголом" id="4001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргоновый оркан" id="4002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Маята" id="4901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калас-череполом" id="4902" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Драстгаар" id="5901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Чаогг-штурмовик" id="6001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Чаогг-потрошитель" id="6002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Чаогг-посыльный" id="6003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калатра" id="6901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Икталнимас" id="7901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сурьяти" id="7902" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Формователь Сурьяти" id="7903" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Формователь Сурьяти" id="7904" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранский солдат" id="8001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранская жрица" id="8002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гуфран" id="8003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гаран" id="8004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дементалит" id="9901" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дементалит" id="9908" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дементалит" id="9910" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Щит Сурьяти" id="9911" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заряженный дементалит" id="9912" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильнозаряженный дементалит" id="9913" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Шаулик" id="11001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ралзира" id="11002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Накара" id="11003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гуфран" id="11004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заряжающийся дементалит" id="11005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гаран" id="11006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сурьяти" id="11007" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гуфран" id="11008" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гаран" id="11009" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="479" name="Логово Сараваша" >
 		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" speciesId="0" />
@@ -11710,146 +11724,146 @@
 		<Monster name="Рубинария" id="47956" isBoss="True" hp="7139129" speciesId="7" />
 	</Zone>
 	<Zone id="480" name="Знак Адстринго" >
-		<Monster name="Эг'тол Налус" id="10" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Попори-наемник" id="101" isBoss="False" hp="348011" speciesId="0" />
-		<Monster name="Туванги-прыгун Долины фей" id="102" isBoss="False" hp="348011" speciesId="0" />
-		<Monster name="Туванги Долины фей" id="103" isBoss="False" hp="40674" speciesId="0" />
-		<Monster name="Бешеный кленовый дух" id="104" isBoss="False" hp="76208" speciesId="5" />
-		<Monster name="Фелгаренский кентавр" id="105" isBoss="False" hp="552399" speciesId="5" />
-		<Monster name="Огненная фея" id="106" isBoss="False" hp="40674" speciesId="5" />
-		<Monster name="Эвигнар" id="107" isBoss="True" hp="7406504" speciesId="0" />
-		<Monster name="Беспощадный тирак" id="108" isBoss="False" hp="348011" speciesId="0" />
-		<Monster name="Арахнен-обвальщик" id="109" isBoss="False" hp="552399" speciesId="0" />
-		<Monster name="Лаэральский единорог" id="110" isBoss="False" hp="552399" speciesId="5" />
-		<Monster name="Крадущийся гном" id="111" isBoss="False" hp="40674" speciesId="5" />
-		<Monster name="Ламирисс" id="112" isBoss="True" hp="1514966" speciesId="3" />
-		<Monster name="Харкирисс" id="113" isBoss="True" hp="5049889" speciesId="3" />
-		<Monster name="Толгурский потрошитель" id="114" isBoss="False" hp="552399" speciesId="2" />
-		<Monster name="Шалозанский икнефар" id="115" isBoss="False" hp="348011" speciesId="2" />
-		<Monster name="Меконари-темный служитель" id="116" isBoss="False" hp="348011" speciesId="0" />
-		<Monster name="Жуткий рассекатель" id="117" isBoss="False" hp="552399" speciesId="0" />
-		<Monster name="Прогнолский смотритель" id="118" isBoss="False" hp="580019" speciesId="0" />
-		<Monster name="Великий Вождь Тунгкан" id="119" isBoss="True" hp="5723208" speciesId="0" />
-		<Monster name="Бессмертный туванги-абордажник" id="120" isBoss="False" hp="20961" speciesId="0" />
-		<Monster name="Скулрегнат" id="121" isBoss="True" hp="7406504" speciesId="0" />
-		<Monster name="Нуроппи" id="122" isBoss="False" hp="2926916" speciesId="0" />
-		<Monster name="Дрелкарский пилон" id="400" isBoss="False" hp="600434" speciesId="0" />
-		<Monster name="Знак Адстринго" id="500" isBoss="False" hp="4002895" speciesId="0" />
-		<Monster name="Скулрегнат-возрождающийся" id="700" isBoss="True" hp="16832965" speciesId="3" />
-		<Monster name="Инферис-драколот" id="701" isBoss="True" hp="3366593" speciesId="3" />
-		<Monster name="Эвигнарский возрождающийся" id="800" isBoss="True" hp="16832965" speciesId="0" />
-		<Monster name="Монолит" id="1001" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Монолит" id="1002" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Монолит" id="1003" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Монолит" id="1004" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Монолит" id="1005" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Эг'тол Налус" id="10" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Попори-наемник" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Туванги-прыгун Долины фей" id="102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Туванги Долины фей" id="103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Бешеный кленовый дух" id="104" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фелгаренский кентавр" id="105" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Огненная фея" id="106" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Эвигнар" id="107" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Беспощадный тирак" id="108" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Арахнен-обвальщик" id="109" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лаэральский единорог" id="110" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Крадущийся гном" id="111" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ламирисс" id="112" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Харкирисс" id="113" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Толгурский потрошитель" id="114" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Шалозанский икнефар" id="115" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Меконари-темный служитель" id="116" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жуткий рассекатель" id="117" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Прогнолский смотритель" id="118" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Великий Вождь Тунгкан" id="119" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Бессмертный туванги-абордажник" id="120" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скулрегнат" id="121" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нуроппи" id="122" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дрелкарский пилон" id="400" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Знак Адстринго" id="500" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скулрегнат-возрождающийся" id="700" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Инферис-драколот" id="701" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Эвигнарский возрождающийся" id="800" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монолит" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монолит" id="1002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монолит" id="1003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монолит" id="1004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монолит" id="1005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="481" name="Тренировочная площадка" >
-		<Monster name="Захваченный ледяной великан Ял" id="101" isBoss="True" hp="455918" speciesId="0" />
-		<Monster name="Захваченная арахнея" id="102" isBoss="True" hp="607890" speciesId="0" />
-		<Monster name="Захваченный гилгаш" id="103" isBoss="True" hp="547101" speciesId="0" />
-		<Monster name="Захваченный ледяной великан Ял" id="201" isBoss="True" hp="455918" speciesId="0" />
-		<Monster name="Захваченная арахнея" id="202" isBoss="True" hp="6078908" speciesId="0" />
-		<Monster name="Захваченный гилгаш" id="203" isBoss="True" hp="547101" speciesId="0" />
-		<Monster name="Захваченный ледяной великан Ял" id="301" isBoss="True" hp="455918" speciesId="0" />
-		<Monster name="Захваченная арахнея" id="302" isBoss="True" hp="6078908" speciesId="0" />
-		<Monster name="Захваченный гилгаш" id="303" isBoss="True" hp="547101" speciesId="0" />
-		<Monster name="Захваченный ледяной великан Ял" id="401" isBoss="True" hp="395129" speciesId="0" />
-		<Monster name="Захваченная арахнея" id="402" isBoss="True" hp="547101" speciesId="0" />
-		<Monster name="Захваченный гилгаш" id="403" isBoss="True" hp="455918" speciesId="0" />
-		<Monster name="Наемница из Велики" id="411" isBoss="False" hp="183090" speciesId="0" />
-		<Monster name="Наемница из Велики" id="412" isBoss="False" hp="183090" speciesId="0" />
-		<Monster name="Наемница из Велики" id="413" isBoss="False" hp="183090" speciesId="0" />
-		<Monster name="Телепорт в Велику" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Захваченный ледяной великан Ял" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченная арахнея" id="102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченный гилгаш" id="103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченный ледяной великан Ял" id="201" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченная арахнея" id="202" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченный гилгаш" id="203" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченный ледяной великан Ял" id="301" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченная арахнея" id="302" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченный гилгаш" id="303" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченный ледяной великан Ял" id="401" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченная арахнея" id="402" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Захваченный гилгаш" id="403" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наемница из Велики" id="411" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наемница из Велики" id="412" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наемница из Велики" id="413" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт в Велику" id="1501" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="482" name="Храм Безрассудства" >
-		<Monster name="Освященная реликвия" id="1000" isBoss="False" hp="2802026" speciesId="0" />
-		<Monster name="Костяной бес-рубака" id="1001" isBoss="False" hp="58948" speciesId="0" />
-		<Monster name="Костяной мордоворот" id="1002" isBoss="False" hp="58948" speciesId="0" />
-		<Monster name="Косторез" id="1003" isBoss="False" hp="58948" speciesId="0" />
-		<Monster name="Всадник Судьбы" id="1004" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Оссугонский путник смерти" id="1005" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Фейлия" id="1502" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телдун" id="1503" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Моряк-нежить" id="2001" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Проклятый юнга" id="2002" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Штурман-нежить" id="2003" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Проклятый боцман" id="2004" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Проклятый штурман" id="2005" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Измученный капитан" id="2006" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Проклятый капитан" id="2007" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Мерзкий капитан" id="2008" isBoss="False" hp="200144" speciesId="0" />
-		<Monster name="Ядовитый юный оволит" id="3001" isBoss="False" hp="600434" speciesId="0" />
-		<Monster name="Неистовый юный оволит" id="3002" isBoss="False" hp="600434" speciesId="0" />
-		<Monster name="Стойкий юный оволит" id="3003" isBoss="False" hp="600434" speciesId="0" />
-		<Monster name="Юный оволит Морозного клыка" id="3004" isBoss="False" hp="600434" speciesId="0" />
-		<Monster name="Оволит-надсмотрщик" id="3005" isBoss="False" hp="600434" speciesId="0" />
-		<Monster name="Жестокий гула" id="4001" isBoss="False" hp="160115" speciesId="0" />
-		<Monster name="Алчный гула-мясник" id="4002" isBoss="False" hp="160115" speciesId="0" />
-		<Monster name="Дикий гула-рабовладелец" id="4003" isBoss="False" hp="160115" speciesId="0" />
-		<Monster name="Дикий гула-лиходей" id="4004" isBoss="False" hp="160115" speciesId="0" />
-		<Monster name="Сумасшедший зомпори" id="5001" isBoss="False" hp="58948" speciesId="0" />
-		<Monster name="Мутировавший вампир" id="5002" isBoss="False" hp="58948" speciesId="0" />
-		<Monster name="Лязгающий пожиратель" id="5003" isBoss="False" hp="58948" speciesId="0" />
-		<Monster name="Пушка Шардалика" id="5004" isBoss="False" hp="58948" speciesId="0" />
-		<Monster name="Кумас-караульный" id="6001" isBoss="True" hp="1001561" speciesId="0" />
-		<Monster name="Угрюмый король" id="6002" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Прозорливая королева" id="6003" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Взбешенный ладья" id="6004" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Бесстрашная ладья" id="6005" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Статный конь" id="6006" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Коварный слон" id="6007" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Бесстрашная пешка" id="6008" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Верная пешка" id="6009" isBoss="False" hp="320231" speciesId="0" />
-		<Monster name="Асирион" id="6010" isBoss="True" hp="2111527" speciesId="0" />
-		<Monster name="Горючая бочка" id="6011" isBoss="False" hp="84" speciesId="0" />
-		<Monster name="Переключатель машины катаклизма" id="6014" isBoss="False" hp="13038" speciesId="0" />
-		<Monster name="Переключатель ловушки" id="6016" isBoss="False" hp="13038" speciesId="0" />
-		<Monster name="Кшаранский маг" id="7001" isBoss="False" hp="140101" speciesId="0" />
-		<Monster name="Кшаранский лучник" id="7002" isBoss="False" hp="140101" speciesId="0" />
-		<Monster name="Кшаранский мистик" id="7003" isBoss="False" hp="140101" speciesId="0" />
-		<Monster name="Сундук с сокровищами" id="7004" isBoss="False" hp="84" speciesId="0" />
-		<Monster name="Сундук с сокровищами" id="7005" isBoss="False" hp="84" speciesId="0" />
-		<Monster name="Сундук с сокровищами" id="7006" isBoss="False" hp="84" speciesId="0" />
-		<Monster name="Сундук с сокровищами" id="7007" isBoss="False" hp="84" speciesId="0" />
-		<Monster name="Валсандра" id="7008" isBoss="True" hp="1060476" speciesId="0" />
-		<Monster name="Переключатель катаклизма" id="8001" isBoss="False" hp="13038" speciesId="0" />
-		<Monster name="Переключатель катаклизма" id="8002" isBoss="False" hp="13038" speciesId="0" />
-		<Monster name="Переключатель ловушки" id="8005" isBoss="False" hp="13038" speciesId="0" />
+		<Monster name="Освященная реликвия" id="1000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной бес-рубака" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной мордоворот" id="1002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Косторез" id="1003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Всадник Судьбы" id="1004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оссугонский путник смерти" id="1005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Фейлия" id="1502" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телдун" id="1503" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Моряк-нежить" id="2001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Проклятый юнга" id="2002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Штурман-нежить" id="2003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Проклятый боцман" id="2004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Проклятый штурман" id="2005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Измученный капитан" id="2006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Проклятый капитан" id="2007" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мерзкий капитан" id="2008" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ядовитый юный оволит" id="3001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неистовый юный оволит" id="3002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Стойкий юный оволит" id="3003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Юный оволит Морозного клыка" id="3004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оволит-надсмотрщик" id="3005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жестокий гула" id="4001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Алчный гула-мясник" id="4002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дикий гула-рабовладелец" id="4003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дикий гула-лиходей" id="4004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сумасшедший зомпори" id="5001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мутировавший вампир" id="5002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лязгающий пожиратель" id="5003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Пушка Шардалика" id="5004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кумас-караульный" id="6001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Угрюмый король" id="6002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Прозорливая королева" id="6003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Взбешенный ладья" id="6004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Бесстрашная ладья" id="6005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Статный конь" id="6006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Коварный слон" id="6007" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Бесстрашная пешка" id="6008" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Верная пешка" id="6009" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Асирион" id="6010" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Горючая бочка" id="6011" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Переключатель машины катаклизма" id="6014" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Переключатель ловушки" id="6016" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кшаранский маг" id="7001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кшаранский лучник" id="7002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кшаранский мистик" id="7003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сундук с сокровищами" id="7004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сундук с сокровищами" id="7005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сундук с сокровищами" id="7006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сундук с сокровищами" id="7007" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Валсандра" id="7008" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Переключатель катаклизма" id="8001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Переключатель катаклизма" id="8002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Переключатель ловушки" id="8005" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="483" name="Разверстая Земля" >
-		<Monster name="Наг-застрельщик Водоворота" id="1" isBoss="False" hp="117896" speciesId="0" />
-		<Monster name="Наг-налетчик Водоворота" id="2" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Наг-защитник Водоворота" id="3" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Наездник когтя Водоворота" id="4" isBoss="True" hp="1402747" speciesId="0" />
-		<Monster name="Наг-наездник Водоворота" id="5" isBoss="True" hp="1571076" speciesId="0" />
-		<Monster name="Хозяин когтя Водоворота" id="6" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Наг-воевода Водоворота" id="7" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Келба-рубака" id="11" isBoss="False" hp="117896" speciesId="0" />
-		<Monster name="Калас-грабитель" id="12" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Турломский колотильщик" id="13" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Акалатский храмовник" id="14" isBoss="True" hp="1402747" speciesId="0" />
-		<Monster name="Акалатский казначей" id="15" isBoss="True" hp="1571076" speciesId="0" />
-		<Monster name="Акалатский покоритель" id="16" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Акалат Вастолир" id="17" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Бдительный камнеполз" id="21" isBoss="False" hp="117896" speciesId="0" />
-		<Monster name="Заплесневелый спороход" id="23" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Вендиго-ткач мороза" id="24" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Вендиго-штурмовик" id="25" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Беспощадный тералит" id="26" isBoss="True" hp="1402747" speciesId="0" />
-		<Monster name="Нарлфанг-давитель" id="27" isBoss="True" hp="1571076" speciesId="0" />
-		<Monster name="Роковой тералит" id="28" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Нарлфанг-злобень" id="29" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Агрессивный поросенок" id="31" isBoss="False" hp="117896" speciesId="0" />
-		<Monster name="Медведь-череполом" id="32" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Горилла долины" id="33" isBoss="False" hp="400289" speciesId="0" />
-		<Monster name="Берилловый фимбрилиск" id="34" isBoss="True" hp="1402747" speciesId="0" />
-		<Monster name="Понурый штормовой ящер" id="35" isBoss="True" hp="1571076" speciesId="0" />
-		<Monster name="Ненасытный фимбрилиск" id="36" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Яростный штормовой ящер" id="37" isBoss="True" hp="911785" speciesId="0" />
-		<Monster name="Телепорт в Сердце Кузни" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Наг-застрельщик Водоворота" id="1" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-налетчик Водоворота" id="2" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-защитник Водоворота" id="3" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наездник когтя Водоворота" id="4" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-наездник Водоворота" id="5" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Хозяин когтя Водоворота" id="6" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-воевода Водоворота" id="7" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Келба-рубака" id="11" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калас-грабитель" id="12" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Турломский колотильщик" id="13" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Акалатский храмовник" id="14" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Акалатский казначей" id="15" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Акалатский покоритель" id="16" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Акалат Вастолир" id="17" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Бдительный камнеполз" id="21" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заплесневелый спороход" id="23" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Вендиго-ткач мороза" id="24" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Вендиго-штурмовик" id="25" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Беспощадный тералит" id="26" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарлфанг-давитель" id="27" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Роковой тералит" id="28" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарлфанг-злобень" id="29" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Агрессивный поросенок" id="31" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Медведь-череполом" id="32" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Горилла долины" id="33" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Берилловый фимбрилиск" id="34" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Понурый штормовой ящер" id="35" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ненасытный фимбрилиск" id="36" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Яростный штормовой ящер" id="37" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт в Сердце Кузни" id="1501" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="486" name="unknown" >
 		<Monster name="Нихель" id="1001" isBoss="False" hp="0" speciesId="0" />
@@ -12237,47 +12251,47 @@
 		<Monster name="Телепорт обратно" id="55000" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
 	<Zone id="496" name="Галерея Сирджуки" >
-		<Monster name="Сирджукский рыцарь" id="100" isBoss="False" hp="292113" speciesId="0" />
-		<Monster name="Сирджукский убийца" id="101" isBoss="False" hp="292113" speciesId="0" />
-		<Monster name="Сирджукский берсерк" id="102" isBoss="False" hp="292113" speciesId="0" />
-		<Monster name="Сирджукский жрец" id="103" isBoss="False" hp="292113" speciesId="0" />
-		<Monster name="Сирджукский маг" id="104" isBoss="False" hp="292113" speciesId="0" />
-		<Monster name="Сирджукский лучник" id="105" isBoss="False" hp="292113" speciesId="0" />
-		<Monster name="Сиранарский лиходей" id="107" isBoss="True" hp="576736" speciesId="0" />
-		<Monster name="Сиранарский злобень" id="108" isBoss="True" hp="576736" speciesId="0" />
-		<Monster name="Сиранарский дикарь" id="109" isBoss="True" hp="1048611" speciesId="0" />
-		<Monster name="Сиранарский опустошитель" id="111" isBoss="True" hp="1048611" speciesId="0" />
-		<Monster name="Сирджукский штурмовик" id="113" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Сирджукский убийца" id="114" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Сирджукский разоритель" id="115" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Сирджукский Авангард" id="116" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Сирджукский клинок смерти" id="117" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Сирджукский поработитель" id="118" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Сирджукский чудотворец" id="119" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Сирджукский кардинал" id="120" isBoss="False" hp="225035" speciesId="0" />
-		<Monster name="Наездник из лаборатории" id="200" isBoss="False" hp="97371" speciesId="0" />
-		<Monster name="Колоссальный дескерский бес" id="202" isBoss="False" hp="68778" speciesId="0" />
-		<Monster name="Осколок Ифицио" id="300" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Осколок Ядра" id="301" isBoss="False" hp="865520" speciesId="0" />
-		<Monster name="Осколок Ифицио" id="302" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Осколок Ядра" id="303" isBoss="False" hp="2163801" speciesId="0" />
-		<Monster name="Осколок Ядра" id="304" isBoss="False" hp="2163801" speciesId="0" />
-		<Monster name="Осколок Ифицио" id="305" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Баркуд" id="500" isBoss="True" hp="8170052" speciesId="1" />
-		<Monster name="Колосс-темное сердце" id="501" isBoss="True" hp="1048611" speciesId="0" />
-		<Monster name="Клыкарь с янтарными рогами" id="502" isBoss="True" hp="10212566" speciesId="0" />
-		<Monster name="Джермир" id="601" isBoss="False" hp="432760" speciesId="3" />
-		<Monster name="Осколок Ифицио" id="809" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Джерад" id="1001" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Джермир" id="1002" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт обратно" id="1003" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Тералит-стражник" id="2000" isBoss="True" hp="2097223" speciesId="7" />
-		<Monster name="Гидрат-кровоклык" id="2001" isBoss="True" hp="1048611" speciesId="0" />
-		<Monster name="Кадин" id="2006" isBoss="True" hp="6127539" speciesId="1" />
-		<Monster name="Острохребетный древень" id="3001" isBoss="True" hp="790653" speciesId="0" />
-		<Monster name="Оссугонский тиран" id="3002" isBoss="True" hp="1321250" speciesId="0" />
-		<Monster name="Гулон-зверолов" id="3003" isBoss="True" hp="943750" speciesId="0" />
-		<Monster name="Бес-подданный" id="9002" isBoss="False" hp="93" speciesId="0" />
+		<Monster name="Сирджукский рыцарь" id="100" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский убийца" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский берсерк" id="102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский жрец" id="103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский маг" id="104" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский лучник" id="105" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранарский лиходей" id="107" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранарский злобень" id="108" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранарский дикарь" id="109" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сиранарский опустошитель" id="111" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский штурмовик" id="113" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский убийца" id="114" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский разоритель" id="115" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский Авангард" id="116" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский клинок смерти" id="117" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский поработитель" id="118" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский чудотворец" id="119" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сирджукский кардинал" id="120" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наездник из лаборатории" id="200" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Колоссальный дескерский бес" id="202" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Осколок Ифицио" id="300" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Осколок Ядра" id="301" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Осколок Ифицио" id="302" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Осколок Ядра" id="303" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Осколок Ядра" id="304" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Осколок Ифицио" id="305" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Баркуд" id="500" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Колосс-темное сердце" id="501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Клыкарь с янтарными рогами" id="502" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Джермир" id="601" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Осколок Ифицио" id="809" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Джерад" id="1001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Джермир" id="1002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт обратно" id="1003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тералит-стражник" id="2000" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гидрат-кровоклык" id="2001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кадин" id="2006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Острохребетный древень" id="3001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оссугонский тиран" id="3002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Гулон-зверолов" id="3003" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Бес-подданный" id="9002" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="503" name="Резиденция командующего Валькионской Федерации" >
 		<Monster name="Дугал" id="1001" isBoss="False" hp="945" speciesId="0" />
@@ -13501,70 +13515,68 @@
 		<Monster name="Укуруру" id="44435" isBoss="False" hp="615" speciesId="0" />
 	</Zone>
 	<Zone id="750" name="Край Разлома" >
-		<Monster name="Ятивио" id="1001" isBoss="True" hp="120000000" speciesId="0" />
-		<Monster name="Веспоракс" id="1002" isBoss="True" hp="120000000" speciesId="0" />
-		<Monster name="Колеогг" id="1003" isBoss="True" hp="120000000" speciesId="0" />
-		<Monster name="Арахнея Разлома" id="1004" isBoss="True" hp="30000000" speciesId="7" />
-		<Monster name="Арахнея-берсерк" id="1005" isBoss="True" hp="30000000" speciesId="7" />
+		<Monster name="Победите Арахнею-берсерка." id="911" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Средний путь" id="912" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Укрепление" id="913" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скалистая тропа Колеогга" id="914" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Победите Ятивио." id="915" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Победите Привратника Пещеры." id="916" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Победите Веспоракса." id="917" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Победите Колеогга." id="918" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ятивио" id="1001" isBoss="True" hp="5683500000" speciesId="0" />
+		<Monster name="Веспоракс" id="1002" isBoss="True" hp="6251850000" speciesId="0" />
+		<Monster name="Колеогг" id="1003" isBoss="True" hp="7009650000" speciesId="0" />
+		<Monster name="Арахнея Разлома" id="1004" isBoss="True" hp="416000000" speciesId="7" />
+		<Monster name="Арахнея-берсерк" id="1005" isBoss="True" hp="416000000" speciesId="7" />
 		<Monster name="Телепорт в Сад Ятивио" id="1501" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Телепорт в Гнездо Колеогга" id="1502" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Телепорт обратно" id="1503" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Разъяренный кумас" id="2001" isBoss="True" hp="30000000" speciesId="5" />
-		<Monster name="Наг-пират" id="2002" isBoss="True" hp="30000000" speciesId="0" />
-		<Monster name="Ориск-великан" id="2003" isBoss="True" hp="30000000" speciesId="7" />
-		<Monster name="Наг-шаман" id="2004" isBoss="True" hp="45000000" speciesId="0" />
-		<Monster name="Наг-берсерк" id="2005" isBoss="True" hp="45000000" speciesId="0" />
-		<Monster name="Василиск" id="2006" isBoss="True" hp="45000000" speciesId="7" />
-		<Monster name="Фимбрилиск" id="2007" isBoss="True" hp="45000000" speciesId="7" />
-		<Monster name="Клыкарь" id="2008" isBoss="True" hp="50000000" speciesId="5" />
-		<Monster name="Огромный штормовой ящер" id="2009" isBoss="True" hp="50000000" speciesId="0" />
-		<Monster name="Кровокоготь" id="2010" isBoss="True" hp="50000000" speciesId="3" />
-		<Monster name="Огромный мандрил" id="2011" isBoss="True" hp="50000000" speciesId="0" />
+		<Monster name="Телепорт" id="1504" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1505" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1506" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Разъяренный кумас" id="2001" isBoss="True" hp="416000000" speciesId="5" />
+		<Monster name="Наг-пират" id="2002" isBoss="True" hp="416000000" speciesId="0" />
+		<Monster name="Василиск репутации" id="2003" isBoss="True" hp="416000000" speciesId="7" />
+		<Monster name="Ориск-великан репутации" id="2004" isBoss="True" hp="416000000" speciesId="7" />
+		<Monster name="Юанти-шаман" id="2005" isBoss="True" hp="416000000" speciesId="0" />
+		<Monster name="Юанти-берсерк" id="2006" isBoss="True" hp="416000000" speciesId="0" />
+		<Monster name="Фимбрилиск" id="2007" isBoss="True" hp="416000000" speciesId="7" />
+		<Monster name="Клыкарь" id="2008" isBoss="True" hp="416000000" speciesId="5" />
+		<Monster name="Огромный штормовой ящер" id="2009" isBoss="True" hp="416000000" speciesId="0" />
+		<Monster name="Кровокоготь" id="2010" isBoss="True" hp="416000000" speciesId="3" />
+		<Monster name="Огромный мандрил" id="2011" isBoss="True" hp="416000000" speciesId="0" />
 		<Monster name="Дебира" id="3001" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Аззем" id="3003" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Брин" id="3004" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Дуани" id="3005" isBoss="False" hp="945" speciesId="0" />
+		<Monster name="Дуани" id="3005" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Вандраул" id="3006" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Вандраул" id="3007" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Дуани" id="3008" isBoss="False" hp="945" speciesId="0" />
+		<Monster name="Дуани" id="3008" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Брин" id="3009" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Вандраул" id="3010" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Аззем" id="3011" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Дирижабль" id="5000" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5001" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5002" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5003" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5004" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5005" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5006" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5007" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5008" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Дирижабль" id="5009" isBoss="False" hp="30000" speciesId="0" />
-		<Monster name="Гуванги-воин" id="45001" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Гуванги-капитан" id="45002" isBoss="True" hp="50000000" speciesId="0" />
-		<Monster name="Гуванги-шаман" id="45003" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Гуванги-разведчик" id="45004" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Туберель" id="45005" isBoss="False" hp="75000" speciesId="0" />
-		<Monster name="Туберель-берсерк" id="45006" isBoss="False" hp="75000" speciesId="0" />
-		<Monster name="Оддриту" id="45007" isBoss="False" hp="300000" speciesId="0" />
-		<Monster name="Оддриту" id="45008" isBoss="False" hp="300000" speciesId="0" />
-		<Monster name="Архидева-ассасин" id="45009" isBoss="False" hp="3600000" speciesId="0" />
-		<Monster name="Архидева-разведчик" id="45010" isBoss="False" hp="3600000" speciesId="0" />
-		<Monster name="Архидева-жрец" id="45011" isBoss="False" hp="3600000" speciesId="0" />
-		<Monster name="Капитан рыцарей" id="45012" isBoss="True" hp="5000000" speciesId="0" />
-		<Monster name="Жрец Разлома" id="45013" isBoss="True" hp="5000000" speciesId="0" />
-		<Monster name="Воин Разлома" id="45014" isBoss="True" hp="3600000" speciesId="0" />
-		<Monster name="Дикарь Разлома" id="45015" isBoss="True" hp="3600000" speciesId="0" />
-		<Monster name="Монумент Советников-близнецов" id="45025" isBoss="False" hp="13038" speciesId="0" />
-		<Monster name="Лучник" id="45034" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Туберель" id="45038" isBoss="False" hp="75000" speciesId="0" />
-		<Monster name="Туберель" id="45041" isBoss="False" hp="75000" speciesId="0" />
-		<Monster name="Пещерный жук" id="45043" isBoss="False" hp="347778" speciesId="0" />
-		<Monster name="Капитан рыцарей" id="45044" isBoss="True" hp="5000000" speciesId="0" />
-		<Monster name="Элитный воин Разлома" id="45045" isBoss="True" hp="5000000" speciesId="0" />
-		<Monster name="Элитный дикарь Разлома" id="45046" isBoss="True" hp="5000000" speciesId="0" />
-		<Monster name="Элитный жрец Разлома" id="45049" isBoss="False" hp="3600000" speciesId="0" />
-		<Monster name="Жадный кайман" id="45050" isBoss="False" hp="7500000" speciesId="0" />
+		<Monster name="Магический камень выбора маршрута" id="4002" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Магический камень выбора маршрута" id="4003" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Магический камень выбора маршрута" id="4004" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Укрепление" id="4005" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Неизвестная архидеванская ассасин" id="45001" isBoss="False" hp="108000000" speciesId="0" />
+		<Monster name="Неизвестный архидеванский разведчик" id="45002" isBoss="False" hp="108000000" speciesId="0" />
+		<Monster name="Неизвестный архидеванский жрец" id="45003" isBoss="False" hp="108000000" speciesId="0" />
+		<Monster name="Неизвестный рыцарь" id="45004" isBoss="True" hp="216000000" speciesId="0" />
+		<Monster name="Неизвестный жрец" id="45005" isBoss="True" hp="108000000" speciesId="0" />
+		<Monster name="Неизвестный воин" id="45006" isBoss="True" hp="216000000" speciesId="0" />
+		<Monster name="Неизвестный берсерк" id="45007" isBoss="True" hp="216000000" speciesId="0" />
+		<Monster name="Неизвестный рыцарь" id="45008" isBoss="True" hp="216000000" speciesId="0" />
+		<Monster name="Неизвестный воин" id="45009" isBoss="True" hp="216000000" speciesId="0" />
+		<Monster name="Неизвестный берсерк" id="45010" isBoss="True" hp="216000000" speciesId="0" />
+		<Monster name="Неизвестный жрец" id="45011" isBoss="False" hp="216000000" speciesId="0" />
+		<Monster name="Неизвестный лучник" id="45012" isBoss="False" hp="108000000" speciesId="0" />
+		<Monster name="Небесный цветок" id="75001" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Туберель" id="75002" isBoss="False" hp="5400000" speciesId="0" />
+		<Monster name="Туберель-берсерк" id="75003" isBoss="False" hp="5400000" speciesId="0" />
+		<Monster name="Любитель насекомых" id="75004" isBoss="False" hp="18000000" speciesId="0" />
+		<Monster name="Любитель насекомых" id="75005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кислотная пчела" id="75009" isBoss="False" hp="10000000" speciesId="0" />
+		<Monster name="Пещерный паразит" id="75010" isBoss="False" hp="50000000" speciesId="0" />
 	</Zone>
 	<Zone id="754" name="Глубинный Храм" >
 		<Monster name="Земляное сердце" id="93" isBoss="False" hp="20000000" speciesId="0" />
@@ -14230,83 +14242,83 @@
 		<Monster name="Командир лагеря" id="6009" isBoss="False" hp="100" speciesId="0" />
 	</Zone>
 	<Zone id="801" name="Нексус: Грань Миров" >
-		<Monster name="Король-пресекатель" id="101" isBoss="True" hp="14487254" speciesId="3" />
-		<Monster name="Калечащий пресекатель" id="201" isBoss="True" hp="4960389" speciesId="1" />
-		<Monster name="Калечащий пресекатель" id="202" isBoss="True" hp="4960389" speciesId="7" />
-		<Monster name="Калечащий пресекатель" id="203" isBoss="True" hp="4960389" speciesId="0" />
-		<Monster name="Калечащий пресекатель" id="205" isBoss="True" hp="4960389" speciesId="7" />
-		<Monster name="Налетчик-пресекатель" id="301" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="302" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="303" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="304" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="305" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="306" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="401" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="402" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="404" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нексулитовый побочный продукт" id="602" isBoss="False" hp="9" speciesId="0" />
-		<Monster name="Калечащий пресекатель" id="701" isBoss="True" hp="4960389" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="702" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="703" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="704" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="705" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="706" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="707" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="708" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Инквизитор" id="1502" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Король-пресекатель" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="201" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="202" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="203" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="205" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="301" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="302" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="303" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="304" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="305" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="306" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="401" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="402" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="404" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нексулитовый побочный продукт" id="602" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="701" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="702" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="703" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="704" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="705" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="706" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="707" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="708" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Инквизитор" id="1502" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
-	<Zone id="802" name="Нексус: Грань Миров" >
-		<Monster name="Король-пресекатель" id="101" isBoss="True" hp="14487254" speciesId="3" />
-		<Monster name="Калечащий пресекатель" id="201" isBoss="True" hp="4960389" speciesId="1" />
-		<Monster name="Калечащий пресекатель" id="202" isBoss="True" hp="4960389" speciesId="7" />
-		<Monster name="Калечащий пресекатель" id="203" isBoss="True" hp="4960389" speciesId="0" />
-		<Monster name="Калечащий пресекатель" id="205" isBoss="True" hp="4960389" speciesId="7" />
-		<Monster name="Налетчик-пресекатель" id="301" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="302" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="303" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="304" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="305" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="306" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="401" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="402" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="404" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нексулитовый побочный продукт" id="602" isBoss="False" hp="9" speciesId="0" />
-		<Monster name="Калечащий пресекатель" id="701" isBoss="True" hp="4960389" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="702" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="703" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="704" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="705" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="706" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="707" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="708" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" speciesId="0" />
+	<Zone id="802" name="unknown" >
+		<Monster name="Король-пресекатель" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="201" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="202" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="203" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="205" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="301" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="302" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="303" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="304" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="305" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="306" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="401" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="402" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="404" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нексулитовый побочный продукт" id="602" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="701" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="702" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="703" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="704" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="705" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="706" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="707" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="708" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
-	<Zone id="803" name="Нексус: Грань Миров" >
-		<Monster name="Король-пресекатель" id="101" isBoss="True" hp="14487254" speciesId="3" />
-		<Monster name="Калечащий пресекатель" id="201" isBoss="True" hp="4960389" speciesId="1" />
-		<Monster name="Калечащий пресекатель" id="202" isBoss="True" hp="4960389" speciesId="7" />
-		<Monster name="Калечащий пресекатель" id="203" isBoss="True" hp="4960389" speciesId="0" />
-		<Monster name="Калечащий пресекатель" id="205" isBoss="True" hp="4960389" speciesId="7" />
-		<Monster name="Налетчик-пресекатель" id="301" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="302" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="303" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="304" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="305" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="306" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="401" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="402" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="404" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нексулитовый побочный продукт" id="602" isBoss="False" hp="9" speciesId="0" />
-		<Monster name="Калечащий пресекатель" id="701" isBoss="True" hp="4960389" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="702" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="703" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="704" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="705" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Налетчик-пресекатель" id="706" isBoss="False" hp="432760" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="707" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Нарушитель-пресекатель" id="708" isBoss="False" hp="127367" speciesId="0" />
-		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="10000" speciesId="0" />
+	<Zone id="803" name="unknown" >
+		<Monster name="Король-пресекатель" id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="201" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="202" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="203" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="205" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="301" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="302" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="303" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="304" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="305" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="306" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="401" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="402" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="404" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нексулитовый побочный продукт" id="602" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калечащий пресекатель" id="701" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="702" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="703" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="704" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="705" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Налетчик-пресекатель" id="706" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="707" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Нарушитель-пресекатель" id="708" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт обратно" id="1501" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="808" name="Арсенал Сабекс" >
 		<Monster name="Убейте монстров" id="911" isBoss="False" hp="0" speciesId="0" />
@@ -15284,270 +15296,270 @@
 		<Monster name="Кровопиец Тулсы" id="9011" isBoss="False" hp="37342" speciesId="0" />
 	</Zone>
 	<Zone id="885" name="Шпиль страха" >
-		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1502" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1503" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1504" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1505" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Призрачный кристалл" id="9999" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Монтори" id="88500" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Шериппа" id="88501" isBoss="True" hp="52800000" speciesId="5" />
-		<Monster name="Акаша" id="88504" isBoss="True" hp="192000000" speciesId="4" />
-		<Monster name="Арзакаар" id="88506" isBoss="True" hp="60000000" speciesId="1" />
-		<Monster name="Халварогг" id="88507" isBoss="True" hp="72000000" speciesId="0" />
-		<Monster name="Киллиан" id="88508" isBoss="True" hp="84000000" speciesId="4" />
-		<Monster name="Тулса" id="88509" isBoss="True" hp="360000000" speciesId="4" />
-		<Monster name="Аргонский хищник" id="88511" isBoss="True" hp="192000000" speciesId="0" />
-		<Monster name="Сараваш" id="88512" isBoss="True" hp="180000000" speciesId="0" />
-		<Monster name="Скулрегнат" id="88513" isBoss="True" hp="216000000" speciesId="0" />
-		<Monster name="Келсаик" id="88514" isBoss="True" hp="360000000" speciesId="4" />
-		<Monster name="Локмар Соргалур" id="88516" isBoss="True" hp="1080000000" speciesId="2" />
-		<Monster name="Мелкатран" id="88517" isBoss="True" hp="900000000" speciesId="2" />
-		<Monster name="Хратгол" id="88518" isBoss="True" hp="900000000" speciesId="2" />
-		<Monster name="Мелдита" id="88519" isBoss="True" hp="1260000000" speciesId="2" />
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1502" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1503" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1504" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1505" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Призрачный кристалл" id="9999" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монтори" id="88500" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Шериппа" id="88501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Акаша" id="88504" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Арзакаар" id="88506" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Халварогг" id="88507" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Киллиан" id="88508" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тулса" id="88509" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонский хищник" id="88511" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сараваш" id="88512" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скулрегнат" id="88513" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Келсаик" id="88514" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Локмар Соргалур" id="88516" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мелкатран" id="88517" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Хратгол" id="88518" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мелдита" id="88519" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Колеогг" id="88601" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Каприма" id="88602" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Мощная жеода" id="99991" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Дефектная жила" id="99999" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Заряженный Монтори" id="885004" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Опасный Монтори" id="885005" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Монтори с усиленным зарядом" id="885006" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Койна" id="885015" isBoss="True" hp="52800000" speciesId="5" />
-		<Monster name="Винтрос" id="885016" isBoss="True" hp="52800000" speciesId="5" />
-		<Monster name="Сильный василиск" id="885021" isBoss="True" hp="168000000" speciesId="7" />
-		<Monster name="Скрюченный василиск" id="885024" isBoss="True" hp="108000000" speciesId="7" />
-		<Monster name="Тералит кровавого камня" id="885032" isBoss="True" hp="72000000" speciesId="7" />
-		<Monster name="Наспех созданный голем" id="885037" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Незавершенный голем" id="885038" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Наг-служитель" id="885041" isBoss="False" hp="5400000" speciesId="0" />
-		<Monster name="Наг-адепт" id="885042" isBoss="False" hp="5400000" speciesId="0" />
-		<Monster name="Наг-шаман" id="885043" isBoss="False" hp="5400000" speciesId="0" />
-		<Monster name="Чумной кайман" id="885044" isBoss="False" hp="500000" speciesId="0" />
-		<Monster name="Заразный кайман" id="885045" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Кристалл выносливости" id="885051" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Кристалл силы" id="885052" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Кристалл мощи" id="885053" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Кристалл богатства" id="885054" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 4-е испытание" id="885055" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 9-е испытание" id="885056" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 14-е испытание" id="885057" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 20-е испытание" id="885058" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Сильный Арзакаар" id="885061" isBoss="True" hp="180000000" speciesId="1" />
-		<Monster name="Неуязвимый Арзакаар" id="885062" isBoss="True" hp="96000000" speciesId="1" />
-		<Monster name="Скрюченный Арзакаар" id="885064" isBoss="False" hp="108000000" speciesId="1" />
-		<Monster name="Алый Арзакаар" id="885065" isBoss="True" hp="60000000" speciesId="1" />
-		<Monster name="Лазурный Арзакаар" id="885066" isBoss="True" hp="60000000" speciesId="1" />
-		<Monster name="Лесная королева" id="885067" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Жестокий инквизитор" id="885068" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Сильный Халварогг" id="885071" isBoss="True" hp="216000000" speciesId="0" />
-		<Monster name="Неуязвимый Халварогг" id="885072" isBoss="True" hp="108000000" speciesId="0" />
-		<Monster name="Скрюченный Халварогг" id="885074" isBoss="False" hp="108000000" speciesId="0" />
-		<Monster name="Алый Халварогг" id="885075" isBoss="True" hp="72000000" speciesId="0" />
-		<Monster name="Лазурный Халварогг" id="885076" isBoss="True" hp="72000000" speciesId="0" />
-		<Monster name="Калланский эсквайр" id="885077" isBoss="False" hp="2500000" speciesId="2" />
-		<Monster name="Аргонский магистр-жрец" id="885078" isBoss="False" hp="2500000" speciesId="2" />
-		<Monster name="Сильный Киллиан" id="885081" isBoss="True" hp="252000000" speciesId="4" />
-		<Monster name="Неуязвимый Киллиан" id="885082" isBoss="True" hp="120000000" speciesId="4" />
-		<Monster name="Скрюченный Киллиан" id="885084" isBoss="False" hp="108000000" speciesId="4" />
-		<Monster name="Теркасия" id="885085" isBoss="True" hp="84000000" speciesId="4" />
-		<Monster name="Лазурный гидрат" id="885086" isBoss="True" hp="84000000" speciesId="4" />
-		<Monster name="Воин" id="885087" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Берсерк" id="885088" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Виджалек" id="885089" isBoss="False" hp="200000000" speciesId="1" />
-		<Monster name="Идущий-к-смерти" id="885090" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Пробуждающий смерть" id="885091" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Отрицающий смерть" id="885092" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Оскорбляющий смерть" id="885093" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Приспешник Тулсы" id="885095" isBoss="False" hp="900000000" speciesId="0" />
-		<Monster name="Урна амани" id="885101" isBoss="False" hp="10" speciesId="0" />
-		<Monster name="Урна попори" id="885102" isBoss="False" hp="50000" speciesId="0" />
-		<Monster name="Урна кастаника" id="885103" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Урна элин" id="885104" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Шаулик" id="885111" isBoss="False" hp="8000000" speciesId="0" />
-		<Monster name="Ралзира" id="885112" isBoss="False" hp="8000000" speciesId="0" />
-		<Monster name="Накара" id="885113" isBoss="False" hp="8000000" speciesId="0" />
-		<Monster name="Отравленный единорог" id="885114" isBoss="False" hp="3500000" speciesId="5" />
-		<Monster name="Порабощенный хозяин лягушек" id="885115" isBoss="False" hp="12600000" speciesId="0" />
-		<Monster name="Деванский разведчик" id="885116" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Капринский воин" id="885117" isBoss="False" hp="3500000" speciesId="5" />
-		<Monster name="Неистовый малигос" id="885118" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Горилла" id="885119" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Сурьяти" id="885121" isBoss="False" hp="3600000000" speciesId="0" />
-		<Monster name="Аргонская стена" id="885122" isBoss="False" hp="3000000" speciesId="0" />
+		<Monster name="Мощная жеода" id="99991" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дефектная жила" id="99999" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заряженный Монтори" id="885004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Опасный Монтори" id="885005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монтори с усиленным зарядом" id="885006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Койна" id="885015" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Винтрос" id="885016" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный василиск" id="885021" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный василиск" id="885024" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тералит кровавого камня" id="885032" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наспех созданный голем" id="885037" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Незавершенный голем" id="885038" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-служитель" id="885041" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-адепт" id="885042" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-шаман" id="885043" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Чумной кайман" id="885044" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заразный кайман" id="885045" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл выносливости" id="885051" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл силы" id="885052" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл мощи" id="885053" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл богатства" id="885054" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 4-е испытание" id="885055" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 9-е испытание" id="885056" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 14-е испытание" id="885057" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 20-е испытание" id="885058" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный Арзакаар" id="885061" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неуязвимый Арзакаар" id="885062" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный Арзакаар" id="885064" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Алый Арзакаар" id="885065" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лазурный Арзакаар" id="885066" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лесная королева" id="885067" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жестокий инквизитор" id="885068" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный Халварогг" id="885071" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неуязвимый Халварогг" id="885072" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный Халварогг" id="885074" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Алый Халварогг" id="885075" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лазурный Халварогг" id="885076" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калланский эсквайр" id="885077" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонский магистр-жрец" id="885078" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный Киллиан" id="885081" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неуязвимый Киллиан" id="885082" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный Киллиан" id="885084" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Теркасия" id="885085" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лазурный гидрат" id="885086" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Воин" id="885087" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Берсерк" id="885088" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Виджалек" id="885089" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Идущий-к-смерти" id="885090" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Пробуждающий смерть" id="885091" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отрицающий смерть" id="885092" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оскорбляющий смерть" id="885093" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Приспешник Тулсы" id="885095" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна амани" id="885101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна попори" id="885102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна кастаника" id="885103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна элин" id="885104" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Шаулик" id="885111" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ралзира" id="885112" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Накара" id="885113" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отравленный единорог" id="885114" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Порабощенный хозяин лягушек" id="885115" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Деванский разведчик" id="885116" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Капринский воин" id="885117" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неистовый малигос" id="885118" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Горилла" id="885119" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сурьяти" id="885121" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонская стена" id="885122" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Клыкастый пожиратель" id="885131" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Призрачный обелиск" id="885132" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Призрачный обелиск" id="885132" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Темный мародер" id="885133" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Пожиратель отравленной крови" id="885134" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Гула-обжора" id="885135" isBoss="False" hp="7000000" speciesId="0" />
-		<Monster name="Маленький Монтори" id="885152" isBoss="False" hp="200" speciesId="0" />
-		<Monster name="Отражение" id="885154" isBoss="False" hp="300000" speciesId="0" />
-		<Monster name="Заряженное отражение" id="885155" isBoss="False" hp="600000" speciesId="0" />
-		<Monster name="Опасное отражение" id="885156" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Отражение с усиленным зарядом" id="885157" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Мастер осколков" id="885158" isBoss="False" hp="10000000" speciesId="0" />
-		<Monster name="Надсмотрщик" id="885161" isBoss="False" hp="300000000" speciesId="2" />
-		<Monster name="Надсмотрщик" id="885164" isBoss="False" hp="300000000" speciesId="2" />
-		<Monster name="Надсмотрщик" id="885165" isBoss="False" hp="300000000" speciesId="2" />
-		<Monster name="Волсурус" id="885166" isBoss="False" hp="1080000000" speciesId="2" />
-		<Monster name="Аргонский жрец" id="885167" isBoss="False" hp="300000000" speciesId="2" />
+		<Monster name="Гула-обжора" id="885135" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Маленький Монтори" id="885152" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отражение" id="885154" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заряженное отражение" id="885155" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Опасное отражение" id="885156" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отражение с усиленным зарядом" id="885157" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мастер осколков" id="885158" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Надсмотрщик" id="885161" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Надсмотрщик" id="885164" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Надсмотрщик" id="885165" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Волсурус" id="885166" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонский жрец" id="885167" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Шандра Манайя" id="885200" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Сундук с сокровищами 21-го уровня" id="886011" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Сундук с сокровищами 22-го уровня" id="886022" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Маленький Монтори" id="886033" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Жуть" id="8850511" isBoss="False" hp="750000" speciesId="0" />
-		<Monster name="Дурной сон" id="8850512" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Испуг" id="8850513" isBoss="False" hp="750000" speciesId="0" />
-		<Monster name="Ночной страх" id="8850514" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Костяной лучник" id="8850611" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Костяной маг" id="8850612" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Костяной берсерк" id="8850613" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Темный рыцарь" id="8850614" isBoss="False" hp="5000000" speciesId="0" />
-		<Monster name="Темный жрец" id="8850615" isBoss="False" hp="5000000" speciesId="0" />
-		<Monster name="Темный воин" id="8850616" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Жуть" id="8850511" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дурной сон" id="8850512" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуг" id="8850513" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ночной страх" id="8850514" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной лучник" id="8850611" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной маг" id="8850612" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной берсерк" id="8850613" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Темный рыцарь" id="8850614" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Темный жрец" id="8850615" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Темный воин" id="8850616" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Творец кошмаров" id="8851111" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Скрюченный дух" id="8851112" isBoss="False" hp="500000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 16-е испытание" id="8851611" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 17-го испытания" id="8851612" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 17-е испытание" id="8851711" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 18-го испытания" id="8851712" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 18-е испытание" id="8851811" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 19-го испытания" id="8851812" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 19-е испытание" id="8851911" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 20-го испытания" id="8851912" isBoss="False" hp="2000000" speciesId="0" />
+		<Monster name="Скрюченный дух" id="8851112" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 16-е испытание" id="8851611" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 17-го испытания" id="8851612" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 17-е испытание" id="8851711" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 18-го испытания" id="8851712" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 18-е испытание" id="8851811" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 19-го испытания" id="8851812" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 19-е испытание" id="8851911" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 20-го испытания" id="8851912" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="886" name="Шпиль страха - верхние уровни" >
-		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1502" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1503" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1504" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Телепорт" id="1505" isBoss="False" hp="10000" speciesId="0" />
-		<Monster name="Призрачный кристалл" id="9999" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Монтори" id="88500" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Шериппа" id="88501" isBoss="True" hp="26400000" speciesId="5" />
-		<Monster name="Акаша" id="88504" isBoss="True" hp="96000000" speciesId="4" />
-		<Monster name="Арзакаар" id="88506" isBoss="True" hp="30000000" speciesId="1" />
-		<Monster name="Халварогг" id="88507" isBoss="True" hp="36000000" speciesId="0" />
-		<Monster name="Киллиан" id="88508" isBoss="True" hp="42000000" speciesId="4" />
-		<Monster name="Тулса" id="88509" isBoss="True" hp="180000000" speciesId="4" />
-		<Monster name="Аргонский хищник" id="88511" isBoss="True" hp="96000000" speciesId="0" />
-		<Monster name="Сараваш" id="88512" isBoss="True" hp="120000000" speciesId="0" />
-		<Monster name="Скулрегнат" id="88513" isBoss="True" hp="144000000" speciesId="0" />
-		<Monster name="Келсаик" id="88514" isBoss="True" hp="180000000" speciesId="4" />
-		<Monster name="Локмар Соргалур" id="88516" isBoss="True" hp="1100000000" speciesId="2" />
-		<Monster name="Мелкатран" id="88517" isBoss="True" hp="900000000" speciesId="2" />
-		<Monster name="Хратгол" id="88518" isBoss="True" hp="900000000" speciesId="2" />
-		<Monster name="Мелдита" id="88519" isBoss="True" hp="1300000000" speciesId="2" />
-		<Monster name="Колеогг" id="88601" isBoss="True" hp="1800000000" speciesId="0" />
-		<Monster name="Каприма" id="88602" isBoss="True" hp="2000000000" speciesId="10" />
-		<Monster name="Мощная жеода" id="99991" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Дефектная жила" id="99999" isBoss="False" hp="100" speciesId="0" />
-		<Monster name="Заряженный Монтори" id="885004" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Опасный Монтори" id="885005" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Монтори с усиленным зарядом" id="885006" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Койна" id="885015" isBoss="True" hp="26400000" speciesId="5" />
-		<Monster name="Винтрос" id="885016" isBoss="True" hp="26400000" speciesId="5" />
-		<Monster name="Сильный василиск" id="885021" isBoss="True" hp="84000000" speciesId="7" />
-		<Monster name="Скрюченный василиск" id="885024" isBoss="True" hp="36000000" speciesId="7" />
-		<Monster name="Тералит кровавого камня" id="885032" isBoss="True" hp="36000000" speciesId="7" />
-		<Monster name="Наспех созданный голем" id="885037" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Незавершенный голем" id="885038" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Наг-служитель" id="885041" isBoss="False" hp="1800000" speciesId="0" />
-		<Monster name="Наг-адепт" id="885042" isBoss="False" hp="1800000" speciesId="0" />
-		<Monster name="Наг-шаман" id="885043" isBoss="False" hp="1800000" speciesId="0" />
-		<Monster name="Чумной кайман" id="885044" isBoss="False" hp="500000" speciesId="0" />
-		<Monster name="Заразный кайман" id="885045" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Кристалл выносливости" id="885051" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Кристалл силы" id="885052" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Кристалл мощи" id="885053" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Кристалл богатства" id="885054" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 4-е испытание" id="885055" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 9-е испытание" id="885056" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 14-е испытание" id="885057" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Сундук с сокровищами 22 уровня" id="885058" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Сильный Арзакаар" id="885061" isBoss="True" hp="90000000" speciesId="1" />
-		<Monster name="Неуязвимый Арзакаар" id="885062" isBoss="True" hp="48000000" speciesId="1" />
-		<Monster name="Скрюченный Арзакаар" id="885064" isBoss="False" hp="36000000" speciesId="1" />
-		<Monster name="Алый Арзакаар" id="885065" isBoss="True" hp="30000000" speciesId="1" />
-		<Monster name="Лазурный Арзакаар" id="885066" isBoss="True" hp="30000000" speciesId="1" />
-		<Monster name="Лесная королева" id="885067" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Жестокий инквизитор" id="885068" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Сильный Халварогг" id="885071" isBoss="True" hp="108000000" speciesId="0" />
-		<Monster name="Неуязвимый Халварогг" id="885072" isBoss="True" hp="54000000" speciesId="0" />
-		<Monster name="Скрюченный Халварогг" id="885074" isBoss="False" hp="36000000" speciesId="0" />
-		<Monster name="Алый Халварогг" id="885075" isBoss="True" hp="36000000" speciesId="0" />
-		<Monster name="Лазурный Халварогг" id="885076" isBoss="True" hp="36000000" speciesId="0" />
-		<Monster name="Калланский эсквайр" id="885077" isBoss="False" hp="2500000" speciesId="2" />
-		<Monster name="Аргонский магистр-жрец" id="885078" isBoss="False" hp="2500000" speciesId="2" />
-		<Monster name="Сильный Киллиан" id="885081" isBoss="True" hp="126000000" speciesId="4" />
-		<Monster name="Неуязвимый Киллиан" id="885082" isBoss="True" hp="60000000" speciesId="4" />
-		<Monster name="Скрюченный Киллиан" id="885084" isBoss="False" hp="36000000" speciesId="4" />
-		<Monster name="Теркасия" id="885085" isBoss="True" hp="42000000" speciesId="4" />
-		<Monster name="Лазурный гидрат" id="885086" isBoss="True" hp="42000000" speciesId="4" />
-		<Monster name="Воин" id="885087" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Берсерк" id="885088" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Виджалек" id="885089" isBoss="False" hp="200000000" speciesId="1" />
-		<Monster name="Идущий-к-смерти" id="885090" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Пробуждающий смерть" id="885091" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Отрицающий смерть" id="885092" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Оскорбляющий смерть" id="885093" isBoss="False" hp="1200000" speciesId="0" />
-		<Monster name="Приспешник Тулсы" id="885095" isBoss="False" hp="900000000" speciesId="0" />
-		<Monster name="Урна амани" id="885101" isBoss="False" hp="10" speciesId="0" />
-		<Monster name="Урна попори" id="885102" isBoss="False" hp="50000" speciesId="0" />
-		<Monster name="Урна кастаника" id="885103" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Урна элин" id="885104" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Шаулик" id="885111" isBoss="False" hp="8000000" speciesId="0" />
-		<Monster name="Ралзира" id="885112" isBoss="False" hp="8000000" speciesId="0" />
-		<Monster name="Накара" id="885113" isBoss="False" hp="8000000" speciesId="0" />
-		<Monster name="Отравленный единорог" id="885114" isBoss="False" hp="3500000" speciesId="5" />
-		<Monster name="Порабощенный хозяин лягушек" id="885115" isBoss="False" hp="4200000" speciesId="0" />
-		<Monster name="Деванский разведчик" id="885116" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Капринский воин" id="885117" isBoss="False" hp="3500000" speciesId="5" />
-		<Monster name="Неистовый малигос" id="885118" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Горилла" id="885119" isBoss="False" hp="3500000" speciesId="0" />
-		<Monster name="Сурьяти" id="885121" isBoss="False" hp="1200000000" speciesId="0" />
-		<Monster name="Аргонская стена" id="885122" isBoss="False" hp="3000000" speciesId="0" />
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1502" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1503" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1504" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт" id="1505" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Призрачный кристалл" id="9999" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монтори" id="88500" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Шериппа" id="88501" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Акаша" id="88504" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Арзакаар" id="88506" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Халварогг" id="88507" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Киллиан" id="88508" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тулса" id="88509" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонский хищник" id="88511" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сараваш" id="88512" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скулрегнат" id="88513" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Келсаик" id="88514" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Локмар Соргалур" id="88516" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мелкатран" id="88517" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Хратгол" id="88518" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мелдита" id="88519" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Колеогг" id="88601" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Каприма" id="88602" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мощная жеода" id="99991" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дефектная жила" id="99999" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заряженный Монтори" id="885004" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Опасный Монтори" id="885005" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Монтори с усиленным зарядом" id="885006" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Койна" id="885015" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Винтрос" id="885016" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный василиск" id="885021" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный василиск" id="885024" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Тералит кровавого камня" id="885032" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наспех созданный голем" id="885037" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Незавершенный голем" id="885038" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-служитель" id="885041" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-адепт" id="885042" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-шаман" id="885043" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Чумной кайман" id="885044" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заразный кайман" id="885045" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл выносливости" id="885051" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл силы" id="885052" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл мощи" id="885053" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кристалл богатства" id="885054" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 4-е испытание" id="885055" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 9-е испытание" id="885056" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 14-е испытание" id="885057" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сундук с сокровищами 22 уровня" id="885058" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный Арзакаар" id="885061" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неуязвимый Арзакаар" id="885062" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный Арзакаар" id="885064" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Алый Арзакаар" id="885065" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лазурный Арзакаар" id="885066" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лесная королева" id="885067" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жестокий инквизитор" id="885068" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный Халварогг" id="885071" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неуязвимый Халварогг" id="885072" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный Халварогг" id="885074" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Алый Халварогг" id="885075" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лазурный Халварогг" id="885076" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Калланский эсквайр" id="885077" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонский магистр-жрец" id="885078" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сильный Киллиан" id="885081" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неуязвимый Киллиан" id="885082" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Скрюченный Киллиан" id="885084" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Теркасия" id="885085" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Лазурный гидрат" id="885086" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Воин" id="885087" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Берсерк" id="885088" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Виджалек" id="885089" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Идущий-к-смерти" id="885090" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Пробуждающий смерть" id="885091" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отрицающий смерть" id="885092" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Оскорбляющий смерть" id="885093" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Приспешник Тулсы" id="885095" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна амани" id="885101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна попори" id="885102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна кастаника" id="885103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Урна элин" id="885104" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Шаулик" id="885111" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ралзира" id="885112" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Накара" id="885113" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отравленный единорог" id="885114" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Порабощенный хозяин лягушек" id="885115" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Деванский разведчик" id="885116" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Капринский воин" id="885117" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Неистовый малигос" id="885118" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Горилла" id="885119" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сурьяти" id="885121" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонская стена" id="885122" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Клыкастый пожиратель" id="885131" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Призрачный обелиск" id="885132" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Призрачный обелиск" id="885132" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Темный мародер" id="885133" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Пожиратель отравленной крови" id="885134" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Гула-обжора" id="885135" isBoss="False" hp="7000000" speciesId="0" />
-		<Monster name="Маленький Монтори" id="885152" isBoss="False" hp="200" speciesId="0" />
-		<Monster name="Отражение" id="885154" isBoss="False" hp="300000" speciesId="0" />
-		<Monster name="Заряженное отражение" id="885155" isBoss="False" hp="600000" speciesId="0" />
-		<Monster name="Опасное отражение" id="885156" isBoss="False" hp="1000000" speciesId="0" />
-		<Monster name="Отражение с усиленным зарядом" id="885157" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Мастер осколков" id="885158" isBoss="False" hp="10000000" speciesId="0" />
-		<Monster name="Надсмотрщик" id="885161" isBoss="False" hp="300000000" speciesId="2" />
-		<Monster name="Надсмотрщик" id="885164" isBoss="False" hp="300000000" speciesId="2" />
-		<Monster name="Надсмотрщик" id="885165" isBoss="False" hp="300000000" speciesId="2" />
-		<Monster name="Волсурус" id="885166" isBoss="False" hp="360000000" speciesId="2" />
-		<Monster name="Аргонский жрец" id="885167" isBoss="False" hp="300000000" speciesId="2" />
-		<Monster name="Шандра Манайя" id="885200" isBoss="True" hp="2100000000" speciesId="2" />
-		<Monster name="Трофеи Монтори: 20-е испытание" id="886011" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Сундук с сокровищами 21-го уровня" id="886022" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Маленький Монтори" id="886033" isBoss="False" hp="1400000000" speciesId="0" />
-		<Monster name="Жуть" id="8850511" isBoss="False" hp="750000" speciesId="0" />
-		<Monster name="Дурной сон" id="8850512" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Испуг" id="8850513" isBoss="False" hp="750000" speciesId="0" />
-		<Monster name="Ночной страх" id="8850514" isBoss="False" hp="1500000" speciesId="0" />
-		<Monster name="Костяной лучник" id="8850611" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Костяной маг" id="8850612" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Костяной берсерк" id="8850613" isBoss="False" hp="3000000" speciesId="0" />
-		<Monster name="Темный рыцарь" id="8850614" isBoss="False" hp="5000000" speciesId="0" />
-		<Monster name="Темный жрец" id="8850615" isBoss="False" hp="5000000" speciesId="0" />
-		<Monster name="Темный воин" id="8850616" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Гула-обжора" id="885135" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Маленький Монтори" id="885152" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отражение" id="885154" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Заряженное отражение" id="885155" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Опасное отражение" id="885156" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Отражение с усиленным зарядом" id="885157" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Мастер осколков" id="885158" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Надсмотрщик" id="885161" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Надсмотрщик" id="885164" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Надсмотрщик" id="885165" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Волсурус" id="885166" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Аргонский жрец" id="885167" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Шандра Манайя" id="885200" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 20-е испытание" id="886011" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Сундук с сокровищами 21-го уровня" id="886022" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Маленький Монтори" id="886033" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жуть" id="8850511" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Дурной сон" id="8850512" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Испуг" id="8850513" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Ночной страх" id="8850514" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной лучник" id="8850611" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной маг" id="8850612" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Костяной берсерк" id="8850613" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Темный рыцарь" id="8850614" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Темный жрец" id="8850615" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Темный воин" id="8850616" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Творец кошмаров" id="8851111" isBoss="False" hp="0" speciesId="0" />
-		<Monster name="Скрюченный дух" id="8851112" isBoss="False" hp="500000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 16-е испытание" id="8851611" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 17-го испытания" id="8851612" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 17-е испытание" id="8851711" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 18-го испытания" id="8851712" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 18-е испытание" id="8851811" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 19-го испытания" id="8851812" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Трофеи Монтори: 19-е испытание" id="8851911" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 22-го испытания" id="8851912" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 20-го испытания" id="8852012" isBoss="False" hp="2000000" speciesId="0" />
-		<Monster name="Телепорт 21-го испытания" id="8852112" isBoss="False" hp="2000000" speciesId="0" />
+		<Monster name="Скрюченный дух" id="8851112" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 16-е испытание" id="8851611" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 17-го испытания" id="8851612" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 17-е испытание" id="8851711" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 18-го испытания" id="8851712" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 18-е испытание" id="8851811" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 19-го испытания" id="8851812" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Трофеи Монтори: 19-е испытание" id="8851911" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 22-го испытания" id="8851912" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 20-го испытания" id="8852012" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Телепорт 21-го испытания" id="8852112" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
 	<Zone id="887" name="Бастион Лока (соло)" >
 		<Monster name="Мурдранак" id="101" isBoss="False" hp="6413" speciesId="0" />
@@ -17114,6 +17126,7 @@
 		<Monster name="Сержант отряда 1" id="1020" isBoss="False" hp="140000000" speciesId="6" />
 		<Monster name="Кристоф" id="5002" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Торговец [????] репутацией" id="5003" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Шукри" id="8000" isBoss="False" hp="24879054" speciesId="6" />
 	</Zone>
 	<Zone id="2051" name="Эксодор" >
 		<Monster name="Прыжок Аргафа" id="1" isBoss="False" hp="10000" speciesId="0" />
@@ -18137,13 +18150,29 @@
 		<Monster name="Победите Калиоса на сложном уровне." id="92002" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="Победите Антароса на сложном уровне." id="92003" isBoss="False" hp="0" speciesId="0" />
 	</Zone>
+	<Zone id="3030" name="Область ядра" >
+		<Monster name="Махнак" id="1000" isBoss="True" hp="60000000000" speciesId="6" />
+		<Monster name="Ледяной маг" id="1010" isBoss="False" hp="120000000" speciesId="6" />
+		<Monster name="Огненный маг" id="1011" isBoss="False" hp="120000000" speciesId="6" />
+		<Monster name="Мощный передовой боец" id="1012" isBoss="False" hp="120000000" speciesId="6" />
+		<Monster name="Мощный передовой боец" id="1013" isBoss="False" hp="120000000" speciesId="6" />
+		<Monster name="Мощный передовой боец" id="1014" isBoss="False" hp="120000000" speciesId="6" />
+		<Monster name="Мощный передовой боец" id="1015" isBoss="False" hp="120000000" speciesId="6" />
+		<Monster name="Мощный передовой боец" id="1016" isBoss="False" hp="120000000" speciesId="6" />
+		<Monster name="Элитный солдат" id="1017" isBoss="False" hp="140000000" speciesId="6" />
+		<Monster name="Элитный солдат" id="1018" isBoss="False" hp="140000000" speciesId="6" />
+		<Monster name="Элитный солдат" id="1019" isBoss="False" hp="140000000" speciesId="6" />
+		<Monster name="Элитный солдат" id="1020" isBoss="False" hp="140000000" speciesId="6" />
+		<Monster name="Телепорт" id="5000" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="5001" isBoss="False" hp="10000" speciesId="0" />
+	</Zone>
 	<Zone id="3031" name="Зона ядра" >
 		<Monster name="Мутант из трясины" id="100" isBoss="False" hp="89683976" speciesId="0" />
 		<Monster name="Бесчестный наг-мутант" id="200" isBoss="True" hp="89683976" speciesId="6" />
 		<Monster name="Бесчестная блестящая ящерица" id="300" isBoss="True" hp="89683976" speciesId="0" />
 		<Monster name="Бесчестная личинка Парфона" id="400" isBoss="True" hp="89683976" speciesId="0" />
 		<Monster name="Кайман-вор" id="1000" isBoss="False" hp="45683976" speciesId="0" />
-		<Monster name="Кайман-вор" id="1001" isBoss="False" hp="1000000000" speciesId="0" />
+		<Monster name="Кайман-вор" id="1001" isBoss="False" hp="1500000000" speciesId="0" />
 		<Monster name="Магическая святыня Эксодора" id="4001" isBoss="False" hp="7174718" speciesId="0" />
 		<Monster name="Оставшийся целитель" id="4004" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Телепорт" id="5001" isBoss="False" hp="10000" speciesId="0" />
@@ -18151,6 +18180,88 @@
 		<Monster name="Укрепление ядра" id="6002" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Укрепление ядра" id="6003" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="Укрепление ядра" id="6004" isBoss="False" hp="10000" speciesId="0" />
+	</Zone>
+	<Zone id="3032" name="[Тренировка] Секретное подземелье крепости Берарк" >
+		<Monster name="Уничтожьте обычных монстров." id="100" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Уничтожьте акалата Трабана." id="101" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Уничтожьте обычных монстров." id="102" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Уничтожьте акалата Кашира." id="103" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Наг-рыцарь" id="200" isBoss="False" hp="1244877" speciesId="0" />
+		<Monster name="Высший дракон-покоритель" id="201" isBoss="False" hp="2744877" speciesId="0" />
+		<Monster name="Торговец товаров для тренировок" id="999" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Акалат Трабан" id="1000" isBoss="True" hp="13824000000" speciesId="2" />
+		<Monster name="Волшебный камень рыцаря" id="1050" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Рыцарь" id="1051" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="Волшебный камень жреца" id="1052" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Жрец" id="1053" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="1. Гайде" id="1054" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1502" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1503" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Акалат Кашир" id="2000" isBoss="True" hp="15360000000" speciesId="2" />
+		<Monster name="Волшебный камень рыцаря" id="2050" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Рыцарь" id="2051" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="Волшебный камень жреца" id="2052" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Жрец" id="2053" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="2. Гайде" id="2054" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Волшебный камень рыцаря" id="3050" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Рыцарь" id="3051" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Волшебный камень жреца" id="3052" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Жрец" id="3053" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="3. Гайде" id="3054" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Эффект волшебного камня жреца" id="6001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Эффект волшебного камня мистика" id="6002" isBoss="False" hp="0" speciesId="0" />
+	</Zone>
+	<Zone id="3033" name="[Тренировка] Гнездо Паркин (сложно)" >
+		<Monster name="Победите Ферву." id="911" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Преодолейте препятствие и отключите насос." id="912" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Победите Кошмарную Паркин." id="913" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Торговец товаров для тренировок" id="999" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Ферва" id="1000" isBoss="True" hp="10620000000" speciesId="0" />
+		<Monster name="Волшебный камень рыцаря" id="1050" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Рыцарь" id="1051" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="Волшебный камень жреца" id="1052" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Жрец" id="1053" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="1. Гайде" id="1054" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1502" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1503" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Кошмарная Паркин" id="2000" isBoss="True" hp="8030000000" speciesId="0" />
+		<Monster name="Яйцо Паркин" id="2001" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Волшебный камень рыцаря" id="2050" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Рыцарь" id="2051" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="Волшебный камень жреца" id="2052" isBoss="False" hp="10" speciesId="0" />
+		<Monster name="Жрец" id="2053" isBoss="False" hp="99999999999" speciesId="0" />
+		<Monster name="2. Гайде" id="2054" isBoss="False" hp="5000000" speciesId="0" />
+		<Monster name="Эффект волшебного камня жреца" id="6001" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Эффект волшебного камня мистика" id="6002" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Кошмарная Паркин" id="320127" isBoss="False" hp="0" speciesId="0" />
+	</Zone>
+	<Zone id="3034" name="Ангар RK-9 (сложно)" >
+		<Monster name="Телепорт" id="100" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="101" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="102" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="103" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="104" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Последуйте за загадочным старцем в портал." id="911" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Воспользуйтесь порталом Усилителя энергии." id="912" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Победите Вентарона." id="913" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Активируйте все устройства блокировки магнитного поля." id="914" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Победите Гексапреона." id="915" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Убейте разъяренного RK-9." id="916" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="Вентарон" id="1000" isBoss="True" hp="7344000000" speciesId="9" />
+		<Monster name="Часовая бомба" id="1009" isBoss="False" hp="28687500" speciesId="0" />
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Гексапреон" id="2000" isBoss="True" hp="7833600000" speciesId="9" />
+		<Monster name="Разъяренный RK-9" id="3000" isBoss="True" hp="30348500000" speciesId="9" />
+		<Monster name="Ящик с деталями в ангаре" id="5000" isBoss="False" hp="500000" speciesId="0" />
+		<Monster name="Ящик Лэндона" id="5001" isBoss="False" hp="500000" speciesId="0" />
+		<Monster name="Загадочный старик" id="6002" isBoss="False" hp="1" speciesId="0" />
+		<Monster name="Лэндон" id="6003" isBoss="False" hp="1" speciesId="0" />
+		<Monster name="Лэндон" id="6004" isBoss="False" hp="1" speciesId="0" />
+		<Monster name="Дневник Лэндона 14" id="6005" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Дневник Лэндона 239" id="6006" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="6007" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
 	<Zone id="3101" name="Гнездо Паркин" >
 		<Monster name="Убейте Ферву" id="911" isBoss="False" hp="0" speciesId="0" />
@@ -18171,6 +18282,11 @@
 		<Monster name="Калигар" id="1001" isBoss="False" hp="13038" speciesId="0" />
 		<Monster name="Калигар" id="1002" isBoss="False" hp="13038" speciesId="0" />
 		<Monster name="Калигар" id="1003" isBoss="False" hp="13038" speciesId="0" />
+	</Zone>
+	<Zone id="3103" name="" >
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1502" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Потерянная книга" id="6000" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
 	<Zone id="3126" name="Логово Бессмертного Келсаика" >
 		<Monster name="Уничтожьте монстров, стерегущих тоннель перед входом." id="100" isBoss="False" hp="10000" speciesId="0" />
@@ -18215,6 +18331,11 @@
 		<Monster name="Разъяренный Калигар" id="1001" isBoss="False" hp="13038" speciesId="0" />
 		<Monster name="Разъяренный Калигар" id="1002" isBoss="False" hp="13038" speciesId="0" />
 		<Monster name="Разъяренный Калигар" id="1003" isBoss="False" hp="13038" speciesId="0" />
+	</Zone>
+	<Zone id="3203" name="" >
+		<Monster name="Телепорт" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Телепорт" id="1502" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="Потерянная книга" id="6000" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
 	<Zone id="9999" name="unknown" >
 		<Monster name="Авангард" id="9999" isBoss="False" hp="0" speciesId="0" />
