@@ -500,6 +500,7 @@
 203	SMT_CANT_MESSAGE_BATTLEFIELD	戦場では個人チャットチャンネルを使用できません。
 203	SMT_CANT_MESSAGE_WHISPER_BATTLEFIELD	戦場内部では敵軍にささやきを送ることはできません。
 203	SMT_CANT_MOUNT_THIS_STATE	今は乗り物を利用できません。
+203	SMT_CANT_MOUNT_BECAUSE_NOT_EQUIPED	搭乗スキル使用に必要なアイテムを装着していないため、スキル使用に失敗しました。
 203	SMT_CANT_MOVE_ITEM	今はこのアイテムを移動できません。
 203	SMT_CANT_PARCEL_CURSE_EQUIP_ITEM	呪いの装備はメール送付できません。
 203	SMT_CANT_PARCEL_DREAM_PIECE	夢の破片はメール送付できません。
@@ -809,13 +810,16 @@
 201	SMT_DUNGEONMATCHING_BONUS_COMPENSATION	ダンジョン目標達成の報酬が、メールで送付されました。
 201	SMT_DUNGEONMATCHING_CALL_COMPENSATION	ヴァルキオン召集命令の報酬がメールで支給されました。
 201	SMT_DUNGEONMATCHING_CANCEL	ダンジョン{party}マッチングをキャンセルしました。
+201	SMT_DUNGEONMATCHING_CANCEL2	パーティー状態が変更されたため、マッチングがキャンセルされました。
 203	SMT_DUNGEONMATCHING_CANNOT	サーバー間{party}マッチング状態では実行できません。
-203	SMT_DUNGEONMATCHING_CANNOT_TELEPORT	サーバー間{party}マッチング状態ではないため、入場できません。
+203	SMT_DUNGEONMATCHING_CANNOT_TELEPORT	{party}マッチング状態ではないため、入場できません。
 203	SMT_DUNGEONMATCHING_CANT_PARTY_BAN	{party}メンバーの追放はダンジョン内でのみ可能です。
 203	SMT_DUNGEONMATCHING_CANT_REQUEST1	パーティー内にマッチング条件を満たしていないメンバーがいます。
 203	SMT_DUNGEONMATCHING_CANT_REQUEST2	既にメンバーが揃っています。
 203	SMT_DUNGEONMATCHING_CANT_REQUEST3	メンバー構成が正しくありません。
 203	SMT_DUNGEONMATCHING_CANT_REQUEST4	{UserName}は現在、マッチング申請ができない地域にいます。
+203	SMT_DUNGEONMATCHING_CANT_REQUEST6	該当待機室はマッチング登録できません。
+203	SMT_DUNGEONMATCHING_CANT_REQUEST7	入場条件を満たしていないため、マッチング登録ができませんでした。
 203	SMT_DUNGEONMATCHING_DEL_REQUEST	ダンジョンパーティーマッチングをキャンセル中です。少々お待ちください。
 201	SMT_DUNGEONMATCHING_DOING	{party}マッチング進行中です。少々お待ちください。
 201	SMT_DUNGEONMATCHING_JOIN_COMPENSATION	{party}マッチング追加募集の報酬がメールで支給されました。
@@ -1262,6 +1266,7 @@
 201	SMT_ITEM_MIX_SUCCESS	アイテム調合に成功しました。
 203	SMT_ITEM_RECEIVER_INVEN_FULL	{UserName}のかばんがいっぱいのため、アイテムを分配できません。
 203	SMT_ITEM_RESET_CANT	オプションを変更できるアイテムではありません。
+203	SMT_ITEM_RESET_BIND	帰属されていないアイテムには使用できません。
 201	SMT_ITEM_RESET_SUCCESS	オプションの変更に成功しました。
 204	SMT_ITEM_ROULETTE_VALUE	{ItemName}：{UserName}のダイス　{Amount}
 203	SMT_ITEM_UNBIND_MSGBOX_MESSAGE	{ItemName}は{UnbindCount}回解放可能です。解放しますか。
@@ -2276,7 +2281,7 @@
 302	SMT_ACCESSORY_TRANSFORMER_CANNOT_USE_WHILE_TRANSFORMING	変更の途中にはアクセサリーの位置サイズを変更する事はできません。
 302	SMT_ACCESSORY_TRANSFORMER_CLOSED	現在は使用できない機能です。
 302	SMT_ACCESSORY_TRANSFORMER_ONLY_HAIR_TRANSFORMING	一部の頭アバターのみ調節できます。
-302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	最初の1回は無料でアクセサリーを変換できます。以後、変更のためには[{ItemName}]が必要です。
+302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	帽子の形を変換しますか？<br>（最初の1回は無料であり、以後、変更のためには[{ItemName}]が必要です。）
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE	変更内容を保存するために[{ItemName}]を<font color = '#00FFFF'>{Amount}</font>個使用します。
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE_NOCOST	変更した内容を保存しますか？
 201	SMT_OPTIONRESET_FAIL	オプション変更に失敗しました。
