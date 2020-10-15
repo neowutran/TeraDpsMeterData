@@ -210,6 +210,7 @@
 203	SMT_BF_CANT_USE_ITEM	해당 아이템은 전장에서 사용할 수 없습니다.
 203	SMT_BF_CANT_USE_SKILL_BEFORE_BATTLE	전장 내에서 사용할 수 없는 스킬입니다.
 203	SMT_BF_CANT_USE_SKILL_OUTSIDE_AREA	스킬을 사용할 수 있는 영역이 아닙니다.
+203	SMT_BF_CANT_BAN_PARTY_MEMBER	전장 내에서 사용할 수 없는 기능입니다.
 302	SMT_BF_CAPTURE_ADDTIME	{stronghold}을 점령하여 남은 시간이 {minute}분 추가되었습니다.
 302	SMT_BF_CAPTURE_ADDTIME_ENEMY	{stronghold}이 점령되어 남은 시간이 {minute}분 추가되었습니다.
 201	SMT_BF_CHATMSG_ATTACKED_STRONGHOLD	{player}님에게 {stronghold}{을} 공격당했습니다.
@@ -570,7 +571,7 @@
 203	SMT_CAN_ONLY_ENTER_PARTY_FREE_SERVICE	본 계정등급 이용 중에는 {party} 참가만 가능합니다.
 203	SMT_CAN_ONLY_RECEIVE_MAIL_BY_MINIMAP_BUTTON	우편 발송및 물품 받기는 창고지기를 통해서만 할 수 있습니다.
 203	SMT_CAN_ONLY_RECEIVE_MAIL_FREE_SERVICE	본 계정등급 이용 중에는 우편 수신만 가능합니다.
-203	SMT_CAN_PARTY_BAN_ONLY_IN_DUNGEON	던전 내의 {party}원 추방은 던전 내에서만 가능합니다.
+203	SMT_CAN_PARTY_BAN_ONLY_IN_DUNGEON	던전 입장 후 초기화가 가능합니다.
 203	SMT_CBF_FLYSHIP_CANT_DROP	낙하 가능 구역이 아닙니다.
 201	SMT_CHANGELOOK_PROGRESS_CANCEL	외형변경 진행을 취소했습니다.
 201	SMT_CHANGELOOK_PROGRESS_SUCCESS	외형변경이 성공적으로 완료되었습니다.
@@ -1708,6 +1709,8 @@
 201	SMT_REJECT_TRADE	{UserName}님이 교환을 거절했습니다.
 201	SMT_REJECT_TRADE_OPPONENT	{Opponent}님이 교환을 거절했습니다.
 204	SMT_REJECT_VOTE_PARTYPLAYER_BAN	반대한 사람이 있어 추방 투표가 무산되었습니다.
+204	SMT_REJECT_VOTE_PARTY_DUNGEONRESET	반대한 사람이 있어 던전 리셋이 무산되었습니다.
+204	SMT_REJECT_VOTE_PARTY_DISMISS	반대한 사람이 있어 파티 해산이 무산되었습니다.
 201	SMT_REMAIN_PLAY_TIME_HOUR	플레이 가능한 시간이 {Hour}시간 남았습니다.
 201	SMT_REMAIN_PLAY_TIME_MINUTE	플레이 가능한 시간이 {Minute}분 남았습니다.
 201	SMT_REMOVE_PARTY_SEARCH_FAILED	SMT_REMOVE_PARTY_SEARCH_FAILED
@@ -1749,13 +1752,13 @@
 203	SMT_RETURN_PCBANG_CRYSTAL_MESSAGE	PC방에서만 사용 가능한 장비가 삭제되었을 경우, 이미 장착되어 있던 크리스탈, 아티팩트는 반환됩니다.
 203	SMT_RETURN_PCBANG_CRYSTAL_SENDER	PC방 플레이 도우미
 203	SMT_RETURN_PCBANG_CRYSTAL_TITLE	크리스탈, 아티팩트 반환 안내
-203	SMT_RE_ABUSE_LETTER_RESTRICTION	{desc}에 금칙어가 포함될 수 없습니다.
+203	SMT_RE_ABUSE_LETTER_RESTRICTION	이미 사용 중이거나 사용이 불가능한 이름입니다.
 203	SMT_RE_ALPHANUMERICONLY_RESTRICTION	{desc}에는 영문/숫자만 사용할 수 있습니다.
 203	SMT_RE_BLANK_RESTRICTION	{desc}에 공백 문자가 들어갈 수 없습니다.
 203	SMT_RE_CHINESE_CLASSICS_RESTRICTION	{desc}에 한자는 쓸 수 없습니다.
-203	SMT_RE_CONFIG_LETTER_RESTRICTION	{desc}에 설정상 사용할 수 없는 단어가 있습니다.
+203	SMT_RE_CONFIG_LETTER_RESTRICTION	이미 사용 중이거나 사용이 불가능한 이름입니다.
 203	SMT_RE_EXPANDED_HANGEUL_RESTRICTION	{desc}에 확장 한글이 포함될 수 없습니다.
-203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	{desc}에 사용할 수 없는 단어가 있습니다.
+203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	이미 사용 중이거나 사용이 불가능한 이름입니다.
 203	SMT_RE_IMPERFECT_HANGEUL_RESTRICTION	{desc}에 비완성형 한글이 포함될 수 없습니다.
 203	SMT_RE_LENGTHASCIIONLY_RESTRICTION	{desc}의 영문/숫자 길이는 최대 {max}자여야 합니다.
 203	SMT_RE_LENGTH_RESTRICTION	{desc}의 길이는 최대 {max}자(한글 {nonasciimax}자)여야 합니다.
@@ -2099,7 +2102,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	기간제로 사용 가능한 {Item} 아이템의 사용 가능 기간이 얼마 남지 않았습니다. 기간이 만료된 아이템은 자동으로 사라집니다.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	명품이거나 강화 된 장비 입니다.
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	임시 창고에 물품이 존재합니다. 임시 창고를 확인하여 주십시오.
-203	SMT_WARN_PLAY_MATINEE	현재 선택된 캐릭터가 없거나, 선택된 캐릭터에 해당하는 영상이 존재하지 않아 재생할 수 없습니다.
+203	SMT_WARN_PLAY_MATINEE	캐릭터를 선택 후 동영상을 재생해주세요.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	서버 통합으로 길드 이름이 변경되었습니다. 길드 정보 항목에서 길드 이름 변경이 가능합니다.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	이미 소환된 대상이 존재합니다.
 201	SMT_WORLD_CHANNEL_MOVED	{number}번 채널로 이동했습니다.
@@ -2269,6 +2272,7 @@
 203	SMT_DUALOPTION_STRING_BEFORE	듀얼 옵션 활성화 : 장비를 [Shift + 우클릭]
 203	SMT_DUALOPTION_STRING_AFTER	듀얼 옵션 교체 : [Shift + 우클릭]<br>다른 옵션 확인 : [Ctrl]
 203	SMT_HUDDLEADDING_USER	{Username}님은 아이템 및 골드 양도가 제한된 상태입니다.
+203	SMT_HUDDLEADDING_USER_LEVEL3	{Username}님은 아이템 및 골드 양도가 제한된 상태입니다.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	대상과의 거리가 너무 가까워 스킬을 시전할 수 없습니다.
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	던전 내에서만 사용 가능합니다.
 203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	해당 기능은 파티장만 사용 가능합니다.
@@ -2281,7 +2285,7 @@
 302	SMT_ACCESSORY_TRANSFORMER_CANNOT_USE_WHILE_TRANSFORMING	변신 중에는 악세서리 변환기를 사용하실 수 없습니다.
 302	SMT_ACCESSORY_TRANSFORMER_CLOSED	현재는 사용할 수 없는 기능입니다.
 302	SMT_ACCESSORY_TRANSFORMER_ONLY_HAIR_TRANSFORMING	헤어 액세서리만 조절 가능합니다.
-302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	모자 액세서리를 변환하시겠습니까?<br>(최초 1회는 무료이며, 이후 변경 시 명품관에서 판매하는 [{ItemName}]{가} 필요합니다.)
+302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	최초 1회는 무료로 액세서리를 변환 가능 합니다. 이후 변경을 위해서는 [{ItemName}]{을} 필요로 합니다.
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE	변경 내용 저장을 위해 [{ItemName}]{을} <font color = '#00FFFF'>{Amount}</font>개 사용합니다.
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE_NOCOST	변경한 내용을 저장 하시겠습니까?
 201	SMT_OPTIONRESET_FAIL	옵션 변경에 실패했습니다.
@@ -2446,3 +2450,11 @@
 201	SMT_CANT_ARTISAN_UPGRADE_MISMATCH_TOOLTIP	{SkillProfType}의 숙련도 및 등급 조건이 맞지 않아 사용할 수 없습니다.
 201	SMT_AREA_CANT_PARTY	파티가 불가능한 지역에 입장하였습니다. 파티가 있다면 강제로 탈퇴됩니다.
 201	SMT_AREA_LEAVE_PARTY	파티가 불가능한 지역에 입장하여 파티에서 강제로 탈퇴 됩니다.
+203	SMT_CHAT_PRIVATE_CHANNEL_NOT_SUPPORTED	개인 채널 생성은 지원되지 않습니다.
+202	SMT_TBA_SELECT_TEAM_CONFIRM	{TeamCount}개의 팀이 영웅을 모두 확정하였습니다.
+302	SMT_TBA_CHATMSG_PRE_START	{sec}초 후에 전장으로 진입합니다.
+201	SMT_TBA_GACHA_RESULT	{GachaBoxName} {BoxCount}개를 실행하여 {GachaResultItemName} {ResultCount}개를 획득했습니다.
+201	SMT_TBA_RUNE_SAVE_CONFIRM	[{RunePageName}] 룬 페이지 변경 내용이 저장되었습니다.
+201	SMT_TBA_PLAYTIME_START	어서오세요. 테라 배틀 아레나의 세상에 오신걸 환영합니다.
+203	SMT_TBA_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>클릭 시 바로가기</font>
+203	SMT_TBA_CHAT_QNA_NOTICE	TIP: 테라 배틀 아레나 팬사이트에서 더 많은 궁금증을 해소하실 수 있습니다. <font color = '#FFFF00'>{link}</font>

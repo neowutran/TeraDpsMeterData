@@ -210,6 +210,7 @@
 203	SMT_BF_CANT_USE_ITEM	Вы не можете использовать этот предмет на арене.
 203	SMT_BF_CANT_USE_SKILL_BEFORE_BATTLE	Вы не можете использовать это умение на арене.
 203	SMT_BF_CANT_USE_SKILL_OUTSIDE_AREA	Вы не можете здесь использовать это умение.
+203	SMT_BF_CANT_BAN_PARTY_MEMBER	Эта функция недоступна на поле боя.
 302	SMT_BF_CAPTURE_ADDTIME	Вы захватили {stronghold}. Добавлено {minute} мин.
 302	SMT_BF_CAPTURE_ADDTIME_ENEMY	Противник захватил {stronghold}. Добавлено {minute} мин.
 201	SMT_BF_CHATMSG_ATTACKED_STRONGHOLD	{player} захватил(а) {stronghold}.
@@ -649,7 +650,7 @@
 203	SMT_CHAT_NOT_IN_UNIONPARTY	Вы не в рейде.
 203	SMT_CHAT_PASSWORD_IS_FAIL	Пароль должен состоять из четырех цифр (0000-9999).
 203	SMT_CHAT_PENALTY_START	Вы отправили слишком много сообщений. Чат временно недоступен.
-203	SMT_CHAT_QNA_NOTICE	Найти ответы на многие вопросы об игре вы сможете на официальном сайте TERA - http://tera-europe.com
+203	SMT_CHAT_QNA_NOTICE	Совет: найти ответы на многие вопросы об игре вы сможете на официальном сайте TERA - <font color = '#FFFF00'>{link}</font>.
 203	SMT_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>Щелкните здесь для перехода</font>
 201	SMT_CHAT_VIOLATION	SMT_CHAT_VIOLATION
 203	SMT_CHAT_WHISPER_SELF	Неверная цель.
@@ -763,7 +764,7 @@
 201	SMT_DAILYEVENT_SUNDAY	[Благословение Элину]&#xA;Благословение Элину снижает затрачиваемое на занятие ремеслом время, а также увеличивает количество произведенного.
 201	SMT_DAILYEVENT_THURSDAY	Ультра-гипер-турбо время! Супер-эффекты с 18 до 20 часов по московскому времени.
 201	SMT_DAILYEVENT_TUESDAY	Ультра-гипер-турбо время! Супер-эффекты с 18 до 20 часов по московскому времени.
-201	SMT_DAILYEVENT_WEDNESDAY	Ультра-гипер-турбо время! Супер-эффекты с 18 до 20 часов по московскому времени.  
+201	SMT_DAILYEVENT_WEDNESDAY	Ультра-гипер-турбо время! Супер-эффекты с 18 до 20 часов по московскому времени.
 202	SMT_DARKRIFT_START	Создается Нексус. Откройте карту и найдите Вал-Орин.
 202	SMT_DARK_RIFT_DESTROYED	Нексус исчез!
 202	SMT_DARK_RIFT_INSTANCE_CLOSE	Устройство уничтожения Вихревых врат разрушено, оборона пала.
@@ -910,7 +911,7 @@
 203	SMT_FREE_SERVICE_CANT_ACTION	Это действие недоступно для вашего типа учетной записи.
 201	SMT_FREE_SERVICE_IS_OVER	Пожалуйста, купите подписку, чтобы продолжить приключения!
 203	SMT_FREE_SERVICE_LIMIT_ACTION	Ваш тип учетной записи не обладает доступом в эту область.
-201	SMT_FREE_SERVICE_LITTLE_TIME_LEFT	Пробная учетная запись ограничена уровнем {Level}. Ваше игровое время этим персонажем истекает через {minute} мин{@select:{minute}///}.  
+201	SMT_FREE_SERVICE_LITTLE_TIME_LEFT	Пробная учетная запись ограничена уровнем {Level}. Ваше игровое время этим персонажем истекает через {minute} мин{@select:{minute}///}.
 201	SMT_FRIENDSHIP_GETTING_POINT_MSG	Получить очки дружбы ({point} очк.) с помощью {type}
 201	SMT_FRIEND_ADD_SUCCESS	{UserName} добавлен(а) в ваш список друзей.
 203	SMT_FRIEND_ALREADY_EXIST	Данный игрок уже находится в списке друзей, или запрос на добавление уже подан.
@@ -1181,7 +1182,7 @@
 203	SMT_GUILD_NAME_WHITESPACE	В названиях гильдий нельзя использовать пробелы.
 208	SMT_GUILD_NOTICE_GUILD_LEVEL_HOLDING_TIME	Уровень вашей гильдии скоро понизится. Обратитесь к управляющему гильдиями для продления времени.
 205	SMT_GUILD_NOTICE_JOIN_USER	Игрок "{UserName2}" присоединился к гильдии по приглашению игрока "{UserName1}".
-205	SMT_GUILD_NOTICE_TITLE	Сообщения гильдии: 
+205	SMT_GUILD_NOTICE_TITLE	Сообщения гильдии:
 203	SMT_GUILD_NOT_CHIEF	Вы не являетесь главой гильдии.
 203	SMT_GUILD_NOT_EXIST	Такой гильдии не существует.
 203	SMT_GUILD_NOT_MEMBER	Вы не состоите в гильдии.
@@ -1708,6 +1709,8 @@
 201	SMT_REJECT_TRADE	{UserName} отказал(ся/ась) от торговли.
 201	SMT_REJECT_TRADE_OPPONENT	{Opponent} отказал(ся/ась) от торговли.
 204	SMT_REJECT_VOTE_PARTYPLAYER_BAN	Некоторые игроки против - решение по изгнанию отклонено.
+204	SMT_REJECT_VOTE_PARTY_DUNGEONRESET	Подземелье не было сброшено, потому что не все игроки проголосовали за.
+204	SMT_REJECT_VOTE_PARTY_DISMISS	Группа не была распущена, потому что не все игроки проголосовали за.
 201	SMT_REMAIN_PLAY_TIME_HOUR	Осталось игрового времени: {Hour} ч.{@select:{Hour}///}
 201	SMT_REMAIN_PLAY_TIME_MINUTE	Осталось игрового времени: {Minute} м.{@select:{Minute}/s//s}
 201	SMT_REMOVE_PARTY_SEARCH_FAILED	SMT_REMOVE_PARTY_SEARCH_FAILED
@@ -1749,13 +1752,13 @@
 203	SMT_RETURN_PCBANG_CRYSTAL_MESSAGE	В случае удаления платных предметов, кристаллы и эффекты с этих предметов возвращаются по почте.
 203	SMT_RETURN_PCBANG_CRYSTAL_SENDER	Помощник [VIP}
 203	SMT_RETURN_PCBANG_CRYSTAL_TITLE	Возврат кристаллов и эффектов
-203	SMT_RE_ABUSE_LETTER_RESTRICTION	Ваше сообщение в "{desc}" нарушает правила.
+203	SMT_RE_ABUSE_LETTER_RESTRICTION	Это имя уже используется или недоступно.
 203	SMT_RE_ALPHANUMERICONLY_RESTRICTION	{desc}: можно использовать только буквы и цифры.
 203	SMT_RE_BLANK_RESTRICTION	{desc}: нельзя использовать пробелы.
 203	SMT_RE_CHINESE_CLASSICS_RESTRICTION	{desc}: нельзя использовать символы китайского алфавита.
-203	SMT_RE_CONFIG_LETTER_RESTRICTION	{desc}: используется запрещенное слово.
+203	SMT_RE_CONFIG_LETTER_RESTRICTION	Это имя уже используется или недоступно.
 203	SMT_RE_EXPANDED_HANGEUL_RESTRICTION	{desc}: нельзя использовать символы расширенного корейского алфавита.
-203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	{desc}: нельзя использовать это слово.
+203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	Это имя уже используется или недоступно.
 203	SMT_RE_IMPERFECT_HANGEUL_RESTRICTION	{desc}: нельзя использовать символы неполного корейского алфавита.
 203	SMT_RE_LENGTHASCIIONLY_RESTRICTION	{desc}: можно использовать только буквы и цифры, максимальное количество {max}.
 203	SMT_RE_LENGTH_RESTRICTION	{desc}: максимальная длина - {max}.
@@ -2099,7 +2102,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	Срок службы предмета "{item}" скоро заканчивается. После его окончания предмет будет удален.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	Это снаряжение является шедевром или зачаровано.&#xA;
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	У вас есть предметы во временном банке. Подтвердите обращение во временный банк.
-203	SMT_WARN_PLAY_MATINEE	На данный момент персонаж не выбран или видео о данном персонаже отсутствует, поэтому видео проиграть нельзя.
+203	SMT_WARN_PLAY_MATINEE	После выбора персонажа воспроизводится видео.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	Название вашей гильдии должно быть изменено по причине слияния серверов. Вы можете поменять название гильдии во вкладке "Детали гильдии" в интерфейсе гильдии.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	Призываемое существо уже существует.
 201	SMT_WORLD_CHANNEL_MOVED	Текущий канал: {number}.
@@ -2154,7 +2157,7 @@
 302	SMT_FLY_WARNING_BLOCKING_VOLUME	Закрытая для полета территория.
 302	SMT_FLY_WARNING_HEIGHT_LIMIT	Вы достигли максимальной высоты, подняться выше нельзя.
 302	SMT_FLY_WARNING_CANNTFLY_SECTION	Территория закрыта для полетов.
-302	SMT_FLY_WARNING_DESCENTONLY_SECTION	Вы попали в область, закрытую для полетов. Через 3 секунды произойдет переход в режим парения. 
+302	SMT_FLY_WARNING_DESCENTONLY_SECTION	Вы попали в область, закрытую для полетов. Через 3 секунды произойдет переход в режим парения.
 302	SMT_FLY_WARNING_FORCE_DESCENT	Включен режим парения.
 302	SMT_FLY_WARNING_HEIGHT_LIMIT_CHANGE	Вы спускаетесь на максимальную высоту для данной территории.
 203	SMT_CANT_USE_PREVIEW_WHILE_POLYMORPH	Предварительный просмотр недоступен во время действия перевоплощения.
@@ -2171,14 +2174,14 @@
 203	SMT_CANNOT_USE_PREMIUM_SERVICE	Отсутствует премиум-подписка. Зайдите в магазин TERA.
 203	SMT_PROMOTION_OFF_BY_ADMIN	На данный момент принять участие в событии интернет-кафе нельзя.
 203	SMT_CANNOT_OPEN_TASK_DUNGEON_WINDOW	Сейчас нельзя использовать подземелье испытаний.
-203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	В текущей системе данная функция недоступна. 
+203	SMT_OS_CANNOT_SUPPORT_AWESOMIUM	В текущей системе данная функция недоступна.
 201	SMT_DUNGEON_FORCE_RESTORE_MSG	Задание можно продолжить с удобного места.
 203	SMT_CITYWAR_DEAD_MESSAGE	<font color = '#cccccc'>Вы автоматически воскреснете в выбранном месте.<br><font color = '#ffffff'>До воскрешения: <br><font color = '#ff0000'>{ReviveSec}</font> секунд.
 202	SMT_GQUEST_URGENT_NOTIFY	<font color = '#fcb7ff'>[Внимание] Можно принять срочное поручение гильдии: {questName}</font>. Цель скоро появится: {npcName} ({zoneName}, 1 канал).
 202	SMT_GQUEST_URGENT_APPEAR	<font color = '#fcb7ff'>Появляется</font><font color = '#fcb7ff'> {npcname}</font>.
 202	SMT_GQUEST_URGENT_RUNAWAY	<font color = '#fcb7ff'>{npcname}</font><font color = '#fcb7ff'>сбегает</font>.
 205	SMT_GQUEST_NORMAL_ACCEPT	<font color = '#f6f493'>{guildQuestName}</font> - принято.
-205	SMT_GQUEST_NORMAL_CANCEL	<font color = '#f6f493'>{userName}</font> отменяет <font color = '#f6f493'>{guildQuestName}</font> . 
+205	SMT_GQUEST_NORMAL_CANCEL	<font color = '#f6f493'>{userName}</font> отменяет <font color = '#f6f493'>{guildQuestName}</font> .
 205	SMT_GQUEST_NORMAL_COMPLETE	<font color = '#f6f493'>{guildQuestName}</font> - завершено.
 205	SMT_GQUEST_NORMAL_FAIL_OVERTIME	<font color = '#f6f493'>{guildQuestName}</font> - провалено.
 205	SMT_GQUEST_NORMAL_END_NOTICE	На выполнение текущего задания гильдии осталось <font color = '#f6f493'>10 минут</font>.
@@ -2275,7 +2278,7 @@
 302	SMT_ACCESSORY_TRANSFORMER_CANNOT_USE_WHILE_TRANSFORMING	В состоянии перевоплощения преобразователь украшений недоступен.
 302	SMT_ACCESSORY_TRANSFORMER_CLOSED	Вы не можете использовать эту функцию.
 302	SMT_ACCESSORY_TRANSFORMER_ONLY_HAIR_TRANSFORMING	Вы можете преобразовать только украшения для волос.
-302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	Хотите поменять аксессуары шляпы?<br>(Первое преобразование бесплатно, после этого вам понадобится [{ItemName}] из специализированного магазина).
+302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	Первый раз украшение можно трансформировать бесплатно. Для последующих преобразований вам потребуется [{ItemName}].
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE	Для сохранения изменений требуется: [{ItemName}] <font color = '#00FFFF'>{Amount}</font>.
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE_NOCOST	Сохранить изменения?
 201	SMT_OPTIONRESET_FAIL	Изменить эффекты не удалось.
@@ -2440,3 +2443,11 @@
 201	SMT_CANT_ARTISAN_UPGRADE_MISMATCH_TOOLTIP	Нельзя использовать, потому что уровень квалификации для умения {SkillProfType} не соответствует требованиям.
 201	SMT_AREA_CANT_PARTY	Группа не может войти в область. Группа распущена.
 201	SMT_AREA_LEAVE_PARTY	Вы будете исключены из этой группы, потому что в область войти нельзя.
+203	SMT_CHAT_PRIVATE_CHANNEL_NOT_SUPPORTED	Создание частных каналов не поддерживается.
+202	SMT_TBA_SELECT_TEAM_CONFIRM	{TeamCount} команды выбрали своих героев.
+302	SMT_TBA_CHATMSG_PRE_START	Вы выйдете на поле битвы через {sec} секунд.
+201	SMT_TBA_GACHA_RESULT	Вы открыли {BoxCount} {GachaBoxName} и получили {ResultCount} {GachaResultItemName}.
+201	SMT_TBA_RUNE_SAVE_CONFIRM	Изменения в наборе рун [{RunePageName}] были сохранены.
+201	SMT_TBA_PLAYTIME_START	Добро пожаловать на Battle Arena.
+203	SMT_TBA_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>Щелкните для перенаправления.</font>
+203	SMT_TBA_CHAT_QNA_NOTICE	Совет: вы сможете найти ответы на свои вопросы на сайте Battle Arena. <font color = '#FFFF00'>{link}</font>
