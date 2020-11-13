@@ -5486,6 +5486,7 @@
 		<Monster name="ケルサイク隠蔽地入口" id="3026" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="狂気のコロシアム 入口" id="3027" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="軍団長の居場所 入口" id="3030" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="烈風のエルカラス号入口" id="3036" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="パルクイーンの巣入口" id="3101" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="司令官の修練場 入口" id="3102" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="司令官の修練場 入口" id="3202" isBoss="False" hp="0" speciesId="0" />
@@ -6219,6 +6220,9 @@
 		<Monster name="次元の魔法石" id="9735" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
 	<Zone id="183" name="イルカ" >
+		<Monster name="Construct Y" id="308" isBoss="False" hp="12000" speciesId="0" />
+		<Monster name="Construct X" id="309" isBoss="False" hp="12000" speciesId="0" />
+		<Monster name="Dembrel" id="310" isBoss="False" hp="945" speciesId="0" />
 		<Monster name="ダンジョンイベント商人" id="629" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="ギルバート・グレイス" id="1001" isBoss="False" hp="945" speciesId="0" />
 		<Monster name="高潔な岩・ハルラン" id="1002" isBoss="False" hp="10000" speciesId="0" />
@@ -6463,6 +6467,7 @@
 		<Monster name="次元の魔法石" id="1501" isBoss="False" hp="53600" speciesId="0" />
 		<Monster name="次元の魔法石" id="1502" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="次元の魔法石" id="1503" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="烈風のエルカラス号入口" id="1505" isBoss="False" hp="53600" speciesId="0" />
 		<Monster name="砲台" id="1601" isBoss="True" hp="343984" speciesId="0" />
 		<Monster name="砲台" id="1602" isBoss="False" hp="505524" speciesId="0" />
 		<Monster name="砲台" id="1603" isBoss="False" hp="343984" speciesId="0" />
@@ -16279,6 +16284,7 @@
 		<Monster name="スタンプポポリL" id="241012" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="スタンプポポリM" id="241013" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="スタンプポポリN" id="241014" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="いくら大好き商人" id="241021" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="クリスマスギリード" id="300937" isBoss="False" hp="723" speciesId="0" />
 		<Monster name="堅硬のカラシュアルメロ" id="885061" isBoss="False" hp="405000000" speciesId="0" />
 		<Monster name="シャンドラ・マナイア" id="885200" isBoss="False" hp="3150000000" speciesId="0" />
@@ -17637,8 +17643,13 @@
 		<Monster name="バフ魔石 III" id="20008" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="ケリム・ホワイトリバー" id="20009" isBoss="False" hp="5000" speciesId="0" />
 		<Monster name="タムル・ヘルカン" id="20102" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="リラク" id="20103" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="堅い足・ジュララン" id="20104" isBoss="False" hp="945" speciesId="0" />
+		<Monster name="イライザ・クベル" id="20105" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="カイドゥン・トゥルカン" id="20300" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="フレイア・ローヘン" id="20301" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="影剣闘士" id="30000" isBoss="False" hp="105277" speciesId="0" />
+		<Monster name="シュシュダン" id="30100" isBoss="False" hp="10000" speciesId="0" />
 	</Zone>
 	<Zone id="2501" name="マナアン封鎖地" >
 		<Monster name="ロックと会話せよ" id="910" isBoss="False" hp="0" speciesId="0" />
@@ -18751,6 +18762,18 @@
 		<Monster name="クーマスの幻影" id="1005" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="アルガフの幻影" id="1006" isBoss="False" hp="27448770" speciesId="0" />
 		<Monster name="アルガフの幻影" id="1007" isBoss="False" hp="27448770" speciesId="0" />
+	</Zone>
+	<Zone id="3036" name="烈風のエルカラス号" >
+		<Monster name="【ボス】次元の魔法石を通じて烈風のエルカラス号に移動後、暴走したダルカンを討伐せよ" id="914" isBoss="False" hp="0" speciesId="0" />
+		<Monster name="暴走したダルカン" id="1000" isBoss="True" hp="38255229568" speciesId="10" />
+		<Monster name="ダルカン" id="1001" isBoss="True" hp="22098264375" speciesId="10" />
+		<Monster name="ダルカンの分身" id="1010" isBoss="True" hp="300000000" speciesId="10" />
+		<Monster name="次元の魔法石" id="1501" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="次元の魔法石" id="1502" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="次元の魔法石" id="1503" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="次元の魔法石" id="1504" isBoss="False" hp="10000" speciesId="0" />
+		<Monster name="ダルカンの幻影" id="2000" isBoss="False" hp="1300000" speciesId="10" />
+		<Monster name="ダルカンの下手人" id="91638" isBoss="False" hp="300000000" speciesId="0" />
 	</Zone>
 	<Zone id="3037" name="【練習】バハールの神殿" >
 		<Monster name="バルダーの封門を開け" id="911" isBoss="False" hp="0" speciesId="0" />
