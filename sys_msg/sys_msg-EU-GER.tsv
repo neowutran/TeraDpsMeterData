@@ -210,7 +210,6 @@
 203	SMT_BF_CANT_USE_ITEM	Ihr könnt diesen Gegenstand nicht auf dem Schlachtfeld benutzen.
 203	SMT_BF_CANT_USE_SKILL_BEFORE_BATTLE	Ihr könnt diese Fertigkeit auf dem Schlachtfeld nicht verwenden.
 203	SMT_BF_CANT_USE_SKILL_OUTSIDE_AREA	Ihr könnt diese Fertigkeit hier nicht benutzen.
-203	SMT_BF_CANT_BAN_PARTY_MEMBER	Diese Funktion ist auf dem Schlachtfeld nicht verfügbar.
 302	SMT_BF_CAPTURE_ADDTIME	Eure Kampfgruppe hat {stronghold} erobert. Es wurden {minute} Minuten hinzugefügt.
 302	SMT_BF_CAPTURE_ADDTIME_ENEMY	Sie haben {stronghold} erobert. Es wurden {minute} Minuten hinzugefügt.
 201	SMT_BF_CHATMSG_ATTACKED_STRONGHOLD	{player} hat folgendes Ziel erobert: {stronghold}
@@ -1709,8 +1708,6 @@
 201	SMT_REJECT_TRADE	{UserName} hat einen Handel abgelehnt.
 201	SMT_REJECT_TRADE_OPPONENT	{Opponent} hat einen Handel abgelehnt.
 204	SMT_REJECT_VOTE_PARTYPLAYER_BAN	{UserName} hat abgelehnt.
-204	SMT_REJECT_VOTE_PARTY_DUNGEONRESET	Der Dungeon konnte nicht zurückgesetzt werden, da die Abstimmung nicht einstimmig war.
-204	SMT_REJECT_VOTE_PARTY_DISMISS	Die Gruppe konnte nicht aufgelöst werden, da die Abstimmung nicht einstimmig war.
 201	SMT_REMAIN_PLAY_TIME_HOUR	Verbleibende Spielzeit: {Hour} Std.
 201	SMT_REMAIN_PLAY_TIME_MINUTE	Verbleibende Spielzeit: {Minute} Min.
 201	SMT_REMOVE_PARTY_SEARCH_FAILED	SMT_REMOVE_PARTY_SEARCH_FAILED
@@ -1752,13 +1749,13 @@
 203	SMT_RETURN_PCBANG_CRYSTAL_MESSAGE	Kristalle und Niveote, die in die Gegenstände eingesetzt wurden, werden Euch per Post zurückgeschickt, sobald die für Internetcafés verfügbare Ausrüstung gelöscht wurde.
 203	SMT_RETURN_PCBANG_CRYSTAL_SENDER	Hilfe für Spieler im Internetcafé
 203	SMT_RETURN_PCBANG_CRYSTAL_TITLE	Kristall, Leitfaden zur Niveotrückgabe
-203	SMT_RE_ABUSE_LETTER_RESTRICTION	Dieser Name ist bereits vergeben oder nicht verfügbar.
+203	SMT_RE_ABUSE_LETTER_RESTRICTION	{desc} darf keine unerlaubten Begriffe enthalten.
 203	SMT_RE_ALPHANUMERICONLY_RESTRICTION	{desc} darf nur alphanumerische Zeichen enthalten.
 203	SMT_RE_BLANK_RESTRICTION	{desc} darf keine Leerzeichen enthalten.
 203	SMT_RE_CHINESE_CLASSICS_RESTRICTION	{desc} darf keine chinesischen Zeichen enthalten.
-203	SMT_RE_CONFIG_LETTER_RESTRICTION	Dieser Name ist bereits vergeben oder nicht verfügbar.
+203	SMT_RE_CONFIG_LETTER_RESTRICTION	{desc} enthält einen nicht verfügbaren Begriff.
 203	SMT_RE_EXPANDED_HANGEUL_RESTRICTION	{desc} darf keine Zeichen des erweiterten koreanischen Zeichensatzes verwenden.
-203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	Dieser Name ist bereits vergeben oder nicht verfügbar.
+203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	{desc} darf dieses Wort nicht enthalten.
 203	SMT_RE_IMPERFECT_HANGEUL_RESTRICTION	{desc} darf keine unvollständigen koreanischen Begriffe enthalten.
 203	SMT_RE_LENGTHASCIIONLY_RESTRICTION	{desc} muss alphanumerisch sein, mit einer maximalen Länge von {max} Zeichen.
 203	SMT_RE_LENGTH_RESTRICTION	{desc} darf maximal {max} Zeichen lang sein.
@@ -2102,7 +2099,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	Die Laufzeit von {item} endet bald. Der Gegenstand verschwindet aus Eurem Inventar, wenn die Zeit abgelaufen ist.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	Diese Ausrüstung ist entweder ein Meisterwerk oder verzaubert.
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	Ihr habt Gegenstände in einer temporären Bank hinterlegt. Bitte überprüft die temporäre Bank.
-203	SMT_WARN_PLAY_MATINEE	Spielt das Video ab, nachdem Ihr einen Charakter ausgewählt habt.
+203	SMT_WARN_PLAY_MATINEE	Entweder wurde kein Charakter ausgewählt oder es gibt kein Video zu diesem Charakter.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	Aufgrund einer Serverzusammenlegung ist es erforderlich, dass Ihr Euren Gildennamen ändert. Ihr könnt den Gildennamen im Reiter Gildeninfos des Gilden-Interface ändern.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	Die beschworene Kreatur existiert bereits.
 201	SMT_WORLD_CHANNEL_MOVED	Wechsel zu Kanal {number}.
@@ -2278,7 +2275,7 @@
 302	SMT_ACCESSORY_TRANSFORMER_CANNOT_USE_WHILE_TRANSFORMING	Während einer Verwandlung könnt Ihr den Zubehör-Umwandler nicht in Anspruch nehmen.
 302	SMT_ACCESSORY_TRANSFORMER_CLOSED	Diese Funktion ist aktuell nicht verfügbar.
 302	SMT_ACCESSORY_TRANSFORMER_ONLY_HAIR_TRANSFORMING	Nur das Haarzubehör kann geändert werden.
-302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	Die erste Zubehör-Umwandlung ist kostenlos. Für weitere Umwandlungen benötigt Ihr [{ItemName}].
+302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	Möchtet Ihr Euer Hut-Zubehör wechseln?<br>(Die erste Umwandlung ist kostenlos, danach benötigt Ihr [{ItemName}] aus dem Spezialwaren-Laden.)
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE	Verwendet <font color = '#00FFFF'>{Amount}</font> [{ItemName}], um die Umwandlung zu speichern.
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE_NOCOST	Möchtet Ihr die Änderung speichern?
 201	SMT_OPTIONRESET_FAIL	Ändern der Optionen fehlgeschlagen.
@@ -2443,11 +2440,3 @@
 201	SMT_CANT_ARTISAN_UPGRADE_MISMATCH_TOOLTIP	Kann nicht verwendet werden, da die Fähigkeitsstufe für {SkillProfType} nicht den Voraussetzungen entspricht.
 201	SMT_AREA_CANT_PARTY	Die Gruppe kann das Gebiet nicht betreten. Die Gruppe wird aufgelöst.
 201	SMT_AREA_LEAVE_PARTY	Ihr werdet aus der Gruppe genommen, da das Gebiet nicht betreten werden kann.
-203	SMT_CHAT_PRIVATE_CHANNEL_NOT_SUPPORTED	Die Erstellung privater Kanäle wird nicht unterstützt.
-202	SMT_TBA_SELECT_TEAM_CONFIRM	{TeamCount} Teams haben ihre Helden ausgewählt.
-302	SMT_TBA_CHATMSG_PRE_START	Ihr betretet das Schlachtfeld in {sec} Sekunden.
-201	SMT_TBA_GACHA_RESULT	Ihr habt {BoxCount} {GachaBoxName} ausgeführt und {ResultCount} {GachaResultItemName} erhalten.
-201	SMT_TBA_RUNE_SAVE_CONFIRM	Die Änderungen an der Runenseite [{RunePageName}] wurden gespeichert.
-201	SMT_TBA_PLAYTIME_START	Willkommen in der Battle Arena.
-203	SMT_TBA_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>Klicken, um weitergeleitet zu werden.</font>
-203	SMT_TBA_CHAT_QNA_NOTICE	Tipp: Auf der Battle Arena-Fanseite findet Ihr Antworten auf Eure Fragen. <font color = '#FFFF00'>{link}</font>
