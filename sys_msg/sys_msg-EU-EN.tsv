@@ -210,6 +210,7 @@
 203	SMT_BF_CANT_USE_ITEM	You can't use that item in a battleground.
 203	SMT_BF_CANT_USE_SKILL_BEFORE_BATTLE	Cannot use that skill in a battleground.
 203	SMT_BF_CANT_USE_SKILL_OUTSIDE_AREA	You can't use that skill here.
+203	SMT_BF_CANT_BAN_PARTY_MEMBER	Cannot use this feature in the battleground.
 302	SMT_BF_CAPTURE_ADDTIME	Your team captured {stronghold}. {minute} minutes added.
 302	SMT_BF_CAPTURE_ADDTIME_ENEMY	They've captured {stronghold}. {minute} minutes added.
 201	SMT_BF_CHATMSG_ATTACKED_STRONGHOLD	{player} has seized {stronghold}.
@@ -570,7 +571,7 @@
 203	SMT_CAN_ONLY_ENTER_PARTY_FREE_SERVICE	You can only join {party} with this account type.
 203	SMT_CAN_ONLY_RECEIVE_MAIL_BY_MINIMAP_BUTTON	Please use a banker to send mail or collect a parcel.
 203	SMT_CAN_ONLY_RECEIVE_MAIL_FREE_SERVICE	You can only receive mail with this account type.
-203	SMT_CAN_PARTY_BAN_ONLY_IN_DUNGEON	Instance-matched parties can only kick members inside an instance.
+203	SMT_CAN_PARTY_BAN_ONLY_IN_DUNGEON	Because instance matching created the {party}, you can only kick members inside a dungeon.
 203	SMT_CBF_FLYSHIP_CANT_DROP	No falling zone.
 201	SMT_CHANGELOOK_PROGRESS_CANCEL	Canceled appearance change.
 201	SMT_CHANGELOOK_PROGRESS_SUCCESS	Appearance change complete.
@@ -813,7 +814,7 @@
 201	SMT_DUNGEONMATCHING_CANCEL2	Canceled instance matching due to changes in party status.
 203	SMT_DUNGEONMATCHING_CANNOT	You can't do that while instance matching between servers is enabled.
 203	SMT_DUNGEONMATCHING_CANNOT_TELEPORT	You must be in the {party} matching queue to enter.
-203	SMT_DUNGEONMATCHING_CANT_PARTY_BAN	Because instance matching created the {party}, you can only kick members inside a dungeon.
+203	SMT_DUNGEONMATCHING_CANT_PARTY_BAN	Can be reset after entering.
 203	SMT_DUNGEONMATCHING_CANT_REQUEST1	Some party members aren't eligible for instance matching.
 203	SMT_DUNGEONMATCHING_CANT_REQUEST2	You have a full {party}.
 203	SMT_DUNGEONMATCHING_CANT_REQUEST3	The {party} composition is not valid.
@@ -1708,6 +1709,8 @@
 201	SMT_REJECT_TRADE	{UserName} rejected a trade.
 201	SMT_REJECT_TRADE_OPPONENT	{Opponent} rejected a trade.
 204	SMT_REJECT_VOTE_PARTYPLAYER_BAN	{UserName} declined.
+204	SMT_REJECT_VOTE_PARTY_DUNGEONRESET	Someone has declined to reset the dungeon.
+204	SMT_REJECT_VOTE_PARTY_DISMISS	Someone has declined to disband the group.
 201	SMT_REMAIN_PLAY_TIME_HOUR	Remaining playtime: {Hour} hour{@select:{Hour}/s//s}
 201	SMT_REMAIN_PLAY_TIME_MINUTE	Remaining playtime: {Minute} minute{@select:{Minute}/s//s}
 201	SMT_REMOVE_PARTY_SEARCH_FAILED	SMT_REMOVE_PARTY_SEARCH_FAILED
@@ -1749,13 +1752,13 @@
 203	SMT_RETURN_PCBANG_CRYSTAL_MESSAGE	Crystals and niveots used in the items will be sent back to you by mail when the equipment available for PC cafes are deleted.
 203	SMT_RETURN_PCBANG_CRYSTAL_SENDER	PC café player Help
 203	SMT_RETURN_PCBANG_CRYSTAL_TITLE	Crystal, niveots return guide
-203	SMT_RE_ABUSE_LETTER_RESTRICTION	Your {desc} entry violates our rules of conduct.
+203	SMT_RE_ABUSE_LETTER_RESTRICTION	That name is taken or unavailable.
 203	SMT_RE_ALPHANUMERICONLY_RESTRICTION	Only alpha-numeric characters are allowed for {desc}.
 203	SMT_RE_BLANK_RESTRICTION	You can't use spaces in {desc}.
 203	SMT_RE_CHINESE_CLASSICS_RESTRICTION	You can't use Chinese characters in {desc}.
-203	SMT_RE_CONFIG_LETTER_RESTRICTION	{desc} contains an unavailable word.
+203	SMT_RE_CONFIG_LETTER_RESTRICTION	That name is taken or unavailable.
 203	SMT_RE_EXPANDED_HANGEUL_RESTRICTION	You can't use expanded Korean in {desc}.
-203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	You can't use that word in {desc}.
+203	SMT_RE_FORBIDDEN_NAME_RESTRICTION	That name is taken or unavailable.
 203	SMT_RE_IMPERFECT_HANGEUL_RESTRICTION	You can't use incompleted Korean in {desc}.
 203	SMT_RE_LENGTHASCIIONLY_RESTRICTION	{desc} must be alpha-numeric with a maximum length of {max}.
 203	SMT_RE_LENGTH_RESTRICTION	Maximum length for {desc} is {max}.
@@ -2099,7 +2102,7 @@
 203	SMT_WARNING_DELETE_PERIOD_ITEM	Duration for {item} is ending soon. It will disappear from inventory when the duration ends.
 203	SMT_WARNING_REINFORCED_OR_MASTERPIECE_EQUIPMENT	That equipment is masterwork or enchanted.&#xA;
 201	SMT_WARN_EXISTING_WITHDRAW_ONLY_WAREHOUSE	You have items in a temporary bank. Please check the temporary bank.
-203	SMT_WARN_PLAY_MATINEE	The movie cannot be played because you have not selected a character, or the selected character hasn't unlocked this movie yet.
+203	SMT_WARN_PLAY_MATINEE	Plays the video once you’ve selected a character.
 201	SMT_WARN_TO_CHANGE_GUILD_NAME	Your guild name must be changed due to the server merge. You can change your guild name in the Guild Details tab of your Guild UI.
 203	SMT_WORKOBJECT_CANT_USED_ALREADY_SPAWN	Summoned creature already exists.
 201	SMT_WORLD_CHANNEL_MOVED	Moving to channel {number}.
@@ -2269,6 +2272,7 @@
 203	SMT_DUALOPTION_STRING_BEFORE	Active a second effect set: [Shift + R-Click]
 203	SMT_DUALOPTION_STRING_AFTER	Switch Effect Set: [Shift + R-Click]&#xA;View other set: [Ctrl]
 203	SMT_HUDDLEADDING_USER	{Username} can’t trade items or gold.
+203	SMT_HUDDLEADDING_USER_LEVEL3	{Username} can’t trade items or gold.
 302	SMT_CATCHBACK_SYSMSG_TOOCLOSE	Target is too close. Cannot use skill.
 203	SMT_CAN_USE_IN_DUNGEON_ONLY	Can only be used in dungeons.
 203	SMT_CAN_DUNGEON_RESET_ONLY_PARTY_CHIEF	That function can only be used by a group leader.
@@ -2281,7 +2285,7 @@
 302	SMT_ACCESSORY_TRANSFORMER_CANNOT_USE_WHILE_TRANSFORMING	Restyler is not available during transformation.
 302	SMT_ACCESSORY_TRANSFORMER_CLOSED	This action cannot be used now.
 302	SMT_ACCESSORY_TRANSFORMER_ONLY_HAIR_TRANSFORMING	You can only change hair accessories.
-302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	Would you like to restyle the Hat Accessory?<br>(The first time is free. You will need to purchase the [{ItemName}] from the Specialty Store to restyle again.)
+302	SMT_ACCESSORY_TRANSFORMER_FREE_USE	Allows free accessory restyling for 1 time only. {ItemName} is required to restyle again.
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE	[{ItemName}] x <font color = '#00FFFF'>{Amount}</font> will be used to save changes.
 302	SMT_ACCESSORY_TRANSFORMER_PURCHASE_USE_NOCOST	Do you want to save your changes?
 201	SMT_OPTIONRESET_FAIL	Failed to change enchantment effect.
@@ -2446,3 +2450,12 @@
 201	SMT_CANT_ARTISAN_UPGRADE_MISMATCH_TOOLTIP	You cannot use the item due to insufficient {SkillProfType} proficiency and master grade.
 201	SMT_AREA_CANT_PARTY	You cannot join a group here. All groups will be dismissed.
 201	SMT_AREA_LEAVE_PARTY	You cannot join a group here. All groups will be dismissed.
+203	SMT_CHAT_PRIVATE_CHANNEL_NOT_SUPPORTED	Private channels cannot be created.
+209	SMT_TBA_LOOTED_GACHA_ITEM	Adding {ItemAmount}x {ItemName} to the loot.
+202	SMT_TBA_SELECT_TEAM_CONFIRM	{TeamCount} team(s) have finished picking heroes.
+302	SMT_TBA_CHATMSG_PRE_START	Entering the battleground in {sec} sec(s).
+201	SMT_TBA_GACHA_RESULT	Opened {BoxCount} {GachaBoxName} and obtained {ResultCount} {GachaResultItemName}.
+201	SMT_TBA_RUNE_SAVE_CONFIRM	Changes to the Rune Page [{RunePageName}] have been saved.
+201	SMT_TBA_PLAYTIME_START	Welcome to the world of TERA BATTLE ARENA.
+203	SMT_TBA_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>Click "Go"</font>
+203	SMT_TBA_CHAT_QNA_NOTICE	Purchasing gold or items from third-party sources supports fraud and account theft, and may result in an account ban for all parties involved in the transaction.

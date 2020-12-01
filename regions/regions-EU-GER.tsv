@@ -5,6 +5,8 @@
 103	Nördliches Shara
 104	Nördliches Arun
 105	Exodor
+106	Osnium Agaia
+107	Battle Arena
 110	Unterirdisches Schlachtfeld
 111	Tal des Donners
 112	Canyon der Ehre
@@ -15,6 +17,7 @@
 117	Kumaszuflucht
 118	Kumaskrippe
 152	Velika: Zeitalter der Kriegswirren
+156	Goldmünzen-Wettkampf
 200	Insel der Dämmerung
 201	Velika
 202	Insel der Dämmerung
@@ -81,6 +84,12 @@
 2018	Verwitterter Hain
 2050	Kerngebiet
 2105	Kommandantenstätte (Einzelspieler)
+2500	Osnium Agaia
+2501	Versiegelungsstätte
+2502	Abtrünnigenwald
+2503	Raqnanfestung
+2504	Exodor-Maschinenraum
+2530	Heldentrainingslager
 3001	Wälder der Vergessenheit
 3002	Friedhof von Berzerad
 3003	Blutpfad
@@ -108,14 +117,17 @@
 3032	[Training] Geheimzone der Berakfestung
 3033	[Training] Parquinas Nest (schwierig)
 3034	RK-9 Hangar (schwierig)
+3036	Himmelskreuzer (schwierig)
 3037	[Training] Bahaars Tempel
 3101	Parquinas Nest (leicht)
 3102	Kommandantenstätte
 3103	Wutarena
+3104	Rukmia
 3126	Kelsaiks Versteck (schwer)
 3201	Parquinas Nest (schwierig)
 3202	Kommandantenstätte (schwierig)
 3203	Wutarena
+3204	Rukmia
 4001	Fyrkuppe
 4002	Schwefelhochland
 4003	Flammental
@@ -162,7 +174,7 @@
 7001	Himmelshügel
 7002	Ebene von Omphalos
 7003	Muricairuinen
-7004	Sanctum Mysterium
+7004	Mysterium-Labor
 7005	Casidhes Unterstand
 7006	Ruinen von Cardovek
 7007	Godrics Farm
@@ -347,6 +359,11 @@
 15204	Ruine
 15205	Gidd-Gebirge
 15206	Farm
+15601	Mine
+15602	Burg
+15603	Farm
+15604	Markt
+15605	Hafen
 16001	Reißertal
 16002	Verdrehte Ebenen
 16003	Verlassene Felder
@@ -1199,6 +1216,14 @@
 248001	Khanovarfront
 249001	Argonea
 250001	Granarkus
+250101	Versiegelungsstätte
+250201	Sieglum
+250202	Sieglum-Zentrum
+250203	Bannkreis-Aktivierungsort
+250301	Raqnanfestung
+250401	Maschinenraum (EG)
+250402	Maschinenraum (1. OG)
+250403	Maschinenraum (2. OG)
 302301	Geheimeingang der Berakfestung
 302701	Warteraum der Wutarena
 302702	Pfad zur Wutarena
@@ -1233,6 +1258,7 @@
 599010	Lagerhaus
 599011	Pegasusplattform am Traumbaum
 599012	Saftwurzelhöhle
+599013	Baumschule
 780781	Velika-Untergrundtor
 818001	Geheimlabor
 818002	Zugangskorridor zum Labor
@@ -1419,7 +1445,7 @@
 2013001	Wolkensee-Insel
 2014001	Viridian-Angelinsel
 2015001	Berak-Angelinsel
-2020001	Exodor-Randgebiet
+2020001	Akalath Kelsaiks Versteck
 2052001	Akarp-Eroberungsgebiet (Kern)
 2054001	Arkarp-Eroberungsgebiet (Südrand)
 2100001	Rogashs Refugiumskern
@@ -1430,6 +1456,10 @@
 2103002	Finsterkern-Maschinenraum (1. OG)
 2103003	Finsterkern-Maschinenraum (2. OG)
 2105001	Kommandantenstätte (Einzelspieler)
+2500001	Osnium Agaia
+2500002	Zentrum
+2500003	Junger Weltenbaum
+2500004	Sharas Turm
 3001001	Geheime Basis (Einzelspieler)
 3002001	Anwesen der Arglist (Einzelspieler)
 3003001	Zuflucht der Kultisten (Einzelspieler)
@@ -1493,6 +1523,11 @@
 3034006	Sperrzone: E
 3034007	Sperrzone: RK-9 Hangar
 3035001	Veliks Schrein
+3036001	Himmelskreuzer (schwierig)
+3036002	Himmelskreuzer-Plattform (schwierig)
+3036003	Himmelskreuzer-Kontrollraum (schwierig)
+3036004	Himmelskreuzer-Maschinenraum (schwierig)
+3036005	Himmelskreuzer-Deck (schwierig)
 3037000	[Training] Eingang zu Bahaars Tempel
 3037001	[Training] Bahaars Tempel
 3037002	[Training] Bahaars Tempel - Versiegeltes Tor
@@ -1523,7 +1558,7 @@
 8000004	Feuerstellung der Tapferkeit
 8000005	Feuerstellung der Verwegenheit
 8000006	Lager der Vergeltung
-8000007	Sanctum Mysterium
+8000007	Himmelshügel – Mysterium-Labor
 8000008	Die Grube
 8000009	Verteidigerlager
 8000010	Sietch Bidaum
@@ -1634,7 +1669,7 @@
 9016001	Klippen der Insel der Dämmerung
 9017001	Leuchtturm der Sonne
 9018001	Argonenkatakomben
-9019001	Vorhof des Sanctum Mysterium
+9019001	Vorhof des Mysterium-Labors
 9020001	Waffenkammer der Bastion Loks
 9021001	Verborgener Tunnel
 9022001	Gewölbe des Ruhms
@@ -2215,6 +2250,13 @@
 9999999	Die Karte für dieses Gebiet kann nicht angezeigt werden.
 10230001	Arkarp-Brutstätte (Einzelspieler)
 10230002	Arkarp-Brutstätte
+25002501	Versiegelungsstätte
+25002502	Abtrünnigenwald
+25002503	Paesens Neuwelt
+25002504	Exodor-Aktion
+25002530	Heldentrainingslager
+25002531	Kleriker der Rast
+25002532	Kleriker der Rast
 30231000	Geheimzone der Berakfestung
 30231001	Geheimlager der Berakfestung
 30231002	Geheimlabor der Berakfestung

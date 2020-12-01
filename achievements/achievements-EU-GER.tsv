@@ -833,11 +833,11 @@
 152501	Vampirjäger{@g:/in}
 152800	Sturm auf das Anwesen
 153001	Elions Freund{@g:/in}
-153002	Abgeschlossene Quest: "Das Geheimnis wird immer undurchsichtiger"
-153003	Abgeschlossene Quest: "Das Geheimnis wird immer undurchsichtiger"
+153002	Quest abschließen: Neue Intrigen
+153003	Quest abschließen: Neue Intrigen
 153004	Valkyon-Föderation
 153501	Detektiv{@g:/in}
-153800	Das Geheimnis wird immer undurchsichtiger
+153800	Quest abgeschlossen: Neue Intrigen
 154001	Entlarvt
 154002	Abgeschlossene Quest: "Niedergang des Verräters"
 154003	Abgeschlossene Quest: "Niedergang des Verräters"
@@ -7770,10 +7770,10 @@
 2010004	Valkyon-Föderation
 2010800	Hat "Höhlenwächter" besiegt, ohne von "Stoßen und Niederschlagen" getroffen zu werden.
 2011001	Cholerik kann nicht geheilt werden.
-2011002	Besiegt "Renim" in Syruks Forschungsstation, ohne von "Fausthiebe nach vorn und Niederschlagen" getroffen zu werden.
-2011003	Besiegt "Renim" in Syruks Forschungsstation, ohne von "Fausthiebe nach vorn und Niederschlagen" getroffen zu werden.
+2011002	Besiegt "Renim" in Syruks Forschungsstation, ohne von "Steinwurf" getroffen zu werden.
+2011003	Besiegt "Renim" in Syruks Forschungsstation, ohne von "Steinwurf" getroffen zu werden.
 2011004	Valkyon-Föderation
-2011800	Hat "Renim" besiegt, ohne von "Fausthiebe nach vorn und Niederschlagen" getroffen zu werden.
+2011800	Hat "Renim" besiegt, ohne von "Steinwurf" getroffen zu werden
 2012001	Damit wollt Ihr mich aus dem Gleichgewicht bringen?
 2012002	Besiegt "Syruk" in der Syruks Forschungsstation, ohne von "Mit dem Streitkolben einschlagen und heranziehen" getroffen zu werden.
 2012003	Besiegt "Syruk" in der Syruks Forschungsstation, ohne von "Mit dem Streitkolben einschlagen und heranziehen" getroffen zu werden.
@@ -10146,6 +10146,635 @@
 99142003	Führt alle unten aufgeführten Aufgaben aus.
 99142501	Bahaars Tempel, mein Tempel!
 99142800	Erste Sahne Abgeschlossen
+99152500	TBA
+99152501	Sieg in der Battle Arena!
+99152502	5. Sieg in der Battle Arena!
+99152503	10. Sieg in der Battle Arena!
+99152504	20. Sieg in der Battle Arena!
+99152505	30. Sieg in der Battle Arena!
+99152506	40. Sieg in der Battle Arena!
+99152507	50. Sieg in der Battle Arena!
+99152508	70. Sieg in der Battle Arena!
+99152509	90. Sieg in der Battle Arena!
+99152510	100. Sieg in der Battle Arena!
+99152511	150. Sieg in der Battle Arena!
+99152512	200. Sieg in der Battle Arena!
+99152513	250. Sieg in der Battle Arena!
+99152514	300. Sieg in der Battle Arena!
+99152515	350. Sieg in der Battle Arena!
+99152516	400. Sieg in der Battle Arena!
+99152517	450. Sieg in der Battle Arena!
+99152518	500. Sieg in der Battle Arena!
+99152519	600. Sieg in der Battle Arena!
+99152520	700. Sieg in der Battle Arena!
+99152521	800. Sieg in der Battle Arena!
+99152522	900. Sieg in der Battle Arena!
+99152523	999. Sieg in der Battle Arena!
+99152524	TBA
+99152525	Niederlage in der Battle Arena!
+99152526	5. Niederlage in der Battle Arena!
+99152527	10. Niederlage in der Battle Arena!
+99152528	20. Niederlage in der Battle Arena!
+99152529	30. Niederlage in der Battle Arena!
+99152530	40. Niederlage in der Battle Arena!
+99152531	50. Niederlage in der Battle Arena!
+99152532	70. Niederlage in der Battle Arena!
+99152533	90. Niederlage in der Battle Arena!
+99152534	100. Niederlage in der Battle Arena!
+99152535	150. Niederlage in der Battle Arena!
+99152536	200. Niederlage in der Battle Arena!
+99152537	250. Niederlage in der Battle Arena!
+99152538	300. Niederlage in der Battle Arena!
+99152539	350. Niederlage in der Battle Arena!
+99152540	400. Niederlage in der Battle Arena!
+99152541	450. Niederlage in der Battle Arena!
+99152542	500. Niederlage in der Battle Arena!
+99152543	600. Niederlage in der Battle Arena!
+99152544	700. Niederlage in der Battle Arena!
+99152545	800. Niederlage in der Battle Arena!
+99152546	900. Niederlage in der Battle Arena!
+99152547	999. Niederlage in der Battle Arena!
+99152548	TBA
+99152549	Spielt in der Battle Arena!
+99152550	5. Spiel in der Battle Arena!
+99152551	10. Spiel in der Battle Arena!
+99152552	20. Spiel in der Battle Arena!
+99152553	30. Spiel in der Battle Arena!
+99152554	40. Spiel in der Battle Arena!
+99152555	50. Spiel in der Battle Arena!
+99152556	70. Spiel in der Battle Arena!
+99152557	90. Spiel in der Battle Arena!
+99152558	100. Spiel in der Battle Arena!
+99152559	150. Spiel in der Battle Arena!
+99152560	200. Spiel in der Battle Arena!
+99152561	250. Spiel in der Battle Arena!
+99152562	300. Spiel in der Battle Arena!
+99152563	350. Spiel in der Battle Arena!
+99152564	400. Spiel in der Battle Arena!
+99152565	450. Spiel in der Battle Arena!
+99152566	500. Spiel in der Battle Arena!
+99152567	600. Spiel in der Battle Arena!
+99152568	700. Spiel in der Battle Arena!
+99152569	800. Spiel in der Battle Arena!
+99152570	900. Spiel in der Battle Arena!
+99152571	999. Spiel in der Battle Arena!
+99152572	TBA
+99152573	Erledigt Gegner!
+99152574	5 Gegner erledigt!
+99152575	10 Gegner erledigt!
+99152576	20 Gegner erledigt!
+99152577	30 Gegner erledigt!
+99152578	40 Gegner erledigt!
+99152579	50 Gegner erledigt!
+99152580	70 Gegner erledigt!
+99152581	90 Gegner erledigt!
+99152582	100 Gegner erledigt!
+99152583	150 Gegner erledigt!
+99152584	200 Gegner erledigt!
+99152585	250 Gegner erledigt!
+99152586	300 Gegner erledigt!
+99152587	350 Gegner erledigt!
+99152588	400 Gegner erledigt!
+99152589	450 Gegner erledigt!
+99152590	500 Gegner erledigt!
+99152591	600 Gegner erledigt!
+99152592	700 Gegner erledigt!
+99152593	800 Gegner erledigt!
+99152594	900 Gegner erledigt!
+99152595	999 Gegner erledigt!
+99152596	TBA
+99152597	Leistet einen Assist!
+99152598	5 Assists geleistet!
+99152599	10 Assists geleistet!
+99152600	20 Assists geleistet!
+99152601	30 Assists geleistet!
+99152602	40 Assists geleistet!
+99152603	50 Assists geleistet!
+99152604	70 Assists geleistet!
+99152605	90 Assists geleistet!
+99152606	100 Assists geleistet!
+99152607	150 Assists geleistet!
+99152608	200 Assists geleistet!
+99152609	250 Assists geleistet!
+99152610	300 Assists geleistet!
+99152611	350 Assists geleistet!
+99152612	400 Assists geleistet!
+99152613	450 Assists geleistet!
+99152614	500 Assists geleistet!
+99152615	600 Assists geleistet!
+99152616	700 Assists geleistet!
+99152617	800 Assists geleistet!
+99152618	900 Assists geleistet!
+99152619	999 Assists geleistet!
+99152620	TBA
+99152621	Seid siegreich als Braga!
+99152622	5. Sieg als Braga!
+99152623	10. Sieg als Braga!
+99152624	20. Sieg als Braga!
+99152625	30. Sieg als Braga!
+99152626	40. Sieg als Braga!
+99152627	50. Sieg als Braga!
+99152628	70. Sieg als Braga!
+99152629	90. Sieg als Braga!
+99152630	100. Sieg als Braga!
+99152631	150. Sieg als Braga!
+99152632	200. Sieg als Braga!
+99152633	250. Sieg als Braga!
+99152634	300. Sieg als Braga!
+99152635	350. Sieg als Braga!
+99152636	400. Sieg als Braga!
+99152637	450. Sieg als Braga!
+99152638	500. Sieg als Braga!
+99152639	600. Sieg als Braga!
+99152640	700. Sieg als Braga!
+99152641	800. Sieg als Braga!
+99152642	900. Sieg als Braga!
+99152643	999. Sieg als Braga!
+99152644	TBA
+99152645	Seid siegreich als Dougal!
+99152646	5. Sieg als Dougal!
+99152647	10. Sieg als Dougal!
+99152648	20. Sieg als Dougal!
+99152649	30. Sieg als Dougal!
+99152650	40. Sieg als Dougal!
+99152651	50. Sieg als Dougal!
+99152652	70. Sieg als Dougal!
+99152653	90. Sieg als Dougal!
+99152654	100. Sieg als Dougal!
+99152655	150. Sieg als Dougal!
+99152656	200. Sieg als Dougal!
+99152657	250. Sieg als Dougal!
+99152658	300. Sieg als Dougal!
+99152659	350. Sieg als Dougal!
+99152660	400. Sieg als Dougal!
+99152661	450. Sieg als Dougal!
+99152662	500. Sieg als Dougal!
+99152663	600. Sieg als Dougal!
+99152664	700. Sieg als Dougal!
+99152665	800. Sieg als Dougal!
+99152666	900. Sieg als Dougal!
+99152667	999. Sieg als Dougal!
+99152668	TBA
+99152669	Seid siegreich als Rhodos!
+99152670	5. Sieg als Rhodos!
+99152671	10. Sieg als Rhodos!
+99152672	20. Sieg als Rhodos!
+99152673	30. Sieg als Rhodos!
+99152674	40. Sieg als Rhodos!
+99152675	50. Sieg als Rhodos!
+99152676	70. Sieg als Rhodos!
+99152677	90. Sieg als Rhodos!
+99152678	100. Sieg als Rhodos!
+99152679	150. Sieg als Rhodos!
+99152680	200. Sieg als Rhodos!
+99152681	250. Sieg als Rhodos!
+99152682	300. Sieg als Rhodos!
+99152683	350. Sieg als Rhodos!
+99152684	400. Sieg als Rhodos!
+99152685	450. Sieg als Rhodos!
+99152686	500. Sieg als Rhodos!
+99152687	600. Sieg als Rhodos!
+99152688	700. Sieg als Rhodos!
+99152689	800. Sieg als Rhodos!
+99152690	900. Sieg als Rhodos!
+99152691	999. Sieg als Rhodos!
+99152692	TBA
+99152693	Seid siegreich als Fraya!
+99152694	5. Sieg als Fraya!
+99152695	10. Sieg als Fraya!
+99152696	20. Sieg als Fraya!
+99152697	30. Sieg als Fraya!
+99152698	40. Sieg als Fraya!
+99152699	50. Sieg als Fraya!
+99152700	70. Sieg als Fraya!
+99152701	90. Sieg als Fraya!
+99152702	100. Sieg als Fraya!
+99152703	150. Sieg als Fraya!
+99152704	200. Sieg als Fraya!
+99152705	250. Sieg als Fraya!
+99152706	300. Sieg als Fraya!
+99152707	350. Sieg als Fraya!
+99152708	400. Sieg als Fraya!
+99152709	450. Sieg als Fraya!
+99152710	500. Sieg als Fraya!
+99152711	600. Sieg als Fraya!
+99152712	700. Sieg als Fraya!
+99152713	800. Sieg als Fraya!
+99152714	900. Sieg als Fraya!
+99152715	999. Sieg als Fraya!
+99152716	TBA
+99152717	Seid siegreich als Elion!
+99152718	5. Sieg als Elion!
+99152719	10. Sieg als Elion!
+99152720	20. Sieg als Elion!
+99152721	30. Sieg als Elion!
+99152722	40. Sieg als Elion!
+99152723	50. Sieg als Elion!
+99152724	70. Sieg als Elion!
+99152725	90. Sieg als Elion!
+99152726	100. Sieg als Elion!
+99152727	150. Sieg als Elion!
+99152728	200. Sieg als Elion!
+99152729	250. Sieg als Elion!
+99152730	300. Sieg als Elion!
+99152731	350. Sieg als Elion!
+99152732	400. Sieg als Elion!
+99152733	450. Sieg als Elion!
+99152734	500. Sieg als Elion!
+99152735	600. Sieg als Elion!
+99152736	700. Sieg als Elion!
+99152737	800. Sieg als Elion!
+99152738	900. Sieg als Elion!
+99152739	999. Sieg als Elion!
+99152740	TBA
+99152741	Seid siegreich als Sina!
+99152742	5. Sieg als Sina!
+99152743	10. Sieg als Sina!
+99152744	20. Sieg als Sina!
+99152745	30. Sieg als Sina!
+99152746	40. Sieg als Sina!
+99152747	50. Sieg als Sina!
+99152748	70. Sieg als Sina!
+99152749	90. Sieg als Sina!
+99152750	100. Sieg als Sina!
+99152751	150. Sieg als Sina!
+99152752	200. Sieg als Sina!
+99152753	250. Sieg als Sina!
+99152754	300. Sieg als Sina!
+99152755	350. Sieg als Sina!
+99152756	400. Sieg als Sina!
+99152757	450. Sieg als Sina!
+99152758	500. Sieg als Sina!
+99152759	600. Sieg als Sina!
+99152760	700. Sieg als Sina!
+99152761	800. Sieg als Sina!
+99152762	900. Sieg als Sina!
+99152763	999. Sieg als Sina!
+99152764	TBA
+99152765	Seid siegreich als Flugorung!
+99152766	5. Sieg als Flugorung!
+99152767	10. Sieg als Flugorung!
+99152768	20. Sieg als Flugorung!
+99152769	30. Sieg als Flugorung!
+99152770	40. Sieg als Flugorung!
+99152771	50. Sieg als Flugorung!
+99152772	70. Sieg als Flugorung!
+99152773	90. Sieg als Flugorung!
+99152774	100. Sieg als Flugorung!
+99152775	150. Sieg als Flugorung!
+99152776	200. Sieg als Flugorung!
+99152777	250. Sieg als Flugorung!
+99152778	300. Sieg als Flugorung!
+99152779	350. Sieg als Flugorung!
+99152780	400. Sieg als Flugorung!
+99152781	450. Sieg als Flugorung!
+99152782	500. Sieg als Flugorung!
+99152783	600. Sieg als Flugorung!
+99152784	700. Sieg als Flugorung!
+99152785	800. Sieg als Flugorung!
+99152786	900. Sieg als Flugorung!
+99152787	999. Sieg als Flugorung!
+99152788	TBA
+99152789	Seid siegreich als Ciebel!
+99152790	5. Sieg als Ciebel!
+99152791	10. Sieg als Ciebel!
+99152792	20. Sieg als Ciebel!
+99152793	30. Sieg als Ciebel!
+99152794	40. Sieg als Ciebel!
+99152795	50. Sieg als Ciebel!
+99152796	70. Sieg als Ciebel!
+99152797	90. Sieg als Ciebel!
+99152798	100. Sieg als Ciebel!
+99152799	150. Sieg als Ciebel!
+99152800	200. Sieg als Ciebel!
+99152801	250. Sieg als Ciebel!
+99152802	300. Sieg als Ciebel!
+99152803	350. Sieg als Ciebel!
+99152804	400. Sieg als Ciebel!
+99152805	450. Sieg als Ciebel!
+99152806	500. Sieg als Ciebel!
+99152807	600. Sieg als Ciebel!
+99152808	700. Sieg als Ciebel!
+99152809	800. Sieg als Ciebel!
+99152810	900. Sieg als Ciebel!
+99152811	999. Sieg als Ciebel!
+99152812	TBA
+99152813	Seid siegreich als Ryshan!
+99152814	5. Sieg als Ryshan!
+99152815	10. Sieg als Ryshan!
+99152816	20. Sieg als Ryshan!
+99152817	30. Sieg als Ryshan!
+99152818	40. Sieg als Ryshan!
+99152819	50. Sieg als Ryshan!
+99152820	70. Sieg als Ryshan!
+99152821	90. Sieg als Ryshan!
+99152822	100. Sieg als Ryshan!
+99152823	150. Sieg als Ryshan!
+99152824	200. Sieg als Ryshan!
+99152825	250. Sieg als Ryshan!
+99152826	300. Sieg als Ryshan!
+99152827	350. Sieg als Ryshan!
+99152828	400. Sieg als Ryshan!
+99152829	450. Sieg als Ryshan!
+99152830	500. Sieg als Ryshan!
+99152831	600. Sieg als Ryshan!
+99152832	700. Sieg als Ryshan!
+99152833	800. Sieg als Ryshan!
+99152834	900. Sieg als Ryshan!
+99152835	999. Sieg als Ryshan!
+99152836	TBA
+99152837	Seid siegreich als Nina!
+99152838	5. Sieg als Nina!
+99152839	10. Sieg als Nina!
+99152840	20. Sieg als Nina!
+99152841	30. Sieg als Nina!
+99152842	40. Sieg als Nina!
+99152843	50. Sieg als Nina!
+99152844	70. Sieg als Nina!
+99152845	90. Sieg als Nina!
+99152846	100. Sieg als Nina!
+99152847	150. Sieg als Nina!
+99152848	200. Sieg als Nina!
+99152849	250. Sieg als Nina!
+99152850	300. Sieg als Nina!
+99152851	350. Sieg als Nina!
+99152852	400. Sieg als Nina!
+99152853	450. Sieg als Nina!
+99152854	500. Sieg als Nina!
+99152855	600. Sieg als Nina!
+99152856	700. Sieg als Nina!
+99152857	800. Sieg als Nina!
+99152858	900. Sieg als Nina!
+99152859	999. Sieg als Nina!
+99152860	TBA
+99152861	Seid siegreich als Solyn!
+99152862	5. Sieg als Solyn!
+99152863	10. Sieg als Solyn!
+99152864	20. Sieg als Solyn!
+99152865	30. Sieg als Solyn!
+99152866	40. Sieg als Solyn!
+99152867	50. Sieg als Solyn!
+99152868	70. Sieg als Solyn!
+99152869	90. Sieg als Solyn!
+99152870	100. Sieg als Solyn!
+99152871	150. Sieg als Solyn!
+99152872	200. Sieg als Solyn!
+99152873	250. Sieg als Solyn!
+99152874	300. Sieg als Solyn!
+99152875	350. Sieg als Solyn!
+99152876	400. Sieg als Solyn!
+99152877	450. Sieg als Solyn!
+99152878	500. Sieg als Solyn!
+99152879	600. Sieg als Solyn!
+99152880	700. Sieg als Solyn!
+99152881	800. Sieg als Solyn!
+99152882	900. Sieg als Solyn!
+99152883	999. Sieg als Solyn!
+99152884	TBA
+99152885	Seid siegreich als Astina!
+99152886	5. Sieg als Astina!
+99152887	10. Sieg als Astina!
+99152888	20. Sieg als Astina!
+99152889	30. Sieg als Astina!
+99152890	40. Sieg als Astina!
+99152891	50. Sieg als Astina!
+99152892	70. Sieg als Astina!
+99152893	90. Sieg als Astina!
+99152894	100. Sieg als Astina!
+99152895	150. Sieg als Astina!
+99152896	200. Sieg als Astina!
+99152897	250. Sieg als Astina!
+99152898	300. Sieg als Astina!
+99152899	350. Sieg als Astina!
+99152900	400. Sieg als Astina!
+99152901	450. Sieg als Astina!
+99152902	500. Sieg als Astina!
+99152903	600. Sieg als Astina!
+99152904	700. Sieg als Astina!
+99152905	800. Sieg als Astina!
+99152906	900. Sieg als Astina!
+99152907	999. Sieg als Astina!
+99152908	TBA
+99152909	Seid siegreich als Luhan!
+99152910	5. Sieg als Luhan!
+99152911	10. Sieg als Luhan!
+99152912	20. Sieg als Luhan!
+99152913	30. Sieg als Luhan!
+99152914	40. Sieg als Luhan!
+99152915	50. Sieg als Luhan!
+99152916	70. Sieg als Luhan!
+99152917	90. Sieg als Luhan!
+99152918	100. Sieg als Luhan!
+99152919	150. Sieg als Luhan!
+99152920	200. Sieg als Luhan!
+99152921	250. Sieg als Luhan!
+99152922	300. Sieg als Luhan!
+99152923	350. Sieg als Luhan!
+99152924	400. Sieg als Luhan!
+99152925	450. Sieg als Luhan!
+99152926	500. Sieg als Luhan!
+99152927	600. Sieg als Luhan!
+99152928	700. Sieg als Luhan!
+99152929	800. Sieg als Luhan!
+99152930	900. Sieg als Luhan!
+99152931	999. Sieg als Luhan!
+99152932	TBA
+99152933	Seid siegreich als Kaia!
+99152934	5. Sieg als Kaia!
+99152935	10. Sieg als Kaia!
+99152936	20. Sieg als Kaia!
+99152937	30. Sieg als Kaia!
+99152938	40. Sieg als Kaia!
+99152939	50. Sieg als Kaia!
+99152940	70. Sieg als Kaia!
+99152941	90. Sieg als Kaia!
+99152942	100. Sieg als Kaia!
+99152943	150. Sieg als Kaia!
+99152944	200. Sieg als Kaia!
+99152945	250. Sieg als Kaia!
+99152946	300. Sieg als Kaia!
+99152947	350. Sieg als Kaia!
+99152948	400. Sieg als Kaia!
+99152949	450. Sieg als Kaia!
+99152950	500. Sieg als Kaia!
+99152951	600. Sieg als Kaia!
+99152952	700. Sieg als Kaia!
+99152953	800. Sieg als Kaia!
+99152954	900. Sieg als Kaia!
+99152955	999. Sieg als Kaia!
+99152956	TBA
+99152957	Seid siegreich als Dixie!
+99152958	5. Sieg als Dixie!
+99152959	10. Sieg als Dixie!
+99152960	20. Sieg als Dixie!
+99152961	30. Sieg als Dixie!
+99152962	40. Sieg als Dixie!
+99152963	50. Sieg als Dixie!
+99152964	70. Sieg als Dixie!
+99152965	90. Sieg als Dixie!
+99152966	100. Sieg als Dixie!
+99152967	150. Sieg als Dixie!
+99152968	200. Sieg als Dixie!
+99152969	250. Sieg als Dixie!
+99152970	300. Sieg als Dixie!
+99152971	350. Sieg als Dixie!
+99152972	400. Sieg als Dixie!
+99152973	450. Sieg als Dixie!
+99152974	500. Sieg als Dixie!
+99152975	600. Sieg als Dixie!
+99152976	700. Sieg als Dixie!
+99152977	800. Sieg als Dixie!
+99152978	900. Sieg als Dixie!
+99152979	999. Sieg als Dixie!
+99152980	TBA
+99152981	Seid siegreich als Shaolung!
+99152982	5. Sieg als Shaolung!
+99152983	10. Sieg als Shaolung!
+99152984	20. Sieg als Shaolung!
+99152985	30. Sieg als Shaolung!
+99152986	40. Sieg als Shaolung!
+99152987	50. Sieg als Shaolung!
+99152988	70. Sieg als Shaolung!
+99152989	90. Sieg als Shaolung!
+99152990	100. Sieg als Shaolung!
+99152991	150. Sieg als Shaolung!
+99152992	200. Sieg als Shaolung!
+99152993	250. Sieg als Shaolung!
+99152994	300. Sieg als Shaolung!
+99152995	350. Sieg als Shaolung!
+99152996	400. Sieg als Shaolung!
+99152997	450. Sieg als Shaolung!
+99152998	500. Sieg als Shaolung!
+99152999	600. Sieg als Shaolung!
+99153000	700. Sieg als Shaolung!
+99153001	800. Sieg als Shaolung!
+99153002	900. Sieg als Shaolung!
+99153003	999. Sieg als Shaolung!
+99153004	TBA
+99153005	Seid siegreich als Uwu!
+99153006	5. Sieg als Uwu!
+99153007	10. Sieg als Uwu!
+99153008	20. Sieg als Uwu!
+99153009	30. Sieg als Uwu!
+99153010	40. Sieg als Uwu!
+99153011	50. Sieg als Uwu!
+99153012	70. Sieg als Uwu!
+99153013	90. Sieg als Uwu!
+99153014	100. Sieg als Uwu!
+99153015	150. Sieg als Uwu!
+99153016	200. Sieg als Uwu!
+99153017	250. Sieg als Uwu!
+99153018	300. Sieg als Uwu!
+99153019	350. Sieg als Uwu!
+99153020	400. Sieg als Uwu!
+99153021	450. Sieg als Uwu!
+99153022	500. Sieg als Uwu!
+99153023	600. Sieg als Uwu!
+99153024	700. Sieg als Uwu!
+99153025	800. Sieg als Uwu!
+99153026	900. Sieg als Uwu!
+99153027	999. Sieg als Uwu!
+99153028	TBA
+99153029	Seid siegreich als Thro!
+99153030	5. Sieg als Thro!
+99153031	10. Sieg als Thro!
+99153032	20. Sieg als Thro!
+99153033	30. Sieg als Thro!
+99153034	40. Sieg als Thro!
+99153035	50. Sieg als Thro!
+99153036	70. Sieg als Thro!
+99153037	90. Sieg als Thro!
+99153038	100. Sieg als Thro!
+99153039	150. Sieg als Thro!
+99153040	200. Sieg als Thro!
+99153041	250. Sieg als Thro!
+99153042	300. Sieg als Thro!
+99153043	350. Sieg als Thro!
+99153044	400. Sieg als Thro!
+99153045	450. Sieg als Thro!
+99153046	500. Sieg als Thro!
+99153047	600. Sieg als Thro!
+99153048	700. Sieg als Thro!
+99153049	800. Sieg als Thro!
+99153050	900. Sieg als Thro!
+99153051	999. Sieg als Thro!
+99153052	TBA
+99153053	Seid siegreich als Poarung!
+99153054	5. Sieg als Poarung!
+99153055	10. Sieg als Poarung!
+99153056	20. Sieg als Poarung!
+99153057	30. Sieg als Poarung!
+99153058	40. Sieg als Poarung!
+99153059	50. Sieg als Poarung!
+99153060	70. Sieg als Poarung!
+99153061	90. Sieg als Poarung!
+99153062	100. Sieg als Poarung!
+99153063	150. Sieg als Poarung!
+99153064	200. Sieg als Poarung!
+99153065	250. Sieg als Poarung!
+99153066	300. Sieg als Poarung!
+99153067	350. Sieg als Poarung!
+99153068	400. Sieg als Poarung!
+99153069	450. Sieg als Poarung!
+99153070	500. Sieg als Poarung!
+99153071	600. Sieg als Poarung!
+99153072	700. Sieg als Poarung!
+99153073	800. Sieg als Poarung!
+99153074	900. Sieg als Poarung!
+99153075	999. Sieg als Poarung!
+99153076	TBA
+99153077	Seid siegreich als Mutarr!
+99153078	5. Sieg als Mutarr!
+99153079	10. Sieg als Mutarr!
+99153080	20. Sieg als Mutarr!
+99153081	30. Sieg als Mutarr!
+99153082	40. Sieg als Mutarr!
+99153083	50. Sieg als Mutarr!
+99153084	70. Sieg als Mutarr!
+99153085	90. Sieg als Mutarr!
+99153086	100. Sieg als Mutarr!
+99153087	150. Sieg als Mutarr!
+99153088	200. Sieg als Mutarr!
+99153089	250. Sieg als Mutarr!
+99153090	300. Sieg als Mutarr!
+99153091	350. Sieg als Mutarr!
+99153092	400. Sieg als Mutarr!
+99153093	450. Sieg als Mutarr!
+99153094	500. Sieg als Mutarr!
+99153095	600. Sieg als Mutarr!
+99153096	700. Sieg als Mutarr!
+99153097	800. Sieg als Mutarr!
+99153098	900. Sieg als Mutarr!
+99153099	999. Sieg als Mutarr!
+99153100	TBA
+99153101	Seid siegreich als Livia!
+99153102	5. Sieg als Livia!
+99153103	10. Sieg als Livia!
+99153104	20. Sieg als Livia!
+99153105	30. Sieg als Livia!
+99153106	40. Sieg als Livia!
+99153107	50. Sieg als Livia!
+99153108	70. Sieg als Livia!
+99153109	90. Sieg als Livia!
+99153110	100. Sieg als Livia!
+99153111	150. Sieg als Livia!
+99153112	200. Sieg als Livia!
+99153113	250. Sieg als Livia!
+99153114	300. Sieg als Livia!
+99153115	350. Sieg als Livia!
+99153116	400. Sieg als Livia!
+99153117	450. Sieg als Livia!
+99153118	500. Sieg als Livia!
+99153119	600. Sieg als Livia!
+99153120	700. Sieg als Livia!
+99153121	800. Sieg als Livia!
+99153122	900. Sieg als Livia!
+99153123	999. Sieg als Livia!
+99153124	Sprecht mit Mattin, Tamur, Kaidun und Rida.
+99153125	Sprecht mit Mattin.
+99153126	Sprecht mit Tamur.
+99153127	Sprecht mit Kaidun.
+99153128	Sprecht mit Rida.
 503000001	Tourist of the Bloody Island
 503000002	Visited the Bloody Island
 503000003	Visited the Bloody Island
@@ -10358,6 +10987,32 @@
 520065003	Create the Blue Head Shrimp.
 520065501	A Rare Catch
 520065800	Create the Blue Head Shrimp.
+520066001	[Erfolg] Popori-Master
+520066002	Diesen Titel erhaltet Ihr, wenn Ihr 6-Mal den 1. Platz erreicht.
+520066003	Diesen Titel erhaltet Ihr, wenn Ihr 6-Mal den 1. Platz erreicht.
+520066004	TERA-Team
+520066501	Popori-Master
+520066800	Diesen Titel erhaltet Ihr, wenn Ihr 6-Mal den 1. Platz erreicht.
+520067001	[Fortschritt] Rewards Tier 1-4
+520067002	Erhalten als TERA NA Spieler mit einem Rewards Tier zwischen 1 und 4.
+520067003	Ihr hattet ein Rewards Tier zwischen 1 und 4.
+520067501	Silberner Reisender
+520067800	Erhalten als TERA NA Spieler mit einem Rewards Tier zwischen 1 und 4.
+520068001	[Fortschritt] Rewards Tier 5-8
+520068002	Erhalten als TERA NA Spieler mit einem Rewards Tier zwischen 5 und 8.
+520068003	Ihr hattet ein Rewards Tier zwischen 5 und 8.
+520068501	Goldener Reisender
+520068800	Erhalten als TERA NA Spieler mit einem Rewards Tier zwischen 5 und 8.
+520069001	[Fortschritt] Rewards Tier 9
+520069002	Erhalten als TERA NA Spieler mit einem Rewards Tier von 9.
+520069003	Ihr hattet ein Rewards Tier von 9.
+520069501	Platin-Reisender
+520069800	Erhalten als TERA NA Spieler mit einem Rewards Tier von 9.
+520070001	[Fortschritt] Rewards Tier 10
+520070002	Erhalten als TERA NA Spieler mit einem Rewards Tier von 10.
+520070003	Ihr hattet ein Rewards Tier von 10.
+520070501	Diamant-Reisender
+520070800	Erhalten als TERA NA Spieler mit einem Rewards Tier von 10.
 525000001	Lore Apprentice
 525000002	Lore items A, B, C
 525000003	Lore items A, B, C
@@ -10532,11 +11187,21 @@
 525028004	TERA Team
 525028501	Extra Life QT
 525028800	Obtain 1 Police Report during event
-525029001	Fürst des Drachenordens
-525029002	Erlernt alle 25 Drachen-Reitfertigkeiten und steige je einmal auf.
-525029003	Erlernt alle 25 Drachen-Reitfertigkeiten und steige je einmal auf.
-525029004	Drachenorden
+525029001	The Dragon Fanatic
+525029002	Possess all of the Dragons
+525029003	Possess all of the Dragons
+525029004	TERA Team
 525029501	Fürst des Drachenordens
+525030001	[Fortschritt] Vergos' Erzfeind
+525030002	Wird freigeschaltet, wenn die vierte Phase des zerstörten Zugangs zum Tor des Himmelreichs der Götter im Winter 2020 mindestens 5x abgeschlossen wird.
+525030003	Phase 4 des zerstörten Zugangs zum Tor des Himmelreichs der Götter 5x abschließen
+525030501	Götterschlächter
+525030800	Sammele 50 Polizeiberichte während dem Event.
+525031001	[Fortschritt] Zeitreisender
+525031002	Wird freigeschaltet, wenn Valonas Raumzeit (schwierig) im Winter 2020 mindestens 100x abgeschlossen wird.
+525031003	Valonas Raumzeit (schwierig) im Winter 2020 mindestens 100x abschließen
+525031501	Timelord
+525031800	Sammele 50 Polizeiberichte während dem Event.
 530009001	collection_title1
 530009002	Complete milestone of event "Altar of cards" and use special item from reward to get achievment
 530009003	Unique title. Colour: white
