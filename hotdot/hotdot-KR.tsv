@@ -1032,6 +1032,7 @@
 6078	360	Buff	True	perc	1800000	0	0.95	공룡의 재롱 (낚시)			공룡의 힘으로 시간이 가속되어 수동 낚시 입질 시간이 $H_W_GOOD5%$COLOR_END 감소하고, 자동 낚시 소요 시간이 $H_W_GOOD10%$COLOR_END 감소합니다. 추가로 낚시 난이도가 $H_W_GOOD20%$COLOR_END 감소합니다.	icon_skills.tyrannosaur_vehicleskill_rare_tex	icon_skills.tyrannosaur_vehicleskill_rare_tex	True
 6078	361	Buff	True	perc	1800000	0	0.8	공룡의 재롱 (낚시)			공룡의 힘으로 시간이 가속되어 수동 낚시 입질 시간이 $H_W_GOOD5%$COLOR_END 감소하고, 자동 낚시 소요 시간이 $H_W_GOOD10%$COLOR_END 감소합니다. 추가로 낚시 난이도가 $H_W_GOOD20%$COLOR_END 감소합니다.	icon_skills.tyrannosaur_vehicleskill_rare_tex	icon_skills.tyrannosaur_vehicleskill_rare_tex	True
 6080	CCrystalBind	Buff	True	abs	0	0	1	[연습 던전]완전한 크리스탈 보호 버프			사망 시 크리스탈이 깨지는 것을 방지합니다.<br>해당 효과는 연습 던전을 벗어나면 해제됩니다.	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
+6081	MaxHP	Buff	True	perc	900000	0	1.05	든든한 간식			시바견에게 간식을 줍니다. 간식이 순식간에 사라지는 모습을 지켜보며 체중 감량을 시켜야겠다는 다짐과 함께 주인까지도 포만감을 느낍니다. (사용 시 최대 HP $H_W_GOOD5%$COLOR_END 상승하고 [영물]들과 스킬의 재사용 시간을 공유하지 않습니다.	icon_skills.shiba_vehicleskill_rare_tex	icon_skills.shiba_vehicleskill_rare_tex	True
 10100	HPChange	DOT	False	abs	5000	1	-11	맹독 I [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-11$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	맹독 II [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-23$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	맹독 III [크리스탈]			$H_W_BAD1s$COLOR_END마다 $H_W_BAD-58$COLOR_END씩 HP가 지속적으로 감소됩니다.	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -1449,6 +1450,14 @@
 18806	MovSpd	Debuff	False	setp	8000	0	0.5	파도 속의 발걸음			이동속도가 $H_W_BAD50%$COLOR_END 감소합니다.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 18806	HPDrain	Debuff	False	perc	8000	0	0.5	파도 속의 발걸음			이동속도가 $H_W_BAD50%$COLOR_END 감소합니다.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 18808	Absorb	Buff	True	swch	7000	0	84000	강철의 심장			보호막이 최대 $H_W_GOOD84000$COLOR_END 만큼의 피해를 흡수합니다. 최대 피해 흡수량을 넘어서면 지속 시간에 상관 없이 효과는 즉시 해제됩니다.	icon_skills.damagingaurab_tex	icon_skills.damagingaurab_tex	True
+18811	1009	Buff	True	abs	15000	0	18000	물리 저항 무시 증가			15초 동안 물리 저항 무시가 18000증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18812	1010	Buff	True	abs	15000	0	18000	마법 저항 무시 증가			15초 동안 마법 저항 무시가 18000증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18813	1004	Buff	True	abs	15000	0	20000	마법 저항 증가			15초 동안 마법 저항이 20000증가합니다.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18814	Immune	Buff	True	57	3000	0	0	무적			3초 동안 무적 효과가 적용됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+18815	ASpd	Buff	True	abs	15000	0	20	공속 증가			15초 동안 공속 20 증가	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18815	DelayedEffect	Buff	True	swch	15000	0	18817	공속 증가			15초 동안 공속 20 증가	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18816	Absorb	Buff	True	swch	2000	0	50000	보호막			5만의 데미지를 흡수하는 보호막이 2초 동안 유지됩니다.	icon_skills.defenceup_tex	icon_skills.defenceup_tex	True
+18817	MaxHP	Stun	True	perc	45000	0	1	과부하			과부하에 걸려 흑맥주 효과를 받을 수 없습니다.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
 21010	ASpd	Buff	True	perc	10000	0	1.15	긴급 회피(신속의 문장)			공격 속도가 $H_W_GOOD15%$COLOR_END 향상됩니다.	icon_skills.tumbling_tex	icon_crest.crestactiveattackspeedup_tex	True
 21020	ReducedMPCost	Buff	True	abs	10000	0	-88	도발 난무(연계 정신의 문장 [몰아치기])			연계 스킬로 몰아치기 사용 시 소모 MP가 $H_W_GOOD-88$COLOR_END 감소됩니다.	icon_skills.nanmu_tex	icon_crest.crestnextskillmpdown_tex	True
 21030	ReducedMPCost	Buff	True	abs	10000	0	-75	기상 공격(연계 정신의 문장 [내려찍기])			연계 스킬로 내려찍기 사용 시 소모 MP가 $H_W_GOOD-75$COLOR_END 감소됩니다.	icon_skills.risingattack_tex	icon_crest.crestnextskillmpdown_tex	True
@@ -3456,6 +3465,18 @@
 628018	Endurance	Debuff	True	perc	60000	0	0	증오 보호막			마그누트의 푸른 힘, 증오의 공격을 흡수하는 보호막	icon_skills.focusstance_tex	icon_skills.focusstance_tex	True
 628018	330	Debuff	True	swch	60000	0	0	증오 보호막			마그누트의 푸른 힘, 증오의 공격을 흡수하는 보호막	icon_skills.focusstance_tex	icon_skills.focusstance_tex	True
 628018	331	Debuff	True	swch	60000	0	0	증오 보호막			마그누트의 푸른 힘, 증오의 공격을 흡수하는 보호막	icon_skills.focusstance_tex	icon_skills.focusstance_tex	True
+628020	HPChange	DOT	False	perc	12000	3	-0.03	출혈			펜리르의 공격을 받아 지속적으로 HP가 감소합니다.<br>$H_W_BAD3s$COLOR_END마다 HP가 $H_W_BAD3%$COLOR_END씩 지속적으로 감소됩니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+628021	MovSpd	DOT	False	setp	12000	0	0.8	이속감소인데 안씀				icon_skills.slowwave_tex	icon_skills.slowwave_tex	True
+628021	HPDrain	DOT	False	perc	12000	0	0.8	이속감소인데 안씀				icon_skills.slowwave_tex	icon_skills.slowwave_tex	True
+628022	Fear	Stun	False	swch	10000	0	200	공포			지속적으로 펜리르의 포효에 노출되어 공포 상태에 빠졌습니다.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
+628023	Stun	Stun	False	swch	5000	0	5	정신공격			지속적으로 펜리르의 포효에 노출되어 기절 상태에 빠졌습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+628024	Attack	Debuff	True	perc	80000	0	1.05	광기의 포효			광기의 포효의 힘으로 피해량이 $H_W_GOOD5%$COLOR_END 증가합니다.<br>지속적으로 피격당할 시 공포에 빠집니다.	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True
+628024	StackCounter	Debuff	True	seta	80000	0	628022	광기의 포효			광기의 포효의 힘으로 피해량이 $H_W_GOOD5%$COLOR_END 증가합니다.<br>지속적으로 피격당할 시 공포에 빠집니다.	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True
+628025	ASpd	Debuff	True	perc	80000	0	1.02	폭풍의 포효			폭풍의 포효의 힘으로 공격속도가 $H_W_GOOD2%$COLOR_END 증가합니다.<br>지속적으로 피격당할 시 기절 상태에 빠집니다.	icon_status.cruel_slayer_4_tex	icon_status.cruel_slayer_4_tex	True
+628025	StackCounter	Debuff	True	seta	80000	0	628023	폭풍의 포효			폭풍의 포효의 힘으로 공격속도가 $H_W_GOOD2%$COLOR_END 증가합니다.<br>지속적으로 피격당할 시 기절 상태에 빠집니다.	icon_status.cruel_slayer_4_tex	icon_status.cruel_slayer_4_tex	True
+628026	Stun	Stun	False	swch	3000	0	5	기절			기절한 상태로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+628031	HPChange	DOT	False	perc	12000	2	-0.03	화상			펜리르의 화염에 피격당해 화상 상태가 되었습니다. $H_W_BAD2s$COLOR_END마다 HP가 $H_W_BAD3%$COLOR_END씩 지속적으로 감소됩니다.	icon_status.strongheat_tex	icon_status.strongheat_tex	True
+628032	Stun	Stun	False	swch	3000	0	5	기절			기절한 상태로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 630201	55	DOT	True	abs	10000	1	1000	비행 게이지 회복			가이드 표시 시간 동안 비행 게이지가 회복됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 630201	Drunk	DOT	True	630101	10000	0	0	비행 게이지 회복			가이드 표시 시간 동안 비행 게이지가 회복됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 630202	55	DOT	True	abs	10000	1	1000	비행 게이지 회복			가이드 표시 시간 동안 비행 게이지가 회복됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
@@ -5013,6 +5034,12 @@
 3000040	MaxHP	Buff	True	perc	0	0	1	비행 탈것 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 2%씩 회복됩니다. [영물] 효과가 적용됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000040	HPChange	Buff	True	perc	0	1	0.02	비행 탈것 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 2%씩 회복됩니다. [영물] 효과가 적용됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000040	MPChange	Buff	True	perc	0	1	0.02	비행 탈것 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 2%씩 회복됩니다. [영물] 효과가 적용됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000041	MaxHP	Buff	True	perc	0	0	1	시바견 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 1%씩 회복됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000041	HPChange	Buff	True	perc	0	1	0.01	시바견 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 1%씩 회복됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000041	MPChange	Buff	True	perc	0	1	0.01	시바견 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 1%씩 회복됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000042	MaxHP	Buff	True	perc	0	0	1	시바견 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000042	HPChange	Buff	True	perc	0	1	0.02	시바견 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000042	MPChange	Buff	True	perc	0	1	0.02	시바견 탑승 (HP, MP 회복)			비행 가능 지역에서 비행할 수 있습니다.<BR>탑승 중 매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3012000	Power	Buff	True	abs	1800000	0	40	훈련소_사제 버프			아룬의 축복III, 신성의 번개IV 효과가 지속되며, 강화 혼신의 주문IV이 25초마다 적용됩니다.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	Endurance	Buff	True	abs	1800000	0	11	훈련소_사제 버프			아룬의 축복III, 신성의 번개IV 효과가 지속되며, 강화 혼신의 주문IV이 25초마다 적용됩니다.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	AllResist	Buff	True	abs	1800000	0	5	훈련소_사제 버프			아룬의 축복III, 신성의 번개IV 효과가 지속되며, 강화 혼신의 주문IV이 25초마다 적용됩니다.	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
@@ -5104,6 +5131,7 @@
 5000024	XPBoost	Buff	True	perc	86400000	0	3	쾌속 성장 물약(200%)(1일)	138460	쾌속 성장 물약(200%-400%)(1일)	86400s 동안 사냥 시 획득 경험치가 200% 증가합니다.$BR접속이 종료되어도 기간이 차감됩니다.$BR$BR월간패스 적용 시 효과가 2배로 적용되어, 획득 경험치가 400% 증가합니다.$BR$BR<font color = '#FF0000'>[주의]</font> 월간패스가 없는 상태에서 사용한 물약은 이후 월간패스를 사용하여도 2배 효과가 적용되지 않습니다.	icon_items.potion20_tex	icon_items.potion20_tex	True
 5000025	XPBoost	Buff	True	perc	3600000	0	6	쾌속 성장 물약(500%)(1시간)	138461	쾌속 성장 물약(500%-1000%)(1시간)	3600s 동안 사냥 시 획득 경험치가 500% 증가합니다.$BR접속이 종료되어도 기간이 차감됩니다.$BR$BR월간패스 적용 시 효과가 2배로 적용되어, 획득 경험치가 1000% 증가합니다.$BR$BR<font color = '#FF0000'>[주의]</font> 월간패스가 없는 상태에서 사용한 물약은 이후 월간패스를 사용하여도 2배 효과가 적용되지 않습니다.	icon_items.potion20_tex	icon_items.potion20_tex	True
 5000026	CDR	Buff	True	swch	3600000	0	0.5	스킬 재사용 시간 감소 물약	143537	스킬 재사용 시간 감소 물약(Lv.1~64)	3600s 동안 스킬 쿨타임이 50% 감소합니다. 지속시간이 끝나기 전에 아이템을 추가로 사용할 수 없으며 접속이 종료되어도 남은 시간이 차감됩니다.	icon_items.decrease_aggro_potion_level_35_tex	icon_items.decrease_aggro_potion_level_35_tex	True
+5000027	DefPotion	Buff	True	perc	0	0	0.8	테라타임[피해 감소]			받는 피해량이 20% 감소 합니다	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
 5010000	HPChange	Buff	True	perc	30000	1	0.03	환영의 회복 포션	101305	환영의 회복 포션	30초 동안 1초 마다 전체 HP 대비 3%씩 총 90%의 HP가 지속적으로 회복됩니다.	icon_items.potion17_tex	icon_items.potion17_tex	True
 5010001	Resurrect	Buff	True	seta	0	0	1	벨릭의 은총			벨릭의 은총으로 지속 시간 내에 사망 시 그 자리에서 즉시 부활할 수 있습니다.	icon_skills.selfpreresurrection_tex	icon_skills.selfpreresurrection_tex	True
 5010002	EnchantChance	Buff	True	perc	0	1	1.2	빛나는 강화 장인의 가호			강화 시도 시, 최종 성공 확률이 크게 증가합니다. (각성 강화에는 적용되지 않습니다)	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -5285,6 +5313,10 @@
 5010085	AtkPotion	Buff	True	perc	1800000	0	1	연어 소금구이	110819	연어 소금구이				False
 5010085	282	Buff	True	swch	1800000	0	1	연어 소금구이	110819	연어 소금구이				False
 5010085	317	Buff	True	swch	1800000	0	1	연어 소금구이	110819	연어 소금구이				False
+5010086	358	Buff	True	abs	0	0	1	백지 오미쿠지			세렌의 정원 낚시터에서 사용 시 운세가 적힌 오미쿠지를 낚을 수 있습니다.	icon_items.revival_tex	icon_items.revival_tex	True
+5010086	362	Buff	True	swch	0	0	118552	백지 오미쿠지			세렌의 정원 낚시터에서 사용 시 운세가 적힌 오미쿠지를 낚을 수 있습니다.	icon_items.revival_tex	icon_items.revival_tex	True
+5010087	358	Buff	True	abs	0	0	1	도미 떡밥			도미 또는 낮은 확률로 황금 도미를 낚을 수 있는 떡밥. 얼어붙은 눈물 호수 낚시터에서 사용할 수 있습니다.	icon_equipments.event_wit_chain_01_tex	icon_equipments.event_wit_chain_01_tex	True
+5010087	362	Buff	True	swch	0	0	118552	도미 떡밥			도미 또는 낮은 확률로 황금 도미를 낚을 수 있는 떡밥. 얼어붙은 눈물 호수 낚시터에서 사용할 수 있습니다.	icon_equipments.event_wit_chain_01_tex	icon_equipments.event_wit_chain_01_tex	True
 5020000	EnchantChance	Buff	True	perc	300000	1	1.01	유럽 강화 주문서 1(5분)	153495	[PC방] 강화 장인의 가호 주문서 (5분)	0.01	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020001	EnchantChance	Buff	True	perc	300000	1	1.05	유럽 강화 주문서 2(5분)	153496	[PC방] 축복받은 강화 장인의 가호 주문서 (5분)	0.05	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020002	EnchantChance	Buff	True	perc	300000	1	1.15	유럽 강화 주문서 3(5분)	153497	[PC방] 빛나는 강화 장인의 가호 주문서 (5분)	0.15	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -6800,11 +6832,11 @@
 30231001	StackCounter	Debuff	True	seta	70000	0	30231002	푸른 저주의 기운			푸른 저주의 기운이 느껴집니다. 2중첩 혹은 지속 시간이 모두 지나면 사망하게 됩니다.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 30231002	HPChange2	Debuff	True	perc	1000	0	-2	붉은 저주의 기운			붉은 저주의 기운이 느껴집니다. 2중첩 혹은 지속 시간이 모두 지나면 사망하게 됩니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	False
 30231003	Stun	Stun	False	swch	5000	0	5	기절			기절하여 움직일 수 없는 상태입니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
-30231004	HPChange	DOT	False	perc	10000	1	-0.1	출혈			날카로운 검기에 베여 출혈이 발생하고 있습니다. 1초당 $H_W_BAD10%$COLOR_END의 HP가 감소 합니다.	icon_status.curse_tex	icon_status.curse_tex	True
-30232012	HPChange	DOT	True	perc	10000	2	-0.12	야수의 발톱			강력한 공격에 피격되어 출혈이 일어납니다. $H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+30231004	HPChange	DOT	False	perc	10000	1	-0.02	출혈			날카로운 검기에 베여 출혈이 발생하고 있습니다. 1초당 $H_W_BAD2%$COLOR_END의 HP가 감소 합니다.	icon_status.curse_tex	icon_status.curse_tex	True
+30232012	HPChange	DOT	True	perc	10000	2	-0.03	야수의 발톱			강력한 공격에 피격되어 출혈이 일어납니다. $H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD3%$COLOR_END에 달하는 HP가 지속적으로 감소합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 30232014	Stun	Stun	False	swch	4000	0	5	야수의 포효			강력한 포효에 몸이 저려옵니다. 4초간 움직일 수 없습니다.	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
-30232015	HPChange	DOT	False	perc	30000	5	-0.01	야수의 전율			심상치 않은 전율이 느껴집니다. $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD1%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 5중첩까지 누적되며, 5중첩 시 야수의 패기가 부여됩니다.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
-30232015	StackCounter	DOT	False	swch	30000	0	30232016	야수의 전율			심상치 않은 전율이 느껴집니다. $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD1%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 5중첩까지 누적되며, 5중첩 시 야수의 패기가 부여됩니다.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232015	HPChange	DOT	False	perc	60000	5	-0.01	야수의 전율			심상치 않은 전율이 느껴집니다. $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD1%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 5중첩까지 누적되며, 5중첩 시 야수의 패기가 부여됩니다.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232015	StackCounter	DOT	False	swch	60000	0	30232016	야수의 전율			심상치 않은 전율이 느껴집니다. $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD1%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 5중첩까지 누적되며, 5중첩 시 야수의 패기가 부여됩니다.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
 30232016	Power	DOT	True	abs	600000	0	10	야수의 패기			야수의 패기가 느껴집니다. 힘이 10 증가하며, $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 3중첩까지 누적됩니다.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 30232016	HPChange	DOT	True	perc	600000	5	-0.1	야수의 패기			야수의 패기가 느껴집니다. 힘이 10 증가하며, $H_W_BAD5s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소합니다. 최대 3중첩까지 누적됩니다.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 30232017	Power	Debuff	True	perc	0	0	1	야수의 패기			엄청난 야수의 패기가 느껴집니다. 강한 정신력이 없다면, 그 패기에 압도당할 것입니다.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
@@ -7160,6 +7192,13 @@
 31031016	Stun	Debuff	True	swch	10000	0	5	구속			불길한 기운에 의해 구속 당했습니다. 몸을 움직일 수 없습니다.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 31031016	275	Debuff	True	swch	10000	0	0	구속			불길한 기운에 의해 구속 당했습니다. 몸을 움직일 수 없습니다.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 31031018	HPChange	Debuff	True	perc	0	1	-1	잠식			불길한 기운에 잠식 당했습니다. 잠시 후 사망합니다.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+31040001	MovSpd	Debuff	True	perc	12000	0	0.75	불사의 피			또 다른 불사의 피와 만나면, 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.scald_tex	icon_status.scald_tex	True
+31040001	62	Debuff	True	seta	12000	1	31040002	불사의 피			또 다른 불사의 피와 만나면, 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.scald_tex	icon_status.scald_tex	True
+31040001	65	Debuff	True	seta	12000	1	31040002	불사의 피			또 다른 불사의 피와 만나면, 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.scald_tex	icon_status.scald_tex	True
+31040003	Power	Buff	True	perc	4000	0	1	불사의 육체			불사의 피가 만들어낸 무적의 힘입니다. 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+31040004	HPChange	Debuff	True	perc	15000	3	-0.05	더러운 피			루크미아의 악몽으로 인해 HP가 지속적으로 감소하며, 6번 중첩되면 기절에 빠지며 주위에 폭발을 일으킵니다.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+31040004	StackCounter	Debuff	True	seta	15000	0	31040005	더러운 피			루크미아의 악몽으로 인해 HP가 지속적으로 감소하며, 6번 중첩되면 기절에 빠지며 주위에 폭발을 일으킵니다.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+31040005	271	Debuff	True	seta	5000	0	61905228	타락한 피			타락한 피로 인해 기절에 빠지며 주위에 폭발을 일으킵니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31260001	Endurance	DOT	True	perc	55000	0	1	파멸의 업화			$H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소되며, 지속 시간이 끝날 때 대상자를 즉사시킵니다.$BR파멸의 업화는 오직 파멸의 냉기를 통해서만 제거할 수 있습니다. 전투구역의 온도를 상승시킵니다.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	Attack	Debuff	False	seta	0	0	0.75	파멸의 업화			$H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소되며, 지속 시간이 끝날 때 대상자를 즉사시킵니다.$BR파멸의 업화는 오직 파멸의 냉기를 통해서만 제거할 수 있습니다. 전투구역의 온도를 상승시킵니다.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	HPChange	DOT	True	perc	55000	2	-0.05	파멸의 업화			$H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소되며, 지속 시간이 끝날 때 대상자를 즉사시킵니다.$BR파멸의 업화는 오직 파멸의 냉기를 통해서만 제거할 수 있습니다. 전투구역의 온도를 상승시킵니다.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -7333,6 +7372,15 @@
 32031016	Stun	Debuff	True	swch	10000	0	5	구속			불길한 기운에 의해 구속 당했습니다. 몸을 움직일 수 없습니다.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 32031016	275	Debuff	True	swch	10000	0	0	구속			불길한 기운에 의해 구속 당했습니다. 몸을 움직일 수 없습니다.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 32031018	HPChange	Debuff	True	perc	0	1	-1	잠식			불길한 기운에 잠식 당했습니다. 잠시 후 사망합니다.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+32040001	MovSpd	Debuff	True	perc	12000	0	0.75	불사의 피			또 다른 불사의 피와 만나면, 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.scald_tex	icon_status.scald_tex	True
+32040001	62	Debuff	True	seta	12000	1	32040002	불사의 피			또 다른 불사의 피와 만나면, 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.scald_tex	icon_status.scald_tex	True
+32040001	65	Debuff	True	seta	12000	1	32040002	불사의 피			또 다른 불사의 피와 만나면, 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.scald_tex	icon_status.scald_tex	True
+32040003	Power	Buff	True	perc	4000	0	1	불사의 육체			불사의 피가 만들어낸 무적의 힘입니다. 루크미아의 강력한 공격을 회피할 수 있습니다.	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+32040004	HPChange	Debuff	True	perc	30000	3	-0.1	더러운 피			루크미아의 악몽으로 인해 HP가 지속적으로 감소하며, 3번 중첩되면 기절에 빠지며 주위에 폭발을 일으킵니다.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+32040004	StackCounter	Debuff	True	seta	30000	0	32040005	더러운 피			루크미아의 악몽으로 인해 HP가 지속적으로 감소하며, 3번 중첩되면 기절에 빠지며 주위에 폭발을 일으킵니다.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+32040005	271	Debuff	True	seta	5000	0	61905228	타락한 피			타락한 피로 인해 기절에 빠지며 주위에 폭발을 일으킵니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+32040007	Power	Debuff	True	perc	15000	0	1	루크미아의 주시			불사의 피를 마실 수 있는 루크미아의 주시를 받았습니다.	icon_skills.througharrow_tex	icon_skills.througharrow_tex	True
+32040009	Power	Debuff	True	perc	0	0	1.25	제물의 힘			제물의 힘으로 루크미아의 공격력이 스택 당 25% 증가합니다.	icon_status.minushp_tex	icon_status.minushp_tex	True
 43100007	HPChange	DOT	False	perc	15000	3	-0.05	출혈			강력한 일격에 의해 출혈이 발생해 $H_W_BAD3s2$COLOR_END 마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 43100011	MovSpd	Debuff	False	setp	10000	0	0.8	파괴의 예언			파괴의 예언이 내려졌습니다! 이동 속도가 $H_W_BAD20%$COLOR_END 감소되며, 지속 시간 내에 예언을 해제하지 않으면 효과가 해제될 때 예언에 의해 강력한 피해를 입게 됩니다!	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
 43100011	HPDrain	Debuff	False	perc	10000	0	0.9	파괴의 예언			파괴의 예언이 내려졌습니다! 이동 속도가 $H_W_BAD20%$COLOR_END 감소되며, 지속 시간 내에 예언을 해제하지 않으면 효과가 해제될 때 예언에 의해 강력한 피해를 입게 됩니다!	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
@@ -9767,7 +9815,7 @@
 97000022	HPLoss	Debuff	True	abs	1000	0	-50000000	라켈리스_PC_(역방향)세모			(역방향)세모	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 97000024	Stun	Stun	False	swch	9000	0	5	기절 VIII			기절한 상태로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 97000025	HPChange	DOT	True	perc	15000	2	-0.15	라켈리스가 남긴 치명적인 상처			$H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD15%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
-97000026	HPChange	DOT	False	perc	10000	2	-0.05	라켈리스가 남긴 상처			$H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+97000026	HPChange	DOT	False	perc	10000	2	-0.1	라켈리스가 남긴 상처			$H_W_BAD2s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 97000027	DelayedEffect	Debuff	True	perc	30000	0	97000028	각성한 릴리스(3넴)_누킹			각성한 릴리스(3넴)_누킹	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 97000028	MaxHP	Debuff	True	perc	3000	0	1	각성한 릴리스(3넴)_누킹_발사			각성한 릴리스(3넴)_누킹_발사	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 97000029	MaxHP	Debuff	False	perc	1000	0	1	각성한 릴리스(3넴)_카드패턴 시작			각성한 릴리스(3넴)_카드패턴 시작	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
@@ -9778,17 +9826,20 @@
 97000033	ASpd	DOT	True	perc	60000	0	1.1	라칸의 힘			매 중첩 시마다 공격속도가 $H_W_GOOD10%$COLOR_END씩 증가됩니다.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
 97000033	StackCounter	DOT	True	swch	60000	0	97000034	라칸의 힘			매 중첩 시마다 공격속도가 $H_W_GOOD10%$COLOR_END씩 증가됩니다.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
 97000034	DelayedEffect	DOT	True	swch	1500	0	97000035	라켈리스_버프_3중첩 체크			3중첩 체크용 이상상태	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
-97000035	Power	DOT	True	perc	60000	0	2	완성된 라칸의 힘			힘이 $H_W_GOOD100%$COLOR_END 증가되고, 공격속도가 $H_W_GOOD15%$COLOR_END 증가합니다.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
-97000035	ASpd	DOT	True	perc	60000	0	1.15	완성된 라칸의 힘			힘이 $H_W_GOOD100%$COLOR_END 증가되고, 공격속도가 $H_W_GOOD15%$COLOR_END 증가합니다.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
+97000035	Power	DOT	True	perc	60000	0	11	완성된 라칸의 힘			힘이 $H_W_GOOD1000%$COLOR_END 증가되고, 공격속도가 $H_W_GOOD50%$COLOR_END 증가합니다.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
+97000035	ASpd	DOT	True	perc	60000	0	1.5	완성된 라칸의 힘			힘이 $H_W_GOOD1000%$COLOR_END 증가되고, 공격속도가 $H_W_GOOD50%$COLOR_END 증가합니다.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
 97000036	HPLoss	Debuff	False	perc	1000	0	0.3	발사체(-70%)			발사체(-70%)	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000037	HPLoss	Debuff	False	perc	1000	0	0.7	발사체(-30%)			발사체(-30%)	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000038	HPLoss	Debuff	False	abs	500	0	-50000000	저주 2중첩_사망			저주 2중첩_사망	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000038	HPChange2	Debuff	False	abs	500	0	-50000000	저주 2중첩_사망			저주 2중첩_사망	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000040	MovSpd	Buff	False	perc	0	0	1	다크리퍼의 분노			다크리퍼의 영혼이 깃들어 있습니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000041	MovSpd	Buff	False	perc	0	0	1	크루얼하운드의 분노			크루얼 하운드의 영혼이 깃들어 있습니다.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+97000042	HPLoss	Debuff	True	abs	60000	0	-10000000	다크리퍼의 분노			지속 시간이 종료되거나 2중첩이 되면 사망에 이릅니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000042	StackCounter	Debuff	True	seta	60000	0	97000044	다크리퍼의 분노			지속 시간이 종료되거나 2중첩이 되면 사망에 이릅니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+97000043	HPLoss	Debuff	True	abs	60000	0	-10000000	크루얼하운드의 분노			지속 시간이 종료되거나 2중첩이 되면 사망에 이릅니다.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 97000043	StackCounter	Debuff	True	seta	60000	0	97000044	크루얼하운드의 분노			지속 시간이 종료되거나 2중첩이 되면 사망에 이릅니다.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-97000044	HPChange2	Debuff	True	perc	1000	0	-2	라켈리스(1넴) 2중첩_사망			라켈리스(1넴) 2중첩_사망	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
+97000044	HPChange	Debuff	True	abs	1000	1	-50000000	라켈리스(1넴) 2중첩_사망			라켈리스(1넴) 2중첩_사망	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
+97000044	HPLoss	Debuff	True	abs	1000	0	-50000000	라켈리스(1넴) 2중첩_사망			라켈리스(1넴) 2중첩_사망	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000045	HPChange	Debuff	True	perc	0	1	1	라켈리스(3넴)투명NPC 보호용			라켈리스(3넴)투명NPC 보호용	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 97000045	101	Debuff	True	perc	0	1	1	라켈리스(3넴)투명NPC 보호용			라켈리스(3넴)투명NPC 보호용	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 97000045	AllowAggro	Debuff	True	swch	0	0	0	라켈리스(3넴)투명NPC 보호용			라켈리스(3넴)투명NPC 보호용	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
@@ -9803,8 +9854,8 @@
 97000051	MovSpd	Debuff	True	setp	3000	0	0.5	새끼거미의 독			새끼 거미의 독에 감염되어 이동속도가 감소하고, $H_W_BAD0s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 97000051	HPDrain	Debuff	True	perc	3000	0	0.9	새끼거미의 독			새끼 거미의 독에 감염되어 이동속도가 감소하고, $H_W_BAD0s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 97000051	HPChange	Debuff	True	perc	3000	1	-0.05	새끼거미의 독			새끼 거미의 독에 감염되어 이동속도가 감소하고, $H_W_BAD0s$COLOR_END마다 전체 HP 대비 $H_W_BAD5%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
-97000052	DefPotion	DOT	True	perc	90000	0	1.5	강력한 라켈리스의 저주			초월한 라켈리스와 영혼구체로부터 받는 피해가 50% 증가합니다. 2중첩이 되면 사망에 이릅니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
-97000052	StackCounter	DOT	True	seta	90000	0	97000038	강력한 라켈리스의 저주			초월한 라켈리스와 영혼구체로부터 받는 피해가 50% 증가합니다. 2중첩이 되면 사망에 이릅니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+97000052	DefPotion	DOT	True	perc	100000	0	1.5	강력한 라켈리스의 저주			초월한 라켈리스에게 받는 피해가 50% 증가하며, 영혼구체에 두 배의 피해를 입습니다. 2중첩이 되면 사망에 이릅니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+97000052	StackCounter	DOT	True	seta	100000	0	97000038	강력한 라켈리스의 저주			초월한 라켈리스에게 받는 피해가 50% 증가하며, 영혼구체에 두 배의 피해를 입습니다. 2중첩이 되면 사망에 이릅니다.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
 97000055	HPChange	DOT	False	perc	15000	1	-0.2	라켈리스가 남긴 죽음의 상처			$H_W_BAD1s$COLOR_END마다 전체 HP 대비 $H_W_BAD20%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 97000057	StackCounter	Debuff	True	seta	60000	0	97000059	다크리퍼의 분노			지속 시간이 종료되거나 2중첩이 되면 사망에 이릅니다.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000058	StackCounter	Debuff	True	seta	60000	0	97000059	크루얼하운드의 분노			지속 시간이 종료되거나 2중첩이 되면 사망에 이릅니다.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
@@ -10525,6 +10576,11 @@
 99007000	Plague	Buff	True	abs	0	10	990071	드미르 실버레인의 가호			드미르 실버레인이 가지고 있는 코어의 기운을 주변 연맹원들에게 전파한다.	icon_status.aura_of_regeneration_mp_tex	icon_status.aura_of_regeneration_mp_tex	True
 99007100	Plague	Buff	True	abs	0	10	990072	프라테코 카일룸의 가호			프라테코 카일룸의 용맹함을 주변 연맹원들에게 전파한다.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 99007200	Drunk	Stun	False	60022	10000	0	0	섬광폭탄	1144	섬광폭탄	지속시간 동안 번쩍 섬광이 환하게 비추어 주변 사물을 구분 지을 수 없습니다!! 섬광은 해제 할 수 없습니다.	icon_status.lighteffect_tex	icon_status.lighteffect_tex	False
+99007300	ASpd	Debuff	True	perc	0	0	0.99	공격 속도 감소			공격 속도가 $H_W_GOOD1%$COLOR_END 감소합니다.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007301	ASpd	Debuff	True	perc	0	0	0.95	공격 속도 감소			공격 속도가 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007302	ASpd	Debuff	True	perc	0	0	0.9	공격 속도 감소			공격 속도가 $H_W_GOOD10%$COLOR_END 감소합니다.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007303	ASpd	Debuff	True	perc	0	0	0.8	공격 속도 감소			공격 속도가 $H_W_GOOD20%$COLOR_END 감소합니다.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007304	ASpd	Debuff	True	perc	0	0	0.7	공격 속도 감소			공격 속도가 $H_W_GOOD30%$COLOR_END 감소합니다.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
 99008100	0	Buff	True	swch	7200000	0	0	연맹의 함성(보이면 버그)			이거 보이면 버그	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	False
 99008200	Power	Buff	True	abs	7200000	0	34	연맹의 함성			영지에 있는 각 연맹의 연맹원 수 차이가 20명 이상 차이 날 경우, 작은 수의 연맹에게 힘 34, 맷집 20이 적용 됩니다. (해당 버프는 3분마다 인원 수를 체크하여 갱신 됩니다.)	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	True
 99008200	Endurance	Buff	True	abs	7200000	0	20	연맹의 함성			영지에 있는 각 연맹의 연맹원 수 차이가 20명 이상 차이 날 경우, 작은 수의 연맹에게 힘 34, 맷집 20이 적용 됩니다. (해당 버프는 3분마다 인원 수를 체크하여 갱신 됩니다.)	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	True
