@@ -1491,6 +1491,14 @@
 18806	MovSpd	Debuff	False	setp	8000	0	0.5	Stagnant Tide			Decreases Movement Speed by $H_W_BAD50%$COLOR_END.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 18806	HPDrain	Debuff	False	perc	8000	0	0.5	Stagnant Tide			Decreases Movement Speed by $H_W_BAD50%$COLOR_END.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 18808	Absorb	Buff	True	swch	7000	0	84000	Steelheart			Absorbs damage up to $H_W_GOOD84000$COLOR_END. Ends when maximum damage is reached, regardless of duration.	icon_skills.damagingaurab_tex	icon_skills.damagingaurab_tex	True
+18811	1009	Buff	True	abs	15000	0	18000	Increased Physical Resistance			Increases Ignore Physical Resistance by 18,000 for 15 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18812	1010	Buff	True	abs	15000	0	18000	Increased Magic Resistance			Increases Ignore Magic Resistance by 18,000 for 15 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18813	1004	Buff	True	abs	15000	0	20000	Increased Magic Resistance			Increases Magic Resistance by 20,000 for 15 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18814	Immune	Buff	True	57	3000	0	0	Invincible			Invincible for 3 seconds.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+18815	ASpd	Buff	True	abs	15000	0	20	Increased Attack Speed			Increases Attack Speed by 20 for 15 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18815	DelayedEffect	Buff	True	swch	15000	0	18817	Increased Attack Speed			Increases Attack Speed by 20 for 15 seconds.	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18816	Absorb	Buff	True	swch	2000	0	50000	Shield			You receive a shield that absorbs 50,000 damage for 2 seconds.	icon_skills.defenceup_tex	icon_skills.defenceup_tex	True
+18817	MaxHP	Stun	True	perc	45000	0	1	Overcharge			You cannot receive the Dark Root Beer effect if you are overloaded.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
 19101	MovSpd	Debuff	True	perc	0	0	1	test string			test.	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
 21010	ASpd	Buff	True	perc	10000	0	1.15	Swift Evasive Roll			Increases Attack Speed by $H_W_GOOD15%$COLOR_END.	icon_skills.tumbling_tex	icon_crest.crestactiveattackspeedup_tex	True
 21020	ReducedMPCost	Buff	True	abs	10000	0	-88	Influential Torrent of Blows			Decreases MP consumption of Rain of Blows by $H_W_GOOD-88$COLOR_END.	icon_skills.nanmu_tex	icon_crest.crestnextskillmpdown_tex	True
@@ -2098,6 +2106,10 @@
 70370	362	Buff	True	swch	0	0	206515	[Event] Special Carp Bait	206515	[Event] Special Carp Bait	Used to catch Small, Medium, and Titanic Carp.$BR$BRCan be used in Vexatus Swamp Fishery and Seren's Lake Fishery.	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
 70371	358	Buff	True	abs	0	0	1	Shark Bait	209189	[Event] Shark Bait	You can go fishing for sharks at the Muricai Fishery.	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
 70371	362	Buff	True	swch	0	0	209189	Shark Bait	209189	[Event] Shark Bait	You can go fishing for sharks at the Muricai Fishery.	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70372	358	Buff	True	abs	0	0	0.8	[Tradeable] Rainbow Bait			Increases the chance to catch a high grade fish by $H_W_GOOD80%$COLOR_END.$BRIncreases the chance to catch a BAF by $H_W_GOOD10%$COLOR_END.$BR$BRThe better the quality of the bait, the higher the chance to catch a big fish.	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70372	362	Buff	True	swch	0	0	209360	[Tradeable] Rainbow Bait			Increases the chance to catch a high grade fish by $H_W_GOOD80%$COLOR_END.$BRIncreases the chance to catch a BAF by $H_W_GOOD10%$COLOR_END.$BR$BRThe better the quality of the bait, the higher the chance to catch a big fish.	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70373	358	Buff	True	abs	0	0	0.8	[Tradeable] Dappled Bait			Increases the chance to catch a high grade fish by $H_W_GOOD80%$COLOR_END.$BRIncreases the chance to catch a BAF by $H_W_GOOD5%$COLOR_END.$BR$BRThe better the quality of the bait, the higher the chance to catch a big fish.	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
+70373	362	Buff	True	swch	0	0	209361	[Tradeable] Dappled Bait			Increases the chance to catch a high grade fish by $H_W_GOOD80%$COLOR_END.$BRIncreases the chance to catch a BAF by $H_W_GOOD5%$COLOR_END.$BR$BRThe better the quality of the bait, the higher the chance to catch a big fish.	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
 70403	MovSpd	Debuff	False	perc	5000	0	0.5	Umbral Torpor			Decreases Movement Speed by $H_W_BAD50%$COLOR_END.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	OutOfCombatMovSpd	Debuff	False	perc	5000	0	0.5	Umbral Torpor			Decreases Movement Speed by $H_W_BAD50%$COLOR_END.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	HPDrain	Debuff	False	perc	5000	0	0.5	Umbral Torpor			Decreases Movement Speed by $H_W_BAD50%$COLOR_END.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
@@ -6546,11 +6558,11 @@
 30231001	StackCounter	Debuff	True	seta	70000	0	30231002	Blue Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 30231002	HPChange2	Debuff	True	perc	1000	0	-2	Crimson Curse			You will die if this effect stacks twice when the duration ends.	icon_status.delayheal_tex	icon_status.delayheal_tex	False
 30231003	Stun	Stun	False	swch	5000	0	5	Knocked-Out			Stunned. Cannot move.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
-30231004	HPChange	DOT	False	perc	10000	1	-0.1	Bleeding			Reduces HP by $H_W_BAD10%$COLOR_END every second.	icon_status.curse_tex	icon_status.curse_tex	True
-30232012	HPChange	DOT	True	perc	10000	2	-0.12	Laceration			Reduces HP by $H_W_BAD10%$COLOR_END of maximum HP every $H_W_BAD2s$COLOR_END.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+30231004	HPChange	DOT	False	perc	10000	1	-0.02	Bleeding			You are hit by sharp blades, which cause bleeding. Reduces HP by $H_W_BAD2%$COLOR_END every second.	icon_status.curse_tex	icon_status.curse_tex	True
+30232012	HPChange	DOT	True	perc	10000	2	-0.03	Laceration			You are hit by a power attack that causes bleeding. Reduces HP by $H_W_BAD3%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 30232014	Stun	Stun	False	swch	4000	0	5	Terrorizing Roar			Cannot move for 4 seconds.	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
-30232015	HPChange	DOT	False	perc	30000	5	-0.01	Sharp Etching			Decreases $H_W_BAD1%$COLOR_END of maximum HP every $H_W_BAD5s$COLOR_END. Stacks up to 5 times. Applies Wild Vigor on 5 stacks.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
-30232015	StackCounter	DOT	False	swch	30000	0	30232016	Sharp Etching			Decreases $H_W_BAD1%$COLOR_END of maximum HP every $H_W_BAD5s$COLOR_END. Stacks up to 5 times. Applies Wild Vigor on 5 stacks.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232015	HPChange	DOT	False	perc	60000	5	-0.01	Sharp Etching			Decreases $H_W_BAD1%$COLOR_END of maximum HP every $H_W_BAD5s$COLOR_END. Stacks up to 5 times. Applies Wild Vigor on 5 stacks.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232015	StackCounter	DOT	False	swch	60000	0	30232016	Sharp Etching			Decreases $H_W_BAD1%$COLOR_END of maximum HP every $H_W_BAD5s$COLOR_END. Stacks up to 5 times. Applies Wild Vigor on 5 stacks.	icon_status.darkwater_tex	icon_status.darkwater_tex	True
 30232016	Power	DOT	True	abs	600000	0	10	Wild Vigor			Increases Power by 10 and decreases $H_W_BAD10%$COLOR_END of maximum HP every $H_W_BAD5s$COLOR_END. Stacks up to 3 times.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 30232016	HPChange	DOT	True	perc	600000	5	-0.1	Wild Vigor			Increases Power by 10 and decreases $H_W_BAD10%$COLOR_END of maximum HP every $H_W_BAD5s$COLOR_END. Stacks up to 3 times.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 30232017	Power	Debuff	True	perc	0	0	1	Wild Vigor			You are overwhelmed by the wild. Keep your eyes open wide, or become prey of the wild.	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
@@ -6907,6 +6919,13 @@
 31031016	Stun	Debuff	True	swch	10000	0	5	Restriction			Restricted by an Evil Aura. Cannot move.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 31031016	275	Debuff	True	swch	10000	0	0	Restriction			Restricted by an Evil Aura. Cannot move.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 31031018	HPChange	Debuff	True	perc	0	1	-1	Encroachment			Encroached upon by an Evil Aura. Death is approaching.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+31040001	MovSpd	Debuff	True	perc	12000	0	0.75	Immortal Blood			If you encounter another Immortal Blood, you will be able to dodge Lumikan's powerful attack.	icon_status.scald_tex	icon_status.scald_tex	True
+31040001	62	Debuff	True	seta	12000	1	31040002	Immortal Blood			If you encounter another Immortal Blood, you will be able to dodge Lumikan's powerful attack.	icon_status.scald_tex	icon_status.scald_tex	True
+31040001	65	Debuff	True	seta	12000	1	31040002	Immortal Blood			If you encounter another Immortal Blood, you will be able to dodge Lumikan's powerful attack.	icon_status.scald_tex	icon_status.scald_tex	True
+31040003	Power	Buff	True	perc	4000	0	1	Immortal Body			Immortal Blood makes you invincible. This allows you to dodge Lumikan's powerful attack.	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+31040004	HPChange	Debuff	True	perc	15000	3	-0.05	Dirty Blood			Lumikan's Nightmare continuously drains your HP. At 6 stacks you are stunned and your surroundings are shaken by an explosion.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+31040004	StackCounter	Debuff	True	seta	15000	0	31040005	Dirty Blood			Lumikan's Nightmare continuously drains your HP. At 6 stacks you are stunned and your surroundings are shaken by an explosion.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+31040005	271	Debuff	True	seta	5000	0	61905228	Tainted Blood			Tainted Blood stuns you and shakes your surroundings with an explosion.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31260001	Endurance	DOT	True	perc	55000	0	1	Doomfire			Reduces $H_W_BAD5%$COLOR_END of maximum HP every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRDoomfire can only be removed with Doomchill. Increases temperature in battle area.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	Attack	Debuff	False	seta	0	0	0.75	Doomfire			Reduces $H_W_BAD5%$COLOR_END of maximum HP every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRDoomfire can only be removed with Doomchill. Increases temperature in battle area.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	HPChange	DOT	True	perc	55000	2	-0.05	Doomfire			Reduces $H_W_BAD5%$COLOR_END of maximum HP every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRDoomfire can only be removed with Doomchill. Increases temperature in battle area.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -7080,6 +7099,15 @@
 32031016	Stun	Debuff	True	swch	10000	0	5	Restriction			Restricted by an Evil Aura. Cannot move.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 32031016	275	Debuff	True	swch	10000	0	0	Restriction			Restricted by an Evil Aura. Cannot move.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 32031018	HPChange	Debuff	True	perc	0	1	-1	Encroachment			Encroached upon by an Evil Aura. Death is approaching.	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+32040001	MovSpd	Debuff	True	perc	12000	0	0.75	Immortal Blood			If you encounter another Immortal Blood, you will be able to dodge Lumikan's powerful attack.	icon_status.scald_tex	icon_status.scald_tex	True
+32040001	62	Debuff	True	seta	12000	1	32040002	Immortal Blood			If you encounter another Immortal Blood, you will be able to dodge Lumikan's powerful attack.	icon_status.scald_tex	icon_status.scald_tex	True
+32040001	65	Debuff	True	seta	12000	1	32040002	Immortal Blood			If you encounter another Immortal Blood, you will be able to dodge Lumikan's powerful attack.	icon_status.scald_tex	icon_status.scald_tex	True
+32040003	Power	Buff	True	perc	4000	0	1	Immortal Body			Immortal Blood makes you invincible. This allows you to dodge Lumikan's powerful attack.	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+32040004	HPChange	Debuff	True	perc	30000	3	-0.1	Dirty Blood			Lumikan's Nightmare continuously drains your HP. At 3 stacks you are stunned and your surroundings are shaken by an explosion.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+32040004	StackCounter	Debuff	True	seta	30000	0	32040005	Dirty Blood			Lumikan's Nightmare continuously drains your HP. At 3 stacks you are stunned and your surroundings are shaken by an explosion.	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+32040005	271	Debuff	True	seta	5000	0	61905228	Tainted Blood			Tainted Blood stuns you and shakes your surroundings with an explosion.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+32040007	Power	Debuff	True	perc	15000	0	1	Lumikan's Gaze			You're observed by Lumikan, who is able to drink Immortal Blood.	icon_skills.througharrow_tex	icon_skills.througharrow_tex	True
+32040009	Power	Debuff	True	perc	0	0	1.25	Sacrificial Spirit			Sacrificial Spirit increases Lumikan's attack by 25% per edge.	icon_status.minushp_tex	icon_status.minushp_tex	True
 43100007	HPChange	DOT	False	perc	15000	3	-0.05	Bleeding			Reduces HP by $H_W_BAD5%$COLOR_END of maximum every $H_W_BAD3s2$COLOR_END.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 43100011	MovSpd	Debuff	False	setp	10000	0	0.8	Unmaking			Decreases Movement Speed by $H_W_BAD20%$COLOR_END.$BRReduces HP dramatically when the countdown runs out.	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
 43100011	HPDrain	Debuff	False	perc	10000	0	0.9	Unmaking			Decreases Movement Speed by $H_W_BAD20%$COLOR_END.$BRReduces HP dramatically when the countdown runs out.	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
@@ -9346,7 +9374,7 @@
 97000022	HPLoss	Debuff	True	abs	1000	0	-50000000	Lachelith_PC_(Reverse)Triangle			(Reverse) Triangle	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 97000024	Stun	Stun	False	swch	9000	0	5	Stun			Stunned. Cannot move.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 97000025	HPChange	DOT	True	perc	15000	2	-0.15	Gushing Wound			Reduces HP by $H_W_BAD15%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END seconds.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
-97000026	HPChange	DOT	False	perc	10000	2	-0.05	Bad Wound			Reduces HP by $H_W_BAD5%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+97000026	HPChange	DOT	False	perc	10000	2	-0.1	Bad Wound			Reduces max HP by $H_W_BAD10%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END seconds.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 97000027	DelayedEffect	Debuff	True	perc	30000	0	97000028	Nightmare Lilith_Nuking			Nightmare Lilith_Nuking	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 97000028	MaxHP	Debuff	True	perc	3000	0	1	Nightmare Lilith_Nuking_Fire			Nightmare Lilith_Nuking_Fire	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 97000029	MaxHP	Debuff	False	perc	1000	0	1	Nightmare Lilith_Card pattern_Start			Nightmare Lilith_Card pattern_Start	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
@@ -9357,17 +9385,20 @@
 97000033	ASpd	DOT	True	perc	60000	0	1.1	Lakan's Might			Each stack increases Attack Speed by $H_W_GOOD10%$COLOR_END.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
 97000033	StackCounter	DOT	True	swch	60000	0	97000034	Lakan's Might			Each stack increases Attack Speed by $H_W_GOOD10%$COLOR_END.	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
 97000034	DelayedEffect	DOT	True	swch	1500	0	97000035	Lachelith_Buff_3stacks_Test			3 Stacks Test Resistance	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
-97000035	Power	DOT	True	perc	60000	0	2	Lakan's True Power			Increases Power by $H_W_GOOD100%$COLOR_END and Attack Speed by $H_W_GOOD15%$COLOR_END.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
-97000035	ASpd	DOT	True	perc	60000	0	1.15	Lakan's True Power			Increases Power by $H_W_GOOD100%$COLOR_END and Attack Speed by $H_W_GOOD15%$COLOR_END.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
+97000035	Power	DOT	True	perc	60000	0	11	Lakan's True Power			Increases Power by $H_W_GOOD1000%$COLOR_END and Attack Speed by $H_W_GOOD50%$COLOR_END.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
+97000035	ASpd	DOT	True	perc	60000	0	1.5	Lakan's True Power			Increases Power by $H_W_GOOD1000%$COLOR_END and Attack Speed by $H_W_GOOD50%$COLOR_END.	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
 97000036	HPLoss	Debuff	False	perc	1000	0	0.3	Projectile (-70%)			Projectile (-70%)	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000037	HPLoss	Debuff	False	perc	1000	0	0.7	Projectile (-30%)			Projectile (-30%)	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000038	HPLoss	Debuff	False	abs	500	0	-50000000	Curse 2stacks_death			Curse 2stacks_death	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000038	HPChange2	Debuff	False	abs	500	0	-50000000	Curse 2stacks_death			Curse 2stacks_death	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000040	MovSpd	Buff	False	perc	0	0	1	Fimbrilisk's Rage			Infused with red anger.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000041	MovSpd	Buff	False	perc	0	0	1	Atrocitas' Rage			Infused with blue anger.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+97000042	HPLoss	Debuff	True	abs	60000	0	-10000000	Fimbrilisk's Rage			You will die if this effect stacks twice, or when the duration ends. Removed by Atrocitas' Rage.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000042	StackCounter	Debuff	True	seta	60000	0	97000044	Fimbrilisk's Rage			You will die if this effect stacks twice, or when the duration ends. Removed by Atrocitas' Rage.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+97000043	HPLoss	Debuff	True	abs	60000	0	-10000000	Atrocitas' Rage			You will die if this effect stacks twice, or when the duration ends. Removed by Fimbrilisk's Rage.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 97000043	StackCounter	Debuff	True	seta	60000	0	97000044	Atrocitas' Rage			You will die if this effect stacks twice, or when the duration ends. Removed by Fimbrilisk's Rage.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-97000044	HPChange2	Debuff	True	perc	1000	0	-2	Lachelith 2stacks_death			Lachelith 2stacks_death	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
+97000044	HPChange	Debuff	True	abs	1000	1	-50000000	Lachelith 2stacks_death			Lachelith 2stacks_death	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
+97000044	HPLoss	Debuff	True	abs	1000	0	-50000000	Lachelith 2stacks_death			Lachelith 2stacks_death	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000045	HPChange	Debuff	True	perc	0	1	1	Lachelith Invisible NPC Protection			Lachelith Invisible NPC Protection	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 97000045	101	Debuff	True	perc	0	1	1	Lachelith Invisible NPC Protection			Lachelith Invisible NPC Protection	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 97000045	AllowAggro	Debuff	True	swch	0	0	0	Lachelith Invisible NPC Protection			Lachelith Invisible NPC Protection	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
@@ -9382,8 +9413,8 @@
 97000051	MovSpd	Debuff	True	setp	3000	0	0.5	Baby Venom			Decreases Movement Speed by half. Reduces HP by $H_W_BAD5%$COLOR_END of maximum every $H_W_BAD0s$COLOR_END.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 97000051	HPDrain	Debuff	True	perc	3000	0	0.9	Baby Venom			Decreases Movement Speed by half. Reduces HP by $H_W_BAD5%$COLOR_END of maximum every $H_W_BAD0s$COLOR_END.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 97000051	HPChange	Debuff	True	perc	3000	1	-0.05	Baby Venom			Decreases Movement Speed by half. Reduces HP by $H_W_BAD5%$COLOR_END of maximum every $H_W_BAD0s$COLOR_END.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
-97000052	DefPotion	DOT	True	perc	90000	0	1.5	Lachelith's Wrath			Increases damage from Nightmare Lachelith by 50%. 2 stacks brings death.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
-97000052	StackCounter	DOT	True	seta	90000	0	97000038	Lachelith's Wrath			Increases damage from Nightmare Lachelith by 50%. 2 stacks brings death.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+97000052	DefPotion	DOT	True	perc	100000	0	1.5	Lachelith's Wrath			Increases damage from Nightmare Lachelith by 50%. The soul spheres cause double damage. Fatal if stacked 2 times.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+97000052	StackCounter	DOT	True	seta	100000	0	97000038	Lachelith's Wrath			Increases damage from Nightmare Lachelith by 50%. The soul spheres cause double damage. Fatal if stacked 2 times.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
 97000055	HPChange	DOT	False	perc	15000	1	-0.2	Mortal Wound			Reduces HP by $H_W_BAD20%$COLOR_END of maximum every $H_W_BAD1s$COLOR_END seconds.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 97000057	StackCounter	Debuff	True	seta	60000	0	97000059	Fimbrilisk's Rage			You will die if this effect stacks twice, or when the duration ends. Removed by Atrocitas' Rage.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000058	StackCounter	Debuff	True	seta	60000	0	97000059	Atrocitas' Rage			You will die if this effect stacks twice, or when the duration ends. Removed by Atrocitas' Rage.	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
@@ -10166,6 +10197,11 @@
 99007000	Plague	Buff	True	abs	0	10	990071	Derene's Protection			Spreads Derene's core energy around alliance members.	icon_status.aura_of_regeneration_mp_tex	icon_status.aura_of_regeneration_mp_tex	True
 99007100	Plague	Buff	True	abs	0	10	990072	Frateko's Protection			Spreads Frateco's aura around alliance members.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 99007200	Drunk	Stun	False	60022	10000	0	0	Flash Grenade	1144	Flash Grenade	Makes it hard to see things around you. White Flash cannot be removed.	icon_status.lighteffect_tex	icon_status.lighteffect_tex	False
+99007300	ASpd	Debuff	True	perc	0	0	0.99	Reduced Attack Speed			Decreases Attack Speed by $H_W_GOOD1%$COLOR_END.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007301	ASpd	Debuff	True	perc	0	0	0.95	Reduced Attack Speed			Decreases Attack Speed by $H_W_GOOD5%$COLOR_END.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007302	ASpd	Debuff	True	perc	0	0	0.9	Reduced Attack Speed			Decreases Attack Speed by $H_W_GOOD10%$COLOR_END.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007303	ASpd	Debuff	True	perc	0	0	0.8	Reduced Attack Speed			Decreases Attack Speed by $H_W_GOOD20%$COLOR_END.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007304	ASpd	Debuff	True	perc	0	0	0.7	Reduced Attack Speed			Decreases Attack Speed by $H_W_GOOD30%$COLOR_END.	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
 99008200	Power	Buff	True	abs	7200000	0	34	Will to Win			Adds 34 power and 20 Endurance to each alliance member in the territory. (This buff reviews the combatants every 3 minutes and applies the buff as needed.)	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	True
 99008200	Endurance	Buff	True	abs	7200000	0	20	Will to Win			Adds 34 power and 20 Endurance to each alliance member in the territory. (This buff reviews the combatants every 3 minutes and applies the buff as needed.)	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	True
 99008300	Power	Buff	True	abs	7200000	0	41	Rallying Cry			Adds 41 power and 25 Endurance to second and third place alliances. This effect can be stacked a maximum of 5 times. This buff only applies when the alliance conflict begins following a loss the prior week.	icon_status.plusspeedresist_tex	icon_status.plusspeedresist_tex	True
