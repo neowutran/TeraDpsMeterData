@@ -1447,6 +1447,14 @@
 18806	MovSpd	Debuff	False	setp	8000	0	0.5	重力の束縛			移動速度が$H_W_BAD50%$COLOR_END減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 18806	HPDrain	Debuff	False	perc	8000	0	0.5	重力の束縛			移動速度が$H_W_BAD50%$COLOR_END減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 18808	Absorb	Buff	True	swch	7000	0	84000	鋼鉄の心臓			バリアが最大$H_W_GOOD84000$COLOR_ENDほどのダメージを無効化します。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.damagingaurab_tex	icon_skills.damagingaurab_tex	True
+18811	1009	Buff	True	abs	15000	0	18000	物理抵抗無視増加			15秒間、物理抵抗無視が18000増加します。	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18812	1010	Buff	True	abs	15000	0	18000	魔法抵抗無視増加			15秒間、魔法抵抗無視が18000増加します。	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18813	1004	Buff	True	abs	15000	0	20000	魔法抵抗増加			15秒間、魔法抵抗が20000増加します。	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18814	Immune	Buff	True	57	3000	0	0	無敵			3秒間、無敵状態になります。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+18815	ASpd	Buff	True	abs	15000	0	20	攻撃速度上昇			15秒間、攻撃速度が20上昇します	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18815	DelayedEffect	Buff	True	swch	15000	0	18817	攻撃速度上昇			15秒間、攻撃速度が20上昇します	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+18816	Absorb	Buff	True	swch	2000	0	50000	バリア			5万のダメージを吸収するバリアが2秒間維持されます。	icon_skills.defenceup_tex	icon_skills.defenceup_tex	True
+18817	MaxHP	Stun	True	perc	45000	0	1	オーバーロード			オーバーロード状態のため、黒ビール効果が適用されません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
 21010	ASpd	Buff	True	perc	10000	0	1.15	回避(迅速の紋章)			攻撃速度が$H_W_GOOD15%$COLOR_END上昇します。	icon_skills.tumbling_tex	icon_crest.crestactiveattackspeedup_tex	True
 21020	ReducedMPCost	Buff	True	abs	10000	0	-88	トレントブロー(連精の紋章：ランブロー)			連係して「ランブロー」使用時、消費MPが$H_W_GOOD-88$COLOR_END減少します。	icon_skills.nanmu_tex	icon_crest.crestnextskillmpdown_tex	True
 21030	ReducedMPCost	Buff	True	abs	10000	0	-75	反撃(連精の紋章)			連係して「跳躍斬り」使用時、消費MPが$H_W_GOOD-75$COLOR_END減少します。	icon_skills.risingattack_tex	icon_crest.crestnextskillmpdown_tex	True
@@ -2054,6 +2062,10 @@
 70370	362	Buff	True	swch	0	0	206515	【イベント】コイの餌	206515	【イベント】コイの餌	3kg、10kg、100kgのコイが釣れる。$BR$BR捕食者の沼釣り場、セレンの庭園釣り場で使用できます。	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
 70371	358	Buff	True	abs	0	0	1	【イベント】サメ専用の餌	209189	【イベント】サメ専用の餌	サメを捕獲する為の特殊な餌。$BR$BR天空の遺跡釣り場で使用できる。$BR釣り場で餌を【右クリック】でON状態にすると釣りができる。	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
 70371	362	Buff	True	swch	0	0	209189	【イベント】サメ専用の餌	209189	【イベント】サメ専用の餌	サメを捕獲する為の特殊な餌。$BR$BR天空の遺跡釣り場で使用できる。$BR釣り場で餌を【右クリック】でON状態にすると釣りができる。	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70372	358	Buff	True	abs	0	0	0.8	虹の魔法餌			餌を釣り針にかけた。$BR$BR高いランクの魚を釣る確率$H_W_GOOD80%$COLOR_END増加$BR大物を釣る確率$H_W_GOOD10%$COLOR_END増加$BR$BR高い等級の餌を使用するほど高いランクの魚を釣る確率が高くなります。	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70372	362	Buff	True	swch	0	0	209360	虹の魔法餌			餌を釣り針にかけた。$BR$BR高いランクの魚を釣る確率$H_W_GOOD80%$COLOR_END増加$BR大物を釣る確率$H_W_GOOD10%$COLOR_END増加$BR$BR高い等級の餌を使用するほど高いランクの魚を釣る確率が高くなります。	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70373	358	Buff	True	abs	0	0	0.8	斑な魔法餌			餌を釣り針にかけた。$BR$BR高いランクの魚を釣る確率$H_W_GOOD80%$COLOR_END増加$BR大物を釣る確率$H_W_GOOD5%$COLOR_END増加$BR$BR高い等級の餌を使用するほど高いランクの魚を釣る確率が高くなります。	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
+70373	362	Buff	True	swch	0	0	209361	斑な魔法餌			餌を釣り針にかけた。$BR$BR高いランクの魚を釣る確率$H_W_GOOD80%$COLOR_END増加$BR大物を釣る確率$H_W_GOOD5%$COLOR_END増加$BR$BR高い等級の餌を使用するほど高いランクの魚を釣る確率が高くなります。	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
 70403	MovSpd	Debuff	False	perc	5000	0	0.5	時空の亀裂_減速			移動速度が$H_W_BAD50%$COLOR_END 減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	OutOfCombatMovSpd	Debuff	False	perc	5000	0	0.5	時空の亀裂_減速			移動速度が$H_W_BAD50%$COLOR_END 減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	HPDrain	Debuff	False	perc	5000	0	0.5	時空の亀裂_減速			移動速度が$H_W_BAD50%$COLOR_END 減少します。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
@@ -6661,11 +6673,11 @@
 30231001	StackCounter	Debuff	True	seta	70000	0	30231002	トラヴァンの呪い			トラヴァンに呪われました。2重複または効果時間が終了すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 30231002	HPChange2	Debuff	True	perc	1000	0	-2	トラヴァンの呪い			トラヴァンに呪われました。2重複または効果時間が終了すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	False
 30231003	Stun	Stun	False	swch	5000	0	5	気絶			気絶して動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
-30231004	HPChange	DOT	False	perc	10000	1	-0.1	出血			鋭い剣に切られ、出血しました。1秒毎に$H_W_BAD10%$COLOR_ENDのHPが減少します。	icon_status.curse_tex	icon_status.curse_tex	True
-30232012	HPChange	DOT	True	perc	10000	2	-0.12	野獣の爪			強力な攻撃を受けて出血が起きます。$H_W_BAD2s$COLOR_END毎に全体HP対比$H_W_BAD$10$COLOR_ENDに達するHPが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+30231004	HPChange	DOT	False	perc	10000	1	-0.02	出血			鋭い剣に切られ、出血しました。1秒毎に$H_W_BAD2％$COLOR_ENDずつHPが減少します。	icon_status.curse_tex	icon_status.curse_tex	True
+30232012	HPChange	DOT	True	perc	10000	2	-0.03	野獣の爪			強力な攻撃を受けて出血しました。$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD3％$COLOR_ENDが減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 30232014	Stun	Stun	False	swch	4000	0	5	野獣の咆哮			強力な咆哮のせいで体がしびれています。4秒間、動けません。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
-30232015	HPChange	DOT	False	perc	30000	5	-0.01	野獣の戦慄			尋常ではない戦慄を覚えます。$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD1％$COLOR_ENDが持続的にを減少します。最大5重複まで累積され、5重複時、野獣の覇気が付与されます。	icon_status.darkwater_tex	icon_status.darkwater_tex	True
-30232015	StackCounter	DOT	False	swch	30000	0	30232016	野獣の戦慄			尋常ではない戦慄を覚えます。$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD1％$COLOR_ENDが持続的にを減少します。最大5重複まで累積され、5重複時、野獣の覇気が付与されます。	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232015	HPChange	DOT	False	perc	60000	5	-0.01	野獣の戦慄			尋常ではない戦慄を覚えます。$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD1％$COLOR_ENDが持続的にを減少します。最大5重複まで累積され、5重複時、野獣の覇気が付与されます。	icon_status.darkwater_tex	icon_status.darkwater_tex	True
+30232015	StackCounter	DOT	False	swch	60000	0	30232016	野獣の戦慄			尋常ではない戦慄を覚えます。$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD1％$COLOR_ENDが持続的にを減少します。最大5重複まで累積され、5重複時、野獣の覇気が付与されます。	icon_status.darkwater_tex	icon_status.darkwater_tex	True
 30232016	Power	DOT	True	abs	600000	0	10	野獣の覇気			野獣の覇気が感じられます。力が10増加して$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD10%$COLOR_ENDが減少します。最大3重複まで累積されます。	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 30232016	HPChange	DOT	True	perc	600000	5	-0.1	野獣の覇気			野獣の覇気が感じられます。力が10増加して$H_W_BAD5s$COLOR_END毎に全HPの$H_W_BAD10%$COLOR_ENDが減少します。最大3重複まで累積されます。	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
 30232017	Power	Debuff	True	perc	0	0	1	野獣の覇気			凄まじい野獣の覇気が感じられます。強い精神力がなければ、その覇気に圧倒されます。	icon_status.darkriftwill_tex	icon_status.darkriftwill_tex	True
@@ -7021,6 +7033,13 @@
 31031016	Stun	Debuff	True	swch	10000	0	5	拘束			不吉なオーラに束縛されました。身動きがとれません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 31031016	275	Debuff	True	swch	10000	0	0	拘束			不吉なオーラに束縛されました。身動きがとれません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 31031018	HPChange	Debuff	True	perc	0	1	-1	浸食			不吉なオーラに浸食されました。まもなく死亡します。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+31040001	MovSpd	Debuff	True	perc	12000	0	0.75	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+31040001	62	Debuff	True	seta	12000	1	31040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+31040001	65	Debuff	True	seta	12000	1	31040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+31040003	Power	Buff	True	perc	4000	0	1	不死の肉体			不死の血が作り出した無敵の力。 ルクミアの強力な攻撃を回避できます。	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+31040004	HPChange	Debuff	True	perc	15000	3	-0.05	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。6回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+31040004	StackCounter	Debuff	True	seta	15000	0	31040005	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。6回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+31040005	271	Debuff	True	seta	5000	0	61905228	堕落した血			堕落した血によって気絶し、周囲に爆発ダメージを与えます。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31260001	Endurance	DOT	True	perc	55000	0	1	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	Attack	Debuff	False	seta	0	0	0.75	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	HPChange	DOT	True	perc	55000	2	-0.05	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -7194,6 +7213,15 @@
 32031016	Stun	Debuff	True	swch	10000	0	5	拘束			不吉なオーラに束縛されました。身動きがとれません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 32031016	275	Debuff	True	swch	10000	0	0	拘束			不吉なオーラに束縛されました。身動きがとれません。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 32031018	HPChange	Debuff	True	perc	0	1	-1	浸食			不吉なオーラに浸食されました。まもなく死亡します。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+32040001	MovSpd	Debuff	True	perc	12000	0	0.75	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+32040001	62	Debuff	True	seta	12000	1	32040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+32040001	65	Debuff	True	seta	12000	1	32040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+32040003	Power	Buff	True	perc	4000	0	1	不死の肉体			不死の血が作り出した無敵の力ルクミアの強力な攻撃を回避できます。	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+32040004	HPChange	Debuff	True	perc	30000	3	-0.1	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。3回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+32040004	StackCounter	Debuff	True	seta	30000	0	32040005	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。3回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+32040005	271	Debuff	True	seta	5000	0	61905228	堕落した血			堕落した血によって気絶し、周囲に爆発ダメージを与える。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+32040007	Power	Debuff	True	perc	15000	0	1	ルクミアの注視			ルクミアを注視を受け、不死の血を飲めるようになりました。	icon_skills.througharrow_tex	icon_skills.througharrow_tex	True
+32040009	Power	Debuff	True	perc	0	0	1.25	生贄の力			生贄の力が重複するたびに、ルクミアの攻撃力が25％増加します。	icon_status.minushp_tex	icon_status.minushp_tex	True
 43100007	HPChange	DOT	False	perc	15000	3	-0.05	出血			強力な一撃によって出血しました。$H_W_BAD3s2$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 43100011	MovSpd	Debuff	False	setp	10000	0	0.8	破壊の予言			破壊の予言が下されました！　移動速度が$H_W_BAD20%$COLOR_END減少します。時間内に解除しなければ、強力なダメージを受けることになります。	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
 43100011	HPDrain	Debuff	False	perc	10000	0	0.9	破壊の予言			破壊の予言が下されました！　移動速度が$H_W_BAD20%$COLOR_END減少します。時間内に解除しなければ、強力なダメージを受けることになります。	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
@@ -9458,7 +9486,7 @@
 97000022	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス_PC_(逆)三角			(逆)三角	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 97000024	Stun	Stun	False	swch	9000	0	5	気絶 VIII			気絶した状態で動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 97000025	HPChange	DOT	True	perc	15000	2	-0.15	ラケリスが残した致命傷			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD15％$COLOR_ENDが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
-97000026	HPChange	DOT	False	perc	10000	2	-0.05	ラケリスが残した傷			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5%$COLOR_ENDが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+97000026	HPChange	DOT	False	perc	10000	2	-0.1	ラケリスが残した傷			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD10％$COLOR_ENDが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 97000027	DelayedEffect	Debuff	True	perc	30000	0	97000028	覚醒したリリス(3ネームド)_集中攻撃			覚醒したリリス(3ネームド)_集中攻撃	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 97000028	MaxHP	Debuff	True	perc	3000	0	1	覚醒したリリス(3ネームド)_集中攻撃_発射			覚醒したリリス(3ネームド)_集中攻撃_発射	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 97000029	MaxHP	Debuff	False	perc	1000	0	1	覚醒したリリス(3ネームド)_カードパターン開始			覚醒したリリス(3ネームド)_カードパターン開始	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	False
@@ -9469,17 +9497,20 @@
 97000033	ASpd	DOT	True	perc	60000	0	1.1	ラカンの力			重複するたびに攻撃速度が$H_W_GOOD10%$COLOR_ENDずつ増加します。	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
 97000033	StackCounter	DOT	True	swch	60000	0	97000034	ラカンの力			重複するたびに攻撃速度が$H_W_GOOD10%$COLOR_ENDずつ増加します。	icon_status.plusciriticalresist_tex	icon_status.plusciriticalresist_tex	True
 97000034	DelayedEffect	DOT	True	swch	1500	0	97000035	ラケリス_バフ_3重複チェック			3重複チェック用異常状態	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
-97000035	Power	DOT	True	perc	60000	0	2	完成されたラカンの力			力が$H_W_GOOD100%$COLOR_END上昇し、攻撃速度が$H_W_GOOD15%$COLOR_END増加します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
-97000035	ASpd	DOT	True	perc	60000	0	1.15	完成されたラカンの力			力が$H_W_GOOD100%$COLOR_END上昇し、攻撃速度が$H_W_GOOD15%$COLOR_END増加します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
+97000035	Power	DOT	True	perc	60000	0	11	完成されたラカンの力			力が$H_W_GOOD1000%$COLOR_END上昇し、攻撃速度が$H_W_GOOD50%$COLOR_END増加します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
+97000035	ASpd	DOT	True	perc	60000	0	1.5	完成されたラカンの力			力が$H_W_GOOD1000%$COLOR_END上昇し、攻撃速度が$H_W_GOOD50%$COLOR_END増加します。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
 97000036	HPLoss	Debuff	False	perc	1000	0	0.3	発射体(-70％)			発射体(-70％)	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000037	HPLoss	Debuff	False	perc	1000	0	0.7	発射体(-30％)			発射体(-30％)	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000038	HPLoss	Debuff	False	abs	500	0	-50000000	呪い 2重複_死亡			呪い 2重複_死亡	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000038	HPChange2	Debuff	False	abs	500	0	-50000000	呪い 2重複_死亡			呪い 2重複_死亡	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000040	MovSpd	Buff	False	perc	0	0	1	ダークリッパ-の怒り			ダークリッパーの魂が宿っています。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000041	MovSpd	Buff	False	perc	0	0	1	クリューエルハウンドの怒り			クリューエルハウンドの魂が宿っています。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
+97000042	HPLoss	Debuff	True	abs	60000	0	-10000000	ダークリッパ-の怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000042	StackCounter	Debuff	True	seta	60000	0	97000044	ダークリッパ-の怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
+97000043	HPLoss	Debuff	True	abs	60000	0	-10000000	クリューエルハウンドの怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
 97000043	StackCounter	Debuff	True	seta	60000	0	97000044	クリューエルハウンドの怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
-97000044	HPChange2	Debuff	True	perc	1000	0	-2	ラケリス(1ネームド) 2重複_死亡			ラケリス(1ネームド) 2重複_死亡	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
+97000044	HPChange	Debuff	True	abs	1000	1	-50000000	ラケリス(1ネームド) 2重複_死亡			ラケリス(1ネームド) 2重複_死亡	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
+97000044	HPLoss	Debuff	True	abs	1000	0	-50000000	ラケリス(1ネームド) 2重複_死亡			ラケリス(1ネームド) 2重複_死亡	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	False
 97000045	HPChange	Debuff	True	perc	0	1	1	ラケリス(3ネームド) 透明NPC保護用			ラケリス(3ネームド) 透明NPC保護用	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 97000045	101	Debuff	True	perc	0	1	1	ラケリス(3ネームド) 透明NPC保護用			ラケリス(3ネームド) 透明NPC保護用	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 97000045	AllowAggro	Debuff	True	swch	0	0	0	ラケリス(3ネームド) 透明NPC保護用			ラケリス(3ネームド) 透明NPC保護用	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
@@ -9494,8 +9525,8 @@
 97000051	MovSpd	Debuff	True	setp	3000	0	0.5	子グモの毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 97000051	HPDrain	Debuff	True	perc	3000	0	0.9	子グモの毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 97000051	HPChange	Debuff	True	perc	3000	1	-0.05	子グモの毒			子グモの毒に感染され、移動速度が減少し、$H_W_BAD0s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDに至るＨＰが持続的に減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
-97000052	DefPotion	DOT	True	perc	90000	0	1.5	力強いラケリスの呪い			冥々たるラケリスと魂の躯体から受けるダメージが50％増加します。重複すると死亡します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
-97000052	StackCounter	DOT	True	seta	90000	0	97000038	力強いラケリスの呪い			冥々たるラケリスと魂の躯体から受けるダメージが50％増加します。重複すると死亡します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+97000052	DefPotion	DOT	True	perc	100000	0	1.5	力強いラケリスの呪い			冥々たるラケリスからの被ダメージが50％増加し、魂の球体のダメージが2倍になります。2重複すると死亡します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+97000052	StackCounter	DOT	True	seta	100000	0	97000038	力強いラケリスの呪い			冥々たるラケリスからの被ダメージが50％増加し、魂の球体のダメージが2倍になります。2重複すると死亡します。	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
 97000055	HPChange	DOT	False	perc	15000	1	-0.2	ラケリスが残した死の傷			$H_W_BAD1s$COLOR_END毎に全HPの$H_W_BAD20％$COLOR_ENDが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 97000057	StackCounter	Debuff	True	seta	60000	0	97000059	ダークリッパ-の怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 97000058	StackCounter	Debuff	True	seta	60000	0	97000059	クリューエルハウンドの怒り			持続時間が終了するか、重複すると死亡します。	icon_status.delaympgain_tex	icon_status.delaympgain_tex	True
@@ -10216,6 +10247,11 @@
 99007000	Plague	Buff	True	abs	0	10	990071	ドミル・シルバーレインの加護			ドミル・シルバーレインが持つコアの力を周辺の連盟員に拡散します。	icon_status.aura_of_regeneration_mp_tex	icon_status.aura_of_regeneration_mp_tex	True
 99007100	Plague	Buff	True	abs	0	10	990072	フラテコ・カイルムの加護			フラテコ・カイルムの勇猛さを周辺の連盟員に拡散します。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 99007200	Drunk	Stun	False	60022	10000	0	0	閃光爆弾	1144	閃光爆弾	眩しさのあまり周囲が見えなくなります。この効果は解除できません。	icon_status.lighteffect_tex	icon_status.lighteffect_tex	False
+99007300	ASpd	Debuff	True	perc	0	0	0.99	攻撃速度減少			攻撃速度$H_W_GOOD1%$COLOR_END減少。	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007301	ASpd	Debuff	True	perc	0	0	0.95	攻撃速度減少			攻撃速度$H_W_GOOD5%$COLOR_END減少。	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007302	ASpd	Debuff	True	perc	0	0	0.9	攻撃速度減少			攻撃速度$H_W_GOOD10%$COLOR_END減少。	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007303	ASpd	Debuff	True	perc	0	0	0.8	攻撃速度減少			攻撃速度$H_W_GOOD20%$COLOR_END減少。	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
+99007304	ASpd	Debuff	True	perc	0	0	0.7	攻撃速度減少			攻撃速度$H_W_GOOD30%$COLOR_END減少。	icon_skills.sp_atkspeed7_tex	icon_skills.sp_atkspeed7_tex	True
 99008100	0	Buff	True	swch	7200000	0	0	連盟の狼煙（見えたらバグ）			見えたらバグ	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	False
 99008200	Power	Buff	True	abs	7200000	0	34	連盟の狼煙			領地にいる各連盟員の数が20名以上の場合、少ない方の連盟員の力が34、耐久力が20上昇します。3分毎に人数のカウントが更新されます。	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	True
 99008200	Endurance	Buff	True	abs	7200000	0	20	連盟の狼煙			領地にいる各連盟員の数が20名以上の場合、少ない方の連盟員の力が34、耐久力が20上昇します。3分毎に人数のカウントが更新されます。	icon_status.mprecoverdown_tex	icon_status.mprecoverdown_tex	True
