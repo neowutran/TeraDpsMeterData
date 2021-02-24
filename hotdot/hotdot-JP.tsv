@@ -189,9 +189,8 @@
 1480	OutOfCombatMovSpd	Buff	True	abs	180000	0	20	神将の祝福			非戦闘状態での移動速度が$H_W_GOOD20$COLOR_END上昇します。	icon_status.plusmove_tex	icon_status.plusmove_tex	True
 1490	HPChange	Buff	True	perc	15000	1	0.05	ポーション	111	ポーション	$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD5％$COLOR_ENDが回復します。	icon_items.potion1_tex	icon_items.potion1_tex	True
 1491	HPChange	Buff	True	perc	5000	1	0.06	ポーション			$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD6％$COLOR_ENDが回復します。	icon_items.potion1_tex	icon_items.potion1_tex	True
-1495	MovSpdInCombat	Debuff	True	perc	2000	0	0.2	戦場の毒気			戦場の毒気により、HPが一秒当たり20000ずつ減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
-1495	OutOfCombatMovSpd	Debuff	True	perc	2000	0	0.2	戦場の毒気			戦場の毒気により、HPが一秒当たり20000ずつ減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
-1495	HPChange	Debuff	True	perc	2000	1	-20000	戦場の毒気			戦場の毒気により、HPが一秒当たり20000ずつ減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+1495	MovSpd	Debuff	True	setp	2000	0	0.5	戦場の毒気			戦場の毒気により、HPが一秒当たり20000ずつ減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+1495	HPChange	Debuff	True	perc	2000	1	-50000	戦場の毒気			戦場の毒気により、HPが一秒当たり20000ずつ減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 1510	HPChange	Buff	True	perc	1000	1	0.5	ラピッドポーション	114	【連合補給品】ラピッドポーション	全HPの$H_W_GOOD50％$COLOR_ENDが即時に回復します。	icon_items.potion5_tex	icon_items.potion5_tex	False
 1511	HPChange	Buff	True	perc	1000	1	0.6	エリクサー	7219	エリクサー	全HP、MPの$H_W_GOOD60％$COLOR_ENDを即時回復します。	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
 1511	MPChange	Buff	True	perc	1000	1	0.6	エリクサー	7219	エリクサー	全HP、MPの$H_W_GOOD60％$COLOR_ENDを即時回復します。	icon_items.eagles_potion_level_47_tex	icon_items.eagles_potion_level_47_tex	False
@@ -924,7 +923,10 @@
 6034	47	Buff	True	perc	1800000	0	1.05	焔獣の加護 II（5%）			焔獣の加護を受け、効果時間中<font color = '#66bbff'>練武経験値</font>獲得量が5%上昇する。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
 6035	47	Buff	True	perc	1800000	0	1.07	焔獣の加護 II（7%）			焔獣の加護を受け、効果時間中<font color = '#66bbff'>練武経験値</font>獲得量が7%上昇する。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
 6036	47	Buff	True	perc	1800000	0	1.09	焔獣の加護 II（9%）			焔獣の加護を受け、効果時間中<font color = '#66bbff'>練武経験値</font>獲得量が9%上昇する。	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
-6039	0	Buff	True	swch	3600000	0	0	アルガフの力I			アルガフの力で飛行及びアルガフ跳躍台の使用が可能です。	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
+6039	ASpd	Buff	True	perc	7200000	0	1.04	冷血			アイスドラゴンの力でスキル威力が$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END増加し、被ダメージが$H_W_GOOD10%$COLOR_END減少する。また、乗り物の飛行可能時間が大幅増加する。$BR「勇猛のポーション」と併用不可	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
+6039	55	Buff	True	abs	7200000	0	4	冷血			アイスドラゴンの力でスキル威力が$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END増加し、被ダメージが$H_W_GOOD10%$COLOR_END減少する。また、乗り物の飛行可能時間が大幅増加する。$BR「勇猛のポーション」と併用不可	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
+6039	DefPotion	Buff	True	perc	7200000	0	0.9	冷血			アイスドラゴンの力でスキル威力が$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END増加し、被ダメージが$H_W_GOOD10%$COLOR_END減少する。また、乗り物の飛行可能時間が大幅増加する。$BR「勇猛のポーション」と併用不可	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
+6039	AtkPotion	Buff	True	perc	7200000	0	1.1	冷血			アイスドラゴンの力でスキル威力が$H_W_GOOD10%$COLOR_END、攻撃速度が$H_W_GOOD4%$COLOR_END増加し、被ダメージが$H_W_GOOD10%$COLOR_END減少する。また、乗り物の飛行可能時間が大幅増加する。$BR「勇猛のポーション」と併用不可	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
 6040	CritPower1	Buff	True	abs	6000	0	1	氷竜の怨念			モンスター攻撃時クリティカル威力が$H_W_GOOD1.5$COLOR_END倍上昇します。	icon_skills.dragonhit1_tex	icon_skills.dragonhit1_tex	True
 6041	CritPower1	Buff	True	abs	6000	0	2	氷竜の呪印			モンスター攻撃時クリティカル威力が$H_W_GOOD2$COLOR_END倍上昇します。	icon_skills.dragonhit2_tex	icon_skills.dragonhit2_tex	True
 6042	Power	Buff	True	perc	1800000	0	1.27	【練習】上級戦闘秘薬	602176	【練習】上級戦闘秘薬	効果持続中、以下の効果が発生します。<br><br>力$H_W_GOOD27％$COLOR_END増加<br>耐久力$H_W_GOOD20％$COLOR_END増加<br>5秒毎にMP$H_W_GOOD459$COLOR_END回復<br>攻撃スキルのクールタイム$H_W_GOOD15％$COLOR_END短縮<br>攻撃時クリティカル威力$H_W_GOOD+1.42倍$COLOR_END増加<br>練習ダンジョンを離れると解除されます。	icon_items.add_extract_potion_2_tex	icon_items.add_extract_potion_2_tex	True
@@ -1030,6 +1032,12 @@
 6078	361	Buff	True	perc	1800000	0	0.8	プライマルブレス（釣り）			原始の力によって時間が加速され、手動釣りのヒット待機時間が$H_W_GOOD5%$COLOR_END減少し、自動釣り時間が$H_W_GOOD10%$COLOR_END減少します。追加で釣りの難易度が$H_W_GOOD20%$COLOR_END減少します。	icon_skills.tyrannosaur_vehicleskill_rare_tex	icon_skills.tyrannosaur_vehicleskill_rare_tex	True
 6080	CCrystalBind	Buff	True	abs	0	0	1	【練習】完全な光輝の書：クリスタル保護			効果持続中、死亡時にクリスタルが壊れるのを防止します。<br>練習ダンジョンを離れると解除されます。	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
 6081	MaxHP	Buff	True	perc	900000	0	1.05	腹持ちのいいおやつ			柴犬におやつを与えます。一気になくなるのを見てダイエットさせると決めていたら、なぜかマスターまでも満腹になりました。（使用すると最大HPが$H_W_GOOD5%$COLOR_END増加します。他の幻獣とスキルのクールタイムを共有しません。）	icon_skills.shiba_vehicleskill_rare_tex	icon_skills.shiba_vehicleskill_rare_tex	True
+6082	HPChange2	Buff	True	perc	500	0	1.5	神獣の加護 I			神獣の加護を受け、死の危機から免れました。全HP、MPの$H_W_GOOD100％$COLOR_ENDが即回復され、デバフが解除されます。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+6082	Rage	Buff	True	abs	500	0	-3000	神獣の加護 I			神獣の加護を受け、死の危機から免れました。全HP、MPの$H_W_GOOD100％$COLOR_ENDが即回復され、デバフが解除されます。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+6082	290	Buff	True	abs	500	0	1	神獣の加護 I			神獣の加護を受け、死の危機から免れました。全HP、MPの$H_W_GOOD100％$COLOR_ENDが即回復され、デバフが解除されます。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+6083	HPChange2	Buff	True	perc	500	0	1.5	神獣の加護 II			神獣の加護を受け、死の危機から免れました。全HP、MPの$H_W_GOOD100％$COLOR_ENDが即回復され、デバフが解除されます。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+6083	Rage	Buff	True	abs	500	0	-3000	神獣の加護 II			神獣の加護を受け、死の危機から免れました。全HP、MPの$H_W_GOOD100％$COLOR_ENDが即回復され、デバフが解除されます。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+6083	290	Buff	True	abs	500	0	1	神獣の加護 II			神獣の加護を受け、死の危機から免れました。全HP、MPの$H_W_GOOD100％$COLOR_ENDが即回復され、デバフが解除されます。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
 10100	HPChange	DOT	False	abs	5000	1	-11	猛毒 I［クリスタル］			$H_W_BAD1s$COLOR_END毎にHPが$H_W_BAD-11$COLOR_END減少します。	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	猛毒 II［クリスタル］			$H_W_BAD1s$COLOR_END毎にHPが$H_W_BAD-23$COLOR_END減少します。	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	猛毒 III［クリスタル］			$H_W_BAD1s$COLOR_END毎にHPが$H_W_BAD-58$COLOR_END減少します。	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -1451,10 +1459,16 @@
 18812	1010	Buff	True	abs	15000	0	18000	魔法抵抗無視増加			15秒間、魔法抵抗無視が18000増加します。	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 18813	1004	Buff	True	abs	15000	0	20000	魔法抵抗増加			15秒間、魔法抵抗が20000増加します。	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 18814	Immune	Buff	True	57	3000	0	0	無敵			3秒間、無敵状態になります。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+18815	MaxHP	Stun	True	perc	60000	0	1	攻撃速度上昇			15秒間、攻撃速度が20上昇します	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 18815	ASpd	Buff	True	abs	15000	0	20	攻撃速度上昇			15秒間、攻撃速度が20上昇します	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
-18815	DelayedEffect	Buff	True	swch	15000	0	18817	攻撃速度上昇			15秒間、攻撃速度が20上昇します	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 18816	Absorb	Buff	True	swch	2000	0	50000	バリア			5万のダメージを吸収するバリアが2秒間維持されます。	icon_skills.defenceup_tex	icon_skills.defenceup_tex	True
-18817	MaxHP	Stun	True	perc	45000	0	1	オーバーロード			オーバーロード状態のため、黒ビール効果が適用されません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+18817	MaxHP	Stun	True	perc	60000	0	1	オーバーロード			オーバーロード状態のため、黒ビール効果が適用されません。	icon_status.fullelectriceffect_tex	icon_status.fullelectriceffect_tex	True
+18818	1007	Buff	True	abs	15000	0	820	物理貫通増加			15秒間、物理貫通が820増加します。	icon_skills.guildskills_str2_tex	icon_skills.guildskills_str2_tex	True
+18819	1008	Buff	True	abs	15000	0	820	魔法貫通増加			15秒間、魔法貫通が820増加します。	icon_skills.guildskills_str2_tex	icon_skills.guildskills_str2_tex	True
+18820	1005	Buff	True	abs	15000	0	0.09	物理クリティカルダメージ増加			15秒間、物理クリティカルダメージが0.09増加します。	icon_skills.guildskills_critrate_tex	icon_skills.guildskills_critrate_tex	True
+18821	1006	Buff	True	abs	15000	0	0.09	魔法クリティカルダメージ増加			15秒間、魔法クリティカルダメージが0.09増加します。	icon_skills.guildskills_critrate_tex	icon_skills.guildskills_critrate_tex	True
+18822	1007	Buff	True	abs	15000	0	820	物理貫通増加			15秒間、物理貫通が820増加します。	icon_skills.guildskills_str2_tex	icon_skills.guildskills_str2_tex	True
+18823	1008	Buff	True	abs	15000	0	820	魔法貫通増加			15秒間、魔法貫通が820増加します。	icon_skills.guildskills_str2_tex	icon_skills.guildskills_str2_tex	True
 21010	ASpd	Buff	True	perc	10000	0	1.15	回避(迅速の紋章)			攻撃速度が$H_W_GOOD15%$COLOR_END上昇します。	icon_skills.tumbling_tex	icon_crest.crestactiveattackspeedup_tex	True
 21020	ReducedMPCost	Buff	True	abs	10000	0	-88	トレントブロー(連精の紋章：ランブロー)			連係して「ランブロー」使用時、消費MPが$H_W_GOOD-88$COLOR_END減少します。	icon_skills.nanmu_tex	icon_crest.crestnextskillmpdown_tex	True
 21030	ReducedMPCost	Buff	True	abs	10000	0	-75	反撃(連精の紋章)			連係して「跳躍斬り」使用時、消費MPが$H_W_GOOD-75$COLOR_END減少します。	icon_skills.risingattack_tex	icon_crest.crestnextskillmpdown_tex	True
@@ -5040,6 +5054,18 @@
 3000042	MaxHP	Buff	True	perc	0	0	1	柴犬騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000042	HPChange	Buff	True	perc	0	1	0.02	柴犬騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3000042	MPChange	Buff	True	perc	0	1	0.02	柴犬騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000044	MaxHP	Buff	True	perc	0	0	1	瑪瑙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000044	HPChange	Buff	True	perc	0	1	0.01	瑪瑙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000044	MPChange	Buff	True	perc	0	1	0.01	瑪瑙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000045	MaxHP	Buff	True	perc	0	0	1	瑪瑙焔獣（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000045	HPChange	Buff	True	perc	0	1	0.02	瑪瑙焔獣（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000045	MPChange	Buff	True	perc	0	1	0.02	瑪瑙焔獣（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000047	MaxHP	Buff	True	perc	0	0	1	白妙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000047	HPChange	Buff	True	perc	0	1	0.01	白妙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000047	MPChange	Buff	True	perc	0	1	0.01	白妙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが1％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000048	MaxHP	Buff	True	perc	0	0	1	白妙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000048	HPChange	Buff	True	perc	0	1	0.02	白妙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
+3000048	MPChange	Buff	True	perc	0	1	0.02	白妙焔獣騎乗（HP、MP回復）			飛行可能地域で飛行できます。<BR>騎乗中、毎秒HPとMPが2％回復します。	icon_items.wings_of_fairy_tex	icon_items.wings_of_fairy_tex	True
 3012000	Power	Buff	True	abs	1800000	0	40	訓練所バフ（プリースト）			ブレシングアルン III、シークレッドサンダー IV効果が持続され、強化レザルスペル IVが25秒ごとに適用されます。	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	Endurance	Buff	True	abs	1800000	0	11	訓練所バフ（プリースト）			ブレシングアルン III、シークレッドサンダー IV効果が持続され、強化レザルスペル IVが25秒ごとに適用されます。	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
 3012000	AllResist	Buff	True	abs	1800000	0	5	訓練所バフ（プリースト）			ブレシングアルン III、シークレッドサンダー IV効果が持続され、強化レザルスペル IVが25秒ごとに適用されます。	icon_skills.judgmentaura_tex	icon_skills.judgmentaura_tex	True
@@ -6382,6 +6408,8 @@
 20540033	Block	Debuff	False	swch	8000	0	0	鈍化			アゼンバントの魔力が持続時間の間、体を鈍化させ、スキルを使用できない。	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 21030001	DotResist	Buff	True	seta	99999999	0	1	アルガフの力 I			エクソドールの機関室内の1～2階間移動装置の利用が可能になります。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
 21030002	DotResist	Buff	True	seta	99999999	0	1	アルガフの力 II			エクソドールの機関室内の2～3階間移動装置の利用が可能になります。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
+21050002	HPChange	Buff	True	perc	0	1	0.01	ミステルの加護			ミステルの加護により、HPとMPが持続的に回復されます。	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
+21050002	MPChange	Buff	True	perc	0	1	0.01	ミステルの加護			ミステルの加護により、HPとMPが持続的に回復されます。	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
 25020001	44	DOT	True	abs	2000	1	-0.55	パルプの赤い精気			パルプがパルプリンセスの飛行を護衛するために吹き出す精気で飛行性能が減少されます。	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
 25020001	Block	DOT	True	swch	2000	0	0	パルプの赤い精気			パルプがパルプリンセスの飛行を護衛するために吹き出す精気で飛行性能が減少されます。	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
 25020001	Drunk	DOT	True	9629002	300	0	0	パルプの赤い精気			パルプがパルプリンセスの飛行を護衛するために吹き出す精気で飛行性能が減少されます。	icon_items.q_bugbutterfly_tex	icon_items.q_bugbutterfly_tex	True
@@ -6981,6 +7009,13 @@
 30372601	Power	Buff	True	perc	0	0	10	復讐の権化			バハールの力が完全に戻りました。	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
 30372601	Endurance	Buff	True	perc	0	0	5	復讐の権化			バハールの力が完全に戻りました。	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
 30372601	ASpd	Buff	True	perc	0	0	1.5	復讐の権化			バハールの力が完全に戻りました。	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
+30400001	MovSpd	Debuff	True	perc	12000	0	0.75	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+30400001	62	Debuff	True	seta	12000	1	31040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+30400001	65	Debuff	True	seta	12000	1	31040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
+30400003	Power	Buff	True	perc	4000	0	1	不死の肉体			不死の血が作り出した無敵の力。ルクミアの強力な攻撃を回避できます。	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+30400004	HPChange	Debuff	True	perc	15000	3	-0.05	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。5回重複すると、爆発を起こします。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+30400004	StackCounter	Debuff	True	seta	15000	0	30400005	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。5回重複すると、爆発を起こします。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
+30400005	271	Debuff	True	seta	5000	0	61905233	堕落した血			堕落した血によって、爆発を起こします。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31010202	HPChange	DOT	True	perc	10000	2	-0.1	舞い上がる結晶			風で結晶の粉が舞い上がる。結晶の粉による傷で2秒当たり$H_W_BAD10%$COLOR_ENDのHPが減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31010205	Block	Buff	True	swch	2000	0	0	沈黙			全身が結晶がついて思う通り動けない。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 31010220	Aggro	Debuff	True	perc	80000	0	0.3	女王の寵愛			パルクイーンの視線を受けてます。2重複時、全身が固まって死亡します。	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
@@ -7001,6 +7036,7 @@
 31029002	Attack	Buff	True	perc	180000	0	1.01	ソウルドレイン			重複する毎にキリガルの与ダメージと防御力が$H_W_GOOD1％$COLOR_ENDずつ増加します。	icon_status.plusdiseaseresist_tex	icon_status.plusdiseaseresist_tex	True
 31030000	DelayedEffect	Buff	True	swch	10000	0	31030002	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 31030000	Absorb	Buff	True	swch	10000	0	400000000	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+31030001	StunKnockDown	Stun	True	swch	5000	0	6	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
 31030002	Endurance	Buff	True	perc	1000	0	1	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
 31030006	AtkPotion	Buff	True	perc	900000	0	1.1	蓄積			不吉なオーラの一部を吸収し、強化されました。10重複時、蓄積したオーラを開放してさらに強力になります。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
 31030006	StackCounter	Buff	True	seta	900000	0	31030007	蓄積			不吉なオーラの一部を吸収し、強化されました。10重複時、蓄積したオーラを開放してさらに強力になります。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
@@ -7040,6 +7076,13 @@
 31040004	HPChange	Debuff	True	perc	15000	3	-0.05	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。6回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
 31040004	StackCounter	Debuff	True	seta	15000	0	31040005	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。6回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
 31040005	271	Debuff	True	seta	5000	0	61905228	堕落した血			堕落した血によって気絶し、周囲に爆発ダメージを与えます。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+31060001	DelayedEffect	Buff	True	swch	1500	0	32060107	弱点			狂帝ガルダンの弱点が漏出されました。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+31060002	MovSpd	Buff	True	setp	0	0	1.2	ベルセルク			理性を失って暴走しています。攻撃速度及び移動速度が大幅増加します。	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+31060002	ASpd	Buff	True	perc	0	0	1.3	ベルセルク			理性を失って暴走しています。攻撃速度及び移動速度が大幅増加します。	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+31060003	MaxMP	Stun	False	perc	15000	0	1	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+31060003	StackCounter	Stun	False	seta	15000	0	32060016	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+31060005	Power	Buff	True	perc	0	0	1	不死の力			痛みを感じない状態。一定量のダメージを受けると解除されます。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+31060005	Absorb	Buff	True	swch	0	0	720000000	不死の力			痛みを感じない状態。一定量のダメージを受けると解除されます。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 31260001	Endurance	DOT	True	perc	55000	0	1	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	Attack	Debuff	False	seta	0	0	0.75	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	HPChange	DOT	True	perc	55000	2	-0.05	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -7216,12 +7259,60 @@
 32040001	MovSpd	Debuff	True	perc	12000	0	0.75	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
 32040001	62	Debuff	True	seta	12000	1	32040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
 32040001	65	Debuff	True	seta	12000	1	32040002	不死の血			他の不死の血と合わせると、ルクミアの強力な攻撃を回避できます。	icon_status.scald_tex	icon_status.scald_tex	True
-32040003	Power	Buff	True	perc	4000	0	1	不死の肉体			不死の血が作り出した無敵の力ルクミアの強力な攻撃を回避できます。	icon_status.staminaup_tex	icon_status.staminaup_tex	True
+32040003	Power	Buff	True	perc	6000	0	1	不死の肉体			不死の血が作り出した無敵の力ルクミアの強力な攻撃を回避できます。	icon_status.staminaup_tex	icon_status.staminaup_tex	True
 32040004	HPChange	Debuff	True	perc	30000	3	-0.1	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。3回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
 32040004	StackCounter	Debuff	True	seta	30000	0	32040005	穢れた血			ルクミアの悪夢によってHPが持続的に減少します。3回重複すると気絶及び爆発し、周囲にダメージを与えます。	icon_items.vicious_red_blood_tex	icon_items.vicious_red_blood_tex	True
 32040005	271	Debuff	True	seta	5000	0	61905228	堕落した血			堕落した血によって気絶し、周囲に爆発ダメージを与える。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 32040007	Power	Debuff	True	perc	15000	0	1	ルクミアの注視			ルクミアを注視を受け、不死の血を飲めるようになりました。	icon_skills.througharrow_tex	icon_skills.througharrow_tex	True
 32040009	Power	Debuff	True	perc	0	0	1.25	生贄の力			生贄の力が重複するたびに、ルクミアの攻撃力が25％増加します。	icon_status.minushp_tex	icon_status.minushp_tex	True
+32060001	358	Buff	True	swch	0	0	1000	暴走			狂帝ガルダンが暴走しています。	icon_skills.provokerage_tex	icon_skills.provokerage_tex	True
+32060006	Stun	Debuff	True	swch	1000	0	5	拘束			全身が縛られ、身動きできません。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+32060007	MovSpd	Stun	True	setp	90000	0	0.8	冷気放出			激しい冷気にさらされました。2重複時、全身が凍ります。	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+32060007	StackCounter	Stun	True	seta	90000	0	32060008	冷気放出			激しい冷気にさらされました。2重複時、全身が凍ります。	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+32060008	MovSpd	Stun	True	setp	10000	0	0	氷結 II			全身が凍ってしまい、身動きできません。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060008	Block	Stun	True	swch	10000	0	0	氷結 II			全身が凍ってしまい、身動きできません。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060008	DelayedEffect	Stun	True	swch	10000	0	32060012	氷結 II			全身が凍ってしまい、身動きできません。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060008	340	Stun	True	swch	10000	0	0	氷結 II			全身が凍ってしまい、身動きできません。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060010	Stun	Stun	False	swch	3000	0	5	気絶			気絶しているため動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+32060011	MovSpd	Stun	True	setp	180000	0	0.8	氷結後遺症			氷結の後遺症によって、移動速度が減少します。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32060011	HPDrain	Stun	True	perc	180000	0	0.8	氷結後遺症			氷結の後遺症によって、移動速度が減少します。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32060012	HPLoss	Debuff	True	abs	10	0	-10000000000	冷気放出			激しい冷気にさらされました。2重複時、全身が凍ります。	icon_status.confusedown_tex	icon_status.confusedown_tex	False
+32060015	MaxMP	Stun	False	perc	15000	0	1	凍てつく冷気			冷気によって、移動速度が減少します。7重複時、全身が凍ってしまい、身動きできなくなります。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32060015	StackCounter	Stun	False	seta	15000	0	32060016	凍てつく冷気			冷気によって、移動速度が減少します。7重複時、全身が凍ってしまい、身動きできなくなります。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32060016	MovSpd	Stun	True	setp	4000	0	0	氷結 I			全身が凍ってしまい、身動きできません。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060016	Block	Stun	True	swch	4000	0	0	氷結 I			全身が凍ってしまい、身動きできません。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060016	340	Stun	True	swch	4000	0	0	氷結 I			全身が凍ってしまい、身動きできません。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060023	DefPotion	Debuff	True	perc	30000	0	5	冷気放出			激しい冷気にさらされました。2重複時、全身が凍ります。	icon_status.confusedown_tex	icon_status.confusedown_tex	False
+32060024	Power	Debuff	True	perc	0	0	1	狂帝ガルダンの標的			狂帝ガルダンのターゲットになり、集中攻撃を受けます。	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
+32060024	StackCounter	Debuff	True	swch	0	0	32060026	狂帝ガルダンの標的			狂帝ガルダンのターゲットになり、集中攻撃を受けます。	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
+32060026	Power	Buff	True	perc	0	0	1	狂帝ガルダンの標的			狂帝ガルダンのターゲットになり、集中攻撃を受けます。	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	False
+32060033	Stun	Debuff	True	swch	1000	0	5	拘束			全身が縛られ、身動きできません。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+32060035	HPChange	DOT	False	perc	13000	1	-0.07	出血			斧に打たれ、出血しています。HPが持続的に減少します。	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+32060036	MovSpd	Debuff	False	setp	15000	0	0.8	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060037	MovSpd	Debuff	False	setp	15000	0	0.7	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060038	MovSpd	Debuff	False	setp	15000	0	0.6	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060039	MovSpd	Debuff	False	setp	15000	0	0.5	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060040	MovSpd	Debuff	False	setp	15000	0	0.4	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060041	MovSpd	Debuff	False	setp	15000	0	0.3	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060101	Power	Debuff	True	perc	10000	0	1	巨人連動_スキル発動用			見えちゃだめ			False
+32060107	Immune	Buff	True	16	0	0	0	激怒した狂帝			狂帝ガルダンの弱点が消えました。	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
+32060107	StatusImmune	Buff	True	swch	0	0	0	激怒した狂帝			狂帝ガルダンの弱点が消えました。	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
+32060108	DelayedEffect	Buff	True	swch	1200	0	32060107	弱点			狂帝ガルダンの弱点が露出されました。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+32061001	AtkPotion	Buff	True	perc	1800000	0	1.02	増幅する狂気			狂気によって強化状態が続きます。狂帝ガルダンの攻撃力が増加します。	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
+32061004	MovSpd	Buff	True	setp	0	0	1.2	暴走			理性を失って暴走しています。攻撃速度及び移動速度が大幅増加します。	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+32061004	ASpd	Buff	True	perc	0	0	1.5	暴走			理性を失って暴走しています。攻撃速度及び移動速度が大幅増加します。	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+32061006	Power	Buff	True	perc	0	0	1	不死の力			痛みを感じない状態です。一定量のダメージを受けると解除されます。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+32061006	Absorb	Buff	True	swch	0	0	2000000000	不死の力			痛みを感じない状態です。一定量のダメージを受けると解除されます。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+32061017	Power	Debuff	True	perc	35000	0	1	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061017	DelayedEffect	Debuff	True	seta	5000	0	32061001	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061018	Power	Debuff	True	perc	45000	0	1	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061018	DelayedEffect	Debuff	True	seta	4000	0	32061001	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061019	Power	Debuff	True	perc	55000	0	1	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061019	DelayedEffect	Debuff	True	seta	3000	0	32061001	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061020	Power	Debuff	True	perc	35000	0	1	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
+32061021	Power	Debuff	True	perc	45000	0	1	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
+32061022	Power	Debuff	True	perc	55000	0	1	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
+32061023	Power	Debuff	True	perc	3000	0	1	狂気			狂気を増幅させています。	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
 43100007	HPChange	DOT	False	perc	15000	3	-0.05	出血			強力な一撃によって出血しました。$H_W_BAD3s2$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少します。	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 43100011	MovSpd	Debuff	False	setp	10000	0	0.8	破壊の予言			破壊の予言が下されました！　移動速度が$H_W_BAD20%$COLOR_END減少します。時間内に解除しなければ、強力なダメージを受けることになります。	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
 43100011	HPDrain	Debuff	False	perc	10000	0	0.9	破壊の予言			破壊の予言が下されました！　移動速度が$H_W_BAD20%$COLOR_END減少します。時間内に解除しなければ、強力なダメージを受けることになります。	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
@@ -10848,11 +10939,11 @@
 999009730	OutOfCombatMovSpd	Buff	True	seta	60000	0	240	移動速度上昇			移動速度が$H_W_GOOD240$COLOR_ENDに固定されます。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 999009731	MovSpdInCombat	Buff	True	seta	15000	0	240	移動速度上昇			移動速度が$H_W_GOOD240$COLOR_ENDに固定されます。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 999009731	OutOfCombatMovSpd	Buff	True	seta	15000	0	240	移動速度上昇			移動速度が$H_W_GOOD240$COLOR_ENDに固定されます。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
-999009732	DefPotion	Buff	True	perc	15000	0	0	天上の加護			効果持続中、ダメージは無効化され、ダウン/硬直も発生しません。また、全てのデバフを受け付けません。この効果はダメージを受けても乗り物が解除されず、戦闘に関するスキルを使用すると即解除されます。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
-999009732	204	Buff	True	swch	15000	0	0	天上の加護			効果持続中、ダメージは無効化され、ダウン/硬直も発生しません。また、全てのデバフを受け付けません。この効果はダメージを受けても乗り物が解除されず、戦闘に関するスキルを使用すると即解除されます。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
-999009732	ResistNegative	Buff	True	swch	15000	0	0	天上の加護			効果持続中、ダメージは無効化され、ダウン/硬直も発生しません。また、全てのデバフを受け付けません。この効果はダメージを受けても乗り物が解除されず、戦闘に関するスキルを使用すると即解除されます。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
-999009732	Immune	Buff	True	16	15000	0	0	天上の加護			効果持続中、ダメージは無効化され、ダウン/硬直も発生しません。また、全てのデバフを受け付けません。この効果はダメージを受けても乗り物が解除されず、戦闘に関するスキルを使用すると即解除されます。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
-999009732	StatusImmune	Buff	True	swch	15000	0	0	天上の加護			効果持続中、ダメージは無効化され、ダウン/硬直も発生しません。また、全てのデバフを受け付けません。この効果はダメージを受けても乗り物が解除されず、戦闘に関するスキルを使用すると即解除されます。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
+999009732	DefPotion	Buff	True	perc	15000	0	0	天上の加護			持続時間中、無敵状態になり、ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
+999009732	204	Buff	True	swch	15000	0	0	天上の加護			持続時間中、無敵状態になり、ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
+999009732	ResistNegative	Buff	True	swch	15000	0	0	天上の加護			持続時間中、無敵状態になり、ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
+999009732	Immune	Buff	True	16	15000	0	0	天上の加護			持続時間中、無敵状態になり、ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
+999009732	StatusImmune	Buff	True	swch	15000	0	0	天上の加護			持続時間中、無敵状態になり、ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
 999009740	MPChange	Buff	True	abs	60000	1	10000	MP持続回復			MPが持続的に回復されます。	icon_skills.mpcharge_tex	icon_skills.mpcharge_tex	True
 999009750	MovSpdInCombat	Buff	True	seta	60000	0	200	ボンバー			ボンバーの状態になりました。マウスの左クリックをすると自爆して周辺にダメージを与えます。	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex	True
 999009750	OutOfCombatMovSpd	Buff	True	seta	60000	0	200	ボンバー			ボンバーの状態になりました。マウスの左クリックをすると自爆して周辺にダメージを与えます。	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex	True
@@ -10867,11 +10958,10 @@
 999009790	StatusImmune	Buff	True	swch	20000	0	0	硬直免疫			効果持続中、硬直状態になりません。	icon_status.balanceup_tex	icon_status.balanceup_tex	True
 999009800	Range	Buff	True	swch	30000	0	0.5	強力な力			溢れるエネルギーが消化されず、体が大きくなりました。ダイエットしてください。	icon_status.vitality_tex	icon_status.vitality_tex	True
 999009810	Endurance	Buff	True	perc	60000	0	2	汚染体			周辺に持続ダメージを与えます。	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
-999009810	MovSpdInCombat	Buff	True	seta	60000	0	200	汚染体			周辺に持続ダメージを与えます。	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
-999009810	OutOfCombatMovSpd	Buff	True	seta	60000	0	200	汚染体			周辺に持続ダメージを与えます。	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
+999009810	MovSpd	Buff	True	perc	60000	0	1.5	汚染体			周辺に持続ダメージを与えます。	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
 999009810	Plague	Buff	True	7	60000	1	1495	汚染体			周辺に持続ダメージを与えます。	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
-999009820	Power	Buff	True	perc	60000	0	1.5	バリア			バリアがダメージを吸収し、力が$H_W_GOOD50%$COLOR_END上昇します。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
-999009820	Absorb	Buff	True	swch	60000	0	100000	バリア			バリアがダメージを吸収し、力が$H_W_GOOD50%$COLOR_END上昇します。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
+999009820	Power	Buff	True	perc	180000	0	1.5	バリア			被ダメージが減少し、力が$H_W_GOOD50%$COLOR_END増加しました。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
+999009820	DefPotion	Buff	True	perc	180000	0	0.1	バリア			被ダメージが減少し、力が$H_W_GOOD50%$COLOR_END増加しました。	icon_status.plusfocus_tex	icon_status.plusfocus_tex	True
 999010000	PVPDef	Buff	True	abs	0	0	0	戦場のノクタニウム強化弾			戦場闘士たちに適用されるノクタニウム強化弾效果です。ノクタニウム強化弾を使用してスキルの效果を増大化させます。	icon_items.union_supplies5_tex	icon_items.union_supplies5_tex	True
 999010000	PVPAtk	Buff	True	abs	0	0	0	戦場のノクタニウム強化弾			戦場闘士たちに適用されるノクタニウム強化弾效果です。ノクタニウム強化弾を使用してスキルの效果を増大化させます。	icon_items.union_supplies5_tex	icon_items.union_supplies5_tex	True
 999010000	Noctenium	Buff	True	swch	0	0	1	戦場のノクタニウム強化弾			戦場闘士たちに適用されるノクタニウム強化弾效果です。ノクタニウム強化弾を使用してスキルの效果を増大化させます。	icon_items.union_supplies5_tex	icon_items.union_supplies5_tex	True
@@ -10889,3 +10979,35 @@
 999010009	DelayedEffect	Stun	False	seta	0	0	999010010	リアクション免疫チェック			まだリアクション免疫状態ではありません。			False
 999010010	DelayedEffect	Stun	False	seta	3000	0	999010009	リアクション免疫			リアクション、硬直、スタンに免疫がついた状態になりました。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	False
 999010010	Immune	Stun	False	24	3000	0	0	リアクション免疫			リアクション、硬直、スタンに免疫がついた状態になりました。	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	False
+999010013	CDR	Buff	True	swch	30000	0	0.3	クールタイム減少	602628	謎の箱	スキルのクールタイムが70％短縮されます。	icon_skills.moongrace2_tex	icon_skills.moongrace2_tex	True
+999010014	MovSpd	Buff	True	perc	30000	0	1.5	攻撃速度/移動速度増加	602629	謎の箱	攻撃速度及び移動速度が50％増加します。	icon_status.plusmove2_tex	icon_status.plusmove2_tex	True
+999010014	ASpd	Buff	True	perc	30000	0	1.5	攻撃速度/移動速度増加	602629	謎の箱	攻撃速度及び移動速度が50％増加します。	icon_status.plusmove2_tex	icon_status.plusmove2_tex	True
+999010015	Power	Buff	True	perc	30000	0	3	力増加	602630	謎の箱	力が3倍に増加します。	icon_skills.guildskills_str2_tex	icon_skills.guildskills_str2_tex	True
+999010016	MaxHP	Buff	True	seta	30000	0	50000	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	MovSpdInCombat	Buff	True	seta	30000	0	240	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	OutOfCombatMovSpd	Buff	True	seta	30000	0	240	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	HPLoss	Buff	True	abs	30000	0	-100000	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	DelayedEffect	Buff	True	abs	30000	0	999010017	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	Immune	Buff	True	16	30000	0	0	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	272	Buff	True	swch	30000	0	0	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	273	Buff	True	swch	30000	0	11610	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010016	StatusImmune	Buff	True	swch	30000	0	0	自爆	602631	謎の箱	自爆態勢に入りました。時間内に自爆させなければ、虚しく死を迎えることになります。	icon_skills.explosiontrap2_tex	icon_skills.explosiontrap2_tex	True
+999010018	AllowAggro	Buff	True	swch	30000	0	0	隠身	602632	謎の箱	隠身状態になりました。	icon_skills.hideindarkness2_tex	icon_skills.hideindarkness2_tex	True
+999010018	Visibility	Buff	True	swch	30000	0	0	隠身	602632	謎の箱	隠身状態になりました。	icon_skills.hideindarkness2_tex	icon_skills.hideindarkness2_tex	True
+999010019	DefPotion	Buff	True	perc	30000	0	0.5	バリア	602626	謎の箱	バリアによって、被ダメージが50％減少します。	icon_skills.emergencyshield2_tex	icon_skills.emergencyshield2_tex	True
+999010020	112	Buff	True	seta	30000	0	999010024	恐怖転移	602627	謎の箱	自身を攻撃した対象を恐怖状態にさせます。	icon_status.fearstatus2_tex	icon_status.fearstatus2_tex	True
+999010021	MaxHP	Buff	True	perc	30000	0	2	巨人	602633	謎の箱	体が大きくなり、最大HPが増加します。ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。移動速度が30％減少します。	icon_skills.rampage2_tex	icon_skills.rampage2_tex	True
+999010021	MovSpd	Buff	True	perc	30000	0	0.7	巨人	602633	謎の箱	体が大きくなり、最大HPが増加します。ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。移動速度が30％減少します。	icon_skills.rampage2_tex	icon_skills.rampage2_tex	True
+999010021	HPChange	Buff	True	perc	1000	1	1	巨人	602633	謎の箱	体が大きくなり、最大HPが増加します。ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。移動速度が30％減少します。	icon_skills.rampage2_tex	icon_skills.rampage2_tex	True
+999010021	Immune	Buff	True	16	30000	0	0	巨人	602633	謎の箱	体が大きくなり、最大HPが増加します。ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。移動速度が30％減少します。	icon_skills.rampage2_tex	icon_skills.rampage2_tex	True
+999010021	Range	Buff	True	swch	30000	0	1	巨人	602633	謎の箱	体が大きくなり、最大HPが増加します。ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。移動速度が30％減少します。	icon_skills.rampage2_tex	icon_skills.rampage2_tex	True
+999010022	HPChange	Buff	True	perc	1000	1	1	巨人			体が大きくなり、最大HPが増加します。ダウン及び硬直が発生しません。また、全てのデバフを受け付けません。移動速度が30％減少します。	icon_skills.rampage2_tex	icon_skills.rampage2_tex	False
+999010023	Power	Buff	True	perc	45000	0	1.3	戦闘力増加			闘志の魔石によって、戦闘力が増加しました。力が30％増加し、スキルのクールタイムが20％減少します。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+999010023	CDR	Buff	True	swch	45000	0	0.8	戦闘力増加			闘志の魔石によって、戦闘力が増加しました。力が30％増加し、スキルのクールタイムが20％減少します。	icon_status.pluswill_tex	icon_status.pluswill_tex	True
+999010024	Fear	Stun	False	abs	1500	0	150	恐怖転移効果			恐怖転移状態の対象を攻撃し、恐怖状態になりました。	icon_status.vergoscurse_tex	icon_status.vergoscurse_tex	True
+999010025	MPChange	Stun	True	perc	1000	1	-0.2	精神攻撃	602634	謎の箱	攻撃を命中させた際、対象のMPを20％、スタミナを30％減少させます。	icon_status.battlefieldbuff012_tex	icon_status.battlefieldbuff012_tex	True
+999010026	MPChange	Stun	True	perc	1000	1	-0.2	精神攻撃効果			MP及びスタミナが20％減少します。	icon_skills.magicshot_tex	icon_skills.magicshot_tex	False
+999010026	RageChange	Stun	True	perc	1000	1	-0.3	精神攻撃効果			MP及びスタミナが20％減少します。	icon_skills.magicshot_tex	icon_skills.magicshot_tex	False
+999010027	Stun1	Debuff	False	swch	6000	2	1	感電誘発	602635	謎の箱	攻撃が命中した対象を持続的に感電させます。	icon_status.electriccharge12_tex	icon_status.electriccharge12_tex	True
+999010028	Stun1	Debuff	False	swch	6000	2	1	感電			感電の影響で身動きが自由にできません。一部スキルの使用が制限されます。	icon_skills.electricshock_tex	icon_skills.electricshock_tex	True
+999010029	DefPotion	Debuff	False	perc	300000	0	1.075	汚染体中毒			汚染体魔石が召喚されると周期的に汚染体中毒効果が適用されます。$BR - 汚染体に中毒されると被ダメージが7.5％増加します。最大8回まで重複されます。$BR - 死亡すると中毒効果が解除されます。拠点では汚染体中毒効果が適用されません。	icon_status.poisondown2_tex	icon_status.poisondown2_tex	True
