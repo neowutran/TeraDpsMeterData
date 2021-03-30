@@ -1028,6 +1028,8 @@
 6083	HPChange2	Buff	True	perc	500	0	1.5	Temps de rechargement : intervention surnaturelle			Vous bénéficiez de la protection d'une créature mythique et avez donc pu échapper à la mort. Vous récupérez $H_W_GOOD50 %$COLOR_END de vos PM et PV maximums et tous vos effets négatifs sont supprimés.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
 6083	Rage	Buff	True	abs	500	0	-3000	Temps de rechargement : intervention surnaturelle			Vous bénéficiez de la protection d'une créature mythique et avez donc pu échapper à la mort. Vous récupérez $H_W_GOOD50 %$COLOR_END de vos PM et PV maximums et tous vos effets négatifs sont supprimés.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
 6083	290	Buff	True	abs	500	0	1	Temps de rechargement : intervention surnaturelle			Vous bénéficiez de la protection d'une créature mythique et avez donc pu échapper à la mort. Vous récupérez $H_W_GOOD50 %$COLOR_END de vos PM et PV maximums et tous vos effets négatifs sont supprimés.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+6086	CritPower1	Buff	True	abs	6000	0	1	Prophétie			La puissance critique est multipliée par $H_W_GOOD1,5$COLOR_END en cas d'attaque sur un monstre.	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
+6087	CritPower1	Buff	True	abs	6000	0	2	Révélation			La puissance critique est multipliée par $H_W_GOOD2$COLOR_END en cas d'attaque sur un monstre.	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
 10100	HPChange	DOT	False	abs	5000	1	-11	Virulence			Réduit les PV de $H_W_BAD-11$COLOR_END toutes les $H_W_BAD1s$COLOR_END.	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	Virulence			Réduit les PV de $H_W_BAD-23$COLOR_END toutes les $H_W_BAD1s$COLOR_END.	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	Virulence			Réduit les PV de $H_W_BAD-58$COLOR_END toutes les $H_W_BAD1s$COLOR_END.	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -3013,7 +3015,7 @@
 470008	Endurance	Buff	True	perc	6000000	0	0.99	Ceci n'est pas censé s'afficher.						False
 470009	HPChange	Buff	True	abs	0	1	-10000000	Ceci n'est pas censé s'afficher.						False
 470010	Stun	Buff	True	swch	0	0	5	Ceci n'est pas censé s'afficher.						False
-470011	Absorb	Debuff	True	abs	7000	0	15777240	Ceci n'est pas censé s'afficher.						False
+470011	Absorb	Debuff	True	abs	7000	0	83108960	Ceci n'est pas censé s'afficher.						False
 470012	Absorb	Debuff	True	abs	6000000	0	33000000	Invincibilité			Tarski est maintenant invincible.			False
 470013	Absorb	Debuff	True	abs	1000	0	3300000	Ceci n'est pas censé s'afficher.						False
 470014	Endurance	Buff	True	perc	9000	0	1	Ceci n'est pas censé s'afficher.						False
@@ -3087,6 +3089,21 @@
 470050	Stun	Stun	False	swch	7000	0	5	Blessures internes			Vous souffrez de blessures internes et pouvez à peine bouger. Réduit votre vitesse de déplacement de $H_W_BAD50&nbsp;%$COLOR_END et vos PV maximum de $H_W_BAD6&nbsp;%$COLOR_END par secondes.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 470051	Power	Buff	True	perc	0	0	1.3	C'est amusant&nbsp;! Comme c'est amusant&nbsp;!			Tarski semble s'amuser comme un petit fou. Sa puissance d'attaque et sa vitesse de déplacement augmentent.	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 470051	MovSpd	Buff	True	perc	0	0	1.3	C'est amusant&nbsp;! Comme c'est amusant&nbsp;!			Tarski semble s'amuser comme un petit fou. Sa puissance d'attaque et sa vitesse de déplacement augmentent.	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+470100	341	Buff	True	swch	100	1	0	Bonus de dégâts : 50 %			Les dégâts infligés à Tarski augmentent de 50 %.	icon_skills.50percent_tex	icon_skills.50percent_tex	False
+470100	342	Buff	True	swch	100	1	470101	Bonus de dégâts : 50 %			Les dégâts infligés à Tarski augmentent de 50 %.	icon_skills.50percent_tex	icon_skills.50percent_tex	False
+470101	Attack	Debuff	True	perc	20000	0	1.5	Bonus de dégâts : 50 %			Les dégâts infligés à Tarski augmentent de 50 %.	icon_skills.50percent_tex	icon_skills.50percent_tex	True
+470101	DelayedEffect	Debuff	True	abs	20000	0	470110	Bonus de dégâts : 50 %			Les dégâts infligés à Tarski augmentent de 50 %.	icon_skills.50percent_tex	icon_skills.50percent_tex	True
+470102	Attack	Debuff	True	perc	20000	0	2	Bonus de dégâts : 100 %			Les dégâts infligés à Tarski augmentent de 100 %.	icon_skills.100percent_tex	icon_skills.100percent_tex	True
+470102	DelayedEffect	Debuff	True	abs	20000	0	470110	Bonus de dégâts : 100 %			Les dégâts infligés à Tarski augmentent de 100 %.	icon_skills.100percent_tex	icon_skills.100percent_tex	True
+470103	Attack	Debuff	True	perc	20000	0	2.5	Bonus de dégâts : 150 %			Les dégâts infligés à Tarski augmentent de 150 %.	icon_skills.150percent_tex	icon_skills.150percent_tex	True
+470103	DelayedEffect	Debuff	True	abs	20000	0	470110	Bonus de dégâts : 150 %			Les dégâts infligés à Tarski augmentent de 150 %.	icon_skills.150percent_tex	icon_skills.150percent_tex	True
+470104	Attack	Debuff	True	perc	20000	0	3	Bonus de dégâts : 200 %			Les dégâts infligés à Tarski augmentent de 200 %.	icon_skills.200percent_tex	icon_skills.200percent_tex	True
+470104	DelayedEffect	Debuff	True	abs	20000	0	470110	Bonus de dégâts : 200 %			Les dégâts infligés à Tarski augmentent de 200 %.	icon_skills.200percent_tex	icon_skills.200percent_tex	True
+470105	Attack	Debuff	True	perc	20000	0	5	Bonus de dégâts : 400 %			Les dégâts infligés à Tarski augmentent de 400 %.	icon_skills.400percent_tex	icon_skills.400percent_tex	True
+470105	DelayedEffect	Debuff	True	abs	20000	0	470110	Bonus de dégâts : 400 %			Les dégâts infligés à Tarski augmentent de 400 %.	icon_skills.400percent_tex	icon_skills.400percent_tex	True
+470106	Attack	Debuff	True	perc	20000	0	10.99	Bonus de dégâts : 999 %			Les dégâts infligés à Tarski augmentent de 999 %.	icon_skills.999percent_tex	icon_skills.999percent_tex	True
+470106	DelayedEffect	Debuff	True	abs	20000	0	470110	Bonus de dégâts : 999 %			Les dégâts infligés à Tarski augmentent de 999 %.	icon_skills.999percent_tex	icon_skills.999percent_tex	True
+470110	DelayedEffect	Debuff	True	abs	10000	0	470100	Roue des dégâts			Un bonus de dégâts est sélectionné au hasard.	icon_items.icon_reward_unclear_tex	icon_items.icon_reward_unclear_tex	True
 473650	Stun	Stun	False	swch	5000	0	5	Terreur transférée			Étourdi. Déplacement impossible.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 475150	Power	Buff	True	perc	3600000	0	3	Déchaînement			Kelsaik se déchaîne ! Personne ne peut plus l'arrêter désormais.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
 475150	ASpd	Buff	True	perc	3600000	0	1.3	Déchaînement			Kelsaik se déchaîne ! Personne ne peut plus l'arrêter désormais.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
@@ -5218,11 +5235,11 @@
 5690001	StaminaDecay	Buff	True	seta	0	0	0	Poursuivant des souvenirs			Pour faciliter la collecte des fragments des souvenirs, les cristaux ne sont pas détruits en cas de décès.	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690001	CrystalBind	Buff	True	abs	0	0	1	Poursuivant des souvenirs			Pour faciliter la collecte des fragments des souvenirs, les cristaux ne sont pas détruits en cas de décès.	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690002	Resurrect	Buff	True	seta	60000	0	1	Reconstruction des souvenirs			La Reconstruction des souvenirs permet d'anéantir des souvenirs défunts et d'en vivre de nouveaux.	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex	True
-5692001	Endurance	Buff	True	seta	0	0	9999999	Seigneur de la Salle des jeux			Personne d'autre n'a l'ombre d'une chance dans la Salle des jeux.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+5692001	Endurance	Buff	True	seta	0	0	9	Seigneur de la Salle des jeux			Personne d'autre n'a l'ombre d'une chance dans la Salle des jeux.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692001	Immune	Buff	True	24	0	0	0	Seigneur de la Salle des jeux			Personne d'autre n'a l'ombre d'une chance dans la Salle des jeux.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692001	StatusImmune	Buff	True	swch	0	0	0	Seigneur de la Salle des jeux			Personne d'autre n'a l'ombre d'une chance dans la Salle des jeux.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692005	Stun	Buff	False	swch	15000	0	5	Victime de la joie			L'ordre de Matsuki empêche Sadakin de se déplacer.	icon_skills.prophecyoflethargy_tex	icon_skills.prophecyoflethargy_tex	True
-5692006	Endurance	Buff	True	seta	0	0	9999999	Invocation de vitalité			Invoque la vitalité de Matsuki.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+5692006	Endurance	Buff	True	seta	0	0	9	Invocation de vitalité			Invoque la vitalité de Matsuki.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692006	Immune	Buff	True	16	0	0	0	Invocation de vitalité			Invoque la vitalité de Matsuki.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692006	StatusImmune	Buff	True	swch	0	0	0	Invocation de vitalité			Invoque la vitalité de Matsuki.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692007	Endurance	Buff	False	seta	6000	0	3064	Jeu excessif			Matsuki a employé beaucoup de force et est donc temporairement affaibli.	icon_skills.lossofbalance_tex	icon_skills.lossofbalance_tex	True
@@ -6359,6 +6376,13 @@
 30000023	1006	Buff	True	abs	30000	0	0.02	Dégâts critiques physiques/magiques accrus			Les dégâts critiques magiques augmentent de 0,02 pendant 30 secondes. (Temps de rechargement : 180 secondes)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000024	1005	Buff	True	abs	30000	0	0.01	Dégâts critiques physiques/magiques accrus			Les dégâts critiques magiques augmentent de 0,01 pendant 30 secondes. (Temps de rechargement : 60 secondes)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000024	1006	Buff	True	abs	30000	0	0.01	Dégâts critiques physiques/magiques accrus			Les dégâts critiques magiques augmentent de 0,01 pendant 30 secondes. (Temps de rechargement : 60 secondes)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000025	1001	Buff	True	abs	30000	0	3500	Amplification physique/magique accrue			L'amplification physique/magique augmente de 3 500 pendant 30 secondes. (Temps de rechargement : 180 secondes)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000025	1002	Buff	True	abs	30000	0	3500	Amplification physique/magique accrue			L'amplification physique/magique augmente de 3 500 pendant 30 secondes. (Temps de rechargement : 180 secondes)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000026	341	Debuff	True	swch	100	1	0	Jeu de Tarski			Tarski joue avec vous 60 secondes après le combat. (Temps de rechargement : 30 minutes)			False
+30000026	342	Debuff	True	swch	100	1	30000027	Jeu de Tarski			Tarski joue avec vous 60 secondes après le combat. (Temps de rechargement : 30 minutes)			False
+30000027	Range	Debuff	True	perc	60000	0	0.5	Jeu de Tarski			Vous êtes plus grand pendant 60 secondes. (Temps de rechargement : 30 minutes)	icon_items.coin_liar_tex	icon_items.coin_liar_tex	True
+30000028	Range	Debuff	True	perc	60000	0	1.5	Jeu de Tarski			Tarski a perdu le contrôle de sa puissance. Vous êtes nettement plus grand pendant 60 secondes. (Temps de rechargement : 30 minutes)	icon_status.vitality_tex	icon_status.vitality_tex	True
+30000029	BigHead	Debuff	True	setp	60000	0	15	Jeu de Tarski			Tarski a perdu le contrôle de sa puissance. Vous êtes nettement plus petit pendant 60 secondes. (Temps de rechargement : 30 minutes)	icon_items.soft_deco_feather_tex	icon_items.soft_deco_feather_tex	True
 30010000	0	Buff	True	swch	600000	0	0	Puissance d'Arkarp	206062	Produit miracle d'Arkarp	La puissance d'Arkarp permet de voler et d'utiliser la rampe d'Arkarp.	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
 30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	Bénédiction des épreuves			Cette bénédiction est octroyée aux candidats. La <BR>$H_W_GOODvitesse de déplacement en dehors des combats$COLOR_END et la $H_W_GOODvitesse de déplacement des montures$COLOR_END augmentent.<BR>Vous récupérez 2 % de vos PV et de vos PM toutes les secondes.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	RidingSpeed	Buff	True	seta	0	0	400	Bénédiction des épreuves			Cette bénédiction est octroyée aux candidats. La <BR>$H_W_GOODvitesse de déplacement en dehors des combats$COLOR_END et la $H_W_GOODvitesse de déplacement des montures$COLOR_END augmentent.<BR>Vous récupérez 2 % de vos PV et de vos PM toutes les secondes.	icon_status.holybless_tex	icon_status.holybless_tex	True

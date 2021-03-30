@@ -1032,6 +1032,8 @@
 6083	HPChange2	Buff	True	perc	500	0	1.5	Supernatural Intervention Cooldown			You can cheat death under this mystical creature's aegis. Restores $H_W_GOOD50% of your max HP and MP$COLOR_END and cleanses you of all debuffs.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
 6083	Rage	Buff	True	abs	500	0	-3000	Supernatural Intervention Cooldown			You can cheat death under this mystical creature's aegis. Restores $H_W_GOOD50% of your max HP and MP$COLOR_END and cleanses you of all debuffs.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
 6083	290	Buff	True	abs	500	0	1	Supernatural Intervention Cooldown			You can cheat death under this mystical creature's aegis. Restores $H_W_GOOD50% of your max HP and MP$COLOR_END and cleanses you of all debuffs.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+6086	CritPower1	Buff	True	abs	6000	0	1	Prophecy			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
+6087	CritPower1	Buff	True	abs	6000	0	2	Revelation			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
 10100	HPChange	DOT	False	abs	5000	1	-11	Virulence			Reduces HP by $H_W_BAD-11$COLOR_END every $H_W_BAD1s$COLOR_END.	icon_items.customize9ar_tex	icon_items.customize9ar_tex	True
 10101	HPChange	DOT	False	abs	5000	1	-23	Virulence			Reduces HP by $H_W_BAD-23$COLOR_END every $H_W_BAD1s$COLOR_END.	icon_items.customize9br_tex	icon_items.customize9br_tex	True
 10102	HPChange	DOT	False	abs	5000	1	-58	Virulence			Reduces HP by $H_W_BAD-58$COLOR_END every $H_W_BAD1s$COLOR_END.	icon_items.customize9cr_tex	icon_items.customize9cr_tex	True
@@ -3070,6 +3072,21 @@
 470050	Stun	Stun	False	swch	7000	0	5	Internal Wounds			Unable to move. Movement Speed decreases by $H_W_BAD50%$COLOR_END and HP decreases by $H_W_BAD6%$COLOR_END every second.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 470051	Power	Buff	True	perc	0	0	1.3	Party in the House!			Manglemore is overjoyed! His Power and Movement Speed increases!	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 470051	MovSpd	Buff	True	perc	0	0	1.3	Party in the House!			Manglemore is overjoyed! His Power and Movement Speed increases!	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+470100	341	Buff	True	swch	100	1	0	50% Damage Buff			Increases damage to Manglemore by 50%.	icon_skills.50percent_tex	icon_skills.50percent_tex	False
+470100	342	Buff	True	swch	100	1	470101	50% Damage Buff			Increases damage to Manglemore by 50%.	icon_skills.50percent_tex	icon_skills.50percent_tex	False
+470101	Attack	Debuff	True	perc	20000	0	1.5	50% Damage Buff			Increases damage to Manglemore by 50%.	icon_skills.50percent_tex	icon_skills.50percent_tex	True
+470101	DelayedEffect	Debuff	True	abs	20000	0	470110	50% Damage Buff			Increases damage to Manglemore by 50%.	icon_skills.50percent_tex	icon_skills.50percent_tex	True
+470102	Attack	Debuff	True	perc	20000	0	2	100% Damage Buff			Increases damage to Manglemore by 100%.	icon_skills.100percent_tex	icon_skills.100percent_tex	True
+470102	DelayedEffect	Debuff	True	abs	20000	0	470110	100% Damage Buff			Increases damage to Manglemore by 100%.	icon_skills.100percent_tex	icon_skills.100percent_tex	True
+470103	Attack	Debuff	True	perc	20000	0	2.5	150% Damage Buff			Increases damage to Manglemore by 150%.	icon_skills.150percent_tex	icon_skills.150percent_tex	True
+470103	DelayedEffect	Debuff	True	abs	20000	0	470110	150% Damage Buff			Increases damage to Manglemore by 150%.	icon_skills.150percent_tex	icon_skills.150percent_tex	True
+470104	Attack	Debuff	True	perc	20000	0	3	200% Damage Buff			Increases damage to Manglemore by 200%.	icon_skills.200percent_tex	icon_skills.200percent_tex	True
+470104	DelayedEffect	Debuff	True	abs	20000	0	470110	200% Damage Buff			Increases damage to Manglemore by 200%.	icon_skills.200percent_tex	icon_skills.200percent_tex	True
+470105	Attack	Debuff	True	perc	20000	0	5	400% Damage Buff			Increases damage to Manglemore by 400%.	icon_skills.400percent_tex	icon_skills.400percent_tex	True
+470105	DelayedEffect	Debuff	True	abs	20000	0	470110	400% Damage Buff			Increases damage to Manglemore by 400%.	icon_skills.400percent_tex	icon_skills.400percent_tex	True
+470106	Attack	Debuff	True	perc	20000	0	10.99	999% Damage Buff			Increases damage to Manglemore by 999%.	icon_skills.999percent_tex	icon_skills.999percent_tex	True
+470106	DelayedEffect	Debuff	True	abs	20000	0	470110	999% Damage Buff			Increases damage to Manglemore by 999%.	icon_skills.999percent_tex	icon_skills.999percent_tex	True
+470110	DelayedEffect	Debuff	True	abs	10000	0	470100	Damage Roulette			A random damage buff will be selected.	icon_items.icon_reward_unclear_tex	icon_items.icon_reward_unclear_tex	True
 473650	Stun	Stun	False	swch	5000	0	5	Transferred Terror			Stunned. Cannot move.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 475150	Power	Buff	True	perc	3600000	0	3	Rampancy			Kelsaik is rampant! No one can stop him now.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
 475150	ASpd	Buff	True	perc	3600000	0	1.3	Rampancy			Kelsaik is rampant! No one can stop him now.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
@@ -5208,11 +5225,11 @@
 5690001	StaminaDecay	Buff	True	seta	0	0	0	Arcana Protection			To aid in the collection of echo memories, crystals are not destroyed on death.	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690001	CrystalBind	Buff	True	abs	0	0	1	Arcana Protection			To aid in the collection of echo memories, crystals are not destroyed on death.	icon_skills.refineresin_tex	icon_skills.refineresin_tex	True
 5690002	Resurrect	Buff	True	seta	60000	0	1	Memory Mend			To resurrect, use Memory Mend and erase the memory of death.	icon_status.mpsuckdown_tex	icon_status.mpsuckdown_tex	True
-5692001	Endurance	Buff	True	seta	0	0	9999999	Nursery Ruler			There is no one to face in the Nursery.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+5692001	Endurance	Buff	True	seta	0	0	9	Nursery Ruler			There is no one to face in the Nursery.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692001	Immune	Buff	True	24	0	0	0	Nursery Ruler			There is no one to face in the Nursery.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692001	StatusImmune	Buff	True	swch	0	0	0	Nursery Ruler			There is no one to face in the Nursery.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692005	Stun	Buff	False	swch	15000	0	5	Cold Stillness			Immobilized.	icon_skills.prophecyoflethargy_tex	icon_skills.prophecyoflethargy_tex	True
-5692006	Endurance	Buff	True	seta	0	0	9999999	Whimper			Beg for life from the torturer.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+5692006	Endurance	Buff	True	seta	0	0	9	Whimper			Beg for life from the torturer.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692006	Immune	Buff	True	16	0	0	0	Whimper			Beg for life from the torturer.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692006	StatusImmune	Buff	True	swch	0	0	0	Whimper			Beg for life from the torturer.	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
 5692007	Endurance	Buff	False	seta	6000	0	3064	Exhaustive Play			Masuki used too much power, and is weakened for a while.	icon_skills.lossofbalance_tex	icon_skills.lossofbalance_tex	True
@@ -6349,6 +6366,13 @@
 30000023	1006	Buff	True	abs	30000	0	0.02	Increased Magic and Physical Crit Power			Increases Magic and Physical Crit Power by 0.02 for 30 seconds. (Cooldown: 3 min.)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000024	1005	Buff	True	abs	30000	0	0.01	Increased Magic and Physical Crit Power			Increases Magic and Physical Crit Power by 0.01 for 30 seconds. (Cooldown: 1 min.)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000024	1006	Buff	True	abs	30000	0	0.01	Increased Magic and Physical Crit Power			Increases Magic and Physical Crit Power by 0.01 for 30 seconds. (Cooldown: 1 min.)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000025	1001	Buff	True	abs	30000	0	3500	Magic and Physical Amplification			Increases Magic and Physical Amplification by 3,500 for 30 seconds. (Cooldown: 3 min.)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000025	1002	Buff	True	abs	30000	0	3500	Magic and Physical Amplification			Increases Magic and Physical Amplification by 3,500 for 30 seconds. (Cooldown: 3 min.)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000026	341	Debuff	True	swch	100	1	0	Manglemore's Game			Manglemore will play with you 60 seconds after battle. (Cooldown: 30 min.)			False
+30000026	342	Debuff	True	swch	100	1	30000027	Manglemore's Game			Manglemore will play with you 60 seconds after battle. (Cooldown: 30 min.)			False
+30000027	Range	Debuff	True	perc	60000	0	0.5	Manglemore's Game			You increase in size for 60 seconds. (Cooldown: 30 min.)	icon_items.coin_liar_tex	icon_items.coin_liar_tex	True
+30000028	Range	Debuff	True	perc	60000	0	1.5	Manglemore's Game			Manglemore is out of control. You greatly increase in size for 60 seconds. (Cooldown: 30 min.)	icon_status.vitality_tex	icon_status.vitality_tex	True
+30000029	BigHead	Debuff	True	setp	60000	0	15	Manglemore's Game			Manglemore is out of control. You greatly shrink in size for 60 seconds. (Cooldown: 30 min.)	icon_items.soft_deco_feather_tex	icon_items.soft_deco_feather_tex	True
 30010000	0	Buff	True	swch	600000	0	0	Azart Force	206062	Azart Elixir	You can now fly and use the force platforms.	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
 30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	Preliminary Blessing			Increases $H_W_GOODmount Movement Speed$COLOR_END and $H_W_GOODNoncombat Movement Speed$COLOR_END by  while out of combat.<BR>Restores 2% of your HP and MP every second.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	RidingSpeed	Buff	True	seta	0	0	400	Preliminary Blessing			Increases $H_W_GOODmount Movement Speed$COLOR_END and $H_W_GOODNoncombat Movement Speed$COLOR_END by  while out of combat.<BR>Restores 2% of your HP and MP every second.	icon_status.holybless_tex	icon_status.holybless_tex	True
