@@ -847,7 +847,7 @@
 5060	Immune	Buff	True	16	100000	0	0	정기 흡수 - 흡수			정기 흡수 리액션 저항	icon_skills.suckhp_tex	icon_skills.voidtrap_tex	False
 5506	367	Buff	True	seta	0	0	0	무한의 주화(이벤트)			모험의 주화가 소모되지 않습니다. 접속 중에만 효과가 적용됩니다.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
 5510	367	Buff	True	seta	3600000	0	0	무한의 주화(1시간)	205018	무한의 주화(1시간)	지속 시간 동안 모험의 주화가 소모되지 않습니다. 접속 종료 시에도 지속 시간이 차감됩니다.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
-5511	367	Buff	True	seta	10800000	0	0	무한의 주화(3시간)	205021	무한의 주화(3시간)	지속 시간 동안 모험의 주화가 소모되지 않습니다. 접속 종료 시에도 지속 시간이 차감됩니다.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
+5511	367	Buff	True	seta	10800000	0	0	무한의 주화(3시간)	118734	[기간제] TERA삼매경(무한 코인. 3시간)	지속 시간 동안 모험의 주화가 소모되지 않습니다. 접속 종료 시에도 지속 시간이 차감됩니다.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
 5512	367	Buff	True	seta	18000000	0	0	무한의 주화(5시간)	205024	무한의 주화(5시간)	지속 시간 동안 모험의 주화가 소모되지 않습니다. 접속 종료 시에도 지속 시간이 차감됩니다.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
 5513	367	Buff	True	seta	36000000	0	0	무한의 주화(10시간)	205027	무한의 주화(10시간)	지속 시간 동안 모험의 주화가 소모되지 않습니다. 접속 종료 시에도 지속 시간이 차감됩니다.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
 5514	367	Buff	True	seta	72000000	0	0	무한의 주화(20시간)	205030	무한의 주화(20시간)	지속 시간 동안 모험의 주화가 소모되지 않습니다. 접속 종료 시에도 지속 시간이 차감됩니다.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
@@ -5192,6 +5192,8 @@
 5000032	DefPotion	Buff	True	perc	10000	0	0.5	10주년 포포리 케이크 [피해 감소]	143590	10주년 포포리 케이크 [피해 감소]	받는 피해량이 50% 감소합니다	icon_items.10anniversary_tex	icon_items.10anniversary_tex	True
 5000033	DefPotion	Buff	True	perc	0	0	0.85	버프 타임 [피해 감소]			받는 피해량이 15% 감소합니다	icon_status.plusepoisonresist_tex	icon_status.plusepoisonresist_tex	True
 5000034	Attack	Buff	True	perc	0	0	1.05	버프 타임 [스킬 위력]			스킬 위력이 5% 증가합니다	icon_status.plusattack_tex	icon_status.plusattack_tex	True
+5000035	358	Buff	True	abs	0	0	1	[이벤트] 벚꽃 향기의 떡밥	143593	[이벤트] 벚꽃 향기의 떡밥		icon_items.union_collect4_tex	icon_items.union_collect4_tex	True
+5000035	362	Buff	True	swch	0	0	143593	[이벤트] 벚꽃 향기의 떡밥	143593	[이벤트] 벚꽃 향기의 떡밥		icon_items.union_collect4_tex	icon_items.union_collect4_tex	True
 5010000	HPChange	Buff	True	perc	30000	1	0.03	환영의 회복 포션	101305	환영의 회복 포션	30초 동안 1초 마다 전체 HP 대비 3%씩 총 90%의 HP가 지속적으로 회복됩니다.	icon_items.potion17_tex	icon_items.potion17_tex	True
 5010001	Resurrect	Buff	True	seta	0	0	1	벨릭의 은총			벨릭의 은총으로 지속 시간 내에 사망 시 그 자리에서 즉시 부활할 수 있습니다.	icon_skills.selfpreresurrection_tex	icon_skills.selfpreresurrection_tex	True
 5010002	EnchantChance	Buff	True	perc	0	1	1.2	빛나는 강화 장인의 가호			강화 시도 시, 최종 성공 확률이 크게 증가합니다. (각성 강화에는 적용되지 않습니다)	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -5377,6 +5379,9 @@
 5010086	362	Buff	True	swch	0	0	118552	백지 오미쿠지			세렌의 정원 낚시터에서 사용 시 운세가 적힌 오미쿠지를 낚을 수 있습니다.	icon_items.revival_tex	icon_items.revival_tex	True
 5010087	358	Buff	True	abs	0	0	1	도미 떡밥			도미 또는 낮은 확률로 황금 도미를 낚을 수 있는 떡밥. 얼어붙은 눈물 호수 낚시터에서 사용할 수 있습니다.	icon_equipments.event_wit_chain_01_tex	icon_equipments.event_wit_chain_01_tex	True
 5010087	362	Buff	True	swch	0	0	118552	도미 떡밥			도미 또는 낮은 확률로 황금 도미를 낚을 수 있는 떡밥. 얼어붙은 눈물 호수 낚시터에서 사용할 수 있습니다.	icon_equipments.event_wit_chain_01_tex	icon_equipments.event_wit_chain_01_tex	True
+5010088	XPBoost	Buff	True	perc	7200000	0	11	[기간제] TERA삼매경(경험치 10배)	118727	고속성장 900 (Lv.64이하, 1일)	사냥 경험치, 스킬 연마 경험치, 특성 경험치 획득량이 1000％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010088	47	Buff	True	perc	7200000	0	11	[기간제] TERA삼매경(경험치 10배)	118727	고속성장 900 (Lv.64이하, 1일)	사냥 경험치, 스킬 연마 경험치, 특성 경험치 획득량이 1000％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010088	289	Buff	True	perc	7200000	0	11	[기간제] TERA삼매경(경험치 10배)	118727	고속성장 900 (Lv.64이하, 1일)	사냥 경험치, 스킬 연마 경험치, 특성 경험치 획득량이 1000％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
 5020000	EnchantChance	Buff	True	perc	300000	1	1.01	유럽 강화 주문서 1(5분)	153495	[PC방] 강화 장인의 가호 주문서 (5분)	0.01	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020001	EnchantChance	Buff	True	perc	300000	1	1.05	유럽 강화 주문서 2(5분)	153496	[PC방] 축복받은 강화 장인의 가호 주문서 (5분)	0.05	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020002	EnchantChance	Buff	True	perc	300000	1	1.15	유럽 강화 주문서 3(5분)	153497	[PC방] 빛나는 강화 장인의 가호 주문서 (5분)	0.15	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -7294,6 +7299,30 @@
 30413010	Endurance	Stun	False	perc	0	0	1	영혼 주입			다르니브가 영혼을 주입해 시종들을 깨웁니다. 30초 이내에 각 시종을 저지하지 못하면 시종들이 깨어나 강력하게 저항할 것입니다. 지워야함			True
 30413011	Endurance	Stun	False	perc	0	0	1	영혼 주입			다르니브가 영혼을 주입해 시종들을 깨웁니다. 30초 이내에 각 시종을 저지하지 못하면 시종들이 깨어나 강력하게 저항할 것입니다. 지워야함			True
 30413012	Endurance	Stun	False	perc	0	0	1	영혼 주입			다르니브가 영혼을 주입해 시종들을 깨웁니다. 30초 이내에 각 시종을 저지하지 못하면 시종들이 깨어나 강력하게 저항할 것입니다. 지워야함			True
+30420001	MovSpd	Stun	True	setp	45000	0	0.8	냉기 방출			냉기에 노출되어 극심한 추위에 노출되었습니다. 2중첩 시 온 몸이 얼어붙습니다.	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+30420001	DelayedEffect	Stun	True	swch	45000	0	30420017	냉기 방출			냉기에 노출되어 극심한 추위에 노출되었습니다. 2중첩 시 온 몸이 얼어붙습니다.	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+30420001	StackCounter	Stun	True	seta	45000	0	30420002	냉기 방출			냉기에 노출되어 극심한 추위에 노출되었습니다. 2중첩 시 온 몸이 얼어붙습니다.	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+30420002	MovSpd	Stun	True	setp	5000	0	0	빙결II			온 몸이 얼어붙어 움직일 수 없는 상태입니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30420002	Block	Stun	True	swch	5000	0	0	빙결II			온 몸이 얼어붙어 움직일 수 없는 상태입니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30420002	340	Stun	True	swch	5000	0	0	빙결II			온 몸이 얼어붙어 움직일 수 없는 상태입니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30420003	Immune	Buff	True	16	0	0	0	격노한 처형자			폭군 가르단의 빈 틈을 찾을 수 없는 상태입니다.	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
+30420003	StatusImmune	Buff	True	swch	0	0	0	격노한 처형자			폭군 가르단의 빈 틈을 찾을 수 없는 상태입니다.	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
+30420004	DelayedEffect	Buff	True	swch	2000	0	32060107	약점			폭군 가르단의 약점이 노출되었습니다.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+30420005	HPChange	DOT	False	perc	13000	1	-0.03	출혈			도끼 날에 피격당해 출혈 상태에 빠졌습니다. HP가 지속적으로 감소합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+30420006	MaxMP	Stun	False	perc	8000	0	1	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+30420006	StackCounter	Stun	False	seta	8000	0	30420013	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+30420007	MovSpd	Debuff	False	setp	8000	0	0.8	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+30420008	MovSpd	Debuff	False	setp	8000	0	0.7	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+30420009	MovSpd	Debuff	False	setp	8000	0	0.6	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+30420010	MovSpd	Debuff	False	setp	8000	0	0.5	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+30420011	MovSpd	Debuff	False	setp	8000	0	0.4	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+30420012	MovSpd	Debuff	False	setp	8000	0	0.3	극심한 한기			냉기 공격에 피격당해 이동속도가 감소합니다. 10중첩 시 온 몸이 얼어붙어 움직일 수 없습니다.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+30420013	MovSpd	Stun	True	setp	2000	0	0	빙결I			온 몸이 얼어붙어 움직일 수 없는 상태입니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30420013	Block	Stun	True	swch	2000	0	0	빙결I			온 몸이 얼어붙어 움직일 수 없는 상태입니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30420013	340	Stun	True	swch	2000	0	0	빙결I			온 몸이 얼어붙어 움직일 수 없는 상태입니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+30420015	Power	Buff	True	perc	0	0	1	불사의 힘			고통을 느끼지 못하는 상태입니다. 일정량의 대미지를 받을 경우 해제됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+30420015	Absorb	Buff	True	swch	0	0	150000000	불사의 힘			고통을 느끼지 못하는 상태입니다. 일정량의 대미지를 받을 경우 해제됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+30420017	Power	Debuff	True	perc	10000	0	1	냉기 방출			냉기에 노출되어 극심한 추위에 노출되었습니다. 2중첩 시 온 몸이 얼어붙습니다.	icon_status.confusedown_tex	icon_status.confusedown_tex	False
 31010202	HPChange	DOT	True	perc	10000	2	-0.1	흩날리는 보석			바람에 날카로운 보석가루가 날립니다. 보석가루에 베인 상처로 인해 2초당 $H_W_BAD10%$COLOR_END의 HP가 감소 합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31010205	Block	Buff	True	swch	2000	0	0	침묵			온 몸에 보석이 붙어 마음대로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 31010220	Aggro	Debuff	True	perc	80000	0	0.3	여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 사망합니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
