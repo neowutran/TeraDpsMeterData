@@ -6664,11 +6664,11 @@
 30000024	1006	Buff	True	abs	30000	0	0.01	물리,마법 치명타 위력 증가			30초 동안 물리,마법 치명타 위력이 0.01 증가합니다. (쿨타임 60초)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000025	1001	Buff	True	abs	30000	0	3500	물리,마법 증폭 증가			30초 동안 물리,마법 증폭이 3500 증가합니다. (쿨타임 180초)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30000025	1002	Buff	True	abs	30000	0	3500	물리,마법 증폭 증가			30초 동안 물리,마법 증폭이 3500 증가합니다. (쿨타임 180초)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
-30000026	341	Debuff	True	swch	100	1	0	타르스키의 장난			전투 시작 시 60초 동안 타르스키가 장난을 칩니다. (쿨타임 30분)			False
-30000026	342	Debuff	True	swch	100	1	30000027	타르스키의 장난			전투 시작 시 60초 동안 타르스키가 장난을 칩니다. (쿨타임 30분)			False
-30000027	Range	Debuff	True	perc	60000	0	0.5	타르스키의 장난			60초 동안 크기가 커집니다. (쿨타임 30분)	icon_items.coin_liar_tex	icon_items.coin_liar_tex	True
-30000028	Range	Debuff	True	perc	60000	0	1.5	타르스키의 장난			타르스키가 힘 조절에 실패했네요, 60초 동안 크기가 많이 커집니다. (쿨타임 30분)	icon_status.vitality_tex	icon_status.vitality_tex	True
-30000029	BigHead	Debuff	True	setp	60000	0	15	타르스키의 장난			타르스키가 힘 조절에 실패했네요, 60초 동안 크기가 많이 작아집니다. (쿨타임 30분)	icon_items.soft_deco_feather_tex	icon_items.soft_deco_feather_tex	True
+30000026	341	Debuff	True	swch	100	1	0	타르스키의 장난			몬스터 처치 시 60초 동안 타르스키가 장난을 칩니다. (쿨타임 30분)			False
+30000026	342	Debuff	True	swch	100	1	30000027	타르스키의 장난			몬스터 처치 시 60초 동안 타르스키가 장난을 칩니다. (쿨타임 30분)			False
+30000027	Range	Debuff	True	perc	60000	0	0.5	타르스키의 장난			60초 동안 크기가 커집니다. 전투 시 자동 해제됩니다. (쿨타임 30분)	icon_items.coin_liar_tex	icon_items.coin_liar_tex	True
+30000028	Range	Debuff	True	perc	60000	0	1.5	타르스키의 장난			타르스키가 힘 조절에 실패했네요, 60초 동안 크기가 많이 커집니다. 전투 시 자동 해제됩니다. (쿨타임 30분)	icon_status.vitality_tex	icon_status.vitality_tex	True
+30000029	BigHead	Debuff	True	setp	60000	0	15	타르스키의 장난			타르스키가 힘 조절에 실패했네요, 60초 동안 크기가 많이 작아집니다. 전투 시 자동 해제됩니다. (쿨타임 30분)	icon_items.soft_deco_feather_tex	icon_items.soft_deco_feather_tex	True
 30010000	0	Buff	True	swch	600000	0	0	아르가프의 힘	206062	아르가프 영약	아르가프의 힘으로 비행 및 아르가프 도약대 사용이 가능 합니다.	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
 30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	RidingSpeed	Buff	True	seta	0	0	400	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
@@ -7323,6 +7323,7 @@
 30420015	Power	Buff	True	perc	0	0	1	불사의 힘			고통을 느끼지 못하는 상태입니다. 일정량의 대미지를 받을 경우 해제됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 30420015	Absorb	Buff	True	swch	0	0	150000000	불사의 힘			고통을 느끼지 못하는 상태입니다. 일정량의 대미지를 받을 경우 해제됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 30420017	Power	Debuff	True	perc	10000	0	1	냉기 방출			냉기에 노출되어 극심한 추위에 노출되었습니다. 2중첩 시 온 몸이 얼어붙습니다.	icon_status.confusedown_tex	icon_status.confusedown_tex	False
+30432013	HPChange	DOT	True	perc	0	1	-0.8	환각-위험구역			악마의 환각 속 위험구역에서는 지속적으로 피해를 입습니다.	icon_status.minushp_tex	icon_status.minushp_tex	True
 31010202	HPChange	DOT	True	perc	10000	2	-0.1	흩날리는 보석			바람에 날카로운 보석가루가 날립니다. 보석가루에 베인 상처로 인해 2초당 $H_W_BAD10%$COLOR_END의 HP가 감소 합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31010205	Block	Buff	True	swch	2000	0	0	침묵			온 몸에 보석이 붙어 마음대로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 31010220	Aggro	Debuff	True	perc	80000	0	0.3	여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 사망합니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
