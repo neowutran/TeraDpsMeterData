@@ -61,6 +61,12 @@
 48	CraftTime	Buff	True	perc	0	0	0.6	발데라의 가호			발데라의 가호 아래, 채집 숙련도가 30 증가하며 채집 및 제작 시간이 단축됩니다.	icon_items.artisanall_up_tex	icon_items.artisanall_up_tex	False
 48	Gathering	Buff	True	abs	0	0	30	발데라의 가호			발데라의 가호 아래, 채집 숙련도가 30 증가하며 채집 및 제작 시간이 단축됩니다.	icon_items.artisanall_up_tex	icon_items.artisanall_up_tex	False
 48	GatheringTime	Buff	True	perc	0	0	0.6	발데라의 가호			발데라의 가호 아래, 채집 숙련도가 30 증가하며 채집 및 제작 시간이 단축됩니다.	icon_items.artisanall_up_tex	icon_items.artisanall_up_tex	False
+49	KnockDownChance	Buff	True	perc	3600000	0	0	테스트용_공간왜곡			테스트용 무적입니다. 1시간 동안 마법사의 공간왜곡 스킬의 버프를 받게 됩니다.$BR전멸기를 제외한 모든 공격에 대해 무적입니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
+49	Immune	Buff	True	9	3600000	0	0	테스트용_공간왜곡			테스트용 무적입니다. 1시간 동안 마법사의 공간왜곡 스킬의 버프를 받게 됩니다.$BR전멸기를 제외한 모든 공격에 대해 무적입니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
+49	StatusImmune	Buff	True	swch	3600000	0	0	테스트용_공간왜곡			테스트용 무적입니다. 1시간 동안 마법사의 공간왜곡 스킬의 버프를 받게 됩니다.$BR전멸기를 제외한 모든 공격에 대해 무적입니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
+50	KnockDownChance	Buff	True	perc	3600000	0	0	테스트용_수호의갑옷			테스트용 수호의 갑옷입니다. 1시간 동안 5억의 보호막 버프를 받게 됩니다. $BR공격 받을 시, 시스템 채팅 탭에서 ***데미지를 흡수했다고 출력됩니다.	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+50	Absorb	Buff	True	swch	3600000	0	500000000	테스트용_수호의갑옷			테스트용 수호의 갑옷입니다. 1시간 동안 5억의 보호막 버프를 받게 됩니다. $BR공격 받을 시, 시스템 채팅 탭에서 ***데미지를 흡수했다고 출력됩니다.	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
+50	StatusImmune	Buff	True	swch	3600000	0	0	테스트용_수호의갑옷			테스트용 수호의 갑옷입니다. 1시간 동안 5억의 보호막 버프를 받게 됩니다. $BR공격 받을 시, 시스템 채팅 탭에서 ***데미지를 흡수했다고 출력됩니다.	icon_skills.armorofprotection_tex	icon_skills.armorofprotection_tex	True
 51	Endurance	Buff	True	perc	36000000	0	0.88	DPS테스트용 기절	7216	DPS측정용 폭탄	DPS 테스트를 위해 기절 된 상태. 아래 이상상태가 추가 적용 됨$BR맷집 $H_W_BAD12%$COLOR_END감소 (방어구 부수기 3중첩)$BR맷집 $H_W_BAD10%$COLOR_END 감소 (고통의 주박 문장)$BR치명타 저항 $H_W_BAD-12$COLOR_END 감소 (고통의 주박 특성)	icon_items.q_bones_tex	icon_items.q_bones_tex	True
 51	CritResist	Buff	True	abs	36000000	0	-12	DPS테스트용 기절	7216	DPS측정용 폭탄	DPS 테스트를 위해 기절 된 상태. 아래 이상상태가 추가 적용 됨$BR맷집 $H_W_BAD12%$COLOR_END감소 (방어구 부수기 3중첩)$BR맷집 $H_W_BAD10%$COLOR_END 감소 (고통의 주박 문장)$BR치명타 저항 $H_W_BAD-12$COLOR_END 감소 (고통의 주박 특성)	icon_items.q_bones_tex	icon_items.q_bones_tex	True
 51	Stun	Buff	True	swch	36000000	0	4	DPS테스트용 기절	7216	DPS측정용 폭탄	DPS 테스트를 위해 기절 된 상태. 아래 이상상태가 추가 적용 됨$BR맷집 $H_W_BAD12%$COLOR_END감소 (방어구 부수기 3중첩)$BR맷집 $H_W_BAD10%$COLOR_END 감소 (고통의 주박 문장)$BR치명타 저항 $H_W_BAD-12$COLOR_END 감소 (고통의 주박 특성)	icon_items.q_bones_tex	icon_items.q_bones_tex	True
@@ -1976,14 +1982,18 @@
 70276	362	Buff	True	swch	0	0	206053	크램 떡밥			크램 떡밥을 낚싯바늘에 걸었다.$BR$BR엑소도르에서 물고기를 낚을 수 있습니다.	icon_items.krill_tex	icon_items.krill_tex	True
 70281	358	Buff	True	perc	0	0	1	최하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm01_tex	icon_items.worm01_tex	True
 70281	362	Buff	True	swch	0	0	206005	최하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm01_tex	icon_items.worm01_tex	True
-70282	358	Buff	True	abs	0	0	0.2	하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD20%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm02_tex	icon_items.worm02_tex	True
-70282	362	Buff	True	swch	0	0	206006	하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD20%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm02_tex	icon_items.worm02_tex	True
-70283	358	Buff	True	abs	0	0	0.4	중급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD40%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm03_tex	icon_items.worm03_tex	True
-70283	362	Buff	True	swch	0	0	206007	중급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD40%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm03_tex	icon_items.worm03_tex	True
-70284	358	Buff	True	abs	0	0	0.6	상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD60%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm04_tex	icon_items.worm04_tex	True
-70284	362	Buff	True	swch	0	0	206008	상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD60%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm04_tex	icon_items.worm04_tex	True
-70285	358	Buff	True	abs	0	0	0.8	최상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm05_tex	icon_items.worm05_tex	True
-70285	362	Buff	True	swch	0	0	206009	최상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm05_tex	icon_items.worm05_tex	True
+70282	358	Buff	True	abs	0	0	0.2	하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD20%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD3%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm02_tex	icon_items.worm02_tex	True
+70282	360	Buff	True	perc	0	0	0.97	하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD20%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD3%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm02_tex	icon_items.worm02_tex	True
+70282	362	Buff	True	swch	0	0	206006	하급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD20%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD3%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm02_tex	icon_items.worm02_tex	True
+70283	358	Buff	True	abs	0	0	0.4	중급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD40%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD4.5%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm03_tex	icon_items.worm03_tex	True
+70283	360	Buff	True	perc	0	0	0.955	중급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD40%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD4.5%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm03_tex	icon_items.worm03_tex	True
+70283	362	Buff	True	swch	0	0	206007	중급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD40%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD4.5%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm03_tex	icon_items.worm03_tex	True
+70284	358	Buff	True	abs	0	0	0.6	상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD60%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD6%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm04_tex	icon_items.worm04_tex	True
+70284	360	Buff	True	perc	0	0	0.94	상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD60%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD6%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm04_tex	icon_items.worm04_tex	True
+70284	362	Buff	True	swch	0	0	206008	상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD60%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD6%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm04_tex	icon_items.worm04_tex	True
+70285	358	Buff	True	abs	0	0	0.8	최상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD8%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm05_tex	icon_items.worm05_tex	True
+70285	360	Buff	True	perc	0	0	0.92	최상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD8%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm05_tex	icon_items.worm05_tex	True
+70285	362	Buff	True	swch	0	0	206009	최상급 지렁이			지렁이를 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR입질 대기 시간 $H_W_GOOD8%$COLOR_END 감소$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.worm05_tex	icon_items.worm05_tex	True
 70286	358	Buff	True	abs	0	0	1	미끼용 셀리시움 조각			미끼용 셀리시움 조각을 낚싯바늘에 걸었다.$BR$BR하늘 무리 낚시터에서 연구용 엘리늄을 낚을 수 있습니다.	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
 70286	362	Buff	True	swch	0	0	206828	미끼용 셀리시움 조각			미끼용 셀리시움 조각을 낚싯바늘에 걸었다.$BR$BR하늘 무리 낚시터에서 연구용 엘리늄을 낚을 수 있습니다.	icon_items.rawminerala11_tex	icon_items.rawminerala11_tex	True
 70287	358	Buff	True	abs	0	0	1	환각초 꽃잎			환각초 꽃잎을 낚싯바늘에 걸었다.$BR$BR거친 항구 낚시터에서 악취나는 심해어를 낚을 수 있습니다.	icon_items.raw_flower6_tex	icon_items.raw_flower6_tex	True
@@ -2214,23 +2224,23 @@
 96905	DelayedEffect	Stun	False	abs	5000	0	96907	발화			해제하지 않고 지속시간이 경과하면 잠시 후 폭발하여 자기 자신과 주변에 피해를 줍니다.	icon_status.minushp_tex	icon_status.minushp_tex	True
 96907	HPLoss	Buff	True	abs	1	0	-50000	발화			해제하지 않고 지속시간이 경과하면 잠시 후 폭발하여 자기 자신과 주변에 피해를 줍니다.	icon_status.minushp_tex	icon_status.minushp_tex	False
 96909	HPLoss	Buff	True	abs	1	0	-100000	발화			해제하지 않고 지속시간이 경과하면 잠시 후 폭발하여 자기 자신과 주변에 피해를 줍니다.	icon_status.minushp_tex	icon_status.minushp_tex	False
-100100	Power	Buff	True	abs	0	0	5	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
-100100	Endurance	Buff	True	perc	0	0	0.9	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
-100100	Crit	Buff	True	abs	0	0	30	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
-100100	AtkPotion	Buff	True	perc	0	0	1.1	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
-100101	Power	Buff	True	abs	0	0	10	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100101	Endurance	Buff	True	perc	0	0	0.9	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100101	Crit	Buff	True	abs	0	0	40	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100101	AtkPotion	Buff	True	perc	0	0	1.1	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100102	Power	Buff	True	abs	0	0	15	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100102	Endurance	Buff	True	perc	0	0	0.9	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100102	Crit	Buff	True	abs	0	0	50	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100102	AtkPotion	Buff	True	perc	0	0	1.1	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100103	Power	Buff	True	abs	0	0	18	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100103	Endurance	Buff	True	perc	0	0	0.9	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100103	Crit	Buff	True	abs	0	0	55	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100103	AtkPotion	Buff	True	perc	0	0	1.1	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
-100150	AtkPotion	Buff	True	perc	0	0	1.1	칼날의 결의 I			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD10%$COLOR_END  증가되지만 맷집은 $H_W_BAD10%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	False
+100100	Power	Buff	True	abs	0	0	5	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
+100100	Endurance	Buff	True	perc	0	0	0.8	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
+100100	Crit	Buff	True	abs	0	0	30	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
+100100	AtkPotion	Buff	True	perc	0	0	1.2	집중 자세 : 용맹			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.focusstance_tex	icon_skills.ironwilla_tex	True
+100101	Power	Buff	True	abs	0	0	10	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100101	Endurance	Buff	True	perc	0	0	0.8	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100101	Crit	Buff	True	abs	0	0	40	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100101	AtkPotion	Buff	True	perc	0	0	1.2	칼날의 결의 II			힘 $H_W_GOOD10$COLOR_END과 치명타 유발 $H_W_GOOD40$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100102	Power	Buff	True	abs	0	0	15	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100102	Endurance	Buff	True	perc	0	0	0.8	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100102	Crit	Buff	True	abs	0	0	50	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100102	AtkPotion	Buff	True	perc	0	0	1.2	칼날의 결의 III			힘 $H_W_GOOD15$COLOR_END와 치명타 유발 $H_W_GOOD50$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100103	Power	Buff	True	abs	0	0	18	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100103	Endurance	Buff	True	perc	0	0	0.8	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100103	Crit	Buff	True	abs	0	0	55	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100103	AtkPotion	Buff	True	perc	0	0	1.2	칼날의 결의 IV			힘 $H_W_GOOD18$COLOR_END과 치명타 유발 $H_W_GOOD55$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	True
+100150	AtkPotion	Buff	True	perc	0	0	1.2	칼날의 결의 I			힘 $H_W_GOOD5$COLOR_END와 치명타 유발 $H_W_GOOD30$COLOR_END, 몬스터 공격 시 스킬 위력이 $H_W_GOOD20%$COLOR_END  증가되지만 맷집은 $H_W_BAD20%$COLOR_END 감소됩니다.	icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	False
 100200	MaxHP	Buff	True	perc	3000	0	1	강철의 결의 I			맷집이 $H_W_GOOD20%$COLOR_END, 균형이 $H_W_GOOD20$COLOR_END, 몬스터 공격 시 치명타 발생 확률이 $H_W_GOOD15%$COLOR_END 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD130%$COLOR_END 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100200	Endurance	Buff	True	perc	0	0	1.2	강철의 결의 I			맷집이 $H_W_GOOD20%$COLOR_END, 균형이 $H_W_GOOD20$COLOR_END, 몬스터 공격 시 치명타 발생 확률이 $H_W_GOOD15%$COLOR_END 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD130%$COLOR_END 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100200	Ballance	Buff	True	abs	0	0	20	강철의 결의 I			맷집이 $H_W_GOOD20%$COLOR_END, 균형이 $H_W_GOOD20$COLOR_END, 몬스터 공격 시 치명타 발생 확률이 $H_W_GOOD15%$COLOR_END 증가합니다. 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD130%$COLOR_END 향상되며, 전투 시 일부 몬스터의 특수 공격을 제외하고 밀려나지 않게 됩니다.	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
@@ -2322,7 +2332,7 @@
 100903	Stun	Stun	False	swch	4000	0	5	강격 베기 IV			기절한 상태로 움직일 수 없습니다.	icon_skills.hardslash_tex	icon_skills.hardslash_tex	True
 100904	Stun	Stun	False	swch	4000	0	5	강격 베기 V			기절한 상태로 움직일 수 없습니다.	icon_skills.hardslash_tex	icon_skills.hardslash_tex	True
 101000	Stun	Stun	False	swch	4000	0	5	뒤잡기			기절한 상태로 움직일 수 없습니다.	icon_skills.backattack_tex	icon_skills.backattack_tex	True
-101001	Stun	Stun	False	swch	4000	0	5	뒤잡기 II			기절한 상태로 움직일 수 없습니다.	icon_skills.backattack_tex	icon_skills.backattack_tex	True
+101001	Stun	Stun	False	swch	4000	0	5	뒤잡기			기절한 상태로 움직일 수 없습니다.	icon_skills.backattack_tex	icon_skills.backattack_tex	True
 101100	Stun	Stun	False	swch	3000	0	5	반격 뒤돌리기 I			기절한 상태로 움직일 수 없습니다.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex	True
 101101	Stun	Stun	False	swch	3000	0	5	반격 뒤돌리기 II			기절한 상태로 움직일 수 없습니다.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex	True
 101102	Stun	Stun	False	swch	3000	0	5	반격 뒤돌리기 III			기절한 상태로 움직일 수 없습니다.	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex	True
@@ -2370,11 +2380,11 @@
 103120	ASpd	Buff	True	perc	45000	0	1.001	폭풍의 기운 I			해당 효과가 지속되는 동안 모든 공격 스킬의 마지막 타격 성공 시, 공격속도 $H_W_GOOD0.1%$COLOR_END 증가 및 재사용 대기시간 $H_W_GOOD0.1%$COLOR_END 감소 효과가 중첩됩니다.	icon_skills.stormstrength_1_tex	icon_skills.stormstrength_1_tex	True
 103120	CDR	Buff	True	perc	45000	0	0.999	폭풍의 기운 I			해당 효과가 지속되는 동안 모든 공격 스킬의 마지막 타격 성공 시, 공격속도 $H_W_GOOD0.1%$COLOR_END 증가 및 재사용 대기시간 $H_W_GOOD0.1%$COLOR_END 감소 효과가 중첩됩니다.	icon_skills.stormstrength_1_tex	icon_skills.stormstrength_1_tex	True
 103120	StackCounter	Buff	True	swch	45000	0	103130	폭풍의 기운 I			해당 효과가 지속되는 동안 모든 공격 스킬의 마지막 타격 성공 시, 공격속도 $H_W_GOOD0.1%$COLOR_END 증가 및 재사용 대기시간 $H_W_GOOD0.1%$COLOR_END 감소 효과가 중첩됩니다.	icon_skills.stormstrength_1_tex	icon_skills.stormstrength_1_tex	True
-103130	ASpd	Buff	True	perc	10000	0	1.05	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 10%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	173	Buff	True	perc	10000	0	0.1	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 10%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	190	Buff	True	swch	10000	0	3	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 10%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	CDR	Buff	True	perc	10000	0	0.95	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 10%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
-103130	332	Buff	True	swch	60000	0	1	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 10%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	ASpd	Buff	True	perc	10000	0	1.05	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 15%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	173	Buff	True	perc	10000	0	0.15	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 15%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	190	Buff	True	swch	10000	0	3	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 15%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	CDR	Buff	True	perc	10000	0	0.95	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 15%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
+103130	332	Buff	True	swch	60000	0	1	폭풍의 그림자 I			해당 효과가 지속되는 동안 공격 스킬 사용 시, 폭풍의 그림자가 15%의 추가 타격을 가합니다. 또한 공격속도 $H_W_GOOD5%$COLOR_END 증가 및 재사용 대기시간이 $H_W_GOOD5%$COLOR_END 감소합니다.	icon_skills.turningforce_tex	icon_skills.turningforce_tex	True
 103131	332	Buff	True	swch	60000	0	1	폭풍의 기운 II_분신 소환			보이면bts	icon_skills.guildskill2_hardup_1_tex	icon_skills.guildskill2_hardup_1_tex	False
 104100	ReloadingSkill	Buff	True	perc	8000	0	1040	이단검무 공격 준비			효과 지속 시간 내에 이단 검무 스킬을 한 번 더 사용 하여 적을 공격할 수 있습니다.	icon_skills.kumas_3combo_tex	icon_skills.kumas_3combo_tex	False
 104100	334	Buff	True	swch	8000	0	400100	이단검무 공격 준비			효과 지속 시간 내에 이단 검무 스킬을 한 번 더 사용 하여 적을 공격할 수 있습니다.	icon_skills.kumas_3combo_tex	icon_skills.kumas_3combo_tex	False
@@ -2507,8 +2517,8 @@
 300201	HPDrain	Stun	False	perc	5000	0	0.1	뒤잡기 II			지속 시간 동안 제 자리에서 움직일 수 없습니다. 피격에 의해 다운되면 효과는 즉시 해제됩니다.	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex	True
 300300	AtkPotion	Buff	True	perc	20000	0	1.3	힘 모으기			다음 1회의 공격은 $H_W_GOOD30%$COLOR_END 향상된 피해를 입힙니다.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
 300301	AtkPotion	Buff	True	perc	4000	0	1.33	힘 모으기 II			다음 [급소 치기], [후려치기], [회전 베기] 사용 시 1회에 한하여 스킬 위력이 $calcValue(multiple,162,0,6) 만큼 향상된 피해를 입힙니다.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-300330	MPChange	Buff	True	abs	0	2	-30	힘 모으기 II			4초마다 한번 [급소 치기], [후려치기], [참격]의 1회 공격을 강력하게 만들어주는 효과를 부여합니다.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-300330	BuffNearbyParty	Buff	True	seta	0	4	300301	힘 모으기 II			4초마다 한번 [급소 치기], [후려치기], [참격]의 1회 공격을 강력하게 만들어주는 효과를 부여합니다.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
+300330	MPChange	Buff	True	abs	0	2	-30	힘 모으기 II			4초마다 한번 [급소 치기], [후려치기], [회전 베기]의 1회 공격을 강력하게 만들어주는 효과를 부여합니다.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
+300330	BuffNearbyParty	Buff	True	seta	0	4	300301	힘 모으기 II			4초마다 한번 [급소 치기], [후려치기], [회전 베기]의 1회 공격을 강력하게 만들어주는 효과를 부여합니다.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
 300400	Stun	Stun	False	swch	2500	0	5	후퇴 차기			기절한 상태로 움직일 수 없습니다.	icon_skills.retreatingkick_tex	icon_skills.retreatingkick_tex	True
 300500	ASpd	Buff	True	perc	10000	0	1.4	전진 도약 I			다음 1회의 공격은 $H_W_GOOD40%$COLOR_END 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex	True
 300501	ASpd	Buff	True	perc	10000	0	1.5	전진 도약 II			다음 1회의 공격은 $H_W_GOOD50%$COLOR_END 만큼 공격 속도가 증가됩니다.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex	True
@@ -2547,10 +2557,10 @@
 301002	HPLoss	Debuff	False	perc	2000	0	0.95	일섬 I			이상상태 종료 시 HP가  $H_W_BAD5%$COLOR_END 감소 됩니다.	icon_skills.cuthead_tex	icon_skills.cuthead_tex	True
 301020	HPLoss	Debuff	False	perc	3000	0	0.7	일섬 I			이상상태 종료 시 HP가  $H_W_BAD30%$COLOR_END 감소 됩니다.	icon_skills.cuthead_tex	icon_skills.cuthead_tex	True
 301030	IncreasedHeal	Debuff	False	perc	10000	0	0.7	분노의 일격			HP 회복효과가 $H_W_BAD30%$COLOR_END 감소됩니다.	icon_skills.ragingstrike_tex	icon_skills.ragingstrike_tex	True
-301040	StunResist	Buff	True	perc	5000	0	100000	집념			행동 불능 이상상태 저항이 크게 향상됩니다.	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
-301041	WeakResist	Buff	True	perc	5000	0	1001	집념 III			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.tenacity_tex	icon_skills.tenacity_tex	False
-301041	KnockDownChance	Buff	True	perc	5000	0	0	집념 III			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.tenacity_tex	icon_skills.tenacity_tex	False
-301041	StatusImmune	Buff	True	swch	5000	0	0	집념 III			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.tenacity_tex	icon_skills.tenacity_tex	False
+301040	StunResist	Buff	True	perc	3000	0	100000	집념			행동 불능 이상상태 저항이 크게 향상됩니다.	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
+301041	WeakResist	Buff	True	perc	3000	0	1001	집념 III			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.tenacity_tex	icon_skills.tenacity_tex	False
+301041	KnockDownChance	Buff	True	perc	3000	0	0	집념 III			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.tenacity_tex	icon_skills.tenacity_tex	False
+301041	StatusImmune	Buff	True	swch	3000	0	0	집념 III			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.tenacity_tex	icon_skills.tenacity_tex	False
 301100	StackCounter	Buff	True	seta	10000	0	301150	연속 공격			연속 공격 4회 성공 시 회전 베기의 시전 속도가 증가합니다.	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
 301150	SkillCastSpeed	Buff	True	perc	10000	0	1.2	연속 공격			다음 공격시 회전 베기의 시전 속도가 증가합니다.	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
 301200	239	Buff	True	perc	4000	0	1	긴급 회피 II			4s안에 한번 더 긴급 회피를 사용할 수 있지만 재사용 시간이 적용됩니다. 	icon_skills.tumbling_tex	icon_skills.tumbling_tex	True
@@ -2633,14 +2643,14 @@
 400622	Fear	Stun	False	abs	5000	0	150	날카로운 고함			날카로운 고함 소리에 기겁하여 도망치고 있습니다! 대상이 몬스터일 경우 피격에 의해 다운되면 공포 효과는 즉시 해제되며 플레이어 캐릭터일 경우 피격되면 공포 효과는 즉시 해제됩니다.	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
 400623	Fear	Stun	False	abs	5500	0	150	날카로운 고함 IV			날카로운 고함 소리에 기겁하여 도망치고 있습니다! 대상이 몬스터일 경우 피격에 의해 다운되면 공포 효과는 즉시 해제되며 플레이어 캐릭터일 경우 피격되면 공포 효과는 즉시 해제됩니다.	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
 400624	Fear	Stun	False	abs	6000	0	150	날카로운 고함 V			날카로운 고함 소리에 기겁하여 도망치고 있습니다! 대상이 몬스터일 경우 피격에 의해 다운되면 공포 효과는 즉시 해제되며 플레이어 캐릭터일 경우 피격되면 공포 효과는 즉시 해제됩니다.	icon_skills.piercingshout_tex	icon_skills.piercingshout_tex	True
-400700	Power	Buff	True	abs	30000	0	26	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400700	ImpactEffective	Buff	True	perc	30000	0	1.5	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400700	Ballance	Buff	True	perc	30000	0	1.5	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400700	AtkPotion	Buff	True	perc	30000	0	1.1	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400701	Power	Buff	True	abs	30000	0	29	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400701	ImpactEffective	Buff	True	perc	30000	0	1.6	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400701	Ballance	Buff	True	perc	30000	0	1.6	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400701	AtkPotion	Buff	True	perc	30000	0	1.1	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD10%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400700	Power	Buff	True	abs	30000	0	26	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD12%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400700	ImpactEffective	Buff	True	perc	30000	0	1.5	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD12%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400700	Ballance	Buff	True	perc	30000	0	1.5	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD12%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400700	AtkPotion	Buff	True	perc	30000	0	1.12	격노 I			힘이 $H_W_GOOD26$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD50%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD12%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400701	Power	Buff	True	abs	30000	0	29	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD15%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400701	ImpactEffective	Buff	True	perc	30000	0	1.6	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD15%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400701	Ballance	Buff	True	perc	30000	0	1.6	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD15%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400701	AtkPotion	Buff	True	perc	30000	0	1.15	격노			힘이 $H_W_GOOD29$COLOR_END 만큼 향상되고, 충격과 균형도 각각 $H_W_GOOD60%$COLOR_END씩 향상됩니다. 추가로 몬스터 공격 시에는 스킬 데미지가 $H_W_GOOD15%$COLOR_END 향상됩니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
 400702	DefPotion	Debuff	False	perc	10000	0	1.03	격노			받는 피해가 3% 증가합니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
 400703	DefPotion	Debuff	False	perc	10000	0	1.09	격노			받는 피해가 9% 증가합니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
 400704	AtkPotion	Buff	True	perc	30000	0	1.1	카리스마			몬스터 공격 시 위력이 10% 증가합니다.	icon_skills.fury_tex	icon_skills.fury_tex	True
@@ -2664,9 +2674,9 @@
 400900	334	Buff	True	swch	4000	0	240100	늑골 부수기			늑골 부수기 스킬을 사용할 수 있습니다.	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex	True
 400910	Power	Buff	True	perc	100	0	1	소용가속특성 삭제시키기(보이면안되용)				icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	False
 400920	ReloadingSkill	Buff	True	swch	500	0	4024	늑골 부수기 강제 쿨타임 적용(보이지 않는 속성)				icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex	False
-401000	WeakResist	Buff	True	perc	5000	0	1001	고함			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	False
-401000	KnockDownChance	Buff	True	perc	5000	0	0	고함			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	False
-401000	StatusImmune	Buff	True	swch	5000	0	0	고함			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	False
+401000	WeakResist	Buff	True	perc	3000	0	1001	고함			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	False
+401000	KnockDownChance	Buff	True	perc	3000	0	0	고함			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	False
+401000	StatusImmune	Buff	True	swch	3000	0	0	고함			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	False
 401001	WeakResist	Buff	True	perc	8000	0	1001	고함 II			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	True
 401001	KnockDownChance	Buff	True	perc	8000	0	0	고함 II			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	True
 401001	StatusImmune	Buff	True	swch	8000	0	0	고함 II			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	True
@@ -2675,7 +2685,7 @@
 401002	StatusImmune	Buff	True	swch	8000	0	0	고함 III			효과가 지속되는 동안 다운 및 경직에 면역이 됩니다. 상태 약화 저항이 높게 향상 됩니다	icon_skills.shockingshout_tex	icon_skills.shockingshout_tex	True
 401100	StackCounter	Buff	True	seta	10000	0	401150	연속 공격			연속 공격 4회 성공 시 차징속도가 상승 합니다.	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
 401150	29	Buff	True	perc	10000	0	1.2	연속 공격			다음 차징 공격의 차징 속도가 상승합니다.	icon_skills.comboattack_tex	icon_skills.comboattack_tex	True
-401200	StunResist	Buff	True	perc	5000	0	100000	기합			효과가 지속되는 동안 다운 및 경직에 면역이 되며, 행동 불능 이상상태 저항이 크게 향상됩니다. 또한 상태 약화 저항이 높게 향상됩니다.	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
+401200	StunResist	Buff	True	perc	3000	0	100000	기합			효과가 지속되는 동안 다운 및 경직에 면역이 되며, 행동 불능 이상상태 저항이 크게 향상됩니다. 또한 상태 약화 저항이 높게 향상됩니다.	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
 401300	275	Buff	True	swch	8000	0	0	불멸의 광전사			효과가 지속되는 동안 HP가 1이하로 내려가지 않습니다. 단 최대 HP를 상회하는 데미지를 한번에 받으면 사망합니다	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex	True
 401400	Crit	Buff	True	abs	0	0	-18	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD40%$COLOR_END 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
 401400	Aggro	Buff	True	perc	0	0	1.4	분노의 역류 I			주변 8m 범위로 분노를 방출하며, 추가로 모든 공격 스킬에 의한 적대치가 $H_W_GOOD40%$COLOR_END 향상되며 전투 시 몬스터의 특수한 일부공격을 제외하고 밀려나지 않습니다.	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
@@ -3285,7 +3295,7 @@
 501650	Immune	Buff	True	9	1000	0	0	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
 501650	StatusImmune	Buff	True	swch	1000	0	0	공간 왜곡 I			1s동안 피해를 무효화 시키고, 최대 MP의 5%를 회복합니다. 이상상태가 지속되는 동안 마력 강화II의 효과가 적용되지 않습니다.	icon_skills.distortionfield_tex	icon_skills.distortionfield_tex	True
 501700	DefPotion	Buff	True	perc	4800	0	0.5	마력 폭발			다른 플레이어 캐릭터에게 피격 시 받는 데미지가 $H_W_GOOD50%$COLOR_END 감소됩니다.	icon_skills.manaburst_tex	icon_skills.manaburst_tex	False
-501800	AtkPotion	Buff	True	perc	4000	0	1.3	얼음 창 강화			지속 시간동안 <font color = '#f9b600'>[얼음 창]</font>의 표면을 비전 에너지로 강화시켜 위력을 30% <font color = '#66bbff'>증가</font> 시킵니다.	icon_skills.icespear_tex	icon_skills.icespear_tex	True
+501800	AtkPotion	Buff	True	perc	4000	0	1.1	얼음 창 강화			지속 시간동안 <font color = '#f9b600'>[얼음 창]</font>의 표면을 비전 에너지로 강화시켜 위력을 10% <font color = '#66bbff'>증가</font> 시킵니다.	icon_skills.icespear_tex	icon_skills.icespear_tex	True
 502001	ForceCrit	Buff	True	seta	5000	0	0	공간 단층			몬스터를 대상으로 지속 시간동안 모든 스킬에 <font color = '#66bbff'>후방 공격 판정</font> 효과를 부여합니다.	icon_skills.spacefault_tex	icon_skills.spacefault_tex	True
 502020	209	Buff	True	perc	12000	0	0	[융합] (화염+냉기)			<font color = '#f9b600'>[태초의 불꽃]</font> 스킬을 사용 할 수 있습니다.	icon_skills.primalfire_tex	icon_skills.primalfire_tex	True
 502020	354	Buff	True	swch	12000	0	0	[융합] (화염+냉기)			<font color = '#f9b600'>[태초의 불꽃]</font> 스킬을 사용 할 수 있습니다.	icon_skills.primalfire_tex	icon_skills.primalfire_tex	True
@@ -3301,9 +3311,9 @@
 502051	ASpd	Buff	True	perc	12000	0	1.1	0의 원소			원소의 근원을 얻어 모든 스킬의 공격 속도를 10%씩 <font color = '#66bbff'>증가</font>시키고 <font color = '#f9b600'>[붕괴]</font> 스킬을 <font color = '#66bbff'>활성화</font> 시킵니다.	icon_skills.elementfusion_tex	icon_skills.elementfusion_tex	True
 502051	209	Buff	True	perc	12000	0	0	0의 원소			원소의 근원을 얻어 모든 스킬의 공격 속도를 10%씩 <font color = '#66bbff'>증가</font>시키고 <font color = '#f9b600'>[붕괴]</font> 스킬을 <font color = '#66bbff'>활성화</font> 시킵니다.	icon_skills.elementfusion_tex	icon_skills.elementfusion_tex	True
 502052	209	Buff	True	perc	12000	0	0	0의 원소			원소의 근원을 얻어 모든 스킬의 공격 속도를 10%씩 <font color = '#66bbff'>증가</font>시키고 <font color = '#f9b600'>[붕괴]</font> 스킬을 <font color = '#66bbff'>활성화</font> 시킵니다.	icon_skills.collapse_tex	icon_skills.collapse_tex	False
-502070	AtkPotion	Buff	True	perc	20000	0	1.2	빙하 융기			원소의 균형을 수복시키기 위해 <font color = '#66bbff'>화염 속성</font>이 포함된 <font color = '#f9b600'>[융합]</font> 스킬의 위력을 20% 증가시킵니다.	icon_skills.upliftedglacier_tex	icon_skills.fireball_tex	True
-502071	AtkPotion	Buff	True	perc	20000	0	1.2	비전 폭풍			원소의 균형을 수복시키기 위해 <font color = '#66bbff'>냉기 속성</font>이 포함된 <font color = '#f9b600'>[융합]</font> 스킬의 위력을 20% 증가시킵니다.	icon_skills.visionfirestorm_tex	icon_skills.c5_iceorb	True
-502072	AtkPotion	Buff	True	perc	20000	0	1.2	복원력-비전 강화			원소의 균형을 수복시키기 위해 <font color = '#66bbff'>비전 속성</font>이 포함된 <font color = '#f9b600'>[융합]</font> 스킬의 위력을 20% 증가시킵니다.	icon_skills.manaburst_tex	icon_skills.manaburst_tex	True
+502070	AtkPotion	Buff	True	perc	20000	0	1.2	빙하 융기			<font color = '#66bbff'>두 속성</font>이 조합된 <font color = '#f9b600'>[융합]</font> 스킬의 위력을 20% 증가시킵니다.	icon_skills.upliftedglacier_tex	icon_skills.fusion_tex	True
+502071	AtkPotion	Buff	True	perc	20000	0	1.2	비전 폭풍			<font color = '#66bbff'>두 속성</font>이 조합된 <font color = '#f9b600'>[융합]</font> 스킬의 위력을 20% 증가시킵니다.	icon_skills.visionfirestorm_tex	icon_skills.fusion_tex	True
+502072	AtkPotion	Buff	True	perc	20000	0	1.2	원소 강화			<font color = '#66bbff'>두 속성</font>이 조합된 <font color = '#f9b600'>[융합]</font> 스킬의 위력을 20% 증가시킵니다.	icon_skills.fusion_tex	icon_skills.fusion_tex	True
 502074	Power	Buff	True	abs	100	0	1	마력 강화 II			공격 속도가 30% 증가하며 몬스터를 대상으로 스킬 사용 시 $H_W_GOOD20%$COLOR_END 향상된 피해를 입힙니다.$BR최대 MP가 $H_S_GOOD8%$COLOR_END 만큼 증가합니다.	icon_skills.c5_strengthenmana	icon_skills.c5_strengthenmana	False
 503011	Endurance	Debuff	False	perc	20000	0	0.97	방어구 손상 - 동파			맷집이 $H_W_BAD3%$COLOR_END 감소됩니다. 약점 효과는 최대 3회까지 중첩됩니다.	icon_skills.improveleapattack_tex	icon_skills.improveleapattack_tex	True
 503012	MovSpd	Debuff	False	perc	3000	0	0.9	얼음 폭풍			매서운 얼음 폭풍에 의해 몸이 얼어 붙어 매 중첩 시마다 이동 속도가 $H_W_BAD10%$COLOR_END씩 감소됩니다. 이 효과는 최대 4번까지 중첩됩니다.	icon_skills.icestorm_tex	icon_skills.icestorm_tex	True
@@ -3426,7 +3436,7 @@
 601450	CritChance	Buff	True	abs	10000	0	0.07	집중			10초 동안 차징 속도가 50% 상승, 치명타 확률이 7%, 몬스터 대상으로 치명타 위력이 0.8 상승합니다.	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
 601450	CastSpeed	Buff	True	perc	10000	0	1.5	집중			10초 동안 차징 속도가 50% 상승, 치명타 확률이 7%, 몬스터 대상으로 치명타 위력이 0.8 상승합니다.	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
 601460	CastSpeed	Buff	True	perc	8000	0	1.5	집중			10초 동안 관통 사격, 집중사격의 차징 속도가 상승합니다.	icon_skills.focusstance_moveslow_tex	icon_skills.focusstance_moveslow_tex	True
-601500	StunResist	Buff	True	perc	5000	0	80000	집념 I			행동 불능 이상상태 저항이 크게 향상됩니다.	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
+601500	StunResist	Buff	True	perc	3000	0	80000	집념 I			행동 불능 이상상태 저항이 크게 향상됩니다.	icon_skills.tenacity_tex	icon_skills.tenacity_tex	True
 601600	ForceCrit	Buff	True	seta	8000	0	80000	약점 관찰			다음 1회의 공격은 어떤 위치에 있더라도 후방 공격과 동일한 피해를 입힙니다.	icon_skills.weak_point_observed	icon_skills.weak_point_observed	True
 601610	352	Debuff	False	swch	8000	0	601611	약점 관찰 III				icon_skills.weak_point_observed_awaken_tex	icon_skills.weak_point_observed	False
 601611	357	Buff	True	perc	8000	0	335	약점 노출			<font color = '#f9b600'>[집중 사격], [관통 사격], [뇌룡의 일격]</font> 스킬로 약점을 공략하면 <font color = '#66bbff'>후방 공격 효과</font> 및 위력이 15% <font color = '#66bbff'>증가</font> 합니다.	icon_skills.weak_point_observed_awaken_tex	icon_skills.weak_point_observed_awaken_tex	True
@@ -5382,6 +5392,8 @@
 5010088	XPBoost	Buff	True	perc	7200000	0	11	[기간제] TERA삼매경(경험치 10배)	118727	고속성장 900 (Lv.64이하, 1일)	사냥 경험치, 스킬 연마 경험치, 특성 경험치 획득량이 1000％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
 5010088	47	Buff	True	perc	7200000	0	11	[기간제] TERA삼매경(경험치 10배)	118727	고속성장 900 (Lv.64이하, 1일)	사냥 경험치, 스킬 연마 경험치, 특성 경험치 획득량이 1000％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
 5010088	289	Buff	True	perc	7200000	0	11	[기간제] TERA삼매경(경험치 10배)	118727	고속성장 900 (Lv.64이하, 1일)	사냥 경험치, 스킬 연마 경험치, 특성 경험치 획득량이 1000％증가	icon_status.exp_buff_serensolo_tex	icon_status.exp_buff_serensolo_tex	True
+5010089	358	Buff	True	abs	0	0	1	【이벤트】추억의 파편			식인의 늪 낚시터에서 [우클릭]해 ON상태로 낚시를 하면 옛 추억의 아이템을 낚을 수 있다	icon_items.orb_of_training_tex	icon_items.orb_of_training_tex	True
+5010089	362	Buff	True	swch	0	0	110949	【이벤트】추억의 파편			식인의 늪 낚시터에서 [우클릭]해 ON상태로 낚시를 하면 옛 추억의 아이템을 낚을 수 있다	icon_items.orb_of_training_tex	icon_items.orb_of_training_tex	True
 5020000	EnchantChance	Buff	True	perc	300000	1	1.01	유럽 강화 주문서 1(5분)	153495	[PC방] 강화 장인의 가호 주문서 (5분)	0.01	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020001	EnchantChance	Buff	True	perc	300000	1	1.05	유럽 강화 주문서 2(5분)	153496	[PC방] 축복받은 강화 장인의 가호 주문서 (5분)	0.05	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
 5020002	EnchantChance	Buff	True	perc	300000	1	1.15	유럽 강화 주문서 3(5분)	153497	[PC방] 빛나는 강화 장인의 가호 주문서 (5분)	0.15	icon_items.parts_heavyarmorc5_tex	icon_items.parts_heavyarmorc5_tex	True
@@ -6163,7 +6175,7 @@
 10151090	HPChange2	Buff	True	perc	7000	0	1.15	어둠의 장막			죽음에 이르는 치명상을 입었지만 어두운 기운이 당신을 보호하였습니다. 이 효과가 지속되는 동안 모든 데미지를 50% 감소시키며, 지속 시간이 종료될 때 최대 HP의 15% 를 회복합니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
 10151091	NoHeal	Buff	False	seta	6000	0	0	어둠의 장막 치유량 감소				icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	False
 10151092	Power	Debuff	True	abs	3600000	0	0	어둠의 장막 [패시브] 대기시간			어둠의 기운이 모여들고 있습니다. 어둠의 기운이 모두 모여들기 전까지 $H_W_GOOD기사회생$COLOR_END의 효과가 발동되지 않습니다.	icon_skills.shadowcurtain_tex	icon_skills.shadowcurtain_tex	True
-10151093	350	Stun	False	swch	11300	0	0	속박의 낫			사슬이 점점 조여와 움직이기 힘들어집니다.	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	True
+10151093	350	Stun	False	swch	6300	0	0	속박의 낫			사슬이 점점 조여와 움직이기 힘들어집니다.	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	True
 10151130	MovSpd	Buff	False	perc	5000	0	0.3	섬단			비검 휘두르기 스킬에 의해 행동이 제압되어 일정 시간동안 이동 속도가 감소합니다.	icon_skills.slidingslash_tex	icon_status.chainsnare_tex	True
 10151131	ReloadingSkill	Buff	True	perc	6000	0	90006	비검 휘두르기 추가 공격			효과 지속 시간 내에 비검 휘두르기 스킬을 한 번 더 사용 가능합니다. 비검 휘두르기 스킬을 사용하거나 지속 시간이 지나면 재사용 시간이 적용됩니다.	icon_skills.chainbrandish_tex	icon_skills.chainbrandish_tex	True
 10151131	334	Buff	True	swch	6000	0	60200	비검 휘두르기 추가 공격			효과 지속 시간 내에 비검 휘두르기 스킬을 한 번 더 사용 가능합니다. 비검 휘두르기 스킬을 사용하거나 지속 시간이 지나면 재사용 시간이 적용됩니다.	icon_skills.chainbrandish_tex	icon_skills.chainbrandish_tex	True
@@ -6197,8 +6209,8 @@
 10151200	StatusImmune	Buff	True	swch	60000	0	0	자폭병			자폭병이 되었습니다. 시간 내에 자폭하지 않으면 허무한 죽음을 맞이하게 됩니다. 자폭병 상태에서는 탈 것에 탑승할 수 없습니다.	icon_skills.explosiontrap_tex	icon_skills.explosiontrap_tex	True
 10151202	NoHeal	Debuff	False	seta	5000	0	0	폭발 후유증			자폭병의 폭발에 휘말려서 후유증이 남았습니다. 5초 동안 HP 회복이 되지 않습니다.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 10151210	IncreasedHeal	Buff	True	perc	5000	0	90022	속박의 낫 시전 가능 			속박의 낫 시전	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	False
-10151211	352	Buff	True	perc	10000	0	10151212	속박의 낫			역으로 나한테 스택 쌓는거 보여주는 이상상태 걸기 (보이면 안됨)	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	False
-10151212	174	Buff	True	abs	10000	0	10151093	비검 오의: 속박의 낫			사슬에 속박된 적에게 상처를 낸 만큼 위력이 강해집니다.	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	True
+10151211	352	Buff	True	perc	5000	0	10151212	속박의 낫			역으로 나한테 스택 쌓는거 보여주는 이상상태 걸기 (보이면 안됨)	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	False
+10151212	174	Buff	True	abs	5000	0	10151093	비검 오의: 속박의 낫			사슬에 속박된 적에게 상처를 낸 만큼 위력이 강해집니다.	icon_skills.sickleofbondage_tex	icon_skills.sickleofbondage_tex	True
 10151213	ReloadingSkill	Buff	True	perc	2000	0	90023	비검 역회수			이상상태 종료 시 스킬 쿨타임 돌아서 사용 실패시 바로 쿨타임 쓰는 용도(보이면 안됨)			False
 10151220	209	Buff	True	perc	3000	0	0	비검 역회수 사용 가능			[비검 내려치기], [비검 최후의 일격] 시전 시 비검 역회수 사용 가능(보이면 안됨)	icon_skills.tornadoprison_tex	icon_skills.tornadoprison_tex	False
 10151221	209	Buff	True	perc	2000	0	0	비검 회수 사용 가능			[비검 내려치기], [비검 최후의 일격] 적중 시 비검 회수 사용 가능(보이면 안됨)	icon_skills.tornadoprison_tex	icon_skills.tornadoprison_tex	False
@@ -6493,11 +6505,11 @@
 10155541	334	Buff	True	swch	12000	0	240199	광폭창술 공격 준비			효과 지속 시간 내에 반월참 스킬을 한 번 더 사용 하여 적을 공격할 수 있습니다.			False
 10155542	ReloadingSkill	Buff	True	swch	5000	0	13024	광폭창술 공격 준비			효과 지속 시간 내에 반월참 스킬을 한 번 더 사용 하여 적을 공격할 수 있습니다.			False
 10155542	334	Buff	True	swch	5000	0	240199	광폭창술 공격 준비			효과 지속 시간 내에 반월참 스킬을 한 번 더 사용 하여 적을 공격할 수 있습니다.			False
-10155547	Endurance	Debuff	False	perc	16000	0	0.98	광폭창술			맷집이 $H_W_BAD2%$COLOR_END 감소됩니다	icon_skills.rageslash_tex	icon_skills.rageslash_tex	True
+10155547	Endurance	Debuff	False	perc	16000	0	0.98	방어구 관통			맷집이 $H_W_BAD2%$COLOR_END 감소됩니다	icon_skills.rageslash_tex	icon_skills.rageslash_tex	True
 10155549	ReloadingSkill	Buff	True	swch	500	0	13024	개전				icon_skills.warbegin_tex	icon_skills.warbegin_tex	True
 10155550	DelayedEffect	Buff	True	swch	3000	0	10155551	후방 도약			보이지 않는 이상상태			False
 10155551	ForceCrit	Buff	True	swch	4000	0	0	후방 도약			잠시 동안, 몬스터 공격 시 후방 판정이 적용됩니다.	icon_skills.dashcut_awaken_tex	icon_skills.dashcut_awaken_tex	True
-10155552	AtkPotion	Buff	True	perc	7000	0	1.1	달빛 증폭			잠시동안, 달빛의 공명 위력이 $calcValue(multiple,162,0,6) 만큼 증가합니다.	icon_skills.moonspear_tex	icon_skills.moonspear_tex	True
+10155552	AtkPotion	Buff	True	perc	7000	0	1.2	달빛 증폭			잠시동안, 달빛의 공명 위력이 $calcValue(multiple,162,0,6) 만큼 증가합니다.	icon_skills.moonspear_tex	icon_skills.moonspear_tex	True
 10156000	Endurance	Debuff	False	perc	24000	0	0.955	약점			맷집이 $H_W_BAD4.5%$COLOR_END 감소됩니다. 약점 효과는 최대 2회까지 중첩됩니다.	icon_skills.aimedshot_upgrade_tex	icon_skills.aimedshot_upgrade_tex	True
 10156001	HPChange	Debuff	False	abs	20000	1	-863	출혈			출혈이 발생하여 주기적으로 hp가 감소하며, PC에게 받는 피해가 증가합니다.	icon_status.blooduanty_tex	icon_status.blooduanty_tex	True
 10156001	DefPotion	Debuff	False	perc	20000	0	1.09	출혈			출혈이 발생하여 주기적으로 hp가 감소하며, PC에게 받는 피해가 증가합니다.	icon_status.blooduanty_tex	icon_status.blooduanty_tex	True
@@ -6669,6 +6681,8 @@
 30000027	Range	Debuff	True	perc	60000	0	0.5	타르스키의 장난			60초 동안 크기가 커집니다. 전투 시 자동 해제됩니다. (쿨타임 30분)	icon_items.coin_liar_tex	icon_items.coin_liar_tex	True
 30000028	Range	Debuff	True	perc	60000	0	1.5	타르스키의 장난			타르스키가 힘 조절에 실패했네요, 60초 동안 크기가 많이 커집니다. 전투 시 자동 해제됩니다. (쿨타임 30분)	icon_status.vitality_tex	icon_status.vitality_tex	True
 30000029	BigHead	Debuff	True	setp	60000	0	15	타르스키의 장난			타르스키가 힘 조절에 실패했네요, 60초 동안 크기가 많이 작아집니다. 전투 시 자동 해제됩니다. (쿨타임 30분)	icon_items.soft_deco_feather_tex	icon_items.soft_deco_feather_tex	True
+30000031	1001	Buff	True	abs	30000	0	3000	물리,마법 증폭 증가			30초 동안 물리,마법 증폭이 3000 증가합니다. (쿨타임 180초)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
+30000031	1002	Buff	True	abs	30000	0	3000	물리,마법 증폭 증가			30초 동안 물리,마법 증폭이 3000 증가합니다. (쿨타임 180초)	icon_skills.guildskills_str_tex	icon_skills.guildskills_str_tex	True
 30010000	0	Buff	True	swch	600000	0	0	아르가프의 힘	206062	아르가프 영약	아르가프의 힘으로 비행 및 아르가프 도약대 사용이 가능 합니다.	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
 30160000	OutOfCombatMovSpd	Buff	True	abs	0	1	80	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
 30160000	RidingSpeed	Buff	True	seta	0	0	400	시험의 축복			시험을 치르는 자에게 부여되는 축복입니다. <BR>$H_W_GOOD평화 상태 이동 속도$COLOR_END와 $H_W_GOOD탈 것 이동 속도$COLOR_END가 빨라집니다.<BR>매 초마다 HP와 MP가 2%씩 회복됩니다.	icon_status.holybless_tex	icon_status.holybless_tex	True
@@ -7323,7 +7337,7 @@
 30420015	Power	Buff	True	perc	0	0	1	불사의 힘			고통을 느끼지 못하는 상태입니다. 일정량의 대미지를 받을 경우 해제됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 30420015	Absorb	Buff	True	swch	0	0	150000000	불사의 힘			고통을 느끼지 못하는 상태입니다. 일정량의 대미지를 받을 경우 해제됩니다.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 30420017	Power	Debuff	True	perc	10000	0	1	냉기 방출			냉기에 노출되어 극심한 추위에 노출되었습니다. 2중첩 시 온 몸이 얼어붙습니다.	icon_status.confusedown_tex	icon_status.confusedown_tex	False
-30432013	HPChange	DOT	True	perc	0	1	-0.8	환각-위험구역			악마의 환각 속 위험구역에서는 지속적으로 피해를 입습니다.	icon_status.minushp_tex	icon_status.minushp_tex	True
+30432013	HPChange	DOT	True	perc	0	1	-0.08	환각-위험구역			악마의 환각 속 위험구역에서는 지속적으로 피해를 입습니다.	icon_status.minushp_tex	icon_status.minushp_tex	True
 31010202	HPChange	DOT	True	perc	10000	2	-0.1	흩날리는 보석			바람에 날카로운 보석가루가 날립니다. 보석가루에 베인 상처로 인해 2초당 $H_W_BAD10%$COLOR_END의 HP가 감소 합니다.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
 31010205	Block	Buff	True	swch	2000	0	0	침묵			온 몸에 보석이 붙어 마음대로 움직일 수 없습니다.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 31010220	Aggro	Debuff	True	perc	80000	0	0.3	여왕의 총애			파르퀴나의 시선을 한몸에 받습니다. 2중첩시 온 몸이 굳으며 사망합니다.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
@@ -10183,11 +10197,11 @@
 97950014	297	Buff	True	seta	3600000	0	0	다르칸의 날개(그린)			다르칸의 날개(그린)를 활성화 했습니다.<br>다르칸의 날개는 전투 시작 시, 스킬 적중 시 또는 피해를 입을 시 해제됩니다.	icon_status.descentofdarkness2_tex	icon_status.descentofdarkness2_tex	True
 97950015	297	Buff	True	seta	3600000	0	0	다르칸의 날개(블랙)			다르칸의 날개(블랙)를 활성화 했습니다.<br>다르칸의 날개는 전투 시작 시, 스킬 적중 시 또는 피해를 입을 시 해제됩니다.	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
 97950016	297	Buff	True	seta	3600000	0	0	다르칸의 날개(핑크)			다르칸의 날개(핑크)를 활성화 했습니다.<br>다르칸의 날개는 전투 시작 시, 스킬 적중 시 또는 피해를 입을 시 해제됩니다.	icon_status.descentofdarkness4_tex	icon_status.descentofdarkness4_tex	True
-97950017	297	Buff	True	seta	30000	0	0	달빛 연꽃 오오라			달빛 연꽃 정령의 축복이 온몸을 휘감습니다. 달빛 연꽃 오오라가 활성화되면 정령의 축복을 받아 15분간 유지되는 [달빛 연꽃 정령의 축복] 효과를 받을 수 있습니다. <br><br>$H_W_GOOD[적용 효과]$COLOR_END 달빛 연꽃 정령의 축복<br>HP와 MP가 100% 회복되고 15분간 공격속도 $H_W_GOOD3$COLOR_END 전투이동속도 $H_W_GOOD5$COLOR_END가 증가합니다.<br>본 효과는 $H_W_BAD30분에 1번만 $COLOR_END받을 수 있습니다. <br><br>달빛 연꽃 오오라는 전투 시작 시, 스킬 적중 시 또는 피해를 입을 시 해제되지만 달빛 연꽃 정령의 축복은 유지됩니다.	icon_skills.wood_soul_tex	icon_skills.wood_soul_tex	True
+97950017	335	Buff	True	seta	30000	0	0	달빛 연꽃 오오라			달빛 연꽃 정령의 축복이 온몸을 휘감습니다. 달빛 연꽃 오오라가 활성화되면 정령의 축복을 받아 15분간 유지되는 [달빛 연꽃 정령의 축복] 효과를 받을 수 있습니다. <br><br>$H_W_GOOD[적용 효과]$COLOR_END 달빛 연꽃 정령의 축복<br>HP와 MP가 100% 회복되고 15분간 공격속도 $H_W_GOOD3$COLOR_END 전투이동속도 $H_W_GOOD5$COLOR_END가 증가합니다.<br>본 효과는 $H_W_BAD30분에 1번만 $COLOR_END받을 수 있습니다. <br><br>달빛 연꽃 오오라는 전투 시작 시, 스킬 적중 시 또는 피해를 입을 시 해제되지만 달빛 연꽃 정령의 축복은 유지됩니다.	icon_skills.wood_soul_tex	icon_skills.wood_soul_tex	True
 97950020	ASpd	Buff	True	abs	900000	0	3	달빛 연꽃 정령의 축복			달의 호수에서 서식하는 연꽃 정령의 축복으로$BR15분간 공격속도 $H_W_GOOD3$COLOR_END증가, 전투 이동속도 $H_W_GOOD5$COLOR_END 증가됩니다. $BR사망 시 해제되지 않으며 접속 종료후에도 시간은 감소합니다.	icon_skills.wood_soul_tex	icon_skills.wood_soul_tex	True
 97950020	MovSpdInCombat	Buff	True	abs	900000	0	5	달빛 연꽃 정령의 축복			달의 호수에서 서식하는 연꽃 정령의 축복으로$BR15분간 공격속도 $H_W_GOOD3$COLOR_END증가, 전투 이동속도 $H_W_GOOD5$COLOR_END 증가됩니다. $BR사망 시 해제되지 않으며 접속 종료후에도 시간은 감소합니다.	icon_skills.wood_soul_tex	icon_skills.wood_soul_tex	True
 97950021	Endurance	Debuff	True	abs	1800000	0	0	달빛 연꽃 정령의 축복 쿨타임			달빛 정령으로부터 비롯된 축복의 기운이 아직 남아있어 30분간 달빛 정령의 축복 효과를 받을 수 없습니다.	icon_skills.wood_soul_tex	icon_skills.wood_soul_tex	True
-97950022	297	Buff	True	seta	30000	0	0	황금 연꽃 오오라			황금 연꽃의 축복이 온몸을 휘감습니다.$BR황금 연꽃의 축복으로 황금 연꽃 오오라를 사용할 수 있습니다. 황금 연꽃 오오라는 30초간 유지되고 5초마다 재사용이 가능합니다. <br><br>$H_W_GOOD[적용 효과]$COLOR_END 황금 연꽃 축복<br>HP와 MP가 100% 회복되고 15분간 공격속도 $H_W_GOOD3$COLOR_END 전투이동속도 $H_W_GOOD5$COLOR_END가 증가합니다.<br>본 효과는 $H_W_BAD30분에 1번만 $COLOR_END받을 수 있습니다. <br><br>황금 연꽃 오오라는 전투 시작 시, 스킬 적중 시 또는 피해를 입을 시 해제되지만 황금 연꽃 축복은 유지됩니다.	icon_skills.lotusflower_soul_tex	icon_skills.lotusflower_soul_tex	True
+97950022	335	Buff	True	seta	30000	0	0	황금 연꽃 오오라			황금 연꽃의 축복이 온몸을 휘감습니다.$BR황금 연꽃의 축복으로 황금 연꽃 오오라를 사용할 수 있습니다. 황금 연꽃 오오라는 30초간 유지되고 5초마다 재사용이 가능합니다. <br><br>$H_W_GOOD[적용 효과]$COLOR_END 황금 연꽃 축복<br>HP와 MP가 100% 회복되고 15분간 공격속도 $H_W_GOOD3$COLOR_END 전투이동속도 $H_W_GOOD5$COLOR_END가 증가합니다.<br>본 효과는 $H_W_BAD30분에 1번만 $COLOR_END받을 수 있습니다. <br><br>황금 연꽃 오오라는 전투 시작 시, 스킬 적중 시 또는 피해를 입을 시 해제되지만 황금 연꽃 축복은 유지됩니다.	icon_skills.lotusflower_soul_tex	icon_skills.lotusflower_soul_tex	True
 97950025	ASpd	Buff	True	abs	900000	0	3	황금 연꽃 축복			황금 연꽃 축복으로$BR15분간 공격속도 $H_W_GOOD3$COLOR_END증가, 전투 이동속도 $H_W_GOOD5$COLOR_END 증가됩니다. $BR사망 시 해제되지 않으며 접속 종료후에도 시간은 감소합니다.	icon_skills.lotusflower_soul_tex	icon_skills.lotusflower_soul_tex	True
 97950025	MovSpdInCombat	Buff	True	abs	900000	0	5	황금 연꽃 축복			황금 연꽃 축복으로$BR15분간 공격속도 $H_W_GOOD3$COLOR_END증가, 전투 이동속도 $H_W_GOOD5$COLOR_END 증가됩니다. $BR사망 시 해제되지 않으며 접속 종료후에도 시간은 감소합니다.	icon_skills.lotusflower_soul_tex	icon_skills.lotusflower_soul_tex	True
 97950026	Endurance	Debuff	True	abs	1800000	0	0	황금 연꽃 축복 쿨타임			황금 연꽃으로부터 비롯된 축복의 기운이 아직 남아있어 30분간 황금 연꽃 축복 효과를 받을 수 없습니다.	icon_skills.lotusflower_soul_tex	icon_skills.lotusflower_soul_tex	True
