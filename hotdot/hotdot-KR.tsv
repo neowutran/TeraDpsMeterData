@@ -2205,6 +2205,7 @@
 70373	362	Buff	True	swch	0	0	209361	[거래가능]얼룩덜룩한 떡밥			떡밥을 낚싯바늘에 걸었다.$BR$BR높은 등급의 물고기를 낚을 확률 $H_W_GOOD80%$COLOR_END 증가$BR대물 낚을 확률 $H_W_GOOD5%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.premium_pastebait_02_tex	icon_items.premium_pastebait_02_tex	True
 70374	358	Buff	True	abs	0	0	1	대물 떡밥			떡밥을 낚싯바늘에 걸었다.$BR$BR대물 낚을 확률 $H_W_GOOD100%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
 70374	362	Buff	True	swch	0	0	209264	대물 떡밥			떡밥을 낚싯바늘에 걸었다.$BR$BR대물 낚을 확률 $H_W_GOOD100%$COLOR_END 증가$BR$BR높은 등급의 미끼를 사용할 수록 높은 등급의 물고기를 낚을 확률이 높아집니다.	icon_items.premium_pastebait_01_tex	icon_items.premium_pastebait_01_tex	True
+70375	358	Buff	True	abs	3600000	0	0.05	지포스나우 낚시 버프	201120	낚시 대물 확률 5% 증가 (1시간)	1시간 동안 대물 낚을 확률 $H_W_GOOD5%$COLOR_END 증가	icon_items.fishsalad_tex	icon_items.fishsalad_tex	True
 70403	MovSpd	Debuff	False	perc	5000	0	0.5	시공의균열_감속			이동 속도가 $H_W_BAD50%$COLOR_END 감소됩니다.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	OutOfCombatMovSpd	Debuff	False	perc	5000	0	0.5	시공의균열_감속			이동 속도가 $H_W_BAD50%$COLOR_END 감소됩니다.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 70403	HPDrain	Debuff	False	perc	5000	0	0.5	시공의균열_감속			이동 속도가 $H_W_BAD50%$COLOR_END 감소됩니다.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
@@ -7938,7 +7939,7 @@
 40000018	DelayedEffect	Debuff	True	seta	10000	0	40000023	촉수감옥			전투 시 일정 시간마다 촉수 감옥이 스폰됩니다. 촉수 감옥은 일정 시간 내 파괴하지 못할 시 주변에 강력한 대미지를 주며 폭발합니다.	icon_status.icon_resonance_common2_tex	icon_status.icon_resonance_common2_tex	True
 40000024	CDR	Debuff	True	swch	0	0	11	High_A타입_부활쿨			부활쿨 10배	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 40000026	Crit	Debuff	True	perc	0	0	2	필살			분노 시 치명타 확률이 상승합니다.	icon_status.icon_resonance_common1_tex	icon_status.icon_resonance_common1_tex	True
-40000027	120	Debuff	True	perc	0	1	-0.0002	반격			분노 시 일정 대미지를 반사합니다.	icon_skills.arouseanger_tex	icon_skills.arouseanger_tex	True
+40000027	120	Debuff	True	perc	0	1	-0.00015	반격			분노 시 일정 대미지를 반사합니다.	icon_skills.arouseanger_tex	icon_skills.arouseanger_tex	True
 40000028	IncreasedHeal	Debuff	True	abs	0	0	0.7	역병			공명의 힘으로 받는 회복량이 30% 감소합니다.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 40000029	CDR	Debuff	True	swch	0	0	4	사신			공명의 힘으로 부활 스킬의 쿨타임이 증가합니다.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 40000032	311	Debuff	True	3126	0	0	402	기생충 전염			사망 시 기생충을 전염시킵니다.	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True

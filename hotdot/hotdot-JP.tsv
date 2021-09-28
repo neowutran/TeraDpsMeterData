@@ -89,8 +89,10 @@
 202	Power	Buff	True	abs	2400000	0	25	パワーブレシング II			強靭な力の祝福により、力が$H_W_GOOD25$COLOR_END上昇します。	icon_skills.attackup_tex	icon_skills.attackup_tex	False
 202	Endurance	Buff	True	abs	2400000	0	11	パワーブレシング II			強靭な力の祝福により、力が$H_W_GOOD25$COLOR_END上昇します。	icon_skills.attackup_tex	icon_skills.attackup_tex	False
 202	AllResist	Buff	True	abs	2400000	0	5	パワーブレシング II			強靭な力の祝福により、力が$H_W_GOOD25$COLOR_END上昇します。	icon_skills.attackup_tex	icon_skills.attackup_tex	False
-203	1004	Debuff	False	abs	21000	0	0	ダムネーションチェイン			魔法抵抗が$calcValue(multiple,1004,0,3)減少します。	icon_skills.divineretribution_tex	icon_skills.breakmagicaldef_tex	True
-204	1004	Debuff	False	abs	21000	0	0	ペインカーズ I			魔法抵抗が$calcValue(multiple,1004,0,3)減少します。	icon_skills.painfulshackle_tex	icon_skills.breakmagicaldef_tex	True
+203	1003	Debuff	False	abs	21000	0	0	ダムネーションチェイン			物理・魔法抵抗が$calcValue(multiple,1004,0,3)減少します。	icon_skills.divineretribution_tex	icon_skills.breakmagicaldef_tex	True
+203	1004	Debuff	False	abs	21000	0	0	ダムネーションチェイン			物理・魔法抵抗が$calcValue(multiple,1004,0,3)減少します。	icon_skills.divineretribution_tex	icon_skills.breakmagicaldef_tex	True
+204	1003	Debuff	False	abs	21000	0	0	ペインカーズ I			物理・魔法抵抗が$calcValue(multiple,1004,0,3)減少します。	icon_skills.painfulshackle_tex	icon_skills.breakmagicaldef_tex	True
+204	1004	Debuff	False	abs	21000	0	0	ペインカーズ I			物理・魔法抵抗が$calcValue(multiple,1004,0,3)減少します。	icon_skills.painfulshackle_tex	icon_skills.breakmagicaldef_tex	True
 301	Stun	Stun	False	swch	6000	0	5	サンダーオーブ			強力な電気ショックにより気絶しました。	icon_skills.shocktrap_tex	icon_skills.shocktrap_tex	True
 501	OutOfCombatMovSpd	Buff	True	abs	600000	0	40	移動速度上昇	649	移動速度の玉	移動速度が大幅に上昇します。	icon_status.aura_of_wind_tex	icon_status.aura_of_wind_tex	True
 601	Power	Buff	True	abs	0	0	20	インサニティーオーラ I			狂気の精霊の気により、力が $H_W_GOOD20$COLOR_END 増加し、攻撃速度も $H_W_GOOD6$COLOR_END 上昇します。 使用者が周囲30m範囲内にいる場合のみ効果を受けることができます。	icon_skills.rage_tex	icon_skills.rage_tex	True
@@ -195,7 +197,7 @@
 1480	OutOfCombatMovSpd	Buff	True	abs	180000	0	20	神将の祝福			非戦闘状態での移動速度が$H_W_GOOD20$COLOR_END上昇します。	icon_status.plusmove_tex	icon_status.plusmove_tex	True
 1490	HPChange	Buff	True	perc	15000	1	0.05	ポーション	111	ポーション	$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD5％$COLOR_ENDが回復します。	icon_items.potion1_tex	icon_items.potion1_tex	True
 1491	HPChange	Buff	True	perc	5000	1	0.06	ポーション			$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD6％$COLOR_ENDが回復します。	icon_items.potion1_tex	icon_items.potion1_tex	True
-1492	HPChange	Buff	True	abs	20000	2	15000	守護者のHPポーション	72361	守護者のHPポーション	$H_W_GOOD2s$COLOR_END毎にHPが$H_W_GOOD15,000$COLOR_ENDずつ回復します。	icon_items.potion3_tex	icon_items.potion3_tex	True
+1492	HPChange	Buff	True	abs	20000	2	15000	守護者の持続HPポーション	72361	守護者の持続HPポーション	$H_W_GOOD2s$COLOR_END毎にHPが$H_W_GOOD15,000$COLOR_ENDずつ回復します。	icon_items.potion3_tex	icon_items.potion3_tex	True
 1495	MovSpd	Debuff	True	setp	2000	0	0.5	戦場の毒気			戦場の毒気により、HPが一秒当たり20000ずつ減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 1495	HPChange	Debuff	True	perc	2000	1	-50000	戦場の毒気			戦場の毒気により、HPが一秒当たり20000ずつ減少します。	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 1510	HPChange	Buff	True	perc	1000	1	0.5	ラピッドポーション	114	【連合補給品】ラピッドポーション	全HPの$H_W_GOOD50％$COLOR_ENDが即時に回復します。	icon_items.potion5_tex	icon_items.potion5_tex	False
@@ -204,6 +206,8 @@
 1512	HPChange	Buff	True	perc	1000	1	0.6	サシャの蒸かした芋	201955	サシャの蒸かした芋	全HPの$H_W_GOOD60％$COLOR_ENDを即時回復します。	icon_items.sashapotato_tex	icon_items.sashapotato_tex	False
 1530	MPChange	Buff	True	abs	15000	1	216	マナポーション	130	マナポーション	$H_W_GOOD1s$COLOR_END毎にMPが$H_W_GOOD216$COLOR_ENDずつ回復します。	icon_items.potion19_tex	icon_items.potion19_tex	True
 1531	MPChange	Buff	True	abs	15000	1	386	MP回復ポーション	130	マナポーション	$H_W_GOOD1s$COLOR_END毎にMPが$H_W_GOOD386$COLOR_ENDずつ回復します。	icon_items.potion19_tex	icon_items.potion19_tex	True
+1600	MPChange	Buff	True	abs	20000	2	259	守護者の持続MPポーション	72362	守護者の持続MPポーション	$H_W_GOOD2s$COLOR_END毎にMPが$H_W_GOOD259$COLOR_ENDずつ回復します。	icon_items.potion4_tex	icon_items.potion4_tex	True
+1601	MPChange	Buff	True	abs	20000	2	463	守護者の持続MPポーション	72362	守護者の持続MPポーション	$H_W_GOOD2s$COLOR_END毎にMPが$H_W_GOOD463$COLOR_ENDずつ回復します。	icon_items.potion4_tex	icon_items.potion4_tex	True
 1610	HPChange	Buff	True	perc	10000	1	0.02	治癒の玉	8000	治癒の玉	$H_W_GOOD1s$COLOR_END毎に全HPの$H_W_GOOD2％$COLOR_ENDが回復します。	icon_items.potion1_tex	icon_items.potion1_tex	True
 1630	HPChange	Buff	True	perc	1000	1	0.25	快癒の玉	8005	快癒の玉	全HPの$H_W_GOOD25％$COLOR_ENDが即時に回復します。	icon_items.potion5_tex	icon_items.potion5_tex	False
 1640	CraftTime	Buff	True	perc	3600000	0	0.8	職人のロウソク			全装備アイテムの製作速度が$H_W_GOOD20%$COLOR_END上昇します。	icon_items.artisan_potion_tex	icon_items.artisan_potion_tex	True
@@ -2349,16 +2353,16 @@
 100200	209	Buff	True	perc	0	0	0	ディフェンススタンス I			耐久力が$H_W_GOOD20%$COLOR_END、均衡が$H_W_GOOD20$COLOR_END、モンスター攻撃時クリティカル発生率が$H_W_GOOD15％$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD130%$COLOR_END上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100200	Block	Buff	True	perc	0	0	0	ディフェンススタンス I			耐久力が$H_W_GOOD20%$COLOR_END、均衡が$H_W_GOOD20$COLOR_END、モンスター攻撃時クリティカル発生率が$H_W_GOOD15％$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD130%$COLOR_END上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100200	StaggerImmune	Buff	True	seta	0	0	0	ディフェンススタンス I			耐久力が$H_W_GOOD20%$COLOR_END、均衡が$H_W_GOOD20$COLOR_END、モンスター攻撃時クリティカル発生率が$H_W_GOOD15％$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD130%$COLOR_END上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	MaxHP	Buff	True	perc	3000	0	1	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	Endurance	Buff	True	perc	0	0	1.25	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	Ballance	Buff	True	abs	0	0	30	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	Aggro	Buff	True	perc	0	0	2.53	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	113	Buff	True	perc	0	0	1.2	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	CritChance	Buff	True	perc	0	0	1.15	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	209	Buff	True	perc	0	0	0	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	Block	Buff	True	perc	0	0	0	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	StaggerImmune	Buff	True	seta	0	0	0	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
-100201	1003	Buff	True	perc	0	0	1.2	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	MaxHP	Buff	True	perc	3000	0	1	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	Endurance	Buff	True	perc	0	0	1.25	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	Ballance	Buff	True	abs	0	0	30	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	Aggro	Buff	True	perc	0	0	2.53	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	113	Buff	True	perc	0	0	1.2	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	CritChance	Buff	True	perc	0	0	1.15	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	209	Buff	True	perc	0	0	0	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	Block	Buff	True	perc	0	0	0	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	StaggerImmune	Buff	True	seta	0	0	0	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
+100201	1003	Buff	True	perc	0	0	1.25	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100202	MaxHP	Buff	True	perc	3000	0	1	ディフェンススタンス III			耐久力が$H_W_GOOD10029500%$COLOR_END、均衡が$H_W_GOOD20$COLOR_END、モンスター攻撃時クリティカル発生率が$H_W_GOOD15％$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD130%$COLOR_END上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100202	Endurance	Buff	True	perc	0	0	100296	ディフェンススタンス III			耐久力が$H_W_GOOD10029500%$COLOR_END、均衡が$H_W_GOOD20$COLOR_END、モンスター攻撃時クリティカル発生率が$H_W_GOOD15％$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD130%$COLOR_END上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
 100202	Ballance	Buff	True	abs	0	0	20	ディフェンススタンス III			耐久力が$H_W_GOOD10029500%$COLOR_END、均衡が$H_W_GOOD20$COLOR_END、モンスター攻撃時クリティカル発生率が$H_W_GOOD15％$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD130%$COLOR_END上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	True
@@ -2386,7 +2390,7 @@
 100299	Block	Buff	True	perc	0	0	0	ディフェンススタンス I			耐久力が$H_W_GOOD20%$COLOR_END、均衡が$H_W_GOOD20$COLOR_END、モンスター攻撃時クリティカル発生率が$H_W_GOOD15％$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD130%$COLOR_END上昇し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	False
 100300	Stun	Stun	False	swch	2000	0	5	バトルクライ			鼓膜を引き裂かんばかりの雄叫びにより、気絶しました。	icon_skills.thunderingroar_tex	icon_skills.thunderingroar_tex	True
 100301	Stun	Stun	False	swch	4000	0	5	削除_バトルクライ II			鼓膜を引き裂かんばかりの雄叫びにより、気絶しました。	icon_skills.thunderingroar_tex	icon_skills.thunderingroar_tex	True
-100302	1003	Buff	True	perc	0	0	1.2	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時のクリティカル発生率が$H_W_GOOD15％$COLOR_END、物理抵抗が$H_W_GOOD20％$COLOR_END増加します。全ての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	False
+100302	1003	Buff	True	perc	0	0	1.25	ディフェンススタンス II			耐久力が$H_W_GOOD25%$COLOR_END、均衡が$H_W_GOOD30$COLOR_END、モンスター攻撃時、クリティカル発生率が$H_W_GOOD15%$COLOR_END、物理抵抗が$H_W_GOOD25%$COLOR_END増加します。追加ですべての攻撃スキルによる敵対値が$H_W_GOOD153%$COLOR_END増加し、戦闘時、一部の特殊攻撃を除きモンスターの攻撃で後退しません。	icon_skills.ironwillb_tex	icon_skills.ironwillb_tex	False
 100400	209	Buff	True	perc	5000	0	0	ウィンドスラッシュ発動			「ウィンドスラッシュ」を使用できます。	icon_skills.allroundslash_tex	icon_skills.allroundslash_tex	True
 100500	HPChange	DOT	False	abs	10000	2	-40	ポイズンストライク I			致命的な猛毒により、$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD-40$COLOR_END減少します。	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex	True
 100501	HPChange	DOT	False	abs	10000	2	-60	ポイズンストライク II			致命的な猛毒により、$H_W_BAD2s$COLOR_END毎にHPが$H_W_BAD-60$COLOR_END減少します。	icon_skills.poisonblowattack_tex	icon_skills.poisonblowattack_tex	True
@@ -2442,8 +2446,9 @@
 101104	Stun	Stun	False	swch	3000	0	5	カウンターストライク V			気絶した状態で動けません。	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex	True
 101105	Stun	Stun	False	swch	3000	0	5	カウンターストライク VI			気絶した状態で動けません。	icon_skills.reversalturningattack_tex	icon_skills.reversalturningattack_tex	True
 101200	Endurance	Debuff	False	perc	15000	0	0.92	コンバットストライク			耐久力が$H_W_BAD8%$COLOR_END減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
-101210	Endurance	Debuff	False	perc	15000	0	0.88	コンバットストライク XI			耐久力が$H_W_BAD12%$COLOR_END、物理抵抗が$calcValue(multiple,1003,0,3)減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
-101210	1003	Debuff	False	abs	15000	0	0	コンバットストライク XI			耐久力が$H_W_BAD12%$COLOR_END、物理抵抗が$calcValue(multiple,1003,0,3)減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
+101210	Endurance	Debuff	False	perc	15000	0	0.88	コンバットストライク XI			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3)減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
+101210	1003	Debuff	False	abs	15000	0	0	コンバットストライク XI			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3)減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
+101210	1004	Debuff	False	abs	15000	0	0	コンバットストライク XI			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3)減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101220	Endurance	Debuff	False	perc	15000	0	0.92	コンバットストライク			耐久力が$H_W_BAD8%$COLOR_END、HP回復効果が$H_W_BAD30%$COLOR_END減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101220	IncreasedHeal	Debuff	False	perc	15000	0	0.7	コンバットストライク			耐久力が$H_W_BAD8%$COLOR_END、HP回復効果が$H_W_BAD30%$COLOR_END減少します。	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101300	ASpd	Buff	True	perc	27000	0	1.009	ワイルドレイジ - スラスト			重複する度に、攻撃者の攻撃速度が0.9％ずつ上昇します。この効果は、最大13回まで重複します。	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex	True
@@ -2522,8 +2527,9 @@
 200232	Endurance	Buff	True	perc	0	0	1.91	信頼の力 III			耐久力が$H_W_GOOD91%$COLOR_END、力が$H_W_GOOD30%$COLOR_END上昇します。有効範囲は使用者の周囲約40mです。	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 200300	Endurance	Debuff	False	perc	12000	0	0.88	アーマーブレイク			耐久力が$H_W_BAD12%$COLOR_END減少します。PvP時は、重複と関係なくHP回復効果が$H_W_BAD30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
 200301	Endurance	Debuff	False	perc	15000	0	0.88	アーマーブレイク			耐久力が$H_W_BAD12%$COLOR_END減少します。PvP時は、重複と関係なくHP回復効果が$H_W_BAD30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
-200302	Endurance	Debuff	False	perc	18000	0	0.88	アーマーブレイク			耐久力が$H_W_BAD12%$COLOR_END、物理抵抗が$calcValue(multiple,1003,0,3)減少します。PvP時、HP回復効果が$H_W_BAD 30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.breakphysicaldef_tex	True
-200302	1003	Debuff	False	abs	18000	0	0	アーマーブレイク			耐久力が$H_W_BAD12%$COLOR_END、物理抵抗が$calcValue(multiple,1003,0,3)減少します。PvP時、HP回復効果が$H_W_BAD 30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.breakphysicaldef_tex	True
+200302	Endurance	Debuff	False	perc	18000	0	0.88	アーマーブレイク			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3)減少します。PvP時、HP回復効果が$H_W_BAD30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.breakphysicaldef_tex	True
+200302	1003	Debuff	False	abs	18000	0	0	アーマーブレイク			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3)減少します。PvP時、HP回復効果が$H_W_BAD30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.breakphysicaldef_tex	True
+200302	1004	Debuff	False	abs	18000	0	0	アーマーブレイク			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3)減少します。PvP時、HP回復効果が$H_W_BAD30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.breakphysicaldef_tex	True
 200350	IncreasedHeal	Debuff	False	perc	12000	0	0.7	アーマーブレイク				icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	False
 200351	IncreasedHeal	Debuff	False	perc	15000	0	0.7	アーマーブレイク				icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	False
 200352	IncreasedHeal	Debuff	False	perc	15000	0	0.7	アーマーブレイク				icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	False
@@ -3607,6 +3613,27 @@
 621000	MovSpd	Debuff	True	perc	30000	0	0.5	ぬるぬるシャボン玉			ぬるぬるしたシャボン玉に閉じ込められ、移動速度が減少します。他のシャボン玉と触れ合えば解除されます。	icon_items.orb_of_spirit_tex	icon_items.orb_of_spirit_tex	True
 621000	62	Debuff	True	seta	30000	1	621004	ぬるぬるシャボン玉			ぬるぬるしたシャボン玉に閉じ込められ、移動速度が減少します。他のシャボン玉と触れ合えば解除されます。	icon_items.orb_of_spirit_tex	icon_items.orb_of_spirit_tex	True
 621000	65	Debuff	True	seta	30000	1	621004	ぬるぬるシャボン玉			ぬるぬるしたシャボン玉に閉じ込められ、移動速度が減少します。他のシャボン玉と触れ合えば解除されます。	icon_items.orb_of_spirit_tex	icon_items.orb_of_spirit_tex	True
+621100	Endurance	Debuff	True	perc	0	0	1	青チームを倒せ！				icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+621100	MovSpdInCombat	Buff	True	abs	0	0	70	青チームを倒せ！				icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+621100	62	Buff	True	seta	0	1	621100	青チームを倒せ！				icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+621100	KnockDownChance	Buff	True	perc	0	0	0	青チームを倒せ！				icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+621102	Endurance	Debuff	True	perc	0	0	1	赤チームを倒せ！				icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+621102	MovSpdInCombat	Buff	True	abs	0	0	70	赤チームを倒せ！				icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+621102	62	Buff	True	perc	0	1	621102	赤チームを倒せ！				icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+621102	KnockDownChance	Buff	True	perc	0	0	0	赤チームを倒せ！				icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+621104	Endurance	Debuff	True	perc	0	0	1	水風船			敵に触られると倒されてしまう！仲間に触られると助けてもらえる。	icon_items.orb_of_ruin_tex	icon_items.orb_of_ruin_tex	True
+621104	65	Debuff	True	perc	7000	1	621107	水風船			敵に触られると倒されてしまう！仲間に触られると助けてもらえる。	icon_items.orb_of_ruin_tex	icon_items.orb_of_ruin_tex	True
+621104	Stun	Debuff	True	swch	7000	0	5	水風船			敵に触られると倒されてしまう！仲間に触られると助けてもらえる。	icon_items.orb_of_ruin_tex	icon_items.orb_of_ruin_tex	True
+621105	Endurance	Debuff	True	perc	0	0	1	水風船			敵に触られると倒されてしまう！仲間に触られると助けてもらえる。	icon_items.orb_of_ruin_tex	icon_items.orb_of_ruin_tex	True
+621105	65	Debuff	True	seta	7000	1	621108	水風船			敵に触られると倒されてしまう！仲間に触られると助けてもらえる。	icon_items.orb_of_ruin_tex	icon_items.orb_of_ruin_tex	True
+621105	Stun	Debuff	True	swch	7000	0	5	水風船			敵に触られると倒されてしまう！仲間に触られると助けてもらえる。	icon_items.orb_of_ruin_tex	icon_items.orb_of_ruin_tex	True
+621107	Endurance	Buff	True	perc	500	0	1	針	19372	針				True
+621108	Endurance	Buff	True	perc	500	0	1	針	19372	針				True
+621109	Endurance	Debuff	True	perc	0	0	1	青チームを倒せ！				icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	False
+621110	Endurance	Debuff	True	perc	0	0	1	赤チームを倒せ！				icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	False
+621111	DelayedEffect	Buff	True	swch	0	0	621100	赤チーム				icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+621112	DelayedEffect	Buff	True	swch	0	0	621102	青チーム				icon_status.battlefieldbuff01_tex	icon_status.battlefieldbuff01_tex	True
+621113	HPChange	Debuff	True	perc	1000	0	-10000	高所恐怖症			高所の恐怖によりHPが減少します。低所へ移動すれば解除できます。			True
 622002	Fear	Stun	True	swch	3000	0	100	カオスチャーム			恐怖に陥り、逃走します！	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 622003	Stun	Stun	True	swch	4000	0	5	気絶			気絶した状態で動けません。	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 623009	336	Buff	True	swch	108000000	0	-1	フカの失望(守護者の特別任務専用)			訓練に真面目に参加しなかったあなたの姿に失望したフカが反連合に関する情報を提供してくれません。(情報を得られなければ、守護者スコアは獲得てきません。)$BR$BR訓練に真面目に参加する姿を見せる事で解除されます。	icon_status.boundmoveup_tex	icon_status.boundmoveup_tex	True
@@ -3806,7 +3833,7 @@
 701603	AllResist	Debuff	False	perc	3000	0	0.75	霊気召喚 - 意志 I			全てのデバフ抵抗が$H_W_BAD25%$COLOR_ENDずつ減少します。	icon_skills.energiesofwillpower_tex	icon_skills.energiesofwillpower_tex	True
 701604	Absorb	Buff	True	swch	5000	0	5395	ガードスピリット I			召喚された霊気が最大$H_W_GOOD5395$COLOR_ENDのダメージを無効化します。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
 701605	HPChange	Buff	True	abs	15000	2	529	ガードスピリット I			召喚された霊気により$H_W_GOOD2s$COLOR_END毎にHPが$H_W_GOOD529$COLOR_END回復します。	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
-701606	Absorb	Buff	True	swch	5000	0	7149	ガードスピリット II			召喚された霊気が最大$H_W_GOOD7149$COLOR_ENDのダメージを無効化します。最大値を超えると持続時間に関わらず即解除されます。	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
+701606	KnockDownChance	Buff	True	perc	3000	0	0	ガードスピリット II			召喚された霊気の加護により、ダウン/硬直しません。	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
 701607	HPChange	Buff	True	abs	15000	2	700	ガードスピリット II			召喚された霊気により$H_W_GOOD2s$COLOR_END毎にHPが$H_W_GOOD700$COLOR_END回復します。	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
 701700	Endurance	Debuff	False	perc	20000	0	0.95	デッドインフェクション I			20s間、解除不可のウィルス感染源になります。耐久力が $H_W_BAD5%$COLOR_END減少し、周囲7ｍ内の味方に疫病を伝染します。	icon_skills.plague_tex	icon_skills.plague_tex	True
 701700	Plague	Debuff	False	perc	20000	0	701800	デッドインフェクション I			20s間、解除不可のウィルス感染源になります。耐久力が $H_W_BAD5%$COLOR_END減少し、周囲7ｍ内の味方に疫病を伝染します。	icon_skills.plague_tex	icon_skills.plague_tex	True
@@ -3896,66 +3923,66 @@
 702200	IncreasedHeal	Buff	True	perc	3000	1	1.15	回復増幅			回復増幅効果を受け、しばらく間受けるHP回復量が15％増加します。	icon_skills.healshot_tex	icon_skills.healshot_tex	True
 702201	AtkPotion	Debuff	False	perc	3000	1	0.925	リカバリーバレット X			破滅効果により、しばらく間、攻撃力が7.5％減少します。	icon_skills.healshot_tex	icon_skills.healshot_tex	True
 702202	AtkPotion	Debuff	False	perc	5000	1	0.85	ミスティックボール			破滅効果が増幅され、しばらく間、攻撃力が15%減少します。	icon_skills.mysticorb_tex	icon_skills.healshot_tex	True
-702301	CDR	Buff	True	swch	60000	0	0.9995	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.05%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702302	CDR	Buff	True	swch	60000	1	0.999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.1%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702303	CDR	Buff	True	swch	60000	1	0.9985	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.15%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702304	CDR	Buff	True	swch	60000	1	0.998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.2%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702305	CDR	Buff	True	swch	60000	1	0.9975	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.25%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702306	CDR	Buff	True	swch	60000	1	0.997	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702307	CDR	Buff	True	swch	60000	1	0.9965	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.35%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702308	CDR	Buff	True	swch	60000	1	0.996	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.4%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702309	CDR	Buff	True	swch	60000	1	0.9955	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.45%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702310	CDR	Buff	True	swch	60000	1	0.995	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702311	CDR	Buff	True	swch	60000	1	0.9945	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.55%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702312	CDR	Buff	True	swch	60000	1	0.994	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.6%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702313	CDR	Buff	True	swch	60000	1	0.9935	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.65%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702314	CDR	Buff	True	swch	60000	1	0.993	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.7%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702315	CDR	Buff	True	swch	60000	1	0.9925	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.75%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702316	CDR	Buff	True	swch	60000	1	0.992	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.8%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702317	CDR	Buff	True	swch	60000	1	0.9915	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.85%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702318	CDR	Buff	True	swch	60000	1	0.991	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.9%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702319	CDR	Buff	True	swch	60000	1	0.9905	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD0.95%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702320	CDR	Buff	True	swch	60000	1	0.99	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702321	CDR	Buff	True	swch	60000	1	0.989499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.05%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702322	CDR	Buff	True	swch	60000	1	0.988999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.1%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702323	CDR	Buff	True	swch	60000	1	0.988499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.15%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702324	CDR	Buff	True	swch	60000	1	0.987999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.2%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702325	CDR	Buff	True	swch	60000	1	0.987499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.25%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702326	CDR	Buff	True	swch	60000	1	0.986999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702327	CDR	Buff	True	swch	60000	1	0.986499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.35%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702328	CDR	Buff	True	swch	60000	1	0.985999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.4%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702329	CDR	Buff	True	swch	60000	1	0.985499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.45%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702330	CDR	Buff	True	swch	60000	1	0.984999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702331	CDR	Buff	True	swch	60000	1	0.984499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.55%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702332	CDR	Buff	True	swch	60000	1	0.983999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.6%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702333	CDR	Buff	True	swch	60000	1	0.983499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.65%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702334	CDR	Buff	True	swch	60000	1	0.982999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.7%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702335	CDR	Buff	True	swch	60000	1	0.982499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.75%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702336	CDR	Buff	True	swch	60000	1	0.981999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.8%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702337	CDR	Buff	True	swch	60000	1	0.981499999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.85%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702338	CDR	Buff	True	swch	60000	1	0.980999999999999	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.9%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702339	CDR	Buff	True	swch	60000	1	0.980499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD1.95%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702340	CDR	Buff	True	swch	60000	1	0.979999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702341	CDR	Buff	True	swch	60000	1	0.979499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.05%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702342	CDR	Buff	True	swch	60000	1	0.978999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.1%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702343	CDR	Buff	True	swch	60000	1	0.978499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.15%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702344	CDR	Buff	True	swch	60000	1	0.977999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.2%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702345	CDR	Buff	True	swch	60000	1	0.977499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.25%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702346	CDR	Buff	True	swch	60000	1	0.976999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702347	CDR	Buff	True	swch	60000	1	0.976499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.35%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702348	CDR	Buff	True	swch	60000	1	0.975999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.4%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702349	CDR	Buff	True	swch	60000	1	0.975499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.45%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702350	CDR	Buff	True	swch	60000	1	0.974999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702351	CDR	Buff	True	swch	60000	1	0.974499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.55%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702352	CDR	Buff	True	swch	60000	1	0.973999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.6%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702353	CDR	Buff	True	swch	60000	1	0.973499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.65%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702354	CDR	Buff	True	swch	60000	1	0.972999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.7%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702355	CDR	Buff	True	swch	60000	1	0.972499999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.75%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702356	CDR	Buff	True	swch	60000	1	0.971999999999998	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.8%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702357	CDR	Buff	True	swch	60000	1	0.971499999999997	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.85%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702358	CDR	Buff	True	swch	60000	1	0.970999999999997	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.9%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702359	CDR	Buff	True	swch	60000	1	0.970499999999997	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.95%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-702360	CDR	Buff	True	swch	60000	1	0.969999999999997	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702301	CDR	Buff	True	swch	60000	0	0.9795	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.05%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702302	CDR	Buff	True	swch	60000	1	0.979	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.1%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702303	CDR	Buff	True	swch	60000	1	0.9785	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.15%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702304	CDR	Buff	True	swch	60000	1	0.978	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.2%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702305	CDR	Buff	True	swch	60000	1	0.9775	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.25%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702306	CDR	Buff	True	swch	60000	1	0.977	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702307	CDR	Buff	True	swch	60000	1	0.9765	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.35%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702308	CDR	Buff	True	swch	60000	1	0.976	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.4%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702309	CDR	Buff	True	swch	60000	1	0.9755	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.45%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702310	CDR	Buff	True	swch	60000	1	0.975	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702311	CDR	Buff	True	swch	60000	1	0.9745	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.55%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702312	CDR	Buff	True	swch	60000	1	0.974	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.6%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702313	CDR	Buff	True	swch	60000	1	0.9735	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.65%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702314	CDR	Buff	True	swch	60000	1	0.973	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.7%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702315	CDR	Buff	True	swch	60000	1	0.9725	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.75%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702316	CDR	Buff	True	swch	60000	1	0.972	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.8%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702317	CDR	Buff	True	swch	60000	1	0.9715	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.85%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702318	CDR	Buff	True	swch	60000	1	0.971	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.9%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702319	CDR	Buff	True	swch	60000	1	0.9705	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD2.95%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702320	CDR	Buff	True	swch	60000	1	0.97	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702321	CDR	Buff	True	swch	60000	1	0.9695	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.05%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702322	CDR	Buff	True	swch	60000	1	0.969	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.1%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702323	CDR	Buff	True	swch	60000	1	0.9685	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.15%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702324	CDR	Buff	True	swch	60000	1	0.968	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.2%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702325	CDR	Buff	True	swch	60000	1	0.9675	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.25%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702326	CDR	Buff	True	swch	60000	1	0.967	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702327	CDR	Buff	True	swch	60000	1	0.9665	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.35%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702328	CDR	Buff	True	swch	60000	1	0.966	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.4%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702329	CDR	Buff	True	swch	60000	1	0.9655	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.45%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702330	CDR	Buff	True	swch	60000	1	0.965	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702331	CDR	Buff	True	swch	60000	1	0.9645	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.55%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702332	CDR	Buff	True	swch	60000	1	0.964	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.6%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702333	CDR	Buff	True	swch	60000	1	0.9635	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.65%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702334	CDR	Buff	True	swch	60000	1	0.963	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.7%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702335	CDR	Buff	True	swch	60000	1	0.9625	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.75%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702336	CDR	Buff	True	swch	60000	1	0.962	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.8%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702337	CDR	Buff	True	swch	60000	1	0.9615	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.85%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702338	CDR	Buff	True	swch	60000	1	0.961	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.9%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702339	CDR	Buff	True	swch	60000	1	0.9605	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3.95%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702340	CDR	Buff	True	swch	60000	1	0.96	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702341	CDR	Buff	True	swch	60000	1	0.9595	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.05%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702342	CDR	Buff	True	swch	60000	1	0.959	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.1%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702343	CDR	Buff	True	swch	60000	1	0.9585	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.15%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702344	CDR	Buff	True	swch	60000	1	0.958	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.2%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702345	CDR	Buff	True	swch	60000	1	0.9575	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.25%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702346	CDR	Buff	True	swch	60000	1	0.957	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.3%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702347	CDR	Buff	True	swch	60000	1	0.9565	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.35%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702348	CDR	Buff	True	swch	60000	1	0.956	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.4%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702349	CDR	Buff	True	swch	60000	1	0.9555	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.45%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702350	CDR	Buff	True	swch	60000	1	0.955	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702351	CDR	Buff	True	swch	60000	1	0.9545	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.55%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702352	CDR	Buff	True	swch	60000	1	0.954	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.6%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702353	CDR	Buff	True	swch	60000	1	0.9535	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.65%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702354	CDR	Buff	True	swch	60000	1	0.953	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.7%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702355	CDR	Buff	True	swch	60000	1	0.9525	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.75%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702356	CDR	Buff	True	swch	60000	1	0.952	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.8%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702357	CDR	Buff	True	swch	60000	1	0.9515	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.85%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702358	CDR	Buff	True	swch	60000	1	0.951	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.9%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702359	CDR	Buff	True	swch	60000	1	0.9505	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD4.95%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+702360	CDR	Buff	True	swch	60000	1	0.95	雷電の力			雷電の力を受けクールタイムが$H_W_GOOD5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
 757001	Plague	Buff	False	setp	5000	5	0	見えてはいけない			見えてはいけない	icon_status.firedamage_tex	icon_status.firedamage_tex	False
 757002	ASpd	Buff	False	perc	0	0	1	燃え上がれ			ゴーレムの怒りによって、周囲が熱気に包まれます。半径21m以内にいる対象は「熱気」状態になります。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 757002	Plague	Buff	False	setp	0	2	757004	燃え上がれ			ゴーレムの怒りによって、周囲が熱気に包まれます。半径21m以内にいる対象は「熱気」状態になります。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -5245,11 +5272,11 @@
 3012010	CritResist	Buff	True	perc	1800000	0	1.4	訓練所バフ（エレメンタリスト）			レイジオーラIII、インサニティーオーラIII、フォグオーラIV、耐久力増加効果が持続され、サンダーエレメントバフが18秒ごとに、デストラクションエレメントバフが60秒ごとに適用されます。	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
 3012010	ASpd	Buff	True	abs	1800000	0	9.6	訓練所バフ（エレメンタリスト）			レイジオーラIII、インサニティーオーラIII、フォグオーラIV、耐久力増加効果が持続され、サンダーエレメントバフが18秒ごとに、デストラクションエレメントバフが60秒ごとに適用されます。	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
 3012010	CritPower1	Buff	True	abs	20000	0	0.6	訓練所バフ（エレメンタリスト）			レイジオーラIII、インサニティーオーラIII、フォグオーラIV、耐久力増加効果が持続され、サンダーエレメントバフが18秒ごとに、デストラクションエレメントバフが60秒ごとに適用されます。	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
-3012010	CDR	Buff	True	swch	1800000	1	0.969999999999997	訓練所バフ（エレメンタリスト）			レイジオーラIII、インサニティーオーラIII、フォグオーラIV、耐久力増加効果が持続され、サンダーエレメントバフが18秒ごとに、デストラクションエレメントバフが60秒ごとに適用されます。	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
+3012010	CDR	Buff	True	swch	1800000	1	0.95	訓練所バフ（エレメンタリスト）			レイジオーラIII、インサニティーオーラIII、フォグオーラIV、耐久力増加効果が持続され、サンダーエレメントバフが18秒ごとに、デストラクションエレメントバフが60秒ごとに適用されます。	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
 3012010	BuffNearbyParty	Buff	True	seta	1800000	18	3012011	訓練所バフ（エレメンタリスト）			レイジオーラIII、インサニティーオーラIII、フォグオーラIV、耐久力増加効果が持続され、サンダーエレメントバフが18秒ごとに、デストラクションエレメントバフが60秒ごとに適用されます。	icon_skills.summonspiritking_tex	icon_skills.summonspiritking_tex	True
 3012011	Power	Buff	True	abs	12000	0	15	訓練所バフ（サンダーエレメント）			サンダーエレメントの加護により、力が15増加します。	icon_skills.summonspiritofrange2_tex	icon_skills.summonspiritofrange2_tex	True
 3012012	CritPower1	Buff	True	abs	20000	0	0.6	訓練所バフ（デストラクションエレメント）			デストラクションエレメントの加護により、クリティカル威力が0.6増加します。	icon_skills.summonspiritofattack2_tex	icon_skills.summonspiritofattack2_tex	True
-3012013	CDR	Buff	True	swch	1800000	1	0.969999999999997	訓練所_雷電の力			雷電の力を受けクールタイムが$H_W_GOOD3％$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
+3012013	CDR	Buff	True	swch	1800000	1	0.95	訓練所_雷電の力			雷電の力を受けクールタイムが$H_W_GOOD5%$COLOR_END減少します。	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
 3012020	Endurance	Debuff	False	perc	1800000	0	0.88	アーマーブレイク II			耐久力が$H_W_BAD12%$COLOR_END減少します。また、PvP時、重複と関係なくHP回復効果が$H_W_BAD 30％$COLOR_END減少します。	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
 3036001	HPLoss	Debuff	False	abs	1000	0	-10000000	逆らえぬ恐怖			闇のオーラの重複数が10となり、$H_W_BAD逆らえぬ恐怖$COLOR_ENDにとらわれます。 	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 3036002	Endurance	Debuff	True	perc	600000	0	0.3	闇を恐れる者			闇の効果を受けることができないため、ダルカンがあなたを注意深く見ています。防御力が70％減少します。	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
@@ -6144,7 +6171,7 @@
 10151040	ReloadingSkill	Buff	True	perc	2000	0	90011	チェーンスロー			このバフが見えたらバグを申告！	icon_skills.shieldattack_tex	icon_skills.chainflurry_tex	False
 10151041	ReloadingSkill	Buff	True	perc	2000	0	90011	チェーンスロー				icon_skills.shieldattack_tex	icon_skills.shieldattack_tex	False
 10151042	ReloadingSkill	Buff	True	perc	2000	0	90011	ダークウィップ				icon_skills.chainflurry_tex	icon_skills.chainflurry_tex	False
-10151045	1010	Buff	True	abs	30000	0	0.1	ダークウィップ			魔法抵抗無視が$calcValue(multiple,1010,0,3)増加します。$BR最大16回まで重複します。	icon_skills.chainflurry_tex	icon_skills.chainflurry_tex	True
+10151045	1010	Buff	True	abs	30000	0	0.1	ダークウィップ			魔法抵抗無視が$calcValue(multiple,1010,0,3)増加します。$BR最大8回まで重複します。	icon_skills.chainflurry_tex	icon_skills.chainflurry_tex	True
 10151050	MovSpd	Debuff	False	setp	3000	0	0	バックスラッシュ			あごを打たれて一時的に移動ができない状態になりました。この効果はモンスターにのみ適用されます。	icon_skills.chainuppercut_tex	icon_skills.chainuppercut_tex	True
 10151050	MovSpdInCombat	Debuff	False	setp	3000	0	0	バックスラッシュ			あごを打たれて一時的に移動ができない状態になりました。この効果はモンスターにのみ適用されます。	icon_skills.chainuppercut_tex	icon_skills.chainuppercut_tex	True
 10151050	HPDrain	Debuff	False	perc	3000	0	0	バックスラッシュ			あごを打たれて一時的に移動ができない状態になりました。この効果はモンスターにのみ適用されます。	icon_skills.chainuppercut_tex	icon_skills.chainuppercut_tex	True
@@ -6293,7 +6320,7 @@
 10152300	ForceCrit	Buff	True	swch	0	0	0	ヘルファイア			クリティカル発生率が2倍、後方攻撃判定が適用されます。	icon_skills.carpetbombing_tex	icon_skills.carpetbombing_tex	True
 10152301	Block	Buff	True	swch	0	0	0	電荷逆流使用不可			見えない異常状態	icon_skills.carpetbombing_tex	icon_skills.carpetbombing_tex	False
 10152302	AtkPotion	Buff	True	perc	5000	0	3	殲滅			アナイアレイトでアルケイン素子破壊時、アルケイン素子のダメージが3倍に増加します。	icon_skills.arcanepieces_tex	icon_skills.arcanepieces_tex	True
-10152303	AtkPotion	Buff	True	perc	5000	0	2	集約			集約されたアルケインバーストでアルケイン素子破壊時、アルケイン素子のダメージが2倍に増加します。	icon_skills.arcanepieces_tex	icon_skills.arcanepieces_tex	True
+10152303	AtkPotion	Buff	True	perc	5000	0	2	集約			アルケイン素子破壊時、アルケイン素子のダメージが2倍に増加します。	icon_skills.arcanepieces_tex	icon_skills.arcanepieces_tex	True
 10152330	ReloadingSkill	Buff	True	perc	1800	0	91043	アルケインレイザー1打使用後、2打がすぐ使用できないようにするため。			見えない異常状態			False
 10152330	334	Buff	True	swch	1800	0	430100	アルケインレイザー1打使用後、2打がすぐ使用できないようにするため。			見えない異常状態			False
 10152331	ReloadingSkill	Buff	True	perc	1800	0	91043	エクスプローシブレーザー				icon_skills.arcanebeam_tex	icon_skills.arcanebeam_tex	False
@@ -6348,8 +6375,9 @@
 10153121	286	Buff	True	perc	120000	0	2	アーシャの祈祷			ティアランがアーシャの最後の祈りに応えています。$BR $BRアーシャの祈祷により、5分間下記の効果を得ます。$BR-力が$H_W_GOOD80$COLOR_END増加$BR-耐久力が$H_W_GOOD10$COLOR_END増加$BR-攻撃速度が$H_W_GOOD20%$COLOR_END増加$BR-戦闘中の移動速度が$H_W_GOOD10$COLOR_END増加$BR-1秒毎にHP/MPが$H_W_GOOD5%$COLOR_END回復$BR$BRこの効果は現在の場所から離れると解除されます。	icon_status.holybless_tex	icon_status.holybless_tex	False
 10153140	Endurance	Debuff	False	perc	20000	0	0.96	テンペスト			耐久力が$H_W_BAD4%$COLOR_END減少します。この効果は3回まで重複します。	icon_skills.rapidattack_tex	icon_skills.rapidattack_tex	True
 10153141	Endurance	Debuff	False	perc	20000	0	0.92	内出血			内出血を受け耐久力が$H_W_BAD8%$COLOR_END減少します。	icon_skills.ribbreaker_tex	icon_skills.ribbreaker_tex	True
-10153142	Endurance	Debuff	False	perc	20000	0	0.88	テンペスト			耐久力が$H_W_BAD12%$COLOR_END、物理抵抗が$calcValue(multiple,1003,0,3)減少します。	icon_skills.rapidattack_tex	icon_skills.breakphysicaldef_tex	True
-10153142	1003	Debuff	False	abs	20000	0	0	テンペスト			耐久力が$H_W_BAD12%$COLOR_END、物理抵抗が$calcValue(multiple,1003,0,3)減少します。	icon_skills.rapidattack_tex	icon_skills.breakphysicaldef_tex	True
+10153142	Endurance	Debuff	False	perc	20000	0	0.88	テンペスト			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3) 減少します。	icon_skills.rapidattack_tex	icon_skills.breakphysicaldef_tex	True
+10153142	1003	Debuff	False	abs	20000	0	0	テンペスト			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3) 減少します。	icon_skills.rapidattack_tex	icon_skills.breakphysicaldef_tex	True
+10153142	1004	Debuff	False	abs	20000	0	0	テンペスト			耐久力が$H_W_BAD12%$COLOR_END、物理・魔法抵抗が$calcValue(multiple,1003,0,3) 減少します。	icon_skills.rapidattack_tex	icon_skills.breakphysicaldef_tex	True
 10153150	239	Buff	True	perc	8000	0	1	ドッジ			ドッジをもう一度使用できます。	icon_skills.instancerush_tex	icon_skills.instancerush_tex	True
 10153150	334	Buff	True	swch	8000	0	400100	ドッジ			ドッジをもう一度使用できます。	icon_skills.instancerush_tex	icon_skills.instancerush_tex	True
 10153180	330	Buff	True	swch	20000	0	0	ブラストゼロ						False
@@ -6360,8 +6388,8 @@
 10153193	ReloadingSkill	Buff	True	abs	4000	0	92026	若干早くなる						False
 10153194	ReloadingSkill	Buff	True	abs	4000	0	92026	若干早くなる						False
 10153195	ReloadingSkill	Buff	True	abs	4000	0	92026	若干早くなる						False
-10153210	Power	Buff	True	perc	4000	0	1.08	ヘカトンケイル連携			続けて「ヘカトンケイル」を使用できます。力が8％、攻撃速度が8％上昇します。	icon_skills.dampseyroll_tex	icon_skills.dampseyroll_tex	True
-10153211	ASpd	Buff	True	perc	4000	0	1.08	加速			攻撃速度が8％上昇します。	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
+10153210	Power	Buff	True	perc	4000	0	1.3	ヘカトンケイル連携			力と攻撃速度が30%増加します。	icon_skills.dampseyroll_tex	icon_skills.dampseyroll_tex	True
+10153211	ASpd	Buff	True	perc	4000	0	1.3	加速			攻撃速度が8％上昇します。	icon_skills.hprefresher_tex	icon_skills.hprefresher_tex	False
 10153212	ReloadingSkill	Buff	True	abs	3000	0	92026	ヘカトンケイル中断			効果時間中、ヘカトンケイルの連打ができなくなります。	icon_skills.dampseyroll_tex	icon_skills.dampseyroll_tex	True
 10153213	ReloadingSkill	Buff	True	abs	3000	0	92026	ヘカトンケイル中断			効果時間中、ヘカトンケイルの連打ができなくなります。	icon_skills.dampseyroll_tex	icon_skills.dampseyroll_tex	True
 10153503	209	Buff	True	perc	5000	0	0	ダウンキック使用可能			「ダウンキック」を使用できます。	icon_skills.kick2_tex	icon_skills.kick2_tex	True
@@ -7245,7 +7273,7 @@
 30411005	StackCounter	Stun	False	seta	3000	0	31010223	リトルデーモン化1段階			堕落した魂を吸収したダルニーヴがより強力になります。			True
 30411007	StackCounter	Buff	True	swch	0	0	30411026	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
 30411008	MovSpd	Buff	True	perc	60000	0	0.9	ソウルロア			純粋な魂に触れた罰として、しばらくの間移動速度が減少します。	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
-30411013	Immune	Debuff	True	21	0	0	0	（臨時）悪魔無敵			ダルニーヴが悪魔の力を爆発させ、瞬間的に強化されます。			True
+30411013	Immune	Debuff	True	21	0	0	0	（臨時）悪魔無敵			ダルニーヴが悪魔の力を爆発させ、瞬間的に強化されます。			False
 30411019	MaxMP	Buff	True	perc	10000	0	1	誘引の鎖（縛）			悪魔と鎖で繋がりました。繋がった場合、3秒以内に仲間からダメージを受けると解除できます。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
 30411019	112	Buff	True	swch	10000	0	30411016	誘引の鎖（縛）			悪魔と鎖で繋がりました。繋がった場合、3秒以内に仲間からダメージを受けると解除できます。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
 30411021	Power	Buff	True	perc	30000	0	0.87	純粋な魂の力 1			純粋な魂が集い、悪魔の力が弱まります。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
@@ -7263,16 +7291,16 @@
 30411025	Power	Buff	True	perc	30000	0	0.5	純粋な魂の力 5			純粋な魂が集い、悪魔の力が弱まります。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
 30411025	Endurance	Buff	True	perc	30000	0	0.8	純粋な魂の力 5			純粋な魂が集い、悪魔の力が弱まります。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
 30411025	MovSpd	Buff	True	perc	30000	0	0.8	純粋な魂の力 5			純粋な魂が集い、悪魔の力が弱まります。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411026	Power	Buff	True	perc	0	0	1.2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411026	Endurance	Buff	True	perc	0	0	1.2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411027	Power	Buff	True	perc	0	0	1.4	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411027	Endurance	Buff	True	perc	0	0	1.4	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411028	Power	Buff	True	perc	0	0	1.6	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411028	Endurance	Buff	True	perc	0	0	1.6	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411029	Power	Buff	True	perc	0	0	1.8	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411029	Endurance	Buff	True	perc	0	0	1.8	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411030	Power	Buff	True	perc	0	0	2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
-30411030	Endurance	Buff	True	perc	0	0	2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
+30411026	Power	Buff	True	perc	0	0	1.2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411026	Endurance	Buff	True	perc	0	0	1.2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411027	Power	Buff	True	perc	0	0	1.4	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411027	Endurance	Buff	True	perc	0	0	1.4	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411028	Power	Buff	True	perc	0	0	1.6	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411028	Endurance	Buff	True	perc	0	0	1.6	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411029	Power	Buff	True	perc	0	0	1.8	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411029	Endurance	Buff	True	perc	0	0	1.8	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411030	Power	Buff	True	perc	0	0	2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
+30411030	Endurance	Buff	True	perc	0	0	2	堕落した魂吸収			ダルニーヴが堕落した魂を吸収する。$H_W_GOOD2個$COLOR_END吸収する毎にダルニーヴがより強くなる。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	False
 30411031	Power	Buff	True	perc	0	0	1	純粋な魂の力 吸収 1			悪魔の誘惑にも惑わらない純粋な魂を吸収しました。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
 30411032	Power	Buff	True	perc	0	0	1	純粋な魂の力 吸収 2			悪魔の誘惑にも惑わらない純粋な魂を吸収しました。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
 30411033	Power	Buff	True	perc	0	0	1	純粋な魂の力 吸収 3			悪魔の誘惑にも惑わらない純粋な魂を吸収しました。	icon_status.descentofdarkness3_tex	icon_status.descentofdarkness3_tex	True
@@ -7394,7 +7422,6 @@
 31029002	Attack	Buff	True	perc	180000	0	1.01	ソウルドレイン			重複する毎に与ダメージと防御力が$H_W_GOOD1％$COLOR_ENDずつ増加します。	icon_status.plusdiseaseresist_tex	icon_status.plusdiseaseresist_tex	True
 31030000	DelayedEffect	Buff	True	swch	10000	0	31030002	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 31030000	Absorb	Buff	True	swch	10000	0	400000000	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-31030001	StunKnockDown	Stun	True	swch	5000	0	6	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
 31030002	Endurance	Buff	True	perc	1000	0	1	集中			仲間が弱まった隙に強力な技を発動させるために不吉なオーラを集めています。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
 31030006	AtkPotion	Buff	True	perc	900000	0	1.1	蓄積			不吉なオーラの一部を吸収し、強化されました。10重複時、蓄積したオーラを開放してさらに強力になります。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
 31030006	StackCounter	Buff	True	seta	900000	0	31030007	蓄積			不吉なオーラの一部を吸収し、強化されました。10重複時、蓄積したオーラを開放してさらに強力になります。	icon_status.archerspirit_tex	icon_status.archerspirit_tex	True
@@ -7462,6 +7489,20 @@
 31060003	StackCounter	Stun	False	seta	15000	0	32060016	凍てつく冷気			冷気によって、移動速度が減少します。10重複時、全身が凍ってしまい、身動きできません。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
 31060005	Power	Buff	True	perc	0	0	1	不死の力			痛みを感じない状態。一定量のダメージを受けると解除されます。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 31060005	Absorb	Buff	True	swch	0	0	720000000	不死の力			痛みを感じない状態。一定量のダメージを受けると解除されます。	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+31070004	0	Debuff	True	swch	600000	0	0	死の導			バーンスタインに死を望まれています。$BRすべてのパーティーメンバーに「死の導」が付与されると、バーンスタインの慈悲が消えます。	icon_status.minusconfuseresist_tex	icon_status.minusconfuseresist_tex	True
+31070005	Stun	Debuff	True	swch	30000	0	5	気絶			バーンスタインに検分され動けません。	icon_status.paralyzestatus_tex	icon_status.paralyzestatus_tex	True
+31070008	0	Buff	True	swch	10000	0	0	バリア			バーンスタインの相手に相応しいか分析しています。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	False
+31070009	DelayedEffect	Buff	True	swch	13000	0	31070008	バリア			バーンスタインの相手に相応しいか分析しています。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+31070009	Absorb	Buff	True	swch	13000	0	1750000000	バリア			バーンスタインの相手に相応しいか分析しています。	icon_skills.emergencyshield_tex	icon_skills.emergencyshield_tex	True
+31070010	DelayedEffect	Buff	True	swch	20000	0	31070011	強化バリア			バーンスタインが強力な攻撃を放とうとしている。	icon_skills.emergencyshield2_tex	icon_skills.emergencyshield2_tex	True
+31070011	0	Buff	True	swch	11000	0	0	バリア失敗				icon_status.diseaseup_tex	icon_status.diseaseup_tex	False
+31070012	HPChange	DOT	False	perc	20000	1	-0.04	破裂			強力な衝撃波による傷で、HPが4%ずつ減少します。$BR浄化時、傷が裂けHPが35%減少します。	icon_status.curse_tex	icon_status.curse_tex	True
+31070012	DelayedEffect	DOT	False	swch	20000	0	31070013	破裂			強力な衝撃波による傷で、HPが4%ずつ減少します。$BR浄化時、傷が裂けHPが35%減少します。	icon_status.curse_tex	icon_status.curse_tex	True
+31070013	HPChange	DOT	True	perc	100	1	-0.35	破裂			強力な衝撃波による傷で、HPが4%ずつ減少します。$BR浄化時、傷が裂けHPが35%減少します。	icon_status.curse_tex	icon_status.curse_tex	False
+31070014	Attack	DOT	False	perc	6000	0	0.5	呪い			バーンスタインの力に抑圧され、与えるダメージ量が50%減少します。	icon_status.vergoscurse_tex	icon_status.vergoscurse_tex	True
+31070017	0	DOT	True	swch	30000	0	0	宣告			バーンスタインの次の攻撃のターゲットになります。	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+31070031	Block	Debuff	True	swch	0	0	0	魔力封鎖			バーンスタインの力によりスキルを使用できません。	icon_status.sealskill_tex	icon_status.sealskill_tex	True
+31070033	Fear	Buff	True	swch	1000	0	100	恐怖			悪霊の気配で動きが制限されます。	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 31260001	Endurance	DOT	True	perc	55000	0	1	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	Attack	Debuff	False	seta	0	0	0.75	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	HPChange	DOT	True	perc	55000	2	-0.05	破滅の業火			$H_W_BAD2s$COLOR_END毎に全HPの$H_W_BAD5％$COLOR_ENDが減少し、持続時間が過ぎると対象者は即死します。$BRこの効果は、「破滅の冷氷」でのみ解除することができます。戦闘区域の温度を上昇させます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -7724,28 +7765,24 @@
 40000010	Attack	Debuff	True	perc	10000	0	1	Low_Bタイプ_爆発			異常状態終了時、爆発_ストリング修正必要	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 40000010	DelayedEffect	Debuff	True	seta	10000	0	40000025	Low_Bタイプ_爆発			異常状態終了時、爆発_ストリング修正必要	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 40000012	DelayedEffect	Stun	False	seta	5000	0	40000013	暗黒の鎖			一定の間隔で暗黒の鎖が全身を締め付けます。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
-40000013	MovSpd	Debuff	True	setp	3000	0	0	暗黒の鎖			一定の間隔で暗黒の鎖が全身を締め付けます。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
-40000013	MovSpdInCombat	Debuff	True	setp	3000	0	0	暗黒の鎖			一定の間隔で暗黒の鎖が全身を締め付けます。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
-40000013	HPDrain	Debuff	True	perc	3000	0	0.1	暗黒の鎖			一定の間隔で暗黒の鎖が全身を締め付けます。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
-40000013	Stun	Debuff	True	swch	3000	0	5	暗黒の鎖			一定の間隔で暗黒の鎖が全身を締め付けます。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+40000013	MovSpd	Debuff	True	setp	3000	0	0	暗黒の鎖			暗黒の鎖が全身を囲んで身動きができません。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+40000013	MovSpdInCombat	Debuff	True	setp	3000	0	0	暗黒の鎖			暗黒の鎖が全身を囲んで身動きができません。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+40000013	HPDrain	Debuff	True	perc	3000	0	0.1	暗黒の鎖			暗黒の鎖が全身を囲んで身動きができません。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+40000013	Stun	Debuff	True	swch	3000	0	5	暗黒の鎖			暗黒の鎖が全身を囲んで身動きができません。	icon_status.positionswap_tex	icon_status.positionswap_tex	True
 40000014	271	Debuff	True	swch	10000	0	99920006	連鎖爆発			一定の間隔で共鳴の力が爆発します。ダメージを受けた時、連鎖的に爆発を起こします。	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
-40000018	DelayedEffect	Debuff	True	seta	10000	0	40000023	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	True
-40000018	271	Debuff	True	swch	10000	0	99920008	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	True
-40000022	MovSpd	Debuff	True	setp	10000	0	0	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	False
-40000022	MovSpdInCombat	Debuff	True	setp	10000	0	0	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	False
-40000022	HPDrain	Debuff	True	perc	10000	0	0	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	False
-40000022	AllowAggro	Debuff	True	swch	10000	0	0	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	False
-40000023	201	Debuff	True	swch	10000	0	0	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	False
-40000023	Block	Debuff	True	swch	10000	0	0	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.scald_tex	icon_status.scald_tex	False
+40000018	DelayedEffect	Debuff	True	seta	10000	0	40000023	触手監獄			一定の間隔で触手監獄が発生します。$BR触手監獄を一定時間内に破壊できないと、爆発して周りに強力なダメージを与えます。	icon_status.icon_resonance_common2_tex	icon_status.icon_resonance_common2_tex	True
 40000024	CDR	Debuff	True	swch	0	0	11	High_Aタイプ_復活クールタイム			復活クールタイム10倍	icon_status.staminadown_tex	icon_status.staminadown_tex	True
-40000026	Crit	Debuff	True	perc	0	0	2	必殺			憤怒時、クリティカル率が上昇します。	icon_status.buff_of_kaia_tex	icon_status.buff_of_kaia_tex	True
-40000027	120	Debuff	True	perc	0	1	0.00025	反撃			憤怒時、一定のダメージを反射します。	icon_skills.arouseanger_tex	icon_skills.arouseanger_tex	True
+40000026	Crit	Debuff	True	perc	0	0	2	必殺			憤怒時、クリティカル率が上昇します。	icon_status.icon_resonance_common1_tex	icon_status.icon_resonance_common1_tex	True
+40000027	120	Debuff	True	perc	0	1	-0.00015	反撃			憤怒時、一定のダメージを反射します。	icon_skills.arouseanger_tex	icon_skills.arouseanger_tex	True
 40000028	IncreasedHeal	Debuff	True	abs	0	0	0.7	疫病			共鳴の力により、回復量が30％減少します。	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 40000029	CDR	Debuff	True	swch	0	0	4	死神			共鳴の力により「廻天の祈祷」のクールタイムが増加します。	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 40000032	311	Debuff	True	3126	0	0	402	寄生虫の伝染			死亡時、寄生虫を伝染させます。	icon_status.cruel_slayer_3_tex	icon_status.cruel_slayer_3_tex	True
 40000034	Attack	Debuff	True	perc	120000	0	1	ケルサイクの結晶			シカンダーの力が込められている結晶です。スキル威力が50％上昇します。業火と冷氷に耐性があります。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	False
 40000035	Attack	Debuff	True	perc	120000	0	1	ケルサイクの結晶			シカンダーの力が込められている結晶です。スキル威力が50％上昇します。業火と冷氷に耐性があります。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	False
 40000036	Attack	Debuff	True	perc	120000	0	1	ケルサイクの結晶			シカンダーの力が込められている結晶です。スキル威力が50％上昇します。業火と冷氷に耐性があります。	icon_status.passive_dragonblood	icon_status.passive_dragonblood	False
+40000038	Attack	Buff	True	perc	0	0	1.2	士気高揚			共鳴する力により与ダメージが上昇し、5秒毎にHP、MPが持続回復する。	icon_skills.awakenleaprage_tex	icon_skills.awakenleaprage_tex	True
+40000038	HPChange	Buff	True	perc	0	5	0.2	士気高揚			共鳴する力により与ダメージが上昇し、5秒毎にHP、MPが持続回復する。	icon_skills.awakenleaprage_tex	icon_skills.awakenleaprage_tex	True
+40000038	MPChange	Buff	True	perc	0	5	0.2	士気高揚			共鳴する力により与ダメージが上昇し、5秒毎にHP、MPが持続回復する。	icon_skills.awakenleaprage_tex	icon_skills.awakenleaprage_tex	True
 40002001	HPChange	DOT	False	perc	12000	1	-0.05	火傷			ケルサイクの業火により持続的なダメージを受けます。	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 40002002	MovSpd	Stun	True	setp	5000	0	0	氷結			ケルサイクの激しい冷気により全身が凍ります。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
 40002002	Block	Stun	True	swch	5000	0	0	氷結			ケルサイクの激しい冷気により全身が凍ります。	icon_status.icedamage_tex	icon_status.icedamage_tex	True
