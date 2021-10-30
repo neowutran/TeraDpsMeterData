@@ -2471,6 +2471,7 @@
 101220	IncreasedHeal	Debuff	False	perc	15000	0	0.7	투지의 일격			맷집이 $H_W_BAD8%$COLOR_END 감소되며 HP 회복효과가 $H_W_BAD30%$COLOR_END 감소됩니다.	icon_skills.aggravatingstrike_tex	icon_skills.aggravatingstrike_tex	True
 101300	ASpd	Buff	True	perc	27000	0	1.009	무쌍난무 : 찌르기			매 중첩 시마다 공격자의 공격속도가 0.9%씩 증가합니다. 이 효과는 최대 13번까지 중첩됩니다.	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex	True
 101301	ASpd	Buff	True	perc	27000	0	1.009	무쌍난무 : 찌르기			매 중첩 시마다 공격자의 공격속도가 0.9%씩 증가합니다. 이 효과는 최대 13번까지 중첩됩니다.	icon_skills.dualrapidpiercing_tex	icon_skills.dualrapidpiercing_tex	True
+101302	Endurance	Buff	True	perc	1000	0	1	칼날의 결의 IV				icon_skills.ironwilla_tex	icon_skills.ironwilla_tex	False
 101400	MovSpd	Debuff	False	setp	3000	0	0.5	근성 연타			이동 속도가 $H_W_BAD50%$COLOR_END 감소됩니다.	icon_skills.tenaciousattack_tex	icon_skills.tenaciousattack_tex	True
 101400	HPDrain	Debuff	False	perc	3000	0	0.7	근성 연타			이동 속도가 $H_W_BAD50%$COLOR_END 감소됩니다.	icon_skills.tenaciousattack_tex	icon_skills.tenaciousattack_tex	True
 101500	DefPotion	Debuff	False	perc	15000	0	1.25	파열			질풍 가르기 피격 시 스킬 위력이 $H_W_BAD25%$COLOR_END 증가됩니다.	icon_skills.rupture_tex	icon_skills.rupture_tex	True
@@ -5310,6 +5311,7 @@
 3036004	ASpd	Debuff	True	perc	600000	0	1.3	다르칸의 분노			공격력이 $H_W_GOOD50%$COLOR_END 만큼, 공격속도가 $H_W_GOOD30%$COLOR_END 만큼 증가합니다. 해제할 수 없습니다	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 3036018	MaxHP	Debuff	False	perc	3000	0	1	사망			사망하였습니다.	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 3036035	ASpd	DOT	False	perc	1000	0	1	그을린 상처			해제될 때까지 $H_W_BAD1s$COLOR_END마다 전체 HP 대비 $H_W_BAD10%$COLOR_END에 달하는 HP가 지속적으로 감소됩니다.	icon_crest.crestactiveattackspeeddown_tex	icon_crest.crestactiveattackspeeddown_tex	False
+3050001	Stun	Stun	True	swch	3000	0	5	스턴			스턴에 걸려 움직일 수 없습니다. 지속시간이 종료 되면 해제됩니다.	icon_status.poisonup_tex	icon_status.poisonup_tex	True
 4510004	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	태양의 구슬			태양의 구슬이 따라다닙니다. 평화 상태에서의 이동 속도가 $H_W_GOOD15$COLOR_END 향상됩니다.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510005	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	태양의 구슬			태양의 구슬이 따라다닙니다. 평화 상태에서의 이동 속도가 $H_W_GOOD15$COLOR_END 향상됩니다.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510006	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	태양의 구슬			태양의 구슬이 따라다닙니다. 평화 상태에서의 이동 속도가 $H_W_GOOD15$COLOR_END 향상됩니다.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
@@ -6371,6 +6373,7 @@
 10151131	ReloadingSkill	Buff	True	perc	6000	0	90006	비검 휘두르기 추가 공격			효과 지속 시간 내에 비검 휘두르기 스킬을 한 번 더 사용 가능합니다. 비검 휘두르기 스킬을 사용하거나 지속 시간이 지나면 재사용 시간이 적용됩니다.	icon_skills.chainbrandish_tex	icon_skills.chainbrandish_tex	True
 10151131	334	Buff	True	swch	6000	0	60200	비검 휘두르기 추가 공격			효과 지속 시간 내에 비검 휘두르기 스킬을 한 번 더 사용 가능합니다. 비검 휘두르기 스킬을 사용하거나 지속 시간이 지나면 재사용 시간이 적용됩니다.	icon_skills.chainbrandish_tex	icon_skills.chainbrandish_tex	True
 10151150	ReloadingSkill	Buff	True	perc	3000	0	90012	암흑 폭발			비검이 땅에 꽂힌 상태에서 한 번 더 암흑 폭발 스킬을 사용하면 추가 공격을 사용할 수 있습니다.	icon_skills.darkexplosion_tex	icon_skills.darkexplosion_tex	False
+10151151	ReloadingSkill	Buff	True	perc	1000	0	90012	암흑 폭발 2타 사용 시 쿨타임 적용			보이면 안됨	icon_skills.darkexplosion_tex	icon_skills.darkexplosion_tex	False
 10151160	IncreasedHeal	Debuff	False	swch	10000	0	0.94	비검 회전 칼날			비검에 의해 찢겨진 상처는 쉽게 아물지 않습니다. 중첩당 6%씩 치유량이 감소됩니다.	icon_skills.chainblade_tex	icon_status.injuredbtdarkness_tex	True
 10151169	ForceCrit	Buff	True	seta	4000	0	0	반격			지속 시간동안 몬스터 타격 시 후방 공격 판정을 부여합니다.	icon_skills.counterattack_tex	icon_skills.counterattack_tex	True
 10151170	Immune	Debuff	True	8	1241	0	0	반격			비검사가 반격 태세에 돌입합니다. 일시적으로 모든 이상상태에 면역이 됩니다.	icon_skills.counterattack_tex	icon_skills.counterattack_tex	True
@@ -7965,6 +7968,12 @@
 40000038	Attack	Buff	True	perc	0	0	1.2	사기진작			공명의 힘으로 주는 피해량이 상승하며, 5초마다 HP, MP가 지속 회복되는 상태입니다.	icon_skills.awakenleaprage_tex	icon_skills.awakenleaprage_tex	True
 40000038	HPChange	Buff	True	perc	0	5	0.2	사기진작			공명의 힘으로 주는 피해량이 상승하며, 5초마다 HP, MP가 지속 회복되는 상태입니다.	icon_skills.awakenleaprage_tex	icon_skills.awakenleaprage_tex	True
 40000038	MPChange	Buff	True	perc	0	5	0.2	사기진작			공명의 힘으로 주는 피해량이 상승하며, 5초마다 HP, MP가 지속 회복되는 상태입니다.	icon_skills.awakenleaprage_tex	icon_skills.awakenleaprage_tex	True
+40000041	Crit	Debuff	True	perc	0	0	1.3	필살			분노 시 치명타 확률이 상승합니다.	icon_status.icon_resonance_common1_tex	icon_status.icon_resonance_common1_tex	True
+40000042	120	Debuff	True	perc	0	1	-5E-05	반격			분노 시 일정 대미지를 반사합니다.	icon_skills.arouseanger_tex	icon_skills.arouseanger_tex	True
+40000043	CDR	Debuff	True	swch	0	0	2	사신			공명의 힘으로 부활 스킬의 쿨타임이 증가합니다.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+40000044	IncreasedHeal	Debuff	True	abs	0	0	0.7	역병			공명의 힘으로 받는 회복량이 30% 감소합니다.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+40000045	271	Debuff	True	swch	10000	0	99920009	연쇄폭발			전투 시 일정 시간마다 공명의 힘이 폭발합니다. 피격 시 연쇄적으로 폭발을 일으킵니다.	icon_status.confusestatusnpc_tex	icon_status.confusestatusnpc_tex	True
+40000046	DelayedEffect	Debuff	True	seta	10000	0	40000047	촉수감옥			전투 시 일정 시간마다 촉수 감옥이 스폰됩니다. 촉수 감옥은 일정 시간 내 파괴하지 못할 시 주변에 강력한 대미지를 주며 폭발합니다.	icon_status.icon_resonance_common2_tex	icon_status.icon_resonance_common2_tex	True
 40002001	HPChange	DOT	False	perc	12000	1	-0.05	화상			켈사이크의 강력한 화염에 노출되어 지속적인 피해를 입습니다.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 40002002	MovSpd	Stun	True	setp	5000	0	0	빙결			켈사이크의 강력한 냉기에 노출되어 온 몸이 얼어붙습니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
 40002002	Block	Stun	True	swch	5000	0	0	빙결			켈사이크의 강력한 냉기에 노출되어 온 몸이 얼어붙습니다.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
