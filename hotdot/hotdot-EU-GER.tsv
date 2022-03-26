@@ -2961,12 +2961,12 @@
 301900	Block	Stun	False	swch	2000	0	0	Vernichtung			Ihr wurdet am Kinn getroffen und könnt eine Zeit lang keine Bewegungs- und Ausweichfertigkeiten verwenden.	icon_skills.jawbreaker_tex	icon_skills.jawbreaker_tex	True
 302000	Immune	Buff	True	9	1000	0	0	Beharrlichkeit III			Soll nicht angezeigt werden.	icon_skills.tenacity_tex	icon_status.plusedefence_tex	False
 302100	1009	Buff	True	abs	10000	0	0	Schwachstelle anpeilen			Der Fähigkeitswert von Physische Resistenz ignorieren wird für kurze Zeit um $calcValue(multiple,1009,0,3) erhöht, wenn Ihr die Schwachstelle des Ziels findet.	icon_skills.stingerblade_tex	icon_skills.stingerblade_tex	True
-302204	AtkPotion	Buff	True	perc	10000	0	1.15	Rotationsschlag			Erhöht den Fertigkeitsschaden von Rotationskombo um 15%. Der Effekt wird bei der 3. Verwendung von Rotationskombo aufgehoben.	icon_skills.spinbblade_tex	icon_skills.spinbblade_tex	True
+302204	175	Buff	True	perc	10000	0	1.15	Rotationsschlag			Erhöht den Fertigkeitsschaden von Rotationskombo um 15%. Der Effekt wird bei der 3. Verwendung von Rotationskombo aufgehoben.	icon_skills.spinbblade_tex	icon_skills.spinbblade_tex	True
 302207	335	Buff	True	swch	3000	0	0	Großschwert-Waffenschattierer						False
 302208	190	Buff	True	swch	3000	0	0	Großschwert-Körperschattierer						False
 302211	190	Buff	True	swch	3000	0	0	Großschwert-Körperschattierer						False
-302212	AtkPotion	Buff	True	perc	5000	0	1.2	Meister: Schmettern			Erhöht den Fertigkeitsschaden von Sprungschmetterer um 20%.	icon_skills.masterofswords3_tex	icon_skills.masterofswords3_tex	True
-302213	AtkPotion	Buff	True	perc	5000	0	1.2	Meister: Klingenschritt			Erhöht den Fertigkeitsschaden von Klingenschritt um 20%.	icon_skills.masterofswords2_tex	icon_skills.masterofswords2_tex	True
+302212	175	Buff	True	perc	5000	0	1.3	Meister: Schmettern			Erhöht den Fertigkeitsschaden von Sprungschmetterer um 30%.	icon_skills.masterofswords3_tex	icon_skills.masterofswords3_tex	True
+302213	175	Buff	True	perc	5000	0	1.3	Meister: Klingenschritt			Erhöht den Fertigkeitsschaden von Klingenschritt um 30%.	icon_skills.masterofswords2_tex	icon_skills.masterofswords2_tex	True
 302216	CritChance	Buff	True	perc	20000	0	1.05	Energieverstärkung			Pro Akkumulierung erhöht sich der Fertigkeitsschaden um 5% und der kritische Treffer um 5%.	icon_skills.energyrelease3_tex	icon_skills.energyrelease3_tex	True
 302216	175	Buff	True	perc	20000	0	1.05	Energieverstärkung			Pro Akkumulierung erhöht sich der Fertigkeitsschaden um 5% und der kritische Treffer um 5%.	icon_skills.energyrelease3_tex	icon_skills.energyrelease3_tex	True
 302217	ASpd	Buff	True	perc	20000	0	1.05	Energieabgabe [Verstärkung]			Pro Akkumulierung erhöht sich die Angriffsgeschwindigkeit um 5% und der kritische Treffer um 10%.	icon_skills.energyrelease2_tex	icon_skills.energyrelease2_tex	True
@@ -8061,8 +8061,8 @@
 32061022	Power	Debuff	True	perc	55000	0	1	Raserei			Die Raserei verstärkt sich.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
 32061023	Power	Debuff	True	perc	3000	0	1	Raserei			Die Raserei verstärkt sich.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
 32090002	Stun	Stun	False	swch	5000	0	5	Betäubung			Durch die mächtige Attacke verliert Ihr für kurze Zeit das Gleichgewicht.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
-32090003	HPChange	Buff	False	perc	20000	1	-0.1	Bittere Kälte			Ihr verspürt bittere Kälte. Bei 3 Akkumulierungen, werdet Ihr eingefroren.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
-32090003	StackCounter	Buff	False	seta	20000	0	32090004	Bittere Kälte			Ihr verspürt bittere Kälte. Bei 3 Akkumulierungen, werdet Ihr eingefroren.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32090003	HPChange	Debuff	False	perc	20000	1	-0.1	Bittere Kälte			Ihr verspürt bittere Kälte. Bei 3 Akkumulierungen, werdet Ihr eingefroren.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32090003	StackCounter	Debuff	False	seta	20000	0	32090004	Bittere Kälte			Ihr verspürt bittere Kälte. Bei 3 Akkumulierungen, werdet Ihr eingefroren.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
 32090004	HPChange	Debuff	False	perc	0	1	-0.3	Frost			Ihr wurdet eingefroren. Eure LP wird drastisch verringert.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
 32090005	278	Buff	True	seta	0	0	0	Schleicher			Ihr weicht geschickt fallenden Objekten aus.	icon_skills.rage_tex	icon_skills.rage_tex	True
 32090006	Immune	Buff	True	16	0	0	0	Reaktionsimmunität			Ihr seid immun gegen alle Reaktionen.	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex	True
@@ -8126,7 +8126,7 @@
 32092029	Endurance	Debuff	False	perc	30000	0	0	Auslöschung						False
 32092035	62	Buff	True	seta	0	0	32093005	Helene anlocken			Verbündete, die vom selben Effekt betroffen sind, locken Helene zu sich.			False
 32092035	65	Buff	True	seta	0	0	32093005	Helene anlocken			Verbündete, die vom selben Effekt betroffen sind, locken Helene zu sich.			False
-32092037	HPChange	Buff	False	perc	20000	1	-0.09	Helenes Gift			Das Gift, das in Helenes Körper akkumuliert wurde, während sie das Testobjekt von Durion war.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+32092037	HPChange	Debuff	False	perc	20000	1	-0.09	Helenes Gift			Das Gift, das in Helenes Körper akkumuliert wurde, während sie das Testobjekt von Durion war.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 32092038	Endurance	Buff	False	perc	300000	0	1	Helene verstärken			Helene verstärken	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
 32092042	MovSpd	Debuff	False	perc	10000	0	0.95	Bewegungsgeschwindigkeit verringern			Verringert 10 Sek. lang die Bewegungsgeschwindigkeit			False
 32092043	Endurance	Debuff	False	perc	0	0	1	1. Markierung			Helenes Markierung, um aus dem Boden nach oben zu stürmen.	icon_items.fireworks_num_1_tex	icon_items.fireworks_num_1_tex	True

@@ -2954,12 +2954,12 @@
 301900	Block	Stun	False	swch	2000	0	0	Eviscération			Vous avez été touché au menton et ne pouvez momentanément plus utiliser de compétence de déplacement et d'esquive.	icon_skills.jawbreaker_tex	icon_skills.jawbreaker_tex	True
 302000	Immune	Buff	True	9	1000	0	0	Ténacité III			Ceci n'est pas censé s'afficher.	icon_skills.tenacity_tex	icon_status.plusedefence_tex	False
 302100	1009	Buff	True	abs	10000	0	0	Démasquer le point faible			La valeur d'aptitude d'Ignorer la résistance physique augmente temporairement de $calcValue(multiple,1009,0,3) si vous trouvez le point faible de la cible.	icon_skills.stingerblade_tex	icon_skills.stingerblade_tex	True
-302204	AtkPotion	Buff	True	perc	10000	0	1.15	Frappe rotative			Les dégâts de la compétence combo rotatif augmentent de 15 %. L'effet est levé à la 3e utilisation du combo rotatif.	icon_skills.spinbblade_tex	icon_skills.spinbblade_tex	True
+302204	175	Buff	True	perc	10000	0	1.15	Frappe rotative			Les dégâts de la compétence combo rotatif augmentent de 15 %. L'effet est levé à la 3e utilisation du combo rotatif.	icon_skills.spinbblade_tex	icon_skills.spinbblade_tex	True
 302207	335	Buff	True	swch	3000	0	0	Ombreur d'arme pour espadon						False
 302208	190	Buff	True	swch	3000	0	0	Ombreur de corps pour espadon						False
 302211	190	Buff	True	swch	3000	0	0	Ombreur de corps pour espadon						False
-302212	AtkPotion	Buff	True	perc	5000	0	1.2	Maîtrise : fracasser			Les dégâts de la compétence bond fracassant augmentent de 20%.	icon_skills.masterofswords3_tex	icon_skills.masterofswords3_tex	True
-302213	AtkPotion	Buff	True	perc	5000	0	1.2	Maîtrise : foulée tranchante			Les dégâts de la compétence foulée tranchante augmentent de 20%.	icon_skills.masterofswords2_tex	icon_skills.masterofswords2_tex	True
+302212	175	Buff	True	perc	5000	0	1.3	Maîtrise : fracasser			Les dégâts de la compétence bond fracassant augmentent de 30%.	icon_skills.masterofswords3_tex	icon_skills.masterofswords3_tex	True
+302213	175	Buff	True	perc	5000	0	1.3	Maîtrise : foulée tranchante			Les dégâts de la compétence foulée tranchante augmentent de 30%.	icon_skills.masterofswords2_tex	icon_skills.masterofswords2_tex	True
 302216	CritChance	Buff	True	perc	20000	0	1.05	Amplification d'énergie			À chaque cumul, les dégâts de compétence augmentent de 5 % et les coups critiques de 5 %.	icon_skills.energyrelease3_tex	icon_skills.energyrelease3_tex	True
 302216	175	Buff	True	perc	20000	0	1.05	Amplification d'énergie			À chaque cumul, les dégâts de compétence augmentent de 5 % et les coups critiques de 5 %.	icon_skills.energyrelease3_tex	icon_skills.energyrelease3_tex	True
 302217	ASpd	Buff	True	perc	20000	0	1.05	Rejet d'énergie (amplification)			À chaque cumul, la vitesse d'attaque augmente de 5 % et les coups critiques de 10 %.	icon_skills.energyrelease2_tex	icon_skills.energyrelease2_tex	True
@@ -8054,8 +8054,8 @@
 32061022	Power	Debuff	True	perc	55000	0	1	Frénésie			La frénésie se renforce.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
 32061023	Power	Debuff	True	perc	3000	0	1	Frénésie			La frénésie se renforce.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
 32090002	Stun	Stun	False	swch	5000	0	5	Étourdissement			L'attaque puissante vous fait brièvement perdre l'équilibre.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
-32090003	HPChange	Buff	False	perc	20000	1	-0.1	Froid mordant			Vous ressentez un froid glacial. Au 3e cumul, le gel vous saisit.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
-32090003	StackCounter	Buff	False	seta	20000	0	32090004	Froid mordant			Vous ressentez un froid glacial. Au 3e cumul, le gel vous saisit.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32090003	HPChange	Debuff	False	perc	20000	1	-0.1	Froid mordant			Vous ressentez un froid glacial. Au 3e cumul, le gel vous saisit.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32090003	StackCounter	Debuff	False	seta	20000	0	32090004	Froid mordant			Vous ressentez un froid glacial. Au 3e cumul, le gel vous saisit.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
 32090004	HPChange	Debuff	False	perc	0	1	-0.3	Givre			Vous êtes frigorifié. Vos PV diminuent fortement.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
 32090005	278	Buff	True	seta	0	0	0	Fugace			Vous esquivez habilement les objets qui tombent.	icon_skills.rage_tex	icon_skills.rage_tex	True
 32090006	Immune	Buff	True	16	0	0	0	Immunité réactive			Vous bénéficiez de l'immunité aux ripostes.	icon_skills.guildskills_def_tex	icon_skills.guildskills_def_tex	True
@@ -8119,7 +8119,7 @@
 32092029	Endurance	Debuff	False	perc	30000	0	0	Extinction						False
 32092035	62	Buff	True	seta	0	0	32093005	Attirer Hélène			Les alliés affectés par le même effet attirent Hélène à eux.			False
 32092035	65	Buff	True	seta	0	0	32093005	Attirer Hélène			Les alliés affectés par le même effet attirent Hélène à eux.			False
-32092037	HPChange	Buff	False	perc	20000	1	-0.09	Poison d'Hélène			C'est le poison cumulé dans le corps d'Hélène pendant qu'elle servait de cobaye à Dkurion.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
+32092037	HPChange	Debuff	False	perc	20000	1	-0.09	Poison d'Hélène			C'est le poison cumulé dans le corps d'Hélène pendant qu'elle servait de cobaye à Dkurion.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 32092038	Endurance	Buff	False	perc	300000	0	1	Renforcer Hélène			Renforcer Hélène	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
 32092042	MovSpd	Debuff	False	perc	10000	0	0.95	Vitesse de déplacement réduite			La vitesse de déplacement diminue pendant 10 secondes.			False
 32092043	Endurance	Debuff	False	perc	0	0	1	1er marquage			Ce marquage d'Hélène sert à se ruer du sol vers le haut.	icon_items.fireworks_num_1_tex	icon_items.fireworks_num_1_tex	True
