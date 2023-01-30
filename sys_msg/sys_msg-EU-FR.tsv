@@ -454,7 +454,6 @@
 203	SMT_CANT_ENTER_CHAT_CHANNEL_LEVEL_LIMIT	Les personnages doivent avoir dépassé le niveau {Level} pour pouvoir utiliser ce canal.
 203	SMT_CANT_ENTER_DARKRIFT_DUNGEON	Vous ne pouvez pas entrer dans la Traverse du Nexus. L'un de vos autres personnages y est entré récemment. Temps restant : {Min} minute{@select:{Min}///s} {Sec} seconde{@select:{Sec}///s}.
 203	SMT_CANT_ENTER_DUNGEON_COUNT_LIMIT	Vous avez dépassé le nombre d'autorisations d'entrée dans un donjon.
-203	SMT_CANT_ENTER_DUNGEON_USERACCOUNT_COUNT_LIMIT	La quantité maximale d'entrée à l'instance a été atteinte pour ce compte.
 203	SMT_CANT_ENTER_DUNGEON_PARTY	Cette instance nécessite de faire partie d'un groupe.
 203	SMT_CANT_ENTER_DUNGEON_SOLO	Vous ne pouvez entrer dans ce donjon qu'avec un groupe.
 203	SMT_CANT_ENTER_DUNGEON_UNIONPARTY	Impossible d'entrer dans cette instance en faisant partie d'un raid.
@@ -515,7 +514,6 @@
 203	SMT_CANT_REG_ENCAHT_ITEM	Impossible d'enchanter vos objets (+{number}) via cette méthode.
 203	SMT_CANT_REG_FROM_SHOT_CUT	Vous ne pouvez plus assigner automatiquement de compétences aux raccourcis.
 203	SMT_CANT_REMOVE_CONSUL_CANDIDATE	Vous ne pouvez pas renvoyer un candidat au poste d'Exarque.
-203	SMT_CANT_REQUEST_PARTYWAITING_OFFLINE	La recherche de groupe est uniquement disponible si tous les membres du groupe sont en ligne.
 203	SMT_CANT_SKILL_USER_CONDITION	Vous ne remplissez pas les conditions d'utilisation de cette compétence.
 201	SMT_CANT_SOURCESTONE_ADD	Cet objet ne peut être inséré à cet emplacement.
 302	SMT_CANT_SPAWN_AREA	L'objet {ITEMNAME} ne peut pas être installé ici.
@@ -557,7 +555,6 @@
 203	SMT_CANT_USE_ITEM_NOW	Vous ne pouvez actuellement pas utiliser cet objet.
 302	SMT_CANT_USE_ITEM_UNION_LAWLESS_AREA	Vous ne pouvez pas utiliser {ItemName} dans le territoire d'une alliance.
 203	SMT_CANT_USE_MENUITEM	Vous devez avoir au moins atteint le niveau {Level} pour utiliser {MenuName}.
-203	SMT_CANT_USE_CUSTOM_DISABLED_MENUITEM	Vous ne pouvez pas utiliser ceci pour le moment.
 203	SMT_CANT_USE_PLAYGUIDE	Impossible d'utiliser le menu pour le moment.
 203	SMT_CANT_USE_SKILL_IN_TROUBLED_REGION	Vous ne pouvez pas utiliser cette compétence dans le territoire d'une alliance.
 203	SMT_CANT_USE_SKILL_LIMIT_LEVEL	Votre niveau est trop bas pour pouvoir utiliser cette compétence.
@@ -666,18 +663,18 @@
 201	SMT_CITYWAR_ANNOUNCE_DESTROY_BASE	<font color = '#ff5252'>{guild1}</font> {name} a <font color = '#ff5252'>détruit</font> l'Avant-poste de la guilde <font color = '#ff5252'>{guild2}</font>.
 201	SMT_CITYWAR_OUTPOST_DESTROYED_DUE_TO_LACK_OF_MINIMUM_PERSONNEL	<font color = '#ff5252'>{guild}</font> L'avant-poste de la guilde a automatiquement été détruit en raison d'un nombre trop faible de membres participant à l'exploit.
 203	SMT_NOT_ENOUGH_GUILD_QUEST_POINT_TO_ENTRY_CITYWAR	Vous n'avez pas encore collecté assez d'insignes de Valdérion via les missions de guilde pour pouvoir participer.
-201	SMT_CITYWAR_ANNOUNCE_END	La Guerre de guilde s'achève dans 10 minutes.
+201	SMT_CITYWAR_ANNOUNCE_END	Guerre de Guildes : Ile de l'Aube se termine dans 10 minutes.
 205	SMT_CITYWAR_ANNOUNCE_FIND	{name} a découvert l'Avant-poste de la guilde [{guild}].
-201	SMT_CITYWAR_ANNOUNCE_START	La Guerre de guilde commence dans 10 minutes. Au coup d'envoi, vous serez automatiquement téléporté au point de d'apparition.
-203	SMT_ITEM_CANNOT_USE_NOBASE	Aucun Avant-poste n'a été bâti.
+201	SMT_CITYWAR_ANNOUNCE_START	Guerre de Guildes : Ile de l'Aube commence dans 10 minutes. Vous serez automatiquement téléporté au point de départ lorsque la guerre commencera.
+203	SMT_ITEM_CANNOT_USE_NOBASE	Votre guilde n'a pas construit de tour avant le début de la Guerre de Guildes.
 203	SMT_CITYWAR_BASE_FAIL_AREA	Impossible de bâtir un Avant-poste à cet endroit.
-203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	Construction impossible pendant une Guerre de guilde.
+203	SMT_CITYWAR_BASE_FAIL_DURING_CITYWAR	Les tours de guildes doivent être construites avant que la Guerre de Guildes commence.
 203	SMT_CITYWAR_BASE_FAIL_GROUNDALT	Vous pouvez bâtir votre Avant-poste à un endroit plat ne présentant pas de relief notable dans un rayon de 3 m.
 203	SMT_CITYWAR_BASE_FAIL_MAXALT	Impossible de construire à une altitude trop élevée.
 203	SMT_CITYWAR_BASE_FAIL_MINALT	Impossible de construire à une altitude trop basse.
 203	SMT_CITYWAR_BASE_FAIL_MULTI	Cet endroit accueille déjà un Avant-poste.
 203	SMT_CITYWAR_BASE_FAIL_NO_GUILD	Vous ne faites partie d'aucune guilde.
-203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	La construction est impossible. Une autre guilde possède un avant-poste dans un rayon de 30 m.
+203	SMT_CITYWAR_BASE_FAIL_PROXIMATE	Vous ne pouvez pas construire une tour de guilde à moins de 100m de la tour d'une autre guilde
 203	SMT_CITYWAR_BASE_FAIL_SLOPEALT	L'espace est insuffisant ou la surface est trop pentue pour accueillir un Avant-poste.
 203	SMT_CITYWAR_BASE_NOTEXIST_CELL	L'emplacement choisi est trop pentu pour accueillir un Avant-poste.
 203	SMT_CITYWAR_BASE_FAIL_SYSTEM_GUILD	Une guilde système ne peut pas bâtir d'Avant-poste.
@@ -686,23 +683,23 @@
 203	SMT_CITYWAR_BASE_WARNING_UNDERATTACK	Les ennemis attaquent l'Avant-poste.
 202	SMT_CITYWAR_BOSS_APPEAR	{title} <font color = '#fcb7ff'>{npcname}</font> a fait son apparition.
 202	SMT_CITYWAR_BOSS_DEATH	<font color = '#fcb7ff'>{guild}</font>{name} a vaincu <font color = '#fcb7ff'>{npcname}</font>.
-202	SMT_CITYWAR_END_FREE	<font color = '#e4e4e4'>La Guerre de guilde s'est achevée. </font><BR><font color = '#f7ff7a'>{cityname} est libérée.</font>
-202	SMT_CITYWAR_END_LAST_BASE	<font color = '#e4e4e4'>La Guerre de guilde s'est achevée. </font> La guilde<BR><font color = '#f7ff7a'>{guild} l'a emporté !</font>
+202	SMT_CITYWAR_END_FREE	<font color = '#e4e4e4'>Guerre de Guildes : Ile de l'Aube est terminé.</font><BR><font color = '#f7ff7a'>{cityname} est libéré.</font>
+202	SMT_CITYWAR_END_LAST_BASE	<font color = '#e4e4e4'>Guerre de Guildes : Ile de l'Aube est terminé.</font><BR><font color = '#f7ff7a'>{guild} a gagné!</font>
 202	SMT_CITYWAR_END_REMOVE_BASE	Les Avant-postes seront automatiquement démontés pour la Guerre de guilde suivante.
-203	SMT_CITYWAR_FAIL_ENTER_CLOSE	Les contenus de Guerre de guilde sont désactivés.
-203	SMT_CITYWAR_FAIL_ENTER_OUTLAW	Vous ne pouvez pas entrer en étant hors-la-loi.
-203	SMT_CITYWAR_FAIL_ENTER_BAN	Cette guilde n'est pas autorisée à rejoindre une Guerre de guilde. Merci de vous adresser à notre service client.
-203	SMT_CITYWAR_FAIL_ENTER_LEVEL	L'accès à cette région est réservé aux personnages de niveau 11 et plus.
-203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	Pendant la Guerre de guilde, l'accès est réservé aux membres de guilde ayant bâti un Avant-poste.
+203	SMT_CITYWAR_FAIL_ENTER_CLOSE	Guerre de Guildes : Ile de l'Aube est inactive pour le moment.
+203	SMT_CITYWAR_FAIL_ENTER_OUTLAW	Vous ne pouvez pas entrer dans la Guerre de Guildes : Ile de l'Aube quand la compétence Déclaration de hors-la-loi est activé.
+203	SMT_CITYWAR_FAIL_ENTER_BAN	Votre guilde ne peut pas participer à la Guerre de Guildes pour le moment. Merci de créer un ticket sur le discord.
+203	SMT_CITYWAR_FAIL_ENTER_LEVEL	Vous devez être au niveau 11 ou + pour pariciper à la Guerre de Guildes.
+203	SMT_CITYWAR_FAIL_ENTER_INTERESTED_ONLY	Votre guilde doit avoir au préalable construit une Tour de Guilde avant de commencer à participer.
 203	SMT_CITYWAR_FAIL_ENTER_MAX	Le nombre de participants autorisé est dépassé sur ce canal.
-203	SMT_CITYWAR_FAIL_ENTER_RETIRE	Si l'Avant-poste est détruit pendant la Guerre de guilde, vous ne pouvez pas y accéder à nouveau.
+203	SMT_CITYWAR_FAIL_ENTER_RETIRE	Si votre Tour de Guilde est détruite durant la Guerre de Guildes, vous ne pourrez pas rejoindre à nouveau
 203	SMT_CITYWAR_ANNOUNCE_NOENTER	L'accès n'est possible qu'à partir de {time}h00.
 201	SMT_CITYWAR_GUILD_KILL	<font color = '#40fb40'>{Name1}</font><font color = '#c8c8b6'> a vaincu </font><font color = '#ee1c24'>{GuildName2}{Name2}</font><font color = '#c8c8b6'> .</font>
 201	SMT_CITYWAR_GUILD_DEATH	<font color = '#ee1c24'>{GuildName2}{Name2}</font><font color = '#c8c8b6'> a vaincu </font><font color = '#40fb40'>{Name1}</font><font color = '#c8c8b6'>.</font>
 201	SMT_CITYWAR_REWARD_RANKEXP	Votre guilde a décroché le rang <font color = '#01ff96'>{WARRANK}</font> des guerres de guildes, vous recevez <font color = '#01ff96'>+{EXPPOINT}</font> PEX de guilde.
-201	SMT_CITYWAR_REWARD_CONTRIBUTION	Vous avez acquis <font color = '#01ff96'>+{CPOINT}</font> pour l'exploit de participation.
-202	SMT_SCREEN_QUALITY_OPTIMIZE_OPTION	La fonction d'optimisation de la qualité des graphismes est activée. Vos paramètres vidéo initiaux sont restaurés quand vous quittez la zone concernée. Vous pouvez supprimer cette fonction depuis les paramètres vidéos.
-202	SMT_CITYWAR_START	<font color = '#ffee92'>La Guerre de guilde a débuté.</font>
+201	SMT_CITYWAR_REWARD_CONTRIBUTION	Vous avez remporté <font color = '#01ff96'>+{CPOINT}</font> pour votre participation à la Guerre de Guildes : Ile de l'Aube.
+202	SMT_CITYWAR_OPTIMIZE_OPTION	La fonction d'optimisation du système est activée. Vos paramètres vidéo initiaux sont restaurés quand vous quittez la zone concernée. Vous pouvez supprimer cette fonction depuis les paramètres systèmes.
+202	SMT_CITYWAR_START	<font color = '#ffee92'>La Guerre de Guildes vient de commencer.</font>
 202	SMT_CITYWAR_NONPK_AREA	Vous ne pouvez pas utiliser la Déclaration de hors-la-loi dans cette région.
 203	SMT_CLEAR_CURSE_FAILED	Vous n'avez pas réussi à lever la malédiction.
 201	SMT_CLEAR_CURSE_SUCCESS	Vous sentez la malédiction faiblir.
@@ -849,7 +846,6 @@
 201	SMT_ENCHANT_FAILED	Échec de l'enchantement : {ItemName}
 201	SMT_ENCHANT_FAILED_DAMAGE	L'objet {ItemName} est endommagé.
 201	SMT_ENCHANT_FAILED_CRI	L'enchantement de {ItemName} est réduit de {Count}.
-203	SMT_ENCHANT_MOVE_FAILED	Le transfert a échoué.
 201	SMT_ENCHANT_SUCCEED	Enchantement réussi : {ItemName}
 201	SMT_ENCHANT_SUCCEED_CAN_UNBIND	Enchantement réussi : {ItemName} Vous pouvez libérer cet équipement à l'aide d'un parchemin de libération.
 201	SMT_END_COMPETITION_TIME	La compétition des alliances est terminée.
@@ -1199,7 +1195,7 @@
 201	SMT_HIT_SMILE_FIREWORK	{UserName} se réjouit de vous voir.
 203	SMT_HOLD_PLAYER_CANT_LEAVE_WORLD	Vous ne pouvez pas quitter le jeu pendant que vous subissez des dégâts.
 203	SMT_HOLD_PLAYER_CANT_USE_ITEM	Vous ne pouvez pas utiliser d'objet pendant que vous subissez des dégâts.
-201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Des évènements sont en cours. Pour en savoir plus, rendez-vous sur https://gameforge.com/fr-FR/play/tera.
+201	SMT_HUNTINGZONE_EVENT_ANNOUNCE	Des événements sont en cours. Visitez https://menmastera.com pour plus d'information
 201	SMT_INCREASE_SKILL_RANK	{Skill} est désormais de rang {Rank}.
 201	SMT_INCREMENT_CHARACTER_SOCKET	Emplacement de personnage supplémentaire ajouté.
 201	SMT_INGAMESTORE_BASKET_ADDED	L'objet sélectionné a été ajouté à votre panier.
@@ -1271,7 +1267,6 @@
 201	SMT_ITEM_MIX_SUCCESS	Bien joué !
 203	SMT_ITEM_RECEIVER_INVEN_FULL	L'inventaire de {UserName} est plein. L'objet ne peut être délivré.
 203	SMT_ITEM_RESET_CANT	Vous ne pouvez pas modifier les options de cet objet.
-203	SMT_ITEM_INCREASE_CANT	Impossible d'ajouter des options à cet objet.
 203	SMT_ITEM_RESET_BIND	Vous ne pouvez pas l'appliquer aux objets sur lesquels l'envoûtement ne fonctionne pas.
 201	SMT_ITEM_RESET_SUCCESS	Enigme terminée. Enchantements modifiés.
 204	SMT_ITEM_ROULETTE_VALUE	{UserName} a obtenu par besoin un {Amount} pour {ItemName} aux dés.
@@ -1303,10 +1298,9 @@
 204	SMT_JOIN_UNIONPARTY_PARTYPLAYER	{PartyPlayerName} a rejoint le raid.
 201	SMT_KICK_PARTY_FAILED	SMT_KICK_PARTY_FAILED
 201	SMT_KICK_PARTY_SUCCEED	SMT_KICK_PARTY_SUCCEED
-201	SMT_KOREAN_RATING_TEENAGER_PROHIBITED	Rendez-vous sur http://fr.tera.gameforge.com pour découvrir toutes les dernières infos sur le jeu. Pensez à jouer avec modération.
+201	SMT_KOREAN_RATING_TEENAGER_PROHIBITED	Retrouvez les dernières actualités du serveur sur menmastera.com. Jouer de manière responsable.
 201	SMT_LEARN_RECIPE	Vous avez appris la fabrication de : {Recipe}.
 204	SMT_LEAVE_PARTY	Vous avez quitté le {party}.
-204	SMT_LEAVE_PARTY_TIMEOUT	Vous avez été automatiquement exclu de {party}, car vous n'avez pas respecté le délai imparti. Vous êtes considéré comme lâche.
 201	SMT_LEAVE_PARTY_FAILED	SMT_LEAVE_PARTY_FAILED
 204	SMT_LEAVE_PARTY_PARTYPLAYER	{PartyPlayerName} a quitté le {party}.
 201	SMT_LEAVE_PARTY_SUCCEED	SMT_LEAVE_PARTY_SUCCEED
@@ -1344,7 +1338,7 @@
 201	SMT_LOAN_REGISTER_LOAN_INTEREST_RATE	SMT_LOAN_REGISTER_LOAN_INTEREST_RATE
 201	SMT_LOAN_REGISTER_LOAN_MONEY	SMT_LOAN_REGISTER_LOAN_MONEY
 201	SMT_LOAN_REGISTER_MORTGAGE_FAILED	SMT_LOAN_REGISTER_MORTGAGE_FAILED
-201	SMT_LOBBY_CANNOT_CONNECT_TIME_EXPIRED	Vous avez utilisé tout votre temps de jeu. Veuillez consulter le site http://fr.tera.gameforge.com pour les dates des futures périodes de test.
+201	SMT_LOBBY_CANNOT_CONNECT_TIME_EXPIRED	Votre temps imparti est écoulé. Retrouvez les prochains créneaux de test sur menmastera.com
 209	SMT_LOOTED_ITEM	Vous avez reçu {ItemAmount} x {ItemName}.
 211	SMT_LOOTED_MONEY	Vous avez reçu {Money@money}.
 209	SMT_LOOTED_SPECIAL_ITEM	Vous avez reçu {ItemAmount} x {ItemName}.
@@ -1628,7 +1622,7 @@
 208	SMT_PK_SYSMSG_KILL_OBJECT	Vous avez tué {player}.
 208	SMT_PK_SYSMSG_KILL_SUBJECT	{player} vous a tué.
 208	SMT_PK_SYSMSG_START	Le combat JcJ a commencé.
-201	SMT_PLAYTIME_START	Bienvenue sur TERA. Consultez https://gameforge.com/fr-FR/play/tera pour découvrir toutes les actualités concernant le jeu !
+201	SMT_PLAYTIME_START	Bienvenue dans Menma's TERA. Rejoignez notre discord (http://discord.gg/menmastera) et soyez informés des dernières actualités du serveur !
 201	SMT_PLAYTIME_TIMER	Vous avez joué pendant {@select:{PlayTime}/0/une/{PlayTime}} heure{@select:{PlayTime}///s}.
 201	SMT_PLAY_GUIDE_COMPLETE_EVENT	Vous avez accompli une mission de {EventName}.
 201	SMT_PLAY_GUIDE_NEW_EVENT	Vous avez une nouvelle mission pour {EventName}.
@@ -1847,7 +1841,6 @@
 201	SMT_SHOW_DUNGEON_INFO_ENTER_LIMIT_COUNT	{dungeonName} : disponible, {count} accès possibles
 201	SMT_SHOW_DUNGEON_INFO_ENTER_PERMIT	{dungeonName} : disponible
 201	SMT_SHOW_DUNGEON_INFO_WAITING_TIME	{dungeonName} : {second@durationBrief}
-203	SMT_SHOW_DUNGEON_RETRY_CANCEL_REACTION	La résurrection de néophyte est à nouveau disponible dans 5 secondes.
 203	SMT_SIGNBOARD_CANNOT_MORE	Vous ne pouvez plus placer de panneau.<br>Chaque compte a une limite de 5 panneaux, quel qu'en soit le type.
 203	SMT_SIGNBOARD_CANNOT_NEARBYANOTHER	Impossible de placer des panneaux trop près d'autres objets.
 203	SMT_SIGNBOARD_CANNOT_THISAREA	Il n'est pas possible de placer des panneaux sur ce sol.
@@ -2328,10 +2321,6 @@
 302	SMT_BF_SNOWBF_ROUND_LOSE	Assez !
 302	SMT_BF_SNOWBF_ROUND_NUMBER	Lancer la bataille de boules de neige
 302	SMT_BF_SNOWBF_ROUND_WIN	Assez !
-302	SMT_BF_SummerBF_ROUND_DRAW	Match nul
-302	SMT_BF_SummerBF_ROUND_LOSE	Défaite
-302	SMT_BF_SummerBF_ROUND_NUMBER	Le combat commence !
-302	SMT_BF_SummerBF_ROUND_WIN	Victoire
 203	SMT_NON_PK_SECTION	Vous ne pouvez pas combattre en JcJ ici.
 302	SMT_CANNOT_USE_SKILL_NON_EQUIPPED	Vous ne pouvez pas utiliser "{SkillName}" car vous ne portez pas le costume adéquat.
 302	SMT_CANNOT_USE_SKILL_THIS_ITEM	Vous ne pouvez pas utiliser "{SkillName}" avec "{ItemName}".
@@ -2463,10 +2452,3 @@
 201	SMT_TBA_PLAYTIME_START	Bienvenue dans la Battle Arena.
 203	SMT_TBA_CHAT_QNA_NOTICE_LINK	<font color = '#FFFF00'>Cliquez pour être redirigé.</font>
 203	SMT_TBA_CHAT_QNA_NOTICE	Conseil : vous trouverez des réponses à vos questions sur la page de fan de Battle Arena. <font color = '#FFFF00'>{link}</font>
-203	SMT_SKILL_CREST_COPY_FAIL	La prise en charge du glyphe du joueur a échoué.
-203	SMT_BATTLEPASS_CANNOT_RECEIVE_REWARD_RETRY_AGAIN	Vous ne pouvez momentanément pas obtenir de récompenses du livret TERA. Merci de réessayer plus tard.
-201	SMT_RECEIVE_DAILY_PLAY_GUIDE_COMPENSATION_EPEXP	Vous avez obtenu {itemAmount}x {itemName}.
-203	SMT_CANNOT_USE_ITEM_IN_DUNGEON	Vous ne pouvez pas utiliser cet objet dans les donjons.
-203	SMT_RELAX_COMBAT	Vous ne pouvez pas obtenir l'effet du feu de camp car un ou plusieurs membres du groupe/groupe de raid sont encore au combat.
-203	SMT_CANT_USE_ALCHEMY	L'administrateur a désactivé cette fonction.
-201	SMT_CANT_USE_EQUIPMENT_INHERIT	Vous ne pouvez pas utiliser ceci pour le moment.
