@@ -3749,6 +3749,11 @@
 700016	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_rare_tex	icon_skills.passive_rare_tex	True
 700017	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_singlecore	icon_skills.passive_singlecore	True
 700018	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.tyrannosaur_passive_rare_tex	icon_skills.tyrannosaur_passive_rare_tex	True
+700019	HPChange	Buff	True	perc	0	1	0.02	Fighter's Experience			Restores 2% of your maximum HP and MP every second.	icon_status.collect_speedup_tex	icon_status.collect_speedup_tex	True
+700019	MPChange	Buff	True	perc	0	1	0.02	Fighter's Experience			Restores 2% of your maximum HP and MP every second.	icon_status.collect_speedup_tex	icon_status.collect_speedup_tex	True
+700021	ASpd	Buff	True	perc	10000	0	1.15	Mounting Rage			[Dungeon Only]$BRGenerates Full Rage and activates Glyph of the Swift for a brief moment.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex	True
+700021	33	Buff	True	seta	20000	0	0	Mounting Rage			[Dungeon Only]$BRGenerates Full Rage and activates Glyph of the Swift for a brief moment.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex	True
+700021	Rage	Buff	True	perc	20000	0	2	Mounting Rage			[Dungeon Only]$BRGenerates Full Rage and activates Glyph of the Swift for a brief moment.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex	True
 700100	Endurance	Buff	True	perc	180000	0	1	Vow of Rebirth			Resurrect instantly if you are killed.	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex	True
 700100	Resurrect	Buff	True	seta	600000	0	1	Vow of Rebirth			Resurrect instantly if you are killed.	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex	True
 700200	MPChange	Buff	True	abs	0	2	-30	Aura of the Unyielding I			Grants Aura of the Unyielding to party members within 30m. Costs $H_W_BAD-30$COLOR_END MP per $H_W_BAD2s$COLOR_END to maintain.	icon_skills.areahpgain_tex	icon_skills.areahpgain_tex	True
@@ -8184,10 +8189,10 @@
 78200321	Block	DOT	True	swch	3000	0	0	Numbing Electric Shock			Cannot use skills. HP decreases steadily.	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex	True
 78200354	Stun	Stun	True	swch	1500	0	5	Electric Shock			You cannot move. The shock transfers to nearby allies.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 78200354	Drunk1	Stun	True	seta	1500	0	0	Electric Shock			You cannot move. The shock transfers to nearby allies.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
-78200379	NoHeal	Stun	True	seta	5000	0	0	Mana Corruption			Healing has no effect on you.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
-78200379	StackCounter	Stun	True	swch	5000	0	78200383	Mana Corruption			Healing has no effect on you.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+78200379	NoHeal	Stun	True	seta	5000	0	0	Mana Corruption			Reduces hp by 85%.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+78200379	StackCounter	Stun	True	swch	5000	0	78200383	Mana Corruption			Reduces hp by 85%.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 78200380	Stun	Stun	False	swch	3000	0	5	Skull Fracture			Stunned.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
-78200383	HPLoss	DOT	True	perc	1	0	0	Mana Corruption			Healing has no effect on you.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	False
+78200383	HPLoss	DOT	True	perc	1	0	0	Mana Corruption			Reduces hp by 85%.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	False
 78200387	Power	Debuff	True	perc	0	0	1.3	Dragon's Fury			Kylos is enraged. Some of his skills are enhanced, Lightning Aura charges faster, and he has increased Attack, Attack Speed and Movement Speed.	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
 78200387	MovSpd	Debuff	True	perc	0	0	1.1	Dragon's Fury			Kylos is enraged. Some of his skills are enhanced, Lightning Aura charges faster, and he has increased Attack, Attack Speed and Movement Speed.	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
 78200387	ASpd	Debuff	True	perc	0	0	1.1	Dragon's Fury			Kylos is enraged. Some of his skills are enhanced, Lightning Aura charges faster, and he has increased Attack, Attack Speed and Movement Speed.	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
@@ -9599,6 +9604,9 @@
 91900021	HPDrain	Debuff	False	perc	3000	0	0.9	Scattershot			Decreases Movement Speed by $H_W_BAD15%$COLOR_END.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 91900022	AtkPotion	Buff	True	perc	20000	0	0.86	Adrenaline Rush II			Decrease PvP damage by 14%.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	False
 91900023	AtkPotion	Buff	False	perc	0	0	1.15	Gridiron Dmg UP			This buff should not be shown			False
+91900101	Power	Buff	True	perc	0	0	1.27	Fraywind Nostrum			- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.00$COLOR_END.	icon_items.griffon_potion_level_60_tex	icon_items.griffon_potion_level_60_tex	True
+91900101	Endurance	Buff	True	perc	0	0	1.2	Fraywind Nostrum			- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.00$COLOR_END.	icon_items.griffon_potion_level_60_tex	icon_items.griffon_potion_level_60_tex	True
+91900101	CritPower	Buff	True	abs	0	0	1.42	Fraywind Nostrum			- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.00$COLOR_END.	icon_items.griffon_potion_level_60_tex	icon_items.griffon_potion_level_60_tex	True
 91900200	MovSpd	Buff	True	perc	15000	0	1.3	Christmas wind			You have additional speed.	icon_status.lightweight_tex	icon_status.lightweight_tex	True
 91900201	AllowAggro	Buff	True	swch	10000	0	0	Christmas Eve			You have ability to steal some gifts.	icon_skills.seduction_tex	icon_skills.seduction_tex	True
 91900201	Visibility	Buff	True	swch	10000	0	0	Christmas Eve			You have ability to steal some gifts.	icon_skills.seduction_tex	icon_skills.seduction_tex	True
@@ -9981,10 +9989,10 @@
 98200321	Block	DOT	True	swch	5000	0	0	Numbing Electric Shock			Cannot use skills. HP decreases steadily.	icon_skills.electricshock2_tex	icon_skills.electricshock2_tex	True
 98200354	Stun	Stun	True	swch	1500	0	5	Electric Shock			You cannot move. The shock transfers to nearby allies.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
 98200354	Drunk1	Stun	True	seta	1500	0	0	Electric Shock			You cannot move. The shock transfers to nearby allies.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	True
-98200379	NoHeal	Stun	True	seta	20000	0	0	Mana Corruption			Healing has no effect on you.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
-98200379	StackCounter	Stun	True	swch	20000	0	98200383	Mana Corruption			Healing has no effect on you.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+98200379	MaxHP	Stun	True	seta	20000	0	42000	Mana Corruption			Maximum Health reduced by 85%.$BRCauses death if stacked 2 times	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
+98200379	StackCounter	Stun	True	swch	20000	0	98200383	Mana Corruption			Maximum Health reduced by 85%.$BRCauses death if stacked 2 times	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 98200380	Stun	Stun	False	swch	5000	0	5	Skull Fracture			Stunned.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
-98200383	HPLoss	DOT	True	perc	1	0	0	Mana Corruption			Healing has no effect on you.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	False
+98200383	HPLoss	DOT	True	perc	1	0	0	Mana Corruption			Maximum Health reduced by 85%.$BRCauses death if stacked 2 times	icon_status.diseaseup_tex	icon_status.diseaseup_tex	False
 98200384	StackCounter	Buff	False	swch	0	0	98200385	Lightning Aura Charge			Kylos charges Lightning Aura: 1 stack if his HP is above 30%, and 3 stacks below 30%. Triggers Stunning Roar after accumulating 4 stacks.	icon_skills.excesselectron_tex	icon_skills.excesselectron_tex	False
 98200387	Power	Debuff	True	perc	0	0	1.3	Dragon's Fury			Kylos is enraged. Some of his skills are enhanced, Lightning Aura charges faster, and he has increased Attack, Attack Speed and Movement Speed.	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
 98200387	MovSpd	Debuff	True	perc	0	0	1.1	Dragon's Fury			Kylos is enraged. Some of his skills are enhanced, Lightning Aura charges faster, and he has increased Attack, Attack Speed and Movement Speed.	icon_status.vergosflame_tex	icon_status.vergosflame_tex	True
