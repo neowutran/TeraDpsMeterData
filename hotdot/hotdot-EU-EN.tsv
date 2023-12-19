@@ -274,9 +274,9 @@
 2080	Power	Buff	True	abs	0	0	40	Desperate Resolve			Increases maximum HP by $H_W_GOOD50%$COLOR_END, increases Endurance & Power by $H_W_GOOD40$COLOR_END. Increases Movement Speed by $H_W_GOOD50$COLOR_END.$BREffect disappears when the score gap between you and the opposing team diminishes.	icon_status.battlefieldbuff04_tex	icon_status.battlefieldbuff04_tex	True
 2080	Endurance	Buff	True	abs	0	0	40	Desperate Resolve			Increases maximum HP by $H_W_GOOD50%$COLOR_END, increases Endurance & Power by $H_W_GOOD40$COLOR_END. Increases Movement Speed by $H_W_GOOD50$COLOR_END.$BREffect disappears when the score gap between you and the opposing team diminishes.	icon_status.battlefieldbuff04_tex	icon_status.battlefieldbuff04_tex	True
 2080	MovSpd	Buff	True	abs	0	0	50	Desperate Resolve			Increases maximum HP by $H_W_GOOD50%$COLOR_END, increases Endurance & Power by $H_W_GOOD40$COLOR_END. Increases Movement Speed by $H_W_GOOD50$COLOR_END.$BREffect disappears when the score gap between you and the opposing team diminishes.	icon_status.battlefieldbuff04_tex	icon_status.battlefieldbuff04_tex	True
-2081	KnockDownChance	Buff	True	perc	30000	0	0	Thermal Layer	19323	Thermal Layer	Absorbs up to $H_W_GOOD100000$COLOR_END damage.$BRImmune to knockdown and stagger while in effect.	icon_items.scroll_def_protect_level_59_tex	icon_items.scroll_def_protect_level_59_tex	True
-2081	Absorb	Buff	True	swch	30000	0	100000	Thermal Layer	19323	Thermal Layer	Absorbs up to $H_W_GOOD100000$COLOR_END damage.$BRImmune to knockdown and stagger while in effect.	icon_items.scroll_def_protect_level_59_tex	icon_items.scroll_def_protect_level_59_tex	True
-2081	StatusImmune	Buff	True	swch	30000	0	0	Thermal Layer	19323	Thermal Layer	Absorbs up to $H_W_GOOD100000$COLOR_END damage.$BRImmune to knockdown and stagger while in effect.	icon_items.scroll_def_protect_level_59_tex	icon_items.scroll_def_protect_level_59_tex	True
+2081	KnockDownChance	Buff	True	perc	30000	0	0	Thermal Layer	19323	Thermal Layer	Absorbs up to $H_W_GOOD80000$COLOR_END damage.$BRImmune to knockdown and stagger while in effect.	icon_items.scroll_def_protect_level_59_tex	icon_items.scroll_def_protect_level_59_tex	True
+2081	Absorb	Buff	True	swch	30000	0	80000	Thermal Layer	19323	Thermal Layer	Absorbs up to $H_W_GOOD80000$COLOR_END damage.$BRImmune to knockdown and stagger while in effect.	icon_items.scroll_def_protect_level_59_tex	icon_items.scroll_def_protect_level_59_tex	True
+2081	StatusImmune	Buff	True	swch	30000	0	0	Thermal Layer	19323	Thermal Layer	Absorbs up to $H_W_GOOD80000$COLOR_END damage.$BRImmune to knockdown and stagger while in effect.	icon_items.scroll_def_protect_level_59_tex	icon_items.scroll_def_protect_level_59_tex	True
 2082	DefPotion	Buff	True	perc	30000	0	0	Thermal Layer			Greatly reduces damage from and improves resistance against other players, knockdown, and stagger.	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
 2082	204	Buff	True	swch	30000	0	0	Thermal Layer			Greatly reduces damage from and improves resistance against other players, knockdown, and stagger.	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
 2082	ResistNegative	Buff	True	swch	30000	0	0	Thermal Layer			Greatly reduces damage from and improves resistance against other players, knockdown, and stagger.	icon_status.mpsuckup_tex	icon_status.mpsuckup_tex	True
@@ -871,14 +871,14 @@
 5555	368	Buff	True	seta	108000000	0	4	Haste Coin IV (30 hour)	160863	Haste Coin IV (30 Hours)	Increases charging speed of Adventure Coin by 4. This duration and effect only applies when you're online.	icon_items.premium_adventurecoinrecoveryspeedup_04_tex	icon_items.premium_adventurecoinrecoveryspeedup_04_tex	True
 5556	368	Buff	True	seta	0	0	4	Haste Coin IV (Event)			Increases charging speed of Adventure Coin by 4. This effect only applies when you're online.	icon_items.premium_adventurecoinrecoveryspeedup_04_tex	icon_items.premium_adventurecoinrecoveryspeedup_04_tex	True
 5557	367	Buff	True	seta	3600000	0	0	Infinity Coin (1 Hour)	207318	Forgeheart Day 1 Infinity Coin	Cancels Adventure Coin cost. Effect duration applies even while offline.	icon_items.premium_adventurecoininfinite_tex	icon_items.premium_adventurecoininfinite_tex	True
+6001	Power	Debuff	True	perc	58000	0	1	Dragon Power			Increases Crit Power against monsters by $H_W_GOOD1.5$COLOR_END.	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
 6001	CritPower1	Buff	True	abs	6000	0	1	Dragon Power			Increases Crit Power against monsters by $H_W_GOOD1.5$COLOR_END.	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
-6001	297	Debuff	True	seta	58000	0	0	Dragon Power			Increases Crit Power against monsters by $H_W_GOOD1.5$COLOR_END.	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
+6002	Power	Debuff	True	perc	58000	0	1	Ancient Dragon Power			$H_W_GOODDoubles$COLOR_END Crit Power against monsters.	icon_status.passive_dragonblood2	icon_status.passive_dragonblood2	True
 6002	CritPower1	Buff	True	abs	6000	0	2	Ancient Dragon Power			$H_W_GOODDoubles$COLOR_END Crit Power against monsters.	icon_status.passive_dragonblood2	icon_status.passive_dragonblood2	True
-6002	297	Debuff	True	seta	58000	0	0	Ancient Dragon Power			$H_W_GOODDoubles$COLOR_END Crit Power against monsters.	icon_status.passive_dragonblood2	icon_status.passive_dragonblood2	True
+6003	Power	Debuff	True	perc	58000	0	1	Flaming Aura			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.heataura_tex	icon_skills.heataura_tex	True
 6003	CritPower1	Buff	True	abs	6000	0	1	Flaming Aura			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.heataura_tex	icon_skills.heataura_tex	True
-6003	297	Debuff	True	seta	58000	0	0	Flaming Aura			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.heataura_tex	icon_skills.heataura_tex	True
+6004	Power	Debuff	True	perc	58000	0	1	Blazing Aura			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.flameaura_tex	icon_skills.flameaura_tex	True
 6004	CritPower1	Buff	True	abs	6000	0	2	Blazing Aura			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.flameaura_tex	icon_skills.flameaura_tex	True
-6004	297	Debuff	True	seta	58000	0	0	Blazing Aura			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.flameaura_tex	icon_skills.flameaura_tex	True
 6006	HPChange	Buff	True	perc	1000	1	1	Immortal Phoenix			You are invulnerable for a short time. When you use a skill, the effect will end.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6006	CrystalBind	Buff	True	abs	7000	0	1	Immortal Phoenix			You are invulnerable for a short time. When you use a skill, the effect will end.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6006	Immune	Buff	True	27	12000	0	0	Immortal Phoenix			You are invulnerable for a short time. When you use a skill, the effect will end.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
@@ -891,29 +891,29 @@
 6009	CrystalBind	Buff	True	abs	7000	0	1	Protection of the Phoenix			Protects your crystals from breaking.	icon_items.q_closedspace_stone_05_tex	icon_items.q_closedspace_stone_05_tex	True
 6011	ReloadingSkill	Debuff	True	abs	86400000	0	6500003	Ancient Bracing Respite			You cannot currently benefit from the effects of other <font color = '#f7a001'>ancient mighty</font> flying mounts.	icon_skills.vehicle_debuff_rare_tex	icon_skills.vehicle_debuff_rare_tex	True
 6011	343	Debuff	True	swch	86400000	0	100005	Ancient Bracing Respite			You cannot currently benefit from the effects of other <font color = '#f7a001'>ancient mighty</font> flying mounts.	icon_skills.vehicle_debuff_rare_tex	icon_skills.vehicle_debuff_rare_tex	True
+6012	Power	Debuff	True	perc	58000	0	1	Morphic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
 6012	CritPower1	Buff	True	abs	6000	0	1	Morphic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
-6012	297	Debuff	True	seta	58000	0	0	Morphic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
+6013	Power	Debuff	True	perc	58000	0	1	Phantasmic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
 6013	CritPower1	Buff	True	abs	6000	0	2	Phantasmic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
-6013	297	Debuff	True	seta	58000	0	0	Phantasmic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
 6016	HPChange	Buff	True	perc	1000	1	1	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	CrystalBind	Buff	True	abs	7000	0	1	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	Immune	Buff	True	27	12000	0	0	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	ReloadingSkill	Debuff	True	abs	3600000	0	6500004	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
 6016	StatusImmune	Buff	True	swch	12000	0	0	Phoenix Armor			Invincible for a short period. Effect ends upon using any skills.	icon_status.revivenow_status_tex	icon_status.revivenow_status_tex	True
+6017	Power	Debuff	True	perc	58000	0	1	Cursed Howl			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
 6017	CritPower1	Buff	True	abs	6000	0	1	Cursed Howl			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
-6017	297	Debuff	True	seta	58000	0	0	Cursed Howl			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
+6018	Power	Debuff	True	perc	58000	0	1	Destiny's Howl			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
 6018	CritPower1	Buff	True	abs	6000	0	2	Destiny's Howl			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
-6018	297	Debuff	True	seta	58000	0	0	Destiny's Howl			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
 6019	HPChange	Buff	False	abs	200	1	-320000	Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 320,000 damage.			False
 6020	HPChange	Buff	False	abs	200	1	-400000	Ancient Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 400,000 damage.			False
 6021	DelayedEffect	Buff	True	seta	1700	0	6023	Corrupting Tide			Ride a Corrupting Tide for 30 minutes.<br><br>As soon as the tide is active, you inflict an additional 320,000 damage on critical hits against monsters. This effect can occur only once per minute.<br>Cooldown: 24 hours	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	False
 6022	DelayedEffect	Buff	True	seta	1700	0	6024	Ancient Corrupting Tide			Ride an Ancient Corrupting Tide for 30 minutes.<br><br>As soon as the tide is active, you inflict an additional 400,000 damage on critical hits against monsters. This effect can occur only once per minute.<br>Cooldown: 1 hour	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	False
 6023	Endurance	Buff	True	perc	1800000	0	1	Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 320,000 damage.	icon_skills.dragonangry1_tex	icon_skills.dragonangry1_tex	True
 6024	Endurance	Buff	True	perc	1800000	0	1	Ancient Corrupting Tide			Imbued with corrupted energy. Inflicts an additional 400,000 damage.	icon_skills.dragonangry2_tex	icon_skills.dragonangry2_tex	True
+6025	Power	Debuff	True	perc	58000	0	1	Prophecy			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
 6025	CritPower1	Buff	True	abs	6000	0	1	Prophecy			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
-6025	297	Debuff	True	seta	58000	0	0	Prophecy			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
+6026	Power	Debuff	True	perc	58000	0	1	Revelation			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
 6026	CritPower1	Buff	True	abs	6000	0	2	Revelation			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
-6026	297	Debuff	True	seta	58000	0	0	Revelation			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
 6027	341	Buff	True	swch	100	1	0	Illumination						False
 6027	342	Buff	True	swch	100	1	6029	Illumination						False
 6028	341	Buff	True	swch	100	1	1	Illumination						False
@@ -927,10 +927,10 @@
 6035	47	Buff	True	perc	1800000	0	1.07	Illumination (7%)			Increases <font color = '#66bbff'>skill XP</font> earned by 7%.	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
 6036	47	Buff	True	perc	1800000	0	1.09	Illumination (9%)			Increases <font color = '#66bbff'>skill XP</font> earned by 9%.	icon_items.icon_spexp_tex	icon_items.icon_spexp_tex	True
 6039	0	Buff	True	swch	3600000	0	0	Stormcharge			You can fly and use jump gates in Exodor.	icon_items.orb_of_dragonpower_tex	icon_items.orb_of_dragonpower_tex	True
+6040	Power	Debuff	True	perc	58000	0	1	Stormrage			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.dragonhit1_tex	icon_skills.dragonhit1_tex	True
 6040	CritPower1	Buff	True	abs	6000	0	1	Stormrage			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.dragonhit1_tex	icon_skills.dragonhit1_tex	True
-6040	297	Debuff	True	seta	58000	0	0	Stormrage			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.dragonhit1_tex	icon_skills.dragonhit1_tex	True
+6041	Power	Debuff	True	perc	58000	0	1	Frostbane			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.dragonhit2_tex	icon_skills.dragonhit2_tex	True
 6041	CritPower1	Buff	True	abs	6000	0	2	Frostbane			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.dragonhit2_tex	icon_skills.dragonhit2_tex	True
-6041	297	Debuff	True	seta	58000	0	0	Frostbane			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.dragonhit2_tex	icon_skills.dragonhit2_tex	True
 6042	Power	Buff	True	perc	1800000	0	1.27	[Training Dungeon] Prime Battle Solution	602176	[Training] Prime Battle Solution	- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Replenishes $H_W_GOOD459$COLOR_END MP every 5 seconds,<br>- Decreases cooldown of attack skills by $H_W_GOOD15%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.42$COLOR_END.<br>Effect ends if you leave the Training Dungeon.	icon_items.add_extract_potion_2_tex	icon_items.add_extract_potion_2_tex	True
 6042	Endurance	Buff	True	perc	1800000	0	1.2	[Training Dungeon] Prime Battle Solution	602176	[Training] Prime Battle Solution	- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Replenishes $H_W_GOOD459$COLOR_END MP every 5 seconds,<br>- Decreases cooldown of attack skills by $H_W_GOOD15%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.42$COLOR_END.<br>Effect ends if you leave the Training Dungeon.	icon_items.add_extract_potion_2_tex	icon_items.add_extract_potion_2_tex	True
 6042	CritPower	Buff	True	abs	1800000	0	1.42	[Training Dungeon] Prime Battle Solution	602176	[Training] Prime Battle Solution	- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Replenishes $H_W_GOOD459$COLOR_END MP every 5 seconds,<br>- Decreases cooldown of attack skills by $H_W_GOOD15%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.42$COLOR_END.<br>Effect ends if you leave the Training Dungeon.	icon_items.add_extract_potion_2_tex	icon_items.add_extract_potion_2_tex	True
@@ -988,10 +988,10 @@
 6054	317	Buff	True	swch	1800000	0	1	[Training Dungeon] Superior Noctenium Elixir	602184	[Training] Superior Noctenium Elixir	Increases all skill damage, and activates a skill's noctenium effects at $H_W_GOOD150%$COLOR_END. Does not stack with Noctenium Infusion.<br>Effect ends if you leave the Training Dungeon.	icon_items.noctan_tex	icon_items.noctan_tex	True
 6055	ASpd	Buff	True	abs	10000	0	20	[Training Dungeon] Lein's Dark Root Beer	602185	[Training] Lein's Dark Root Beer	Increases Attack Speed by $H_W_GOOD20$COLOR_END for 10s, but the kick might make you feel very woozy.<br>Effect ends if you leave the Training Dungeon.	icon_items.solventc15_tex	icon_items.solventc15_tex	True
 6055	Drunk	Buff	True	60032	10000	1	0	[Training Dungeon] Lein's Dark Root Beer	602185	[Training] Lein's Dark Root Beer	Increases Attack Speed by $H_W_GOOD20$COLOR_END for 10s, but the kick might make you feel very woozy.<br>Effect ends if you leave the Training Dungeon.	icon_items.solventc15_tex	icon_items.solventc15_tex	True
+6058	Power	Debuff	True	perc	58000	0	1	Morphic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
 6058	CritPower1	Buff	True	abs	6000	0	1	Morphic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
-6058	297	Debuff	True	seta	58000	0	0	Morphic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
+6059	Power	Debuff	True	perc	58000	0	1	Phantasmic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
 6059	CritPower1	Buff	True	abs	6000	0	2	Phantasmic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
-6059	297	Debuff	True	seta	58000	0	0	Phantasmic Talon			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
 6060	Power	Buff	True	perc	1800000	0	1.27	[Seren's Gift] Prime Battle Solution	602186	[Seren's Gift] Prime Battle Solution	- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Replenishes $H_W_GOOD459$COLOR_END MP every 5 seconds,<br>- Decreases cooldown of attack skills by $H_W_GOOD15%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.42$COLOR_END times.<br>This item's effect does not persist outside dungeons.	icon_items.add_extract_potion_2_tex	icon_items.add_extract_potion_2_tex	True
 6060	Endurance	Buff	True	perc	1800000	0	1.2	[Seren's Gift] Prime Battle Solution	602186	[Seren's Gift] Prime Battle Solution	- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Replenishes $H_W_GOOD459$COLOR_END MP every 5 seconds,<br>- Decreases cooldown of attack skills by $H_W_GOOD15%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.42$COLOR_END times.<br>This item's effect does not persist outside dungeons.	icon_items.add_extract_potion_2_tex	icon_items.add_extract_potion_2_tex	True
 6060	CritPower	Buff	True	abs	1800000	0	1.42	[Seren's Gift] Prime Battle Solution	602186	[Seren's Gift] Prime Battle Solution	- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Replenishes $H_W_GOOD459$COLOR_END MP every 5 seconds,<br>- Decreases cooldown of attack skills by $H_W_GOOD15%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.42$COLOR_END times.<br>This item's effect does not persist outside dungeons.	icon_items.add_extract_potion_2_tex	icon_items.add_extract_potion_2_tex	True
@@ -1014,14 +1014,14 @@
 6067	ASpd	Buff	True	perc	1800000	0	1.04	[Seren's Gift] Bravery Potion	602187	[Seren’s Gift] Bravery Potion	Increases skill damage by $H_W_GOOD10%$COLOR_END, and reduces damage taken by $H_W_GOOD10%$COLOR_END. Additionally increases attack speed by $H_W_GOOD4%$COLOR_END.<br>This item's effect does not persist outside dungeons.	icon_items.potion10_tex	icon_items.potion10_tex	True
 6067	DefPotion	Buff	True	perc	1800000	0	0.9	[Seren's Gift] Bravery Potion	602187	[Seren’s Gift] Bravery Potion	Increases skill damage by $H_W_GOOD10%$COLOR_END, and reduces damage taken by $H_W_GOOD10%$COLOR_END. Additionally increases attack speed by $H_W_GOOD4%$COLOR_END.<br>This item's effect does not persist outside dungeons.	icon_items.potion10_tex	icon_items.potion10_tex	True
 6067	AtkPotion	Buff	True	perc	1800000	0	1.1	[Seren's Gift] Bravery Potion	602187	[Seren’s Gift] Bravery Potion	Increases skill damage by $H_W_GOOD10%$COLOR_END, and reduces damage taken by $H_W_GOOD10%$COLOR_END. Additionally increases attack speed by $H_W_GOOD4%$COLOR_END.<br>This item's effect does not persist outside dungeons.	icon_items.potion10_tex	icon_items.potion10_tex	True
+6068	Power	Debuff	True	perc	58000	0	1	Power of Flight			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.passive_singlecore	icon_skills.passive_singlecore	True
 6068	CritPower1	Buff	True	abs	6000	0	1	Power of Flight			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.passive_singlecore	icon_skills.passive_singlecore	True
-6068	297	Debuff	True	seta	58000	0	0	Power of Flight			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.passive_singlecore	icon_skills.passive_singlecore	True
+6069	Power	Debuff	True	perc	58000	0	1	Ancient Power of Flight			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.passive_dualcore	icon_skills.passive_dualcore	True
 6069	CritPower1	Buff	True	abs	6000	0	2	Ancient Power of Flight			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.passive_dualcore	icon_skills.passive_dualcore	True
-6069	297	Debuff	True	seta	58000	0	0	Ancient Power of Flight			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.passive_dualcore	icon_skills.passive_dualcore	True
+6070	Power	Debuff	True	perc	58000	0	1	Dinopower!			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.tyrannosaur_passive_rare_tex	icon_skills.tyrannosaur_passive_rare_tex	True
 6070	CritPower1	Buff	True	abs	6000	0	1	Dinopower!			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.tyrannosaur_passive_rare_tex	icon_skills.tyrannosaur_passive_rare_tex	True
-6070	297	Debuff	True	seta	58000	0	0	Dinopower!			Increases Crit Power when attacking monsters by $H_W_GOOD50%$COLOR_END.	icon_skills.tyrannosaur_passive_rare_tex	icon_skills.tyrannosaur_passive_rare_tex	True
+6071	Power	Debuff	True	perc	58000	0	1	Mega-Dinopower!			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.tyrannosaur_passive_legend_tex	icon_skills.tyrannosaur_passive_legend_tex	True
 6071	CritPower1	Buff	True	abs	6000	0	2	Mega-Dinopower!			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.tyrannosaur_passive_legend_tex	icon_skills.tyrannosaur_passive_legend_tex	True
-6071	297	Debuff	True	seta	58000	0	0	Mega-Dinopower!			Increases Crit Power when attacking monsters by $H_W_GOOD100%$COLOR_END.	icon_skills.tyrannosaur_passive_legend_tex	icon_skills.tyrannosaur_passive_legend_tex	True
 6072	CraftTime	Buff	True	perc	600000	0	0.7	Rexpert Turbosaurus			Become a rexpert crafter. Increases your crafting speed by $H_W_GOOD30%$COLOR_END.	icon_skills.tyrannosaur_vehicleskill_legend_tex	icon_skills.tyrannosaur_vehicleskill_legend_tex	True
 6072	ReloadingSkill	Buff	True	abs	600000	0	6500006	Rexpert Turbosaurus			Become a rexpert crafter. Increases your crafting speed by $H_W_GOOD30%$COLOR_END.	icon_skills.tyrannosaur_vehicleskill_legend_tex	icon_skills.tyrannosaur_vehicleskill_legend_tex	True
 6073	GatheringTime	Buff	True	perc	1200000	0	0.8	Rexpert Grabosaurus			Become a rexpert gatherer. Increases your gathering speed by $H_W_GOOD20%$COLOR_END.	icon_skills.tyrannosaur_vehicleskill_legend_tex	icon_skills.tyrannosaur_vehicleskill_legend_tex	True
@@ -2427,6 +2427,9 @@
 105307	Endurance	Buff	True	perc	0	0	1	Deadly Gamble II			Increases the chance to crit by $H_W_GOOD50%$COLOR_END for 20s. Decreases Melee attack skill cooldown by 50%.$BRThe following skills are enhanced while Deadly Gamble II is active:$BR- <font color = '#F9B600'>Rain of Blows IX</font>: Increases damage by 10% and doubles Edge generation.$BR- <font color = '#F9B600'>Blade Draw IX</font>: Increases damage by 10% and doubles the Edge generation.$BR- <font color = '#F9B600'>Scythe IX</font>: Increases damage by 10% and range by 20%.	icon_skills.deadlywill_tex	icon_skills.deadlywill_tex	False
 105308	StackCounter	Debuff	False	abs	1000	0	105309	Impaled			Decreases Endurance when stacked 7 times.	icon_skills.improveleapattack_tex	icon_skills.improveleapattack_tex	False
 105309	Endurance	Debuff	False	perc	30000	0	0.985	Armorbreaker			Decreases Endurance by $H_W_BAD1.5%$COLOR_END.	icon_skills.improveleapattack_tex	icon_skills.improveleapattack_tex	True
+151641	CritResist	Debuff	False	abs	0	0	-25	Kaia's Judgment			Decreases Crit Resist Factor by $H_W_BAD-25$COLOR_END. Decreases Physical and Magic Resistance by $H_W_BAD-2000$COLOR_END.	icon_status.pluseconfuseresist_tex	icon_status.pluseconfuseresist_tex	True
+151641	1003	Debuff	False	abs	0	0	-2000	Kaia's Judgment			Decreases Crit Resist Factor by $H_W_BAD-25$COLOR_END. Decreases Physical and Magic Resistance by $H_W_BAD-2000$COLOR_END.	icon_status.pluseconfuseresist_tex	icon_status.pluseconfuseresist_tex	True
+151641	1004	Debuff	False	abs	0	0	-2000	Kaia's Judgment			Decreases Crit Resist Factor by $H_W_BAD-25$COLOR_END. Decreases Physical and Magic Resistance by $H_W_BAD-2000$COLOR_END.	icon_status.pluseconfuseresist_tex	icon_status.pluseconfuseresist_tex	True
 170281	359	Buff	True	perc	0	0	0.98	Red Angleworm			Decreases auto-fishing time by 2%.	icon_items.card_level01_fish	icon_items.card_level01_fish	True
 170282	359	Buff	True	perc	0	0	0.97	Green Angleworm			Decreases auto-fishing time by 3%.	icon_items.card_level02_fish	icon_items.card_level02_fish	True
 170283	359	Buff	True	perc	0	0	0.95	Blue Angleworm			Decreases auto-fishing time by 5%.	icon_items.card_level02_fish	icon_items.card_level02_fish	True
@@ -2449,6 +2452,12 @@
 170364	190	Buff	True	swch	10000	0	4	Weird Potion	282028	Weird Potion	This feels better.. but.. is something burning..?	icon_items.q_weirdpotion_tex	icon_items.q_weirdpotion_tex	True
 170365	OutOfCombatMovSpd	Buff	True	abs	10000	0	50	Warm Potion	282029	Warm Potion	This one is the best!<br>Increases noncombat Movement Speed by $H_W_GOOD50$COLOR_END.	icon_items.q_warm_potion_tex	icon_items.q_warm_potion_tex	True
 170365	190	Buff	True	swch	10000	0	4	Warm Potion	282029	Warm Potion	This one is the best!<br>Increases noncombat Movement Speed by $H_W_GOOD50$COLOR_END.	icon_items.q_warm_potion_tex	icon_items.q_warm_potion_tex	True
+170366	MaxHP	Debuff	True	abs	300000	0	0	Iced!	282591	Snowball	Don't worry. Be happy! Happy Holidays!$BRThis effect can be stacked up to 10 times.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+170366	StackCounter	Debuff	True	abs	300000	0	170369	Iced!	282591	Snowball	Don't worry. Be happy! Happy Holidays!$BRThis effect can be stacked up to 10 times.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+170367	ASpd	Buff	True	abs	180000	0	100	Small Santa Power-up!			Increases your Attack speed by 100.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+170368	ASpd	Buff	True	abs	180000	0	25	Fat Santa Power-up!			Increases your Attack speed by 25.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
+170369	Drunk	Debuff	True	60023	60000	1	0	Freezing Cold			So cold! Maybe you should warm yourself up.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
+170369	297	Debuff	True	seta	60000	0	0	Freezing Cold			So cold! Maybe you should warm yourself up.	icon_status.diseasedown_tex	icon_status.diseasedown_tex	True
 200100	Stun	Stun	False	swch	3000	0	5	Thunderbolt			Stunned. Cannot move.	icon_skills.thunderdrake_tex	icon_skills.hookthrow_tex	True
 200200	BuffNearbyParty	Buff	True	seta	30000	3	200230	Guardian Shout I			You and your party members receive $H_W_GOODGuardian Power$COLOR_END while within 40m of you.	icon_skills.inspiringroar_tex	icon_skills.inspiringroar_tex	True
 200201	BuffNearbyParty	Buff	True	seta	40000	3	200231	Guardian Shout II			You and your party members receive $H_W_GOODGuardian Power$COLOR_END while within 40m of you.	icon_skills.inspiringroar_tex	icon_skills.inspiringroar_tex	True
@@ -2543,7 +2552,9 @@
 201830	Endurance	Buff	True	perc	2000	0	1	Invisible abnormality.				icon_crest.crestpassivemprecoveryup_tex	icon_crest.crestpassivemprecoveryup_tex	False
 201831	Endurance	Buff	True	perc	2000	0	1	Invisible abnormality.				icon_crest.crestpassivemprecoveryup_tex	icon_crest.crestpassivemprecoveryup_tex	False
 201850	HPChange	Buff	True	abs	1000	1	50945	Second Wind VII				icon_skills.rejuvenation_tex	icon_skills.rejuvenation_tex	False
-201901	AtkPotion	Buff	True	perc	20000	0	1.15	March			Increases PvP damage by 15%.	icon_skills.sp_attack1_tex	icon_skills.sp_attack1_tex	True
+201901	ASpd	Buff	True	perc	20000	0	1.064	March			Generates 100 RE per second and Increases PvP damage by 15%.	icon_skills.sp_attack1_tex	icon_skills.sp_attack1_tex	True
+201901	RageChange	Buff	True	abs	20000	1	100	March			Generates 100 RE per second and Increases PvP damage by 15%.	icon_skills.sp_attack1_tex	icon_skills.sp_attack1_tex	True
+201901	AtkPotion	Buff	True	perc	20000	0	1.15	March			Generates 100 RE per second and Increases PvP damage by 15%.	icon_skills.sp_attack1_tex	icon_skills.sp_attack1_tex	True
 201902	AtkPotion	Buff	True	perc	5000	0	1.3	Stand Fast - Counterblow			Your next [Shield Counter] deals 30% more damage.	icon_skills.riposte_tex	icon_skills.riposte_tex	True
 201903	ASpd	Buff	True	perc	20000	0	1.2	Adrenaline Rush II			Increases Attack Speed by $H_W_GOOD20%$COLOR_END and damage by 15,5% when attacking monsters.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 201903	AtkPotion	Buff	True	perc	20000	0	1.05	Adrenaline Rush II			Increases Attack Speed by $H_W_GOOD20%$COLOR_END and damage by 15,5% when attacking monsters.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
@@ -3731,29 +3742,38 @@
 690303	IncreasedHeal	DOT	True	perc	14400000	0	0.85	HIGH Dungeons Testing			Damn, Reaper Dmg is pretty HIGH.$BRVHHM / RRHM / DRCHM(?)	icon_status.minushp_tex	icon_status.minushp_tex	True
 690303	164	DOT	True	perc	14400000	0	0.85	HIGH Dungeons Testing			Damn, Reaper Dmg is pretty HIGH.$BRVHHM / RRHM / DRCHM(?)	icon_status.minushp_tex	icon_status.minushp_tex	True
 690307	Endurance	Buff	True	perc	180000	0	1	Vow of Rebirth			Resurrect instantly if you are killed.	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex	False
-700000	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_status.passive_dragonblood2	icon_status.passive_dragonblood2	True
-700001	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.flameaura_tex	icon_skills.flameaura_tex	True
-700002	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
-700003	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
-700004	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
-700005	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonhit2_tex	icon_skills.dragonhit2_tex	True
-700006	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
-700007	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_dualcore	icon_skills.passive_dualcore	True
-700009	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.tyrannosaur_passive_legend_tex	icon_skills.tyrannosaur_passive_legend_tex	True
-700010	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
-700011	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.heataura_tex	icon_skills.heataura_tex	True
-700012	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
-700013	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
-700014	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
-700015	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonhit1_tex	icon_skills.dragonhit1_tex	True
-700016	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_rare_tex	icon_skills.passive_rare_tex	True
-700017	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_singlecore	icon_skills.passive_singlecore	True
-700018	297	Debuff	True	seta	58000	0	0	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.tyrannosaur_passive_rare_tex	icon_skills.tyrannosaur_passive_rare_tex	True
+700000	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_status.passive_dragonblood2	icon_status.passive_dragonblood2	True
+700001	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.flameaura_tex	icon_skills.flameaura_tex	True
+700002	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
+700003	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonblood4_tex	icon_skills.dragonblood4_tex	True
+700004	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.unknownfeel_passive_blue_tex	icon_skills.unknownfeel_passive_blue_tex	True
+700005	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonhit2_tex	icon_skills.dragonhit2_tex	True
+700006	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.bluebird_passive_legend_tex	icon_skills.bluebird_passive_legend_tex	True
+700007	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_dualcore	icon_skills.passive_dualcore	True
+700009	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.tyrannosaur_passive_legend_tex	icon_skills.tyrannosaur_passive_legend_tex	True
+700010	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_status.passive_dragonblood	icon_status.passive_dragonblood	True
+700011	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.heataura_tex	icon_skills.heataura_tex	True
+700012	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.bluebird_passive_rare_tex	icon_skills.bluebird_passive_rare_tex	True
+700013	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonblood3_tex	icon_skills.dragonblood3_tex	True
+700014	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.mysticfeel_passive_red_tex	icon_skills.mysticfeel_passive_red_tex	True
+700015	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.dragonhit1_tex	icon_skills.dragonhit1_tex	True
+700016	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_rare_tex	icon_skills.passive_rare_tex	True
+700017	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.passive_singlecore	icon_skills.passive_singlecore	True
+700018	Power	Debuff	True	perc	58000	0	1	Resting Mighty			Mighty mount skill is on cooldown.	icon_skills.tyrannosaur_passive_rare_tex	icon_skills.tyrannosaur_passive_rare_tex	True
 700019	HPChange	Buff	True	perc	0	1	0.02	Fighter's Experience			Restores 2% of your maximum HP and MP every second.	icon_status.collect_speedup_tex	icon_status.collect_speedup_tex	True
 700019	MPChange	Buff	True	perc	0	1	0.02	Fighter's Experience			Restores 2% of your maximum HP and MP every second.	icon_status.collect_speedup_tex	icon_status.collect_speedup_tex	True
 700021	ASpd	Buff	True	perc	10000	0	1.15	Mounting Rage			[Dungeon Only]$BRGenerates Full Rage and activates Glyph of the Swift for a brief moment.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex	True
 700021	33	Buff	True	seta	20000	0	0	Mounting Rage			[Dungeon Only]$BRGenerates Full Rage and activates Glyph of the Swift for a brief moment.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex	True
 700021	Rage	Buff	True	perc	20000	0	2	Mounting Rage			[Dungeon Only]$BRGenerates Full Rage and activates Glyph of the Swift for a brief moment.	icon_skills.arouseangercancel_tex	icon_skills.arouseangercancel_tex	True
+700022	MPChange	Buff	True	perc	0	1	0.02	Blitz Barrage			Reduces cooldown of all skills by <font color = '#f9b600'>80%</font> and restores $H_W_GOOD50%$COLOR_END of your maximum MP every second.	icon_status.ufo_stat_boost_tex	icon_status.ufo_stat_boost_tex	True
+700022	CDR	Buff	True	swch	0	0	0.92	Blitz Barrage			Reduces cooldown of all skills by <font color = '#f9b600'>80%</font> and restores $H_W_GOOD50%$COLOR_END of your maximum MP every second.	icon_status.ufo_stat_boost_tex	icon_status.ufo_stat_boost_tex	True
+700028	Endurance	Buff	True	perc	0	0	1	Quick Vigor			Killing this being gives the killer $H_W_GOODQuick Vigor$COLOR_END effect, which increases Power, Endurance, and Movement Speed.	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	True
+700028	DefPotion	Buff	False	perc	0	0	0.2	Quick Vigor			Killing this being gives the killer $H_W_GOODQuick Vigor$COLOR_END effect, which increases Power, Endurance, and Movement Speed.	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	True
+700029	Power	Buff	True	abs	180000	0	20	Quick Vigor			Increases Power by $H_W_GOOD20$COLOR_END, Endurance by $H_W_GOOD10$COLOR_END. Increases Movement Speed by $H_W_GOOD10$COLOR_END.	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	True
+700029	Endurance	Buff	True	abs	180000	0	10	Quick Vigor			Increases Power by $H_W_GOOD20$COLOR_END, Endurance by $H_W_GOOD10$COLOR_END. Increases Movement Speed by $H_W_GOOD10$COLOR_END.	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	True
+700029	MovSpd	Buff	True	abs	180000	0	10	Quick Vigor			Increases Power by $H_W_GOOD20$COLOR_END, Endurance by $H_W_GOOD10$COLOR_END. Increases Movement Speed by $H_W_GOOD10$COLOR_END.	icon_status.aura_of_condition_tex	icon_status.aura_of_condition_tex	True
+700030	Absorb	Buff	True	abs	0	0	100000000	Mana Shield			Blitz Keeper absorbs damage.	icon_status.battlefieldbuff02_tex	icon_status.battlefieldbuff02_tex	True
+700031	Block	Stun	True	swch	78000	0	0	Battlefield Awareness			Applied upon entering Blitz Barrage.$BRCannot use Balder's Tears, Cable Step, Mass Teleport, or Teleport Jaunt. Prevents defensive or movement skills within the spawn area.	icon_status.dimensionguard_tex	icon_status.dimensionguard_tex	True
 700100	Endurance	Buff	True	perc	180000	0	1	Vow of Rebirth			Resurrect instantly if you are killed.	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex	True
 700100	Resurrect	Buff	True	seta	600000	0	1	Vow of Rebirth			Resurrect instantly if you are killed.	icon_skills.autoresurrect_tex	icon_skills.autoresurrect_tex	True
 700200	MPChange	Buff	True	abs	0	2	-30	Aura of the Unyielding I			Grants Aura of the Unyielding to party members within 30m. Costs $H_W_BAD-30$COLOR_END MP per $H_W_BAD2s$COLOR_END to maintain.	icon_skills.areahpgain_tex	icon_skills.areahpgain_tex	True
@@ -5308,9 +5328,9 @@
 3012012	AtkPotion	Buff	True	perc	20000	0	1.074	[Training Ground] Thrall of Wrath			Increases Crit Power by $H_W_GOOD45$COLOR_END and Power by $H_W_GOOD20$COLOR_END.	icon_skills.summonspiritofattack2_tex	icon_skills.summonspiritofattack2_tex	True
 3012013	MPChange	Buff	True	abs	1800000	1	2000	[Training Ground] Thunderstrikes			Decreases cooldown by $H_W_GOOD5%$COLOR_END.$BR Generates 2000 mana every 1 second.	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
 3012013	CDR	Buff	True	swch	1800000	1	0.95	[Training Ground] Thunderstrikes			Decreases cooldown by $H_W_GOOD5%$COLOR_END.$BR Generates 2000 mana every 1 second.	icon_skills.guildskill2_timedecre_1_tex	icon_skills.guildskill2_timedecre_1_tex	True
-3012020	Endurance	Debuff	False	perc	1800000	0	0.88	[Training Ground] Debilitate			Decreases Endurance by $H_W_BAD12%$COLOR_END. In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
-3012021	Endurance	Debuff	False	perc	1800000	0	0.9	[Training Ground] Endurance Decrease			Decreases Endurance by $H_W_BAD10%$COLOR_END.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
-3012022	CritResist	Debuff	False	abs	1800000	0	-12	[Training Ground] Crit Resist Decrease			Decreases Crit Resist by $H_W_BAD-12$COLOR_END.	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex	True
+3012020	Endurance	Debuff	False	perc	0	0	0.88	[Training Ground] Debilitate			Decreases Endurance by $H_W_BAD12%$COLOR_END. In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
+3012021	Endurance	Debuff	False	perc	0	0	0.9	[Training Ground] Endurance Decrease			Decreases Endurance by $H_W_BAD10%$COLOR_END.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
+3012022	CritResist	Debuff	False	abs	0	0	-12	[Training Ground] Crit Resist Decrease			Decreases Crit Resist by $H_W_BAD-12$COLOR_END.	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex	True
 3036001	HPLoss	Debuff	False	abs	1000	0	-10000000	Irresistible Fear			Dark Aura can be stacked 10 times. $H_W_BADIrresistible Fear$COLOR_END grips you.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 3036002	Endurance	Debuff	True	perc	600000	0	0.3	Dark Terror			Darkan carefully observes you since you haven’t been hit by the darkness. Decreases defense by 70%.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
 3036002	Aggro	Debuff	True	perc	600000	0	10	Dark Terror			Darkan carefully observes you since you haven’t been hit by the darkness. Decreases defense by 70%.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
@@ -5320,6 +5340,8 @@
 3036004	ASpd	Debuff	True	perc	600000	0	1.3	Darkan’s Wrath			Increases attack power by $H_W_GOOD50%$COLOR_END and increases attack speed by $H_W_GOOD30%$COLOR_END. Cannot be removed.	icon_status.plusattack_tex	icon_status.plusattack_tex	True
 3036018	MaxHP	Debuff	False	perc	3000	0	1	Death			You have died.	icon_skills.voidtrap_tex	icon_skills.voidtrap_tex	True
 3036035	ASpd	DOT	False	perc	1000	0	1	Scorched Scar			Drains $H_W_BAD10%$COLOR_END of your total HP every $H_W_BAD1s$COLOR_END until the effect is removed.	icon_crest.crestactiveattackspeeddown_tex	icon_crest.crestactiveattackspeeddown_tex	False
+4440000	StackCounter	Debuff	True	swch	10000	0	4440001	Intense Cold			You are overwhelmed by intense cold. You will die if stacked twice.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+4440001	HPLoss	Debuff	True	abs	1000	1	-10000000	Intense Cold			You are overwhelmed by intense cold. You will die if stacked twice.	icon_status.icedamage_tex	icon_status.icedamage_tex	False
 4510004	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	Solar Orb			Increases noncombat Movement Speed by $H_W_GOOD15$COLOR_END.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510005	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	Solar Orb			Increases noncombat Movement Speed by $H_W_GOOD15$COLOR_END.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510006	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	Solar Orb			Increases noncombat Movement Speed by $H_W_GOOD15$COLOR_END.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
@@ -5800,7 +5822,7 @@
 8000163	XPBoost	Buff	True	perc	86400000	0	3	Swift XP Potion (200%-400%)(1 Day)	201090	Swift XP Potion (200%-400%)(1 Day)				False
 8000164	XPBoost	Buff	True	perc	3600000	0	6	Swift XP Potion (500%-1000%)(1 Hour)	201091	Swift XP Potion (500%-1000%)(1 Hour)				False
 8000165	XPBoost	Buff	True	perc	7200000	0	2	Rapid XP Potion (100%)	5298	Rapid XP Potion (100%)	Increases XP rewards from killing mobs by 100% for 7200s.$BRThis duration applies even when you’re offline.	icon_items.potion12_tex	icon_items.potion12_tex	True
-8000684	StackCounter	Debuff	False	seta	15000	0	8000685	Snowman's Curse			Exit the spawn point in 15 seconds to cancel the curse. Effect can be stacked up to 13 times—then you die as a snowman.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
+8000684	StackCounter	Debuff	False	seta	15000	0	8000685	Snowman's Curse			Exit the spawn point in 15 seconds to cancel the curse. Effect can be stacked up to 5 times—then you die as a snowman.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 8000685	HPChange	Debuff	False	perc	60000	1	-0.8	The Curse of Snowman			You went AFK, and you will die if you don't act soon!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 8000685	191	Debuff	False	perc	60000	0	0	The Curse of Snowman			You went AFK, and you will die if you don't act soon!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 8000685	Stun	Debuff	False	swch	60000	0	5	The Curse of Snowman			You went AFK, and you will die if you don't act soon!	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -7165,6 +7187,14 @@
 31040009	Power	Debuff	True	perc	0	0	1.25	Sacrificial Spirit			Sacrificial Spirit increases Lumikan's attack by 25% per stack.	icon_status.minushp_tex	icon_status.minushp_tex	True
 31040015	Power	Buff	True	perc	3000	0	1	Impending Doom			Lumikan is preparing a powerful attack	icon_status.catvortex_tex	icon_status.catvortex_tex	True
 31040016	Power	Buff	True	perc	6000	0	1	Impending Doom			Lumikan is preparing a powerful attack	icon_status.catvortex_tex	icon_status.catvortex_tex	True
+31060001	DelayedEffect	Buff	True	swch	1500	0	32060107	Weak Spot			Gardan's weakness is revealed.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+31060002	MovSpd	Buff	True	setp	0	0	1.2	Apoplectic			He explodes in rage. Attack and movement speed are greatly increased.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+31060002	ASpd	Buff	True	perc	0	0	1.3	Apoplectic			He explodes in rage. Attack and movement speed are greatly increased.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+31060003	MaxMP	Stun	False	perc	15000	0	1	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+31060003	StackCounter	Stun	False	seta	15000	0	32060016	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+31060005	Power	Buff	True	perc	0	0	1	Endless Power			You feel no pain. The effect is triggered when you suffer a certain amount of damage.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+31060005	Absorb	Buff	True	swch	0	0	720000000	Endless Power			You feel no pain. The effect is triggered when you suffer a certain amount of damage.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+31061001	Power	Buff	True	perc	1800000	0	1.02	Flurry of Blows I			The power of rage continuously boosts his strength. The strength of Gardan's attacks increases.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
 31260001	Endurance	DOT	True	perc	55000	0	1	Doomfire			Reduces $H_W_BAD5%$COLOR_END of maximum HP every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRDoomfire can only be removed with Doomchill. Increases temperature in battle area.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	Attack	Debuff	False	seta	0	0	0.75	Doomfire			Reduces $H_W_BAD5%$COLOR_END of maximum HP every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRDoomfire can only be removed with Doomchill. Increases temperature in battle area.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 31260001	HPChange	DOT	True	perc	55000	2	-0.05	Doomfire			Reduces $H_W_BAD5%$COLOR_END of maximum HP every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRDoomfire can only be removed with Doomchill. Increases temperature in battle area.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
@@ -7349,7 +7379,57 @@
 32040009	Power	Debuff	True	perc	0	0	1.25	Sacrificial Spirit			Sacrificial Spirit increases Lumikan's attack by 25% per stack.	icon_status.minushp_tex	icon_status.minushp_tex	True
 32040015	Power	Buff	True	perc	4000	0	1	Impending Doom			Lumikan is preparing a powerful attack	icon_status.catvortex_tex	icon_status.catvortex_tex	True
 32040016	Power	Buff	True	perc	6000	0	1	Impending Doom			Lumikan is preparing a powerful attack	icon_status.catvortex_tex	icon_status.catvortex_tex	True
-32040017	297	Debuff	True	perc	0	0	1	Lucid Nightmare			You cannot return to the dream once the nightmare begins	icon_skills.arouseanger_tex	icon_skills.arouseanger_tex	True
+32040017	Power	Debuff	True	perc	0	0	1	Lucid Nightmare			You cannot return to the dream once the nightmare begins	icon_skills.arouseanger_tex	icon_skills.arouseanger_tex	True
+32060001	358	Buff	True	swch	0	0	1000	Apoplectic			Gardan is apoplectic.	icon_skills.provokerage_tex	icon_skills.provokerage_tex	True
+32060006	Stun	Debuff	True	swch	1000	0	5	Restraint			You're restrained and cannot move.	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+32060007	MovSpd	Stun	True	setp	90000	0	0.8	Cold Surge			You're subjected to extreme cold. Your body is frozen solid if stacked twice.	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+32060007	StackCounter	Stun	True	seta	90000	0	32060008	Cold Surge			You're subjected to extreme cold. Your body is frozen solid if stacked twice.	icon_status.confusedown_tex	icon_status.confusedown_tex	True
+32060008	MovSpd	Stun	True	setp	10000	0	0	Cold Snap II			You're frozen and cannot move.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060008	Block	Stun	True	swch	10000	0	0	Cold Snap II			You're frozen and cannot move.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060008	DelayedEffect	Stun	True	swch	10000	0	32060012	Cold Snap II			You're frozen and cannot move.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060008	340	Stun	True	swch	10000	0	0	Cold Snap II			You're frozen and cannot move.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060010	Stun	Stun	False	swch	3000	0	5	Stunned			Stunned. Cannot move.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+32060011	MovSpd	Stun	True	setp	180000	0	0.8	Frostbite			The cold reduces your movement speed.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32060011	HPDrain	Stun	True	perc	180000	0	0.8	Frostbite			The cold reduces your movement speed.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
+32060012	HPLoss	Debuff	True	abs	10	0	-10000000000	Cold Surge			You're subjected to extreme cold. Your body is frozen solid if stacked twice.	icon_status.confusedown_tex	icon_status.confusedown_tex	False
+32060015	MaxMP	Stun	False	perc	15000	0	1	Frostwind			The cold attack reduces your movement speed. After 7 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32060015	StackCounter	Stun	False	seta	15000	0	32060016	Frostwind			The cold attack reduces your movement speed. After 7 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	True
+32060016	MovSpd	Stun	True	setp	4000	0	0	Cold Snap I			You're frozen and cannot move.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060016	Block	Stun	True	swch	4000	0	0	Cold Snap I			You're frozen and cannot move.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060016	340	Stun	True	swch	4000	0	0	Cold Snap I			You're frozen and cannot move.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
+32060023	DefPotion	Debuff	True	perc	30000	0	5	Cold Surge			You're subjected to extreme cold. Your body is frozen solid if stacked twice.	icon_status.confusedown_tex	icon_status.confusedown_tex	False
+32060024	Power	Debuff	True	perc	0	0	1	Gardan's Mark			Gardan marks you as the target for his attacks.$BRDps Classes are granted Back Crit/Back Damage from any position while in effect.	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
+32060024	StackCounter	Debuff	True	swch	0	0	32060026	Gardan's Mark			Gardan marks you as the target for his attacks.$BRDps Classes are granted Back Crit/Back Damage from any position while in effect.	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
+32060026	Power	Buff	True	perc	0	0	1	Gardan's Mark			Gardan marks you as the target for his attacks.$BRDps Classes are granted Back Crit/Back Damage from any position while in effect.	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	False
+32060033	Stun	Debuff	True	swch	1000	0	5	Restraint			You're restrained and cannot move.	icon_status.positionswap_tex	icon_status.positionswap_tex	True
+32060035	HPChange	DOT	False	perc	13000	1	-0.07	Bleeding			You bleed after being struck by the axe. Your HP is continuously depleted.	icon_status.injuredbtdarkness_tex	icon_status.injuredbtdarkness_tex	True
+32060036	MovSpd	Debuff	False	setp	15000	0	0.8	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060037	MovSpd	Debuff	False	setp	15000	0	0.7	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060038	MovSpd	Debuff	False	setp	15000	0	0.6	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060039	MovSpd	Debuff	False	setp	15000	0	0.5	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060040	MovSpd	Debuff	False	setp	15000	0	0.4	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060041	MovSpd	Debuff	False	setp	15000	0	0.3	Frostwind			The cold attack reduces your movement speed. After 10 stacks, your body will freeze solid and you'll be immobilized.	icon_status.whiteaura_tex	icon_status.whiteaura_tex	False
+32060107	Immune	Buff	True	16	0	0	0	Bloodthirsty Enforcer			Gardan shows no weakness.	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
+32060107	StatusImmune	Buff	True	swch	0	0	0	Bloodthirsty Enforcer			Gardan shows no weakness.	icon_skills.toughspirit_tex	icon_skills.toughspirit_tex	True
+32060108	DelayedEffect	Buff	True	swch	1200	0	32060107	Weak Point			Gardan's weakness is revealed.	icon_skills.murderousvent_tex	icon_skills.murderousvent_tex	True
+32061001	Power	Buff	True	perc	1800000	0	1.02	Flurry of Blows I			The power of rage continuously boosts his strength. The strength of Gardan's attacks increases.$BRAfter 10 stacks he becomes unstoppable.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
+32061001	StackCounter	Buff	True	swch	1800000	0	320610010	Flurry of Blows I			The power of rage continuously boosts his strength. The strength of Gardan's attacks increases.$BRAfter 10 stacks he becomes unstoppable.	icon_status.angerwarrior_tex	icon_status.angerwarrior_tex	True
+32061004	MovSpd	Buff	True	setp	0	0	1.2	Apoplectic			He explodes in rage. Attack and movement speed are greatly increased.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+32061004	ASpd	Buff	True	perc	0	0	1.5	Apoplectic			He explodes in rage. Attack and movement speed are greatly increased.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+32061006	Power	Buff	True	perc	0	0	1	Endless Power			You feel no pain. The effect is triggered when you suffer a certain amount of damage.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+32061006	Absorb	Buff	True	swch	0	0	2000000000	Endless Power			You feel no pain. The effect is triggered when you suffer a certain amount of damage.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+32061017	Power	Debuff	True	perc	35000	0	1	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061017	DelayedEffect	Debuff	True	seta	5000	0	32061001	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061018	Power	Debuff	True	perc	45000	0	1	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061018	DelayedEffect	Debuff	True	seta	4000	0	32061001	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061019	Power	Debuff	True	perc	55000	0	1	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061019	DelayedEffect	Debuff	True	seta	3000	0	32061001	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
+32061020	Power	Debuff	True	perc	35000	0	1	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
+32061021	Power	Debuff	True	perc	45000	0	1	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
+32061022	Power	Debuff	True	perc	55000	0	1	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
+32061023	Power	Debuff	True	perc	3000	0	1	Frenzy			The frenzy intensifies.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	False
+32061025	Power	Debuff	True	perc	0	0	1	Remorseless Winter			It's extremely cold outside. You will freeze to death if you leave.	icon_skills.arouseangerice_tex	icon_skills.arouseangerice_tex	True
+32061030	HPChange	Debuff	True	perc	0	2	-0.1	Penetrating Cold			A biting cold is freezing your bones, reducing HP by $H_W_BAD10%$COLOR_END every $H_W_BAD2s$COLOR_END.	icon_items.snowflower_tex	icon_items.snowflower_tex	True
 43100007	HPChange	DOT	False	perc	15000	3	-0.05	Bleeding			Reduces HP by $H_W_BAD5%$COLOR_END of maximum every $H_W_BAD3s$COLOR_END.	icon_status.minuscriticalresist_tex	icon_status.minuscriticalresist_tex	True
 43100011	MovSpd	Debuff	False	setp	10000	0	0.8	Unmaking			Decreases Movement Speed by $H_W_BAD20%$COLOR_END.$BRReduces HP dramatically when the countdown runs out.	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
 43100011	HPDrain	Debuff	False	perc	10000	0	0.9	Unmaking			Decreases Movement Speed by $H_W_BAD20%$COLOR_END.$BRReduces HP dramatically when the countdown runs out.	icon_status.delaydamage_tex	icon_status.delaydamage_tex	True
@@ -9460,7 +9540,7 @@
 90442103	DelayedEffect	Buff	True	swch	0	0	90442101	Bahaar's Wrath			Bahaar is furious. Bahaar's Endurance decreases by $H_W_BAD15%$COLOR_END, but damage increases by $H_W_GOOD20%$COLOR_END.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
 90442103	335	Buff	True	swch	0	0	0	Bahaar's Wrath			Bahaar is furious. Bahaar's Endurance decreases by $H_W_BAD15%$COLOR_END, but damage increases by $H_W_GOOD20%$COLOR_END.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
 90442104	DelayedEffect	Buff	True	swch	50000	0	90442101	Bahaar's Rage			Bahaar gets furious if he receives heavy damage while enraged.	icon_status.baharrrage_tex	icon_status.baharrrage_tex	False
-90442106	Endurance	Debuff	False	perc	10000	0	0.5	Melting Armor			Bahaar's rage is melting your armor. Endurance decreases by $H_W_BAD50%$COLOR_END per stack.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
+90442106	Endurance	Debuff	False	perc	10000	0	0.5	Frozen Armor			Bahaar's rage is freezing your armor. Endurance decreases by $H_W_BAD50%$COLOR_END per stack.	icon_status.minusdefence_tex	icon_status.minusdefence_tex	True
 90442107	Power	Buff	True	perc	0	0	1.2	Bahaar's Wrath			Bahaar is furious. Bahaar's Endurance decreases by $H_W_BAD15%$COLOR_END, but damage increases by $H_W_GOOD20%$COLOR_END.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
 90442107	Endurance	Buff	True	perc	0	0	0.85	Bahaar's Wrath			Bahaar is furious. Bahaar's Endurance decreases by $H_W_BAD15%$COLOR_END, but damage increases by $H_W_GOOD20%$COLOR_END.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
 90442107	335	Buff	True	swch	0	0	0	Bahaar's Wrath			Bahaar is furious. Bahaar's Endurance decreases by $H_W_BAD15%$COLOR_END, but damage increases by $H_W_GOOD20%$COLOR_END.	icon_status.baharrwrath_tex	icon_status.baharrwrath_tex	True
@@ -9468,7 +9548,7 @@
 90442204	Endurance	Buff	True	perc	0	0	10	Awakened Strength			Empowered by the Blazing Volcano, the Legion Soldiers will now run towards their commander.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
 90442204	220	Buff	True	seta	0	0	0	Awakened Strength			Empowered by the Blazing Volcano, the Legion Soldiers will now run towards their commander.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
 90442204	Immune	Buff	True	24	0	0	0	Awakened Strength			Empowered by the Blazing Volcano, the Legion Soldiers will now run towards their commander.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
-90442211	Attack	Debuff	True	perc	15000	0	0.5	Volcanic Heat			The Volcanic Heat decreases your Skill Damage by $H_W_BAD50%$COLOR_END for 15 seconds. This effect cannot be removed.	icon_status.minusattack_tex	icon_status.minusattack_tex	True
+90442211	Attack	Debuff	True	perc	15000	0	0.5	Frostbite			Frostbite decreases your Skill Damage by $H_W_BAD50%$COLOR_END for 15 seconds. This effect cannot be removed.	icon_status.minusattack_tex	icon_status.minusattack_tex	True
 90442300	Immune	Buff	True	16	0	0	0	Tempest of Hatred - Casting			Bahaar is concentrating a raging power.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	False
 90442300	StatusImmune	Buff	True	swch	0	0	0	Tempest of Hatred - Casting			Bahaar is concentrating a raging power.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	False
 90442301	Immune	Buff	True	16	0	0	0	Tempest of Hatred - Casting			Bahaar is concentrating a raging power.	icon_status.wrathstormcasting_tex	icon_status.wrathstormcasting_tex	True
@@ -9479,7 +9559,7 @@
 90442303	StatusImmune	Buff	True	swch	5000	0	0	Tempest of Hatred - Complete			Bahaar is ready to unleash a fearsome attack!	icon_status.wrathstormcompleted_tex	icon_status.wrathstormcompleted_tex	True
 90442304	DelayedEffect	Buff	True	swch	12000	0	90442300	Tempest of Hatred - Weakened			Bahaar is no longer protected. Stun Bahaar to cancel Tempest of Hatred.	icon_skills.finalblow_tex	icon_skills.finalblow_tex	True
 90442502	335	Debuff	True	swch	0	0	0	Mortal Mark			Beware! Bahaar is targeting you with rage.	icon_status.aura_of_damage_tex	icon_status.aura_of_damage_tex	True
-90442600	StackCounter	Buff	True	swch	0	0	90442601	Scorching Vengeance			Bahaar's revenge against Tithus will soon be complete. Once complete, nothing will be able to stop Bahaar.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
+90442600	StackCounter	Buff	True	swch	0	0	90442601	Chilling Vengeance			Bahaar's revenge against Tithus will soon be complete. Once complete, nothing will be able to stop Bahaar.	icon_skills.berserk_tex	icon_skills.berserk_tex	True
 90442601	Power	Buff	True	perc	0	0	10	Bahaar's Revenge			Bahaar is overwhelmed with power!	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
 90442601	Endurance	Buff	True	perc	0	0	5	Bahaar's Revenge			Bahaar is overwhelmed with power!	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
 90442601	ASpd	Buff	True	perc	0	0	1.5	Bahaar's Revenge			Bahaar is overwhelmed with power!	icon_status.baharrforce_tex	icon_status.baharrforce_tex	True
@@ -9604,9 +9684,13 @@
 91900021	HPDrain	Debuff	False	perc	3000	0	0.9	Scattershot			Decreases Movement Speed by $H_W_BAD15%$COLOR_END.	icon_status.minusmove_tex	icon_status.minusmove_tex	True
 91900022	AtkPotion	Buff	True	perc	20000	0	0.86	Adrenaline Rush II			Decrease PvP damage by 14%.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	False
 91900023	AtkPotion	Buff	False	perc	0	0	1.15	Gridiron Dmg UP			This buff should not be shown			False
+91900026	PVPAtk	Buff	True	perc	300000	0	1.05	Flame Essence			Increases PvP Attack by $H_W_GOOD5%$COLOR_END.	icon_skills.fireball_tex	icon_skills.fireball_tex	True
+91900027	PVPDef	Buff	True	perc	300000	0	1.05	Frost Essence			Increases PvP Defense by $H_W_GOOD5%$COLOR_END.	icon_skills.fireball2_tex	icon_skills.fireball2_tex	True
 91900101	Power	Buff	True	perc	0	0	1.27	Fraywind Nostrum			- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.00$COLOR_END.	icon_items.griffon_potion_level_60_tex	icon_items.griffon_potion_level_60_tex	True
 91900101	Endurance	Buff	True	perc	0	0	1.2	Fraywind Nostrum			- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.00$COLOR_END.	icon_items.griffon_potion_level_60_tex	icon_items.griffon_potion_level_60_tex	True
 91900101	CritPower	Buff	True	abs	0	0	1.42	Fraywind Nostrum			- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.00$COLOR_END.	icon_items.griffon_potion_level_60_tex	icon_items.griffon_potion_level_60_tex	True
+91900104	KnockDownChance	Buff	True	perc	3500	0	0	Rallying Cry			You and others around you are immune to knockdown and stagger.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
+91900104	StatusImmune	Buff	True	swch	3500	0	0	Rallying Cry			You and others around you are immune to knockdown and stagger.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 91900200	MovSpd	Buff	True	perc	15000	0	1.3	Christmas wind			You have additional speed.	icon_status.lightweight_tex	icon_status.lightweight_tex	True
 91900201	AllowAggro	Buff	True	swch	10000	0	0	Christmas Eve			You have ability to steal some gifts.	icon_skills.seduction_tex	icon_skills.seduction_tex	True
 91900201	Visibility	Buff	True	swch	10000	0	0	Christmas Eve			You have ability to steal some gifts.	icon_skills.seduction_tex	icon_skills.seduction_tex	True
@@ -10962,6 +11046,7 @@
 303900002	331	Debuff	False	swch	500	0	0	Seren's Shriek			You’ve been exposed to a powerful stream of mysterious energy, and will die in 10 seconds.$BRTo prevent dying, use <font color = '#F9B600'>Elinu's Floral Veil</font>.	icon_status.yellowaura_tex	icon_status.yellowaura_tex	True
 303900003	HPChange	Debuff	False	perc	0	1	-0.9	Wrath of Nature			Your HP rapidly decreases over time.	icon_status.orangeaura_tex	icon_status.orangeaura_tex	True
 303900004	Block	Debuff	True	swch	30000	0	0	Silenced			You reset the cooldown of your skills, but also became silenced for a short while.	icon_status.vergoscurse_tex	icon_status.vergoscurse_tex	True
+320610010	Power	Buff	True	perc	0	0	1	Endless Fury			Gardan is infuriated. Nothing can stop him now.	icon_skills.battlefield_high_ranking_tex	icon_skills.battlefield_high_ranking_tex	True
 950700002	Stun	Stun	True	swch	10000	0	5	Blackout			Khemadia's attack nearly killed you.	icon_status.exhaustion_tex	icon_status.exhaustion_tex	True
 950800003	HPChange	Buff	True	perc	0	3	0.03	Mystel's Blessing			Mystel's Blessing decreases your cooldown for Apex skills and restores your HP and MP.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
 950800003	MPChange	Buff	True	perc	0	3	0.03	Mystel's Blessing			Mystel's Blessing decreases your cooldown for Apex skills and restores your HP and MP.	icon_skills.moonlight_tex	icon_skills.moonlight_tex	True
