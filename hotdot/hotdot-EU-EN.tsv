@@ -2488,11 +2488,11 @@
 200732	Aggro	Buff	True	perc	20000	0	1.08	Adrenaline Rush I			Attacks draw $H_W_GOOD8%$COLOR_END more aggro. Reduces cooldown of melee attack skills by $H_W_GOOD50%$COLOR_END, except for <font color = '#f9b600'>[Shield Bash]</font>, <font color = '#f9b600'>[Charging Lunge]</font>, and <font color = '#f9b600'>[Lockdown Blow]</font>.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200732	CDR	Buff	True	swch	20000	0	0.5	Adrenaline Rush I			Attacks draw $H_W_GOOD8%$COLOR_END more aggro. Reduces cooldown of melee attack skills by $H_W_GOOD50%$COLOR_END, except for <font color = '#f9b600'>[Shield Bash]</font>, <font color = '#f9b600'>[Charging Lunge]</font>, and <font color = '#f9b600'>[Lockdown Blow]</font>.	icon_skills.fightingwill_tex	icon_skills.fightingwill_tex	True
 200800	Stun	Stun	False	swch	3000	0	5	Shield Barrage			Stunned. Cannot move.	icon_skills.shieldattack_tex	icon_skills.shieldattack_tex	True
-200900	BuffNearbyParty	Buff	True	swch	12000	3	200930	Pledge of Protection			Protects party members within 20m.	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
+200900	DefPotion	Buff	True	perc	12000	0	0.8	Pledge of Protection			Protects party members within 20m and reduces damage taken by 20%.	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
+200900	BuffNearbyParty	Buff	True	abs	12000	3	200930	Pledge of Protection			Protects party members within 20m and reduces damage taken by 20%.	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
 200901	BuffNearbyParty	Buff	True	swch	12000	3	200931	Pledge of Protection II			Protects party members within 20m.	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
-200930	DefPotion	Buff	True	perc	0	0	0.8	Pledge of Protection I			As long as you stay within 20m, the lancer protecting you takes $H_W_GOOD20%$COLOR_END of the damage you take and decreases damage received by $H_W_GOOD20%$COLOR_END. Increases Physical Resistance by $calcValue(multiple,1003,0.15,3).	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
-200930	ShareDamageWithNearbyTank	Buff	True	perc	0	0	0.2	Pledge of Protection I			As long as you stay within 20m, the lancer protecting you takes $H_W_GOOD20%$COLOR_END of the damage you take and decreases damage received by $H_W_GOOD20%$COLOR_END. Increases Physical Resistance by $calcValue(multiple,1003,0.15,3).	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
-200930	1003	Buff	True	abs	0	0	0	Pledge of Protection I			As long as you stay within 20m, the lancer protecting you takes $H_W_GOOD20%$COLOR_END of the damage you take and decreases damage received by $H_W_GOOD20%$COLOR_END. Increases Physical Resistance by $calcValue(multiple,1003,0.15,3).	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
+200930	ShareDamageWithNearbyTank	Buff	True	perc	0	0	0.2	Pledge of Protection I			As long as you stay within 20m, the lancer protecting you takes $H_W_GOOD20%$COLOR_END of the damage you take. Increases Physical Resistance by $calcValue(multiple,1003,0.15,3).	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
+200930	1003	Buff	True	abs	0	0	0	Pledge of Protection I			As long as you stay within 20m, the lancer protecting you takes $H_W_GOOD20%$COLOR_END of the damage you take. Increases Physical Resistance by $calcValue(multiple,1003,0.15,3).	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
 200931	DefPotion	Buff	True	perc	0	0	0.8	Pledge of Protection II			The lancer protecting you takes $H_W_GOOD20%$COLOR_END of the damage you take and decreases damage received by $H_W_GOOD20%$COLOR_END, as long as you stay within 20m.	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
 200931	ShareDamageWithNearbyTank	Buff	True	perc	0	0	0.2	Pledge of Protection II			The lancer protecting you takes $H_W_GOOD20%$COLOR_END of the damage you take and decreases damage received by $H_W_GOOD20%$COLOR_END, as long as you stay within 20m.	icon_skills.vowofprotection_tex	icon_skills.vowofprotection_tex	True
 201000	209	Buff	True	perc	4000	0	0	Leash			You may now use Master's Leash.	icon_skills.hookthrow_tex	icon_skills.chaincapture_tex	True
@@ -2574,8 +2574,8 @@
 300201	HPDrain	Stun	False	perc	5000	0	0.1	Backstab II			Cannot move. Knockdown cancels the effect.	icon_skills.turnaroundattack_tex	icon_skills.turnaroundattack_tex	True
 300300	AtkPotion	Buff	True	perc	20000	0	1.3	Overpower			Your next attack does $H_W_GOOD30%$COLOR_END more damage.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
 300301	AtkPotion	Buff	True	perc	4000	0	1.33	Overpower II			Your next use of [Heart Thrust], [Knockdown Strike], or [Whirlwind] deals $calcValue(multiple,162,0,6) more damage.$BR<font color = '#F9B600'>PvE Only</font>$BRIncreases Skill Damage of Unsheathe by $H_W_GOOD15%$COLOR_END.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-300330	MPChange	Buff	True	abs	0	2	-30	Overpower II			Increases damage of your next <font color = '#F9B600'>Heart Thrust</font>, <font color = '#F9B600'>Knockdown Strike</font>, or <font color = '#F9B600'>Punishing Blow</font>.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
-300330	BuffNearbyParty	Buff	True	seta	0	4	300301	Overpower II			Increases damage of your next <font color = '#F9B600'>Heart Thrust</font>, <font color = '#F9B600'>Knockdown Strike</font>, or <font color = '#F9B600'>Punishing Blow</font>.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
+300330	MPChange	Buff	True	abs	0	2	-30	Overpower II			Increases damage of the third cast of <font color = '#F9B600'>Heart Thrust</font>, <font color = '#F9B600'>WhirlWind</font> and <font color = '#F9B600'>Punishing Blow</font> individually.$BR<font color = '#F9B600'>PvE Only</font>$BRIncreases Skill Damage of Unsheathe by $H_W_GOOD15%$COLOR_END.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
+300330	BuffNearbyParty	Buff	True	seta	0	4	300302	Overpower II			Increases damage of the third cast of <font color = '#F9B600'>Heart Thrust</font>, <font color = '#F9B600'>WhirlWind</font> and <font color = '#F9B600'>Punishing Blow</font> individually.$BR<font color = '#F9B600'>PvE Only</font>$BRIncreases Skill Damage of Unsheathe by $H_W_GOOD15%$COLOR_END.	icon_skills.gatheringstrength_tex	icon_skills.gatheringstrength_tex	True
 300400	Stun	Stun	False	swch	2500	0	5	Startling Kick			Stunned. Cannot move.	icon_skills.retreatingkick_tex	icon_skills.retreatingkick_tex	True
 300500	ASpd	Buff	True	perc	10000	0	1.4	Headlong Rush I			Your next attack is $H_W_GOOD40%$COLOR_END faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex	True
 300501	ASpd	Buff	True	perc	10000	0	1.5	Headlong Rush II			Your next attack is $H_W_GOOD50%$COLOR_END faster.	icon_skills.advancingleap_tex	icon_skills.advancingleap_tex	True
@@ -2604,6 +2604,9 @@
 300808	AtkPotion	Buff	True	perc	25000	0	1.1	In Cold Blood II			Increases damage of Overhand Strike by 10%.	icon_skills.destructionvigor_tex	icon_skills.destructionvigor_tex	True
 300809	MovSpdInCombat	Buff	True	abs	20000	0	20	In Cold Blood II			Take 30% less damage from ranged attacks and increases Combat Movement Speed by 20.	icon_skills.destructionvigor_tex	icon_skills.destructionvigor_tex	True
 300809	DefPotion	Buff	True	perc	20000	0	0.7	In Cold Blood II			Take 30% less damage from ranged attacks and increases Combat Movement Speed by 20.	icon_skills.destructionvigor_tex	icon_skills.destructionvigor_tex	True
+300812	AtkPotion	Buff	True	perc	30000	0	2	Enhanced Heart Thrust			Increases next cast skill damage by $H_W_GOOD100%$COLOR_END.	icon_skills.stingerblade_tex	icon_skills.stingerblade_tex	True
+300813	AtkPotion	Buff	True	perc	30000	0	1.33	Enhanced WhirlWind			Increases next cast skill damage by $H_W_GOOD33%$COLOR_END.	icon_skills.sworddance_tex	icon_skills.sworddance_tex	True
+300814	AtkPotion	Buff	True	perc	30000	0	1.15	Enhanced Punishing Blow			Increases next cast skill damage by $H_W_GOOD15%$COLOR_END.	icon_skills.gaiacrucsh_tex	icon_skills.gaiacrucsh_tex	True
 300850	AtkPotion	Buff	True	perc	30000	0	1.3	In Cold Blood II			Increases skill damage by $H_W_GOOD15%$COLOR_END and Attack Speed by $H_W_GOOD8%$COLOR_END. Increases damage of Overhand Strike by 30%. Cooldown will not be applied.	icon_status.descentofdarkness_tex	icon_status.descentofdarkness_tex	False
 300850	190	Buff	True	swch	30000	0	4	In Cold Blood II			Increases skill damage by $H_W_GOOD15%$COLOR_END and Attack Speed by $H_W_GOOD8%$COLOR_END. Increases damage of Overhand Strike by 30%. Cooldown will not be applied.	icon_status.descentofdarkness_tex	icon_status.descentofdarkness_tex	False
 300850	276	Buff	True	seta	30000	0	3008	In Cold Blood II			Increases skill damage by $H_W_GOOD15%$COLOR_END and Attack Speed by $H_W_GOOD8%$COLOR_END. Increases damage of Overhand Strike by 30%. Cooldown will not be applied.	icon_status.descentofdarkness_tex	icon_status.descentofdarkness_tex	False
@@ -2717,8 +2720,8 @@
 400702	DefPotion	Debuff	False	perc	10000	0	1.03	Bloodlust			You take 3% more damage.	icon_skills.fury_tex	icon_skills.fury_tex	True
 400703	DefPotion	Debuff	False	perc	10000	0	1.09	Bloodlust			You take 9% more damage.	icon_skills.fury_tex	icon_skills.fury_tex	True
 400704	AtkPotion	Buff	True	perc	30000	0	1.1	Charisma			Increases damage by 10% when attacking monsters.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400705	DefPotion	Buff	True	perc	30000	0	1.1	Bloodlust			Increases PvP damage by 20%, but takes more PvP damage by 10%.	icon_skills.fury_tex	icon_skills.fury_tex	True
-400705	AtkPotion	Buff	True	perc	30000	0	1.2	Bloodlust			Increases PvP damage by 20%, but takes more PvP damage by 10%.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400705	DefPotion	Buff	True	perc	30000	0	1.1	Bloodlust			Increases PvP damage by 20%, but takes 10% more PvP damage.	icon_skills.fury_tex	icon_skills.fury_tex	True
+400705	AtkPotion	Buff	True	perc	30000	0	1.2	Bloodlust			Increases PvP damage by 20%, but takes 10% more PvP damage.	icon_skills.fury_tex	icon_skills.fury_tex	True
 400710	ASpd	Buff	True	perc	100	0	1.2	Flurry of Blows I			Increases Attack Speed and charging speed by $H_W_GOOD20%$COLOR_END.	icon_skills.gatheringrage_tex	icon_skills.gatheringrage_tex	False
 400710	29	Buff	True	perc	100	0	1.2	Flurry of Blows I			Increases Attack Speed and charging speed by $H_W_GOOD20%$COLOR_END.	icon_skills.gatheringrage_tex	icon_skills.gatheringrage_tex	False
 400710	DelayedEffect	Buff	True	swch	100	0	400500	Flurry of Blows I			Increases Attack Speed and charging speed by $H_W_GOOD20%$COLOR_END.	icon_skills.gatheringrage_tex	icon_skills.gatheringrage_tex	False
@@ -3003,7 +3006,7 @@
 468019	MovSpd	Debuff	True	perc	10000	0	1	Dark Forces			Nightmare Imperator is infusing you with blood magic.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 468019	295	Debuff	True	swch	10000	0	0	Dark Forces			Nightmare Imperator is infusing you with blood magic.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 468020	DelayedEffect	Buff	True	swch	10000	0	468022	Bloodshard Shield			Nightmare Pahoegar is absorbing the Bloodshard's power.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-468020	Absorb	Buff	True	abs	10000	0	800000000	Bloodshard Shield			Nightmare Pahoegar is absorbing the Bloodshard's power.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+468020	Absorb	Buff	True	abs	10000	0	133333333	Bloodshard Shield			Nightmare Pahoegar is absorbing the Bloodshard's power.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 468021	MovSpd	Debuff	True	perc	6000	0	1	Infection			Blood Magic is spreading throughout your body.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 468022	MovSpd	Buff	True	perc	0	0	1	Bloodshard's Power			Nightmare Pahoegar is empowered by the Bloodshard.	icon_status.cruel_slayer_2_tex	icon_status.cruel_slayer_2_tex	True
 468028	DelayedEffect	Stun	True	swch	19500	0	468032	Despair			Overcome by bad memories.	icon_status.cruel_slayer_1_tex	icon_status.cruel_slayer_1_tex	True
@@ -3025,7 +3028,7 @@
 468041	HPChange	Stun	False	perc	10000	2	-0.01	Unstable Mana			Constant HP loss.	icon_status.minushp_tex	icon_status.minushp_tex	True
 468042	MovSpd	Buff	True	perc	30000	0	0.26	Dark Shield			Nightmare Imperator is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 468042	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Dark Shield			Nightmare Imperator is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
-468042	Absorb	Buff	True	abs	30000	0	1000000000	Dark Shield			Nightmare Imperator is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+468042	Absorb	Buff	True	abs	30000	0	166666666	Dark Shield			Nightmare Imperator is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 468043	Endurance	Buff	False	perc	0	0	5	Blood Magic			Increased Defense.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 468044	HPChange	Stun	True	perc	160000	1	-0.05	Lakan's Wrath			Constant HP loss. Stacks up to three times, at which point the target dies. If all party members have Lakan's Wrath, triggers Lakan's Authority.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
 468044	StackCounter	Stun	True	swch	160000	0	98000020	Lakan's Wrath			Constant HP loss. Stacks up to three times, at which point the target dies. If all party members have Lakan's Wrath, triggers Lakan's Authority.	icon_status.delayheal_tex	icon_status.delayheal_tex	True
@@ -3512,8 +3515,8 @@
 602227	330	Buff	True	swch	22000	0	0	Windsong (Gust)			Let yourself fall into the wind.	icon_skills.breeze_tex	icon_skills.breeze_tex	True
 602227	331	Buff	True	swch	22000	0	0	Windsong (Gust)			Let yourself fall into the wind.	icon_skills.breeze_tex	icon_skills.breeze_tex	True
 602227	1001	Buff	True	perc	60000	0	1.05	Windsong (Gust)			Let yourself fall into the wind.	icon_skills.breeze_tex	icon_skills.breeze_tex	True
-602228	DefPotion	Buff	True	perc	22000	0	1.1	Gust			Increases skill damage against players by 20%, but takes more PvP damage by 10%.	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
-602228	AtkPotion	Buff	True	perc	22000	0	1.2	Gust			Increases skill damage against players by 20%, but takes more PvP damage by 10%.	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
+602228	DefPotion	Buff	True	perc	22000	0	1.1	Gust			Increases skill damage against players by 20%, but takes 10% more PvP damage.	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
+602228	AtkPotion	Buff	True	perc	22000	0	1.2	Gust			Increases skill damage against players by 20%, but takes 10% more PvP damage.	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
 620000	Block	Buff	True	swch	5000	0	0	Shock Wave I			Suspended in air. Cannot move.	icon_status.whirl_tex	icon_status.whirl_tex	True
 620000	274	Buff	True	swch	5000	0	400	Shock Wave I			Suspended in air. Cannot move.	icon_status.whirl_tex	icon_status.whirl_tex	True
 620001	Block	Buff	True	swch	5000	0	0	Shock Wave II			Suspended in air. Cannot move.	icon_status.whirl_tex	icon_status.whirl_tex	True
@@ -4169,7 +4172,7 @@
 768019	MovSpd	Debuff	True	perc	10000	0	1	Dark Forces			Imperator is infusing you with blood magic on you.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 768019	295	Debuff	True	swch	10000	0	0	Dark Forces			Imperator is infusing you with blood magic on you.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 768020	DelayedEffect	Buff	True	swch	10000	0	768022	Bloodshard Shield			Pahoegar is absorbing the Bloodshard's power.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-768020	Absorb	Buff	True	abs	10000	0	494000000	Bloodshard Shield			Pahoegar is absorbing the Bloodshard's power.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+768020	Absorb	Buff	True	abs	10000	0	82000000	Bloodshard Shield			Pahoegar is absorbing the Bloodshard's power.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 768021	MovSpd	Debuff	True	perc	7000	0	1	Infection			Blood Magic is spreading throughout your body.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 768022	MovSpd	Buff	True	perc	0	0	1	Bloodshard's Power			Pahoegar is empowered by the Bloodshard.	icon_status.cruel_slayer_2_tex	icon_status.cruel_slayer_2_tex	True
 768028	DelayedEffect	Stun	True	swch	19500	0	768032	Despair			Overcome by bad memories.	icon_status.cruel_slayer_1_tex	icon_status.cruel_slayer_1_tex	True
@@ -4417,7 +4420,7 @@
 801101	HPChange	Buff	True	abs	5000	1	852	Divine Prayer II			Recovers HP by $calcValue(heal,51,852,0) every $H_W_GOOD1s$COLOR_END.	icon_skills.restoration_tex	icon_skills.restoration_tex	True
 801200	Stun	Stun	False	swch	20000	0	5	Ishara's Lullaby I			Sleep comfortably. Ends immediately if you are hit.	icon_skills.lullabyoflshara_tex	icon_skills.lullabyoflshara_tex	True
 801201	Stun	Stun	False	swch	20000	0	5	Ishara's Lullaby II			Sleep comfortably. Ends immediately if you are hit.	icon_skills.lullabyoflshara_tex	icon_skills.lullabyoflshara_tex	True
-801202	Stun	Stun	False	swch	20000	0	5	Ishara's Lullaby III			Sleep comfortably. Ends immediately if you are hit.	icon_skills.lullabyoflshara_tex	icon_skills.lullabyoflshara_tex	True
+801202	Stun	Stun	False	swch	26000	0	5	Ishara's Lullaby III			Sleep comfortably. Ends immediately if you are hit.	icon_skills.lullabyoflshara_tex	icon_skills.lullabyoflshara_tex	True
 801300	Ballance	Buff	True	perc	5000	0	2	Arise I			Increases balance by $H_W_GOOD100%$COLOR_END.	icon_skills.recovery_tex	icon_skills.recovery_tex	True
 801301	Ballance	Buff	True	perc	5000	0	2	Arise II			Increases balance by $H_W_GOOD100%$COLOR_END.	icon_skills.recovery_tex	icon_skills.recovery_tex	True
 801400	HPChange	Buff	True	abs	5000	1	575	Restorative Burst I			Recovers HP by $calcValue(heal,51,575,0) every $H_W_GOOD1s$COLOR_END.	icon_skills.sanctuaryofregeneration_tex	icon_skills.sanctuaryofregeneration_tex	True
@@ -5061,7 +5064,7 @@
 981028	MovSpd	Buff	True	perc	30000	0	0.26	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 981028	MovSpdInCombat	Buff	True	perc	30000	0	0.26	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 981028	DelayedEffect	Buff	True	abs	30000	0	981131	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
-981028	Absorb	Buff	True	abs	30000	0	24000000	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+981028	Absorb	Buff	True	abs	30000	0	125000000	Dark Shield			Dakuryon is protected by blood magic.	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 981029	MovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 981029	MovSpdInCombat	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
 981029	OutOfCombatMovSpd	Debuff	True	setp	30000	0	0	Dark Clutches			Stunned.	icon_status.staminadown_tex	icon_status.staminadown_tex	True
@@ -5114,7 +5117,7 @@
 981088	StackCounter	Debuff	True	swch	90000	0	981083	Imperator's Stare			Dakuryon is staring at you.	icon_skills.markingofarcher_tex	icon_skills.markingofarcher_tex	True
 981089	Power	Buff	False	perc	990000000	0	1.03	Unstable Mana			Increases damage and Attack Speed.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
 981089	ASpd	Buff	False	perc	990000000	0	1.03	Unstable Mana			Increases damage and Attack Speed.	icon_status.darkriftarearage_tex	icon_status.darkriftarearage_tex	True
-981090	Absorb	Buff	True	abs	6000000	0	54172800	Internal Shield			Lakan creates a shield.	icon_status.balanceup_tex	icon_status.balanceup_tex	True
+981090	Absorb	Buff	True	abs	6000000	0	175695466	Internal Shield			Lakan creates a shield.	icon_status.balanceup_tex	icon_status.balanceup_tex	True
 981093	HPChange	Debuff	False	perc	30000	2	-0.3	Lakan's Curse			Reduces HP by 30% per second.	icon_status.blooduanty_tex	icon_status.blooduanty_tex	True
 981094	DelayedEffect	Buff	True	swch	6000	0	981090	Out of Phase			Lakan has partially teleported into another dimension. Can be removed.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex	True
 981095	Plague	Buff	True	setp	120000	1	981093	Bitter Tears			Lakan is empowered by your misfortune.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex	True
@@ -5331,6 +5334,8 @@
 3012020	Endurance	Debuff	False	perc	0	0	0.88	[Training Ground] Debilitate			Decreases Endurance by $H_W_BAD12%$COLOR_END. In PvP, also decreases the effect of healing skills on you by $H_W_BAD30%$COLOR_END at any number of stacks.	icon_skills.armorbreak_tex	icon_skills.armorbreak_tex	True
 3012021	Endurance	Debuff	False	perc	0	0	0.9	[Training Ground] Endurance Decrease			Decreases Endurance by $H_W_BAD10%$COLOR_END.	icon_crest.crestactivedefencedown_tex	icon_crest.crestactivedefencedown_tex	True
 3012022	CritResist	Debuff	False	abs	0	0	-12	[Training Ground] Crit Resist Decrease			Decreases Crit Resist by $H_W_BAD-12$COLOR_END.	icon_ep.ep_special_load_tex	icon_ep.ep_special_load_tex	True
+3012032	ASpd	Buff	True	perc	27000	0	1.117	[Training Ground] Traverse Cut			Increases attack speed by 11.7%.	icon_status.dualrapidpiercingtank_tex	icon_status.dualrapidpiercingtank_tex	True
+3012035	0	Debuff	True	swch	60000	0	0	[Training Ground] Burn Timer			Powerful buffs activates when the timer expires. Use this to synchronize with the strongest buffs.	icon_items.q_watch_tex	icon_items.q_watch_tex	True
 3036001	HPLoss	Debuff	False	abs	1000	0	-10000000	Irresistible Fear			Dark Aura can be stacked 10 times. $H_W_BADIrresistible Fear$COLOR_END grips you.	icon_status.fearstatus_tex	icon_status.fearstatus_tex	True
 3036002	Endurance	Debuff	True	perc	600000	0	0.3	Dark Terror			Darkan carefully observes you since you haven’t been hit by the darkness. Decreases defense by 70%.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
 3036002	Aggro	Debuff	True	perc	600000	0	10	Dark Terror			Darkan carefully observes you since you haven’t been hit by the darkness. Decreases defense by 70%.	icon_status.darkriftrage_tex	icon_status.darkriftrage_tex	True
@@ -5342,6 +5347,10 @@
 3036035	ASpd	DOT	False	perc	1000	0	1	Scorched Scar			Drains $H_W_BAD10%$COLOR_END of your total HP every $H_W_BAD1s$COLOR_END until the effect is removed.	icon_crest.crestactiveattackspeeddown_tex	icon_crest.crestactiveattackspeeddown_tex	False
 4440000	StackCounter	Debuff	True	swch	10000	0	4440001	Intense Cold			You are overwhelmed by intense cold. You will die if stacked twice.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
 4440001	HPLoss	Debuff	True	abs	1000	1	-10000000	Intense Cold			You are overwhelmed by intense cold. You will die if stacked twice.	icon_status.icedamage_tex	icon_status.icedamage_tex	False
+4440008	0	Debuff	True	swch	0	0	0	Attacker			Grants Back damage from any position while active. Applies only to DPS and Healers.	icon_skills.btpet_attack_tex	icon_skills.btpet_attack_tex	True
+4440009	0	Debuff	True	swch	0	0	0	Defender			Grants Frontal damage from any position while active. Applies only to Lancer, Warrior Tank and Brawler Tank.	icon_skills.manashield2_tex	icon_skills.manashield2_tex	True
+4440010	0	Debuff	True	swch	0	0	0	Defender			Grants Frontal damage from any position while active. Applies only to Lancer, Warrior Tank and Brawler Tank.	icon_skills.manashield2_tex	icon_skills.manashield2_tex	True
+4440011	0	Debuff	True	swch	0	0	0	Defender			Grants Frontal damage from any position while active. Applies only to Lancer, Warrior Tank and Brawler Tank.	icon_skills.manashield2_tex	icon_skills.manashield2_tex	True
 4510004	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	Solar Orb			Increases noncombat Movement Speed by $H_W_GOOD15$COLOR_END.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510005	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	Solar Orb			Increases noncombat Movement Speed by $H_W_GOOD15$COLOR_END.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
 4510006	OutOfCombatMovSpd	Buff	True	abs	600000	0	15	Solar Orb			Increases noncombat Movement Speed by $H_W_GOOD15$COLOR_END.	icon_items.orb_of_luck_tex	icon_items.orb_of_luck_tex	True
@@ -5586,7 +5595,7 @@
 7691000	HPChange	Debuff	True	abs	12000	2	-10000	Corruption Ring			You are stunned, and receive $H_W_BAD10,000$COLOR_END fixed damage $H_W_BADevery 2 seconds$COLOR_END.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 7691000	Stun	Debuff	True	swch	12000	0	5	Corruption Ring			You are stunned, and receive $H_W_BAD10,000$COLOR_END fixed damage $H_W_BADevery 2 seconds$COLOR_END.	icon_status.minusfocus_tex	icon_status.minusfocus_tex	True
 7691001	DelayedEffect	Buff	True	swch	10000	0	7691002	Shield			Lilith absorbs damage while absorbing essence.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
-7691001	Absorb	Buff	True	abs	10000	0	17500000	Shield			Lilith absorbs damage while absorbing essence.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
+7691001	Absorb	Buff	True	abs	10000	0	33333333	Shield			Lilith absorbs damage while absorbing essence.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	True
 7691002	MovSpd	Buff	True	perc	4000	0	1	Shield			Lilith absorbs damage while absorbing essence.	icon_status.immunedebuff_tex	icon_status.immunedebuff_tex	False
 7691006	Stun	Stun	True	swch	15000	0	5	Lethargy			You are drained of strength and cannot do anything.	icon_skills.stoneshape_tex	icon_skills.stoneshape_tex	True
 7691007	Power	Buff	True	perc	600000	0	1.1	Fiery Rage			Lilith absorbs the essence and increases her Attack by $H_W_GOOD10%$COLOR_END.	icon_status.plusattack_tex	icon_status.plusattack_tex	True
@@ -9476,7 +9485,7 @@
 90340705	HPChange	DOT	True	perc	200000	1	-0.03	Stare			Lakan is staring at you. Reduces HP by $H_W_BAD3%$COLOR_END of maximum every $H_W_BAD1s$COLOR_END.	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex	True
 90340705	StackCounter	DOT	True	seta	200000	0	90340715	Stare			Lakan is staring at you. Reduces HP by $H_W_BAD3%$COLOR_END of maximum every $H_W_BAD1s$COLOR_END.	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex	True
 90340706	DelayedEffect	Buff	True	swch	2500	0	90340707	Out of Phase			Lakan has partially teleported into another dimension. Can be removed.	icon_skills.selfbuff_tex	icon_skills.selfbuff_tex	True
-90340707	Absorb	Buff	True	abs	6000000	0	70000000	Internal Shield			Lakan creates a shield.	icon_status.balanceup_tex	icon_status.balanceup_tex	True
+90340707	Absorb	Buff	True	abs	6000000	0	116666667	Internal Shield			Lakan creates a shield.	icon_status.balanceup_tex	icon_status.balanceup_tex	True
 90340708	AllResist	Buff	True	perc	2500	0	3.87E-09	Energy Concentration			Lakan is concentrating his energy. A stun attack will stop him!	icon_status.windtyrant_tex	icon_status.windtyrant_tex	True
 90340715	HPLoss	Debuff	False	abs	1000	0	-50000000	Stare			Lakan is staring at you. Reduces HP by $H_W_BAD3%$COLOR_END of maximum every $H_W_BAD1s$COLOR_END.	icon_items.q_animaleyeball_tex	icon_items.q_animaleyeball_tex	False
 90340722	Drunk	Debuff	False	781003	0	0	0	Lakan's Soul World			Entered Lakan's Soul World.	icon_socials.social_010_tex	icon_socials.social_010_tex	True
@@ -9691,6 +9700,8 @@
 91900101	CritPower	Buff	True	abs	0	0	1.42	Fraywind Nostrum			- Increases Power by $H_W_GOOD27%$COLOR_END,<br>- Increases Endurance by $H_W_GOOD20%$COLOR_END,<br>- Increases Crit Power by $H_W_GOOD1.00$COLOR_END.	icon_items.griffon_potion_level_60_tex	icon_items.griffon_potion_level_60_tex	True
 91900104	KnockDownChance	Buff	True	perc	3500	0	0	Rallying Cry			You and others around you are immune to knockdown and stagger.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
 91900104	StatusImmune	Buff	True	swch	3500	0	0	Rallying Cry			You and others around you are immune to knockdown and stagger.	icon_skills.holdtheline_tex	icon_skills.holdtheline_tex	True
+91900115	AtkPotion	Buff	True	perc	30000	0	1.2	Infuriated			Increases PvP damage by 20%	icon_skills.fury_tex	icon_skills.fury_tex	True
+91900116	AtkPotion	Buff	True	perc	22000	0	1.2	Gust			Increases skill damage against players by 20%.	icon_status.darkriftareawind_tex	icon_status.darkriftareawind_tex	True
 91900200	MovSpd	Buff	True	perc	15000	0	1.3	Christmas wind			You have additional speed.	icon_status.lightweight_tex	icon_status.lightweight_tex	True
 91900201	AllowAggro	Buff	True	swch	10000	0	0	Christmas Eve			You have ability to steal some gifts.	icon_skills.seduction_tex	icon_skills.seduction_tex	True
 91900201	Visibility	Buff	True	swch	10000	0	0	Christmas Eve			You have ability to steal some gifts.	icon_skills.seduction_tex	icon_skills.seduction_tex	True
@@ -9853,8 +9864,8 @@
 97501300	HPChange	DOT	False	perc	10000	1	-0.005	Curse of Kelsaik			Increases Power by $H_W_GOOD200%$COLOR_END, but reduces HP by $H_W_BAD0.5%$COLOR_END of maximum every $H_W_BAD1s$COLOR_END. The effect stacks up to 99 times.	icon_status.diseaseup_tex	icon_status.diseaseup_tex	True
 97501400	HPChange	DOT	False	perc	120000	2	-0.07	Flame of Hell			Reduces HP by H_W_BAD7%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRCan be removed only with Doomfire or Doomchill.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
 97501400	HPLoss	DOT	False	abs	120000	0	-10000000	Flame of Hell			Reduces HP by H_W_BAD7%$COLOR_END of maximum every $H_W_BAD2s$COLOR_END. Target dies when effect ends.$BRCan be removed only with Doomfire or Doomchill.	icon_status.poisonstatus_tex	icon_status.poisonstatus_tex	True
-97501500	DelayedEffect	Buff	True	abs	12000	0	975150	Armor of Doom			Absorbs up to $H_W_GOOD3000000$COLOR_END damage. If you can't destroy it in time, all PCs die and Kelsaik will be rampant!	icon_skills.manashield_tex	icon_skills.manashield_tex	True
-97501500	Absorb	Buff	True	abs	12000	0	3000000	Armor of Doom			Absorbs up to $H_W_GOOD3000000$COLOR_END damage. If you can't destroy it in time, all PCs die and Kelsaik will be rampant!	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+97501500	DelayedEffect	Buff	True	abs	12000	0	975150	Armor of Doom			Absorbs up to $H_W_GOOD166666666$COLOR_END damage. If you can't destroy it in time, all PCs die and Kelsaik will be rampant!	icon_skills.manashield_tex	icon_skills.manashield_tex	True
+97501500	Absorb	Buff	True	abs	12000	0	166666666	Armor of Doom			Absorbs up to $H_W_GOOD166666666$COLOR_END damage. If you can't destroy it in time, all PCs die and Kelsaik will be rampant!	icon_skills.manashield_tex	icon_skills.manashield_tex	True
 97502100	Power	Buff	True	perc	64800000	0	1.3	Kelsaik's Splendor			Increases Power by $H_W_GOOD30%$COLOR_END. Can be stacked 99 times.	icon_status.damageup_tex	icon_status.damageup_tex	True
 97502200	Endurance	Buff	True	perc	3600000	0	4	Kelsaik's Protection			Increases Endurance by $H_W_GOOD4 times$COLOR_END. Kelsaik's Protection cannot be removed.	icon_status.plusedefence_tex	icon_status.plusedefence_tex	True
 97502400	Drunk1	Debuff	False	abs	60000	0	0	Enslavement			You have turned against your allies.	icon_status.cruel_slayer_1_tex	icon_status.cruel_slayer_1_tex	True
