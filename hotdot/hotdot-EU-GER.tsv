@@ -4009,7 +4009,7 @@
 702004	Power	Buff	True	abs	20000	0	20	Leibeigener des Zorns II			Increases Crit Power by $calcValue(multiple,19,0,4) times.$BREnds when knocked down.	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack2_tex	True
 702004	CritPower	Buff	True	abs	20000	0	0.45	Leibeigener des Zorns II			Increases Crit Power by $calcValue(multiple,19,0,4) times.$BREnds when knocked down.	icon_skills.summonspiritofattack_tex	icon_skills.summonspiritofattack2_tex	True
 702005	330	Buff	True	swch	1000	0	0	Elementalize			Increases Movement Speed by 10. Costs 200 MP every 2 seconds. Effect varies per summoned Thrall.	icon_skills.spiritedness_tex	icon_skills.spiritedness_tex	False
-702012	MovSpd	Buff	True	abs	2000	0	0	Arun's Breath			While in effect, <font color = '#66bbff'>recovers</font> additional 0 HP when hit by Titanic Favor or Boomerang Pulse.	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
+702012	MovSpd	Buff	True	abs	2000	0	0	Arun's Breath			While in effect, <font color = '#66bbff'>recovers</font> an additional 900 HP when hit by Titanic Favor or Boomerang Pulse. The final value is affected by healing modifiers.	icon_skills.energiesofprotection_tex	icon_skills.energiesofprotection_tex	True
 702200	IncreasedHeal	Buff	True	perc	3000	1	1.15	Heilungsverstärkung			Der Effekt von Heilungsverstärkung erhöht die LP-Regeneration vorübergehend um 15%.	icon_skills.healshot_tex	icon_skills.healshot_tex	True
 702201	AtkPotion	Debuff	False	perc	3000	1	0.925	Gefallen der Titanen X			Der Effekt von Untergang verringert die Angriffsstärke vorübergehend um 7,5%.	icon_skills.healshot_tex	icon_skills.healshot_tex	True
 702202	AtkPotion	Debuff	False	perc	5000	1	0.85	Vampirimpuls			Der Effekt von Untergang wird verstärkt. Die Angriffsstärke wird vorübergehend um 15% verringert.	icon_skills.mysticorb_tex	icon_skills.healshot_tex	True
@@ -5669,7 +5669,7 @@
 7943034	MovSpd	Buff	True	perc	0	0	10	Eilgang			Die Bewegungsgeschwindigkeit des Goblins wurde enorm erhöht.	icon_status.plusmove_tex	icon_status.plusmove_tex	True
 7943034	MovSpdInCombat	Buff	True	perc	0	0	10	Eilgang			Die Bewegungsgeschwindigkeit des Goblins wurde enorm erhöht.	icon_status.plusmove_tex	icon_status.plusmove_tex	True
 7943040	NoHeal	Debuff	True	seta	10000	0	0	Infektion - Heilung nicht möglich			Ihr wurdet vom Goblin infiziert und könnt Euch nicht heilen.	icon_status.poisondown_tex	icon_status.poisondown_tex	True
-7943042	Stun	Stun	False	swch	5000	0	5	Infektion - Betäubung			Ihr wurdet vom Goblin infiziert und könnt Euch nicht bewegen.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
+7943042	Stun	Stun	False	swch	3000	0	5	Infektion - Betäubung			Ihr wurdet vom Goblin infiziert und könnt Euch nicht bewegen.	icon_status.confuseup_tex	icon_status.confuseup_tex	True
 7943045	Drunk1	Debuff	True	seta	0	0	0	Kalte Energie			Eine kalte Energie umgibt Euch. Wenn die zusammengefügte Energie nicht geheizt wird, könntet Ihr Schaden erleiden.	icon_status.icedamage_tex	icon_status.icedamage_tex	True
 7943046	Drunk1	Debuff	True	seta	0	0	0	Heiße Energie			Eine heiße Energie umgibt Euch. Wenn die zusammengefügte Energie nicht gekühlt wird, könntet Ihr Schaden erleiden.	icon_status.firedamage_tex	icon_status.firedamage_tex	True
 8000000	XPBoost	Buff	True	perc	18000000	1	1.3	Trank der Jagd (5 Std.)	139019	Trank der Jagd (5 Std.)	Erhöht 5 Std. lang (Spielzeit) die durch die Jagd erzielten EP um 30%.	icon_items.f2p_xpbooster_tex	icon_items.f2p_xpbooster_tex	True
